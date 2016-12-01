@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['g_5fnt',['G_nT',['../classogdf_1_1_embedder_min_depth_pi_ta.html#a886494d3a43c5edc170a995b9cc2e92d',1,'ogdf::EmbedderMinDepthPiTa']]],
+  ['gamma_5fadjext_5fnt',['Gamma_adjExt_nT',['../classogdf_1_1_embedder_min_depth_pi_ta.html#a242561b3d8504a71620bb25ab1b854f8',1,'ogdf::EmbedderMinDepthPiTa']]],
+  ['garbage_5ffrac',['garbage_frac',['../class_minisat_1_1_internal_1_1_solver.html#aa07787e5e87d24887f33c723221049a5',1,'Minisat::Internal::Solver']]],
+  ['gennonliftcons_5f',['genNonLiftCons_',['../classabacus_1_1_sub.html#aa35b65e53b38f697bf162f053ac403f8',1,'abacus::Sub']]],
+  ['glob_5f',['glob_',['../classabacus_1_1_f_s_var_stat.html#a9db9aa696fe9cef853c06a156c143701',1,'abacus::FSVarStat::glob_()'],['../classabacus_1_1_spar_vec.html#a047c9d752526e86d3534b78073a512d2',1,'abacus::SparVec::glob_()']]],
+  ['globalarrayx',['globalArrayX',['../classogdf_1_1_collect_force_functor.html#a12b95efa3118c121e852d1b67d96fdaa',1,'ogdf::CollectForceFunctor']]],
+  ['globalarrayy',['globalArrayY',['../classogdf_1_1_collect_force_functor.html#adb725c08c4972cc01a2c3dc26b402fbf',1,'ogdf::CollectForceFunctor']]],
+  ['globalcontext',['globalContext',['../classogdf_1_1_collect_force_functor.html#ae14821296e094c05b8d2f7d7f69c5ef9',1,'ogdf::CollectForceFunctor']]],
+  ['globaldualbound',['globalDualBound',['../classogdf_1_1_c_p___master_base.html#ab523446f245e3dd92a9cba59556692bc',1,'ogdf::CP_MasterBase::globalDualBound()'],['../classogdf_1_1_max_c_planar_master.html#ae988979054f1348b5f0dc3435b67d867',1,'ogdf::MaxCPlanarMaster::globalDualBound()']]],
+  ['globalforcex',['globalForceX',['../structogdf_1_1_f_m_e_global_context.html#a3414f6715ab1d1c174c69a26f8e2c967',1,'ogdf::FMEGlobalContext']]],
+  ['globalforcey',['globalForceY',['../structogdf_1_1_f_m_e_global_context.html#aa58543e97e9cc9f186a5002ef6123552',1,'ogdf::FMEGlobalContext']]],
+  ['globalprimalbound',['globalPrimalBound',['../classogdf_1_1_c_p___master_base.html#ad3c2f56ecc535bcaa6bab1aa5f106374',1,'ogdf::CP_MasterBase::globalPrimalBound()'],['../classogdf_1_1_max_c_planar_master.html#acff696786549dbfa35fcd93d6a1b8c09',1,'ogdf::MaxCPlanarMaster::globalPrimalBound()']]],
+  ['graph_5fptr',['Graph_ptr',['../classogdf_1_1energybased_1_1_edge.html#aa8c8f79240fd3271ae6ea5f61bc56c42',1,'ogdf::energybased::Edge']]],
+  ['green',['green',['../classogdf_1_1_sim_draw_colorizer_1_1_sim_draw_color_scheme.html#a9b5851c486d5113e4e796bb53da4ab3e',1,'ogdf::SimDrawColorizer::SimDrawColorScheme']]],
+  ['grow',['grow',['../class_minisat_1_1_internal_1_1_simp_solver.html#aa44f632007911ae6cd4746d68c736e86',1,'Minisat::Internal::SimpSolver']]],
+  ['growable',['growable',['../classogdf_1_1_array_buffer.html#aac248023d6756920611ab3df161ea9c7',1,'ogdf::ArrayBuffer']]]
+];

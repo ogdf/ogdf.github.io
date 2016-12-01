@@ -1,0 +1,25 @@
+var classogdf_1_1_galaxy_level =
+[
+    [ "GalaxyLevel", "classogdf_1_1_galaxy_level.html#a5e51e612f4ce096b0c8a496549b565d6", null ],
+    [ "~GalaxyLevel", "classogdf_1_1_galaxy_level.html#a4cdc89d92243414a79bda664cb1c8553", null ],
+    [ "GalaxyLevel", "classogdf_1_1_galaxy_level.html#a2b1556c004ed8054d93dc062309464b0", null ],
+    [ "buildLevelsUntil", "classogdf_1_1_galaxy_level.html#a7127fa1fb315f5c9b01a0dac76568ba8", null ],
+    [ "buildNextCoarserLevel", "classogdf_1_1_galaxy_level.html#af5dbdcba5991271fb98a43b87b913ee9", null ],
+    [ "edgeWeight", "classogdf_1_1_galaxy_level.html#a7b2dc6528319a30eeed020da235538d5", null ],
+    [ "graph", "classogdf_1_1_galaxy_level.html#a76341dd4b65daabb42d1109aa2ce94c8", null ],
+    [ "isCoarsestLevel", "classogdf_1_1_galaxy_level.html#aba6eb37fc0fe24ef3f7282452e45ace8", null ],
+    [ "isFinestLevel", "classogdf_1_1_galaxy_level.html#ac9bf64338da0f5f25c171ba0afd315e6", null ],
+    [ "nextCoarser", "classogdf_1_1_galaxy_level.html#aed9930212fc92cc910bfdbde4b9521c5", null ],
+    [ "nextFiner", "classogdf_1_1_galaxy_level.html#ab1592991d0de00943236f5f42ecba9ad", null ],
+    [ "parent", "classogdf_1_1_galaxy_level.html#af1fc47212a856677f4ab3a9f4ea447bb", null ],
+    [ "removeParEdgesWithWeight", "classogdf_1_1_galaxy_level.html#a4b053ed03d5224744b12e5594019295c", null ],
+    [ "setEdgeWeight", "classogdf_1_1_galaxy_level.html#a09855999b01379cdb80b2d9aa853c99f", null ],
+    [ "setWeight", "classogdf_1_1_galaxy_level.html#a179cf57bcf12b6d7f489e46353b72488", null ],
+    [ "weight", "classogdf_1_1_galaxy_level.html#aebec9c8476113e5eacda5e4dddc0e57a", null ],
+    [ "m_edgeWeight", "classogdf_1_1_galaxy_level.html#a6c839c6d74bf5c275e0511996111d774", null ],
+    [ "m_nodeWeight", "classogdf_1_1_galaxy_level.html#abc380cc78a55667c0637d3c9f5f977ff", null ],
+    [ "m_parent", "classogdf_1_1_galaxy_level.html#a2325e5237874405d5f23be65bfa7c823", null ],
+    [ "m_pGraph", "classogdf_1_1_galaxy_level.html#a141d523847c9070de30b63075fc53f8e", null ],
+    [ "m_pNextCoarser", "classogdf_1_1_galaxy_level.html#a55e1f593ff90915c94b1e08caf7a3858", null ],
+    [ "m_pNextFiner", "classogdf_1_1_galaxy_level.html#a3c3a6853b97737ce4d85a025309737d8", null ]
+];

@@ -1,0 +1,7 @@
+var structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_empty_arg_type_00_01_empty_b460f8838f398fe819bad982f70e435a =
+[
+    [ "FuncInvoker", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_empty_arg_type_00_01_empty_b460f8838f398fe819bad982f70e435a.html#a9cef8d1df8e53f5a89f19470c5ea7d2d", null ],
+    [ "operator()", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_empty_arg_type_00_01_empty_b460f8838f398fe819bad982f70e435a.html#a80dd91a535c4d217c495fe5c719124fe", null ],
+    [ "arg1", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_empty_arg_type_00_01_empty_b460f8838f398fe819bad982f70e435a.html#a8d37ac85bb3199fbeed85327545d99f8", null ],
+    [ "function", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_empty_arg_type_00_01_empty_b460f8838f398fe819bad982f70e435a.html#a9c563493d10197dfa92a68651e3d7432", null ]
+];
