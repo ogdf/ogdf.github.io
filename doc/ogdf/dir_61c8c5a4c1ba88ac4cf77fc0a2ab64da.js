@@ -1,0 +1,27 @@
+var dir_61c8c5a4c1ba88ac4cf77fc0a2ab64da =
+[
+    [ "BarycenterHeuristic.h", "_barycenter_heuristic_8h.html", "_barycenter_heuristic_8h" ],
+    [ "BlockOrder.h", "_block_order_8h.html", "_block_order_8h" ],
+    [ "CoffmanGrahamRanking.h", "_coffman_graham_ranking_8h.html", "_coffman_graham_ranking_8h" ],
+    [ "CrossingMinInterfaces.h", "_crossing_min_interfaces_8h.html", "_crossing_min_interfaces_8h" ],
+    [ "CrossingsMatrix.h", "_crossings_matrix_8h.html", "_crossings_matrix_8h" ],
+    [ "DfsAcyclicSubgraph.h", "_dfs_acyclic_subgraph_8h.html", "_dfs_acyclic_subgraph_8h" ],
+    [ "ExtendedNestingGraph.h", "_extended_nesting_graph_8h.html", "_extended_nesting_graph_8h" ],
+    [ "FastHierarchyLayout.h", "_fast_hierarchy_layout_8h.html", "_fast_hierarchy_layout_8h" ],
+    [ "FastSimpleHierarchyLayout.h", "_fast_simple_hierarchy_layout_8h.html", "_fast_simple_hierarchy_layout_8h" ],
+    [ "GreedyCycleRemoval.h", "_greedy_cycle_removal_8h.html", "_greedy_cycle_removal_8h" ],
+    [ "GreedyInsertHeuristic.h", "_greedy_insert_heuristic_8h.html", "_greedy_insert_heuristic_8h" ],
+    [ "GreedySwitchHeuristic.h", "_greedy_switch_heuristic_8h.html", "_greedy_switch_heuristic_8h" ],
+    [ "GridSifting.h", "_grid_sifting_8h.html", "_grid_sifting_8h" ],
+    [ "Hierarchy.h", "_hierarchy_8h.html", "_hierarchy_8h" ],
+    [ "HierarchyLevels.h", "_hierarchy_levels_8h.html", "_hierarchy_levels_8h" ],
+    [ "Level.h", "_level_8h.html", "_level_8h" ],
+    [ "LongestPathRanking.h", "_longest_path_ranking_8h.html", "_longest_path_ranking_8h" ],
+    [ "MedianHeuristic.h", "_median_heuristic_8h.html", "_median_heuristic_8h" ],
+    [ "OptimalHierarchyClusterLayout.h", "_optimal_hierarchy_cluster_layout_8h.html", "_optimal_hierarchy_cluster_layout_8h" ],
+    [ "OptimalHierarchyLayout.h", "_optimal_hierarchy_layout_8h.html", "_optimal_hierarchy_layout_8h" ],
+    [ "OptimalRanking.h", "_optimal_ranking_8h.html", "_optimal_ranking_8h" ],
+    [ "SiftingHeuristic.h", "_sifting_heuristic_8h.html", "_sifting_heuristic_8h" ],
+    [ "SplitHeuristic.h", "_split_heuristic_8h.html", "_split_heuristic_8h" ],
+    [ "SugiyamaLayout.h", "_sugiyama_layout_8h.html", "_sugiyama_layout_8h" ]
+];

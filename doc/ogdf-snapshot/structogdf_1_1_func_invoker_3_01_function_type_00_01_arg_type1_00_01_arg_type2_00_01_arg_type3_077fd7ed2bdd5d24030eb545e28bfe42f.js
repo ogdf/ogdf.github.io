@@ -1,0 +1,10 @@
+var structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_077fd7ed2bdd5d24030eb545e28bfe42f =
+[
+    [ "FuncInvoker", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_077fd7ed2bdd5d24030eb545e28bfe42f.html#ab22fc55dde678e11f13db6b4b18e9465", null ],
+    [ "operator()", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_077fd7ed2bdd5d24030eb545e28bfe42f.html#a54342b7e28ee5d3c2cda3631b22a69c2", null ],
+    [ "arg1", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_077fd7ed2bdd5d24030eb545e28bfe42f.html#a10f5883fca5fc39d406b54b539525ba3", null ],
+    [ "arg2", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_077fd7ed2bdd5d24030eb545e28bfe42f.html#af2e8c1ef8e6cbad8c39dc26386c340de", null ],
+    [ "arg3", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_077fd7ed2bdd5d24030eb545e28bfe42f.html#a05d1e4d36e1f56e57aa3dc7560913990", null ],
+    [ "arg4", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_077fd7ed2bdd5d24030eb545e28bfe42f.html#a7d6d9b8a9453ee3e08b10f38d9fbb75a", null ],
+    [ "function", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_077fd7ed2bdd5d24030eb545e28bfe42f.html#a68c6c77362b9571b4c16100bde0f538d", null ]
+];
