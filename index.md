@@ -4,7 +4,7 @@ title: OGDF GitHub Pages
 ---
 # OGDF
 
-These are the GitHub Pages for OGDF, the Open Graph Drawing Framework.
+These are the GitHub Pages for OGDF, the *Open Graph Drawing Framework*.
 
 Important links:
 
