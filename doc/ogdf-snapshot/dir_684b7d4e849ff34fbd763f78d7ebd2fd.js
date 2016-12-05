@@ -13,11 +13,6 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "BoundedStack.h", "_bounded_stack_8h.html", "_bounded_stack_8h" ],
     [ "CombinatorialEmbedding.h", "_combinatorial_embedding_8h.html", "_combinatorial_embedding_8h" ],
     [ "comparer.h", "comparer_8h.html", "comparer_8h" ],
-    [ "Constraints.h", "_constraints_8h.html", [
-      [ "Constraint", "classogdf_1_1_constraint.html", "classogdf_1_1_constraint" ],
-      [ "ConstraintManager", "classogdf_1_1_constraint_manager.html", "classogdf_1_1_constraint_manager" ],
-      [ "GraphConstraints", "classogdf_1_1_graph_constraints.html", "classogdf_1_1_graph_constraints" ]
-    ] ],
     [ "DisjointSets.h", "_disjoint_sets_8h.html", "_disjoint_sets_8h" ],
     [ "DualGraph.h", "_dual_graph_8h.html", null ],
     [ "EdgeArray.h", "_edge_array_8h.html", [
@@ -53,6 +48,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
       [ "FaceArrayBase", "classogdf_1_1_face_array_base.html", "classogdf_1_1_face_array_base" ]
     ] ],
     [ "FaceSet.h", "_face_set_8h.html", null ],
+    [ "filesystem.h", "filesystem_8h.html", "filesystem_8h" ],
     [ "geometry.h", "geometry_8h.html", "geometry_8h" ],
     [ "GF2Solver.h", "_g_f2_solver_8h.html", [
       [ "GF2Solver", "classogdf_1_1_g_f2_solver.html", "classogdf_1_1_g_f2_solver" ],
@@ -118,9 +114,6 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "Module.h", "_module_8h.html", [
       [ "Module", "classogdf_1_1_module.html", "classogdf_1_1_module" ]
     ] ],
-    [ "ModuleOption.h", "_module_option_8h.html", [
-      [ "ModuleOption", "classogdf_1_1_module_option.html", "classogdf_1_1_module_option" ]
-    ] ],
     [ "NearestRectangleFinder.h", "_nearest_rectangle_finder_8h.html", [
       [ "NearestRectangleFinder", "classogdf_1_1_nearest_rectangle_finder.html", "classogdf_1_1_nearest_rectangle_finder" ],
       [ "PairRectDist", "structogdf_1_1_nearest_rectangle_finder_1_1_pair_rect_dist.html", "structogdf_1_1_nearest_rectangle_finder_1_1_pair_rect_dist" ],
@@ -153,6 +146,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
       [ "SortedSequenceIterator", "classogdf_1_1_sorted_sequence_iterator.html", "classogdf_1_1_sorted_sequence_iterator" ]
     ] ],
     [ "Stack.h", "_stack_8h.html", "_stack_8h" ],
+    [ "STNumbering.h", "_s_t_numbering_8h.html", "_s_t_numbering_8h" ],
     [ "Stopwatch.h", "_stopwatch_8h.html", [
       [ "StopwatchCPU", "classogdf_1_1_stopwatch_c_p_u.html", "classogdf_1_1_stopwatch_c_p_u" ],
       [ "StopwatchWallClock", "classogdf_1_1_stopwatch_wall_clock.html", "classogdf_1_1_stopwatch_wall_clock" ]

@@ -4,7 +4,6 @@ var classogdf_1_1_fast_multipole_embedder =
     [ "~FastMultipoleEmbedder", "classogdf_1_1_fast_multipole_embedder.html#a09ae482a109fb21d2d15bf56853c9fb1", null ],
     [ "allocate", "classogdf_1_1_fast_multipole_embedder.html#a8ccf1a05aac3ff1ffe0fdf1a53850972", null ],
     [ "call", "classogdf_1_1_fast_multipole_embedder.html#ac9b5aa4f97e71b5474b976fe005946e3", null ],
-    [ "call", "classogdf_1_1_fast_multipole_embedder.html#aa136e83440bba71ddaa94ed00431b615", null ],
     [ "call", "classogdf_1_1_fast_multipole_embedder.html#a31a9adb3a11dae1c382bdb1e6a1ea595", null ],
     [ "call", "classogdf_1_1_fast_multipole_embedder.html#a3c87735b84ed6a6c4235c101f0f48f73", null ],
     [ "deallocate", "classogdf_1_1_fast_multipole_embedder.html#a23770fcdb7941cc9549815c2bd531704", null ],

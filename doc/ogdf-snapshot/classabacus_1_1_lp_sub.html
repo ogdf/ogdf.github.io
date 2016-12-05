@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -141,14 +141,13 @@ $(document).ready(function(){initNavTree('classabacus_1_1_lp_sub.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classabacus_1_1_lp_sub.png" usemap="#abacus::LpSub_map" alt=""/>
-  <map id="abacus::LpSub_map" name="abacus::LpSub_map">
-<area href="classabacus_1_1_l_p.html" title="Linear programs. " alt="abacus::LP" shape="rect" coords="0,56,127,80"/>
-<area href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="abacus::AbacusRoot" shape="rect" coords="0,0,127,24"/>
-<area href="classabacus_1_1_lp_sub_osi.html" alt="abacus::LpSubOsi" shape="rect" coords="0,168,127,192"/>
+<div class="center"><img src="classabacus_1_1_lp_sub__inherit__graph.png" border="0" usemap="#abacus_1_1_lp_sub_inherit__map" alt="Inheritance graph"/></div>
+<map name="abacus_1_1_lp_sub_inherit__map" id="abacus_1_1_lp_sub_inherit__map">
+<area shape="rect" id="node4" href="classabacus_1_1_lp_sub_osi.html" title="abacus::LpSubOsi" alt="" coords="13,229,142,256"/>
+<area shape="rect" id="node2" href="classabacus_1_1_l_p.html" title="Linear programs. " alt="" coords="33,80,121,107"/>
+<area shape="rect" id="node3" href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,5,149,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -158,29 +157,29 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb54a2272dc0820577537d1039f7b013"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#adb54a2272dc0820577537d1039f7b013">~LpSub</a> ()</td></tr>
 <tr class="memdesc:adb54a2272dc0820577537d1039f7b013"><td class="mdescLeft">&#160;</td><td class="mdescRight">The destructor.  <a href="#adb54a2272dc0820577537d1039f7b013">More...</a><br /></td></tr>
 <tr class="separator:adb54a2272dc0820577537d1039f7b013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2156c7b16ab0a82e2d080495c6155a1b"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a2156c7b16ab0a82e2d080495c6155a1b">barXVal</a> (int i) const</td></tr>
-<tr class="memdesc:a2156c7b16ab0a82e2d080495c6155a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">We have to redefine the function <em>barXVal(i)</em> since variables may have been eliminated.  <a href="#a2156c7b16ab0a82e2d080495c6155a1b">More...</a><br /></td></tr>
-<tr class="separator:a2156c7b16ab0a82e2d080495c6155a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a783346adeba9021351b0bb0dbe5d96c8"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a783346adeba9021351b0bb0dbe5d96c8">getInfeas</a> (int &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a11f24729e0e0d4e5022933caeecb8d79">infeasCon</a>, int &amp;infeasVar, double *bInvRow) const</td></tr>
-<tr class="memdesc:a783346adeba9021351b0bb0dbe5d96c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called if the last linear program has been solved with the dual simplex method and is infeasible.  <a href="#a783346adeba9021351b0bb0dbe5d96c8">More...</a><br /></td></tr>
-<tr class="separator:a783346adeba9021351b0bb0dbe5d96c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b02c113fd56224ecf37ae190326ee0e"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a9b02c113fd56224ecf37ae190326ee0e">barXVal</a> (int i) const override</td></tr>
+<tr class="memdesc:a9b02c113fd56224ecf37ae190326ee0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">We have to redefine the function <em>barXVal(i)</em> since variables may have been eliminated.  <a href="#a9b02c113fd56224ecf37ae190326ee0e">More...</a><br /></td></tr>
+<tr class="separator:a9b02c113fd56224ecf37ae190326ee0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed43d10b1ae0cf35f51b15a8e4a904c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a3ed43d10b1ae0cf35f51b15a8e4a904c">getInfeas</a> (int &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a11f24729e0e0d4e5022933caeecb8d79">infeasCon</a>, int &amp;infeasVar, double *bInvRow) const override</td></tr>
+<tr class="memdesc:a3ed43d10b1ae0cf35f51b15a8e4a904c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called if the last linear program has been solved with the dual simplex method and is infeasible.  <a href="#a3ed43d10b1ae0cf35f51b15a8e4a904c">More...</a><br /></td></tr>
+<tr class="separator:a3ed43d10b1ae0cf35f51b15a8e4a904c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11f24729e0e0d4e5022933caeecb8d79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_infeas_con.html">InfeasCon</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a11f24729e0e0d4e5022933caeecb8d79">infeasCon</a> ()</td></tr>
 <tr class="memdesc:a11f24729e0e0d4e5022933caeecb8d79"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the buffer holding the infeasible constraints.  <a href="#a11f24729e0e0d4e5022933caeecb8d79">More...</a><br /></td></tr>
 <tr class="separator:a11f24729e0e0d4e5022933caeecb8d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a277df1f5984218c8c4db4b16a396880d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a277df1f5984218c8c4db4b16a396880d">infeasible</a> () const</td></tr>
-<tr class="separator:a277df1f5984218c8c4db4b16a396880d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ab670cf98ca5bfe9f116360545980bb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a9ab670cf98ca5bfe9f116360545980bb">infeasible</a> () const override</td></tr>
+<tr class="separator:a9ab670cf98ca5bfe9f116360545980bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4890302e69e6de68d3cba60dc1fa7858"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a4890302e69e6de68d3cba60dc1fa7858">lBound</a> (int i) const</td></tr>
 <tr class="memdesc:a4890302e69e6de68d3cba60dc1fa7858"><td class="mdescLeft">&#160;</td><td class="mdescRight">We have to redefine the function <em>lBound(i)</em> since variables may have been eliminated.  <a href="#a4890302e69e6de68d3cba60dc1fa7858">More...</a><br /></td></tr>
 <tr class="separator:a4890302e69e6de68d3cba60dc1fa7858"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fd41d8e3fa55f09ca6d1fa51f581e73"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a0fd41d8e3fa55f09ca6d1fa51f581e73">loadBasis</a> (<a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26136feb2521120a7c71e02e830af809">LPVARSTAT::STATUS</a> &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a7f8e1e955d5e52e7005fe4be011496d3">lpVarStat</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_slack_stat.html#a7aaac2c567af8d69a233ee04b7dc0bcb">SlackStat::STATUS</a> &gt; &amp;<a class="el" href="classabacus_1_1_l_p.html#a80cc53d882e8ec9a068b448e323f8601">slackStat</a>)</td></tr>
-<tr class="memdesc:a0fd41d8e3fa55f09ca6d1fa51f581e73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a new basis for the linear program.  <a href="#a0fd41d8e3fa55f09ca6d1fa51f581e73">More...</a><br /></td></tr>
-<tr class="separator:a0fd41d8e3fa55f09ca6d1fa51f581e73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f8e1e955d5e52e7005fe4be011496d3"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26136feb2521120a7c71e02e830af809">LPVARSTAT::STATUS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a7f8e1e955d5e52e7005fe4be011496d3">lpVarStat</a> (int i) const</td></tr>
-<tr class="memdesc:a7f8e1e955d5e52e7005fe4be011496d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the status of the variable in the linear program.  <a href="#a7f8e1e955d5e52e7005fe4be011496d3">More...</a><br /></td></tr>
-<tr class="separator:a7f8e1e955d5e52e7005fe4be011496d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad466e3474144a50555424430aee401d5"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#ad466e3474144a50555424430aee401d5">reco</a> (int i) const</td></tr>
-<tr class="memdesc:ad466e3474144a50555424430aee401d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">We define the reduced costs of eliminated variables as 0.  <a href="#ad466e3474144a50555424430aee401d5">More...</a><br /></td></tr>
-<tr class="separator:ad466e3474144a50555424430aee401d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ba5f30964fe277072ad7fd5490a6895"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a0ba5f30964fe277072ad7fd5490a6895">loadBasis</a> (<a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26136feb2521120a7c71e02e830af809">LPVARSTAT::STATUS</a> &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a7d484d209bd7d660ce9afa6b9aa9cfe0">lpVarStat</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_slack_stat.html#a7aaac2c567af8d69a233ee04b7dc0bcb">SlackStat::STATUS</a> &gt; &amp;<a class="el" href="classabacus_1_1_l_p.html#a80cc53d882e8ec9a068b448e323f8601">slackStat</a>) override</td></tr>
+<tr class="memdesc:a0ba5f30964fe277072ad7fd5490a6895"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads a new basis for the linear program.  <a href="#a0ba5f30964fe277072ad7fd5490a6895">More...</a><br /></td></tr>
+<tr class="separator:a0ba5f30964fe277072ad7fd5490a6895"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d484d209bd7d660ce9afa6b9aa9cfe0"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26136feb2521120a7c71e02e830af809">LPVARSTAT::STATUS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a7d484d209bd7d660ce9afa6b9aa9cfe0">lpVarStat</a> (int i) const override</td></tr>
+<tr class="memdesc:a7d484d209bd7d660ce9afa6b9aa9cfe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the status of the variable in the linear program.  <a href="#a7d484d209bd7d660ce9afa6b9aa9cfe0">More...</a><br /></td></tr>
+<tr class="separator:a7d484d209bd7d660ce9afa6b9aa9cfe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a746f6116ba7ffb5a409de6aefb1cfe16"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a746f6116ba7ffb5a409de6aefb1cfe16">reco</a> (int i) const override</td></tr>
+<tr class="memdesc:a746f6116ba7ffb5a409de6aefb1cfe16"><td class="mdescLeft">&#160;</td><td class="mdescRight">We define the reduced costs of eliminated variables as 0.  <a href="#a746f6116ba7ffb5a409de6aefb1cfe16">More...</a><br /></td></tr>
+<tr class="separator:a746f6116ba7ffb5a409de6aefb1cfe16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acdd0eac59e4439806a1e5c9aaf60f57b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classabacus_1_1_sub.html">Sub</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#acdd0eac59e4439806a1e5c9aaf60f57b">sub</a> () const</td></tr>
 <tr class="separator:acdd0eac59e4439806a1e5c9aaf60f57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41f769a29fcc0ed13ef656e08559f3e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#ab41f769a29fcc0ed13ef656e08559f3e">trueNCol</a> () const</td></tr>
@@ -192,12 +191,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a202897b7ba1812392cb31a340cdf111f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a202897b7ba1812392cb31a340cdf111f">uBound</a> (int i) const</td></tr>
 <tr class="memdesc:a202897b7ba1812392cb31a340cdf111f"><td class="mdescLeft">&#160;</td><td class="mdescRight">We have to redefine the function <em>uBound(i)</em> since variables may have been eliminated.  <a href="#a202897b7ba1812392cb31a340cdf111f">More...</a><br /></td></tr>
 <tr class="separator:a202897b7ba1812392cb31a340cdf111f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4bc2c472955050cf08f1625e4a30c4c"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#aa4bc2c472955050cf08f1625e4a30c4c">value</a> () const</td></tr>
-<tr class="memdesc:aa4bc2c472955050cf08f1625e4a30c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the objective function value of the linear program.  <a href="#aa4bc2c472955050cf08f1625e4a30c4c">More...</a><br /></td></tr>
-<tr class="separator:aa4bc2c472955050cf08f1625e4a30c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40e5ba75cda9e78646aa76293c33c264"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a40e5ba75cda9e78646aa76293c33c264">xVal</a> (int i) const</td></tr>
-<tr class="memdesc:a40e5ba75cda9e78646aa76293c33c264"><td class="mdescLeft">&#160;</td><td class="mdescRight">We have to redefine the function <em>xVal(i)</em> since variables may have been eliminated.  <a href="#a40e5ba75cda9e78646aa76293c33c264">More...</a><br /></td></tr>
-<tr class="separator:a40e5ba75cda9e78646aa76293c33c264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f4daffba142284a9521fdec6c4d308f"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a6f4daffba142284a9521fdec6c4d308f">value</a> () const override</td></tr>
+<tr class="memdesc:a6f4daffba142284a9521fdec6c4d308f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the objective function value of the linear program.  <a href="#a6f4daffba142284a9521fdec6c4d308f">More...</a><br /></td></tr>
+<tr class="separator:a6f4daffba142284a9521fdec6c4d308f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf8799cd11de31ed966b6568ec56f52"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#adbf8799cd11de31ed966b6568ec56f52">xVal</a> (int i) const override</td></tr>
+<tr class="memdesc:adbf8799cd11de31ed966b6568ec56f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">We have to redefine the function <em>xVal(i)</em> since variables may have been eliminated.  <a href="#adbf8799cd11de31ed966b6568ec56f52">More...</a><br /></td></tr>
+<tr class="separator:adbf8799cd11de31ed966b6568ec56f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classabacus_1_1_l_p"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classabacus_1_1_l_p')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classabacus_1_1_l_p.html">abacus::LP</a></td></tr>
 <tr class="memitem:a88c9fecae5520857eeafc75f355e96fc inherit pub_methods_classabacus_1_1_l_p"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_l_p.html#a88c9fecae5520857eeafc75f355e96fc">LP</a> (<a class="el" href="classabacus_1_1_master.html">Master</a> *master)</td></tr>
 <tr class="memdesc:a88c9fecae5520857eeafc75f355e96fc inherit pub_methods_classabacus_1_1_l_p"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a linear program.  <a href="classabacus_1_1_l_p.html#a88c9fecae5520857eeafc75f355e96fc">More...</a><br /></td></tr>
@@ -432,23 +431,23 @@ Protected Member Functions</h2></td></tr>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a8e16475a2e4dd4dc2ac04c1eac211a81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a8e16475a2e4dd4dc2ac04c1eac211a81">LpSub</a> (const <a class="el" href="classabacus_1_1_lp_sub.html">LpSub</a> &amp;<a class="el" href="classabacus_1_1_l_p.html#a17faeb4b7f9e400cdf8367b718d3de0e">rhs</a>)</td></tr>
 <tr class="separator:a8e16475a2e4dd4dc2ac04c1eac211a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07d42a33f333b703e9410d2b28d6f1d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a07d42a33f333b703e9410d2b28d6f1d1">addCons</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> *&gt; &amp;newCons)</td></tr>
+<tr class="memitem:a07d42a33f333b703e9410d2b28d6f1d1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a07d42a33f333b703e9410d2b28d6f1d1">addCons</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> *&gt; &amp;newCons)</td></tr>
 <tr class="memdesc:a07d42a33f333b703e9410d2b28d6f1d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds the constraints <em>newCons</em> to the linear program.  <a href="#a07d42a33f333b703e9410d2b28d6f1d1">More...</a><br /></td></tr>
 <tr class="separator:a07d42a33f333b703e9410d2b28d6f1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2dec4a8a4ce33b4c50937323bc37aabd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a2dec4a8a4ce33b4c50937323bc37aabd">addVars</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a> *&gt; &amp;vars, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_f_s_var_stat.html">FSVarStat</a> *&gt; &amp;fsVarStat, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; double &gt; &amp;lb, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; double &gt; &amp;ub)</td></tr>
 <tr class="separator:a2dec4a8a4ce33b4c50937323bc37aabd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb5158d8d00a36e85ef294fb135fdf4b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#acb5158d8d00a36e85ef294fb135fdf4b">changeLBound</a> (int i, double newLb)</td></tr>
-<tr class="memdesc:acb5158d8d00a36e85ef294fb135fdf4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the lower bound of variable <em>i</em> to <em>newLb</em>.  <a href="#acb5158d8d00a36e85ef294fb135fdf4b">More...</a><br /></td></tr>
-<tr class="separator:acb5158d8d00a36e85ef294fb135fdf4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ab5dcd35432e7743d7a862f126cf237"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a4ab5dcd35432e7743d7a862f126cf237">changeUBound</a> (int i, double newUb)</td></tr>
-<tr class="memdesc:a4ab5dcd35432e7743d7a862f126cf237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the upper bound of variable <em>i</em> to <em>newUb</em>.  <a href="#a4ab5dcd35432e7743d7a862f126cf237">More...</a><br /></td></tr>
-<tr class="separator:a4ab5dcd35432e7743d7a862f126cf237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af443dcd55d0b0774822985c0151211d9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#af443dcd55d0b0774822985c0151211d9">changeLBound</a> (int i, double newLb) override</td></tr>
+<tr class="memdesc:af443dcd55d0b0774822985c0151211d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the lower bound of variable <em>i</em> to <em>newLb</em>.  <a href="#af443dcd55d0b0774822985c0151211d9">More...</a><br /></td></tr>
+<tr class="separator:af443dcd55d0b0774822985c0151211d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87878d0b9e5606f7d6f80bac63427ef8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a87878d0b9e5606f7d6f80bac63427ef8">changeUBound</a> (int i, double newUb) override</td></tr>
+<tr class="memdesc:a87878d0b9e5606f7d6f80bac63427ef8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the upper bound of variable <em>i</em> to <em>newUb</em>.  <a href="#a87878d0b9e5606f7d6f80bac63427ef8">More...</a><br /></td></tr>
+<tr class="separator:a87878d0b9e5606f7d6f80bac63427ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0bcecba625f783baf9314f4c6ea88fa9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a0bcecba625f783baf9314f4c6ea88fa9">colRealloc</a> (int newSize)</td></tr>
 <tr class="separator:a0bcecba625f783baf9314f4c6ea88fa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7556c8bfe2b98c1f85ea099c52aca2d7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a7556c8bfe2b98c1f85ea099c52aca2d7">conRealloc</a> (int newSize)</td></tr>
 <tr class="memdesc:a7556c8bfe2b98c1f85ea099c52aca2d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximal number of constraints to <em>newSize</em>.  <a href="#a7556c8bfe2b98c1f85ea099c52aca2d7">More...</a><br /></td></tr>
 <tr class="separator:a7556c8bfe2b98c1f85ea099c52aca2d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93742d3f8c38996b0235e017e3b90799"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a93742d3f8c38996b0235e017e3b90799">constraint2row</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> *&gt; &amp;newCons, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_row.html">Row</a> *&gt; &amp;newRows)</td></tr>
+<tr class="memitem:a93742d3f8c38996b0235e017e3b90799"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a93742d3f8c38996b0235e017e3b90799">constraint2row</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> *&gt; &amp;newCons, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_row.html">Row</a> *&gt; &amp;newRows)</td></tr>
 <tr class="memdesc:a93742d3f8c38996b0235e017e3b90799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the row format of the constraint <em>cons</em> and stores it in <em>rows</em>.  <a href="#a93742d3f8c38996b0235e017e3b90799">More...</a><br /></td></tr>
 <tr class="separator:a93742d3f8c38996b0235e017e3b90799"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8387be8ad1751423881afe84235bc611"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a8387be8ad1751423881afe84235bc611">eliminable</a> (int i) const</td></tr>
@@ -465,7 +464,7 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a1a9d885a46af34e37776bb5f02f76117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee0655b6fc4e6d40b5ddff4ab55d76d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#aee0655b6fc4e6d40b5ddff4ab55d76d4">initialize</a> (<a class="el" href="classabacus_1_1_opt_sense.html">OptSense</a> <a class="el" href="classabacus_1_1_l_p.html#a7184374cd10742c38f26164757eacc2d">sense</a>, int <a class="el" href="classabacus_1_1_l_p.html#ab7da9ce19af761f5f802291b5074c5db">nRow</a>, int <a class="el" href="classabacus_1_1_l_p.html#a24baf164e9e3d2c88afc73ef3dfebdc2">maxRow</a>, int <a class="el" href="classabacus_1_1_lp_sub.html#acd0ce19c5e3f10cf06dc2cecee299cfb">nCol</a>, int <a class="el" href="classabacus_1_1_lp_sub.html#a8bf66b3ec06befe3f33b34f05fb05986">maxCol</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a6ae40e467d3956b2243d510f4214849c">obj</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a4890302e69e6de68d3cba60dc1fa7858">lBound</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a202897b7ba1812392cb31a340cdf111f">uBound</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_row.html">Row</a> *&gt; &amp;rows)</td></tr>
 <tr class="separator:aee0655b6fc4e6d40b5ddff4ab55d76d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa963fabf52cdd5393e403fced091fa0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#aa963fabf52cdd5393e403fced091fa0e">initialize</a> (<a class="el" href="classabacus_1_1_opt_sense.html">OptSense</a> <a class="el" href="classabacus_1_1_l_p.html#a7184374cd10742c38f26164757eacc2d">sense</a>, int <a class="el" href="classabacus_1_1_l_p.html#ab7da9ce19af761f5f802291b5074c5db">nRow</a>, int <a class="el" href="classabacus_1_1_l_p.html#a24baf164e9e3d2c88afc73ef3dfebdc2">maxRow</a>, int <a class="el" href="classabacus_1_1_lp_sub.html#acd0ce19c5e3f10cf06dc2cecee299cfb">nCol</a>, int <a class="el" href="classabacus_1_1_lp_sub.html#a8bf66b3ec06befe3f33b34f05fb05986">maxCol</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a6ae40e467d3956b2243d510f4214849c">obj</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a4890302e69e6de68d3cba60dc1fa7858">lBound</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a202897b7ba1812392cb31a340cdf111f">uBound</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_row.html">Row</a> *&gt; &amp;rows, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26136feb2521120a7c71e02e830af809">LPVARSTAT::STATUS</a> &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a7f8e1e955d5e52e7005fe4be011496d3">lpVarStat</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_slack_stat.html#a7aaac2c567af8d69a233ee04b7dc0bcb">SlackStat::STATUS</a> &gt; &amp;<a class="el" href="classabacus_1_1_l_p.html#a80cc53d882e8ec9a068b448e323f8601">slackStat</a>)</td></tr>
+<tr class="memitem:aa963fabf52cdd5393e403fced091fa0e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#aa963fabf52cdd5393e403fced091fa0e">initialize</a> (<a class="el" href="classabacus_1_1_opt_sense.html">OptSense</a> <a class="el" href="classabacus_1_1_l_p.html#a7184374cd10742c38f26164757eacc2d">sense</a>, int <a class="el" href="classabacus_1_1_l_p.html#ab7da9ce19af761f5f802291b5074c5db">nRow</a>, int <a class="el" href="classabacus_1_1_l_p.html#a24baf164e9e3d2c88afc73ef3dfebdc2">maxRow</a>, int <a class="el" href="classabacus_1_1_lp_sub.html#acd0ce19c5e3f10cf06dc2cecee299cfb">nCol</a>, int <a class="el" href="classabacus_1_1_lp_sub.html#a8bf66b3ec06befe3f33b34f05fb05986">maxCol</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a6ae40e467d3956b2243d510f4214849c">obj</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a4890302e69e6de68d3cba60dc1fa7858">lBound</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; double &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a202897b7ba1812392cb31a340cdf111f">uBound</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_row.html">Row</a> *&gt; &amp;rows, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26136feb2521120a7c71e02e830af809">LPVARSTAT::STATUS</a> &gt; &amp;<a class="el" href="classabacus_1_1_lp_sub.html#a7d484d209bd7d660ce9afa6b9aa9cfe0">lpVarStat</a>, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classabacus_1_1_slack_stat.html#a7aaac2c567af8d69a233ee04b7dc0bcb">SlackStat::STATUS</a> &gt; &amp;<a class="el" href="classabacus_1_1_l_p.html#a80cc53d882e8ec9a068b448e323f8601">slackStat</a>)</td></tr>
 <tr class="separator:aa963fabf52cdd5393e403fced091fa0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8bf66b3ec06befe3f33b34f05fb05986"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a8bf66b3ec06befe3f33b34f05fb05986">maxCol</a> () const</td></tr>
 <tr class="separator:a8bf66b3ec06befe3f33b34f05fb05986"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -477,9 +476,9 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a6ae40e467d3956b2243d510f4214849c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d85f29adfad0748485d8df5d68e6b98"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classabacus_1_1_lp_sub.html">LpSub</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a2d85f29adfad0748485d8df5d68e6b98">operator=</a> (const <a class="el" href="classabacus_1_1_lp_sub.html">LpSub</a> &amp;<a class="el" href="classabacus_1_1_l_p.html#a17faeb4b7f9e400cdf8367b718d3de0e">rhs</a>)</td></tr>
 <tr class="separator:a2d85f29adfad0748485d8df5d68e6b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a99acab11d0b1677b8e3ac8a02d3d78"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classabacus_1_1_l_p.html#a395bcfe1e844ad315ef7751c2ecc7dce">OPTSTAT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a7a99acab11d0b1677b8e3ac8a02d3d78">optimize</a> (<a class="el" href="classabacus_1_1_l_p.html#a80d390b461dca15f5aba8068995b0063">METHOD</a> method)</td></tr>
-<tr class="memdesc:a7a99acab11d0b1677b8e3ac8a02d3d78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the optimization of the linear program with method <em>method</em>.  <a href="#a7a99acab11d0b1677b8e3ac8a02d3d78">More...</a><br /></td></tr>
-<tr class="separator:a7a99acab11d0b1677b8e3ac8a02d3d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47ac99b18487e54b71e80a2614c7617b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classabacus_1_1_l_p.html#a395bcfe1e844ad315ef7751c2ecc7dce">OPTSTAT</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a47ac99b18487e54b71e80a2614c7617b">optimize</a> (<a class="el" href="classabacus_1_1_l_p.html#a80d390b461dca15f5aba8068995b0063">METHOD</a> method) override</td></tr>
+<tr class="memdesc:a47ac99b18487e54b71e80a2614c7617b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs the optimization of the linear program with method <em>method</em>.  <a href="#a47ac99b18487e54b71e80a2614c7617b">More...</a><br /></td></tr>
+<tr class="separator:a47ac99b18487e54b71e80a2614c7617b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f738da3945c638c642990fdfd4a78fd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_lp_sub.html#a0f738da3945c638c642990fdfd4a78fd">removeCons</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; int &gt; &amp;ind)</td></tr>
 <tr class="memdesc:a0f738da3945c638c642990fdfd4a78fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all constraints listed in the buffer <em>ind</em> from the linear program.  <a href="#a0f738da3945c638c642990fdfd4a78fd">More...</a><br /></td></tr>
 <tr class="separator:a0f738da3945c638c642990fdfd4a78fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -718,7 +717,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual void abacus::LpSub::addCons </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> *&gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> *&gt; &amp;&#160;</td>
           <td class="paramname"><em>newCons</em></td><td>)</td>
           <td></td>
         </tr>
@@ -791,8 +790,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a2156c7b16ab0a82e2d080495c6155a1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2156c7b16ab0a82e2d080495c6155a1b">&sect;&nbsp;</a></span>barXVal()</h2>
+<a id="a9b02c113fd56224ecf37ae190326ee0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b02c113fd56224ecf37ae190326ee0e">&sect;&nbsp;</a></span>barXVal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -810,7 +809,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -822,8 +821,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="acb5158d8d00a36e85ef294fb135fdf4b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb5158d8d00a36e85ef294fb135fdf4b">&sect;&nbsp;</a></span>changeLBound()</h2>
+<a id="af443dcd55d0b0774822985c0151211d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af443dcd55d0b0774822985c0151211d9">&sect;&nbsp;</a></span>changeLBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -851,7 +850,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -863,8 +862,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4ab5dcd35432e7743d7a862f126cf237"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ab5dcd35432e7743d7a862f126cf237">&sect;&nbsp;</a></span>changeUBound()</h2>
+<a id="a87878d0b9e5606f7d6f80bac63427ef8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87878d0b9e5606f7d6f80bac63427ef8">&sect;&nbsp;</a></span>changeUBound()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -892,7 +891,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -970,7 +969,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">void abacus::LpSub::constraint2row </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> *&gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> *&gt; &amp;&#160;</td>
           <td class="paramname"><em>newCons</em>, </td>
         </tr>
         <tr>
@@ -1137,8 +1136,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a783346adeba9021351b0bb0dbe5d96c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a783346adeba9021351b0bb0dbe5d96c8">&sect;&nbsp;</a></span>getInfeas()</h2>
+<a id="a3ed43d10b1ae0cf35f51b15a8e4a904c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed43d10b1ae0cf35f51b15a8e4a904c">&sect;&nbsp;</a></span>getInfeas()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1172,7 +1171,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1222,8 +1221,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a277df1f5984218c8c4db4b16a396880d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a277df1f5984218c8c4db4b16a396880d">&sect;&nbsp;</a></span>infeasible()</h2>
+<a id="a9ab670cf98ca5bfe9f116360545980bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ab670cf98ca5bfe9f116360545980bb">&sect;&nbsp;</a></span>infeasible()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1240,7 +1239,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1477,8 +1476,8 @@ false otherwise. </dd></dl>
 
 </div>
 </div>
-<a id="a0fd41d8e3fa55f09ca6d1fa51f581e73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fd41d8e3fa55f09ca6d1fa51f581e73">&sect;&nbsp;</a></span>loadBasis()</h2>
+<a id="a0ba5f30964fe277072ad7fd5490a6895"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ba5f30964fe277072ad7fd5490a6895">&sect;&nbsp;</a></span>loadBasis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1506,7 +1505,7 @@ false otherwise. </dd></dl>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1525,8 +1524,8 @@ false otherwise. </dd></dl>
 
 </div>
 </div>
-<a id="a7f8e1e955d5e52e7005fe4be011496d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f8e1e955d5e52e7005fe4be011496d3">&sect;&nbsp;</a></span>lpVarStat()</h2>
+<a id="a7d484d209bd7d660ce9afa6b9aa9cfe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d484d209bd7d660ce9afa6b9aa9cfe0">&sect;&nbsp;</a></span>lpVarStat()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1544,7 +1543,7 @@ false otherwise. </dd></dl>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1683,8 +1682,8 @@ false otherwise. </dd></dl>
 
 </div>
 </div>
-<a id="a7a99acab11d0b1677b8e3ac8a02d3d78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a99acab11d0b1677b8e3ac8a02d3d78">&sect;&nbsp;</a></span>optimize()</h2>
+<a id="a47ac99b18487e54b71e80a2614c7617b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ac99b18487e54b71e80a2614c7617b">&sect;&nbsp;</a></span>optimize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1702,21 +1701,21 @@ false otherwise. </dd></dl>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Performs the optimization of the linear program with method <em>method</em>. </p>
 <p>This function redefines a virtual function of the base class <em><a class="el" href="classabacus_1_1_l_p.html" title="Linear programs. ">LP</a></em>.</p>
-<p>We have to reimplement <em><a class="el" href="classabacus_1_1_lp_sub.html#a7a99acab11d0b1677b8e3ac8a02d3d78" title="Performs the optimization of the linear program with method method. ">optimize()</a></em> since there might be infeasible constraints. If a linear program turns out to be infeasible but has not been solved with the dual simplex method we solve it again to find a dual feasible basis which can be used to determine inactive variables restoring feasibility. Before the optimization can be performed the infeasible constraints must be removed with the function <em>_initMakeFeas()</em>, then the <em><a class="el" href="classabacus_1_1_l_p.html" title="Linear programs. ">LP</a></em> should be deleted and reconstructed. This is done by the function <em>solveLp()</em> in the cutting plane algorithm of the class <a class="el" href="classabacus_1_1_sub.html" title="The subproblem. ">Sub</a>. </p>
+<p>We have to reimplement <em><a class="el" href="classabacus_1_1_lp_sub.html#a47ac99b18487e54b71e80a2614c7617b" title="Performs the optimization of the linear program with method method. ">optimize()</a></em> since there might be infeasible constraints. If a linear program turns out to be infeasible but has not been solved with the dual simplex method we solve it again to find a dual feasible basis which can be used to determine inactive variables restoring feasibility. Before the optimization can be performed the infeasible constraints must be removed with the function <em>_initMakeFeas()</em>, then the <em><a class="el" href="classabacus_1_1_l_p.html" title="Linear programs. ">LP</a></em> should be deleted and reconstructed. This is done by the function <em>solveLp()</em> in the cutting plane algorithm of the class <a class="el" href="classabacus_1_1_sub.html" title="The subproblem. ">Sub</a>. </p>
 
 <p>Reimplemented from <a class="el" href="classabacus_1_1_l_p.html#aa9459572d6d04b194c493122977f22cd">abacus::LP</a>.</p>
 
 </div>
 </div>
-<a id="ad466e3474144a50555424430aee401d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad466e3474144a50555424430aee401d5">&sect;&nbsp;</a></span>reco()</h2>
+<a id="a746f6116ba7ffb5a409de6aefb1cfe16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a746f6116ba7ffb5a409de6aefb1cfe16">&sect;&nbsp;</a></span>reco()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1734,7 +1733,7 @@ false otherwise. </dd></dl>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1936,8 +1935,8 @@ false otherwise. </dd></dl>
 
 </div>
 </div>
-<a id="aa4bc2c472955050cf08f1625e4a30c4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4bc2c472955050cf08f1625e4a30c4c">&sect;&nbsp;</a></span>value()</h2>
+<a id="a6f4daffba142284a9521fdec6c4d308f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f4daffba142284a9521fdec6c4d308f">&sect;&nbsp;</a></span>value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1954,13 +1953,13 @@ false otherwise. </dd></dl>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Returns the objective function value of the linear program. </p>
-<p>Since variables might be eliminated we have to add to the solution value of the LP-solver the objective function part of the eliminated variables, to get the right value of <em><a class="el" href="classabacus_1_1_lp_sub.html#aa4bc2c472955050cf08f1625e4a30c4c" title="Returns the objective function value of the linear program. ">value()</a></em>. </p>
+<p>Since variables might be eliminated we have to add to the solution value of the LP-solver the objective function part of the eliminated variables, to get the right value of <em><a class="el" href="classabacus_1_1_lp_sub.html#a6f4daffba142284a9521fdec6c4d308f" title="Returns the objective function value of the linear program. ">value()</a></em>. </p>
 
 <p>Reimplemented from <a class="el" href="classabacus_1_1_l_p.html#a7c8ebc42f83d415025efdd14af1ef06b">abacus::LP</a>.</p>
 
@@ -1996,8 +1995,8 @@ false otherwise. </dd></dl>
 
 </div>
 </div>
-<a id="a40e5ba75cda9e78646aa76293c33c264"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a40e5ba75cda9e78646aa76293c33c264">&sect;&nbsp;</a></span>xVal()</h2>
+<a id="adbf8799cd11de31ed966b6568ec56f52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf8799cd11de31ed966b6568ec56f52">&sect;&nbsp;</a></span>xVal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2015,7 +2014,7 @@ false otherwise. </dd></dl>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -2339,7 +2338,7 @@ false otherwise. </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceabacus.html">abacus</a></li><li class="navelem"><a class="el" href="classabacus_1_1_lp_sub.html">LpSub</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

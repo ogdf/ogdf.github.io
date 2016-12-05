@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,16 +138,15 @@ $(document).ready(function(){initNavTree('classabacus_1_1_branch_rule.html','');
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classabacus_1_1_branch_rule.png" usemap="#abacus::BranchRule_map" alt=""/>
-  <map id="abacus::BranchRule_map" name="abacus::BranchRule_map">
-<area href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="abacus::AbacusRoot" shape="rect" coords="256,0,417,24"/>
-<area href="classabacus_1_1_bound_branch_rule.html" title="Implements a branching rule for modifying the lower and the upper bound of a variable. " alt="abacus::BoundBranchRule" shape="rect" coords="0,112,161,136"/>
-<area href="classabacus_1_1_con_branch_rule.html" title="Implements the branching by adding a constraint to the set of active constraints. ..." alt="abacus::ConBranchRule" shape="rect" coords="171,112,332,136"/>
-<area href="classabacus_1_1_set_branch_rule.html" title="Implements a branching rule for setting a binary variable to its lower or upper bound. " alt="abacus::SetBranchRule" shape="rect" coords="342,112,503,136"/>
-<area href="classabacus_1_1_val_branch_rule.html" title="Implements a branching rule for setting a variable to a certain value. " alt="abacus::ValBranchRule" shape="rect" coords="513,112,674,136"/>
+<div class="center"><img src="classabacus_1_1_branch_rule__inherit__graph.png" border="0" usemap="#abacus_1_1_branch_rule_inherit__map" alt="Inheritance graph"/></div>
+<map name="abacus_1_1_branch_rule_inherit__map" id="abacus_1_1_branch_rule_inherit__map">
+<area shape="rect" id="node3" href="classabacus_1_1_bound_branch_rule.html" title="Implements a branching rule for modifying the lower and the upper bound of a variable. " alt="" coords="385,5,563,32"/>
+<area shape="rect" id="node4" href="classabacus_1_1_con_branch_rule.html" title="Implements the branching by adding a constraint to the set of active constraints. ..." alt="" coords="392,56,556,83"/>
+<area shape="rect" id="node5" href="classabacus_1_1_set_branch_rule.html" title="Implements a branching rule for setting a binary variable to its lower or upper bound. " alt="" coords="394,107,554,133"/>
+<area shape="rect" id="node6" href="classabacus_1_1_val_branch_rule.html" title="Implements a branching rule for setting a variable to a certain value. " alt="" coords="395,157,553,184"/>
+<area shape="rect" id="node2" href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,81,149,108"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -297,7 +296,7 @@ Additional Inherited Members</h2></td></tr>
 <p>This function is currently required to determine global validity of Gomory cuts for general <em>s</em>.</p>
 <dl class="section return"><dt>Returns</dt><dd>The default implementation returns always false. This function must be redefined in <a class="el" href="classabacus_1_1_set_branch_rule.html" title="Implements a branching rule for setting a binary variable to its lower or upper bound. ">SetBranchRule</a>, where it has to return <em>true</em>. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classabacus_1_1_set_branch_rule.html#a0b5ee37310caca8c1cfee4fe0f68d5ce">abacus::SetBranchRule</a>.</p>
+<p>Reimplemented in <a class="el" href="classabacus_1_1_set_branch_rule.html#a9de73ac92e00ebc6a9894b97de4d17de">abacus::SetBranchRule</a>.</p>
 
 <p>Definition at line <a class="el" href="branchrule_8h_source.html#l00114">114</a> of file <a class="el" href="branchrule_8h_source.html">branchrule.h</a>.</p>
 
@@ -338,7 +337,7 @@ Additional Inherited Members</h2></td></tr>
 <dd>
 1 If a contradiction occurs. </dd></dl>
 
-<p>Implemented in <a class="el" href="classabacus_1_1_con_branch_rule.html#a641c0a007216a4980d96c369de89caf2">abacus::ConBranchRule</a>, <a class="el" href="classabacus_1_1_bound_branch_rule.html#a40ac178c3fd80b0235d6afc6692b756c">abacus::BoundBranchRule</a>, <a class="el" href="classabacus_1_1_set_branch_rule.html#aff4c09a65b6f0a7956b554a211a4709f">abacus::SetBranchRule</a>, and <a class="el" href="classabacus_1_1_val_branch_rule.html#a52844dec1a1236d86adf3eee9542b027">abacus::ValBranchRule</a>.</p>
+<p>Implemented in <a class="el" href="classabacus_1_1_con_branch_rule.html#a1d425fa3b7f457492cc148e26b03843f">abacus::ConBranchRule</a>, <a class="el" href="classabacus_1_1_bound_branch_rule.html#a40ac178c3fd80b0235d6afc6692b756c">abacus::BoundBranchRule</a>, <a class="el" href="classabacus_1_1_set_branch_rule.html#a49129e08dcb83880c7344a2b88d6ba26">abacus::SetBranchRule</a>, and <a class="el" href="classabacus_1_1_val_branch_rule.html#aa7e61f602664f5083a6a669699e74921">abacus::ValBranchRule</a>.</p>
 
 </div>
 </div>
@@ -375,7 +374,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classabacus_1_1_bound_branch_rule.html#a63952f3ed3f523ac92ae0ebea9fc9c91">abacus::BoundBranchRule</a>, <a class="el" href="classabacus_1_1_con_branch_rule.html#a05301f0adf2dc1867a5819112a8d8d18">abacus::ConBranchRule</a>, <a class="el" href="classabacus_1_1_set_branch_rule.html#a3113a32e3266714b321e844cc5c229b2">abacus::SetBranchRule</a>, and <a class="el" href="classabacus_1_1_val_branch_rule.html#a0ad50a70f290d5ce27ca49e4830a4b68">abacus::ValBranchRule</a>.</p>
+<p>Reimplemented in <a class="el" href="classabacus_1_1_bound_branch_rule.html#a63952f3ed3f523ac92ae0ebea9fc9c91">abacus::BoundBranchRule</a>, <a class="el" href="classabacus_1_1_con_branch_rule.html#a6b8c87ef8c90cd8fb0bd8e37d201392b">abacus::ConBranchRule</a>, <a class="el" href="classabacus_1_1_set_branch_rule.html#a32b2592ffca2fea14803618c5de80d44">abacus::SetBranchRule</a>, and <a class="el" href="classabacus_1_1_val_branch_rule.html#a3d5b67c709b41f594ebcd15e36fb0f2e">abacus::ValBranchRule</a>.</p>
 
 </div>
 </div>
@@ -413,7 +412,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classabacus_1_1_con_branch_rule.html#a477ba331721de0b187c03aa89dc86f91">abacus::ConBranchRule</a>.</p>
+<p>Reimplemented in <a class="el" href="classabacus_1_1_con_branch_rule.html#abaff221e99ca55b04c9f9567e83ce366">abacus::ConBranchRule</a>.</p>
 
 <p>Definition at line <a class="el" href="branchrule_8h_source.html#l00128">128</a> of file <a class="el" href="branchrule_8h_source.html">branchrule.h</a>.</p>
 
@@ -452,7 +451,7 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classabacus_1_1_bound_branch_rule.html#aa310ef6478f16e38838e3e8a7c91f2fc">abacus::BoundBranchRule</a>, <a class="el" href="classabacus_1_1_con_branch_rule.html#a8b9c127b3301824593199dd302467e27">abacus::ConBranchRule</a>, <a class="el" href="classabacus_1_1_set_branch_rule.html#a62445772f82cfb52be7f0437d72e0b18">abacus::SetBranchRule</a>, and <a class="el" href="classabacus_1_1_val_branch_rule.html#a2bd3aa7543084505515ac647d6abb224">abacus::ValBranchRule</a>.</p>
+<p>Reimplemented in <a class="el" href="classabacus_1_1_bound_branch_rule.html#aa310ef6478f16e38838e3e8a7c91f2fc">abacus::BoundBranchRule</a>, <a class="el" href="classabacus_1_1_con_branch_rule.html#ae76c9824d3ba6d4143f43ea41e9411a3">abacus::ConBranchRule</a>, <a class="el" href="classabacus_1_1_set_branch_rule.html#a429c1d6b2a0debe3c2667277ceaebb81">abacus::SetBranchRule</a>, and <a class="el" href="classabacus_1_1_val_branch_rule.html#adb43f3ed1188ce2a779e3ad2ffbe620d">abacus::ValBranchRule</a>.</p>
 
 </div>
 </div>
@@ -492,7 +491,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceabacus.html">abacus</a></li><li class="navelem"><a class="el" href="classabacus_1_1_branch_rule.html">BranchRule</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -177,8 +177,8 @@ Public Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ab795742da1c7dbdc9e219a01aeeedbd9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_s_t_cut.html#ab795742da1c7dbdc9e219a01aeeedbd9">m_backCutCount</a></td></tr>
 <tr class="separator:ab795742da1c7dbdc9e219a01aeeedbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24c39746084c44d2c8265e2dca0b7faa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module_option.html">ModuleOption</a>&lt; <a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_s_t_cut.html#a24c39746084c44d2c8265e2dca0b7faa">m_et</a></td></tr>
-<tr class="separator:a24c39746084c44d2c8265e2dca0b7faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f669906ff4f1e8065ab63949d59dfc8"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_s_t_cut.html#a9f669906ff4f1e8065ab63949d59dfc8">m_et</a></td></tr>
+<tr class="separator:a9f669906ff4f1e8065ab63949d59dfc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58bddca8bba7cba764829a451246cb17"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_s_t_cut.html#a58bddca8bba7cba764829a451246cb17">m_frontCutCount</a></td></tr>
 <tr class="separator:a58bddca8bba7cba764829a451246cb17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa9afc807ee0e64f2cb731f629c23516c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_min_s_t_cut.html#af002c9862966114d03717b321d3ed1ec">cutType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_s_t_cut.html#aa9afc807ee0e64f2cb731f629c23516c">m_nodeSet</a></td></tr>
@@ -192,7 +192,7 @@ class ogdf::MinSTCut&lt; T &gt;</h3>
 
 <p>Class for converting a maximum flow into a minimum cut. </p>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00047">47</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00044">44</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="af002c9862966114d03717b321d3ed1ec"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af002c9862966114d03717b321d3ed1ec">&sect;&nbsp;</a></span>cutType</h2>
@@ -215,7 +215,7 @@ template&lt;typename T&gt; </div>
 <tr><td class="fieldname"><a id="af002c9862966114d03717b321d3ed1eca550def43e44f22cd3f6358ce58407ad3"></a>NO_CUT&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00053">53</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00050">50</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -247,7 +247,7 @@ template&lt;typename T&gt; </div>
 
 <p>Creates a new <a class="el" href="classogdf_1_1_min_s_t_cut.html" title="Class for converting a maximum flow into a minimum cut. ">MinSTCut</a> instance. </p>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00070">70</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00067">67</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -311,7 +311,7 @@ template&lt;typename T&gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00093">93</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00090">90</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -343,7 +343,7 @@ template&lt;typename T&gt; </div>
 <p>Returns whether the front cut is the complement of the backcut. </p>
 <p>i.e. there are no nodes not assigned to one of both cut types. </p>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00145">145</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00142">142</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -375,7 +375,7 @@ template&lt;typename T&gt; </div>
 
 <p>Returns whether this edge is leaving the front cut. </p>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00162">162</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00159">159</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -407,7 +407,7 @@ template&lt;typename T&gt; </div>
 
 <p>Returns whether this edge is entering the back cut. </p>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00153">153</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00150">150</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -437,7 +437,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00181">181</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00178">178</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -470,7 +470,7 @@ template&lt;typename T&gt; </div>
 <p>Returns whether this node is part of the front cut. </p>
 <p>Meaning it is located in the same set as the source. </p>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00172">172</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00169">169</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -520,7 +520,7 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if the node is contained in the specified cut </dd></dl>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00197">197</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00194">194</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -552,7 +552,7 @@ template&lt;typename T&gt; </div>
 
 <p>Assigns a new epsilon test. </p>
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00076">76</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00073">73</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -579,12 +579,12 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00063">63</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00060">60</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
-<a id="a24c39746084c44d2c8265e2dca0b7faa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24c39746084c44d2c8265e2dca0b7faa">&sect;&nbsp;</a></span>m_et</h2>
+<a id="a9f669906ff4f1e8065ab63949d59dfc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f669906ff4f1e8065ab63949d59dfc8">&sect;&nbsp;</a></span>m_et</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -595,7 +595,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module_option.html">ModuleOption</a>&lt;<a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a>&gt; <a class="el" href="classogdf_1_1_min_s_t_cut.html">ogdf::MinSTCut</a>&lt; T &gt;::m_et</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a>&gt; <a class="el" href="classogdf_1_1_min_s_t_cut.html">ogdf::MinSTCut</a>&lt; T &gt;::m_et</td>
         </tr>
       </table>
   </td>
@@ -605,7 +605,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00060">60</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00057">57</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -631,7 +631,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00062">62</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00059">59</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -657,7 +657,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00061">61</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00058">58</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -683,7 +683,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00064">64</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
+<p>Definition at line <a class="el" href="_min_s_t_cut_8h_source.html#l00061">61</a> of file <a class="el" href="_min_s_t_cut_8h_source.html">MinSTCut.h</a>.</p>
 
 </div>
 </div>
@@ -696,7 +696,7 @@ template&lt;typename T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_min_s_t_cut.html">MinSTCut</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -38,7 +38,7 @@ var classogdf_1_1_multilevel_graph =
     [ "reInsertAll", "classogdf_1_1_multilevel_graph.html#a1e28903dc42cb46e391381d92bca5514", null ],
     [ "reInsertGraph", "classogdf_1_1_multilevel_graph.html#a1d2b958ca71a6ad4db0f4a77e82cbf94", null ],
     [ "removeOneCC", "classogdf_1_1_multilevel_graph.html#a5c2241ee3fa08138183f07e0d986841e", null ],
-    [ "splitIntoComponents", "classogdf_1_1_multilevel_graph.html#a258b222148f84cff52127c529bb5b4d6", null ],
+    [ "splitIntoComponents", "classogdf_1_1_multilevel_graph.html#ae0bac0c96ede1cb37f6171596ee8e35f", null ],
     [ "undoLastMerge", "classogdf_1_1_multilevel_graph.html#a27694d9caecd9f052a9b9ab5d2edcb79", null ],
     [ "updateMergeWeights", "classogdf_1_1_multilevel_graph.html#ac7911d94c3376c329e64428026915441", null ],
     [ "updateReverseIndizes", "classogdf_1_1_multilevel_graph.html#a07944566e59b31866b1bf62bfe6de6bf", null ],

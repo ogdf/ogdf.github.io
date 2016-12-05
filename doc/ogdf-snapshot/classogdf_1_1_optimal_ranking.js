@@ -9,5 +9,5 @@ var classogdf_1_1_optimal_ranking =
     [ "separateMultiEdges", "classogdf_1_1_optimal_ranking.html#a5b302053e028bd5182f325d46cfaba56", null ],
     [ "setSubgraph", "classogdf_1_1_optimal_ranking.html#a624fbc222c4535e5cbda2459f0db9183", null ],
     [ "m_separateMultiEdges", "classogdf_1_1_optimal_ranking.html#a1cb473501dc7b448be012efba79b23a5", null ],
-    [ "m_subgraph", "classogdf_1_1_optimal_ranking.html#a44bb4630eef3982e5a316229ef85064f", null ]
+    [ "m_subgraph", "classogdf_1_1_optimal_ranking.html#a4a07f6beca317414b799eb489bfec194", null ]
 ];

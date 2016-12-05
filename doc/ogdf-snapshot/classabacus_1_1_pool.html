@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -140,14 +140,13 @@ $(document).ready(function(){initNavTree('classabacus_1_1_pool.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classabacus_1_1_pool.png" usemap="#abacus::Pool_3C_20BaseType_2C_20CoType_20_3E_map" alt=""/>
-  <map id="abacus::Pool_3C_20BaseType_2C_20CoType_20_3E_map" name="abacus::Pool&lt; BaseType, CoType &gt;_map">
-<area href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="abacus::AbacusRoot" shape="rect" coords="0,0,268,24"/>
-<area href="classabacus_1_1_standard_pool.html" title="Standard pools. " alt="abacus::StandardPool&lt; BaseType, CoType &gt;" shape="rect" coords="0,112,268,136"/>
-<area href="classabacus_1_1_non_dupl_pool.html" title="Standard pools without constraint duplication. " alt="abacus::NonDuplPool&lt; BaseType, CoType &gt;" shape="rect" coords="0,168,268,192"/>
+<div class="center"><img src="classabacus_1_1_pool__inherit__graph.png" border="0" usemap="#abacus_1_1_pool_3_01_base_type_00_01_co_type_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="abacus_1_1_pool_3_01_base_type_00_01_co_type_01_4_inherit__map" id="abacus_1_1_pool_3_01_base_type_00_01_co_type_01_4_inherit__map">
+<area shape="rect" id="node3" href="classabacus_1_1_standard_pool.html" title="Standard pools. " alt="" coords="13,169,171,211"/>
+<area shape="rect" id="node2" href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="20,5,164,32"/>
+<area shape="rect" id="node4" href="classabacus_1_1_non_dupl_pool.html" title="Standard pools without constraint duplication. " alt="" coords="13,259,171,300"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -360,7 +359,7 @@ template&lt;class BaseType, class CoType&gt; </div>
 <p>This function is protected since it should only be used by <em><a class="el" href="classabacus_1_1_pool.html#ab33798018ebf6712e5db91ff0f910f6b" title="Tries to insert a constraint/variable in the pool. ">insert()</a></em>. The data structure managing the free poolslots can be individually defined for each derived pool class.</p>
 <dl class="section return"><dt>Returns</dt><dd>A pointer to a free <a class="el" href="classabacus_1_1_pool_slot.html" title="Stores constraints and variables. ">PoolSlot</a> where a constraint/variable can be inserted. If no pool slot is available <em><a class="el" href="classabacus_1_1_pool.html#a086a2bbb04d9b225ac27b56a1df22185" title="Tries to find a free slot in the pool. ">getSlot()</a></em> returns 0. </dd></dl>
 
-<p>Implemented in <a class="el" href="classabacus_1_1_standard_pool.html#a843328796d766b27a24343ad95cdeda1">abacus::StandardPool&lt; BaseType, CoType &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a843328796d766b27a24343ad95cdeda1">abacus::StandardPool&lt; abacus::ogdf::Constraint, abacus::Variable &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a843328796d766b27a24343ad95cdeda1">abacus::StandardPool&lt; abacus::Variable, ogdf::Constraint &gt;</a>, and <a class="el" href="classabacus_1_1_standard_pool.html#a843328796d766b27a24343ad95cdeda1">abacus::StandardPool&lt; ogdf::Constraint, abacus::Variable &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classabacus_1_1_standard_pool.html#a843328796d766b27a24343ad95cdeda1">abacus::StandardPool&lt; BaseType, CoType &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a843328796d766b27a24343ad95cdeda1">abacus::StandardPool&lt; abacus::Variable, abacus::Constraint &gt;</a>, and <a class="el" href="classabacus_1_1_standard_pool.html#a843328796d766b27a24343ad95cdeda1">abacus::StandardPool&lt; abacus::Constraint, abacus::Variable &gt;</a>.</p>
 
 </div>
 </div>
@@ -398,7 +397,7 @@ template&lt;class BaseType, class CoType&gt; </div>
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classabacus_1_1_non_dupl_pool.html#af5774d0c7f669a0c189ac043f0562815">abacus::NonDuplPool&lt; BaseType, CoType &gt;</a>, and <a class="el" href="classabacus_1_1_non_dupl_pool.html#af5774d0c7f669a0c189ac043f0562815">abacus::NonDuplPool&lt; abacus::ogdf::Constraint, abacus::Variable &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classabacus_1_1_non_dupl_pool.html#af5774d0c7f669a0c189ac043f0562815">abacus::NonDuplPool&lt; BaseType, CoType &gt;</a>, and <a class="el" href="classabacus_1_1_non_dupl_pool.html#af5774d0c7f669a0c189ac043f0562815">abacus::NonDuplPool&lt; abacus::Constraint, abacus::Variable &gt;</a>.</p>
 
 <p>Definition at line <a class="el" href="pool_8h_source.html#l00168">168</a> of file <a class="el" href="pool_8h_source.html">pool.h</a>.</p>
 
@@ -439,7 +438,7 @@ template&lt;class BaseType, class CoType&gt; </div>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classabacus_1_1_standard_pool.html#a55877310bed41f6a9b8098abc75c12e4">abacus::StandardPool&lt; BaseType, CoType &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a55877310bed41f6a9b8098abc75c12e4">abacus::StandardPool&lt; abacus::ogdf::Constraint, abacus::Variable &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a55877310bed41f6a9b8098abc75c12e4">abacus::StandardPool&lt; abacus::Variable, ogdf::Constraint &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a55877310bed41f6a9b8098abc75c12e4">abacus::StandardPool&lt; ogdf::Constraint, abacus::Variable &gt;</a>, <a class="el" href="classabacus_1_1_non_dupl_pool.html#a75b1bc7925a10f1488ce1e8f520905df">abacus::NonDuplPool&lt; BaseType, CoType &gt;</a>, and <a class="el" href="classabacus_1_1_non_dupl_pool.html#a75b1bc7925a10f1488ce1e8f520905df">abacus::NonDuplPool&lt; abacus::ogdf::Constraint, abacus::Variable &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classabacus_1_1_standard_pool.html#a55877310bed41f6a9b8098abc75c12e4">abacus::StandardPool&lt; BaseType, CoType &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a55877310bed41f6a9b8098abc75c12e4">abacus::StandardPool&lt; abacus::Variable, abacus::Constraint &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a55877310bed41f6a9b8098abc75c12e4">abacus::StandardPool&lt; abacus::Constraint, abacus::Variable &gt;</a>, <a class="el" href="classabacus_1_1_non_dupl_pool.html#a75b1bc7925a10f1488ce1e8f520905df">abacus::NonDuplPool&lt; BaseType, CoType &gt;</a>, and <a class="el" href="classabacus_1_1_non_dupl_pool.html#a75b1bc7925a10f1488ce1e8f520905df">abacus::NonDuplPool&lt; abacus::Constraint, abacus::Variable &gt;</a>.</p>
 
 </div>
 </div>
@@ -509,7 +508,7 @@ template&lt;class BaseType, class CoType&gt; </div>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classabacus_1_1_standard_pool.html#a10d079180405f1bd93ef2897ddbcba69">abacus::StandardPool&lt; BaseType, CoType &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a10d079180405f1bd93ef2897ddbcba69">abacus::StandardPool&lt; abacus::ogdf::Constraint, abacus::Variable &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a10d079180405f1bd93ef2897ddbcba69">abacus::StandardPool&lt; abacus::Variable, ogdf::Constraint &gt;</a>, and <a class="el" href="classabacus_1_1_standard_pool.html#a10d079180405f1bd93ef2897ddbcba69">abacus::StandardPool&lt; ogdf::Constraint, abacus::Variable &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classabacus_1_1_standard_pool.html#a10d079180405f1bd93ef2897ddbcba69">abacus::StandardPool&lt; BaseType, CoType &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a10d079180405f1bd93ef2897ddbcba69">abacus::StandardPool&lt; abacus::Variable, abacus::Constraint &gt;</a>, and <a class="el" href="classabacus_1_1_standard_pool.html#a10d079180405f1bd93ef2897ddbcba69">abacus::StandardPool&lt; abacus::Constraint, abacus::Variable &gt;</a>.</p>
 
 </div>
 </div>
@@ -626,7 +625,7 @@ template&lt;class BaseType, class CoType&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of violated items. </dd></dl>
 
-<p>Implemented in <a class="el" href="classabacus_1_1_standard_pool.html#a1828fe76fbcce7e13c7bbdb69485ec91">abacus::StandardPool&lt; BaseType, CoType &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a1828fe76fbcce7e13c7bbdb69485ec91">abacus::StandardPool&lt; abacus::ogdf::Constraint, abacus::Variable &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a1828fe76fbcce7e13c7bbdb69485ec91">abacus::StandardPool&lt; abacus::Variable, ogdf::Constraint &gt;</a>, and <a class="el" href="classabacus_1_1_standard_pool.html#a1828fe76fbcce7e13c7bbdb69485ec91">abacus::StandardPool&lt; ogdf::Constraint, abacus::Variable &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classabacus_1_1_standard_pool.html#a1828fe76fbcce7e13c7bbdb69485ec91">abacus::StandardPool&lt; BaseType, CoType &gt;</a>, <a class="el" href="classabacus_1_1_standard_pool.html#a1828fe76fbcce7e13c7bbdb69485ec91">abacus::StandardPool&lt; abacus::Variable, abacus::Constraint &gt;</a>, and <a class="el" href="classabacus_1_1_standard_pool.html#a1828fe76fbcce7e13c7bbdb69485ec91">abacus::StandardPool&lt; abacus::Constraint, abacus::Variable &gt;</a>.</p>
 
 </div>
 </div>
@@ -668,7 +667,7 @@ template&lt;class BaseType, class CoType&gt; </div>
 <dd>
 1 otherwise. </dd></dl>
 
-<p>Reimplemented in <a class="el" href="classabacus_1_1_non_dupl_pool.html#a6a09a58cef9ea211183bb553c41a5c1f">abacus::NonDuplPool&lt; BaseType, CoType &gt;</a>, and <a class="el" href="classabacus_1_1_non_dupl_pool.html#a6a09a58cef9ea211183bb553c41a5c1f">abacus::NonDuplPool&lt; abacus::ogdf::Constraint, abacus::Variable &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classabacus_1_1_non_dupl_pool.html#a6a09a58cef9ea211183bb553c41a5c1f">abacus::NonDuplPool&lt; BaseType, CoType &gt;</a>, and <a class="el" href="classabacus_1_1_non_dupl_pool.html#a6a09a58cef9ea211183bb553c41a5c1f">abacus::NonDuplPool&lt; abacus::Constraint, abacus::Variable &gt;</a>.</p>
 
 <p>Definition at line <a class="el" href="pool_8h_source.html#l00154">154</a> of file <a class="el" href="pool_8h_source.html">pool.h</a>.</p>
 
@@ -740,7 +739,7 @@ template&lt;class BaseType, class CoType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceabacus.html">abacus</a></li><li class="navelem"><a class="el" href="classabacus_1_1_pool.html">Pool</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

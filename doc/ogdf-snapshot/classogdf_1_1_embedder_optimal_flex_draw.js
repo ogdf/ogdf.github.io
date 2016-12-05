@@ -9,5 +9,5 @@ var classogdf_1_1_embedder_optimal_flex_draw =
     [ "optimizeOverEmbeddings", "classogdf_1_1_embedder_optimal_flex_draw.html#a805eb289f930fe63f0d7d7cc1c1ee0b0", null ],
     [ "setMinCostFlowComputer", "classogdf_1_1_embedder_optimal_flex_draw.html#a2a703fbff784fe851003a726bc0f67e6", null ],
     [ "m_cost", "classogdf_1_1_embedder_optimal_flex_draw.html#ac71b129a00cf45c93cff4f5061283ef4", null ],
-    [ "m_minCostFlowComputer", "classogdf_1_1_embedder_optimal_flex_draw.html#adfa71ed9ebef0911f32226a480bcded9", null ]
+    [ "m_minCostFlowComputer", "classogdf_1_1_embedder_optimal_flex_draw.html#a69122d38e1d0b6b8e1c3c6d4600cb463", null ]
 ];

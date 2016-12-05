@@ -2,9 +2,6 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
 [
     [ "BoothLueker.h", "_booth_lueker_8h.html", null ],
     [ "BoyerMyrvold.h", "_boyer_myrvold_8h.html", null ],
-    [ "BoyerMyrvoldSubgraph.h", "_boyer_myrvold_subgraph_8h.html", [
-      [ "BoyerMyrvoldSubgraph", "classogdf_1_1_boyer_myrvold_subgraph.html", "classogdf_1_1_boyer_myrvold_subgraph" ]
-    ] ],
     [ "EdgeTypePatterns.h", "_edge_type_patterns_8h.html", "_edge_type_patterns_8h" ],
     [ "EmbedderMaxFace.h", "_embedder_max_face_8h.html", null ],
     [ "EmbedderMaxFaceLayers.h", "_embedder_max_face_layers_8h.html", null ],
@@ -17,12 +14,13 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
       [ "DynamicBacktrack", "classogdf_1_1_dynamic_backtrack.html", "classogdf_1_1_dynamic_backtrack" ],
       [ "KuratowskiWrapper", "classogdf_1_1_kuratowski_wrapper.html", "classogdf_1_1_kuratowski_wrapper" ]
     ] ],
-    [ "FastPlanarSubgraph.h", "_fast_planar_subgraph_8h.html", null ],
     [ "FixedEmbeddingInserter.h", "_fixed_embedding_inserter_8h.html", null ],
     [ "KuratowskiSubdivision.h", "_kuratowski_subdivision_8h.html", [
       [ "KuratowskiSubdivision", "classogdf_1_1_kuratowski_subdivision.html", null ]
     ] ],
-    [ "MaximalPlanarSubgraphSimple.h", "_maximal_planar_subgraph_simple_8h.html", null ],
+    [ "MaximalPlanarSubgraphSimple.h", "_maximal_planar_subgraph_simple_8h.html", [
+      [ "MaximalPlanarSubgraphSimple< TCost, typename std::enable_if< std::is_floating_point< TCost >::value >::type >", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3" ]
+    ] ],
     [ "MaximumPlanarSubgraph.h", "_maximum_planar_subgraph_8h.html", null ],
     [ "MMFixedEmbeddingInserter.h", "_m_m_fixed_embedding_inserter_8h.html", null ],
     [ "MMSubgraphPlanarizer.h", "_m_m_subgraph_planarizer_8h.html", null ],
@@ -34,9 +32,19 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
       [ "VertexBlock", "structogdf_1_1_multi_edge_approx_inserter_1_1_vertex_block.html", "structogdf_1_1_multi_edge_approx_inserter_1_1_vertex_block" ]
     ] ],
     [ "NodeTypePatterns.h", "_node_type_patterns_8h.html", "_node_type_patterns_8h" ],
-    [ "NonPlanarCore.h", "_non_planar_core_8h.html", null ],
+    [ "NonPlanarCore.h", "_non_planar_core_8h.html", [
+      [ "GlueMap", "classogdf_1_1_glue_map.html", "classogdf_1_1_glue_map" ],
+      [ "CutEdge", "structogdf_1_1_non_planar_core_1_1_cut_edge.html", "structogdf_1_1_non_planar_core_1_1_cut_edge" ]
+    ] ],
     [ "PlanarizationGridLayout.h", "_planarization_grid_layout_8h.html", null ],
     [ "PlanarizationLayout.h", "_planarization_layout_8h.html", null ],
+    [ "PlanarSubgraphBoyerMyrvold.h", "_planar_subgraph_boyer_myrvold_8h.html", null ],
+    [ "PlanarSubgraphCactus.h", "_planar_subgraph_cactus_8h.html", [
+      [ "AdjEntryComparer", "classogdf_1_1_planar_subgraph_cactus_1_1_adj_entry_comparer.html", "classogdf_1_1_planar_subgraph_cactus_1_1_adj_entry_comparer" ],
+      [ "EdgeComparer", "classogdf_1_1_planar_subgraph_cactus_1_1_edge_comparer.html", "classogdf_1_1_planar_subgraph_cactus_1_1_edge_comparer" ]
+    ] ],
+    [ "PlanarSubgraphEmpty.h", "_planar_subgraph_empty_8h.html", null ],
+    [ "PlanarSubgraphFast.h", "_planar_subgraph_fast_8h.html", null ],
     [ "PlanRep.h", "_plan_rep_8h.html", [
       [ "Deg1RestoreInfo", "structogdf_1_1_plan_rep_1_1_deg1_restore_info.html", "structogdf_1_1_plan_rep_1_1_deg1_restore_info" ]
     ] ],
@@ -57,5 +65,8 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
     ] ],
     [ "SubgraphPlanarizer.h", "_subgraph_planarizer_8h.html", null ],
     [ "VariableEmbeddingInserter.h", "_variable_embedding_inserter_8h.html", null ],
+    [ "VariableEmbeddingInserterBase.h", "_variable_embedding_inserter_base_8h.html", [
+      [ "VariableEmbeddingInserterBase", "classogdf_1_1_variable_embedding_inserter_base.html", "classogdf_1_1_variable_embedding_inserter_base" ]
+    ] ],
     [ "VariableEmbeddingInserterDyn.h", "_variable_embedding_inserter_dyn_8h.html", null ]
 ];

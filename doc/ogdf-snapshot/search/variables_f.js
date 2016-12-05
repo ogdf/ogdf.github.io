@@ -11,6 +11,7 @@ var searchData=
   ['parse_5fdeclaration',['parse_declaration',['../namespacepugi.html#adb5db03ce720dcd90e900b9bb7e70427',1,'pugi']]],
   ['parse_5fdefault',['parse_default',['../namespacepugi.html#ad7c927d1c1752330637c3318b0d7b366',1,'pugi']]],
   ['parse_5fdoctype',['parse_doctype',['../namespacepugi.html#afa993ffcd3e228d21f48071e7c097f32',1,'pugi']]],
+  ['parse_5fembed_5fpcdata',['parse_embed_pcdata',['../namespacepugi.html#a80a72fa1dbed77775ec0498b23246d8d',1,'pugi']]],
   ['parse_5feol',['parse_eol',['../namespacepugi.html#ad4e017365d2ff3ee04e226c35129b475',1,'pugi']]],
   ['parse_5fescapes',['parse_escapes',['../namespacepugi.html#ab5ef8454110599611900ff48012c8ad6',1,'pugi']]],
   ['parse_5ffragment',['parse_fragment',['../namespacepugi.html#a79d7a2d2a9899d79abe6e06fdaa2134f',1,'pugi']]],

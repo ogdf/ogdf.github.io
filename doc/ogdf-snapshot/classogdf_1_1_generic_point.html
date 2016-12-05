@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -152,6 +152,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acb8bc4e790dc8a5049564dbb6026e9e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_point.html#acb8bc4e790dc8a5049564dbb6026e9e5">GenericPoint</a> (const <a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a> &amp;p)</td></tr>
 <tr class="memdesc:acb8bc4e790dc8a5049564dbb6026e9e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#acb8bc4e790dc8a5049564dbb6026e9e5">More...</a><br /></td></tr>
 <tr class="separator:acb8bc4e790dc8a5049564dbb6026e9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7625b517d95c9257a389ba0682cbe541"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_point.html#a7625b517d95c9257a389ba0682cbe541">angle</a> (<a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a> q, <a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a> r) const</td></tr>
+<tr class="memdesc:a7625b517d95c9257a389ba0682cbe541"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute angle (in radians) between vectors.  <a href="#a7625b517d95c9257a389ba0682cbe541">More...</a><br /></td></tr>
+<tr class="separator:a7625b517d95c9257a389ba0682cbe541"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e0ddf2fa013e427f807e2af86405d11"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_point.html#a0e0ddf2fa013e427f807e2af86405d11">angleDegrees</a> (<a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a> q, <a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a> r) const</td></tr>
+<tr class="memdesc:a0e0ddf2fa013e427f807e2af86405d11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute angle (in degrees) between vectors.  <a href="#a0e0ddf2fa013e427f807e2af86405d11">More...</a><br /></td></tr>
+<tr class="separator:a0e0ddf2fa013e427f807e2af86405d11"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29655d9acde38aff8e66d3ea765ba69d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_point.html#a29655d9acde38aff8e66d3ea765ba69d">operator!=</a> (const <a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a> &amp;p) const</td></tr>
 <tr class="memdesc:a29655d9acde38aff8e66d3ea765ba69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator.  <a href="#a29655d9acde38aff8e66d3ea765ba69d">More...</a><br /></td></tr>
 <tr class="separator:a29655d9acde38aff8e66d3ea765ba69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,7 +188,7 @@ class ogdf::GenericPoint&lt; NUMBER &gt;</h3>
 <p>Parameterized base class for points. </p>
 <p>This class serves as base class for two-dimensional points with specific coordinate types like integer points (<a class="el" href="classogdf_1_1_i_point.html" title="Integer points. ">IPoint</a>) and real points (<a class="el" href="classogdf_1_1_d_point.html" title="Real points. ">DPoint</a>). The template parameter NUMBER is the type for the coordinates of the point and has to support assignment and equality/inequality operators. </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00072">72</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00070">70</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a60b97771cf4b02c64bc3be1274fe4958"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a60b97771cf4b02c64bc3be1274fe4958">&sect;&nbsp;</a></span>numberType</h2>
@@ -200,7 +206,7 @@ template&lt;class NUMBER&gt; </div>
 
 <p>The type for coordinates of the point. </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00076">76</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00074">74</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -233,7 +239,7 @@ template&lt;class NUMBER&gt; </div>
 <p>Creates a generic point. </p>
 <dl class="section warning"><dt>Warning</dt><dd>Does not assign something like zero to the coordinates, since we do not require that 0 can be casted to a NUMBER. </dd></dl>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00086">86</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00084">84</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -275,7 +281,7 @@ template&lt;class NUMBER&gt; </div>
 
 <p>Creates a generic point (<em>x</em>,<em>y</em>). </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00089">89</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00087">87</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -307,11 +313,95 @@ template&lt;class NUMBER&gt; </div>
 
 <p>Copy constructor. </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00092">92</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00090">90</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7625b517d95c9257a389ba0682cbe541"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7625b517d95c9257a389ba0682cbe541">&sect;&nbsp;</a></span>angle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class NUMBER&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="classogdf_1_1_generic_point.html">ogdf::GenericPoint</a>&lt; NUMBER &gt;::angle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a>&lt; NUMBER &gt;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a>&lt; NUMBER &gt;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute angle (in radians) between vectors. </p>
+
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00118">118</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+
+</div>
+</div>
+<a id="a0e0ddf2fa013e427f807e2af86405d11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e0ddf2fa013e427f807e2af86405d11">&sect;&nbsp;</a></span>angleDegrees()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class NUMBER&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">double <a class="el" href="classogdf_1_1_generic_point.html">ogdf::GenericPoint</a>&lt; NUMBER &gt;::angleDegrees </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a>&lt; NUMBER &gt;&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a>&lt; NUMBER &gt;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute angle (in degrees) between vectors. </p>
+
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00143">143</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+
+</div>
+</div>
 <a id="a29655d9acde38aff8e66d3ea765ba69d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29655d9acde38aff8e66d3ea765ba69d">&sect;&nbsp;</a></span>operator!=()</h2>
 
@@ -340,7 +430,7 @@ template&lt;class NUMBER&gt; </div>
 
 <p>Inequality operator. </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00107">107</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00105">105</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -370,7 +460,7 @@ template&lt;class NUMBER&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00111">111</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00109">109</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -402,7 +492,7 @@ template&lt;class NUMBER&gt; </div>
 
 <p>Assignment operator. </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00095">95</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00093">93</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -434,7 +524,7 @@ template&lt;class NUMBER&gt; </div>
 
 <p>Equality operator. </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00102">102</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00100">100</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -464,7 +554,7 @@ template&lt;class NUMBER&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00115">115</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00113">113</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +575,7 @@ template&lt;class NUMBER&gt; </div>
 
 <p>The x-coordinate. </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00078">78</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00076">76</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -505,7 +595,7 @@ template&lt;class NUMBER&gt; </div>
 
 <p>The y-coordinate. </p>
 
-<p>Definition at line <a class="el" href="geometry_8h_source.html#l00079">79</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
+<p>Definition at line <a class="el" href="geometry_8h_source.html#l00077">77</a> of file <a class="el" href="geometry_8h_source.html">geometry.h</a>.</p>
 
 </div>
 </div>
@@ -518,7 +608,7 @@ template&lt;class NUMBER&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_generic_point.html">GenericPoint</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
-<title>ogdf: ogdf::PlanarSubgraphModule Class Reference</title>
+<title>ogdf: ogdf::PlanarSubgraphModule&lt; TCost &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -126,7 +126,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_planar_subgraph_module.h
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1_planar_subgraph_module-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ogdf::PlanarSubgraphModule Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">ogdf::PlanarSubgraphModule&lt; TCost &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -135,65 +135,64 @@ $(document).ready(function(){initNavTree('classogdf_1_1_planar_subgraph_module.h
 
 <p><code>#include &lt;<a class="el" href="_planar_subgraph_module_8h_source.html">ogdf/module/PlanarSubgraphModule.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ogdf::PlanarSubgraphModule:</div>
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ogdf::PlanarSubgraphModule&lt; TCost &gt;:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_planar_subgraph_module.png" usemap="#ogdf::PlanarSubgraphModule_map" alt=""/>
-  <map id="ogdf::PlanarSubgraphModule_map" name="ogdf::PlanarSubgraphModule_map">
-<area href="classogdf_1_1_module.html" title="Base class for modules. " alt="ogdf::Module" shape="rect" coords="228,0,446,24"/>
-<area href="classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="ogdf::Timeouter" shape="rect" coords="456,0,674,24"/>
-<area href="classogdf_1_1_boyer_myrvold_subgraph.html" alt="ogdf::BoyerMyrvoldSubgraph" shape="rect" coords="0,112,218,136"/>
-<area href="classogdf_1_1_fast_planar_subgraph.html" title="Computation of a planar subgraph using PQ-trees. " alt="ogdf::FastPlanarSubgraph" shape="rect" coords="228,112,446,136"/>
-<area href="classogdf_1_1_maximal_planar_subgraph_simple.html" title="Implements a maximal planar subgraph algorithm using planarity testing. " alt="ogdf::MaximalPlanarSubgraphSimple" shape="rect" coords="456,112,674,136"/>
-<area href="classogdf_1_1_maximum_planar_subgraph.html" title="Exact computation of a maximum planar subgraph. " alt="ogdf::MaximumPlanarSubgraph" shape="rect" coords="684,112,902,136"/>
+<div class="center"><img src="classogdf_1_1_planar_subgraph_module__inherit__graph.png" border="0" usemap="#ogdf_1_1_planar_subgraph_module_3_01_t_cost_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_planar_subgraph_module_3_01_t_cost_01_4_inherit__map" id="ogdf_1_1_planar_subgraph_module_3_01_t_cost_01_4_inherit__map">
+<area shape="rect" id="node4" href="classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html" title="ogdf::MaximalPlanarSubgraph\lSimple\&lt; TCost, typename\l std::enable_if\&lt; std::is\l_floating_point\&lt; TCost \&gt;::\lvalue \&gt;::type \&gt;" alt="" coords="404,5,600,91"/>
+<area shape="rect" id="node5" href="classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html" title="Naive maximal planar subgraph approach that extends a configurable non&#45;maximal subgraph heuristic..." alt="" coords="404,115,600,200"/>
+<area shape="rect" id="node6" href="classogdf_1_1_planar_subgraph_cactus.html" title="Maximum planar subgraph approximation algorithm by Calinescu et al. " alt="" coords="407,225,597,266"/>
+<area shape="rect" id="node7" href="classogdf_1_1_planar_subgraph_empty.html" title="Dummy implementation for maximum planar subgraph that returns an empty graph. " alt="" coords="409,290,595,331"/>
+<area shape="rect" id="node2" href="classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,163,111,189"/>
+<area shape="rect" id="node3" href="classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="5,213,119,240"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aab754bc6fdd98f4d929b9ad710d05448"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#aab754bc6fdd98f4d929b9ad710d05448">PlanarSubgraphModule</a> ()</td></tr>
-<tr class="memdesc:aab754bc6fdd98f4d929b9ad710d05448"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a planar subgraph module (default constructor).  <a href="#aab754bc6fdd98f4d929b9ad710d05448">More...</a><br /></td></tr>
-<tr class="separator:aab754bc6fdd98f4d929b9ad710d05448"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a8e32a8b412195577b2fbe72d01ce24"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a6a8e32a8b412195577b2fbe72d01ce24">PlanarSubgraphModule</a> (const <a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a> &amp;psm)</td></tr>
-<tr class="memdesc:a6a8e32a8b412195577b2fbe72d01ce24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a planar subgraph module (copy constructor).  <a href="#a6a8e32a8b412195577b2fbe72d01ce24">More...</a><br /></td></tr>
-<tr class="separator:a6a8e32a8b412195577b2fbe72d01ce24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca85a13a4857827a84833dc2e0019116"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#aca85a13a4857827a84833dc2e0019116">~PlanarSubgraphModule</a> ()</td></tr>
-<tr class="separator:aca85a13a4857827a84833dc2e0019116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a585f8440256a7a84482f38037c7b6613"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a585f8440256a7a84482f38037c7b6613">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;cost, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferedEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges, bool preferedImplyPlanar=false)</td></tr>
-<tr class="memdesc:a585f8440256a7a84482f38037c7b6613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a585f8440256a7a84482f38037c7b6613">More...</a><br /></td></tr>
-<tr class="separator:a585f8440256a7a84482f38037c7b6613"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4b8548296419ace9ed17b1e37693f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a9f4b8548296419ace9ed17b1e37693f5">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferedEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges, bool preferedImplyPlanar=false)</td></tr>
-<tr class="memdesc:a9f4b8548296419ace9ed17b1e37693f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a9f4b8548296419ace9ed17b1e37693f5">More...</a><br /></td></tr>
-<tr class="separator:a9f4b8548296419ace9ed17b1e37693f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aede4049dbd1caddb62258884adaf4618"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#aede4049dbd1caddb62258884adaf4618">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;cost, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges)</td></tr>
-<tr class="memdesc:aede4049dbd1caddb62258884adaf4618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#aede4049dbd1caddb62258884adaf4618">More...</a><br /></td></tr>
-<tr class="separator:aede4049dbd1caddb62258884adaf4618"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6689c6befc5e2d49d7e6726eccb553cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a6689c6befc5e2d49d7e6726eccb553cf">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges)</td></tr>
-<tr class="memdesc:a6689c6befc5e2d49d7e6726eccb553cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a6689c6befc5e2d49d7e6726eccb553cf">More...</a><br /></td></tr>
-<tr class="separator:a6689c6befc5e2d49d7e6726eccb553cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1acddc2d35a39b37b6f4f467df89f0c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a1acddc2d35a39b37b6f4f467df89f0c9">callAndDelete</a> (<a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;GC, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferedEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delOrigEdges, bool preferedImplyPlanar=false)</td></tr>
-<tr class="memdesc:a1acddc2d35a39b37b6f4f467df89f0c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes <em>G</em> planar by deleting edges.  <a href="#a1acddc2d35a39b37b6f4f467df89f0c9">More...</a><br /></td></tr>
-<tr class="separator:a1acddc2d35a39b37b6f4f467df89f0c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8c150416bce0c23428ce75ad94604cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#ab8c150416bce0c23428ce75ad94604cb">callAndDelete</a> (<a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;GC, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delOrigEdges)</td></tr>
-<tr class="memdesc:ab8c150416bce0c23428ce75ad94604cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes <em>G</em> planar by deleting edges.  <a href="#ab8c150416bce0c23428ce75ad94604cb">More...</a><br /></td></tr>
-<tr class="separator:ab8c150416bce0c23428ce75ad94604cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25aee12f87e94cb8e6aaef8ac38729ef"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a25aee12f87e94cb8e6aaef8ac38729ef">clone</a> () const =0</td></tr>
-<tr class="memdesc:a25aee12f87e94cb8e6aaef8ac38729ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new instance of the planar subgraph module with the same option settings.  <a href="#a25aee12f87e94cb8e6aaef8ac38729ef">More...</a><br /></td></tr>
-<tr class="separator:a25aee12f87e94cb8e6aaef8ac38729ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafc73926697471f122b9fa0926a6ff69"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#aafc73926697471f122b9fa0926a6ff69">maxThreads</a> () const</td></tr>
-<tr class="memdesc:aafc73926697471f122b9fa0926a6ff69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximal number of used threads.  <a href="#aafc73926697471f122b9fa0926a6ff69">More...</a><br /></td></tr>
-<tr class="separator:aafc73926697471f122b9fa0926a6ff69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd9e5674130fb3a0c686bf9035155f44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#abd9e5674130fb3a0c686bf9035155f44">maxThreads</a> (unsigned int n)</td></tr>
-<tr class="memdesc:abd9e5674130fb3a0c686bf9035155f44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximal number of used threads to <em>n</em>.  <a href="#abd9e5674130fb3a0c686bf9035155f44">More...</a><br /></td></tr>
-<tr class="separator:abd9e5674130fb3a0c686bf9035155f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8936b9feac50f10678e9f3649f35d7f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a8936b9feac50f10678e9f3649f35d7f3">operator()</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferedEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges, bool preferedImplyPlanar=false)</td></tr>
-<tr class="memdesc:a8936b9feac50f10678e9f3649f35d7f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a8936b9feac50f10678e9f3649f35d7f3">More...</a><br /></td></tr>
-<tr class="separator:a8936b9feac50f10678e9f3649f35d7f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a281c5c3117a0b4a80d3cac1041ddca89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a281c5c3117a0b4a80d3cac1041ddca89">operator()</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges)</td></tr>
-<tr class="memdesc:a281c5c3117a0b4a80d3cac1041ddca89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a281c5c3117a0b4a80d3cac1041ddca89">More...</a><br /></td></tr>
-<tr class="separator:a281c5c3117a0b4a80d3cac1041ddca89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac06201daaa7ee55f24dc131018338c01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#ac06201daaa7ee55f24dc131018338c01">PlanarSubgraphModule</a> ()</td></tr>
+<tr class="memdesc:ac06201daaa7ee55f24dc131018338c01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a planar subgraph module (default constructor).  <a href="#ac06201daaa7ee55f24dc131018338c01">More...</a><br /></td></tr>
+<tr class="separator:ac06201daaa7ee55f24dc131018338c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9985510001494a1fd35a14e97b77efe0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a9985510001494a1fd35a14e97b77efe0">PlanarSubgraphModule</a> (const <a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a> &amp;psm)</td></tr>
+<tr class="memdesc:a9985510001494a1fd35a14e97b77efe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a planar subgraph module (copy constructor).  <a href="#a9985510001494a1fd35a14e97b77efe0">More...</a><br /></td></tr>
+<tr class="separator:a9985510001494a1fd35a14e97b77efe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5db8ab09b4bc115bc93eb586f9acfacd"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a5db8ab09b4bc115bc93eb586f9acfacd">~PlanarSubgraphModule</a> ()</td></tr>
+<tr class="separator:a5db8ab09b4bc115bc93eb586f9acfacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eee4f0d72f5111805d2484789118668"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a2eee4f0d72f5111805d2484789118668">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; TCost &gt; &amp;cost, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferredEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges, bool preferredImplyPlanar=false)</td></tr>
+<tr class="memdesc:a2eee4f0d72f5111805d2484789118668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a2eee4f0d72f5111805d2484789118668">More...</a><br /></td></tr>
+<tr class="separator:a2eee4f0d72f5111805d2484789118668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8be7f92e80ff21efa16576dcd1abf548"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a8be7f92e80ff21efa16576dcd1abf548">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferredEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges, bool preferredImplyPlanar=false)</td></tr>
+<tr class="memdesc:a8be7f92e80ff21efa16576dcd1abf548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a8be7f92e80ff21efa16576dcd1abf548">More...</a><br /></td></tr>
+<tr class="separator:a8be7f92e80ff21efa16576dcd1abf548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e5642d960d5813a5c514bd5ac21e210"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a0e5642d960d5813a5c514bd5ac21e210">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; TCost &gt; &amp;cost, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges)</td></tr>
+<tr class="memdesc:a0e5642d960d5813a5c514bd5ac21e210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a0e5642d960d5813a5c514bd5ac21e210">More...</a><br /></td></tr>
+<tr class="separator:a0e5642d960d5813a5c514bd5ac21e210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af446c5c12dfaf50feebc755737a0d310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#af446c5c12dfaf50feebc755737a0d310">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges)</td></tr>
+<tr class="memdesc:af446c5c12dfaf50feebc755737a0d310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#af446c5c12dfaf50feebc755737a0d310">More...</a><br /></td></tr>
+<tr class="separator:af446c5c12dfaf50feebc755737a0d310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac0383990e1e346f66ad7f59faa3b62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#aeac0383990e1e346f66ad7f59faa3b62">callAndDelete</a> (<a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;GC, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferredEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delOrigEdges, bool preferredImplyPlanar=false)</td></tr>
+<tr class="memdesc:aeac0383990e1e346f66ad7f59faa3b62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes <em>G</em> planar by deleting edges.  <a href="#aeac0383990e1e346f66ad7f59faa3b62">More...</a><br /></td></tr>
+<tr class="separator:aeac0383990e1e346f66ad7f59faa3b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4391c65df9832e07d1d115eafc5dacd3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a4391c65df9832e07d1d115eafc5dacd3">callAndDelete</a> (<a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;GC, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delOrigEdges)</td></tr>
+<tr class="memdesc:a4391c65df9832e07d1d115eafc5dacd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes <em>G</em> planar by deleting edges.  <a href="#a4391c65df9832e07d1d115eafc5dacd3">More...</a><br /></td></tr>
+<tr class="separator:a4391c65df9832e07d1d115eafc5dacd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1923e7d269d2cbd2eca8173faabb176c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a1923e7d269d2cbd2eca8173faabb176c">clone</a> () const =0</td></tr>
+<tr class="memdesc:a1923e7d269d2cbd2eca8173faabb176c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new instance of the planar subgraph module with the same option settings.  <a href="#a1923e7d269d2cbd2eca8173faabb176c">More...</a><br /></td></tr>
+<tr class="separator:a1923e7d269d2cbd2eca8173faabb176c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c5db3905839e49c32cec5b523549e3b"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a2c5db3905839e49c32cec5b523549e3b">maxThreads</a> () const</td></tr>
+<tr class="memdesc:a2c5db3905839e49c32cec5b523549e3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximal number of used threads.  <a href="#a2c5db3905839e49c32cec5b523549e3b">More...</a><br /></td></tr>
+<tr class="separator:a2c5db3905839e49c32cec5b523549e3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cff4a6407148686d5d8cc1b66ba7635"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a3cff4a6407148686d5d8cc1b66ba7635">maxThreads</a> (unsigned int n)</td></tr>
+<tr class="memdesc:a3cff4a6407148686d5d8cc1b66ba7635"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximal number of used threads to <em>n</em>.  <a href="#a3cff4a6407148686d5d8cc1b66ba7635">More...</a><br /></td></tr>
+<tr class="separator:a3cff4a6407148686d5d8cc1b66ba7635"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac750b53813db217e9e62a9c0e8f150aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#ac750b53813db217e9e62a9c0e8f150aa">operator()</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferredEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges, bool preferredImplyPlanar=false)</td></tr>
+<tr class="memdesc:ac750b53813db217e9e62a9c0e8f150aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#ac750b53813db217e9e62a9c0e8f150aa">More...</a><br /></td></tr>
+<tr class="separator:ac750b53813db217e9e62a9c0e8f150aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a6c81e3290a911c72eccd9b452e3774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a4a6c81e3290a911c72eccd9b452e3774">operator()</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges)</td></tr>
+<tr class="memdesc:a4a6c81e3290a911c72eccd9b452e3774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a4a6c81e3290a911c72eccd9b452e3774">More...</a><br /></td></tr>
+<tr class="separator:a4a6c81e3290a911c72eccd9b452e3774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classogdf_1_1_module"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classogdf_1_1_module')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classogdf_1_1_module.html">ogdf::Module</a></td></tr>
 <tr class="memitem:a583d04aa1c8fa295b53068a33a37c709 inherit pub_methods_classogdf_1_1_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_module.html#a583d04aa1c8fa295b53068a33a37c709">Module</a> ()</td></tr>
 <tr class="memdesc:a583d04aa1c8fa295b53068a33a37c709 inherit pub_methods_classogdf_1_1_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a module.  <a href="classogdf_1_1_module.html#a583d04aa1c8fa295b53068a33a37c709">More...</a><br /></td></tr>
@@ -231,15 +230,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a850ee666cfe633c67503d47b9f1b9c1c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a850ee666cfe633c67503d47b9f1b9c1c">doCall</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferedEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *pCost=0, bool preferedImplyPlanar=false)=0</td></tr>
-<tr class="memdesc:a850ee666cfe633c67503d47b9f1b9c1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a850ee666cfe633c67503d47b9f1b9c1c">More...</a><br /></td></tr>
-<tr class="separator:a850ee666cfe633c67503d47b9f1b9c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3530c64e631c69c265f24da8d8bb6132"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a3530c64e631c69c265f24da8d8bb6132">doCall</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;preferredEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;delEdges, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; TCost &gt; *pCost=nullptr, bool preferredImplyPlanar=false)=0</td></tr>
+<tr class="memdesc:a3530c64e631c69c265f24da8d8bb6132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph.  <a href="#a3530c64e631c69c265f24da8d8bb6132">More...</a><br /></td></tr>
+<tr class="separator:a3530c64e631c69c265f24da8d8bb6132"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a4d714d6c09dc20dc95a1c1f54cc5cb2e"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a4d714d6c09dc20dc95a1c1f54cc5cb2e">m_maxThreads</a></td></tr>
-<tr class="memdesc:a4d714d6c09dc20dc95a1c1f54cc5cb2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximal number of used threads.  <a href="#a4d714d6c09dc20dc95a1c1f54cc5cb2e">More...</a><br /></td></tr>
-<tr class="separator:a4d714d6c09dc20dc95a1c1f54cc5cb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a883126e71fade823d0021906857f99cd"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_subgraph_module.html#a883126e71fade823d0021906857f99cd">m_maxThreads</a></td></tr>
+<tr class="memdesc:a883126e71fade823d0021906857f99cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximal number of used threads.  <a href="#a883126e71fade823d0021906857f99cd">More...</a><br /></td></tr>
+<tr class="separator:a883126e71fade823d0021906857f99cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -263,22 +262,27 @@ Additional Inherited Members</h2></td></tr>
 <tr class="separator:abab76474e029b48d3907e09ea70c46eb inherit pro_attribs_classogdf_1_1_timeouter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Interface for planar subgraph algorithms. </p>
+<div class="textblock"><h3>template&lt;typename TCost&gt;<br />
+class ogdf::PlanarSubgraphModule&lt; TCost &gt;</h3>
+
+<p>Interface for planar subgraph algorithms. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classogdf_1_1_planarization_layout.html" title="The planarization approach for drawing graphs. ">PlanarizationLayout</a>, <a class="el" href="classogdf_1_1_planarization_grid_layout.html" title="The planarization grid layout algorithm. ">PlanarizationGridLayout</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00051">51</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00049">49</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aab754bc6fdd98f4d929b9ad710d05448"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab754bc6fdd98f4d929b9ad710d05448">&sect;&nbsp;</a></span>PlanarSubgraphModule() <span class="overload">[1/2]</span></h2>
+<a id="ac06201daaa7ee55f24dc131018338c01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac06201daaa7ee55f24dc131018338c01">&sect;&nbsp;</a></span>PlanarSubgraphModule() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ogdf::PlanarSubgraphModule::PlanarSubgraphModule </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::<a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -293,23 +297,25 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Initializes a planar subgraph module (default constructor). </p>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00057">57</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00055">55</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a6a8e32a8b412195577b2fbe72d01ce24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a8e32a8b412195577b2fbe72d01ce24">&sect;&nbsp;</a></span>PlanarSubgraphModule() <span class="overload">[2/2]</span></h2>
+<a id="a9985510001494a1fd35a14e97b77efe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9985510001494a1fd35a14e97b77efe0">&sect;&nbsp;</a></span>PlanarSubgraphModule() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ogdf::PlanarSubgraphModule::PlanarSubgraphModule </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::<a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a>&lt; TCost &gt; &amp;&#160;</td>
           <td class="paramname"><em>psm</em></td><td>)</td>
           <td></td>
         </tr>
@@ -323,21 +329,23 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Initializes a planar subgraph module (copy constructor). </p>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00066">66</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00064">64</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="aca85a13a4857827a84833dc2e0019116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca85a13a4857827a84833dc2e0019116">&sect;&nbsp;</a></span>~PlanarSubgraphModule()</h2>
+<a id="a5db8ab09b4bc115bc93eb586f9acfacd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5db8ab09b4bc115bc93eb586f9acfacd">&sect;&nbsp;</a></span>~PlanarSubgraphModule()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual ogdf::PlanarSubgraphModule::~PlanarSubgraphModule </td>
+          <td class="memname">virtual <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::~<a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -350,22 +358,24 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00071">71</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00069">69</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a585f8440256a7a84482f38037c7b6613"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a585f8440256a7a84482f38037c7b6613">&sect;&nbsp;</a></span>call() <span class="overload">[1/4]</span></h2>
+<a id="a2eee4f0d72f5111805d2484789118668"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eee4f0d72f5111805d2484789118668">&sect;&nbsp;</a></span>call() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::call </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::call </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -373,14 +383,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; TCost &gt; &amp;&#160;</td>
           <td class="paramname"><em>cost</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>preferedEdges</em>, </td>
+          <td class="paramname"><em>preferredEdges</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -392,7 +402,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>preferedImplyPlanar</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>preferredImplyPlanar</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -412,28 +422,30 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
     <tr><td class="paramname">cost</td><td>are the costs of edges. </td></tr>
-    <tr><td class="paramname">preferedEdges</td><td>are edges that should be contained in the planar subgraph. </td></tr>
+    <tr><td class="paramname">preferredEdges</td><td>are edges that should be contained in the planar subgraph. </td></tr>
     <tr><td class="paramname">delEdges</td><td>is the set of edges that need to be deleted to obtain the planar subgraph. </td></tr>
-    <tr><td class="paramname">preferedImplyPlanar</td><td>indicates that the edges <em>preferedEdges</em> induce a planar graph. </td></tr>
+    <tr><td class="paramname">preferredImplyPlanar</td><td>indicates that the edges <em>preferredEdges</em> induce a planar graph. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00082">82</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00080">80</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a9f4b8548296419ace9ed17b1e37693f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f4b8548296419ace9ed17b1e37693f5">&sect;&nbsp;</a></span>call() <span class="overload">[2/4]</span></h2>
+<a id="a8be7f92e80ff21efa16576dcd1abf548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8be7f92e80ff21efa16576dcd1abf548">&sect;&nbsp;</a></span>call() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::call </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::call </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -442,7 +454,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>preferedEdges</em>, </td>
+          <td class="paramname"><em>preferredEdges</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -454,7 +466,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>preferedImplyPlanar</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>preferredImplyPlanar</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -473,28 +485,30 @@ Additional Inherited Members</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
-    <tr><td class="paramname">preferedEdges</td><td>are edges that should be contained in the planar subgraph. </td></tr>
+    <tr><td class="paramname">preferredEdges</td><td>are edges that should be contained in the planar subgraph. </td></tr>
     <tr><td class="paramname">delEdges</td><td>is the set of edges that need to be deleted to obtain the planar subgraph. </td></tr>
-    <tr><td class="paramname">preferedImplyPlanar</td><td>indicates that the edges <em>preferedEdges</em> induce a planar graph. </td></tr>
+    <tr><td class="paramname">preferredImplyPlanar</td><td>indicates that the edges <em>preferredEdges</em> induce a planar graph. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00099">99</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00097">97</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="aede4049dbd1caddb62258884adaf4618"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aede4049dbd1caddb62258884adaf4618">&sect;&nbsp;</a></span>call() <span class="overload">[3/4]</span></h2>
+<a id="a0e5642d960d5813a5c514bd5ac21e210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e5642d960d5813a5c514bd5ac21e210">&sect;&nbsp;</a></span>call() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::call </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::call </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -502,7 +516,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; TCost &gt; &amp;&#160;</td>
           <td class="paramname"><em>cost</em>, </td>
         </tr>
         <tr>
@@ -534,21 +548,23 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00114">114</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00112">112</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a6689c6befc5e2d49d7e6726eccb553cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6689c6befc5e2d49d7e6726eccb553cf">&sect;&nbsp;</a></span>call() <span class="overload">[4/4]</span></h2>
+<a id="af446c5c12dfaf50feebc755737a0d310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af446c5c12dfaf50feebc755737a0d310">&sect;&nbsp;</a></span>call() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::call </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::call </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -581,18 +597,23 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00124">124</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00122">122</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a1acddc2d35a39b37b6f4f467df89f0c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1acddc2d35a39b37b6f4f467df89f0c9">&sect;&nbsp;</a></span>callAndDelete() <span class="overload">[1/2]</span></h2>
+<a id="aeac0383990e1e346f66ad7f59faa3b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac0383990e1e346f66ad7f59faa3b62">&sect;&nbsp;</a></span>callAndDelete() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::callAndDelete </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::callAndDelete </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;&#160;</td>
           <td class="paramname"><em>GC</em>, </td>
@@ -601,7 +622,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>preferedEdges</em>, </td>
+          <td class="paramname"><em>preferredEdges</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -613,7 +634,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>preferedImplyPlanar</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>preferredImplyPlanar</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -621,32 +642,41 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Makes <em>G</em> planar by deleting edges. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">GC</td><td>is a copy of the input graph. </td></tr>
-    <tr><td class="paramname">preferedEdges</td><td>are edges in <em>GC</em> that should be contained in the planar subgraph. </td></tr>
+    <tr><td class="paramname">preferredEdges</td><td>are edges in <em>GC</em> that should be contained in the planar subgraph. </td></tr>
     <tr><td class="paramname">delOrigEdges</td><td>is the set of original edges whose copy has been deleted in <em>GC</em>. </td></tr>
-    <tr><td class="paramname">preferedImplyPlanar</td><td>indicates that the edges <em>preferedEdges</em> induce a planar graph. </td></tr>
+    <tr><td class="paramname">preferredImplyPlanar</td><td>indicates that the edges <em>preferredEdges</em> induce a planar graph. </td></tr>
   </table>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00150">150</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+
 </div>
 </div>
-<a id="ab8c150416bce0c23428ce75ad94604cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8c150416bce0c23428ce75ad94604cb">&sect;&nbsp;</a></span>callAndDelete() <span class="overload">[2/2]</span></h2>
+<a id="a4391c65df9832e07d1d115eafc5dacd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4391c65df9832e07d1d115eafc5dacd3">&sect;&nbsp;</a></span>callAndDelete() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::callAndDelete </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::callAndDelete </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;&#160;</td>
           <td class="paramname"><em>GC</em>, </td>
@@ -679,21 +709,23 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00162">162</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00171">171</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a25aee12f87e94cb8e6aaef8ac38729ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25aee12f87e94cb8e6aaef8ac38729ef">&sect;&nbsp;</a></span>clone()</h2>
+<a id="a1923e7d269d2cbd2eca8173faabb176c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1923e7d269d2cbd2eca8173faabb176c">&sect;&nbsp;</a></span>clone()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a>* ogdf::PlanarSubgraphModule::clone </td>
+          <td class="memname">virtual <a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a>* <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::clone </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -708,21 +740,23 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns a new instance of the planar subgraph module with the same option settings. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_fast_planar_subgraph.html#a0765471505898a691ad7a9cff3eaee77">ogdf::FastPlanarSubgraph</a>, <a class="el" href="classogdf_1_1_boyer_myrvold_subgraph.html#aeed050874a4b937b5c1b6f06829dba84">ogdf::BoyerMyrvoldSubgraph</a>, and <a class="el" href="classogdf_1_1_maximal_planar_subgraph_simple.html#a8d0b3c68c00ab41ce7553def1c9de326">ogdf::MaximalPlanarSubgraphSimple</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#af32affeb8ce1eca019f8f4bf012b5603">ogdf::MaximalPlanarSubgraphSimple&lt; TCost, typename std::enable_if&lt; std::is_floating_point&lt; TCost &gt;::value &gt;::type &gt;</a>, <a class="el" href="classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html#aeaa42226155a570a76e83b5f4e99576e">ogdf::MaximalPlanarSubgraphSimple&lt; TCost, typename std::enable_if&lt; std::is_integral&lt; TCost &gt;::value &gt;::type &gt;</a>, <a class="el" href="classogdf_1_1_planar_subgraph_fast.html#ad66bdfe2a2352d30d0dacc72dcc6bf73">ogdf::PlanarSubgraphFast</a>, <a class="el" href="classogdf_1_1_planar_subgraph_boyer_myrvold.html#af9e4a282cc9180a9144a9fc871ca117d">ogdf::PlanarSubgraphBoyerMyrvold</a>, <a class="el" href="classogdf_1_1_maximum_planar_subgraph.html#aef8ed2304e509e3050db74118ec15961">ogdf::MaximumPlanarSubgraph</a>, <a class="el" href="classogdf_1_1_planar_subgraph_cactus.html#a4bffbfd01ff0a13e8420c5381defc524">ogdf::PlanarSubgraphCactus&lt; TCost &gt;</a>, and <a class="el" href="classogdf_1_1_planar_subgraph_empty.html#a1fd1e7977399c6181e382a392a6f4edf">ogdf::PlanarSubgraphEmpty&lt; TCost &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a850ee666cfe633c67503d47b9f1b9c1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a850ee666cfe633c67503d47b9f1b9c1c">&sect;&nbsp;</a></span>doCall()</h2>
+<a id="a3530c64e631c69c265f24da8d8bb6132"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3530c64e631c69c265f24da8d8bb6132">&sect;&nbsp;</a></span>doCall()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::doCall </td>
+          <td class="memname">virtual <a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::doCall </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -731,7 +765,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>preferedEdges</em>, </td>
+          <td class="paramname"><em>preferredEdges</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -742,14 +776,14 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *&#160;</td>
-          <td class="paramname"><em>pCost</em> = <code>0</code>, </td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; TCost &gt; *&#160;</td>
+          <td class="paramname"><em>pCost</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>preferedImplyPlanar</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>preferredImplyPlanar</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -768,29 +802,31 @@ Additional Inherited Members</h2></td></tr>
 <p>This is the actual algorithm call and needs to be implemented by derived classes. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
-    <tr><td class="paramname">preferedEdges</td><td>are edges that should be contained in the planar subgraph. </td></tr>
+    <tr><td class="paramname">preferredEdges</td><td>are edges that should be contained in the planar subgraph. </td></tr>
     <tr><td class="paramname">delEdges</td><td>is the set of edges that need to be deleted to obtain the planar subgraph. </td></tr>
     <tr><td class="paramname">pCost</td><td>is apointer to an edge array containing the edge costs; this pointer can be 0 if no costs are given (all edges have cost 1). </td></tr>
-    <tr><td class="paramname">preferedImplyPlanar</td><td>indicates that the edges <em>preferedEdges</em> induce a planar graph. </td></tr>
+    <tr><td class="paramname">preferredImplyPlanar</td><td>indicates that the edges <em>preferredEdges</em> induce a planar graph. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_fast_planar_subgraph.html#a3fc4dee482088deb5bba09da7f263a45">ogdf::FastPlanarSubgraph</a>, <a class="el" href="classogdf_1_1_boyer_myrvold_subgraph.html#af854e32f6286cd1543703f5a84186de5">ogdf::BoyerMyrvoldSubgraph</a>, <a class="el" href="classogdf_1_1_maximum_planar_subgraph.html#a071963a50e93ba72867049ee2c6c0889">ogdf::MaximumPlanarSubgraph</a>, and <a class="el" href="classogdf_1_1_maximal_planar_subgraph_simple.html#a8f651aec28b32c438659ea8210d29d6c">ogdf::MaximalPlanarSubgraphSimple</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a6fc71f7a82d6f7cb6f72b62dca3bbd82">ogdf::MaximalPlanarSubgraphSimple&lt; TCost, typename std::enable_if&lt; std::is_floating_point&lt; TCost &gt;::value &gt;::type &gt;</a>, <a class="el" href="classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html#af563d961bb5c174e9ca7860631dc53ac">ogdf::MaximalPlanarSubgraphSimple&lt; TCost, typename std::enable_if&lt; std::is_integral&lt; TCost &gt;::value &gt;::type &gt;</a>, <a class="el" href="classogdf_1_1_planar_subgraph_fast.html#a40c76d0d1c05f7b72b2349fd924d1beb">ogdf::PlanarSubgraphFast</a>, <a class="el" href="classogdf_1_1_planar_subgraph_boyer_myrvold.html#a0c0680cb5544a158436069230b62c56c">ogdf::PlanarSubgraphBoyerMyrvold</a>, <a class="el" href="classogdf_1_1_maximum_planar_subgraph.html#a071963a50e93ba72867049ee2c6c0889">ogdf::MaximumPlanarSubgraph</a>, <a class="el" href="classogdf_1_1_planar_subgraph_cactus.html#a11ed96721b8c411ea63b6d9f4e2c7aea">ogdf::PlanarSubgraphCactus&lt; TCost &gt;</a>, and <a class="el" href="classogdf_1_1_planar_subgraph_empty.html#ac624bfe0d1b990626a5014753c6e8155">ogdf::PlanarSubgraphEmpty&lt; TCost &gt;</a>.</p>
 
 </div>
 </div>
-<a id="aafc73926697471f122b9fa0926a6ff69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafc73926697471f122b9fa0926a6ff69">&sect;&nbsp;</a></span>maxThreads() <span class="overload">[1/2]</span></h2>
+<a id="a2c5db3905839e49c32cec5b523549e3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c5db3905839e49c32cec5b523549e3b">&sect;&nbsp;</a></span>maxThreads() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int ogdf::PlanarSubgraphModule::maxThreads </td>
+          <td class="memname">unsigned int <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::maxThreads </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -805,21 +841,23 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the maximal number of used threads. </p>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00171">171</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00180">180</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="abd9e5674130fb3a0c686bf9035155f44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd9e5674130fb3a0c686bf9035155f44">&sect;&nbsp;</a></span>maxThreads() <span class="overload">[2/2]</span></h2>
+<a id="a3cff4a6407148686d5d8cc1b66ba7635"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cff4a6407148686d5d8cc1b66ba7635">&sect;&nbsp;</a></span>maxThreads() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::PlanarSubgraphModule::maxThreads </td>
+          <td class="memname">void <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::maxThreads </td>
           <td>(</td>
           <td class="paramtype">unsigned int&#160;</td>
           <td class="paramname"><em>n</em></td><td>)</td>
@@ -835,21 +873,23 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Sets the maximal number of used threads to <em>n</em>. </p>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00174">174</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00183">183</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a8936b9feac50f10678e9f3649f35d7f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8936b9feac50f10678e9f3649f35d7f3">&sect;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
+<a id="ac750b53813db217e9e62a9c0e8f150aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac750b53813db217e9e62a9c0e8f150aa">&sect;&nbsp;</a></span>operator()() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::operator() </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::operator() </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -858,7 +898,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>preferedEdges</em>, </td>
+          <td class="paramname"><em>preferredEdges</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -870,7 +910,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>preferedImplyPlanar</em> = <code>false</code>&#160;</td>
+          <td class="paramname"><em>preferredImplyPlanar</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -887,21 +927,23 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph. </p>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00131">131</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00129">129</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a281c5c3117a0b4a80d3cac1041ddca89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a281c5c3117a0b4a80d3cac1041ddca89">&sect;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
+<a id="a4a6c81e3290a911c72eccd9b452e3774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a6c81e3290a911c72eccd9b452e3774">&sect;&nbsp;</a></span>operator()() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ogdf::PlanarSubgraphModule::operator() </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::operator() </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -927,22 +969,24 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns the set of edges <em>delEdges</em> which have to be deleted to obtain the planar subgraph. </p>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00140">140</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00138">138</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4d714d6c09dc20dc95a1c1f54cc5cb2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d714d6c09dc20dc95a1c1f54cc5cb2e">&sect;&nbsp;</a></span>m_maxThreads</h2>
+<a id="a883126e71fade823d0021906857f99cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a883126e71fade823d0021906857f99cd">&sect;&nbsp;</a></span>m_maxThreads</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename TCost&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int ogdf::PlanarSubgraphModule::m_maxThreads</td>
+          <td class="memname">unsigned int <a class="el" href="classogdf_1_1_planar_subgraph_module.html">ogdf::PlanarSubgraphModule</a>&lt; TCost &gt;::m_maxThreads</td>
         </tr>
       </table>
   </td>
@@ -954,7 +998,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The maximal number of used threads. </p>
 
-<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00053">53</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_subgraph_module_8h_source.html#l00051">51</a> of file <a class="el" href="_planar_subgraph_module_8h_source.html">PlanarSubgraphModule.h</a>.</p>
 
 </div>
 </div>
@@ -967,7 +1011,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_planar_subgraph_module.html">PlanarSubgraphModule</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

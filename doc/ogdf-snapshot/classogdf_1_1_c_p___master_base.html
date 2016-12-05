@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -140,15 +140,14 @@ $(document).ready(function(){initNavTree('classogdf_1_1_c_p___master_base.html',
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_c_p___master_base.png" usemap="#ogdf::CP_5FMasterBase_map" alt=""/>
-  <map id="ogdf::CP_5FMasterBase_map" name="ogdf::CP_MasterBase_map">
-<area href="classabacus_1_1_master.html" title="The master of the optimization. " alt="abacus::Master" shape="rect" coords="0,112,141,136"/>
-<area href="classabacus_1_1_abacus_global.html" title="Global data and functions. " alt="abacus::AbacusGlobal" shape="rect" coords="0,56,141,80"/>
-<area href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="abacus::AbacusRoot" shape="rect" coords="0,0,141,24"/>
-<area href="classogdf_1_1_c_planarity_master.html" alt="ogdf::CPlanarityMaster" shape="rect" coords="0,224,141,248"/>
+<div class="center"><img src="classogdf_1_1_c_p___master_base__inherit__graph.png" border="0" usemap="#ogdf_1_1_c_p___master_base_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_c_p___master_base_inherit__map" id="ogdf_1_1_c_p___master_base_inherit__map">
+<area shape="rect" id="node5" href="classogdf_1_1_c_planarity_master.html" title="ogdf::CPlanarityMaster" alt="" coords="5,304,161,331"/>
+<area shape="rect" id="node2" href="classabacus_1_1_master.html" title="The master of the optimization. " alt="" coords="27,155,139,181"/>
+<area shape="rect" id="node3" href="classabacus_1_1_abacus_global.html" title="Global data and functions. " alt="" coords="7,80,160,107"/>
+<area shape="rect" id="node4" href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="11,5,155,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -234,6 +233,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aed811b35b5c8795bb2f5f6ecc1e9eece"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#aed811b35b5c8795bb2f5f6ecc1e9eece">CP_MasterBase</a> (const <a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, int <a class="el" href="classogdf_1_1_c_p___master_base.html#ac000c2ea60fafb4024e1ed3a99d87b9f">heuristicLevel</a>=1, int heuristicRuns=2, double heuristicOEdgeBound=0.3, int heuristicNPermLists=5, int kuratowskiIterations=3, int subdivisions=10, int kSupportGraphs=3, double kuratowskiHigh=0.7, double kuratowskiLow=0.3, bool <a class="el" href="classogdf_1_1_c_p___master_base.html#a683c6b16505eb2e7566b5cc7064a7a33">perturbation</a>=false, double branchingGap=0.4, const char *time=&quot;00:05:00&quot;, bool dopricing=false, int numAddVariables=15, double strongConstraintViolation=0.3, double strongVariableViolation=0.3)</td></tr>
 <tr class="separator:aed811b35b5c8795bb2f5f6ecc1e9eece"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc9afafb8f8fb0310633d5fba4e9d103"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#acc9afafb8f8fb0310633d5fba4e9d103">~CP_MasterBase</a> ()</td></tr>
+<tr class="memdesc:acc9afafb8f8fb0310633d5fba4e9d103"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruction.  <a href="#acc9afafb8f8fb0310633d5fba4e9d103">More...</a><br /></td></tr>
 <tr class="separator:acc9afafb8f8fb0310633d5fba4e9d103"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a080553c2511b7839c173a4259222d72f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a080553c2511b7839c173a4259222d72f">addedCConstraints</a> () const</td></tr>
 <tr class="separator:a080553c2511b7839c173a4259222d72f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -245,10 +245,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af4ff01ef416bab148edc886c6baa4fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7cedaf4bd480a476be3ed8eff66b28a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ab7cedaf4bd480a476be3ed8eff66b28a">getConnectionOptimalSolutionEdges</a> (<a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="structogdf_1_1node_pair.html">nodePair</a> &gt; &amp;edges) const</td></tr>
 <tr class="separator:ab7cedaf4bd480a476be3ed8eff66b28a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a869364ca47073585e81c4e179d4ca570"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a869364ca47073585e81c4e179d4ca570">getCutConnPool</a> ()</td></tr>
+<tr class="memitem:a869364ca47073585e81c4e179d4ca570"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a869364ca47073585e81c4e179d4ca570">getCutConnPool</a> ()</td></tr>
 <tr class="memdesc:a869364ca47073585e81c4e179d4ca570"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cut pool for connectivity.  <a href="#a869364ca47073585e81c4e179d4ca570">More...</a><br /></td></tr>
 <tr class="separator:a869364ca47073585e81c4e179d4ca570"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c1e9d64e7d607d2f2149c23007157aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a7c1e9d64e7d607d2f2149c23007157aa">getCutKuraPool</a> ()</td></tr>
+<tr class="memitem:a7c1e9d64e7d607d2f2149c23007157aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a7c1e9d64e7d607d2f2149c23007157aa">getCutKuraPool</a> ()</td></tr>
 <tr class="memdesc:a7c1e9d64e7d607d2f2149c23007157aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cut pool for planarity.  <a href="#a7c1e9d64e7d607d2f2149c23007157aa">More...</a><br /></td></tr>
 <tr class="separator:a7c1e9d64e7d607d2f2149c23007157aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbf250750db95c5ff01d5cf9d2d3e19a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#adbf250750db95c5ff01d5cf9d2d3e19a">getDualBound</a> ()</td></tr>
@@ -379,10 +379,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a80dd8f449750734f23d82eeea78cfde7 inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#a80dd8f449750734f23d82eeea78cfde7">conElimMode</a> (<a class="el" href="classabacus_1_1_master.html#a7caf5764b1d761b34eb46d8d329cf1a7">CONELIMMODE</a> mode)</td></tr>
 <tr class="memdesc:a80dd8f449750734f23d82eeea78cfde7 inherit pub_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the constraint elimination mode to <em>mode</em>.  <a href="classabacus_1_1_master.html#a80dd8f449750734f23d82eeea78cfde7">More...</a><br /></td></tr>
 <tr class="separator:a80dd8f449750734f23d82eeea78cfde7 inherit pub_methods_classabacus_1_1_master"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac18e1a21a2bba83853f4106fbf8420a8 inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">StandardPool</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#ac18e1a21a2bba83853f4106fbf8420a8">conPool</a> () const</td></tr>
+<tr class="memitem:ac18e1a21a2bba83853f4106fbf8420a8 inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">StandardPool</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#ac18e1a21a2bba83853f4106fbf8420a8">conPool</a> () const</td></tr>
 <tr class="memdesc:ac18e1a21a2bba83853f4106fbf8420a8 inherit pub_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the default pool storing the constraints of the problem formulation.  <a href="classabacus_1_1_master.html#ac18e1a21a2bba83853f4106fbf8420a8">More...</a><br /></td></tr>
 <tr class="separator:ac18e1a21a2bba83853f4106fbf8420a8 inherit pub_methods_classabacus_1_1_master"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add770e39200e3442a23c22b67dd754c4 inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">StandardPool</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#add770e39200e3442a23c22b67dd754c4">cutPool</a> () const</td></tr>
+<tr class="memitem:add770e39200e3442a23c22b67dd754c4 inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">StandardPool</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#add770e39200e3442a23c22b67dd754c4">cutPool</a> () const</td></tr>
 <tr class="memdesc:add770e39200e3442a23c22b67dd754c4 inherit pub_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the default pool for the generated cutting planes.  <a href="classabacus_1_1_master.html#add770e39200e3442a23c22b67dd754c4">More...</a><br /></td></tr>
 <tr class="separator:add770e39200e3442a23c22b67dd754c4 inherit pub_methods_classabacus_1_1_master"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91ebaa3f00a0ce0d1f1985d89b2e6f82 inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#a91ebaa3f00a0ce0d1f1985d89b2e6f82">cutting</a> () const</td></tr>
@@ -682,7 +682,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4c2d18f1966c2703c82a9ad1ad6f5c9b inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#a4c2d18f1966c2703c82a9ad1ad6f5c9b">varElimMode</a> (<a class="el" href="classabacus_1_1_master.html#a5c04562ea24298ec9aa48901b201c006">VARELIMMODE</a> mode)</td></tr>
 <tr class="memdesc:a4c2d18f1966c2703c82a9ad1ad6f5c9b inherit pub_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes the variable elimination mode to <em>mode</em>.  <a href="classabacus_1_1_master.html#a4c2d18f1966c2703c82a9ad1ad6f5c9b">More...</a><br /></td></tr>
 <tr class="separator:a4c2d18f1966c2703c82a9ad1ad6f5c9b inherit pub_methods_classabacus_1_1_master"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0389dbe6b1963734c13eba490e92099c inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">StandardPool</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#a0389dbe6b1963734c13eba490e92099c">varPool</a> () const</td></tr>
+<tr class="memitem:a0389dbe6b1963734c13eba490e92099c inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">StandardPool</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#a0389dbe6b1963734c13eba490e92099c">varPool</a> () const</td></tr>
 <tr class="memdesc:a0389dbe6b1963734c13eba490e92099c inherit pub_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the default pool storing the variables.  <a href="classabacus_1_1_master.html#a0389dbe6b1963734c13eba490e92099c">More...</a><br /></td></tr>
 <tr class="separator:a0389dbe6b1963734c13eba490e92099c inherit pub_methods_classabacus_1_1_master"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd190dc5f8f0ea5a278ed4bec7b1e0a4 inherit pub_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_master.html#acacab76a74b72b99aad543978fc6ef73">VBCMODE</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#abd190dc5f8f0ea5a278ed4bec7b1e0a4">vbcLog</a> () const</td></tr>
@@ -743,12 +743,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7e3022836990a585584d7f1c927d59d9 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_abacus_global.html#a7e3022836990a585584d7f1c927d59d9">assignParameter</a> (bool &amp;param, const char *name) const</td></tr>
 <tr class="memdesc:a7e3022836990a585584d7f1c927d59d9 inherit pub_methods_classabacus_1_1_abacus_global"><td class="mdescLeft">&#160;</td><td class="mdescRight">See AbacusGlobal::assignParameter(int&amp;,const char*,int,int) for a description.  <a href="classabacus_1_1_abacus_global.html#a7e3022836990a585584d7f1c927d59d9">More...</a><br /></td></tr>
 <tr class="separator:a7e3022836990a585584d7f1c927d59d9 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e2fc4c049b488b760358227fbea32b9 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_abacus_global.html#a4e2fc4c049b488b760358227fbea32b9">assignParameter</a> (string &amp;param, const char *name, unsigned nFeasible=0, const char *feasible[]=0) const</td></tr>
-<tr class="memdesc:a4e2fc4c049b488b760358227fbea32b9 inherit pub_methods_classabacus_1_1_abacus_global"><td class="mdescLeft">&#160;</td><td class="mdescRight">See AbacusGlobal::assignParameter(int&amp;,const char*,int,int) for a description.  <a href="classabacus_1_1_abacus_global.html#a4e2fc4c049b488b760358227fbea32b9">More...</a><br /></td></tr>
-<tr class="separator:a4e2fc4c049b488b760358227fbea32b9 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d8eb0bab65dd5412d767669c7697fb2 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_abacus_global.html#a9d8eb0bab65dd5412d767669c7697fb2">assignParameter</a> (char &amp;param, const char *name, const char *feasible=0) const</td></tr>
-<tr class="memdesc:a9d8eb0bab65dd5412d767669c7697fb2 inherit pub_methods_classabacus_1_1_abacus_global"><td class="mdescLeft">&#160;</td><td class="mdescRight">See AbacusGlobal::assignParameter(int&amp;,const char*,int,int) for a description.  <a href="classabacus_1_1_abacus_global.html#a9d8eb0bab65dd5412d767669c7697fb2">More...</a><br /></td></tr>
-<tr class="separator:a9d8eb0bab65dd5412d767669c7697fb2 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337212b3cc23287207786093e87c0985 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_abacus_global.html#a337212b3cc23287207786093e87c0985">assignParameter</a> (string &amp;param, const char *name, unsigned nFeasible=0, const char *feasible[]=nullptr) const</td></tr>
+<tr class="memdesc:a337212b3cc23287207786093e87c0985 inherit pub_methods_classabacus_1_1_abacus_global"><td class="mdescLeft">&#160;</td><td class="mdescRight">See AbacusGlobal::assignParameter(int&amp;,const char*,int,int) for a description.  <a href="classabacus_1_1_abacus_global.html#a337212b3cc23287207786093e87c0985">More...</a><br /></td></tr>
+<tr class="separator:a337212b3cc23287207786093e87c0985 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1b42b38fe72755ff357527f6629ea41 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_abacus_global.html#ab1b42b38fe72755ff357527f6629ea41">assignParameter</a> (char &amp;param, const char *name, const char *feasible=nullptr) const</td></tr>
+<tr class="memdesc:ab1b42b38fe72755ff357527f6629ea41 inherit pub_methods_classabacus_1_1_abacus_global"><td class="mdescLeft">&#160;</td><td class="mdescRight">See AbacusGlobal::assignParameter(int&amp;,const char*,int,int) for a description.  <a href="classabacus_1_1_abacus_global.html#ab1b42b38fe72755ff357527f6629ea41">More...</a><br /></td></tr>
+<tr class="separator:ab1b42b38fe72755ff357527f6629ea41 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe24721cf0ae4f7a00eac56eac1d0fc2 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_abacus_global.html#abe24721cf0ae4f7a00eac56eac1d0fc2">assignParameter</a> (int &amp;param, const char *name, int minVal, int maxVal, int defVal) const</td></tr>
 <tr class="memdesc:abe24721cf0ae4f7a00eac56eac1d0fc2 inherit pub_methods_classabacus_1_1_abacus_global"><td class="mdescLeft">&#160;</td><td class="mdescRight">See AbacusGlobal::assignParameter(int&amp;,const char*,int,int) for a description.  <a href="classabacus_1_1_abacus_global.html#abe24721cf0ae4f7a00eac56eac1d0fc2">More...</a><br /></td></tr>
 <tr class="separator:abe24721cf0ae4f7a00eac56eac1d0fc2 inherit pub_methods_classabacus_1_1_abacus_global"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -853,15 +853,15 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:ab8e40ce5f0ca8f4c3f38854948bacf6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab86c70fe5ee9fde3bd982cc42c381503"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ab86c70fe5ee9fde3bd982cc42c381503">heuristicInitialUpperBound</a> ()</td></tr>
 <tr class="separator:ab86c70fe5ee9fde3bd982cc42c381503"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab606bd62c7167bfd61cd2d88866d8257"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ab606bd62c7167bfd61cd2d88866d8257">initializeOptimization</a> ()=0</td></tr>
-<tr class="memdesc:ab606bd62c7167bfd61cd2d88866d8257"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default implementation of <em><a class="el" href="classogdf_1_1_c_p___master_base.html#ab606bd62c7167bfd61cd2d88866d8257" title="The default implementation of initializeOptimization() does nothing. ">initializeOptimization()</a></em> does nothing.  <a href="#ab606bd62c7167bfd61cd2d88866d8257">More...</a><br /></td></tr>
-<tr class="separator:ab606bd62c7167bfd61cd2d88866d8257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1916d841a426125ca917c9bc6e0dc284"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a1916d841a426125ca917c9bc6e0dc284">initializeOptimization</a> () override=0</td></tr>
+<tr class="memdesc:a1916d841a426125ca917c9bc6e0dc284"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default implementation of <em><a class="el" href="classogdf_1_1_c_p___master_base.html#a1916d841a426125ca917c9bc6e0dc284" title="The default implementation of initializeOptimization() does nothing. ">initializeOptimization()</a></em> does nothing.  <a href="#a1916d841a426125ca917c9bc6e0dc284">More...</a><br /></td></tr>
+<tr class="separator:a1916d841a426125ca917c9bc6e0dc284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a563f2395f2dd3a1ab99f8b76954b4404"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a563f2395f2dd3a1ab99f8b76954b4404">isCP</a> ()=0</td></tr>
 <tr class="memdesc:a563f2395f2dd3a1ab99f8b76954b4404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derives and returns c-planarity property either directly or indirectly from computation results.  <a href="#a563f2395f2dd3a1ab99f8b76954b4404">More...</a><br /></td></tr>
 <tr class="separator:a563f2395f2dd3a1ab99f8b76954b4404"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacac0bbf0629b80faf8b79ebef3ece43"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#aacac0bbf0629b80faf8b79ebef3ece43">terminateOptimization</a> ()</td></tr>
-<tr class="memdesc:aacac0bbf0629b80faf8b79ebef3ece43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that is invoked at the end of the optimization. Does nothing but output in <a class="el" href="classogdf_1_1_c_p___master_base.html">CP_MasterBase</a>.  <a href="#aacac0bbf0629b80faf8b79ebef3ece43">More...</a><br /></td></tr>
-<tr class="separator:aacac0bbf0629b80faf8b79ebef3ece43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04d3150fc5bb4004fc5e235c30005320"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a04d3150fc5bb4004fc5e235c30005320">terminateOptimization</a> () override</td></tr>
+<tr class="memdesc:a04d3150fc5bb4004fc5e235c30005320"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that is invoked at the end of the optimization. Does nothing but output in <a class="el" href="classogdf_1_1_c_p___master_base.html">CP_MasterBase</a>.  <a href="#a04d3150fc5bb4004fc5e235c30005320">More...</a><br /></td></tr>
+<tr class="separator:a04d3150fc5bb4004fc5e235c30005320"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classabacus_1_1_master"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classabacus_1_1_master')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classabacus_1_1_master.html">abacus::Master</a></td></tr>
 <tr class="memitem:a556c048f5bb77dd294d717032ea489d1 inherit pro_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#a556c048f5bb77dd294d717032ea489d1">assignParameters</a> ()</td></tr>
 <tr class="memdesc:a556c048f5bb77dd294d717032ea489d1 inherit pro_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the parameters that were read from a file to the member variables of the master.  <a href="classabacus_1_1_master.html#a556c048f5bb77dd294d717032ea489d1">More...</a><br /></td></tr>
@@ -890,10 +890,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aeb0bbe8e7f0d60f3e48d550a0d7258bf inherit pro_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#aeb0bbe8e7f0d60f3e48d550a0d7258bf">initializeParameters</a> ()</td></tr>
 <tr class="memdesc:aeb0bbe8e7f0d60f3e48d550a0d7258bf inherit pro_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is only a dummy.  <a href="classabacus_1_1_master.html#aeb0bbe8e7f0d60f3e48d550a0d7258bf">More...</a><br /></td></tr>
 <tr class="separator:aeb0bbe8e7f0d60f3e48d550a0d7258bf inherit pro_methods_classabacus_1_1_master"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adcaf7dd9336ec37e07d67441c32a216d inherit pro_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#adcaf7dd9336ec37e07d67441c32a216d">initializePools</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> *&gt; &amp;constraints, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a> *&gt; &amp;variables, int varPoolSize, int cutPoolSize, bool dynamicCutPool=false)</td></tr>
+<tr class="memitem:adcaf7dd9336ec37e07d67441c32a216d inherit pro_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#adcaf7dd9336ec37e07d67441c32a216d">initializePools</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> *&gt; &amp;constraints, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a> *&gt; &amp;variables, int varPoolSize, int cutPoolSize, bool dynamicCutPool=false)</td></tr>
 <tr class="memdesc:adcaf7dd9336ec37e07d67441c32a216d inherit pro_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the default pools for variables, constraints, and cutting planes.  <a href="classabacus_1_1_master.html#adcaf7dd9336ec37e07d67441c32a216d">More...</a><br /></td></tr>
 <tr class="separator:adcaf7dd9336ec37e07d67441c32a216d inherit pro_methods_classabacus_1_1_master"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaa43679b3f03dcc53a991ced0cc437a inherit pro_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#acaa43679b3f03dcc53a991ced0cc437a">initializePools</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> *&gt; &amp;constraints, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> *&gt; &amp;cuts, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a> *&gt; &amp;variables, int varPoolSize, int cutPoolSize, bool dynamicCutPool=false)</td></tr>
+<tr class="memitem:acaa43679b3f03dcc53a991ced0cc437a inherit pro_methods_classabacus_1_1_master"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_master.html#acaa43679b3f03dcc53a991ced0cc437a">initializePools</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> *&gt; &amp;constraints, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> *&gt; &amp;cuts, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a> *&gt; &amp;variables, int varPoolSize, int cutPoolSize, bool dynamicCutPool=false)</td></tr>
 <tr class="memdesc:acaa43679b3f03dcc53a991ced0cc437a inherit pro_methods_classabacus_1_1_master"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is overloaded such that also a first set of cutting planes can be inserted into the cutting plane pool.  <a href="classabacus_1_1_master.html#acaa43679b3f03dcc53a991ced0cc437a">More...</a><br /></td></tr>
 <tr class="separator:acaa43679b3f03dcc53a991ced0cc437a inherit pro_methods_classabacus_1_1_master"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -913,10 +913,10 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:adc34230e792570cc1e12c0b00c89251e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="structogdf_1_1node_pair.html">nodePair</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#adc34230e792570cc1e12c0b00c89251e">m_connectionOneEdges</a></td></tr>
 <tr class="memdesc:adc34230e792570cc1e12c0b00c89251e"><td class="mdescLeft">&#160;</td><td class="mdescRight">stores optimization success state  <a href="#adc34230e792570cc1e12c0b00c89251e">More...</a><br /></td></tr>
 <tr class="separator:adc34230e792570cc1e12c0b00c89251e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae91f819c06dd1376d1e86d5047321ea1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ae91f819c06dd1376d1e86d5047321ea1">m_cutConnPool</a></td></tr>
+<tr class="memitem:ae91f819c06dd1376d1e86d5047321ea1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ae91f819c06dd1376d1e86d5047321ea1">m_cutConnPool</a></td></tr>
 <tr class="memdesc:ae91f819c06dd1376d1e86d5047321ea1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cut pools for connectivity and Kuratowski constraints.  <a href="#ae91f819c06dd1376d1e86d5047321ea1">More...</a><br /></td></tr>
 <tr class="separator:ae91f819c06dd1376d1e86d5047321ea1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d01bb1abee91b3592ef609e45769399"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a0d01bb1abee91b3592ef609e45769399">m_cutKuraPool</a></td></tr>
+<tr class="memitem:a0d01bb1abee91b3592ef609e45769399"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a0d01bb1abee91b3592ef609e45769399">m_cutKuraPool</a></td></tr>
 <tr class="memdesc:a0d01bb1abee91b3592ef609e45769399"><td class="mdescLeft">&#160;</td><td class="mdescRight">Kuratowski Cuts.  <a href="#a0d01bb1abee91b3592ef609e45769399">More...</a><br /></td></tr>
 <tr class="separator:a0d01bb1abee91b3592ef609e45769399"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87c6591966afc8aed93f98101f9d716f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#a87c6591966afc8aed93f98101f9d716f">m_G</a></td></tr>
@@ -1001,7 +1001,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:ab9770325cd8c796d165f1e66b32756ab"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classogdf_1_1_c_planar_edge_var.html">CPlanarEdgeVar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ab9770325cd8c796d165f1e66b32756ab">createVariable</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> a, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> b)</td></tr>
 <tr class="memdesc:ab9770325cd8c796d165f1e66b32756ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Variable creation for pair of nodes which is not stored in m_inactiveVariables.  <a href="#ab9770325cd8c796d165f1e66b32756ab">More...</a><br /></td></tr>
 <tr class="separator:ab9770325cd8c796d165f1e66b32756ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae88dc4cddd580af5cacff17c22c8b07a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ae88dc4cddd580af5cacff17c22c8b07a">getCoefficients</a> (<a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a> *con, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="classogdf_1_1_c_planar_edge_var.html">CPlanarEdgeVar</a> * &gt; &amp;connect, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; double &gt; &amp;coeffs)</td></tr>
+<tr class="memitem:ae88dc4cddd580af5cacff17c22c8b07a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ae88dc4cddd580af5cacff17c22c8b07a">getCoefficients</a> (<a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a> *con, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="classogdf_1_1_c_planar_edge_var.html">CPlanarEdgeVar</a> * &gt; &amp;connect, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; double &gt; &amp;coeffs)</td></tr>
 <tr class="memdesc:ae88dc4cddd580af5cacff17c22c8b07a"><td class="mdescLeft">&#160;</td><td class="mdescRight">writes coefficients of all orig and connect variables in constraint con into emptied list coeffs  <a href="#ae88dc4cddd580af5cacff17c22c8b07a">More...</a><br /></td></tr>
 <tr class="separator:ae88dc4cddd580af5cacff17c22c8b07a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab87910af39dd6b284b881ac630e267fa"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_c_p___master_base.html#ab87910af39dd6b284b881ac630e267fa">nextConnectCoeff</a> ()</td></tr>
@@ -1066,7 +1066,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00051">51</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00048">48</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a72ca9b4033c169f6494ab219dfce85b7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a72ca9b4033c169f6494ab219dfce85b7">&sect;&nbsp;</a></span>solutionstate</h2>
@@ -1085,7 +1085,7 @@ Additional Inherited Members</h2></td></tr>
 <tr><td class="fieldname"><a id="a72ca9b4033c169f6494ab219dfce85b7af4987fcb933d74d51e52dec8390d9d07"></a>ss_ncp&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00055">55</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00052">52</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1231,6 +1231,8 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Destruction. </p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -1257,7 +1259,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00126">126</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00127">127</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1284,7 +1286,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00125">125</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00126">126</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1311,7 +1313,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00276">276</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00279">279</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1349,7 +1351,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a566700f03504c02f76fac934d0591f6f">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a04d865c7e9934e5bcd3e8c0c5ffd7bdf">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -1379,7 +1381,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Creates variables for complete connectivity. </p>
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a2a34dbd198e044cb24b061b026261604">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#aa28879627e6319c48a0b48792b95792b">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -1409,7 +1411,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>All variables that have to be present at start of optimization are created here. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a1318d1a2d90516c61f5eb1cef31bffce">ogdf::CPlanarityMaster</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a9c45dd0eb8a33655112c2e08142c908e">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -1439,9 +1441,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Variable creation for <a class="el" href="structogdf_1_1node_pair.html" title="Struct for storing the two corresponding nodes of an edge. ">nodePair</a>. </p>
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#afcca22dd91bfca3a847090b8837c48b4">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a08fc362d833fed02a7d3cdd315b7d2e8">ogdf::CPlanarityMaster</a>.</p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00324">324</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00333">333</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1481,9 +1483,9 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Variable creation for pair of nodes which is not stored in m_inactiveVariables. </p>
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a925c9322abb7747294eac163702c9ff8">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#acf3369f56b266b3ba6449b16c14f7b68">ogdf::CPlanarityMaster</a>.</p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00334">334</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00343">343</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1510,7 +1512,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00084">84</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00083">83</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1537,7 +1539,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00093">93</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00092">92</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1553,7 +1555,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual void ogdf::CP_MasterBase::getCoefficients </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a> *&#160;</td>
           <td class="paramname"><em>con</em>, </td>
         </tr>
         <tr>
@@ -1583,7 +1585,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>writes coefficients of all orig and connect variables in constraint con into emptied list coeffs </p>
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a0291c7a94819121cd522fe5978de42a6">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a6654fc5f10ca680aa638d3e9ce1c5464">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -1611,7 +1613,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a3521e67cee836e33948ea53c84f25767">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a22b49329a2e0eb2719bf2e56dd9569b2">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -1625,7 +1627,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt;<a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a>&gt;* ogdf::CP_MasterBase::getCutConnPool </td>
+          <td class="memname"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt;<a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a>&gt;* ogdf::CP_MasterBase::getCutConnPool </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1640,7 +1642,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns cut pool for connectivity. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00159">159</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00160">160</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1654,7 +1656,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt;<a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a>&gt;* ogdf::CP_MasterBase::getCutKuraPool </td>
+          <td class="memname"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt;<a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a>&gt;* ogdf::CP_MasterBase::getCutKuraPool </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1669,7 +1671,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns cut pool for planarity. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00161">161</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00162">162</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1697,7 +1699,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00286">286</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00289">289</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1724,7 +1726,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00155">155</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00156">156</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1751,7 +1753,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00090">90</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00089">89</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1778,7 +1780,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00117">117</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00118">118</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1805,7 +1807,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00111">111</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00110">110</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1832,7 +1834,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00112">112</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00111">111</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1859,7 +1861,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00113">113</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00112">112</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1886,7 +1888,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00114">114</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00113">113</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1913,7 +1915,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00108">108</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00107">107</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1940,7 +1942,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00119">119</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00120">120</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1967,7 +1969,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00110">110</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00109">109</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -1994,7 +1996,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00109">109</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00108">108</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2021,7 +2023,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00120">120</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00121">121</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2048,7 +2050,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00185">185</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00186">186</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2075,7 +2077,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00154">154</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00155">155</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2104,7 +2106,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>The name of the file that contains the standard, i.e., non-cut, constraints (may be deleted by ABACUS and shouldn't be stored twice) </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00180">180</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00181">181</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2131,7 +2133,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00121">121</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00122">122</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2158,7 +2160,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00122">122</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00123">123</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2196,9 +2198,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a8258cdeb6611ae2446f5b86acc3fa2b2">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a345f8e47926a66b1b464192f42a63bb9">ogdf::CPlanarityMaster</a>.</p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00232">232</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00233">233</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2225,7 +2227,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a97798d9a2b78e779a82efb404d9077f3">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a419864ab9589494300e5851a8b66d4fe">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -2252,7 +2254,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a2da45843905dc9d49460e6c85bd78947">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a6de31f2a43fc7f025714a8e269608f22">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -2280,12 +2282,12 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00136">136</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00137">137</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
-<a id="ab606bd62c7167bfd61cd2d88866d8257"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab606bd62c7167bfd61cd2d88866d8257">&sect;&nbsp;</a></span>initializeOptimization()</h2>
+<a id="a1916d841a426125ca917c9bc6e0dc284"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1916d841a426125ca917c9bc6e0dc284">&sect;&nbsp;</a></span>initializeOptimization()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2302,17 +2304,17 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>The default implementation of <em><a class="el" href="classogdf_1_1_c_p___master_base.html#ab606bd62c7167bfd61cd2d88866d8257" title="The default implementation of initializeOptimization() does nothing. ">initializeOptimization()</a></em> does nothing. </p>
+<p>The default implementation of <em><a class="el" href="classogdf_1_1_c_p___master_base.html#a1916d841a426125ca917c9bc6e0dc284" title="The default implementation of initializeOptimization() does nothing. ">initializeOptimization()</a></em> does nothing. </p>
 <p>This virtual function can be used as an entrance point to perform some initializations after <em><a class="el" href="classabacus_1_1_master.html#ac6e7420a4a5338b5a283be5616465e9e" title="Performs the optimization by branch-and-bound. ">optimize()</a></em> is called. </p>
 
 <p>Reimplemented from <a class="el" href="classabacus_1_1_master.html#abc0e6a02a4d9cd95fe62cede5507b8ed">abacus::Master</a>.</p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a97b58af1245b2619980ec782700c5e2c">ogdf::CPlanarityMaster</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a4ebe2c0fd964a7def1bfb4ec39e41891">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -2341,7 +2343,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns a value that allows to distinguish result values when connection edges (tiny negative cost) are added. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00169">169</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00170">170</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2370,7 +2372,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Derives and returns c-planarity property either directly or indirectly from computation results. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#ac4b87532f6a71a8bafa5f5dfce085312">ogdf::CPlanarityMaster</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a7c51042203ee643e160ba72f360d0d86">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -2397,9 +2399,9 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#addba7d176049044629619d1f478e2d9a">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#af7ba396cbfd89864c49e43d7eff4ca73">ogdf::CPlanarityMaster</a>.</p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00321">321</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00328">328</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2426,7 +2428,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00087">87</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00086">86</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2464,7 +2466,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#aa1dfe58f82fa1e5b33dd88269fedd7f4">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#ac8e5d32b70c8aa2cede8f39a9d96cf71">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -2491,7 +2493,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00118">118</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00119">119</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2518,7 +2520,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00115">115</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00114">114</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2546,7 +2548,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00139">139</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00140">140</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2574,7 +2576,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00140">140</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00141">141</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2602,7 +2604,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00137">137</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00138">138</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2630,7 +2632,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00134">134</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00135">135</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2658,7 +2660,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00135">135</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00136">136</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2686,7 +2688,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00130">130</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00131">131</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2716,7 +2718,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Switches use of lower bound heuristic. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00141">141</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00142">142</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2744,7 +2746,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00133">133</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00134">134</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2772,7 +2774,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00132">132</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00133">133</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2800,7 +2802,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00131">131</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00132">132</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2828,7 +2830,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00142">142</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00143">143</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2856,7 +2858,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00138">138</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00139">139</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2886,7 +2888,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>If set to true, PORTA output is written in a file. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00147">147</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00148">148</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2914,7 +2916,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00143">143</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00144">144</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2942,7 +2944,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00144">144</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00145">145</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2970,7 +2972,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00105">105</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00104">104</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -2997,14 +2999,14 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a08cf66c3186b50f8315f5b7411712659">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a823507bb04270d834bba416c79f8a625">ogdf::CPlanarityMaster</a>.</p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00100">100</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00099">99</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
-<a id="aacac0bbf0629b80faf8b79ebef3ece43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacac0bbf0629b80faf8b79ebef3ece43">&sect;&nbsp;</a></span>terminateOptimization()</h2>
+<a id="a04d3150fc5bb4004fc5e235c30005320"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04d3150fc5bb4004fc5e235c30005320">&sect;&nbsp;</a></span>terminateOptimization()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3021,7 +3023,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -3030,7 +3032,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classabacus_1_1_master.html#afab6da9bbeeade8f3b3014d8ea4ef835">abacus::Master</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a39c55846b12f2b70b1cfa8e325e990c8">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a773c0870157f58d4cae7f5776dac2b04">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -3058,7 +3060,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00150">150</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00151">151</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3086,7 +3088,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00151">151</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00152">152</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3114,7 +3116,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#a63146a1f8d7ca9393e30336611806086">ogdf::CPlanarityMaster</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_c_planarity_master.html#ac4182733cdf8062210dc6e5392640bf5">ogdf::CPlanarityMaster</a>.</p>
 
 </div>
 </div>
@@ -3143,7 +3145,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns true if default cut pool is used. Otherwise, separate connectivity and Kuratowski pools are generated and used. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00165">165</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00166">166</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3168,7 +3170,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00284">284</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00287">287</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3192,7 +3194,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00283">283</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00286">286</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3216,7 +3218,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00274">274</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00277">277</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3240,7 +3242,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00249">249</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00252">252</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3266,7 +3268,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Pointers to the given Clustergraph and underlying <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a> are stored. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00194">194</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00195">195</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3292,7 +3294,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>stores optimization success state </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00191">191</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00192">192</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3306,7 +3308,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt;* ogdf::CP_MasterBase::m_cutConnPool</td>
+          <td class="memname"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt;* ogdf::CP_MasterBase::m_cutConnPool</td>
         </tr>
       </table>
   </td>
@@ -3319,7 +3321,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Cut pools for connectivity and Kuratowski constraints. </p>
 <p>Connectivity Cuts </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00203">203</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00204">204</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3333,7 +3335,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classogdf_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt;* ogdf::CP_MasterBase::m_cutKuraPool</td>
+          <td class="memname"><a class="el" href="classabacus_1_1_standard_pool.html">abacus::StandardPool</a>&lt; <a class="el" href="classabacus_1_1_constraint.html">abacus::Constraint</a>, <a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a> &gt;* ogdf::CP_MasterBase::m_cutKuraPool</td>
         </tr>
       </table>
   </td>
@@ -3345,7 +3347,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Kuratowski Cuts. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00204">204</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00205">205</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3369,7 +3371,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00306">306</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00310">310</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3393,7 +3395,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00195">195</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00196">196</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3417,7 +3419,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00250">250</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00253">253</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3441,7 +3443,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00245">245</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00248">248</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3465,7 +3467,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00234">234</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00235">235</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3489,7 +3491,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00255">255</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00258">258</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3513,7 +3515,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00256">256</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00259">259</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3539,7 +3541,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Time threshold for optimization. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00206">206</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00207">207</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3565,7 +3567,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Indicates if simple max planar subgraph heuristic. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00252">252</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00255">255</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3589,7 +3591,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00263">263</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00266">266</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3613,7 +3615,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00251">251</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00254">254</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3637,7 +3639,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00246">246</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00249">249</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3661,7 +3663,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00264">264</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00267">267</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3685,7 +3687,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00242">242</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00245">245</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3711,7 +3713,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Keeps track of created variables. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00241">241</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00244">244</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3735,7 +3737,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00244">244</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00247">247</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3759,7 +3761,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00243">243</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00246">246</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3783,7 +3785,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00258">258</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00261">261</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3809,7 +3811,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>If set to true, PORTA output is written in a file. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00350">350</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00363">363</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3833,7 +3835,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00275">275</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00278">278</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3849,7 +3851,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00187">187</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00188">188</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3873,7 +3875,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00200">200</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00201">201</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3897,7 +3899,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00265">265</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00268">268</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3921,7 +3923,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00259">259</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00262">262</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3945,7 +3947,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00260">260</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00263">263</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3971,7 +3973,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Defines if the ABACUS default cut pool or the separate Connectivity and Kuratowski constraint pools are used. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00315">315</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00319">319</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -3995,7 +3997,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00248">248</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00251">251</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4021,7 +4023,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Keeps track of variables that are currently inactive during optimization. </p>
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00237">237</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00240">240</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4045,7 +4047,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00267">267</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00270">270</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4069,7 +4071,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00273">273</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00276">276</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4093,7 +4095,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00270">270</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00273">273</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4117,7 +4119,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00266">266</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00269">269</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4141,7 +4143,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00271">271</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00274">274</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4165,7 +4167,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00269">269</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00272">272</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4189,7 +4191,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00268">268</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00271">271</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4213,7 +4215,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00272">272</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_c_p___master_base_8h_source.html#l00275">275</a> of file <a class="el" href="_c_p___master_base_8h_source.html">CP_MasterBase.h</a>.</p>
 
 </div>
 </div>
@@ -4226,7 +4228,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_c_p___master_base.html">CP_MasterBase</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,7 @@
 var exceptions_8h =
 [
-    [ "OGDF_THROW", "exceptions_8h.html#a2a6a50eb4683c16091bc8f88ad96b7e2", null ],
-    [ "OGDF_THROW_PARAM", "exceptions_8h.html#ae555347af334981e6301630da429a56f", null ],
+    [ "OGDF_THROW", "group__macros.html#ga2a6a50eb4683c16091bc8f88ad96b7e2", null ],
+    [ "OGDF_THROW_PARAM", "group__macros.html#gae555347af334981e6301630da429a56f", null ],
     [ "AlgorithmFailureCode", "exceptions_8h.html#ga1fca16209583971af6d681f7bee9863e", [
       [ "afcUnknown", "exceptions_8h.html#gga1fca16209583971af6d681f7bee9863ea0a2868f69254cc37b2ef4f9a437893ec", null ],
       [ "afcIllegalParameter", "exceptions_8h.html#gga1fca16209583971af6d681f7bee9863ea7dcf43efb29c203b924f8de4f24348b5", null ],

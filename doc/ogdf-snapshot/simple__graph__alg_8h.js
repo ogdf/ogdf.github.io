@@ -23,6 +23,8 @@ var simple__graph__alg_8h =
     [ "isLoopFree", "simple__graph__alg_8h.html#ga635b08778f71b22bfe54e97731c335e6", null ],
     [ "isParallelFree", "simple__graph__alg_8h.html#ga20070ca58c7ecd22f6382eae50674c62", null ],
     [ "isParallelFreeUndirected", "simple__graph__alg_8h.html#ga045ca949ad54197c383a02c5b69b7d30", null ],
+    [ "isRegular", "simple__graph__alg_8h.html#ae12b1158bce5df064b71b2b3ee007a82", null ],
+    [ "isRegular", "simple__graph__alg_8h.html#a4cd60f00af9c16a79a6a759ee8c1c78e", null ],
     [ "isSimple", "simple__graph__alg_8h.html#ga9f6828cc879f647de3254e0444ebd5cf", null ],
     [ "isSimpleUndirected", "simple__graph__alg_8h.html#ga9c303747c8447bffef52c67eb94597df", null ],
     [ "isStGraph", "simple__graph__alg_8h.html#gab58bd776a9214de06afa95773c7cd916", null ],

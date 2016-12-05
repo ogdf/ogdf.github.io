@@ -32,5 +32,5 @@ var classogdf_1_1_longest_path_ranking =
     [ "m_optimizeEdgeLength", "classogdf_1_1_longest_path_ranking.html#aee3d8116f59340cc98bab823bc0d8280", null ],
     [ "m_separateMultiEdges", "classogdf_1_1_longest_path_ranking.html#a8ebdddc2260b06d27f27d346c0f72a14", null ],
     [ "m_sepDeg0", "classogdf_1_1_longest_path_ranking.html#affc733febd9e455a08e0c78791e87275", null ],
-    [ "m_subgraph", "classogdf_1_1_longest_path_ranking.html#a58c6082b6a922db90b5111b7b799dcd9", null ]
+    [ "m_subgraph", "classogdf_1_1_longest_path_ranking.html#ac54b177f3f84504cd61808f9eef48b26", null ]
 ];

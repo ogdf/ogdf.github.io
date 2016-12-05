@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,15 +138,14 @@ $(document).ready(function(){initNavTree('classogdf_1_1_sim_draw_manipulator_mod
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_sim_draw_manipulator_module.png" usemap="#ogdf::SimDrawManipulatorModule_map" alt=""/>
-  <map id="ogdf::SimDrawManipulatorModule_map" name="ogdf::SimDrawManipulatorModule_map">
-<area href="classogdf_1_1_sim_draw_caller.html" title="Calls modified algorithms for simdraw instances. " alt="ogdf::SimDrawCaller" shape="rect" coords="0,56,202,80"/>
-<area href="classogdf_1_1_sim_draw_colorizer.html" title="Adds color to a graph. " alt="ogdf::SimDrawColorizer" shape="rect" coords="212,56,414,80"/>
-<area href="classogdf_1_1_sim_draw_creator.html" title="Creates variety of possible SimDraw creations. " alt="ogdf::SimDrawCreator" shape="rect" coords="424,56,626,80"/>
-<area href="classogdf_1_1_sim_draw_creator_simple.html" title="Offers predefined SimDraw creations. " alt="ogdf::SimDrawCreatorSimple" shape="rect" coords="424,112,626,136"/>
+<div class="center"><img src="classogdf_1_1_sim_draw_manipulator_module__inherit__graph.png" border="0" usemap="#ogdf_1_1_sim_draw_manipulator_module_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_sim_draw_manipulator_module_inherit__map" id="ogdf_1_1_sim_draw_manipulator_module_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_sim_draw_caller.html" title="Calls modified algorithms for simdraw instances. " alt="" coords="5,95,148,121"/>
+<area shape="rect" id="node3" href="classogdf_1_1_sim_draw_colorizer.html" title="Adds color to a graph. " alt="" coords="172,95,333,121"/>
+<area shape="rect" id="node4" href="classogdf_1_1_sim_draw_creator.html" title="Creates variety of possible SimDraw creations. " alt="" coords="358,95,510,121"/>
+<area shape="rect" id="node5" href="classogdf_1_1_sim_draw_creator_simple.html" title="Offers predefined SimDraw creations. " alt="" coords="338,169,530,196"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -179,7 +178,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><p>Interface for simdraw manipulators. </p>
 <p>To avoid class <a class="el" href="classogdf_1_1_sim_draw.html" title="The Base class for simultaneous graph drawing. ">SimDraw</a> to become too large, several functions have been outsourced. These are systematically grouped in creation methods (<a class="el" href="classogdf_1_1_sim_draw_creator.html" title="Creates variety of possible SimDraw creations. ">SimDrawCreator</a>), algorithm calls (<a class="el" href="classogdf_1_1_sim_draw_caller.html" title="Calls modified algorithms for simdraw instances. ">SimDrawCaller</a>) and coloring methods (<a class="el" href="classogdf_1_1_sim_draw_colorizer.html" title="Adds color to a graph. ">SimDrawColorizer</a>).</p>
 <p>A manipulator instance always needs a <a class="el" href="classogdf_1_1_sim_draw.html" title="The Base class for simultaneous graph drawing. ">SimDraw</a> instance (base instance) to work on. The base instance is linked by pointers, thus a change within the base instance after initializing does not cause trouble: </p><div class="fragment"><div class="line">SimDraw SD;</div><div class="line">SimDrawCreatorSimple SDCr(SD);</div><div class="line">SimDrawColorizer SDCo(SD);</div><div class="line">SDCr.createTrees_GKV05(4);</div><div class="line">SimDrawCaller SDCa(SD);</div><div class="line">SDCa.callUMLPlanarizationLayout();</div><div class="line">SDCo.addColor();</div></div><!-- fragment --> 
-<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00062">62</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00059">59</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa45b972017f7c6480d00881221995b6d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa45b972017f7c6480d00881221995b6d">&sect;&nbsp;</a></span>SimDrawManipulatorModule() <span class="overload">[1/2]</span></h2>
@@ -227,7 +226,7 @@ Protected Attributes</h2></td></tr>
 
 <p>constructor </p>
 
-<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00082">82</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00079">79</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
 
 </div>
 </div>
@@ -257,7 +256,7 @@ Protected Attributes</h2></td></tr>
 
 <p>returns base instance </p>
 
-<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00088">88</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00085">85</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
 
 </div>
 </div>
@@ -304,7 +303,7 @@ Protected Attributes</h2></td></tr>
 
 <p>pointer to current graph </p>
 
-<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00070">70</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00067">67</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
 
 </div>
 </div>
@@ -330,7 +329,7 @@ Protected Attributes</h2></td></tr>
 
 <p>pointer to current graphattributes </p>
 
-<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00073">73</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00070">70</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
 
 </div>
 </div>
@@ -356,7 +355,7 @@ Protected Attributes</h2></td></tr>
 
 <p>pointer to current simdraw instance </p>
 
-<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00067">67</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_sim_draw_manipulator_module_8h_source.html#l00064">64</a> of file <a class="el" href="_sim_draw_manipulator_module_8h_source.html">SimDrawManipulatorModule.h</a>.</p>
 
 </div>
 </div>
@@ -369,7 +368,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_sim_draw_manipulator_module.html">SimDrawManipulatorModule</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

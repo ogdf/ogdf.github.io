@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,13 +138,12 @@ $(document).ready(function(){initNavTree('classogdf_1_1_skeleton.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_skeleton.png" usemap="#ogdf::Skeleton_map" alt=""/>
-  <map id="ogdf::Skeleton_map" name="ogdf::Skeleton_map">
-<area href="classogdf_1_1_dynamic_skeleton.html" title="Skeleton graphs of nodes in a dynamic SPQR-tree. " alt="ogdf::DynamicSkeleton" shape="rect" coords="0,56,140,80"/>
-<area href="classogdf_1_1_static_skeleton.html" title="Skeleton graphs of nodes in a static SPQR-tree. " alt="ogdf::StaticSkeleton" shape="rect" coords="150,56,290,80"/>
+<div class="center"><img src="classogdf_1_1_skeleton__inherit__graph.png" border="0" usemap="#ogdf_1_1_skeleton_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_skeleton_inherit__map" id="ogdf_1_1_skeleton_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_dynamic_skeleton.html" title="Skeleton graphs of nodes in a dynamic SPQR&#45;tree. " alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node3" href="classogdf_1_1_static_skeleton.html" title="Skeleton graphs of nodes in a static SPQR&#45;tree. " alt="" coords="188,80,328,107"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -202,7 +201,7 @@ Protected Attributes</h2></td></tr>
 <p><em>S</em> consists of an undirected multi-graph <em>M</em>. If the owner tree of <em>S</em> is a <a class="el" href="classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. ">PlanarSPQRTree</a>, then <em>M</em> represents a combinatorial embedding. The vertices in <em>M</em> correspond to vertices in <em>G</em>. The edges in <em>M</em> are of two types: Real edges correspond to edges in <em>G</em> and virtual edges correspond to tree-edges in <em>T</em> having <em>vT</em> as an endpoint.</p>
 <p>Let <em>e</em> in <em>M</em> be a virtual edge and <em>eT</em> be the corresponding tree-edge. Then there exists exactly one edge <em>e'</em> in another skeleton <em>S'</em> of <em>T</em> that corresponds to <em>eT</em> as well. We call <em>e'</em> the twin edge of <em>e</em>. </p>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00064">64</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00061">61</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4b484e03fdcb7aeed5fff8db6bd2ae6a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4b484e03fdcb7aeed5fff8db6bd2ae6a">&sect;&nbsp;</a></span>Skeleton()</h2>
@@ -232,7 +231,7 @@ Protected Attributes</h2></td></tr>
 <dl class="section pre"><dt>Precondition</dt><dd><em>vT</em> is a node in <em>T</em> </dd></dl>
 <dl class="section remark"><dt>Remarks</dt><dd>Skeletons are created by the constructor of <a class="el" href="classogdf_1_1_s_p_q_r_tree.html" title="Linear-time implementation of static SPQR-trees. ">SPQRTree</a> and can be accessed with the skeleton() function of <a class="el" href="classogdf_1_1_s_p_q_r_tree.html" title="Linear-time implementation of static SPQR-trees. ">SPQRTree</a>. </dd></dl>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00077">77</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00074">74</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -259,7 +258,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00081">81</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00078">78</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -289,7 +288,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns a reference to the skeleton graph <em>M</em>. </p>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00102">102</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00099">99</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -318,7 +317,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns a reference to the skeleton graph <em>M</em>. </p>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00107">107</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00104">104</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -349,7 +348,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns true iff <em>e</em> is a virtual edge. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>e</em> is an edge in <em>M</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a483274ba3de0ec68203edc0cce24834d">ogdf::DynamicSkeleton</a>, and <a class="el" href="classogdf_1_1_static_skeleton.html#aa456ca8ec3ba64268e5a0fb1fa0c3e74">ogdf::StaticSkeleton</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a00d542e7437d143d0758b6f31339e63c">ogdf::DynamicSkeleton</a>, and <a class="el" href="classogdf_1_1_static_skeleton.html#ae02a99962558c3f66599b1b895ef6c0b">ogdf::StaticSkeleton</a>.</p>
 
 </div>
 </div>
@@ -380,7 +379,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the vertex in the original graph <em>G</em> that corresponds to <em>v</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>v</em> is a node in <em>M</em>. </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a5959f95f7153467dfe51860b2f6396a6">ogdf::DynamicSkeleton</a>, and <a class="el" href="classogdf_1_1_static_skeleton.html#a42049114bad46ff8e3e424f658e7a3fa">ogdf::StaticSkeleton</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a0cf4f5cd19b5a154a86e4de4f76ac0e6">ogdf::DynamicSkeleton</a>, and <a class="el" href="classogdf_1_1_static_skeleton.html#ab25aad60c3e3e5e1adfa3724d55bcc11">ogdf::StaticSkeleton</a>.</p>
 
 </div>
 </div>
@@ -409,7 +408,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the owner tree <em>T</em>. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_skeleton.html#ab56fa30738df9ad54bbd6290fdfaad73">ogdf::DynamicSkeleton</a>, and <a class="el" href="classogdf_1_1_static_skeleton.html#aa541ad0bcfebe71498140b05b212c9c2">ogdf::StaticSkeleton</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a42f449d313829afabfaee43bbed6bfcc">ogdf::DynamicSkeleton</a>, and <a class="el" href="classogdf_1_1_static_skeleton.html#a50fefdbabbcbc79a760eab31a16b4efd">ogdf::StaticSkeleton</a>.</p>
 
 </div>
 </div>
@@ -440,7 +439,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the real edge that corresponds to skeleton edge <em>e</em>. </p>
 <p>If <em>e</em> is virtual edge, then 0 is returned. </p><dl class="section pre"><dt>Precondition</dt><dd><em>e</em> is an edge in <em>M</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_skeleton.html#ab75901f0a1ea3c027ab788333355030b">ogdf::StaticSkeleton</a>, and <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a2b77d6134e73f09e7ae671224eb2d2b8">ogdf::DynamicSkeleton</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_skeleton.html#a9685bb20bfc4ace20fe17bfac405b1b9">ogdf::StaticSkeleton</a>, and <a class="el" href="classogdf_1_1_dynamic_skeleton.html#af1c1ad20f128d1728519e532c188d9d7">ogdf::DynamicSkeleton</a>.</p>
 
 </div>
 </div>
@@ -470,7 +469,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the reference edge of <em>S</em> in <em>M</em>. </p>
 <p>The reference edge is a real edge if <em>S</em> is the skeleton of the root node of <em>T</em>, and a virtual edge otherwise. </p>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00097">97</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00094">94</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -499,7 +498,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the corresponding node in the owner tree <em>T</em> to which <em>S</em> belongs. </p>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00088">88</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00085">85</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -530,7 +529,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the twin edge of skeleton edge <em>e</em>. </p>
 <p>If <em>e</em> is not a virtual edge, then 0 is returned. </p><dl class="section pre"><dt>Precondition</dt><dd><em>e</em> is an edge in <em>M</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_skeleton.html#a403ac11d2b0af0da94b936971b94fe28">ogdf::StaticSkeleton</a>, and <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a86dd3a05066223dcbef12eab8bc36806">ogdf::DynamicSkeleton</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_skeleton.html#aecc324ba20eafedd0e4eed3ed2e29aae">ogdf::StaticSkeleton</a>, and <a class="el" href="classogdf_1_1_dynamic_skeleton.html#ad1b2f867f776a8ea942795c0ce74fa40">ogdf::DynamicSkeleton</a>.</p>
 
 </div>
 </div>
@@ -561,7 +560,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the tree node in T containing the twin edge of skeleton edge <em>e</em>. </p>
 <p>If <em>e</em> is not a virtual edge, then 0 is returned. </p><dl class="section pre"><dt>Precondition</dt><dd><em>e</em> is an edge in <em>M</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_skeleton.html#aec6d9358b6b1f74babc52c9c37d22581">ogdf::StaticSkeleton</a>, and <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a2b1d2ee27c68efcf3da8e6230a7e9fda">ogdf::DynamicSkeleton</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_skeleton.html#aa1f99981bd33560c8fd15629c8d5ef52">ogdf::StaticSkeleton</a>, and <a class="el" href="classogdf_1_1_dynamic_skeleton.html#a8f07bf5733835be956aac406dccc8e62">ogdf::DynamicSkeleton</a>.</p>
 
 </div>
 </div>
@@ -588,7 +587,7 @@ Protected Attributes</h2></td></tr>
 
 <p>actual skeleton graph </p>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00149">149</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00146">146</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -614,7 +613,7 @@ Protected Attributes</h2></td></tr>
 
 <p>reference edge </p>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00148">148</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00145">145</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -641,7 +640,7 @@ Protected Attributes</h2></td></tr>
 <p>corresp. </p>
 <p>tree node in owner tree </p>
 
-<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00147">147</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
+<p>Definition at line <a class="el" href="_skeleton_8h_source.html#l00144">144</a> of file <a class="el" href="_skeleton_8h_source.html">Skeleton.h</a>.</p>
 
 </div>
 </div>
@@ -654,7 +653,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_skeleton.html">Skeleton</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

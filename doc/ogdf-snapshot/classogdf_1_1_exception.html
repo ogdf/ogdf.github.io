@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,18 +138,17 @@ $(document).ready(function(){initNavTree('classogdf_1_1_exception.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_exception.png" usemap="#ogdf::Exception_map" alt=""/>
-  <map id="ogdf::Exception_map" name="ogdf::Exception_map">
-<area href="classogdf_1_1_algorithm_failure_exception.html" title="Exception thrown when an algorithm realizes an internal bug that prevents it from continuing..." alt="ogdf::AlgorithmFailureException" shape="rect" coords="0,56,216,80"/>
-<area href="classogdf_1_1_dynamic_cast_failed_exception.html" title="Exception thrown when result of cast is 0. " alt="ogdf::DynamicCastFailedException" shape="rect" coords="226,56,442,80"/>
-<area href="classogdf_1_1_insufficient_memory_exception.html" title="Exception thrown when not enough memory is available to execute an algorithm. " alt="ogdf::InsufficientMemoryException" shape="rect" coords="452,56,668,80"/>
-<area href="classogdf_1_1_library_not_supported_exception.html" title="Exception thrown when an external library shall be used which is not supported. " alt="ogdf::LibraryNotSupportedException" shape="rect" coords="678,56,894,80"/>
-<area href="classogdf_1_1_no_std_comparer_exception.html" title="Exception thrown when a required standard comparer has not been specialized. " alt="ogdf::NoStdComparerException" shape="rect" coords="904,56,1120,80"/>
-<area href="classogdf_1_1_precondition_violated_exception.html" title="Exception thrown when preconditions are violated. " alt="ogdf::PreconditionViolatedException" shape="rect" coords="1130,56,1346,80"/>
-<area href="classogdf_1_1_type_not_supported_exception.html" title="Exception thrown when a data type is not supported by a generic function. " alt="ogdf::TypeNotSupportedException" shape="rect" coords="1356,56,1572,80"/>
+<div class="center"><img src="classogdf_1_1_exception__inherit__graph.png" border="0" usemap="#ogdf_1_1_exception_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_exception_inherit__map" id="ogdf_1_1_exception_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_algorithm_failure_exception.html" title="Exception thrown when an algorithm realizes an internal bug that prevents it from continuing..." alt="" coords="177,5,384,32"/>
+<area shape="rect" id="node3" href="classogdf_1_1_dynamic_cast_failed_exception.html" title="Exception thrown when result of cast is 0. " alt="" coords="167,56,395,83"/>
+<area shape="rect" id="node4" href="classogdf_1_1_insufficient_memory_exception.html" title="Exception thrown when not enough memory is available to execute an algorithm. " alt="" coords="197,107,364,149"/>
+<area shape="rect" id="node5" href="classogdf_1_1_library_not_supported_exception.html" title="Exception thrown when an external library shall be used which is not supported. " alt="" coords="193,173,368,214"/>
+<area shape="rect" id="node6" href="classogdf_1_1_no_std_comparer_exception.html" title="Exception thrown when a required standard comparer has not been specialized. " alt="" coords="177,239,384,265"/>
+<area shape="rect" id="node7" href="classogdf_1_1_precondition_violated_exception.html" title="Exception thrown when preconditions are violated. " alt="" coords="193,290,368,331"/>
+<area shape="rect" id="node8" href="classogdf_1_1_type_not_supported_exception.html" title="Exception thrown when a data type is not supported by a generic function. " alt="" coords="169,356,392,383"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -175,7 +174,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Base class of all ogdf exceptions. </p>
 
-<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00196">196</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
+<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00187">187</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a401ba0665c376b936ed5d7239a812b00"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a401ba0665c376b936ed5d7239a812b00">&sect;&nbsp;</a></span>Exception()</h2>
@@ -220,7 +219,7 @@ Private Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00209">209</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
+<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00200">200</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
 
 </div>
 </div>
@@ -251,7 +250,7 @@ Private Attributes</h2></td></tr>
 <p>Returns the name of the source file where exception was thrown. </p>
 <p>Returns a null pointer if the name of the source file is unknown. </p>
 
-<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00218">218</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
+<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00209">209</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +280,7 @@ Private Attributes</h2></td></tr>
 <p>Returns the line number where the exception was thrown. </p>
 <p>Returns -1 if the line number is unknown. </p>
 
-<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00224">224</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
+<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00215">215</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
 
 </div>
 </div>
@@ -308,7 +307,7 @@ Private Attributes</h2></td></tr>
 
 <p>Source file where exception occurred. </p>
 
-<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00200">200</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
+<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00191">191</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
 
 </div>
 </div>
@@ -334,7 +333,7 @@ Private Attributes</h2></td></tr>
 
 <p>Line number where exception occurred. </p>
 
-<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00201">201</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
+<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00192">192</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
 
 </div>
 </div>
@@ -347,7 +346,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_exception.html">Exception</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -141,12 +141,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_adj_element.html','');})
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_adj_element.png" usemap="#ogdf::AdjElement_map" alt=""/>
-  <map id="ogdf::AdjElement_map" name="ogdf::AdjElement_map">
-<area href="classogdf_1_1internal_1_1_graph_element.html" title="The base class for objects used by (hyper)graphs. " alt="ogdf::internal::GraphElement" shape="rect" coords="0,0,170,24"/>
+<div class="center"><img src="classogdf_1_1_adj_element__inherit__graph.png" border="0" usemap="#ogdf_1_1_adj_element_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_adj_element_inherit__map" id="ogdf_1_1_adj_element_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1internal_1_1_graph_element.html" title="The base class for objects used by (hyper)graphs. " alt="" coords="5,5,193,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -177,6 +176,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b58603e7af3fd7773fc8f9112fbe477"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_element.html#a2b58603e7af3fd7773fc8f9112fbe477">index</a> () const</td></tr>
 <tr class="memdesc:a2b58603e7af3fd7773fc8f9112fbe477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of this adjacency element.  <a href="#a2b58603e7af3fd7773fc8f9112fbe477">More...</a><br /></td></tr>
 <tr class="separator:a2b58603e7af3fd7773fc8f9112fbe477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e1f95788054f184d20bcd83ce4b46e4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_element.html#a2e1f95788054f184d20bcd83ce4b46e4">isBetween</a> (<a class="el" href="group__graphs.html#ga47dc56138d60ee98d8ceb8f4ea3a3848">adjEntry</a> adjBefore, <a class="el" href="group__graphs.html#ga47dc56138d60ee98d8ceb8f4ea3a3848">adjEntry</a> adjAfter) const</td></tr>
+<tr class="memdesc:a2e1f95788054f184d20bcd83ce4b46e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns whether this adjacency entry lies between <code>adjBefore</code> and <code>adjAfter</code> in clockwise rotation.  <a href="#a2e1f95788054f184d20bcd83ce4b46e4">More...</a><br /></td></tr>
+<tr class="separator:a2e1f95788054f184d20bcd83ce4b46e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a923cb681f51a859e9407eba175a1e998"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_element.html#a923cb681f51a859e9407eba175a1e998">isSource</a> () const</td></tr>
+<tr class="memdesc:a923cb681f51a859e9407eba175a1e998"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> iff this is the source adjacency entry of the corresponding edge.  <a href="#a923cb681f51a859e9407eba175a1e998">More...</a><br /></td></tr>
+<tr class="separator:a923cb681f51a859e9407eba175a1e998"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cdf7d8a25614a28edd9eddc04e7ac73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_element.html#a1cdf7d8a25614a28edd9eddc04e7ac73">operator edge</a> () const</td></tr>
 <tr class="memdesc:a1cdf7d8a25614a28edd9eddc04e7ac73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to edge.  <a href="#a1cdf7d8a25614a28edd9eddc04e7ac73">More...</a><br /></td></tr>
 <tr class="separator:a1cdf7d8a25614a28edd9eddc04e7ac73"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -347,7 +352,7 @@ Friends</h2></td></tr>
 
 <p>Returns the clockwise predecessor in face. Use faceCycleSucc instead! </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00116">116</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00131">131</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -376,7 +381,7 @@ Friends</h2></td></tr>
 
 <p>Returns the clockwise successor in face. Use faceCycleSucc instead! </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00114">114</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00129">129</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -416,7 +421,7 @@ Friends</h2></td></tr>
 
 <p>Standard Comparer. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00144">144</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00159">159</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -445,7 +450,7 @@ Friends</h2></td></tr>
 
 <p>Returns the counter-clockwise predecessor in face. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00120">120</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00135">135</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +479,7 @@ Friends</h2></td></tr>
 
 <p>Returns the counter-clockwise successor in face. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00118">118</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00133">133</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +508,7 @@ Friends</h2></td></tr>
 
 <p>Returns the cyclic predecessor in the adjacency list. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00269">269</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00284">284</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -532,7 +537,7 @@ Friends</h2></td></tr>
 
 <p>Returns the cyclic successor in the adjacency list. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00264">264</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00279">279</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -561,7 +566,7 @@ Friends</h2></td></tr>
 
 <p>Returns the cyclic predecessor in face. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00126">126</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00141">141</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -590,7 +595,7 @@ Friends</h2></td></tr>
 
 <p>Returns the cyclic successor in face. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00124">124</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00139">139</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -620,6 +625,84 @@ Friends</h2></td></tr>
 <p>Returns the index of this adjacency element. </p>
 
 <p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00108">108</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+
+</div>
+</div>
+<a id="a2e1f95788054f184d20bcd83ce4b46e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e1f95788054f184d20bcd83ce4b46e4">&sect;&nbsp;</a></span>isBetween()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::AdjElement::isBetween </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#ga47dc56138d60ee98d8ceb8f4ea3a3848">adjEntry</a>&#160;</td>
+          <td class="paramname"><em>adjBefore</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#ga47dc56138d60ee98d8ceb8f4ea3a3848">adjEntry</a>&#160;</td>
+          <td class="paramname"><em>adjAfter</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns whether this adjacency entry lies between <code>adjBefore</code> and <code>adjAfter</code> in clockwise rotation. </p>
+<p>Note that this operation takes time linear in the degree of the node.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">adjBefore</td><td>First adjacency entry. Must be at the same node as this. </td></tr>
+    <tr><td class="paramname">adjAfter</td><td>Last adjacency entry. Must be at the same node as this. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> iff this adjacency entry is in between </dd></dl>
+
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00386">386</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+
+</div>
+</div>
+<a id="a923cb681f51a859e9407eba175a1e998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a923cb681f51a859e9407eba175a1e998">&sect;&nbsp;</a></span>isSource()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::AdjElement::isSource </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns <code>true</code> iff this is the source adjacency entry of the corresponding edge. </p>
+
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00382">382</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -677,7 +760,7 @@ Friends</h2></td></tr>
 
 <p>Returns the predecessor in the adjacency list. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00132">132</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00147">147</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -706,7 +789,7 @@ Friends</h2></td></tr>
 
 <p>Returns the successor in the adjacency list. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00130">130</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00145">145</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -1013,7 +1096,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_adj_element.html">AdjElement</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

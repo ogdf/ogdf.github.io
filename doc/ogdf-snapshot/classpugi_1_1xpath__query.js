@@ -3,6 +3,7 @@ var classpugi_1_1xpath__query =
     [ "unspecified_bool_type", "classpugi_1_1xpath__query.html#a30495f41b22608922e533de85f254f61", null ],
     [ "xpath_query", "classpugi_1_1xpath__query.html#ac380b5908733799ae2688672c1b88fd7", null ],
     [ "xpath_query", "classpugi_1_1xpath__query.html#a4168b7e0a7bfe35651a2b5516ad65320", null ],
+    [ "xpath_query", "classpugi_1_1xpath__query.html#a1da9805fd748041a0f6101417d077f61", null ],
     [ "~xpath_query", "classpugi_1_1xpath__query.html#a0ca09e7de62e46feb64d03995f389da3", null ],
     [ "evaluate_boolean", "classpugi_1_1xpath__query.html#ae87ef37d4ea067fdb51b8c24c25c579a", null ],
     [ "evaluate_node", "classpugi_1_1xpath__query.html#a946c72df1ca1e6e64fcaf1eec154f730", null ],

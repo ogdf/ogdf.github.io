@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -121,7 +121,8 @@ $(document).ready(function(){initNavTree('namespaceogdf_1_1internal.html','');})
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::internal Namespace Reference</div>  </div>
 </div><!--header-->
@@ -152,14 +153,153 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1internal_1_1_graph_object_container.html">GraphObjectContainer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ab512be9588da58a5f78d6f9687aaaa56"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </td></tr>
+<tr class="memitem:ab512be9588da58a5f78d6f9687aaaa56"><td class="memTemplItemLeft" align="right" valign="top">ITERATOR&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#ab512be9588da58a5f78d6f9687aaaa56">chooseIteratorByFastTest</a> (CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement)</td></tr>
+<tr class="separator:ab512be9588da58a5f78d6f9687aaaa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de39527839b1fcb69eeae524d18c84a"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </td></tr>
+<tr class="memitem:a8de39527839b1fcb69eeae524d18c84a"><td class="memTemplItemLeft" align="right" valign="top">ITERATOR&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a8de39527839b1fcb69eeae524d18c84a">chooseIteratorBySlowTest</a> (CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement)</td></tr>
+<tr class="separator:a8de39527839b1fcb69eeae524d18c84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </td></tr>
+<tr class="memitem:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="memTemplItemLeft" align="right" valign="top">ITERATOR&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#ab8ea3350b39c7ce703ab6ef77e2b4b91">chooseIteratorFrom</a> (CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement, bool isFastTest)</td></tr>
+<tr class="memdesc:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element in the <code>container</code>.  <a href="#ab8ea3350b39c7ce703ab6ef77e2b4b91">More...</a><br /></td></tr>
+<tr class="separator:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="ab512be9588da58a5f78d6f9687aaaa56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab512be9588da58a5f78d6f9687aaaa56">&sect;&nbsp;</a></span>chooseIteratorByFastTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">ITERATOR ogdf::internal::chooseIteratorByFastTest </td>
+          <td>(</td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; bool(const TYPE &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>includeElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceogdf_1_1internal.html#ab8ea3350b39c7ce703ab6ef77e2b4b91" title="Returns an iterator to a random element in the container. ">chooseIteratorFrom</a></dd></dl>
+<p>Don't allocate additional space but count the number of feasible elements instead. </p>
+
+<p>Definition at line <a class="el" href="list__templates_8h_source.html#l00085">85</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
+
+</div>
+</div>
+<a id="a8de39527839b1fcb69eeae524d18c84a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8de39527839b1fcb69eeae524d18c84a">&sect;&nbsp;</a></span>chooseIteratorBySlowTest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">ITERATOR ogdf::internal::chooseIteratorBySlowTest </td>
+          <td>(</td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; bool(const TYPE &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>includeElement</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceogdf_1_1internal.html#ab8ea3350b39c7ce703ab6ef77e2b4b91" title="Returns an iterator to a random element in the container. ">chooseIteratorFrom</a></dd></dl>
+<p>Store elements in permuted order and call includeElement at most once per element. </p>
+
+<p>Definition at line <a class="el" href="list__templates_8h_source.html#l00120">120</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
+
+</div>
+</div>
+<a id="ab8ea3350b39c7ce703ab6ef77e2b4b91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8ea3350b39c7ce703ab6ef77e2b4b91">&sect;&nbsp;</a></span>chooseIteratorFrom()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">ITERATOR ogdf::internal::chooseIteratorFrom </td>
+          <td>(</td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>container</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; bool(const TYPE &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>includeElement</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isFastTest</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to a random element in the <code>container</code>. </p>
+<p>Takes linear time (given that <code>includeElement</code> runs in constant time). An invalid iterator is returned iff no feasible element exists. When <code>includeElement</code> has a non-constant runtime it is recommended to set <code>isFastTest</code> to <code>false</code>.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CONTAINER</td><td>Type of the container. Any iterable container that implements <code>size()</code> is applicable. </td></tr>
+    <tr><td class="paramname">TYPE</td><td>Type of elements returned by the iterator of the container. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>The container that we want to pick an element from. </td></tr>
+    <tr><td class="paramname">includeElement</td><td>Specifies for each element whether it is feasible to be chosen. Defaults to all elements being feasible. Must return the same value when called twice with the same element. </td></tr>
+    <tr><td class="paramname">isFastTest</td><td>Should be set to false to prevent querying the same element multiple times for feasibility. Note that this will result in additional space allocated linear in the size of the container. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An iterator to the picked element or an invalid iterator if no such element exists. </dd></dl>
+
+<p>Definition at line <a class="el" href="list__templates_8h_source.html#l00165">165</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="namespaceogdf_1_1internal.html">internal</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

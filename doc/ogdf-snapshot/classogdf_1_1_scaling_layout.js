@@ -23,5 +23,5 @@ var classogdf_1_1_scaling_layout =
     [ "m_minScaling", "classogdf_1_1_scaling_layout.html#aa9feab760a9466baa9eac5a66f6b44ae", null ],
     [ "m_mmm", "classogdf_1_1_scaling_layout.html#a1c4ce3f11727535cafa017be4e6696f8", null ],
     [ "m_scalingType", "classogdf_1_1_scaling_layout.html#a43322fd48f3e3010d53c1f4ff66f36cb", null ],
-    [ "m_secondaryLayoutModule", "classogdf_1_1_scaling_layout.html#a12a9ebd167bb977155e7afcd3f1fd268", null ]
+    [ "m_secondaryLayoutModule", "classogdf_1_1_scaling_layout.html#ae64a19b4411d74f39c857b459543d4a3", null ]
 ];

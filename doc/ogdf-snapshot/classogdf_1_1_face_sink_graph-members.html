@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -135,9 +135,9 @@ $(document).ready(function(){initNavTree('classogdf_1_1_face_sink_graph.html',''
   <tr><td class="entry"><a class="el" href="classogdf_1_1_graph.html#ac8c48494e3c2accfc3e401e4553eef32a3f87e81869ae5cb959c31820f970ee8c">association</a> enum value</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da57f750ab8a3f3db54bdcf8f67bd30e8b">associationClass</a> enum value</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classogdf_1_1_face_sink_graph.html#a4878e8f8f04b103317bbf186ab6dd85b">checkForest</a>()</td><td class="entry"><a class="el" href="classogdf_1_1_face_sink_graph.html">ogdf::FaceSinkGraph</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_graph.html#a88b6326117986eda30005fcc1b0bd9d5">chooseEdge</a>() const</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classogdf_1_1_graph.html#a636fcf333e9ff8b54f9e668ef4aa4f0f">chooseNode</a>() const</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_graph.html#a105b649bded6e03c73c71fcb1105f90a">clear</a>()</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_graph.html#a99f6e0a5e684fa33f4167e1211540457">chooseEdge</a>(std::function&lt; bool(edge)&gt; includeEdge=[](edge) { return true;}, bool isFastTest=true) const</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"></td></tr>
+  <tr><td class="entry"><a class="el" href="classogdf_1_1_graph.html#a30b6451dffe2afbc5d927da863c4546a">chooseNode</a>(std::function&lt; bool(node)&gt; includeNode=[](node) { return true;}, bool isFastTest=true) const</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_graph.html#a610df8ebbd85106ce455885ffe8c5b9c">clear</a>()</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classogdf_1_1_graph.html#a48794b872aab7ecf8e8a53254b04d670">collapse</a>(NODELIST &amp;nodes)</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_graph.html#add5f591be88807f1369611c05bffb6ba">consistencyCheck</a>() const</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classogdf_1_1_graph.html#a0b58b28902b27e0adb5e8a02f98ce220">construct</a>(const Graph &amp;G, NodeArray&lt; node &gt; &amp;mapNode, EdgeArray&lt; edge &gt; &amp;mapEdge)</td><td class="entry"><a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
@@ -249,7 +249,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_face_sink_graph.html',''
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

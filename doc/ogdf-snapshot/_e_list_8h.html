@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -166,11 +166,10 @@ Namespaces</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Martin Gronemann</dd></dl>
 <div class="fragment"><div class="line"><span class="keyword">class </span>MyNode</div><div class="line">{</div><div class="line"><span class="keyword">public</span>:</div><div class="line">...</div><div class="line">private:</div><div class="line">        MyNode* prev;</div><div class="line">        MyNode* next;</div><div class="line">};</div><div class="line"></div><div class="line"><span class="keyword">class </span>MyDataStructure</div><div class="line">{</div><div class="line">    <span class="keyword">private</span>:</div><div class="line">        MyNode* m_head;</div><div class="line">        MyNode* m_tail;</div><div class="line">        <span class="keywordtype">int</span> m_numNodes;</div><div class="line">        MyNode* m_stackTop;</div><div class="line"> <span class="keyword">public</span>:</div><div class="line">        <span class="keyword">typedef</span> EList&lt;  MyDataStructure,</div><div class="line">                        MyNode,</div><div class="line">                        &amp;MyDataStructure::m_numNodes,</div><div class="line">                    &amp;MyDataStructure::m_head,</div><div class="line">                    &amp;MyDataStructure::m_tail,</div><div class="line">                    &amp;MyNode::prev,</div><div class="line">                    &amp;MyNode::next&gt; NodeChain;</div><div class="line"></div><div class="line">    <span class="keyword">typedef</span> EStack&lt; MyDataStructure,</div><div class="line">                        MyNode,</div><div class="line">                        &amp;MyDataStructure::m_stackTop,</div><div class="line">                    &amp;MyNode::next&gt; NodeStack;</div><div class="line">};</div><div class="line"> ...</div><div class="line">    MyDataStructure ds;</div><div class="line"> MyDataStructure::NodeChain.init(&amp;ds);</div><div class="line"> MyDataStructure::NodeStack.init(&amp;ds);</div><div class="line"> ...</div><div class="line">    MyNode* ptr = <span class="keyword">new</span> MyNode();</div><div class="line"> MyDataStructure::NodeChain.pushBack(&amp;ds, ptr);</div><div class="line"> ...</div><div class="line"> ptr = MyDataStructure::NodeChain.front(&amp;ds);</div><div class="line"> MyDataStructure::NodeStack.push(&amp;ds,ptr);</div><div class="line"> ...</div><div class="line"> <span class="keywordflow">for</span> (MyDataStructure::NodeChain::iterator it = MyDataStructure::NodeChain.begin(&amp;ds);</div><div class="line">     it.valid(); it++)</div><div class="line"> {</div><div class="line">    ptr = *it;</div><div class="line"> }</div></div><!-- fragment --> <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />
- See README.txt in the root directory of the OGDF installation for details.</dd></dl>
+ See README.md in the OGDF root directory for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License Version 2 or 3 as published by the Free Software Foundation; see the file LICENSE.txt included in the packaging of this file for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</dd></dl>
-<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
+<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, see <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
 
 <p>Definition in file <a class="el" href="_e_list_8h_source.html">EList.h</a>.</p>
 </div></div><!-- contents -->
@@ -179,7 +178,7 @@ Namespaces</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html">basic</a></li><li class="navelem"><a class="el" href="_e_list_8h.html">EList.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

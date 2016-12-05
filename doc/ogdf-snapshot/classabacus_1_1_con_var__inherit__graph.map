@@ -1,0 +1,23 @@
+<map id="abacus::ConVar" name="abacus::ConVar">
+<area shape="rect" id="node3" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format. " alt="" coords="361,259,493,285"/>
+<area shape="rect" id="node17" href="$classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format. " alt="" coords="368,623,487,649"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,441,149,468"/>
+<area shape="rect" id="node4" href="$classabacus_1_1_num_con.html" title="Constraints defined by a number. " alt="" coords="591,5,715,32"/>
+<area shape="rect" id="node5" href="$classabacus_1_1_row_con.html" title="Implements constraints stored in the class Row. " alt="" coords="591,56,714,83"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_base_constraint.html" title="Basic constraint type. " alt="" coords="580,107,725,133"/>
+<area shape="rect" id="node10" href="$classogdf_1_1_cluster_kuratowski_constraint.html" title="ogdf::ClusterKuratowskiConstraint" alt="" coords="541,157,764,184"/>
+<area shape="rect" id="node11" href="$classogdf_1_1_max_planar_edges_constraint.html" title="ogdf::MaxPlanarEdgesConstraint" alt="" coords="545,208,760,235"/>
+<area shape="rect" id="node12" href="$classogdf_1_1_minimal_cluster_connection.html" title="ogdf::MinimalClusterConnection" alt="" coords="549,259,757,285"/>
+<area shape="rect" id="node13" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_constraint.html" title="Constraint for nodes, e.g., in/outdegree stuff. " alt="" coords="557,310,749,351"/>
+<area shape="rect" id="node14" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_edge_constraint.html" title="Constraint for relating the indegree and one outgoing edge of a node. " alt="" coords="545,375,760,417"/>
+<area shape="rect" id="node15" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html" title="Class for directed cuts (i.e., separated Steiner cuts) " alt="" coords="546,441,759,482"/>
+<area shape="rect" id="node16" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_constraint.html" title="Constraint for edges, e.g., subtour elimination constraints of size 2 ((G)SEC2) " alt="" coords="557,506,749,547"/>
+<area shape="rect" id="node6" href="$classabacus_1_1_s_row_con.html" title="Constraints using row with static variable set. " alt="" coords="825,56,957,83"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_chunk_connection.html" title="ogdf::ChunkConnection" alt="" coords="812,107,971,133"/>
+<area shape="rect" id="node9" href="$classogdf_1_1_cut_constraint.html" title="ogdf::CutConstraint" alt="" coords="823,157,959,184"/>
+<area shape="rect" id="node18" href="$classabacus_1_1_col_var.html" title="Some optimization problems, in particular column generation problems, are better described from a var..." alt="" coords="597,572,709,599"/>
+<area shape="rect" id="node19" href="$classabacus_1_1_num_var.html" title="Variables identified by a number. " alt="" coords="593,623,713,649"/>
+<area shape="rect" id="node20" href="$classogdf_1_1_edge_var.html" title="ogdf::EdgeVar" alt="" coords="600,673,705,700"/>
+<area shape="rect" id="node22" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_variable.html" title="Variable for directed edges. " alt="" coords="557,725,749,766"/>
+<area shape="rect" id="node21" href="$classogdf_1_1_c_planar_edge_var.html" title="ogdf::CPlanarEdgeVar" alt="" coords="815,673,967,700"/>
+</map>

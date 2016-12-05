@@ -16,7 +16,7 @@ var classogdf_1_1_u_m_l_graph =
     [ "doInsertMergers", "classogdf_1_1_u_m_l_graph.html#a992dcd5e55aa9d73fd8c02dc8851f207", null ],
     [ "getDefaultCliqueCenterSize", "classogdf_1_1_u_m_l_graph.html#a59c6d4076dfdab0dfe58697b146be845", null ],
     [ "init", "classogdf_1_1_u_m_l_graph.html#a45ff50d32f1e2f02f286af42fb8d0af4", null ],
-    [ "init", "classogdf_1_1_u_m_l_graph.html#ab19c30cfb0eeff88f40b734e75a2bb83", null ],
+    [ "init", "classogdf_1_1_u_m_l_graph.html#a187fb3ff43a229889199e1da40cf2501", null ],
     [ "insertGenMergers", "classogdf_1_1_u_m_l_graph.html#af1e7fcb75c900f884e13642220143d7d", null ],
     [ "isReplacement", "classogdf_1_1_u_m_l_graph.html#a38e4ce513bca83c4d36b0a2ddc0e7b6c", null ],
     [ "modelAssociationClass", "classogdf_1_1_u_m_l_graph.html#acbd75e152a891c8447d045550d1aba27", null ],

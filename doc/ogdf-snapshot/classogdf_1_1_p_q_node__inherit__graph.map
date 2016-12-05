@@ -1,0 +1,5 @@
+<map id="ogdf::PQNode&lt; T, X, Y &gt;" name="ogdf::PQNode&lt; T, X, Y &gt;">
+<area shape="rect" id="node3" href="$classogdf_1_1_p_q_internal_node.html" title="The class template PQInternalNode is used to present P&#45;nodes and Q&#45;nodes in the PQ&#45;Tree. " alt="" coords="5,155,153,196"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_p_q_leaf.html" title="The datastructure PQ&#45;tree was designed to present a set of permutations on an arbitrary set of elemen..." alt="" coords="178,162,343,189"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_p_q_node_root.html" title="The class PQNodeRoot is used as a base class of the class PQNode. " alt="" coords="103,5,237,32"/>
+</map>

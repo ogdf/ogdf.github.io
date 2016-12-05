@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,13 +138,12 @@ $(document).ready(function(){initNavTree('classogdf_1_1_p_q_leaf.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_p_q_leaf.png" usemap="#ogdf::PQLeaf_3C_20T_2C_20X_2C_20Y_20_3E_map" alt=""/>
-  <map id="ogdf::PQLeaf_3C_20T_2C_20X_2C_20Y_20_3E_map" name="ogdf::PQLeaf&lt; T, X, Y &gt;_map">
-<area href="classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class. " alt="ogdf::PQNode&lt; T, X, Y &gt;" shape="rect" coords="0,56,158,80"/>
-<area href="classogdf_1_1_p_q_node_root.html" title="The class PQNodeRoot is used as a base class of the class PQNode. " alt="ogdf::PQNodeRoot" shape="rect" coords="0,0,158,24"/>
+<div class="center"><img src="classogdf_1_1_p_q_leaf__inherit__graph.png" border="0" usemap="#ogdf_1_1_p_q_leaf_3_01_t_00_01_x_00_01_y_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_p_q_leaf_3_01_t_00_01_x_00_01_y_01_4_inherit__map" id="ogdf_1_1_p_q_leaf_3_01_t_00_01_x_00_01_y_01_4_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class. " alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node3" href="classogdf_1_1_p_q_node_root.html" title="The class PQNodeRoot is used as a base class of the class PQNode. " alt="" coords="24,5,157,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -368,7 +367,7 @@ class ogdf::PQLeaf&lt; T, X, Y &gt;</h3>
 <p>The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elements. </p>
 <p>These elements are the leafs of a PQ-tree. The client has to specify, what kind of elements he uses. The element of a node is stored in the <a class="el" href="classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey. ">PQLeafKey</a> of a <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a>. The <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a> is the only concrete class template of the abstract base class template <a class="el" href="classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class. ">PQNode</a> that is allowed to have a key. </p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00053">53</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00050">50</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a69106af840f2abc8211b8a2dfa81af53"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69106af840f2abc8211b8a2dfa81af53">&sect;&nbsp;</a></span>PQLeaf() <span class="overload">[1/2]</span></h2>
@@ -422,7 +421,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>In both cases the constructor expects an integer value <em>count</em>, setting the value of the variable <em>m_identificationNumber</em> in the base class, an integer value <em>status</em> setting the variable <em>m_status</em> of <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a> and a pointer to an element of type <a class="el" href="classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey. ">PQLeafKey</a>.</p>
 <p>One of the constructors expects additional information of type <a class="el" href="classogdf_1_1_p_q_node_key.html" title="The class template PQNodeKey is a derived class of class template PQBasicKey. ">PQNodeKey</a> and will automatically set the <em>m_nodePointer</em> (see basicKey) of the element of type <a class="el" href="classogdf_1_1_p_q_node_key.html" title="The class template PQNodeKey is a derived class of class template PQBasicKey. ">PQNodeKey</a> to the newly allocated <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a> (see also <a class="el" href="classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class. ">PQNode</a>). The second constructor is called, if no information for the <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a> is available or necessary. Both constructors will automatically set the <em>m_nodePointer</em> of the <em>keyPtr</em> to the newly allocated <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a>. </p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00073">73</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00070">70</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -468,7 +467,7 @@ template&lt;class T, class X, class Y&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00087">87</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00084">84</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -500,7 +499,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>The destructor does not delete any accompanying information class as <a class="el" href="classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey. ">PQLeafKey</a>, <a class="el" href="classogdf_1_1_p_q_node_key.html" title="The class template PQNodeKey is a derived class of class template PQBasicKey. ">PQNodeKey</a> and <a class="el" href="classogdf_1_1_p_q_internal_key.html" title="The class template PQInternalKey is a derived class of class template PQBasicKey. ...">PQInternalKey</a>. </p>
 <p>This has been avoided, since applications may need the existence of these information classes after the corresponding node has been deleted. If the deletion of an accompanying information class should be performed with the deletion of a node, either derive a new class with an appropriate destructor, or make use of the function CleanNode() of the class template <a class="el" href="classogdf_1_1_p_q_tree.html">PQTree</a>. </p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00110">110</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00107">107</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -535,7 +534,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#ae4f3b3ec9e44ae199f92731e1a2e974f">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00152">152</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00149">149</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -569,7 +568,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#acdc12c8f7a8f0f6946d8b76e283cadb7">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00119">119</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00116">116</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -603,7 +602,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#a8c96574f7d72280ef71cf300b349a00b">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00183">183</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00180">180</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -637,7 +636,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#a00c36b8ac0b6e186efd3f50d2afe0ed7">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00186">186</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00183">183</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -673,7 +672,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#a7a1260e5695ab1d215f2a4728357c306">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00168">168</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00165">165</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -708,7 +707,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#a5497f243a46c2f9614cb857c7db1c721">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00133">133</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00130">130</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -742,7 +741,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#a2f2b4162be77cd338344bd0506eef00b">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00199">199</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00196">196</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -776,7 +775,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#a8ce14e4c77a6190f8ff29653c9ae6370">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00202">202</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00199">199</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -810,7 +809,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#a01a36506d7789520a22f393a978e53a8">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00211">211</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00208">208</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -844,7 +843,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_p_q_node.html#af2d8e4b08ca02b7e468bc14dd5c206b3">ogdf::PQNode&lt; T, X, Y &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00214">214</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00211">211</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -873,7 +872,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p><em>m_mark</em> is a variable, storing if the <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a> is <b>QUEUEUD</b>, <b>BLOCKED</b> or <b>UNBLOCKED</b> (see <a class="el" href="classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class. ">PQNode</a>) during the first phase of the procedure Bubble(). </p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00223">223</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00220">220</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -902,7 +901,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p><em>m_pointerToKey</em> stores the adress of the corresponding <a class="el" href="classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey. ">PQLeafKey</a>. </p>
 <p>This <a class="el" href="classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey. ">PQLeafKey</a> can be overloaded by the client in order to represent different sets of elements, where possible permutations have to be examined by the PQ-tree. </p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00232">232</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00229">229</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -931,7 +930,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p><em>m_status</em> is a variable storing the status of a <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a>. </p>
 <p>A <a class="el" href="classogdf_1_1_p_q_leaf.html" title="The datastructure PQ-tree was designed to present a set of permutations on an arbitrary set of elemen...">PQLeaf</a> can be either <b>FULL</b> or <b>EMPTY</b> (see <a class="el" href="classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class. ">PQNode</a>). </p>
 
-<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00238">238</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
+<p>Definition at line <a class="el" href="_p_q_leaf_8h_source.html#l00235">235</a> of file <a class="el" href="_p_q_leaf_8h_source.html">PQLeaf.h</a>.</p>
 
 </div>
 </div>
@@ -944,7 +943,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_p_q_leaf.html">PQLeaf</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

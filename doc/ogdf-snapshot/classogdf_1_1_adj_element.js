@@ -12,6 +12,8 @@ var classogdf_1_1_adj_element =
     [ "faceCyclePred", "classogdf_1_1_adj_element.html#a15a403336efab9f3563509b41230bc4d", null ],
     [ "faceCycleSucc", "classogdf_1_1_adj_element.html#ae5cb5eb4d704a466bc96b188ae4bd61f", null ],
     [ "index", "classogdf_1_1_adj_element.html#a2b58603e7af3fd7773fc8f9112fbe477", null ],
+    [ "isBetween", "classogdf_1_1_adj_element.html#a2e1f95788054f184d20bcd83ce4b46e4", null ],
+    [ "isSource", "classogdf_1_1_adj_element.html#a923cb681f51a859e9407eba175a1e998", null ],
     [ "operator edge", "classogdf_1_1_adj_element.html#a1cdf7d8a25614a28edd9eddc04e7ac73", null ],
     [ "pred", "classogdf_1_1_adj_element.html#a29e9d4e054899db6d4cfcee67f89b5e6", null ],
     [ "succ", "classogdf_1_1_adj_element.html#a6f918b635d94072b5ad5d4620fd1422d", null ],

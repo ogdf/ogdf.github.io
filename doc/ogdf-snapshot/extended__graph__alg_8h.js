@@ -16,7 +16,5 @@ var extended__graph__alg_8h =
     [ "makeMinimumSpanningTree", "extended__graph__alg_8h.html#ga089d9a98611c9c75b3ba7cded171de16", null ],
     [ "planarEmbed", "extended__graph__alg_8h.html#ga31d5b4e2a827042674fc667e8858b69e", null ],
     [ "planarEmbedPlanarGraph", "extended__graph__alg_8h.html#ga0032c4984cd4ac14d375f6eded30a0d1", null ],
-    [ "planarSTEmbed", "extended__graph__alg_8h.html#a50e14b3e87f4e70ffb85a5dd4c1bbd9f", null ],
-    [ "stNumber", "extended__graph__alg_8h.html#ga0b4ce44e1d48946958555fc4501935bc", null ],
-    [ "testSTnumber", "extended__graph__alg_8h.html#ga97febba79e2c23a5925cb8d62a94cb8d", null ]
+    [ "planarSTEmbed", "extended__graph__alg_8h.html#a50e14b3e87f4e70ffb85a5dd4c1bbd9f", null ]
 ];

@@ -10,8 +10,8 @@ var classogdf_1_1_subgraph_upward_planarizer =
     [ "setAcyclicSubgraphModule", "classogdf_1_1_subgraph_upward_planarizer.html#a817794fae169010ab3ccaed742ba1168", null ],
     [ "setInserter", "classogdf_1_1_subgraph_upward_planarizer.html#a0b7511b1fe0b87cfffce98ac4cbe2e66", null ],
     [ "setSubgraph", "classogdf_1_1_subgraph_upward_planarizer.html#a4dca55142e6b754532ccfa94e9ef9b4c", null ],
-    [ "m_acyclicMod", "classogdf_1_1_subgraph_upward_planarizer.html#abdeab91ec402055439b22e0f0be2a3de", null ],
-    [ "m_inserter", "classogdf_1_1_subgraph_upward_planarizer.html#a51d37a110421474d1a47eac9fafb5c1c", null ],
+    [ "m_acyclicMod", "classogdf_1_1_subgraph_upward_planarizer.html#a6851e9248503b088e009f1f1732a01d0", null ],
+    [ "m_inserter", "classogdf_1_1_subgraph_upward_planarizer.html#a3b6348872152cdb87c5313b30a1b0f4b", null ],
     [ "m_runs", "classogdf_1_1_subgraph_upward_planarizer.html#a54ba255a4cbbcb53f9d067e366acfce9", null ],
-    [ "m_subgraph", "classogdf_1_1_subgraph_upward_planarizer.html#aabf958037edf73f88b11e3f16bd8e538", null ]
+    [ "m_subgraph", "classogdf_1_1_subgraph_upward_planarizer.html#a1b2a9ee37e2757c062dff8e7707aab53", null ]
 ];

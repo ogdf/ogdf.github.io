@@ -1,6 +1,5 @@
 var _system_8h =
 [
-    [ "OGDF_USE_SSE2", "_system_8h.html#a510f70a70802cdcdc986e65ed3092b4c", null ],
     [ "CPUFeature", "_system_8h.html#gadf1f0673cd41c92e0d15fe7980c3923c", [
       [ "cpufMMX", "_system_8h.html#ggadf1f0673cd41c92e0d15fe7980c3923ca3c5536051f3bd742ffdec126322937a2", null ],
       [ "cpufSSE", "_system_8h.html#ggadf1f0673cd41c92e0d15fe7980c3923ca70a8e9f78b1f12c452d15cc1134c2c7c", null ],

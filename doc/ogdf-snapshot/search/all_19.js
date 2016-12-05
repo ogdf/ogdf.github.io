@@ -9,7 +9,7 @@ var searchData=
   ['y_5ft',['y_t',['../structogdf_1_1_visibility_layout_1_1_edge_segment.html#a9dd52bc8f0f9750fd7f9615dddbc40c3',1,'ogdf::VisibilityLayout::EdgeSegment']]],
   ['yabs',['yAbs',['../classogdf_1_1_d_line.html#a9adc3a8db80ce9f930648526b1607995',1,'ogdf::DLine']]],
   ['ycoord',['yCoord',['../classogdf_1_1_dominance_layout.html#aa4c3c261b6fcf25943b49c1dd625722d',1,'ogdf::DominanceLayout']]],
-  ['yellow',['Yellow',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a098cdd0300d655304ded13b0c34c783b',1,'ogdf::Color']]],
+  ['yellow',['Yellow',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a098cdd0300d655304ded13b0c34c783b',1,'ogdf::Color::Yellow()'],['../namespacebackward_1_1_color.html#a6292269f4da43517b3fe825563efee5ca8f7946cb6e3cd72b9624130f4d6b3053',1,'backward::Color::yellow()']]],
   ['yellowgreen',['Yellowgreen',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125aab7aa4aa737ea51705c151bf415ddc41',1,'ogdf::Color']]],
   ['yinvert',['yInvert',['../classogdf_1_1_d_rect.html#a59c6fb45e1ea0777deb3127a73f84bae',1,'ogdf::DRect::yInvert()'],['../classogdf_1_1_intersection_rectangle.html#a30f15d0afa8323fa81c3c71205b2f20f',1,'ogdf::IntersectionRectangle::yInvert()']]],
   ['ylabel',['yLabel',['../classogdf_1_1_graph_attributes.html#a9c8b0411e939f15eeb463f06d3e7b0b7',1,'ogdf::GraphAttributes::yLabel(node v) const'],['../classogdf_1_1_graph_attributes.html#a475173a8e90343247314f2132d880f7f',1,'ogdf::GraphAttributes::yLabel(node v)']]],

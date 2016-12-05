@@ -52,7 +52,7 @@ var classogdf_1_1_steiner_tree_preprocessing =
     [ "m_copyIsTerminal", "classogdf_1_1_steiner_tree_preprocessing.html#acbb0c1b720c228e22f60c1688937b18c", null ],
     [ "m_copyTerminals", "classogdf_1_1_steiner_tree_preprocessing.html#a8619c396042d8f22d42adb70a647dfba", null ],
     [ "m_costAlreadyInserted", "classogdf_1_1_steiner_tree_preprocessing.html#a7ad3dc31f15d607fb43cbcfef7057e45", null ],
-    [ "m_costUpperBoundAlgorithm", "classogdf_1_1_steiner_tree_preprocessing.html#abfa79e778dd197b39a0ef5ea7344d8d8", null ],
+    [ "m_costUpperBoundAlgorithm", "classogdf_1_1_steiner_tree_preprocessing.html#aa6180d3dd0111a64caa9f4b40530a07c", null ],
     [ "m_edgeSonsListIndex", "classogdf_1_1_steiner_tree_preprocessing.html#a4a414e87e7b4c48eb19a4a1b4b53c5ed", null ],
     [ "m_eps", "classogdf_1_1_steiner_tree_preprocessing.html#af23c7497b798480bb0765e9c89e77928", null ],
     [ "m_nodeSonsListIndex", "classogdf_1_1_steiner_tree_preprocessing.html#a9c4bcb8933dd9b64ae08be08e414f843", null ],

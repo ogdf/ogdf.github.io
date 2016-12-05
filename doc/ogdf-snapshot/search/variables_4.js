@@ -21,6 +21,7 @@ var searchData=
   ['detectedinfeasibility',['detectedInfeasibility',['../classogdf_1_1_c_planarity_sub.html#a21e1a53cb0e7403478d5130f1c4f4f9c',1,'ogdf::CPlanaritySub::detectedInfeasibility()'],['../classogdf_1_1_max_c_planar_sub.html#a020595a10e96d6da12dad9e0b5fbab8c',1,'ogdf::MaxCPlanarSub::detectedInfeasibility()']]],
   ['dfsnum',['dfsNum',['../classogdf_1_1_order_comparer.html#aeef97ab8f47f7b33e91ea70a97cb3cf2',1,'ogdf::OrderComparer']]],
   ['dimension_5fcount',['DIMENSION_COUNT',['../classogdf_1_1_pivot_m_d_s.html#a8d0f477aa7ec897ae2aa605167999c56',1,'ogdf::PivotMDS']]],
+  ['dir',['dir',['../structogdf_1_1_non_planar_core_1_1_cut_edge.html#aa180894812023f8e9ff833fcc4f17c0b',1,'ogdf::NonPlanarCore::CutEdge']]],
   ['directed',['directed',['../structogdf_1_1dot_1_1_ast_1_1_graph.html#ae228c967d877b2103b82a30ba1ed6e1f',1,'ogdf::dot::Ast::Graph']]],
   ['dirties',['dirties',['../class_minisat_1_1_internal_1_1_occ_lists.html#af34b1883ec14a879d965da2b655e8890',1,'Minisat::Internal::OccLists']]],
   ['dirty',['dirty',['../class_minisat_1_1_internal_1_1_occ_lists.html#abea26d16fc90970abd0abfb1ae1479df',1,'Minisat::Internal::OccLists']]],

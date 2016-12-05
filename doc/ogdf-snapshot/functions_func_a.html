@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -156,6 +156,10 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <li>activate()
 : <a class="el" href="classabacus_1_1_con_var.html#ae5d5779fa87d0cad26d3dc9d99d41b47">abacus::ConVar</a>
 , <a class="el" href="classabacus_1_1_sub.html#ae22a4eb3419a6665e28cbeb0b592bcba">abacus::Sub</a>
+, <a class="el" href="classbackward_1_1_colorize.html#a18097a00c0d19bbf1b38b1c05f8550de">backward::Colorize</a>
+</li>
+<li>activate_if_tty()
+: <a class="el" href="classbackward_1_1_colorize.html#abe6679d1fe9ffbd7d99526d5b391bc75">backward::Colorize</a>
 </li>
 <li>activateEdge()
 : <a class="el" href="classogdf_1_1_plan_rep_inc.html#a54fae58bef844eebda847a4605069c18">ogdf::PlanRepInc</a>
@@ -269,10 +273,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <li>addCons()
 : <a class="el" href="classabacus_1_1_lp_sub.html#a07d42a33f333b703e9410d2b28d6f1d1">abacus::LpSub</a>
 , <a class="el" href="classabacus_1_1_master.html#adb72fd559bd07212f2d71f629a8dbc59">abacus::Master</a>
-, <a class="el" href="classabacus_1_1_sub.html#abe4120c3aacfde406cfe6b7abdb4ec11">abacus::Sub</a>
-</li>
-<li>addConstraint()
-: <a class="el" href="classogdf_1_1_graph_constraints.html#a6d878157d3234fa304efa6605e74aac2">ogdf::GraphConstraints</a>
+, <a class="el" href="classabacus_1_1_sub.html#a89ba1c129b6d87aee50dc45a36bb0db5">abacus::Sub</a>
 </li>
 <li>addCore()
 : <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r_1_1_core_witness.html#a368ca06f8a502c646d7b529f0deec213">ogdf::MinSteinerTreeGoemans139&lt; T &gt;::UFCR::CoreWitness</a>
@@ -306,6 +307,9 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 </li>
 <li>addEdgesToSolution()
 : <a class="el" href="classogdf_1_1_steiner_tree_preprocessing.html#af1164ea5d082ca68f73435d6cf97dd08">ogdf::SteinerTreePreprocessing&lt; T &gt;</a>
+</li>
+<li>addEdgeToIsolatedNode()
+: <a class="el" href="classogdf_1_1_combinatorial_embedding.html#a988788001b996a4e6a4a451dd0cf3ae2">ogdf::CombinatorialEmbedding</a>
 </li>
 <li>addedKConstraints()
 : <a class="el" href="classogdf_1_1_c_p___master_base.html#a204be9edbbc3e3030ed576ec09583c23">ogdf::CP_MasterBase</a>
@@ -433,10 +437,10 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <li>addVars()
 : <a class="el" href="classabacus_1_1_lp_sub.html#a2dec4a8a4ce33b4c50937323bc37aabd">abacus::LpSub</a>
 , <a class="el" href="classabacus_1_1_master.html#a46566571666243a943b87ae538460965">abacus::Master</a>
-, <a class="el" href="classabacus_1_1_sub.html#ade51b646387255f7cd54b5300fe91284">abacus::Sub</a>
+, <a class="el" href="classabacus_1_1_sub.html#a47f2926e01b7ef45d8acbe6f478ce293">abacus::Sub</a>
 </li>
 <li>addVarsToLp()
-: <a class="el" href="classabacus_1_1_sub.html#a70816c9f9b8b0a78d8fac0b9635a3197">abacus::Sub</a>
+: <a class="el" href="classabacus_1_1_sub.html#a0319ff82342610ca367e6196c79bac35">abacus::Sub</a>
 </li>
 <li>addWitness()
 : <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r_1_1_core_witness.html#a1b1251171728511769a330c8fee654ec">ogdf::MinSteinerTreeGoemans139&lt; T &gt;::UFCR::CoreWitness</a>
@@ -490,6 +494,9 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <li>adjEntryArrayTableSize()
 : <a class="el" href="classogdf_1_1_graph.html#a1d29d85142e9a4c216f9ef61a4c958b5">ogdf::Graph</a>
 </li>
+<li>AdjEntryComparer()
+: <a class="el" href="classogdf_1_1_planar_subgraph_cactus_1_1_adj_entry_comparer.html#a6fa92cc0f9f056f66de947781471ba0b">ogdf::PlanarSubgraphCactus&lt; TCost &gt;::AdjEntryComparer</a>
+</li>
 <li>adjEntryForNode()
 : <a class="el" href="classogdf_1_1_embedder_max_face_biconnected_graphs.html#af1012faf8a353c4b480bc444d1993243">ogdf::EmbedderMaxFaceBiconnectedGraphs&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_embedder_max_face_biconnected_graphs_layers.html#a93a11cc8266b61a5d0766c3497557324">ogdf::EmbedderMaxFaceBiconnectedGraphsLayers&lt; T &gt;</a>
@@ -501,7 +508,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classogdf_1_1_hierarchy_levels.html#a8ce33c85bcdfbcf8d62fab3924ef1196">ogdf::HierarchyLevels</a>
 </li>
 <li>adjNodes()
-: <a class="el" href="classogdf_1_1_block_order.html#aa5901bb8baccd35cc7c313a928b15cc7">ogdf::BlockOrder</a>
+: <a class="el" href="classogdf_1_1_block_order.html#af579efd8ae22251e812114135f048f93">ogdf::BlockOrder</a>
 , <a class="el" href="classogdf_1_1_hierarchy_levels.html#a7ee37af5c08d27643df72f9cf68275e3">ogdf::HierarchyLevels</a>
 , <a class="el" href="classogdf_1_1_hierarchy_levels_base.html#a711715029b2e00948233ccb25fec999e">ogdf::HierarchyLevelsBase</a>
 , <a class="el" href="classogdf_1_1_level.html#ab29f80863c7de0337f63827682e62a92">ogdf::Level</a>
@@ -513,7 +520,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classogdf_1_1_edge_element.html#aad2dcdc473848ea6fe2cdfb95e77303c">ogdf::EdgeElement</a>
 </li>
 <li>adjToCutvertex()
-: <a class="el" href="classogdf_1_1_planar_augmentation.html#abfab20991780508c1c0b5db83d6e377c">ogdf::PlanarAugmentation</a>
+: <a class="el" href="classogdf_1_1_planar_augmentation.html#a8f680d2b2d9a6e969ad21b6d4da7efd5">ogdf::PlanarAugmentation</a>
 </li>
 <li>adjToLowestNodeBelow()
 : <a class="el" href="classogdf_1_1_extract_kuratowskis.html#a67a69423816a90ed568de0af1a721b38">ogdf::ExtractKuratowskis</a>
@@ -620,7 +627,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 , <a class="el" href="classogdf_1_1_f_m_e_thread_pool.html#a57cb4ba52f88a7a98d5c8c1669533d45">ogdf::FMEThreadPool</a>
 , <a class="el" href="classogdf_1_1_linear_quadtree.html#a4fe18f05cdbaf2a991e8838f27f30ec9">ogdf::LinearQuadtree</a>
 , <a class="el" href="classogdf_1_1_linear_quadtree_expansion.html#ab78afd956dc578342fd70ebe77814107">ogdf::LinearQuadtreeExpansion</a>
-, <a class="el" href="classogdf_1_1_malloc_memory_allocator.html#adeb0362bafcb9719738432b38b4e4bfa">ogdf::MallocMemoryAllocator</a>
+, <a class="el" href="classogdf_1_1_malloc_memory_allocator.html#a81fc310d34c0c47b920fdb110912b9b1">ogdf::MallocMemoryAllocator</a>
 , <a class="el" href="classogdf_1_1_pool_memory_allocator.html#af5682a02b8cf2326a23525fef42cc060">ogdf::PoolMemoryAllocator</a>
 , <a class="el" href="classogdf_1_1_random_node_set.html#add6761424abec751a9231f26bcfc0ba4">ogdf::RandomNodeSet</a>
 , <a class="el" href="classogdf_1_1_w_s_p_d.html#a5de7cda7ca3377a02d8d534c7e90c752">ogdf::WSPD</a>
@@ -641,7 +648,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classogdf_1_1_hyper_graph.html#ae6bdbc1fa80e0d4ce68baa11b005a374">ogdf::HyperGraph</a>
 </li>
 <li>allowedPositions()
-: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#ab3d52ede844c5150038752a2d2310bbd">ogdf::FMMMLayout</a>
+: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a693723b66b9a76850215b91e987ebae0">ogdf::FMMMLayout</a>
 </li>
 <li>allPairShortestPaths()
 : <a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a3a571faefbad0a9255fd100dc3b68fe3">ogdf::MinSteinerTreeModule&lt; T &gt;</a>
@@ -690,9 +697,13 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classogdf_1_1_edge_comparer.html#aa7fa927079c67fd9b1098513d92ed056">ogdf::EdgeComparer</a>
 , <a class="el" href="classogdf_1_1energybased_1_1_multilevel.html#a6beafdef6c8244fafa9cf43f0c724550">ogdf::energybased::Multilevel</a>
 , <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a18298f302b644a9099de67dcfc56c822">ogdf::FMMMLayout</a>
+, <a class="el" href="classogdf_1_1_generic_point.html#a7625b517d95c9257a389ba0682cbe541">ogdf::GenericPoint&lt; NUMBER &gt;</a>
 , <a class="el" href="classogdf_1_1_ortho_rep.html#acf5347e8a726872ef3530d2e217f8ce2">ogdf::OrthoRep</a>
 , <a class="el" href="classogdf_1_1_procrustes_point_set.html#ab95665ac6ea9ae78093036bd87f62489">ogdf::ProcrustesPointSet</a>
 , <a class="el" href="classogdf_1_1_topology_module.html#a5c2b5c4f4b784fc062e8392616fead38">ogdf::TopologyModule</a>
+</li>
+<li>angleDegrees()
+: <a class="el" href="classogdf_1_1_generic_point.html#a0e0ddf2fa013e427f807e2af86405d11">ogdf::GenericPoint&lt; NUMBER &gt;</a>
 </li>
 <li>angularResolution()
 : <a class="el" href="classogdf_1_1_layout_statistics.html#a16ef37adddc1ad06afb5b74a3377a01f">ogdf::LayoutStatistics</a>
@@ -719,7 +730,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classpugi_1_1xml__node.html#a498e41f14a04014eaf5d6af3ae8f9d99">pugi::xml_node</a>
 </li>
 <li>append_copy()
-: <a class="el" href="classpugi_1_1xml__node.html#ab480b6e6080d4dd83ebb46e5d10e706b">pugi::xml_node</a>
+: <a class="el" href="classpugi_1_1xml__node.html#a56796f244b13436de2f33da3e8c182f8">pugi::xml_node</a>
 </li>
 <li>append_move()
 : <a class="el" href="classpugi_1_1xml__node.html#a83619cb521a024b87e7a63800669fecf">pugi::xml_node</a>
@@ -728,8 +739,8 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classogdf_1_1_xml_parser.html#af8ca1dcfc2cf52e7a8b333ef97312f25">ogdf::XmlParser</a>
 </li>
 <li>appendCandidates()
-: <a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#a9d377719ee73679372bea2a9e762f19c">ogdf::FixEdgeInserterCore</a>
-, <a class="el" href="classogdf_1_1_fix_edge_inserter_u_m_l_core.html#a8b91cbfc33ad189d038c67a21461890e">ogdf::FixEdgeInserterUMLCore</a>
+: <a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#a7e5c7fc8c508c84449cbe3421d883814">ogdf::FixEdgeInserterCore</a>
+, <a class="el" href="classogdf_1_1_fix_edge_inserter_u_m_l_core.html#a104b409520de54c27d3c7872d651d0d7">ogdf::FixEdgeInserterUMLCore</a>
 </li>
 <li>appendEdge()
 : <a class="el" href="classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#adf05f6f47bbf533add0af00cdf43b824">ogdf::MaxFlowSTPlanarItaiShiloach&lt; TCap &gt;</a>
@@ -768,7 +779,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classogdf_1_1_compaction_constraint_graph.html#ae04463d7dad69268c70fcc79ab584f25">ogdf::CompactionConstraintGraph&lt; ATYPE &gt;</a>
 </li>
 <li>areWellSeparated()
-: <a class="el" href="classogdf_1_1_d_tree_w_s_p_d.html#ae0a0b1b050ac9c94678372d6eb21fbd8">ogdf::DTreeWSPD&lt; Dim &gt;</a>
+: <a class="el" href="classogdf_1_1_d_tree_w_s_p_d.html#a972f79dc1312c75e88ce4509b4174efd">ogdf::DTreeWSPD&lt; Dim &gt;</a>
 </li>
 <li>arrangeCCs()
 : <a class="el" href="classogdf_1_1_planarization_layout.html#af3d13dc3ff6a67b36dcea60757a4cd5c">ogdf::PlanarizationLayout</a>
@@ -776,35 +787,35 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 , <a class="el" href="classogdf_1_1_sugiyama_layout.html#a5054b3dc5178050b060d0980dc7d7451">ogdf::SugiyamaLayout</a>
 </li>
 <li>Array()
-: <a class="el" href="classogdf_1_1_array.html#ac7c8865b7349190e557e502769c6ee12">ogdf::Array&lt; E, INDEX &gt;</a>
+: <a class="el" href="classogdf_1_1_array.html#acee68dcc28242d7977bbd74dc8c6ebbd">ogdf::Array&lt; E, INDEX &gt;</a>
 </li>
 <li>array()
 : <a class="el" href="classogdf_1_1_subset_enumerator.html#a5c0b078edca3479feee2392a9b7247dd">ogdf::SubsetEnumerator&lt; T &gt;</a>
 </li>
 <li>Array2D()
-: <a class="el" href="classogdf_1_1_array2_d.html#a900a9f64e786b96410f5b4598d321277">ogdf::Array2D&lt; E &gt;</a>
+: <a class="el" href="classogdf_1_1_array2_d.html#ac6d4a33e99ca3b32affdb9255397ba56">ogdf::Array2D&lt; E &gt;</a>
 </li>
 <li>arrayBound()
 : <a class="el" href="classogdf_1_1_binary_heap.html#a91ff700b90036be131f60a5206850f33">ogdf::BinaryHeap&lt; T, C &gt;</a>
 </li>
 <li>ArrayBuffer()
-: <a class="el" href="classogdf_1_1_array_buffer.html#aa43043ddf5fd930a6412f30a8944cfe9">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a>
+: <a class="el" href="classogdf_1_1_array_buffer.html#a045d5fa10fcc1e245ddc37eedaeda7b8">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a>
 </li>
 <li>ArrayController()
 : <a class="el" href="classogdf_1_1_hyper_graph_1_1_array_controller.html#a637ad3d1f0d88c0055c4d697acbfff20">ogdf::HyperGraph::ArrayController&lt; ElementType &gt;</a>
 </li>
 <li>ArrayGraph()
-: <a class="el" href="classogdf_1_1_array_graph.html#a3b5689cfa3e0e17b43d9c89c361f474e">ogdf::ArrayGraph</a>
+: <a class="el" href="classogdf_1_1_array_graph.html#a9dbd37218abd731d94162353b33f3a05">ogdf::ArrayGraph</a>
 , <a class="el" href="classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#a373b5f8fed94219349fdb8ced6437d25">ogdf::SpringEmbedderFRExact::ArrayGraph</a>
 </li>
 <li>ArrayLevel()
-: <a class="el" href="classogdf_1_1_array_level.html#a797be7a28ca036f94fb65d45d9dc0a00">ogdf::ArrayLevel</a>
+: <a class="el" href="classogdf_1_1_array_level.html#ad1acc0731816831b5513fb0204b7fc49">ogdf::ArrayLevel</a>
 </li>
 <li>arrayPartition()
 : <a class="el" href="classogdf_1_1_f_m_e_multipole_kernel.html#a0200ad19b67c09ebb2b4af429044f25e">ogdf::FMEMultipoleKernel</a>
 </li>
 <li>arrowType()
-: <a class="el" href="classogdf_1_1_graph_attributes.html#af6d3bf942c7b929fda93fb929b6abf15">ogdf::GraphAttributes</a>
+: <a class="el" href="classogdf_1_1_graph_attributes.html#a1528e2ad45b2f7c2ff85547b8ad8583c">ogdf::GraphAttributes</a>
 </li>
 <li>as_bool()
 : <a class="el" href="classpugi_1_1xml__attribute.html#a6dc176cc0f2a548e7aa9059f6ff37686">pugi::xml_attribute</a>
@@ -878,7 +889,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classogdf_1_1_cluster_graph.html#afce97c7ef3fc40538bfcbcbb3eb1ce5d">ogdf::ClusterGraph</a>
 </li>
 <li>assignParameter()
-: <a class="el" href="classabacus_1_1_abacus_global.html#a876799579124d96d60a1a319bad4ceb2">abacus::AbacusGlobal</a>
+: <a class="el" href="classabacus_1_1_abacus_global.html#a42c385e2e07ebc6e7757d1bf137ad10d">abacus::AbacusGlobal</a>
 </li>
 <li>assignParameters()
 : <a class="el" href="classabacus_1_1_master.html#a556c048f5bb77dd294d717032ea489d1">abacus::Master</a>
@@ -908,7 +919,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 : <a class="el" href="classogdf_1_1dot_1_1_ast.html#a3c012918aef931254bae25070e5794f2">ogdf::dot::Ast</a>
 </li>
 <li>AStarSearch()
-: <a class="el" href="classogdf_1_1_a_star_search.html#ae7fa8810a626c4e5504a1c506cf72b1a">ogdf::AStarSearch&lt; T, H &gt;</a>
+: <a class="el" href="classogdf_1_1_a_star_search.html#a9be8deaa7fea5d57f767b09ba313866c">ogdf::AStarSearch&lt; T &gt;</a>
 </li>
 <li>asymm()
 : <a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#a9aeb9f14eaf82f36b68b67f426602a3c">Minisat::Internal::SimpSolver</a>
@@ -992,7 +1003,7 @@ $(document).ready(function(){initNavTree('functions_func_a.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

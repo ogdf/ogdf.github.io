@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -123,6 +123,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_binary_heap.html','');})
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1_binary_heap-members.html">List of all members</a>  </div>
@@ -140,12 +141,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_binary_heap.html','');})
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_binary_heap.png" usemap="#ogdf::BinaryHeap_3C_20T_2C_20C_20_3E_map" alt=""/>
-  <map id="ogdf::BinaryHeap_3C_20T_2C_20C_20_3E_map" name="ogdf::BinaryHeap&lt; T, C &gt;_map">
-<area href="classogdf_1_1_heap_base.html" alt="ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;" shape="rect" coords="0,0,248,24"/>
+<div class="center"><img src="classogdf_1_1_binary_heap__inherit__graph.png" border="0" usemap="#ogdf_1_1_binary_heap_3_01_t_00_01_c_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_binary_heap_3_01_t_00_01_c_01_4_inherit__map" id="ogdf_1_1_binary_heap_3_01_t_00_01_c_01_4_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_heap_base.html" title="ogdf::HeapBase\&lt; BinaryHeap\l\&lt; T, C \&gt;, int, T, C \&gt;" alt="" coords="5,5,201,47"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -165,36 +165,41 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0eb45e1800569a71b52ee8e54aedcc29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a0eb45e1800569a71b52ee8e54aedcc29">clear</a> ()</td></tr>
 <tr class="memdesc:a0eb45e1800569a71b52ee8e54aedcc29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinitializes the data structure.  <a href="#a0eb45e1800569a71b52ee8e54aedcc29">More...</a><br /></td></tr>
 <tr class="separator:a0eb45e1800569a71b52ee8e54aedcc29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac06f9eeab1ca14bd56d94eb86dae6ac4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#ac06f9eeab1ca14bd56d94eb86dae6ac4">decrease</a> (int *handle, const T &amp;<a class="el" href="classogdf_1_1_binary_heap.html#a6066d0a57fc778cf6634831edf6afd29">value</a>)</td></tr>
-<tr class="memdesc:ac06f9eeab1ca14bd56d94eb86dae6ac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases a single value.  <a href="#ac06f9eeab1ca14bd56d94eb86dae6ac4">More...</a><br /></td></tr>
-<tr class="separator:ac06f9eeab1ca14bd56d94eb86dae6ac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b982110853c97079c9a1cbb30dd3207"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a2b982110853c97079c9a1cbb30dd3207">decrease</a> (int *handle, const T &amp;<a class="el" href="classogdf_1_1_binary_heap.html#acda751d9ca977598dc4a1579cbc67f8a">value</a>) override</td></tr>
+<tr class="memdesc:a2b982110853c97079c9a1cbb30dd3207"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases a single value.  <a href="#a2b982110853c97079c9a1cbb30dd3207">More...</a><br /></td></tr>
+<tr class="separator:a2b982110853c97079c9a1cbb30dd3207"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a70a677f4e8d1ecc66a528613b44e52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a0a70a677f4e8d1ecc66a528613b44e52">empty</a> () const</td></tr>
 <tr class="memdesc:a0a70a677f4e8d1ecc66a528613b44e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the heap is empty.  <a href="#a0a70a677f4e8d1ecc66a528613b44e52">More...</a><br /></td></tr>
 <tr class="separator:a0a70a677f4e8d1ecc66a528613b44e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36168a8dc512b76d794db4ad4f50ee8b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a36168a8dc512b76d794db4ad4f50ee8b">pop</a> ()</td></tr>
-<tr class="memdesc:a36168a8dc512b76d794db4ad4f50ee8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the topmost value from the heap.  <a href="#a36168a8dc512b76d794db4ad4f50ee8b">More...</a><br /></td></tr>
-<tr class="separator:a36168a8dc512b76d794db4ad4f50ee8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaaf55aa57b9786023362aac0689c23fb"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#aaaf55aa57b9786023362aac0689c23fb">push</a> (const T &amp;<a class="el" href="classogdf_1_1_binary_heap.html#a6066d0a57fc778cf6634831edf6afd29">value</a>)</td></tr>
-<tr class="memdesc:aaaf55aa57b9786023362aac0689c23fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value into the heap.  <a href="#aaaf55aa57b9786023362aac0689c23fb">More...</a><br /></td></tr>
-<tr class="separator:aaaf55aa57b9786023362aac0689c23fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7494316bf1615990f2de8ef463551ca3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a7494316bf1615990f2de8ef463551ca3">pop</a> () override</td></tr>
+<tr class="memdesc:a7494316bf1615990f2de8ef463551ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the topmost value from the heap.  <a href="#a7494316bf1615990f2de8ef463551ca3">More...</a><br /></td></tr>
+<tr class="separator:a7494316bf1615990f2de8ef463551ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2247cb5940b8060927d0b5b9fc0cb814"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a2247cb5940b8060927d0b5b9fc0cb814">push</a> (const T &amp;<a class="el" href="classogdf_1_1_binary_heap.html#acda751d9ca977598dc4a1579cbc67f8a">value</a>) override</td></tr>
+<tr class="memdesc:a2247cb5940b8060927d0b5b9fc0cb814"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value into the heap.  <a href="#a2247cb5940b8060927d0b5b9fc0cb814">More...</a><br /></td></tr>
+<tr class="separator:a2247cb5940b8060927d0b5b9fc0cb814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0854f6d0de9a0a44ec20c2e573d73060"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a0854f6d0de9a0a44ec20c2e573d73060">size</a> () const</td></tr>
 <tr class="memdesc:a0854f6d0de9a0a44ec20c2e573d73060"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of stored elements.  <a href="#a0854f6d0de9a0a44ec20c2e573d73060">More...</a><br /></td></tr>
 <tr class="separator:a0854f6d0de9a0a44ec20c2e573d73060"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aeafba5c77cd88fe87a7da9a3541f09"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a0aeafba5c77cd88fe87a7da9a3541f09">top</a> () const</td></tr>
-<tr class="memdesc:a0aeafba5c77cd88fe87a7da9a3541f09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retuns the topmost value in the heap.  <a href="#a0aeafba5c77cd88fe87a7da9a3541f09">More...</a><br /></td></tr>
-<tr class="separator:a0aeafba5c77cd88fe87a7da9a3541f09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6066d0a57fc778cf6634831edf6afd29"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a6066d0a57fc778cf6634831edf6afd29">value</a> (int *handle) const</td></tr>
-<tr class="memdesc:a6066d0a57fc778cf6634831edf6afd29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of that handle.  <a href="#a6066d0a57fc778cf6634831edf6afd29">More...</a><br /></td></tr>
-<tr class="separator:a6066d0a57fc778cf6634831edf6afd29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_classogdf_1_1_heap_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classogdf_1_1_heap_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;</a></td></tr>
-<tr class="memitem:aaa9ff30b1964f0de134d4dfbe677d782 inherit pub_methods_classogdf_1_1_heap_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#aaa9ff30b1964f0de134d4dfbe677d782">HeapBase</a> ()</td></tr>
-<tr class="separator:aaa9ff30b1964f0de134d4dfbe677d782 inherit pub_methods_classogdf_1_1_heap_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8850975935608dc413ef7932c1bfe520 inherit pub_methods_classogdf_1_1_heap_base"><td class="memItemLeft" align="right" valign="top">virtual const C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a8850975935608dc413ef7932c1bfe520">comparator</a> ()</td></tr>
-<tr class="memdesc:a8850975935608dc413ef7932c1bfe520 inherit pub_methods_classogdf_1_1_heap_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the comparator used to sort the values in the heap.  <a href="classogdf_1_1_heap_base.html#a8850975935608dc413ef7932c1bfe520">More...</a><br /></td></tr>
-<tr class="separator:a8850975935608dc413ef7932c1bfe520 inherit pub_methods_classogdf_1_1_heap_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b8cb9bac61ccae6927038b4a574142c inherit pub_methods_classogdf_1_1_heap_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a0b8cb9bac61ccae6927038b4a574142c">merge</a> (<a class="el" href="classogdf_1_1_binary_heap.html">BinaryHeap</a>&lt; T, C &gt; &amp;other)</td></tr>
-<tr class="memdesc:a0b8cb9bac61ccae6927038b4a574142c inherit pub_methods_classogdf_1_1_heap_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges in values of <em>other</em> heap.  <a href="classogdf_1_1_heap_base.html#a0b8cb9bac61ccae6927038b4a574142c">More...</a><br /></td></tr>
-<tr class="separator:a0b8cb9bac61ccae6927038b4a574142c inherit pub_methods_classogdf_1_1_heap_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12d7eaac656b08346d704b3543d37ab2"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a12d7eaac656b08346d704b3543d37ab2">top</a> () const override</td></tr>
+<tr class="memdesc:a12d7eaac656b08346d704b3543d37ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the topmost value in the heap.  <a href="#a12d7eaac656b08346d704b3543d37ab2">More...</a><br /></td></tr>
+<tr class="separator:a12d7eaac656b08346d704b3543d37ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda751d9ca977598dc4a1579cbc67f8a"><td class="memItemLeft" align="right" valign="top">const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#acda751d9ca977598dc4a1579cbc67f8a">value</a> (int *handle) const override</td></tr>
+<tr class="memdesc:acda751d9ca977598dc4a1579cbc67f8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of that handle.  <a href="#acda751d9ca977598dc4a1579cbc67f8a">More...</a><br /></td></tr>
+<tr class="separator:acda751d9ca977598dc4a1579cbc67f8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classogdf_1_1_heap_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classogdf_1_1_heap_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase&lt; BinaryHeap&lt; T, C &gt;, int, T, C &gt;</a></td></tr>
+<tr class="memitem:ac3c2311c40c90ad551a33f27b61f9972 inherit pub_methods_classogdf_1_1_heap_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#ac3c2311c40c90ad551a33f27b61f9972">HeapBase</a> (C const &amp;comp=C())</td></tr>
+<tr class="separator:ac3c2311c40c90ad551a33f27b61f9972 inherit pub_methods_classogdf_1_1_heap_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8828d36d63298face54a08516331b18 inherit pub_methods_classogdf_1_1_heap_base"><td class="memItemLeft" align="right" valign="top">virtual const C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#ac8828d36d63298face54a08516331b18">comparator</a> () const</td></tr>
+<tr class="memdesc:ac8828d36d63298face54a08516331b18 inherit pub_methods_classogdf_1_1_heap_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the comparator used to sort the values in the heap.  <a href="classogdf_1_1_heap_base.html#ac8828d36d63298face54a08516331b18">More...</a><br /></td></tr>
+<tr class="separator:ac8828d36d63298face54a08516331b18 inherit pub_methods_classogdf_1_1_heap_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f129e1aab23ac0d21561a22ce27ba91 inherit pub_methods_classogdf_1_1_heap_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a2f129e1aab23ac0d21561a22ce27ba91">merge</a> (<a class="el" href="classogdf_1_1_binary_heap.html">BinaryHeap</a>&lt; T, C &gt; &amp;other)</td></tr>
+<tr class="memdesc:a2f129e1aab23ac0d21561a22ce27ba91 inherit pub_methods_classogdf_1_1_heap_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges in values of <em>other</em> heap.  <a href="classogdf_1_1_heap_base.html#a2f129e1aab23ac0d21561a22ce27ba91">More...</a><br /></td></tr>
+<tr class="separator:a2f129e1aab23ac0d21561a22ce27ba91 inherit pub_methods_classogdf_1_1_heap_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
+Private Types</h2></td></tr>
+<tr class="memitem:a3345b57854003f07fa71bda03282e63d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_binary_heap.html#a3345b57854003f07fa71bda03282e63d">base_type</a> = <a class="el" href="classogdf_1_1_heap_base.html">HeapBase</a>&lt; <a class="el" href="classogdf_1_1_binary_heap.html">BinaryHeap</a>&lt; T, C &gt;, int, T, C &gt;</td></tr>
+<tr class="separator:a3345b57854003f07fa71bda03282e63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -245,13 +250,10 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_classogdf_1_1_heap_base"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classogdf_1_1_heap_base')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;</a></td></tr>
+<tr class="inherit_header pub_types_classogdf_1_1_heap_base"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classogdf_1_1_heap_base')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase&lt; BinaryHeap&lt; T, C &gt;, int, T, C &gt;</a></td></tr>
 <tr class="memitem:afbe90dcefbd716b4b1cbacd8a8cbad39 inherit pub_types_classogdf_1_1_heap_base"><td class="memItemLeft" align="right" valign="top">typedef int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#afbe90dcefbd716b4b1cbacd8a8cbad39">Handle</a></td></tr>
 <tr class="memdesc:afbe90dcefbd716b4b1cbacd8a8cbad39 inherit pub_types_classogdf_1_1_heap_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of handle used to identify stored values.  <a href="classogdf_1_1_heap_base.html#afbe90dcefbd716b4b1cbacd8a8cbad39">More...</a><br /></td></tr>
 <tr class="separator:afbe90dcefbd716b4b1cbacd8a8cbad39 inherit pub_types_classogdf_1_1_heap_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classogdf_1_1_heap_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1_heap_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;</a></td></tr>
-<tr class="memitem:a9d5da41a3c3da2439e891a812e05b786 inherit pro_attribs_classogdf_1_1_heap_base"><td class="memItemLeft" align="right" valign="top">C&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a9d5da41a3c3da2439e891a812e05b786">m_comp</a></td></tr>
-<tr class="separator:a9d5da41a3c3da2439e891a812e05b786 inherit pro_attribs_classogdf_1_1_heap_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T, typename C = std::less&lt;T&gt;&gt;<br />
@@ -267,8 +269,35 @@ class ogdf::BinaryHeap&lt; T, C &gt;</h3>
   </dd>
 </dl>
 
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00050">50</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a3345b57854003f07fa71bda03282e63d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3345b57854003f07fa71bda03282e63d">&sect;&nbsp;</a></span>base_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classogdf_1_1_binary_heap.html">ogdf::BinaryHeap</a>&lt; T, C &gt;::<a class="el" href="classogdf_1_1_binary_heap.html#a3345b57854003f07fa71bda03282e63d">base_type</a> =  <a class="el" href="classogdf_1_1_heap_base.html">HeapBase</a>&lt;<a class="el" href="classogdf_1_1_binary_heap.html">BinaryHeap</a>&lt;T, C&gt;, int, T, C&gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 <p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00053">53</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acb5032d13b16da5259ebf40fe967c966"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acb5032d13b16da5259ebf40fe967c966">&sect;&nbsp;</a></span>BinaryHeap()</h2>
 
@@ -306,7 +335,7 @@ template&lt;typename T , typename C &gt; </div>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00283">283</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00287">287</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -366,7 +395,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00168">168</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00172">172</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -397,7 +426,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 
 <p>Returns the current size. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00108">108</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00112">112</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -421,12 +450,12 @@ template&lt;typename T , typename C &gt; </div>
 <p>Reinitializes the data structure. </p>
 <p>Deletes the array and reallocates it with size that was passed at construction time. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00302">302</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00306">306</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
-<a id="ac06f9eeab1ca14bd56d94eb86dae6ac4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac06f9eeab1ca14bd56d94eb86dae6ac4">&sect;&nbsp;</a></span>decrease()</h2>
+<a id="a2b982110853c97079c9a1cbb30dd3207"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b982110853c97079c9a1cbb30dd3207">&sect;&nbsp;</a></span>decrease()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -456,7 +485,7 @@ template&lt;typename T , typename C &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -470,9 +499,9 @@ template&lt;typename T , typename C &gt; </div>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#ae935362e9a47cdd40f3664ad72994131">ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;</a>.</p>
+<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#ae935362e9a47cdd40f3664ad72994131">ogdf::HeapBase&lt; BinaryHeap&lt; T, C &gt;, int, T, C &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00265">265</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00269">269</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +532,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 
 <p>Returns true iff the heap is empty. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00114">114</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00118">118</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -535,7 +564,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 
 <p>Returns true if left child exists. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00153">153</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00157">157</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -567,7 +596,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 
 <p>Returns true if right child exists. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00160">160</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00164">164</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -597,7 +626,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00169">169</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00173">173</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -627,7 +656,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00170">170</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00174">174</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -657,7 +686,7 @@ template&lt;typename T , typename C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00290">290</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00294">294</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -689,7 +718,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 
 <p><a class="el" href="classogdf_1_1_array.html" title="The parameterized class Array&lt;E,INDEX&gt; implements dynamic arrays of type E. ">Array</a> index of left child. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00139">139</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00143">143</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -719,7 +748,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00171">171</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00175">175</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -749,7 +778,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00172">172</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00176">176</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -781,12 +810,12 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 
 <p><a class="el" href="classogdf_1_1_array.html" title="The parameterized class Array&lt;E,INDEX&gt; implements dynamic arrays of type E. ">Array</a> index of parent node. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00132">132</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00136">136</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
-<a id="a36168a8dc512b76d794db4ad4f50ee8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36168a8dc512b76d794db4ad4f50ee8b">&sect;&nbsp;</a></span>pop()</h2>
+<a id="a7494316bf1615990f2de8ef463551ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7494316bf1615990f2de8ef463551ca3">&sect;&nbsp;</a></span>pop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -805,21 +834,21 @@ template&lt;typename T , typename C &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Removes the topmost value from the heap. </p>
 
-<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#a915c15775b67692c26ed53fc9bd6313a">ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;</a>.</p>
+<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#a915c15775b67692c26ed53fc9bd6313a">ogdf::HeapBase&lt; BinaryHeap&lt; T, C &gt;, int, T, C &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00237">237</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00241">241</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
-<a id="aaaf55aa57b9786023362aac0689c23fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaf55aa57b9786023362aac0689c23fb">&sect;&nbsp;</a></span>push()</h2>
+<a id="a2247cb5940b8060927d0b5b9fc0cb814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2247cb5940b8060927d0b5b9fc0cb814">&sect;&nbsp;</a></span>push()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -839,7 +868,7 @@ template&lt;typename T , typename C &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -853,9 +882,9 @@ template&lt;typename T , typename C &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A handle to access and modify the value </dd></dl>
 
-<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#aa09756ef6cf3ab84390dc5641e924cba">ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;</a>.</p>
+<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#aa09756ef6cf3ab84390dc5641e924cba">ogdf::HeapBase&lt; BinaryHeap&lt; T, C &gt;, int, T, C &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00201">201</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00205">205</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -887,7 +916,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 
 <p><a class="el" href="classogdf_1_1_array.html" title="The parameterized class Array&lt;E,INDEX&gt; implements dynamic arrays of type E. ">Array</a> index of right child. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00146">146</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00150">150</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -919,7 +948,7 @@ template&lt;typename T , typename C &gt; </div>
 
 <p>Establishes heap property by moving element down in heap if necessary. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00337">337</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00341">341</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -951,7 +980,7 @@ template&lt;typename T , typename C &gt; </div>
 
 <p>Establishes heap property by moving element up in heap if necessary. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00312">312</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00316">316</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -982,12 +1011,12 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 
 <p>Returns the number of stored elements. </p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00111">111</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00115">115</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
-<a id="a0aeafba5c77cd88fe87a7da9a3541f09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0aeafba5c77cd88fe87a7da9a3541f09">&sect;&nbsp;</a></span>top()</h2>
+<a id="a12d7eaac656b08346d704b3543d37ab2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12d7eaac656b08346d704b3543d37ab2">&sect;&nbsp;</a></span>top()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1006,22 +1035,22 @@ template&lt;typename T , typename C &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Retuns the topmost value in the heap. </p>
+<p>Returns the topmost value in the heap. </p>
 <dl class="section return"><dt>Returns</dt><dd>the topmost value </dd></dl>
 
-<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#a85eece8bd8292298f2a105bf8cdb2ab5">ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;</a>.</p>
+<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#a85eece8bd8292298f2a105bf8cdb2ab5">ogdf::HeapBase&lt; BinaryHeap&lt; T, C &gt;, int, T, C &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00195">195</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00199">199</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
-<a id="a6066d0a57fc778cf6634831edf6afd29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6066d0a57fc778cf6634831edf6afd29">&sect;&nbsp;</a></span>value()</h2>
+<a id="acda751d9ca977598dc4a1579cbc67f8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda751d9ca977598dc4a1579cbc67f8a">&sect;&nbsp;</a></span>value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1041,7 +1070,7 @@ template&lt;typename T , typename C &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1055,9 +1084,9 @@ template&lt;typename T , typename C &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value </dd></dl>
 
-<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#ae15cbb91d5df266fee2c58c278b45117">ogdf::HeapBase&lt; BinaryHeap, int, T, C &gt;</a>.</p>
+<p>Implements <a class="el" href="classogdf_1_1_heap_base.html#ae15cbb91d5df266fee2c58c278b45117">ogdf::HeapBase&lt; BinaryHeap&lt; T, C &gt;, int, T, C &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00274">274</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00278">278</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -1084,7 +1113,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00187">187</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00191">191</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1139,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00181">181</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00185">185</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -1136,7 +1165,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00190">190</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00194">194</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -1162,7 +1191,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00184">184</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
+<p>Definition at line <a class="el" href="_binary_heap_8h_source.html#l00188">188</a> of file <a class="el" href="_binary_heap_8h_source.html">BinaryHeap.h</a>.</p>
 
 </div>
 </div>
@@ -1175,7 +1204,7 @@ template&lt;typename T , typename C  = std::less&lt;T&gt;&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_binary_heap.html">BinaryHeap</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

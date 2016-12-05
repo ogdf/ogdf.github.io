@@ -17,7 +17,7 @@ var class_minisat_1_1_internal_1_1_simp_solver =
     [ "eliminate", "class_minisat_1_1_internal_1_1_simp_solver.html#a9065e2dcb64bfcab27260761898e906e", null ],
     [ "eliminateVar", "class_minisat_1_1_internal_1_1_simp_solver.html#a02f1c52a811359aae37efc81c27228da", null ],
     [ "extendModel", "class_minisat_1_1_internal_1_1_simp_solver.html#adfe4dc137b444f11b18d66e6d73a1f7f", null ],
-    [ "garbageCollect", "class_minisat_1_1_internal_1_1_simp_solver.html#ad83d741a852e8416daf69bc65fb4403d", null ],
+    [ "garbageCollect", "class_minisat_1_1_internal_1_1_simp_solver.html#a081f5ab64abcfd5f9e12792d2e80d7a3", null ],
     [ "gatherTouchedClauses", "class_minisat_1_1_internal_1_1_simp_solver.html#a3cd8391352515a832795b6fcdb0b9bd0", null ],
     [ "implied", "class_minisat_1_1_internal_1_1_simp_solver.html#a08e9779358cea6c519974417d0d0f07d", null ],
     [ "isEliminated", "class_minisat_1_1_internal_1_1_simp_solver.html#ae019aa4d57469b22a6ec2ca8f8fa5e6c", null ],

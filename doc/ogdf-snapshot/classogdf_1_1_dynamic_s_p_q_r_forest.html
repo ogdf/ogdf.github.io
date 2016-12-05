@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -139,15 +139,14 @@ $(document).ready(function(){initNavTree('classogdf_1_1_dynamic_s_p_q_r_forest.h
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_dynamic_s_p_q_r_forest.png" usemap="#ogdf::DynamicSPQRForest_map" alt=""/>
-  <map id="ogdf::DynamicSPQRForest_map" name="ogdf::DynamicSPQRForest_map">
-<area href="classogdf_1_1_dynamic_b_c_tree.html" title="Dynamic BC-trees. " alt="ogdf::DynamicBCTree" shape="rect" coords="0,56,189,80"/>
-<area href="classogdf_1_1_b_c_tree.html" title="Static BC-trees. " alt="ogdf::BCTree" shape="rect" coords="0,0,189,24"/>
-<area href="classogdf_1_1_dynamic_s_p_q_r_tree.html" title="Linear-time implementation of dynamic SPQR-trees. " alt="ogdf::DynamicSPQRTree" shape="rect" coords="0,168,189,192"/>
-<area href="classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. " alt="ogdf::DynamicPlanarSPQRTree" shape="rect" coords="0,224,189,248"/>
+<div class="center"><img src="classogdf_1_1_dynamic_s_p_q_r_forest__inherit__graph.png" border="0" usemap="#ogdf_1_1_dynamic_s_p_q_r_forest_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_dynamic_s_p_q_r_forest_inherit__map" id="ogdf_1_1_dynamic_s_p_q_r_forest_inherit__map">
+<area shape="rect" id="node4" href="classogdf_1_1_dynamic_s_p_q_r_tree.html" title="Linear&#45;time implementation of dynamic SPQR&#45;trees. " alt="" coords="24,229,195,256"/>
+<area shape="rect" id="node2" href="classogdf_1_1_dynamic_b_c_tree.html" title="Dynamic BC&#45;trees. " alt="" coords="33,80,185,107"/>
+<area shape="rect" id="node3" href="classogdf_1_1_b_c_tree.html" title="Static BC&#45;trees. " alt="" coords="59,5,159,32"/>
+<area shape="rect" id="node5" href="classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="5,304,213,331"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -196,12 +195,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:accb725fcd51ebe95ba8767ee22069a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the virtual edge which leads from one vertex of an SPQR-tree to another one.  <a href="#accb725fcd51ebe95ba8767ee22069a7c">More...</a><br /></td></tr>
 <tr class="separator:accb725fcd51ebe95ba8767ee22069a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:af1a10d122fe98f731e3d405c1e23b59e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#af1a10d122fe98f731e3d405c1e23b59e">updateInsertedEdge</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eG)</td></tr>
-<tr class="memdesc:af1a10d122fe98f731e3d405c1e23b59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the whole data structure after a new edge has been inserted into the original graph.  <a href="#af1a10d122fe98f731e3d405c1e23b59e">More...</a><br /></td></tr>
-<tr class="separator:af1a10d122fe98f731e3d405c1e23b59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a674a5daefa9c26ebb8a2bf6e1ea2e5b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a674a5daefa9c26ebb8a2bf6e1ea2e5b3">updateInsertedNode</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eG, <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> fG)</td></tr>
-<tr class="memdesc:a674a5daefa9c26ebb8a2bf6e1ea2e5b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the whole data structure after a new vertex has been inserted into the original graph by splitting an edge into <em>eG</em> and <em>fG</em>.  <a href="#a674a5daefa9c26ebb8a2bf6e1ea2e5b3">More...</a><br /></td></tr>
-<tr class="separator:a674a5daefa9c26ebb8a2bf6e1ea2e5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a984a9014cce26aa13e480556615357a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a984a9014cce26aa13e480556615357a9">updateInsertedEdge</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eG) override</td></tr>
+<tr class="memdesc:a984a9014cce26aa13e480556615357a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the whole data structure after a new edge has been inserted into the original graph.  <a href="#a984a9014cce26aa13e480556615357a9">More...</a><br /></td></tr>
+<tr class="separator:a984a9014cce26aa13e480556615357a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fcea34f064dbc18be1ba131b540aa97"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a4fcea34f064dbc18be1ba131b540aa97">updateInsertedNode</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eG, <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> fG) override</td></tr>
+<tr class="memdesc:a4fcea34f064dbc18be1ba131b540aa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">updates the whole data structure after a new vertex has been inserted into the original graph by splitting an edge into <em>eG</em> and <em>fG</em>.  <a href="#a4fcea34f064dbc18be1ba131b540aa97">More...</a><br /></td></tr>
+<tr class="separator:a4fcea34f064dbc18be1ba131b540aa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classogdf_1_1_dynamic_b_c_tree"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classogdf_1_1_dynamic_b_c_tree')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classogdf_1_1_dynamic_b_c_tree.html">ogdf::DynamicBCTree</a></td></tr>
 <tr class="memitem:a7632a65d4f04c144a8890808943075de inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a7632a65d4f04c144a8890808943075de">DynamicBCTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, bool callInitConnected=false)</td></tr>
 <tr class="memdesc:a7632a65d4f04c144a8890808943075de inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">A constructor.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a7632a65d4f04c144a8890808943075de">More...</a><br /></td></tr>
@@ -209,18 +208,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9cbc9ea2bc105fbd2d5b2481a19399d3 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a9cbc9ea2bc105fbd2d5b2481a19399d3">DynamicBCTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vG, bool callInitConnected=false)</td></tr>
 <tr class="memdesc:a9cbc9ea2bc105fbd2d5b2481a19399d3 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">A constructor.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a9cbc9ea2bc105fbd2d5b2481a19399d3">More...</a><br /></td></tr>
 <tr class="separator:a9cbc9ea2bc105fbd2d5b2481a19399d3 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ea9e9c6984527260ec9ef26bf1cb44d inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a1ea9e9c6984527260ec9ef26bf1cb44d">bcproper</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vG) const</td></tr>
-<tr class="memdesc:a1ea9e9c6984527260ec9ef26bf1cb44d inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a BC-tree-vertex representing a biconnected component which a given vertex of the original graph is belonging to.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a1ea9e9c6984527260ec9ef26bf1cb44d">More...</a><br /></td></tr>
-<tr class="separator:a1ea9e9c6984527260ec9ef26bf1cb44d inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5892a3a1d520457463660258dbc741e3 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a5892a3a1d520457463660258dbc741e3">bcproper</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eG) const</td></tr>
-<tr class="memdesc:a5892a3a1d520457463660258dbc741e3 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the BC-tree-vertex representing the biconnected component which a given edge of the original graph is belonging to.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a5892a3a1d520457463660258dbc741e3">More...</a><br /></td></tr>
-<tr class="separator:a5892a3a1d520457463660258dbc741e3 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a405bc33084d0dee836bdccc717c2db56 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a405bc33084d0dee836bdccc717c2db56">repVertex</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> uG, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vB) const</td></tr>
-<tr class="memdesc:a405bc33084d0dee836bdccc717c2db56 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a vertex of the biconnected components graph corresponding to a given vertex of the original graph and belonging to the representation of a certain biconnected component given by a vertex of the BC-tree.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a405bc33084d0dee836bdccc717c2db56">More...</a><br /></td></tr>
-<tr class="separator:a405bc33084d0dee836bdccc717c2db56 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5fff09b5455fc77d7ab67594d7a10d9 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#ae5fff09b5455fc77d7ab67594d7a10d9">cutVertex</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> uB, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vB) const</td></tr>
-<tr class="memdesc:ae5fff09b5455fc77d7ab67594d7a10d9 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the copy of a cut-vertex in the biconnected components graph which belongs to a certain B-component and leads to another B-component.  <a href="classogdf_1_1_dynamic_b_c_tree.html#ae5fff09b5455fc77d7ab67594d7a10d9">More...</a><br /></td></tr>
-<tr class="separator:ae5fff09b5455fc77d7ab67594d7a10d9 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26b46212dd1df039aeda115c6e0da1e4 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a26b46212dd1df039aeda115c6e0da1e4">bcproper</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vG) const override</td></tr>
+<tr class="memdesc:a26b46212dd1df039aeda115c6e0da1e4 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a BC-tree-vertex representing a biconnected component which a given vertex of the original graph is belonging to.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a26b46212dd1df039aeda115c6e0da1e4">More...</a><br /></td></tr>
+<tr class="separator:a26b46212dd1df039aeda115c6e0da1e4 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af74d3d2adcef93ecbeed42ad8eab24b4 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#af74d3d2adcef93ecbeed42ad8eab24b4">bcproper</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eG) const override</td></tr>
+<tr class="memdesc:af74d3d2adcef93ecbeed42ad8eab24b4 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the BC-tree-vertex representing the biconnected component which a given edge of the original graph is belonging to.  <a href="classogdf_1_1_dynamic_b_c_tree.html#af74d3d2adcef93ecbeed42ad8eab24b4">More...</a><br /></td></tr>
+<tr class="separator:af74d3d2adcef93ecbeed42ad8eab24b4 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64910a5994c59924cad6c68e17e8ca5b inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a64910a5994c59924cad6c68e17e8ca5b">repVertex</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> uG, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vB) const override</td></tr>
+<tr class="memdesc:a64910a5994c59924cad6c68e17e8ca5b inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a vertex of the biconnected components graph corresponding to a given vertex of the original graph and belonging to the representation of a certain biconnected component given by a vertex of the BC-tree.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a64910a5994c59924cad6c68e17e8ca5b">More...</a><br /></td></tr>
+<tr class="separator:a64910a5994c59924cad6c68e17e8ca5b inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47f76b804ee5476e3e58a88b5fe143e1 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a47f76b804ee5476e3e58a88b5fe143e1">cutVertex</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> uB, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vB) const override</td></tr>
+<tr class="memdesc:a47f76b804ee5476e3e58a88b5fe143e1 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the copy of a cut-vertex in the biconnected components graph which belongs to a certain B-component and leads to another B-component.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a47f76b804ee5476e3e58a88b5fe143e1">More...</a><br /></td></tr>
+<tr class="separator:a47f76b804ee5476e3e58a88b5fe143e1 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb25a6bd1accf80f9eb9f9f92042c137 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#abb25a6bd1accf80f9eb9f9f92042c137">insertEdge</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> sG, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> tG)</td></tr>
 <tr class="memdesc:abb25a6bd1accf80f9eb9f9f92042c137 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">inserts a new edge into the original graph and updates the BC-tree.  <a href="classogdf_1_1_dynamic_b_c_tree.html#abb25a6bd1accf80f9eb9f9f92042c137">More...</a><br /></td></tr>
 <tr class="separator:abb25a6bd1accf80f9eb9f9f92042c137 inherit pub_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -331,9 +330,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a09e9c38e59ccaa459cd6786f31ce0b73 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a09e9c38e59ccaa459cd6786f31ce0b73">find</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vB) const</td></tr>
 <tr class="memdesc:a09e9c38e59ccaa459cd6786f31ce0b73 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FIND function of the UNION/FIND structure.  <a href="classogdf_1_1_dynamic_b_c_tree.html#a09e9c38e59ccaa459cd6786f31ce0b73">More...</a><br /></td></tr>
 <tr class="separator:a09e9c38e59ccaa459cd6786f31ce0b73 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae92608637722ee4812f997925f3ddb65 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#ae92608637722ee4812f997925f3ddb65">parent</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vB) const</td></tr>
-<tr class="memdesc:ae92608637722ee4812f997925f3ddb65 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the parent of a given BC-tree-vertex.  <a href="classogdf_1_1_dynamic_b_c_tree.html#ae92608637722ee4812f997925f3ddb65">More...</a><br /></td></tr>
-<tr class="separator:ae92608637722ee4812f997925f3ddb65 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae08e286e294452343af9abb9656e5583 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#ae08e286e294452343af9abb9656e5583">parent</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> vB) const override</td></tr>
+<tr class="memdesc:ae08e286e294452343af9abb9656e5583 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the parent of a given BC-tree-vertex.  <a href="classogdf_1_1_dynamic_b_c_tree.html#ae08e286e294452343af9abb9656e5583">More...</a><br /></td></tr>
+<tr class="separator:ae08e286e294452343af9abb9656e5583 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8830bc7453e4e628babd82435b0dba3 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#aa8830bc7453e4e628babd82435b0dba3">condensePath</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> sG, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> tG)</td></tr>
 <tr class="memdesc:aa8830bc7453e4e628babd82435b0dba3 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">performs path condensation.  <a href="classogdf_1_1_dynamic_b_c_tree.html#aa8830bc7453e4e628babd82435b0dba3">More...</a><br /></td></tr>
 <tr class="separator:aa8830bc7453e4e628babd82435b0dba3 inherit pro_methods_classogdf_1_1_dynamic_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -485,7 +484,7 @@ Protected Attributes</h2></td></tr>
 <p>This class is an extension of <a class="el" href="classogdf_1_1_dynamic_b_c_tree.html" title="Dynamic BC-trees. ">DynamicBCTree</a>.<br />
 It provides a set of SPQR-trees for each B-component of a BC-tree. These SPQR-trees are dynamic, i.e. there are member functions for dynamic updates (edge insertion and node insertion). </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00052">52</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00049">49</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="afe6f79d01516837aeeab928fdeb84b68"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe6f79d01516837aeeab928fdeb84b68">&sect;&nbsp;</a></span>TNodeType</h2>
@@ -509,7 +508,7 @@ It provides a set of SPQR-trees for each B-component of a BC-tree. These SPQR-tr
 </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00068">68</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00065">65</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -539,14 +538,14 @@ It provides a set of SPQR-trees for each B-component of a BC-tree. These SPQR-tr
 </div><div class="memdoc">
 
 <p>A constructor. </p>
-<p>This constructor does only create the dynamic BC-tree rooted at the first edge of <em>G</em>. The data structure is prepared for dealing with SPQR-trees, but they will only be created on demand. Cf. member functions <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8356b0d04aba3d9beb2a940449805a91" title="finds the shortest path between the two sets of SPQR-tree-vertices which sH and tH are belonging to...">findPathSPQR()</a> and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#af1a10d122fe98f731e3d405c1e23b59e" title="updates the whole data structure after a new edge has been inserted into the original graph...">updateInsertedEdge()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>This constructor does only create the dynamic BC-tree rooted at the first edge of <em>G</em>. The data structure is prepared for dealing with SPQR-trees, but they will only be created on demand. Cf. member functions <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8356b0d04aba3d9beb2a940449805a91" title="finds the shortest path between the two sets of SPQR-tree-vertices which sH and tH are belonging to...">findPathSPQR()</a> and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a984a9014cce26aa13e480556615357a9" title="updates the whole data structure after a new edge has been inserted into the original graph...">updateInsertedEdge()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the original graph. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00272">272</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00269">269</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -576,7 +575,7 @@ It provides a set of SPQR-trees for each B-component of a BC-tree. These SPQR-tr
 </div><div class="memdoc">
 
 <p>creates the SPQR-tree for a given B-component of the BC-tree. </p>
-<p>An SPQR-tree belonging to a B-component of the BC-tree is only created on demand, i.e. this member function is only called by findSPQRTree() and - under certain circumstances - by <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#af1a10d122fe98f731e3d405c1e23b59e" title="updates the whole data structure after a new edge has been inserted into the original graph...">updateInsertedEdge()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>An SPQR-tree belonging to a B-component of the BC-tree is only created on demand, i.e. this member function is only called by findSPQRTree() and - under certain circumstances - by <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a984a9014cce26aa13e480556615357a9" title="updates the whole data structure after a new edge has been inserted into the original graph...">updateInsertedEdge()</a>. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">vB</td><td>is a vertex of the BC-tree representing a B-component. </td></tr>
   </table>
@@ -801,7 +800,7 @@ The B-component represented by <em>vB</em> must contain at least 3 edges. </dd><
 <dl class="section pre"><dt>Precondition</dt><dd><em>vT</em> has to be the proper representative of its triconnected component, i.e. it has to be the root vertex of its respective UNION/FIND-tree. This condition is particularly fulfilled if <em>vT</em> is a member of a list gained by the <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8356b0d04aba3d9beb2a940449805a91" title="finds the shortest path between the two sets of SPQR-tree-vertices which sH and tH are belonging to...">findPathSPQR()</a> member function. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>a linear list of the edges in <em>m_H</em> belonging to the triconnected component represented by <em>vT</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00321">321</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00318">318</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -866,7 +865,7 @@ The B-component represented by <em>vB</em> must contain at least 3 edges. </dd><
 <dl class="section pre"><dt>Precondition</dt><dd>The respective SPQR-tree belonging to the B-component represented by the BC-tree-vertex bcproper(<em>eH</em>) must exist! Notice, that this condition is fulfilled, if <em>eH</em> is a member of a list gained by the <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a54e5c935bc2f735bc774ddcf50c385d9" title="returns a linear list of the edges in m_H belonging to the triconnected component represented by a gi...">hEdgesSPQR()</a> member function, because that member function needs an SPQR-tree-vertex as parameter, which might have been found (and eventually created) by the <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8356b0d04aba3d9beb2a940449805a91" title="finds the shortest path between the two sets of SPQR-tree-vertices which sH and tH are belonging to...">findPathSPQR()</a> member function. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>the proper representative of the SPQR-tree-vertex which <em>eH</em> is belonging to. </dd></dl>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00289">289</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00286">286</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -903,7 +902,7 @@ The B-component represented by <em>vB</em> must contain at least 3 edges. </dd><
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the twin edge of <em>eH</em>, if it is virtual, or <em>nullptr</em>, if it is real. </dd></dl>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00297">297</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00294">294</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -941,7 +940,7 @@ The B-component represented by <em>vB</em> must contain at least 3 edges. </dd><
 <dl class="section pre"><dt>Precondition</dt><dd><em>vT</em> has to be the proper representative of its triconnected component, i.e. it has to be the root vertex of its respective UNION/FIND-tree. This condition is particularly fulfilled if <em>vT</em> is a member of a list gained by the <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8356b0d04aba3d9beb2a940449805a91" title="finds the shortest path between the two sets of SPQR-tree-vertices which sH and tH are belonging to...">findPathSPQR()</a> member function. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>the type of the triconnected component represented by <em>vT</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00309">309</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00306">306</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1001,8 +1000,8 @@ The B-component represented by <em>vB</em> must contain at least 3 edges. </dd><
 
 </div>
 </div>
-<a id="af1a10d122fe98f731e3d405c1e23b59e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1a10d122fe98f731e3d405c1e23b59e">&sect;&nbsp;</a></span>updateInsertedEdge()</h2>
+<a id="a984a9014cce26aa13e480556615357a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a984a9014cce26aa13e480556615357a9">&sect;&nbsp;</a></span>updateInsertedEdge()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1020,7 +1019,7 @@ The B-component represented by <em>vB</em> must contain at least 3 edges. </dd><
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1036,7 +1035,7 @@ The B-component represented by <em>vB</em> must contain at least 3 edges. </dd><
 
 <p>Reimplemented from <a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a0895af00466f668e15441756c9405cfa">ogdf::DynamicBCTree</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a2f5bd4ae76f8875e9a72611ffb767826">ogdf::DynamicSPQRTree</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a437086a728e01b1c06bce2b9ae05315a">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -1089,8 +1088,8 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 </div>
 </div>
-<a id="a674a5daefa9c26ebb8a2bf6e1ea2e5b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a674a5daefa9c26ebb8a2bf6e1ea2e5b3">&sect;&nbsp;</a></span>updateInsertedNode()</h2>
+<a id="a4fcea34f064dbc18be1ba131b540aa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fcea34f064dbc18be1ba131b540aa97">&sect;&nbsp;</a></span>updateInsertedNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1118,7 +1117,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1135,7 +1134,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>Reimplemented from <a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#ab560628d721b21d5c83965c5a915b1eb">ogdf::DynamicBCTree</a>.</p>
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#ade647270b058e5c2033ae5ba67e645a6">ogdf::DynamicSPQRTree</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#ac982cd37136ee6837d5202cf4738e452">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -1258,7 +1257,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 <p>The numbers of P-components. </p>
 <p>For each vertex of the BC-tree representing a B-component, this array contains the number of P-components of the respective SPQR-tree. If the SPQR-tree does not exist, then the array member is undefined. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00106">106</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00103">103</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1285,7 +1284,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 <p>The numbers of R-components. </p>
 <p>For each vertex of the BC-tree representing a B-component, this array contains the number of R-components of the respective SPQR-tree. If the SPQR-tree does not exist, then the array member is undefined. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00115">115</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00112">112</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1312,7 +1311,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 <p>The numbers of S-components. </p>
 <p>For each vertex of the BC-tree representing a B-component, this array contains the number of S-components of the respective SPQR-tree. If the SPQR-tree does not exist, then the array member is undefined. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00097">97</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00094">94</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1339,7 +1338,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 <p>The root vertices of the SPQR-trees. </p>
 <p>For each vertex of the BC-tree representing a B-component, this array contains the root vertex of the respective SPQR-tree, or <em>nullptr</em>, if the SPQR-tree does not exist. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00088">88</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00085">85</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1365,7 +1364,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>The positions of real and virtual edges in their <em>m_tNode_hEdges</em> lists. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00141">141</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00138">138</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1391,7 +1390,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>The SPQR-tree-vertices which the real and virtual edges are belonging to. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00146">146</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00143">143</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1417,7 +1416,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>The partners of virtual edges (<em>nullptr</em> if real). </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00150">150</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00147">147</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1443,7 +1442,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>Auxiliary array used by <em><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#ab562313b7cff33b9ae9e110b8bdaee38" title="creates the SPQR-tree for a given B-component of the BC-tree. ">createSPQR()</a></em>. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00155">155</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00152">152</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1469,7 +1468,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>A <em><a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a></em> structure containing all SPQR-trees. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00079">79</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00076">76</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1495,7 +1494,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>Lists of real and virtual edges belonging to SPQR-tree-vertices. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00135">135</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00132">132</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1521,7 +1520,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>The virtual edges leading to the parents of the SPQR-tree-vertices. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00130">130</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00127">127</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1546,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>Auxiliary array used by <em><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#ae0fdfb3edd1b0acbdad142a2d6eff56c" title="finds the nearest common ancestor of sT and tT. ">findNCASPQR()</a></em> </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00159">159</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00156">156</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1573,7 +1572,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>The owners of the SPQR-tree-vertices in the UNION/FIND structure. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00125">125</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00122">122</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1599,7 +1598,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 
 <p>The types of the SPQR-tree-vertices. </p>
 
-<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00120">120</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p>Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00117">117</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1612,7 +1611,7 @@ Both the source and the target vertices of <em>eG</em> must belong to the same B
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html">DynamicSPQRForest</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -132,24 +132,24 @@ $(document).ready(function(){initNavTree('group__ga-orient.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ga0b4ce44e1d48946958555fc4501935bc"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-orient.html#ga0b4ce44e1d48946958555fc4501935bc">ogdf::stNumber</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;numbering, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> s=0, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> t=0, bool randomized=false)</td></tr>
-<tr class="memdesc:ga0b4ce44e1d48946958555fc4501935bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes an st-Numbering of <em>G</em>.  <a href="group__ga-orient.html#ga0b4ce44e1d48946958555fc4501935bc">More...</a><br /></td></tr>
-<tr class="separator:ga0b4ce44e1d48946958555fc4501935bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga97febba79e2c23a5925cb8d62a94cb8d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-orient.html#ga97febba79e2c23a5925cb8d62a94cb8d">ogdf::testSTnumber</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;st_no, int max)</td></tr>
-<tr class="memdesc:ga97febba79e2c23a5925cb8d62a94cb8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests, whether a numbering of the nodes is an st-numbering.  <a href="group__ga-orient.html#ga97febba79e2c23a5925cb8d62a94cb8d">More...</a><br /></td></tr>
-<tr class="separator:ga97febba79e2c23a5925cb8d62a94cb8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf11757bc010c3a3ed93c156842151171"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-orient.html#gaf11757bc010c3a3ed93c156842151171">ogdf::computeSTNumbering</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;numbering, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> s=nullptr, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> t=nullptr, bool randomized=false)</td></tr>
+<tr class="memdesc:gaf11757bc010c3a3ed93c156842151171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes an st-Numbering of <em>G</em>.  <a href="group__ga-orient.html#gaf11757bc010c3a3ed93c156842151171">More...</a><br /></td></tr>
+<tr class="separator:gaf11757bc010c3a3ed93c156842151171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44dcd46be4fc6becc15e976fbe2779b8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-orient.html#ga44dcd46be4fc6becc15e976fbe2779b8">ogdf::isSTNumbering</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;st_no, int max)</td></tr>
+<tr class="memdesc:ga44dcd46be4fc6becc15e976fbe2779b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests, whether a numbering of the nodes is an st-numbering.  <a href="group__ga-orient.html#ga44dcd46be4fc6becc15e976fbe2779b8">More...</a><br /></td></tr>
+<tr class="separator:ga44dcd46be4fc6becc15e976fbe2779b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Provides functions for orienting graphs like st-numbering. </p>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ga0b4ce44e1d48946958555fc4501935bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0b4ce44e1d48946958555fc4501935bc">&sect;&nbsp;</a></span>stNumber()</h2>
+<a id="gaf11757bc010c3a3ed93c156842151171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaf11757bc010c3a3ed93c156842151171">&sect;&nbsp;</a></span>computeSTNumbering()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::stNumber </td>
+          <td class="memname">int ogdf::computeSTNumbering </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -164,13 +164,13 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td>
-          <td class="paramname"><em>s</em> = <code>0</code>, </td>
+          <td class="paramname"><em>s</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td>
-          <td class="paramname"><em>t</em> = <code>0</code>, </td>
+          <td class="paramname"><em>t</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -202,14 +202,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ga97febba79e2c23a5925cb8d62a94cb8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga97febba79e2c23a5925cb8d62a94cb8d">&sect;&nbsp;</a></span>testSTnumber()</h2>
+<a id="ga44dcd46be4fc6becc15e976fbe2779b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44dcd46be4fc6becc15e976fbe2779b8">&sect;&nbsp;</a></span>isSTNumbering()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool ogdf::testSTnumber </td>
+          <td class="memname">bool ogdf::isSTNumbering </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em>, </td>
@@ -244,7 +244,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

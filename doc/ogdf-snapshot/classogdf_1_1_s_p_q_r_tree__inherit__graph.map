@@ -1,0 +1,7 @@
+<map id="ogdf::SPQRTree" name="ogdf::SPQRTree">
+<area shape="rect" id="node2" href="$classogdf_1_1_dynamic_s_p_q_r_tree.html" title="Linear&#45;time implementation of dynamic SPQR&#45;trees. " alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="201,80,357,107"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_static_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees. " alt="" coords="381,80,534,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="23,155,231,181"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_static_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="326,155,517,181"/>
+</map>

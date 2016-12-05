@@ -2,7 +2,7 @@ var classogdf_1_1_node_info =
 [
     [ "NodeInfo", "classogdf_1_1_node_info.html#a065b0fd6dcd0376a89f62b9983a0388e", null ],
     [ "NodeInfo", "classogdf_1_1_node_info.html#a167cc94176368458dd62f0e0eff5482d", null ],
-    [ "NodeInfo", "classogdf_1_1_node_info.html#a56e46a4113da2f3c4f95653a2439d132", null ],
+    [ "NodeInfo", "classogdf_1_1_node_info.html#ab920dbcea9306b41df57974e01b0b7c5", null ],
     [ "NodeInfo", "classogdf_1_1_node_info.html#a5f662070b308339157032ac3eb3997c9", null ],
     [ "~NodeInfo", "classogdf_1_1_node_info.html#affadf26d9d88deef0c343d822721c957", null ],
     [ "b_left_unbend", "classogdf_1_1_node_info.html#ab004787793b93dc2147bf4c65f5dc6b2", null ],
@@ -41,6 +41,7 @@ var classogdf_1_1_node_info =
     [ "num_edges", "classogdf_1_1_node_info.html#a680da8bc516664e0931b55bbb3660335", null ],
     [ "num_routable", "classogdf_1_1_node_info.html#adf97ed756cb14515fd5514e39f2fddae", null ],
     [ "numr", "classogdf_1_1_node_info.html#a53e4d12a22cae1f67545c77e54e7b3ed", null ],
+    [ "operator=", "classogdf_1_1_node_info.html#a9b8dce9eec55fc570942f12ba9bb0bd1", null ],
     [ "r_lower_unbend", "classogdf_1_1_node_info.html#aec0f0e6faac4fe8f584a1132beab752f", null ],
     [ "r_upper_unbend", "classogdf_1_1_node_info.html#ace5c00c7212553f5e4699136f10177c9", null ],
     [ "rc", "classogdf_1_1_node_info.html#a8075e0f126daf80d04bb0ea0c86e8f23", null ],

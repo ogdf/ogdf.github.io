@@ -1,6 +1,7 @@
 var searchData=
 [
   ['g_5fnt',['G_nT',['../classogdf_1_1_embedder_min_depth_pi_ta.html#a886494d3a43c5edc170a995b9cc2e92d',1,'ogdf::EmbedderMinDepthPiTa']]],
+  ['gamma',['gamma',['../classogdf_1_1_math.html#afe14ad7cae066232cf41833de7295a79',1,'ogdf::Math']]],
   ['gamma_5fadjext_5fnt',['Gamma_adjExt_nT',['../classogdf_1_1_embedder_min_depth_pi_ta.html#a242561b3d8504a71620bb25ab1b854f8',1,'ogdf::EmbedderMinDepthPiTa']]],
   ['garbage_5ffrac',['garbage_frac',['../class_minisat_1_1_internal_1_1_solver.html#aa07787e5e87d24887f33c723221049a5',1,'Minisat::Internal::Solver']]],
   ['gennonliftcons_5f',['genNonLiftCons_',['../classabacus_1_1_sub.html#aa35b65e53b38f697bf162f053ac403f8',1,'abacus::Sub']]],

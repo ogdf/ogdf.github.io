@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -155,6 +155,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a528f40fa6f2240b655dfd741f1a094c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_hot_queue.html#a528f40fa6f2240b655dfd741f1a094c2">HotQueue</a> (const P &amp;change, std::size_t levels)</td></tr>
 <tr class="memdesc:a528f40fa6f2240b655dfd741f1a094c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates empty Heap-on-Top queue.  <a href="#a528f40fa6f2240b655dfd741f1a094c2">More...</a><br /></td></tr>
 <tr class="separator:a528f40fa6f2240b655dfd741f1a094c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c21edb17d43e79ce3493eb9b607b875"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_hot_queue.html#a6c21edb17d43e79ce3493eb9b607b875">~HotQueue</a> ()</td></tr>
+<tr class="memdesc:a6c21edb17d43e79ce3493eb9b607b875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Releases all buckets on destruction.  <a href="#a6c21edb17d43e79ce3493eb9b607b875">More...</a><br /></td></tr>
+<tr class="separator:a6c21edb17d43e79ce3493eb9b607b875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad139960acf20ab17789971282b4b592"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_hot_queue.html#aad139960acf20ab17789971282b4b592">decrease</a> (<a class="el" href="classogdf_1_1_hot_queue.html#ae458987c8c54532e3b2cc05efcba696c">Handle</a> &amp;handle, const P &amp;priority)</td></tr>
 <tr class="memdesc:aad139960acf20ab17789971282b4b592"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases value of the given <em>node</em> to <em>value</em>.  <a href="#aad139960acf20ab17789971282b4b592">More...</a><br /></td></tr>
 <tr class="separator:aad139960acf20ab17789971282b4b592"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,7 +235,7 @@ class ogdf::HotQueue&lt; V, P, H &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00139">139</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00136">136</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ae458987c8c54532e3b2cc05efcba696c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae458987c8c54532e3b2cc05efcba696c">&sect;&nbsp;</a></span>Handle</h2>
@@ -248,7 +251,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00152">152</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00149">149</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -274,7 +277,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00142">142</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00139">139</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -317,6 +320,29 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 </dl>
 
 <p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00227">227</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+
+</div>
+</div>
+<a id="a6c21edb17d43e79ce3493eb9b607b875"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c21edb17d43e79ce3493eb9b607b875">&sect;&nbsp;</a></span>~HotQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename V , typename P , template&lt; typename T, typename C &gt; class H&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_hot_queue.html">ogdf::HotQueue</a>&lt; V, P, H &gt;::~<a class="el" href="classogdf_1_1_hot_queue.html">HotQueue</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Releases all buckets on destruction. </p>
+
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00236">236</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -423,7 +449,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00311">311</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00327">327</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -478,7 +504,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 <p>Removes the top element from the heap. </p>
 <p>Behaviour of this function is undefined if the heap is empty. </p>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00275">275</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00291">291</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -520,7 +546,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Handle to the inserted node. </dd></dl>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00244">244</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00260">260</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -582,7 +608,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 
 <p>Returns reference to the top element in the heap. </p>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00237">237</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00253">253</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -611,7 +637,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 
 <p><a class="el" href="classogdf_1_1_array.html" title="The parameterized class Array&lt;E,INDEX&gt; implements dynamic arrays of type E. ">Array</a> of buckets. </p>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00149">149</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00146">146</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -667,7 +693,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 
 <p>Underlying heap structure. </p>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00146">146</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00143">143</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -723,7 +749,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 
 <p>Size of underlying heap. </p>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00147">147</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00144">144</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -779,7 +805,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 
 <p>Number of total elements in the heap. </p>
 
-<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00144">144</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_hot_queue_8h_source.html#l00141">141</a> of file <a class="el" href="_hot_queue_8h_source.html">HotQueue.h</a>.</p>
 
 </div>
 </div>
@@ -818,7 +844,7 @@ template&lt;typename V , typename P , template&lt; typename T, typename C &gt; c
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_hot_queue.html">HotQueue</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

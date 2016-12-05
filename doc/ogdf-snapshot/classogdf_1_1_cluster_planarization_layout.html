@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -147,6 +147,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ae96bbebbbdcf27bc18007d262306f05a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of cluster planarization layout.  <a href="#ae96bbebbbdcf27bc18007d262306f05a">More...</a><br /></td></tr>
 <tr class="separator:ae96bbebbbdcf27bc18007d262306f05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d40bc6bbfe1bdd0141736979444901d"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html#a1d40bc6bbfe1bdd0141736979444901d">~ClusterPlanarizationLayout</a> ()</td></tr>
+<tr class="memdesc:a1d40bc6bbfe1bdd0141736979444901d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruction.  <a href="#a1d40bc6bbfe1bdd0141736979444901d">More...</a><br /></td></tr>
 <tr class="separator:a1d40bc6bbfe1bdd0141736979444901d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab8359af60e8cc3be5b752b2391878a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html#a3ab8359af60e8cc3be5b752b2391878a">call</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_cluster_graph_attributes.html">ClusterGraphAttributes</a> &amp;acGraph, <a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;cGraph, bool simpleCConnect=true)</td></tr>
 <tr class="memdesc:a3ab8359af60e8cc3be5b752b2391878a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls cluster planarization layout with cluster-graph attributes <em>acGraph</em>.  <a href="#a3ab8359af60e8cc3be5b752b2391878a">More...</a><br /></td></tr>
@@ -177,15 +178,15 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa41bce7365d64be6200755eb270320e2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html#aa41bce7365d64be6200755eb270320e2">m_nCrossings</a></td></tr>
 <tr class="memdesc:aa41bce7365d64be6200755eb270320e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of crossings (not yet used!).  <a href="#aa41bce7365d64be6200755eb270320e2">More...</a><br /></td></tr>
 <tr class="separator:aa41bce7365d64be6200755eb270320e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a907178b4c7649440fb76b1e620f2676e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module_option.html">ModuleOption</a>&lt; <a class="el" href="classogdf_1_1_c_c_layout_pack_module.html">CCLayoutPackModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html#a907178b4c7649440fb76b1e620f2676e">m_packer</a></td></tr>
-<tr class="memdesc:a907178b4c7649440fb76b1e620f2676e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The packing algorithm.  <a href="#a907178b4c7649440fb76b1e620f2676e">More...</a><br /></td></tr>
-<tr class="separator:a907178b4c7649440fb76b1e620f2676e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6664788add5a9bda71de372af5b5051d"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classogdf_1_1_c_c_layout_pack_module.html">CCLayoutPackModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html#a6664788add5a9bda71de372af5b5051d">m_packer</a></td></tr>
+<tr class="memdesc:a6664788add5a9bda71de372af5b5051d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The packing algorithm.  <a href="#a6664788add5a9bda71de372af5b5051d">More...</a><br /></td></tr>
+<tr class="separator:a6664788add5a9bda71de372af5b5051d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d24cb791db7438d3b40908f5faddbe0"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html#a3d24cb791db7438d3b40908f5faddbe0">m_pageRatio</a></td></tr>
 <tr class="memdesc:a3d24cb791db7438d3b40908f5faddbe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The page ratio.  <a href="#a3d24cb791db7438d3b40908f5faddbe0">More...</a><br /></td></tr>
 <tr class="separator:a3d24cb791db7438d3b40908f5faddbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32ae0b9dfa49a57beb07a3ca40c8aa31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module_option.html">ModuleOption</a>&lt; <a class="el" href="classogdf_1_1_layout_cluster_plan_rep_module.html">LayoutClusterPlanRepModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html#a32ae0b9dfa49a57beb07a3ca40c8aa31">m_planarLayouter</a></td></tr>
-<tr class="memdesc:a32ae0b9dfa49a57beb07a3ca40c8aa31"><td class="mdescLeft">&#160;</td><td class="mdescRight">The planar layouter.  <a href="#a32ae0b9dfa49a57beb07a3ca40c8aa31">More...</a><br /></td></tr>
-<tr class="separator:a32ae0b9dfa49a57beb07a3ca40c8aa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8875d3845dad48dc0dee58759f0e491"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classogdf_1_1_layout_cluster_plan_rep_module.html">LayoutClusterPlanRepModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html#ae8875d3845dad48dc0dee58759f0e491">m_planarLayouter</a></td></tr>
+<tr class="memdesc:ae8875d3845dad48dc0dee58759f0e491"><td class="mdescLeft">&#160;</td><td class="mdescRight">The planar layouter.  <a href="#ae8875d3845dad48dc0dee58759f0e491">More...</a><br /></td></tr>
+<tr class="separator:ae8875d3845dad48dc0dee58759f0e491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The cluster planarization layout algorithm. </p>
@@ -209,7 +210,7 @@ Private Attributes</h2></td></tr>
 <td><em>packer</em></td><td><a class="el" href="classogdf_1_1_c_c_layout_pack_module.html" title="Base class of algorithms that arrange/pack layouts of connected components. ">CCLayoutPackModule</a></td><td><a class="el" href="classogdf_1_1_tile_to_rows_c_c_packer.html" title="The tile-to-rows algorithm for packing drawings of connected components. ">TileToRowsCCPacker</a> </td><td>The packer module used for arranging connected components.  </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00085">85</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00082">82</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae96bbebbbdcf27bc18007d262306f05a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae96bbebbbdcf27bc18007d262306f05a">&sect;&nbsp;</a></span>ClusterPlanarizationLayout()</h2>
@@ -253,7 +254,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00092">92</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Destruction. </p>
+
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00089">89</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
@@ -450,7 +453,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the current page ratio (= desired width / height of layout). </p>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00125">125</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00122">122</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
@@ -480,7 +483,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the page ratio to <em>ratio</em>. </p>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00130">130</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00127">127</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
@@ -510,7 +513,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the module option for the arrangement of connected components to <em>pPacker</em>. </p>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00140">140</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00137">137</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
@@ -540,7 +543,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the module option for the planar layout algorithm to <em>pPlanarLayouter</em>. </p>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00135">135</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00132">132</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
@@ -567,12 +570,12 @@ Private Attributes</h2></td></tr>
 
 <p>The number of crossings (not yet used!). </p>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00168">168</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00167">167</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
-<a id="a907178b4c7649440fb76b1e620f2676e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a907178b4c7649440fb76b1e620f2676e">&sect;&nbsp;</a></span>m_packer</h2>
+<a id="a6664788add5a9bda71de372af5b5051d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6664788add5a9bda71de372af5b5051d">&sect;&nbsp;</a></span>m_packer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -581,7 +584,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module_option.html">ModuleOption</a>&lt;<a class="el" href="classogdf_1_1_c_c_layout_pack_module.html">CCLayoutPackModule</a>&gt; ogdf::ClusterPlanarizationLayout::m_packer</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classogdf_1_1_c_c_layout_pack_module.html">CCLayoutPackModule</a>&gt; ogdf::ClusterPlanarizationLayout::m_packer</td>
         </tr>
       </table>
   </td>
@@ -593,7 +596,7 @@ Private Attributes</h2></td></tr>
 
 <p>The packing algorithm. </p>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00164">164</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00163">163</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
@@ -619,12 +622,12 @@ Private Attributes</h2></td></tr>
 
 <p>The page ratio. </p>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00166">166</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00165">165</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
-<a id="a32ae0b9dfa49a57beb07a3ca40c8aa31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32ae0b9dfa49a57beb07a3ca40c8aa31">&sect;&nbsp;</a></span>m_planarLayouter</h2>
+<a id="ae8875d3845dad48dc0dee58759f0e491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8875d3845dad48dc0dee58759f0e491">&sect;&nbsp;</a></span>m_planarLayouter</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -633,7 +636,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module_option.html">ModuleOption</a>&lt;<a class="el" href="classogdf_1_1_layout_cluster_plan_rep_module.html">LayoutClusterPlanRepModule</a>&gt; ogdf::ClusterPlanarizationLayout::m_planarLayouter</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classogdf_1_1_layout_cluster_plan_rep_module.html">LayoutClusterPlanRepModule</a>&gt; ogdf::ClusterPlanarizationLayout::m_planarLayouter</td>
         </tr>
       </table>
   </td>
@@ -645,7 +648,7 @@ Private Attributes</h2></td></tr>
 
 <p>The planar layouter. </p>
 
-<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00163">163</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
+<p>Definition at line <a class="el" href="_cluster_planarization_layout_8h_source.html#l00162">162</a> of file <a class="el" href="_cluster_planarization_layout_8h_source.html">ClusterPlanarizationLayout.h</a>.</p>
 
 </div>
 </div>
@@ -658,7 +661,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_cluster_planarization_layout.html">ClusterPlanarizationLayout</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

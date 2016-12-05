@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -174,15 +174,12 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a14f6e025b12e0d029547c75b9aca57ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fast_utils_8h.html#a14f6e025b12e0d029547c75b9aca57ee">FREE_16</a>(ptr)&#160;&#160;&#160;System::alignedMemoryFree((ptr))</td></tr>
-<tr class="memdesc:a14f6e025b12e0d029547c75b9aca57ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-byte aligned memory deallocation macro  <a href="#a14f6e025b12e0d029547c75b9aca57ee">More...</a><br /></td></tr>
-<tr class="separator:a14f6e025b12e0d029547c75b9aca57ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94107f7a159d44062da467a911a6b133"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fast_utils_8h.html#a94107f7a159d44062da467a911a6b133">MALLOC_16</a>(s)&#160;&#160;&#160;System::alignedMemoryAlloc16((s))</td></tr>
-<tr class="memdesc:a94107f7a159d44062da467a911a6b133"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-byte aligned memory allocation macro  <a href="#a94107f7a159d44062da467a911a6b133">More...</a><br /></td></tr>
-<tr class="separator:a94107f7a159d44062da467a911a6b133"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32f8fdac667cd61e9d326eadfc2ff1d8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fast_utils_8h.html#a32f8fdac667cd61e9d326eadfc2ff1d8">SQRT_OF_TWO</a>&#160;&#160;&#160;1.4142135623730950488016887242097</td></tr>
-<tr class="memdesc:a32f8fdac667cd61e9d326eadfc2ff1d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">square root of two  <a href="#a32f8fdac667cd61e9d326eadfc2ff1d8">More...</a><br /></td></tr>
-<tr class="separator:a32f8fdac667cd61e9d326eadfc2ff1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaccbfef2802e1d9e95a9d1c8bc8f4ffc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fast_utils_8h.html#aaccbfef2802e1d9e95a9d1c8bc8f4ffc">OGDF_FREE_16</a>(ptr)&#160;&#160;&#160;System::alignedMemoryFree((ptr))</td></tr>
+<tr class="memdesc:aaccbfef2802e1d9e95a9d1c8bc8f4ffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-byte aligned memory deallocation macro  <a href="#aaccbfef2802e1d9e95a9d1c8bc8f4ffc">More...</a><br /></td></tr>
+<tr class="separator:aaccbfef2802e1d9e95a9d1c8bc8f4ffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14b083971a511aebbaad332eb7b94880"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_fast_utils_8h.html#a14b083971a511aebbaad332eb7b94880">OGDF_MALLOC_16</a>(s)&#160;&#160;&#160;System::alignedMemoryAlloc16((s))</td></tr>
+<tr class="memdesc:a14b083971a511aebbaad332eb7b94880"><td class="mdescLeft">&#160;</td><td class="mdescRight">16-byte aligned memory allocation macro  <a href="#a14b083971a511aebbaad332eb7b94880">More...</a><br /></td></tr>
+<tr class="separator:a14b083971a511aebbaad332eb7b94880"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -260,22 +257,21 @@ Functions</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Martin Gronemann</dd></dl>
 <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />
- See README.txt in the root directory of the OGDF installation for details.</dd></dl>
+ See README.md in the OGDF root directory for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License Version 2 or 3 as published by the Free Software Foundation; see the file LICENSE.txt included in the packaging of this file for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</dd></dl>
-<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
+<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, see <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
 
 <p>Definition in file <a class="el" href="_fast_utils_8h_source.html">FastUtils.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a14f6e025b12e0d029547c75b9aca57ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14f6e025b12e0d029547c75b9aca57ee">&sect;&nbsp;</a></span>FREE_16</h2>
+<a id="aaccbfef2802e1d9e95a9d1c8bc8f4ffc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaccbfef2802e1d9e95a9d1c8bc8f4ffc">&sect;&nbsp;</a></span>OGDF_FREE_16</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FREE_16</td>
+          <td class="memname">#define OGDF_FREE_16</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">ptr</td><td>)</td>
@@ -286,18 +282,18 @@ Functions</h2></td></tr>
 
 <p>16-byte aligned memory deallocation macro </p>
 
-<p>Definition at line <a class="el" href="_fast_utils_8h_source.html#l00127">127</a> of file <a class="el" href="_fast_utils_8h_source.html">FastUtils.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_utils_8h_source.html#l00124">124</a> of file <a class="el" href="_fast_utils_8h_source.html">FastUtils.h</a>.</p>
 
 </div>
 </div>
-<a id="a94107f7a159d44062da467a911a6b133"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94107f7a159d44062da467a911a6b133">&sect;&nbsp;</a></span>MALLOC_16</h2>
+<a id="a14b083971a511aebbaad332eb7b94880"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14b083971a511aebbaad332eb7b94880">&sect;&nbsp;</a></span>OGDF_MALLOC_16</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define MALLOC_16</td>
+          <td class="memname">#define OGDF_MALLOC_16</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">s</td><td>)</td>
@@ -308,25 +304,7 @@ Functions</h2></td></tr>
 
 <p>16-byte aligned memory allocation macro </p>
 
-<p>Definition at line <a class="el" href="_fast_utils_8h_source.html#l00124">124</a> of file <a class="el" href="_fast_utils_8h_source.html">FastUtils.h</a>.</p>
-
-</div>
-</div>
-<a id="a32f8fdac667cd61e9d326eadfc2ff1d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32f8fdac667cd61e9d326eadfc2ff1d8">&sect;&nbsp;</a></span>SQRT_OF_TWO</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SQRT_OF_TWO&#160;&#160;&#160;1.4142135623730950488016887242097</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>square root of two </p>
-
-<p>Definition at line <a class="el" href="_fast_utils_8h_source.html#l00130">130</a> of file <a class="el" href="_fast_utils_8h_source.html">FastUtils.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_utils_8h_source.html#l00121">121</a> of file <a class="el" href="_fast_utils_8h_source.html">FastUtils.h</a>.</p>
 
 </div>
 </div>
@@ -336,7 +314,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_c45e5be061fe902a23dc886ea87fe229.html">internal</a></li><li class="navelem"><a class="el" href="dir_af7e642d381ee0c7953e9300857f86ac.html">energybased</a></li><li class="navelem"><a class="el" href="_fast_utils_8h.html">FastUtils.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

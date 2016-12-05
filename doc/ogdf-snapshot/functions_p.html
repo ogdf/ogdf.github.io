@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -151,7 +151,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a5f6d73d9d1a006703280a7e9e580c37f">ogdf::FMMMLayout</a>
 </li>
 <li>packAllCC()
-: <a class="el" href="classogdf_1_1_hypergraph_layout_e_s.html#a6f317d00df949729e04bb792a20f2f74">ogdf::HypergraphLayoutES</a>
+: <a class="el" href="classogdf_1_1_hypergraph_layout_e_s.html#a654521032f67f8fce85b7c0c44754668">ogdf::HypergraphLayoutES</a>
 </li>
 <li>PackingRowInfo()
 : <a class="el" href="classogdf_1_1energybased_1_1_packing_row_info.html#a08b2ab07cd06e2c8fcffdd716cc807c1">ogdf::energybased::PackingRowInfo</a>
@@ -241,7 +241,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classabacus_1_1_abacus_global.html#ab762db9b3372bfd2ad48f0881af00545">abacus::AbacusGlobal</a>
 </li>
 <li>parCall()
-: <a class="el" href="classogdf_1_1_fast_planar_subgraph.html#a8a99333710022c1c9e626209cc142ff5">ogdf::FastPlanarSubgraph</a>
+: <a class="el" href="classogdf_1_1_planar_subgraph_fast.html#a3c45d64b326b55fca7d423d38008ac0e">ogdf::PlanarSubgraphFast</a>
 </li>
 <li>parent()
 : <a class="el" href="class_minisat_1_1_internal_1_1_heap.html#a66b891793477565fdac2bf011c7ab976">Minisat::Internal::Heap&lt; Comp &gt;</a>
@@ -249,7 +249,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classogdf_1_1_bertault_layout_1_1_c_c_element.html#aa0284efc81e33a03391f500b48c16394">ogdf::BertaultLayout::CCElement</a>
 , <a class="el" href="structogdf_1_1_binomial_heap_node.html#acaeddf091483a8aa964f6f1190cdfba8">ogdf::BinomialHeapNode&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_cluster_element.html#a94accbe6c8ec9b7376a7db26edbbc9b4">ogdf::ClusterElement</a>
-, <a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#ae92608637722ee4812f997925f3ddb65">ogdf::DynamicBCTree</a>
+, <a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#ae08e286e294452343af9abb9656e5583">ogdf::DynamicBCTree</a>
 , <a class="el" href="classogdf_1_1_extended_nesting_graph.html#a04eeb221da3225a7c65490b28da5870c">ogdf::ExtendedNestingGraph</a>
 , <a class="el" href="structogdf_1_1_fibonacci_heap_node.html#a9bb136f1d1fd3dc8fe3b75339a5db4e6">ogdf::FibonacciHeapNode&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_galaxy_level.html#af1fc47212a856677f4ab3a9f4ea447bb">ogdf::GalaxyLevel</a>
@@ -357,11 +357,11 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>partitionToOrderIndices()
 : <a class="el" href="classogdf_1_1_bitonic_ordering.html#a612509d476b896e08b3d7504ef96c293">ogdf::BitonicOrdering</a>
 </li>
-<li>pass()
-: <a class="el" href="classogdf_1_1_min_steiner_tree_zelikovsky.html#af02335df19345be098675f5fab758905">ogdf::MinSteinerTreeZelikovsky&lt; T &gt;</a>
-</li>
 <li>Pass
 : <a class="el" href="classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204">ogdf::MinSteinerTreeZelikovsky&lt; T &gt;</a>
+</li>
+<li>pass()
+: <a class="el" href="classogdf_1_1_min_steiner_tree_zelikovsky.html#af02335df19345be098675f5fab758905">ogdf::MinSteinerTreeZelikovsky&lt; T &gt;</a>
 </li>
 <li>path()
 : <a class="el" href="classpugi_1_1xml__node.html#ad695e3498bf08d58d0d5c03142a06ba1">pugi::xml_node</a>
@@ -457,8 +457,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classogdf_1_1_fixed_embedding_inserter_u_m_l.html#acc5be1d2b1f166882665ac38511e57fb">ogdf::FixedEmbeddingInserterUML</a>
 , <a class="el" href="classogdf_1_1_m_m_fixed_embedding_inserter.html#acd7f5fc9040dc1edb47c16362229be9e">ogdf::MMFixedEmbeddingInserter</a>
 , <a class="el" href="classogdf_1_1_m_m_variable_embedding_inserter.html#a06070ed4a72e5bc2fce7bad46e96d991">ogdf::MMVariableEmbeddingInserter</a>
-, <a class="el" href="classogdf_1_1_variable_embedding_inserter.html#a70ea238e1e800d7afd6ff9cf1b049857">ogdf::VariableEmbeddingInserter</a>
-, <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn.html#a90aad1f35f7c1353410e0f6f282bcc76">ogdf::VariableEmbeddingInserterDyn</a>
+, <a class="el" href="classogdf_1_1_variable_embedding_inserter_base.html#a57f0852031f421df03ee236585cc1bb8">ogdf::VariableEmbeddingInserterBase</a>
 , <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn_u_m_l.html#a5d7db901041291ccaa24a9a1df923ca9">ogdf::VariableEmbeddingInserterDynUML</a>
 , <a class="el" href="classogdf_1_1_variable_embedding_inserter_u_m_l.html#a6958cb91b886aae0987f9d7b272cdfdd">ogdf::VariableEmbeddingInserterUML</a>
 </li>
@@ -601,13 +600,13 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classogdf_1_1_mixed_model_base.html#a538f193b0eabfd00aba463fb3070a8dd">ogdf::MixedModelBase</a>
 </li>
 <li>placeOneLevel()
-: <a class="el" href="classogdf_1_1_barycenter_placer.html#a3122a7334e29855d34b7ae27967b2e6b">ogdf::BarycenterPlacer</a>
-, <a class="el" href="classogdf_1_1_circle_placer.html#a68cb16886e160679130d86b68eb68956">ogdf::CirclePlacer</a>
+: <a class="el" href="classogdf_1_1_barycenter_placer.html#a075c758e0089783b6762e4dc97ffad79">ogdf::BarycenterPlacer</a>
+, <a class="el" href="classogdf_1_1_circle_placer.html#a1f529fdfdac68a59c8f8976b84ea83c5">ogdf::CirclePlacer</a>
 , <a class="el" href="classogdf_1_1_initial_placer.html#a32301bd18dec8c3613acd531d1bd71a4">ogdf::InitialPlacer</a>
-, <a class="el" href="classogdf_1_1_median_placer.html#adcf017a481113c0fe78f00fcb3a58400">ogdf::MedianPlacer</a>
-, <a class="el" href="classogdf_1_1_random_placer.html#afef6a70082937cc706bed2bb53a04a05">ogdf::RandomPlacer</a>
-, <a class="el" href="classogdf_1_1_solar_placer.html#a9477493986e35dcc5ebb11f9818179ff">ogdf::SolarPlacer</a>
-, <a class="el" href="classogdf_1_1_zero_placer.html#a49f8837b289573413279bd5e87268b93">ogdf::ZeroPlacer</a>
+, <a class="el" href="classogdf_1_1_median_placer.html#ab12084670fc3ce49d22fb13b927ec07e">ogdf::MedianPlacer</a>
+, <a class="el" href="classogdf_1_1_random_placer.html#aa40e1d38653139edf423cc0ca6ea3171">ogdf::RandomPlacer</a>
+, <a class="el" href="classogdf_1_1_solar_placer.html#abbd1183460af73d3fdb70dcf178f2bff">ogdf::SolarPlacer</a>
+, <a class="el" href="classogdf_1_1_zero_placer.html#a79ff087f9c7301ce0a5ddc6e2f8c79df">ogdf::ZeroPlacer</a>
 </li>
 <li>placeOneNode()
 : <a class="el" href="classogdf_1_1_barycenter_placer.html#a9c3b51bf836cab3b29fbc110af54f14d">ogdf::BarycenterPlacer</a>
@@ -675,7 +674,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1_planarization_layout_u_m_l.html#a012366e5c94098099b39a27101d0aaef">ogdf::PlanarizationLayoutUML</a>
 </li>
 <li>planarize()
-: <a class="el" href="classogdf_1_1_fast_planar_subgraph.html#adf07e5245fe09210323a51dad7ee4953">ogdf::FastPlanarSubgraph</a>
+: <a class="el" href="classogdf_1_1_planar_subgraph_fast.html#a795de35ecd770ac3d9121ff8b4ab19a0">ogdf::PlanarSubgraphFast</a>
 </li>
 <li>planarizeFromLayout()
 : <a class="el" href="classogdf_1_1_topology_module.html#aa91adf3150c397a894fa9603553e12a5">ogdf::TopologyModule</a>
@@ -689,8 +688,14 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>PlanarStraightLayout()
 : <a class="el" href="classogdf_1_1_planar_straight_layout.html#aed5de6a5697173a94a87985eac7833bf">ogdf::PlanarStraightLayout</a>
 </li>
+<li>PlanarSubgraphBoyerMyrvold()
+: <a class="el" href="classogdf_1_1_planar_subgraph_boyer_myrvold.html#acd4f07108d14afdace5701d29ae81090">ogdf::PlanarSubgraphBoyerMyrvold</a>
+</li>
+<li>PlanarSubgraphFast()
+: <a class="el" href="classogdf_1_1_planar_subgraph_fast.html#a1c4017dd5c5d0548529befaf6a307d24">ogdf::PlanarSubgraphFast</a>
+</li>
 <li>PlanarSubgraphModule()
-: <a class="el" href="classogdf_1_1_planar_subgraph_module.html#aab754bc6fdd98f4d929b9ad710d05448">ogdf::PlanarSubgraphModule</a>
+: <a class="el" href="classogdf_1_1_planar_subgraph_module.html#ac06201daaa7ee55f24dc131018338c01">ogdf::PlanarSubgraphModule&lt; TCost &gt;</a>
 </li>
 <li>PlanarSubgraphPQTree()
 : <a class="el" href="classogdf_1_1_planar_subgraph_p_q_tree.html#aa1fca35b5b36787f63a6359e810c0c49">ogdf::PlanarSubgraphPQTree</a>
@@ -838,22 +843,22 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="class_minisat_1_1_internal_1_1_queue.html#a2a5e448694a1a1f4c319db232ea45887">Minisat::Internal::Queue&lt; T &gt;</a>
 , <a class="el" href="class_minisat_1_1_internal_1_1vec.html#a290e571543c1f41e1ba645618a5b25f3">Minisat::Internal::vec&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_array_buffer.html#a55f0950b58a2d4931f7f73d3c831b569">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a>
-, <a class="el" href="classogdf_1_1_binary_heap.html#a36168a8dc512b76d794db4ad4f50ee8b">ogdf::BinaryHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_binary_heap.html#a7494316bf1615990f2de8ef463551ca3">ogdf::BinaryHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_binary_heap_simple.html#a7e7e443919629db9f6a55bc2b75e4a2d">ogdf::BinaryHeapSimple&lt; X, INDEX &gt;</a>
-, <a class="el" href="classogdf_1_1_binomial_heap.html#a969a90f3d44161165074f91040f66803">ogdf::BinomialHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_binomial_heap.html#a4768c23f3957da821ef731a582974119">ogdf::BinomialHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_bounded_queue.html#ae299eb2fa0bd8ad30a0fbf2d2218b321">ogdf::BoundedQueue&lt; E, INDEX &gt;</a>
 , <a class="el" href="classogdf_1_1_bounded_stack.html#a217772d91c2d112293a34f9e76adbf02">ogdf::BoundedStack&lt; E, INDEX &gt;</a>
 , <a class="el" href="classogdf_1_1_e_stack.html#ab648b88118acda48946e1154bbea6f91">ogdf::EStack&lt; S, E, first, next &gt;</a>
-, <a class="el" href="classogdf_1_1_fibonacci_heap.html#aad38990b83410353e958978d925f5282">ogdf::FibonacciHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_fibonacci_heap.html#a9443c946a8cd5ba7269e1db4dd3b7fc2">ogdf::FibonacciHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_heap_base.html#a915c15775b67692c26ed53fc9bd6313a">ogdf::HeapBase&lt; IMPL, H, T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_hot_queue.html#a95e42b1ced092193f8ec7542e6c4b207">ogdf::HotQueue&lt; V, P, H &gt;</a>
-, <a class="el" href="classogdf_1_1_pairing_heap.html#a692c4dd46667c0fd46e5102d0bb92e21">ogdf::PairingHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_pairing_heap.html#a933dc6324c4965b93b9f651787c0a1ad">ogdf::PairingHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html#ab430968c02a8923866c5f78abd388675">ogdf::pq_internal::PrioritizedArrayQueueBase&lt; E, P, C, Impl, Map &gt;</a>
 , <a class="el" href="classogdf_1_1_priority_queue.html#a118b40d4c6dc4b31a7cdd118e63b061f">ogdf::PriorityQueue&lt; T, C, Impl &gt;</a>
 , <a class="el" href="classogdf_1_1_queue.html#a889e833a15c9689906011fa109b4ec01">ogdf::Queue&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_queue_pure.html#a653632976a90382eda246b46f247929f">ogdf::QueuePure&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_radix_heap.html#a9638dcd8d43da51601b51e5d93a5314b">ogdf::RadixHeap&lt; V, P &gt;</a>
-, <a class="el" href="classogdf_1_1_r_m_heap.html#a40c1ffa3a0149797045f2f467dde4b99">ogdf::RMHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_r_m_heap.html#a6c47f1d81496179b2f96b58da3a58cc9">ogdf::RMHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_stack.html#a89af5241220cfb8eac40166c54da4a7d">ogdf::Stack&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_stack_pure.html#a5bb274134ac78303972da98d638ca104">ogdf::StackPure&lt; E &gt;</a>
 </li>
@@ -870,7 +875,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classogdf_1_1_list_pure.html#ad26e6e6996cbe0294dfd0ae0c7bbe678">ogdf::ListPure&lt; E &gt;</a>
 </li>
 <li>popFront()
-: <a class="el" href="classogdf_1_1_e_list.html#a2aefd2ef604648086e27c6feeb7734f7">ogdf::EList&lt; L, E, numElem, first, last, next, prev &gt;</a>
+: <a class="el" href="classogdf_1_1_e_list.html#a1c17b9d6b2ed29e6423e2e12ba85af6c">ogdf::EList&lt; L, E, numElem, first, last, next, prev &gt;</a>
 , <a class="el" href="classogdf_1_1_list.html#a1c7a45995da15a3d912ae38d19d3f817">ogdf::List&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_list_pure.html#afdf1936c8916de211eac1e9e2ea5e301">ogdf::ListPure&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_s_list.html#a4b5deb99d4f0dd0c340ba17c1a6a3229">ogdf::SList&lt; E &gt;</a>
@@ -896,9 +901,9 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="structogdf_1_1dot_1_1_ast_1_1_port.html#a2861d422a552040df07360f5304de127">ogdf::dot::Ast::Port</a>
 </li>
 <li>pos()
-: <a class="el" href="classogdf_1_1_block_order.html#a86fb035069dd151746e165a2c177adc0">ogdf::BlockOrder</a>
+: <a class="el" href="classogdf_1_1_block_order.html#a49f14a03ae158e0886c8ccfb55b699a3">ogdf::BlockOrder</a>
 , <a class="el" href="classogdf_1_1_extended_nesting_graph.html#ac8585677191853a0291459a007cabdfc">ogdf::ExtendedNestingGraph</a>
-, <a class="el" href="classogdf_1_1_hierarchy_levels.html#a61d929df9801ab6eda78e71bf71595bb">ogdf::HierarchyLevels</a>
+, <a class="el" href="classogdf_1_1_hierarchy_levels.html#afca4a7aaf899ab3450b66fed4f52db29">ogdf::HierarchyLevels</a>
 , <a class="el" href="classogdf_1_1_hierarchy_levels_base.html#ad1adab58703badf590464404956fc539">ogdf::HierarchyLevelsBase</a>
 , <a class="el" href="classogdf_1_1_l_h_tree_node.html#a2a4552b393b5c47733aea5a25996305d">ogdf::LHTreeNode</a>
 , <a class="el" href="classogdf_1_1_list.html#af8e19af93fed92324fe7f0b91a5a56ff">ogdf::List&lt; E &gt;</a>
@@ -979,7 +984,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3e">ogdf::CPlanarEdgeInserter</a>
 </li>
 <li>postSpringStrength()
-: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#ac9779aa058f17521384587b8529bfeda">ogdf::FMMMLayout</a>
+: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a5acfc3d4366395f7e1cfa1eef1b19929">ogdf::FMMMLayout</a>
 </li>
 <li>postStrengthOfRepForces()
 : <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a851dbfeab652ab5ca66ab07b3c1f72c1">ogdf::FMMMLayout</a>
@@ -1016,7 +1021,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1_p_q_internal_key.html#abadfa6de33b57175ae1c724ac8c25de5">ogdf::PQInternalKey&lt; T, X, Y &gt;</a>
 </li>
 <li>PQInternalNode()
-: <a class="el" href="classogdf_1_1_p_q_internal_node.html#a29bb8adb56caec98dbda4efd0cb85f17">ogdf::PQInternalNode&lt; T, X, Y &gt;</a>
+: <a class="el" href="classogdf_1_1_p_q_internal_node.html#a19092645039b7454616a4393edea4837">ogdf::PQInternalNode&lt; T, X, Y &gt;</a>
 </li>
 <li>PQLeaf()
 : <a class="el" href="classogdf_1_1_p_q_leaf.html#a69106af840f2abc8211b8a2dfa81af53">ogdf::PQLeaf&lt; T, X, Y &gt;</a>
@@ -1061,7 +1066,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1energybased_1_1_new_multipole_method.html#aa42480cf7036f8d4c28b725bf3eb3971">ogdf::energybased::NewMultipoleMethod</a>
 </li>
 <li>PreconditionViolatedException()
-: <a class="el" href="classogdf_1_1_precondition_violated_exception.html#a66465c7e320affb2dcb9c05f0741a6ac">ogdf::PreconditionViolatedException</a>
+: <a class="el" href="classogdf_1_1_precondition_violated_exception.html#aadccfe6076431f20fb266719ea7c9a01">ogdf::PreconditionViolatedException</a>
 </li>
 <li>pred()
 : <a class="el" href="classogdf_1_1_adj_element.html#a29e9d4e054899db6d4cfcee67f89b5e6">ogdf::AdjElement</a>
@@ -1096,7 +1101,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classogdf_1_1_sorted_sequence_iterator.html#a7e8190ed94fc4301716b3a13763830d7">ogdf::SortedSequenceIterator&lt; KEY, INFO, CMP &gt;</a>
 </li>
 <li>preferedDir()
-: <a class="el" href="classogdf_1_1_cluster_ortho_layout.html#a161510f7201ef2ad04714340ca46a997">ogdf::ClusterOrthoLayout</a>
+: <a class="el" href="classogdf_1_1_cluster_ortho_layout.html#ae8a197462402c808c29fb07dbe47ef8f">ogdf::ClusterOrthoLayout</a>
 , <a class="el" href="classogdf_1_1_ortho_layout_u_m_l.html#a6ac3f328f196687c07c69b0f60760413">ogdf::OrthoLayoutUML</a>
 </li>
 <li>prefixSum()
@@ -1150,10 +1155,10 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classpugi_1_1xml__node.html#a79e6ff9f9c51d1fa7aa88a5b36add3a4">pugi::xml_node</a>
 </li>
 <li>prepend_child()
-: <a class="el" href="classpugi_1_1xml__node.html#a44d9683f11e29baed1bcb00686b4f2aa">pugi::xml_node</a>
+: <a class="el" href="classpugi_1_1xml__node.html#ac0e4d20eb8e5ac53ec32107240dcd315">pugi::xml_node</a>
 </li>
 <li>prepend_copy()
-: <a class="el" href="classpugi_1_1xml__node.html#a82e79ec07dc0e894a0567dcadcc7a9b9">pugi::xml_node</a>
+: <a class="el" href="classpugi_1_1xml__node.html#a26d22e6a651616a3cf114f4efeccd602">pugi::xml_node</a>
 </li>
 <li>prepend_move()
 : <a class="el" href="classpugi_1_1xml__node.html#a3a82e734770972017b8d23d8ec07e70a">pugi::xml_node</a>
@@ -1194,7 +1199,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="structogdf_1_1_f_m_e_global_options.html#a13fd4acb29f899134d0b03083226d3d8">ogdf::FMEGlobalOptions</a>
 </li>
 <li>present()
-: <a class="el" href="classabacus_1_1_non_dupl_pool.html#a89886cd6ddc917ccb593e1c707fce2ba">abacus::NonDuplPool&lt; BaseType, CoType &gt;</a>
+: <a class="el" href="classabacus_1_1_non_dupl_pool.html#aa570d4989e0e4bdfd75e8f752acdacf7">abacus::NonDuplPool&lt; BaseType, CoType &gt;</a>
 </li>
 <li>PreSort
 : <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#ab3f3b995b1810a83e5c190723759626e">ogdf::FMMMLayout</a>
@@ -1206,7 +1211,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1energybased_1_1_m_a_a_r_packing.html#a9e93028adc6d09c3764796c04e1a24b0">ogdf::energybased::MAARPacking</a>
 </li>
 <li>presortCCs()
-: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#ab15322ad1ff52a334fe7cb630bb29fec">ogdf::FMMMLayout</a>
+: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#abfdfea119baa0b4bd2665ca12fc8b09d">ogdf::FMMMLayout</a>
 </li>
 <li>prev
 : <a class="el" href="structogdf_1_1_fibonacci_heap_node.html#afd007c1be1977ad4ef77c87171b5c597">ogdf::FibonacciHeapNode&lt; T &gt;</a>
@@ -1227,7 +1232,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classpugi_1_1xml__attribute.html#ab91e12d507b500e92bc6b371be31dc4b">pugi::xml_attribute</a>
 </li>
 <li>previous_sibling()
-: <a class="el" href="classpugi_1_1xml__node.html#a7fe1a00db01eaedb4f3ee592aa5d735c">pugi::xml_node</a>
+: <a class="el" href="classpugi_1_1xml__node.html#a6c0b2cdbafda832011aa90ad6c24de49">pugi::xml_node</a>
 </li>
 <li>prevRealOut()
 : <a class="el" href="classogdf_1_1_i_o_points.html#ae5ca2c3114ac4f5611a3dd7bb81a8f82">ogdf::IOPoints</a>
@@ -1235,8 +1240,8 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>pricing()
 : <a class="el" href="classabacus_1_1_master.html#a3bdd3a4f4004cadc1e603f311967d0ed">abacus::Master</a>
 , <a class="el" href="classabacus_1_1_sub.html#a7d683e41039bae1b2c266ef25352fb4e">abacus::Sub</a>
-, <a class="el" href="classogdf_1_1_c_planarity_sub.html#a602544a288cff77e65cf907d2c1e4562">ogdf::CPlanaritySub</a>
-, <a class="el" href="classogdf_1_1_max_c_planar_sub.html#a2367c678e02c63d7a986f3e72489005f">ogdf::MaxCPlanarSub</a>
+, <a class="el" href="classogdf_1_1_c_planarity_sub.html#aade9849218fd3f7f41aec370ced5c18d">ogdf::CPlanaritySub</a>
+, <a class="el" href="classogdf_1_1_max_c_planar_sub.html#a9055d5f3d8cd5724c32394e6c8da2fd2">ogdf::MaxCPlanarSub</a>
 </li>
 <li>pricing_
 : <a class="el" href="classabacus_1_1_master.html#acb0e5bacd886526b261209123ab47efb">abacus::Master</a>
@@ -1257,7 +1262,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classabacus_1_1_l_p.html#a80d390b461dca15f5aba8068995b0063aa779fe3c73e5abb3006ea218b88fc649">abacus::LP</a>
 </li>
 <li>primalBound()
-: <a class="el" href="classabacus_1_1_master.html#a229c115da0135210b56230a2bd61a835">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a51c4d02d70903d29cccc916304a4cdd2">abacus::Master</a>
 </li>
 <li>primalBound_
 : <a class="el" href="classabacus_1_1_history.html#a50195f1d04565e6c465442cae58f65de">abacus::History</a>
@@ -1291,7 +1296,8 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classabacus_1_1_col_var.html#a585ef634f3cd8f65006cfa6a6d4da85d">abacus::ColVar</a>
 , <a class="el" href="classabacus_1_1_con_var.html#a46cbe30a1be7062e7d8b7c36c5138614">abacus::ConVar</a>
 , <a class="el" href="classabacus_1_1_num_con.html#afa47b25597c74c637ddaabaf1440484b">abacus::NumCon</a>
-, <a class="el" href="classabacus_1_1_row_con.html#acd3e67114bd45e2a79eea3ea36b8a6bb">abacus::RowCon</a>
+, <a class="el" href="classabacus_1_1_row_con.html#aacf98819d3fee06f2cdd319dcb57342a">abacus::RowCon</a>
+, <a class="el" href="classbackward_1_1_printer.html#a80a799306ea674f471be9dda3ec081ad">backward::Printer</a>
 , <a class="el" href="classogdf_1_1_bounded_queue.html#ae70eebc8ff4557c034da058d60c53b1e">ogdf::BoundedQueue&lt; E, INDEX &gt;</a>
 , <a class="el" href="classogdf_1_1_bounded_stack.html#a8908be12acdd7322f965f4dea1294b23">ogdf::BoundedStack&lt; E, INDEX &gt;</a>
 , <a class="el" href="classogdf_1_1_g_f2_solver_1_1_equation.html#a41780662464b15c39fb185e520d15c8b">ogdf::GF2Solver::Equation</a>
@@ -1304,6 +1310,18 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classogdf_1_1_stack_pure.html#a99a95b10d181f0c294c6dd443ca8ebc5">ogdf::StackPure&lt; E &gt;</a>
 , <a class="el" href="classpugi_1_1xml__node.html#a7db5d81d36fe89b6ad7785a9b586e352">pugi::xml_node</a>
 </li>
+<li>print_header()
+: <a class="el" href="classbackward_1_1_printer.html#a0d3f438fb3b5cb70d5ca3fda2543a9a7">backward::Printer</a>
+</li>
+<li>print_snippet()
+: <a class="el" href="classbackward_1_1_printer.html#affc0f56b7fecc8a76a047c122a01087d">backward::Printer</a>
+</li>
+<li>print_source_loc()
+: <a class="el" href="classbackward_1_1_printer.html#a109bc6028216f65df8a5796a84bc1e2b">backward::Printer</a>
+</li>
+<li>print_trace()
+: <a class="el" href="classbackward_1_1_printer.html#aef11c4322fa24875b265ce75269d5363">backward::Printer</a>
+</li>
 <li>printCol()
 : <a class="el" href="classabacus_1_1_variable.html#a2f7033f4c2f45f44cad8fed92576f097">abacus::Variable</a>
 </li>
@@ -1312,6 +1330,9 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </li>
 <li>printDifferentVersionError()
 : <a class="el" href="classabacus_1_1_pool_slot_ref.html#aa6431cdc55ddddca1108d9eaf35c81bc">abacus::PoolSlotRef&lt; BaseType, CoType &gt;</a>
+</li>
+<li>Printer()
+: <a class="el" href="classbackward_1_1_printer.html#a5dd393c25901418af03b87809daeb279">backward::Printer</a>
 </li>
 <li>printGuarantee()
 : <a class="el" href="classabacus_1_1_master.html#ad766e4f24f5cb67dbe474a15ae04eb24">abacus::Master</a>
@@ -1326,19 +1347,19 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1_mixed_model_base.html#a89bdc59166000ef2e5b525e83f9d49a1">ogdf::MixedModelBase</a>
 </li>
 <li>printLP()
-: <a class="el" href="classabacus_1_1_master.html#aa6320ce968e99d567e8f8d15344f64e3">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a1d186b7355b1167e0ce99eff592ed093">abacus::Master</a>
 </li>
 <li>printLP_
 : <a class="el" href="classabacus_1_1_master.html#accf9bd6a44bb78777d9b43edf14e769b">abacus::Master</a>
 </li>
 <li>printLpParameters()
 : <a class="el" href="classabacus_1_1_lp_master.html#ac1748478712432df0271d632a6f41929">abacus::LpMaster</a>
-, <a class="el" href="classabacus_1_1_lp_master_osi.html#a210840a7c318c8fd27618a220322534c">abacus::LpMasterOsi</a>
+, <a class="el" href="classabacus_1_1_lp_master_osi.html#ae9f709fafb6406dc23eef46e21383a6d">abacus::LpMasterOsi</a>
 </li>
 <li>printMe()
 : <a class="el" href="classogdf_1_1_chunk_connection.html#a5f99092540e2d9d1aa63bf10144938e2">ogdf::ChunkConnection</a>
 , <a class="el" href="classogdf_1_1_cluster_kuratowski_constraint.html#ab6b463dd32dbcb8f33d262ef2ba66f63">ogdf::ClusterKuratowskiConstraint</a>
-, <a class="el" href="classogdf_1_1_c_planar_edge_var.html#a964bdad6d21b319de5e9ea88ae4605e6">ogdf::CPlanarEdgeVar</a>
+, <a class="el" href="classogdf_1_1_c_planar_edge_var.html#a497572d5d04b856b67a71f8484d2001a">ogdf::CPlanarEdgeVar</a>
 , <a class="el" href="classogdf_1_1_cut_constraint.html#adcc3e0e0c5ca4a357c295d8d7dd7a01a">ogdf::CutConstraint</a>
 , <a class="el" href="classogdf_1_1_edge_var.html#a5d5eaa26fd61cd014c4638b54aa36111">ogdf::EdgeVar</a>
 , <a class="el" href="structogdf_1_1node_pair.html#a3a23516617d2d78a37fb61e66d7701ce">ogdf::nodePair</a>
@@ -1383,7 +1404,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1_xml_parser.html#a15955a9f5b99c4f9c865d739eff15020">ogdf::XmlParser</a>
 </li>
 <li>Prioritized()
-: <a class="el" href="classogdf_1_1_prioritized.html#abc904062f1bcb6d161c6664a76a2bfdc">ogdf::Prioritized&lt; X, Priority &gt;</a>
+: <a class="el" href="classogdf_1_1_prioritized.html#aadcffcba8dcfdf81d63f81ffd3c98c04">ogdf::Prioritized&lt; X, Priority &gt;</a>
 </li>
 <li>PrioritizedArrayQueueBase()
 : <a class="el" href="classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html#ac36fb7abc8fe56a88ca235f415eeef1a">ogdf::pq_internal::PrioritizedArrayQueueBase&lt; E, P, C, Impl, Map &gt;</a>
@@ -1404,7 +1425,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 , <a class="el" href="classogdf_1_1_radix_heap_node.html#af3385275746c9ae8207cd594a8de214e">ogdf::RadixHeapNode&lt; V, P &gt;</a>
 </li>
 <li>PriorityQueue()
-: <a class="el" href="classogdf_1_1_priority_queue.html#a98a77b104100c00fd24baf7191c6c0b7">ogdf::PriorityQueue&lt; T, C, Impl &gt;</a>
+: <a class="el" href="classogdf_1_1_priority_queue.html#a7c44008c7eaad323724ac3e0eb28143a">ogdf::PriorityQueue&lt; T, C, Impl &gt;</a>
 </li>
 <li>problemName()
 : <a class="el" href="classabacus_1_1_master.html#afd15b5dbaf49985022abc1db042083f2">abacus::Master</a>
@@ -1437,7 +1458,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a855ef721ea29f2d1ffe674f5212abfdb">Minisat::Internal::Solver</a>
 </li>
 <li>progressive()
-: <a class="el" href="classogdf_1_1_ortho_layout.html#a61a4204d156052c82b2487a643ebdc38">ogdf::OrthoLayout</a>
+: <a class="el" href="classogdf_1_1_ortho_layout.html#a199e9f5f8fc180d4805557cec16d851f">ogdf::OrthoLayout</a>
 </li>
 <li>propagate()
 : <a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a131feac26c9ed937cb6e6a43f61afe64">Minisat::Internal::Solver</a>
@@ -1491,21 +1512,21 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>push()
 : <a class="el" href="class_minisat_1_1_internal_1_1vec.html#a5eb532d6f08227a9253df8406af00894">Minisat::Internal::vec&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_array_buffer.html#a2dc7761a8b33edb66070c3d941b3ba97">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a>
-, <a class="el" href="classogdf_1_1_binary_heap.html#aaaf55aa57b9786023362aac0689c23fb">ogdf::BinaryHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_binary_heap.html#a2247cb5940b8060927d0b5b9fc0cb814">ogdf::BinaryHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_binary_heap_simple.html#ae727daa0a626c3afacf2cbdebead0e65">ogdf::BinaryHeapSimple&lt; X, INDEX &gt;</a>
-, <a class="el" href="classogdf_1_1_binomial_heap.html#a6294c53bd2c6cec3a32dae320a571a81">ogdf::BinomialHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_binomial_heap.html#a510031c0f72bd094468a5874f8e39421">ogdf::BinomialHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_bounded_stack.html#a33bdcce5a336b085fd668b1bb2c5acce">ogdf::BoundedStack&lt; E, INDEX &gt;</a>
 , <a class="el" href="classogdf_1_1_e_stack.html#aade020eb29697a5f3c06f909c2ae9021">ogdf::EStack&lt; S, E, first, next &gt;</a>
-, <a class="el" href="classogdf_1_1_fibonacci_heap.html#a792b849e611951d0f8adbc7c7eb5fac5">ogdf::FibonacciHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_fibonacci_heap.html#ad88a78003f66236e0aa1e983ed31ff2f">ogdf::FibonacciHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_heap_base.html#aa09756ef6cf3ab84390dc5641e924cba">ogdf::HeapBase&lt; IMPL, H, T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_hot_queue.html#addbb1ccd794ec93a175bbd45a34e3349">ogdf::HotQueue&lt; V, P, H &gt;</a>
 , <a class="el" href="classogdf_1_1_max_flow_goldberg_tarjan.html#a21f692ccd3f45f2a87191dd50aab08a6">ogdf::MaxFlowGoldbergTarjan&lt; TCap &gt;</a>
-, <a class="el" href="classogdf_1_1_pairing_heap.html#aa5973fe4a2047a689598e25485843bd8">ogdf::PairingHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_pairing_heap.html#a6874c9d2d97ced68ab56b8d7d90e75b3">ogdf::PairingHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html#ad736431ad12c6da63cf84c86da3cc9e3">ogdf::pq_internal::PrioritizedArrayQueueBase&lt; E, P, C, Impl, Map &gt;</a>
 , <a class="el" href="classogdf_1_1pq__internal_1_1_prioritized_queue.html#a3b3017793719cee791b9d525ecd8c920">ogdf::pq_internal::PrioritizedQueue&lt; E, P, C, Impl &gt;</a>
-, <a class="el" href="classogdf_1_1_priority_queue.html#a90a7f93d5bd38cbe30629b650ec16a50">ogdf::PriorityQueue&lt; T, C, Impl &gt;</a>
+, <a class="el" href="classogdf_1_1_priority_queue.html#a2a4a1cae38375518366dba6a81caaa54">ogdf::PriorityQueue&lt; T, C, Impl &gt;</a>
 , <a class="el" href="classogdf_1_1_radix_heap.html#a06311d37c3ad04680953e7761cea71c5">ogdf::RadixHeap&lt; V, P &gt;</a>
-, <a class="el" href="classogdf_1_1_r_m_heap.html#a201409d585bb06449dccf93701b45f2e">ogdf::RMHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_r_m_heap.html#a17461852699724de229bd71ee33b55c0">ogdf::RMHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_shelling_order.html#a6c2682f9d33e140c1ee5cda21b92ec09">ogdf::ShellingOrder</a>
 , <a class="el" href="classogdf_1_1_stack.html#a7e3e83fb6ade2bf88a8f2cebda92879c">ogdf::Stack&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_stack_pure.html#ac3c5b113c8435063cb208cc56f208c60">ogdf::StackPure&lt; E &gt;</a>
@@ -1521,7 +1542,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 : <a class="el" href="classogdf_1_1_deleting_top10_heap.html#aac6cbac6641c86b5d051f9e3afd64e1c">ogdf::DeletingTop10Heap&lt; X, Priority, STATICCOMPARER, INDEX &gt;</a>
 </li>
 <li>pushBack()
-: <a class="el" href="classogdf_1_1_e_list.html#af133d989a0ba6ad8c876f31dd7b2a4a3">ogdf::EList&lt; L, E, numElem, first, last, next, prev &gt;</a>
+: <a class="el" href="classogdf_1_1_e_list.html#ac8da1fc0c5bd675fff5c56116f258c28">ogdf::EList&lt; L, E, numElem, first, last, next, prev &gt;</a>
 , <a class="el" href="classogdf_1_1internal_1_1_graph_list.html#a802e17698d4cae5c734cbee71720e93f">ogdf::internal::GraphList&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1internal_1_1_graph_list_base.html#a11f3f51222be56bb45e5ba5d0f9f849f">ogdf::internal::GraphListBase</a>
 , <a class="el" href="classogdf_1_1_list.html#a56b37231687eff9b2a430d94e2763b05">ogdf::List&lt; E &gt;</a>
@@ -1579,7 +1600,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

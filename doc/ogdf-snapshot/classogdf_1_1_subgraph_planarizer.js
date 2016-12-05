@@ -12,12 +12,12 @@ var classogdf_1_1_subgraph_planarizer =
     [ "permutations", "classogdf_1_1_subgraph_planarizer.html#a33cd5aeaad8428ec7fa57913f7576139", null ],
     [ "permutations", "classogdf_1_1_subgraph_planarizer.html#ae8b4fdb9635ece2d479ad9fca19dd661", null ],
     [ "setInserter", "classogdf_1_1_subgraph_planarizer.html#a714570c8410e62e0ce641600b586ebb9", null ],
-    [ "setSubgraph", "classogdf_1_1_subgraph_planarizer.html#a9281ab8c3753fd5fa36d7ec1d9c819c5", null ],
+    [ "setSubgraph", "classogdf_1_1_subgraph_planarizer.html#a9b9732c54130ea4f6341fbb3763222ce", null ],
     [ "setTimeout", "classogdf_1_1_subgraph_planarizer.html#a784cb3eb37370bd610411fcb0827277a", null ],
     [ "setTimeout", "classogdf_1_1_subgraph_planarizer.html#a7d2d2908e30ae26b989afcabb1745f59", null ],
-    [ "m_inserter", "classogdf_1_1_subgraph_planarizer.html#ace0e206cef050879324087c7bb9e6f99", null ],
+    [ "m_inserter", "classogdf_1_1_subgraph_planarizer.html#a18d7623e4f72420af8c448d9cd5e9949", null ],
     [ "m_maxThreads", "classogdf_1_1_subgraph_planarizer.html#aba142c7dcfe16779925fa98d30e4c8fb", null ],
     [ "m_permutations", "classogdf_1_1_subgraph_planarizer.html#a49388297b1d54f7e6ac76cb7e70aabfd", null ],
     [ "m_setTimeout", "classogdf_1_1_subgraph_planarizer.html#a2f9710a7933c18fa79f0fd794eb709ba", null ],
-    [ "m_subgraph", "classogdf_1_1_subgraph_planarizer.html#afaeb52595597ee55ae58b224e8c67d75", null ]
+    [ "m_subgraph", "classogdf_1_1_subgraph_planarizer.html#ae2106b1f3d347e4961f71074ae596b1e", null ]
 ];

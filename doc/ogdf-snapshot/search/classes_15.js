@@ -8,6 +8,7 @@ var searchData=
   ['varedgeinserterumlcore',['VarEdgeInserterUMLCore',['../classogdf_1_1_var_edge_inserter_u_m_l_core.html',1,'ogdf']]],
   ['variable',['Variable',['../classabacus_1_1_variable.html',1,'abacus']]],
   ['variableembeddinginserter',['VariableEmbeddingInserter',['../classogdf_1_1_variable_embedding_inserter.html',1,'ogdf']]],
+  ['variableembeddinginserterbase',['VariableEmbeddingInserterBase',['../classogdf_1_1_variable_embedding_inserter_base.html',1,'ogdf']]],
   ['variableembeddinginserterdyn',['VariableEmbeddingInserterDyn',['../classogdf_1_1_variable_embedding_inserter_dyn.html',1,'ogdf']]],
   ['variableembeddinginserterdynuml',['VariableEmbeddingInserterDynUML',['../classogdf_1_1_variable_embedding_inserter_dyn_u_m_l.html',1,'ogdf']]],
   ['variableembeddinginserteruml',['VariableEmbeddingInserterUML',['../classogdf_1_1_variable_embedding_inserter_u_m_l.html',1,'ogdf']]],

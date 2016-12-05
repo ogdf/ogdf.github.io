@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -139,14 +139,13 @@ $(document).ready(function(){initNavTree('classogdf_1_1_graph_observer.html','')
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_graph_observer.png" usemap="#ogdf::GraphObserver_map" alt=""/>
-  <map id="ogdf::GraphObserver_map" name="ogdf::GraphObserver_map">
-<area href="classogdf_1_1_cluster_graph.html" title="Representation of clustered graphs. " alt="ogdf::ClusterGraph" shape="rect" coords="0,56,148,80"/>
-<area href="classogdf_1_1_plan_rep_inc.html" alt="ogdf::PlanRepInc" shape="rect" coords="158,56,306,80"/>
-<area href="classogdf_1_1_cluster_graph_copy.html" alt="ogdf::ClusterGraphCopy" shape="rect" coords="0,112,148,136"/>
+<div class="center"><img src="classogdf_1_1_graph_observer__inherit__graph.png" border="0" usemap="#ogdf_1_1_graph_observer_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_graph_observer_inherit__map" id="ogdf_1_1_graph_observer_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_cluster_graph.html" title="Representation of clustered graphs. " alt="" coords="21,80,153,107"/>
+<area shape="rect" id="node4" href="classogdf_1_1_plan_rep_inc.html" title="ogdf::PlanRepInc" alt="" coords="177,80,300,107"/>
+<area shape="rect" id="node3" href="classogdf_1_1_cluster_graph_copy.html" title="ogdf::ClusterGraphCopy" alt="" coords="5,155,168,181"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -200,7 +199,7 @@ Friends</h2></td></tr>
 <div class="textblock"><p>Abstract Base class for graph observers. </p>
 <p>If a class needs to keep track of changes in a graph like addition or deletion of nodes or edges, you can derive it from <a class="el" href="classogdf_1_1_graph_observer.html" title="Abstract Base class for graph observers. ">GraphObserver</a> and override the notification methods nodeDeleted, nodeAdded, edgeDeleted, edgeAdded. </p>
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00060">60</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00057">57</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aef410fd50368283758e1e24a23be6454"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aef410fd50368283758e1e24a23be6454">&sect;&nbsp;</a></span>GraphObserver() <span class="overload">[1/2]</span></h2>
@@ -227,7 +226,7 @@ Friends</h2></td></tr>
 
 <p>Constructs instance of <a class="el" href="classogdf_1_1_graph_observer.html" title="Abstract Base class for graph observers. ">GraphObserver</a> class. </p>
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00065">65</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00062">62</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 
 </div>
 </div>
@@ -263,7 +262,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00071">71</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00068">68</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 
 </div>
 </div>
@@ -292,7 +291,7 @@ Friends</h2></td></tr>
 
 <p>Destroys the instance, unregisters it from watched graph. </p>
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00077">77</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00074">74</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 
 </div>
 </div>
@@ -322,7 +321,7 @@ Friends</h2></td></tr>
 
 <p>Called by watched graph when its clear function is called Has to be implemented by derived classes. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#a61324dfacb555fa69ed069c214791295">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#aeab4613c476b30f73658bb5850b49447">ogdf::PlanRepInc</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#afd4328b439d14f8fee699cea4d821feb">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#a5ad9ed727f79a62bd222b63ea916d4f8">ogdf::PlanRepInc</a>.</p>
 
 </div>
 </div>
@@ -352,7 +351,7 @@ Friends</h2></td></tr>
 
 <p>Called by watched graph when an edge is added Has to be implemented by derived classes. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#ab46d0f29b0fc6c392e85981b12135eab">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#a6f94c5e6b3f44de871f3e0aa2f414d9d">ogdf::PlanRepInc</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#ab6d952d45ffa9fb8925c7f48718a0bf4">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#ac789ab80570a57ed3c8a7fb8eb38fd96">ogdf::PlanRepInc</a>.</p>
 
 </div>
 </div>
@@ -382,7 +381,7 @@ Friends</h2></td></tr>
 
 <p>Called by watched graph when an edge is deleted Has to be implemented by derived classes. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#af6931248709645cdb35ad7b45277b1a6">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#ac5831e44c74870553b782a14a0cfe701">ogdf::PlanRepInc</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#a62348ea357a5fc635fb1e8577226a42b">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#aedf65e93af6910784cc79471c39bec8e">ogdf::PlanRepInc</a>.</p>
 
 </div>
 </div>
@@ -409,7 +408,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00113">113</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00110">110</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 
 </div>
 </div>
@@ -439,7 +438,7 @@ Friends</h2></td></tr>
 
 <p>Called by watched graph when a node is added Has to be implemented by derived classes. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#a4bc01ba657b536c52813e541c09e0114">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#a00448162f4ec558fd382ff5a3b0804cd">ogdf::PlanRepInc</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#a9857012d4e91ee8e1222413e3ed559ac">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#a553779484f2eaa4bd1a30c0c1241d70b">ogdf::PlanRepInc</a>.</p>
 
 </div>
 </div>
@@ -469,7 +468,7 @@ Friends</h2></td></tr>
 
 <p>Called by watched graph when a node is deleted Has to be implemented by derived classes. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#a770529585d5d73f6f584fdada91395c4">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#aaa6e40445ca2eb51d00c1c9d135cbfa6">ogdf::PlanRepInc</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#a987975458b9c0792864b2b4bdbe1af73">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#abef185d82876f4a169ab64a44fdbc805">ogdf::PlanRepInc</a>.</p>
 
 </div>
 </div>
@@ -498,7 +497,7 @@ Friends</h2></td></tr>
 
 <p>Called by watched graph when it is reinitialized Has to be implemented by derived classes. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#ac61922fdb44c242817d5911c54396393">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#adb25206bc4457b607ce374d437e98490">ogdf::PlanRepInc</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_cluster_graph.html#a5d1e41ac2007540156550c53a5c6e288">ogdf::ClusterGraph</a>, and <a class="el" href="classogdf_1_1_plan_rep_inc.html#a7bc3d5b3226df94a7261bd7576d22f0d">ogdf::PlanRepInc</a>.</p>
 
 </div>
 </div>
@@ -528,7 +527,7 @@ Friends</h2></td></tr>
 
 <p>Associates observer instance with graph <em>G</em>. </p>
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00083">83</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00080">80</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 
 </div>
 </div>
@@ -553,7 +552,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00061">61</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00058">58</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 
 </div>
 </div>
@@ -580,7 +579,7 @@ Friends</h2></td></tr>
 
 <p>watched graph </p>
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00117">117</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00114">114</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 
 </div>
 </div>
@@ -604,7 +603,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00116">116</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph_observer_8h_source.html#l00113">113</a> of file <a class="el" href="_graph_observer_8h_source.html">GraphObserver.h</a>.</p>
 
 </div>
 </div>
@@ -617,7 +616,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_graph_observer.html">GraphObserver</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

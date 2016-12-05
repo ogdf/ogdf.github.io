@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_heap_base.html','');});
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1_heap_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::HeapBase&lt; IMPL, H, T, C &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
@@ -143,17 +143,17 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaa9ff30b1964f0de134d4dfbe677d782"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#aaa9ff30b1964f0de134d4dfbe677d782">HeapBase</a> ()</td></tr>
-<tr class="separator:aaa9ff30b1964f0de134d4dfbe677d782"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8850975935608dc413ef7932c1bfe520"><td class="memItemLeft" align="right" valign="top">virtual const C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a8850975935608dc413ef7932c1bfe520">comparator</a> ()</td></tr>
-<tr class="memdesc:a8850975935608dc413ef7932c1bfe520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the comparator used to sort the values in the heap.  <a href="#a8850975935608dc413ef7932c1bfe520">More...</a><br /></td></tr>
-<tr class="separator:a8850975935608dc413ef7932c1bfe520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3c2311c40c90ad551a33f27b61f9972"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#ac3c2311c40c90ad551a33f27b61f9972">HeapBase</a> (C const &amp;comp=C())</td></tr>
+<tr class="separator:ac3c2311c40c90ad551a33f27b61f9972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8828d36d63298face54a08516331b18"><td class="memItemLeft" align="right" valign="top">virtual const C &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#ac8828d36d63298face54a08516331b18">comparator</a> () const</td></tr>
+<tr class="memdesc:ac8828d36d63298face54a08516331b18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the comparator used to sort the values in the heap.  <a href="#ac8828d36d63298face54a08516331b18">More...</a><br /></td></tr>
+<tr class="separator:ac8828d36d63298face54a08516331b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae935362e9a47cdd40f3664ad72994131"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#ae935362e9a47cdd40f3664ad72994131">decrease</a> (<a class="el" href="classogdf_1_1_heap_base.html#afbe90dcefbd716b4b1cbacd8a8cbad39">Handle</a> handle, const T &amp;<a class="el" href="classogdf_1_1_heap_base.html#ae15cbb91d5df266fee2c58c278b45117">value</a>)=0</td></tr>
 <tr class="memdesc:ae935362e9a47cdd40f3664ad72994131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decreases a single value.  <a href="#ae935362e9a47cdd40f3664ad72994131">More...</a><br /></td></tr>
 <tr class="separator:ae935362e9a47cdd40f3664ad72994131"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b8cb9bac61ccae6927038b4a574142c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a0b8cb9bac61ccae6927038b4a574142c">merge</a> (IMPL&lt; T, C &gt; &amp;other)</td></tr>
-<tr class="memdesc:a0b8cb9bac61ccae6927038b4a574142c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges in values of <em>other</em> heap.  <a href="#a0b8cb9bac61ccae6927038b4a574142c">More...</a><br /></td></tr>
-<tr class="separator:a0b8cb9bac61ccae6927038b4a574142c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f129e1aab23ac0d21561a22ce27ba91"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a2f129e1aab23ac0d21561a22ce27ba91">merge</a> (IMPL &amp;other)</td></tr>
+<tr class="memdesc:a2f129e1aab23ac0d21561a22ce27ba91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges in values of <em>other</em> heap.  <a href="#a2f129e1aab23ac0d21561a22ce27ba91">More...</a><br /></td></tr>
+<tr class="separator:a2f129e1aab23ac0d21561a22ce27ba91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a915c15775b67692c26ed53fc9bd6313a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a915c15775b67692c26ed53fc9bd6313a">pop</a> ()=0</td></tr>
 <tr class="memdesc:a915c15775b67692c26ed53fc9bd6313a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the topmost value from the heap.  <a href="#a915c15775b67692c26ed53fc9bd6313a">More...</a><br /></td></tr>
 <tr class="separator:a915c15775b67692c26ed53fc9bd6313a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -161,19 +161,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa09756ef6cf3ab84390dc5641e924cba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value into the heap.  <a href="#aa09756ef6cf3ab84390dc5641e924cba">More...</a><br /></td></tr>
 <tr class="separator:aa09756ef6cf3ab84390dc5641e924cba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85eece8bd8292298f2a105bf8cdb2ab5"><td class="memItemLeft" align="right" valign="top">virtual const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a85eece8bd8292298f2a105bf8cdb2ab5">top</a> () const =0</td></tr>
-<tr class="memdesc:a85eece8bd8292298f2a105bf8cdb2ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retuns the topmost value in the heap.  <a href="#a85eece8bd8292298f2a105bf8cdb2ab5">More...</a><br /></td></tr>
+<tr class="memdesc:a85eece8bd8292298f2a105bf8cdb2ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the topmost value in the heap.  <a href="#a85eece8bd8292298f2a105bf8cdb2ab5">More...</a><br /></td></tr>
 <tr class="separator:a85eece8bd8292298f2a105bf8cdb2ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae15cbb91d5df266fee2c58c278b45117"><td class="memItemLeft" align="right" valign="top">virtual const T &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#ae15cbb91d5df266fee2c58c278b45117">value</a> (const <a class="el" href="classogdf_1_1_heap_base.html#afbe90dcefbd716b4b1cbacd8a8cbad39">Handle</a> handle) const =0</td></tr>
 <tr class="memdesc:ae15cbb91d5df266fee2c58c278b45117"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of that handle.  <a href="#ae15cbb91d5df266fee2c58c278b45117">More...</a><br /></td></tr>
 <tr class="separator:ae15cbb91d5df266fee2c58c278b45117"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
 <tr class="memitem:a9d5da41a3c3da2439e891a812e05b786"><td class="memItemLeft" align="right" valign="top">C&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_heap_base.html#a9d5da41a3c3da2439e891a812e05b786">m_comp</a></td></tr>
 <tr class="separator:a9d5da41a3c3da2439e891a812e05b786"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt;<br />
+<div class="textblock"><h3>template&lt;typename IMPL, typename H, typename T, typename C&gt;<br />
 class ogdf::HeapBase&lt; IMPL, H, T, C &gt;</h3>
 
 <p>Common interface for all heap classes. </p>
@@ -187,7 +187,7 @@ class ogdf::HeapBase&lt; IMPL, H, T, C &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00058">58</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00055">55</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="afbe90dcefbd716b4b1cbacd8a8cbad39"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afbe90dcefbd716b4b1cbacd8a8cbad39">&sect;&nbsp;</a></span>Handle</h2>
@@ -195,7 +195,7 @@ class ogdf::HeapBase&lt; IMPL, H, T, C &gt;</h3>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">typedef H* <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase</a>&lt; IMPL, H, T, C &gt;::<a class="el" href="classogdf_1_1_heap_base.html#afbe90dcefbd716b4b1cbacd8a8cbad39">Handle</a></td>
@@ -206,18 +206,18 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <p>The type of handle used to identify stored values. </p>
 <p>The handle type accessible from outside of the heap will always be a pointer. </p>
 
-<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00068">68</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00066">66</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aaa9ff30b1964f0de134d4dfbe677d782"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa9ff30b1964f0de134d4dfbe677d782">&sect;&nbsp;</a></span>HeapBase()</h2>
+<a id="ac3c2311c40c90ad551a33f27b61f9972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3c2311c40c90ad551a33f27b61f9972">&sect;&nbsp;</a></span>HeapBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -225,29 +225,30 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
         <tr>
           <td class="memname"><a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase</a>&lt; IMPL, H, T, C &gt;::<a class="el" href="classogdf_1_1_heap_base.html">HeapBase</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">C const &amp;&#160;</td>
+          <td class="paramname"><em>comp</em> = <code>C()</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00070">70</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00068">68</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8850975935608dc413ef7932c1bfe520"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8850975935608dc413ef7932c1bfe520">&sect;&nbsp;</a></span>comparator()</h2>
+<a id="ac8828d36d63298face54a08516331b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8828d36d63298face54a08516331b18">&sect;&nbsp;</a></span>comparator()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -256,7 +257,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
           <td class="memname">virtual const C&amp; <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase</a>&lt; IMPL, H, T, C &gt;::comparator </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -269,7 +270,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <p>Returns the comparator used to sort the values in the heap. </p>
 <dl class="section return"><dt>Returns</dt><dd>The comparator for sorting the heaps values </dd></dl>
 
-<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00077">77</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00075">75</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
 
 </div>
 </div>
@@ -279,7 +280,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -318,32 +319,32 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_binary_heap.html#ac06f9eeab1ca14bd56d94eb86dae6ac4">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_binary_heap.html#a2b982110853c97079c9a1cbb30dd3207">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
 
 </div>
 </div>
-<a id="a0b8cb9bac61ccae6927038b4a574142c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b8cb9bac61ccae6927038b4a574142c">&sect;&nbsp;</a></span>merge()</h2>
+<a id="a2f129e1aab23ac0d21561a22ce27ba91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f129e1aab23ac0d21561a22ce27ba91">&sect;&nbsp;</a></span>merge()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H , typename T , typename C &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase</a>&lt; IMPL, H, T, C &gt;::merge </td>
+          <td class="memname">void <a class="el" href="classogdf_1_1_heap_base.html">ogdf::HeapBase</a>&lt; IMPL, H, T, C &gt;::merge </td>
           <td>(</td>
-          <td class="paramtype">IMPL&lt; T, C &gt; &amp;&#160;</td>
+          <td class="paramtype">IMPL &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -357,9 +358,9 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="classogdf_1_1_fibonacci_heap.html#a09bca6935c5f49ce29515c7a92fe8015">ogdf::FibonacciHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_r_m_heap.html#a1dec37b7e75f8484b9d13e8947dea1e7">ogdf::RMHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_binomial_heap.html#a9a77da384184cd298e24f29a5a4a4d0e">ogdf::BinomialHeap&lt; T, C &gt;</a>, and <a class="el" href="classogdf_1_1_pairing_heap.html#a294aa11249460a350a8aa40de0b086c8">ogdf::PairingHeap&lt; T, C &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="classogdf_1_1_fibonacci_heap.html#a22759f485ac021f2b1bede8d255b2c92">ogdf::FibonacciHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_r_m_heap.html#a580882ec7daceb5067ea0bba14ab034e">ogdf::RMHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_binomial_heap.html#a4e13c425eb6de25bab35dcdde4133500">ogdf::BinomialHeap&lt; T, C &gt;</a>, and <a class="el" href="classogdf_1_1_pairing_heap.html#a5961dce4b84223797f0b0c5174dc4fa7">ogdf::PairingHeap&lt; T, C &gt;</a>.</p>
 
-<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00124">124</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00131">131</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
 
 </div>
 </div>
@@ -369,7 +370,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -390,7 +391,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 
 <p>Removes the topmost value from the heap. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_fibonacci_heap.html#aad38990b83410353e958978d925f5282">ogdf::FibonacciHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_r_m_heap.html#a40c1ffa3a0149797045f2f467dde4b99">ogdf::RMHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_binomial_heap.html#a969a90f3d44161165074f91040f66803">ogdf::BinomialHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_pairing_heap.html#a692c4dd46667c0fd46e5102d0bb92e21">ogdf::PairingHeap&lt; T, C &gt;</a>, and <a class="el" href="classogdf_1_1_binary_heap.html#a36168a8dc512b76d794db4ad4f50ee8b">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_fibonacci_heap.html#a9443c946a8cd5ba7269e1db4dd3b7fc2">ogdf::FibonacciHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_r_m_heap.html#a6c47f1d81496179b2f96b58da3a58cc9">ogdf::RMHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_binomial_heap.html#a4768c23f3957da821ef731a582974119">ogdf::BinomialHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_pairing_heap.html#a933dc6324c4965b93b9f651787c0a1ad">ogdf::PairingHeap&lt; T, C &gt;</a>, and <a class="el" href="classogdf_1_1_binary_heap.html#a7494316bf1615990f2de8ef463551ca3">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
 
 </div>
 </div>
@@ -400,7 +401,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -429,7 +430,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>A handle to access and modify the value </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_fibonacci_heap.html#a792b849e611951d0f8adbc7c7eb5fac5">ogdf::FibonacciHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_r_m_heap.html#a201409d585bb06449dccf93701b45f2e">ogdf::RMHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_binomial_heap.html#a6294c53bd2c6cec3a32dae320a571a81">ogdf::BinomialHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_pairing_heap.html#aa5973fe4a2047a689598e25485843bd8">ogdf::PairingHeap&lt; T, C &gt;</a>, and <a class="el" href="classogdf_1_1_binary_heap.html#aaaf55aa57b9786023362aac0689c23fb">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_fibonacci_heap.html#ad88a78003f66236e0aa1e983ed31ff2f">ogdf::FibonacciHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_r_m_heap.html#a17461852699724de229bd71ee33b55c0">ogdf::RMHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_binomial_heap.html#a510031c0f72bd094468a5874f8e39421">ogdf::BinomialHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_pairing_heap.html#a6874c9d2d97ced68ab56b8d7d90e75b3">ogdf::PairingHeap&lt; T, C &gt;</a>, and <a class="el" href="classogdf_1_1_binary_heap.html#a2247cb5940b8060927d0b5b9fc0cb814">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
 
 </div>
 </div>
@@ -439,7 +440,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -458,10 +459,10 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 </table>
 </div><div class="memdoc">
 
-<p>Retuns the topmost value in the heap. </p>
+<p>Returns the topmost value in the heap. </p>
 <dl class="section return"><dt>Returns</dt><dd>the topmost value </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_fibonacci_heap.html#a8a75dd80dc9797bc9514314f96617ff2">ogdf::FibonacciHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_r_m_heap.html#acb79e1edf5c1fd11c7c0e7a82b100bbf">ogdf::RMHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_binomial_heap.html#a64926acda8d5ce34cf7297268808219d">ogdf::BinomialHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_pairing_heap.html#a416ccfd669477af6238a29716f8c39d2">ogdf::PairingHeap&lt; T, C &gt;</a>, and <a class="el" href="classogdf_1_1_binary_heap.html#a0aeafba5c77cd88fe87a7da9a3541f09">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_fibonacci_heap.html#aced6110858622ed435a4763b03a4f49d">ogdf::FibonacciHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_r_m_heap.html#a87c6a1f33c772bf2ea7bc3eecbeb0523">ogdf::RMHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_binomial_heap.html#a772356525f363a428f274683e3166654">ogdf::BinomialHeap&lt; T, C &gt;</a>, <a class="el" href="classogdf_1_1_pairing_heap.html#a699be768fc2742d73967832e1cc67ae4">ogdf::PairingHeap&lt; T, C &gt;</a>, and <a class="el" href="classogdf_1_1_binary_heap.html#a12d7eaac656b08346d704b3543d37ab2">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
 
 </div>
 </div>
@@ -471,7 +472,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -500,7 +501,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The value </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_binary_heap.html#a6066d0a57fc778cf6634831edf6afd29">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_binary_heap.html#acda751d9ca977598dc4a1579cbc67f8a">ogdf::BinaryHeap&lt; T, C &gt;</a>.</p>
 
 </div>
 </div>
@@ -511,7 +512,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typename T, typename C&gt; </div>
+template&lt;typename IMPL, typename H, typename T, typename C&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -522,12 +523,12 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00061">61</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
+<p>Definition at line <a class="el" href="_heap_base_8h_source.html#l00058">58</a> of file <a class="el" href="_heap_base_8h_source.html">HeapBase.h</a>.</p>
 
 </div>
 </div>
@@ -540,7 +541,7 @@ template&lt;template&lt; typename T, typename C &gt; class IMPL, typename H, typ
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_heap_base.html">HeapBase</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

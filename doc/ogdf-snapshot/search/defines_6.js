@@ -1,5 +1,28 @@
 var searchData=
 [
-  ['m2l_5fmin_5fbound',['M2L_MIN_BOUND',['../_linear_quadtree_8h.html#a702738bf21ae64f6cd7028f6a31cd65c',1,'LinearQuadtree.h']]],
-  ['malloc_5f16',['MALLOC_16',['../_fast_utils_8h.html#a94107f7a159d44062da467a911a6b133',1,'FastUtils.h']]]
+  ['ogdf_5fallocator',['OGDF_ALLOCATOR',['../memory_8h.html#a5424553d596bd919e028c0bb716b5af7',1,'memory.h']]],
+  ['ogdf_5fdebug',['OGDF_DEBUG',['../config__autogen_8h.html#a4ae9048c6418e30af8cb2336aba49aca',1,'config_autogen.h']]],
+  ['ogdf_5fdisjoint_5fsets_5fintermediate_5fparent_5fcheck',['OGDF_DISJOINT_SETS_INTERMEDIATE_PARENT_CHECK',['../_disjoint_sets_8h.html#ac866eb51fd3f9b58529b4be8b10b5b51',1,'DisjointSets.h']]],
+  ['ogdf_5fexport',['OGDF_EXPORT',['../config_8h.html#a7c3d8dd02d991bf844b9ce797ef5cede',1,'config.h']]],
+  ['ogdf_5ffme_5fkernel_5fcompute_5fforce',['OGDF_FME_KERNEL_COMPUTE_FORCE',['../_f_m_e_kernel_8h.html#adef62551a03da1d80361e703db41495d',1,'FMEKernel.h']]],
+  ['ogdf_5ffme_5fkernel_5fcompute_5fforce_5fprotection_5ffactor',['OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR',['../_f_m_e_kernel_8h.html#a475f2b3a9a4188ba9a7d0744156f90b2',1,'FMEKernel.h']]],
+  ['ogdf_5ffme_5fkernel_5fmm_5fcompute_5fforce',['OGDF_FME_KERNEL_MM_COMPUTE_FORCE',['../_f_m_e_kernel_8h.html#ad6a2cbc4b833302d72be82835acbee43',1,'FMEKernel.h']]],
+  ['ogdf_5ffme_5fkernel_5fuse_5fold',['OGDF_FME_KERNEL_USE_OLD',['../_f_m_e_kernel_8h.html#ae5176af2fb64289faad21412e0b5c48d',1,'FMEKernel.h']]],
+  ['ogdf_5ffree_5f16',['OGDF_FREE_16',['../_fast_utils_8h.html#aaccbfef2802e1d9e95a9d1c8bc8f4ffc',1,'FastUtils.h']]],
+  ['ogdf_5ffullcomponentstore_5fremove_5fin_5fgraph_5frepresentation_5falso',['OGDF_FULLCOMPONENTSTORE_REMOVE_IN_GRAPH_REPRESENTATION_ALSO',['../_full_component_store_8h.html#a7f00949880b1a13675e89968a413408b',1,'FullComponentStore.h']]],
+  ['ogdf_5fgt_5fuse_5fmax_5factive_5flabel',['OGDF_GT_USE_MAX_ACTIVE_LABEL',['../_max_flow_goldberg_tarjan_8h.html#a7ae1a3eb6e97cceedea9ee8ece42590f',1,'MaxFlowGoldbergTarjan.h']]],
+  ['ogdf_5fgt_5fuse_5fpush_5frelabel_5fsecond_5fstage',['OGDF_GT_USE_PUSH_RELABEL_SECOND_STAGE',['../_max_flow_goldberg_tarjan_8h.html#a706ef192e2de1ca7803da12c84ba12cd',1,'MaxFlowGoldbergTarjan.h']]],
+  ['ogdf_5flq_5fm2l_5fmin_5fbound',['OGDF_LQ_M2L_MIN_BOUND',['../_linear_quadtree_8h.html#aaf572a074a37c089cf5ec3aef22509b9',1,'LinearQuadtree.h']]],
+  ['ogdf_5flq_5fwspd_5fbound',['OGDF_LQ_WSPD_BOUND',['../_linear_quadtree_8h.html#a214c43e8e1d628b5058998082054fc03',1,'LinearQuadtree.h']]],
+  ['ogdf_5flq_5fwspd_5fbranch_5fbound',['OGDF_LQ_WSPD_BRANCH_BOUND',['../_linear_quadtree_8h.html#a33c4ba4315cd658348d7b4a81a2e6fd2',1,'LinearQuadtree.h']]],
+  ['ogdf_5fmalloc_5f16',['OGDF_MALLOC_16',['../_fast_utils_8h.html#a14b083971a511aebbaad332eb7b94880',1,'FastUtils.h']]],
+  ['ogdf_5fmemory_5fpool_5fts',['OGDF_MEMORY_POOL_TS',['../config__autogen_8h.html#aaabf8f3c3dd210d0836b0aaae66247a7',1,'config_autogen.h']]],
+  ['ogdf_5fmm',['OGDF_MM',['../memory_8h.html#a3a5973acb116017dbf58d57215fc790f',1,'memory.h']]],
+  ['ogdf_5focm_5fattribute',['OGDF_OCM_ATTRIBUTE',['../_crossing_minimization_module_8h.html#a520a8ee3374a263350d361e9a5a76d37',1,'CrossingMinimizationModule.h']]],
+  ['ogdf_5fsse3_5fextensions',['OGDF_SSE3_EXTENSIONS',['../config__autogen_8h.html#a3ebc21b15f06b828842268f56c1d0249',1,'config_autogen.h']]],
+  ['ogdf_5fsteinertree_5fgoemans139_5floss_5fon_5fmetric_5fclosure',['OGDF_STEINERTREE_GOEMANS139_LOSS_ON_METRIC_CLOSURE',['../_min_steiner_tree_goemans139_8h.html#ab3e42493e3badd4793e25ada974d8de5',1,'MinSteinerTreeGoemans139.h']]],
+  ['ogdf_5fsteinertree_5fgoemans139_5fseparate_5fconnected_5fcomponents',['OGDF_STEINERTREE_GOEMANS139_SEPARATE_CONNECTED_COMPONENTS',['../_min_steiner_tree_goemans139_8h.html#abe621fec4c82e14201fee452a51fa35a',1,'MinSteinerTreeGoemans139.h']]],
+  ['ogdf_5fsteinertree_5fgoemans139_5fseparate_5fyvar_5fconstraints',['OGDF_STEINERTREE_GOEMANS139_SEPARATE_YVAR_CONSTRAINTS',['../_min_steiner_tree_goemans139_8h.html#a1859585648817329f63ebaa99f877791',1,'MinSteinerTreeGoemans139.h']]],
+  ['ogdf_5fsteinertree_5frzloss_5freduce_5fon',['OGDF_STEINERTREE_RZLOSS_REDUCE_ON',['../_min_steiner_tree_r_z_loss_8h.html#a6c864a6641c883a0d846b2d9b622e392',1,'MinSteinerTreeRZLoss.h']]],
+  ['ogdf_5fversion',['OGDF_VERSION',['../version_8h.html#abb84ce57e8ddcc6949c8ded80e2e3aa1',1,'version.h']]]
 ];

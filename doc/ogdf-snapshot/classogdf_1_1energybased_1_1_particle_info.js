@@ -18,7 +18,6 @@ var classogdf_1_1energybased_1_1_particle_info =
     [ "set_x_y_coord", "classogdf_1_1energybased_1_1_particle_info.html#a7111f4db77485548fedbf3215c99c6d3", null ],
     [ "unmark", "classogdf_1_1energybased_1_1_particle_info.html#a0b37255214b4e5e6096aba49190630ae", null ],
     [ "operator<<", "classogdf_1_1energybased_1_1_particle_info.html#a0a5ced9f7fef624af6e5095d53461190", null ],
-    [ "operator>>", "classogdf_1_1energybased_1_1_particle_info.html#a4d94e7027eeade5ab60f9161fe1e6955", null ],
     [ "copy_item", "classogdf_1_1energybased_1_1_particle_info.html#aea117b3e341a00b1192cb7bab282f5e6", null ],
     [ "cross_ref_item", "classogdf_1_1energybased_1_1_particle_info.html#a7f14206d2bdabb0bd696b57a2ecd35a9", null ],
     [ "marked", "classogdf_1_1energybased_1_1_particle_info.html#ad675d2d824cdd49eb5010328ae7242df", null ],

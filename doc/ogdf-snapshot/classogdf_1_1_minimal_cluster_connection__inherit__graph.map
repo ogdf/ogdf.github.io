@@ -1,0 +1,5 @@
+<map id="ogdf::MinimalClusterConnection" name="ogdf::MinimalClusterConnection">
+<area shape="rect" id="node2" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format. " alt="" coords="43,155,175,181"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="51,80,167,107"/>
+<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="37,5,181,32"/>
+</map>

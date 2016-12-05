@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_c_planar_edge_var.html',
   <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_edge_var.html#a238b976144edbb559ab7e081b74187f5aa1957ed99e5847192398d5fcb128a22f">ORIGINAL</a> enum value</td><td class="entry"><a class="el" href="classogdf_1_1_edge_var.html">ogdf::EdgeVar</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="classabacus_1_1_con_var.html#a46cbe30a1be7062e7d8b7c36c5138614">print</a>(ostream &amp;out) const</td><td class="entry"><a class="el" href="classabacus_1_1_con_var.html">abacus::ConVar</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classabacus_1_1_variable.html#a2f7033f4c2f45f44cad8fed92576f097">printCol</a>(ostream &amp;out, Active&lt; Constraint, Variable &gt; *constraints) const</td><td class="entry"><a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a></td><td class="entry"></td></tr>
-  <tr><td class="entry"><a class="el" href="classogdf_1_1_c_planar_edge_var.html#a964bdad6d21b319de5e9ea88ae4605e6">printMe</a>(ostream &amp;out)</td><td class="entry"><a class="el" href="classogdf_1_1_c_planar_edge_var.html">ogdf::CPlanarEdgeVar</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classogdf_1_1_c_planar_edge_var.html#a497572d5d04b856b67a71f8484d2001a">printMe</a>(ostream &amp;out) override</td><td class="entry"><a class="el" href="classogdf_1_1_c_planar_edge_var.html">ogdf::CPlanarEdgeVar</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classabacus_1_1_con_var.html#a0fff7dcde419b3c82ef6dcd0c75e1404">rank</a>() const</td><td class="entry"><a class="el" href="classabacus_1_1_con_var.html">abacus::ConVar</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classabacus_1_1_variable.html#a0e2c038a7ef315370fac0166697f3dc1">redCost</a>(Active&lt; Constraint, Variable &gt; *actCon, double *y) const</td><td class="entry"><a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_edge_var.html#a295a896984ecd765b96f3f9cb69902f2">sourceNode</a>() const</td><td class="entry"><a class="el" href="classogdf_1_1_edge_var.html">ogdf::EdgeVar</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -193,7 +193,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_c_planar_edge_var.html',
   <tr><td class="entry"><a class="el" href="classabacus_1_1_variable.html#a9d61fff8d7715e92da85c31f8b8ec22b">Variable</a>(Master *master, const Sub *sub, bool dynamic, bool local, double obj, double lBound, double uBound, VarType::TYPE type)</td><td class="entry"><a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classabacus_1_1_variable.html#a5f85aa660f4d94affd2e5f79e23c0f95">varType</a>() const</td><td class="entry"><a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="classabacus_1_1_variable.html#af2260ba0aeac223031cdec26a9806969">violated</a>(double rc) const</td><td class="entry"><a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classabacus_1_1_variable.html#ac8fb74686c9e8a87e3fd4d4b80a29690">violated</a>(Active&lt; Constraint, Variable &gt; *constraints, double *y, double *slack=0) const</td><td class="entry"><a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classabacus_1_1_variable.html#ad075791703abb8d5308c85d9fa6152fb">violated</a>(Active&lt; Constraint, Variable &gt; *constraints, double *y, double *slack=nullptr) const</td><td class="entry"><a class="el" href="classabacus_1_1_variable.html">abacus::Variable</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classabacus_1_1_abacus_root.html#a91426fee38507bff91199b0302a1b77f">~AbacusRoot</a>()</td><td class="entry"><a class="el" href="classabacus_1_1_abacus_root.html">abacus::AbacusRoot</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classabacus_1_1_con_var.html#a808add0899bb97758d563f58d755097a">~ConVar</a>()</td><td class="entry"><a class="el" href="classabacus_1_1_con_var.html">abacus::ConVar</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="classogdf_1_1_c_planar_edge_var.html#ab65106588578df40cba9777020ff6447">~CPlanarEdgeVar</a>()</td><td class="entry"><a class="el" href="classogdf_1_1_c_planar_edge_var.html">ogdf::CPlanarEdgeVar</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
@@ -204,7 +204,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_c_planar_edge_var.html',
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

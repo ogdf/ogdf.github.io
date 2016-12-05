@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_pool_memory_allocator.ht
 </div><!--header-->
 <div class="contents">
 
-<p>The class <em>PoolAllocator</em> represents ogdf's pool memory allocator.  
+<p>The class <em><a class="el" href="classogdf_1_1_pool_memory_allocator.html" title="The class PoolMemoryAllocator represents ogdf&#39;s pool memory allocator. ">PoolMemoryAllocator</a></em> represents ogdf's pool memory allocator.  
  <a href="classogdf_1_1_pool_memory_allocator.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_pool_memory_allocator_8h_source.html">ogdf/internal/basic/PoolMemoryAllocator.h</a>&gt;</code></p>
@@ -183,11 +183,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a356a677ad221d8b786fef05ae95d8821"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8e7508e3a01aec9291891b2f355342a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_pool_memory_allocator.html#ae8e7508e3a01aec9291891b2f355342a">flushPool</a> ()</td></tr>
 <tr class="separator:ae8e7508e3a01aec9291891b2f355342a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeed5f2794c4e28830d3a89df8ad607f9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_pool_memory_allocator.html#aeed5f2794c4e28830d3a89df8ad607f9">init</a> ()</td></tr>
-<tr class="memdesc:aeed5f2794c4e28830d3a89df8ad607f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the memory manager.  <a href="#aeed5f2794c4e28830d3a89df8ad607f9">More...</a><br /></td></tr>
-<tr class="separator:aeed5f2794c4e28830d3a89df8ad607f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e79586503e7aa4e09268aad8c08c756"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_pool_memory_allocator.html#a4e79586503e7aa4e09268aad8c08c756">initThread</a> ()</td></tr>
-<tr class="separator:a4e79586503e7aa4e09268aad8c08c756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04c8712bf83e1c9b19c620fde351ee4d"><td class="memItemLeft" align="right" valign="top">static size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_pool_memory_allocator.html#a04c8712bf83e1c9b19c620fde351ee4d">memoryAllocatedInBlocks</a> ()</td></tr>
 <tr class="memdesc:a04c8712bf83e1c9b19c620fde351ee4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the total amount of memory (in bytes) allocated from the system.  <a href="#a04c8712bf83e1c9b19c620fde351ee4d">More...</a><br /></td></tr>
 <tr class="separator:a04c8712bf83e1c9b19c620fde351ee4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,16 +229,16 @@ Static Private Attributes</h2></td></tr>
 <tr class="separator:a1ae3597c73925913c7fc3ee6ab9c013d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca62e861d1109d64f1dc71dbd5786afc"><td class="memItemLeft" align="right" valign="top">static PoolElement&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_pool_memory_allocator.html#aca62e861d1109d64f1dc71dbd5786afc">s_pool</a> [<a class="el" href="classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba4a381ddcc36303f0a33c4f0e76a3b352">eTableSize</a>]</td></tr>
 <tr class="separator:aca62e861d1109d64f1dc71dbd5786afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeb1e192e1c23e5822903fb8e4b63f47"><td class="memItemLeft" align="right" valign="top">static OGDF_DECL_THREAD <a class="el" href="classogdf_1_1_pool_memory_allocator.html#a4aa2e48f50461bad261502b01f5eb428">MemElemPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_pool_memory_allocator.html#aeeb1e192e1c23e5822903fb8e4b63f47">s_tp</a> [<a class="el" href="classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba4a381ddcc36303f0a33c4f0e76a3b352">eTableSize</a>]</td></tr>
-<tr class="separator:aeeb1e192e1c23e5822903fb8e4b63f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a908978eb5e128ce6d143cc2f8328bb4f"><td class="memItemLeft" align="right" valign="top">static thread_local <a class="el" href="classogdf_1_1_pool_memory_allocator.html#a4aa2e48f50461bad261502b01f5eb428">MemElemPtr</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_pool_memory_allocator.html#a908978eb5e128ce6d143cc2f8328bb4f">s_tp</a> [<a class="el" href="classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba4a381ddcc36303f0a33c4f0e76a3b352">eTableSize</a>]</td></tr>
+<tr class="separator:a908978eb5e128ce6d143cc2f8328bb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The class <em>PoolAllocator</em> represents ogdf's pool memory allocator. </p>
+<div class="textblock"><p>The class <em><a class="el" href="classogdf_1_1_pool_memory_allocator.html" title="The class PoolMemoryAllocator represents ogdf&#39;s pool memory allocator. ">PoolMemoryAllocator</a></em> represents ogdf's pool memory allocator. </p>
 <h3>Usage:</h3>
-<p>Adding the macro <code><a class="el" href="memory_8h.html#ad2fabdf4321f9f5518b2f984a2349c96" title="Creates new and delete operators in a class using ogdf&#39;s memory allocator. ">OGDF_NEW_DELETE</a></code> in a class declaration overloads new and delete operators of that class such that they use this memory allocator. This is useful if the size of a class is less than <code>PoolAllocator::eTableSize</code> bytes.</p>
-<p>Another benefit from the OGDF memory-manager is that it throws an <a class="el" href="classogdf_1_1_insufficient_memory_exception.html" title="Exception thrown when not enough memory is available to execute an algorithm. ">InsufficientMemoryException</a> if no more memory is available. Hence it is legal to omit checking if new returned 0 as long as stack- unwinding frees all memory allocated so far. It is also possible to make the usual <code>new</code> operator behave the same way (throwing an <a class="el" href="classogdf_1_1_insufficient_memory_exception.html" title="Exception thrown when not enough memory is available to execute an algorithm. ">InsufficientMemoryException</a>) by defining the macro <code><a class="el" href="memory_8h.html#a975f789ae251f8e19dd3d835f091ec89" title="Creates new and delete operators in a class using the malloc memory allocator. ">OGDF_MALLOC_NEW_DELETE</a></code> in a class declaration. </p>
+<p>Adding the macro <code><a class="el" href="group__macros.html#gad2fabdf4321f9f5518b2f984a2349c96" title="Creates new and delete operators in a class (using the chosen memory manager). ">OGDF_NEW_DELETE</a></code> in a class declaration overloads new and delete operators of that class such that they use this memory allocator. This is useful if the size of a class is less than <code><a class="el" href="classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba4a381ddcc36303f0a33c4f0e76a3b352">PoolMemoryAllocator::eTableSize</a></code> bytes.</p>
+<p>Another benefit from the OGDF memory-manager is that it throws an <a class="el" href="classogdf_1_1_insufficient_memory_exception.html" title="Exception thrown when not enough memory is available to execute an algorithm. ">InsufficientMemoryException</a> if no more memory is available. Hence it is legal to omit checking if new returned 0 as long as stack- unwinding frees all memory allocated so far. It is also possible to make the usual <code>new</code> operator behave the same way (throwing an <a class="el" href="classogdf_1_1_insufficient_memory_exception.html" title="Exception thrown when not enough memory is available to execute an algorithm. ">InsufficientMemoryException</a>) by defining the macro <code><a class="el" href="group__macros.html#ga975f789ae251f8e19dd3d835f091ec89" title="Creates new and delete operators in a class using the malloc memory allocator. ">OGDF_MALLOC_NEW_DELETE</a></code> in a class declaration. </p>
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00069">69</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00061">61</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a947d42d1f196230a0ce8f4219d3bee69"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a947d42d1f196230a0ce8f4219d3bee69">&sect;&nbsp;</a></span>BlockChainPtr</h2>
@@ -265,7 +260,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00084">84</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00076">76</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -289,7 +284,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00080">80</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00072">72</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -313,7 +308,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00079">79</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00071">71</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -336,7 +331,7 @@ Static Private Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a2306a959d40efaedcde630b679f289eba20e44390f6ec933667da0cd291da666c"></a>ePoolVectorLength&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00088">88</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00080">80</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -364,7 +359,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00095">95</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00087">87</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -391,7 +386,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00096">96</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00088">88</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -473,7 +468,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00106">106</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00093">93</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -638,7 +633,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00145">145</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00132">132</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -703,58 +698,6 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aeed5f2794c4e28830d3a89df8ad607f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeed5f2794c4e28830d3a89df8ad607f9">&sect;&nbsp;</a></span>init()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ogdf::PoolMemoryAllocator::init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initializes the memory manager. </p>
-
-</div>
-</div>
-<a id="a4e79586503e7aa4e09268aad8c08c756"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e79586503e7aa4e09268aad8c08c756">&sect;&nbsp;</a></span>initThread()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void ogdf::PoolMemoryAllocator::initThread </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a69c9ce21fd2003109f32535728f8f660"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69c9ce21fd2003109f32535728f8f660">&sect;&nbsp;</a></span>leaveCS()</h2>
 
@@ -778,7 +721,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00151">151</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00138">138</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -929,7 +872,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00157">157</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00144">144</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -967,7 +910,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00162">162</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00149">149</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -1017,7 +960,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00175">175</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00162">162</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -1041,7 +984,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00184">184</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00171">171</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -1065,12 +1008,12 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00174">174</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00161">161</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
-<a id="aeeb1e192e1c23e5822903fb8e4b63f47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeeb1e192e1c23e5822903fb8e4b63f47">&sect;&nbsp;</a></span>s_tp</h2>
+<a id="a908978eb5e128ce6d143cc2f8328bb4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a908978eb5e128ce6d143cc2f8328bb4f">&sect;&nbsp;</a></span>s_tp</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1079,7 +1022,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">OGDF_DECL_THREAD <a class="el" href="classogdf_1_1_pool_memory_allocator.html#a4aa2e48f50461bad261502b01f5eb428">MemElemPtr</a> ogdf::PoolMemoryAllocator::s_tp[<a class="el" href="classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba4a381ddcc36303f0a33c4f0e76a3b352">eTableSize</a>]</td>
+          <td class="memname">thread_local <a class="el" href="classogdf_1_1_pool_memory_allocator.html#a4aa2e48f50461bad261502b01f5eb428">MemElemPtr</a> ogdf::PoolMemoryAllocator::s_tp[<a class="el" href="classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba4a381ddcc36303f0a33c4f0e76a3b352">eTableSize</a>]</td>
         </tr>
       </table>
   </td>
@@ -1089,7 +1032,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00188">188</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
+<p>Definition at line <a class="el" href="_pool_memory_allocator_8h_source.html#l00172">172</a> of file <a class="el" href="_pool_memory_allocator_8h_source.html">PoolMemoryAllocator.h</a>.</p>
 
 </div>
 </div>
@@ -1102,7 +1045,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_pool_memory_allocator.html">PoolMemoryAllocator</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

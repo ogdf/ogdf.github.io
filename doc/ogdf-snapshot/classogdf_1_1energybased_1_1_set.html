@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -122,6 +122,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1energybased_1_1_set.html'
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1energybased_1_1_set-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -175,6 +176,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2810cce96835f2f14939ecc300280108"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets rand_tries random elements from S_node and selects the one with the highest mass_of_star and updates S_node and position_in_node_set.  <a href="#a2810cce96835f2f14939ecc300280108">More...</a><br /></td></tr>
 <tr class="separator:a2810cce96835f2f14939ecc300280108"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a58d1393cf1aba97847ab1f48d053550c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1_set.html#a58d1393cf1aba97847ab1f48d053550c">get_random_node_common</a> (int, int &amp;)</td></tr>
+<tr class="memdesc:a58d1393cf1aba97847ab1f48d053550c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common updates for each get_random_node method.  <a href="#a58d1393cf1aba97847ab1f48d053550c">More...</a><br /></td></tr>
+<tr class="separator:a58d1393cf1aba97847ab1f48d053550c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1bfa5c9bb4fd18780f1633c6c94771d"><td class="memTemplParams" colspan="2">template&lt;typename Comp &gt; </td></tr>
+<tr class="memitem:ad1bfa5c9bb4fd18780f1633c6c94771d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1_set.html#ad1bfa5c9bb4fd18780f1633c6c94771d">get_random_node_with_some_star_mass</a> (int rand_tries, Comp comp=Comp())</td></tr>
+<tr class="memdesc:ad1bfa5c9bb4fd18780f1633c6c94771d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper function for get_random_node methods with lowest or highest star mass.  <a href="#ad1bfa5c9bb4fd18780f1633c6c94771d">More...</a><br /></td></tr>
+<tr class="separator:ad1bfa5c9bb4fd18780f1633c6c94771d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a7e64e2296623a9f93cfeba04b712d906"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1_set.html#a7e64e2296623a9f93cfeba04b712d906">last_selectable_index_of_S_node</a></td></tr>
@@ -196,7 +207,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Helping data structure that holds set S_node of nodes in the range [0, G.number_of_nodes()-1] (needed for class <a class="el" href="classogdf_1_1energybased_1_1_multilevel.html">Multilevel</a>) for randomly choosing nodes (with uniform or weighted probability!) </p>
 
-<p>Definition at line <a class="el" href="_set_8h_source.html#l00048">48</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
+<p>Definition at line <a class="el" href="_set_8h_source.html#l00045">45</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a850a7990a9fe8bd18f2361b67b272e41"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a850a7990a9fe8bd18f2361b67b272e41">&sect;&nbsp;</a></span>Set()</h2>
@@ -295,6 +306,44 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a58d1393cf1aba97847ab1f48d053550c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d1393cf1aba97847ab1f48d053550c">&sect;&nbsp;</a></span>get_random_node_common()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> ogdf::energybased::Set::get_random_node_common </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Common updates for each get_random_node method. </p>
+
+</div>
+</div>
 <a id="a2810cce96835f2f14939ecc300280108"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2810cce96835f2f14939ecc300280108">&sect;&nbsp;</a></span>get_random_node_with_highest_star_mass()</h2>
 
@@ -332,6 +381,46 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets rand_tries random elements from S_node and selects the one with the lowest mass_of_star and updates S_node and position_in_node_set. </p>
+
+</div>
+</div>
+<a id="ad1bfa5c9bb4fd18780f1633c6c94771d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1bfa5c9bb4fd18780f1633c6c94771d">&sect;&nbsp;</a></span>get_random_node_with_some_star_mass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Comp &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> ogdf::energybased::Set::get_random_node_with_some_star_mass </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>rand_tries</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Comp&#160;</td>
+          <td class="paramname"><em>comp</em> = <code>Comp()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper function for get_random_node methods with lowest or highest star mass. </p>
 
 </div>
 </div>
@@ -448,7 +537,7 @@ Private Attributes</h2></td></tr>
 
 <p>index of the last randomly choosable element in S_node (this value is decreased after each select operation) </p>
 
-<p>Definition at line <a class="el" href="_set_8h_source.html#l00107">107</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
+<p>Definition at line <a class="el" href="_set_8h_source.html#l00112">112</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
 
 </div>
 </div>
@@ -474,7 +563,7 @@ Private Attributes</h2></td></tr>
 
 <p>the sum of the masses of a node and its neighbours </p>
 
-<p>Definition at line <a class="el" href="_set_8h_source.html#l00112">112</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
+<p>Definition at line <a class="el" href="_set_8h_source.html#l00117">117</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
 
 </div>
 </div>
@@ -500,7 +589,7 @@ Private Attributes</h2></td></tr>
 
 <p>holds for each node of G the index of its position in S_node </p>
 
-<p>Definition at line <a class="el" href="_set_8h_source.html#l00110">110</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
+<p>Definition at line <a class="el" href="_set_8h_source.html#l00115">115</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
 
 </div>
 </div>
@@ -526,7 +615,7 @@ Private Attributes</h2></td></tr>
 
 <p>representation of the node set S_node[0,G.number_of_nodes()-1] </p>
 
-<p>Definition at line <a class="el" href="_set_8h_source.html#l00106">106</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
+<p>Definition at line <a class="el" href="_set_8h_source.html#l00111">111</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
 
 </div>
 </div>
@@ -552,7 +641,7 @@ Private Attributes</h2></td></tr>
 
 <p>indicates weather S_item, or S_node is used </p>
 
-<p>Definition at line <a class="el" href="_set_8h_source.html#l00104">104</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
+<p>Definition at line <a class="el" href="_set_8h_source.html#l00109">109</a> of file <a class="el" href="_set_8h_source.html">Set.h</a>.</p>
 
 </div>
 </div>
@@ -565,7 +654,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="namespaceogdf_1_1energybased.html">energybased</a></li><li class="navelem"><a class="el" href="classogdf_1_1energybased_1_1_set.html">Set</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

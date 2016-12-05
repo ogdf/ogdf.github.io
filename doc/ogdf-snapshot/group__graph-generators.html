@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -147,6 +147,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gab7c85da1b67c5f397be073826a532f39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gab7c85da1b67c5f397be073826a532f39">ogdf::cubeGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n)</td></tr>
 <tr class="memdesc:gab7c85da1b67c5f397be073826a532f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the graph \(Q^n\): A <em>n</em>-cube graph.  <a href="group__graph-generators.html#gab7c85da1b67c5f397be073826a532f39">More...</a><br /></td></tr>
 <tr class="separator:gab7c85da1b67c5f397be073826a532f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga44c2631acd39f73c7117a8a8c60d6071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga44c2631acd39f73c7117a8a8c60d6071">ogdf::emptyGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int nodes)</td></tr>
+<tr class="memdesc:ga44c2631acd39f73c7117a8a8c60d6071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a graph with <em>nodes</em> nodes and no edges.  <a href="group__graph-generators.html#ga44c2631acd39f73c7117a8a8c60d6071">More...</a><br /></td></tr>
+<tr class="separator:ga44c2631acd39f73c7117a8a8c60d6071"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5e5147b533c68c25f3372b3ec5c2f04b">ogdf::gridGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, bool loopN, bool loopM)</td></tr>
 <tr class="memdesc:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a (toroidal) grid graph on <em>n</em> x <em>m</em> nodes.  <a href="group__graph-generators.html#ga5e5147b533c68c25f3372b3ec5c2f04b">More...</a><br /></td></tr>
 <tr class="separator:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,12 +189,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga09ba6d0ea460b12dc307e1d0c3458f25">ogdf::randomDiGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, double p)</td></tr>
 <tr class="memdesc:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random (simple) directed graph.  <a href="group__graph-generators.html#ga09ba6d0ea460b12dc307e1d0c3458f25">More...</a><br /></td></tr>
 <tr class="separator:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa22bfe93fe65faf3f59f3c966a71471b">ogdf::randomGeometricCubeGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int nodes, double threshold, int dimension=2)</td></tr>
+<tr class="memdesc:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a Random Geometeric <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a> by laying out nodes in a unit n-cube. Nodes with a distance &lt; threshold are connected, 0 &lt;= threshold &lt;= sqrt(dimension). The graph is simple.  <a href="group__graph-generators.html#gaa22bfe93fe65faf3f59f3c966a71471b">More...</a><br /></td></tr>
+<tr class="separator:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga0feff1b510864aba8b73a1b34e5f2ca1">ogdf::randomGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
 <tr class="memdesc:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random graph.  <a href="group__graph-generators.html#ga0feff1b510864aba8b73a1b34e5f2ca1">More...</a><br /></td></tr>
 <tr class="separator:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36">ogdf::randomHierarchy</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, bool planar, bool singleSource, bool longEdges)</td></tr>
 <tr class="memdesc:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random hierarchical graph.  <a href="group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36">More...</a><br /></td></tr>
 <tr class="separator:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">ogdf::randomRegularGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int d)</td></tr>
+<tr class="memdesc:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random d-regular graph. This method is not guaranteed to terminate!  <a href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">More...</a><br /></td></tr>
+<tr class="separator:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab7bf735577889df8926599b1152957f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gab7bf735577889df8926599b1152957f5">ogdf::randomSeriesParallelDAG</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int edges, double p=0.5, double flt=0.0)</td></tr>
 <tr class="memdesc:gab7bf735577889df8926599b1152957f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random (simple, biconnected) series parallel DAG.  <a href="group__graph-generators.html#gab7bf735577889df8926599b1152957f5">More...</a><br /></td></tr>
 <tr class="separator:gab7bf735577889df8926599b1152957f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -416,6 +425,43 @@ Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">G</td><td>is assigned the generated graph. </td></tr>
     <tr><td class="paramname">n</td><td>is the number of the cube's dimensions (n&gt;=0). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga44c2631acd39f73c7117a8a8c60d6071"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga44c2631acd39f73c7117a8a8c60d6071">&sect;&nbsp;</a></span>emptyGraph()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::emptyGraph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nodes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a graph with <em>nodes</em> nodes and no edges. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is assigned the generated graph. </td></tr>
+    <tr><td class="paramname">nodes</td><td>is the number of nodes of the generated graph. </td></tr>
   </table>
   </dd>
 </dl>
@@ -1064,6 +1110,57 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="gaa22bfe93fe65faf3f59f3c966a71471b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaa22bfe93fe65faf3f59f3c966a71471b">&sect;&nbsp;</a></span>randomGeometricCubeGraph()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::randomGeometricCubeGraph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>nodes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>threshold</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>dimension</em> = <code>2</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a Random Geometeric <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a> by laying out nodes in a unit n-cube. Nodes with a distance &lt; threshold are connected, 0 &lt;= threshold &lt;= sqrt(dimension). The graph is simple. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is assigned the generated graph. </td></tr>
+    <tr><td class="paramname">nodes</td><td>is the number of nodes of the generated graph. </td></tr>
+    <tr><td class="paramname">threshold</td><td>is threshold radius of nodes which will be connected. </td></tr>
+    <tr><td class="paramname">dimension</td><td>is the dimension of the cube. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ga0feff1b510864aba8b73a1b34e5f2ca1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0feff1b510864aba8b73a1b34e5f2ca1">&sect;&nbsp;</a></span>randomGraph()</h2>
 
@@ -1167,6 +1264,50 @@ Functions</h2></td></tr>
     <tr><td class="paramname">planar</td><td>determines if the resulting graph is (level-)planar. </td></tr>
     <tr><td class="paramname">singleSource</td><td>determines if the graph is a single-source graph. </td></tr>
     <tr><td class="paramname">longEdges</td><td>determines if the graph has long edges (spanning 2 layers or more); otherwise the graph is proper. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga5e2b0644b941d5f8bb7770a27a1f6171"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga5e2b0644b941d5f8bb7770a27a1f6171">&sect;&nbsp;</a></span>randomRegularGraph()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::randomRegularGraph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a random d-regular graph. This method is not guaranteed to terminate! </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is assigned the generated graph. </td></tr>
+    <tr><td class="paramname">n</td><td>is the number of nodes of the generated graph. </td></tr>
+    <tr><td class="paramname">d</td><td>is the degree of each vertex <div class="fragment"><div class="line"><a class="code" href="classogdf_1_1_graph.html">ogdf::Graph</a> G;</div><div class="line"><a class="code" href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">ogdf::randomRegularGraph</a>(G, 20, 6);</div></div><!-- fragment --> </td></tr>
   </table>
   </dd>
 </dl>
@@ -1583,7 +1724,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

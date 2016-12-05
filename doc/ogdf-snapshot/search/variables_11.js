@@ -24,7 +24,6 @@ var searchData=
   ['rel',['rel',['../class_minisat_1_1_internal_1_1_clause.html#ad13e0586a8628e68ec5a1b1c09da09a4',1,'Minisat::Internal::Clause']]],
   ['relativereserve_5f',['relativeReserve_',['../classabacus_1_1_sub.html#a824244b4ef5f23606508e64662f1b397',1,'abacus::Sub']]],
   ['reloced',['reloced',['../class_minisat_1_1_internal_1_1_clause.html#a05fe5cb0b927addae1d105a6307d66ea',1,'Minisat::Internal::Clause']]],
-  ['rem',['rem',['../structimaxdiv__t.html#a6c9701ad10bff81edae7ff679cae7850',1,'imaxdiv_t']]],
   ['remove_5fsatisfied',['remove_satisfied',['../class_minisat_1_1_internal_1_1_solver.html#a45280837ec9ef8e60cfc11c9c6949335',1,'Minisat::Internal::Solver']]],
   ['removeconbuffer_5f',['removeConBuffer_',['../classabacus_1_1_sub.html#a6db882b9bb022036456e6fb575104db0',1,'abacus::Sub']]],
   ['removevarbuffer_5f',['removeVarBuffer_',['../classabacus_1_1_sub.html#a077e405efdfa53cebbca96851df163dc',1,'abacus::Sub']]],

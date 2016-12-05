@@ -1,0 +1,6 @@
+<map id="ogdf::EdgeVar" name="ogdf::EdgeVar">
+<area shape="rect" id="node5" href="$classogdf_1_1_c_planar_edge_var.html" title="ogdf::CPlanarEdgeVar" alt="" coords="5,304,157,331"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format. " alt="" coords="22,155,141,181"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="23,80,139,107"/>
+<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="9,5,153,32"/>
+</map>

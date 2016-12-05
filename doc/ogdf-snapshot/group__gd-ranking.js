@@ -24,7 +24,7 @@ var group__gd_ranking =
       [ "width", "classogdf_1_1_coffman_graham_ranking.html#a899151f15ccc0a69ff37d9ce60b3b10c", null ],
       [ "width", "classogdf_1_1_coffman_graham_ranking.html#a74cc8bae7903949d39b92162652d8436", null ],
       [ "m_s", "classogdf_1_1_coffman_graham_ranking.html#aae8ab9140b4c7753b0d9dcbb20e116fe", null ],
-      [ "m_subgraph", "classogdf_1_1_coffman_graham_ranking.html#a7dcaa727ba000b5e80b0101faec4812e", null ],
+      [ "m_subgraph", "classogdf_1_1_coffman_graham_ranking.html#a9f2d193bc1bc1d6f7a7cc94c76f63bc9", null ],
       [ "m_w", "classogdf_1_1_coffman_graham_ranking.html#a191611a96b8b7d3303892d0d97a8e5d0", null ],
       [ "mark", "classogdf_1_1_coffman_graham_ranking.html#a74ed43169c7da2d865ae2070afc5b233", null ],
       [ "visited", "classogdf_1_1_coffman_graham_ranking.html#a03bd6b21847474160ac41a4f2b890d1f", null ]
@@ -62,7 +62,7 @@ var group__gd_ranking =
       [ "m_optimizeEdgeLength", "classogdf_1_1_longest_path_ranking.html#aee3d8116f59340cc98bab823bc0d8280", null ],
       [ "m_separateMultiEdges", "classogdf_1_1_longest_path_ranking.html#a8ebdddc2260b06d27f27d346c0f72a14", null ],
       [ "m_sepDeg0", "classogdf_1_1_longest_path_ranking.html#affc733febd9e455a08e0c78791e87275", null ],
-      [ "m_subgraph", "classogdf_1_1_longest_path_ranking.html#a58c6082b6a922db90b5111b7b799dcd9", null ]
+      [ "m_subgraph", "classogdf_1_1_longest_path_ranking.html#ac54b177f3f84504cd61808f9eef48b26", null ]
     ] ],
     [ "OptimalRanking", "classogdf_1_1_optimal_ranking.html", [
       [ "OptimalRanking", "classogdf_1_1_optimal_ranking.html#ab34236254d429a689cc079d59591dc81", null ],
@@ -74,6 +74,6 @@ var group__gd_ranking =
       [ "separateMultiEdges", "classogdf_1_1_optimal_ranking.html#a5b302053e028bd5182f325d46cfaba56", null ],
       [ "setSubgraph", "classogdf_1_1_optimal_ranking.html#a624fbc222c4535e5cbda2459f0db9183", null ],
       [ "m_separateMultiEdges", "classogdf_1_1_optimal_ranking.html#a1cb473501dc7b448be012efba79b23a5", null ],
-      [ "m_subgraph", "classogdf_1_1_optimal_ranking.html#a44bb4630eef3982e5a316229ef85064f", null ]
+      [ "m_subgraph", "classogdf_1_1_optimal_ranking.html#a4a07f6beca317414b799eb489bfec194", null ]
     ] ]
 ];

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -161,6 +161,7 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 , <a class="el" href="classogdf_1_1_adj_entry_array.html#ad8376633438667c57179c9c185b1653c">ogdf::AdjEntryArray&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_bounded_stack.html#a08c7b836f49f0826791ad1eb828404ed">ogdf::BoundedStack&lt; E, INDEX &gt;</a>
 , <a class="el" href="classogdf_1_1_cluster_array.html#a9e644e0bc7f5b487a04ffc9495877fff">ogdf::ClusterArray&lt; T &gt;</a>
+, <a class="el" href="classogdf_1_1_const_combinatorial_embedding.html#a3e042990ea7c15ab80f61adb68e3ee03">ogdf::ConstCombinatorialEmbedding</a>
 , <a class="el" href="classogdf_1_1_edge_array.html#a7c54c6b6c084991ca2ee8547d1c5d3d4">ogdf::EdgeArray&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_e_list_iterator.html#a37999831fcea0f18a7dcb66e9d97b246">ogdf::EListIterator&lt; E, prev, next &gt;</a>
 , <a class="el" href="classogdf_1_1_face_array.html#a54bbb4958729c57b98fbe050a395deef">ogdf::FaceArray&lt; T &gt;</a>
@@ -169,7 +170,6 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 , <a class="el" href="classogdf_1_1_hyperedge_array.html#a105064efc0751e098e1f186e003823d0">ogdf::HyperedgeArray&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_list_const_iterator.html#ab861d6998e52869d3869e938bf020f6a">ogdf::ListConstIterator&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_list_iterator.html#a750a3a3eac0fc5aaaf41eabbeea23c61">ogdf::ListIterator&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_module_option.html#a0c879a42d3ccfe179a2b9591c3786aa1">ogdf::ModuleOption&lt; M &gt;</a>
 , <a class="el" href="classogdf_1_1_node_array.html#ab1ad78024c7a65e6950912dff0327b85">ogdf::NodeArray&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_skiplist_iterator.html#a440597b4bc58fdbb7f1317a64411170f">ogdf::SkiplistIterator&lt; X &gt;</a>
 , <a class="el" href="classogdf_1_1_s_list_const_iterator.html#a0eb3bc9b58217d6b31d3b47017f8bf05">ogdf::SListConstIterator&lt; E &gt;</a>
@@ -186,16 +186,13 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 <li>validateMapping()
 : <a class="el" href="classogdf_1_1_min_steiner_tree_shore.html#a0e08cf2e0a8bf8535eda1468ba429c64">ogdf::MinSteinerTreeShore&lt; T &gt;</a>
 </li>
-<li>validatePath()
-: <a class="el" href="classogdf_1_1_a_star_search.html#af3187183b857ab807a503798a2fba5e7">ogdf::AStarSearch&lt; T, H &gt;</a>
-</li>
 <li>ValidityState
 : <a class="el" href="classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07">ogdf::Ogml</a>
 </li>
 <li>value()
 : <a class="el" href="classabacus_1_1_f_s_var_stat.html#aebfdfb812effbc2b21c54ac00610e86f">abacus::FSVarStat</a>
 , <a class="el" href="classabacus_1_1_l_p.html#a7c8ebc42f83d415025efdd14af1ef06b">abacus::LP</a>
-, <a class="el" href="classabacus_1_1_lp_sub.html#aa4bc2c472955050cf08f1625e4a30c4c">abacus::LpSub</a>
+, <a class="el" href="classabacus_1_1_lp_sub.html#a6f4daffba142284a9521fdec6c4d308f">abacus::LpSub</a>
 , <a class="el" href="classabacus_1_1_val_branch_rule.html#aad662d1dd8788403bcf94cd7b60542a7">abacus::ValBranchRule</a>
 , <a class="el" href="class_minisat_1_1_internal_1_1_bool_option.html#a8c64720e92d77650e27100d1c9825b6d">Minisat::Internal::BoolOption</a>
 , <a class="el" href="class_minisat_1_1_internal_1_1_double_option.html#abb1a2dc7c05c32bd5d89e8d2024acc8c">Minisat::Internal::DoubleOption</a>
@@ -203,24 +200,24 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 , <a class="el" href="class_minisat_1_1_internal_1_1lbool.html#a3909c39067d0cbc59a9e43d65530a81f">Minisat::Internal::lbool</a>
 , <a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a7f5a1f0ddc6e77f32230c84262c5813d">Minisat::Internal::Solver</a>
 , <a class="el" href="structogdf_1_1_binary_heap_1_1_heap_entry.html#acad3b0f54bd9e1c5ad25f7ad0f331996">ogdf::BinaryHeap&lt; T, C &gt;::HeapEntry</a>
-, <a class="el" href="classogdf_1_1_binary_heap.html#a6066d0a57fc778cf6634831edf6afd29">ogdf::BinaryHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_binary_heap.html#acda751d9ca977598dc4a1579cbc67f8a">ogdf::BinaryHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_bin_coeff.html#aceb91086c21456e4bd83bf1fdddf3a82">ogdf::BinCoeff&lt; TYP &gt;</a>
-, <a class="el" href="classogdf_1_1_binomial_heap.html#a4cffc6a720276de6fb0b501d4dfe7cd2">ogdf::BinomialHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_binomial_heap.html#a1410696755c8aa81cbd76bd44c95052f">ogdf::BinomialHeap&lt; T, C &gt;</a>
 , <a class="el" href="structogdf_1_1_binomial_heap_node.html#afb3fdf5bbccde7ce4860f7a50e56bdbc">ogdf::BinomialHeapNode&lt; T &gt;</a>
 , <a class="el" href="structogdf_1_1dot_1_1_token.html#ab51c38962a3d432664ee52ee8da6c511">ogdf::dot::Token</a>
 , <a class="el" href="classogdf_1_1energybased_1_1_node.html#a24c858fa67544014b54d2931e88302e5">ogdf::energybased::Node</a>
-, <a class="el" href="classogdf_1_1_fibonacci_heap.html#a03909941720e2dbdd64b3cf35ad8f6d9">ogdf::FibonacciHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_fibonacci_heap.html#aa14d7273c08b0580113eada1e4aab45b">ogdf::FibonacciHeap&lt; T, C &gt;</a>
 , <a class="el" href="structogdf_1_1_fibonacci_heap_node.html#aba6253e698d28b7ed0df17a2b4ffc62d">ogdf::FibonacciHeapNode&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_heap_base.html#ae15cbb91d5df266fee2c58c278b45117">ogdf::HeapBase&lt; IMPL, H, T, C &gt;</a>
 , <a class="el" href="structogdf_1_1_hot_queue_node.html#a6f50bd91b184e379d6f00519e708ad19">ogdf::HotQueueNode&lt; V, P &gt;</a>
 , <a class="el" href="classogdf_1_1internal_1_1_graph_array_const_iterator.html#af0f9e182083b9553ecbaadc50275e6c4">ogdf::internal::GraphArrayConstIterator&lt; ArrayType &gt;</a>
 , <a class="el" href="classogdf_1_1internal_1_1_graph_array_iterator.html#ac999feddef6a6c9e8624b2c96a426548">ogdf::internal::GraphArrayIterator&lt; ArrayType &gt;</a>
 , <a class="el" href="structogdf_1_1_min_steiner_tree_mehlhorn_1_1_mehlhorn_triple.html#a22a3462c20fdcaa967039970c7e38301">ogdf::MinSteinerTreeMehlhorn&lt; T &gt;::MehlhornTriple</a>
-, <a class="el" href="classogdf_1_1_pairing_heap.html#a2c7c5d28ef03b29f4fecb680f4f4b7fc">ogdf::PairingHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_pairing_heap.html#a869279645f498d26990a043ba20635b1">ogdf::PairingHeap&lt; T, C &gt;</a>
 , <a class="el" href="structogdf_1_1_pairing_heap_node.html#a9f61e12d53ea78abb0014148ffab509c">ogdf::PairingHeapNode&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_priority_queue.html#a4e806cd67c7b3e09d13c6f7ce666c3fa">ogdf::PriorityQueue&lt; T, C, Impl &gt;</a>
 , <a class="el" href="classogdf_1_1_radix_heap_node.html#af9316009c62b9702a16b0f6554c5572c">ogdf::RadixHeapNode&lt; V, P &gt;</a>
-, <a class="el" href="classogdf_1_1_r_m_heap.html#ac8751cec7891893d4cf4b1318226dede">ogdf::RMHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_r_m_heap.html#a71281cb990f87efc68fbef6d7fb92460">ogdf::RMHeap&lt; T, C &gt;</a>
 , <a class="el" href="structogdf_1_1_r_m_heap_node.html#a8c0edfe1f7af1977573f7baab8331da9">ogdf::RMHeapNode&lt; T &gt;</a>
 , <a class="el" href="structogdf_1_1tlp_1_1_token.html#a0c82a390fc233472ed2fdb674096bf2e">ogdf::tlp::Token</a>
 , <a class="el" href="classpugi_1_1xml__attribute.html#a01c4322e802edad9ca2f00a80cee5d8a">pugi::xml_attribute</a>
@@ -285,7 +282,7 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 : <a class="el" href="classogdf_1_1_var_edge_inserter_u_m_l_core.html#a24794d4afe169ec8ede9c73d74c0f09d">ogdf::VarEdgeInserterUMLCore</a>
 </li>
 <li>varElimAge()
-: <a class="el" href="classabacus_1_1_master.html#a24b2ddad3981cbf87426fad77f3fc07d">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a02c4dd28e129831b41598903511d0399">abacus::Master</a>
 </li>
 <li>varElimAge_
 : <a class="el" href="classabacus_1_1_master.html#adefe7cb01fa954a0c49faf9f7e6538bf">abacus::Master</a>
@@ -298,9 +295,6 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 </li>
 <li>varEliminate()
 : <a class="el" href="classabacus_1_1_sub.html#a591534e443fdba749329af01b468cf70">abacus::Sub</a>
-</li>
-<li>varElimMode()
-: <a class="el" href="classabacus_1_1_master.html#a4c2d18f1966c2703c82a9ad1ad6f5c9b">abacus::Master</a>
 </li>
 <li>VARELIMMODE
 : <a class="el" href="classabacus_1_1_master.html#a5c04562ea24298ec9aa48901b201c006">abacus::Master</a>
@@ -328,11 +322,8 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 , <a class="el" href="classabacus_1_1_set_branch_rule.html#a6827b0ecb9ac283518332f4cb534cd50">abacus::SetBranchRule</a>
 , <a class="el" href="classabacus_1_1_val_branch_rule.html#a16b3073ffc62257c942b91f3d8a8a62a">abacus::ValBranchRule</a>
 </li>
-<li>VariableEmbeddingInserter()
-: <a class="el" href="classogdf_1_1_variable_embedding_inserter.html#aa51c945a0ab13f7f313c4cff4d952f18">ogdf::VariableEmbeddingInserter</a>
-</li>
-<li>VariableEmbeddingInserterDyn()
-: <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn.html#a796568a0e2fe513acd8861e27608ff03">ogdf::VariableEmbeddingInserterDyn</a>
+<li>VariableEmbeddingInserterBase()
+: <a class="el" href="classogdf_1_1_variable_embedding_inserter_base.html#a007d3fd0ee31a9e662eaa403b17dac6f">ogdf::VariableEmbeddingInserterBase</a>
 </li>
 <li>VariableEmbeddingInserterDynUML()
 : <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn_u_m_l.html#a8cfc978e317be417a6205839b6d6ce2f">ogdf::VariableEmbeddingInserterDynUML</a>
@@ -341,7 +332,7 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 : <a class="el" href="classogdf_1_1_variable_embedding_inserter_u_m_l.html#aca49705b56c86c3cdb5b48e41def8f1a">ogdf::VariableEmbeddingInserterUML</a>
 </li>
 <li>variablePoolSeparation()
-: <a class="el" href="classabacus_1_1_sub.html#a2c65de11e571fa5427c41d8d339c2d57">abacus::Sub</a>
+: <a class="el" href="classabacus_1_1_sub.html#abdff593017388db94d300c5240fd3186">abacus::Sub</a>
 </li>
 <li>varnum
 : <a class="el" href="structogdf_1_1_c_planarity_sub_1_1_kura_size.html#a4f0bda61c1b259f6f929524fbd280e6e">ogdf::CPlanaritySub::KuraSize</a>
@@ -369,7 +360,7 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 : <a class="el" href="classabacus_1_1_var_type.html#a85fee760864ae674f65a4faaa40c1b96">abacus::VarType</a>
 </li>
 <li>vbcLog()
-: <a class="el" href="classabacus_1_1_master.html#abd190dc5f8f0ea5a278ed4bec7b1e0a4">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#ab0aff5adb0b9988685ede7f17c300f11">abacus::Master</a>
 </li>
 <li>VbcLog_
 : <a class="el" href="classabacus_1_1_master.html#a9fa9f0b4a5748a6c1f26d886a798a91e">abacus::Master</a>
@@ -387,7 +378,7 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 : <a class="el" href="classogdf_1_1_node_info.html#aacaa4f9d9873db8fa059af25a0116371">ogdf::NodeInfo</a>
 </li>
 <li>vec()
-: <a class="el" href="class_minisat_1_1_internal_1_1vec.html#a5998493af10b6611d2aacdbeb477fbd3">Minisat::Internal::vec&lt; T &gt;</a>
+: <a class="el" href="class_minisat_1_1_internal_1_1vec.html#af8c863cf3090f9478be1fb2e87a475f8">Minisat::Internal::vec&lt; T &gt;</a>
 </li>
 <li>verbosity
 : <a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a49cdd065c87af5cd621b60e9b664a888">Minisat::Internal::Solver</a>
@@ -449,7 +440,7 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 </li>
 <li>violated()
 : <a class="el" href="classabacus_1_1_constraint.html#ae3b1c9636c1142982dd534cd3fcb26d3">abacus::Constraint</a>
-, <a class="el" href="classabacus_1_1_variable.html#ac8fb74686c9e8a87e3fd4d4b80a29690">abacus::Variable</a>
+, <a class="el" href="classabacus_1_1_variable.html#ad075791703abb8d5308c85d9fa6152fb">abacus::Variable</a>
 </li>
 <li>Violet
 : <a class="el" href="classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125ae4944cd70fd406af927b609837e1aab6">ogdf::Color</a>
@@ -523,7 +514,7 @@ $(document).ready(function(){initNavTree('functions_v.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

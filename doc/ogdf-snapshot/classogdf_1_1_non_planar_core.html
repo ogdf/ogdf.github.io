@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -121,9 +121,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_non_planar_core.html',''
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="classogdf_1_1_non_planar_core-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::NonPlanarCore Class Reference<div class="ingroups"><a class="el" href="group__graph-algs.html">Graph Algorithms</a> &raquo; <a class="el" href="group__ga-planarity.html">Planarity and Planarization</a></div></div>  </div>
@@ -135,56 +137,164 @@ $(document).ready(function(){initNavTree('classogdf_1_1_non_planar_core.html',''
 
 <p><code>#include &lt;<a class="el" href="_non_planar_core_8h_source.html">ogdf/planarity/NonPlanarCore.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1_non_planar_core_1_1_cut_edge.html">CutEdge</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct to represent an edge that needs to be crossed in order to cross an st-component.  <a href="structogdf_1_1_non_planar_core_1_1_cut_edge.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a676400706ddb8003a9576012096717c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a676400706ddb8003a9576012096717c7">NonPlanarCore</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
-<tr class="separator:a676400706ddb8003a9576012096717c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0bf483a41803251fcb5eee7311a384d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#ab0bf483a41803251fcb5eee7311a384d">NonPlanarCore</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;weight, <a class="el" href="classogdf_1_1_max_flow_module.html">MaxFlowModule</a>&lt; int &gt; &amp;maxFlowModule, bool nonPlanarityGuaranteed=false)</td></tr>
+<tr class="memdesc:ab0bf483a41803251fcb5eee7311a384d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algorithm call and constructor.  <a href="#ab0bf483a41803251fcb5eee7311a384d">More...</a><br /></td></tr>
+<tr class="separator:ab0bf483a41803251fcb5eee7311a384d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98e5ddf60a27aa0400c6a65a4148a02b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a98e5ddf60a27aa0400c6a65a4148a02b">NonPlanarCore</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;weight, bool nonPlanarityGuaranteed=false)</td></tr>
+<tr class="memdesc:a98e5ddf60a27aa0400c6a65a4148a02b"><td class="mdescLeft">&#160;</td><td class="mdescRight">An slimmed version of the Algorithm call and constructor.  <a href="#a98e5ddf60a27aa0400c6a65a4148a02b">More...</a><br /></td></tr>
+<tr class="separator:a98e5ddf60a27aa0400c6a65a4148a02b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d9f88170cba5afb9fdddd1172c34417"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a9d9f88170cba5afb9fdddd1172c34417">NonPlanarCore</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, bool nonPlanarityGuaranteed=false)</td></tr>
+<tr class="memdesc:a9d9f88170cba5afb9fdddd1172c34417"><td class="mdescLeft">&#160;</td><td class="mdescRight">An slimmed version of the Algorithm call and constructor.  <a href="#a9d9f88170cba5afb9fdddd1172c34417">More...</a><br /></td></tr>
+<tr class="separator:a9d9f88170cba5afb9fdddd1172c34417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a364879385e2dbb0b156f599469aae933"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a364879385e2dbb0b156f599469aae933">~NonPlanarCore</a> ()</td></tr>
+<tr class="separator:a364879385e2dbb0b156f599469aae933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a833a064a21047f0f5f91d1ce8dc0c8ab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a833a064a21047f0f5f91d1ce8dc0c8ab">core</a> () const</td></tr>
+<tr class="memdesc:a833a064a21047f0f5f91d1ce8dc0c8ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the non-planar core.  <a href="#a833a064a21047f0f5f91d1ce8dc0c8ab">More...</a><br /></td></tr>
 <tr class="separator:a833a064a21047f0f5f91d1ce8dc0c8ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a09ea4c354945ee39bacfcb3a98c6a417"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a09ea4c354945ee39bacfcb3a98c6a417">cost</a> () const</td></tr>
+<tr class="memdesc:a09ea4c354945ee39bacfcb3a98c6a417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the costs of the edges in the core, which is the number of original edges crossed, if <em>e</em> is crossed, i.e.  <a href="#a09ea4c354945ee39bacfcb3a98c6a417">More...</a><br /></td></tr>
 <tr class="separator:a09ea4c354945ee39bacfcb3a98c6a417"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0928670e2ee32a8163b6171ad18ccda7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a0928670e2ee32a8163b6171ad18ccda7">cost</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
+<tr class="memdesc:a0928670e2ee32a8163b6171ad18ccda7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cost of <em>e</em>, which is the number of original edges crossed, if <em>e</em> is crossed, i.e.  <a href="#a0928670e2ee32a8163b6171ad18ccda7">More...</a><br /></td></tr>
 <tr class="separator:a0928670e2ee32a8163b6171ad18ccda7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6448694a70f1f38dafcd2ef8936ffc33"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a6448694a70f1f38dafcd2ef8936ffc33">isVirtual</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
+<tr class="memdesc:a6448694a70f1f38dafcd2ef8936ffc33"><td class="mdescLeft">&#160;</td><td class="mdescRight">True iff the edge <em>e</em> in the core represents more than one orginal edge and therefore is virtual.  <a href="#a6448694a70f1f38dafcd2ef8936ffc33">More...</a><br /></td></tr>
 <tr class="separator:a6448694a70f1f38dafcd2ef8936ffc33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15f5f571ee7ceeb3f4188d71dc61e7d8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a15f5f571ee7ceeb3f4188d71dc61e7d8">mincut</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
-<tr class="separator:a15f5f571ee7ceeb3f4188d71dc61e7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e85af003fa2093c084a58c61995843c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a1e85af003fa2093c084a58c61995843c">mapE</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
+<tr class="memdesc:a1e85af003fa2093c084a58c61995843c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a map from the edges of the st-component represented by the core edge e to the original graph.  <a href="#a1e85af003fa2093c084a58c61995843c">More...</a><br /></td></tr>
+<tr class="separator:a1e85af003fa2093c084a58c61995843c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72649f615371c2b9b1649bff52e6a88a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="structogdf_1_1_non_planar_core_1_1_cut_edge.html">CutEdge</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a72649f615371c2b9b1649bff52e6a88a">mincut</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
+<tr class="memdesc:a72649f615371c2b9b1649bff52e6a88a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mincut of the st-component represented by <em>e</em>.  <a href="#a72649f615371c2b9b1649bff52e6a88a">More...</a><br /></td></tr>
+<tr class="separator:a72649f615371c2b9b1649bff52e6a88a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5c6e9c26bee95189baa88f4e2921053"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#ac5c6e9c26bee95189baa88f4e2921053">original</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> v) const</td></tr>
+<tr class="memdesc:ac5c6e9c26bee95189baa88f4e2921053"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the node of the original graph, which is represented by <em>v</em> in the core.  <a href="#ac5c6e9c26bee95189baa88f4e2921053">More...</a><br /></td></tr>
 <tr class="separator:ac5c6e9c26bee95189baa88f4e2921053"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e134841b136afb2ed4b9afffe99b49c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a4e134841b136afb2ed4b9afffe99b49c">original</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
+<tr class="memdesc:a4e134841b136afb2ed4b9afffe99b49c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the edges of the original graph, which are represented by <em>e</em> in the core.  <a href="#a4e134841b136afb2ed4b9afffe99b49c">More...</a><br /></td></tr>
+<tr class="separator:a4e134841b136afb2ed4b9afffe99b49c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aad761ea5d781337e499aca52b600326e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#aad761ea5d781337e499aca52b600326e">originalGraph</a> () const</td></tr>
+<tr class="memdesc:aad761ea5d781337e499aca52b600326e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the original graph.  <a href="#aad761ea5d781337e499aca52b600326e">More...</a><br /></td></tr>
 <tr class="separator:aad761ea5d781337e499aca52b600326e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a731be3431f6364691802b142a9dc47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a4a731be3431f6364691802b142a9dc47">realEdge</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
+<tr class="memdesc:a4a731be3431f6364691802b142a9dc47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the edge of the orginal graph, which is represented by <em>e</em> or nullptr iff <em>e</em> is virtual.  <a href="#a4a731be3431f6364691802b142a9dc47">More...</a><br /></td></tr>
 <tr class="separator:a4a731be3431f6364691802b142a9dc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ba05674f05bbcf4fc22e7019ba23a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#ab8ba05674f05bbcf4fc22e7019ba23a9">retransform</a> (const <a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;planarCore, <a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;planarGraph)</td></tr>
+<tr class="memdesc:ab8ba05674f05bbcf4fc22e7019ba23a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the crossings from a copy of the core into a copy of the original graph.  <a href="#ab8ba05674f05bbcf4fc22e7019ba23a9">More...</a><br /></td></tr>
+<tr class="separator:ab8ba05674f05bbcf4fc22e7019ba23a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dbf2ce4bf6c2cf4d8bec8fc8b39d3cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a9dbf2ce4bf6c2cf4d8bec8fc8b39d3cd">sNode</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
+<tr class="memdesc:a9dbf2ce4bf6c2cf4d8bec8fc8b39d3cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the s node of the skeleton of the st-component represented by the core edge /a e = (s,t) Note that this node is not contained in the input graph, but an internal auxiliary graph.  <a href="#a9dbf2ce4bf6c2cf4d8bec8fc8b39d3cd">More...</a><br /></td></tr>
+<tr class="separator:a9dbf2ce4bf6c2cf4d8bec8fc8b39d3cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbdfb869511f58827b147ff2343473b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#adbdfb869511f58827b147ff2343473b5">tNode</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
+<tr class="memdesc:adbdfb869511f58827b147ff2343473b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the t node of the skeleton of the st-component represented by the core edge /a e = (s,t) Note that this node is not contained in the input graph, but an internal auxiliary graph.  <a href="#adbdfb869511f58827b147ff2343473b5">More...</a><br /></td></tr>
+<tr class="separator:adbdfb869511f58827b147ff2343473b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:abde0f0cb7c2858966cd15c678683f672"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#abde0f0cb7c2858966cd15c678683f672">markCore</a> (const <a class="el" href="classogdf_1_1_s_p_q_r_tree.html">SPQRTree</a> &amp;T, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;mark)</td></tr>
-<tr class="separator:abde0f0cb7c2858966cd15c678683f672"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a788bca0cffed67c78b2803d12b02c11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a788bca0cffed67c78b2803d12b02c11d">traversingPath</a> (<a class="el" href="classogdf_1_1_skeleton.html">Skeleton</a> &amp;S, <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eS, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;path, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;mapV)</td></tr>
-<tr class="separator:a788bca0cffed67c78b2803d12b02c11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad31906edaa07dfa0b6c5de815351f006"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#ad31906edaa07dfa0b6c5de815351f006">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *weight, <a class="el" href="classogdf_1_1_max_flow_module.html">MaxFlowModule</a>&lt; int &gt; *maxFlowModule, bool nonPlanarityGuaranteed)</td></tr>
+<tr class="memdesc:ad31906edaa07dfa0b6c5de815351f006"><td class="mdescLeft">&#160;</td><td class="mdescRight">The private method behind the constructors.  <a href="#ad31906edaa07dfa0b6c5de815351f006">More...</a><br /></td></tr>
+<tr class="separator:ad31906edaa07dfa0b6c5de815351f006"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6bee8cfccc4c965990c98888b7c1332"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#af6bee8cfccc4c965990c98888b7c1332">getAllMultiedges</a> (<a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;winningEdges, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;losingEdges)</td></tr>
+<tr class="memdesc:af6bee8cfccc4c965990c98888b7c1332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks for multiedges in the core.  <a href="#af6bee8cfccc4c965990c98888b7c1332">More...</a><br /></td></tr>
+<tr class="separator:af6bee8cfccc4c965990c98888b7c1332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a198d78e6c28d6165ebf4f716eecf9a9c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a198d78e6c28d6165ebf4f716eecf9a9c">getMincut</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;cut)</td></tr>
+<tr class="memdesc:a198d78e6c28d6165ebf4f716eecf9a9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the mincut of <em>e</em> with respect to its position in the chain of its original edge.  <a href="#a198d78e6c28d6165ebf4f716eecf9a9c">More...</a><br /></td></tr>
+<tr class="separator:a198d78e6c28d6165ebf4f716eecf9a9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aefc6404b59f1132e495ea16ff0c68551"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#aefc6404b59f1132e495ea16ff0c68551">glue</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eWinner, <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eLoser)</td></tr>
+<tr class="memdesc:aefc6404b59f1132e495ea16ff0c68551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Glues together the skeletons of <em>eWinner</em> and <em>eLoser</em> for pruned P- and S-nodes.  <a href="#aefc6404b59f1132e495ea16ff0c68551">More...</a><br /></td></tr>
+<tr class="separator:aefc6404b59f1132e495ea16ff0c68551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18a4f12f643697edf408b55c60a63a8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a18a4f12f643697edf408b55c60a63a8d">glueMincuts</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eWinner, <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eLoser)</td></tr>
+<tr class="memdesc:a18a4f12f643697edf408b55c60a63a8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Glues together the mincuts of the winner and the loser edge.  <a href="#a18a4f12f643697edf408b55c60a63a8d">More...</a><br /></td></tr>
+<tr class="separator:a18a4f12f643697edf408b55c60a63a8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4543a807b4f76d9a70a9bfed40882e1c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a4543a807b4f76d9a70a9bfed40882e1c">importEmbedding</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e)</td></tr>
+<tr class="memdesc:a4543a807b4f76d9a70a9bfed40882e1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method asserts that all parts of the end graph that are represented by edge <em>e</em> internally have the same embedding every time retransform is called, regardless of which planarization of the core is given.  <a href="#a4543a807b4f76d9a70a9bfed40882e1c">More...</a><br /></td></tr>
+<tr class="separator:a4543a807b4f76d9a70a9bfed40882e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8bee79ee705c4ae2aac9dfcbb4a2354"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#ad8bee79ee705c4ae2aac9dfcbb4a2354">inflateCrossing</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> v)</td></tr>
+<tr class="memdesc:ad8bee79ee705c4ae2aac9dfcbb4a2354"><td class="mdescLeft">&#160;</td><td class="mdescRight">The crossing denoted by dummy node <em>v</em> from the planarized copy of the core get inserted into the end graph.  <a href="#ad8bee79ee705c4ae2aac9dfcbb4a2354">More...</a><br /></td></tr>
+<tr class="separator:ad8bee79ee705c4ae2aac9dfcbb4a2354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00292619be466bb482fae82b8f20a8f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a00292619be466bb482fae82b8f20a8f2">markCore</a> (<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;mark)</td></tr>
+<tr class="memdesc:a00292619be466bb482fae82b8f20a8f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Marks all nodes of the underlying <a class="el" href="classogdf_1_1_s_p_q_r_tree.html" title="Linear-time implementation of static SPQR-trees. ">SPQRTree</a> and prunes planar leaves until the marked nodes span a tree, which has only non-planar leaves, i.e.  <a href="#a00292619be466bb482fae82b8f20a8f2">More...</a><br /></td></tr>
+<tr class="separator:a00292619be466bb482fae82b8f20a8f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb8bc6b2064c9fc228d293b6b51e6de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#adbb8bc6b2064c9fc228d293b6b51e6de">normalizeCutEdgeDirection</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> coreEdge)</td></tr>
+<tr class="memdesc:adbb8bc6b2064c9fc228d293b6b51e6de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Every edge of <em>e</em> 's cut that doesn't go the same direction as <em>e</em> gets reversed.  <a href="#adbb8bc6b2064c9fc228d293b6b51e6de">More...</a><br /></td></tr>
+<tr class="separator:adbb8bc6b2064c9fc228d293b6b51e6de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a750049ce7de5e4db0881b51b30df57e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a750049ce7de5e4db0881b51b30df57e9">removeSplitdummies</a> (<a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;splitdummies)</td></tr>
+<tr class="memdesc:a750049ce7de5e4db0881b51b30df57e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">After inserting the crossings, the end graph edges don't need to be partitioned anymore so the <em>splitdummies</em> get removed.  <a href="#a750049ce7de5e4db0881b51b30df57e9">More...</a><br /></td></tr>
+<tr class="separator:a750049ce7de5e4db0881b51b30df57e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c5ce9d3e85c21bdbd67b719909d2a84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a6c5ce9d3e85c21bdbd67b719909d2a84">splitEdgeIntoSections</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;splitdummies)</td></tr>
+<tr class="memdesc:a6c5ce9d3e85c21bdbd67b719909d2a84"><td class="mdescLeft">&#160;</td><td class="mdescRight">To be able to insert crossings correctly, an end graph edge ought to be split into n-1 sections if n is the number of crossings on the edge.  <a href="#a6c5ce9d3e85c21bdbd67b719909d2a84">More...</a><br /></td></tr>
+<tr class="separator:a6c5ce9d3e85c21bdbd67b719909d2a84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d1b2a69b2f75d308ca57cc19c1ad249"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a9d1b2a69b2f75d308ca57cc19c1ad249">traversingPath</a> (const <a class="el" href="classogdf_1_1_skeleton.html">Skeleton</a> &amp;Sv, <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> eS, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="structogdf_1_1_non_planar_core_1_1_cut_edge.html">CutEdge</a> &gt; &amp;path, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;mapV, <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> coreEdge, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *weight_src, <a class="el" href="classogdf_1_1_max_flow_module.html">MaxFlowModule</a>&lt; int &gt; *maxFlowModule)</td></tr>
+<tr class="memdesc:a9d1b2a69b2f75d308ca57cc19c1ad249"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the traversing path for a given edge and the unmarked tree rooted in the node of <em>eS</em> and saves the combinatorial embedding of the st-component which <em>eS</em> represents, i.e.  <a href="#a9d1b2a69b2f75d308ca57cc19c1ad249">More...</a><br /></td></tr>
+<tr class="separator:a9d1b2a69b2f75d308ca57cc19c1ad249"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:af9383331ab2bdd8458907110ab9545cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#af9383331ab2bdd8458907110ab9545cf">m_cost</a></td></tr>
+<tr class="memdesc:af9383331ab2bdd8458907110ab9545cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Costs to cross each edge of the core.  <a href="#af9383331ab2bdd8458907110ab9545cf">More...</a><br /></td></tr>
 <tr class="separator:af9383331ab2bdd8458907110ab9545cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a081cd29261d75cd251c0b2eafee8cfce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a081cd29261d75cd251c0b2eafee8cfce">m_endGraph</a></td></tr>
+<tr class="memdesc:a081cd29261d75cd251c0b2eafee8cfce"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer to a copy of the original graph, in which crossings are replaced by dummy nodes.  <a href="#a081cd29261d75cd251c0b2eafee8cfce">More...</a><br /></td></tr>
+<tr class="separator:a081cd29261d75cd251c0b2eafee8cfce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0e23ecb7ae5c0e886126e447e3761e69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_graph.html">Graph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a0e23ecb7ae5c0e886126e447e3761e69">m_graph</a></td></tr>
+<tr class="memdesc:a0e23ecb7ae5c0e886126e447e3761e69"><td class="mdescLeft">&#160;</td><td class="mdescRight">The core.  <a href="#a0e23ecb7ae5c0e886126e447e3761e69">More...</a><br /></td></tr>
 <tr class="separator:a0e23ecb7ae5c0e886126e447e3761e69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc6b74936373e2ecbb472f6852cbdeea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#adc6b74936373e2ecbb472f6852cbdeea">m_mincut</a></td></tr>
-<tr class="separator:adc6b74936373e2ecbb472f6852cbdeea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a009801b9a4d2b34b1a5883215790697d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a009801b9a4d2b34b1a5883215790697d">m_mapE</a></td></tr>
+<tr class="memdesc:a009801b9a4d2b34b1a5883215790697d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mapping between the edges of each embedding and their original.  <a href="#a009801b9a4d2b34b1a5883215790697d">More...</a><br /></td></tr>
+<tr class="separator:a009801b9a4d2b34b1a5883215790697d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a735c5497337c65e7229bd0642524acdb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a735c5497337c65e7229bd0642524acdb">m_mapV</a></td></tr>
+<tr class="memdesc:a735c5497337c65e7229bd0642524acdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The mapping between the nodes of each embedding and their original.  <a href="#a735c5497337c65e7229bd0642524acdb">More...</a><br /></td></tr>
+<tr class="separator:a735c5497337c65e7229bd0642524acdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa39187166aebbea909621ca6e88fe34"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="structogdf_1_1_non_planar_core_1_1_cut_edge.html">CutEdge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#aaa39187166aebbea909621ca6e88fe34">m_mincut</a></td></tr>
+<tr class="memdesc:aaa39187166aebbea909621ca6e88fe34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traversing path for an edge in the core.  <a href="#aaa39187166aebbea909621ca6e88fe34">More...</a><br /></td></tr>
+<tr class="separator:aaa39187166aebbea909621ca6e88fe34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45eb2f50fbaa3b84d9230af4d27672f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a45eb2f50fbaa3b84d9230af4d27672f8">m_orig</a></td></tr>
+<tr class="memdesc:a45eb2f50fbaa3b84d9230af4d27672f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Corresp. original node.  <a href="#a45eb2f50fbaa3b84d9230af4d27672f8">More...</a><br /></td></tr>
 <tr class="separator:a45eb2f50fbaa3b84d9230af4d27672f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cbd04763b7fd1700e905b0afd4b796d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a8cbd04763b7fd1700e905b0afd4b796d">m_planarCore</a></td></tr>
+<tr class="memdesc:a8cbd04763b7fd1700e905b0afd4b796d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A pointer to a copy of the core, in which crossings are replaced by dummy nodes.  <a href="#a8cbd04763b7fd1700e905b0afd4b796d">More...</a><br /></td></tr>
+<tr class="separator:a8cbd04763b7fd1700e905b0afd4b796d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9d3c42ca10379cdb81ea520c607cbdb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#ad9d3c42ca10379cdb81ea520c607cbdb">m_pOriginal</a></td></tr>
+<tr class="memdesc:ad9d3c42ca10379cdb81ea520c607cbdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The original graph.  <a href="#ad9d3c42ca10379cdb81ea520c607cbdb">More...</a><br /></td></tr>
 <tr class="separator:ad9d3c42ca10379cdb81ea520c607cbdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaabe35f60de0b3a9b618230fd9c64a72"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#aaabe35f60de0b3a9b618230fd9c64a72">m_real</a></td></tr>
+<tr class="memdesc:aaabe35f60de0b3a9b618230fd9c64a72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Corresp. original edge (0 if virtual)  <a href="#aaabe35f60de0b3a9b618230fd9c64a72">More...</a><br /></td></tr>
 <tr class="separator:aaabe35f60de0b3a9b618230fd9c64a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1786653bbe2e235605239a5df22acc37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a1786653bbe2e235605239a5df22acc37">m_sNode</a></td></tr>
+<tr class="memdesc:a1786653bbe2e235605239a5df22acc37"><td class="mdescLeft">&#160;</td><td class="mdescRight">The s node of the st-component of a core edge.  <a href="#a1786653bbe2e235605239a5df22acc37">More...</a><br /></td></tr>
+<tr class="separator:a1786653bbe2e235605239a5df22acc37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a386264fdba493101e0aa33284604a979"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html">StaticSPQRTree</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a386264fdba493101e0aa33284604a979">m_T</a></td></tr>
+<tr class="memdesc:a386264fdba493101e0aa33284604a979"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classogdf_1_1_s_p_q_r_tree.html" title="Linear-time implementation of static SPQR-trees. ">SPQRTree</a> that represents the original graph.  <a href="#a386264fdba493101e0aa33284604a979">More...</a><br /></td></tr>
+<tr class="separator:a386264fdba493101e0aa33284604a979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16051df865962abf8cbeb49997e4234e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a16051df865962abf8cbeb49997e4234e">m_tNode</a></td></tr>
+<tr class="memdesc:a16051df865962abf8cbeb49997e4234e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The t node of the st-component of a core edge.  <a href="#a16051df865962abf8cbeb49997e4234e">More...</a><br /></td></tr>
+<tr class="separator:a16051df865962abf8cbeb49997e4234e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a194b1db7d550f282111a924751f06766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="classogdf_1_1_graph.html">Graph</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a194b1db7d550f282111a924751f06766">m_underlyingGraphs</a></td></tr>
+<tr class="memdesc:a194b1db7d550f282111a924751f06766"><td class="mdescLeft">&#160;</td><td class="mdescRight">The graph for the underlying skeleton of a virtual edge in the core.  <a href="#a194b1db7d550f282111a924751f06766">More...</a><br /></td></tr>
+<tr class="separator:a194b1db7d550f282111a924751f06766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a48f2645e2239b1ce5c646aba4df3a225"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_non_planar_core.html#a48f2645e2239b1ce5c646aba4df3a225">GlueMap</a></td></tr>
+<tr class="separator:a48f2645e2239b1ce5c646aba4df3a225"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Non-planar core reduction. </p>
+<p>The class <a class="el" href="classogdf_1_1_non_planar_core.html" title="Non-planar core reduction. ">ogdf::NonPlanarCore</a> implements a reduction method that reduces a graph to a smaller core graph which behaves invariant with respect to non-planarity measures like crossing number, skewness, coarseness, and thickness. The core reduction is based on the decomposition of a graph into its triconnected components and can be computed in linear time.</p>
+<p>The implementation is based on the following publication:</p>
+<p>Markus Chimani, Carsten Gutwenger: <em>Non-planar core reduction of graphs</em>. Discrete Mathematics 309(7) (2009) 1838-1855 </p>
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00049">49</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00062">62</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a676400706ddb8003a9576012096717c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a676400706ddb8003a9576012096717c7">&sect;&nbsp;</a></span>NonPlanarCore()</h2>
+<a id="ab0bf483a41803251fcb5eee7311a384d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0bf483a41803251fcb5eee7311a384d">&sect;&nbsp;</a></span>NonPlanarCore() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -193,15 +303,190 @@ Protected Attributes</h2></td></tr>
           <td class="memname">ogdf::NonPlanarCore::NonPlanarCore </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
-          <td class="paramname"><em>G</em></td><td>)</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>weight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_max_flow_module.html">MaxFlowModule</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>maxFlowModule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>nonPlanarityGuaranteed</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algorithm call and constructor. </p>
+<p>This constructor computes the non-planar core of the graph <em>G</em>.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>the graph of which the npc is to be made </td></tr>
+    <tr><td class="paramname">weight</td><td>if the graph is weighted, the weights otherwise a nullptr </td></tr>
+    <tr><td class="paramname">nonPlanarityGuaranteed</td><td>iff set to true the algorithm runs a bit faster for nonplanar graphs </td></tr>
+    <tr><td class="paramname">maxFlowModule</td><td>the <a class="el" href="classogdf_1_1_max_flow_module.html">MaxFlowModule</a> that should be used for calculating the traversing path for weighted graphs. default : <a class="el" href="classogdf_1_1_max_flow_s_t_planar_digraph.html" title="Computes a max flow in s-t-planar network via dual shortest paths. ">MaxFlowSTPlanarDigraph</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a98e5ddf60a27aa0400c6a65a4148a02b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98e5ddf60a27aa0400c6a65a4148a02b">&sect;&nbsp;</a></span>NonPlanarCore() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ogdf::NonPlanarCore::NonPlanarCore </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;&#160;</td>
+          <td class="paramname"><em>weight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>nonPlanarityGuaranteed</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An slimmed version of the Algorithm call and constructor. </p>
+
+</div>
+</div>
+<a id="a9d9f88170cba5afb9fdddd1172c34417"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d9f88170cba5afb9fdddd1172c34417">&sect;&nbsp;</a></span>NonPlanarCore() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ogdf::NonPlanarCore::NonPlanarCore </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>nonPlanarityGuaranteed</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An slimmed version of the Algorithm call and constructor. </p>
+
+</div>
+</div>
+<a id="a364879385e2dbb0b156f599469aae933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a364879385e2dbb0b156f599469aae933">&sect;&nbsp;</a></span>~NonPlanarCore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ogdf::NonPlanarCore::~NonPlanarCore </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad31906edaa07dfa0b6c5de815351f006"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad31906edaa07dfa0b6c5de815351f006">&sect;&nbsp;</a></span>call()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::call </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>weight</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_max_flow_module.html">MaxFlowModule</a>&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>maxFlowModule</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>nonPlanarityGuaranteed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The private method behind the constructors. </p>
+
+</div>
+</div>
 <a id="a833a064a21047f0f5f91d1ce8dc0c8ab"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a833a064a21047f0f5f91d1ce8dc0c8ab">&sect;&nbsp;</a></span>core()</h2>
 
@@ -225,7 +510,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00054">54</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Returns the non-planar core. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00097">97</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -252,7 +539,10 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00062">62</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Returns the costs of the edges in the core, which is the number of original edges crossed, if <em>e</em> is crossed, i.e. </p>
+<p>one if an edge is real and <code>|</code>mincut(edge)<code>|</code> if an edge is virtual </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00141">141</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -280,7 +570,249 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00063">63</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Returns the cost of <em>e</em>, which is the number of original edges crossed, if <em>e</em> is crossed, i.e. </p>
+<p>1 if <em>e</em> is real and <code>|</code>mincut(e)<code>|</code> if e is virtual </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00172">172</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="af6bee8cfccc4c965990c98888b7c1332"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6bee8cfccc4c965990c98888b7c1332">&sect;&nbsp;</a></span>getAllMultiedges()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::getAllMultiedges </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>winningEdges</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>losingEdges</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks for multiedges in the core. </p>
+<p>This method is a slightly modified version of ogdf::IsParallelFreeUndirected(), that adds the functionality that the found multiedges are stored in lists.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">winningEdges</td><td>The list of edges that will survive the glue. </td></tr>
+    <tr><td class="paramname">losingEdges</td><td>The list of edges that won't survive the glue. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a198d78e6c28d6165ebf4f716eecf9a9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a198d78e6c28d6165ebf4f716eecf9a9c">&sect;&nbsp;</a></span>getMincut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::getMincut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>cut</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the mincut of <em>e</em> with respect to its position in the chain of its original edge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The edge that we want to know the position of in the graphcopy representing the planarized version of the original graph. </td></tr>
+    <tr><td class="paramname">cut</td><td>A list to write the mincut to. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aefc6404b59f1132e495ea16ff0c68551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefc6404b59f1132e495ea16ff0c68551">&sect;&nbsp;</a></span>glue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::glue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>eWinner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>eLoser</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Glues together the skeletons of <em>eWinner</em> and <em>eLoser</em> for pruned P- and S-nodes. </p>
+<p>This is done, by inserting all nodes and edges of <em>eLoser's</em> skeleton into <em>eWinner's</em> skeleton, while preserving the embedding of both skeletons.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eWinner</td><td>the core edge that will represent the newly formed skeleton/embedding </td></tr>
+    <tr><td class="paramname">eLoser</td><td>the core edge that is copied from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a18a4f12f643697edf408b55c60a63a8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18a4f12f643697edf408b55c60a63a8d">&sect;&nbsp;</a></span>glueMincuts()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::glueMincuts </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>eWinner</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>eLoser</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Glues together the mincuts of the winner and the loser edge. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eWinner</td><td>the edge whose mincut gets augmented </td></tr>
+    <tr><td class="paramname">eLoser</td><td>the edge whose mincut gets glued to the winner mincut </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4543a807b4f76d9a70a9bfed40882e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4543a807b4f76d9a70a9bfed40882e1c">&sect;&nbsp;</a></span>importEmbedding()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::importEmbedding </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This method asserts that all parts of the end graph that are represented by edge <em>e</em> internally have the same embedding every time retransform is called, regardless of which planarization of the core is given. </p>
+<p>Only nodes that are present in the core can have a different embedding for a different planarization of the core. They are infact reassembling the planarization of the core. </p>
+
+</div>
+</div>
+<a id="ad8bee79ee705c4ae2aac9dfcbb4a2354"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8bee79ee705c4ae2aac9dfcbb4a2354">&sect;&nbsp;</a></span>inflateCrossing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::inflateCrossing </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The crossing denoted by dummy node <em>v</em> from the planarized copy of the core get inserted into the end graph. </p>
 
 </div>
 </div>
@@ -308,48 +840,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00059">59</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>True iff the edge <em>e</em> in the core represents more than one orginal edge and therefore is virtual. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00128">128</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
-<a id="abde0f0cb7c2858966cd15c678683f672"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde0f0cb7c2858966cd15c678683f672">&sect;&nbsp;</a></span>markCore()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::NonPlanarCore::markCore </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_s_p_q_r_tree.html">SPQRTree</a> &amp;&#160;</td>
-          <td class="paramname"><em>T</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
-          <td class="paramname"><em>mark</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a15f5f571ee7ceeb3f4188d71dc61e7d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15f5f571ee7ceeb3f4188d71dc61e7d8">&sect;&nbsp;</a></span>mincut()</h2>
+<a id="a1e85af003fa2093c084a58c61995843c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e85af003fa2093c084a58c61995843c">&sect;&nbsp;</a></span>mapE()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,7 +856,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&gt;&amp; ogdf::NonPlanarCore::mincut </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&gt;* ogdf::NonPlanarCore::mapE </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
           <td class="paramname"><em>e</em></td><td>)</td>
@@ -372,12 +870,114 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00064">64</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Returns a map from the edges of the st-component represented by the core edge e to the original graph. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00164">164</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a00292619be466bb482fae82b8f20a8f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00292619be466bb482fae82b8f20a8f2">&sect;&nbsp;</a></span>markCore()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::markCore </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mark</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Marks all nodes of the underlying <a class="el" href="classogdf_1_1_s_p_q_r_tree.html" title="Linear-time implementation of static SPQR-trees. ">SPQRTree</a> and prunes planar leaves until the marked nodes span a tree, which has only non-planar leaves, i.e. </p>
+<p>non-planar R-nodes.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mark</td><td>The array where the marking is done </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a72649f615371c2b9b1649bff52e6a88a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72649f615371c2b9b1649bff52e6a88a">&sect;&nbsp;</a></span>mincut()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="structogdf_1_1_non_planar_core_1_1_cut_edge.html">CutEdge</a>&gt;&amp; ogdf::NonPlanarCore::mincut </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the mincut of the st-component represented by <em>e</em>. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00177">177</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="adbb8bc6b2064c9fc228d293b6b51e6de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb8bc6b2064c9fc228d293b6b51e6de">&sect;&nbsp;</a></span>normalizeCutEdgeDirection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::normalizeCutEdgeDirection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>coreEdge</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Every edge of <em>e</em> 's cut that doesn't go the same direction as <em>e</em> gets reversed. </p>
+<p>This method is used to both normalize the cutedges and denormalize them after the retransformation.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">coreEdge</td><td>the core edge </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
 <a id="ac5c6e9c26bee95189baa88f4e2921053"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5c6e9c26bee95189baa88f4e2921053">&sect;&nbsp;</a></span>original()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c6e9c26bee95189baa88f4e2921053">&sect;&nbsp;</a></span>original() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -400,7 +1000,39 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00057">57</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Returns the node of the original graph, which is represented by <em>v</em> in the core. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00107">107</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a4e134841b136afb2ed4b9afffe99b49c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e134841b136afb2ed4b9afffe99b49c">&sect;&nbsp;</a></span>original() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&gt; ogdf::NonPlanarCore::original </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the edges of the original graph, which are represented by <em>e</em> in the core. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00112">112</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -427,7 +1059,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00055">55</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Returns the original graph. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00102">102</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -455,12 +1089,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00060">60</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Returns the edge of the orginal graph, which is represented by <em>e</em> or nullptr iff <em>e</em> is virtual. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00133">133</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
-<a id="a788bca0cffed67c78b2803d12b02c11d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a788bca0cffed67c78b2803d12b02c11d">&sect;&nbsp;</a></span>traversingPath()</h2>
+<a id="a750049ce7de5e4db0881b51b30df57e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a750049ce7de5e4db0881b51b30df57e9">&sect;&nbsp;</a></span>removeSplitdummies()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,28 +1105,111 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::NonPlanarCore::traversingPath </td>
+          <td class="memname">void ogdf::NonPlanarCore::removeSplitdummies </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_skeleton.html">Skeleton</a> &amp;&#160;</td>
-          <td class="paramname"><em>S</em>, </td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>splitdummies</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>After inserting the crossings, the end graph edges don't need to be partitioned anymore so the <em>splitdummies</em> get removed. </p>
+
+</div>
+</div>
+<a id="ab8ba05674f05bbcf4fc22e7019ba23a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8ba05674f05bbcf4fc22e7019ba23a9">&sect;&nbsp;</a></span>retransform()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::retransform </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;&#160;</td>
+          <td class="paramname"><em>planarCore</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;&#160;</td>
+          <td class="paramname"><em>planarGraph</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Inserts the crossings from a copy of the core into a copy of the original graph. </p>
+<p>This method expects <em>planarCore</em> to be planarly embedded without pseudo-crossings. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">planarCore</td><td>a <a class="el" href="classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting. ">GraphCopy</a> of the core, in which dummy nodes are inserted to represent crossings </td></tr>
+    <tr><td class="paramname">planarGraph</td><td>a <a class="el" href="classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting. ">GraphCopy</a> which is replaced by a <a class="el" href="classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting. ">GraphCopy</a> of the original graph </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9dbf2ce4bf6c2cf4d8bec8fc8b39d3cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dbf2ce4bf6c2cf4d8bec8fc8b39d3cd">&sect;&nbsp;</a></span>sNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> ogdf::NonPlanarCore::sNode </td>
+          <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
-          <td class="paramname"><em>eS</em>, </td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the s node of the skeleton of the st-component represented by the core edge /a e = (s,t) Note that this node is not contained in the input graph, but an internal auxiliary graph. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00157">157</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a6c5ce9d3e85c21bdbd67b719909d2a84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c5ce9d3e85c21bdbd67b719909d2a84">&sect;&nbsp;</a></span>splitEdgeIntoSections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::splitEdgeIntoSections </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>e</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>path</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>mapV</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>splitdummies</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -504,6 +1223,152 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>To be able to insert crossings correctly, an end graph edge ought to be split into n-1 sections if n is the number of crossings on the edge. </p>
+<p>This method does exactly that.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">e</td><td>The edge to be split </td></tr>
+    <tr><td class="paramname">splitdummies</td><td>To delete the inserted dummynodes later, we store all of them in here </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="adbdfb869511f58827b147ff2343473b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbdfb869511f58827b147ff2343473b5">&sect;&nbsp;</a></span>tNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> ogdf::NonPlanarCore::tNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the t node of the skeleton of the st-component represented by the core edge /a e = (s,t) Note that this node is not contained in the input graph, but an internal auxiliary graph. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00149">149</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a9d1b2a69b2f75d308ca57cc19c1ad249"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d1b2a69b2f75d308ca57cc19c1ad249">&sect;&nbsp;</a></span>traversingPath()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::NonPlanarCore::traversingPath </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_skeleton.html">Skeleton</a> &amp;&#160;</td>
+          <td class="paramname"><em>Sv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>eS</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="structogdf_1_1_non_planar_core_1_1_cut_edge.html">CutEdge</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>path</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>mapV</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&#160;</td>
+          <td class="paramname"><em>coreEdge</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>weight_src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_max_flow_module.html">MaxFlowModule</a>&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>maxFlowModule</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the traversing path for a given edge and the unmarked tree rooted in the node of <em>eS</em> and saves the combinatorial embedding of the st-component which <em>eS</em> represents, i.e. </p>
+<p>a list of edges that are to be crossed, when the given edge is crossed in the core. This list is minimal.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Sv</td><td>the <a class="el" href="classogdf_1_1_skeleton.html" title="Skeleton graphs of nodes in an SPQR-tree. ">Skeleton</a> of one of the marked nodes of <em>m_T</em>. </td></tr>
+    <tr><td class="paramname">eS</td><td>an edge in <em>Sv</em>. </td></tr>
+    <tr><td class="paramname">path</td><td>a container to write the traversing path to <code>true</code> iff the source of the edge is on the s side of the cut. </td></tr>
+    <tr><td class="paramname">mapV</td><td>a <a class="el" href="classogdf_1_1_node_array.html" title="Dynamic arrays indexed with nodes. ">NodeArray</a> of the original graph to map original nodes to nodes created in this method. </td></tr>
+    <tr><td class="paramname">coreEdge</td><td>the edge in the core that represents the st-component of which the traversing path is computed. </td></tr>
+    <tr><td class="paramname">weight_src</td><td>the weight of the edges of the original graph </td></tr>
+    <tr><td class="paramname">maxFlowModule</td><td>same as in the constructor </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a48f2645e2239b1ce5c646aba4df3a225"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48f2645e2239b1ce5c646aba4df3a225">&sect;&nbsp;</a></span>GlueMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classogdf_1_1_glue_map.html">GlueMap</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00064">64</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -528,7 +1393,36 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00076">76</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Costs to cross each edge of the core. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00329">329</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a081cd29261d75cd251c0b2eafee8cfce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a081cd29261d75cd251c0b2eafee8cfce">&sect;&nbsp;</a></span>m_endGraph</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a>* ogdf::NonPlanarCore::m_endGraph</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A pointer to a copy of the original graph, in which crossings are replaced by dummy nodes. </p>
+<p>It's a <code>nullptr</code> unless <a class="el" href="classogdf_1_1_non_planar_core.html#ab8ba05674f05bbcf4fc22e7019ba23a9" title="Inserts the crossings from a copy of the core into a copy of the original graph. ">NonPlanarCore::retransform</a> was called. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00317">317</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -552,12 +1446,14 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00070">70</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>The core. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00302">302</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
-<a id="adc6b74936373e2ecbb472f6852cbdeea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc6b74936373e2ecbb472f6852cbdeea">&sect;&nbsp;</a></span>m_mincut</h2>
+<a id="a009801b9a4d2b34b1a5883215790697d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a009801b9a4d2b34b1a5883215790697d">&sect;&nbsp;</a></span>m_mapE</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -566,7 +1462,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&gt; &gt; ogdf::NonPlanarCore::m_mincut</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&gt; *&gt; ogdf::NonPlanarCore::m_mapE</td>
         </tr>
       </table>
   </td>
@@ -576,7 +1472,61 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00075">75</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>The mapping between the edges of each embedding and their original. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00338">338</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a735c5497337c65e7229bd0642524acdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a735c5497337c65e7229bd0642524acdb">&sect;&nbsp;</a></span>m_mapV</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&gt; *&gt; ogdf::NonPlanarCore::m_mapV</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The mapping between the nodes of each embedding and their original. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00335">335</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="aaa39187166aebbea909621ca6e88fe34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa39187166aebbea909621ca6e88fe34">&sect;&nbsp;</a></span>m_mincut</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="structogdf_1_1_non_planar_core_1_1_cut_edge.html">CutEdge</a>&gt; &gt; ogdf::NonPlanarCore::m_mincut</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Traversing path for an edge in the core. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00332">332</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -600,7 +1550,36 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00073">73</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Corresp. original node. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00323">323</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a8cbd04763b7fd1700e905b0afd4b796d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cbd04763b7fd1700e905b0afd4b796d">&sect;&nbsp;</a></span>m_planarCore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> const* ogdf::NonPlanarCore::m_planarCore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A pointer to a copy of the core, in which crossings are replaced by dummy nodes. </p>
+<p>It's a <code>nullptr</code> unless <a class="el" href="classogdf_1_1_non_planar_core.html#ab8ba05674f05bbcf4fc22e7019ba23a9" title="Inserts the crossings from a copy of the core into a copy of the original graph. ">NonPlanarCore::retransform</a> was called. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00311">311</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -624,7 +1603,9 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00071">71</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>The original graph. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00305">305</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -648,7 +1629,113 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00074">74</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+<p>Corresp. original edge (0 if virtual) </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00326">326</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a1786653bbe2e235605239a5df22acc37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1786653bbe2e235605239a5df22acc37">&sect;&nbsp;</a></span>m_sNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&gt; ogdf::NonPlanarCore::m_sNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The s node of the st-component of a core edge. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00344">344</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a386264fdba493101e0aa33284604a979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a386264fdba493101e0aa33284604a979">&sect;&nbsp;</a></span>m_T</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html">StaticSPQRTree</a> ogdf::NonPlanarCore::m_T</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The <a class="el" href="classogdf_1_1_s_p_q_r_tree.html" title="Linear-time implementation of static SPQR-trees. ">SPQRTree</a> that represents the original graph. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00320">320</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a16051df865962abf8cbeb49997e4234e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16051df865962abf8cbeb49997e4234e">&sect;&nbsp;</a></span>m_tNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&gt; ogdf::NonPlanarCore::m_tNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The t node of the st-component of a core edge. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00347">347</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
+
+</div>
+</div>
+<a id="a194b1db7d550f282111a924751f06766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a194b1db7d550f282111a924751f06766">&sect;&nbsp;</a></span>m_underlyingGraphs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="classogdf_1_1_graph.html">Graph</a> *&gt; ogdf::NonPlanarCore::m_underlyingGraphs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The graph for the underlying skeleton of a virtual edge in the core. </p>
+
+<p>Definition at line <a class="el" href="_non_planar_core_8h_source.html#l00341">341</a> of file <a class="el" href="_non_planar_core_8h_source.html">NonPlanarCore.h</a>.</p>
 
 </div>
 </div>
@@ -661,7 +1748,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_non_planar_core.html">NonPlanarCore</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

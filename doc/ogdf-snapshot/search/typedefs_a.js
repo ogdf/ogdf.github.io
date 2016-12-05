@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['memelemexptr',['MemElemExPtr',['../classogdf_1_1_pool_memory_allocator.html#a528fdee709ba3a1a13a435537e87f5c0',1,'ogdf::PoolMemoryAllocator']]],
-  ['memelemptr',['MemElemPtr',['../classogdf_1_1_malloc_memory_allocator.html#a69850ef6094e3e17d44e25e2500e96e4',1,'ogdf::MallocMemoryAllocator::MemElemPtr()'],['../classogdf_1_1_pool_memory_allocator.html#a4aa2e48f50461bad261502b01f5eb428',1,'ogdf::PoolMemoryAllocator::MemElemPtr()']]],
-  ['mortonnr',['MortonNR',['../namespaceogdf.html#adb14e5165ee1929d1f4eaa1aad5caaf6',1,'ogdf']]]
+  ['lines_5ft',['lines_t',['../classbackward_1_1_source_file.html#a249ad26d824e683f42d1b93f3eafb973',1,'backward::SourceFile::lines_t()'],['../classbackward_1_1_snippet_factory.html#a2bfbaa900acb0d4fdea885cf9c2ef93c',1,'backward::SnippetFactory::lines_t()']]]
 ];

@@ -1,7 +1,6 @@
 var searchData=
 [
   ['if_5fthen_5felse_5ffunctor',['if_then_else_functor',['../structogdf_1_1if__then__else__functor.html',1,'ogdf']]],
-  ['imaxdiv_5ft',['imaxdiv_t',['../structimaxdiv__t.html',1,'']]],
   ['incnodeinserter',['IncNodeInserter',['../classogdf_1_1_inc_node_inserter.html',1,'ogdf']]],
   ['independentsetmerger',['IndependentSetMerger',['../classogdf_1_1_independent_set_merger.html',1,'ogdf']]],
   ['indexcomparer',['IndexComparer',['../classogdf_1_1_index_comparer.html',1,'ogdf']]],

@@ -6,7 +6,7 @@ var classogdf_1_1_boyer_myrvold_planar =
       [ "doFindUnlimited", "classogdf_1_1_boyer_myrvold_planar.html#a77145257bc59175a8dfd65f425fa7557a9044165b10c97b694dd736de44e7390c", null ],
       [ "doFindZero", "classogdf_1_1_boyer_myrvold_planar.html#a77145257bc59175a8dfd65f425fa7557ae30a7f7bf8508182acf2e56360f890d1", null ]
     ] ],
-    [ "BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html#a69e996060ce06e0db987b76a709a2b83", null ],
+    [ "BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html#a33d7dfcabbae6af06a7382e272c51bfb", null ],
     [ "~BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html#a43b59274c5efc8e3edd2d207eb98c7a5", null ],
     [ "activeSuccessor", "classogdf_1_1_boyer_myrvold_planar.html#ae24c08f82ff7e5c5884f7ea3b0a3d470", null ],
     [ "beforeShortCircuitEdge", "classogdf_1_1_boyer_myrvold_planar.html#a765dba62de0bcdcbd0602b2092451f10", null ],

@@ -2,6 +2,9 @@ var searchData=
 [
   ['obj_5f',['obj_',['../classabacus_1_1_column.html#a5378ca208a26976dc1586a37fb8c35d6',1,'abacus::Column::obj_()'],['../classabacus_1_1_variable.html#a21c0ab3eeb819e7181a1256b2951e670',1,'abacus::Variable::obj_()']]],
   ['objcoeff_5f',['objcoeff_',['../classabacus_1_1_osi_i_f.html#a8dbc8a6f7f7788e478a9bf420d5b0bad',1,'abacus::OsiIF']]],
+  ['object',['object',['../classbackward_1_1_printer.html#a1af82e423f32058ba425d706c4f4c033',1,'backward::Printer']]],
+  ['object_5ffilename',['object_filename',['../structbackward_1_1_resolved_trace.html#aa69356cf61bb53e961c23e1f82165e82',1,'backward::ResolvedTrace']]],
+  ['object_5ffunction',['object_function',['../structbackward_1_1_resolved_trace.html#ae3b82c1c17fa19846308fdc640ce891e',1,'backward::ResolvedTrace']]],
   ['objinteger_5f',['objInteger_',['../classabacus_1_1_master.html#a8e8b64cb85a0a2f5d9d428a2d64fae28',1,'abacus::Master']]],
   ['occs',['occs',['../class_minisat_1_1_internal_1_1_occ_lists.html#a67cf00cb0646621560191ad002283b68',1,'Minisat::Internal::OccLists']]],
   ['occurs',['occurs',['../class_minisat_1_1_internal_1_1_simp_solver.html#af9fe5842ac6edd71569239d64857332a',1,'Minisat::Internal::SimpSolver']]],

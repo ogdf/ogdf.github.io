@@ -6,6 +6,7 @@ var classogdf_1_1_edge_element =
     [ "adjTarget", "classogdf_1_1_edge_element.html#aad2dcdc473848ea6fe2cdfb95e77303c", null ],
     [ "commonNode", "classogdf_1_1_edge_element.html#ac304281a53f8e14edc9d66ac37e8664c", null ],
     [ "compare", "classogdf_1_1_edge_element.html#ab8f7d8b883164a799191671144bc49e3", null ],
+    [ "getAdj", "classogdf_1_1_edge_element.html#af6d74ca02b1a64062f583aab661678bf", null ],
     [ "index", "classogdf_1_1_edge_element.html#a27b0877c6f1170feb0c676ece7d18d13", null ],
     [ "isIncident", "classogdf_1_1_edge_element.html#a960a2b9167d66916e9d2ba86efe9b58e", null ],
     [ "isSelfLoop", "classogdf_1_1_edge_element.html#aed168195e08ad53e1af848a9169f4f62", null ],

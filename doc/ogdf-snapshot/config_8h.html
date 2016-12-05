@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('config_8h.html','');});
 <p>Basic configuration file.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="version_8h_source.html">ogdf/internal/version.h</a>&gt;</code><br />
-<code>#include &lt;ogdf/internal/config_autogen.h&gt;</code><br />
+<code>#include &lt;<a class="el" href="config__autogen_8h_source.html">ogdf/internal/config_autogen.h</a>&gt;</code><br />
 <code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 </div>
@@ -153,20 +153,27 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a425c4218f250b467f2bfe8a05c627d19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#a425c4218f250b467f2bfe8a05c627d19">ABACUS_LP_OSI</a></td></tr>
-<tr class="separator:a425c4218f250b467f2bfe8a05c627d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga830ff47e6ca9d06cb10193d62835b9d4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga830ff47e6ca9d06cb10193d62835b9d4">OGDF_SIZEOF_POINTER</a>&#160;&#160;&#160;sizeof(void *)</td></tr>
+<tr class="memdesc:ga830ff47e6ca9d06cb10193d62835b9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The size of a pointer.  <a href="group__macros.html#ga830ff47e6ca9d06cb10193d62835b9d4">More...</a><br /></td></tr>
+<tr class="separator:ga830ff47e6ca9d06cb10193d62835b9d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Important when compiling OGDF as DLL</div></td></tr>
 <tr class="memitem:a7c3d8dd02d991bf844b9ce797ef5cede"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#a7c3d8dd02d991bf844b9ce797ef5cede">OGDF_EXPORT</a></td></tr>
+<tr class="memdesc:a7c3d8dd02d991bf844b9ce797ef5cede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies that a function or class is exported by the OGDF DLL.  <a href="#a7c3d8dd02d991bf844b9ce797ef5cede">More...</a><br /></td></tr>
 <tr class="separator:a7c3d8dd02d991bf844b9ce797ef5cede"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a478b749c87cb5d4c586f0fb77a3b89af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#a478b749c87cb5d4c586f0fb77a3b89af">OGDF_LP_SOLVER</a></td></tr>
-<tr class="separator:a478b749c87cb5d4c586f0fb77a3b89af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaabf8f3c3dd210d0836b0aaae66247a7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#aaabf8f3c3dd210d0836b0aaae66247a7">OGDF_MEMORY_POOL_TS</a></td></tr>
-<tr class="separator:aaabf8f3c3dd210d0836b0aaae66247a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac97a44acf628a5d658573dfcc0013f08"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#ac97a44acf628a5d658573dfcc0013f08">OSI_CLP</a></td></tr>
-<tr class="separator:ac97a44acf628a5d658573dfcc0013f08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4854a95c7c0053a30dfe6ed8f76c228b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#a4854a95c7c0053a30dfe6ed8f76c228b">OSI_SYM</a></td></tr>
-<tr class="separator:a4854a95c7c0053a30dfe6ed8f76c228b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47e53114c74e6774d00e4d4c169118de"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#a47e53114c74e6774d00e4d4c169118de">USE_ABACUS</a></td></tr>
-<tr class="separator:a47e53114c74e6774d00e4d4c169118de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Deprecation</div></td></tr>
+<tr class="memitem:ga13af0216955318b2f7083109292d9a0b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga13af0216955318b2f7083109292d9a0b">OGDF_DEPRECATED</a>(reason)</td></tr>
+<tr class="memdesc:ga13af0216955318b2f7083109292d9a0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mark a class / member / function as deprecated.  <a href="group__macros.html#ga13af0216955318b2f7083109292d9a0b">More...</a><br /></td></tr>
+<tr class="separator:ga13af0216955318b2f7083109292d9a0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Optimization</div></td></tr>
+<tr class="memitem:gac9d6d876168a27d05a2fe25e6b2d99fd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#gac9d6d876168a27d05a2fe25e6b2d99fd">OGDF_LIKELY</a>(x)&#160;&#160;&#160;(x)</td></tr>
+<tr class="memdesc:gac9d6d876168a27d05a2fe25e6b2d99fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the likely branch in a condition.  <a href="group__macros.html#gac9d6d876168a27d05a2fe25e6b2d99fd">More...</a><br /></td></tr>
+<tr class="separator:gac9d6d876168a27d05a2fe25e6b2d99fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9c229025dd9a19d02997c31bf3726cf4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga9c229025dd9a19d02997c31bf3726cf4">OGDF_UNLIKELY</a>(x)&#160;&#160;&#160;(x)</td></tr>
+<tr class="memdesc:ga9c229025dd9a19d02997c31bf3726cf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the unlikely branch in a condition.  <a href="group__macros.html#ga9c229025dd9a19d02997c31bf3726cf4">More...</a><br /></td></tr>
+<tr class="separator:ga9c229025dd9a19d02997c31bf3726cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0532a4f90bb38df3f833445d6694abee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga0532a4f90bb38df3f833445d6694abee">OGDF_DECL_ALIGN</a>(b)</td></tr>
+<tr class="memdesc:ga0532a4f90bb38df3f833445d6694abee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specify the minimum alignment (in bytes) of a type to be <em>b</em>. This is used in type declarations.  <a href="group__macros.html#ga0532a4f90bb38df3f833445d6694abee">More...</a><br /></td></tr>
+<tr class="separator:ga0532a4f90bb38df3f833445d6694abee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -185,30 +192,13 @@ Functions</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Carsten Gutwenger</dd></dl>
 <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />
- See README.txt in the root directory of the OGDF installation for details.</dd></dl>
+ See README.md in the OGDF root directory for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License Version 2 or 3 as published by the Free Software Foundation; see the file LICENSE.txt included in the packaging of this file for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</dd></dl>
-<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
+<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, see <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
 
 <p>Definition in file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a425c4218f250b467f2bfe8a05c627d19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a425c4218f250b467f2bfe8a05c627d19">&sect;&nbsp;</a></span>ABACUS_LP_OSI</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ABACUS_LP_OSI</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="config_8h_source.html#l00082">82</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
-
-</div>
-</div>
 <a id="a7c3d8dd02d991bf844b9ce797ef5cede"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c3d8dd02d991bf844b9ce797ef5cede">&sect;&nbsp;</a></span>OGDF_EXPORT</h2>
 
@@ -221,87 +211,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="config_8h_source.html#l00148">148</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p>Specifies that a function or class is exported by the OGDF DLL. </p>
+<p>It is set according to the definition of OGDF_INSTALL (OGDF is build as DLL) and OGDF_DLL (OGDF is used as DLL). If none of these are defined (OGDF is build or used as static library), the define expands to nothing. </p>
 
-</div>
-</div>
-<a id="a478b749c87cb5d4c586f0fb77a3b89af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a478b749c87cb5d4c586f0fb77a3b89af">&sect;&nbsp;</a></span>OGDF_LP_SOLVER</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OGDF_LP_SOLVER</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="config_8h_source.html#l00080">80</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
-
-</div>
-</div>
-<a id="aaabf8f3c3dd210d0836b0aaae66247a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaabf8f3c3dd210d0836b0aaae66247a7">&sect;&nbsp;</a></span>OGDF_MEMORY_POOL_TS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OGDF_MEMORY_POOL_TS</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="config_8h_source.html#l00195">195</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
-
-</div>
-</div>
-<a id="ac97a44acf628a5d658573dfcc0013f08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac97a44acf628a5d658573dfcc0013f08">&sect;&nbsp;</a></span>OSI_CLP</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OSI_CLP</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="config_8h_source.html#l00083">83</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
-
-</div>
-</div>
-<a id="a4854a95c7c0053a30dfe6ed8f76c228b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4854a95c7c0053a30dfe6ed8f76c228b">&sect;&nbsp;</a></span>OSI_SYM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OSI_SYM</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="config_8h_source.html#l00084">84</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
-
-</div>
-</div>
-<a id="a47e53114c74e6774d00e4d4c169118de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47e53114c74e6774d00e4d4c169118de">&sect;&nbsp;</a></span>USE_ABACUS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define USE_ABACUS</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="config_8h_source.html#l00081">81</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p>Definition at line <a class="el" href="config_8h_source.html#l00104">104</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 
 </div>
 </div>
@@ -311,7 +224,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_c45e5be061fe902a23dc886ea87fe229.html">internal</a></li><li class="navelem"><a class="el" href="dir_f349723276a8c1fd010aa94f9f6c5204.html">basic</a></li><li class="navelem"><a class="el" href="config_8h.html">config.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

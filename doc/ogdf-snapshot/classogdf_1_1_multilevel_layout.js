@@ -3,7 +3,6 @@ var classogdf_1_1_multilevel_layout =
     [ "MultilevelLayout", "classogdf_1_1_multilevel_layout.html#a6acde7d2367cb2b4d1410c85a2f9f08a", null ],
     [ "~MultilevelLayout", "classogdf_1_1_multilevel_layout.html#a343cfe1d411de489c606073dd1518f30", null ],
     [ "call", "classogdf_1_1_multilevel_layout.html#a9c6e95b15d777adf39cc9e5985acde5a", null ],
-    [ "call", "classogdf_1_1_multilevel_layout.html#afcfa2b2612ff2bade2ca0889001a0ccd", null ],
     [ "setLayout", "classogdf_1_1_multilevel_layout.html#aece943d43a78ece502565ab171e51bcb", null ],
     [ "setMultilevelBuilder", "classogdf_1_1_multilevel_layout.html#aa2a58623f31d8136d51972a7c83395a5", null ],
     [ "setPlacer", "classogdf_1_1_multilevel_layout.html#a768ad43a802e797e126d58f263aaaee8", null ],

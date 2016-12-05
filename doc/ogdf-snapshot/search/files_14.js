@@ -5,6 +5,7 @@ var searchData=
   ['varedgeinserterdyncore_2eh',['VarEdgeInserterDynCore.h',['../_var_edge_inserter_dyn_core_8h.html',1,'']]],
   ['variable_2eh',['variable.h',['../variable_8h.html',1,'']]],
   ['variableembeddinginserter_2eh',['VariableEmbeddingInserter.h',['../_variable_embedding_inserter_8h.html',1,'']]],
+  ['variableembeddinginserterbase_2eh',['VariableEmbeddingInserterBase.h',['../_variable_embedding_inserter_base_8h.html',1,'']]],
   ['variableembeddinginserterdyn_2eh',['VariableEmbeddingInserterDyn.h',['../_variable_embedding_inserter_dyn_8h.html',1,'']]],
   ['variableembeddinginserterdynuml_2eh',['VariableEmbeddingInserterDynUML.h',['../_variable_embedding_inserter_dyn_u_m_l_8h.html',1,'']]],
   ['variableembeddinginserteruml_2eh',['VariableEmbeddingInserterUML.h',['../_variable_embedding_inserter_u_m_l_8h.html',1,'']]],

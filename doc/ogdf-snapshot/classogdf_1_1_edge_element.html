@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -141,12 +141,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_edge_element.html','');}
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_edge_element.png" usemap="#ogdf::EdgeElement_map" alt=""/>
-  <map id="ogdf::EdgeElement_map" name="ogdf::EdgeElement_map">
-<area href="classogdf_1_1internal_1_1_graph_element.html" title="The base class for objects used by (hyper)graphs. " alt="ogdf::internal::GraphElement" shape="rect" coords="0,0,170,24"/>
+<div class="center"><img src="classogdf_1_1_edge_element__inherit__graph.png" border="0" usemap="#ogdf_1_1_edge_element_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_edge_element_inherit__map" id="ogdf_1_1_edge_element_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1internal_1_1_graph_element.html" title="The base class for objects used by (hyper)graphs. " alt="" coords="5,5,193,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -159,6 +158,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac304281a53f8e14edc9d66ac37e8664c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_element.html#ac304281a53f8e14edc9d66ac37e8664c">commonNode</a> (<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> e) const</td></tr>
 <tr class="memdesc:ac304281a53f8e14edc9d66ac37e8664c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the common node of the edge and <em>e</em>. Returns nullptr if the two edges are not adjacent.  <a href="#ac304281a53f8e14edc9d66ac37e8664c">More...</a><br /></td></tr>
 <tr class="separator:ac304281a53f8e14edc9d66ac37e8664c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6d74ca02b1a64062f583aab661678bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#ga47dc56138d60ee98d8ceb8f4ea3a3848">adjEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_element.html#af6d74ca02b1a64062f583aab661678bf">getAdj</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> v) const</td></tr>
+<tr class="memdesc:af6d74ca02b1a64062f583aab661678bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an adjacency entry of this edge at node <code>v</code>. If this is a self-loop the source adjacency entry will always be returned.  <a href="#af6d74ca02b1a64062f583aab661678bf">More...</a><br /></td></tr>
+<tr class="separator:af6d74ca02b1a64062f583aab661678bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27b0877c6f1170feb0c676ece7d18d13"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_element.html#a27b0877c6f1170feb0c676ece7d18d13">index</a> () const</td></tr>
 <tr class="memdesc:a27b0877c6f1170feb0c676ece7d18d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the edge.  <a href="#a27b0877c6f1170feb0c676ece7d18d13">More...</a><br /></td></tr>
 <tr class="separator:a27b0877c6f1170feb0c676ece7d18d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,7 +234,7 @@ Friends</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Class for the representation of edges. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00277">277</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00292">292</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4a9e5289e9fb30933f6f4b8bb0a62eb3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4a9e5289e9fb30933f6f4b8bb0a62eb3">&sect;&nbsp;</a></span>EdgeElement() <span class="overload">[1/2]</span></h2>
@@ -298,7 +300,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00295">295</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00310">310</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -352,7 +354,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00304">304</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00319">319</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -382,7 +384,7 @@ Friends</h2></td></tr>
 
 <p>Returns the corresponding adjacancy entry at source node. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00316">316</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00331">331</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -411,7 +413,7 @@ Friends</h2></td></tr>
 
 <p>Returns the corresponding adjacancy entry at target node. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00318">318</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00333">333</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -441,7 +443,7 @@ Friends</h2></td></tr>
 
 <p>Returns the common node of the edge and <em>e</em>. Returns nullptr if the two edges are not adjacent. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00339">339</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00354">354</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -481,7 +483,37 @@ Friends</h2></td></tr>
 
 <p>Standard Comparer. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00342">342</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00364">364</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+
+</div>
+</div>
+<a id="af6d74ca02b1a64062f583aab661678bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6d74ca02b1a64062f583aab661678bf">&sect;&nbsp;</a></span>getAdj()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__graphs.html#ga47dc56138d60ee98d8ceb8f4ea3a3848">adjEntry</a> ogdf::EdgeElement::getAdj </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an adjacency entry of this edge at node <code>v</code>. If this is a self-loop the source adjacency entry will always be returned. </p>
+
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00358">358</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -510,7 +542,7 @@ Friends</h2></td></tr>
 
 <p>Returns the index of the edge. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00309">309</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00324">324</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -540,7 +572,7 @@ Friends</h2></td></tr>
 
 <p>Returns true iff <em>v</em> is incident to the edge. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00336">336</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00351">351</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -567,7 +599,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00323">323</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00338">338</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -597,7 +629,7 @@ Friends</h2></td></tr>
 
 <p>Returns the adjacent node different from <em>v</em>. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00321">321</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00336">336</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -626,7 +658,7 @@ Friends</h2></td></tr>
 
 <p>Returns the predecessor in the list of all edges. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00328">328</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00343">343</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -655,7 +687,7 @@ Friends</h2></td></tr>
 
 <p>Returns the source node of the edge. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00311">311</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00326">326</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -684,7 +716,7 @@ Friends</h2></td></tr>
 
 <p>Returns the successor in the list of all edges. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00326">326</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00341">341</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -713,7 +745,7 @@ Friends</h2></td></tr>
 
 <p>Returns the target node of the edge. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00313">313</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00328">328</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -738,7 +770,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00278">278</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00293">293</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -762,7 +794,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00279">279</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00294">294</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -789,7 +821,7 @@ Friends</h2></td></tr>
 
 <p>Corresponding adjacancy entry at source node. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00283">283</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00298">298</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -815,7 +847,7 @@ Friends</h2></td></tr>
 
 <p>Corresponding adjacancy entry at target node. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00284">284</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00299">299</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -839,7 +871,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00285">285</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00300">300</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -865,7 +897,7 @@ Friends</h2></td></tr>
 
 <p>The source node of the edge. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00281">281</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00296">296</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -891,7 +923,7 @@ Friends</h2></td></tr>
 
 <p>The target node of the edge. </p>
 
-<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00282">282</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p>Definition at line <a class="el" href="_graph__d_8h_source.html#l00297">297</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -904,7 +936,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_edge_element.html">EdgeElement</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

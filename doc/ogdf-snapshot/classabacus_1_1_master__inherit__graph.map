@@ -1,0 +1,8 @@
+<map id="abacus::Master" name="abacus::Master">
+<area shape="rect" id="node4" href="$classogdf_1_1_c_p___master_base.html" title="ogdf::CP_MasterBase" alt="" coords="579,5,730,32"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_max_c_planar_master.html" title="ogdf::MaxCPlanarMaster" alt="" coords="571,56,738,83"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html" title="Master problem of Steiner tree branch&amp;cut algorithm. " alt="" coords="559,107,751,149"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_abacus_global.html" title="Global data and functions. " alt="" coords="197,56,351,83"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,56,149,83"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_c_planarity_master.html" title="ogdf::CPlanarityMaster" alt="" coords="799,5,955,32"/>
+</map>

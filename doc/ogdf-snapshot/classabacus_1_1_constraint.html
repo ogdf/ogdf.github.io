@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -141,43 +141,55 @@ $(document).ready(function(){initNavTree('classabacus_1_1_constraint.html','');}
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classabacus_1_1_constraint.png" usemap="#abacus::Constraint_map" alt=""/>
-  <map id="abacus::Constraint_map" name="abacus::Constraint_map">
-<area href="classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="abacus::ConVar" shape="rect" coords="0,56,127,80"/>
-<area href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="abacus::AbacusRoot" shape="rect" coords="0,0,127,24"/>
+<div class="center"><img src="classabacus_1_1_constraint__inherit__graph.png" border="0" usemap="#abacus_1_1_constraint_inherit__map" alt="Inheritance graph"/></div>
+<map name="abacus_1_1_constraint_inherit__map" id="abacus_1_1_constraint_inherit__map">
+<area shape="rect" id="node4" href="classabacus_1_1_num_con.html" title="Constraints defined by a number. " alt="" coords="591,5,715,32"/>
+<area shape="rect" id="node5" href="classabacus_1_1_row_con.html" title="Implements constraints stored in the class Row. " alt="" coords="591,56,714,83"/>
+<area shape="rect" id="node7" href="classogdf_1_1_base_constraint.html" title="Basic constraint type. " alt="" coords="580,107,725,133"/>
+<area shape="rect" id="node10" href="classogdf_1_1_cluster_kuratowski_constraint.html" title="ogdf::ClusterKuratowskiConstraint" alt="" coords="541,157,764,184"/>
+<area shape="rect" id="node11" href="classogdf_1_1_max_planar_edges_constraint.html" title="ogdf::MaxPlanarEdgesConstraint" alt="" coords="545,208,760,235"/>
+<area shape="rect" id="node12" href="classogdf_1_1_minimal_cluster_connection.html" title="ogdf::MinimalClusterConnection" alt="" coords="549,259,757,285"/>
+<area shape="rect" id="node13" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_constraint.html" title="Constraint for nodes, e.g., in/outdegree stuff. " alt="" coords="557,310,749,351"/>
+<area shape="rect" id="node14" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_edge_constraint.html" title="Constraint for relating the indegree and one outgoing edge of a node. " alt="" coords="545,375,760,417"/>
+<area shape="rect" id="node15" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html" title="Class for directed cuts (i.e., separated Steiner cuts) " alt="" coords="546,441,759,482"/>
+<area shape="rect" id="node16" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_constraint.html" title="Constraint for edges, e.g., subtour elimination constraints of size 2 ((G)SEC2) " alt="" coords="557,506,749,547"/>
+<area shape="rect" id="node2" href="classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="197,233,313,260"/>
+<area shape="rect" id="node3" href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,233,149,260"/>
+<area shape="rect" id="node6" href="classabacus_1_1_s_row_con.html" title="Constraints using row with static variable set. " alt="" coords="825,56,957,83"/>
+<area shape="rect" id="node8" href="classogdf_1_1_chunk_connection.html" title="ogdf::ChunkConnection" alt="" coords="812,107,971,133"/>
+<area shape="rect" id="node9" href="classogdf_1_1_cut_constraint.html" title="ogdf::CutConstraint" alt="" coords="823,157,959,184"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4a25e6727ba0be13192005f3ebf4b11e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a4a25e6727ba0be13192005f3ebf4b11e">Constraint</a> (<a class="el" href="classabacus_1_1_master.html">Master</a> *master, const <a class="el" href="classabacus_1_1_sub.html">Sub</a> *sub, <a class="el" href="classabacus_1_1_c_sense.html#a8c4369c8aaa89140a14a456204eb0da9">CSense::SENSE</a> sense, double rhs, bool dynamic, bool local, bool liftable)</td></tr>
+<tr class="memitem:a4a25e6727ba0be13192005f3ebf4b11e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a4a25e6727ba0be13192005f3ebf4b11e">Constraint</a> (<a class="el" href="classabacus_1_1_master.html">Master</a> *master, const <a class="el" href="classabacus_1_1_sub.html">Sub</a> *<a class="el" href="classabacus_1_1_con_var.html#a4ecb44787510efdd76435f701df3a8f5">sub</a>, <a class="el" href="classabacus_1_1_c_sense.html#a8c4369c8aaa89140a14a456204eb0da9">CSense::SENSE</a> <a class="el" href="classabacus_1_1_constraint.html#a1658aec80f4229e87d007cdea3d604bd">sense</a>, double <a class="el" href="classabacus_1_1_constraint.html#af06629798a84aa051d5129fc3c6eb97e">rhs</a>, bool <a class="el" href="classabacus_1_1_con_var.html#ae44a4f896e937bc7a13812db3f09b1bf">dynamic</a>, bool <a class="el" href="classabacus_1_1_con_var.html#ad2546af7a1247d53b93bc510ccde90ed">local</a>, bool <a class="el" href="classabacus_1_1_constraint.html#a04d1dab21231ddb060572de021c520ff">liftable</a>)</td></tr>
 <tr class="memdesc:a4a25e6727ba0be13192005f3ebf4b11e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a constraint.  <a href="#a4a25e6727ba0be13192005f3ebf4b11e">More...</a><br /></td></tr>
 <tr class="separator:a4a25e6727ba0be13192005f3ebf4b11e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a8d45871f94474c4b2b951e02a37cf5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a5a8d45871f94474c4b2b951e02a37cf5">Constraint</a> (<a class="el" href="classabacus_1_1_master.html">Master</a> *master)</td></tr>
 <tr class="memdesc:a5a8d45871f94474c4b2b951e02a37cf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes an empty constraint.  <a href="#a5a8d45871f94474c4b2b951e02a37cf5">More...</a><br /></td></tr>
 <tr class="separator:a5a8d45871f94474c4b2b951e02a37cf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48949fc15a3849d1dd38a8cb2b8df5ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a48949fc15a3849d1dd38a8cb2b8df5ec">Constraint</a> (const <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &amp;rhs)</td></tr>
+<tr class="memitem:a48949fc15a3849d1dd38a8cb2b8df5ec"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a48949fc15a3849d1dd38a8cb2b8df5ec">Constraint</a> (const <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &amp;<a class="el" href="classabacus_1_1_constraint.html#af06629798a84aa051d5129fc3c6eb97e">rhs</a>)</td></tr>
 <tr class="memdesc:a48949fc15a3849d1dd38a8cb2b8df5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a48949fc15a3849d1dd38a8cb2b8df5ec">More...</a><br /></td></tr>
 <tr class="separator:a48949fc15a3849d1dd38a8cb2b8df5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a74627315d4e3d3f1b5dda889e523f87e"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a74627315d4e3d3f1b5dda889e523f87e">~Constraint</a> ()</td></tr>
 <tr class="separator:a74627315d4e3d3f1b5dda889e523f87e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71d35f15aaaf10f636962ec1c5d1f866"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_con_class.html">ConClass</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a71d35f15aaaf10f636962ec1c5d1f866">classification</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *var=0) const</td></tr>
-<tr class="memdesc:a71d35f15aaaf10f636962ec1c5d1f866"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the classification of the constraint.  <a href="#a71d35f15aaaf10f636962ec1c5d1f866">More...</a><br /></td></tr>
-<tr class="separator:a71d35f15aaaf10f636962ec1c5d1f866"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53749d8c035127f7577b63dd2bd836f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classabacus_1_1_con_class.html">ConClass</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a53749d8c035127f7577b63dd2bd836f1">classification</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *var=nullptr) const</td></tr>
+<tr class="memdesc:a53749d8c035127f7577b63dd2bd836f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the classification of the constraint.  <a href="#a53749d8c035127f7577b63dd2bd836f1">More...</a><br /></td></tr>
+<tr class="separator:a53749d8c035127f7577b63dd2bd836f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f86e801632be4902e49fa32bddb1698"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a7f86e801632be4902e49fa32bddb1698">coeff</a> (const <a class="el" href="classabacus_1_1_variable.html">Variable</a> *v) const =0</td></tr>
 <tr class="memdesc:a7f86e801632be4902e49fa32bddb1698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the coefficient of the variable <em>v</em> in the constraint.  <a href="#a7f86e801632be4902e49fa32bddb1698">More...</a><br /></td></tr>
 <tr class="separator:a7f86e801632be4902e49fa32bddb1698"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad6b601d65c6b2d8314915efecf83339"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#aad6b601d65c6b2d8314915efecf83339">distance</a> (double *x, <a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *actVar) const</td></tr>
+<tr class="memitem:aad6b601d65c6b2d8314915efecf83339"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#aad6b601d65c6b2d8314915efecf83339">distance</a> (double *x, <a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *actVar) const</td></tr>
 <tr class="memdesc:aad6b601d65c6b2d8314915efecf83339"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Euclidean distance of <em>x</em> associated with variable set <em>actVar</em> to the hyperplane induced by the constraint.  <a href="#aad6b601d65c6b2d8314915efecf83339">More...</a><br /></td></tr>
 <tr class="separator:aad6b601d65c6b2d8314915efecf83339"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a767c1c0beca96cc94c511ae4c6b725c7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a767c1c0beca96cc94c511ae4c6b725c7">genRow</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *var, <a class="el" href="classabacus_1_1_row.html">Row</a> &amp;row) const</td></tr>
+<tr class="memitem:a767c1c0beca96cc94c511ae4c6b725c7"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a767c1c0beca96cc94c511ae4c6b725c7">genRow</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *var, <a class="el" href="classabacus_1_1_row.html">Row</a> &amp;row) const</td></tr>
 <tr class="memdesc:a767c1c0beca96cc94c511ae4c6b725c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the row format of the constraint associated with the variable set <em>var</em>.  <a href="#a767c1c0beca96cc94c511ae4c6b725c7">More...</a><br /></td></tr>
 <tr class="separator:a767c1c0beca96cc94c511ae4c6b725c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a04d1dab21231ddb060572de021c520ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a04d1dab21231ddb060572de021c520ff">liftable</a> () const</td></tr>
 <tr class="memdesc:a04d1dab21231ddb060572de021c520ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the constraint is liftable.  <a href="#a04d1dab21231ddb060572de021c520ff">More...</a><br /></td></tr>
 <tr class="separator:a04d1dab21231ddb060572de021c520ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4bf84db44cd2239237df389be938d17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#ad4bf84db44cd2239237df389be938d17">printRow</a> (ostream &amp;out, <a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *var) const</td></tr>
+<tr class="memitem:ad4bf84db44cd2239237df389be938d17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#ad4bf84db44cd2239237df389be938d17">printRow</a> (ostream &amp;out, <a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *var) const</td></tr>
 <tr class="memdesc:ad4bf84db44cd2239237df389be938d17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes the row format of the constraint associated with the variable set <em>var</em> to output stream <em>out</em>.  <a href="#ad4bf84db44cd2239237df389be938d17">More...</a><br /></td></tr>
 <tr class="separator:ad4bf84db44cd2239237df389be938d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af06629798a84aa051d5129fc3c6eb97e"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#af06629798a84aa051d5129fc3c6eb97e">rhs</a> () const</td></tr>
@@ -189,16 +201,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a014daeb169960d09d2b96ec3fab6ec9a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classabacus_1_1_c_sense.html">CSense</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a014daeb169960d09d2b96ec3fab6ec9a">sense</a> () const</td></tr>
 <tr class="memdesc:a014daeb169960d09d2b96ec3fab6ec9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const pointer to the sense of the constraint.  <a href="#a014daeb169960d09d2b96ec3fab6ec9a">More...</a><br /></td></tr>
 <tr class="separator:a014daeb169960d09d2b96ec3fab6ec9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24d964b9e3586f678337d2adb9af7eae"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a24d964b9e3586f678337d2adb9af7eae">slack</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *variables, double *x) const</td></tr>
+<tr class="memitem:a24d964b9e3586f678337d2adb9af7eae"><td class="memItemLeft" align="right" valign="top">virtual double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a24d964b9e3586f678337d2adb9af7eae">slack</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *variables, double *x) const</td></tr>
 <tr class="memdesc:a24d964b9e3586f678337d2adb9af7eae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the slack of the vector <em>x</em> associated with the variable set <em>variables</em>.  <a href="#a24d964b9e3586f678337d2adb9af7eae">More...</a><br /></td></tr>
 <tr class="separator:a24d964b9e3586f678337d2adb9af7eae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8da8b924931e6aa09e8a3639fb32186"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#ab8da8b924931e6aa09e8a3639fb32186">valid</a> (<a class="el" href="classabacus_1_1_sub.html">Sub</a> *sub) const</td></tr>
+<tr class="memitem:ab8da8b924931e6aa09e8a3639fb32186"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#ab8da8b924931e6aa09e8a3639fb32186">valid</a> (<a class="el" href="classabacus_1_1_sub.html">Sub</a> *<a class="el" href="classabacus_1_1_con_var.html#a4ecb44787510efdd76435f701df3a8f5">sub</a>) const</td></tr>
 <tr class="memdesc:ab8da8b924931e6aa09e8a3639fb32186"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the constraint is valid for the subproblem <em>sub</em>.  <a href="#ab8da8b924931e6aa09e8a3639fb32186">More...</a><br /></td></tr>
 <tr class="separator:ab8da8b924931e6aa09e8a3639fb32186"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a773a21e7b2ae9b853e159cc0d59b60a7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a773a21e7b2ae9b853e159cc0d59b60a7">violated</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *variables, double *x, double *sl=0) const</td></tr>
-<tr class="memdesc:a773a21e7b2ae9b853e159cc0d59b60a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a constraint is violated by a vector <em>x</em> associated with a variable set.  <a href="#a773a21e7b2ae9b853e159cc0d59b60a7">More...</a><br /></td></tr>
-<tr class="separator:a773a21e7b2ae9b853e159cc0d59b60a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3b1c9636c1142982dd534cd3fcb26d3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#ae3b1c9636c1142982dd534cd3fcb26d3">violated</a> (double slack) const</td></tr>
+<tr class="memitem:a3b8638a9dcb292c4eb30d0dfd0bc1220"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a3b8638a9dcb292c4eb30d0dfd0bc1220">violated</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *variables, double *x, double *sl=nullptr) const</td></tr>
+<tr class="memdesc:a3b8638a9dcb292c4eb30d0dfd0bc1220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a constraint is violated by a vector <em>x</em> associated with a variable set.  <a href="#a3b8638a9dcb292c4eb30d0dfd0bc1220">More...</a><br /></td></tr>
+<tr class="separator:a3b8638a9dcb292c4eb30d0dfd0bc1220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3b1c9636c1142982dd534cd3fcb26d3"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#ae3b1c9636c1142982dd534cd3fcb26d3">violated</a> (double <a class="el" href="classabacus_1_1_constraint.html#a24d964b9e3586f678337d2adb9af7eae">slack</a>) const</td></tr>
 <tr class="memdesc:ae3b1c9636c1142982dd534cd3fcb26d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a constraint is violated given the <em>slack</em> of a vector.  <a href="#ae3b1c9636c1142982dd534cd3fcb26d3">More...</a><br /></td></tr>
 <tr class="separator:ae3b1c9636c1142982dd534cd3fcb26d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classabacus_1_1_con_var"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classabacus_1_1_con_var')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classabacus_1_1_con_var.html">abacus::ConVar</a></td></tr>
@@ -259,7 +271,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a426929fdce622890a1c76e9de22e8a44"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classabacus_1_1_con_class.html">ConClass</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a426929fdce622890a1c76e9de22e8a44">classify</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *var) const</td></tr>
+<tr class="memitem:a426929fdce622890a1c76e9de22e8a44"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classabacus_1_1_con_class.html">ConClass</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a426929fdce622890a1c76e9de22e8a44">classify</a> (<a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *var) const</td></tr>
 <tr class="memdesc:a426929fdce622890a1c76e9de22e8a44"><td class="mdescLeft">&#160;</td><td class="mdescRight">The default implementation returns a 0 pointer.  <a href="#a426929fdce622890a1c76e9de22e8a44">More...</a><br /></td></tr>
 <tr class="separator:a426929fdce622890a1c76e9de22e8a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55edd7477a4fafb42f34cf2bc168ab9e"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classabacus_1_1_infeas_con.html#a68c70b26a2505750f14de26403564652">InfeasCon::INFEAS</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#a55edd7477a4fafb42f34cf2bc168ab9e">voidLhsViolated</a> (double newRhs) const</td></tr>
@@ -307,7 +319,7 @@ Protected Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ade51d071baf636c1a3daf17bdd420319"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#ade51d071baf636c1a3daf17bdd420319">operator=</a> (const <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &amp;rhs)</td></tr>
+<tr class="memitem:ade51d071baf636c1a3daf17bdd420319"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_constraint.html#ade51d071baf636c1a3daf17bdd420319">operator=</a> (const <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &amp;<a class="el" href="classabacus_1_1_constraint.html#af06629798a84aa051d5129fc3c6eb97e">rhs</a>)</td></tr>
 <tr class="separator:ade51d071baf636c1a3daf17bdd420319"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -468,7 +480,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">abacus::Constraint::Constraint </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &amp;&#160;</td>
           <td class="paramname"><em>rhs</em></td><td>)</td>
           <td></td>
         </tr>
@@ -520,8 +532,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a71d35f15aaaf10f636962ec1c5d1f866"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71d35f15aaaf10f636962ec1c5d1f866">&sect;&nbsp;</a></span>classification()</h2>
+<a id="a53749d8c035127f7577b63dd2bd836f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53749d8c035127f7577b63dd2bd836f1">&sect;&nbsp;</a></span>classification()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -529,8 +541,8 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="classabacus_1_1_con_class.html">ConClass</a>* abacus::Constraint::classification </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
-          <td class="paramname"><em>var</em> = <code>0</code></td><td>)</td>
+          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
+          <td class="paramname"><em>var</em> = <code>nullptr</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -538,7 +550,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns a pointer to the classification of the constraint. </p>
 <p>If no classification is available then we try to classify the constraint. In this case <em>var</em> must not be a 0-pointer.</p>
-<p>A constraint classification can only be generated if the function classify() is redefined in a derived class. </p>
+<p>A constraint classification can only be generated if the function <a class="el" href="classabacus_1_1_constraint.html#a426929fdce622890a1c76e9de22e8a44" title="The default implementation returns a 0 pointer. ">classify()</a> is redefined in a derived class. </p>
 
 </div>
 </div>
@@ -554,7 +566,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual <a class="el" href="classabacus_1_1_con_class.html">ConClass</a>* abacus::Constraint::classify </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
+          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
           <td class="paramname"><em>var</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -605,6 +617,8 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The coefficient of the variable <em>v</em> in the constraint. </dd></dl>
 
+<p>Implemented in <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html#af17718e886bb5dd5e4ccb6dea21aad97">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::DirectedCutConstraint</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_edge_constraint.html#a6d28105d4bdd2189ee1127149017a52a">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::DegreeEdgeConstraint</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_constraint.html#a179a7e66ed9647db73e503766f3309f7">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::DegreeConstraint</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_constraint.html#af0230688da858bbfdf7b79c953a63c11">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::EdgeConstraint</a>, <a class="el" href="classabacus_1_1_row_con.html#aedcb15dfbcc0a8732b3655bffdb9ec1f">abacus::RowCon</a>, <a class="el" href="classabacus_1_1_num_con.html#aabc919787cf6fa15329c390ed308ee57">abacus::NumCon</a>, <a class="el" href="classogdf_1_1_base_constraint.html#af9911db01ba754697393872f61e59eb5">ogdf::BaseConstraint</a>, <a class="el" href="classogdf_1_1_chunk_connection.html#a6a6d785183ef3875a334bcc965138e0a">ogdf::ChunkConnection</a>, <a class="el" href="classogdf_1_1_max_planar_edges_constraint.html#a8390046f05a0d7c0b205a5f66f12fec1">ogdf::MaxPlanarEdgesConstraint</a>, <a class="el" href="classogdf_1_1_minimal_cluster_connection.html#a2564ea7627c5f4f27bfb431c38720e22">ogdf::MinimalClusterConnection</a>, <a class="el" href="classogdf_1_1_cluster_kuratowski_constraint.html#aea8dfddb6a87b8549c8d96ce2fff3176">ogdf::ClusterKuratowskiConstraint</a>, and <a class="el" href="classogdf_1_1_cut_constraint.html#ac483e594791c35e8be252212423fe90f">ogdf::CutConstraint</a>.</p>
+
 </div>
 </div>
 <a id="aad6b601d65c6b2d8314915efecf83339"></a>
@@ -625,7 +639,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
+          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
           <td class="paramname"><em>actVar</em>&#160;</td>
         </tr>
         <tr>
@@ -666,7 +680,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual int abacus::Constraint::genRow </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
+          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
           <td class="paramname"><em>var</em>, </td>
         </tr>
         <tr>
@@ -699,6 +713,8 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The number of nonzero elements in the row format <em>row</em>. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classabacus_1_1_s_row_con.html#a73ba1c328fb0c7212e8a9f4a0c5d022a">abacus::SRowCon</a>.</p>
 
 </div>
 </div>
@@ -743,9 +759,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_constraint.html">Constraint</a>&amp; abacus::Constraint::operator= </td>
+          <td class="memname">const <a class="el" href="classabacus_1_1_constraint.html">Constraint</a>&amp; abacus::Constraint::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &amp;&#160;</td>
           <td class="paramname"><em>rhs</em></td><td>)</td>
           <td></td>
         </tr>
@@ -774,7 +790,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
+          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
           <td class="paramname"><em>var</em>&#160;</td>
         </tr>
         <tr>
@@ -895,7 +911,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual double abacus::Constraint::slack </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
+          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
           <td class="paramname"><em>variables</em>, </td>
         </tr>
         <tr>
@@ -926,6 +942,8 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The slack induced by the vector <em>x</em>. </dd></dl>
+
+<p>Reimplemented in <a class="el" href="classabacus_1_1_s_row_con.html#a7cb85774f6ddb5336b197a2c8908000e">abacus::SRowCon</a>.</p>
 
 </div>
 </div>
@@ -967,8 +985,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a773a21e7b2ae9b853e159cc0d59b60a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a773a21e7b2ae9b853e159cc0d59b60a7">&sect;&nbsp;</a></span>violated() <span class="overload">[1/2]</span></h2>
+<a id="a3b8638a9dcb292c4eb30d0dfd0bc1220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b8638a9dcb292c4eb30d0dfd0bc1220">&sect;&nbsp;</a></span>violated() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -979,7 +997,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="memname">virtual bool abacus::Constraint::violated </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classogdf_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
+          <td class="paramtype"><a class="el" href="classabacus_1_1_active.html">Active</a>&lt; <a class="el" href="classabacus_1_1_variable.html">Variable</a>, <a class="el" href="classabacus_1_1_constraint.html">Constraint</a> &gt; *&#160;</td>
           <td class="paramname"><em>variables</em>, </td>
         </tr>
         <tr>
@@ -992,7 +1010,7 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">double *&#160;</td>
-          <td class="paramname"><em>sl</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>sl</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1236,7 +1254,7 @@ Feasible otherwise. </dd></dl>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceabacus.html">abacus</a></li><li class="navelem"><a class="el" href="classabacus_1_1_constraint.html">Constraint</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -157,17 +157,17 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a59aca2b684ad3a02477d608b29ac3eea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tric_comp.html#a59aca2b684ad3a02477d608b29ac3eea">TricComp</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
-<tr class="memdesc:a59aca2b684ad3a02477d608b29ac3eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">construction  <a href="#a59aca2b684ad3a02477d608b29ac3eea">More...</a><br /></td></tr>
+<tr class="memdesc:a59aca2b684ad3a02477d608b29ac3eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Divides G into triconnected components.  <a href="#a59aca2b684ad3a02477d608b29ac3eea">More...</a><br /></td></tr>
 <tr class="separator:a59aca2b684ad3a02477d608b29ac3eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab68d10143d2eddb12a485028f33485a7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tric_comp.html#ab68d10143d2eddb12a485028f33485a7">TricComp</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, bool &amp;isTric, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &amp;s1, <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &amp;s2)</td></tr>
+<tr class="memdesc:ab68d10143d2eddb12a485028f33485a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Tests G for triconnectivity.  <a href="#ab68d10143d2eddb12a485028f33485a7">More...</a><br /></td></tr>
 <tr class="separator:ab68d10143d2eddb12a485028f33485a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe36edf81dcf5310516b18a0e30e31c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tric_comp.html#a8fe36edf81dcf5310516b18a0e30e31c">TricComp</a> (const <a class="el" href="classogdf_1_1_tric_comp.html">TricComp</a> &amp;)=delete</td></tr>
 <tr class="separator:a8fe36edf81dcf5310516b18a0e30e31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac856a24b9a7af84e0c5c93afea86401d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tric_comp.html#ac856a24b9a7af84e0c5c93afea86401d">~TricComp</a> ()</td></tr>
-<tr class="memdesc:ac856a24b9a7af84e0c5c93afea86401d"><td class="mdescLeft">&#160;</td><td class="mdescRight">destruction  <a href="#ac856a24b9a7af84e0c5c93afea86401d">More...</a><br /></td></tr>
 <tr class="separator:ac856a24b9a7af84e0c5c93afea86401d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae7b0d53dbdeb4120840d4a970eb19651"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tric_comp.html#ae7b0d53dbdeb4120840d4a970eb19651">checkComp</a> ()</td></tr>
-<tr class="memdesc:ae7b0d53dbdeb4120840d4a970eb19651"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if computed triconnected componets are correct  <a href="#ae7b0d53dbdeb4120840d4a970eb19651">More...</a><br /></td></tr>
+<tr class="memdesc:ae7b0d53dbdeb4120840d4a970eb19651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if computed triconnected componets are correct.  <a href="#ae7b0d53dbdeb4120840d4a970eb19651">More...</a><br /></td></tr>
 <tr class="separator:ae7b0d53dbdeb4120840d4a970eb19651"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
@@ -317,7 +317,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>realizes Hopcroft/Tarjan algorithm for finding the triconnected components of a biconnected multi-graph </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00049">49</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00046">46</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a150f409dce0fc96d1e88cc2f71b4876c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a150f409dce0fc96d1e88cc2f71b4876c">&sect;&nbsp;</a></span>CompType</h2>
@@ -338,7 +338,7 @@ Private Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="a150f409dce0fc96d1e88cc2f71b4876ca3a31bf8f9708f24c2127ff35e3c7d2f5"></a>triconnected&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00063">63</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00069">69</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -370,7 +370,7 @@ Private Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="aeb5cfdcfae3a62caaa17cd4087ca3539a33ca9faa2a2ae0cb07798c8b7102746a"></a>removed&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00133">133</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00142">142</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -391,7 +391,13 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>construction </p>
+<p>Divides G into triconnected components. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>graph </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -432,6 +438,17 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Tests G for triconnectivity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>graph </td></tr>
+    <tr><td class="paramname">isTric</td><td>true if G is triconnected, false otherwise. </td></tr>
+    <tr><td class="paramname">s1</td><td>first vertex of separation pair if G is biconnected, cut vertex of G if G is not biconnected, nullptr if G is not connected. </td></tr>
+    <tr><td class="paramname">s2</td><td>second vertex of separation pair if G is biconnected, nullptr otherwise. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -475,8 +492,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>destruction </p>
 
 </div>
 </div>
@@ -551,7 +566,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>check if computed triconnected componets are correct </p>
+<p>Checks if computed triconnected componets are correct. </p>
+<dl class="section pre"><dt>Precondition</dt><dd><a class="el" href="classogdf_1_1_tric_comp.html#ae7b0d53dbdeb4120840d4a970eb19651" title="Checks if computed triconnected componets are correct. ">checkComp()</a> assumes that the graph is simple! </dd></dl>
 
 </div>
 </div>
@@ -605,7 +621,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00163">163</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00172">172</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -757,7 +773,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns high(v) value </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00159">159</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00168">168</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -786,7 +802,7 @@ Private Attributes</h2></td></tr>
 
 <p>create a new empty component </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00121">121</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00130">130</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -816,7 +832,7 @@ Private Attributes</h2></td></tr>
 
 <p>create a new empty component of type t </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00126">126</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00135">135</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1047,7 +1063,7 @@ Private Attributes</h2></td></tr>
 
 <p>returns true iff end-of-stack marker is not on top of TSTACK </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00116">116</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00125">125</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1093,7 +1109,7 @@ Private Attributes</h2></td></tr>
 
 <p>push a triple on TSTACK </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00104">104</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00113">113</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1122,7 +1138,7 @@ Private Attributes</h2></td></tr>
 
 <p>push end-of-stack marker on TSTACK </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00111">111</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00120">120</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1149,7 +1165,7 @@ Private Attributes</h2></td></tr>
 
 <p>adjacency list of v </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00179">179</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00188">188</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1167,7 +1183,7 @@ Private Attributes</h2></td></tr>
 
 <p>array of components </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00084">84</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00090">90</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1193,7 +1209,7 @@ Private Attributes</h2></td></tr>
 
 <p>degree of v </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00175">175</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00184">184</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1219,7 +1235,7 @@ Private Attributes</h2></td></tr>
 
 <p>stack of currently active edges </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00186">186</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00195">195</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1245,7 +1261,7 @@ Private Attributes</h2></td></tr>
 
 <p>father of v in palm tree </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00177">177</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00186">186</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1271,7 +1287,7 @@ Private Attributes</h2></td></tr>
 
 <p>list of fronds entering v in the order they are visited </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00183">183</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00192">192</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1297,7 +1313,7 @@ Private Attributes</h2></td></tr>
 
 <p>pointer to element in adjacency list containing e </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00184">184</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00193">193</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1323,7 +1339,7 @@ Private Attributes</h2></td></tr>
 
 <p>pointer to element in HIGHPT list containing e </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00185">185</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00194">194</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1347,7 +1363,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00172">172</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00181">181</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1371,7 +1387,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00173">173</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00182">182</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1397,7 +1413,7 @@ Private Attributes</h2></td></tr>
 
 <p>number of descendants in palm tree </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00174">174</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00183">183</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1423,7 +1439,7 @@ Private Attributes</h2></td></tr>
 
 <p>(second) dfs-number of v </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00180">180</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00189">189</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1449,7 +1465,7 @@ Private Attributes</h2></td></tr>
 
 <p>true iff we start a new path </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00190">190</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00199">199</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1475,7 +1491,7 @@ Private Attributes</h2></td></tr>
 
 <p>node with number i </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00176">176</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00185">185</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1501,7 +1517,7 @@ Private Attributes</h2></td></tr>
 
 <p>(first) dfs-number of v </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00171">171</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00180">180</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1519,7 +1535,7 @@ Private Attributes</h2></td></tr>
 
 <p>number of components </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00086">86</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00092">92</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1545,7 +1561,7 @@ Private Attributes</h2></td></tr>
 
 <p>counter for dfs-traversal </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00189">189</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00198">198</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1563,7 +1579,7 @@ Private Attributes</h2></td></tr>
 
 <p>copy of G containing also virtual edges </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00082">82</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00088">88</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1589,7 +1605,7 @@ Private Attributes</h2></td></tr>
 
 <p>edge starts a path </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00181">181</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00190">190</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1615,7 +1631,7 @@ Private Attributes</h2></td></tr>
 
 <p>start node of dfs traversal </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00188">188</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00197">197</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1639,7 +1655,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00101">101</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00110">110</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1665,7 +1681,7 @@ Private Attributes</h2></td></tr>
 
 <p>tree arc entering v </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00182">182</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00191">191</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1689,7 +1705,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00100">100</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00109">109</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1713,7 +1729,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00100">100</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00109">109</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1739,7 +1755,7 @@ Private Attributes</h2></td></tr>
 
 <p>stack of triples </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00100">100</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00109">109</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1765,7 +1781,7 @@ Private Attributes</h2></td></tr>
 
 <p>type of edge e </p>
 
-<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00178">178</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
+<p>Definition at line <a class="el" href="_tric_comp_8h_source.html#l00187">187</a> of file <a class="el" href="_tric_comp_8h_source.html">TricComp.h</a>.</p>
 
 </div>
 </div>
@@ -1778,7 +1794,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_tric_comp.html">TricComp</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -140,18 +140,15 @@ $(document).ready(function(){initNavTree('classogdf_1_1_s_p_q_r_tree.html','');}
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_s_p_q_r_tree.png" usemap="#ogdf::SPQRTree_map" alt=""/>
-  <map id="ogdf::SPQRTree_map" name="ogdf::SPQRTree_map">
-<area href="classogdf_1_1_dynamic_s_p_q_r_tree.html" title="Linear-time implementation of dynamic SPQR-trees. " alt="ogdf::DynamicSPQRTree" shape="rect" coords="0,56,189,80"/>
-<area href="classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. " alt="ogdf::PlanarSPQRTree" shape="rect" coords="298,56,487,80"/>
-<area href="classogdf_1_1_static_s_p_q_r_tree.html" title="Linear-time implementation of static SPQR-trees. " alt="ogdf::StaticSPQRTree" shape="rect" coords="597,56,786,80"/>
-<area href="classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. " alt="ogdf::DynamicPlanarSPQRTree" shape="rect" coords="0,112,189,136"/>
-<area href="classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. " alt="ogdf::DynamicPlanarSPQRTree" shape="rect" coords="199,112,388,136"/>
-<area href="classogdf_1_1_static_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. " alt="ogdf::StaticPlanarSPQRTree" shape="rect" coords="398,112,587,136"/>
-<area href="classogdf_1_1_static_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. " alt="ogdf::StaticPlanarSPQRTree" shape="rect" coords="597,112,786,136"/>
+<div class="center"><img src="classogdf_1_1_s_p_q_r_tree__inherit__graph.png" border="0" usemap="#ogdf_1_1_s_p_q_r_tree_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_s_p_q_r_tree_inherit__map" id="ogdf_1_1_s_p_q_r_tree_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_dynamic_s_p_q_r_tree.html" title="Linear&#45;time implementation of dynamic SPQR&#45;trees. " alt="" coords="5,80,176,107"/>
+<area shape="rect" id="node4" href="classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="201,80,357,107"/>
+<area shape="rect" id="node6" href="classogdf_1_1_static_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees. " alt="" coords="381,80,534,107"/>
+<area shape="rect" id="node3" href="classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="23,155,231,181"/>
+<area shape="rect" id="node5" href="classogdf_1_1_static_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="326,155,517,181"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -244,7 +241,7 @@ Protected Attributes</h2></td></tr>
 <p>In our representation of SPQR-trees, Q-nodes are omitted. Instead, the skeleton S of a node <em>v</em> in <em>T</em> contains two types of edges: real edges, which correspond to edges in <em>G</em>, and virtual edges, which correspond to edges in <em>T</em> having <em>v</em> as an endpoint. There is a special edge <em>er</em> in G at which <em>T</em> is rooted, i.e., the root node of <em>T</em> is the node whose skeleton contains the real edge corresponding to <em>er</em>.</p>
 <p>The reference edge of the skeleton of the root node is <em>er</em>, the reference edge of the skeleton <em>S</em> of a non-root node <em>v</em> is the virtual edge in <em>S</em> that corresponds to the tree edge (parent(<em>v</em>),<em>v</em>). </p>
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00080">80</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00077">77</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="ac6274139b4295e1ce75a311d3f622d25"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac6274139b4295e1ce75a311d3f622d25">&sect;&nbsp;</a></span>NodeType</h2>
@@ -265,7 +262,7 @@ Protected Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="ac6274139b4295e1ce75a311d3f622d25ab8de24b086edce4d96499b28a255ef3a"></a>RNode&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00085">85</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00082">82</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -293,7 +290,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00090">90</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00087">87</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -325,7 +322,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the skeleton edge that corresponds to the real edge <em>e</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>e</em> is an edge in <em>G</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#acc5452cd95d71dd4fef8b6e211c017ec">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a6a3e317cb3330344c99b9e712a2f62c7">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#abedbf64d8ae70a2107bb98e77bffda34">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#ad6cd77ab3753fe25eae9382345788deb">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -365,7 +362,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Add an edge to <em>Gp</em> corresponding to <em>eOrig</em>. </p>
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00208">208</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00205">205</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -405,7 +402,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Add a node to <em>Gp</em> corresponding to <em>vOrig</em> if required. </p>
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00216">216</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00213">213</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -445,7 +442,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Recursively performs the task of adding edges (and nodes) to the pertinent graph <em>Gp</em> for each involved skeleton graph. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a04c7f75a1a5b3e27c0dec1e0a130d960">ogdf::DynamicSPQRTree</a>, and <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a4a95e70d4835bf5a322f87fbd7050cf7">ogdf::StaticSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a5415c18ecfe52c8834bda5fe68255ec6">ogdf::DynamicSPQRTree</a>, and <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a127e5ac694ca46e9dee2a17fccff2199">ogdf::StaticSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -489,7 +486,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00184">184</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00181">181</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -519,7 +516,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the list of all nodes with type <em>t</em>. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a1e604e9608913d9ab8991fea10f2f069">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a19f74b5e08b81c9628aceae1920d15a9">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -548,7 +545,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the number of P-nodes in <em>T</em>. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a1d3f770308be80d01268daf3048a4469">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#afed35f74001cf644ab91b807a1981174">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a5730590e7d548a883a522374ef52f18d">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#afb54426f15a1d7194e41b1242c518336">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -577,7 +574,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the number of R-nodes in <em>T</em>. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a86c555d75b559369596294ba8082becd">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a8879551bac7859f98375d25d8a049d59">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a2eb42c89ad483c79239f02f5dbf18541">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#ad5a6c2d5e1ebefec0dbdc6b2db3fc263">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -606,7 +603,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the number of S-nodes in <em>T</em>. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a2ea3039e90b7e33db14457d386b90cb7">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a5a461e4a98d0fa215c6d1e1b6ddfdaec">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a75193c18de260771270ae25bec4f0cde">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a2ad7721e8c1aab059187ac948eb2af50">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -635,7 +632,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns a reference to the original graph <em>G</em>. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a1fe70cf0eecfdb517ebe74b0bdf79102">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a952240206f3b57004a837f2bd17ef5cc">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a3e56cd16513a198427a9d1598ac53773">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a6b4d30fb016848fb8fe41cbcd0103a28">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -676,7 +673,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the pertinent graph of tree node <em>v</em> in <em>Gp</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>v</em> is a node in <em>T</em> </dd></dl>
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00149">149</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00146">146</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -714,7 +711,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00192">192</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00189">189</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -743,7 +740,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the edge of <em>G</em> at which <em>T</em> is rooted. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#aa0b76042df872cbbd82752da4b65e341">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a03a4a44bd0c82f7a9180c0993d47d7a1">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a87b224af8366a60de704154ce1284c76">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a4e00ec931be2ede61f008a58f3886fa9">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -772,7 +769,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns the root node of <em>T</em>. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#abe66ca9f5b57d7517174bc5ce73cac88">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a06f5e240f896f2cb377c6bb6315fbe81">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a14f3c064ec2470e4f6b8ca5803dc57b0">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a3db4c4dba14818c50c7addad223d7ecb">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -803,7 +800,7 @@ Protected Attributes</h2></td></tr>
 <p>Roots <em>T</em> at edge <em>e</em> and returns the new root node of <em>T</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>e</em> is an edge in <em>G</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a70f17ebfe2beac0c841e65ab4d1ad9ed">ogdf::DynamicSPQRTree</a>, and <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#abf71417f14922ddceb178d140b2f8ca3">ogdf::StaticSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#acaba9c57ba89ea61b16fae6d6714623a">ogdf::DynamicSPQRTree</a>, and <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a070df85a8032e5095803d523575fff40">ogdf::StaticSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -834,7 +831,7 @@ Protected Attributes</h2></td></tr>
 <p>Roots <em>T</em> at node <em>v</em> and returns <em>v</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>v</em> is a node in <em>T</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#aa38d7bc95e57ea71073b001c3aad9932">ogdf::DynamicSPQRTree</a>, and <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a0bef2438faffff74d58a5b9fb7ea9ad1">ogdf::StaticSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#ae636e948172e271e8bbf44bca0a87a52">ogdf::DynamicSPQRTree</a>, and <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a028c98020d123a13c05e79ba30eb2802">ogdf::StaticSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -865,7 +862,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the skeleton of node <em>v</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>v</em> is a node in <em>T</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a20acab66c59f42ab31999bd426784df0">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a581907c014a90dca2fae0bc9c00f78f6">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#ad552e3a2badc70e80404abebbaba70dc">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a18bfe569b028217392453f285ec6e1c3">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -896,7 +893,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the skeleton that contains the real edge <em>e</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>e</em> is an edge in <em>G</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a014ca2b9638da2b0e3ae013f92cd7f9f">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#affe30602e5d18bfea50903722981378a">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a28f875805deef2fd45dc650089985c5a">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#ad9ad2f2362b5d98b2d53358a675012ca">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -925,7 +922,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Returns a reference to the tree <em>T</em>. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a579874a75cdb3740f67d3f2397d3dbf8">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#ae983d465559c0c410cef058378f732a7">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#aecf19f376b5c24c03845919eee7913ec">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a01acd646ea682c1103cf391b64cd803c">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -956,7 +953,7 @@ Protected Attributes</h2></td></tr>
 <p>Returns the type of node <em>v</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>v</em> is a node in <em>T</em> </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#ae8a97a16e727d7a9fb942c0643da2549">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a0caf388f289ebe2c69806bb476168e3b">ogdf::DynamicSPQRTree</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a8b4514904520f1f90d9669eb495560f4">ogdf::StaticSPQRTree</a>, and <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#a90ccc37c0c84a6b38dc0e202ad0180ad">ogdf::DynamicSPQRTree</a>.</p>
 
 </div>
 </div>
@@ -983,7 +980,7 @@ Protected Attributes</h2></td></tr>
 
 <p>node in pertinent graph corresponding to an original node (auxiliary member) </p>
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00228">228</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00225">225</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -1009,7 +1006,7 @@ Protected Attributes</h2></td></tr>
 
 <p>list of added nodes (auxiliary member) </p>
 
-<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00229">229</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_s_p_q_r_tree_8h_source.html#l00226">226</a> of file <a class="el" href="_s_p_q_r_tree_8h_source.html">SPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -1022,7 +1019,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_s_p_q_r_tree.html">SPQRTree</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

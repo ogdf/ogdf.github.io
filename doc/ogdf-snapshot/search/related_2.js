@@ -8,7 +8,6 @@ var searchData=
   ['comporderbic',['CompOrderBic',['../classogdf_1_1_shelling_order.html#a62fa55facc43fa363dd6412f0083690a',1,'ogdf::ShellingOrder']]],
   ['conbranchrule',['ConBranchRule',['../classabacus_1_1_lp_sub.html#a888b4c101ce8ac6891db9097675dea1c',1,'abacus::LpSub']]],
   ['constcombinatorialembedding',['ConstCombinatorialEmbedding',['../classogdf_1_1_face_element.html#aba123355c368bcda1c493095b3bbe5fb',1,'ogdf::FaceElement']]],
-  ['constraintmanager',['ConstraintManager',['../classogdf_1_1_graph_constraints.html#ad0bf54a2be7863a42cdd8ee748f89582',1,'ogdf::GraphConstraints']]],
   ['copbranchrule',['COPBRANCHRULE',['../classabacus_1_1_lp_sub.html#aa06b8f4ac865fa5a09ba6146945830ee',1,'abacus::LpSub']]],
   ['cplanaritysub',['CPlanaritySub',['../classogdf_1_1_c_planarity_master.html#abf8598cee8831b50e5dee89f4da2b81f',1,'ogdf::CPlanarityMaster']]],
   ['cutbuffer_3c_20basetype_2c_20cotype_20_3e',['CutBuffer&lt; BaseType, CoType &gt;',['../classabacus_1_1_pool_slot.html#a6ff21b67a31d6f74d537daa0806ffea2',1,'abacus::PoolSlot']]],

@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.12"/>
-<title>ogdf: ogdf::AStarSearch&lt; T, H &gt; Class Template Reference</title>
+<title>ogdf: ogdf::AStarSearch&lt; T &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_a_star_search.html','');
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1_a_star_search-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ogdf::AStarSearch&lt; T, H &gt; Class Template Reference</div>  </div>
+<div class="title">ogdf::AStarSearch&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -138,76 +138,73 @@ $(document).ready(function(){initNavTree('classogdf_1_1_a_star_search.html','');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ae7fa8810a626c4e5504a1c506cf72b1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#ae7fa8810a626c4e5504a1c506cf72b1a">AStarSearch</a> (const bool directed=false, const double maxGap=1, const <a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a> &amp;et=<a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a>())</td></tr>
-<tr class="memdesc:ae7fa8810a626c4e5504a1c506cf72b1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new A* search algorithm.  <a href="#ae7fa8810a626c4e5504a1c506cf72b1a">More...</a><br /></td></tr>
-<tr class="separator:ae7fa8810a626c4e5504a1c506cf72b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a665feb6f40629bf8bde742e25adf7d"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a2a665feb6f40629bf8bde742e25adf7d">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;graph, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &amp;cost, const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> source, const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> target, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;predecessor, const H &amp;heuristic=H())</td></tr>
-<tr class="memdesc:a2a665feb6f40629bf8bde742e25adf7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the shortests path between <em>source</em> and <em>target</em>.  <a href="#a2a665feb6f40629bf8bde742e25adf7d">More...</a><br /></td></tr>
-<tr class="separator:a2a665feb6f40629bf8bde742e25adf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be8deaa7fea5d57f767b09ba313866c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a9be8deaa7fea5d57f767b09ba313866c">AStarSearch</a> (const bool directed=false, const double maxGap=1, const <a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a> &amp;et=<a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a>())</td></tr>
+<tr class="memdesc:a9be8deaa7fea5d57f767b09ba313866c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new A* search algorithm.  <a href="#a9be8deaa7fea5d57f767b09ba313866c">More...</a><br /></td></tr>
+<tr class="separator:a9be8deaa7fea5d57f767b09ba313866c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3c37d1ca2f2a7127f6020f49bd0462"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#aec3c37d1ca2f2a7127f6020f49bd0462">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;graph, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &amp;cost, const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> source, const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> target, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;predecessor, std::function&lt; T(<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>)&gt; heuristic=[](<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>) { return T(0);})</td></tr>
+<tr class="memdesc:aec3c37d1ca2f2a7127f6020f49bd0462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the shortests path between <code>source</code> and <code>target</code>.  <a href="#aec3c37d1ca2f2a7127f6020f49bd0462">More...</a><br /></td></tr>
+<tr class="separator:aec3c37d1ca2f2a7127f6020f49bd0462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:a164d24d502e0b7a0c6daccd16925c377"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a164d24d502e0b7a0c6daccd16925c377">NodeQueue</a> = <a class="el" href="classogdf_1_1_prioritized_map_queue.html">PrioritizedMapQueue</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>, T &gt;</td></tr>
-<tr class="separator:a164d24d502e0b7a0c6daccd16925c377"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a140d3bad3e21f835b8d5ca9c9eca78fd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a140d3bad3e21f835b8d5ca9c9eca78fd">NodeQueue</a> = <a class="el" href="classogdf_1_1_prioritized_map_queue.html">PrioritizedMapQueue</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>, T &gt;</td></tr>
+<tr class="separator:a140d3bad3e21f835b8d5ca9c9eca78fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a0b2cdd1aa355d10255246427d287f248"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a0b2cdd1aa355d10255246427d287f248">investigateNode</a> (const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> v)</td></tr>
-<tr class="separator:a0b2cdd1aa355d10255246427d287f248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3187183b857ab807a503798a2fba5e7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#af3187183b857ab807a503798a2fba5e7">validatePath</a> (const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> source, const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> target)</td></tr>
-<tr class="separator:af3187183b857ab807a503798a2fba5e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e4a393e1a6b57847bec661270a4584"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a28e4a393e1a6b57847bec661270a4584">investigateNode</a> (const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> v)</td></tr>
+<tr class="separator:a28e4a393e1a6b57847bec661270a4584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad1fc8467e488f7c00936911b77b55e17"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#ad1fc8467e488f7c00936911b77b55e17">m_cost</a></td></tr>
-<tr class="separator:ad1fc8467e488f7c00936911b77b55e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad79dfc2ba330b6f0f55fa9beee634e86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#ad79dfc2ba330b6f0f55fa9beee634e86">m_directed</a></td></tr>
-<tr class="separator:ad79dfc2ba330b6f0f55fa9beee634e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae43edd274110ddf01b97e200b2fcc9de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#ae43edd274110ddf01b97e200b2fcc9de">m_distance</a></td></tr>
-<tr class="separator:ae43edd274110ddf01b97e200b2fcc9de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f1b64d6254377f29e03db686f2d4818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a6f1b64d6254377f29e03db686f2d4818">m_et</a></td></tr>
-<tr class="separator:a6f1b64d6254377f29e03db686f2d4818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5921f0c391198ad341b652e15eb5b291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a5921f0c391198ad341b652e15eb5b291">m_folded</a></td></tr>
-<tr class="separator:a5921f0c391198ad341b652e15eb5b291"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa560c7ce36f7a4ae50c44139cdf537fb"><td class="memItemLeft" align="right" valign="top">const H *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#aa560c7ce36f7a4ae50c44139cdf537fb">m_heuristic</a></td></tr>
-<tr class="separator:aa560c7ce36f7a4ae50c44139cdf537fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80c8229b7ceff3238dad9b19d6552f67"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a80c8229b7ceff3238dad9b19d6552f67">m_maxGap</a></td></tr>
-<tr class="separator:a80c8229b7ceff3238dad9b19d6552f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04c7fbfa4c3bf038c0a4abdd3f69d45a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a04c7fbfa4c3bf038c0a4abdd3f69d45a">m_predecessor</a></td></tr>
-<tr class="separator:a04c7fbfa4c3bf038c0a4abdd3f69d45a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a446cc9ed3610127718b6281fda0de753"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_a_star_search.html#a164d24d502e0b7a0c6daccd16925c377">NodeQueue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a446cc9ed3610127718b6281fda0de753">m_queue</a></td></tr>
-<tr class="separator:a446cc9ed3610127718b6281fda0de753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a521c649b3e21dce6c99f57ccea9bd3d2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a521c649b3e21dce6c99f57ccea9bd3d2">m_cost</a></td></tr>
+<tr class="separator:a521c649b3e21dce6c99f57ccea9bd3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0c0cb95b29218b2a72bc754b900ada0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#ab0c0cb95b29218b2a72bc754b900ada0">m_directed</a></td></tr>
+<tr class="separator:ab0c0cb95b29218b2a72bc754b900ada0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d844356a72c4b21e4517df6e3902bc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#ac5d844356a72c4b21e4517df6e3902bc">m_distance</a></td></tr>
+<tr class="separator:ac5d844356a72c4b21e4517df6e3902bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaadeae3e7ddaa3fa6fcff8d3ad4e1321"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#aaadeae3e7ddaa3fa6fcff8d3ad4e1321">m_et</a></td></tr>
+<tr class="separator:aaadeae3e7ddaa3fa6fcff8d3ad4e1321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c48f879dafdf80e2644fd76d552257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a91c48f879dafdf80e2644fd76d552257">m_folded</a></td></tr>
+<tr class="separator:a91c48f879dafdf80e2644fd76d552257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae44646bb9d2935b9c4befe9c5ea180d3"><td class="memItemLeft" align="right" valign="top">std::function&lt; T(<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>)&gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#ae44646bb9d2935b9c4befe9c5ea180d3">m_heuristic</a></td></tr>
+<tr class="separator:ae44646bb9d2935b9c4befe9c5ea180d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9596abb96c1019b78b71ceeb3f8485e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#af9596abb96c1019b78b71ceeb3f8485e">m_maxGap</a></td></tr>
+<tr class="separator:af9596abb96c1019b78b71ceeb3f8485e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47689338b4de5e5dfca9a780f25dfc81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a47689338b4de5e5dfca9a780f25dfc81">m_predecessor</a></td></tr>
+<tr class="separator:a47689338b4de5e5dfca9a780f25dfc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38e17b6b5a6644ee2dfb6403ab01bc65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_a_star_search.html#a140d3bad3e21f835b8d5ca9c9eca78fd">NodeQueue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a38e17b6b5a6644ee2dfb6403ab01bc65">m_queue</a></td></tr>
+<tr class="separator:a38e17b6b5a6644ee2dfb6403ab01bc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt;<br />
-class ogdf::AStarSearch&lt; T, H &gt;</h3>
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
+class ogdf::AStarSearch&lt; T &gt;</h3>
 
 <p>A-Star informed search algorithm. </p>
 <p>The algorithm is a generalization the the shortest path algorithm by <a class="el" href="classogdf_1_1_dijkstra.html" title="Dijkstra&#39;s single source shortest path algorithm. ">Dijkstra</a>. It was first described in "A Formal Basis for the Heuristic Determination of Minimum Cost Paths" by Hart, Nilsson and Raphael in 1968.</p>
-<p>The algorithms yields an optimal solution to the single pair shortest pair problem. A heuristic for calculating a lower bound on the distance from any node to the target is required. The algorithm can also be used to compute approximate solutions at a faster pace.</p>
+<p>The algorithm yields an optimal solution to the single pair shortest pair problem. A heuristic for calculating a lower bound on the distance from any node to the target is optional. The algorithm can also be used to compute approximate solutions at a faster pace.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>The type of edge cost </td></tr>
-    <tr><td class="paramname">H</td><td>The heuristic to be used. Defaults to a heuristic which always returns null, thus behaving like <a class="el" href="classogdf_1_1_dijkstra.html" title="Dijkstra&#39;s single source shortest path algorithm. ">ogdf::Dijkstra</a>. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00070">70</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00052">52</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a164d24d502e0b7a0c6daccd16925c377"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a164d24d502e0b7a0c6daccd16925c377">&sect;&nbsp;</a></span>NodeQueue</h2>
+<a id="a140d3bad3e21f835b8d5ca9c9eca78fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a140d3bad3e21f835b8d5ca9c9eca78fd">&sect;&nbsp;</a></span>NodeQueue</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::<a class="el" href="classogdf_1_1_a_star_search.html#a164d24d502e0b7a0c6daccd16925c377">NodeQueue</a> =  <a class="el" href="classogdf_1_1_prioritized_map_queue.html">PrioritizedMapQueue</a>&lt;<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>, T&gt;</td>
+          <td class="memname">using <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::<a class="el" href="classogdf_1_1_a_star_search.html#a140d3bad3e21f835b8d5ca9c9eca78fd">NodeQueue</a> =  <a class="el" href="classogdf_1_1_prioritized_map_queue.html">PrioritizedMapQueue</a>&lt;<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>, T&gt;</td>
         </tr>
       </table>
   </td>
@@ -217,24 +214,24 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00072">72</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00054">54</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae7fa8810a626c4e5504a1c506cf72b1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7fa8810a626c4e5504a1c506cf72b1a">&sect;&nbsp;</a></span>AStarSearch()</h2>
+<a id="a9be8deaa7fea5d57f767b09ba313866c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9be8deaa7fea5d57f767b09ba313866c">&sect;&nbsp;</a></span>AStarSearch()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::<a class="el" href="classogdf_1_1_a_star_search.html">AStarSearch</a> </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::<a class="el" href="classogdf_1_1_a_star_search.html">AStarSearch</a> </td>
           <td>(</td>
           <td class="paramtype">const bool&#160;</td>
           <td class="paramname"><em>directed</em> = <code>false</code>, </td>
@@ -274,24 +271,24 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00095">95</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00077">77</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2a665feb6f40629bf8bde742e25adf7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a665feb6f40629bf8bde742e25adf7d">&sect;&nbsp;</a></span>call()</h2>
+<a id="aec3c37d1ca2f2a7127f6020f49bd0462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3c37d1ca2f2a7127f6020f49bd0462">&sect;&nbsp;</a></span>call()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">T <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::call </td>
+          <td class="memname">T <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::call </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>graph</em>, </td>
@@ -323,8 +320,8 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const H &amp;&#160;</td>
-          <td class="paramname"><em>heuristic</em> = <code>H()</code>&#160;</td>
+          <td class="paramtype">std::function&lt; T(<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>)&gt;&#160;</td>
+          <td class="paramname"><em>heuristic</em> = <code>[](<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>)&#160;{&#160;return&#160;T(0);&#160;}</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -339,37 +336,37 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Computes the shortests path between <em>source</em> and <em>target</em>. </p>
+<p>Computes the shortests path between <code>source</code> and <code>target</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">graph</td><td>The graph to investigate </td></tr>
     <tr><td class="paramname">cost</td><td>The positive cost of each edge </td></tr>
     <tr><td class="paramname">source</td><td>The start of the path to compute </td></tr>
     <tr><td class="paramname">target</td><td>The end of the path to compute </td></tr>
-    <tr><td class="paramname">predecessor</td><td>Will contain the preceding edge of each node in the path <em>predecessor</em>[target] will be <em>nullptr</em> if no path could be found </td></tr>
-    <tr><td class="paramname">heuristic</td><td>The heuristic to be used. If the heuristic always returns 0 this algorithm will behave just like <a class="el" href="classogdf_1_1_dijkstra.html" title="Dijkstra&#39;s single source shortest path algorithm. ">ogdf::Dijkstra</a>. </td></tr>
+    <tr><td class="paramname">predecessor</td><td>Will contain the preceding edge of each node in the path <code>predecessor</code>[target] will be <code>nullptr</code> if no path could be found </td></tr>
+    <tr><td class="paramname">heuristic</td><td>The heuristic to be used. Note that the type <a class="el" href="classogdf_1_1_node_array.html" title="Dynamic arrays indexed with nodes. ">ogdf::NodeArray</a> is implicitly applicable here. The default heuristic will always return the trivial lower bound of zero. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The total length of the found path </dd></dl>
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00113">113</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00096">96</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="a0b2cdd1aa355d10255246427d287f248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b2cdd1aa355d10255246427d287f248">&sect;&nbsp;</a></span>investigateNode()</h2>
+<a id="a28e4a393e1a6b57847bec661270a4584"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28e4a393e1a6b57847bec661270a4584">&sect;&nbsp;</a></span>investigateNode()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::investigateNode </td>
+          <td class="memname">void <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::investigateNode </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -383,64 +380,24 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00178">178</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
-
-</div>
-</div>
-<a id="af3187183b857ab807a503798a2fba5e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3187183b857ab807a503798a2fba5e7">&sect;&nbsp;</a></span>validatePath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::validatePath </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>&#160;</td>
-          <td class="paramname"><em>target</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00155">155</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00169">169</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad1fc8467e488f7c00936911b77b55e17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1fc8467e488f7c00936911b77b55e17">&sect;&nbsp;</a></span>m_cost</h2>
+<a id="a521c649b3e21dce6c99f57ccea9bd3d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a521c649b3e21dce6c99f57ccea9bd3d2">&sect;&nbsp;</a></span>m_cost</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;T&gt;* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_cost</td>
+          <td class="memname">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;T&gt;* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_cost</td>
         </tr>
       </table>
   </td>
@@ -450,23 +407,23 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00079">79</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00061">61</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="ad79dfc2ba330b6f0f55fa9beee634e86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad79dfc2ba330b6f0f55fa9beee634e86">&sect;&nbsp;</a></span>m_directed</h2>
+<a id="ab0c0cb95b29218b2a72bc754b900ada0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0c0cb95b29218b2a72bc754b900ada0">&sect;&nbsp;</a></span>m_directed</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_directed</td>
+          <td class="memname">bool <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_directed</td>
         </tr>
       </table>
   </td>
@@ -476,23 +433,23 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00074">74</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00056">56</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="ae43edd274110ddf01b97e200b2fcc9de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae43edd274110ddf01b97e200b2fcc9de">&sect;&nbsp;</a></span>m_distance</h2>
+<a id="ac5d844356a72c4b21e4517df6e3902bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5d844356a72c4b21e4517df6e3902bc">&sect;&nbsp;</a></span>m_distance</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;T&gt; <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_distance</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;T&gt; <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_distance</td>
         </tr>
       </table>
   </td>
@@ -502,23 +459,23 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00082">82</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00064">64</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="a6f1b64d6254377f29e03db686f2d4818"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f1b64d6254377f29e03db686f2d4818">&sect;&nbsp;</a></span>m_et</h2>
+<a id="aaadeae3e7ddaa3fa6fcff8d3ad4e1321"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaadeae3e7ddaa3fa6fcff8d3ad4e1321">&sect;&nbsp;</a></span>m_et</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a> <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_et</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a> <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_et</td>
         </tr>
       </table>
   </td>
@@ -528,23 +485,23 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00076">76</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00058">58</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="a5921f0c391198ad341b652e15eb5b291"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5921f0c391198ad341b652e15eb5b291">&sect;&nbsp;</a></span>m_folded</h2>
+<a id="a91c48f879dafdf80e2644fd76d552257"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91c48f879dafdf80e2644fd76d552257">&sect;&nbsp;</a></span>m_folded</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;bool&gt; <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_folded</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;bool&gt; <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_folded</td>
         </tr>
       </table>
   </td>
@@ -554,23 +511,23 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00078">78</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00060">60</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="aa560c7ce36f7a4ae50c44139cdf537fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa560c7ce36f7a4ae50c44139cdf537fb">&sect;&nbsp;</a></span>m_heuristic</h2>
+<a id="ae44646bb9d2935b9c4befe9c5ea180d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae44646bb9d2935b9c4befe9c5ea180d3">&sect;&nbsp;</a></span>m_heuristic</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const H* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_heuristic</td>
+          <td class="memname">std::function&lt;T(<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a>)&gt; <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_heuristic</td>
         </tr>
       </table>
   </td>
@@ -580,23 +537,23 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00080">80</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00062">62</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="a80c8229b7ceff3238dad9b19d6552f67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80c8229b7ceff3238dad9b19d6552f67">&sect;&nbsp;</a></span>m_maxGap</h2>
+<a id="af9596abb96c1019b78b71ceeb3f8485e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9596abb96c1019b78b71ceeb3f8485e">&sect;&nbsp;</a></span>m_maxGap</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_maxGap</td>
+          <td class="memname">double <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_maxGap</td>
         </tr>
       </table>
   </td>
@@ -606,23 +563,23 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00075">75</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00057">57</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="a04c7fbfa4c3bf038c0a4abdd3f69d45a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04c7fbfa4c3bf038c0a4abdd3f69d45a">&sect;&nbsp;</a></span>m_predecessor</h2>
+<a id="a47689338b4de5e5dfca9a780f25dfc81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47689338b4de5e5dfca9a780f25dfc81">&sect;&nbsp;</a></span>m_predecessor</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&gt;* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_predecessor</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a>&gt;* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_predecessor</td>
         </tr>
       </table>
   </td>
@@ -632,23 +589,23 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00081">81</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00063">63</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
-<a id="a446cc9ed3610127718b6281fda0de753"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a446cc9ed3610127718b6281fda0de753">&sect;&nbsp;</a></span>m_queue</h2>
+<a id="a38e17b6b5a6644ee2dfb6403ab01bc65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38e17b6b5a6644ee2dfb6403ab01bc65">&sect;&nbsp;</a></span>m_queue</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&gt;&gt; </div>
+template&lt;typename T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_a_star_search.html#a164d24d502e0b7a0c6daccd16925c377">NodeQueue</a>* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T, H &gt;::m_queue</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_a_star_search.html#a140d3bad3e21f835b8d5ca9c9eca78fd">NodeQueue</a>* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_queue</td>
         </tr>
       </table>
   </td>
@@ -658,7 +615,7 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00083">83</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p>Definition at line <a class="el" href="_a_star_search_8h_source.html#l00065">65</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
@@ -671,7 +628,7 @@ template&lt;typename T, typename H = a_star_internal::UninformedHeuristic&lt;T&g
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_a_star_search.html">AStarSearch</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

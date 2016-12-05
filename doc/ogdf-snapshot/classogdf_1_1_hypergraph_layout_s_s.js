@@ -8,7 +8,7 @@ var classogdf_1_1_hypergraph_layout_s_s =
     [ "HypergraphLayoutSS", "classogdf_1_1_hypergraph_layout_s_s.html#a4a1a15f5c3434ec0e67f36fa8f6bd72b", null ],
     [ "HypergraphLayoutSS", "classogdf_1_1_hypergraph_layout_s_s.html#a0b73c87a739970d75b3d1971ea7d2b9f", null ],
     [ "~HypergraphLayoutSS", "classogdf_1_1_hypergraph_layout_s_s.html#aa712efaebb5734a1d00affd203de792d", null ],
-    [ "call", "classogdf_1_1_hypergraph_layout_s_s.html#a077c30c0fdc8963222a35331d1216ace", null ],
+    [ "call", "classogdf_1_1_hypergraph_layout_s_s.html#a124f62407468b4c8a5bc34cc0addb92c", null ],
     [ "layout", "classogdf_1_1_hypergraph_layout_s_s.html#a88dd9576bb2dc94b2932b8dc60c85f6a", null ],
     [ "operator=", "classogdf_1_1_hypergraph_layout_s_s.html#a314dd872b59a23a07f49de541402b780", null ],
     [ "m_convex", "classogdf_1_1_hypergraph_layout_s_s.html#ae937578b6cfb99235b5b27fc239aa9dc", null ],

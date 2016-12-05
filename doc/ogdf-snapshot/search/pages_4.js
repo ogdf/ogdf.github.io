@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['special_20functionality',['Special Functionality',['../ht-special.html',1,'how-tos']]]
+  ['how_2dto_20examples',['How-to Examples',['../examples.html',1,'index']]]
 ];

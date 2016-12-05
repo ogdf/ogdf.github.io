@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -139,14 +139,13 @@ $(document).ready(function(){initNavTree('classogdf_1_1_planar_s_p_q_r_tree.html
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_planar_s_p_q_r_tree.png" usemap="#ogdf::PlanarSPQRTree_map" alt=""/>
-  <map id="ogdf::PlanarSPQRTree_map" name="ogdf::PlanarSPQRTree_map">
-<area href="classogdf_1_1_s_p_q_r_tree.html" title="Linear-time implementation of static SPQR-trees. " alt="ogdf::SPQRTree" shape="rect" coords="99,0,288,24"/>
-<area href="classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. " alt="ogdf::DynamicPlanarSPQRTree" shape="rect" coords="0,112,189,136"/>
-<area href="classogdf_1_1_static_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. " alt="ogdf::StaticPlanarSPQRTree" shape="rect" coords="199,112,388,136"/>
+<div class="center"><img src="classogdf_1_1_planar_s_p_q_r_tree__inherit__graph.png" border="0" usemap="#ogdf_1_1_planar_s_p_q_r_tree_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_planar_s_p_q_r_tree_inherit__map" id="ogdf_1_1_planar_s_p_q_r_tree_inherit__map">
+<area shape="rect" id="node3" href="classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="5,155,213,181"/>
+<area shape="rect" id="node4" href="classogdf_1_1_static_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="238,155,429,181"/>
+<area shape="rect" id="node2" href="classogdf_1_1_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees. " alt="" coords="162,5,281,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -298,7 +297,7 @@ Additional Inherited Members</h2></td></tr>
 <p>The class <a class="el" href="classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR-trees of planar graphs. ">PlanarSPQRTree</a> maintains the triconnected components of a planar biconnected graph G and represents all possible embeddings of G. Each skeleton graph is embedded.</p>
 <p>The current embeddings of the skeletons define an embedding of G. There are two basic operations for obtaining another embedding of G: reverse(v), which flips the skeleton of an R-node v around its poles, and swap(v,e_1,e_2), which exchanges the positions of the edges e_1 and e_2 in the skeleton of a P-node v. </p>
 
-<p>Definition at line <a class="el" href="_planar_s_p_q_r_tree_8h_source.html#l00062">62</a> of file <a class="el" href="_planar_s_p_q_r_tree_8h_source.html">PlanarSPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_s_p_q_r_tree_8h_source.html#l00059">59</a> of file <a class="el" href="_planar_s_p_q_r_tree_8h_source.html">PlanarSPQRTree.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a755f62c2ca02aaa6518c965e99cf555e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a755f62c2ca02aaa6518c965e99cf555e">&sect;&nbsp;</a></span>adoptEmbedding()</h2>
@@ -632,7 +631,7 @@ It does not work at the same time with firstEmbedding and nextEmbedding </dd></d
 
 <p>Returns the number of possible embeddings of G. </p>
 
-<p>Definition at line <a class="el" href="_planar_s_p_q_r_tree_8h_source.html#l00071">71</a> of file <a class="el" href="_planar_s_p_q_r_tree_8h_source.html">PlanarSPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_s_p_q_r_tree_8h_source.html#l00068">68</a> of file <a class="el" href="_planar_s_p_q_r_tree_8h_source.html">PlanarSPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -724,7 +723,7 @@ It does not work at the same time with firstEmbedding and nextEmbedding </dd></d
 <p>Embeds all skeleton graphs randomly and embeds <em>G</em> according to the embeddings of the skeletons. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>G</em> is the graph passed to the constructor of <em>T</em> </dd></dl>
 
-<p>Definition at line <a class="el" href="_planar_s_p_q_r_tree_8h_source.html#l00126">126</a> of file <a class="el" href="_planar_s_p_q_r_tree_8h_source.html">PlanarSPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_s_p_q_r_tree_8h_source.html#l00123">123</a> of file <a class="el" href="_planar_s_p_q_r_tree_8h_source.html">PlanarSPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -946,7 +945,7 @@ It does not work at the same time with firstEmbedding and nextEmbedding </dd></d
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_planar_s_p_q_r_tree_8h_source.html#l00179">179</a> of file <a class="el" href="_planar_s_p_q_r_tree_8h_source.html">PlanarSPQRTree.h</a>.</p>
+<p>Definition at line <a class="el" href="_planar_s_p_q_r_tree_8h_source.html#l00176">176</a> of file <a class="el" href="_planar_s_p_q_r_tree_8h_source.html">PlanarSPQRTree.h</a>.</p>
 
 </div>
 </div>
@@ -959,7 +958,7 @@ It does not work at the same time with firstEmbedding and nextEmbedding </dd></d
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_planar_s_p_q_r_tree.html">PlanarSPQRTree</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

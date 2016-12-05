@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -139,9 +139,29 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceogdf"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html">ogdf</a></td></tr>
 <tr class="memdesc:namespaceogdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace for all OGDF objects. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceogdf_1_1internal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html">ogdf::internal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ab512be9588da58a5f78d6f9687aaaa56"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </td></tr>
+<tr class="memitem:ab512be9588da58a5f78d6f9687aaaa56"><td class="memTemplItemLeft" align="right" valign="top">ITERATOR&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#ab512be9588da58a5f78d6f9687aaaa56">ogdf::internal::chooseIteratorByFastTest</a> (CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement)</td></tr>
+<tr class="separator:ab512be9588da58a5f78d6f9687aaaa56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8de39527839b1fcb69eeae524d18c84a"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </td></tr>
+<tr class="memitem:a8de39527839b1fcb69eeae524d18c84a"><td class="memTemplItemLeft" align="right" valign="top">ITERATOR&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a8de39527839b1fcb69eeae524d18c84a">ogdf::internal::chooseIteratorBySlowTest</a> (CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement)</td></tr>
+<tr class="separator:a8de39527839b1fcb69eeae524d18c84a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </td></tr>
+<tr class="memitem:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="memTemplItemLeft" align="right" valign="top">ITERATOR&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#ab8ea3350b39c7ce703ab6ef77e2b4b91">ogdf::internal::chooseIteratorFrom</a> (CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement, bool isFastTest)</td></tr>
+<tr class="memdesc:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element in the <code>container</code>.  <a href="namespaceogdf_1_1internal.html#ab8ea3350b39c7ce703ab6ef77e2b4b91">More...</a><br /></td></tr>
+<tr class="separator:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9840b3263bda98cfa1bb2a1fe4aac047"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename TYPE &gt; </td></tr>
+<tr class="memitem:a9840b3263bda98cfa1bb2a1fe4aac047"><td class="memTemplItemLeft" align="right" valign="top">CONTAINER::iterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a9840b3263bda98cfa1bb2a1fe4aac047">ogdf::chooseIteratorFrom</a> (CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement=[](const TYPE &amp;) { return true;}, bool isFastTest=true)</td></tr>
+<tr class="memdesc:a9840b3263bda98cfa1bb2a1fe4aac047"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element in the <code>container</code>.  <a href="namespaceogdf.html#a9840b3263bda98cfa1bb2a1fe4aac047">More...</a><br /></td></tr>
+<tr class="separator:a9840b3263bda98cfa1bb2a1fe4aac047"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9b0a3f2639f8247e3ca7324e3b6e47"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename TYPE &gt; </td></tr>
+<tr class="memitem:a2b9b0a3f2639f8247e3ca7324e3b6e47"><td class="memTemplItemLeft" align="right" valign="top">CONTAINER::const_iterator&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a2b9b0a3f2639f8247e3ca7324e3b6e47">ogdf::chooseIteratorFrom</a> (const CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement=[](const TYPE &amp;) { return true;}, bool isFastTest=true)</td></tr>
+<tr class="memdesc:a2b9b0a3f2639f8247e3ca7324e3b6e47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element in the <code>container</code>.  <a href="namespaceogdf.html#a2b9b0a3f2639f8247e3ca7324e3b6e47">More...</a><br /></td></tr>
+<tr class="separator:a2b9b0a3f2639f8247e3ca7324e3b6e47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfaaa224a44655459119a9954440aed7"><td class="memTemplParams" colspan="2">template&lt;class LIST &gt; </td></tr>
 <tr class="memitem:acfaaa224a44655459119a9954440aed7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#acfaaa224a44655459119a9954440aed7">ogdf::quicksortTemplate</a> (LIST &amp;L)</td></tr>
 <tr class="separator:acfaaa224a44655459119a9954440aed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -151,14 +171,13 @@ Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of algorithms as templates working with different list types. </p>
-<dl class="section author"><dt>Author</dt><dd>Carsten Gutwenger</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Carsten Gutwenger, Tilo Wiedera</dd></dl>
 <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />
- See README.txt in the root directory of the OGDF installation for details.</dd></dl>
+ See README.md in the OGDF root directory for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License Version 2 or 3 as published by the Free Software Foundation; see the file LICENSE.txt included in the packaging of this file for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</dd></dl>
-<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
+<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, see <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
 
 <p>Definition in file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
 </div></div><!-- contents -->
@@ -167,7 +186,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_c45e5be061fe902a23dc886ea87fe229.html">internal</a></li><li class="navelem"><a class="el" href="dir_f349723276a8c1fd010aa94f9f6c5204.html">basic</a></li><li class="navelem"><a class="el" href="list__templates_8h.html">list_templates.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

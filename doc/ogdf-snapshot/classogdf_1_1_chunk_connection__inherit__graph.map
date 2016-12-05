@@ -1,0 +1,6 @@
+<map id="ogdf::ChunkConnection" name="ogdf::ChunkConnection">
+<area shape="rect" id="node2" href="$classogdf_1_1_base_constraint.html" title="Basic constraint type. " alt="" coords="12,229,157,256"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format. " alt="" coords="19,155,151,181"/>
+<area shape="rect" id="node4" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="27,80,143,107"/>
+<area shape="rect" id="node5" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="13,5,157,32"/>
+</map>

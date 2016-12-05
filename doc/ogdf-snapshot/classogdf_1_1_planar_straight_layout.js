@@ -11,9 +11,9 @@ var classogdf_1_1_planar_straight_layout =
     [ "setShellingOrder", "classogdf_1_1_planar_straight_layout.html#a214bab33f8894098883fe338d135543b", null ],
     [ "sizeOptimization", "classogdf_1_1_planar_straight_layout.html#a14cdf5139cea64ee0d4a6df6f3c95dfc", null ],
     [ "sizeOptimization", "classogdf_1_1_planar_straight_layout.html#abb35a4322c95fe3b23f1a6d05382c275", null ],
-    [ "m_augmenter", "classogdf_1_1_planar_straight_layout.html#a82602f72da797480dc3d12f55f4818db", null ],
+    [ "m_augmenter", "classogdf_1_1_planar_straight_layout.html#a61d6fb148270bb5a4b5cd51b0fb2d50c", null ],
     [ "m_baseRatio", "classogdf_1_1_planar_straight_layout.html#a10b8acc7e33ad0ca01332c5fe9149131", null ],
-    [ "m_computeOrder", "classogdf_1_1_planar_straight_layout.html#aeebc3b8057c417507e1c396b2610118a", null ],
-    [ "m_embedder", "classogdf_1_1_planar_straight_layout.html#ace41ec241dc8bf31c1fdd91efff4b0c9", null ],
+    [ "m_computeOrder", "classogdf_1_1_planar_straight_layout.html#a78251f2bac84bee6aff0f25f03658efa", null ],
+    [ "m_embedder", "classogdf_1_1_planar_straight_layout.html#a7b6ab9f91347cdfc6a5180db8c1966fb", null ],
     [ "m_sizeOptimization", "classogdf_1_1_planar_straight_layout.html#aa8422d209b6a1a2ae8ff7eb4166d6801", null ]
 ];

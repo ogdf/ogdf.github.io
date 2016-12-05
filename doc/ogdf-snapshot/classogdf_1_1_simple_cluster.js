@@ -1,6 +1,6 @@
 var classogdf_1_1_simple_cluster =
 [
-    [ "SimpleCluster", "classogdf_1_1_simple_cluster.html#a441050876dc0a5e891079631f4c710da", null ],
+    [ "SimpleCluster", "classogdf_1_1_simple_cluster.html#aded4d436d8100de393a089a330d9521e", null ],
     [ "children", "classogdf_1_1_simple_cluster.html#a6e31a61cf1033b358932968b07bc9393", null ],
     [ "getIndex", "classogdf_1_1_simple_cluster.html#a0bf54ea949f368bd0f85425732a8442f", null ],
     [ "getParent", "classogdf_1_1_simple_cluster.html#af59be4efee44c53f3d5d36db58247e45", null ],

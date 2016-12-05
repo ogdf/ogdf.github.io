@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,17 +138,17 @@ $(document).ready(function(){initNavTree('classogdf_1_1_edge_insertion_module.ht
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_edge_insertion_module.png" usemap="#ogdf::EdgeInsertionModule_map" alt=""/>
-  <map id="ogdf::EdgeInsertionModule_map" name="ogdf::EdgeInsertionModule_map">
-<area href="classogdf_1_1_module.html" title="Base class for modules. " alt="ogdf::Module" shape="rect" coords="229,0,448,24"/>
-<area href="classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="ogdf::Timeouter" shape="rect" coords="458,0,677,24"/>
-<area href="classogdf_1_1_fixed_embedding_inserter.html" title="Edge insertion module that inserts each edge optimally into a fixed embedding. " alt="ogdf::FixedEmbeddingInserter" shape="rect" coords="0,112,219,136"/>
-<area href="classogdf_1_1_multi_edge_approx_inserter.html" title="Multi edge inserter with approximation guarantee. " alt="ogdf::MultiEdgeApproxInserter" shape="rect" coords="229,112,448,136"/>
-<area href="classogdf_1_1_variable_embedding_inserter.html" title="Optimal edge insertion module. " alt="ogdf::VariableEmbeddingInserter" shape="rect" coords="458,112,677,136"/>
-<area href="classogdf_1_1_variable_embedding_inserter_dyn.html" title="Optimal edge insertion module. " alt="ogdf::VariableEmbeddingInserterDyn" shape="rect" coords="687,112,906,136"/>
+<div class="center"><img src="classogdf_1_1_edge_insertion_module__inherit__graph.png" border="0" usemap="#ogdf_1_1_edge_insertion_module_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_edge_insertion_module_inherit__map" id="ogdf_1_1_edge_insertion_module_inherit__map">
+<area shape="rect" id="node4" href="classogdf_1_1_fixed_embedding_inserter.html" title="Inserts edges optimally into an embedding. " alt="" coords="415,5,611,32"/>
+<area shape="rect" id="node5" href="classogdf_1_1_multi_edge_approx_inserter.html" title="Multi edge inserter with approximation guarantee. " alt="" coords="413,56,612,83"/>
+<area shape="rect" id="node6" href="classogdf_1_1_variable_embedding_inserter_base.html" title="Common parameter functionality for ogdf::VariableEmbeddingInserter and ogdf::VariableEmbeddingInserte..." alt="" coords="392,107,633,133"/>
+<area shape="rect" id="node2" href="classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,31,111,57"/>
+<area shape="rect" id="node3" href="classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="5,81,119,108"/>
+<area shape="rect" id="node7" href="classogdf_1_1_variable_embedding_inserter.html" title="Optimal edge insertion module. " alt="" coords="693,81,904,108"/>
+<area shape="rect" id="node8" href="classogdf_1_1_variable_embedding_inserter_dyn.html" title="Optimal edge insertion module. " alt="" coords="681,132,916,159"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -179,9 +179,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1c7c200e92950917343e0c4e960c338c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_insertion_module.html#a1c7c200e92950917343e0c4e960c338c">call</a> (<a class="el" href="classogdf_1_1_plan_rep_light.html">PlanRepLight</a> &amp;pr, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;costOrig, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; bool &gt; &amp;forbiddenOrig, const <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;origEdges, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; uint32_t &gt; &amp;edgeSubGraphs)</td></tr>
 <tr class="memdesc:a1c7c200e92950917343e0c4e960c338c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts all edges in <em>origEdges</em> with given costs, forbidden edges, and subgraphs (for simultaneous drawing) into <em>pr</em>.  <a href="#a1c7c200e92950917343e0c4e960c338c">More...</a><br /></td></tr>
 <tr class="separator:a1c7c200e92950917343e0c4e960c338c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a272c152d8ec9efd0fa63bbbccd790257"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_insertion_module.html#a272c152d8ec9efd0fa63bbbccd790257">callEx</a> (<a class="el" href="classogdf_1_1_plan_rep_light.html">PlanRepLight</a> &amp;pr, const <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;origEdges, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *pCostOrig=0, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; bool &gt; *pForbiddenOrig=0, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; uint32_t &gt; *pEdgeSubGraphs=0)</td></tr>
-<tr class="memdesc:a272c152d8ec9efd0fa63bbbccd790257"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts all edges in <em>origEdges</em> into <em>pr</em>, optionally costs, forbidden edges, and subgraphs (for simultaneous drawing) may be given.  <a href="#a272c152d8ec9efd0fa63bbbccd790257">More...</a><br /></td></tr>
-<tr class="separator:a272c152d8ec9efd0fa63bbbccd790257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30afe612d2de07725ce1fd10bdc1ae8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_insertion_module.html#a30afe612d2de07725ce1fd10bdc1ae8b">callEx</a> (<a class="el" href="classogdf_1_1_plan_rep_light.html">PlanRepLight</a> &amp;pr, const <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gab994e376393ed171d84732d377289881">edge</a> &gt; &amp;origEdges, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *pCostOrig=nullptr, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; bool &gt; *pForbiddenOrig=nullptr, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; uint32_t &gt; *pEdgeSubGraphs=nullptr)</td></tr>
+<tr class="memdesc:a30afe612d2de07725ce1fd10bdc1ae8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts all edges in <em>origEdges</em> into <em>pr</em>, optionally costs, forbidden edges, and subgraphs (for simultaneous drawing) may be given.  <a href="#a30afe612d2de07725ce1fd10bdc1ae8b">More...</a><br /></td></tr>
+<tr class="separator:a30afe612d2de07725ce1fd10bdc1ae8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b4fcd6393a477cac8c869228fcf03ca"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classogdf_1_1_edge_insertion_module.html">EdgeInsertionModule</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_insertion_module.html#a0b4fcd6393a477cac8c869228fcf03ca">clone</a> () const =0</td></tr>
 <tr class="memdesc:a0b4fcd6393a477cac8c869228fcf03ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a new instance of the edge insertion module with the same option settings.  <a href="#a0b4fcd6393a477cac8c869228fcf03ca">More...</a><br /></td></tr>
 <tr class="separator:a0b4fcd6393a477cac8c869228fcf03ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,7 +251,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="textblock"><p>Interface for edge insertion algorithms. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classogdf_1_1_subgraph_planarizer.html" title="The planarization approach for crossing minimization. ">SubgraphPlanarizer</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00049">49</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00046">46</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a88b0d681e088f33c8990f814d71f2f08"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a88b0d681e088f33c8990f814d71f2f08">&sect;&nbsp;</a></span>EdgeInsertionModule() <span class="overload">[1/2]</span></h2>
@@ -278,7 +278,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Initializes an edge insertion module (default constructor). </p>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00052">52</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00049">49</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -308,7 +308,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Initializes an edge insertion module (copy constructor). </p>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00055">55</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00052">52</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -337,7 +337,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00058">58</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00055">55</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -386,7 +386,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the status of the result. </dd></dl>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00070">70</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00067">67</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -441,7 +441,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the status of the result. </dd></dl>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00083">83</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00080">80</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +503,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the status of the result. </dd></dl>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00101">101</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00098">98</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -559,7 +559,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the status of the result. </dd></dl>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00120">120</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00117">117</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -622,7 +622,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the status of the result. </dd></dl>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00139">139</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00136">136</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -692,12 +692,12 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the status of the result. </dd></dl>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00161">161</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00158">158</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a272c152d8ec9efd0fa63bbbccd790257"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a272c152d8ec9efd0fa63bbbccd790257">&sect;&nbsp;</a></span>callEx()</h2>
+<a id="a30afe612d2de07725ce1fd10bdc1ae8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30afe612d2de07725ce1fd10bdc1ae8b">&sect;&nbsp;</a></span>callEx()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -721,19 +721,19 @@ Additional Inherited Members</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *&#160;</td>
-          <td class="paramname"><em>pCostOrig</em> = <code>0</code>, </td>
+          <td class="paramname"><em>pCostOrig</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; bool &gt; *&#160;</td>
-          <td class="paramname"><em>pForbiddenOrig</em> = <code>0</code>, </td>
+          <td class="paramname"><em>pForbiddenOrig</em> = <code>nullptr</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; uint32_t &gt; *&#160;</td>
-          <td class="paramname"><em>pEdgeSubGraphs</em> = <code>0</code>&#160;</td>
+          <td class="paramname"><em>pEdgeSubGraphs</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -761,7 +761,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the status of the result. </dd></dl>
 
-<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00184">184</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
+<p>Definition at line <a class="el" href="_edge_insertion_module_8h_source.html#l00181">181</a> of file <a class="el" href="_edge_insertion_module_8h_source.html">EdgeInsertionModule.h</a>.</p>
 
 </div>
 </div>
@@ -790,7 +790,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns a new instance of the edge insertion module with the same option settings. </p>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn.html#a38b3824cb563df14b2c33dd127da9b17">ogdf::VariableEmbeddingInserterDyn</a>, <a class="el" href="classogdf_1_1_variable_embedding_inserter.html#a3e73672982703d35aca67bd637547562">ogdf::VariableEmbeddingInserter</a>, <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#a27d496bd4f185152b9ff4354098f266a">ogdf::MultiEdgeApproxInserter</a>, and <a class="el" href="classogdf_1_1_fixed_embedding_inserter.html#aa181858871294e10823beda7a330830e">ogdf::FixedEmbeddingInserter</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#a27d496bd4f185152b9ff4354098f266a">ogdf::MultiEdgeApproxInserter</a>, <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn.html#a38b3824cb563df14b2c33dd127da9b17">ogdf::VariableEmbeddingInserterDyn</a>, <a class="el" href="classogdf_1_1_fixed_embedding_inserter.html#aa181858871294e10823beda7a330830e">ogdf::FixedEmbeddingInserter</a>, and <a class="el" href="classogdf_1_1_variable_embedding_inserter.html#a3e73672982703d35aca67bd637547562">ogdf::VariableEmbeddingInserter</a>.</p>
 
 </div>
 </div>
@@ -859,7 +859,7 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the status of the result. </dd></dl>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#a3157ae363d75cdec2bf1da4653a003e0">ogdf::MultiEdgeApproxInserter</a>, <a class="el" href="classogdf_1_1_variable_embedding_inserter.html#a7cf7f43551033dab1b0c2629ef53ab2e">ogdf::VariableEmbeddingInserter</a>, <a class="el" href="classogdf_1_1_fixed_embedding_inserter.html#af4eb0a0541b476ee89bb6f0b13e10977">ogdf::FixedEmbeddingInserter</a>, and <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn.html#a1f63b2d41aa28c1f20d8f6d344e4a778">ogdf::VariableEmbeddingInserterDyn</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#a3157ae363d75cdec2bf1da4653a003e0">ogdf::MultiEdgeApproxInserter</a>, <a class="el" href="classogdf_1_1_fixed_embedding_inserter.html#af4eb0a0541b476ee89bb6f0b13e10977">ogdf::FixedEmbeddingInserter</a>, <a class="el" href="classogdf_1_1_variable_embedding_inserter.html#a7cf7f43551033dab1b0c2629ef53ab2e">ogdf::VariableEmbeddingInserter</a>, and <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn.html#a1f63b2d41aa28c1f20d8f6d344e4a778">ogdf::VariableEmbeddingInserterDyn</a>.</p>
 
 </div>
 </div>
@@ -872,7 +872,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_edge_insertion_module.html">EdgeInsertionModule</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

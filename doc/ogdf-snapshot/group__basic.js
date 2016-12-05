@@ -1,5 +1,6 @@
 var group__basic =
 [
+    [ "Useful Macros", "group__macros.html", "group__macros" ],
     [ "Exception Handling", "group__exceptions.html", "group__exceptions" ],
     [ "Comparer", "group__comparer.html", "group__comparer" ],
     [ "Random Numbers", "group__random.html", "group__random" ],

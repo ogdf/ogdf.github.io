@@ -13,7 +13,6 @@ var classogdf_1_1_spring_embedder_k_k =
     [ "allpairssp", "classogdf_1_1_spring_embedder_k_k.html#a423f3e7eac3f22a3811d6c0b7ee4136f", null ],
     [ "allpairsspBFS", "classogdf_1_1_spring_embedder_k_k.html#ae3b89961101ca136214738f82232d0bb", null ],
     [ "call", "classogdf_1_1_spring_embedder_k_k.html#aab0d17c733577b620d3dd0d8fda57f18", null ],
-    [ "call", "classogdf_1_1_spring_embedder_k_k.html#ab70588097ed6a6d996ca6a52e1919e2a", null ],
     [ "call", "classogdf_1_1_spring_embedder_k_k.html#af97eea9645d262bc8d98ddeaf01962d4", null ],
     [ "computeMaxIterations", "classogdf_1_1_spring_embedder_k_k.html#af753777411c8e144e0344b2fe62faa88", null ],
     [ "computeParDer", "classogdf_1_1_spring_embedder_k_k.html#a65fcabf24af8e1d41e29ef7737b7a490", null ],

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -150,6 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0f7b31ca4bf2b85a734b33fd3e7a4cf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a bounded stack containing the elements of <em>S</em> (move semantics).  <a href="#a0f7b31ca4bf2b85a734b33fd3e7a4cf3">More...</a><br /></td></tr>
 <tr class="separator:a0f7b31ca4bf2b85a734b33fd3e7a4cf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56890ed3583cbc3c5d5af30b3f45c488"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_bounded_stack.html#a56890ed3583cbc3c5d5af30b3f45c488">~BoundedStack</a> ()</td></tr>
+<tr class="memdesc:a56890ed3583cbc3c5d5af30b3f45c488"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruction.  <a href="#a56890ed3583cbc3c5d5af30b3f45c488">More...</a><br /></td></tr>
 <tr class="separator:a56890ed3583cbc3c5d5af30b3f45c488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6d8acab5131ed06a239b2068e26cd30"><td class="memItemLeft" align="right" valign="top">INDEX&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_bounded_stack.html#ad6d8acab5131ed06a239b2068e26cd30">capacity</a> () const</td></tr>
 <tr class="memdesc:ad6d8acab5131ed06a239b2068e26cd30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the capacity of the bounded stack.  <a href="#ad6d8acab5131ed06a239b2068e26cd30">More...</a><br /></td></tr>
@@ -227,7 +228,7 @@ class ogdf::BoundedStack&lt; E, INDEX &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00049">49</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00046">46</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a339fde45b2387335c8a913c0890454ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a339fde45b2387335c8a913c0890454ea">&sect;&nbsp;</a></span>BoundedStack() <span class="overload">[1/4]</span></h2>
@@ -257,7 +258,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 <p>Constructs an empty bounded stack for no elements at all. </p>
 <p>The default constructor does not allocate any space for elements; before using the stack, it is required to initialize the stack with <a class="el" href="classogdf_1_1_bounded_stack.html#accffa0f53cd39a49a0cc24636b1241e8" title="Reinitializes the stack for no elements at all (actually frees memory). ">init()</a>. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00061">61</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00058">58</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -289,7 +290,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Constructs an empty bounded stack for at most <em>n</em> elements. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00066">66</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00063">63</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -321,7 +322,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Constructs a bounded stack that is a copy of <em>S</em>. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00075">75</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00072">72</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -354,7 +355,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 <p>Constructs a bounded stack containing the elements of <em>S</em> (move semantics). </p>
 <p>The stack <em>S</em> is non valid afterwards, i.e., its capacity is zero. It has to be reinitialized if new elements shall be inserted. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00084">84</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00081">81</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -383,7 +384,9 @@ template&lt;class E, class INDEX = int&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00092">92</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Destruction. </p>
+
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00089">89</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -415,7 +418,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns the capacity of the bounded stack. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00121">121</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00118">118</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -446,7 +449,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Makes the stack empty. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00177">177</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00174">174</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -476,7 +479,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00189">189</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00186">186</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -507,7 +510,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns true iff the stack is empty. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00112">112</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00109">109</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -538,7 +541,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns true iff the stack is full. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00115">115</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00112">112</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -569,7 +572,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Reinitializes the stack for no elements at all (actually frees memory). </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00124">124</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00121">121</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -601,7 +604,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Reinitializes the stack for <em>n</em> elements. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00130">130</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00127">127</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -633,7 +636,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Assignment operator. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00142">142</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00139">139</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -666,7 +669,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 <p>Assignment operator (move semantics). </p>
 <p>The stack <em>S</em> is non valid afterwards, i.e., its capacity is zero. It has to be reinitialized if new elements shall be inserted. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00153">153</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00150">150</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -697,7 +700,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Removes the top-most element from the stack and returns it. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00171">171</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00168">168</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -739,7 +742,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Prints the stack to output stream <em>os</em>. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00180">180</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00177">177</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -771,7 +774,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Adds element <em>x</em> as top-most element to the stack. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00165">165</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00162">162</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -802,7 +805,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns current size of the stack. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00109">109</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00106">106</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -833,7 +836,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns top element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00097">97</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00094">94</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -864,7 +867,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns top element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00103">103</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00100">100</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -895,7 +898,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns true iff the stack was initialized. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00118">118</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00115">115</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -924,7 +927,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Pointer to first element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00052">52</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00049">49</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -952,7 +955,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Pointer to one past last element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00053">53</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00050">50</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -980,7 +983,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Pointer to top element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00051">51</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_stack_8h_source.html#l00048">48</a> of file <a class="el" href="_bounded_stack_8h_source.html">BoundedStack.h</a>.</p>
 
 </div>
 </div>
@@ -993,7 +996,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_bounded_stack.html">BoundedStack</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

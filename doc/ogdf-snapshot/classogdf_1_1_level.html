@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -140,12 +140,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_level.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_level.png" usemap="#ogdf::Level_map" alt=""/>
-  <map id="ogdf::Level_map" name="ogdf::Level_map">
-<area href="classogdf_1_1_level_base.html" title="Representation of levels in hierarchies. " alt="ogdf::LevelBase" shape="rect" coords="0,0,102,24"/>
+<div class="center"><img src="classogdf_1_1_level__inherit__graph.png" border="0" usemap="#ogdf_1_1_level_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_level_inherit__map" id="ogdf_1_1_level_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_level_base.html" title="Representation of levels in hierarchies. " alt="" coords="5,5,121,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -157,26 +156,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab29f80863c7de0337f63827682e62a92"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#ab29f80863c7de0337f63827682e62a92">adjNodes</a> (<a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> v) const</td></tr>
 <tr class="memdesc:ab29f80863c7de0337f63827682e62a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the (sorted) array of adjacent nodes of <em>v</em> (according to direction()).  <a href="#ab29f80863c7de0337f63827682e62a92">More...</a><br /></td></tr>
 <tr class="separator:ab29f80863c7de0337f63827682e62a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a1ae7413149824d12a27e1196545f0c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#a7a1ae7413149824d12a27e1196545f0c">high</a> () const</td></tr>
-<tr class="memdesc:a7a1ae7413149824d12a27e1196545f0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximal array index (= <a class="el" href="classogdf_1_1_level.html#af944a8791ae5a4550d8ebb3d07b8229f" title="Returns the number of nodes on this level. ">size()</a>-1).  <a href="#a7a1ae7413149824d12a27e1196545f0c">More...</a><br /></td></tr>
-<tr class="separator:a7a1ae7413149824d12a27e1196545f0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46bdf457b45efd38eba9d3e0374bbab"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#ad46bdf457b45efd38eba9d3e0374bbab">high</a> () const override</td></tr>
+<tr class="memdesc:ad46bdf457b45efd38eba9d3e0374bbab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximal array index (= <a class="el" href="classogdf_1_1_level.html#ae8d1318f0cc8548775fc03f39aeb05ac" title="Returns the number of nodes on this level. ">size()</a>-1).  <a href="#ad46bdf457b45efd38eba9d3e0374bbab">More...</a><br /></td></tr>
+<tr class="separator:ad46bdf457b45efd38eba9d3e0374bbab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa187ee74451957ac8d40637ca1d8bd5b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#aa187ee74451957ac8d40637ca1d8bd5b">index</a> () const</td></tr>
 <tr class="memdesc:aa187ee74451957ac8d40637ca1d8bd5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the array index of this level in the hierarchy.  <a href="#aa187ee74451957ac8d40637ca1d8bd5b">More...</a><br /></td></tr>
 <tr class="separator:aa187ee74451957ac8d40637ca1d8bd5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab478ecaeec259abd95cd4c04ccb0c3f7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_hierarchy_levels.html">HierarchyLevels</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#ab478ecaeec259abd95cd4c04ccb0c3f7">levels</a> () const</td></tr>
 <tr class="memdesc:ab478ecaeec259abd95cd4c04ccb0c3f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the hierarchy to which this level belongs.  <a href="#ab478ecaeec259abd95cd4c04ccb0c3f7">More...</a><br /></td></tr>
 <tr class="separator:ab478ecaeec259abd95cd4c04ccb0c3f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e7b448620f6112fe859c5a1874e8612"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#a5e7b448620f6112fe859c5a1874e8612">operator[]</a> (int i) const</td></tr>
-<tr class="memdesc:a5e7b448620f6112fe859c5a1874e8612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the node at position <em>i</em>.  <a href="#a5e7b448620f6112fe859c5a1874e8612">More...</a><br /></td></tr>
-<tr class="separator:a5e7b448620f6112fe859c5a1874e8612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7fce8ea4dc8fdc09767a4f07859ff930"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#a7fce8ea4dc8fdc09767a4f07859ff930">operator[]</a> (int i)</td></tr>
-<tr class="memdesc:a7fce8ea4dc8fdc09767a4f07859ff930"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the node at position <em>i</em>.  <a href="#a7fce8ea4dc8fdc09767a4f07859ff930">More...</a><br /></td></tr>
-<tr class="separator:a7fce8ea4dc8fdc09767a4f07859ff930"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4319b922497b233fdf7e89479305a5ab"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#a4319b922497b233fdf7e89479305a5ab">operator[]</a> (int i) const override</td></tr>
+<tr class="memdesc:a4319b922497b233fdf7e89479305a5ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the node at position <em>i</em>.  <a href="#a4319b922497b233fdf7e89479305a5ab">More...</a><br /></td></tr>
+<tr class="separator:a4319b922497b233fdf7e89479305a5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9357bb68e52428a89c7387c791f3b65d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gaab7fa381c31d9d41aaeec9046392b323">node</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#a9357bb68e52428a89c7387c791f3b65d">operator[]</a> (int i) override</td></tr>
+<tr class="memdesc:a9357bb68e52428a89c7387c791f3b65d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the node at position <em>i</em>.  <a href="#a9357bb68e52428a89c7387c791f3b65d">More...</a><br /></td></tr>
+<tr class="separator:a9357bb68e52428a89c7387c791f3b65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ec8d24652a4fbf91e0d793164a2ba36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#a4ec8d24652a4fbf91e0d793164a2ba36">recalcPos</a> ()</td></tr>
 <tr class="separator:a4ec8d24652a4fbf91e0d793164a2ba36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af944a8791ae5a4550d8ebb3d07b8229f"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#af944a8791ae5a4550d8ebb3d07b8229f">size</a> () const</td></tr>
-<tr class="memdesc:af944a8791ae5a4550d8ebb3d07b8229f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of nodes on this level.  <a href="#af944a8791ae5a4550d8ebb3d07b8229f">More...</a><br /></td></tr>
-<tr class="separator:af944a8791ae5a4550d8ebb3d07b8229f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d1318f0cc8548775fc03f39aeb05ac"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#ae8d1318f0cc8548775fc03f39aeb05ac">size</a> () const override</td></tr>
+<tr class="memdesc:ae8d1318f0cc8548775fc03f39aeb05ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of nodes on this level.  <a href="#ae8d1318f0cc8548775fc03f39aeb05ac">More...</a><br /></td></tr>
+<tr class="separator:ae8d1318f0cc8548775fc03f39aeb05ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96bf2f149db78eb5319272d6b89a021d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_level.html#a96bf2f149db78eb5319272d6b89a021d">sort</a> (<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; double &gt; &amp;weight)</td></tr>
 <tr class="memdesc:a96bf2f149db78eb5319272d6b89a021d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the nodes according to <em>weight</em> using quicksort.  <a href="#a96bf2f149db78eb5319272d6b89a021d">More...</a><br /></td></tr>
 <tr class="separator:a96bf2f149db78eb5319272d6b89a021d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -231,7 +230,7 @@ Friends</h2></td></tr>
 <div class="textblock"><p>Representation of levels in hierarchies. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="classogdf_1_1_hierarchy.html" title="Representation of proper hierarchies used by Sugiyama-layout. ">Hierarchy</a>, <a class="el" href="classogdf_1_1_sugiyama_layout.html" title="Sugiyama&#39;s layout algorithm. ">SugiyamaLayout</a> </dd></dl>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00064">64</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00061">61</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac7585a6c310afa526889c7a5a1ceebe1"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7585a6c310afa526889c7a5a1ceebe1">&sect;&nbsp;</a></span>Level()</h2>
@@ -283,7 +282,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00081">81</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00078">78</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -310,7 +309,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00085">85</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00082">82</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -361,8 +360,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="a7a1ae7413149824d12a27e1196545f0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a1ae7413149824d12a27e1196545f0c">&sect;&nbsp;</a></span>high()</h2>
+<a id="ad46bdf457b45efd38eba9d3e0374bbab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad46bdf457b45efd38eba9d3e0374bbab">&sect;&nbsp;</a></span>high()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,16 +378,16 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the maximal array index (= <a class="el" href="classogdf_1_1_level.html#af944a8791ae5a4550d8ebb3d07b8229f" title="Returns the number of nodes on this level. ">size()</a>-1). </p>
+<p>Returns the maximal array index (= <a class="el" href="classogdf_1_1_level.html#ae8d1318f0cc8548775fc03f39aeb05ac" title="Returns the number of nodes on this level. ">size()</a>-1). </p>
 
 <p>Implements <a class="el" href="classogdf_1_1_level_base.html#a08b7f85ba1f193e1b24302a410ebaaf6">ogdf::LevelBase</a>.</p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00096">96</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00093">93</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -417,7 +416,7 @@ Friends</h2></td></tr>
 
 <p>Returns the array index of this level in the hierarchy. </p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00099">99</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00096">96</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -446,12 +445,12 @@ Friends</h2></td></tr>
 
 <p>Returns the hierarchy to which this level belongs. </p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00105">105</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00102">102</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
-<a id="a5e7b448620f6112fe859c5a1874e8612"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e7b448620f6112fe859c5a1874e8612">&sect;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+<a id="a4319b922497b233fdf7e89479305a5ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4319b922497b233fdf7e89479305a5ab">&sect;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +468,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -478,12 +477,12 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classogdf_1_1_level_base.html#a05572a205c682f1613f2b6ef31d5ed61">ogdf::LevelBase</a>.</p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00088">88</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00085">85</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
-<a id="a7fce8ea4dc8fdc09767a4f07859ff930"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fce8ea4dc8fdc09767a4f07859ff930">&sect;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+<a id="a9357bb68e52428a89c7387c791f3b65d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9357bb68e52428a89c7387c791f3b65d">&sect;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -501,7 +500,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -510,7 +509,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classogdf_1_1_level_base.html#a55be6e9cc51ad253eae5e3114cb322cd">ogdf::LevelBase</a>.</p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00090">90</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00087">87</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -557,8 +556,8 @@ Friends</h2></td></tr>
 
 </div>
 </div>
-<a id="af944a8791ae5a4550d8ebb3d07b8229f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af944a8791ae5a4550d8ebb3d07b8229f">&sect;&nbsp;</a></span>size()</h2>
+<a id="ae8d1318f0cc8548775fc03f39aeb05ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8d1318f0cc8548775fc03f39aeb05ac">&sect;&nbsp;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -575,7 +574,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -584,7 +583,7 @@ Friends</h2></td></tr>
 
 <p>Implements <a class="el" href="classogdf_1_1_level_base.html#a7678962f4fc7509babedbfb648d69ef2">ogdf::LevelBase</a>.</p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00093">93</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00090">90</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -692,7 +691,7 @@ template&lt;class C &gt; </div>
 
 <p>Sorts the nodes according to <em>orderComparer</em>. </p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00121">121</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00118">118</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -747,7 +746,7 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00067">67</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00064">64</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -771,7 +770,7 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00066">66</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00063">63</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -795,7 +794,7 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00068">68</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00065">65</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -833,7 +832,7 @@ template&lt;class C &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00128">128</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00125">125</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -860,7 +859,7 @@ template&lt;class C &gt; </div>
 
 <p>The index of this level. </p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00072">72</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00069">69</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -886,7 +885,7 @@ template&lt;class C &gt; </div>
 
 <p>The nodes on this level. </p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00070">70</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00067">67</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -912,7 +911,7 @@ template&lt;class C &gt; </div>
 
 <p>The hierarchy to which this level belongs. </p>
 
-<p>Definition at line <a class="el" href="_level_8h_source.html#l00071">71</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
+<p>Definition at line <a class="el" href="_level_8h_source.html#l00068">68</a> of file <a class="el" href="_level_8h_source.html">Level.h</a>.</p>
 
 </div>
 </div>
@@ -925,7 +924,7 @@ template&lt;class C &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_level.html">Level</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -49,7 +49,6 @@ var group__gd_energy =
       [ "~FastMultipoleEmbedder", "classogdf_1_1_fast_multipole_embedder.html#a09ae482a109fb21d2d15bf56853c9fb1", null ],
       [ "allocate", "classogdf_1_1_fast_multipole_embedder.html#a8ccf1a05aac3ff1ffe0fdf1a53850972", null ],
       [ "call", "classogdf_1_1_fast_multipole_embedder.html#ac9b5aa4f97e71b5474b976fe005946e3", null ],
-      [ "call", "classogdf_1_1_fast_multipole_embedder.html#aa136e83440bba71ddaa94ed00431b615", null ],
       [ "call", "classogdf_1_1_fast_multipole_embedder.html#a31a9adb3a11dae1c382bdb1e6a1ea595", null ],
       [ "call", "classogdf_1_1_fast_multipole_embedder.html#a3c87735b84ed6a6c4235c101f0f48f73", null ],
       [ "deallocate", "classogdf_1_1_fast_multipole_embedder.html#a23770fcdb7941cc9549815c2bd531704", null ],
@@ -77,7 +76,7 @@ var group__gd_energy =
     [ "FastMultipoleMultilevelEmbedder", "classogdf_1_1_fast_multipole_multilevel_embedder.html", [
       [ "FastMultipoleMultilevelEmbedder", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a2767b422492e3e154520b114e8c98ee6", null ],
       [ "assignPositionsFromPrevLevel", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a1a76a83c569bc073b7faab85a710bf1d", null ],
-      [ "call", "classogdf_1_1_fast_multipole_multilevel_embedder.html#af957d0d5a673c2fcf9a78539fe4bf565", null ],
+      [ "call", "classogdf_1_1_fast_multipole_multilevel_embedder.html#afffca85e9929ae427a6f97268b7df549", null ],
       [ "computeAutoEdgeLength", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a9b24d5ea5042d0d6b3eca2cdd85f4f5a", null ],
       [ "createMultiLevelGraphs", "classogdf_1_1_fast_multipole_multilevel_embedder.html#afabef2d3b25ce9155d5de87976c37f40", null ],
       [ "deleteMultiLevelGraphs", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a06f0924cb958bec5366377a71cd010d3", null ],
@@ -200,7 +199,6 @@ var group__gd_energy =
       [ "calculate_repulsive_forces", "classogdf_1_1_f_m_m_m_layout.html#afa95ad8065a75c57b42f657af470f0c1", null ],
       [ "call", "classogdf_1_1_f_m_m_m_layout.html#ad71271824a40f2173a68299e60b86cd3", null ],
       [ "call", "classogdf_1_1_f_m_m_m_layout.html#aefb3019da11a9fc78e358baad149fbec", null ],
-      [ "call", "classogdf_1_1_f_m_m_m_layout.html#afbb13e8163a6aa4b503dc8c4597cdfbd", null ],
       [ "call", "classogdf_1_1_f_m_m_m_layout.html#a37a47f9ea424302b97a478100a786256", null ],
       [ "call", "classogdf_1_1_f_m_m_m_layout.html#a05f7d08816ef0a6b2781526b1ddb9904", null ],
       [ "call", "classogdf_1_1_f_m_m_m_layout.html#a8724c8d3bfcae5b380cd46f9a99018c7", null ],
@@ -447,7 +445,6 @@ var group__gd_energy =
       [ "MultilevelLayout", "classogdf_1_1_multilevel_layout.html#a6acde7d2367cb2b4d1410c85a2f9f08a", null ],
       [ "~MultilevelLayout", "classogdf_1_1_multilevel_layout.html#a343cfe1d411de489c606073dd1518f30", null ],
       [ "call", "classogdf_1_1_multilevel_layout.html#a9c6e95b15d777adf39cc9e5985acde5a", null ],
-      [ "call", "classogdf_1_1_multilevel_layout.html#afcfa2b2612ff2bade2ca0889001a0ccd", null ],
       [ "setLayout", "classogdf_1_1_multilevel_layout.html#aece943d43a78ece502565ab171e51bcb", null ],
       [ "setMultilevelBuilder", "classogdf_1_1_multilevel_layout.html#aa2a58623f31d8136d51972a7c83395a5", null ],
       [ "setPlacer", "classogdf_1_1_multilevel_layout.html#a768ad43a802e797e126d58f263aaaee8", null ],
@@ -497,27 +494,27 @@ var group__gd_energy =
       ] ],
       [ "ForceModelEades", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_eades.html", [
         [ "ForceModelEades", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_eades.html#adca028eebaff8cf913536711e3583f2e", null ],
-        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_eades.html#abe9865d1432aea45f27d125f0aec3c89", null ]
+        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_eades.html#a303ba8bad59dadcc7e140031113e1f1f", null ]
       ] ],
       [ "ForceModelFR", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r.html", [
         [ "ForceModelFR", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r.html#a1081bb69bc7887585b26487cffc390c9", null ],
-        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r.html#aa44e404c83f3cd8c13a356bcc211cec9", null ]
+        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r.html#a43fe67741dfe3f59e0fa284882f31352", null ]
       ] ],
       [ "ForceModelFRModAttr", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r_mod_attr.html", [
         [ "ForceModelFRModAttr", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r_mod_attr.html#a888319d8db4ad321928b4d55a12f1931", null ],
-        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r_mod_attr.html#a4457bb47fdc2d59d26f64aedbe44ee23", null ]
+        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r_mod_attr.html#a6775c865321bd00c39f0ead7400fdf9d", null ]
       ] ],
       [ "ForceModelFRModRep", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r_mod_rep.html", [
         [ "ForceModelFRModRep", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r_mod_rep.html#ace3cc17495d10beae4c2a391f44c2b1d", null ],
-        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r_mod_rep.html#a2cf156088a0f8ebb8f8eae29acf58304", null ]
+        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_f_r_mod_rep.html#adf222cec53ac86c331dd34fe85508b5a", null ]
       ] ],
       [ "ForceModelGronemann", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_gronemann.html", [
         [ "ForceModelGronemann", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_gronemann.html#afdf19afb269fb2f695336a0e40aee7a0", null ],
-        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_gronemann.html#ab3251274ac8676a6a78d0e66ddceb37d", null ]
+        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_gronemann.html#ac4fd881b2ec0ba2fc00a63490025d707", null ]
       ] ],
       [ "ForceModelHachul", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_hachul.html", [
         [ "ForceModelHachul", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_hachul.html#a145ff5fe4a63b8194919faa2663be1f0", null ],
-        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_hachul.html#a4b5ef86a7452a469acec2b251f70069a", null ]
+        [ "computeDisplacement", "classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_hachul.html#ac6ee92f86841ff607e93374d77969a28", null ]
       ] ],
       [ "NodeInfo", "structogdf_1_1_spring_embedder_grid_variant_1_1_node_info.html", [
         [ "m_adjBegin", "structogdf_1_1_spring_embedder_grid_variant_1_1_node_info.html#a1ee2c2560477564a9147979b49a58e8f", null ],
@@ -603,7 +600,6 @@ var group__gd_energy =
       [ "allpairssp", "classogdf_1_1_spring_embedder_k_k.html#a423f3e7eac3f22a3811d6c0b7ee4136f", null ],
       [ "allpairsspBFS", "classogdf_1_1_spring_embedder_k_k.html#ae3b89961101ca136214738f82232d0bb", null ],
       [ "call", "classogdf_1_1_spring_embedder_k_k.html#aab0d17c733577b620d3dd0d8fda57f18", null ],
-      [ "call", "classogdf_1_1_spring_embedder_k_k.html#ab70588097ed6a6d996ca6a52e1919e2a", null ],
       [ "call", "classogdf_1_1_spring_embedder_k_k.html#af97eea9645d262bc8d98ddeaf01962d4", null ],
       [ "computeMaxIterations", "classogdf_1_1_spring_embedder_k_k.html#af753777411c8e144e0344b2fe62faa88", null ],
       [ "computeParDer", "classogdf_1_1_spring_embedder_k_k.html#a65fcabf24af8e1d41e29ef7737b7a490", null ],
@@ -656,7 +652,6 @@ var group__gd_energy =
       [ "calcStress", "classogdf_1_1_stress_minimization.html#a69339617fef5bc75b07fbfc52cd5bcdb", null ],
       [ "calcWeights", "classogdf_1_1_stress_minimization.html#a859e0c8d0e2289a3b7d5038b1779c02a", null ],
       [ "call", "classogdf_1_1_stress_minimization.html#a0d7c78021d03c1a890e54329cbd15bdd", null ],
-      [ "call", "classogdf_1_1_stress_minimization.html#aeb31e81ebd9008ff68c83d73ef942421", null ],
       [ "call", "classogdf_1_1_stress_minimization.html#a6a95d489ac58dd21e6138c69f499aa60", null ],
       [ "computeInitialLayout", "classogdf_1_1_stress_minimization.html#a926b10b498f983a3fba4ad94f21ccbd1", null ],
       [ "convergenceCriterion", "classogdf_1_1_stress_minimization.html#a4e82d027db46d2da8271a35ec1817f6a", null ],
@@ -695,7 +690,6 @@ var group__gd_energy =
       [ "bbox", "classogdf_1_1_tutte_layout.html#afd2a50c73932cafb370227ff7e175592", null ],
       [ "call", "classogdf_1_1_tutte_layout.html#a7605d501a1aa338464259694ead16f29", null ],
       [ "call", "classogdf_1_1_tutte_layout.html#a4ee54539f13bfb18912b0298579951cd", null ],
-      [ "call", "classogdf_1_1_tutte_layout.html#a6a693ac24c638282137889766e698bba", null ],
       [ "doCall", "classogdf_1_1_tutte_layout.html#a42c2c3489030441f84c2592502c17ee6", null ],
       [ "setFixedNodes", "classogdf_1_1_tutte_layout.html#a85f1a4f156e7eb8d80a5cebd6937fc90", null ],
       [ "setFixedNodes", "classogdf_1_1_tutte_layout.html#a4d77eca413637af7dcddf98cfe904ab8", null ],

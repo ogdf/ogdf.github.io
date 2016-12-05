@@ -1,0 +1,5 @@
+<map id="ogdf::steinertree::Save&lt; T &gt;" name="ogdf::steinertree::Save&lt; T &gt;">
+<area shape="rect" id="node2" href="$classogdf_1_1steinertree_1_1_save_dynamic.html" title="Dynamically updatable weighted Tree for determining save edges via LCA computation. " alt="" coords="177,5,313,47"/>
+<area shape="rect" id="node3" href="$classogdf_1_1steinertree_1_1_save_enum.html" title="This class computes save edges recursively and stores for every node pair their save edge in a HashAr..." alt="" coords="183,71,307,112"/>
+<area shape="rect" id="node4" href="$classogdf_1_1steinertree_1_1_save_static.html" title="This class behaves basically the same as SaveDynamic except that the update of the weighted graph is ..." alt="" coords="183,136,307,177"/>
+</map>

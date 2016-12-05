@@ -1,7 +1,6 @@
 var dir_5c3e22e53863203aa715a39f0bcb456b =
 [
     [ "AStarSearch.h", "_a_star_search_8h.html", [
-      [ "UninformedHeuristic", "structogdf_1_1a__star__internal_1_1_uninformed_heuristic.html", "structogdf_1_1a__star__internal_1_1_uninformed_heuristic" ],
       [ "AStarSearch", "classogdf_1_1_a_star_search.html", "classogdf_1_1_a_star_search" ]
     ] ],
     [ "CliqueFinder.h", "_clique_finder_8h.html", null ],

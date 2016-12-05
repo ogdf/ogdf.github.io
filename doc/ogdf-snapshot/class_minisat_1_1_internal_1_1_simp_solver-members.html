@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('class_minisat_1_1_internal_1_1_simp_so
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#adfe4dc137b444f11b18d66e6d73a1f7f">extendModel</a>()</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#aa6b1d34ed1b25e7299c3cc8d2062100d">frozen</a></td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#aa07787e5e87d24887f33c723221049a5">garbage_frac</a></td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#ad83d741a852e8416daf69bc65fb4403d">garbageCollect</a>()</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#a081f5ab64abcfd5f9e12792d2e80d7a3">garbageCollect</a>() override</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#a3cd8391352515a832795b6fcdb0b9bd0">gatherTouchedClauses</a>()</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#aa44f632007911ae6cd4746d68c736e86">grow</a></td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#a08e9779358cea6c519974417d0d0f07d">implied</a>(const vec&lt; Lit &gt; &amp;c)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
@@ -291,9 +291,9 @@ $(document).ready(function(){initNavTree('class_minisat_1_1_internal_1_1_simp_so
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#a4c8994fc93c8d3d86285227372c3e5ac">substitute</a>(Var v, Lit x)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#a506dd4c9fa0066eebbb7087f5a469106">subsumption_lim</a></td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#ad6d70b751d05142c55e58968f1fc4291">subsumption_queue</a></td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html">Minisat::Internal::SimpSolver</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a95738d46513077f640715f219cc00fa8">toDimacs</a>(FILE *f, const vec&lt; Lit &gt; &amp;assumps)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a6afd603b32e872213d78e5cd454db700">toDimacs</a>(std::ostream &amp;out, const vec&lt; Lit &gt; &amp;assumps)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a5142c4e55d12046a94bb89e01b86bbf2">toDimacs</a>(const char *file, const vec&lt; Lit &gt; &amp;assumps)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#aec66a6a1d70ac7b0f696bf504e421628">toDimacs</a>(FILE *f, Clause &amp;c, vec&lt; Var &gt; &amp;map, Var &amp;max)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a179514477623a8710bc611db7a3fe293">toDimacs</a>(std::ostream &amp;out, Clause &amp;c, vec&lt; Var &gt; &amp;map, Var &amp;max)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"></td></tr>
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a9b3cda660f81634d663141a0fb519c33">toDimacs</a>(const char *file)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#afb95cf0d7c683ca818ba6dd950f787ff">toDimacs</a>(const char *file, Lit p)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
   <tr><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html#a267efa3f8e9f44091e3305d30436f93e">toDimacs</a>(const char *file, Lit p, Lit q)</td><td class="entry"><a class="el" href="class_minisat_1_1_internal_1_1_solver.html">Minisat::Internal::Solver</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
@@ -326,7 +326,7 @@ $(document).ready(function(){initNavTree('class_minisat_1_1_internal_1_1_simp_so
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

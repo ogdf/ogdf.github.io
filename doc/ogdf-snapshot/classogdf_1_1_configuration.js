@@ -21,13 +21,13 @@ var classogdf_1_1_configuration =
       [ "sysOSX", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca483f0986cc695d69679b1db777a7895c", null ],
       [ "sysSTOP", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14cae428b3b362a3719e9fd100cc3d7ab12e", null ]
     ] ],
-    [ "haveAbacus", "classogdf_1_1_configuration.html#ad6283e860c3a8dd0fa5a8836c558653b", null ],
-    [ "haveCoin", "classogdf_1_1_configuration.html#a163175b6a9d6e14302d276448a6f80b0", null ],
-    [ "haveLPSolver", "classogdf_1_1_configuration.html#ab31b16b733565f7b7f316dfabaf8a02e", null ],
+    [ "haveAbacus", "classogdf_1_1_configuration.html#aa1464fe50694e23470dbe20ed7f1d387", null ],
+    [ "haveCoin", "classogdf_1_1_configuration.html#a106c4a60c676615a1c9ce566acd2a167", null ],
+    [ "haveLPSolver", "classogdf_1_1_configuration.html#abb6b13d055d5dccdc2976cb2eedb2e5a", null ],
     [ "toString", "classogdf_1_1_configuration.html#a00ddd7e235de880bd5e975f46da4969d", null ],
     [ "toString", "classogdf_1_1_configuration.html#a527d0d4948147526c5d55f87749d38c3", null ],
     [ "toString", "classogdf_1_1_configuration.html#a1fc0a984676c712853234c7288f06469", null ],
-    [ "whichLPSolver", "classogdf_1_1_configuration.html#a30fdebcd2f5ad4888133d06fc8cdbbd7", null ],
-    [ "whichMemoryManager", "classogdf_1_1_configuration.html#afb2580aa9eedc5bbc7415ec80466e8e3", null ],
-    [ "whichSystem", "classogdf_1_1_configuration.html#a1e5ef10dd9acce83b1805aaca2f12158", null ]
+    [ "whichLPSolver", "classogdf_1_1_configuration.html#a40e372040952133c6d510b91ba2b0cbe", null ],
+    [ "whichMemoryManager", "classogdf_1_1_configuration.html#adf5d2aa496813344191e1f39adec7018", null ],
+    [ "whichSystem", "classogdf_1_1_configuration.html#a170f10fcbff220dd83abb6cb400c2573", null ]
 ];

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -157,14 +157,14 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a51ca788ea6a45c3db63ab44eea97df66"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_m_e_kernel_8h.html#a51ca788ea6a45c3db63ab44eea97df66">_MM_COMPUTE_FORCE</a>(dx,  dy,  s)&#160;&#160;&#160;_mm_div_ps((s),_mm_max_ps(_mm_mul_ps((s),_mm_set1_ps(<a class="el" href="_f_m_e_kernel_8h.html#a4721bac65e862377bd03ead52e4163c3">COMPUTE_FORCE_PROTECTION_FACTOR</a>)), _mm_add_ps(_mm_mul_ps((dx),(dx)), _mm_mul_ps((dy),(dy)))))</td></tr>
-<tr class="separator:a51ca788ea6a45c3db63ab44eea97df66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1671ec23be3ea0e68bda36a80be76cf7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_m_e_kernel_8h.html#a1671ec23be3ea0e68bda36a80be76cf7">COMPUTE_FORCE</a>(dx,  dy,  s)&#160;&#160;&#160;(s/(max&lt;float&gt;(s*<a class="el" href="_f_m_e_kernel_8h.html#a4721bac65e862377bd03ead52e4163c3">COMPUTE_FORCE_PROTECTION_FACTOR</a>, (dx)*(dx) + (dy)*(dy))))</td></tr>
-<tr class="separator:a1671ec23be3ea0e68bda36a80be76cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4721bac65e862377bd03ead52e4163c3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_m_e_kernel_8h.html#a4721bac65e862377bd03ead52e4163c3">COMPUTE_FORCE_PROTECTION_FACTOR</a>&#160;&#160;&#160;0.25f</td></tr>
-<tr class="separator:a4721bac65e862377bd03ead52e4163c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c08d6d050cb0fcb8016c51fc3300f82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_m_e_kernel_8h.html#a2c08d6d050cb0fcb8016c51fc3300f82">FME_KERNEL_USE_OLD</a></td></tr>
-<tr class="separator:a2c08d6d050cb0fcb8016c51fc3300f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adef62551a03da1d80361e703db41495d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_m_e_kernel_8h.html#adef62551a03da1d80361e703db41495d">OGDF_FME_KERNEL_COMPUTE_FORCE</a>(dx,  dy,  s)&#160;&#160;&#160;(s/(max&lt;float&gt;(s*<a class="el" href="_f_m_e_kernel_8h.html#a475f2b3a9a4188ba9a7d0744156f90b2">OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR</a>, (dx)*(dx) + (dy)*(dy))))</td></tr>
+<tr class="separator:adef62551a03da1d80361e703db41495d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a475f2b3a9a4188ba9a7d0744156f90b2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_m_e_kernel_8h.html#a475f2b3a9a4188ba9a7d0744156f90b2">OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR</a>&#160;&#160;&#160;0.25f</td></tr>
+<tr class="separator:a475f2b3a9a4188ba9a7d0744156f90b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6a2cbc4b833302d72be82835acbee43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_m_e_kernel_8h.html#ad6a2cbc4b833302d72be82835acbee43">OGDF_FME_KERNEL_MM_COMPUTE_FORCE</a>(dx,  dy,  s)&#160;&#160;&#160;_mm_div_ps((s),_mm_max_ps(_mm_mul_ps((s),_mm_set1_ps(<a class="el" href="_f_m_e_kernel_8h.html#a475f2b3a9a4188ba9a7d0744156f90b2">OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR</a>)), _mm_add_ps(_mm_mul_ps((dx),(dx)), _mm_mul_ps((dy),(dy)))))</td></tr>
+<tr class="separator:ad6a2cbc4b833302d72be82835acbee43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5176af2fb64289faad21412e0b5c48d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_f_m_e_kernel_8h.html#ae5176af2fb64289faad21412e0b5c48d">OGDF_FME_KERNEL_USE_OLD</a></td></tr>
+<tr class="separator:ae5176af2fb64289faad21412e0b5c48d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -195,22 +195,21 @@ Functions</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Martin Gronemann</dd></dl>
 <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />
- See README.txt in the root directory of the OGDF installation for details.</dd></dl>
+ See README.md in the OGDF root directory for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License Version 2 or 3 as published by the Free Software Foundation; see the file LICENSE.txt included in the packaging of this file for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</dd></dl>
-<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
+<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, see <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
 
 <p>Definition in file <a class="el" href="_f_m_e_kernel_8h_source.html">FMEKernel.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a51ca788ea6a45c3db63ab44eea97df66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51ca788ea6a45c3db63ab44eea97df66">&sect;&nbsp;</a></span>_MM_COMPUTE_FORCE</h2>
+<a id="adef62551a03da1d80361e703db41495d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adef62551a03da1d80361e703db41495d">&sect;&nbsp;</a></span>OGDF_FME_KERNEL_COMPUTE_FORCE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define _MM_COMPUTE_FORCE</td>
+          <td class="memname">#define OGDF_FME_KERNEL_COMPUTE_FORCE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">dx, </td>
@@ -230,59 +229,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;_mm_div_ps((s),_mm_max_ps(_mm_mul_ps((s),_mm_set1_ps(<a class="el" href="_f_m_e_kernel_8h.html#a4721bac65e862377bd03ead52e4163c3">COMPUTE_FORCE_PROTECTION_FACTOR</a>)), _mm_add_ps(_mm_mul_ps((dx),(dx)), _mm_mul_ps((dy),(dy)))))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_f_m_e_kernel_8h_source.html#l00073">73</a> of file <a class="el" href="_f_m_e_kernel_8h_source.html">FMEKernel.h</a>.</p>
-
-</div>
-</div>
-<a id="a1671ec23be3ea0e68bda36a80be76cf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1671ec23be3ea0e68bda36a80be76cf7">&sect;&nbsp;</a></span>COMPUTE_FORCE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define COMPUTE_FORCE</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">dx, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">dy, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">s&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(s/(max&lt;float&gt;(s*<a class="el" href="_f_m_e_kernel_8h.html#a4721bac65e862377bd03ead52e4163c3">COMPUTE_FORCE_PROTECTION_FACTOR</a>, (dx)*(dx) + (dy)*(dy))))</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="_f_m_e_kernel_8h_source.html#l00074">74</a> of file <a class="el" href="_f_m_e_kernel_8h_source.html">FMEKernel.h</a>.</p>
-
-</div>
-</div>
-<a id="a4721bac65e862377bd03ead52e4163c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4721bac65e862377bd03ead52e4163c3">&sect;&nbsp;</a></span>COMPUTE_FORCE_PROTECTION_FACTOR</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define COMPUTE_FORCE_PROTECTION_FACTOR&#160;&#160;&#160;0.25f</td>
+          <td></td><td>&#160;&#160;&#160;(s/(max&lt;float&gt;(s*<a class="el" href="_f_m_e_kernel_8h.html#a475f2b3a9a4188ba9a7d0744156f90b2">OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR</a>, (dx)*(dx) + (dy)*(dy))))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -291,19 +238,71 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2c08d6d050cb0fcb8016c51fc3300f82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c08d6d050cb0fcb8016c51fc3300f82">&sect;&nbsp;</a></span>FME_KERNEL_USE_OLD</h2>
+<a id="a475f2b3a9a4188ba9a7d0744156f90b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a475f2b3a9a4188ba9a7d0744156f90b2">&sect;&nbsp;</a></span>OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define FME_KERNEL_USE_OLD</td>
+          <td class="memname">#define OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR&#160;&#160;&#160;0.25f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_f_m_e_kernel_8h_source.html#l00069">69</a> of file <a class="el" href="_f_m_e_kernel_8h_source.html">FMEKernel.h</a>.</p>
+<p>Definition at line <a class="el" href="_f_m_e_kernel_8h_source.html#l00068">68</a> of file <a class="el" href="_f_m_e_kernel_8h_source.html">FMEKernel.h</a>.</p>
+
+</div>
+</div>
+<a id="ad6a2cbc4b833302d72be82835acbee43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6a2cbc4b833302d72be82835acbee43">&sect;&nbsp;</a></span>OGDF_FME_KERNEL_MM_COMPUTE_FORCE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OGDF_FME_KERNEL_MM_COMPUTE_FORCE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">dx, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">dy, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">s&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;_mm_div_ps((s),_mm_max_ps(_mm_mul_ps((s),_mm_set1_ps(<a class="el" href="_f_m_e_kernel_8h.html#a475f2b3a9a4188ba9a7d0744156f90b2">OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR</a>)), _mm_add_ps(_mm_mul_ps((dx),(dx)), _mm_mul_ps((dy),(dy)))))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_m_e_kernel_8h_source.html#l00070">70</a> of file <a class="el" href="_f_m_e_kernel_8h_source.html">FMEKernel.h</a>.</p>
+
+</div>
+</div>
+<a id="ae5176af2fb64289faad21412e0b5c48d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5176af2fb64289faad21412e0b5c48d">&sect;&nbsp;</a></span>OGDF_FME_KERNEL_USE_OLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OGDF_FME_KERNEL_USE_OLD</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="_f_m_e_kernel_8h_source.html#l00066">66</a> of file <a class="el" href="_f_m_e_kernel_8h_source.html">FMEKernel.h</a>.</p>
 
 </div>
 </div>
@@ -313,7 +312,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_c45e5be061fe902a23dc886ea87fe229.html">internal</a></li><li class="navelem"><a class="el" href="dir_af7e642d381ee0c7953e9300857f86ac.html">energybased</a></li><li class="navelem"><a class="el" href="_f_m_e_kernel_8h.html">FMEKernel.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -16,9 +16,9 @@ var _linear_quadtree_8h =
     [ "StoreWSPairFunctor", "structogdf_1_1_linear_quadtree_1_1_store_w_s_pair_functor.html", "structogdf_1_1_linear_quadtree_1_1_store_w_s_pair_functor" ],
     [ "top_down_traversal_functor", "structogdf_1_1_linear_quadtree_1_1top__down__traversal__functor.html", "structogdf_1_1_linear_quadtree_1_1top__down__traversal__functor" ],
     [ "wspd_functor", "structogdf_1_1_linear_quadtree_1_1wspd__functor.html", "structogdf_1_1_linear_quadtree_1_1wspd__functor" ],
-    [ "M2L_MIN_BOUND", "_linear_quadtree_8h.html#a702738bf21ae64f6cd7028f6a31cd65c", null ],
-    [ "WSPD_BOUND", "_linear_quadtree_8h.html#ad0472b1eb8266312b97b372a6eeb2fe1", null ],
-    [ "WSPD_BRANCH_BOUND", "_linear_quadtree_8h.html#a737b251870093dd2a120883dba0a5cc9", null ],
+    [ "OGDF_LQ_M2L_MIN_BOUND", "_linear_quadtree_8h.html#aaf572a074a37c089cf5ec3aef22509b9", null ],
+    [ "OGDF_LQ_WSPD_BOUND", "_linear_quadtree_8h.html#a214c43e8e1d628b5058998082054fc03", null ],
+    [ "OGDF_LQ_WSPD_BRANCH_BOUND", "_linear_quadtree_8h.html#a33c4ba4315cd658348d7b4a81a2e6fd2", null ],
     [ "LQPointComparer", "_linear_quadtree_8h.html#a88afc881b4ef316fd15ea81d3aaab584", null ],
     [ "swap", "_linear_quadtree_8h.html#ac86180a6087ccdbb51ba45c3f7153d0a", null ]
 ];

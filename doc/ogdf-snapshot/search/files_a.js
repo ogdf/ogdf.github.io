@@ -3,6 +3,7 @@ var searchData=
   ['layerbaseduprlayout_2eh',['LayerBasedUPRLayout.h',['../_layer_based_u_p_r_layout_8h.html',1,'']]],
   ['layerbylayersweep_2eh',['LayerByLayerSweep.h',['../_layer_by_layer_sweep_8h.html',1,'']]],
   ['layeredcrossminmodule_2eh',['LayeredCrossMinModule.h',['../_layered_cross_min_module_8h.html',1,'']]],
+  ['layout_2edox',['layout.dox',['../layout_8dox.html',1,'']]],
   ['layout_2eh',['Layout.h',['../_layout_8h.html',1,'']]],
   ['layoutclusterplanrepmodule_2eh',['LayoutClusterPlanRepModule.h',['../_layout_cluster_plan_rep_module_8h.html',1,'']]],
   ['layoutmodule_2eh',['LayoutModule.h',['../_layout_module_8h.html',1,'']]],
@@ -30,7 +31,6 @@ var searchData=
   ['lpsolution_2eh',['lpsolution.h',['../lpsolution_8h.html',1,'']]],
   ['lpsolution_2einc',['lpsolution.inc',['../lpsolution_8inc.html',1,'']]],
   ['lpsolver_2eh',['LPSolver.h',['../_l_p_solver_8h.html',1,'']]],
-  ['lpsolver_5fcoin_2eh',['LPSolver_coin.h',['../_l_p_solver__coin_8h.html',1,'']]],
   ['lpsub_2eh',['lpsub.h',['../lpsub_8h.html',1,'']]],
   ['lpsubosi_2eh',['lpsubosi.h',['../lpsubosi_8h.html',1,'']]],
   ['lpvarstat_2eh',['lpvarstat.h',['../lpvarstat_8h.html',1,'']]]

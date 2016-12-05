@@ -31,6 +31,7 @@ var searchData=
   ['totaltime_5f',['totalTime_',['../classabacus_1_1_master.html#acbece6f3e2e166d161244a17a252be5e',1,'abacus::Master']]],
   ['touched',['touched',['../class_minisat_1_1_internal_1_1_simp_solver.html#a83336d52c8f063f9577c2ca9eaae4887',1,'Minisat::Internal::SimpSolver']]],
   ['tr',['tr',['../classogdf_1_1_node_info.html#ad4766ee6cad93bb72e26f2106acf08ef',1,'ogdf::NodeInfo']]],
+  ['trace_5fcontext_5fsize',['trace_context_size',['../classbackward_1_1_printer.html#ad0785ce1f397d943a00093364f4c66b8',1,'backward::Printer']]],
   ['trail',['trail',['../class_minisat_1_1_internal_1_1_solver.html#a712e7ad2c6bd767d09e31e6070b1761c',1,'Minisat::Internal::Solver']]],
   ['trail_5flim',['trail_lim',['../class_minisat_1_1_internal_1_1_solver.html#a1025d2cf39e9775a5c0b14ea0cc68bd4',1,'Minisat::Internal::Solver']]],
   ['translate_5fx',['translate_x',['../classogdf_1_1_l_q_morton_functor.html#aa30baa718b48a2683a97bf29aeb0a593',1,'ogdf::LQMortonFunctor']]],

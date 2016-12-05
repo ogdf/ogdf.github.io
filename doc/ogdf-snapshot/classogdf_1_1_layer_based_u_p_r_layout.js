@@ -23,8 +23,8 @@ var classogdf_1_1_layer_based_u_p_r_layout =
     [ "setRanking", "classogdf_1_1_layer_based_u_p_r_layout.html#a64ebb6e37a1833c4d8dc00fc0ce4b94e", null ],
     [ "UPRLayoutSimple", "classogdf_1_1_layer_based_u_p_r_layout.html#a4d3ca4a28187e988c5072a97eb8a7b31", null ],
     [ "m_crossings", "classogdf_1_1_layer_based_u_p_r_layout.html#a4b78323047dc22bf317246cdf43449a7", null ],
-    [ "m_layout", "classogdf_1_1_layer_based_u_p_r_layout.html#a6f15aa8072d8d23e9ae66be623398360", null ],
+    [ "m_layout", "classogdf_1_1_layer_based_u_p_r_layout.html#a9722d594f1fd33326b672d0a96946462", null ],
     [ "m_maxLevelSize", "classogdf_1_1_layer_based_u_p_r_layout.html#ae8b13a30ecb49850de6d3013aebab0b3", null ],
     [ "m_numLevels", "classogdf_1_1_layer_based_u_p_r_layout.html#a6533a8b2be08ba3444cfac71d5b7aa26", null ],
-    [ "m_ranking", "classogdf_1_1_layer_based_u_p_r_layout.html#a4d5d54ab6467f496a8fc7a3fbed59e92", null ]
+    [ "m_ranking", "classogdf_1_1_layer_based_u_p_r_layout.html#a01a7010dc8c54a010527d1f00de3e9f5", null ]
 ];

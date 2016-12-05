@@ -34,7 +34,7 @@ var classogdf_1_1_min_steiner_tree_directed_cut =
     [ "m_callPrimalHeuristic", "classogdf_1_1_min_steiner_tree_directed_cut.html#a8cb8ed1bd158d30e5df0754749f0a396", null ],
     [ "m_configFile", "classogdf_1_1_min_steiner_tree_directed_cut.html#ae5b35f87933c7f4b06b53f802f111029", null ],
     [ "m_eps", "classogdf_1_1_min_steiner_tree_directed_cut.html#a6516583223f09559373373ca6ab853ff", null ],
-    [ "m_maxFlowModuleOption", "classogdf_1_1_min_steiner_tree_directed_cut.html#ad7dc9c3b092696d6a26fe942851511c9", null ],
+    [ "m_maxFlowModuleOption", "classogdf_1_1_min_steiner_tree_directed_cut.html#a3b621e4f54657f569ebe5ce8267aa421", null ],
     [ "m_maxNrAddedCuttingPlanes", "classogdf_1_1_min_steiner_tree_directed_cut.html#a73d6cf75714f50bab10fa44600ced8e1", null ],
     [ "m_minCardinalityCuts", "classogdf_1_1_min_steiner_tree_directed_cut.html#a530eb35be715988195601f48dd3832ee", null ],
     [ "m_nestedCutComputation", "classogdf_1_1_min_steiner_tree_directed_cut.html#ae114459a41b4299c12e5e6c63bcf322d", null ],

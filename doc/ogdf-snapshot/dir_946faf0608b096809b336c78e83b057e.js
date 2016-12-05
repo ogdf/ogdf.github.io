@@ -12,7 +12,6 @@ var dir_946faf0608b096809b336c78e83b057e =
     [ "internal", "dir_c45e5be061fe902a23dc886ea87fe229.html", "dir_c45e5be061fe902a23dc886ea87fe229" ],
     [ "labeling", "dir_392b0ed4197477394ec7de9e36ec1b59.html", "dir_392b0ed4197477394ec7de9e36ec1b59" ],
     [ "layered", "dir_61c8c5a4c1ba88ac4cf77fc0a2ab64da.html", "dir_61c8c5a4c1ba88ac4cf77fc0a2ab64da" ],
-    [ "legacy", "dir_ab6bf8293f24e8f63e5c4899625812d6.html", "dir_ab6bf8293f24e8f63e5c4899625812d6" ],
     [ "lib", "dir_cb2b16483ab3a94fc30acbfc3fb1ea4a.html", "dir_cb2b16483ab3a94fc30acbfc3fb1ea4a" ],
     [ "lpsolver", "dir_0ed09c5f354e980d9662b7930d4de972.html", "dir_0ed09c5f354e980d9662b7930d4de972" ],
     [ "misclayout", "dir_27cd2d186ce7d9a0d6e3df96b99e4371.html", "dir_27cd2d186ce7d9a0d6e3df96b99e4371" ],

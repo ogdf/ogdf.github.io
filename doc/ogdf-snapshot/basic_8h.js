@@ -2,15 +2,9 @@ var basic_8h =
 [
     [ "BucketFunc", "classogdf_1_1_bucket_func.html", "classogdf_1_1_bucket_func" ],
     [ "Initialization", "classogdf_1_1_initialization.html", "classogdf_1_1_initialization" ],
-    [ "__SIZEOF_POINTER__", "basic_8h.html#a8bd657ce95940b7c6087cf5aa54d5280", null ],
-    [ "OGDF_ASSERT", "basic_8h.html#aba9188896165f0dc2e3ad0ab69fab97c", null ],
-    [ "OGDF_ASSERT_IF", "basic_8h.html#ab6604de671117ba22fa29f81ca12bd94", null ],
-    [ "OGDF_DEBUG_OUTPUT", "basic_8h.html#ae6cfa506277f2be7e5bf8a40fe997954", null ],
-    [ "OGDF_DECL_ALIGN", "basic_8h.html#a0532a4f90bb38df3f833445d6694abee", null ],
-    [ "OGDF_DEPRECATED", "basic_8h.html#af4fa8370aa9ed84b5b53fe1246994d05", null ],
-    [ "OGDF_LIKELY", "basic_8h.html#ac9d6d876168a27d05a2fe25e6b2d99fd", null ],
-    [ "OGDF_SET_DEBUG_LEVEL", "basic_8h.html#a702bb462c4400c9f185596c59ceafee7", null ],
-    [ "OGDF_UNLIKELY", "basic_8h.html#a9c229025dd9a19d02997c31bf3726cf4", null ],
+    [ "OGDF_ASSERT", "group__macros.html#gaba9188896165f0dc2e3ad0ab69fab97c", null ],
+    [ "OGDF_ASSERT_IF", "group__macros.html#gab6604de671117ba22fa29f81ca12bd94", null ],
+    [ "OGDF_SET_DEBUG_LEVEL", "group__macros.html#ga702bb462c4400c9f185596c59ceafee7", null ],
     [ "Direction", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2b", [
       [ "before", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba316bd36a4da63c26954690d7624c4429", null ],
       [ "after", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba4c63159e8c0fde2efcf369d1251e43ee", null ]

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -149,53 +149,52 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a8c76a50428b67332c44f54dd025de67e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_max_flow_goldberg_tarjan_8h.html#a8c76a50428b67332c44f54dd025de67e">USE_MAX_ACTIVE_LABEL</a></td></tr>
-<tr class="separator:a8c76a50428b67332c44f54dd025de67e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f9d0aac57c90bcffbf48ddd4552da56"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_max_flow_goldberg_tarjan_8h.html#a7f9d0aac57c90bcffbf48ddd4552da56">USE_PUSH_RELABEL_SECOND_STAGE</a></td></tr>
-<tr class="separator:a7f9d0aac57c90bcffbf48ddd4552da56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ae1a3eb6e97cceedea9ee8ece42590f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_max_flow_goldberg_tarjan_8h.html#a7ae1a3eb6e97cceedea9ee8ece42590f">OGDF_GT_USE_MAX_ACTIVE_LABEL</a></td></tr>
+<tr class="separator:a7ae1a3eb6e97cceedea9ee8ece42590f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a706ef192e2de1ca7803da12c84ba12cd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="_max_flow_goldberg_tarjan_8h.html#a706ef192e2de1ca7803da12c84ba12cd">OGDF_GT_USE_PUSH_RELABEL_SECOND_STAGE</a></td></tr>
+<tr class="separator:a706ef192e2de1ca7803da12c84ba12cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Declaration and implementation of Goldberg-Tarjan max-flow algorithm with global relabeling and gap relabeling heuristic. </p>
 <dl class="section author"><dt>Author</dt><dd>Stephan Beyer, Hennes Hoffmann, Tilo Wiedera</dd></dl>
 <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />
- See README.txt in the root directory of the OGDF installation for details.</dd></dl>
+ See README.md in the OGDF root directory for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License Version 2 or 3 as published by the Free Software Foundation; see the file LICENSE.txt included in the packaging of this file for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</dd></dl>
-<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
+<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, see <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
 
 <p>Definition in file <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html">MaxFlowGoldbergTarjan.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a8c76a50428b67332c44f54dd025de67e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c76a50428b67332c44f54dd025de67e">&sect;&nbsp;</a></span>USE_MAX_ACTIVE_LABEL</h2>
+<a id="a7ae1a3eb6e97cceedea9ee8ece42590f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ae1a3eb6e97cceedea9ee8ece42590f">&sect;&nbsp;</a></span>OGDF_GT_USE_MAX_ACTIVE_LABEL</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USE_MAX_ACTIVE_LABEL</td>
+          <td class="memname">#define OGDF_GT_USE_MAX_ACTIVE_LABEL</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html#l00041">41</a> of file <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html">MaxFlowGoldbergTarjan.h</a>.</p>
+<p>Definition at line <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html#l00038">38</a> of file <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html">MaxFlowGoldbergTarjan.h</a>.</p>
 
 </div>
 </div>
-<a id="a7f9d0aac57c90bcffbf48ddd4552da56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f9d0aac57c90bcffbf48ddd4552da56">&sect;&nbsp;</a></span>USE_PUSH_RELABEL_SECOND_STAGE</h2>
+<a id="a706ef192e2de1ca7803da12c84ba12cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a706ef192e2de1ca7803da12c84ba12cd">&sect;&nbsp;</a></span>OGDF_GT_USE_PUSH_RELABEL_SECOND_STAGE</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USE_PUSH_RELABEL_SECOND_STAGE</td>
+          <td class="memname">#define OGDF_GT_USE_PUSH_RELABEL_SECOND_STAGE</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html#l00045">45</a> of file <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html">MaxFlowGoldbergTarjan.h</a>.</p>
+<p>Definition at line <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html#l00042">42</a> of file <a class="el" href="_max_flow_goldberg_tarjan_8h_source.html">MaxFlowGoldbergTarjan.h</a>.</p>
 
 </div>
 </div>
@@ -205,7 +204,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_5c3e22e53863203aa715a39f0bcb456b.html">graphalg</a></li><li class="navelem"><a class="el" href="_max_flow_goldberg_tarjan_8h.html">MaxFlowGoldbergTarjan.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

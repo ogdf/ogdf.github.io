@@ -13,6 +13,7 @@ var classogdf_1_1_boyer_myrvold =
     [ "planarEmbedPlanarGraph", "classogdf_1_1_boyer_myrvold.html#af7badef771901041703a1b081878c120", null ],
     [ "transform", "classogdf_1_1_boyer_myrvold.html#a22a8a438497960d41caadbd5397c9e5a", null ],
     [ "transform", "classogdf_1_1_boyer_myrvold.html#aeb03dd960f2e8dfc9a116f81f5533d4b", null ],
+    [ "transform", "classogdf_1_1_boyer_myrvold.html#ae2682665b85d0d40eec4e11bfe0a2055", null ],
     [ "nOfStructures", "classogdf_1_1_boyer_myrvold.html#a749b3172353091385e39e5600f2ab6a5", null ],
     [ "pBMP", "classogdf_1_1_boyer_myrvold.html#a842e998f6e26860280444c2d282a4aea", null ]
 ];

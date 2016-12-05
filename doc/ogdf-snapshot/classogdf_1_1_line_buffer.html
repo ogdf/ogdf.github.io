@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,48 +138,64 @@ $(document).ready(function(){initNavTree('classogdf_1_1_line_buffer.html','');})
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af12c99613e4517321d2d86b767a429d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#af12c99613e4517321d2d86b767a429d9">LineBuffer</a> (istream &amp;is)</td></tr>
+<tr class="memdesc:af12c99613e4517321d2d86b767a429d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construction.  <a href="#af12c99613e4517321d2d86b767a429d9">More...</a><br /></td></tr>
 <tr class="separator:af12c99613e4517321d2d86b767a429d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac27856c5ae41551e3e36c066dc251c78"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#ac27856c5ae41551e3e36c066dc251c78">~LineBuffer</a> ()</td></tr>
+<tr class="memdesc:ac27856c5ae41551e3e36c066dc251c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruction.  <a href="#ac27856c5ae41551e3e36c066dc251c78">More...</a><br /></td></tr>
 <tr class="separator:ac27856c5ae41551e3e36c066dc251c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a602e123b39de192bedeee33fa0f041e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a602e123b39de192bedeee33fa0f041e6">extractString</a> (const <a class="el" href="classogdf_1_1_line_buffer_position.html">LineBufferPosition</a> &amp;startPostion, const <a class="el" href="classogdf_1_1_line_buffer_position.html">LineBufferPosition</a> &amp;endPosition, string &amp;targetString)</td></tr>
+<tr class="memdesc:a602e123b39de192bedeee33fa0f041e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the characters which have been extracted from the line buffer starting from position <em>startPosition</em> (including it) to <em>endPosition</em> (excluding it) to targetString.  <a href="#a602e123b39de192bedeee33fa0f041e6">More...</a><br /></td></tr>
 <tr class="separator:a602e123b39de192bedeee33fa0f041e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05e8b6954422ad4825296f84772220fb"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a05e8b6954422ad4825296f84772220fb">getCurrentCharacter</a> () const</td></tr>
+<tr class="memdesc:a05e8b6954422ad4825296f84772220fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the character which is currently pointed to.  <a href="#a05e8b6954422ad4825296f84772220fb">More...</a><br /></td></tr>
 <tr class="separator:a05e8b6954422ad4825296f84772220fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad57328000ff25b39e48fdf7ce3940746"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_line_buffer_position.html">LineBufferPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#ad57328000ff25b39e48fdf7ce3940746">getCurrentPosition</a> () const</td></tr>
+<tr class="memdesc:ad57328000ff25b39e48fdf7ce3940746"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current position (as a copy)  <a href="#ad57328000ff25b39e48fdf7ce3940746">More...</a><br /></td></tr>
 <tr class="separator:ad57328000ff25b39e48fdf7ce3940746"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90618d335d494ef037d529174c98bef9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a90618d335d494ef037d529174c98bef9">getInputFileLineCounter</a> () const</td></tr>
+<tr class="memdesc:a90618d335d494ef037d529174c98bef9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns line number of the most recently read line of the input file.  <a href="#a90618d335d494ef037d529174c98bef9">More...</a><br /></td></tr>
 <tr class="separator:a90618d335d494ef037d529174c98bef9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80855c28bdf907c794b0eeed8b3efff0"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a80855c28bdf907c794b0eeed8b3efff0">moveToNextCharacter</a> ()</td></tr>
+<tr class="memdesc:a80855c28bdf907c794b0eeed8b3efff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves to the next position; reading of new lines and handling of eof are done internally.  <a href="#a80855c28bdf907c794b0eeed8b3efff0">More...</a><br /></td></tr>
 <tr class="separator:a80855c28bdf907c794b0eeed8b3efff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb9ef6da0f813404a774d535366e942f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#abb9ef6da0f813404a774d535366e942f">setCurrentPosition</a> (const <a class="el" href="classogdf_1_1_line_buffer_position.html">LineBufferPosition</a> &amp;newPosition)</td></tr>
+<tr class="memdesc:abb9ef6da0f813404a774d535366e942f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the current position to new positon.  <a href="#abb9ef6da0f813404a774d535366e942f">More...</a><br /></td></tr>
 <tr class="separator:abb9ef6da0f813404a774d535366e942f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79c6b5e5cff05862a965176dbdb30364"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a79c6b5e5cff05862a965176dbdb30364">skipWhitespace</a> ()</td></tr>
+<tr class="memdesc:a79c6b5e5cff05862a965176dbdb30364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves to the next character until the currentCharacter is no whitespace.  <a href="#a79c6b5e5cff05862a965176dbdb30364">More...</a><br /></td></tr>
 <tr class="separator:a79c6b5e5cff05862a965176dbdb30364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a7f40952c10b8a238e646f04751596fba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a7f40952c10b8a238e646f04751596fba">isValidPosition</a> (const <a class="el" href="classogdf_1_1_line_buffer_position.html">LineBufferPosition</a> &amp;position) const</td></tr>
+<tr class="memdesc:a7f40952c10b8a238e646f04751596fba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks wether the given <em>position</em> is valid.  <a href="#a7f40952c10b8a238e646f04751596fba">More...</a><br /></td></tr>
 <tr class="separator:a7f40952c10b8a238e646f04751596fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aeb4279335fba34ae686ffd48bb1b85ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_line_buffer_position.html">LineBufferPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#aeb4279335fba34ae686ffd48bb1b85ee">m_currentPosition</a></td></tr>
+<tr class="memdesc:aeb4279335fba34ae686ffd48bb1b85ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current position in m_linBuf.  <a href="#aeb4279335fba34ae686ffd48bb1b85ee">More...</a><br /></td></tr>
 <tr class="separator:aeb4279335fba34ae686ffd48bb1b85ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a970f7faf23716c4724bb7ba1554d06ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a970f7faf23716c4724bb7ba1554d06ae">m_inputFileLineCounter</a></td></tr>
+<tr class="memdesc:a970f7faf23716c4724bb7ba1554d06ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains the current line number of the input file;.  <a href="#a970f7faf23716c4724bb7ba1554d06ae">More...</a><br /></td></tr>
 <tr class="separator:a970f7faf23716c4724bb7ba1554d06ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9580967ce03e57b0e53a6dd44452fe96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a9580967ce03e57b0e53a6dd44452fe96">m_linBuf</a></td></tr>
+<tr class="memdesc:a9580967ce03e57b0e53a6dd44452fe96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to the line buffer.  <a href="#a9580967ce03e57b0e53a6dd44452fe96">More...</a><br /></td></tr>
 <tr class="separator:a9580967ce03e57b0e53a6dd44452fe96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c3d24ff92560149243a2ce5ac45f48f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a2c3d24ff92560149243a2ce5ac45f48f">m_lineUpdateCountArray</a></td></tr>
+<tr class="memdesc:a2c3d24ff92560149243a2ce5ac45f48f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contains for each line of the line buffer its update count.  <a href="#a2c3d24ff92560149243a2ce5ac45f48f">More...</a><br /></td></tr>
 <tr class="separator:a2c3d24ff92560149243a2ce5ac45f48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a307b9d18eb295accf8e8d93830c96ead"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a307b9d18eb295accf8e8d93830c96ead">m_numberOfMostRecentlyReadLine</a></td></tr>
+<tr class="memdesc:a307b9d18eb295accf8e8d93830c96ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line which has been read from the file most recently; this does not have to be equal to m_currentPosition.m_lineNumber because of the lookahead facilities.  <a href="#a307b9d18eb295accf8e8d93830c96ead">More...</a><br /></td></tr>
 <tr class="separator:a307b9d18eb295accf8e8d93830c96ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaad25a924a2cd2fa2934eadf9ddd68d4"><td class="memItemLeft" align="right" valign="top">istream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#aaad25a924a2cd2fa2934eadf9ddd68d4">m_pIs</a></td></tr>
+<tr class="memdesc:aaad25a924a2cd2fa2934eadf9ddd68d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle to the input file.  <a href="#aaad25a924a2cd2fa2934eadf9ddd68d4">More...</a><br /></td></tr>
 <tr class="separator:aaad25a924a2cd2fa2934eadf9ddd68d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class maintains the input file and provides a convenient interface to handle it. </p>
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00122">122</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00114">114</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af12c99613e4517321d2d86b767a429d9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af12c99613e4517321d2d86b767a429d9">&sect;&nbsp;</a></span>LineBuffer()</h2>
@@ -197,6 +213,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Construction. </p>
+
 </div>
 </div>
 <a id="ac27856c5ae41551e3e36c066dc251c78"></a>
@@ -213,6 +231,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Destruction. </p>
 
 </div>
 </div>
@@ -249,6 +269,17 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Copies the characters which have been extracted from the line buffer starting from position <em>startPosition</em> (including it) to <em>endPosition</em> (excluding it) to targetString. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startPostion</td><td>start position </td></tr>
+    <tr><td class="paramname">endPosition</td><td>end position </td></tr>
+    <tr><td class="paramname">targetString</td><td>string [<em>startPostion</em> .. <em>endPosition</em>] of the <a class="el" href="classogdf_1_1_line_buffer.html" title="This class maintains the input file and provides a convenient interface to handle it...">LineBuffer</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if the startPosition is not valid, i.e. the string is too long; targetString will contain the message "String too long!" </dd></dl>
+
 </div>
 </div>
 <a id="a05e8b6954422ad4825296f84772220fb"></a>
@@ -274,7 +305,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00161">161</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>Returns the character which is currently pointed to. </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00155">155</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -301,7 +334,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00156">156</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>Returns the current position (as a copy) </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00150">150</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -328,7 +363,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00170">170</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>Returns line number of the most recently read line of the input file. </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00164">164</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -356,6 +393,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Checks wether the given <em>position</em> is valid. </p>
+
 </div>
 </div>
 <a id="a80855c28bdf907c794b0eeed8b3efff0"></a>
@@ -372,6 +411,9 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Moves to the next position; reading of new lines and handling of eof are done internally. </p>
+<p>If end of file is reached the position will stuck to EOF character. The current character after moving is returned </p>
 
 </div>
 </div>
@@ -391,6 +433,15 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Sets the current position to new positon. </p>
+<p>Takes care if the given newPosition is valid. </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">newPosition</td><td>new position </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>false if given position is invalid </dd></dl>
+
 </div>
 </div>
 <a id="a79c6b5e5cff05862a965176dbdb30364"></a>
@@ -407,6 +458,8 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Moves to the next character until the currentCharacter is no whitespace. </p>
 
 </div>
 </div>
@@ -431,7 +484,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00136">136</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>The current position in m_linBuf. </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00128">128</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -455,7 +510,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00145">145</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>Contains the current line number of the input file;. </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00139">139</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -479,7 +536,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00133">133</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>Pointer to the line buffer. </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00125">125</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -503,7 +562,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00130">130</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>Contains for each line of the line buffer its update count. </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00122">122</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -527,7 +588,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00142">142</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>The line which has been read from the file most recently; this does not have to be equal to m_currentPosition.m_lineNumber because of the lookahead facilities. </p>
+<p>Range is [0 .. <em>c_maxNoOfLines</em> - 1] </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00136">136</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -551,7 +615,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00127">127</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p>Handle to the input file. </p>
+
+<p>Definition at line <a class="el" href="_line_buffer_8h_source.html#l00119">119</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -564,7 +630,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_line_buffer.html">LineBuffer</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

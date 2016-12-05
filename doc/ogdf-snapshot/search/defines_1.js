@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['abacus_5flp_5fosi',['ABACUS_LP_OSI',['../config_8h.html#a425c4218f250b467f2bfe8a05c627d19',1,'config.h']]],
-  ['abacus_5fversion',['ABACUS_VERSION',['../abacusroot_8h.html#afd5ac9051c12e6f1487ca31335cc8886',1,'abacusroot.h']]],
-  ['abacus_5fversion_5fstring',['ABACUS_VERSION_STRING',['../abacusroot_8h.html#aeb3452255bf995e1dc50cde54d9cccae',1,'abacusroot.h']]]
+  ['backward_5fatleast_5fcxx98',['BACKWARD_ATLEAST_CXX98',['../backward_8hpp.html#aaf7db9f321c0520a0e7f901eec032d6f',1,'backward.hpp']]],
+  ['backward_5fcxx98',['BACKWARD_CXX98',['../backward_8hpp.html#abf3b44e8f938981812f1a8b796b9dbd6',1,'backward.hpp']]],
+  ['backward_5fsystem_5funknown',['BACKWARD_SYSTEM_UNKNOWN',['../backward_8hpp.html#afcee5c9532cda64f6fa6fefd5882b8b9',1,'backward.hpp']]]
 ];

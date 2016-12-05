@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -133,19 +133,18 @@ $(document).ready(function(){initNavTree('classogdf_1_1_list.html','');});
 <p>Doubly linked lists (maintaining the length of the list).  
  <a href="classogdf_1_1_list.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="basic_8h_source.html">ogdf/basic/basic.h</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="_list_8h_source.html">ogdf/basic/List.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ogdf::List&lt; E &gt;:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_list.png" usemap="#ogdf::List_3C_20E_20_3E_map" alt=""/>
-  <map id="ogdf::List_3C_20E_20_3E_map" name="ogdf::List&lt; E &gt;_map">
-<area href="classogdf_1_1_list_pure.html" title="Doubly linked lists. " alt="ogdf::ListPure&lt; E &gt;" shape="rect" coords="0,0,197,24"/>
-<area href="classogdf_1_1_list_container.html" alt="ogdf::ListContainer&lt; E, Master &gt;" shape="rect" coords="0,112,197,136"/>
+<div class="center"><img src="classogdf_1_1_list__inherit__graph.png" border="0" usemap="#ogdf_1_1_list_3_01_e_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_list_3_01_e_01_4_inherit__map" id="ogdf_1_1_list_3_01_e_01_4_inherit__map">
+<area shape="rect" id="node3" href="classogdf_1_1_list_container.html" title="ogdf::ListContainer\&lt; E \&gt;" alt="" coords="5,155,171,181"/>
+<area shape="rect" id="node2" href="classogdf_1_1_list_pure.html" title="Doubly linked lists. " alt="" coords="20,5,156,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -406,18 +405,18 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Random elements and permutations</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>These methods allow to select a random element in the list, or to randomly permute the list. </p>
 </div></td></tr>
-<tr class="memitem:ac55180ad490077c03d7724b79e572cc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a0e39860023fc62feb09a7e6f6a0dd331">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#ac55180ad490077c03d7724b79e572cc5">chooseIterator</a> () const</td></tr>
-<tr class="memdesc:ac55180ad490077c03d7724b79e572cc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to a random element in the list (or an invalid iterator if the list is empty).  <a href="#ac55180ad490077c03d7724b79e572cc5">More...</a><br /></td></tr>
-<tr class="separator:ac55180ad490077c03d7724b79e572cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b6bee1a57479e8c82172ae952a696e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#aaf260d0c818ad18d76352a8f56f15e7f">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#a7b6bee1a57479e8c82172ae952a696e1">chooseIterator</a> ()</td></tr>
-<tr class="memdesc:a7b6bee1a57479e8c82172ae952a696e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element in the list (or an invalid iterator if the list is empty).  <a href="#a7b6bee1a57479e8c82172ae952a696e1">More...</a><br /></td></tr>
-<tr class="separator:a7b6bee1a57479e8c82172ae952a696e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef82860c6adfdbf3b365b1d49d6e2d01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a44e25bc977d41563740f333f45d2da4b">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#aef82860c6adfdbf3b365b1d49d6e2d01">chooseElement</a> () const</td></tr>
-<tr class="memdesc:aef82860c6adfdbf3b365b1d49d6e2d01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random element from the list.  <a href="#aef82860c6adfdbf3b365b1d49d6e2d01">More...</a><br /></td></tr>
-<tr class="separator:aef82860c6adfdbf3b365b1d49d6e2d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47a12e4c22551cd75fbc324d9d87319c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a71a3f3ad8b5dd0946d457c42a6d416ce">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#a47a12e4c22551cd75fbc324d9d87319c">chooseElement</a> ()</td></tr>
-<tr class="memdesc:a47a12e4c22551cd75fbc324d9d87319c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random element from the list.  <a href="#a47a12e4c22551cd75fbc324d9d87319c">More...</a><br /></td></tr>
-<tr class="separator:a47a12e4c22551cd75fbc324d9d87319c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa13ca4cb2201b5bc7e282215b7a984bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a0e39860023fc62feb09a7e6f6a0dd331">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#aa13ca4cb2201b5bc7e282215b7a984bf">chooseIterator</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true) const</td></tr>
+<tr class="memdesc:aa13ca4cb2201b5bc7e282215b7a984bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element.  <a href="#aa13ca4cb2201b5bc7e282215b7a984bf">More...</a><br /></td></tr>
+<tr class="separator:aa13ca4cb2201b5bc7e282215b7a984bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9560cb622c2668e8e3231ee4c5421b8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#aaf260d0c818ad18d76352a8f56f15e7f">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#ab9560cb622c2668e8e3231ee4c5421b8">chooseIterator</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true)</td></tr>
+<tr class="memdesc:ab9560cb622c2668e8e3231ee4c5421b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element.  <a href="#ab9560cb622c2668e8e3231ee4c5421b8">More...</a><br /></td></tr>
+<tr class="separator:ab9560cb622c2668e8e3231ee4c5421b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab84d518432c2e14225894544007582d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a44e25bc977d41563740f333f45d2da4b">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#ab84d518432c2e14225894544007582d1">chooseElement</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true) const</td></tr>
+<tr class="memdesc:ab84d518432c2e14225894544007582d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random element.  <a href="#ab84d518432c2e14225894544007582d1">More...</a><br /></td></tr>
+<tr class="separator:ab84d518432c2e14225894544007582d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a921382cd23c920e1322a00c5b9060ddd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a71a3f3ad8b5dd0946d457c42a6d416ce">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#a921382cd23c920e1322a00c5b9060ddd">chooseElement</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true)</td></tr>
+<tr class="memdesc:a921382cd23c920e1322a00c5b9060ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random element.  <a href="#a921382cd23c920e1322a00c5b9060ddd">More...</a><br /></td></tr>
+<tr class="separator:a921382cd23c920e1322a00c5b9060ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0353ba8e41750ad9e21978a964af3f9b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html#a0353ba8e41750ad9e21978a964af3f9b">permute</a> ()</td></tr>
 <tr class="memdesc:a0353ba8e41750ad9e21978a964af3f9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Randomly permutes the elements in the list.  <a href="#a0353ba8e41750ad9e21978a964af3f9b">More...</a><br /></td></tr>
 <tr class="separator:a0353ba8e41750ad9e21978a964af3f9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -676,18 +675,18 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ab7b94f90f8525d31af8f36499b9c944c inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#ab7b94f90f8525d31af8f36499b9c944c">bucketSort</a> (int l, int h, <a class="el" href="classogdf_1_1_bucket_func.html">BucketFunc</a>&lt; E &gt; &amp;f)</td></tr>
 <tr class="memdesc:ab7b94f90f8525d31af8f36499b9c944c inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the list using bucket sort.  <a href="classogdf_1_1_list_pure.html#ab7b94f90f8525d31af8f36499b9c944c">More...</a><br /></td></tr>
 <tr class="separator:ab7b94f90f8525d31af8f36499b9c944c inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acdf1de500113b0e36d461ea2d2d85b08 inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a0e39860023fc62feb09a7e6f6a0dd331">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#acdf1de500113b0e36d461ea2d2d85b08">chooseIterator</a> () const</td></tr>
-<tr class="memdesc:acdf1de500113b0e36d461ea2d2d85b08 inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to a random element in the list (or an invalid iterator if the list is empty).  <a href="classogdf_1_1_list_pure.html#acdf1de500113b0e36d461ea2d2d85b08">More...</a><br /></td></tr>
-<tr class="separator:acdf1de500113b0e36d461ea2d2d85b08 inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd88546597ca9924e437e33ddadea0c2 inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#aaf260d0c818ad18d76352a8f56f15e7f">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#acd88546597ca9924e437e33ddadea0c2">chooseIterator</a> ()</td></tr>
-<tr class="memdesc:acd88546597ca9924e437e33ddadea0c2 inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element in the list (or an invalid iterator if the list is empty).  <a href="classogdf_1_1_list_pure.html#acd88546597ca9924e437e33ddadea0c2">More...</a><br /></td></tr>
-<tr class="separator:acd88546597ca9924e437e33ddadea0c2 inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37b3595eb2458fe63ee039522906f7b9 inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a44e25bc977d41563740f333f45d2da4b">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#a37b3595eb2458fe63ee039522906f7b9">chooseElement</a> () const</td></tr>
-<tr class="memdesc:a37b3595eb2458fe63ee039522906f7b9 inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random element from the list.  <a href="classogdf_1_1_list_pure.html#a37b3595eb2458fe63ee039522906f7b9">More...</a><br /></td></tr>
-<tr class="separator:a37b3595eb2458fe63ee039522906f7b9 inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2ae63065bb7452cdafddcfd15f120d3 inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a71a3f3ad8b5dd0946d457c42a6d416ce">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#ad2ae63065bb7452cdafddcfd15f120d3">chooseElement</a> ()</td></tr>
-<tr class="memdesc:ad2ae63065bb7452cdafddcfd15f120d3 inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random element from the list.  <a href="classogdf_1_1_list_pure.html#ad2ae63065bb7452cdafddcfd15f120d3">More...</a><br /></td></tr>
-<tr class="separator:ad2ae63065bb7452cdafddcfd15f120d3 inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10ad8156103c89d7eeadf70d69e3eeb3 inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a0e39860023fc62feb09a7e6f6a0dd331">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#a10ad8156103c89d7eeadf70d69e3eeb3">chooseIterator</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true) const</td></tr>
+<tr class="memdesc:a10ad8156103c89d7eeadf70d69e3eeb3 inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element.  <a href="classogdf_1_1_list_pure.html#a10ad8156103c89d7eeadf70d69e3eeb3">More...</a><br /></td></tr>
+<tr class="separator:a10ad8156103c89d7eeadf70d69e3eeb3 inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea0d04e988b6df0799cef6e52fc4796 inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#aaf260d0c818ad18d76352a8f56f15e7f">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#a5ea0d04e988b6df0799cef6e52fc4796">chooseIterator</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true)</td></tr>
+<tr class="memdesc:a5ea0d04e988b6df0799cef6e52fc4796 inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element.  <a href="classogdf_1_1_list_pure.html#a5ea0d04e988b6df0799cef6e52fc4796">More...</a><br /></td></tr>
+<tr class="separator:a5ea0d04e988b6df0799cef6e52fc4796 inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58c1d36899ad03ddcd4f4eaa8f8a0a4a inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a44e25bc977d41563740f333f45d2da4b">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#a58c1d36899ad03ddcd4f4eaa8f8a0a4a">chooseElement</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true) const</td></tr>
+<tr class="memdesc:a58c1d36899ad03ddcd4f4eaa8f8a0a4a inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classogdf_1_1_list.html#ab84d518432c2e14225894544007582d1" title="Returns a random element. ">List::chooseElement</a>.  <a href="classogdf_1_1_list_pure.html#a58c1d36899ad03ddcd4f4eaa8f8a0a4a">More...</a><br /></td></tr>
+<tr class="separator:a58c1d36899ad03ddcd4f4eaa8f8a0a4a inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af257e5f8ec6cee8acffbd5875ea25918 inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_pure.html#a71a3f3ad8b5dd0946d457c42a6d416ce">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#af257e5f8ec6cee8acffbd5875ea25918">chooseElement</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true)</td></tr>
+<tr class="memdesc:af257e5f8ec6cee8acffbd5875ea25918 inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classogdf_1_1_list.html#ab84d518432c2e14225894544007582d1" title="Returns a random element. ">List::chooseElement</a>.  <a href="classogdf_1_1_list_pure.html#af257e5f8ec6cee8acffbd5875ea25918">More...</a><br /></td></tr>
+<tr class="separator:af257e5f8ec6cee8acffbd5875ea25918 inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4559ea142811b2fb244fde238b95b3ae inherit pub_methods_classogdf_1_1_list_pure"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_pure.html#a4559ea142811b2fb244fde238b95b3ae">permute</a> ()</td></tr>
 <tr class="memdesc:a4559ea142811b2fb244fde238b95b3ae inherit pub_methods_classogdf_1_1_list_pure"><td class="mdescLeft">&#160;</td><td class="mdescRight">Randomly permutes the elements in the list.  <a href="classogdf_1_1_list_pure.html#a4559ea142811b2fb244fde238b95b3ae">More...</a><br /></td></tr>
 <tr class="separator:a4559ea142811b2fb244fde238b95b3ae inherit pub_methods_classogdf_1_1_list_pure"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -715,7 +714,7 @@ class ogdf::List&lt; E &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="basic_8h_source.html#l00166">166</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l00041">41</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab33d25793e30fe563a1fab41e303b27c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab33d25793e30fe563a1fab41e303b27c">&sect;&nbsp;</a></span>const_iterator</h2>
@@ -733,7 +732,7 @@ template&lt;class E&gt; </div>
 
 <p>Provides a bidirectional iterator that can read a const element in a list. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01260">1260</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01252">1252</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -753,7 +752,7 @@ template&lt;class E&gt; </div>
 
 <p>Provides a reference to a const element stored in a list for reading and performing const operations. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01258">1258</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01250">1250</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -773,7 +772,7 @@ template&lt;class E&gt; </div>
 
 <p>Provides a bidirectional iterator that can read or modify any element in a list. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01262">1262</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01254">1254</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -793,7 +792,7 @@ template&lt;class E&gt; </div>
 
 <p>Provides a reference to an element stored in a list. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01256">1256</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01248">1248</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -813,7 +812,7 @@ template&lt;class E&gt; </div>
 
 <p>Represents the data type stored in a list element. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01254">1254</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01246">1246</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -845,7 +844,7 @@ template&lt;class E&gt; </div>
 
 <p>Constructs an empty doubly linked list. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01265">1265</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01257">1257</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -877,7 +876,7 @@ template&lt;class E&gt; </div>
 
 <p>Constructs a doubly linked list containing the elements in <em>init</em>. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01268">1268</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01260">1260</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -909,7 +908,7 @@ template&lt;class E&gt; </div>
 
 <p>Constructs a doubly linked list that is a copy of <em>L</em>. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01271">1271</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01263">1263</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -942,7 +941,7 @@ template&lt;class E&gt; </div>
 <p>Constructs a doubly linked list containing the elements of <em>L</em> (move semantics). </p>
 <p>The list <em>L</em> is empty afterwards. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01277">1277</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01269">1269</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -973,7 +972,7 @@ template&lt;class E&gt; </div>
 
 <p>Destructor. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01282">1282</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01274">1274</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1006,7 +1005,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const reference to the last element. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The list is not empty! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01316">1316</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01308">1308</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1037,7 @@ template&lt;class E&gt; </div>
 <p>Returns a reference to the last element. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The list is not empty! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01322">1322</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01314">1314</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1069,7 @@ template&lt;class E&gt; </div>
 <p>Returns an iterator to the first element of the list. </p>
 <p>If the list is empty, a null pointer iterator is returned. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01368">1368</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01360">1360</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1102,7 +1101,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to the first element of the list. </p>
 <p>If the list is empty, a null pointer iterator is returned. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01374">1374</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01366">1366</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1159,7 +1158,7 @@ template&lt;class E&gt; </div>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd>The bucket function <em>f</em> will only return bucket values between <em>l</em> and <em>h</em> for this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01822">1822</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01814">1814</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1191,7 +1190,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to the first element of the list. </p>
 <p>If the list is empty, a null pointer iterator is returned. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01380">1380</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01372">1372</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1223,12 +1222,12 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to one-past-last element of the list. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01398">1398</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01390">1390</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="aef82860c6adfdbf3b365b1d49d6e2d01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef82860c6adfdbf3b365b1d49d6e2d01">&sect;&nbsp;</a></span>chooseElement() <span class="overload">[1/2]</span></h2>
+<a id="ab84d518432c2e14225894544007582d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab84d518432c2e14225894544007582d1">&sect;&nbsp;</a></span>chooseElement() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1241,8 +1240,19 @@ template&lt;class E&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classogdf_1_1_list_pure.html#a44e25bc977d41563740f333f45d2da4b">const_reference</a> <a class="el" href="classogdf_1_1_list.html">ogdf::List</a>&lt; E &gt;::chooseElement </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">std::function&lt; bool(const E &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>includeElement</em> = <code>[](const&#160;E&amp;)&#160;{&#160;return&#160;true;&#160;}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isFastTest</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -1252,16 +1262,16 @@ template&lt;class E&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a random element from the list. </p>
-<dl class="section pre"><dt>Precondition</dt><dd>The list is not empty!</dd></dl>
-<p>This method takes linear time. </p>
+<p>Returns a random element. </p>
+<p>Takes linear time. </p><dl class="section pre"><dt>Precondition</dt><dd>Requires at least one feasible element to exist.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>chooseElementFrom </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01856">1856</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01855">1855</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a47a12e4c22551cd75fbc324d9d87319c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47a12e4c22551cd75fbc324d9d87319c">&sect;&nbsp;</a></span>chooseElement() <span class="overload">[2/2]</span></h2>
+<a id="a921382cd23c920e1322a00c5b9060ddd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a921382cd23c920e1322a00c5b9060ddd">&sect;&nbsp;</a></span>chooseElement() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1274,8 +1284,19 @@ template&lt;class E&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classogdf_1_1_list_pure.html#a71a3f3ad8b5dd0946d457c42a6d416ce">reference</a> <a class="el" href="classogdf_1_1_list.html">ogdf::List</a>&lt; E &gt;::chooseElement </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::function&lt; bool(const E &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>includeElement</em> = <code>[](const&#160;E&amp;)&#160;{&#160;return&#160;true;&#160;}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isFastTest</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1285,16 +1306,16 @@ template&lt;class E&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a random element from the list. </p>
-<dl class="section pre"><dt>Precondition</dt><dd>The list is not empty!</dd></dl>
-<p>This method takes linear time. </p>
+<p>Returns a random element. </p>
+<p>Takes linear time. </p><dl class="section pre"><dt>Precondition</dt><dd>Requires at least one feasible element to exist.</dd></dl>
+<dl class="section see"><dt>See also</dt><dd>chooseElementFrom </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01867">1867</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01864">1864</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="ac55180ad490077c03d7724b79e572cc5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac55180ad490077c03d7724b79e572cc5">&sect;&nbsp;</a></span>chooseIterator() <span class="overload">[1/2]</span></h2>
+<a id="aa13ca4cb2201b5bc7e282215b7a984bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa13ca4cb2201b5bc7e282215b7a984bf">&sect;&nbsp;</a></span>chooseIterator() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1307,8 +1328,19 @@ template&lt;class E&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classogdf_1_1_list_pure.html#a0e39860023fc62feb09a7e6f6a0dd331">const_iterator</a> <a class="el" href="classogdf_1_1_list.html">ogdf::List</a>&lt; E &gt;::chooseIterator </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">std::function&lt; bool(const E &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>includeElement</em> = <code>[](const&#160;E&amp;)&#160;{&#160;return&#160;true;&#160;}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isFastTest</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -1318,15 +1350,16 @@ template&lt;class E&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a const iterator to a random element in the list (or an invalid iterator if the list is empty). </p>
-<p>This method takes linear time. </p>
+<p>Returns an iterator to a random element. </p>
+<p>Takes linear time. An invalid iterator is returned iff no feasible element exists.</p>
+<dl class="section see"><dt>See also</dt><dd>chooseElementFrom </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01838">1838</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01834">1834</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a7b6bee1a57479e8c82172ae952a696e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6bee1a57479e8c82172ae952a696e1">&sect;&nbsp;</a></span>chooseIterator() <span class="overload">[2/2]</span></h2>
+<a id="ab9560cb622c2668e8e3231ee4c5421b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9560cb622c2668e8e3231ee4c5421b8">&sect;&nbsp;</a></span>chooseIterator() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1339,8 +1372,19 @@ template&lt;class E&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classogdf_1_1_list_pure.html#aaf260d0c818ad18d76352a8f56f15e7f">iterator</a> <a class="el" href="classogdf_1_1_list.html">ogdf::List</a>&lt; E &gt;::chooseIterator </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::function&lt; bool(const E &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>includeElement</em> = <code>[](const&#160;E&amp;)&#160;{&#160;return&#160;true;&#160;}</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isFastTest</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -1350,10 +1394,11 @@ template&lt;class E&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns an iterator to a random element in the list (or an invalid iterator if the list is empty). </p>
-<p>This method takes linear time. </p>
+<p>Returns an iterator to a random element. </p>
+<p>Takes linear time. An invalid iterator is returned iff no feasible element exists.</p>
+<dl class="section see"><dt>See also</dt><dd>chooseElementFrom </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01846">1846</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01841">1841</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1384,7 +1429,7 @@ template&lt;class E&gt; </div>
 
 <p>Removes all elements from the list. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01643">1643</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01635">1635</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1461,7 @@ template&lt;class E&gt; </div>
 
 <p>Appends <em>L2</em> to this list and makes <em>L2</em> empty. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01731">1731</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01723">1723</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1448,7 +1493,7 @@ template&lt;class E&gt; </div>
 
 <p>Prepends <em>L2</em> to this list and makes <em>L2</em> empty. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01738">1738</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01730">1730</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1480,7 +1525,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to the last element of the list. </p>
 <p>If the list is empty, a null pointer iterator is returned. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01416">1416</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01408">1408</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1512,7 +1557,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to one-before-first element of the list. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01434">1434</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01426">1426</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1545,7 +1590,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to the cyclic predecessor of <em>it</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01456">1456</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01448">1448</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1578,7 +1623,7 @@ template&lt;class E&gt; </div>
 <p>Returns an iterator to the cyclic predecessor of <em>it</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01464">1464</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01456">1456</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1611,7 +1656,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to the cyclic successor of <em>it</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01440">1440</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01432">1432</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1644,7 +1689,7 @@ template&lt;class E&gt; </div>
 <p>Returns an iterator to the cyclic successor of <em>it</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01448">1448</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01440">1440</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1677,7 +1722,7 @@ template&lt;class E&gt; </div>
 <p>Removes <em>it</em> from the list. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01625">1625</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01617">1617</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1712,7 +1757,7 @@ template&lt;class ... Args&gt; </div>
 <p>Adds a new element at the end of the list. </p>
 <p>The element is constructed in-place with exactly the same arguments <em>args</em> as supplied to the function. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01539">1539</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01531">1531</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1747,7 +1792,7 @@ template&lt;class ... Args&gt; </div>
 <p>Adds a new element at the beginning of the list. </p>
 <p>The element is constructed in-place with exactly the same arguments <em>args</em> as supplied to the function. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01523">1523</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01515">1515</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1778,7 +1823,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns true iff the list is empty. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01292">1292</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01284">1284</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1810,7 +1855,7 @@ template&lt;class E&gt; </div>
 <p>Returns an iterator to one-past-last element of the list. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01386">1386</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01378">1378</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1842,7 +1887,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to one-past-last element of the list. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01392">1392</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01384">1384</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1885,7 +1930,7 @@ template&lt;class E&gt; </div>
 <p>Exchanges the positions of <em>it1</em> and <em>it2</em> in the list. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it1</em> and <em>it2</em> point to elements in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01660">1660</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01652">1652</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1917,7 +1962,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const reference to the first element. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The list is not empty! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01304">1304</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01296">1296</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1949,7 +1994,7 @@ template&lt;class E&gt; </div>
 <p>Returns a reference to the first element. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The list is not empty! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01310">1310</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01302">1302</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -1982,7 +2027,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator pointing to the element at position <em>pos</em>. </p>
 <p>The running time of this method is linear in <em>pos</em>. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01328">1328</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01320">1320</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2015,7 +2060,7 @@ template&lt;class E&gt; </div>
 <p>Returns an iterator pointing to the element at position <em>pos</em>. </p>
 <p>The running time of this method is linear in <em>pos</em>. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01338">1338</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01330">1330</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2046,7 +2091,7 @@ template&lt;class E&gt; </div>
 
 <p>Conversion to const <a class="el" href="classogdf_1_1_list_pure.html" title="Doubly linked lists. ">ListPure</a>. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01354">1354</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01346">1346</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2103,7 +2148,7 @@ template&lt;class E&gt; </div>
 </dl>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01552">1552</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01544">1544</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2146,7 +2191,7 @@ template&lt;class E&gt; </div>
 <p>Inserts element <em>x</em> after <em>it</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01570">1570</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01562">1562</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2189,7 +2234,7 @@ template&lt;class E&gt; </div>
 <p>Inserts element <em>x</em> before <em>it</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01561">1561</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01553">1553</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2222,7 +2267,7 @@ template&lt;class E&gt; </div>
 <p>Moves <em>it</em> to the end of the list. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in the list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01675">1675</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01667">1667</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2265,7 +2310,7 @@ template&lt;class E&gt; </div>
 <p>Moves <em>it</em> to the end of <em>L2</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01705">1705</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01697">1697</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2298,7 +2343,7 @@ template&lt;class E&gt; </div>
 <p>Moves <em>it</em> to the beginning of the list. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in the list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01668">1668</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01660">1660</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2341,7 +2386,7 @@ template&lt;class E&gt; </div>
 <p>Moves <em>it</em> to the beginning of <em>L2</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01697">1697</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01689">1689</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2384,7 +2429,7 @@ template&lt;class E&gt; </div>
 <p>Moves <em>it</em> before <em>itAfter</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> and <em>itAfter</em> point to elements in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01689">1689</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01681">1681</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2433,7 +2478,7 @@ template&lt;class E&gt; </div>
 <p>Moves <em>it</em> to list <em>L2</em> and inserts it after <em>itBefore</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list, and <em>itBefore</em> points to an element in <em>L2</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01724">1724</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01716">1716</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2476,7 +2521,7 @@ template&lt;class E&gt; </div>
 <p>Moves <em>it</em> after <em>itBefore</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> and <em>itBefore</em> point to elements in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01682">1682</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01674">1674</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2525,7 +2570,7 @@ template&lt;class E&gt; </div>
 <p>Moves <em>it</em> to list <em>L2</em> and inserts it after <em>itBefore</em>. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list, and <em>itBefore</em> points to an element in <em>L2</em>. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01715">1715</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01707">1707</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2557,7 +2602,7 @@ template&lt;class E&gt; </div>
 
 <p>Inequality operator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01500">1500</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01492">1492</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2589,7 +2634,7 @@ template&lt;class E&gt; </div>
 
 <p>Assignment operator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01477">1477</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01469">1469</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2622,7 +2667,7 @@ template&lt;class E&gt; </div>
 <p>Assignment operator (move semantics) </p>
 <p>The list <em>L</em> is empty afterwards. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01487">1487</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01479">1479</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2654,7 +2699,7 @@ template&lt;class E&gt; </div>
 
 <p>Equality operator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01495">1495</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01487">1487</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2751,7 +2796,7 @@ template&lt;class E&gt; </div>
 <p>Removes the last element from the list. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The list is not empty! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01606">1606</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01598">1598</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2783,7 +2828,7 @@ template&lt;class E&gt; </div>
 <p>Removes the last element from the list and returns it. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The list is not empty! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01615">1615</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01607">1607</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2815,7 +2860,7 @@ template&lt;class E&gt; </div>
 <p>Removes the first element from the list. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The list is not empty! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01587">1587</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01579">1579</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2847,7 +2892,7 @@ template&lt;class E&gt; </div>
 <p>Removes the first element from the list and returns it. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>The list is not empty! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01596">1596</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01588">1588</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2880,7 +2925,7 @@ template&lt;class E&gt; </div>
 <p>Returns the position (starting with 0) of iterator <em>it</em> in the list. </p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> is a valid iterator pointing to an element in this list! </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01348">1348</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01340">1340</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2912,7 +2957,7 @@ template&lt;class E&gt; </div>
 
 <p>Adds element <em>x</em> at the end of the list. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01529">1529</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01521">1521</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2944,7 +2989,7 @@ template&lt;class E&gt; </div>
 
 <p>Adds element <em>x</em> at the beginning of the list. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01513">1513</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01505">1505</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -2975,7 +3020,7 @@ template&lt;class E&gt; </div>
 
 <p>Sorts the list using Quicksort. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01804">1804</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01796">1796</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3009,7 +3054,7 @@ template&lt;class COMPARER &gt; </div>
 
 <p>Sorts the list using Quicksort and comparer <em>comp</em>. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01810">1810</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01802">1802</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3041,7 +3086,7 @@ template&lt;class E&gt; </div>
 <p>Returns an iterator to the last element of the list. </p>
 <p>If the list is empty, a null pointer iterator is returned. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01404">1404</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01396">1396</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3073,7 +3118,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to the last element of the list. </p>
 <p>If the list is empty, a null pointer iterator is returned. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01410">1410</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01402">1402</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3106,7 +3151,7 @@ template&lt;class E&gt; </div>
 <p>Removes the first occurrence of <em>x</em> (if any) from the list. </p>
 <p>If the list contains <em>x</em> several times, only the first element containing <em>x</em> is removed. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01635">1635</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01627">1627</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3138,7 +3183,7 @@ template&lt;class E&gt; </div>
 <p>Returns an iterator to one-before-first element of the list. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01422">1422</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01414">1414</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3170,7 +3215,7 @@ template&lt;class E&gt; </div>
 <p>Returns a const iterator to one-before-first element of the list. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01428">1428</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01420">1420</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3201,7 +3246,7 @@ template&lt;class E&gt; </div>
 
 <p>Reverses the order of the list elements. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01771">1771</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01763">1763</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3233,7 +3278,7 @@ template&lt;class E&gt; </div>
 
 <p>Scans the list for the specified element and returns an iterator to the first occurrence in the list, or an invalid iterator if not found. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01782">1782</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01774">1774</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3265,7 +3310,7 @@ template&lt;class E&gt; </div>
 
 <p>Scans the list for the specified element and returns an iterator to the first occurrence in the list, or an invalid iterator if not found. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01787">1787</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01779">1779</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3309,7 +3354,7 @@ template&lt;class COMPARER &gt; </div>
 
 <p>Scans the list for the specified element (using the user-defined comparer) and returns an iterator to the first occurrence in the list, or an invalid iterator if not found. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01793">1793</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01785">1785</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3353,7 +3398,7 @@ template&lt;class COMPARER &gt; </div>
 
 <p>Scans the list for the specified element (using the user-defined comparer) and returns an iterator to the first occurrence in the list, or an invalid iterator if not found. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01799">1799</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01791">1791</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3385,7 +3430,7 @@ template&lt;class E&gt; </div>
 <p>Returns the number of elements in the list. </p>
 <p>This method has constant runtime (in contrast to <a class="el" href="classogdf_1_1_list_pure.html#ae6b49fcc26639961781b2f4103414698" title="Returns the number of elements in the list. ">ListPure::size()</a>), since the list maintains the current size. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01298">1298</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01290">1290</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3441,7 +3486,7 @@ template&lt;class E&gt; </div>
 <p>If <em>it</em> is not a null pointer and <em>L</em> = x1,...,x{k-1}, <em>it</em>,x_{k+1},xn, then <em>L1</em> = x1,...,x{k-1} and <em>L2</em> = <em>it</em>,x{k+1},...,xn if <em>dir</em> = <code>before</code>. If <em>it</em> is a null pointer, then <em>L1</em> is made empty and <em>L2</em> = <em>L</em>. Finally <em>L</em> is made empty if it is not identical to <em>L1</em> or <em>L2</em>.</p>
 <dl class="section pre"><dt>Precondition</dt><dd><em>it</em> points to an element in this list. </dd></dl>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01759">1759</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01751">1751</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3473,7 +3518,7 @@ template&lt;class E&gt; </div>
 
 <p>Exchanges the contents of this list and <em>other</em> in constant time. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01745">1745</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01737">1737</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3502,12 +3547,11 @@ template&lt;class E&gt; </div>
 
 <p>The length of the list. </p>
 
-<p>Definition at line <a class="el" href="_list_8h_source.html#l01250">1250</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p>Definition at line <a class="el" href="_list_8h_source.html#l01242">1242</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following files:<ul>
-<li>include/ogdf/basic/<a class="el" href="basic_8h_source.html">basic.h</a></li>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/ogdf/basic/<a class="el" href="_list_8h_source.html">List.h</a></li>
 </ul>
 </div><!-- contents -->
@@ -3516,7 +3560,7 @@ template&lt;class E&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_list.html">List</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

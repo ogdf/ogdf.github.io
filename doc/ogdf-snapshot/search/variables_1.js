@@ -12,6 +12,8 @@ var searchData=
   ['actvar_5f',['actVar_',['../classabacus_1_1_sub.html#aadc2faec4d94cb5e02443fc6e0181b57',1,'abacus::Sub']]],
   ['add_5ftmp',['add_tmp',['../class_minisat_1_1_internal_1_1_solver.html#aea26973eab7c2cb655aa1de32ccf6b9a',1,'Minisat::Internal::Solver']]],
   ['addconbuffer_5f',['addConBuffer_',['../classabacus_1_1_sub.html#aba078252265efe4627589816f97a79cf',1,'abacus::Sub']]],
+  ['addr',['addr',['../structbackward_1_1_trace.html#ad9318e3938f26b64033e030296f68ef7',1,'backward::Trace']]],
+  ['address',['address',['../classbackward_1_1_printer.html#a0fd722ce3517aa67f179c33a3e841769',1,'backward::Printer']]],
   ['addvarbuffer_5f',['addVarBuffer_',['../classabacus_1_1_sub.html#a7a6bd55440ef8cbbbfcf47ea5ef49214',1,'abacus::Sub']]],
   ['adj',['adj',['../classogdf_1_1_fast_hierarchy_layout.html#a48f1cf1d9f74f26dd0bc81e14d15260b',1,'ogdf::FastHierarchyLayout']]],
   ['adjentries',['adjEntries',['../classogdf_1_1_node_element.html#aaa250bc79a961b452d18d0f308b7df1c',1,'ogdf::NodeElement::adjEntries()'],['../classogdf_1_1_cluster_element.html#aab08c82c480acc1c916e80ac88d77145',1,'ogdf::ClusterElement::adjEntries()']]],

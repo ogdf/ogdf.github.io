@@ -1,0 +1,6 @@
+<map id="ogdf::VariableEmbeddingInserter" name="ogdf::VariableEmbeddingInserter">
+<area shape="rect" id="node2" href="$classogdf_1_1_variable_embedding_inserter_base.html" title="Common parameter functionality for ogdf::VariableEmbeddingInserter and ogdf::VariableEmbeddingInserte..." alt="" coords="5,155,247,181"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms. " alt="" coords="37,80,215,107"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,5,111,32"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="135,5,248,32"/>
+</map>

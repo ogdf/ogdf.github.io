@@ -29,7 +29,7 @@ var group__ga_insert =
       [ "commonDummy", "classogdf_1_1_m_m_fixed_embedding_inserter.html#af8d73fccafa05171af77976b66eac8ca", null ],
       [ "constructDual", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a78f353423be0e6c1d426ae6a1116596d", null ],
       [ "contractSplit", "classogdf_1_1_m_m_fixed_embedding_inserter.html#aba6b199f626e7804e223c37cbeca6c41", null ],
-      [ "contractSplitIfReq", "classogdf_1_1_m_m_fixed_embedding_inserter.html#acfb0f896d70b7e0a1cf53baeada345c0", null ],
+      [ "contractSplitIfReq", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a4dec5fbeb6626964684063b38bbebc4d", null ],
       [ "convertDummy", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a5a139392ae25287d5c422abeb32db911", null ],
       [ "doCall", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a703d601cffc699974640d3d79df88e75", null ],
       [ "drawDual", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a8d96bbfca76cae6be85629d42362b99b", null ],
@@ -190,39 +190,18 @@ var group__ga_insert =
       [ "s_oppDir", "classogdf_1_1_multi_edge_approx_inserter.html#a0df49f89a429c51dfa2b9927348da788", null ]
     ] ],
     [ "VariableEmbeddingInserter", "classogdf_1_1_variable_embedding_inserter.html", [
-      [ "VariableEmbeddingInserter", "classogdf_1_1_variable_embedding_inserter.html#aa51c945a0ab13f7f313c4cff4d952f18", null ],
-      [ "VariableEmbeddingInserter", "classogdf_1_1_variable_embedding_inserter.html#a9a60120f0ba638297003638d1cb8a57d", null ],
       [ "~VariableEmbeddingInserter", "classogdf_1_1_variable_embedding_inserter.html#ac72a77fa8b6f8c55f32e4c8b885612af", null ],
       [ "callPostprocessing", "classogdf_1_1_variable_embedding_inserter.html#a3c7774b1e4b872165859b93f6d26c1ea", null ],
       [ "clone", "classogdf_1_1_variable_embedding_inserter.html#a3e73672982703d35aca67bd637547562", null ],
       [ "doCall", "classogdf_1_1_variable_embedding_inserter.html#a7cf7f43551033dab1b0c2629ef53ab2e", null ],
       [ "doCallPostprocessing", "classogdf_1_1_variable_embedding_inserter.html#a9cf21bf5b9e78fc4702523f1bb592b20", null ],
-      [ "operator=", "classogdf_1_1_variable_embedding_inserter.html#a4e1cbf150b5d22f901761dbe92d16bd4", null ],
-      [ "percentMostCrossed", "classogdf_1_1_variable_embedding_inserter.html#a70ea238e1e800d7afd6ff9cf1b049857", null ],
-      [ "percentMostCrossed", "classogdf_1_1_variable_embedding_inserter.html#a2d36d18725d1c8bbdd4ac9373e0562a8", null ],
-      [ "removeReinsert", "classogdf_1_1_variable_embedding_inserter.html#a14a4faf86d07949d30516f64684468c3", null ],
-      [ "removeReinsert", "classogdf_1_1_variable_embedding_inserter.html#ae304115960e4c46e6b3c9da93aa438ce", null ],
-      [ "runsPostprocessing", "classogdf_1_1_variable_embedding_inserter.html#a95b68d0e18ea1a8138316173ee8476ee", null ],
-      [ "m_percentMostCrossed", "classogdf_1_1_variable_embedding_inserter.html#a8a339f8129114af3e4c0e43e800d8371", null ],
-      [ "m_rrOption", "classogdf_1_1_variable_embedding_inserter.html#a7394df982b168d560fdbc907fa7fa03a", null ],
-      [ "m_runsPostprocessing", "classogdf_1_1_variable_embedding_inserter.html#a7f3ffe230687f7b0ae5d94ca806d8da2", null ]
+      [ "operator=", "classogdf_1_1_variable_embedding_inserter.html#a4e1cbf150b5d22f901761dbe92d16bd4", null ]
     ] ],
     [ "VariableEmbeddingInserterDyn", "classogdf_1_1_variable_embedding_inserter_dyn.html", [
-      [ "VariableEmbeddingInserterDyn", "classogdf_1_1_variable_embedding_inserter_dyn.html#a796568a0e2fe513acd8861e27608ff03", null ],
-      [ "VariableEmbeddingInserterDyn", "classogdf_1_1_variable_embedding_inserter_dyn.html#ad08ffdc6d40bec9a7d0eb1d183b4d220", null ],
       [ "~VariableEmbeddingInserterDyn", "classogdf_1_1_variable_embedding_inserter_dyn.html#a4038a93cf3991413bf22b092aa0e670d", null ],
       [ "clone", "classogdf_1_1_variable_embedding_inserter_dyn.html#a38b3824cb563df14b2c33dd127da9b17", null ],
       [ "doCall", "classogdf_1_1_variable_embedding_inserter_dyn.html#a1f63b2d41aa28c1f20d8f6d344e4a778", null ],
-      [ "doCallPostprocessing", "classogdf_1_1_variable_embedding_inserter_dyn.html#a595257593e65d1e879fa80abc55cfb48", null ],
-      [ "operator=", "classogdf_1_1_variable_embedding_inserter_dyn.html#a28057276b6975e860c76a50fa4b84074", null ],
-      [ "percentMostCrossed", "classogdf_1_1_variable_embedding_inserter_dyn.html#a90aad1f35f7c1353410e0f6f282bcc76", null ],
-      [ "percentMostCrossed", "classogdf_1_1_variable_embedding_inserter_dyn.html#a47f9cf60c9420db201944c96c7269b73", null ],
-      [ "removeReinsert", "classogdf_1_1_variable_embedding_inserter_dyn.html#ac9539a52ac48b32fb6946f578284ae07", null ],
-      [ "removeReinsert", "classogdf_1_1_variable_embedding_inserter_dyn.html#aaf56ff80d49f8dc8c88d063a18d6831f", null ],
-      [ "runsPostprocessing", "classogdf_1_1_variable_embedding_inserter_dyn.html#adcc2d8e6f74d42f724226a256c3a9bab", null ],
-      [ "m_percentMostCrossed", "classogdf_1_1_variable_embedding_inserter_dyn.html#a82cdcdbdd7b1a14d0a723ecf621b3753", null ],
-      [ "m_rrOption", "classogdf_1_1_variable_embedding_inserter_dyn.html#ab3cff61b996b05a241215542dc5b08c6", null ],
-      [ "m_runsPostprocessing", "classogdf_1_1_variable_embedding_inserter_dyn.html#a99a65ef5c00d1fa08cc3605ad4e561d4", null ]
+      [ "operator=", "classogdf_1_1_variable_embedding_inserter_dyn.html#a28057276b6975e860c76a50fa4b84074", null ]
     ] ],
     [ "RemoveReinsertType", "group__ga-insert.html#ga381de84a1b3cf8d3a2149be57f8bd011", [
       [ "rrNone", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011ada3fe1a533c013c0d7f9bf7f5c338860", null ],

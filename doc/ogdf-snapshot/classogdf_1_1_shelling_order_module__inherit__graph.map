@@ -1,0 +1,4 @@
+<map id="ogdf::ShellingOrderModule" name="ogdf::ShellingOrderModule">
+<area shape="rect" id="node2" href="$classogdf_1_1_biconnected_shelling_order.html" title="Computation of the shelling order for biconnected graphs. " alt="" coords="5,80,179,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_triconnected_shelling_order.html" title="ogdf::TriconnectedShelling\lOrder" alt="" coords="203,80,379,121"/>
+</map>

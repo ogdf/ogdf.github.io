@@ -33,7 +33,6 @@ var searchData=
   ['boyermyrvold',['BoyerMyrvold',['../classogdf_1_1_boyer_myrvold.html',1,'ogdf']]],
   ['boyermyrvoldinit',['BoyerMyrvoldInit',['../classogdf_1_1_boyer_myrvold_init.html',1,'ogdf']]],
   ['boyermyrvoldplanar',['BoyerMyrvoldPlanar',['../classogdf_1_1_boyer_myrvold_planar.html',1,'ogdf']]],
-  ['boyermyrvoldsubgraph',['BoyerMyrvoldSubgraph',['../classogdf_1_1_boyer_myrvold_subgraph.html',1,'ogdf']]],
   ['branchrule',['BranchRule',['../classabacus_1_1_branch_rule.html',1,'abacus']]],
   ['bucketedgearray',['BucketEdgeArray',['../classogdf_1_1_bucket_edge_array.html',1,'ogdf']]],
   ['bucketfunc',['BucketFunc',['../classogdf_1_1_bucket_func.html',1,'ogdf']]],

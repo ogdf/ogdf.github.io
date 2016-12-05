@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['e',['e',['../structogdf_1_1edge_value.html#a62213c36acb58073a31a57f4875a404a',1,'ogdf::edgeValue::e()'],['../classogdf_1_1energybased_1_1_edge.html#a4b50b52f15166a2ee5ce10c82d45f611',1,'ogdf::energybased::Edge::e()']]],
+  ['e',['e',['../structogdf_1_1edge_value.html#a62213c36acb58073a31a57f4875a404a',1,'ogdf::edgeValue::e()'],['../classogdf_1_1energybased_1_1_edge.html#a4b50b52f15166a2ee5ce10c82d45f611',1,'ogdf::energybased::Edge::e()'],['../structogdf_1_1_non_planar_core_1_1_cut_edge.html#aac75f7519537d2712ed2e29c373fd34d',1,'ogdf::NonPlanarCore::CutEdge::e()']]],
   ['e_5foriginal',['e_original',['../classogdf_1_1energybased_1_1_edge_attributes.html#a137d300e383b6f7dbbec471e67c5624d',1,'ogdf::energybased::EdgeAttributes']]],
   ['e_5fsubgraph',['e_subgraph',['../classogdf_1_1energybased_1_1_edge_attributes.html#a69b61ae01f968cb9f461b14f83e52076',1,'ogdf::energybased::EdgeAttributes']]],
   ['earlyexit',['earlyExit',['../structogdf_1_1_f_m_e_global_context.html#ac7ecbabbffec7fec181a4eeb0c0d3ebf',1,'ogdf::FMEGlobalContext']]],

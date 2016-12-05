@@ -14,6 +14,7 @@ var searchData=
   ['relative',['relative',['../classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93ea3e7c761d94cb1ea30ab40b54d1e736f2',1,'ogdf::MinSteinerTreeZelikovsky']]],
   ['rem',['Rem',['../namespaceogdf.html#ae22cbc46729511339f3e690bddd0fb4dab0f281f6a3779879af153a2a378aac5a',1,'ogdf']]],
   ['removed',['removed',['../classogdf_1_1_tric_comp.html#aeb5cfdcfae3a62caaa17cd4087ca3539a33ca9faa2a2ae0cb07798c8b7102746a',1,'ogdf::TricComp']]],
+  ['reset',['reset',['../namespacebackward_1_1_color.html#a6292269f4da43517b3fe825563efee5ca40f024dfd446488cdd59a1e4438b2fcc',1,'backward::Color']]],
   ['reterror',['retError',['../classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aa17e745f52967194fc0b7b941abf06a25',1,'ogdf::Module']]],
   ['retfeasible',['retFeasible',['../classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aac7c9770b97e0bd3f43e7b89b23d8a1de',1,'ogdf::Module']]],
   ['retnofeasiblesolution',['retNoFeasibleSolution',['../classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aaa5c58067a03fa27b6e173dc630fea932',1,'ogdf::Module']]],

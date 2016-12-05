@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -168,7 +168,7 @@ class ogdf::VComparer&lt; E &gt;</h3>
 <p>The methods of this class are all <em>virtual</em>, which comes with a certain performance penalty. Its advantage is that if you require multiple Comparers for the same class <em>E</em>, functions using compareres on <em>E</em> are not generated multiple times, which means smaller code.</p>
 <p>If size is not an issue, but speed is, use a Comparer with non-virtual functions. You may want to use the convenience classes <a class="el" href="classogdf_1_1_std_comparer.html" title="Standard comparer (valid as a static comparer). ">StdComparer</a> and <a class="el" href="classogdf_1_1_target_comparer.html" title="A static comparer which compares the target of pointers (&quot;content&quot;), instead of the pointer&#39;s adresse...">TargetComparer</a>, or the convenience macros <a class="el" href="group__comparer.html#gab3e5c62c6689a2878097609bcdabb15e" title="Add this macro to your class to turn it into a full comparer. ">OGDF_AUGMENT_COMPARER</a>, <a class="el" href="group__comparer.html#gaf0407a6a67039a12b3800858f1703058" title="Add this macro to your class to turn it into a full static comparer. ">OGDF_AUGMENT_STATICCOMPARER</a>, <a class="el" href="group__comparer.html#gac28507949d9cb7c4188aad3938af75a4" title="Generates a specialization of the standard static comparer for type based on compare operators...">OGDF_STD_COMPARER</a> to obtain non-virtual classes with few effort. </p>
 
-<p>Definition at line <a class="el" href="comparer_8h_source.html#l00245">245</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
+<p>Definition at line <a class="el" href="comparer_8h_source.html#l00242">242</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a55bf4ef7dc3aefb4596a2d6d132b7cb5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a55bf4ef7dc3aefb4596a2d6d132b7cb5">&sect;&nbsp;</a></span>VComparer()</h2>
@@ -197,7 +197,7 @@ template&lt;class E&gt; </div>
 
 <p>Initializes a comparer. </p>
 
-<p>Definition at line <a class="el" href="comparer_8h_source.html#l00248">248</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
+<p>Definition at line <a class="el" href="comparer_8h_source.html#l00245">245</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
 
 </div>
 </div>
@@ -226,7 +226,7 @@ template&lt;class E&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="comparer_8h_source.html#l00250">250</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
+<p>Definition at line <a class="el" href="comparer_8h_source.html#l00247">247</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
 
 </div>
 </div>
@@ -274,7 +274,7 @@ template&lt;class E&gt; </div>
 <li>&gt; 0 iff x &gt; y </li>
 </ul>
 
-<p>Implemented in <a class="el" href="classogdf_1_1_edge_comparer.html#a29a1ff3d57d688decd0b8539b5fea7b9">ogdf::EdgeComparer</a>, and <a class="el" href="classogdf_1_1_edge_comparer_simple.html#ac64b9a585bcf8d73ac8556010f42a98c">ogdf::EdgeComparerSimple</a>.</p>
+<p>Implemented in <a class="el" href="classogdf_1_1_edge_comparer.html#a878ba67afd277314fa4f287d4824ff45">ogdf::EdgeComparer</a>, and <a class="el" href="classogdf_1_1_edge_comparer_simple.html#a68f87c27a33815820e4352f56ec4b03d">ogdf::EdgeComparerSimple</a>.</p>
 
 </div>
 </div>
@@ -316,7 +316,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns true iff <em>x</em> = <em>y</em>. </p>
 
-<p>Definition at line <a class="el" href="comparer_8h_source.html#l00281">281</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
+<p>Definition at line <a class="el" href="comparer_8h_source.html#l00278">278</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
 
 </div>
 </div>
@@ -358,7 +358,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns true iff <em>x</em> &gt;= <em>y</em>. </p>
 
-<p>Definition at line <a class="el" href="comparer_8h_source.html#l00276">276</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
+<p>Definition at line <a class="el" href="comparer_8h_source.html#l00273">273</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
 
 </div>
 </div>
@@ -400,7 +400,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns true iff <em>x</em> &gt; <em>y</em>. </p>
 
-<p>Definition at line <a class="el" href="comparer_8h_source.html#l00271">271</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
+<p>Definition at line <a class="el" href="comparer_8h_source.html#l00268">268</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
 
 </div>
 </div>
@@ -442,7 +442,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns true iff <em>x</em> &lt;= <em>y</em>. </p>
 
-<p>Definition at line <a class="el" href="comparer_8h_source.html#l00266">266</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
+<p>Definition at line <a class="el" href="comparer_8h_source.html#l00263">263</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
 
 </div>
 </div>
@@ -484,7 +484,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns true iff <em>x</em> &lt; <em>y</em>. </p>
 
-<p>Definition at line <a class="el" href="comparer_8h_source.html#l00261">261</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
+<p>Definition at line <a class="el" href="comparer_8h_source.html#l00258">258</a> of file <a class="el" href="comparer_8h_source.html">comparer.h</a>.</p>
 
 </div>
 </div>
@@ -497,7 +497,7 @@ template&lt;class E&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_v_comparer.html">VComparer</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

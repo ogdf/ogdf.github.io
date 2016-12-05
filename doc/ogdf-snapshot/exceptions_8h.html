@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -123,7 +123,6 @@ $(document).ready(function(){initNavTree('exceptions_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
   <div class="headertitle">
 <div class="title">exceptions.h File Reference</div>  </div>
@@ -172,10 +171,13 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a2a6a50eb4683c16091bc8f88ad96b7e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8h.html#a2a6a50eb4683c16091bc8f88ad96b7e2">OGDF_THROW</a>(CLASS)&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( )</td></tr>
-<tr class="separator:a2a6a50eb4683c16091bc8f88ad96b7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae555347af334981e6301630da429a56f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="exceptions_8h.html#ae555347af334981e6301630da429a56f">OGDF_THROW_PARAM</a>(CLASS,  PARAM)&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( PARAM )</td></tr>
-<tr class="separator:ae555347af334981e6301630da429a56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Throwing exceptions</div></td></tr>
+<tr class="memitem:gae555347af334981e6301630da429a56f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#gae555347af334981e6301630da429a56f">OGDF_THROW_PARAM</a>(CLASS,  PARAM)&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( PARAM )</td></tr>
+<tr class="memdesc:gae555347af334981e6301630da429a56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement for <code>throw</code>.  <a href="group__macros.html#gae555347af334981e6301630da429a56f">More...</a><br /></td></tr>
+<tr class="separator:gae555347af334981e6301630da429a56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2a6a50eb4683c16091bc8f88ad96b7e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga2a6a50eb4683c16091bc8f88ad96b7e2">OGDF_THROW</a>(CLASS)&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( )</td></tr>
+<tr class="memdesc:ga2a6a50eb4683c16091bc8f88ad96b7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement for <code>throw</code>.  <a href="group__macros.html#ga2a6a50eb4683c16091bc8f88ad96b7e2">More...</a><br /></td></tr>
+<tr class="separator:ga2a6a50eb4683c16091bc8f88ad96b7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -279,71 +281,19 @@ Enumerations</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Carsten Gutwenger, Markus Chimani</dd></dl>
 <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />
- See README.txt in the root directory of the OGDF installation for details.</dd></dl>
+ See README.md in the OGDF root directory for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License Version 2 or 3 as published by the Free Software Foundation; see the file LICENSE.txt included in the packaging of this file for details.</dd></dl>
 <dl class="section user"><dt></dt><dd>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</dd></dl>
-<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.</dd></dl>
-<dl class="section see"><dt>See also</dt><dd><a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
+<dl class="section user"><dt></dt><dd>You should have received a copy of the GNU General Public License along with this program; if not, see <a href="http://www.gnu.org/copyleft/gpl.html">http://www.gnu.org/copyleft/gpl.html</a> </dd></dl>
 
 <p>Definition in file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
-</div><h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a2a6a50eb4683c16091bc8f88ad96b7e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a6a50eb4683c16091bc8f88ad96b7e2">&sect;&nbsp;</a></span>OGDF_THROW</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OGDF_THROW</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">CLASS</td><td>)</td>
-          <td>&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( )</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00059">59</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
-
-</div>
-</div>
-<a id="ae555347af334981e6301630da429a56f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae555347af334981e6301630da429a56f">&sect;&nbsp;</a></span>OGDF_THROW_PARAM</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OGDF_THROW_PARAM</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">CLASS, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">PARAM&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td>&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( PARAM )</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="exceptions_8h_source.html#l00058">58</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html">basic</a></li><li class="navelem"><a class="el" href="exceptions_8h.html">exceptions.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

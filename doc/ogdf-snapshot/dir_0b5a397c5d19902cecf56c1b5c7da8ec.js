@@ -19,9 +19,7 @@ var dir_0b5a397c5d19902cecf56c1b5c7da8ec =
     [ "CPlanarSubgraphModule.h", "_c_planar_subgraph_module_8h.html", [
       [ "CPlanarSubgraphModule", "classogdf_1_1_c_planar_subgraph_module.html", "classogdf_1_1_c_planar_subgraph_module" ]
     ] ],
-    [ "CrossingMinimizationModule.h", "_crossing_minimization_module_8h.html", [
-      [ "CrossingMinimizationModule", "classogdf_1_1_crossing_minimization_module.html", "classogdf_1_1_crossing_minimization_module" ]
-    ] ],
+    [ "CrossingMinimizationModule.h", "_crossing_minimization_module_8h.html", "_crossing_minimization_module_8h" ],
     [ "EdgeInsertionModule.h", "_edge_insertion_module_8h.html", [
       [ "EdgeInsertionModule", "classogdf_1_1_edge_insertion_module.html", "classogdf_1_1_edge_insertion_module" ]
     ] ],

@@ -30,6 +30,7 @@ var searchData=
   ['embedpqtree_2eh',['EmbedPQTree.h',['../_embed_p_q_tree_8h.html',1,'']]],
   ['energyfunction_2eh',['EnergyFunction.h',['../_energy_function_8h.html',1,'']]],
   ['epsilontest_2eh',['EpsilonTest.h',['../_epsilon_test_8h.html',1,'']]],
+  ['examples_2edox',['examples.dox',['../examples_8dox.html',1,'']]],
   ['exceptions_2eh',['exceptions.h',['../exceptions_8h.html',1,'']]],
   ['expansiongraph_2eh',['ExpansionGraph.h',['../_expansion_graph_8h.html',1,'']]],
   ['extended_5fgraph_5falg_2eh',['extended_graph_alg.h',['../extended__graph__alg_8h.html',1,'']]],

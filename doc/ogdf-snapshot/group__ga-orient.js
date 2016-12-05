@@ -1,5 +1,5 @@
 var group__ga_orient =
 [
-    [ "stNumber", "group__ga-orient.html#ga0b4ce44e1d48946958555fc4501935bc", null ],
-    [ "testSTnumber", "group__ga-orient.html#ga97febba79e2c23a5925cb8d62a94cb8d", null ]
+    [ "computeSTNumbering", "group__ga-orient.html#gaf11757bc010c3a3ed93c156842151171", null ],
+    [ "isSTNumbering", "group__ga-orient.html#ga44dcd46be4fc6becc15e976fbe2779b8", null ]
 ];

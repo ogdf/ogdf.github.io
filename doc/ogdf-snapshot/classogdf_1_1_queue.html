@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,12 +138,12 @@ $(document).ready(function(){initNavTree('classogdf_1_1_queue.html','');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_queue.png" usemap="#ogdf::Queue_3C_20E_20_3E_map" alt=""/>
-  <map id="ogdf::Queue_3C_20E_20_3E_map" name="ogdf::Queue&lt; E &gt;_map">
-<area href="classogdf_1_1_s_list.html" title="Singly linked lists (maintaining the length of the list). " alt="ogdf::SList&lt; E &gt;" shape="rect" coords="0,0,113,24"/>
+<div class="center"><img src="classogdf_1_1_queue__inherit__graph.png" border="0" usemap="#ogdf_1_1_queue_3_01_e_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_queue_3_01_e_01_4_inherit__map" id="ogdf_1_1_queue_3_01_e_01_4_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_s_list.html" title="Singly linked lists (maintaining the length of the list). " alt="" coords="19,80,137,107"/>
+<area shape="rect" id="node3" href="classogdf_1_1_s_list_pure.html" title="Singly linked lists. " alt="" coords="5,5,151,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -178,6 +178,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9ae80c5a3b7cacf99d0dfaa8f24fd24e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a queue containing the elements of <em>Q</em> (move semantics).  <a href="#a9ae80c5a3b7cacf99d0dfaa8f24fd24e">More...</a><br /></td></tr>
 <tr class="separator:a9ae80c5a3b7cacf99d0dfaa8f24fd24e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bb56c82b82a327f6d40fcd100939f56"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_queue.html#a3bb56c82b82a327f6d40fcd100939f56">~Queue</a> ()</td></tr>
+<tr class="memdesc:a3bb56c82b82a327f6d40fcd100939f56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruction.  <a href="#a3bb56c82b82a327f6d40fcd100939f56">More...</a><br /></td></tr>
 <tr class="separator:a3bb56c82b82a327f6d40fcd100939f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Access methods</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>These methods provide simple access without changing the list. </p>
@@ -439,18 +440,18 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:aa930e7a6e4876e6da2e9a7c4f8e022c2 inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#aa930e7a6e4876e6da2e9a7c4f8e022c2">bucketSort</a> (<a class="el" href="classogdf_1_1_bucket_func.html">BucketFunc</a>&lt; E &gt; &amp;f)</td></tr>
 <tr class="memdesc:aa930e7a6e4876e6da2e9a7c4f8e022c2 inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the list using bucket sort.  <a href="classogdf_1_1_s_list.html#aa930e7a6e4876e6da2e9a7c4f8e022c2">More...</a><br /></td></tr>
 <tr class="separator:aa930e7a6e4876e6da2e9a7c4f8e022c2 inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59fc84cdd8d14069c4e1e838e20dbe2a inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list_pure.html#a419a236bdb1d9209ace32509db87a8b3">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#a59fc84cdd8d14069c4e1e838e20dbe2a">chooseIterator</a> () const</td></tr>
-<tr class="memdesc:a59fc84cdd8d14069c4e1e838e20dbe2a inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to a random element in the list (or an invalid iterator if the list is empty).  <a href="classogdf_1_1_s_list.html#a59fc84cdd8d14069c4e1e838e20dbe2a">More...</a><br /></td></tr>
-<tr class="separator:a59fc84cdd8d14069c4e1e838e20dbe2a inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafeb6452906966f7d6ec409baaa97ebb inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list_pure.html#a451116ac0ef3378b57350f0b4d7d4dff">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#aafeb6452906966f7d6ec409baaa97ebb">chooseIterator</a> ()</td></tr>
-<tr class="memdesc:aafeb6452906966f7d6ec409baaa97ebb inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element in the list (or an invalid iterator if the list is empty).  <a href="classogdf_1_1_s_list.html#aafeb6452906966f7d6ec409baaa97ebb">More...</a><br /></td></tr>
-<tr class="separator:aafeb6452906966f7d6ec409baaa97ebb inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaedd52970efa164fbb17aa16b89e401b inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list_pure.html#a4f1fdcfe3e5d02eaee563d2e34f11fe8">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#aaedd52970efa164fbb17aa16b89e401b">chooseElement</a> () const</td></tr>
-<tr class="memdesc:aaedd52970efa164fbb17aa16b89e401b inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random element from the list.  <a href="classogdf_1_1_s_list.html#aaedd52970efa164fbb17aa16b89e401b">More...</a><br /></td></tr>
-<tr class="separator:aaedd52970efa164fbb17aa16b89e401b inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2acb82b55aefe8609806ae54432b6c18 inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list_pure.html#ae12ce28a69234d136c78d2823a2aff7c">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#a2acb82b55aefe8609806ae54432b6c18">chooseElement</a> ()</td></tr>
-<tr class="memdesc:a2acb82b55aefe8609806ae54432b6c18 inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random element from the list.  <a href="classogdf_1_1_s_list.html#a2acb82b55aefe8609806ae54432b6c18">More...</a><br /></td></tr>
-<tr class="separator:a2acb82b55aefe8609806ae54432b6c18 inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a033b06f8f87b5cb07e125171d6a6eb41 inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list_pure.html#a419a236bdb1d9209ace32509db87a8b3">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#a033b06f8f87b5cb07e125171d6a6eb41">chooseIterator</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true) const</td></tr>
+<tr class="memdesc:a033b06f8f87b5cb07e125171d6a6eb41 inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element.  <a href="classogdf_1_1_s_list.html#a033b06f8f87b5cb07e125171d6a6eb41">More...</a><br /></td></tr>
+<tr class="separator:a033b06f8f87b5cb07e125171d6a6eb41 inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a85375f9fcb6f950a627d3743d62220 inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list_pure.html#a451116ac0ef3378b57350f0b4d7d4dff">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#a6a85375f9fcb6f950a627d3743d62220">chooseIterator</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true)</td></tr>
+<tr class="memdesc:a6a85375f9fcb6f950a627d3743d62220 inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element.  <a href="classogdf_1_1_s_list.html#a6a85375f9fcb6f950a627d3743d62220">More...</a><br /></td></tr>
+<tr class="separator:a6a85375f9fcb6f950a627d3743d62220 inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc13118d8162bf8dc5443f474f1070b inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list_pure.html#a4f1fdcfe3e5d02eaee563d2e34f11fe8">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#a7cc13118d8162bf8dc5443f474f1070b">chooseElement</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true) const</td></tr>
+<tr class="memdesc:a7cc13118d8162bf8dc5443f474f1070b inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classogdf_1_1_list.html#ab84d518432c2e14225894544007582d1" title="Returns a random element. ">List::chooseElement</a>.  <a href="classogdf_1_1_s_list.html#a7cc13118d8162bf8dc5443f474f1070b">More...</a><br /></td></tr>
+<tr class="separator:a7cc13118d8162bf8dc5443f474f1070b inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb777551b6176025430b3aaf1f0edbe inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list_pure.html#ae12ce28a69234d136c78d2823a2aff7c">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#a8cb777551b6176025430b3aaf1f0edbe">chooseElement</a> (std::function&lt; bool(const E &amp;)&gt; includeElement=[](const E &amp;) { return true;}, bool isFastTest=true)</td></tr>
+<tr class="memdesc:a8cb777551b6176025430b3aaf1f0edbe inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classogdf_1_1_list.html#ab84d518432c2e14225894544007582d1" title="Returns a random element. ">List::chooseElement</a>.  <a href="classogdf_1_1_s_list.html#a8cb777551b6176025430b3aaf1f0edbe">More...</a><br /></td></tr>
+<tr class="separator:a8cb777551b6176025430b3aaf1f0edbe inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75f79776859f261b9c403c9a72c49441 inherit pub_methods_classogdf_1_1_s_list"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_s_list.html#a75f79776859f261b9c403c9a72c49441">permute</a> ()</td></tr>
 <tr class="memdesc:a75f79776859f261b9c403c9a72c49441 inherit pub_methods_classogdf_1_1_s_list"><td class="mdescLeft">&#160;</td><td class="mdescRight">Randomly permutes the elements in the list.  <a href="classogdf_1_1_s_list.html#a75f79776859f261b9c403c9a72c49441">More...</a><br /></td></tr>
 <tr class="separator:a75f79776859f261b9c403c9a72c49441 inherit pub_methods_classogdf_1_1_s_list"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -472,7 +473,7 @@ class ogdf::Queue&lt; E &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00216">216</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00213">213</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a5d81a4bce6148f52f4f7ac1e33622e7c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d81a4bce6148f52f4f7ac1e33622e7c">&sect;&nbsp;</a></span>const_iterator</h2>
@@ -490,7 +491,7 @@ template&lt;class E&gt; </div>
 
 <p>Provides a forward iterator that can read a const element in a queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00225">225</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00222">222</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -510,7 +511,7 @@ template&lt;class E&gt; </div>
 
 <p>Provides a reference to a const element stored in a queue for reading and performing const operations. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00223">223</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00220">220</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -530,7 +531,7 @@ template&lt;class E&gt; </div>
 
 <p>Provides a forward iterator that can read or modify any element in a queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00227">227</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00224">224</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -550,7 +551,7 @@ template&lt;class E&gt; </div>
 
 <p>Provides a reference to an element stored in a queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00221">221</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00218">218</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -570,7 +571,7 @@ template&lt;class E&gt; </div>
 
 <p>Represents the data type stored in a queue element. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00219">219</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00216">216</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -602,7 +603,7 @@ template&lt;class E&gt; </div>
 
 <p>Constructs an empty queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00230">230</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00227">227</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -634,7 +635,7 @@ template&lt;class E&gt; </div>
 
 <p>Constructs a queue and appends the elements in <em>initList</em> to it. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00233">233</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00230">230</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -666,7 +667,7 @@ template&lt;class E&gt; </div>
 
 <p>Constructs a queue that is a copy of <em>Q</em>. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00236">236</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00233">233</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -699,7 +700,7 @@ template&lt;class E&gt; </div>
 <p>Constructs a queue containing the elements of <em>Q</em> (move semantics). </p>
 <p><a class="el" href="classogdf_1_1_queue.html" title="The parameterized class Queue&lt;E&gt; implements list-based queues. ">Queue</a> <em>Q</em> is empty afterwards. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00242">242</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00239">239</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -728,7 +729,9 @@ template&lt;class E&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00245">245</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Destruction. </p>
+
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00242">242</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -761,7 +764,7 @@ template&lt;class E&gt; </div>
 
 <p>Adds <em>x</em> at the end of queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00346">346</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00343">343</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -792,7 +795,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns an iterator to the first element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00287">287</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00284">284</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -823,7 +826,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a const iterator to the first element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00290">290</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00287">287</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -854,7 +857,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a reference to the back element. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00270">270</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00267">267</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -885,7 +888,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a reference to the back element. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00275">275</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00272">272</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -916,7 +919,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a const iterator to the first element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00293">293</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00290">290</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -947,7 +950,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a const iterator to one-past-last element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00302">302</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00299">299</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -978,7 +981,7 @@ template&lt;class E&gt; </div>
 
 <p>Makes the queue empty. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00367">367</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00364">364</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1009,7 +1012,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a const iterator to the last element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00311">311</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00308">308</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1044,7 +1047,7 @@ template&lt;class ... Args&gt; </div>
 <p>Adds a new element at the end of the queue. </p>
 <p>The element is constructed in-place with exactly the same arguments <em>args</em> as supplied to the function. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00355">355</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00352">352</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1075,7 +1078,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns true iff the queue is empty. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00254">254</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00251">251</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1106,7 +1109,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns an iterator to one-past-last element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00296">296</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00293">293</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1137,7 +1140,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a const iterator to one-past-last element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00299">299</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00296">296</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1168,7 +1171,7 @@ template&lt;class E&gt; </div>
 
 <p>Conversion to const <a class="el" href="classogdf_1_1_s_list.html" title="Singly linked lists (maintaining the length of the list). ">SList</a>. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00336">336</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00333">333</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1200,7 +1203,7 @@ template&lt;class E&gt; </div>
 
 <p>Assignment operator. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00321">321</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00318">318</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1233,7 +1236,7 @@ template&lt;class E&gt; </div>
 <p>Assignment operator (move semantics). </p>
 <p><a class="el" href="classogdf_1_1_queue.html" title="The parameterized class Queue&lt;E&gt; implements list-based queues. ">Queue</a> <em>Q</em> is empty afterwards. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00330">330</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00327">327</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1264,7 +1267,7 @@ template&lt;class E&gt; </div>
 
 <p>Removes front element and returns it. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00360">360</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00357">357</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1295,7 +1298,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns an iterator to the last element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00305">305</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00302">302</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1326,7 +1329,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a const iterator to the last element of the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00308">308</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00305">305</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1357,7 +1360,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns the number of elements in the queue. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00257">257</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00254">254</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1388,7 +1391,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a reference to the front element. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00260">260</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00257">257</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1419,7 +1422,7 @@ template&lt;class E&gt; </div>
 
 <p>Returns a reference to the front element. </p>
 
-<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00265">265</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p>Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00262">262</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -1432,7 +1435,7 @@ template&lt;class E&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_queue.html">Queue</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

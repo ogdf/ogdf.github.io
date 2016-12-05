@@ -12,9 +12,6 @@ var dir_d2bf5410fcb0d0ed7083a64a0eaec90a =
     [ "FixedEmbeddingUpwardEdgeInserter.h", "_fixed_embedding_upward_edge_inserter_8h.html", [
       [ "FixedEmbeddingUpwardEdgeInserter", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html", "classogdf_1_1_fixed_embedding_upward_edge_inserter" ]
     ] ],
-    [ "FixedUpwardEmbeddingInserter.h", "_fixed_upward_embedding_inserter_8h.html", [
-      [ "FixedUpwardEmbeddingInserter", "classogdf_1_1_fixed_upward_embedding_inserter.html", "classogdf_1_1_fixed_upward_embedding_inserter" ]
-    ] ],
     [ "FUPSSimple.h", "_f_u_p_s_simple_8h.html", [
       [ "FUPSSimple", "classogdf_1_1_f_u_p_s_simple.html", "classogdf_1_1_f_u_p_s_simple" ]
     ] ],
@@ -30,9 +27,6 @@ var dir_d2bf5410fcb0d0ed7083a64a0eaec90a =
     ] ],
     [ "UpwardPlanarity.h", "_upward_planarity_8h.html", [
       [ "UpwardPlanarity", "classogdf_1_1_upward_planarity.html", "classogdf_1_1_upward_planarity" ]
-    ] ],
-    [ "UpwardPlanarizationLayout.h", "_upward_planarization_layout_8h.html", [
-      [ "UpwardPlanarizationLayout", "classogdf_1_1_upward_planarization_layout.html", "classogdf_1_1_upward_planarization_layout" ]
     ] ],
     [ "UpwardPlanarSubgraphSimple.h", "_upward_planar_subgraph_simple_8h.html", [
       [ "UpwardPlanarSubgraphSimple", "classogdf_1_1_upward_planar_subgraph_simple.html", "classogdf_1_1_upward_planar_subgraph_simple" ]

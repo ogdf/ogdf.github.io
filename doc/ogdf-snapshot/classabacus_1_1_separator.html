@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -141,12 +141,11 @@ $(document).ready(function(){initNavTree('classabacus_1_1_separator.html','');})
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classabacus_1_1_separator.png" usemap="#abacus::Separator_3C_20BaseType_2C_20CoType_20_3E_map" alt=""/>
-  <map id="abacus::Separator_3C_20BaseType_2C_20CoType_20_3E_map" name="abacus::Separator&lt; BaseType, CoType &gt;_map">
-<area href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="abacus::AbacusRoot" shape="rect" coords="0,0,248,24"/>
+<div class="center"><img src="classabacus_1_1_separator__inherit__graph.png" border="0" usemap="#abacus_1_1_separator_3_01_base_type_00_01_co_type_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="abacus_1_1_separator_3_01_base_type_00_01_co_type_01_4_inherit__map" id="abacus_1_1_separator_3_01_base_type_00_01_co_type_01_4_inherit__map">
+<area shape="rect" id="node2" href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="9,5,153,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -257,7 +256,7 @@ class abacus::Separator&lt; BaseType, CoType &gt;</h3>
 <p>This abstract template class can be used to implement a separation routine. Using this class is not mandatory, because separation can be implemented directly in <a class="el" href="classabacus_1_1_sub.html#a7d683e41039bae1b2c266ef25352fb4e" title="Should generate inactive variables which do not price out correctly. ">Sub::pricing()</a> and <a class="el" href="classabacus_1_1_sub.html#a1e8bd1dfbc1944934caeaa43ea3e43b8" title="Must be redefined in derived classes for the generation of cutting planes. ">Sub::separate()</a>. However, this class facilitates encapsulation of the code and provides functions for checking for duplication of generated constraints/variables.</p>
 <p>If constraints are generated in the separation, then the <em>BaseType</em> must be <a class="el" href="classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format. ">Constraint</a> and the <em>CoType</em> must be <a class="el" href="classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format. ">Variable</a>, if variables are generated in separation this is vice versa.</p>
 <p>The user has to derive its specific separtor class in which the separation algorithm should be implemented in function <em><a class="el" href="classabacus_1_1_separator.html#a89b0c58271dd0468dd5d4398b55775fe" title="This function has to be redefined and should implement the separation routine. ">separate()</a></em>. If a cutting plane is found, the function <em>cutFound</em> should be called.</p>
-<p>The generated constraints/variables can be obtained by the member function <em><a class="el" href="classabacus_1_1_separator.html#abf4da18186b8b23ca60f6957cb23fb2d" title="Returns the buffer with the generated constraints/variable. ">cutBuffer()</a></em>. The return value of that function then can serve as parameter to the functions <a class="el" href="classabacus_1_1_sub.html#abe4120c3aacfde406cfe6b7abdb4ec11" title="Tries to add new constraints to the constraint buffer and a pool. ">Sub::addCons()</a> and <a class="el" href="classabacus_1_1_sub.html#ade51b646387255f7cd54b5300fe91284" title="Tries to add new variables to the variable buffer and a pool. ">Sub::addVars()</a>. </p>
+<p>The generated constraints/variables can be obtained by the member function <em><a class="el" href="classabacus_1_1_separator.html#abf4da18186b8b23ca60f6957cb23fb2d" title="Returns the buffer with the generated constraints/variable. ">cutBuffer()</a></em>. The return value of that function then can serve as parameter to the functions <a class="el" href="classabacus_1_1_sub.html#a89ba1c129b6d87aee50dc45a36bb0db5" title="Tries to add new constraints to the constraint buffer and a pool. ">Sub::addCons()</a> and <a class="el" href="classabacus_1_1_sub.html#a47f2926e01b7ef45d8acbe6f478ce293" title="Tries to add new variables to the variable buffer and a pool. ">Sub::addVars()</a>. </p>
 
 <p>Definition at line <a class="el" href="lpsolution_8h_source.html#l00040">40</a> of file <a class="el" href="lpsolution_8h_source.html">lpsolution.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -1030,7 +1029,7 @@ template&lt;class BaseType, class CoType&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceabacus.html">abacus</a></li><li class="navelem"><a class="el" href="classabacus_1_1_separator.html">Separator</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

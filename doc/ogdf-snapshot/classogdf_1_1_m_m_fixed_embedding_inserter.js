@@ -9,7 +9,7 @@ var classogdf_1_1_m_m_fixed_embedding_inserter =
     [ "commonDummy", "classogdf_1_1_m_m_fixed_embedding_inserter.html#af8d73fccafa05171af77976b66eac8ca", null ],
     [ "constructDual", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a78f353423be0e6c1d426ae6a1116596d", null ],
     [ "contractSplit", "classogdf_1_1_m_m_fixed_embedding_inserter.html#aba6b199f626e7804e223c37cbeca6c41", null ],
-    [ "contractSplitIfReq", "classogdf_1_1_m_m_fixed_embedding_inserter.html#acfb0f896d70b7e0a1cf53baeada345c0", null ],
+    [ "contractSplitIfReq", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a4dec5fbeb6626964684063b38bbebc4d", null ],
     [ "convertDummy", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a5a139392ae25287d5c422abeb32db911", null ],
     [ "doCall", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a703d601cffc699974640d3d79df88e75", null ],
     [ "drawDual", "classogdf_1_1_m_m_fixed_embedding_inserter.html#a8d96bbfca76cae6be85629d42362b99b", null ],

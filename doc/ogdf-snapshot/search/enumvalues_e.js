@@ -53,7 +53,7 @@ var searchData=
   ['psdecreasingheight',['psDecreasingHeight',['../classogdf_1_1_f_m_m_m_layout.html#ab3f3b995b1810a83e5c190723759626ea5d38ee3ea6a928f5f2569d12a462d1d9',1,'ogdf::FMMMLayout']]],
   ['psdecreasingwidth',['psDecreasingWidth',['../classogdf_1_1_f_m_m_m_layout.html#ab3f3b995b1810a83e5c190723759626eac9658d16230e65491d98c4c8e5f5eb21',1,'ogdf::FMMMLayout']]],
   ['psnone',['psNone',['../classogdf_1_1_f_m_m_m_layout.html#ab3f3b995b1810a83e5c190723759626ea4c0bcbb5250afa76154a73c6606ea6d9',1,'ogdf::FMMMLayout']]],
-  ['purple',['Purple',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a65cf2b8857abc5d34f884c56414f8bd8',1,'ogdf::Color']]],
+  ['purple',['Purple',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a65cf2b8857abc5d34f884c56414f8bd8',1,'ogdf::Color::Purple()'],['../namespacebackward_1_1_color.html#a6292269f4da43517b3fe825563efee5ca83495492b6ede5f3b14a20d42204b8e2',1,'backward::Color::purple()']]],
   ['pvcacyclichierarchies',['pvcAcyclicHierarchies',['../group__exceptions.html#ggad6b355cc7cc38d6afa49936c70ada2b8a267c7e33088ead608def5d17f0e024ec',1,'ogdf']]],
   ['pvcbiconnected',['pvcBiconnected',['../group__exceptions.html#ggad6b355cc7cc38d6afa49936c70ada2b8a49788b8304fd579f04e144d72eea6f10',1,'ogdf']]],
   ['pvcclusterplanar',['pvcClusterPlanar',['../group__exceptions.html#ggad6b355cc7cc38d6afa49936c70ada2b8a7da4e94cdb25cd10537fe64b0e37db1e',1,'ogdf']]],

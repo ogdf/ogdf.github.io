@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -139,12 +139,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_longest_path_ranking.htm
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_longest_path_ranking.png" usemap="#ogdf::LongestPathRanking_map" alt=""/>
-  <map id="ogdf::LongestPathRanking_map" name="ogdf::LongestPathRanking_map">
-<area href="classogdf_1_1_ranking_module.html" title="Interface of algorithms for computing a node ranking. " alt="ogdf::RankingModule" shape="rect" coords="0,0,157,24"/>
+<div class="center"><img src="classogdf_1_1_longest_path_ranking__inherit__graph.png" border="0" usemap="#ogdf_1_1_longest_path_ranking_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_longest_path_ranking_inherit__map" id="ogdf_1_1_longest_path_ranking_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_ranking_module.html" title="Interface of algorithms for computing a node ranking. " alt="" coords="21,5,166,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -252,9 +251,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:affc733febd9e455a08e0c78791e87275"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_longest_path_ranking.html#affc733febd9e455a08e0c78791e87275">m_sepDeg0</a></td></tr>
 <tr class="memdesc:affc733febd9e455a08e0c78791e87275"><td class="mdescLeft">&#160;</td><td class="mdescRight">Put isolated nodes on a separate layer?  <a href="#affc733febd9e455a08e0c78791e87275">More...</a><br /></td></tr>
 <tr class="separator:affc733febd9e455a08e0c78791e87275"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58c6082b6a922db90b5111b7b799dcd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_module_option.html">ModuleOption</a>&lt; <a class="el" href="classogdf_1_1_acyclic_subgraph_module.html">AcyclicSubgraphModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_longest_path_ranking.html#a58c6082b6a922db90b5111b7b799dcd9">m_subgraph</a></td></tr>
-<tr class="memdesc:a58c6082b6a922db90b5111b7b799dcd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The acyclic sugraph module.  <a href="#a58c6082b6a922db90b5111b7b799dcd9">More...</a><br /></td></tr>
-<tr class="separator:a58c6082b6a922db90b5111b7b799dcd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac54b177f3f84504cd61808f9eef48b26"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classogdf_1_1_acyclic_subgraph_module.html">AcyclicSubgraphModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_longest_path_ranking.html#ac54b177f3f84504cd61808f9eef48b26">m_subgraph</a></td></tr>
+<tr class="memdesc:ac54b177f3f84504cd61808f9eef48b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">The acyclic sugraph module.  <a href="#ac54b177f3f84504cd61808f9eef48b26">More...</a><br /></td></tr>
+<tr class="separator:ac54b177f3f84504cd61808f9eef48b26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The longest-path ranking algorithm. </p>
@@ -283,7 +282,7 @@ Private Attributes</h2></td></tr>
 <td><em>subgraph</em></td><td><a class="el" href="classogdf_1_1_acyclic_subgraph_module.html" title="Base class of algorithms for computing a maximal acyclic subgraph. ">AcyclicSubgraphModule</a></td><td><a class="el" href="classogdf_1_1_dfs_acyclic_subgraph.html" title="DFS-based algorithm for computing a maximal acyclic subgraph. ">DfsAcyclicSubgraph</a> </td><td>The module for the computation of the acyclic subgraph.  </td></tr>
 </table>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00099">99</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00096">96</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1ed3a9b813002f78ec7b50e24c2007f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1ed3a9b813002f78ec7b50e24c2007f4">&sect;&nbsp;</a></span>LongestPathRanking()</h2>
@@ -330,7 +329,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the current setting of alignment of base classes (callUML only). </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00195">195</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00192">192</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -360,7 +359,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the option for alignment of base classes to <em>b</em>. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00198">198</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00195">195</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -389,7 +388,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the current setting of option for alignment of siblings. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00201">201</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00198">198</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -419,7 +418,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the option for alignment of siblings to <em>b</em>. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00204">204</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00201">201</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -567,7 +566,7 @@ Private Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="classogdf_1_1_ranking_module.html#acc3b32ad4650eea2f6dce7a87ccbbd53">ogdf::RankingModule</a>.</p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00144">144</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00141">141</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -829,7 +828,7 @@ Private Attributes</h2></td></tr>
 <p>Returns the current setting of option optimizeEdgeLength. </p>
 <p>If set to true the ranking algorithm tries to reduce edge length even if this might increase the height of the layout. Choose false if the longest-path ranking known from the literature shall be used. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00189">189</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00186">186</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -859,7 +858,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the option optimizeEdgeLength to <em>b</em>. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00192">192</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00189">189</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -889,7 +888,7 @@ Private Attributes</h2></td></tr>
 <p>Returns the current setting of option separateDeg0Layer. </p>
 <p>If set to true, isolated nodes are placed on a separate layer. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00166">166</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00163">163</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -919,7 +918,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the option separateDeg0Layer to <em>sdl</em>. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00169">169</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00166">166</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -949,7 +948,7 @@ Private Attributes</h2></td></tr>
 <p>Returns the current setting of option separateMultiEdges. </p>
 <p>If set to true, multi-edges will span at least two layers. Since each such edge will have at least one dummy node, the edges will automaticall be separated in a Sugiyama drawing. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00177">177</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00174">174</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -979,7 +978,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the option separateMultiEdges to <em>b</em>. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00180">180</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00177">177</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1009,7 +1008,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the module for the computation of the acyclic subgraph. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00213">213</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00210">210</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1034,7 +1033,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00111">111</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00108">108</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1060,7 +1059,7 @@ Private Attributes</h2></td></tr>
 
 <p>Align base classes (callUML only). </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00105">105</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00102">102</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1086,7 +1085,7 @@ Private Attributes</h2></td></tr>
 
 <p>Align siblings (callUML only). </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00106">106</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00103">103</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1110,7 +1109,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00110">110</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00107">107</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1134,7 +1133,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00112">112</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00109">109</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1158,7 +1157,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00110">110</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00107">107</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1182,7 +1181,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00108">108</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00105">105</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1206,7 +1205,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00108">108</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00105">105</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1232,7 +1231,7 @@ Private Attributes</h2></td></tr>
 
 <p>Optimize for short edges. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00104">104</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00101">101</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1258,7 +1257,7 @@ Private Attributes</h2></td></tr>
 
 <p>Separate multi-edges? </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00103">103</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00100">100</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1284,12 +1283,12 @@ Private Attributes</h2></td></tr>
 
 <p>Put isolated nodes on a separate layer? </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00102">102</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00099">99</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
-<a id="a58c6082b6a922db90b5111b7b799dcd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58c6082b6a922db90b5111b7b799dcd9">&sect;&nbsp;</a></span>m_subgraph</h2>
+<a id="ac54b177f3f84504cd61808f9eef48b26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac54b177f3f84504cd61808f9eef48b26">&sect;&nbsp;</a></span>m_subgraph</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1298,7 +1297,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_module_option.html">ModuleOption</a>&lt;<a class="el" href="classogdf_1_1_acyclic_subgraph_module.html">AcyclicSubgraphModule</a>&gt; ogdf::LongestPathRanking::m_subgraph</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classogdf_1_1_acyclic_subgraph_module.html">AcyclicSubgraphModule</a>&gt; ogdf::LongestPathRanking::m_subgraph</td>
         </tr>
       </table>
   </td>
@@ -1310,7 +1309,7 @@ Private Attributes</h2></td></tr>
 
 <p>The acyclic sugraph module. </p>
 
-<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00101">101</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
+<p>Definition at line <a class="el" href="_longest_path_ranking_8h_source.html#l00098">98</a> of file <a class="el" href="_longest_path_ranking_8h_source.html">LongestPathRanking.h</a>.</p>
 
 </div>
 </div>
@@ -1323,7 +1322,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_longest_path_ranking.html">LongestPathRanking</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

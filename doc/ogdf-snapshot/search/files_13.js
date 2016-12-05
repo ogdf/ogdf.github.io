@@ -14,7 +14,6 @@ var searchData=
   ['upwardplanarity_2eh',['UpwardPlanarity.h',['../_upward_planarity_8h.html',1,'']]],
   ['upwardplanarityembeddeddigraph_2eh',['UpwardPlanarityEmbeddedDigraph.h',['../_upward_planarity_embedded_digraph_8h.html',1,'']]],
   ['upwardplanaritysinglesource_2eh',['UpwardPlanaritySingleSource.h',['../_upward_planarity_single_source_8h.html',1,'']]],
-  ['upwardplanarizationlayout_2eh',['UpwardPlanarizationLayout.h',['../_upward_planarization_layout_8h.html',1,'']]],
   ['upwardplanarizermodule_2eh',['UpwardPlanarizerModule.h',['../_upward_planarizer_module_8h.html',1,'']]],
   ['upwardplanarsubgraphmodule_2eh',['UpwardPlanarSubgraphModule.h',['../_upward_planar_subgraph_module_8h.html',1,'']]],
   ['upwardplanarsubgraphsimple_2eh',['UpwardPlanarSubgraphSimple.h',['../_upward_planar_subgraph_simple_8h.html',1,'']]],

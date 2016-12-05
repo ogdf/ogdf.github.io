@@ -16,7 +16,7 @@ var classogdf_1_1_ortho_rep =
     [ "computeCageInfoUML", "classogdf_1_1_ortho_rep.html#af15c433d3bcf0ca51b221ab494da71c1", null ],
     [ "direction", "classogdf_1_1_ortho_rep.html#a1ac53d70c2991a119c11d527f5ae52db", null ],
     [ "dissect", "classogdf_1_1_ortho_rep.html#a6b7e54ed802f48ffeaa5bd207ec433ba", null ],
-    [ "dissect2", "classogdf_1_1_ortho_rep.html#a76475b9d38278e4d80bff397d7bb04e0", null ],
+    [ "dissect2", "classogdf_1_1_ortho_rep.html#a32ecd695e1ba8057032bf29a190bb07a", null ],
     [ "externalAdjEntry", "classogdf_1_1_ortho_rep.html#a72ea69ce913d9c95ee94e98b57e145ec", null ],
     [ "flip", "classogdf_1_1_ortho_rep.html#ad86c6c4733608ff58d93fdeafbdf49a4", null ],
     [ "freeCageInfoUML", "classogdf_1_1_ortho_rep.html#a2e7ee1b4534db937da9dda505ad673a6", null ],

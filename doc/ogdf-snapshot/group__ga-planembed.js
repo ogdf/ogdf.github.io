@@ -30,6 +30,7 @@ var group__ga_planembed =
       [ "planarEmbedPlanarGraph", "classogdf_1_1_boyer_myrvold.html#af7badef771901041703a1b081878c120", null ],
       [ "transform", "classogdf_1_1_boyer_myrvold.html#a22a8a438497960d41caadbd5397c9e5a", null ],
       [ "transform", "classogdf_1_1_boyer_myrvold.html#aeb03dd960f2e8dfc9a116f81f5533d4b", null ],
+      [ "transform", "classogdf_1_1_boyer_myrvold.html#ae2682665b85d0d40eec4e11bfe0a2055", null ],
       [ "nOfStructures", "classogdf_1_1_boyer_myrvold.html#a749b3172353091385e39e5600f2ab6a5", null ],
       [ "pBMP", "classogdf_1_1_boyer_myrvold.html#a842e998f6e26860280444c2d282a4aea", null ]
     ] ],
@@ -218,7 +219,7 @@ var group__ga_planembed =
       [ "optimizeOverEmbeddings", "classogdf_1_1_embedder_optimal_flex_draw.html#a805eb289f930fe63f0d7d7cc1c1ee0b0", null ],
       [ "setMinCostFlowComputer", "classogdf_1_1_embedder_optimal_flex_draw.html#a2a703fbff784fe851003a726bc0f67e6", null ],
       [ "m_cost", "classogdf_1_1_embedder_optimal_flex_draw.html#ac71b129a00cf45c93cff4f5061283ef4", null ],
-      [ "m_minCostFlowComputer", "classogdf_1_1_embedder_optimal_flex_draw.html#adfa71ed9ebef0911f32226a480bcded9", null ]
+      [ "m_minCostFlowComputer", "classogdf_1_1_embedder_optimal_flex_draw.html#a69122d38e1d0b6b8e1c3c6d4600cb463", null ]
     ] ],
     [ "isPlanar", "group__ga-planembed.html#gaed961d1a9b7810143059cb36adc32849", null ],
     [ "planarEmbed", "group__ga-planembed.html#ga31d5b4e2a827042674fc667e8858b69e", null ],

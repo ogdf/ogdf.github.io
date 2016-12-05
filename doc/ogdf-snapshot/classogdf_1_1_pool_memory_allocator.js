@@ -21,8 +21,6 @@ var classogdf_1_1_pool_memory_allocator =
     [ "enterCS", "classogdf_1_1_pool_memory_allocator.html#a8dea867ef196dfdf017d5ebb31efeaec", null ],
     [ "fillPool", "classogdf_1_1_pool_memory_allocator.html#a1fa17e0da21fb879337851de00256069", null ],
     [ "flushPool", "classogdf_1_1_pool_memory_allocator.html#ae8e7508e3a01aec9291891b2f355342a", null ],
-    [ "init", "classogdf_1_1_pool_memory_allocator.html#aeed5f2794c4e28830d3a89df8ad607f9", null ],
-    [ "initThread", "classogdf_1_1_pool_memory_allocator.html#a4e79586503e7aa4e09268aad8c08c756", null ],
     [ "leaveCS", "classogdf_1_1_pool_memory_allocator.html#a69c9ce21fd2003109f32535728f8f660", null ],
     [ "makeSlices", "classogdf_1_1_pool_memory_allocator.html#ae6dc84d9f30b21d80af0d68f493a3dc6", null ],
     [ "memoryAllocatedInBlocks", "classogdf_1_1_pool_memory_allocator.html#a04c8712bf83e1c9b19c620fde351ee4d", null ],
@@ -34,5 +32,5 @@ var classogdf_1_1_pool_memory_allocator =
     [ "s_blocks", "classogdf_1_1_pool_memory_allocator.html#a12a8a03fe747303a3c11a1cb71502d92", null ],
     [ "s_mutex", "classogdf_1_1_pool_memory_allocator.html#a1ae3597c73925913c7fc3ee6ab9c013d", null ],
     [ "s_pool", "classogdf_1_1_pool_memory_allocator.html#aca62e861d1109d64f1dc71dbd5786afc", null ],
-    [ "s_tp", "classogdf_1_1_pool_memory_allocator.html#aeeb1e192e1c23e5822903fb8e4b63f47", null ]
+    [ "s_tp", "classogdf_1_1_pool_memory_allocator.html#a908978eb5e128ce6d143cc2f8328bb4f", null ]
 ];

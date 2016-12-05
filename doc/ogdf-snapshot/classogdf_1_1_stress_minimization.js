@@ -10,7 +10,6 @@ var classogdf_1_1_stress_minimization =
     [ "calcStress", "classogdf_1_1_stress_minimization.html#a69339617fef5bc75b07fbfc52cd5bcdb", null ],
     [ "calcWeights", "classogdf_1_1_stress_minimization.html#a859e0c8d0e2289a3b7d5038b1779c02a", null ],
     [ "call", "classogdf_1_1_stress_minimization.html#a0d7c78021d03c1a890e54329cbd15bdd", null ],
-    [ "call", "classogdf_1_1_stress_minimization.html#aeb31e81ebd9008ff68c83d73ef942421", null ],
     [ "call", "classogdf_1_1_stress_minimization.html#a6a95d489ac58dd21e6138c69f499aa60", null ],
     [ "computeInitialLayout", "classogdf_1_1_stress_minimization.html#a926b10b498f983a3fba4ad94f21ccbd1", null ],
     [ "convergenceCriterion", "classogdf_1_1_stress_minimization.html#a4e82d027db46d2da8271a35ec1817f6a", null ],

@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -139,12 +139,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_fast_multipole_embedder.
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
- <div class="center">
-  <img src="classogdf_1_1_fast_multipole_embedder.png" usemap="#ogdf::FastMultipoleEmbedder_map" alt=""/>
-  <map id="ogdf::FastMultipoleEmbedder_map" name="ogdf::FastMultipoleEmbedder_map">
-<area href="classogdf_1_1_layout_module.html" title="Interface of general layout algorithms. " alt="ogdf::LayoutModule" shape="rect" coords="0,0,175,24"/>
+<div class="center"><img src="classogdf_1_1_fast_multipole_embedder__inherit__graph.png" border="0" usemap="#ogdf_1_1_fast_multipole_embedder_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_fast_multipole_embedder_inherit__map" id="ogdf_1_1_fast_multipole_embedder_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_layout_module.html" title="Interface of general layout algorithms. " alt="" coords="33,5,169,32"/>
 </map>
- </div></div>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -155,11 +154,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a09ae482a109fb21d2d15bf56853c9fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">destructor  <a href="#a09ae482a109fb21d2d15bf56853c9fb1">More...</a><br /></td></tr>
 <tr class="separator:a09ae482a109fb21d2d15bf56853c9fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9b5aa4f97e71b5474b976fe005946e3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fast_multipole_embedder.html#ac9b5aa4f97e71b5474b976fe005946e3">call</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; float &gt; &amp;nodeXPosition, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; float &gt; &amp;nodeYPosition, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; float &gt; &amp;edgeLength, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; float &gt; &amp;nodeSize)</td></tr>
-<tr class="memdesc:ac9b5aa4f97e71b5474b976fe005946e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the algorithm for graph <em>MLG</em>.  <a href="#ac9b5aa4f97e71b5474b976fe005946e3">More...</a><br /></td></tr>
+<tr class="memdesc:ac9b5aa4f97e71b5474b976fe005946e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the algorithm for graph <em>G</em> with the given edgelength and returns the layout information in <em>nodeXPosition</em>, nodeYPosition.  <a href="#ac9b5aa4f97e71b5474b976fe005946e3">More...</a><br /></td></tr>
 <tr class="separator:ac9b5aa4f97e71b5474b976fe005946e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa136e83440bba71ddaa94ed00431b615"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fast_multipole_embedder.html#aa136e83440bba71ddaa94ed00431b615">call</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA, <a class="el" href="classogdf_1_1_graph_constraints.html">GraphConstraints</a> &amp;GC) override</td></tr>
-<tr class="memdesc:aa136e83440bba71ddaa94ed00431b615"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a layout of graph <em>GA</em> wrt the constraints in <em>GC</em> (if applicable).  <a href="#aa136e83440bba71ddaa94ed00431b615">More...</a><br /></td></tr>
-<tr class="separator:aa136e83440bba71ddaa94ed00431b615"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31a9adb3a11dae1c382bdb1e6a1ea595"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fast_multipole_embedder.html#a31a9adb3a11dae1c382bdb1e6a1ea595">call</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; float &gt; &amp;edgeLength, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; float &gt; &amp;nodeSize)</td></tr>
 <tr class="memdesc:a31a9adb3a11dae1c382bdb1e6a1ea595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the algorithm for graph <em>GA</em> with the given edgelength and returns the layout information in <em>GA</em>.  <a href="#a31a9adb3a11dae1c382bdb1e6a1ea595">More...</a><br /></td></tr>
 <tr class="separator:a31a9adb3a11dae1c382bdb1e6a1ea595"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -235,7 +231,7 @@ Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The fast multipole embedder approach for force-directed layout. </p>
 
-<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00050">50</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00047">47</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ad78293b05e0639081ac8b69c806864b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad78293b05e0639081ac8b69c806864b2">&sect;&nbsp;</a></span>FastMultipoleEmbedder()</h2>
@@ -315,7 +311,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="ac9b5aa4f97e71b5474b976fe005946e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac9b5aa4f97e71b5474b976fe005946e3">&sect;&nbsp;</a></span>call() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b5aa4f97e71b5474b976fe005946e3">&sect;&nbsp;</a></span>call() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,55 +354,12 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Calls the algorithm for graph <em>MLG</em>. </p>
 <p>Calls the algorithm for graph <em>G</em> with the given edgelength and returns the layout information in <em>nodeXPosition</em>, nodeYPosition. </p>
 
 </div>
 </div>
-<a id="aa136e83440bba71ddaa94ed00431b615"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa136e83440bba71ddaa94ed00431b615">&sect;&nbsp;</a></span>call() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ogdf::FastMultipoleEmbedder::call </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;&#160;</td>
-          <td class="paramname"><em>GA</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_graph_constraints.html">GraphConstraints</a> &amp;&#160;</td>
-          <td class="paramname"><em>GC</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes a layout of graph <em>GA</em> wrt the constraints in <em>GC</em> (if applicable). </p>
-
-<p>Reimplemented from <a class="el" href="classogdf_1_1_layout_module.html#a2e538f8d403d49e1e3d64f6574f4f14b">ogdf::LayoutModule</a>.</p>
-
-<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00071">71</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
-
-</div>
-</div>
 <a id="a31a9adb3a11dae1c382bdb1e6a1ea595"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31a9adb3a11dae1c382bdb1e6a1ea595">&sect;&nbsp;</a></span>call() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a9adb3a11dae1c382bdb1e6a1ea595">&sect;&nbsp;</a></span>call() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +395,7 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a3c87735b84ed6a6c4235c101f0f48f73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c87735b84ed6a6c4235c101f0f48f73">&sect;&nbsp;</a></span>call() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c87735b84ed6a6c4235c101f0f48f73">&sect;&nbsp;</a></span>call() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -625,7 +578,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00089">89</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00086">86</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
 
 </div>
 </div>
@@ -653,7 +606,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00092">92</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00089">89</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
 
 </div>
 </div>
@@ -683,7 +636,7 @@ Private Attributes</h2></td></tr>
 
 <p>sets the number of coefficients for the expansions. default = 4 </p>
 
-<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00083">83</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00080">80</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
 
 </div>
 </div>
@@ -711,7 +664,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00095">95</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00092">92</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
 
 </div>
 </div>
@@ -741,7 +694,7 @@ Private Attributes</h2></td></tr>
 
 <p>sets the maximum number of iterations </p>
 
-<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00080">80</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00077">77</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
 
 </div>
 </div>
@@ -771,7 +724,7 @@ Private Attributes</h2></td></tr>
 
 <p>if true, layout algorithm will randomize the layout in the beginning </p>
 
-<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00086">86</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
+<p>Definition at line <a class="el" href="_fast_multipole_embedder_8h_source.html#l00083">83</a> of file <a class="el" href="_fast_multipole_embedder_8h_source.html">FastMultipoleEmbedder.h</a>.</p>
 
 </div>
 </div>
@@ -1025,7 +978,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_fast_multipole_embedder.html">FastMultipoleEmbedder</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

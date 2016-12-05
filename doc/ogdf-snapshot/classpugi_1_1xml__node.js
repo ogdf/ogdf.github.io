@@ -13,6 +13,7 @@ var classpugi_1_1xml__node =
     [ "append_copy", "classpugi_1_1xml__node.html#a56796f244b13436de2f33da3e8c182f8", null ],
     [ "append_move", "classpugi_1_1xml__node.html#a83619cb521a024b87e7a63800669fecf", null ],
     [ "attribute", "classpugi_1_1xml__node.html#a8992c17cd7218cf24c5150eeb47e1451", null ],
+    [ "attribute", "classpugi_1_1xml__node.html#ad00be2662bbeef5912d942d1f7288eb3", null ],
     [ "attributes", "classpugi_1_1xml__node.html#abacb62e25c1178c31d841f2643fc054e", null ],
     [ "attributes_begin", "classpugi_1_1xml__node.html#a8f920a53b7bbe2d1b9c66892fe8622ec", null ],
     [ "attributes_end", "classpugi_1_1xml__node.html#af1569b30db5f9c09aa8af9b0ad19b953", null ],

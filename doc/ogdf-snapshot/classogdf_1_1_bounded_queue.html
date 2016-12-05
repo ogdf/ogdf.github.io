@@ -44,7 +44,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2015-12-04</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2016-12-05</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -150,6 +150,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a770e2986639b61ca705125a047f70263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a bounded queue containing the elements of <em>Q</em> (move semantics).  <a href="#a770e2986639b61ca705125a047f70263">More...</a><br /></td></tr>
 <tr class="separator:a770e2986639b61ca705125a047f70263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9e73fc4b6a99d40487f755048c531da4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_bounded_queue.html#a9e73fc4b6a99d40487f755048c531da4">~BoundedQueue</a> ()</td></tr>
+<tr class="memdesc:a9e73fc4b6a99d40487f755048c531da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruction.  <a href="#a9e73fc4b6a99d40487f755048c531da4">More...</a><br /></td></tr>
 <tr class="separator:a9e73fc4b6a99d40487f755048c531da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14d4abec303a337c1488121d3f14e86e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_bounded_queue.html#a14d4abec303a337c1488121d3f14e86e">append</a> (const E &amp;x)</td></tr>
 <tr class="memdesc:a14d4abec303a337c1488121d3f14e86e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds <em>x</em> at the end of queue.  <a href="#a14d4abec303a337c1488121d3f14e86e">More...</a><br /></td></tr>
@@ -232,7 +233,7 @@ class ogdf::BoundedQueue&lt; E, INDEX &gt;</h3>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00049">49</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00046">46</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac11a3b1ac94480ef15854856d87c3a36"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac11a3b1ac94480ef15854856d87c3a36">&sect;&nbsp;</a></span>BoundedQueue() <span class="overload">[1/4]</span></h2>
@@ -262,7 +263,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 <p>Pointer to first element of total array. </p>
 <p>Creates a non-valid bounded queue. Needs to be reinitialized first. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00058">58</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00055">55</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -294,7 +295,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Constructs an empty bounded queue for at most <em>n</em> elements. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00063">63</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00060">60</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -326,7 +327,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Constructs a bounded queue that is a copy of <em>Q</em>. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00072">72</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00069">69</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -359,7 +360,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 <p>Constructs a bounded queue containing the elements of <em>Q</em> (move semantics). </p>
 <p>The queue <em>Q</em> is non valid afterwards, i.e., its capacity is zero. It has to be reinitialized if new elements shall be appended. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00081">81</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00078">78</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -388,7 +389,9 @@ template&lt;class E, class INDEX = int&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00090">90</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Destruction. </p>
+
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00087">87</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -421,7 +424,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Adds <em>x</em> at the end of queue. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00182">182</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00179">179</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -452,7 +455,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns back element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00122">122</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00119">119</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -483,7 +486,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns back element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00129">129</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00126">126</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -514,7 +517,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns the capacity of the bounded queue. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00143">143</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00140">140</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -545,7 +548,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Makes the queue empty. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00197">197</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00194">194</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -575,7 +578,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00210">210</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00207">207</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -606,7 +609,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns true iff the queue is empty. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00146">146</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00143">143</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -637,7 +640,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns true iff the queue is full. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00149">149</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00146">146</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -668,7 +671,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Reinitializes the bounded queue to a non-valid bounded queue. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00093">93</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00090">90</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -700,7 +703,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Reinitializes the bounded queue to a bounded queue for at most <em>n</em> elements. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00099">99</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00096">96</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -732,7 +735,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Assignment operator. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00157">157</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00154">154</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -765,7 +768,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 <p>Assignment operator (move semantics). </p>
 <p>The queue <em>Q</em> is non valid afterwards, i.e., its capacity is zero. It has to be reinitialized if new elements shall be appended. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00168">168</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00165">165</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -796,7 +799,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Removes front element and returns it. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00189">189</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00186">186</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -838,7 +841,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Prints the queue to output stream <em>os</em>. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00200">200</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00197">197</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -869,7 +872,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns current size of the queue. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00136">136</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00133">133</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -900,7 +903,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns front element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00110">110</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00107">107</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -931,7 +934,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Returns front element. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00116">116</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00113">113</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -960,7 +963,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Pointer to first element of current sequence. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00052">52</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00049">49</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -988,7 +991,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Pointer to one past last element of total array. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00054">54</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00051">51</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -1014,7 +1017,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00051">51</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00048">48</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -1042,7 +1045,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 
 <p>Pointer to one past last element of current sequence. </p>
 
-<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00053">53</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p>Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00050">50</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -1055,7 +1058,7 @@ template&lt;class E, class INDEX = int&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_bounded_queue.html">BoundedQueue</a></li>
-    <li class="footer">&copy; 1999&ndash;2015 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2016 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

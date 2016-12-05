@@ -62,7 +62,6 @@ var searchData=
   ['modifiednibbleclusterer_2eh',['ModifiedNibbleClusterer.h',['../_modified_nibble_clusterer_8h.html',1,'']]],
   ['modularmultilevelmixer_2eh',['ModularMultilevelMixer.h',['../_modular_multilevel_mixer_8h.html',1,'']]],
   ['module_2eh',['Module.h',['../_module_8h.html',1,'']]],
-  ['moduleoption_2eh',['ModuleOption.h',['../_module_option_8h.html',1,'']]],
   ['multiedgeapproxinserter_2eh',['MultiEdgeApproxInserter.h',['../_multi_edge_approx_inserter_8h.html',1,'']]],
   ['multilevel_2eh',['Multilevel.h',['../_multilevel_8h.html',1,'']]],
   ['multilevelbuilder_2eh',['MultilevelBuilder.h',['../_multilevel_builder_8h.html',1,'']]],

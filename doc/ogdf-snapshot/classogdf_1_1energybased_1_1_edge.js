@@ -9,7 +9,6 @@ var classogdf_1_1energybased_1_1_edge =
     [ "set_Edge", "classogdf_1_1energybased_1_1_edge.html#a3a6e30349ea5563926940acd82580d27", null ],
     [ "set_Edge", "classogdf_1_1energybased_1_1_edge.html#a34cb99117ed98fb4e0e7e3e62442d770", null ],
     [ "operator<<", "classogdf_1_1energybased_1_1_edge.html#a69bfde622e922559ae89b1e1a047dbc4", null ],
-    [ "operator>>", "classogdf_1_1energybased_1_1_edge.html#a30ed42cf86af5bae905edf64d4d670aa", null ],
     [ "angle", "classogdf_1_1energybased_1_1_edge.html#a7b4f022cde2019573006da85405d1820", null ],
     [ "cut_vertex", "classogdf_1_1energybased_1_1_edge.html#a2c9f195337516f906c3aacadc92c2c57", null ],
     [ "e", "classogdf_1_1energybased_1_1_edge.html#a4b50b52f15166a2ee5ce10c82d45f611", null ],
