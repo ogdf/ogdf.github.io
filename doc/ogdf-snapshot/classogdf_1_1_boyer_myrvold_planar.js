@@ -1,12 +1,13 @@
 var classogdf_1_1_boyer_myrvold_planar =
 [
-    [ "enumEmbeddingGrade", "classogdf_1_1_boyer_myrvold_planar.html#a77145257bc59175a8dfd65f425fa7557", [
-      [ "doNotEmbed", "classogdf_1_1_boyer_myrvold_planar.html#a77145257bc59175a8dfd65f425fa7557a16a04025f54e47088bf9d972ebf1324f", null ],
-      [ "doNotFind", "classogdf_1_1_boyer_myrvold_planar.html#a77145257bc59175a8dfd65f425fa7557a530e1c6acd867e3bbca1fe6f9a2b8356", null ],
-      [ "doFindUnlimited", "classogdf_1_1_boyer_myrvold_planar.html#a77145257bc59175a8dfd65f425fa7557a9044165b10c97b694dd736de44e7390c", null ],
-      [ "doFindZero", "classogdf_1_1_boyer_myrvold_planar.html#a77145257bc59175a8dfd65f425fa7557ae30a7f7bf8508182acf2e56360f890d1", null ]
+    [ "EmbeddingGrade", "classogdf_1_1_boyer_myrvold_planar.html#aa5cbb0f8c3a5b156d8107d66e93f19bb", [
+      [ "doNotEmbed", "classogdf_1_1_boyer_myrvold_planar.html#aa5cbb0f8c3a5b156d8107d66e93f19bba907b2e34934b1d0e807bf8fd93e6a4b6", null ],
+      [ "doNotFind", "classogdf_1_1_boyer_myrvold_planar.html#aa5cbb0f8c3a5b156d8107d66e93f19bba3ef902102ee0c888b6463dfe92789c02", null ],
+      [ "doFindUnlimited", "classogdf_1_1_boyer_myrvold_planar.html#aa5cbb0f8c3a5b156d8107d66e93f19bba97c82d9f60873555e89c5be0877762ee", null ],
+      [ "doFindZero", "classogdf_1_1_boyer_myrvold_planar.html#aa5cbb0f8c3a5b156d8107d66e93f19bba2491296fb8041b4e3c459b6029148bf7", null ]
     ] ],
     [ "BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html#a33d7dfcabbae6af06a7382e272c51bfb", null ],
+    [ "BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html#a01099e35845217f43ed6257cfdecbfea", null ],
     [ "~BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html#a43b59274c5efc8e3edd2d207eb98c7a5", null ],
     [ "activeSuccessor", "classogdf_1_1_boyer_myrvold_planar.html#ae24c08f82ff7e5c5884f7ea3b0a3d470", null ],
     [ "beforeShortCircuitEdge", "classogdf_1_1_boyer_myrvold_planar.html#a765dba62de0bcdcbd0602b2092451f10", null ],
@@ -36,10 +37,12 @@ var classogdf_1_1_boyer_myrvold_planar =
     [ "walkdown", "classogdf_1_1_boyer_myrvold_planar.html#a4cd40330eec472a576fe48510f1a113c", null ],
     [ "walkup", "classogdf_1_1_boyer_myrvold_planar.html#ae892f3bf93cb192053855627de344019", null ],
     [ "wNodesExist", "classogdf_1_1_boyer_myrvold_planar.html#a63c6f9a430ead5b7f281db46a9eab3d3", null ],
+    [ "boyer_myrvold::BoyerMyrvoldInit", "classogdf_1_1_boyer_myrvold_planar.html#ac49a2b7b5cb7583059baaf3fa4d7c975", null ],
     [ "BoyerMyrvold", "classogdf_1_1_boyer_myrvold_planar.html#a25492986aca0219cb1ab035bd2f38467", null ],
-    [ "BoyerMyrvoldInit", "classogdf_1_1_boyer_myrvold_planar.html#af2b6a312efa7ad2ce9e8ae4fb497feeb", null ],
     [ "ExtractKuratowskis", "classogdf_1_1_boyer_myrvold_planar.html#a506d25cc83c8165b24b70b529e886e23", null ],
     [ "FindKuratowskis", "classogdf_1_1_boyer_myrvold_planar.html#ab8d1009fb5b5852e38fd05047bcc2342", null ],
+    [ "DirectionCCW", "classogdf_1_1_boyer_myrvold_planar.html#a8d6096346a6456003c9cbb4fc31b42ea", null ],
+    [ "DirectionCW", "classogdf_1_1_boyer_myrvold_planar.html#a085da0799d81df88fd08d82d8763f7cd", null ],
     [ "m_adjParent", "classogdf_1_1_boyer_myrvold_planar.html#a817bb6030cda6c82cace13d46a85b9ac", null ],
     [ "m_avoidE2Minors", "classogdf_1_1_boyer_myrvold_planar.html#ad59659e4482fba829033df9e5f99415b", null ],
     [ "m_backedgeFlags", "classogdf_1_1_boyer_myrvold_planar.html#a0c1f8edea15b86a1f6703e92fa52f957", null ],
@@ -47,7 +50,7 @@ var classogdf_1_1_boyer_myrvold_planar =
     [ "m_bundles", "classogdf_1_1_boyer_myrvold_planar.html#a05a7f0bb8cc51d961d0f78c304f9d98a", null ],
     [ "m_dfi", "classogdf_1_1_boyer_myrvold_planar.html#a4b76d39b76c0abf85afddf8965ce8479", null ],
     [ "m_edgeCosts", "classogdf_1_1_boyer_myrvold_planar.html#a78c2c1329d680f7100077c5e9fb445e6", null ],
-    [ "m_edgeType", "classogdf_1_1_boyer_myrvold_planar.html#aa164b988c97c5e7c2ff834e19a722a89", null ],
+    [ "m_edgeType", "classogdf_1_1_boyer_myrvold_planar.html#aacba4ef860bad6862505f24874126d45", null ],
     [ "m_embeddingGrade", "classogdf_1_1_boyer_myrvold_planar.html#ad142d60ed28bd5ade318954e5e33afe5", null ],
     [ "m_extractSubgraph", "classogdf_1_1_boyer_myrvold_planar.html#ad21e294f49a13d6768a4738fca4e8e19", null ],
     [ "m_flipped", "classogdf_1_1_boyer_myrvold_planar.html#a68116b4c4a745789d7d013be2d4d7e7e", null ],

@@ -5,6 +5,8 @@ var group__graph_generators =
     [ "completeGraph", "group__graph-generators.html#gaa3f3de8e779cf75d10d3784c8da491fc", null ],
     [ "completeKPartiteGraph", "group__graph-generators.html#ga75e3a665f927e3200e63e4b9f16e5553", null ],
     [ "cubeGraph", "group__graph-generators.html#gab7c85da1b67c5f397be073826a532f39", null ],
+    [ "customGraph", "group__graph-generators.html#gad0a545afc61d9b588bb859851a024c7b", null ],
+    [ "customGraph", "group__graph-generators.html#gabf374e75edf393767720724e794f6d41", null ],
     [ "emptyGraph", "group__graph-generators.html#ga44c2631acd39f73c7117a8a8c60d6071", null ],
     [ "gridGraph", "group__graph-generators.html#ga5e5147b533c68c25f3372b3ec5c2f04b", null ],
     [ "petersenGraph", "group__graph-generators.html#gaf0420643bdd6ded0f5825ec0b86c3732", null ],

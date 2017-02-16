@@ -4,7 +4,7 @@ var classogdf_1_1_radix_heap =
     [ "RadixHeap", "classogdf_1_1_radix_heap.html#abf22439c2d90d52d470d42aa3426bbfb", null ],
     [ "~RadixHeap", "classogdf_1_1_radix_heap.html#a4f974341a2f490ee63e43ce0be01b93a", null ],
     [ "empty", "classogdf_1_1_radix_heap.html#ac149a45b94d7d816eb7a4d0ae1137b27", null ],
-    [ "insert", "classogdf_1_1_radix_heap.html#a580cd77c9ed288e55f2a9245faaf0478", null ],
+    [ "insert", "classogdf_1_1_radix_heap.html#aa494463086fe95c151d4ca77b52759b8", null ],
     [ "msbSet", "classogdf_1_1_radix_heap.html#af29708eae90a7a4cf8df3a9436482602", null ],
     [ "pop", "classogdf_1_1_radix_heap.html#a9638dcd8d43da51601b51e5d93a5314b", null ],
     [ "push", "classogdf_1_1_radix_heap.html#a06311d37c3ad04680953e7761cea71c5", null ],

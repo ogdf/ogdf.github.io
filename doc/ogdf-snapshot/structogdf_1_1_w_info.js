@@ -1,11 +1,11 @@
 var structogdf_1_1_w_info =
 [
-    [ "enumMinorType", "structogdf_1_1_w_info.html#a6617391c0a3e92884e8ee465463c239d", [
-      [ "A", "structogdf_1_1_w_info.html#a6617391c0a3e92884e8ee465463c239da8362f9ffcbca2c463818d838c814915a", null ],
-      [ "B", "structogdf_1_1_w_info.html#a6617391c0a3e92884e8ee465463c239da11296d97c74d7314ad1370ff40aaada3", null ],
-      [ "C", "structogdf_1_1_w_info.html#a6617391c0a3e92884e8ee465463c239da9af41de4ba79a988c82da08148372650", null ],
-      [ "D", "structogdf_1_1_w_info.html#a6617391c0a3e92884e8ee465463c239da4e408c105f0292089e3afa34f8f7a598", null ],
-      [ "E", "structogdf_1_1_w_info.html#a6617391c0a3e92884e8ee465463c239dae0ad12d8aa3a3a8f6bb9ac3f209533b0", null ]
+    [ "MinorType", "structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0", [
+      [ "A", "structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0a7fc56270e7a70fa81a5935b72eacbe29", null ],
+      [ "B", "structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0a9d5ed678fe57bcca610140957afab571", null ],
+      [ "C", "structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0a0d61f8370cad1d412f80b84d143e1257", null ],
+      [ "D", "structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0af623e75af30e62bbd73d6df5b50bb7b5", null ],
+      [ "E", "structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0a3a3ea00cfc35332cedf6e5e9a32e94da", null ]
     ] ],
     [ "externEEnd", "structogdf_1_1_w_info.html#a4fb55ded5b8d426c0dc91d71b40c2800", null ],
     [ "externEStart", "structogdf_1_1_w_info.html#a75d4423e5908354c201e832c712515a6", null ],

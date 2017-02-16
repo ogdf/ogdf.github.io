@@ -5,11 +5,11 @@ var _compaction_constraint_graph_8h =
     [ "SegmentComparer", "classogdf_1_1_compaction_constraint_graph_1_1_segment_comparer.html", "classogdf_1_1_compaction_constraint_graph_1_1_segment_comparer" ],
     [ "CompactionConstraintGraphBase", "classogdf_1_1_compaction_constraint_graph_base.html", "classogdf_1_1_compaction_constraint_graph_base" ],
     [ "ConstraintEdgeType", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7c", [
-      [ "cetBasicArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca702f214583b488a98ad769aceec0ea3d", null ],
-      [ "cetVertexSizeArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7cabc1fc1c88245522020ee8cc69fc11b2a", null ],
-      [ "cetVisibilityArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca4b7ad3849992a4b3e8cafac0ba49fd72", null ],
-      [ "cetFixToZeroArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7cafb9f70eee4e18d9b58c752310f17af28", null ],
-      [ "cetReducibleArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca2f0013656a404d1dd5fa39d7b415207f", null ],
-      [ "cetMedianArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca7d692fe10aa58dcc139ad828a70d004d", null ]
+      [ "BasicArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca4c85a9d83728ab15dbd8349b361d5a35", null ],
+      [ "VertexSizeArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca35f4723fdad5af7666f3bf648e6b7d06", null ],
+      [ "VisibilityArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7cac0f06d98a28c4c8e43105e50b659d220", null ],
+      [ "FixToZeroArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca14f08ee1ce7104411b5369588efc80bc", null ],
+      [ "ReducibleArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca0197b482197fce2f6f97bd776f3956e1", null ],
+      [ "MedianArc", "_compaction_constraint_graph_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7cac993ca465da71a6156859e575592b609", null ]
     ] ]
 ];

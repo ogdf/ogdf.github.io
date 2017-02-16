@@ -1,10 +1,10 @@
 var classogdf_1_1_scaling_layout =
 [
     [ "ScalingType", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44", [
-      [ "st_relativeToDrawing", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44ac01a018755a34a590b0dcfcd2d1ce9c0", null ],
-      [ "st_relativeToAvgLength", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44ad501810b8b7b075fe51cb78c0f1142b2", null ],
-      [ "st_relativeToDesiredLength", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44a7545ae351dd3188f63170de7fab0d052", null ],
-      [ "st_absolute", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44ac87dfee94d2b0f51efad5f6934885f6a", null ]
+      [ "RelativeToDrawing", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44a346e055683129bfd0b982970828ab90e", null ],
+      [ "RelativeToAvgLength", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44a50457e66866f1b7c064de1aed711b13a", null ],
+      [ "RelativeToDesiredLength", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44a51099521cc62379bc5d5c9f3be2251c8", null ],
+      [ "Absolute", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44ab51ca26c6c89cfc9bec338f7a0d3e0c8", null ]
     ] ],
     [ "ScalingLayout", "classogdf_1_1_scaling_layout.html#ac891eb00f668f631941b89c5df316972", null ],
     [ "call", "classogdf_1_1_scaling_layout.html#a6652f0b3713a027048d91c34be5529d7", null ],

@@ -1,18 +1,18 @@
 var classogdf_1_1_hypernode_element =
 [
     [ "Type", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cf", [
-      [ "normal", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa8ffccb15304b5e0be434025a9483233b", null ],
-      [ "dummy", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa81ac1b779fe236c034d8661564bdfc3f", null ],
-      [ "OR", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfad499e2730a32a1c54b7aa49c6023324b", null ],
-      [ "BUF", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfae7434a2f5c38709f56981535c49f8a3a", null ],
-      [ "AND", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfad0c225d6028b41bda1692884ffb436e1", null ],
-      [ "NOR", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa165dbdd21d238e39cd38755f1785cd90", null ],
-      [ "NOT", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa4660c50d9a66a1459f82bc2c643e9f84", null ],
-      [ "XOR", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfab5959db2f5bfe7a7e864001ecc9ee983", null ],
-      [ "DFF", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa497fceaf09a726f3d2e71813a680cdaa", null ],
-      [ "NAND", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa53b9892dc6cde13a00bb06d52a3c8757", null ],
-      [ "INPUT", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa2787bd59b41386c540e2cfb6b64897a2", null ],
-      [ "OUTPUT", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa5f06183109042458024650769661622d", null ]
+      [ "normal", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfafea087517c26fadd409bd4b9dc642555", null ],
+      [ "dummy", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa275876e34cf609db118f3d84b799a790", null ],
+      [ "OR", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa1d00e7dce692e8dc3f6877f035e3a616", null ],
+      [ "BUF", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa30a0d7e5d27798b991e76fbe4ecd7d66", null ],
+      [ "AND", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa558ffc8f5770d8e4f95f51d822685532", null ],
+      [ "NOR", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa11d451c440c4cc34a0238a0482f1c6da", null ],
+      [ "NOT", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa10df3d67626099df882920ba6552f16d", null ],
+      [ "XOR", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa97675eb3f268048604dc5155511a2a4d", null ],
+      [ "DFF", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfabca5fd6b639c7cbf0c78eb9f68d35303", null ],
+      [ "NAND", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa3be5b8730412d64c809e4d73ce34649f", null ],
+      [ "INPUT", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfaa84cc046d48610b05c21fd3670d0c829", null ],
+      [ "OUTPUT", "classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa50a87f0d71f7221582dad4bf507a0f34", null ]
     ] ],
     [ "HypernodeElement", "classogdf_1_1_hypernode_element.html#a870111f4bd4051f6ec44b6be0349f584", null ],
     [ "HypernodeElement", "classogdf_1_1_hypernode_element.html#a05d61bdb9fab7d6cab1c557b3a789aca", null ],

@@ -1,8 +1,8 @@
 var classogdf_1_1_block_order =
 [
-    [ "direction", "classogdf_1_1_block_order.html#ac0d8516feb13343e9737c5efe9231ca7", [
-      [ "Plus", "classogdf_1_1_block_order.html#ac0d8516feb13343e9737c5efe9231ca7a71d00462c530b0fc458755a5ab162359", null ],
-      [ "Minus", "classogdf_1_1_block_order.html#ac0d8516feb13343e9737c5efe9231ca7a727e40707e45c859e254c9a2a74f4ad0", null ]
+    [ "Direction", "classogdf_1_1_block_order.html#a8cad760c35ebd05ce607db0ba5005f5a", [
+      [ "Plus", "classogdf_1_1_block_order.html#a8cad760c35ebd05ce607db0ba5005f5aa32ba78fe43257d3e7f88e3935a8ea0d4", null ],
+      [ "Minus", "classogdf_1_1_block_order.html#a8cad760c35ebd05ce607db0ba5005f5aa453fb623e752c5993f65bc410fd74fe5", null ]
     ] ],
     [ "~BlockOrder", "classogdf_1_1_block_order.html#a8cd3f75936c71a24399690b78f62b962", null ],
     [ "BlockOrder", "classogdf_1_1_block_order.html#a529b5898162c94a1e2ee41501f41754d", null ],
@@ -24,8 +24,8 @@ var classogdf_1_1_block_order =
     [ "siftingSwap", "classogdf_1_1_block_order.html#ad84b3fe617015fa833e7f688a271a8d8", null ],
     [ "size", "classogdf_1_1_block_order.html#ae428adca5a019a1b68e8b1b11cd27afc", null ],
     [ "sortAdjacencies", "classogdf_1_1_block_order.html#afb92b56a19ca7789bdf01d66c1522e8a", null ],
-    [ "updateAdjacencies", "classogdf_1_1_block_order.html#a99e3e35ebb821520c5523037c30b60ef", null ],
-    [ "uswap", "classogdf_1_1_block_order.html#a3ebda675fe991e9ff70ee7c17ca21912", null ],
+    [ "updateAdjacencies", "classogdf_1_1_block_order.html#ada608095f8e81600cad175495616e175", null ],
+    [ "uswap", "classogdf_1_1_block_order.html#abc195f93d02192720314bf08701d180b", null ],
     [ "verticalStep", "classogdf_1_1_block_order.html#a5d48250fb3b6ba3d6efbb70abff5983c", null ],
     [ "verticalSwap", "classogdf_1_1_block_order.html#ae4309a320f2b604a91601c633da10bbc", null ],
     [ "m_activeBlocksCount", "classogdf_1_1_block_order.html#a8f8f08ccc829ea8bacd7df426a74c851", null ],

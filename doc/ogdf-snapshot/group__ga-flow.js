@@ -29,32 +29,28 @@ var group__ga_flow =
       [ "m_maxLabel", "classogdf_1_1_max_flow_goldberg_tarjan.html#a0f7641a2a91da7d434668b114d39eec1", null ]
     ] ],
     [ "MaxFlowSTPlanarDigraph", "classogdf_1_1_max_flow_s_t_planar_digraph.html", [
-      [ "MaxFlowSTPlanarDigraph", "classogdf_1_1_max_flow_s_t_planar_digraph.html#a7d86eddf50cb349ed0f8765d0c10b1a5", null ],
-      [ "MaxFlowSTPlanarDigraph", "classogdf_1_1_max_flow_s_t_planar_digraph.html#aabff5677b26e96142679058cad14cfaa", null ],
-      [ "computeFlowAfterValue", "classogdf_1_1_max_flow_s_t_planar_digraph.html#ad9f62a69e5dee20cc289c832df1c2f8c", null ],
-      [ "computeValue", "classogdf_1_1_max_flow_s_t_planar_digraph.html#aadf4cff822f2d2d85d281e894cade4cc", null ],
+      [ "computeFlowAfterValue", "classogdf_1_1_max_flow_s_t_planar_digraph.html#a8599cc82438c246a927d3ffd2a2b42cd", null ],
+      [ "computeValue", "classogdf_1_1_max_flow_s_t_planar_digraph.html#a4c99950eddd99666334c923484c904be", null ],
       [ "createBackArcs", "classogdf_1_1_max_flow_s_t_planar_digraph.html#a16713e77ce1fa11f2dd71364d30922d5", null ],
-      [ "findOuterFace", "classogdf_1_1_max_flow_s_t_planar_digraph.html#a1c042cf0570d3240503922b3688f0f27", null ],
-      [ "init", "classogdf_1_1_max_flow_s_t_planar_digraph.html#ab6c136165f7a2c78fb1a76b2b0f1fba7", null ]
+      [ "init", "classogdf_1_1_max_flow_s_t_planar_digraph.html#afaa66d78b9ae5ce7718baae3f2d6a8b2", null ]
     ] ],
     [ "MaxFlowSTPlanarItaiShiloach", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html", [
       [ "EdgePathType", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542", [
-        [ "EPT_NO_PATH", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542a4595abd727062b92fae40bf942fe8efa", null ],
-        [ "EPT_SOURCE_PATH", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542a95189c401944b50ed87b77e854dcb2f8", null ],
-        [ "EPT_TARGET_PATH", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542ad8b69cb5a64f28fb39d273aead1ee667", null ],
-        [ "EPT_UNKNOWN", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542a3cb120d47e3e76a4145cb74664418e7d", null ]
+        [ "NoPath", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542ad1d2245c4d9d60b8da25dda25d2af489", null ],
+        [ "SourcePath", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542a39fc71256e4a271748f3308c9bb50197", null ],
+        [ "TargetPath", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542a2d4450fac2d1b9ad80efbaf454ed8d86", null ],
+        [ "Unknown", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ab8835bf18c93de9d8badd03b8dfec542a88183b946cc5f0e8c96b2e66e1c74a7e", null ]
       ] ],
       [ "NodeType", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a33bd296a7c0006707331a8bf10682675", [
-        [ "NT_NEW", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a33bd296a7c0006707331a8bf10682675aaa68f55c89b12eeffe6f001823e4d2a7", null ],
-        [ "NT_PATH", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a33bd296a7c0006707331a8bf10682675a84b5ea73cfcddd6a7ef92069adf1c7de", null ],
-        [ "NT_DONE", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a33bd296a7c0006707331a8bf10682675a42d63cc936d369400707105182558044", null ]
+        [ "New", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a33bd296a7c0006707331a8bf10682675a03c2e7e41ffc181a4e84080b4710e81e", null ],
+        [ "Path", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a33bd296a7c0006707331a8bf10682675aac70412e939d72a9234cdebb1af5867b", null ],
+        [ "Done", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a33bd296a7c0006707331a8bf10682675af92965e2c8a7afb3c1b9a5c09a263636", null ]
       ] ],
       [ "~MaxFlowSTPlanarItaiShiloach", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a76334b32358dc4f519c4cfb7037b7e97", null ],
       [ "appendEdge", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#adf05f6f47bbf533add0af00cdf43b824", null ],
       [ "computeFlowAfterValue", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a987d79014869b38885561f1ddec819f0", null ],
       [ "computeValue", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a40ca666de3f6af12116acd75308733c7", null ],
       [ "dropEdge", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a03691ca5e82884339cc1c6b1555b423a", null ],
-      [ "findCommonFace", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a0cd1d28052a624323bcad8e20acb9d7b", null ],
       [ "findUppermostPath", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#acf2eafd18b846a349c5420ba3ac6490b", null ],
       [ "getPathType", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#aa142cc92845c372db7fbf276af029ad1", null ],
       [ "shiftPriority", "classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#afb6391501f3b3f44017eb241304d9f90", null ],

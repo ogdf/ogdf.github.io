@@ -1,9 +1,0 @@
-var structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_029c02c3e67ff820e2caee37b0abb8616 =
-[
-    [ "FuncInvoker", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_029c02c3e67ff820e2caee37b0abb8616.html#aa38fc5fd081e761f895fcaa57f96174c", null ],
-    [ "operator()", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_029c02c3e67ff820e2caee37b0abb8616.html#ae82e4625609809ff2ae4859b6987bc15", null ],
-    [ "arg1", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_029c02c3e67ff820e2caee37b0abb8616.html#a565b6dc002beff28b3471f2e7cfba5e9", null ],
-    [ "arg2", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_029c02c3e67ff820e2caee37b0abb8616.html#acbfe02687143f1c6f5eb31dd3b3b719b", null ],
-    [ "arg3", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_029c02c3e67ff820e2caee37b0abb8616.html#addf88ccf61535c52890fcb23caea8807", null ],
-    [ "function", "structogdf_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_01_arg_type2_00_01_arg_type3_029c02c3e67ff820e2caee37b0abb8616.html#aadd350fcb5e66ec01d0c4683dae39a9a", null ]
-];

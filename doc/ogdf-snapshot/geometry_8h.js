@@ -1,6 +1,7 @@
 var geometry_8h =
 [
     [ "DefHashFunc< IPoint >", "classogdf_1_1_def_hash_func_3_01_i_point_01_4.html", "classogdf_1_1_def_hash_func_3_01_i_point_01_4" ],
+    [ "DIntersectableRect", "classogdf_1_1_d_intersectable_rect.html", "classogdf_1_1_d_intersectable_rect" ],
     [ "DLine", "classogdf_1_1_d_line.html", "classogdf_1_1_d_line" ],
     [ "DPoint", "classogdf_1_1_d_point.html", "classogdf_1_1_d_point" ],
     [ "DPolygon", "classogdf_1_1_d_polygon.html", "classogdf_1_1_d_polygon" ],
@@ -13,16 +14,15 @@ var geometry_8h =
     [ "IPoint", "classogdf_1_1_i_point.html", "classogdf_1_1_i_point" ],
     [ "IPolyline", "classogdf_1_1_i_polyline.html", "classogdf_1_1_i_polyline" ],
     [ "Orientation", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2", [
-      [ "topToBottom", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2aeabfc7ba02afcecd0813a45d57ff68fc", null ],
-      [ "bottomToTop", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2a331e545853b0102965447f7574cd46f2", null ],
-      [ "leftToRight", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2a25f4540477c893ff9daa8524a659490f", null ],
-      [ "rightToLeft", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2af84578dd40360f99554225c80bd1ffd2", null ]
+      [ "topToBottom", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2afb9fd904b2aaa466b602eda4752ab155", null ],
+      [ "bottomToTop", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2ad21134c4e3ec9e79fb8466624a44aa1b", null ],
+      [ "leftToRight", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2af5393c00a90864827cdb43170d6efc26", null ],
+      [ "rightToLeft", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2a58afff90d71a2da06527f9de82892d80", null ]
     ] ],
     [ "DRound", "geometry_8h.html#a1954747c130923179d8934979bacd170", null ],
     [ "operator<<", "geometry_8h.html#a7c26c2f3e33b5afbb2ac858a54b073f7", null ],
     [ "operator<<", "geometry_8h.html#a74293f3de5b097474232ed3c7d5db6d7", null ],
     [ "operator<<", "geometry_8h.html#a8627d241bee12511bd5622b3474a00e2", null ],
-    [ "operator<<", "geometry_8h.html#a490ff557f9aefb776e415c08946e37fb", null ],
     [ "operator<<", "geometry_8h.html#a189c37fe60b7e73945029f7fd93924f5", null ],
     [ "operator<<", "geometry_8h.html#a75563d57025c0c398c1202408275dd20", null ],
     [ "orientation", "geometry_8h.html#a14d99c15d323cde84861c7068e50949c", null ],

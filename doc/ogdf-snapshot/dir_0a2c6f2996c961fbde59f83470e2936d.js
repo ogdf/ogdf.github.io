@@ -1,5 +1,6 @@
 var dir_0a2c6f2996c961fbde59f83470e2936d =
 [
+    [ "internal", "dir_cad8b7aceb94187fbb2633c376346c99.html", "dir_cad8b7aceb94187fbb2633c376346c99" ],
     [ "CconnectClusterPlanar.h", "_cconnect_cluster_planar_8h.html", null ],
     [ "CconnectClusterPlanarEmbed.h", "_cconnect_cluster_planar_embed_8h.html", null ],
     [ "ClusterAnalysis.h", "_cluster_analysis_8h.html", [
@@ -23,9 +24,7 @@ var dir_0a2c6f2996c961fbde59f83470e2936d =
     ] ],
     [ "ClusterPlanRep.h", "_cluster_plan_rep_8h.html", null ],
     [ "ClusterSet.h", "_cluster_set_8h.html", null ],
-    [ "CPlanarEdgeInserter.h", "_c_planar_edge_inserter_8h.html", [
-      [ "NodePair", "classogdf_1_1_node_pair.html", "classogdf_1_1_node_pair" ]
-    ] ],
+    [ "CPlanarEdgeInserter.h", "_c_planar_edge_inserter_8h.html", null ],
     [ "CPlanarSubClusteredGraph.h", "_c_planar_sub_clustered_graph_8h.html", null ],
     [ "HananiTutteCPlanarity.h", "_hanani_tutte_c_planarity_8h.html", null ],
     [ "MaximumCPlanarSubgraph.h", "_maximum_c_planar_subgraph_8h.html", null ]

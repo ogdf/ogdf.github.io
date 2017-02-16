@@ -2,11 +2,11 @@ var classogdf_1_1_m_m_variable_embedding_inserter =
 [
     [ "AnchorNodeInfo", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_anchor_node_info.html", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_anchor_node_info" ],
     [ "Paths", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths" ],
-    [ "Crossing", "classogdf_1_1_m_m_variable_embedding_inserter.html#ae050e0b751c9c14d4f12cc80f0bdbd4e", null ],
+    [ "Crossing", "classogdf_1_1_m_m_variable_embedding_inserter.html#abb5ecac25ee737e3329ab1f762b149a1", null ],
     [ "PathType", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982", [
-      [ "pathToEdge", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a62b52d965cdc01ed077d123988264212", null ],
-      [ "pathToSource", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982abb85b3f100d84a3db03ff939ba1b8ec5", null ],
-      [ "pathToTarget", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a85a76899644bec8352068aa9f94b5852", null ]
+      [ "pathToEdge", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a901dd7c832dc0c743375e2fa0e46160f", null ],
+      [ "pathToSource", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a81225cb23dc69f4decac02e3227ad532", null ],
+      [ "pathToTarget", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a6a47375d69085740cb3247515378d027", null ]
     ] ],
     [ "MMVariableEmbeddingInserter", "classogdf_1_1_m_m_variable_embedding_inserter.html#aa4bc713fc3e066b9850f244dadc9bf9f", null ],
     [ "~MMVariableEmbeddingInserter", "classogdf_1_1_m_m_variable_embedding_inserter.html#ae7429795521529910e4b44351c706d9d", null ],

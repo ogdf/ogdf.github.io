@@ -1,5 +1,6 @@
 var classogdf_1_1_embedder_min_depth_max_face_layers =
 [
+    [ "MDMFLengthAttribute", "classogdf_1_1_embedder_min_depth_max_face_layers.html#af7e0c4d386dc4099aa745dab260d76f6", null ],
     [ "EmbedderMinDepthMaxFaceLayers", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ab304f6b619fa1b5854f5b2a5907d8198", null ],
     [ "doCall", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a3bd26c741552cf497d2be79b75438e09", null ],
     [ "embedBlock", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a38f6d66205568d1ee784b7b25fab9b38", null ],

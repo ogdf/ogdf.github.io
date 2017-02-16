@@ -1,8 +1,8 @@
 var classpugi_1_1xml__node =
 [
-    [ "attribute_iterator", "classpugi_1_1xml__node.html#a9084f97350ffc64af1eaf7c17c57f4ba", null ],
-    [ "iterator", "classpugi_1_1xml__node.html#ae053ea39add5a64de584f7a81212e388", null ],
-    [ "unspecified_bool_type", "classpugi_1_1xml__node.html#a83fe32b933530b244865ee401b08b037", null ],
+    [ "attribute_iterator", "classpugi_1_1xml__node.html#af4b2185b901d520c7e8ea8807d702068", null ],
+    [ "iterator", "classpugi_1_1xml__node.html#a0fb4acaf8fd792c3c82c0b5f144ac5c7", null ],
+    [ "unspecified_bool_type", "classpugi_1_1xml__node.html#a0574ae2e7c3e33551cd3ad2c81833db7", null ],
     [ "xml_node", "classpugi_1_1xml__node.html#a1db6c67c97cddd74f59d872057987432", null ],
     [ "xml_node", "classpugi_1_1xml__node.html#a6897fb4e94def0ec60fda1f459bd746d", null ],
     [ "append_attribute", "classpugi_1_1xml__node.html#a47b328e66413f1c6134e29d21a5a4d7c", null ],

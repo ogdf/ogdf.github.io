@@ -5,6 +5,6 @@
 <area shape="rect" id="node9" href="$classogdf_1_1_upward_plan_rep.html" title="Upward planarized representations (of a connected component) of a graph. " alt="" coords="357,157,508,184"/>
 <area shape="rect" id="node2" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). " alt="" coords="5,81,96,108"/>
 <area shape="rect" id="node5" href="$classogdf_1_1_cluster_plan_rep.html" title="Planarized representations for clustered graphs. " alt="" coords="600,31,747,57"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_plan_rep_u_m_l.html" title="ogdf::PlanRepUML" alt="" coords="607,81,740,108"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_plan_rep_inc.html" title="ogdf::PlanRepInc" alt="" coords="795,81,917,108"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="607,81,740,108"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_plan_rep_inc.html" title="This class is only an adaption of PlanRep for the special incremental drawing case. " alt="" coords="795,81,917,108"/>
 </map>

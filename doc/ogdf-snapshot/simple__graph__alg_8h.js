@@ -1,8 +1,10 @@
 var simple__graph__alg_8h =
 [
+    [ "biconnectedComponents", "simple__graph__alg_8h.html#ga467c034577ce3f4e05af221389ce4fc9", null ],
     [ "biconnectedComponents", "simple__graph__alg_8h.html#gaaf2c637d8c661da9bd055c341755f782", null ],
     [ "connectedComponents", "simple__graph__alg_8h.html#ga0504711e547b0febf00a261ce27ae5f1", null ],
     [ "connectedIsolatedComponents", "simple__graph__alg_8h.html#gac63c344ed6d409cea63bdf7e1043bc1e", null ],
+    [ "degreeDistribution", "simple__graph__alg_8h.html#ac0ef8a16959d7f2b8356cc5c0316d140", null ],
     [ "getParallelFreeUndirected", "simple__graph__alg_8h.html#ga96e783ece038f9498bc2d1f2bb809363", null ],
     [ "hasSingleSink", "simple__graph__alg_8h.html#gab9d243c70b5df0eebd2ffb9361726f30", null ],
     [ "hasSingleSink", "simple__graph__alg_8h.html#ga016223e16b83facc7f4d370fd1c9e52e", null ],
@@ -51,6 +53,7 @@ var simple__graph__alg_8h =
     [ "makeParallelFreeUndirected", "simple__graph__alg_8h.html#gaecf56f01578c501503c973673ec4cb82", null ],
     [ "makeSimple", "simple__graph__alg_8h.html#ga3f31b389ffb08b4a2df7525152c80bb1", null ],
     [ "makeSimpleUndirected", "simple__graph__alg_8h.html#gae8923c939cd710fd01aebcbed9246610", null ],
+    [ "nodeDistribution", "simple__graph__alg_8h.html#ac8bef872e3e9fffafcef3b7d6629a322", null ],
     [ "numParallelEdges", "simple__graph__alg_8h.html#ga45cbd7c8e6ed90a40bdd61efe1161e8a", null ],
     [ "numParallelEdgesUndirected", "simple__graph__alg_8h.html#ga6a1c50ef11f22ddf3512044e81f455e5", null ],
     [ "parallelFreeSort", "simple__graph__alg_8h.html#ga6dde8fe4b58e0aa47a33a469937ede63", null ],

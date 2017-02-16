@@ -9,7 +9,6 @@ var dir_946faf0608b096809b336c78e83b057e =
     [ "fileformats", "dir_ee4a50abf63abab6075a801ceaeb8a64.html", "dir_ee4a50abf63abab6075a801ceaeb8a64" ],
     [ "graphalg", "dir_5c3e22e53863203aa715a39f0bcb456b.html", "dir_5c3e22e53863203aa715a39f0bcb456b" ],
     [ "hypergraph", "dir_0d5519c64fc959960fc51282b53b9b55.html", "dir_0d5519c64fc959960fc51282b53b9b55" ],
-    [ "internal", "dir_c45e5be061fe902a23dc886ea87fe229.html", "dir_c45e5be061fe902a23dc886ea87fe229" ],
     [ "labeling", "dir_392b0ed4197477394ec7de9e36ec1b59.html", "dir_392b0ed4197477394ec7de9e36ec1b59" ],
     [ "layered", "dir_61c8c5a4c1ba88ac4cf77fc0a2ab64da.html", "dir_61c8c5a4c1ba88ac4cf77fc0a2ab64da" ],
     [ "lib", "dir_cb2b16483ab3a94fc30acbfc3fb1ea4a.html", "dir_cb2b16483ab3a94fc30acbfc3fb1ea4a" ],

@@ -1,10 +1,12 @@
 var classogdf_1_1_maximum_c_planar_subgraph =
 [
+    [ "MaxCPlanarMaster", "classogdf_1_1_maximum_c_planar_subgraph.html#a7bda08c2b8e4e9e046efd9ed306c41fd", null ],
+    [ "NodePairs", "classogdf_1_1_maximum_c_planar_subgraph.html#a1f775b8864ffea01098042fd26a92ee9", null ],
     [ "MaximumCPlanarSubgraph", "classogdf_1_1_maximum_c_planar_subgraph.html#a38ab9629a443a74d75c8130da5cd8706", null ],
     [ "~MaximumCPlanarSubgraph", "classogdf_1_1_maximum_c_planar_subgraph.html#afdee7f5c724878ec536b18649fab4283", null ],
-    [ "callAndConnect", "classogdf_1_1_maximum_c_planar_subgraph.html#ad86999959147d100a9f9f4938b292198", null ],
+    [ "callAndConnect", "classogdf_1_1_maximum_c_planar_subgraph.html#a7df80ec6fc6251e0c288e9db3804e812", null ],
     [ "doCall", "classogdf_1_1_maximum_c_planar_subgraph.html#a142ac3b8e5144036d095de5ef368913e", null ],
-    [ "doCall", "classogdf_1_1_maximum_c_planar_subgraph.html#afc244e46ff0b247b578e67618b6f8b8a", null ],
+    [ "doCall", "classogdf_1_1_maximum_c_planar_subgraph.html#a169828f2df7adef56d437425b8c13543", null ],
     [ "getBottomUpClusterList", "classogdf_1_1_maximum_c_planar_subgraph.html#a5662bf6c7154e15e524d27397e29d842", null ],
     [ "getDoubleTime", "classogdf_1_1_maximum_c_planar_subgraph.html#ad9159777d33a8b0b31762f6f6630f44a", null ],
     [ "getHeurTime", "classogdf_1_1_maximum_c_planar_subgraph.html#ada77d2bb8462d681fde1ceadb46f205f", null ],

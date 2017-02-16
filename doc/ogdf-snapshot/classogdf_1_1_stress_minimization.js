@@ -1,18 +1,18 @@
 var classogdf_1_1_stress_minimization =
 [
-    [ "TERMINATION_CRITERION", "classogdf_1_1_stress_minimization.html#a7cf3e4f6dda6f893922fe5d6f96353f6", [
-      [ "NONE", "classogdf_1_1_stress_minimization.html#a7cf3e4f6dda6f893922fe5d6f96353f6a57d4b6343e8cafdf2bd894178418381f", null ],
-      [ "POSITION_DIFFERENCE", "classogdf_1_1_stress_minimization.html#a7cf3e4f6dda6f893922fe5d6f96353f6ab15db1f31f6456291aefb6bfdb4e3cd1", null ],
-      [ "STRESS", "classogdf_1_1_stress_minimization.html#a7cf3e4f6dda6f893922fe5d6f96353f6a3836a769dfc451b375909b3aeebd07ea", null ]
+    [ "TerminationCriterion", "classogdf_1_1_stress_minimization.html#a4f066d6bfe89db11bbceb78274313744", [
+      [ "None", "classogdf_1_1_stress_minimization.html#a4f066d6bfe89db11bbceb78274313744a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "PositionDifference", "classogdf_1_1_stress_minimization.html#a4f066d6bfe89db11bbceb78274313744ad93871eff5e8f97b4757751930e2ed30", null ],
+      [ "Stress", "classogdf_1_1_stress_minimization.html#a4f066d6bfe89db11bbceb78274313744a43e350618ec951e034f0981cbb36d038", null ]
     ] ],
     [ "StressMinimization", "classogdf_1_1_stress_minimization.html#affd6cdfc850fb47c9c5e2085d32dece9", null ],
     [ "~StressMinimization", "classogdf_1_1_stress_minimization.html#a98b693b11a586455e68616662f3525f6", null ],
     [ "calcStress", "classogdf_1_1_stress_minimization.html#a69339617fef5bc75b07fbfc52cd5bcdb", null ],
-    [ "calcWeights", "classogdf_1_1_stress_minimization.html#a859e0c8d0e2289a3b7d5038b1779c02a", null ],
+    [ "calcWeights", "classogdf_1_1_stress_minimization.html#af375e61126d357266d9b221ca60b5b9a", null ],
     [ "call", "classogdf_1_1_stress_minimization.html#a0d7c78021d03c1a890e54329cbd15bdd", null ],
     [ "call", "classogdf_1_1_stress_minimization.html#a6a95d489ac58dd21e6138c69f499aa60", null ],
     [ "computeInitialLayout", "classogdf_1_1_stress_minimization.html#a926b10b498f983a3fba4ad94f21ccbd1", null ],
-    [ "convergenceCriterion", "classogdf_1_1_stress_minimization.html#a4e82d027db46d2da8271a35ec1817f6a", null ],
+    [ "convergenceCriterion", "classogdf_1_1_stress_minimization.html#a5f20a71e54470be1774ddb475a25e399", null ],
     [ "copyLayout", "classogdf_1_1_stress_minimization.html#acddfe39901aa67b15d03b7e8e60638c2", null ],
     [ "copyLayout", "classogdf_1_1_stress_minimization.html#afb4a910b5214adc7dcf55149036291af", null ],
     [ "finished", "classogdf_1_1_stress_minimization.html#a89144e398c86781fbb5fd6de24642cc5", null ],
@@ -39,5 +39,5 @@ var classogdf_1_1_stress_minimization =
     [ "m_hasEdgeCostsAttribute", "classogdf_1_1_stress_minimization.html#a4cfd901e894c9d0783ffec72a6aaf2ca", null ],
     [ "m_hasInitialLayout", "classogdf_1_1_stress_minimization.html#addc7b016210149ec08bed473f74d34c0", null ],
     [ "m_numberOfIterations", "classogdf_1_1_stress_minimization.html#aafe88f4a439eb1f16db4797664af7f23", null ],
-    [ "m_terminationCriterion", "classogdf_1_1_stress_minimization.html#aec0c5548a3d330e9bba176433c0fda71", null ]
+    [ "m_terminationCriterion", "classogdf_1_1_stress_minimization.html#a0ba91ac6dc639e9ccf2da082e44b930b", null ]
 ];

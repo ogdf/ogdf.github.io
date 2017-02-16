@@ -1,9 +1,9 @@
 var filesystem_8h =
 [
     [ "FileType", "filesystem_8h.html#gaf62296bcdc1fc7e80de97a4860038db6", [
-      [ "ftEntry", "filesystem_8h.html#ggaf62296bcdc1fc7e80de97a4860038db6a6f27df27d55586ddf4337f25fdd986c0", null ],
-      [ "ftFile", "filesystem_8h.html#ggaf62296bcdc1fc7e80de97a4860038db6a25701f1ef7ac12b6b4a865e38626ef59", null ],
-      [ "ftDirectory", "filesystem_8h.html#ggaf62296bcdc1fc7e80de97a4860038db6a368c783c8457e1212e3fa95f24118cff", null ]
+      [ "Entry", "filesystem_8h.html#ggaf62296bcdc1fc7e80de97a4860038db6ab948e8a02a7f8dc9f098c89e8df9892c", null ],
+      [ "File", "filesystem_8h.html#ggaf62296bcdc1fc7e80de97a4860038db6a0b27918290ff5323bea1e3b78a9cf04e", null ],
+      [ "Directory", "filesystem_8h.html#ggaf62296bcdc1fc7e80de97a4860038db6ae73cda510e8bb947f7e61089e5581494", null ]
     ] ],
     [ "changeDir", "filesystem_8h.html#ga9105807b59786996353d3e5f2323f6cc", null ],
     [ "getEntries", "filesystem_8h.html#ga41bd180662939df60bb56abd61d7139e", null ],

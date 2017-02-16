@@ -3,12 +3,12 @@ var classogdf_1_1_l_h_tree_node =
     [ "Adjacency", "structogdf_1_1_l_h_tree_node_1_1_adjacency.html", "structogdf_1_1_l_h_tree_node_1_1_adjacency" ],
     [ "ClusterCrossing", "structogdf_1_1_l_h_tree_node_1_1_cluster_crossing.html", "structogdf_1_1_l_h_tree_node_1_1_cluster_crossing" ],
     [ "Type", "classogdf_1_1_l_h_tree_node.html#ad621f1de0414ad2061a097f21c33e306", [
-      [ "Compound", "classogdf_1_1_l_h_tree_node.html#ad621f1de0414ad2061a097f21c33e306a7a1166305d2547d77e866829b51f91aa", null ],
-      [ "Node", "classogdf_1_1_l_h_tree_node.html#ad621f1de0414ad2061a097f21c33e306aac7f576e61736d8d2c9b831bc17a0306", null ],
-      [ "AuxNode", "classogdf_1_1_l_h_tree_node.html#ad621f1de0414ad2061a097f21c33e306aec390fa2417b9d7a5459aa931aa65460", null ]
+      [ "Compound", "classogdf_1_1_l_h_tree_node.html#ad621f1de0414ad2061a097f21c33e306a26154ea007c65f860de5333a555a56cf", null ],
+      [ "Node", "classogdf_1_1_l_h_tree_node.html#ad621f1de0414ad2061a097f21c33e306a6c3a6944a808a7c0bbb6788dbec54a9f", null ],
+      [ "AuxNode", "classogdf_1_1_l_h_tree_node.html#ad621f1de0414ad2061a097f21c33e306a79f865b387c0c8f6bd0dd2f5837e2600", null ]
     ] ],
     [ "LHTreeNode", "classogdf_1_1_l_h_tree_node.html#afd357822a39f42df0c5306d11a6b11db", null ],
-    [ "LHTreeNode", "classogdf_1_1_l_h_tree_node.html#a64540bc409e8cde4019ec2f129e21eee", null ],
+    [ "LHTreeNode", "classogdf_1_1_l_h_tree_node.html#a5bdf7b7c3e73cd1bf2af5b625747b24b", null ],
     [ "child", "classogdf_1_1_l_h_tree_node.html#a388109240ee9d9d8f85932c1bedaaef7", null ],
     [ "child", "classogdf_1_1_l_h_tree_node.html#a6863e727b1a35b0e711e98fe75999483", null ],
     [ "down", "classogdf_1_1_l_h_tree_node.html#a31f1778c1333aea58b73cc932442f1e7", null ],

@@ -1,6 +1,6 @@
 var classpugi_1_1xpath__node =
 [
-    [ "unspecified_bool_type", "classpugi_1_1xpath__node.html#a20af040b1da211e39c62835489a85664", null ],
+    [ "unspecified_bool_type", "classpugi_1_1xpath__node.html#a56cc8990de746e18959f4eb1681db5ae", null ],
     [ "xpath_node", "classpugi_1_1xpath__node.html#ac744d6466fee3a062ba3bb928331031e", null ],
     [ "xpath_node", "classpugi_1_1xpath__node.html#ac19206fda68c2c67ff2b42009debe74f", null ],
     [ "xpath_node", "classpugi_1_1xpath__node.html#a5cc7cfd8ceb6cae4be45b2f29fe57f34", null ],

@@ -1,6 +1,0 @@
-<map id="ogdf::NodePairEnergy" name="ogdf::NodePairEnergy">
-<area shape="rect" id="node3" href="$classogdf_1_1_attraction.html" title="Energy function for attraction between two adjacent vertices. " alt="" coords="5,155,116,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_overlap.html" title="ogdf::Overlap" alt="" coords="140,155,240,181"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_repulsion.html" title="ogdf::Repulsion" alt="" coords="264,155,377,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_energy_function.html" title="The interface for energy functions for the Davidson Harel graph drawing method. " alt="" coords="117,5,263,32"/>
-</map>

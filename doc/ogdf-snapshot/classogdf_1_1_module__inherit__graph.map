@@ -3,48 +3,48 @@
 <area shape="rect" id="node4" href="$classogdf_1_1_c_planar_subgraph_module.html" title="Interface of algorithms for the computation of c&#45;planar subgraphs. " alt="" coords="155,72,354,99"/>
 <area shape="rect" id="node6" href="$classogdf_1_1_crossing_minimization_module.html" title="Base class for crossing minimization algorithms. " alt="" coords="165,145,345,186"/>
 <area shape="rect" id="node8" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms. " alt="" coords="166,253,343,280"/>
-<area shape="rect" id="node14" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms. " alt="" coords="177,520,333,547"/>
-<area shape="rect" id="node23" href="$classogdf_1_1_f_u_p_s_module.html" title="Interface for feasible upward planar subgraph algorithms. " alt="" coords="188,777,321,804"/>
-<area shape="rect" id="node26" href="$classogdf_1_1_m_m_crossing_minimization_module.html" title="Interface for minor&#45;monotone crossing minimization algorithms. " alt="" coords="153,829,356,870"/>
-<area shape="rect" id="node28" href="$classogdf_1_1_m_m_edge_insertion_module.html" title="Interface for minor&#45;monotone edge insertion algorithms. " alt="" coords="155,895,354,921"/>
-<area shape="rect" id="node31" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms. " alt="" coords="160,1131,349,1173"/>
-<area shape="rect" id="node36" href="$classogdf_1_1_u_m_l_crossing_minimization_module.html" title="Base class for UML crossing minimization algorithms. " alt="" coords="151,1266,359,1307"/>
-<area shape="rect" id="node38" href="$classogdf_1_1_u_m_l_edge_insertion_module.html" title="Interface for UML edge insertion algorithms. " alt="" coords="152,1415,357,1441"/>
-<area shape="rect" id="node42" href="$classogdf_1_1_upward_edge_inserter_module.html" title="ogdf::UpwardEdgeInserter\lModule" alt="" coords="167,1493,342,1534"/>
-<area shape="rect" id="node44" href="$classogdf_1_1_upward_planarizer_module.html" title="Interface for upward planarization algorithms. " alt="" coords="155,1613,355,1640"/>
-<area shape="rect" id="node46" href="$classogdf_1_1_planar_subgraph_module.html" title="ogdf::PlanarSubgraphModule\l\&lt; int \&gt;" alt="" coords="160,1709,349,1750"/>
+<area shape="rect" id="node13" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms. " alt="" coords="177,520,333,547"/>
+<area shape="rect" id="node22" href="$classogdf_1_1_f_u_p_s_module.html" title="Interface for feasible upward planar subgraph algorithms. " alt="" coords="188,777,321,804"/>
+<area shape="rect" id="node25" href="$classogdf_1_1_m_m_crossing_minimization_module.html" title="Interface for minor&#45;monotone crossing minimization algorithms. " alt="" coords="153,829,356,870"/>
+<area shape="rect" id="node27" href="$classogdf_1_1_m_m_edge_insertion_module.html" title="Interface for minor&#45;monotone edge insertion algorithms. " alt="" coords="155,895,354,921"/>
+<area shape="rect" id="node30" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms. " alt="" coords="160,1219,349,1261"/>
+<area shape="rect" id="node37" href="$classogdf_1_1_u_m_l_crossing_minimization_module.html" title="Base class for UML crossing minimization algorithms. " alt="" coords="151,1375,359,1417"/>
+<area shape="rect" id="node39" href="$classogdf_1_1_u_m_l_edge_insertion_module.html" title="Interface for UML edge insertion algorithms. " alt="" coords="152,1545,357,1572"/>
+<area shape="rect" id="node43" href="$classogdf_1_1_upward_edge_inserter_module.html" title="ogdf::UpwardEdgeInserter\lModule" alt="" coords="167,1623,342,1665"/>
+<area shape="rect" id="node45" href="$classogdf_1_1_upward_planarizer_module.html" title="Interface for upward planarization algorithms. " alt="" coords="155,1744,355,1771"/>
+<area shape="rect" id="node47" href="$classogdf_1_1_planar_subgraph_module.html" title="ogdf::PlanarSubgraphModule\l\&lt; int \&gt;" alt="" coords="160,1810,349,1851"/>
 <area shape="rect" id="node3" href="$classogdf_1_1_cluster_planarity.html" title="C&#45;planarity testing via completely connected graph extension. " alt="" coords="453,5,601,32"/>
 <area shape="rect" id="node5" href="$classogdf_1_1_maximum_c_planar_subgraph.html" title="Exact computation of a maximum c&#45;planar subgraph. " alt="" coords="420,56,635,83"/>
 <area shape="rect" id="node7" href="$classogdf_1_1_subgraph_planarizer.html" title="The planarization approach for crossing minimization. " alt="" coords="443,107,611,133"/>
 <area shape="rect" id="node9" href="$classogdf_1_1_fixed_embedding_inserter.html" title="Inserts edges optimally into an embedding. " alt="" coords="429,157,625,184"/>
 <area shape="rect" id="node10" href="$classogdf_1_1_multi_edge_approx_inserter.html" title="Multi edge inserter with approximation guarantee. " alt="" coords="428,208,627,235"/>
 <area shape="rect" id="node11" href="$classogdf_1_1_variable_embedding_inserter_base.html" title="Common parameter functionality for ogdf::VariableEmbeddingInserter and ogdf::VariableEmbeddingInserte..." alt="" coords="407,259,648,285"/>
-<area shape="rect" id="node12" href="$classogdf_1_1_variable_embedding_inserter.html" title="Optimal edge insertion module. " alt="" coords="708,233,919,260"/>
-<area shape="rect" id="node13" href="$classogdf_1_1_variable_embedding_inserter_dyn.html" title="Optimal edge insertion module. " alt="" coords="696,284,931,311"/>
-<area shape="rect" id="node15" href="$classogdf_1_1_embedder_max_face.html" title="Planar graph embedding with maximum external face. " alt="" coords="443,309,611,336"/>
-<area shape="rect" id="node16" href="$classogdf_1_1_embedder_max_face_layers.html" title="Planar graph embedding with maximum external face (plus layers approach). " alt="" coords="424,360,631,387"/>
-<area shape="rect" id="node17" href="$classogdf_1_1_embedder_min_depth.html" title="Planar graph embedding with minimum block&#45;nesting depth. " alt="" coords="442,411,613,437"/>
-<area shape="rect" id="node18" href="$classogdf_1_1_embedder_min_depth_max_face.html" title="Planar graph embedding with minimum block&#45;nesting depth and maximum external face. " alt="" coords="415,461,639,488"/>
-<area shape="rect" id="node19" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding with minimum block&#45;nesting depth and maximum external face (plus layers approa..." alt="" coords="430,513,625,554"/>
-<area shape="rect" id="node20" href="$classogdf_1_1_embedder_min_depth_pi_ta.html" title="Planar graph embedding with minimum block&#45;nesting depth for given embedded blocks. " alt="" coords="429,579,626,605"/>
-<area shape="rect" id="node21" href="$classogdf_1_1_embedder_optimal_flex_draw.html" title="The algorithm computes a planar embedding with minimum cost. " alt="" coords="420,629,635,656"/>
-<area shape="rect" id="node22" href="$classogdf_1_1_simple_embedder.html" title="Planar graph embedding by using default planarEmbed. " alt="" coords="450,680,605,707"/>
-<area shape="rect" id="node24" href="$classogdf_1_1_f_u_p_s_simple.html" title="ogdf::FUPSSimple" alt="" coords="462,731,593,757"/>
-<area shape="rect" id="node25" href="$classogdf_1_1_maximal_f_u_p_s.html" title="ogdf::MaximalFUPS" alt="" coords="457,781,597,808"/>
-<area shape="rect" id="node27" href="$classogdf_1_1_m_m_subgraph_planarizer.html" title="Planarization approach for minor&#45;monotone crossing minimization. " alt="" coords="432,832,623,859"/>
-<area shape="rect" id="node29" href="$classogdf_1_1_m_m_fixed_embedding_inserter.html" title="Minor&#45;monotone edge insertion with fixed embedding. " alt="" coords="418,883,637,909"/>
-<area shape="rect" id="node30" href="$classogdf_1_1_m_m_variable_embedding_inserter.html" title="Minor&#45;monotone edge insertion with variable embedding. " alt="" coords="433,934,622,975"/>
-<area shape="rect" id="node32" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html" title="ogdf::MaximalPlanarSubgraph\lSimple\&lt; TCost, typename\l std::enable_if\&lt; std::is\l_floating_point\&lt; TCost \&gt;::\lvalue \&gt;::type \&gt;" alt="" coords="429,1000,625,1085"/>
-<area shape="rect" id="node33" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html" title="Naive maximal planar subgraph approach that extends a configurable non&#45;maximal subgraph heuristic..." alt="" coords="429,1109,625,1195"/>
-<area shape="rect" id="node34" href="$classogdf_1_1_planar_subgraph_cactus.html" title="Maximum planar subgraph approximation algorithm by Calinescu et al. " alt="" coords="433,1219,622,1261"/>
-<area shape="rect" id="node35" href="$classogdf_1_1_planar_subgraph_empty.html" title="Dummy implementation for maximum planar subgraph that returns an empty graph. " alt="" coords="435,1285,620,1326"/>
-<area shape="rect" id="node37" href="$classogdf_1_1_subgraph_planarizer_u_m_l.html" title="The planarization approach for UML crossing minimization. " alt="" coords="429,1351,625,1377"/>
-<area shape="rect" id="node39" href="$classogdf_1_1_fixed_embedding_inserter_u_m_l.html" title="Edge insertion module that inserts each edge optimally into a fixed embedding. " alt="" coords="415,1401,639,1428"/>
-<area shape="rect" id="node40" href="$classogdf_1_1_variable_embedding_inserter_dyn_u_m_l.html" title="Optimal edge insertion module. " alt="" coords="422,1453,633,1494"/>
-<area shape="rect" id="node41" href="$classogdf_1_1_variable_embedding_inserter_u_m_l.html" title="Optimal edge insertion module. " alt="" coords="408,1519,647,1545"/>
-<area shape="rect" id="node43" href="$classogdf_1_1_fixed_embedding_upward_edge_inserter.html" title="Edge insertion module that inserts each edge optimally into a fixed embedding. " alt="" coords="429,1570,626,1611"/>
-<area shape="rect" id="node45" href="$classogdf_1_1_subgraph_upward_planarizer.html" title="ogdf::SubgraphUpwardPlanarizer" alt="" coords="421,1636,634,1663"/>
-<area shape="rect" id="node47" href="$classogdf_1_1_maximum_planar_subgraph.html" title="Exact computation of a maximum planar subgraph. " alt="" coords="425,1687,629,1713"/>
-<area shape="rect" id="node48" href="$classogdf_1_1_planar_subgraph_boyer_myrvold.html" title="Maximum planar subgraph heuristic based on the Boyer&#45;Myrvold planarity test. " alt="" coords="437,1738,618,1779"/>
-<area shape="rect" id="node49" href="$classogdf_1_1_planar_subgraph_fast.html" title="Computation of a planar subgraph using PQ&#45;trees. " alt="" coords="441,1804,614,1831"/>
+<area shape="rect" id="node12" href="$classogdf_1_1_variable_embedding_inserter.html" title="Optimal edge insertion module. " alt="" coords="696,259,907,285"/>
+<area shape="rect" id="node14" href="$classogdf_1_1_embedder_max_face.html" title="Planar graph embedding with maximum external face. " alt="" coords="443,309,611,336"/>
+<area shape="rect" id="node15" href="$classogdf_1_1_embedder_max_face_layers.html" title="Planar graph embedding with maximum external face (plus layers approach). " alt="" coords="424,360,631,387"/>
+<area shape="rect" id="node16" href="$classogdf_1_1_embedder_min_depth.html" title="Planar graph embedding with minimum block&#45;nesting depth. " alt="" coords="442,411,613,437"/>
+<area shape="rect" id="node17" href="$classogdf_1_1_embedder_min_depth_max_face.html" title="Planar graph embedding with minimum block&#45;nesting depth and maximum external face. " alt="" coords="415,461,639,488"/>
+<area shape="rect" id="node18" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding with minimum block&#45;nesting depth and maximum external face (plus layers approa..." alt="" coords="430,513,625,554"/>
+<area shape="rect" id="node19" href="$classogdf_1_1_embedder_min_depth_pi_ta.html" title="Planar graph embedding with minimum block&#45;nesting depth for given embedded blocks. " alt="" coords="429,579,626,605"/>
+<area shape="rect" id="node20" href="$classogdf_1_1_embedder_optimal_flex_draw.html" title="The algorithm computes a planar embedding with minimum cost. " alt="" coords="420,629,635,656"/>
+<area shape="rect" id="node21" href="$classogdf_1_1_simple_embedder.html" title="Planar graph embedding by using default planarEmbed. " alt="" coords="450,680,605,707"/>
+<area shape="rect" id="node23" href="$classogdf_1_1_f_u_p_s_simple.html" title="ogdf::FUPSSimple" alt="" coords="462,731,593,757"/>
+<area shape="rect" id="node24" href="$classogdf_1_1_maximal_f_u_p_s.html" title="ogdf::MaximalFUPS" alt="" coords="457,781,597,808"/>
+<area shape="rect" id="node26" href="$classogdf_1_1_m_m_subgraph_planarizer.html" title="Planarization approach for minor&#45;monotone crossing minimization. " alt="" coords="432,832,623,859"/>
+<area shape="rect" id="node28" href="$classogdf_1_1_m_m_fixed_embedding_inserter.html" title="Minor&#45;monotone edge insertion with fixed embedding. " alt="" coords="418,883,637,909"/>
+<area shape="rect" id="node29" href="$classogdf_1_1_m_m_variable_embedding_inserter.html" title="Minor&#45;monotone edge insertion with variable embedding. " alt="" coords="433,934,622,975"/>
+<area shape="rect" id="node31" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html" title="ogdf::MaximalPlanarSubgraph\lSimple\&lt; TCost, typename\l std::enable_if\&lt; std::is\l_floating_point\&lt; TCost \&gt;::\lvalue \&gt;::type \&gt;" alt="" coords="429,1000,625,1085"/>
+<area shape="rect" id="node32" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html" title="Naive maximal planar subgraph approach that extends a configurable non&#45;maximal subgraph heuristic..." alt="" coords="429,1109,625,1195"/>
+<area shape="rect" id="node33" href="$classogdf_1_1_planar_subgraph_cactus.html" title="Maximum planar subgraph approximation algorithm by Calinescu et al. " alt="" coords="433,1219,622,1261"/>
+<area shape="rect" id="node34" href="$classogdf_1_1_planar_subgraph_empty.html" title="Dummy implementation for maximum planar subgraph that returns an empty graph. " alt="" coords="435,1285,620,1326"/>
+<area shape="rect" id="node35" href="$classogdf_1_1_planar_subgraph_fast.html" title="Computation of a planar subgraph using PQ&#45;trees. " alt="" coords="441,1350,614,1391"/>
+<area shape="rect" id="node36" href="$classogdf_1_1_planar_subgraph_tree.html" title="Maximum planar subgraph heuristic that yields a spanning tree. " alt="" coords="441,1415,614,1457"/>
+<area shape="rect" id="node38" href="$classogdf_1_1_subgraph_planarizer_u_m_l.html" title="The planarization approach for UML crossing minimization. " alt="" coords="429,1481,625,1508"/>
+<area shape="rect" id="node40" href="$classogdf_1_1_fixed_embedding_inserter_u_m_l.html" title="Edge insertion module that inserts each edge optimally into a fixed embedding. " alt="" coords="415,1532,639,1559"/>
+<area shape="rect" id="node41" href="$classogdf_1_1_variable_embedding_inserter_dyn_u_m_l.html" title="Optimal edge insertion module. " alt="" coords="422,1583,633,1625"/>
+<area shape="rect" id="node42" href="$classogdf_1_1_variable_embedding_inserter_u_m_l.html" title="Optimal edge insertion module. " alt="" coords="408,1649,647,1676"/>
+<area shape="rect" id="node44" href="$classogdf_1_1_fixed_embedding_upward_edge_inserter.html" title="Edge insertion module that inserts each edge optimally into a fixed embedding. " alt="" coords="429,1701,626,1742"/>
+<area shape="rect" id="node46" href="$classogdf_1_1_subgraph_upward_planarizer.html" title="ogdf::SubgraphUpwardPlanarizer" alt="" coords="421,1767,634,1793"/>
+<area shape="rect" id="node48" href="$classogdf_1_1_maximum_planar_subgraph.html" title="Exact computation of a maximum planar subgraph. " alt="" coords="425,1817,629,1844"/>
+<area shape="rect" id="node49" href="$classogdf_1_1_planar_subgraph_boyer_myrvold.html" title="Maximum planar subgraph heuristic based on the Boyer&#45;Myrvold planarity test. " alt="" coords="437,1869,618,1910"/>
 </map>

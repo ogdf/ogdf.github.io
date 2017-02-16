@@ -14,10 +14,10 @@ var classogdf_1_1_max_sequence_p_q_tree =
     [ "haNumPnode", "classogdf_1_1_max_sequence_p_q_tree.html#ac90986b7c1e092f0b95729a4f1c669b6", null ],
     [ "haNumQnode", "classogdf_1_1_max_sequence_p_q_tree.html#a9a54f52bf461a39f2eef98e359f52b30", null ],
     [ "hNumQnode", "classogdf_1_1_max_sequence_p_q_tree.html#ab9600a8356cc4ab43ae460acbade426b", null ],
-    [ "markPertinentChildren", "classogdf_1_1_max_sequence_p_q_tree.html#adf4b45114a31503393c16548bcff578a", null ],
+    [ "markPertinentChildren", "classogdf_1_1_max_sequence_p_q_tree.html#a2c90fdc13fee1ddac9c50a38e0b169b2", null ],
     [ "setAchildren", "classogdf_1_1_max_sequence_p_q_tree.html#aa7f1444ccb2d20d73ce65aa59f34ef42", null ],
-    [ "setHchild", "classogdf_1_1_max_sequence_p_q_tree.html#a860d8167d54ee26efe398cff3df9feba", null ],
+    [ "setHchild", "classogdf_1_1_max_sequence_p_q_tree.html#aaed78df989b228e328ec29672ff8f9d7", null ],
     [ "sumPertChild", "classogdf_1_1_max_sequence_p_q_tree.html#a8db71efae9ad634d46bd54de3dde5b26", null ],
     [ "cleanUp", "classogdf_1_1_max_sequence_p_q_tree.html#a7b703f2d5f773f3a066bfff9b3d0658d", null ],
-    [ "eliminatedNodes", "classogdf_1_1_max_sequence_p_q_tree.html#a207c1c52020c3a0734184df791ce7342", null ]
+    [ "eliminatedNodes", "classogdf_1_1_max_sequence_p_q_tree.html#a72199a5f949db1e24e3d3bc8a3b04ab4", null ]
 ];

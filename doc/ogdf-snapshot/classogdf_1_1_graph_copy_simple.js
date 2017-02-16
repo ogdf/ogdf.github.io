@@ -6,6 +6,8 @@ var classogdf_1_1_graph_copy_simple =
     [ "copy", "classogdf_1_1_graph_copy_simple.html#a4957bda07af69fded83a435f32d1c330", null ],
     [ "copy", "classogdf_1_1_graph_copy_simple.html#ace3be5e4a2a1e4314ea0e738e48da07e", null ],
     [ "copy", "classogdf_1_1_graph_copy_simple.html#a2e35f0c542cf38196312cd78a63c4dda", null ],
+    [ "delEdge", "classogdf_1_1_graph_copy_simple.html#a2dd30158f8830b86f8c0a43b931e5513", null ],
+    [ "delNode", "classogdf_1_1_graph_copy_simple.html#abfcb6657249cd22570ca68b128b53140", null ],
     [ "init", "classogdf_1_1_graph_copy_simple.html#a64c410cc5e37935ed507b084361ac1bb", null ],
     [ "initGC", "classogdf_1_1_graph_copy_simple.html#a55bad70902b3cd98c35765e6385d5a4e", null ],
     [ "isDummy", "classogdf_1_1_graph_copy_simple.html#a683ebd31c92353af833417f18b7a87f4", null ],

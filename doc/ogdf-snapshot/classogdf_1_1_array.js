@@ -1,11 +1,10 @@
 var classogdf_1_1_array =
 [
-    [ "const_iterator", "classogdf_1_1_array.html#ad6ba7f8decc59261916b05d56d9b87ce", null ],
-    [ "const_reference", "classogdf_1_1_array.html#a6775be66fc100b058848f3aaea4718ec", null ],
-    [ "iterator", "classogdf_1_1_array.html#a63be4de96f43032313ced8313160b354", null ],
-    [ "reference", "classogdf_1_1_array.html#a1074c028e098183ad73f9da0c5de5009", null ],
-    [ "value_type", "classogdf_1_1_array.html#adc7b7dfa18f97d8bc3194df44de26e59", null ],
-    [ "maxSizeInsertionSort", "classogdf_1_1_array.html#a6c88306fab1a46d9a5a21298976ef686a54edb82744b23a6eefdd8f7e0854cb68", null ],
+    [ "const_iterator", "classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de", null ],
+    [ "const_reference", "classogdf_1_1_array.html#aefaba02e940da55c3ff6e0a957593286", null ],
+    [ "iterator", "classogdf_1_1_array.html#a71c17e205acde75abfb36889c9d03c0d", null ],
+    [ "reference", "classogdf_1_1_array.html#a789469ac77bb7f15bb8b8c4db45885c7", null ],
+    [ "value_type", "classogdf_1_1_array.html#ace120162cf83efa8d8613ed88d893acc", null ],
     [ "Array", "classogdf_1_1_array.html#ac7c8865b7349190e557e502769c6ee12", null ],
     [ "Array", "classogdf_1_1_array.html#acfac2ceda5c39541c2c6a7a01e78ed26", null ],
     [ "Array", "classogdf_1_1_array.html#abdff5e2a4320a38246a3df1e7f7024ac", null ],
@@ -75,5 +74,6 @@ var classogdf_1_1_array =
     [ "m_low", "classogdf_1_1_array.html#a1f685da61c75667a0edc31d163b5fe93", null ],
     [ "m_pStart", "classogdf_1_1_array.html#ac12e9b888e57c097b21f24209d36650f", null ],
     [ "m_pStop", "classogdf_1_1_array.html#a190a54def9d1bfe63f826ef65700a0d0", null ],
-    [ "m_vpStart", "classogdf_1_1_array.html#abf65ea0c715e3c40cdd4c9c73bb4f281", null ]
+    [ "m_vpStart", "classogdf_1_1_array.html#abf65ea0c715e3c40cdd4c9c73bb4f281", null ],
+    [ "maxSizeInsertionSort", "classogdf_1_1_array.html#a1b8692ebd6207d3c6ad855cb9b32db84", null ]
 ];

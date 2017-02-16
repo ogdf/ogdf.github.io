@@ -1,8 +1,6 @@
 var dir_27cd2d186ce7d9a0d6e3df96b99e4371 =
 [
-    [ "BalloonLayout.h", "_balloon_layout_8h.html", [
-      [ "BalloonLayout", "classogdf_1_1_balloon_layout.html", "classogdf_1_1_balloon_layout" ]
-    ] ],
+    [ "BalloonLayout.h", "_balloon_layout_8h.html", "_balloon_layout_8h" ],
     [ "BertaultLayout.h", "_bertault_layout_8h.html", [
       [ "BertaultLayout", "classogdf_1_1_bertault_layout.html", "classogdf_1_1_bertault_layout" ],
       [ "BertaultSections", "classogdf_1_1_bertault_layout_1_1_bertault_sections.html", "classogdf_1_1_bertault_layout_1_1_bertault_sections" ],

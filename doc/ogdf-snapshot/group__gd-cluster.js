@@ -35,15 +35,15 @@ var group__gd_cluster =
     ] ],
     [ "ClusterOrthoShaper", "classogdf_1_1_cluster_ortho_shaper.html", [
       [ "BendCost", "classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74", [
-        [ "defaultCost", "classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74af60b2bbafb5b785474f17f5308fb6df6", null ],
-        [ "topDownCost", "classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74a744e5f2f5c5439ceb37ee7e2bf2c6128", null ],
-        [ "bottomUpCost", "classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74a2dcd997d00da7ed2b560b31c64bef28f", null ]
+        [ "defaultCost", "classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74ad2704bc234d016a83f18c6f8131c3358", null ],
+        [ "topDownCost", "classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74a88d83accd3b0cb35648760163a69450c", null ],
+        [ "bottomUpCost", "classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74a4d676de5ac76204c5ea246f50e8c8c85", null ]
       ] ],
       [ "n_type", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583e", [
-        [ "low", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583eabe29c07e74b859274eebc3cd3a856a12", null ],
-        [ "high", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583ea8d9bdd4511906b893bb1948d63c8fca8", null ],
-        [ "inner", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583ea488f7799dcf1b88055338b18ec7544aa", null ],
-        [ "outer", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583ea013d744c8433466cba7d3469c68c63c3", null ]
+        [ "low", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583ea53cced8d281a1a0ace3cb6594daaa4f7", null ],
+        [ "high", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583ea8d966b2253a917086c8604959e152243", null ],
+        [ "inner", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583eaea97586b4aa0c141e4456912f3325f7f", null ],
+        [ "outer", "classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583ea7cfcbd1c1575dd7eae454f18b9267188", null ]
       ] ],
       [ "ClusterOrthoShaper", "classogdf_1_1_cluster_ortho_shaper.html#af59caf27d3f032e155cf0e99fb8bda73", null ],
       [ "~ClusterOrthoShaper", "classogdf_1_1_cluster_ortho_shaper.html#a01c3ae96e85a56d2caf3de770989ca13", null ],

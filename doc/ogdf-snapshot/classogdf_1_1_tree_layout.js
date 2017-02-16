@@ -1,9 +1,9 @@
 var classogdf_1_1_tree_layout =
 [
     [ "RootSelectionType", "classogdf_1_1_tree_layout.html#a10d11779f3777dccc1568952b1183b01", [
-      [ "rootIsSource", "classogdf_1_1_tree_layout.html#a10d11779f3777dccc1568952b1183b01ae655cd4c0bb6eedd8c85f3faf65c9bcf", null ],
-      [ "rootIsSink", "classogdf_1_1_tree_layout.html#a10d11779f3777dccc1568952b1183b01adf2f9cae2c05145f7dd1eb9081d0cdb2", null ],
-      [ "rootByCoord", "classogdf_1_1_tree_layout.html#a10d11779f3777dccc1568952b1183b01aab396c1db5725cc086014e2fd5144357", null ]
+      [ "Source", "classogdf_1_1_tree_layout.html#a10d11779f3777dccc1568952b1183b01af31bbdd1b3e85bccd652680e16935819", null ],
+      [ "Sink", "classogdf_1_1_tree_layout.html#a10d11779f3777dccc1568952b1183b01a1eb558b5d865ebabb06575f5f0042599", null ],
+      [ "ByCoord", "classogdf_1_1_tree_layout.html#a10d11779f3777dccc1568952b1183b01aa180fb3f584da04f9a182f108510ae25", null ]
     ] ],
     [ "TreeLayout", "classogdf_1_1_tree_layout.html#aa905911cfd5abe7c7555cfac81fcb60d", null ],
     [ "TreeLayout", "classogdf_1_1_tree_layout.html#a7f45cbcfd5da3f47756619c5960338d3", null ],

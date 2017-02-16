@@ -29,9 +29,9 @@ var group__decomp =
     ] ],
     [ "DynamicSPQRForest", "classogdf_1_1_dynamic_s_p_q_r_forest.html", [
       [ "TNodeType", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68", [
-        [ "SComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68aed44efee74503f8251a943772432e1f8", null ],
-        [ "PComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68adfbeffb7fbc259ba3a25e2446248e6c2", null ],
-        [ "RComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68a41d788227b7f503feb551492e93b51c6", null ]
+        [ "SComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68a12b8874c13061380f6ed2e9f6a7ee4f3", null ],
+        [ "PComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68ae0b959f3ff756c5176b4fb9cafedf280", null ],
+        [ "RComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68ad4807a25fda1b939df592fe066dd54d9", null ]
       ] ],
       [ "DynamicSPQRForest", "classogdf_1_1_dynamic_s_p_q_r_forest.html#aa87c7296113e09a9bba4abb767ab04b9", null ],
       [ "createSPQR", "classogdf_1_1_dynamic_s_p_q_r_forest.html#ab562313b7cff33b9ae9e110b8bdaee38", null ],
@@ -137,9 +137,9 @@ var group__decomp =
     ] ],
     [ "SPQRTree", "classogdf_1_1_s_p_q_r_tree.html", [
       [ "NodeType", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25", [
-        [ "SNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25ac36c01aabd3284883253913b781c702c", null ],
-        [ "PNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25a6fcc485e5f1171756272adbc212abe44", null ],
-        [ "RNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25ab8de24b086edce4d96499b28a255ef3a", null ]
+        [ "SNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25adc091537f9d097e5fea4c7f51dba13c0", null ],
+        [ "PNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25a652200c6a8d215efc2c644724ba2dfc2", null ],
+        [ "RNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25a0d42cca5279f1745d639204a74ec378a", null ]
       ] ],
       [ "~SPQRTree", "classogdf_1_1_s_p_q_r_tree.html#ae2b6752c538b78c3c919708d93942850", null ],
       [ "copyOfReal", "classogdf_1_1_s_p_q_r_tree.html#a13adb3d629c4f8d831244717f7c35b55", null ],
@@ -172,12 +172,12 @@ var group__decomp =
     [ "StaticSPQRTree", "classogdf_1_1_static_s_p_q_r_tree.html", [
       [ "StaticSPQRTree", "classogdf_1_1_static_s_p_q_r_tree.html#a24f3f8267a5c2959f5ac81f4aa02a441", null ],
       [ "StaticSPQRTree", "classogdf_1_1_static_s_p_q_r_tree.html#a7c55067e889651a20f7cd68a900fb3aa", null ],
-      [ "StaticSPQRTree", "classogdf_1_1_static_s_p_q_r_tree.html#a826218658226052982c10d5b2a5c359a", null ],
+      [ "StaticSPQRTree", "classogdf_1_1_static_s_p_q_r_tree.html#aa315d138516382f567a0a8f03ee8358c", null ],
       [ "~StaticSPQRTree", "classogdf_1_1_static_s_p_q_r_tree.html#afd12199d441129e05d3782e87aa83a9e", null ],
       [ "copyOfReal", "classogdf_1_1_static_s_p_q_r_tree.html#abedbf64d8ae70a2107bb98e77bffda34", null ],
       [ "cpRec", "classogdf_1_1_static_s_p_q_r_tree.html#a127e5ac694ca46e9dee2a17fccff2199", null ],
       [ "init", "classogdf_1_1_static_s_p_q_r_tree.html#a796460c23e2ef0aaad91157d9f197ebc", null ],
-      [ "init", "classogdf_1_1_static_s_p_q_r_tree.html#a6b392e0f57e358eb5f1f44777a0fa814", null ],
+      [ "init", "classogdf_1_1_static_s_p_q_r_tree.html#a637608d45d00a8bbd9861a07bd9bfd94", null ],
       [ "nodesOfType", "classogdf_1_1_static_s_p_q_r_tree.html#ae79dfacc682f8e03778efe59b9061362", null ],
       [ "numberOfPNodes", "classogdf_1_1_static_s_p_q_r_tree.html#a5730590e7d548a883a522374ef52f18d", null ],
       [ "numberOfRNodes", "classogdf_1_1_static_s_p_q_r_tree.html#a2eb42c89ad483c79239f02f5dbf18541", null ],

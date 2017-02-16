@@ -2,8 +2,8 @@ var classogdf_1_1_spring_embedder_f_r_exact =
 [
     [ "ArrayGraph", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph" ],
     [ "CoolingFunction", "classogdf_1_1_spring_embedder_f_r_exact.html#a34d5b58aaf64ced878882cb0eafd5743", [
-      [ "cfFactor", "classogdf_1_1_spring_embedder_f_r_exact.html#a34d5b58aaf64ced878882cb0eafd5743a9455fdf85a00a1cdf6a308b96659df57", null ],
-      [ "cfLogarithmic", "classogdf_1_1_spring_embedder_f_r_exact.html#a34d5b58aaf64ced878882cb0eafd5743ad5ec6995e59923f91a4db1e844447ae5", null ]
+      [ "Factor", "classogdf_1_1_spring_embedder_f_r_exact.html#a34d5b58aaf64ced878882cb0eafd5743a3c3ba615798db7340cd94c6e2d59e74e", null ],
+      [ "Logarithmic", "classogdf_1_1_spring_embedder_f_r_exact.html#a34d5b58aaf64ced878882cb0eafd5743a2f8e38ec1a5832670c5011a71603c929", null ]
     ] ],
     [ "SpringEmbedderFRExact", "classogdf_1_1_spring_embedder_f_r_exact.html#a177efe4ebccb1422b2c639090288d25c", null ],
     [ "~SpringEmbedderFRExact", "classogdf_1_1_spring_embedder_f_r_exact.html#a6b4d4a50b6f1a37823c599a32694e7cc", null ],

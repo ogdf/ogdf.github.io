@@ -1,7 +1,7 @@
 var classogdf_1_1_hypergraph_attributes_e_s =
 [
     [ "HypergraphAttributesES", "classogdf_1_1_hypergraph_attributes_e_s.html#a574977dc5781d78bb4f8660e6aa5a5f5", null ],
-    [ "HypergraphAttributesES", "classogdf_1_1_hypergraph_attributes_e_s.html#aabe326a775d2f3ff9c72a134e34bdccc", null ],
+    [ "HypergraphAttributesES", "classogdf_1_1_hypergraph_attributes_e_s.html#adb3a70f6dfd0b6f1caeeeaaa26325cc6", null ],
     [ "~HypergraphAttributesES", "classogdf_1_1_hypergraph_attributes_e_s.html#a518ef0a1b639e8aa01880413bfd41ad7", null ],
     [ "bends", "classogdf_1_1_hypergraph_attributes_e_s.html#aa3b87054f518edb91b13a94d8952bcf9", null ],
     [ "boundingBox", "classogdf_1_1_hypergraph_attributes_e_s.html#af8ce2e5391cde55e127ebd30a11aae70", null ],
@@ -18,7 +18,7 @@ var classogdf_1_1_hypergraph_attributes_e_s =
     [ "setX", "classogdf_1_1_hypergraph_attributes_e_s.html#afb1f8acdfaac3a2b369a8ed8ba1b81c4", null ],
     [ "setY", "classogdf_1_1_hypergraph_attributes_e_s.html#a60d10c699405fae3a695c90203a11735", null ],
     [ "setY", "classogdf_1_1_hypergraph_attributes_e_s.html#ace1c8ce6d6859f4a1504536ea8d93261", null ],
-    [ "type", "classogdf_1_1_hypergraph_attributes_e_s.html#a73d4542c92401c7cf824d891cdbef000", null ],
+    [ "type", "classogdf_1_1_hypergraph_attributes_e_s.html#aeb2b29c3849fb7a8fcc02892c08ae181", null ],
     [ "type", "classogdf_1_1_hypergraph_attributes_e_s.html#a450a30705e6030c6518cf68fc871eb9f", null ],
     [ "type", "classogdf_1_1_hypergraph_attributes_e_s.html#a982b6b62b5c34f2f100c4c7befa58add", null ],
     [ "width", "classogdf_1_1_hypergraph_attributes_e_s.html#a910ccd57d25ceaf12f9852440441045a", null ],
@@ -26,5 +26,5 @@ var classogdf_1_1_hypergraph_attributes_e_s =
     [ "y", "classogdf_1_1_hypergraph_attributes_e_s.html#a9904dba348c8a9962ed51a971fd041ae", null ],
     [ "m_repG", "classogdf_1_1_hypergraph_attributes_e_s.html#a96ea3e5a59f954b593ddece0803704e4", null ],
     [ "m_repGA", "classogdf_1_1_hypergraph_attributes_e_s.html#aaf1be0b2c5270ce152256cc512e905f7", null ],
-    [ "m_type", "classogdf_1_1_hypergraph_attributes_e_s.html#a333b47a2e5e263b3549397b8a204ebe7", null ]
+    [ "m_type", "classogdf_1_1_hypergraph_attributes_e_s.html#a370bd403e128281a39227db316808d10", null ]
 ];

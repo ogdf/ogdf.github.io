@@ -77,6 +77,7 @@ var classogdf_1_1_plan_rep =
     [ "setGeneralization", "classogdf_1_1_plan_rep.html#ab9da6aaa433b0e0f94e46e12b5634557", null ],
     [ "setHalfBrother", "classogdf_1_1_plan_rep.html#abfed9f8f6d962d8091d22e7ad7a91167", null ],
     [ "setPrimaryType", "classogdf_1_1_plan_rep.html#a51334eae39db9a150e7f77001c143de5", null ],
+    [ "setPrimaryType", "classogdf_1_1_plan_rep.html#ab43f3e67f4650ccce4a5ec2a542d6789", null ],
     [ "setSecondaryType", "classogdf_1_1_plan_rep.html#aaff9b84ef6ac2a4df5d4e3f0c2cb657c", null ],
     [ "setType", "classogdf_1_1_plan_rep.html#a9d2e98fdb30d3177be56b5e8206edaa5", null ],
     [ "setUserType", "classogdf_1_1_plan_rep.html#abd5d5bad5c1ebb7faf4d1f5ec99c0808", null ],

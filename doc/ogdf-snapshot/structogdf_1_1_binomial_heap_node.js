@@ -1,6 +1,6 @@
 var structogdf_1_1_binomial_heap_node =
 [
-    [ "BinomialHeapNode", "structogdf_1_1_binomial_heap_node.html#a247ecccb43336ef4508d7aeb7eba1441", null ],
+    [ "BinomialHeapNode", "structogdf_1_1_binomial_heap_node.html#ad96cd630d7d453218079503cde14d590", null ],
     [ "BinomialHeap", "structogdf_1_1_binomial_heap_node.html#a9a57d2d97524b2c35c1911dd94774909", null ],
     [ "child", "structogdf_1_1_binomial_heap_node.html#a0e16547015a4d7956f9156775e931661", null ],
     [ "next", "structogdf_1_1_binomial_heap_node.html#af8236e3382af32b02e6df1ca8f2010c7", null ],

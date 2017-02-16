@@ -1,10 +1,10 @@
 var group__graph_containers =
 [
     [ "AdjEntryArray", "classogdf_1_1_adj_entry_array.html", [
-      [ "const_iterator", "classogdf_1_1_adj_entry_array.html#ab748e89ce7890348f21a2c7d960b5dfd", null ],
-      [ "iterator", "classogdf_1_1_adj_entry_array.html#a8203bff97dacd537708cfc8358e1512c", null ],
-      [ "key_type", "classogdf_1_1_adj_entry_array.html#a5757996d51129c683844105414e8ed5b", null ],
-      [ "value_type", "classogdf_1_1_adj_entry_array.html#af6c052a5e95be15842bd8ba9e06153c1", null ],
+      [ "const_iterator", "classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0", null ],
+      [ "iterator", "classogdf_1_1_adj_entry_array.html#aab5a471552ba99fb0daa0fd9c13e68bf", null ],
+      [ "key_type", "classogdf_1_1_adj_entry_array.html#a331416dfb041bc7696e99cef2687714e", null ],
+      [ "value_type", "classogdf_1_1_adj_entry_array.html#a91dd7fad2095d915ad554fd619e28100", null ],
       [ "AdjEntryArray", "classogdf_1_1_adj_entry_array.html#ae18932d183d6561e5f1033d7e6cbff58", null ],
       [ "AdjEntryArray", "classogdf_1_1_adj_entry_array.html#aab15ab4a913611f27d8c4db2a72aa84e", null ],
       [ "AdjEntryArray", "classogdf_1_1_adj_entry_array.html#adcd4e70d4085c7c9d9132ba786773aa0", null ],
@@ -103,7 +103,7 @@ var group__graph_containers =
       [ "m_pClusterGraph", "classogdf_1_1_cluster_graph_attributes.html#a9ac01342e79b0157cf14faee15853408", null ]
     ] ],
     [ "ClusterSet", "classogdf_1_1_cluster_set.html", [
-      [ "ClusterSet", "classogdf_1_1_cluster_set.html#a5928cf4712ad66558ff9e7d765626dad", null ],
+      [ "ClusterSet", "classogdf_1_1_cluster_set.html#a7f3bb5a8afeeac8c4c9bf627fb70ead4", null ],
       [ "~ClusterSet", "classogdf_1_1_cluster_set.html#ad1680359ae2cc664423f4d0a8399cf65", null ],
       [ "clear", "classogdf_1_1_cluster_set.html#a003fef5c569683e9b1c7cfeca88d7f6b", null ],
       [ "clusters", "classogdf_1_1_cluster_set.html#ab5b1af280905f028eec4dc591af1f894", null ],
@@ -136,10 +136,10 @@ var group__graph_containers =
       [ "m_isContained", "classogdf_1_1_cluster_set_simple.html#a82d1e67693015157b3ee61473be0c22a", null ]
     ] ],
     [ "EdgeArray", "classogdf_1_1_edge_array.html", [
-      [ "const_iterator", "classogdf_1_1_edge_array.html#a9dc388f162a77f0cebad50e832dbf851", null ],
-      [ "iterator", "classogdf_1_1_edge_array.html#a634f63a38cf208fab5ec05164b1db129", null ],
-      [ "key_type", "classogdf_1_1_edge_array.html#ab1eaeec6ca2aafa6a06d911d9214eb11", null ],
-      [ "value_type", "classogdf_1_1_edge_array.html#aa5c2dcd0ebe92b7e0bc95b65d64a71d7", null ],
+      [ "const_iterator", "classogdf_1_1_edge_array.html#aeaa686284b6876c4b9fb6b240800d690", null ],
+      [ "iterator", "classogdf_1_1_edge_array.html#a240d902aee8938211eab2f7bd243658f", null ],
+      [ "key_type", "classogdf_1_1_edge_array.html#aca45199a4da6cfce26ee5126b9f9d1f6", null ],
+      [ "value_type", "classogdf_1_1_edge_array.html#a2d51c603ae4fa229e104637d32c93e69", null ],
       [ "EdgeArray", "classogdf_1_1_edge_array.html#a58302ce226f979d3e51d24be45f674c9", null ],
       [ "EdgeArray", "classogdf_1_1_edge_array.html#a75c01fd271c3753a1558cd341d69f554", null ],
       [ "EdgeArray", "classogdf_1_1_edge_array.html#a56c19eecc27a82fd289a02aa8b191ae0", null ],
@@ -183,10 +183,10 @@ var group__graph_containers =
       [ "m_x", "classogdf_1_1_edge_array.html#a5dc69aca714a0b0918ac23340c2c5df2", null ]
     ] ],
     [ "FaceArray", "classogdf_1_1_face_array.html", [
-      [ "const_iterator", "classogdf_1_1_face_array.html#a52952a3358d9a80e718b3488c5c1588b", null ],
-      [ "iterator", "classogdf_1_1_face_array.html#a15f7871996a1f950d9694d50f7f03365", null ],
-      [ "key_type", "classogdf_1_1_face_array.html#a3e59dceb5f7d7e010be6c42f8773695c", null ],
-      [ "value_type", "classogdf_1_1_face_array.html#a50c0ff900c74f61a083ef9ba0de89966", null ],
+      [ "const_iterator", "classogdf_1_1_face_array.html#a6d0478a116159e45b24f91a0b2753dae", null ],
+      [ "iterator", "classogdf_1_1_face_array.html#a84ff32026cf79b5b37a301c3cdba1b64", null ],
+      [ "key_type", "classogdf_1_1_face_array.html#a14789c9830a7817cd63ed7b87b8cbbab", null ],
+      [ "value_type", "classogdf_1_1_face_array.html#a8616630cfc458785b75bb9bdfc1a8bdc", null ],
       [ "FaceArray", "classogdf_1_1_face_array.html#ac31c26b512291492bfa776e039cf8d78", null ],
       [ "FaceArray", "classogdf_1_1_face_array.html#a915cf2b6fdf656a2b1a81359b3c998b4", null ],
       [ "FaceArray", "classogdf_1_1_face_array.html#a11aeca38e5c3f24a57f48c5088dafd3c", null ],
@@ -256,10 +256,10 @@ var group__graph_containers =
       [ "m_isContained", "classogdf_1_1_face_set_simple.html#a0649a4b98576af11d23532e851584e74", null ]
     ] ],
     [ "NodeArray", "classogdf_1_1_node_array.html", [
-      [ "const_iterator", "classogdf_1_1_node_array.html#acd5671addec36f827180bda654ca2498", null ],
-      [ "iterator", "classogdf_1_1_node_array.html#a409b2037d4411fb53928096cc3a72815", null ],
-      [ "key_type", "classogdf_1_1_node_array.html#a227c1e7a1d97c5cf14429ab8f54d791e", null ],
-      [ "value_type", "classogdf_1_1_node_array.html#a87628c1800569608d24a2747db48c93d", null ],
+      [ "const_iterator", "classogdf_1_1_node_array.html#a06da1c494eaa872da3c7806ab3028561", null ],
+      [ "iterator", "classogdf_1_1_node_array.html#ad3dc95f06aeefb18ceb64fc103db1cc2", null ],
+      [ "key_type", "classogdf_1_1_node_array.html#aa95b2587650b10260f53c1c7bc07e91a", null ],
+      [ "value_type", "classogdf_1_1_node_array.html#af57beca990dc0c11a1d3844e76c31136", null ],
       [ "NodeArray", "classogdf_1_1_node_array.html#a532a4f025896b8d98eb9d34012146645", null ],
       [ "NodeArray", "classogdf_1_1_node_array.html#a095950dffea1f7b638de2381c28d1bc2", null ],
       [ "NodeArray", "classogdf_1_1_node_array.html#a4a8c182a49fbb3184e7c4f8dc38780e4", null ],

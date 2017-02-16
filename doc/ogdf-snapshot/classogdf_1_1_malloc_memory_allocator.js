@@ -1,7 +1,7 @@
 var classogdf_1_1_malloc_memory_allocator =
 [
     [ "MemElem", "structogdf_1_1_malloc_memory_allocator_1_1_mem_elem.html", "structogdf_1_1_malloc_memory_allocator_1_1_mem_elem" ],
-    [ "MemElemPtr", "classogdf_1_1_malloc_memory_allocator.html#a69850ef6094e3e17d44e25e2500e96e4", null ],
+    [ "MemElemPtr", "classogdf_1_1_malloc_memory_allocator.html#a2feb12f2f0706ce5ffeb1a52a12e3d9f", null ],
     [ "MallocMemoryAllocator", "classogdf_1_1_malloc_memory_allocator.html#ad080a58e2d21978c753b48e667f726ed", null ],
     [ "~MallocMemoryAllocator", "classogdf_1_1_malloc_memory_allocator.html#ae8a15a1aea0ad615cb28395d7a5cc857", null ],
     [ "allocate", "classogdf_1_1_malloc_memory_allocator.html#adeb0362bafcb9719738432b38b4e4bfa", null ],

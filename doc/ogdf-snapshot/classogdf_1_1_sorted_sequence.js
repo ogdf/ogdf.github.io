@@ -1,8 +1,8 @@
 var classogdf_1_1_sorted_sequence =
 [
     [ "Element", "structogdf_1_1_sorted_sequence_1_1_element.html", "structogdf_1_1_sorted_sequence_1_1_element" ],
-    [ "const_iterator", "classogdf_1_1_sorted_sequence.html#aacfb943d37ccf44cf57b7e83fa8040f9", null ],
-    [ "iterator", "classogdf_1_1_sorted_sequence.html#a38136e0537df768a5dc4bb3d9d5dc8eb", null ],
+    [ "const_iterator", "classogdf_1_1_sorted_sequence.html#ac4133d99de15a0af58430b6c5ca24a53", null ],
+    [ "iterator", "classogdf_1_1_sorted_sequence.html#af5266622b5ba9f3535fbc90f7ad71c88", null ],
     [ "SortedSequence", "classogdf_1_1_sorted_sequence.html#a1d5dc72d8d7981af9d017a28e947c773", null ],
     [ "SortedSequence", "classogdf_1_1_sorted_sequence.html#a42adb63d32b5a0a74e5c892c85099f20", null ],
     [ "SortedSequence", "classogdf_1_1_sorted_sequence.html#a2b86b1b791adee85d72cd61ad6189c2f", null ],

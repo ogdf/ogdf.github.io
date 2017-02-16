@@ -3,6 +3,8 @@
 <area shape="rect" id="node5" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html" title="Naive maximal planar subgraph approach that extends a configurable non&#45;maximal subgraph heuristic..." alt="" coords="404,115,600,200"/>
 <area shape="rect" id="node6" href="$classogdf_1_1_planar_subgraph_cactus.html" title="Maximum planar subgraph approximation algorithm by Calinescu et al. " alt="" coords="407,225,597,266"/>
 <area shape="rect" id="node7" href="$classogdf_1_1_planar_subgraph_empty.html" title="Dummy implementation for maximum planar subgraph that returns an empty graph. " alt="" coords="409,290,595,331"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,163,111,189"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="5,213,119,240"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_planar_subgraph_fast.html" title="Computation of a planar subgraph using PQ&#45;trees. " alt="" coords="415,355,589,397"/>
+<area shape="rect" id="node9" href="$classogdf_1_1_planar_subgraph_tree.html" title="Maximum planar subgraph heuristic that yields a spanning tree. " alt="" coords="415,421,589,462"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,240,111,267"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="5,291,119,317"/>
 </map>

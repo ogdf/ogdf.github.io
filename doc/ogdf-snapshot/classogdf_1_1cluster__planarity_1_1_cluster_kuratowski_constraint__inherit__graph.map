@@ -1,0 +1,5 @@
+<map id="ogdf::cluster_planarity::ClusterKuratowskiConstraint" name="ogdf::cluster_planarity::ClusterKuratowskiConstraint">
+<area shape="rect" id="node2" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format. " alt="" coords="38,155,170,181"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="46,80,162,107"/>
+<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="32,5,176,32"/>
+</map>

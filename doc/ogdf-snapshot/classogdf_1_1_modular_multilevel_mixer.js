@@ -1,8 +1,8 @@
 var classogdf_1_1_modular_multilevel_mixer =
 [
     [ "erc", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6", [
-      [ "ercNone", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6adcf20b1f45d0386da817f7c53009c523", null ],
-      [ "ercLevelBound", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6afd7c601251dbe94237185b49181f61c8", null ]
+      [ "None", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "LevelBound", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6a4e9692bfa131f15f16694fc8aaf9126d", null ]
     ] ],
     [ "ModularMultilevelMixer", "classogdf_1_1_modular_multilevel_mixer.html#ab5b807d70d3a9f04c90adc4b0542f89a", null ],
     [ "call", "classogdf_1_1_modular_multilevel_mixer.html#afdd568547aed188e6fa92fabfb5f2307", null ],

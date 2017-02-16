@@ -10,6 +10,7 @@ var classogdf_1_1_simple_inc_node_inserter =
     [ "insertCrossingEdges", "classogdf_1_1_simple_inc_node_inserter.html#a9d75d63691bb24081978d5f5e7449a07", null ],
     [ "insertEdge", "classogdf_1_1_simple_inc_node_inserter.html#a3a923b14ddfa8f0bc6a871759d0e83b5", null ],
     [ "insertFaceEdges", "classogdf_1_1_simple_inc_node_inserter.html#ae53b179733b251501c4898d15e56436c", null ],
+    [ "updateComponentNumber", "classogdf_1_1_simple_inc_node_inserter.html#ae294500b5097b65adec5afdfe778460a", null ],
     [ "m_dual", "classogdf_1_1_simple_inc_node_inserter.html#a1f42a289ecbe5c602ef078d71d5d2862", null ],
     [ "m_forbidCrossings", "classogdf_1_1_simple_inc_node_inserter.html#a862b8e56ae9b8cd6fa3a958b0d477de0", null ],
     [ "m_incidentEdges", "classogdf_1_1_simple_inc_node_inserter.html#a1564284a2bb024729a8a04ed8d04ec90", null ],

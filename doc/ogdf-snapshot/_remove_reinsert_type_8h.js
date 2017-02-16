@@ -1,11 +1,11 @@
 var _remove_reinsert_type_8h =
 [
     [ "RemoveReinsertType", "_remove_reinsert_type_8h.html#ga381de84a1b3cf8d3a2149be57f8bd011", [
-      [ "rrNone", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011ada3fe1a533c013c0d7f9bf7f5c338860", null ],
-      [ "rrInserted", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011a798a5f865829d9c172e7c5a57d312bbe", null ],
-      [ "rrMostCrossed", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011a7e4815fafd74d21cffec987e29bb4b90", null ],
-      [ "rrAll", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011af6020b75b4dbb81d3f9e40f5be681492", null ],
-      [ "rrIncremental", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011ab372995759f0798f5f6f9989d3c5a7b2", null ],
-      [ "rrIncInserted", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011ae5cc44a1dbf15c219a67dccc8a3d319b", null ]
+      [ "None", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Inserted", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011a157d034f9c98a305eb73776582550027", null ],
+      [ "MostCrossed", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011ab49aa1d57b7ba10653ec071a074dc00a", null ],
+      [ "All", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011ab1c94ca2fbc3e78fc30069c8d0f01680", null ],
+      [ "Incremental", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011a482be0da5798aaaecbf7416714e6607f", null ],
+      [ "IncInserted", "_remove_reinsert_type_8h.html#gga381de84a1b3cf8d3a2149be57f8bd011ac86d673902e61d2a077adfb1bcbf7ce2", null ]
     ] ]
 ];

@@ -1,0 +1,26 @@
+var classogdf_1_1davidson__harel_1_1_uniform_grid =
+[
+    [ "UniformGrid", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a0035d9bb6a8349da08f50343459b156d", null ],
+    [ "UniformGrid", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a0187777b8d8642a760ff33159dc13e68", null ],
+    [ "UniformGrid", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#aed0b6fce6758bc84c16d86d91cbcf5c3", null ],
+    [ "computeCrossings", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#af3de64666a3204f1cbcdddf6c347793d", null ],
+    [ "computeGridGeometry", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a1740f55f7c912df2715bea2d1bb00048", null ],
+    [ "computeGridPoint", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a45535d3f869c585f1ce0d857ae473527", null ],
+    [ "computeRealPoint", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ab4cb894411c3994766d6d3147d3c46cf", null ],
+    [ "crossingTest", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ac01d42de6b1f8ea0a5976886de6e3a82", null ],
+    [ "DoubleModifiedBresenham", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a7b6dcb73758f07c935d35823f016b12e", null ],
+    [ "isInt", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#aa7d6280bc284c84dc91c56a9184bc757", null ],
+    [ "ModifiedBresenham", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ae3a0b5bf4e206565b8e768549a64a16f", null ],
+    [ "newGridNecessary", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a41e63cd7099caf47d2c4be2de5022f1b", null ],
+    [ "numberOfCrossings", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a7b94b0c50d7a399f855a1c262a47c633", null ],
+    [ "operator=", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a3600388be73645234a600608666ba27a", null ],
+    [ "m_cells", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a560e754c07a4296badbbe771cda575cc", null ],
+    [ "m_CellSize", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a842c04a3b446090d99b2b889565a8dac", null ],
+    [ "m_crossings", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a9973d3f80da16a70eb3659de3f4fe04c", null ],
+    [ "m_crossNum", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ac1a1ddcd887876188bd75a1241b408fa", null ],
+    [ "m_edgeMultiplier", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a19d570799a018bc99e1b4f164710885d", null ],
+    [ "m_epsilon", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#af0fbd50874cc20b2f02188bd4593d7bb", null ],
+    [ "m_graph", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ae4a153afcb25ede85b2d563f3de19095", null ],
+    [ "m_grid", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a8f20e407003680154ef969314515a861", null ],
+    [ "m_layout", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a76b454ac45addffc0a8902783bf441b5", null ]
+];

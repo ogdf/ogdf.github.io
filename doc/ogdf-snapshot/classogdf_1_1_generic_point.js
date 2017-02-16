@@ -1,6 +1,6 @@
 var classogdf_1_1_generic_point =
 [
-    [ "numberType", "classogdf_1_1_generic_point.html#a60b97771cf4b02c64bc3be1274fe4958", null ],
+    [ "numberType", "classogdf_1_1_generic_point.html#aac155f22dbf9b110804f588a3b29af86", null ],
     [ "GenericPoint", "classogdf_1_1_generic_point.html#ae1e048f54108b362b912d8597c9910c4", null ],
     [ "GenericPoint", "classogdf_1_1_generic_point.html#a00751a1904eb8898c69f8a6c97c7176a", null ],
     [ "GenericPoint", "classogdf_1_1_generic_point.html#acb8bc4e790dc8a5049564dbb6026e9e5", null ],

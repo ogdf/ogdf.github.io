@@ -25,9 +25,9 @@ var group__ga_clustering =
     ] ],
     [ "ModifiedNibbleClusterer", "classogdf_1_1_modified_nibble_clusterer.html", [
       [ "StartNodeStrategy", "classogdf_1_1_modified_nibble_clusterer.html#a666daaf85fd63b2a11f7d64ccc60013e", [
-        [ "snsMinDeg", "classogdf_1_1_modified_nibble_clusterer.html#a666daaf85fd63b2a11f7d64ccc60013ea603bcbb5e94d652a632f596ebdb4bb56", null ],
-        [ "snsMaxDeg", "classogdf_1_1_modified_nibble_clusterer.html#a666daaf85fd63b2a11f7d64ccc60013ea4f524b2c4a2f604bc360222a4448979f", null ],
-        [ "snsRandom", "classogdf_1_1_modified_nibble_clusterer.html#a666daaf85fd63b2a11f7d64ccc60013eaebb2b150c6578ffd1e5701eed8e5950c", null ]
+        [ "MinDeg", "classogdf_1_1_modified_nibble_clusterer.html#a666daaf85fd63b2a11f7d64ccc60013eac2d93f82fad27b573619cd2249f509b1", null ],
+        [ "MaxDeg", "classogdf_1_1_modified_nibble_clusterer.html#a666daaf85fd63b2a11f7d64ccc60013ea6dfbdc76ae60fdecc8f2fdf36d4aa941", null ],
+        [ "Random", "classogdf_1_1_modified_nibble_clusterer.html#a666daaf85fd63b2a11f7d64ccc60013ea64663f4646781c9c0110838b905daa23", null ]
       ] ],
       [ "ModifiedNibbleClusterer", "classogdf_1_1_modified_nibble_clusterer.html#af3ae26c84ed327afc46b1c7295abf833", null ],
       [ "~ModifiedNibbleClusterer", "classogdf_1_1_modified_nibble_clusterer.html#a0b52041fe17dada4dc1b13fb3866473e", null ],

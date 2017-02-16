@@ -22,7 +22,6 @@ var searchData=
   ['vec_3c_20double_20_3e',['vec&lt; double &gt;',['../class_minisat_1_1_internal_1_1vec.html',1,'Minisat::Internal']]],
   ['vec_3c_20idx_20_3e',['vec&lt; Idx &gt;',['../class_minisat_1_1_internal_1_1vec.html',1,'Minisat::Internal']]],
   ['vec_3c_20int_20_3e',['vec&lt; int &gt;',['../class_minisat_1_1_internal_1_1vec.html',1,'Minisat::Internal']]],
-  ['vec_3c_20internal_3a_3alit_20_3e',['vec&lt; Internal::Lit &gt;',['../class_minisat_1_1_internal_1_1vec.html',1,'Minisat::Internal']]],
   ['vec_3c_20minisat_3a_3ainternal_3a_3albool_20_3e',['vec&lt; Minisat::Internal::lbool &gt;',['../class_minisat_1_1_internal_1_1vec.html',1,'Minisat::Internal']]],
   ['vec_3c_20minisat_3a_3ainternal_3a_3alit_20_3e',['vec&lt; Minisat::Internal::Lit &gt;',['../class_minisat_1_1_internal_1_1vec.html',1,'Minisat::Internal']]],
   ['vec_3c_20minisat_3a_3ainternal_3a_3amap_3a_3apair_20_3e',['vec&lt; Minisat::Internal::Map::Pair &gt;',['../class_minisat_1_1_internal_1_1vec.html',1,'Minisat::Internal']]],

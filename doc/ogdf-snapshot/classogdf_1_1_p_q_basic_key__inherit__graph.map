@@ -1,11 +1,10 @@
 <map id="ogdf::PQBasicKey&lt; T, X, Y &gt;" name="ogdf::PQBasicKey&lt; T, X, Y &gt;">
-<area shape="rect" id="node3" href="$classogdf_1_1_p_q_internal_key.html" title="The class template PQInternalKey is a derived class of class template PQBasicKey. ..." alt="" coords="426,5,566,47"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey. " alt="" coords="423,71,569,112"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_p_q_node_key.html" title="The class template PQNodeKey is a derived class of class template PQBasicKey. " alt="" coords="420,136,572,177"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_p_q_leaf_key.html" title="PQLeafKey\&lt; edge, ogdf\l::IndInfo *, bool \&gt;" alt="" coords="415,201,577,243"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_p_q_leaf_key.html" title="PQLeafKey\&lt; edge, X,\l bool \&gt;" alt="" coords="421,267,571,308"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_p_q_internal_key.html" title="The class template PQInternalKey is a derived class of class template PQBasicKey. ..." alt="" coords="429,5,569,47"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey. " alt="" coords="426,71,573,112"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_p_q_node_key.html" title="The class template PQNodeKey is a derived class of class template PQBasicKey. " alt="" coords="423,136,575,177"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_p_q_leaf_key.html" title="PQLeafKey\&lt; edge, booth\l_lueker::IndInfo *, bool \&gt;" alt="" coords="415,201,584,243"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_p_q_leaf_key.html" title="PQLeafKey\&lt; edge, X,\l bool \&gt;" alt="" coords="424,271,575,312"/>
 <area shape="rect" id="node2" href="$classogdf_1_1_p_q_basic_key_root.html" title="The class PQBasicKeyRoot is used as a base class of the class template basicKey. " alt="" coords="5,143,164,170"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_planar_leaf_key.html" title="ogdf::PlanarLeafKey\l\&lt; ogdf::IndInfo * \&gt;" alt="" coords="642,140,782,181"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_planar_leaf_key.html" title="ogdf::PlanarLeafKey\l\&lt; ogdf::IndInfo *\&gt;" alt="" coords="642,205,782,247"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_planar_leaf_key.html" title="ogdf::PlanarLeafKey\&lt; X \&gt;" alt="" coords="625,274,799,301"/>
+<area shape="rect" id="node7" href="$classogdf_1_1booth__lueker_1_1_planar_leaf_key.html" title="ogdf::booth_lueker\l::PlanarLeafKey\&lt; booth\l_lueker::IndInfo * \&gt;" alt="" coords="632,191,791,247"/>
+<area shape="rect" id="node9" href="$classogdf_1_1booth__lueker_1_1_planar_leaf_key.html" title="ogdf::booth_lueker\l::PlanarLeafKey\&lt; X \&gt;" alt="" coords="637,272,785,313"/>
 </map>

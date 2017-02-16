@@ -1,17 +1,17 @@
 var classogdf_1_1_b_c_tree =
 [
     [ "BNodeType", "classogdf_1_1_b_c_tree.html#a06ce2434df67019ae3935457c21e6dff", [
-      [ "BComp", "classogdf_1_1_b_c_tree.html#a06ce2434df67019ae3935457c21e6dffa92268c27dc786040ac99ca01b637af08", null ],
-      [ "CComp", "classogdf_1_1_b_c_tree.html#a06ce2434df67019ae3935457c21e6dffa41cf1fe17b1c723932b75ce23c9a0a27", null ]
+      [ "BComp", "classogdf_1_1_b_c_tree.html#a06ce2434df67019ae3935457c21e6dffa8a70509cf7c6f2c8601d6d4bb6dbb8e3", null ],
+      [ "CComp", "classogdf_1_1_b_c_tree.html#a06ce2434df67019ae3935457c21e6dfface38c1cb40fcad8c7b6c81b4ab215eb5", null ]
     ] ],
     [ "GNodeType", "classogdf_1_1_b_c_tree.html#a1a068579e5a55f5647b9ee5a37b047d3", [
-      [ "Normal", "classogdf_1_1_b_c_tree.html#a1a068579e5a55f5647b9ee5a37b047d3a623b479c43e8b0c8cca20826845de974", null ],
-      [ "CutVertex", "classogdf_1_1_b_c_tree.html#a1a068579e5a55f5647b9ee5a37b047d3aa1b0fb171d7baabe86b7d721f7cca75f", null ]
+      [ "Normal", "classogdf_1_1_b_c_tree.html#a1a068579e5a55f5647b9ee5a37b047d3a960b44c579bc2f6818d2daaf9e4c16f0", null ],
+      [ "CutVertex", "classogdf_1_1_b_c_tree.html#a1a068579e5a55f5647b9ee5a37b047d3a3b677ed1651d7b1284314a40973719f4", null ]
     ] ],
     [ "BCTree", "classogdf_1_1_b_c_tree.html#af71b2dd4c4c20a346d23cedb8754897e", null ],
     [ "BCTree", "classogdf_1_1_b_c_tree.html#ad254dd9fa234eff16ae0708597fd1703", null ],
     [ "~BCTree", "classogdf_1_1_b_c_tree.html#a6c40b28e9fe894fb90a8e44adffcd9da", null ],
-    [ "BCTree", "classogdf_1_1_b_c_tree.html#a5fe49a1cb285d9255d37388b4ef6410e", null ],
+    [ "BCTree", "classogdf_1_1_b_c_tree.html#a90eaf813057f10b8458a08d11f3d835e", null ],
     [ "auxiliaryGraph", "classogdf_1_1_b_c_tree.html#a0b19030dd7e3841aed09a892103ff3e4", null ],
     [ "bComponent", "classogdf_1_1_b_c_tree.html#ac90425e0050e13564ede067f40fbe9d1", null ],
     [ "bcproper", "classogdf_1_1_b_c_tree.html#a8f177a43d693586a1c4ec5263bd79bcb", null ],
@@ -29,7 +29,7 @@ var classogdf_1_1_b_c_tree =
     [ "numberOfCComps", "classogdf_1_1_b_c_tree.html#acad6bedc11a519b7e3b66517b991e3cc", null ],
     [ "numberOfEdges", "classogdf_1_1_b_c_tree.html#aaf530a52a88cc18d45f9896b047d8f99", null ],
     [ "numberOfNodes", "classogdf_1_1_b_c_tree.html#a2e90963630df01347cf696d0bf91708f", null ],
-    [ "operator=", "classogdf_1_1_b_c_tree.html#af9b15c6db15414106c1d3d56e50c6035", null ],
+    [ "operator=", "classogdf_1_1_b_c_tree.html#a08f1c7729c92db1ae6c8798b6609f4cb", null ],
     [ "original", "classogdf_1_1_b_c_tree.html#a74ed8cf46e595103e5a63d3b63c6364a", null ],
     [ "original", "classogdf_1_1_b_c_tree.html#afd095e9aede4b62d81db73045ccbe9cd", null ],
     [ "originalGraph", "classogdf_1_1_b_c_tree.html#a16fce207045d2746e3a2ea5046ef2ecd", null ],

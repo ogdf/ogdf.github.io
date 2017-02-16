@@ -1,6 +1,6 @@
 var structogdf_1_1dot_1_1_subgraph_data =
 [
-    [ "SubgraphData", "structogdf_1_1dot_1_1_subgraph_data.html#acf4ee7f04888725fd8eb822e4a21c921", null ],
+    [ "SubgraphData", "structogdf_1_1dot_1_1_subgraph_data.html#a454b589a2472ce61bf83f1f137b7dddf", null ],
     [ "withCluster", "structogdf_1_1dot_1_1_subgraph_data.html#a4cc562ff5ea350ffcc5793a3f324d20a", null ],
     [ "withDefaults", "structogdf_1_1dot_1_1_subgraph_data.html#a3e8b8316356ec7d4e626ec76388fee96", null ],
     [ "withNodes", "structogdf_1_1dot_1_1_subgraph_data.html#ac3e1c7cf627f1b39ecee48573d7fb377", null ],

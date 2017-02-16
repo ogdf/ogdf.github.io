@@ -3,9 +3,9 @@ var classogdf_1_1_radial_tree_layout =
     [ "Group", "structogdf_1_1_radial_tree_layout_1_1_group.html", "structogdf_1_1_radial_tree_layout_1_1_group" ],
     [ "Grouping", "classogdf_1_1_radial_tree_layout_1_1_grouping.html", "classogdf_1_1_radial_tree_layout_1_1_grouping" ],
     [ "RootSelectionType", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0d", [
-      [ "rootIsSource", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0daf4cb08a5c09b9245cbc4de499d3b387b", null ],
-      [ "rootIsSink", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0daebda7d3c1eb0c4566596243fd929a6fa", null ],
-      [ "rootIsCenter", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0da399325a0c902be39152f89c1c67adf9d", null ]
+      [ "Source", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0daf31bbdd1b3e85bccd652680e16935819", null ],
+      [ "Sink", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0da1eb558b5d865ebabb06575f5f0042599", null ],
+      [ "Center", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0da4f1f6016fc9f3f2353c0cc7c67b292bd", null ]
     ] ],
     [ "RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#abc2864529af6f294a27de65ecdf5628c", null ],
     [ "RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#a7afa51525b4e4fea3c691184971c829b", null ],

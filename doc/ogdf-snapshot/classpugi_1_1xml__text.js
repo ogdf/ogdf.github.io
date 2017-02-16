@@ -1,6 +1,6 @@
 var classpugi_1_1xml__text =
 [
-    [ "unspecified_bool_type", "classpugi_1_1xml__text.html#aed0e5b5e5cbf50284016812ea4d39309", null ],
+    [ "unspecified_bool_type", "classpugi_1_1xml__text.html#acf1d44b257d41bc109413afcafe49980", null ],
     [ "xml_text", "classpugi_1_1xml__text.html#a0ffdad125d30c252184ca837855047c7", null ],
     [ "xml_text", "classpugi_1_1xml__text.html#ab87979467528efeec9b515a10f1a1df1", null ],
     [ "_data", "classpugi_1_1xml__text.html#aed9c6454b21a3714487ce5e43ddc625e", null ],

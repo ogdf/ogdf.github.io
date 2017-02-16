@@ -17,6 +17,7 @@ var group__gd_planlayout =
       [ "m_planarLayouter", "classogdf_1_1_planarization_grid_layout.html#a371d27b5aba871910206762d518cfb85", null ]
     ] ],
     [ "PlanarizationLayout", "classogdf_1_1_planarization_layout.html", [
+      [ "CliqueReplacer", "classogdf_1_1_planarization_layout.html#a3a946ba2fe2c9405f27c8cab4b6791e9", null ],
       [ "PlanarizationLayout", "classogdf_1_1_planarization_layout.html#a4c3f7c4da23b68ef6f3aaaf4b51ac916", null ],
       [ "~PlanarizationLayout", "classogdf_1_1_planarization_layout.html#aa00f05ce49cc5c52f7196b94d2f9a397", null ],
       [ "arrangeCCs", "classogdf_1_1_planarization_layout.html#af3d13dc3ff6a67b36dcea60757a4cd5c", null ],

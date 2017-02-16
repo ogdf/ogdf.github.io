@@ -1,8 +1,8 @@
 var classogdf_1_1_c_planar_edge_inserter =
 [
     [ "PostProcessType", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3e", [
-      [ "ppNone", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3ea037127f705b1186c947ae432adf2d6c3", null ],
-      [ "ppRemoveReinsert", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3eaef9a6f672e54201971a67fc6322a7608", null ]
+      [ "None", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3ea6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "RemoveReinsert", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3ea5d1425f444ba2725b85d02da1d8b1f5e", null ]
     ] ],
     [ "CPlanarEdgeInserter", "classogdf_1_1_c_planar_edge_inserter.html#a3fa6f756e0e1cafba67f950fafbdc020", null ],
     [ "~CPlanarEdgeInserter", "classogdf_1_1_c_planar_edge_inserter.html#ab2314de7458e65ab564d7a924da64a82", null ],

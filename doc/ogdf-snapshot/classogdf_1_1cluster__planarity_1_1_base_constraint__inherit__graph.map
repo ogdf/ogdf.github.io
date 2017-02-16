@@ -1,0 +1,7 @@
+<map id="ogdf::cluster_planarity::BaseConstraint" name="ogdf::cluster_planarity::BaseConstraint">
+<area shape="rect" id="node5" href="$classogdf_1_1cluster__planarity_1_1_chunk_connection.html" title="ogdf::cluster_planarity\l::ChunkConnection" alt="" coords="5,319,156,360"/>
+<area shape="rect" id="node6" href="$classogdf_1_1cluster__planarity_1_1_cut_constraint.html" title="ogdf::cluster_planarity\l::CutConstraint" alt="" coords="180,319,331,360"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format. " alt="" coords="101,155,233,181"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="109,80,225,107"/>
+<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="95,5,239,32"/>
+</map>

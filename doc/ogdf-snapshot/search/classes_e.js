@@ -17,5 +17,5 @@ var searchData=
   ['orthoshaper',['OrthoShaper',['../classogdf_1_1_ortho_shaper.html',1,'ogdf']]],
   ['osiif',['OsiIF',['../classabacus_1_1_osi_i_f.html',1,'abacus']]],
   ['outofmemoryexception',['OutOfMemoryException',['../class_minisat_1_1_internal_1_1_out_of_memory_exception.html',1,'Minisat::Internal']]],
-  ['overlap',['Overlap',['../classogdf_1_1_overlap.html',1,'ogdf']]]
+  ['overlap',['Overlap',['../classogdf_1_1davidson__harel_1_1_overlap.html',1,'ogdf::davidson_harel']]]
 ];

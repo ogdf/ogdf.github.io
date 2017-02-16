@@ -18,7 +18,6 @@ var searchData=
   ['ogdf_5fmalloc_5f16',['OGDF_MALLOC_16',['../_fast_utils_8h.html#a14b083971a511aebbaad332eb7b94880',1,'FastUtils.h']]],
   ['ogdf_5fmemory_5fpool_5fts',['OGDF_MEMORY_POOL_TS',['../config__autogen_8h.html#aaabf8f3c3dd210d0836b0aaae66247a7',1,'config_autogen.h']]],
   ['ogdf_5fmm',['OGDF_MM',['../memory_8h.html#a3a5973acb116017dbf58d57215fc790f',1,'memory.h']]],
-  ['ogdf_5focm_5fattribute',['OGDF_OCM_ATTRIBUTE',['../_crossing_minimization_module_8h.html#a520a8ee3374a263350d361e9a5a76d37',1,'CrossingMinimizationModule.h']]],
   ['ogdf_5fsse3_5fextensions',['OGDF_SSE3_EXTENSIONS',['../config__autogen_8h.html#a3ebc21b15f06b828842268f56c1d0249',1,'config_autogen.h']]],
   ['ogdf_5fsteinertree_5fgoemans139_5floss_5fon_5fmetric_5fclosure',['OGDF_STEINERTREE_GOEMANS139_LOSS_ON_METRIC_CLOSURE',['../_min_steiner_tree_goemans139_8h.html#ab3e42493e3badd4793e25ada974d8de5',1,'MinSteinerTreeGoemans139.h']]],
   ['ogdf_5fsteinertree_5fgoemans139_5fseparate_5fconnected_5fcomponents',['OGDF_STEINERTREE_GOEMANS139_SEPARATE_CONNECTED_COMPONENTS',['../_min_steiner_tree_goemans139_8h.html#abe621fec4c82e14201fee452a51fa35a',1,'MinSteinerTreeGoemans139.h']]],

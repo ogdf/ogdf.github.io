@@ -18,7 +18,7 @@ var group__ga_steiner =
         [ "m_edge", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_edge_constraint.html#a7144ca70d28ebedb1c458704ab459ec9", null ]
       ] ],
       [ "DirectedCutConstraint", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html", [
-        [ "DirectedCutConstraint", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html#a07aeb45da4a8db401a8c0d9b0aa8ff00", null ],
+        [ "DirectedCutConstraint", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html#abe9e28844f5b24aa29743defb3a1fe1a", null ],
         [ "active", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html#a463f1ab4c10c1228844f606182ec2814", null ],
         [ "coeff", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html#af17718e886bb5dd5e4ccb6dea21aad97", null ],
         [ "cutedge", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html#a917c2248366c2e4dba69ce56ef15d5f4", null ],
@@ -195,7 +195,6 @@ var group__ga_steiner =
         [ "~Sub", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a43c963c71ba9278fdc076b8c4f290eb2", null ],
         [ "feasible", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a141a13d942bb53063d50e7741914dab7", null ],
         [ "generateSon", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#afc304270b06c95b75b46f5e52e76fedf", null ],
-        [ "isSteinerArborescence", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a976b6b3c9c7f0a29be17838fa5b0a66d", null ],
         [ "myImprove", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a08a162628af3cb1588a0a7087f9c2668", null ],
         [ "mySeparate", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#ae17d30aebe29a185d451814104be0f9f", null ],
         [ "separate", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a12c82e7ace21589bce4eff42c10be0a9", null ],
@@ -255,7 +254,7 @@ var group__ga_steiner =
       [ "init", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a36fa74ffed33f0042cd7ff269da96c5c", null ],
       [ "isActiveComponent", "classogdf_1_1_min_steiner_tree_dual_ascent.html#aee78ac163b0fef4e8e1dec0c50e9481f", null ],
       [ "isTerminal", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a5b41f0c8c652d9632d7aa583e0ea740b", null ],
-      [ "updateComponents", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a1abd29eb04d92cc3f815ad63ac6fe747", null ],
+      [ "updateComponents", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a761ccb88143133851b35641e2a27133c", null ],
       [ "m_componentMapping", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a4f5dd5afc8b8c11ae329964d836441be", null ],
       [ "m_diGraph", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a2801fd8996befc574d895208042e237b", null ],
       [ "m_edgeInclusions", "classogdf_1_1_min_steiner_tree_dual_ascent.html#ab6b456881d627c575854e867491e670b", null ],
@@ -343,7 +342,7 @@ var group__ga_steiner =
         [ "m_approx2Weight", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html#a4937f9c894696415a1137f28d121f789", null ],
         [ "m_distance", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html#ac913f59d480ccceb88a524d8cba7f5a8", null ],
         [ "m_eps", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html#a9013d92d17e672f91c980aeb99321c0f", null ],
-        [ "m_fullCompStore", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html#ac8a5578680fda5535d4299854456b9c9", null ],
+        [ "m_fullCompStore", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html#abe7aab1e228d1214eafb2996a863d253", null ],
         [ "m_G", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html#a30b8565313bf6a34c12a110ce33fd3ef", null ],
         [ "m_isTerminal", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html#a9aa7e500e3a85cd0f6bffb4a6360000d", null ],
         [ "m_lowerBounds", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html#a630b0ed7cba5ec71fa238c3e2ae71a75", null ],
@@ -428,7 +427,7 @@ var group__ga_steiner =
       [ "MAX_VALUE", "classogdf_1_1_min_steiner_tree_primal_dual.html#a416f43859ec75c4ec215fb7e6760d275", null ]
     ] ],
     [ "MinSteinerTreeRZLoss", "classogdf_1_1_min_steiner_tree_r_z_loss.html", [
-      [ "SaveStatic", "classogdf_1_1_min_steiner_tree_r_z_loss.html#ab9b99c1b54c56eb24a4fd4e99d0c771f", null ],
+      [ "SaveStatic", "classogdf_1_1_min_steiner_tree_r_z_loss.html#ae3e158fd59c4222c12420a199e2ea5a5", null ],
       [ "MinSteinerTreeRZLoss", "classogdf_1_1_min_steiner_tree_r_z_loss.html#a46b9aa353342d3973a75cbbca193c9e9", null ],
       [ "MinSteinerTreeRZLoss", "classogdf_1_1_min_steiner_tree_r_z_loss.html#aa8366efc940189c4ebee611c73ba51a0", null ],
       [ "~MinSteinerTreeRZLoss", "classogdf_1_1_min_steiner_tree_r_z_loss.html#ab652bbe9cedc50eb1b15b2591e76e3dd", null ],
@@ -451,7 +450,7 @@ var group__ga_steiner =
       [ "m_componentsGenerated", "classogdf_1_1_min_steiner_tree_r_z_loss.html#ae527390628fe0752f1ae1c9570403251", null ],
       [ "m_componentsLookUps", "classogdf_1_1_min_steiner_tree_r_z_loss.html#ae052fb4ce9788362adca7c09de44cf41", null ],
       [ "m_distance", "classogdf_1_1_min_steiner_tree_r_z_loss.html#a0618d796b7677c1106e8c38de787dc60", null ],
-      [ "m_fullCompStore", "classogdf_1_1_min_steiner_tree_r_z_loss.html#aba3cb75b5068984aebde22be5e5baac9", null ],
+      [ "m_fullCompStore", "classogdf_1_1_min_steiner_tree_r_z_loss.html#ab9b5acd0228814d312899dbe339ada9d", null ],
       [ "m_isTerminal", "classogdf_1_1_min_steiner_tree_r_z_loss.html#a400805f3361b4ebd7469e6352e38c39b", null ],
       [ "m_nonterminals", "classogdf_1_1_min_steiner_tree_r_z_loss.html#af51565d4c08913edddc1c8491f927a3f", null ],
       [ "m_originalGraph", "classogdf_1_1_min_steiner_tree_r_z_loss.html#a2cfb4983481bc5d53a15584926efab35", null ],
@@ -500,32 +499,32 @@ var group__ga_steiner =
       [ "terminalDijkstra", "classogdf_1_1_min_steiner_tree_takahashi.html#a9fc417a0129a9cf41b7847e572d76122", null ]
     ] ],
     [ "MinSteinerTreeZelikovsky", "classogdf_1_1_min_steiner_tree_zelikovsky.html", [
-      [ "Save", "classogdf_1_1_min_steiner_tree_zelikovsky.html#af390aacc1c3fb7e6b338dc0d46b66235", null ],
-      [ "Triple", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a047f601315a689fa423ac4510079ce5d", null ],
+      [ "Save", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a2355d89984a295b05815adaaf2a2667f", null ],
+      [ "Triple", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a51a81ad7092f83203f6d72207467ed57", null ],
       [ "Pass", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204", [
-        [ "one", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204a098eb972d833ae6019badcc809f36bdd", null ],
-        [ "multi", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204a39724764cee84f2b0d665435cab07f7d", null ]
+        [ "one", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204af97c5d29941bfb1b2fdab0874906ab82", null ],
+        [ "multi", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204aea8f243d9885cf8ce9876a580224fd3c", null ]
       ] ],
       [ "SaveCalculation", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1", [
-        [ "staticEnum", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a072d21f63f380d5f3eedca8977c97d6d", null ],
-        [ "staticLCATree", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a019b9e993ca92ce6c9b3f580a76e26bc", null ],
-        [ "dynamicLCATree", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1aec42c9238a32e9b9f02fa6e681fb049e", null ],
-        [ "hybrid", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a34cf385ccbb887c488bc7bd162221d24", null ]
+        [ "staticEnum", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a96f985e1b4990b5ea9790aac8ca3bf47", null ],
+        [ "staticLCATree", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a4dd7f9ca99fcc83117c40a40ac3765cb", null ],
+        [ "dynamicLCATree", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a939592c391c69be2c5592e422b168882", null ],
+        [ "hybrid", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1af7befc67e4b1ddf3a03d496537760671", null ]
       ] ],
       [ "TripleGeneration", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17", [
-        [ "exhaustive", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a2ed55abddf54712fa1df69adfe7ed246", null ],
-        [ "voronoi", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17aae554f439c31cc4508c896cb449924df", null ],
-        [ "ondemand", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a8b7ee55e0bc7b38108493a5f02b9db21", null ]
+        [ "exhaustive", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a3fe7af42b09ed4d75f8322216355a326", null ],
+        [ "voronoi", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a1b4683e2fc3862e2f13441c939e06428", null ],
+        [ "ondemand", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a76c4a529eb44a72cf45359ef81e43e39", null ]
       ] ],
       [ "TripleReduction", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643", [
-        [ "on", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643acc7ed3c7e2d3f7a68bd504def6fd5a90", null ],
-        [ "off", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643a31b408fd0d5adc3bc3bd896ab140dbb9", null ]
+        [ "on", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643aed2b5c0139cec8ad2873829dc1117d50", null ],
+        [ "off", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643a3262d48df5d75e3452f0f16b313b7808", null ]
       ] ],
       [ "WinCalculation", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93e", [
-        [ "absolute", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93ea59142239a0b94e91e918e22df3079ceb", null ],
-        [ "relative", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93ea3e7c761d94cb1ea30ab40b54d1e736f2", null ]
+        [ "absolute", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93eadc4d53aa0d117d8b189b36d161af4e96", null ],
+        [ "relative", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93ea99c483e1d11b1a279a2a1a3960528487", null ]
       ] ],
-      [ "MinSteinerTreeZelikovsky", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a804897abaf4b8001e099e8f20ffa3302", null ],
+      [ "MinSteinerTreeZelikovsky", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a67db57426d65c5d803c2bf2c9219109d", null ],
       [ "~MinSteinerTreeZelikovsky", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a148c9fa8ef0752e404fa1de37a0e0bd4", null ],
       [ "calcWin", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a037ed2771d6f627f9758abac66e2146a", null ],
       [ "call", "classogdf_1_1_min_steiner_tree_zelikovsky.html#ad26ed7b5b8e6a83a829e9bb9b2d46a09", null ],
@@ -573,7 +572,7 @@ var group__ga_steiner =
     ] ],
     [ "SteinerTreePreprocessing", "classogdf_1_1_steiner_tree_preprocessing.html", [
       [ "HeavyPathDecomposition", "classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition.html", [
-        [ "HeavyPathDecomposition", "classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition.html#ac3dfadbf2e62b84046135996c9c30106", null ],
+        [ "HeavyPathDecomposition", "classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition.html#a5921dd347adf9cda504b0787f78c00ac", null ],
         [ "binarySearchUpmostTerminal", "classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition.html#a919e81b16ef5db061a3305d5efce91d7", null ],
         [ "buildMaxSegmentTree", "classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition.html#ad7f0a69172748b5bcafd7ef3d013f291", null ],
         [ "computeBottleneckOnBranch", "classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition.html#a75b6fcc08268351781b8da62ca7fbd3b", null ],

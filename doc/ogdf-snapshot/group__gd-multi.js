@@ -9,9 +9,9 @@ var group__gd_multi =
     ] ],
     [ "CirclePlacer", "classogdf_1_1_circle_placer.html", [
       [ "NodeSelection", "classogdf_1_1_circle_placer.html#a8aa1786e0ea8f45e5ad0307a82a2abe7", [
-        [ "nsNew", "classogdf_1_1_circle_placer.html#a8aa1786e0ea8f45e5ad0307a82a2abe7a5476eec6f520bfcd5db8186a70f5b1c4", null ],
-        [ "nsOld", "classogdf_1_1_circle_placer.html#a8aa1786e0ea8f45e5ad0307a82a2abe7aacff87269a68232debf1c7b8a60fc733", null ],
-        [ "nsAll", "classogdf_1_1_circle_placer.html#a8aa1786e0ea8f45e5ad0307a82a2abe7a8b0152a7b40a0e41d513539c765436fd", null ]
+        [ "New", "classogdf_1_1_circle_placer.html#a8aa1786e0ea8f45e5ad0307a82a2abe7a03c2e7e41ffc181a4e84080b4710e81e", null ],
+        [ "Old", "classogdf_1_1_circle_placer.html#a8aa1786e0ea8f45e5ad0307a82a2abe7ac7268757fbabf48019f4984933539d8a", null ],
+        [ "All", "classogdf_1_1_circle_placer.html#a8aa1786e0ea8f45e5ad0307a82a2abe7ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
       ] ],
       [ "CirclePlacer", "classogdf_1_1_circle_placer.html#a40bcc385af53a6380735ff99cf10d776", null ],
       [ "placeOneLevel", "classogdf_1_1_circle_placer.html#a1f529fdfdac68a59c8f8976b84ea83c5", null ],
@@ -74,8 +74,8 @@ var group__gd_multi =
     ] ],
     [ "ModularMultilevelMixer", "classogdf_1_1_modular_multilevel_mixer.html", [
       [ "erc", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6", [
-        [ "ercNone", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6adcf20b1f45d0386da817f7c53009c523", null ],
-        [ "ercLevelBound", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6afd7c601251dbe94237185b49181f61c8", null ]
+        [ "None", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6a6adf97f83acf6453d4a6a4b1070f3754", null ],
+        [ "LevelBound", "classogdf_1_1_modular_multilevel_mixer.html#ac9c904bc9eae81b3bcf46c7bab2a45d6a4e9692bfa131f15f16694fc8aaf9126d", null ]
       ] ],
       [ "ModularMultilevelMixer", "classogdf_1_1_modular_multilevel_mixer.html#ab5b807d70d3a9f04c90adc4b0542f89a", null ],
       [ "call", "classogdf_1_1_modular_multilevel_mixer.html#afdd568547aed188e6fa92fabfb5f2307", null ],
@@ -122,16 +122,16 @@ var group__gd_multi =
     [ "RandomPlacer", "classogdf_1_1_random_placer.html", [
       [ "RandomPlacer", "classogdf_1_1_random_placer.html#a73245311326213835ef003930e8142a0", null ],
       [ "placeOneLevel", "classogdf_1_1_random_placer.html#aa40e1d38653139edf423cc0ca6ea3171", null ],
-      [ "placeOneNode", "classogdf_1_1_random_placer.html#a2cccb5b1d5f5b8b234b508903172885a", null ],
+      [ "placeOneNode", "classogdf_1_1_random_placer.html#aed7425159f395a7a09b946e8248a8791", null ],
       [ "setCircleSize", "classogdf_1_1_random_placer.html#a601a71434e4b10113a0a1f4ffedbe6af", null ],
       [ "m_circleSizeFactor", "classogdf_1_1_random_placer.html#a9822aa3abe28cf255b2fff23c9c633b5", null ]
     ] ],
     [ "ScalingLayout", "classogdf_1_1_scaling_layout.html", [
       [ "ScalingType", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44", [
-        [ "st_relativeToDrawing", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44ac01a018755a34a590b0dcfcd2d1ce9c0", null ],
-        [ "st_relativeToAvgLength", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44ad501810b8b7b075fe51cb78c0f1142b2", null ],
-        [ "st_relativeToDesiredLength", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44a7545ae351dd3188f63170de7fab0d052", null ],
-        [ "st_absolute", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44ac87dfee94d2b0f51efad5f6934885f6a", null ]
+        [ "RelativeToDrawing", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44a346e055683129bfd0b982970828ab90e", null ],
+        [ "RelativeToAvgLength", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44a50457e66866f1b7c064de1aed711b13a", null ],
+        [ "RelativeToDesiredLength", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44a51099521cc62379bc5d5c9f3be2251c8", null ],
+        [ "Absolute", "classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44ab51ca26c6c89cfc9bec338f7a0d3e0c8", null ]
       ] ],
       [ "ScalingLayout", "classogdf_1_1_scaling_layout.html#ac891eb00f668f631941b89c5df316972", null ],
       [ "call", "classogdf_1_1_scaling_layout.html#a6652f0b3713a027048d91c34be5529d7", null ],
@@ -154,7 +154,7 @@ var group__gd_multi =
     ] ],
     [ "SolarMerger", "classogdf_1_1_solar_merger.html", [
       [ "PathData", "structogdf_1_1_solar_merger_1_1_path_data.html", [
-        [ "PathData", "structogdf_1_1_solar_merger_1_1_path_data.html#aed9039a07dc92a0947fd776c026b2217", null ],
+        [ "PathData", "structogdf_1_1_solar_merger_1_1_path_data.html#af90c6f3478fc831a1bd105cdcabc7670", null ],
         [ "length", "structogdf_1_1_solar_merger_1_1_path_data.html#ac2d9ff5ad573691bc2550fa0b29f52c2", null ],
         [ "number", "structogdf_1_1_solar_merger_1_1_path_data.html#a621b18ade7574581eab1ee191633a2e4", null ],
         [ "targetSun", "structogdf_1_1_solar_merger_1_1_path_data.html#ac44679492d368bb37dd9b96fcafb44db", null ]

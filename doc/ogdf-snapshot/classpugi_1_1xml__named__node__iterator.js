@@ -1,10 +1,10 @@
 var classpugi_1_1xml__named__node__iterator =
 [
-    [ "difference_type", "classpugi_1_1xml__named__node__iterator.html#a18fa0d610fea4d64271729abc0e28849", null ],
-    [ "iterator_category", "classpugi_1_1xml__named__node__iterator.html#ab7dad0df34f043a9458b2a6b309a227f", null ],
-    [ "pointer", "classpugi_1_1xml__named__node__iterator.html#aebf72c68ded20cf483a10c6b94aa3f57", null ],
-    [ "reference", "classpugi_1_1xml__named__node__iterator.html#a1c338c7a2aefe04b83f746a963df808b", null ],
-    [ "value_type", "classpugi_1_1xml__named__node__iterator.html#a8d98d8218ea9740ceb990ef2c1a456e2", null ],
+    [ "difference_type", "classpugi_1_1xml__named__node__iterator.html#ad382930d81d3ec8f1b41287fe8f31065", null ],
+    [ "iterator_category", "classpugi_1_1xml__named__node__iterator.html#ac9d7d6fe33cfb62c4cafa8a66aab48d2", null ],
+    [ "pointer", "classpugi_1_1xml__named__node__iterator.html#a6bffd5325b3961cb854c7659ebfbe473", null ],
+    [ "reference", "classpugi_1_1xml__named__node__iterator.html#a0e548729041d0a2111187cfdeb91e8ef", null ],
+    [ "value_type", "classpugi_1_1xml__named__node__iterator.html#ada45e5aa76ac1309752ce6111a61b456", null ],
     [ "xml_named_node_iterator", "classpugi_1_1xml__named__node__iterator.html#a576477ed8a4ca14dae078f24b5b2e1cf", null ],
     [ "xml_named_node_iterator", "classpugi_1_1xml__named__node__iterator.html#a547c6fe92e44f7abd3e30217e492a486", null ],
     [ "xml_named_node_iterator", "classpugi_1_1xml__named__node__iterator.html#a051c43e17d2a32bd7fae3a92c2430021", null ],

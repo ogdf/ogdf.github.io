@@ -1,27 +1,27 @@
 var classogdf_1_1_coin_callbacks =
 [
     [ "CallbackType", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84ae", [
-      [ "CT_Cut", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aeaa5734eac58a915951adbdf98911f209a", null ],
-      [ "CT_Heuristic", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aea26b0f482f94dade7a277a45cf55b8212", null ],
-      [ "CT_Incumbent", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aea3158e2ff9847b5874fb77b9542eb48bb", null ],
-      [ "CT_Branch", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aeada30731f0ab592377de72f25095fe235", null ]
+      [ "Cut", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aeaeb334dca00e390e0d3ebf52d205807d7", null ],
+      [ "Heuristic", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aea271aa2fdaeb524af30faf88584424763", null ],
+      [ "Incumbent", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aead66d9cc98a1a6557771758bb9e6dd5b3", null ],
+      [ "Branch", "classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aeadacdb83ade6c4e8878717e206175dfd8", null ]
     ] ],
     [ "CutReturn", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267", [
-      [ "CR_Error", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267a937b872ce6d2b5ba77ab8bba45410ae1", null ],
-      [ "CR_SolutionValid", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267a0a28018851dda6869af230ece1b81f6f", null ],
-      [ "CR_AddCuts", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267ac7799a5b4e110696f1b059eb7324a100", null ],
-      [ "CR_DontAddCuts", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267af357f0c179086f894ee9bd0b63f307fc", null ],
-      [ "CR_NoCutsFound", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267a459bf9ca673ae0d2197f86e1bbfcf04d", null ]
+      [ "Error", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267a902b0d55fddef6f8d651fe1035b7d4bd", null ],
+      [ "SolutionValid", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267a1d5d21d7a45e621863573685440c6db0", null ],
+      [ "AddCuts", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267adac7acd79e8fe03bc38cb54ce3e30d5e", null ],
+      [ "DontAddCuts", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267add41e67ced6c603a471935510e07e1cc", null ],
+      [ "NoCutsFound", "classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267a7dfccf8ad2a20436ff9d962700727a8b", null ]
     ] ],
     [ "HeuristicReturn", "classogdf_1_1_coin_callbacks.html#a51c7a2085f2af6ca7ed35db4f79acf78", [
-      [ "HR_Error", "classogdf_1_1_coin_callbacks.html#a51c7a2085f2af6ca7ed35db4f79acf78a5c78bcb1eb18d2275d6c945510d71571", null ],
-      [ "HR_Ignore", "classogdf_1_1_coin_callbacks.html#a51c7a2085f2af6ca7ed35db4f79acf78a1678dae255e4b149c28e38c4223b2109", null ],
-      [ "HR_Update", "classogdf_1_1_coin_callbacks.html#a51c7a2085f2af6ca7ed35db4f79acf78ab073a0a7e0862dd7b18f789130c431af", null ]
+      [ "Error", "classogdf_1_1_coin_callbacks.html#a51c7a2085f2af6ca7ed35db4f79acf78a902b0d55fddef6f8d651fe1035b7d4bd", null ],
+      [ "Ignore", "classogdf_1_1_coin_callbacks.html#a51c7a2085f2af6ca7ed35db4f79acf78afd038fc7f319e48f3115d92bf5bdbef9", null ],
+      [ "Update", "classogdf_1_1_coin_callbacks.html#a51c7a2085f2af6ca7ed35db4f79acf78a06933067aafd48425d67bcb01bba5cb6", null ]
     ] ],
     [ "IncumbentReturn", "classogdf_1_1_coin_callbacks.html#a738c83c32a4c2df00e2564fa4db42c61", [
-      [ "IR_Error", "classogdf_1_1_coin_callbacks.html#a738c83c32a4c2df00e2564fa4db42c61ad923024aeb9780850c5d8b855bdfb0a2", null ],
-      [ "IR_Ignore", "classogdf_1_1_coin_callbacks.html#a738c83c32a4c2df00e2564fa4db42c61a3ced5bbda70dad4956053056764604f7", null ],
-      [ "IR_Update", "classogdf_1_1_coin_callbacks.html#a738c83c32a4c2df00e2564fa4db42c61a5ec8526c2796e95910d915792bc66696", null ]
+      [ "Error", "classogdf_1_1_coin_callbacks.html#a738c83c32a4c2df00e2564fa4db42c61a902b0d55fddef6f8d651fe1035b7d4bd", null ],
+      [ "Ignore", "classogdf_1_1_coin_callbacks.html#a738c83c32a4c2df00e2564fa4db42c61afd038fc7f319e48f3115d92bf5bdbef9", null ],
+      [ "Update", "classogdf_1_1_coin_callbacks.html#a738c83c32a4c2df00e2564fa4db42c61a06933067aafd48425d67bcb01bba5cb6", null ]
     ] ],
     [ "~CoinCallbacks", "classogdf_1_1_coin_callbacks.html#a4bc8751d5ce05bcb909bd046df6c1276", null ],
     [ "cutCallback", "classogdf_1_1_coin_callbacks.html#a5b197b74a5f6e63781f6ea3fdab9f533", null ],

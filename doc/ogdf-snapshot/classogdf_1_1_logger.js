@@ -1,18 +1,18 @@
 var classogdf_1_1_logger =
 [
     [ "Level", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04", [
-      [ "LL_MINOR", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a0165ba90ad32a5e12d51096a9cd5a606", null ],
-      [ "LL_MEDIUM", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a0bb5f693848c50009b7f1f44d7fe66b7", null ],
-      [ "LL_DEFAULT", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a236b4b8f70d5035db5eeee9a9f0b6bde", null ],
-      [ "LL_HIGH", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a19469ca0b860ffd90ee55c63636e228e", null ],
-      [ "LL_ALARM", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a32d129a0765766a9642581cbf9f289e7", null ],
-      [ "LL_FORCE", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a4c5cd5b8fca0e7fae64cf8678a56c437", null ]
+      [ "Minor", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a6fed0c378a4b4e8c1e7dc5c16dabb388", null ],
+      [ "Medium", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a87f8a6ab85c9ced3702b4ea641ad4bb5", null ],
+      [ "Default", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a7a1920d61156abc05a60135aefe8bc67", null ],
+      [ "High", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a655d20c1ca69519ca647684edbb2db35", null ],
+      [ "Alarm", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a46c4c4d980dfe025ae5b35aa0011dde4", null ],
+      [ "Force", "classogdf_1_1_logger.html#aa6ec46453653c0683914adccceda1e04a9eb6b78a99cdb6ffd3d40d18621d9f80", null ]
     ] ],
     [ "LogMode", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09", [
-      [ "LM_GLOBAL", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09a16c4cf21b79c60d4f7d47dd940693ee7", null ],
-      [ "LM_GLOBALLOG", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09a7f3af105fb124e18e0ed206f10c46d9b", null ],
-      [ "LM_LOG", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09a8e99eb53dc2d221a837de198ec7f9e11", null ],
-      [ "LM_STATISTIC", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09a63aee7d428382068bca28ad7b7931555", null ]
+      [ "Global", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09a4cc6684df7b4a92b1dec6fce3264fac8", null ],
+      [ "GlobalLog", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09a153b6790dfbe273a91868faa3302f6a1", null ],
+      [ "Log", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09ace0be71e33226e4c1db2bcea5959f16b", null ],
+      [ "Statistic", "classogdf_1_1_logger.html#aaebe8815f699342714fcde7dedeaad09a1c7b3f146f6cbcbf82676bf0c759df3a", null ]
     ] ],
     [ "Logger", "classogdf_1_1_logger.html#ab9fcf1d4497f447cce271751fb7b1cb1", null ],
     [ "Logger", "classogdf_1_1_logger.html#a8d4ff16b9793247f4fb4ac86b69d1957", null ],
@@ -30,18 +30,18 @@ var classogdf_1_1_logger =
     [ "globalStatisticMode", "classogdf_1_1_logger.html#a94bce2bf3544180bfb53037c0a8851de", null ],
     [ "globalStatisticMode", "classogdf_1_1_logger.html#af8fa968f70b434111d859d51e2b4accb", null ],
     [ "ifout", "classogdf_1_1_logger.html#aad8e6f446887dedb3147bd482e921bd1", null ],
-    [ "ilout", "classogdf_1_1_logger.html#abd5140bf0b1416e0e5af324ef6e163e6", null ],
-    [ "is_ilout", "classogdf_1_1_logger.html#a4bbdbe2d3568a9d2ee2276b46566c20d", null ],
-    [ "is_lout", "classogdf_1_1_logger.html#a7a567703adc7cc3edd79c9a1836c037e", null ],
-    [ "is_slout", "classogdf_1_1_logger.html#ab401a6a8fefbbe1d7d9cc501f2016088", null ],
+    [ "ilout", "classogdf_1_1_logger.html#ae3d5aa7186f53a299ab9dd64a4eed34d", null ],
+    [ "is_ilout", "classogdf_1_1_logger.html#acda1fae71341a1f1a1d709588a0330d5", null ],
+    [ "is_lout", "classogdf_1_1_logger.html#ad9c452cb2631b590fb7a7167dea3fd01", null ],
+    [ "is_slout", "classogdf_1_1_logger.html#a21201099e2eab28bad13c081d8c2dcc2", null ],
     [ "localLogLevel", "classogdf_1_1_logger.html#aa217a0a55c0f6a6282a4a4c1e79a1e8a", null ],
     [ "localLogLevel", "classogdf_1_1_logger.html#a98af6f032aeff3e1307cd50c71375ac4", null ],
     [ "localLogMode", "classogdf_1_1_logger.html#abdbb4ee5eda13fbf9098e04bf95c7153", null ],
     [ "localLogMode", "classogdf_1_1_logger.html#a467f33d2c50644c10f6408c0714cf28c", null ],
-    [ "lout", "classogdf_1_1_logger.html#a155f87872afff32251d6a08b8c48656b", null ],
+    [ "lout", "classogdf_1_1_logger.html#a6e97a9481d48bf2c2cea6f7b452912e2", null ],
     [ "setWorldStream", "classogdf_1_1_logger.html#ad7399861ae0df34259a02b64f3ce116b", null ],
     [ "sfout", "classogdf_1_1_logger.html#af91d34f16b89cca593e66cf30f72b92e", null ],
-    [ "slout", "classogdf_1_1_logger.html#a59d20f465667fa3231996b4b62d6e242", null ],
+    [ "slout", "classogdf_1_1_logger.html#a7f000ad841980d264845b5c728d53f48", null ],
     [ "sout", "classogdf_1_1_logger.html#aa3e82a083fd402bff2b2240bba0e5b01", null ],
     [ "ssout", "classogdf_1_1_logger.html#a778b45fe2103b2ed25ae345f92218d24", null ],
     [ "m_globallibraryloglevel", "classogdf_1_1_logger.html#a93fd121caca3117c8956c281db8dc700", null ],

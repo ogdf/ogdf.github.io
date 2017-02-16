@@ -24,9 +24,12 @@ var group__ga_planembed =
       [ "isPlanarDestructive", "classogdf_1_1_boyer_myrvold.html#a6ee951ee015de57242a9918d7771a85d", null ],
       [ "numberOfStructures", "classogdf_1_1_boyer_myrvold.html#ad6c44a75d15a892902afefacc58767b9", null ],
       [ "planarEmbed", "classogdf_1_1_boyer_myrvold.html#a9348765c750e4c89ca9bfb4ccb2a973c", null ],
-      [ "planarEmbed", "classogdf_1_1_boyer_myrvold.html#ae51fb3b22b4f22a8bc02fec809275b1c", null ],
-      [ "planarEmbed", "classogdf_1_1_boyer_myrvold.html#a3d95552f82c02d32ea4b681dbc4f091c", null ],
-      [ "planarEmbedDestructive", "classogdf_1_1_boyer_myrvold.html#a0bc3916df0e7b6d129398ccd586e088b", null ],
+      [ "planarEmbed", "classogdf_1_1_boyer_myrvold.html#ad49eb9e57d4d0f90bb6da7a63e407340", null ],
+      [ "planarEmbed", "classogdf_1_1_boyer_myrvold.html#a74ad7bc5663ce75c2065ca35dc409656", null ],
+      [ "planarEmbed", "classogdf_1_1_boyer_myrvold.html#a0e275ddcb37bf97b4919361534e2fc03", null ],
+      [ "planarEmbed", "classogdf_1_1_boyer_myrvold.html#ade94f9c47d761b2534ec8c0d3defbd72", null ],
+      [ "planarEmbedDestructive", "classogdf_1_1_boyer_myrvold.html#a3690a6e2b76f28626cc69c3a93fffd38", null ],
+      [ "planarEmbedDestructive", "classogdf_1_1_boyer_myrvold.html#a0350886b6a24c7754a8a4b4f82591c1e", null ],
       [ "planarEmbedPlanarGraph", "classogdf_1_1_boyer_myrvold.html#af7badef771901041703a1b081878c120", null ],
       [ "transform", "classogdf_1_1_boyer_myrvold.html#a22a8a438497960d41caadbd5397c9e5a", null ],
       [ "transform", "classogdf_1_1_boyer_myrvold.html#aeb03dd960f2e8dfc9a116f81f5533d4b", null ],
@@ -103,6 +106,7 @@ var group__ga_planembed =
       [ "treeNodeTreated", "classogdf_1_1_embedder_min_depth.html#a618b1bf4961c90aa3e7c1d98c89f0ec0", null ]
     ] ],
     [ "EmbedderMinDepthMaxFace", "classogdf_1_1_embedder_min_depth_max_face.html", [
+      [ "MDMFLengthAttribute", "classogdf_1_1_embedder_min_depth_max_face.html#a36ad9fed2997b36b8d8d5b8fd8f82c91", null ],
       [ "EmbedderMinDepthMaxFace", "classogdf_1_1_embedder_min_depth_max_face.html#a9d3051443fa07d070f96a4d716f6ff9f", null ],
       [ "doCall", "classogdf_1_1_embedder_min_depth_max_face.html#a994130418199c99a9c1302d7b372d53b", null ],
       [ "embedBlock", "classogdf_1_1_embedder_min_depth_max_face.html#ae019b70f9872b3f81b12158d0174f6d5", null ],
@@ -127,6 +131,7 @@ var group__ga_planembed =
       [ "treeNodeTreated", "classogdf_1_1_embedder_min_depth_max_face.html#a60052d3c982385f1eb36e64d16062f61", null ]
     ] ],
     [ "EmbedderMinDepthMaxFaceLayers", "classogdf_1_1_embedder_min_depth_max_face_layers.html", [
+      [ "MDMFLengthAttribute", "classogdf_1_1_embedder_min_depth_max_face_layers.html#af7e0c4d386dc4099aa745dab260d76f6", null ],
       [ "EmbedderMinDepthMaxFaceLayers", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ab304f6b619fa1b5854f5b2a5907d8198", null ],
       [ "doCall", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a3bd26c741552cf497d2be79b75438e09", null ],
       [ "embedBlock", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a38f6d66205568d1ee784b7b25fab9b38", null ],
@@ -214,7 +219,7 @@ var group__ga_planembed =
       [ "~EmbedderOptimalFlexDraw", "classogdf_1_1_embedder_optimal_flex_draw.html#a6fdd02d763eede8b38c310282ede1575", null ],
       [ "computePrincipalSplitComponentCost", "classogdf_1_1_embedder_optimal_flex_draw.html#a82c8b51bb037ac226734fe75aa6f3be0", null ],
       [ "cost", "classogdf_1_1_embedder_optimal_flex_draw.html#a55ed14e7a4b3bf447e9f43641f2f6120", null ],
-      [ "createNetwork", "classogdf_1_1_embedder_optimal_flex_draw.html#a15bd98b17c9e7c81daf61d3e74668482", null ],
+      [ "createNetwork", "classogdf_1_1_embedder_optimal_flex_draw.html#a0ad1929136cf55e16c15164399e86237", null ],
       [ "doCall", "classogdf_1_1_embedder_optimal_flex_draw.html#a5c80ae708bf4785e53c075e999b953ea", null ],
       [ "optimizeOverEmbeddings", "classogdf_1_1_embedder_optimal_flex_draw.html#a805eb289f930fe63f0d7d7cc1c1ee0b0", null ],
       [ "setMinCostFlowComputer", "classogdf_1_1_embedder_optimal_flex_draw.html#a2a703fbff784fe851003a726bc0f67e6", null ],

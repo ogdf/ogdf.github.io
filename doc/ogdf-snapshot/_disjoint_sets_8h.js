@@ -1,33 +1,30 @@
 var _disjoint_sets_8h =
 [
-    [ "AnyOption", "structogdf_1_1_any_option.html", null ],
-    [ "CompressionOption", "structogdf_1_1_compression_option.html", null ],
+    [ "AnyOption", "structogdf_1_1disjoint__sets_1_1_any_option.html", null ],
+    [ "CompressionOption", "structogdf_1_1disjoint__sets_1_1_compression_option.html", null ],
+    [ "InterleavingOption", "structogdf_1_1disjoint__sets_1_1_interleaving_option.html", null ],
+    [ "LinkOption", "structogdf_1_1disjoint__sets_1_1_link_option.html", null ],
     [ "DisjointSets", "classogdf_1_1_disjoint_sets.html", "classogdf_1_1_disjoint_sets" ],
-    [ "InterleavingOption", "structogdf_1_1_interleaving_option.html", null ],
-    [ "LinkOption", "structogdf_1_1_link_option.html", null ],
     [ "OGDF_DISJOINT_SETS_INTERMEDIATE_PARENT_CHECK", "_disjoint_sets_8h.html#ac866eb51fd3f9b58529b4be8b10b5b51", null ],
     [ "CompressionOptions", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2b", [
-      [ "PC", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2babff1ff014457ac733864b4cc05173266", null ],
-      [ "PS", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2bad9c5a5ad71aa0e8db1a7faa4a8e8dd9a", null ],
-      [ "PH", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2ba5c522d7dad142a2c82dd1a2aa1c2c354", null ],
-      [ "R1", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2ba36224e8de18c86981173aefcc381e8ee", null ],
-      [ "CO", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2ba85fed6410aa0559680043146dc36cac2", null ],
-      [ "NF", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2bafc4b9f8d243a0754e89ca40680a75be3", null ]
+      [ "PathCompression", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2bafc36982d04b1522cd09fc53d88fd9c9e", null ],
+      [ "PathSplitting", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2bab6fa1c35b3965258a1040d365bce23d9", null ],
+      [ "PathHalving", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2baa20967a175851edcc1789eb55e8828a6", null ],
+      [ "Type1Reversal", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2baf28c0c7d97687b0c9b21e013fefc7fc8", null ],
+      [ "Collapsing", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2badaeb4c9bb6160fa2b89e237d1ee92d49", null ],
+      [ "Disabled", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2bab9f5c797ebbf55adccdd8539a65a0241", null ]
     ] ],
     [ "InterleavingOptions", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4d", [
-      [ "NI", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4da8a392c60962d296803ae8aaa5c48b604", null ],
-      [ "Rem", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4dab0f281f6a3779879af153a2a378aac5a", null ],
-      [ "TvL", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4dabf68d8964b26c70fb405a6bc223e381a", null ],
-      [ "IR0", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4da1166962f26afd5f6c933312ce61ccef4", null ],
-      [ "IPSPC", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4da737bd4fee3e7fd36e2b92ad8b00cd5f4", null ]
+      [ "Disabled", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4dab9f5c797ebbf55adccdd8539a65a0241", null ],
+      [ "Rem", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4dad046ddfbf2c9c0952699c5496918570b", null ],
+      [ "Tarjan", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4da8d358bb2413e3e40d35a140011ed3668", null ],
+      [ "Type0Reversal", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4da1a8c8494f4ae6e5601216f96e242bd49", null ],
+      [ "SplittingCompression", "_disjoint_sets_8h.html#ae22cbc46729511339f3e690bddd0fb4da7d37480ca33c9a83ca17e017ec8dd03f", null ]
     ] ],
     [ "LinkOptions", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801e", [
-      [ "NL", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801ead91493c4fae64f289efdd4724d01dc35", null ],
-      [ "LI", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801ea74af99e8e0b2eab388da9f97a49fbb40", null ],
-      [ "LS", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801ea6ee8622603ad1c371c579e04f8cafa27", null ],
-      [ "LR", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801ea12c8c909f318c5108eea06c47135a74c", null ]
-    ] ],
-    [ "compressionOptionNames", "_disjoint_sets_8h.html#a2eb15d30a53d87a0afb206e4cbe7a4a1", null ],
-    [ "interleavingOptionNames", "_disjoint_sets_8h.html#a5437381d96bdb129f0ab0f7105d1f157", null ],
-    [ "linkOptionNames", "_disjoint_sets_8h.html#aa3cf0e42ca2607be91e91b3087a70738", null ]
+      [ "Naive", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801ea512d6102506da4ae0c35312fafcf7376", null ],
+      [ "Index", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801ea88fa71f0a6e0dfedbb46d91cc0b37a50", null ],
+      [ "Size", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801ea6f6cb72d544962fa333e2e34ce64f719", null ],
+      [ "Rank", "_disjoint_sets_8h.html#ab4616d9d77bcdaf4ea389abb532e801ea021da1b20f73dc252361a54d80497ef3", null ]
+    ] ]
 ];

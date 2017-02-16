@@ -2,9 +2,9 @@ var extended__graph__alg_8h =
 [
     [ "computeMinST", "extended__graph__alg_8h.html#ga5c08698bae8ebaea0c6603e2b3f20e91", null ],
     [ "computeMinST", "extended__graph__alg_8h.html#gaabe294ae9500941c410d0a3a56652dc6", null ],
-    [ "computeMinST", "extended__graph__alg_8h.html#af5e1d88f43a89b0ee69d9b80f76f39c9", null ],
+    [ "computeMinST", "extended__graph__alg_8h.html#gaf5e1d88f43a89b0ee69d9b80f76f39c9", null ],
     [ "computeMinST", "extended__graph__alg_8h.html#gaae70ccf4553fbdd776e0a3464eaef966", null ],
-    [ "computeMinST", "extended__graph__alg_8h.html#aefd6549315011bfce7f148d865dac39b", null ],
+    [ "computeMinST", "extended__graph__alg_8h.html#gaefd6549315011bfce7f148d865dac39b", null ],
     [ "inducedSubGraph", "extended__graph__alg_8h.html#gae6fe7eea35ddb29d301b86945a980934", null ],
     [ "inducedSubGraph", "extended__graph__alg_8h.html#ga4cec43d4f2149606c2c7f0b8970fee49", null ],
     [ "inducedSubGraph", "extended__graph__alg_8h.html#ga9f0d83ac246c8ab5e3733d589799a87e", null ],

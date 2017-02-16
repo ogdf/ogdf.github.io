@@ -1,6 +1,6 @@
 var classogdf_1_1_const_combinatorial_embedding =
 [
-    [ "face_iterator", "classogdf_1_1_const_combinatorial_embedding.html#a6be29698e3ce9d83628ae75eb9ae2ebb", null ],
+    [ "face_iterator", "classogdf_1_1_const_combinatorial_embedding.html#a7feb9323d6ddff941ea1079339158495", null ],
     [ "ConstCombinatorialEmbedding", "classogdf_1_1_const_combinatorial_embedding.html#aacfe11bf24e347753bbf376d29dc7bcd", null ],
     [ "ConstCombinatorialEmbedding", "classogdf_1_1_const_combinatorial_embedding.html#a2576a1ed2914e86f3df582e0d5ea33f9", null ],
     [ "ConstCombinatorialEmbedding", "classogdf_1_1_const_combinatorial_embedding.html#abda08653db68cbf91fd53996665cf55b", null ],
@@ -11,6 +11,8 @@ var classogdf_1_1_const_combinatorial_embedding =
     [ "createFaceElement", "classogdf_1_1_const_combinatorial_embedding.html#a4d17d5291e9bca41a000cf6b3b3373f2", null ],
     [ "externalFace", "classogdf_1_1_const_combinatorial_embedding.html#a47f081f64f4b3fdaa39165741df950d1", null ],
     [ "faceArrayTableSize", "classogdf_1_1_const_combinatorial_embedding.html#a40f1678fe2430e8c9a23bd2aa6d80a6b", null ],
+    [ "findCommonFace", "classogdf_1_1_const_combinatorial_embedding.html#abf833e58be152d04bd3a05f4e72f0ce6", null ],
+    [ "findCommonFace", "classogdf_1_1_const_combinatorial_embedding.html#a090a8b7b1958f29d7eebf97a9b220734", null ],
     [ "firstFace", "classogdf_1_1_const_combinatorial_embedding.html#a28d18a0122eb92d620f074047d764c54", null ],
     [ "getGraph", "classogdf_1_1_const_combinatorial_embedding.html#aea08afbe364c125f90eb761d8b83b36d", null ],
     [ "init", "classogdf_1_1_const_combinatorial_embedding.html#a70b522862c99a0e28366edf633767d1e", null ],

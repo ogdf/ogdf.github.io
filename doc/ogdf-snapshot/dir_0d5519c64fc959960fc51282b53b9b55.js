@@ -1,9 +1,6 @@
 var dir_0d5519c64fc959960fc51282b53b9b55 =
 [
-    [ "EdgeStandardRep.h", "_edge_standard_rep_8h.html", [
-      [ "EdgeStandardRep", "classogdf_1_1_edge_standard_rep.html", "classogdf_1_1_edge_standard_rep" ],
-      [ "EdgeStandardType", "classogdf_1_1_edge_standard_type.html", "classogdf_1_1_edge_standard_type" ]
-    ] ],
+    [ "EdgeStandardRep.h", "_edge_standard_rep_8h.html", "_edge_standard_rep_8h" ],
     [ "Hypergraph.h", "hypergraph_2_hyper_graph_8h.html", "hypergraph_2_hyper_graph_8h" ],
     [ "HypergraphArray.h", "_hypergraph_array_8h.html", [
       [ "HyperedgeArray", "classogdf_1_1_hyperedge_array.html", "classogdf_1_1_hyperedge_array" ],
@@ -15,8 +12,7 @@ var dir_0d5519c64fc959960fc51282b53b9b55 =
       [ "HypergraphAttributesES", "classogdf_1_1_hypergraph_attributes_e_s.html", "classogdf_1_1_hypergraph_attributes_e_s" ]
     ] ],
     [ "HypergraphLayout.h", "_hypergraph_layout_8h.html", [
-      [ "HypergraphLayoutES", "classogdf_1_1_hypergraph_layout_e_s.html", "classogdf_1_1_hypergraph_layout_e_s" ],
-      [ "HypergraphLayoutSS", "classogdf_1_1_hypergraph_layout_s_s.html", "classogdf_1_1_hypergraph_layout_s_s" ]
+      [ "HypergraphLayoutES", "classogdf_1_1_hypergraph_layout_e_s.html", "classogdf_1_1_hypergraph_layout_e_s" ]
     ] ],
     [ "HypergraphLayoutModule.h", "_hypergraph_layout_module_8h.html", [
       [ "HypergraphLayoutModule", "classogdf_1_1_hypergraph_layout_module.html", "classogdf_1_1_hypergraph_layout_module" ]

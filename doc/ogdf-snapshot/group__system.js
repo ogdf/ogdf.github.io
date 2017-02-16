@@ -2,25 +2,25 @@ var group__system =
 [
     [ "Configuration", "classogdf_1_1_configuration.html", [
       [ "LPSolver", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567", [
-        [ "lpsNone", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a5d3ddb940d25811f062522ab49e44bb4", null ],
-        [ "lpsClp", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a68bb2d28cf802027f4f361206f85a8d2", null ],
-        [ "lpsSymphony", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567aa0d431dcf5a1effa7f21e5b6cda148e6", null ],
-        [ "lpsCPLEX", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a231a3da31deb550c5ba869dcdefa2d33", null ],
-        [ "lpsGurobi", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567afc1311a27ac37dbed151846e38e7f265", null ],
-        [ "lpsSTOP", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a88509004de36762a8bbd37a24b40c332", null ]
+        [ "None", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a6adf97f83acf6453d4a6a4b1070f3754", null ],
+        [ "Clp", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a89be28bb7f19cb12dcd75919ffcdd7c6", null ],
+        [ "Symphony", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567af842c0d6241b8462a35e92dc16a895bd", null ],
+        [ "CPLEX", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a8666e2b0660c6fba6898d2c2f6303362", null ],
+        [ "Gurobi", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a48e400835855a5d52b9a64145babdac6", null ],
+        [ "STOP", "classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567a615a46af313786fc4e349f34118be111", null ]
       ] ],
       [ "MemoryManager", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930e", [
-        [ "mmPoolTS", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930ea21dd74fa2616835e2829e98976d48287", null ],
-        [ "mmPoolNTS", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930ea5ef77f196b450e131bbfeb55ff988ac4", null ],
-        [ "mmMalloc", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930ea5cedbddbfe48d0122eb499b353510a5d", null ],
-        [ "mmSTOP", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930eaab9d8fbc104dbf8ef402137d858464fa", null ]
+        [ "PoolTS", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930eab5b7429d3390657ca621a51ff891a72a", null ],
+        [ "PoolNTS", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930eacfefca0ee3ca05de5febcbd84510a052", null ],
+        [ "Malloc", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930ea1131a914388fac73e5f07b0ba0aad523", null ],
+        [ "STOP", "classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930ea615a46af313786fc4e349f34118be111", null ]
       ] ],
       [ "System", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14c", [
-        [ "sysUnknown", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca3a57158f62e13fa1ab97f113e0d9f091", null ],
-        [ "sysWindows", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca709d9ce1433d7e687b8cc1c5e988cc82", null ],
-        [ "sysUnix", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca570c546c5834740baebf549c20bff24c", null ],
-        [ "sysOSX", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca483f0986cc695d69679b1db777a7895c", null ],
-        [ "sysSTOP", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14cae428b3b362a3719e9fd100cc3d7ab12e", null ]
+        [ "Unknown", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca88183b946cc5f0e8c96b2e66e1c74a7e", null ],
+        [ "Windows", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14caaea23489ce3aa9b6406ebb28e0cda430", null ],
+        [ "Unix", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca6ec1bd1ea6a5d67a63b20c8f6172bddd", null ],
+        [ "OSX", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca4893fb6eaf52350ba9ac82d34d329603", null ],
+        [ "STOP", "classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14ca615a46af313786fc4e349f34118be111", null ]
       ] ],
       [ "haveAbacus", "classogdf_1_1_configuration.html#aa1464fe50694e23470dbe20ed7f1d387", null ],
       [ "haveCoin", "classogdf_1_1_configuration.html#a106c4a60c676615a1c9ce566acd2a167", null ],
@@ -64,29 +64,29 @@ var group__system =
       [ "s_pageSize", "classogdf_1_1_system.html#a8dac55c5c8d83421e6ccfdfb60d69cf3", null ]
     ] ],
     [ "CPUFeature", "group__system.html#gadf1f0673cd41c92e0d15fe7980c3923c", [
-      [ "cpufMMX", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca3c5536051f3bd742ffdec126322937a2", null ],
-      [ "cpufSSE", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca70a8e9f78b1f12c452d15cc1134c2c7c", null ],
-      [ "cpufSSE2", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca9732fc88fb9a883ebc4d7afbc2c7ec9a", null ],
-      [ "cpufSSE3", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca7f8a83ef14ed71d8dfee5a4b99064782", null ],
-      [ "cpufSSSE3", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923cadfe31c407ceb3d53371ac4689d8abc19", null ],
-      [ "cpufSSE4_1", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca52a5dce3162e07a916f97c9be1448a72", null ],
-      [ "cpufSSE4_2", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca802e2b02c8dccfb55439e78bb15c5c69", null ],
-      [ "cpufVMX", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca7aa63d8284566b722315e068f6de3bb8", null ],
-      [ "cpufSMX", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923caafc209389ea2f3a59b47b5e6908df4d4", null ],
-      [ "cpufEST", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca77bba7d90af69fb37de912e05eab75f5", null ],
-      [ "cpufMONITOR", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca8a997e8ec055e9d3fbb4efb6158f5c20", null ]
+      [ "MMX", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca54cc5c1b13d96ded25684285263eab0f", null ],
+      [ "SSE", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca5fc53fc8197865c63285f74b1e147013", null ],
+      [ "SSE2", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923cacbb179b45ebb240c6ec51390ac12e562", null ],
+      [ "SSE3", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923cac6603310b6588e97789264110f6e9101", null ],
+      [ "SSSE3", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca1aee6afddc2384c63b5adef3a9bb9f8b", null ],
+      [ "SSE4_1", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca9a7d3ec1a04d0b6f4a123d86baacccdb", null ],
+      [ "SSE4_2", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca46503c282f6150b96358dd8b5b7b85b4", null ],
+      [ "VMX", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923cab21819f000ff3fd488fe20c783df0402", null ],
+      [ "SMX", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923cacad386640202b01915001cf1dc26164e", null ],
+      [ "EST", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923ca33a61062aa4da2b795b7f9616c138b89", null ],
+      [ "MONITOR", "group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923caff3e179b3cc64393841107ccba0d6e48", null ]
     ] ],
-    [ "CPUFeatureMask", "group__system.html#gac63654e090ba532ef3ca25ecb688fecf", [
-      [ "cpufmMMX", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfab98e8fb29f469470767d46729712368c", null ],
-      [ "cpufmSSE", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfab9efaa4c576660184421463a43f6688a", null ],
-      [ "cpufmSSE2", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfa4680bbd44a0c0183748bc8c6d8d34da2", null ],
-      [ "cpufmSSE3", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfa416d16b59afb4d07a82a87a5657190fa", null ],
-      [ "cpufmSSSE3", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfabc4f8142fb542b20fbb9f57690ae49e2", null ],
-      [ "cpufmSSE4_1", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfa4ab2906bf081e9b9d2c3efa3b189b51d", null ],
-      [ "cpufmSSE4_2", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfa21f59de16d73180df873d167dd3ec7ac", null ],
-      [ "cpufmVMX", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfa11c9206025aa7ab87133ecef089ffb32", null ],
-      [ "cpufmSMX", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfa0d2eb21168b210bbaaf558ecc5513e32", null ],
-      [ "cpufmEST", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfad841a274906c9ed75ae3e42b3d3cf9b6", null ],
-      [ "cpufmMONITOR", "group__system.html#ggac63654e090ba532ef3ca25ecb688fecfa73436dae6ee203898c8968e4b57aec0d", null ]
+    [ "CPUFeatureMask", "group__system.html#gad727f4d33911afb5e5717278b354117e", [
+      [ "MMX", "group__system.html#ggad727f4d33911afb5e5717278b354117ea54cc5c1b13d96ded25684285263eab0f", null ],
+      [ "SSE", "group__system.html#ggad727f4d33911afb5e5717278b354117ea5fc53fc8197865c63285f74b1e147013", null ],
+      [ "SSE2", "group__system.html#ggad727f4d33911afb5e5717278b354117eacbb179b45ebb240c6ec51390ac12e562", null ],
+      [ "SSE3", "group__system.html#ggad727f4d33911afb5e5717278b354117eac6603310b6588e97789264110f6e9101", null ],
+      [ "SSSE3", "group__system.html#ggad727f4d33911afb5e5717278b354117ea1aee6afddc2384c63b5adef3a9bb9f8b", null ],
+      [ "SSE4_1", "group__system.html#ggad727f4d33911afb5e5717278b354117ea9a7d3ec1a04d0b6f4a123d86baacccdb", null ],
+      [ "SSE4_2", "group__system.html#ggad727f4d33911afb5e5717278b354117ea46503c282f6150b96358dd8b5b7b85b4", null ],
+      [ "VMX", "group__system.html#ggad727f4d33911afb5e5717278b354117eab21819f000ff3fd488fe20c783df0402", null ],
+      [ "SMX", "group__system.html#ggad727f4d33911afb5e5717278b354117eacad386640202b01915001cf1dc26164e", null ],
+      [ "EST", "group__system.html#ggad727f4d33911afb5e5717278b354117ea33a61062aa4da2b795b7f9616c138b89", null ],
+      [ "MONITOR", "group__system.html#ggad727f4d33911afb5e5717278b354117eaff3e179b3cc64393841107ccba0d6e48", null ]
     ] ]
 ];

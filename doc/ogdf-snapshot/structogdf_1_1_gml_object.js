@@ -10,5 +10,5 @@ var structogdf_1_1_gml_object =
     [ "m_pBrother", "structogdf_1_1_gml_object.html#a19b32511cd80dafe6b836b288173845a", null ],
     [ "m_pFirstSon", "structogdf_1_1_gml_object.html#af8b8c278e066cece36ffd575eec0706d", null ],
     [ "m_stringValue", "structogdf_1_1_gml_object.html#a14c3866f320b7b9a781500805b07fb4b", null ],
-    [ "m_valueType", "structogdf_1_1_gml_object.html#acc3669b4100bc72b1998af7327fa42ae", null ]
+    [ "m_valueType", "structogdf_1_1_gml_object.html#ac3d5135ede5d357cc8d402aa88946d1a", null ]
 ];

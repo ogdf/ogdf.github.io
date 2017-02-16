@@ -1,0 +1,5 @@
+<map id="ogdf::cluster_planarity::MaxPlanarEdgesConstraint" name="ogdf::cluster_planarity::MaxPlanarEdgesConstraint">
+<area shape="rect" id="node2" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format. " alt="" coords="34,155,166,181"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="42,80,158,107"/>
+<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="28,5,172,32"/>
+</map>

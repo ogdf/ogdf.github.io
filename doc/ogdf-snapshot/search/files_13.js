@@ -18,5 +18,5 @@ var searchData=
   ['upwardplanarsubgraphmodule_2eh',['UpwardPlanarSubgraphModule.h',['../_upward_planar_subgraph_module_8h.html',1,'']]],
   ['upwardplanarsubgraphsimple_2eh',['UpwardPlanarSubgraphSimple.h',['../_upward_planar_subgraph_simple_8h.html',1,'']]],
   ['upwardplanrep_2eh',['UpwardPlanRep.h',['../_upward_plan_rep_8h.html',1,'']]],
-  ['utils_2eh',['Utils.h',['../_utils_8h.html',1,'']]]
+  ['utils_2eh',['utils.h',['../energybased_2dtree_2utils_8h.html',1,'(Global Namespace)'],['../fileformats_2utils_8h.html',1,'(Global Namespace)']]]
 ];

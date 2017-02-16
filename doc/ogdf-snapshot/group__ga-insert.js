@@ -75,15 +75,15 @@ var group__ga_insert =
         [ "m_addPartLeft", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html#aca3ec0606eb5509e610be2d23dc2ae65", null ],
         [ "m_addPartRight", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html#ad43aadca81d83a1101fb3b174d593c6b", null ],
         [ "m_paths", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html#a7c401602fddbb7b355930572440a88c6", null ],
-        [ "m_pred", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html#aa20cb7da20a380609e152d2cfe4d1e82", null ],
+        [ "m_pred", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html#aa4502c6431c6b6c80f34604d36f6f274", null ],
         [ "m_src", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html#a0ade04106d9bb8a3591d9377c195f66f", null ],
         [ "m_tgt", "structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html#af17239ee7fb89089194cd48c0b9d7ac2", null ]
       ] ],
-      [ "Crossing", "classogdf_1_1_m_m_variable_embedding_inserter.html#ae050e0b751c9c14d4f12cc80f0bdbd4e", null ],
+      [ "Crossing", "classogdf_1_1_m_m_variable_embedding_inserter.html#abb5ecac25ee737e3329ab1f762b149a1", null ],
       [ "PathType", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982", [
-        [ "pathToEdge", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a62b52d965cdc01ed077d123988264212", null ],
-        [ "pathToSource", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982abb85b3f100d84a3db03ff939ba1b8ec5", null ],
-        [ "pathToTarget", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a85a76899644bec8352068aa9f94b5852", null ]
+        [ "pathToEdge", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a901dd7c832dc0c743375e2fa0e46160f", null ],
+        [ "pathToSource", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a81225cb23dc69f4decac02e3227ad532", null ],
+        [ "pathToTarget", "classogdf_1_1_m_m_variable_embedding_inserter.html#a47ef9346574f5f4b2d00040cb301e982a6a47375d69085740cb3247515378d027", null ]
       ] ],
       [ "MMVariableEmbeddingInserter", "classogdf_1_1_m_m_variable_embedding_inserter.html#aa4bc713fc3e066b9850f244dadc9bf9f", null ],
       [ "~MMVariableEmbeddingInserter", "classogdf_1_1_m_m_variable_embedding_inserter.html#ae7429795521529910e4b44351c706d9d", null ],
@@ -129,9 +129,9 @@ var group__ga_insert =
         [ "m_vertex", "structogdf_1_1_multi_edge_approx_inserter_1_1_vertex_block.html#acef94476a4b2fc6bdce4fc3ccf740f3f", null ]
       ] ],
       [ "PathDir", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32", [
-        [ "pdLeft", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32a341e5b7905ca60d0492e8fc2e58dabf9", null ],
-        [ "pdRight", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32aaead2bebf09133a999d6875b7f4730e9", null ],
-        [ "pdNone", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32ab37808f2d8d1e787a1018f3a910e6adc", null ]
+        [ "Left", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32a945d5e233cf7d6240f6b783b36a374ff", null ],
+        [ "Right", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32a92b09c7c48c520c3c55e497875da437c", null ],
+        [ "None", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32a6adf97f83acf6453d4a6a4b1070f3754", null ]
       ] ],
       [ "MultiEdgeApproxInserter", "classogdf_1_1_multi_edge_approx_inserter.html#ada70eede41dfb33afc90b08eb88104c0", null ],
       [ "MultiEdgeApproxInserter", "classogdf_1_1_multi_edge_approx_inserter.html#ad228bd9e78843b4cdbebbfb0367ff558", null ],
@@ -204,11 +204,11 @@ var group__ga_insert =
       [ "operator=", "classogdf_1_1_variable_embedding_inserter_dyn.html#a28057276b6975e860c76a50fa4b84074", null ]
     ] ],
     [ "RemoveReinsertType", "group__ga-insert.html#ga381de84a1b3cf8d3a2149be57f8bd011", [
-      [ "rrNone", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011ada3fe1a533c013c0d7f9bf7f5c338860", null ],
-      [ "rrInserted", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011a798a5f865829d9c172e7c5a57d312bbe", null ],
-      [ "rrMostCrossed", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011a7e4815fafd74d21cffec987e29bb4b90", null ],
-      [ "rrAll", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011af6020b75b4dbb81d3f9e40f5be681492", null ],
-      [ "rrIncremental", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011ab372995759f0798f5f6f9989d3c5a7b2", null ],
-      [ "rrIncInserted", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011ae5cc44a1dbf15c219a67dccc8a3d319b", null ]
+      [ "None", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011a6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Inserted", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011a157d034f9c98a305eb73776582550027", null ],
+      [ "MostCrossed", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011ab49aa1d57b7ba10653ec071a074dc00a", null ],
+      [ "All", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011ab1c94ca2fbc3e78fc30069c8d0f01680", null ],
+      [ "Incremental", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011a482be0da5798aaaecbf7416714e6607f", null ],
+      [ "IncInserted", "group__ga-insert.html#gga381de84a1b3cf8d3a2149be57f8bd011ac86d673902e61d2a077adfb1bcbf7ce2", null ]
     ] ]
 ];

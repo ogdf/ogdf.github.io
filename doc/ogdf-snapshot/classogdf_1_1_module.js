@@ -1,12 +1,12 @@
 var classogdf_1_1_module =
 [
     [ "ReturnType", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a", [
-      [ "retFeasible", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aac7c9770b97e0bd3f43e7b89b23d8a1de", null ],
-      [ "retOptimal", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aa5858a91dc1873a2fdcfe41ac36bf4d26", null ],
-      [ "retNoFeasibleSolution", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aaa5c58067a03fa27b6e173dc630fea932", null ],
-      [ "retTimeoutFeasible", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aa547909e0b3a9b4735db37a8cc65c52fb", null ],
-      [ "retTimeoutInfeasible", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aa5c04873cbb377750d27e69024af8c931", null ],
-      [ "retError", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aa17e745f52967194fc0b7b941abf06a25", null ]
+      [ "Feasible", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aa8d5e8c47cdc7636fcebc73dda4c595f7", null ],
+      [ "Optimal", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aacb61fef1e5e79e07a80421cb9a073a80", null ],
+      [ "NoFeasibleSolution", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aac68b08fb09251956407b0d7a3e0d3c1a", null ],
+      [ "TimeoutFeasible", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aaea49871016b0cedcc493a3dd3835ad19", null ],
+      [ "TimeoutInfeasible", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aafb3c1039692ee64f2b7d2394362da35a", null ],
+      [ "Error", "classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9aa902b0d55fddef6f8d651fe1035b7d4bd", null ]
     ] ],
     [ "Module", "classogdf_1_1_module.html#a583d04aa1c8fa295b53068a33a37c709", null ],
     [ "~Module", "classogdf_1_1_module.html#a94facb914c2446ea91f9730c49da7c1e", null ],

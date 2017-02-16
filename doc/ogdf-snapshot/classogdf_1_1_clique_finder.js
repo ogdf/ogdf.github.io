@@ -1,8 +1,8 @@
 var classogdf_1_1_clique_finder =
 [
     [ "postProcess", "classogdf_1_1_clique_finder.html#a051831f24d04565d494e4dddbc90bbaf", [
-      [ "ppNone", "classogdf_1_1_clique_finder.html#a051831f24d04565d494e4dddbc90bbafa63325ddd8aee5829060d3ffc0f799308", null ],
-      [ "ppSimple", "classogdf_1_1_clique_finder.html#a051831f24d04565d494e4dddbc90bbafae7c84390eca4609645bc6bcf091b9a5a", null ]
+      [ "None", "classogdf_1_1_clique_finder.html#a051831f24d04565d494e4dddbc90bbafa6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "Simple", "classogdf_1_1_clique_finder.html#a051831f24d04565d494e4dddbc90bbafa1fbb1e3943c2c6c560247ac8f9289780", null ]
     ] ],
     [ "CliqueFinder", "classogdf_1_1_clique_finder.html#a49abb39688874303caea1bcd00ce938c", null ],
     [ "~CliqueFinder", "classogdf_1_1_clique_finder.html#aa8899dbc7e021f8a3521a524b3aa1145", null ],

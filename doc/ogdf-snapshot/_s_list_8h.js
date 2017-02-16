@@ -1,10 +1,10 @@
 var _s_list_8h =
 [
-    [ "SListConstIterator", "classogdf_1_1_s_list_const_iterator.html", "classogdf_1_1_s_list_const_iterator" ],
-    [ "SListConstIterator", "classogdf_1_1_s_list_const_iterator.html", "classogdf_1_1_s_list_const_iterator" ],
     [ "SListElement", "classogdf_1_1_s_list_element.html", "classogdf_1_1_s_list_element" ],
-    [ "SListIterator", "classogdf_1_1_s_list_iterator.html", "classogdf_1_1_s_list_iterator" ],
-    [ "SListIterator", "classogdf_1_1_s_list_iterator.html", "classogdf_1_1_s_list_iterator" ],
+    [ "SListIteratorBase", "classogdf_1_1_s_list_iterator_base.html", "classogdf_1_1_s_list_iterator_base" ],
+    [ "SListIteratorBase", "classogdf_1_1_s_list_iterator_base.html", "classogdf_1_1_s_list_iterator_base" ],
+    [ "SListConstIterator", "_s_list_8h.html#a50f5c47e415fc2d9164fdc88252a1c76", null ],
+    [ "SListIterator", "_s_list_8h.html#a5172cb366642272fcbe6859705641409", null ],
     [ "bucketSort", "_s_list_8h.html#aa6b9e138e2892652414a8217b176dc66", null ],
     [ "operator<<", "_s_list_8h.html#a875f9b2959497c5c3eb2e94c5985cdde", null ],
     [ "operator<<", "_s_list_8h.html#a801d87176e3aea78812de14a6ae240e0", null ],

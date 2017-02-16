@@ -1,11 +1,11 @@
 var classogdf_1_1_extended_nesting_graph =
 [
     [ "NodeType", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293", [
-      [ "ntNode", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293ad02494c69a9ad801fea6875dbde6c8c3", null ],
-      [ "ntClusterTop", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293a62448be0c28f1027f0df4e7147e46a4e", null ],
-      [ "ntClusterBottom", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293ae8e1ea898787761482fb2e618140600d", null ],
-      [ "ntDummy", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293ab0cb93f21a733671157892be801d60b4", null ],
-      [ "ntClusterTopBottom", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293a62cc5623f574a3800808a4544089be39", null ]
+      [ "Node", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293a6c3a6944a808a7c0bbb6788dbec54a9f", null ],
+      [ "ClusterTop", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293a29b84b9729d87b4422d6f1240c15fcbd", null ],
+      [ "ClusterBottom", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293a380fb8a6f70d6f5e854032a79c9cfb9b", null ],
+      [ "Dummy", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293abcf036b6f33e182d4705f4f5b1af13ac", null ],
+      [ "ClusterTopBottom", "classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293a5370a7dfe16e6098ac975a954b5d9d1b", null ]
     ] ],
     [ "ExtendedNestingGraph", "classogdf_1_1_extended_nesting_graph.html#ac53e313566003682b12bca1a7f1a7bc2", null ],
     [ "addEdge", "classogdf_1_1_extended_nesting_graph.html#aa4baef5a76b654b74112e795fa2f2bb2", null ],

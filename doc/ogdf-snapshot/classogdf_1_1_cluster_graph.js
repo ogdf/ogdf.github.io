@@ -1,6 +1,6 @@
 var classogdf_1_1_cluster_graph =
 [
-    [ "cluster_iterator", "classogdf_1_1_cluster_graph.html#a6f14e4d79ee2d588c061f9f4e1145c1e", null ],
+    [ "cluster_iterator", "classogdf_1_1_cluster_graph.html#a0154447d15b8e7d4785d0be5cbfb5836", null ],
     [ "ClusterGraph", "classogdf_1_1_cluster_graph.html#ad99c6325d500133f14c6cb6436997fa5", null ],
     [ "ClusterGraph", "classogdf_1_1_cluster_graph.html#a7896a63c18445fb6d8c46c546474c34c", null ],
     [ "ClusterGraph", "classogdf_1_1_cluster_graph.html#ae67663fdc0dad43d3624e99729733dbf", null ],
@@ -29,7 +29,7 @@ var classogdf_1_1_cluster_graph =
     [ "computeSubTreeDepth", "classogdf_1_1_cluster_graph.html#a41903425dd73e776352e1a860879e80b", null ],
     [ "consistencyCheck", "classogdf_1_1_cluster_graph.html#a906b50beab10f1a911e55f3e6e33340e", null ],
     [ "constGraph", "classogdf_1_1_cluster_graph.html#a93d81d9f661276e2f7638501026ea543", null ],
-    [ "copyLCA", "classogdf_1_1_cluster_graph.html#a8f9bc08056c2326fec2afb7ffca16692", null ],
+    [ "copyLCA", "classogdf_1_1_cluster_graph.html#a461b5152cc4f2034791e7e83e68557dc", null ],
     [ "createCluster", "classogdf_1_1_cluster_graph.html#a1d86a4fbb6105f03d55463b4f9d7717d", null ],
     [ "createEmptyCluster", "classogdf_1_1_cluster_graph.html#a8e2611cf7ea8590a9cea495ae9faf129", null ],
     [ "deepCopy", "classogdf_1_1_cluster_graph.html#a78701495a508475e100b4941b744c6e0", null ],
@@ -44,6 +44,7 @@ var classogdf_1_1_cluster_graph =
     [ "emptyClusters", "classogdf_1_1_cluster_graph.html#a3b3ad2ce43758ebec59b07b65517cccd", null ],
     [ "emptyOnClusterDelete", "classogdf_1_1_cluster_graph.html#a5ddfc7910dc7811357de8389d204e1d3", null ],
     [ "emptyOnNodeDelete", "classogdf_1_1_cluster_graph.html#a93e69887298b85cfe4748ceeee72eae7", null ],
+    [ "fillEmptyClusters", "classogdf_1_1_cluster_graph.html#ad40852e4eb038a5c7a5e309875ce669b", null ],
     [ "firstCluster", "classogdf_1_1_cluster_graph.html#a44cff1c8c57ecec809a7103950f37d71", null ],
     [ "firstPostOrderCluster", "classogdf_1_1_cluster_graph.html#a1c75285947f7417b40b5cd70fbb8e6f0", null ],
     [ "init", "classogdf_1_1_cluster_graph.html#ab5b9e757fa117a0a39f2819938a7ca64", null ],

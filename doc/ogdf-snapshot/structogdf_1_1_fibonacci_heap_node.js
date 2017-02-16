@@ -1,7 +1,7 @@
 var structogdf_1_1_fibonacci_heap_node =
 [
     [ "FibonacciHeapNode", "structogdf_1_1_fibonacci_heap_node.html#afb23326afc05377198dd6ab867452807", null ],
-    [ "FibonacciHeapNode", "structogdf_1_1_fibonacci_heap_node.html#ab9e7bb2f12fc5992a0be35fb556d0cd0", null ],
+    [ "FibonacciHeapNode", "structogdf_1_1_fibonacci_heap_node.html#a7338a584705cbbdef1b456968f99c25a", null ],
     [ "FibonacciHeap", "structogdf_1_1_fibonacci_heap_node.html#a1b7e2d2ed3e9cbacdcfd57cdbe4768c9", null ],
     [ "child", "structogdf_1_1_fibonacci_heap_node.html#a4361b18893bb18811b72d1029fe92824", null ],
     [ "marked", "structogdf_1_1_fibonacci_heap_node.html#a03ec827d97f05251b92f50bbc2edc112", null ],

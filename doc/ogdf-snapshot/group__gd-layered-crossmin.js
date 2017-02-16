@@ -65,9 +65,9 @@ var group__gd_layered_crossmin =
     ] ],
     [ "SiftingHeuristic", "classogdf_1_1_sifting_heuristic.html", [
       [ "Strategy", "classogdf_1_1_sifting_heuristic.html#acf7d16c0f8c79c95379ae9f4b4b034c9", [
-        [ "left_to_right", "classogdf_1_1_sifting_heuristic.html#acf7d16c0f8c79c95379ae9f4b4b034c9ae8e78963961bb63c5479cb90cdba618b", null ],
-        [ "desc_degree", "classogdf_1_1_sifting_heuristic.html#acf7d16c0f8c79c95379ae9f4b4b034c9ae1385bb11e5a75ed0214fb303f9d319a", null ],
-        [ "random", "classogdf_1_1_sifting_heuristic.html#acf7d16c0f8c79c95379ae9f4b4b034c9ac773d9fb9f0db195360e692c40822ab2", null ]
+        [ "LeftToRight", "classogdf_1_1_sifting_heuristic.html#acf7d16c0f8c79c95379ae9f4b4b034c9ad1e80c506f4c89e3c4fb1c1b4867a03c", null ],
+        [ "DescDegree", "classogdf_1_1_sifting_heuristic.html#acf7d16c0f8c79c95379ae9f4b4b034c9a9fb9935ab9189aac6af377a97e88f30d", null ],
+        [ "Random", "classogdf_1_1_sifting_heuristic.html#acf7d16c0f8c79c95379ae9f4b4b034c9a64663f4646781c9c0110838b905daa23", null ]
       ] ],
       [ "SiftingHeuristic", "classogdf_1_1_sifting_heuristic.html#a4d22f24100a8d6a17bc951df81ff0f85", null ],
       [ "SiftingHeuristic", "classogdf_1_1_sifting_heuristic.html#a0b7dc6f47e9f048316e763de77b437a1", null ],

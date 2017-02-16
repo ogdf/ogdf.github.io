@@ -11,7 +11,7 @@ var hypergraph_2_hyper_graph_8h =
     [ "forall_hypernodes", "hypergraph_2_hyper_graph_8h.html#ae0bcb312806c3c201e916fe8a80a9809", null ],
     [ "forall_rev_hyperedges", "hypergraph_2_hyper_graph_8h.html#acfe8755b61420db906c5d696053e746f", null ],
     [ "forall_rev_hypernodes", "hypergraph_2_hyper_graph_8h.html#afdc66c84a8512fd674391a18287b5353", null ],
-    [ "adjHypergraphEntry", "hypergraph_2_hyper_graph_8h.html#adfb6594633bc680b33d61bec801c88a7", null ],
-    [ "hyperedge", "hypergraph_2_hyper_graph_8h.html#a5ed9cfed8380cd17de18e00840eb10ff", null ],
-    [ "hypernode", "hypergraph_2_hyper_graph_8h.html#a9c484abe4471661c2336ab7d4c70ea00", null ]
+    [ "adjHypergraphEntry", "hypergraph_2_hyper_graph_8h.html#a393d14d80754d1a29560b91ab7d04999", null ],
+    [ "hyperedge", "hypergraph_2_hyper_graph_8h.html#ab713002ba7246b35e2b98a1ac9b56068", null ],
+    [ "hypernode", "hypergraph_2_hyper_graph_8h.html#acdec631fc272b19c4044457bc62c4315", null ]
 ];

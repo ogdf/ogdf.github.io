@@ -1,5 +1,6 @@
 var classogdf_1_1_davidson_harel =
 [
+    [ "EnergyFunction", "classogdf_1_1_davidson_harel.html#a6bb8fe0bcfc06d5f34473bea09fbb9d7", null ],
     [ "DavidsonHarel", "classogdf_1_1_davidson_harel.html#a8e0e2012bf8fcd2911a320fb072e40a0", null ],
     [ "~DavidsonHarel", "classogdf_1_1_davidson_harel.html#a81b38052fbba265ef827d76e59877d9f", null ],
     [ "DavidsonHarel", "classogdf_1_1_davidson_harel.html#ac7fc2847039d590c2f661b890d317325", null ],

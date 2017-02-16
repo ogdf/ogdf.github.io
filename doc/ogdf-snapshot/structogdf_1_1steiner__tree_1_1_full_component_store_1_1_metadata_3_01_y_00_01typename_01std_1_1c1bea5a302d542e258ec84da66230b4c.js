@@ -1,0 +1,8 @@
+var structogdf_1_1steiner__tree_1_1_full_component_store_1_1_metadata_3_01_y_00_01typename_01std_1_1c1bea5a302d542e258ec84da66230b4c =
+[
+    [ "Metadata", "structogdf_1_1steiner__tree_1_1_full_component_store_1_1_metadata_3_01_y_00_01typename_01std_1_1c1bea5a302d542e258ec84da66230b4c.html#a1fbc9549b244ae548938d86907690168", null ],
+    [ "cost", "structogdf_1_1steiner__tree_1_1_full_component_store_1_1_metadata_3_01_y_00_01typename_01std_1_1c1bea5a302d542e258ec84da66230b4c.html#a4e08a1e4894d704e72634108de2a734b", null ],
+    [ "extra", "structogdf_1_1steiner__tree_1_1_full_component_store_1_1_metadata_3_01_y_00_01typename_01std_1_1c1bea5a302d542e258ec84da66230b4c.html#aa40d41a63034132c5928bb8d1de9e092", null ],
+    [ "start", "structogdf_1_1steiner__tree_1_1_full_component_store_1_1_metadata_3_01_y_00_01typename_01std_1_1c1bea5a302d542e258ec84da66230b4c.html#a80e7e02cf03928bcc2a5c53364664deb", null ],
+    [ "terminals", "structogdf_1_1steiner__tree_1_1_full_component_store_1_1_metadata_3_01_y_00_01typename_01std_1_1c1bea5a302d542e258ec84da66230b4c.html#a3150cac99af80f0509ed49e3c3fd7b61", null ]
+];

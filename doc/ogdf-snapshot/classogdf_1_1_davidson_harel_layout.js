@@ -1,14 +1,14 @@
 var classogdf_1_1_davidson_harel_layout =
 [
     [ "SettingsParameter", "classogdf_1_1_davidson_harel_layout.html#af6370092d3a8dcb13441177ab5c7f425", [
-      [ "spStandard", "classogdf_1_1_davidson_harel_layout.html#af6370092d3a8dcb13441177ab5c7f425a16bea74ce7fbd0d3d140964fcffb7d0c", null ],
-      [ "spRepulse", "classogdf_1_1_davidson_harel_layout.html#af6370092d3a8dcb13441177ab5c7f425a24f718a7dc670c61551161e8c304bfa0", null ],
-      [ "spPlanar", "classogdf_1_1_davidson_harel_layout.html#af6370092d3a8dcb13441177ab5c7f425a290aa4dbfb24f71c3393b95746d3deeb", null ]
+      [ "Standard", "classogdf_1_1_davidson_harel_layout.html#af6370092d3a8dcb13441177ab5c7f425aeb6d8ae6f20283755b339c0dc273988b", null ],
+      [ "Repulse", "classogdf_1_1_davidson_harel_layout.html#af6370092d3a8dcb13441177ab5c7f425a5f2a55d561a8beed992654bc8eccae5d", null ],
+      [ "Planar", "classogdf_1_1_davidson_harel_layout.html#af6370092d3a8dcb13441177ab5c7f425a93a097009b6443e711996c50b5354adf", null ]
     ] ],
     [ "SpeedParameter", "classogdf_1_1_davidson_harel_layout.html#ad459fc6a1b33fb735679159c9a4e7652", [
-      [ "sppFast", "classogdf_1_1_davidson_harel_layout.html#ad459fc6a1b33fb735679159c9a4e7652af0578aa2d5d519e13bd979d7c384ca11", null ],
-      [ "sppMedium", "classogdf_1_1_davidson_harel_layout.html#ad459fc6a1b33fb735679159c9a4e7652a89276abaa5ee0bbaaef612bcd93d158c", null ],
-      [ "sppHQ", "classogdf_1_1_davidson_harel_layout.html#ad459fc6a1b33fb735679159c9a4e7652a11e3dd003b77f5d29518c28ba5679414", null ]
+      [ "Fast", "classogdf_1_1_davidson_harel_layout.html#ad459fc6a1b33fb735679159c9a4e7652ae16b5b7f26f54214445cbe38d72c2828", null ],
+      [ "Medium", "classogdf_1_1_davidson_harel_layout.html#ad459fc6a1b33fb735679159c9a4e7652a87f8a6ab85c9ced3702b4ea641ad4bb5", null ],
+      [ "HQ", "classogdf_1_1_davidson_harel_layout.html#ad459fc6a1b33fb735679159c9a4e7652a8fe49abfd9ab1d6620b6e84dde100789", null ]
     ] ],
     [ "DavidsonHarelLayout", "classogdf_1_1_davidson_harel_layout.html#a3bd734db41ca8da6d1669576697fad6e", null ],
     [ "~DavidsonHarelLayout", "classogdf_1_1_davidson_harel_layout.html#ab52c12c47714befe09278fd5615d023f", null ],

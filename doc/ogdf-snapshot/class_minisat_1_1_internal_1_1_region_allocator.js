@@ -1,8 +1,8 @@
 var class_minisat_1_1_internal_1_1_region_allocator =
 [
-    [ "Ref", "class_minisat_1_1_internal_1_1_region_allocator.html#af247be6814b60cee14455c3920f59219", null ],
-    [ "Ref_Undef", "class_minisat_1_1_internal_1_1_region_allocator.html#a7d0325e7fd5293a9c018d115d979d52da5c0c2c76286a681ae2ae54076a0e2e95", null ],
-    [ "Unit_Size", "class_minisat_1_1_internal_1_1_region_allocator.html#a2e26601de16e4a5aee3652dc004d987ea39895f97b073a25f2136ba108fb736d1", null ],
+    [ "Ref", "class_minisat_1_1_internal_1_1_region_allocator.html#a208588cc0bfeadff8228a829021b9e95", null ],
+    [ "Ref_Undef", "class_minisat_1_1_internal_1_1_region_allocator.html#a3119e28d6604685723c73b38416e2ec7a5c0c2c76286a681ae2ae54076a0e2e95", null ],
+    [ "Unit_Size", "class_minisat_1_1_internal_1_1_region_allocator.html#a101bf412a5c8eed863d310cf2e9bfd6ea39895f97b073a25f2136ba108fb736d1", null ],
     [ "RegionAllocator", "class_minisat_1_1_internal_1_1_region_allocator.html#aca30cea50478744ede6072b942c68a75", null ],
     [ "~RegionAllocator", "class_minisat_1_1_internal_1_1_region_allocator.html#acb3b074f113b70051fdff547de56655f", null ],
     [ "ael", "class_minisat_1_1_internal_1_1_region_allocator.html#a0bd06a2ea9f2ab2efd6b889c9cfb8905", null ],

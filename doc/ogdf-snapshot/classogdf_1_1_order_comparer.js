@@ -8,7 +8,7 @@ var classogdf_1_1_order_comparer =
     [ "left", "classogdf_1_1_order_comparer.html#acffbb4f84b22763c3da68d288f759989", null ],
     [ "less", "classogdf_1_1_order_comparer.html#afe37e221f5013310dd57d699301316b6", null ],
     [ "crossed", "classogdf_1_1_order_comparer.html#a8cefd05a434b38aa9d5c24d38570f601", null ],
-    [ "dfsNum", "classogdf_1_1_order_comparer.html#aeef97ab8f47f7b33e91ea70a97cb3cf2", null ],
     [ "H", "classogdf_1_1_order_comparer.html#a1a51117b4e2fd8b36b6d5742f797e8d0", null ],
-    [ "UPR", "classogdf_1_1_order_comparer.html#ac787bb5fbd192f2d0b8e2ce26d56c1f3", null ]
+    [ "m_dfsNum", "classogdf_1_1_order_comparer.html#ae2def10e6da84360640a47660e17916f", null ],
+    [ "m_UPR", "classogdf_1_1_order_comparer.html#aba48d240d4bb3b75771cdaaf605c3876", null ]
 ];

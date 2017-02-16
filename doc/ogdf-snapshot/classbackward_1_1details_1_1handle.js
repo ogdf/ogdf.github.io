@@ -1,7 +1,7 @@
 var classbackward_1_1details_1_1handle =
 [
-    [ "const_ref_t", "classbackward_1_1details_1_1handle.html#a513e1728b4c7c2c8c1ef8a3f87ed9236", null ],
-    [ "ref_t", "classbackward_1_1details_1_1handle.html#afc2bea511758f29e998a4770433b4229", null ],
+    [ "const_ref_t", "classbackward_1_1details_1_1handle.html#a2a1fd7db07ef9047293678180abf68b0", null ],
+    [ "ref_t", "classbackward_1_1details_1_1handle.html#a8e7ae399b53f8ee978a8eca39df3a701", null ],
     [ "~handle", "classbackward_1_1details_1_1handle.html#a14d70e04abaab25ffaa33bdb5f9152aa", null ],
     [ "handle", "classbackward_1_1details_1_1handle.html#a78c6097b852985ab7a2d065502751da7", null ],
     [ "handle", "classbackward_1_1details_1_1handle.html#ad30fd9cee50f44cf088b3e84ebfba2e5", null ],

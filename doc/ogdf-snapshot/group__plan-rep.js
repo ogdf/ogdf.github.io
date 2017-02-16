@@ -115,6 +115,7 @@ var group__plan_rep =
       [ "setGeneralization", "classogdf_1_1_plan_rep.html#ab9da6aaa433b0e0f94e46e12b5634557", null ],
       [ "setHalfBrother", "classogdf_1_1_plan_rep.html#abfed9f8f6d962d8091d22e7ad7a91167", null ],
       [ "setPrimaryType", "classogdf_1_1_plan_rep.html#a51334eae39db9a150e7f77001c143de5", null ],
+      [ "setPrimaryType", "classogdf_1_1_plan_rep.html#ab43f3e67f4650ccce4a5ec2a542d6789", null ],
       [ "setSecondaryType", "classogdf_1_1_plan_rep.html#aaff9b84ef6ac2a4df5d4e3f0c2cb657c", null ],
       [ "setType", "classogdf_1_1_plan_rep.html#a9d2e98fdb30d3177be56b5e8206edaa5", null ],
       [ "setUserType", "classogdf_1_1_plan_rep.html#abd5d5bad5c1ebb7faf4d1f5ec99c0808", null ],
@@ -166,7 +167,7 @@ var group__plan_rep =
         [ "m_nsIterator", "classogdf_1_1_plan_rep_expansion_1_1_node_split.html#a6ba5dd9dac1429c5fceaef2588c0e955", null ],
         [ "m_path", "classogdf_1_1_plan_rep_expansion_1_1_node_split.html#a6947790acc1e7410d484961bde51cac2", null ]
       ] ],
-      [ "nodeSplit", "classogdf_1_1_plan_rep_expansion.html#aad3dadb4aaf119ba1a25a25a7dfa9a54", null ],
+      [ "nodeSplit", "classogdf_1_1_plan_rep_expansion.html#ac24f09e47dcb08df721a3bee45e69361", null ],
       [ "PlanRepExpansion", "classogdf_1_1_plan_rep_expansion.html#a5ea30b348e41794c8fcab2bd45346d0c", null ],
       [ "PlanRepExpansion", "classogdf_1_1_plan_rep_expansion.html#a6b64750a6ab27d0a037054c10bdfdad2", null ],
       [ "~PlanRepExpansion", "classogdf_1_1_plan_rep_expansion.html#a6d656e9679023b6b828940413f2ddd2f", null ],

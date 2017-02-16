@@ -5,7 +5,6 @@ var classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub =
     [ "~Sub", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a43c963c71ba9278fdc076b8c4f290eb2", null ],
     [ "feasible", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a141a13d942bb53063d50e7741914dab7", null ],
     [ "generateSon", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#afc304270b06c95b75b46f5e52e76fedf", null ],
-    [ "isSteinerArborescence", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a976b6b3c9c7f0a29be17838fa5b0a66d", null ],
     [ "myImprove", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a08a162628af3cb1588a0a7087f9c2668", null ],
     [ "mySeparate", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#ae17d30aebe29a185d451814104be0f9f", null ],
     [ "separate", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html#a12c82e7ace21589bce4eff42c10be0a9", null ],

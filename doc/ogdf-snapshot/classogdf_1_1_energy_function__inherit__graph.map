@@ -1,8 +1,0 @@
-<map id="ogdf::EnergyFunction" name="ogdf::EnergyFunction">
-<area shape="rect" id="node2" href="$classogdf_1_1_node_pair_energy.html" title="ogdf::NodePairEnergy" alt="" coords="115,80,265,107"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_planarity.html" title="ogdf::Planarity" alt="" coords="290,80,397,107"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_planarity_grid.html" title="ogdf::PlanarityGrid" alt="" coords="421,80,551,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_attraction.html" title="Energy function for attraction between two adjacent vertices. " alt="" coords="5,155,116,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_overlap.html" title="ogdf::Overlap" alt="" coords="140,155,240,181"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_repulsion.html" title="ogdf::Repulsion" alt="" coords="264,155,377,181"/>
-</map>

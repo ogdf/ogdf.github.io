@@ -5,5 +5,6 @@ var classogdf_1_1_planar_grid_layout_module =
     [ "callFixEmbed", "classogdf_1_1_planar_grid_layout_module.html#a5a173433df0dae7331471409294589fe", null ],
     [ "callGridFixEmbed", "classogdf_1_1_planar_grid_layout_module.html#af46cf4cecc0458e61bfb612ee1c6a063", null ],
     [ "doCall", "classogdf_1_1_planar_grid_layout_module.html#a81dad22c31c7a2313bf213d6408ea60e", null ],
-    [ "doCall", "classogdf_1_1_planar_grid_layout_module.html#a771a0cc92e25272bc723b107421d5c5e", null ]
+    [ "doCall", "classogdf_1_1_planar_grid_layout_module.html#a771a0cc92e25272bc723b107421d5c5e", null ],
+    [ "handleTrivial", "classogdf_1_1_planar_grid_layout_module.html#aa86323f326a03f416bb713313f59662a", null ]
 ];

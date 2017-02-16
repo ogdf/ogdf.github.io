@@ -1,0 +1,4 @@
+<map id="ogdf::davidson_harel::Attraction" name="ogdf::davidson_harel::Attraction">
+<area shape="rect" id="node2" href="$classogdf_1_1davidson__harel_1_1_node_pair_energy.html" title="ogdf::davidson_harel\l::NodePairEnergy" alt="" coords="5,95,148,136"/>
+<area shape="rect" id="node3" href="$classogdf_1_1davidson__harel_1_1_energy_function.html" title="The interface for energy functions for the Davidson Harel graph drawing method. " alt="" coords="5,5,148,47"/>
+</map>

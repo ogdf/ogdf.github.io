@@ -1,9 +1,9 @@
 var classogdf_1_1_top10_heap =
 [
     [ "PushResult", "classogdf_1_1_top10_heap.html#af4cedf5ab29c56ab5c0b86c9666f747f", [
-      [ "Accepted", "classogdf_1_1_top10_heap.html#af4cedf5ab29c56ab5c0b86c9666f747fa382d27897523c819a9fe117dc7925324", null ],
-      [ "Rejected", "classogdf_1_1_top10_heap.html#af4cedf5ab29c56ab5c0b86c9666f747fa41a28367d3a788002e929dd3b0f9b7de", null ],
-      [ "Swapped", "classogdf_1_1_top10_heap.html#af4cedf5ab29c56ab5c0b86c9666f747faabb3fd759fef3ae318e31146f75ce958", null ]
+      [ "Accepted", "classogdf_1_1_top10_heap.html#af4cedf5ab29c56ab5c0b86c9666f747fa382ab522931673c11e398ead1b7b1678", null ],
+      [ "Rejected", "classogdf_1_1_top10_heap.html#af4cedf5ab29c56ab5c0b86c9666f747fad37b1f6c0512e2118cee17fea015b699", null ],
+      [ "Swapped", "classogdf_1_1_top10_heap.html#af4cedf5ab29c56ab5c0b86c9666f747faed468ac0a6b65552a6f089df68e1c08e", null ]
     ] ],
     [ "Top10Heap", "classogdf_1_1_top10_heap.html#a821347c0987aa583459c26f7b785f882", null ],
     [ "Top10Heap", "classogdf_1_1_top10_heap.html#aa45817e7ce54b2b32906f3b1a4bc77e2", null ],

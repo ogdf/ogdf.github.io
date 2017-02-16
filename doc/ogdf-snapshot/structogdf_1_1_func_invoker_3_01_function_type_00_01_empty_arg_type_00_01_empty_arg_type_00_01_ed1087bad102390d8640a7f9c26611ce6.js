@@ -1,6 +1,0 @@
-var structogdf_1_1_func_invoker_3_01_function_type_00_01_empty_arg_type_00_01_empty_arg_type_00_01_ed1087bad102390d8640a7f9c26611ce6 =
-[
-    [ "FuncInvoker", "structogdf_1_1_func_invoker_3_01_function_type_00_01_empty_arg_type_00_01_empty_arg_type_00_01_ed1087bad102390d8640a7f9c26611ce6.html#a0ab857d4547ba2af3c63e94ccecfe356", null ],
-    [ "operator()", "structogdf_1_1_func_invoker_3_01_function_type_00_01_empty_arg_type_00_01_empty_arg_type_00_01_ed1087bad102390d8640a7f9c26611ce6.html#a96d64ba304376bdc0c26d93e36dc1533", null ],
-    [ "function", "structogdf_1_1_func_invoker_3_01_function_type_00_01_empty_arg_type_00_01_empty_arg_type_00_01_ed1087bad102390d8640a7f9c26611ce6.html#aa525971eaeabe4f7009fe6fa3d1f9853", null ]
-];

@@ -23,11 +23,11 @@ var group__gd_ranking =
       [ "setSubgraph", "classogdf_1_1_coffman_graham_ranking.html#a3798de8ba80dc1ca62e55a451de762e9", null ],
       [ "width", "classogdf_1_1_coffman_graham_ranking.html#a899151f15ccc0a69ff37d9ce60b3b10c", null ],
       [ "width", "classogdf_1_1_coffman_graham_ranking.html#a74cc8bae7903949d39b92162652d8436", null ],
+      [ "m_mark", "classogdf_1_1_coffman_graham_ranking.html#a5671eb589cc0ce410a22ac5a235fa34d", null ],
       [ "m_s", "classogdf_1_1_coffman_graham_ranking.html#aae8ab9140b4c7753b0d9dcbb20e116fe", null ],
       [ "m_subgraph", "classogdf_1_1_coffman_graham_ranking.html#a9f2d193bc1bc1d6f7a7cc94c76f63bc9", null ],
-      [ "m_w", "classogdf_1_1_coffman_graham_ranking.html#a191611a96b8b7d3303892d0d97a8e5d0", null ],
-      [ "mark", "classogdf_1_1_coffman_graham_ranking.html#a74ed43169c7da2d865ae2070afc5b233", null ],
-      [ "visited", "classogdf_1_1_coffman_graham_ranking.html#a03bd6b21847474160ac41a4f2b890d1f", null ]
+      [ "m_visited", "classogdf_1_1_coffman_graham_ranking.html#a68c6a7d9123a0836a3d84aca94486d81", null ],
+      [ "m_w", "classogdf_1_1_coffman_graham_ranking.html#a191611a96b8b7d3303892d0d97a8e5d0", null ]
     ] ],
     [ "LongestPathRanking", "classogdf_1_1_longest_path_ranking.html", [
       [ "LongestPathRanking", "classogdf_1_1_longest_path_ranking.html#a1ed3a9b813002f78ec7b50e24c2007f4", null ],

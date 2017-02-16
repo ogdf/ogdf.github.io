@@ -1,6 +1,6 @@
 var classogdf_1_1_stack =
 [
-    [ "size_type", "classogdf_1_1_stack.html#a26a8eb725b11ddef5ad97481dcea1ea3", null ],
+    [ "size_type", "classogdf_1_1_stack.html#a2b61d2ebecd7af8ccb3317747cacff04", null ],
     [ "Stack", "classogdf_1_1_stack.html#a5cbfde19c3bb2629a905b27af9847c3f", null ],
     [ "Stack", "classogdf_1_1_stack.html#ac06a5943f407e49c1fa3da7e4ab77c97", null ],
     [ "Stack", "classogdf_1_1_stack.html#ab91e501d4ffadd51207cc66c8b8a78bb", null ],

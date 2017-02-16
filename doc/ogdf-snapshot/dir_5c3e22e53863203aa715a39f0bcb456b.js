@@ -1,5 +1,6 @@
 var dir_5c3e22e53863203aa715a39f0bcb456b =
 [
+    [ "steiner_tree", "dir_d10ff3901ec852ad3af536b1fa78df89.html", "dir_d10ff3901ec852ad3af536b1fa78df89" ],
     [ "AStarSearch.h", "_a_star_search_8h.html", [
       [ "AStarSearch", "classogdf_1_1_a_star_search.html", "classogdf_1_1_a_star_search" ]
     ] ],
@@ -25,8 +26,17 @@ var dir_5c3e22e53863203aa715a39f0bcb456b =
     [ "MinimumCut.h", "_minimum_cut_8h.html", [
       [ "MinCut", "classogdf_1_1_min_cut.html", "classogdf_1_1_min_cut" ]
     ] ],
-    [ "MinSTCut.h", "_min_s_t_cut_8h.html", [
-      [ "MinSTCut", "classogdf_1_1_min_s_t_cut.html", "classogdf_1_1_min_s_t_cut" ]
+    [ "MinSTCutBFS.h", "_min_s_t_cut_b_f_s_8h.html", [
+      [ "MinSTCutBFS", "classogdf_1_1_min_s_t_cut_b_f_s.html", "classogdf_1_1_min_s_t_cut_b_f_s" ]
+    ] ],
+    [ "MinSTCutDijkstra.h", "_min_s_t_cut_dijkstra_8h.html", [
+      [ "MinSTCutDijkstra", "classogdf_1_1_min_s_t_cut_dijkstra.html", "classogdf_1_1_min_s_t_cut_dijkstra" ]
+    ] ],
+    [ "MinSTCutMaxFlow.h", "_min_s_t_cut_max_flow_8h.html", [
+      [ "MinSTCutMaxFlow", "classogdf_1_1_min_s_t_cut_max_flow.html", "classogdf_1_1_min_s_t_cut_max_flow" ]
+    ] ],
+    [ "MinSTCutModule.h", "_min_s_t_cut_module_8h.html", [
+      [ "MinSTCutModule", "classogdf_1_1_min_s_t_cut_module.html", "classogdf_1_1_min_s_t_cut_module" ]
     ] ],
     [ "MinSteinerTreeDirectedCut.h", "_min_steiner_tree_directed_cut_8h.html", [
       [ "DegreeConstraint", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_constraint.html", "classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_constraint" ],
@@ -55,9 +65,13 @@ var dir_5c3e22e53863203aa715a39f0bcb456b =
     [ "ShortestPathAlgorithms.h", "_shortest_path_algorithms_8h.html", "_shortest_path_algorithms_8h" ],
     [ "ShortestPathWithBFM.h", "_shortest_path_with_b_f_m_8h.html", null ],
     [ "SteinerTreePreprocessing.h", "_steiner_tree_preprocessing_8h.html", [
-      [ "UnorderedNodePairEquality", "classogdf_1_1steinertree_1_1_unordered_node_pair_equality.html", "classogdf_1_1steinertree_1_1_unordered_node_pair_equality" ],
-      [ "UnorderedNodePairHasher", "classogdf_1_1steinertree_1_1_unordered_node_pair_hasher.html", "classogdf_1_1steinertree_1_1_unordered_node_pair_hasher" ],
+      [ "UnorderedNodePairEquality", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_equality.html", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_equality" ],
+      [ "UnorderedNodePairHasher", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher.html", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher" ],
       [ "HeavyPathDecomposition", "classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition.html", "classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition" ]
+    ] ],
+    [ "Triconnectivity.h", "_triconnectivity_8h.html", [
+      [ "Triconnectivity", "classogdf_1_1_triconnectivity.html", "classogdf_1_1_triconnectivity" ],
+      [ "CompStruct", "structogdf_1_1_triconnectivity_1_1_comp_struct.html", "structogdf_1_1_triconnectivity_1_1_comp_struct" ]
     ] ],
     [ "Voronoi.h", "_voronoi_8h.html", null ]
 ];

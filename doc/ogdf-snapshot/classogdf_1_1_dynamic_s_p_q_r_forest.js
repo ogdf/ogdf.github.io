@@ -1,9 +1,9 @@
 var classogdf_1_1_dynamic_s_p_q_r_forest =
 [
     [ "TNodeType", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68", [
-      [ "SComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68aed44efee74503f8251a943772432e1f8", null ],
-      [ "PComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68adfbeffb7fbc259ba3a25e2446248e6c2", null ],
-      [ "RComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68a41d788227b7f503feb551492e93b51c6", null ]
+      [ "SComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68a12b8874c13061380f6ed2e9f6a7ee4f3", null ],
+      [ "PComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68ae0b959f3ff756c5176b4fb9cafedf280", null ],
+      [ "RComp", "classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68ad4807a25fda1b939df592fe066dd54d9", null ]
     ] ],
     [ "DynamicSPQRForest", "classogdf_1_1_dynamic_s_p_q_r_forest.html#aa87c7296113e09a9bba4abb767ab04b9", null ],
     [ "createSPQR", "classogdf_1_1_dynamic_s_p_q_r_forest.html#ab562313b7cff33b9ae9e110b8bdaee38", null ],

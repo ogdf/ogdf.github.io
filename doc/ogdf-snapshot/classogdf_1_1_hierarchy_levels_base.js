@@ -1,8 +1,8 @@
 var classogdf_1_1_hierarchy_levels_base =
 [
     [ "TraversingDir", "classogdf_1_1_hierarchy_levels_base.html#ae3d1a55e14d454dfd2c78b53f6db26a2", [
-      [ "downward", "classogdf_1_1_hierarchy_levels_base.html#ae3d1a55e14d454dfd2c78b53f6db26a2af6b72f32a1755bb19c4c4b00efe957cc", null ],
-      [ "upward", "classogdf_1_1_hierarchy_levels_base.html#ae3d1a55e14d454dfd2c78b53f6db26a2aaba22c21800d12b557bbc5f31a869e91", null ]
+      [ "downward", "classogdf_1_1_hierarchy_levels_base.html#ae3d1a55e14d454dfd2c78b53f6db26a2ac3ac40cfab459c08bccffecac1692389", null ],
+      [ "upward", "classogdf_1_1_hierarchy_levels_base.html#ae3d1a55e14d454dfd2c78b53f6db26a2a97f5860fb0032743dbbac3e1a023d4ab", null ]
     ] ],
     [ "~HierarchyLevelsBase", "classogdf_1_1_hierarchy_levels_base.html#aefdcf615e98c06b723cbb1c11bc0ba64", null ],
     [ "adjNodes", "classogdf_1_1_hierarchy_levels_base.html#a711715029b2e00948233ccb25fec999e", null ],

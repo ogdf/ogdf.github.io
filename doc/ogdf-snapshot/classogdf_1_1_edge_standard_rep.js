@@ -1,7 +1,7 @@
 var classogdf_1_1_edge_standard_rep =
 [
     [ "EdgeStandardRep", "classogdf_1_1_edge_standard_rep.html#ab79ff499263ced4f2a0f854f5d354df9", null ],
-    [ "EdgeStandardRep", "classogdf_1_1_edge_standard_rep.html#af3ba32562f1b637492f23548a469642a", null ],
+    [ "EdgeStandardRep", "classogdf_1_1_edge_standard_rep.html#a2e9b414db06a59b793b212b9f017eed3", null ],
     [ "~EdgeStandardRep", "classogdf_1_1_edge_standard_rep.html#af1f4274b953cfd3f3b66bc0a04e94317", null ],
     [ "clear", "classogdf_1_1_edge_standard_rep.html#aadf154bcc89378f56f9320f89e638f43", null ],
     [ "cleared", "classogdf_1_1_edge_standard_rep.html#abdf436ccf8dc4deb4e79422acea25594", null ],
@@ -22,7 +22,7 @@ var classogdf_1_1_edge_standard_rep =
     [ "hypernodeDeleted", "classogdf_1_1_edge_standard_rep.html#aeb1b1ea0fd1eda3286d77498eb8209fa", null ],
     [ "hypernodeMap", "classogdf_1_1_edge_standard_rep.html#a536877ea65fbc8a48ef1e220460ee106", null ],
     [ "nodeMap", "classogdf_1_1_edge_standard_rep.html#a587bbc5b9d8ea4a812dbb4ba352379ce", null ],
-    [ "type", "classogdf_1_1_edge_standard_rep.html#aeabfc353199a1f3e62630fb275127f94", null ],
+    [ "type", "classogdf_1_1_edge_standard_rep.html#a1f107423538790a730ea53c7a3105cca", null ],
     [ "m_dummyNodes", "classogdf_1_1_edge_standard_rep.html#a65d05d62723c2f5414f7fc471fb1c686", null ],
     [ "m_edgeMap", "classogdf_1_1_edge_standard_rep.html#a01190be217cbeca876a79920f16e74e4", null ],
     [ "m_graphRep", "classogdf_1_1_edge_standard_rep.html#aa294df197fd580410e886145936446e7", null ],
@@ -30,5 +30,5 @@ var classogdf_1_1_edge_standard_rep =
     [ "m_hypergraph", "classogdf_1_1_edge_standard_rep.html#a6f3a0aeb9e52f7e80cd17df3f143a3d3", null ],
     [ "m_hypernodeMap", "classogdf_1_1_edge_standard_rep.html#a0469f07f00919cddd1c4ee9c97c87308", null ],
     [ "m_nodeMap", "classogdf_1_1_edge_standard_rep.html#a718ed6e96f94f03d731f94c637d7af51", null ],
-    [ "m_type", "classogdf_1_1_edge_standard_rep.html#af5c5898cc86ad87f85fc907fd43c9951", null ]
+    [ "m_type", "classogdf_1_1_edge_standard_rep.html#ac87dee55e4e62702ff96035ad0ecf39f", null ]
 ];

@@ -1,13 +1,15 @@
 var classogdf_1_1_cluster_planarity =
 [
+    [ "CP_MasterBase", "classogdf_1_1_cluster_planarity.html#aa061961642986e98bb371c7db3974b40", null ],
+    [ "NodePairs", "classogdf_1_1_cluster_planarity.html#a9e01bc50cb83df7d683940fa579c9003", null ],
     [ "solmeth", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39", [
-      [ "sm_fb", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39aee4e43e97e39cfdd61a5b2f0f5dff16b", null ],
-      [ "sm_new", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39a6c27f969adb3e02539d26aaaef700021", null ]
+      [ "Fallback", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39a882277bdf25efaeb8295e842ebcb3d11", null ],
+      [ "New", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39a03c2e7e41ffc181a4e84080b4710e81e", null ]
     ] ],
     [ "ClusterPlanarity", "classogdf_1_1_cluster_planarity.html#a5a1e9fd32f0018775e5676936f722766", null ],
     [ "~ClusterPlanarity", "classogdf_1_1_cluster_planarity.html#ada84a37a293b7d27efce23daf2faaa23", null ],
     [ "doTest", "classogdf_1_1_cluster_planarity.html#af55d8900f3161661ba2f16c8778645a8", null ],
-    [ "doTest", "classogdf_1_1_cluster_planarity.html#aab7f63c9eefe440dd2fc9df55c81a68e", null ],
+    [ "doTest", "classogdf_1_1_cluster_planarity.html#a07094e74880b2bf48240d1b29258e4df", null ],
     [ "getBottomUpClusterList", "classogdf_1_1_cluster_planarity.html#a6e15aa294d55c1af0f6be858212ab30d", null ],
     [ "getDoubleTime", "classogdf_1_1_cluster_planarity.html#a2e0315bcc458f6231933689cd8170c24", null ],
     [ "getHeurTime", "classogdf_1_1_cluster_planarity.html#a51d1b5c7a49a1ffdb6eb3e36f992c320", null ],
@@ -25,7 +27,7 @@ var classogdf_1_1_cluster_planarity =
     [ "getSeparationTime", "classogdf_1_1_cluster_planarity.html#a6ec01dbd2833699ea6752a78eec39f0b", null ],
     [ "getTotalTime", "classogdf_1_1_cluster_planarity.html#ad9ae15877555449e4aba09aa2518efdb", null ],
     [ "getTotalWTime", "classogdf_1_1_cluster_planarity.html#a3563c66425754ee98b1bc9748d514478", null ],
-    [ "isClusterPlanar", "classogdf_1_1_cluster_planarity.html#a4d17a8b646f1c29037fc8c9de1d9bcfc", null ],
+    [ "isClusterPlanar", "classogdf_1_1_cluster_planarity.html#ad478e4ecd15c5177e7d33a82d80bb057", null ],
     [ "isClusterPlanar", "classogdf_1_1_cluster_planarity.html#a883bcdfa892d64f172477499c3b06bac", null ],
     [ "maxConLength", "classogdf_1_1_cluster_planarity.html#ab61cc069147367cc623bf4c828ac6f12", null ],
     [ "outputCons", "classogdf_1_1_cluster_planarity.html#aa3d48ee3c49b3760896bf94c634aed4d", null ],

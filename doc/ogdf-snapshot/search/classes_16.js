@@ -5,8 +5,7 @@ var searchData=
   ['weightcomparer',['WeightComparer',['../classogdf_1_1_weight_comparer.html',1,'ogdf']]],
   ['whainfo',['whaInfo',['../classogdf_1_1wha_info.html',1,'ogdf']]],
   ['winfo',['WInfo',['../structogdf_1_1_w_info.html',1,'ogdf']]],
-  ['wspd',['WSPD',['../classogdf_1_1_w_s_p_d.html',1,'ogdf']]],
-  ['wspd_5ffunctor',['wspd_functor',['../structogdf_1_1_linear_quadtree_1_1wspd__functor.html',1,'ogdf::LinearQuadtree']]],
-  ['wspdnodeinfo',['WSPDNodeInfo',['../structogdf_1_1_w_s_p_d_node_info.html',1,'ogdf']]],
-  ['wspdpairinfo',['WSPDPairInfo',['../structogdf_1_1_w_s_p_d_pair_info.html',1,'ogdf']]]
+  ['worker',['Worker',['../classogdf_1_1_planar_subgraph_fast_1_1_worker.html',1,'ogdf::PlanarSubgraphFast']]],
+  ['wspd',['WSPD',['../classogdf_1_1fast__multipole__embedder_1_1_w_s_p_d.html',1,'ogdf::fast_multipole_embedder']]],
+  ['wspd_5ffunctor',['wspd_functor',['../structogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_1_1wspd__functor.html',1,'ogdf::fast_multipole_embedder::LinearQuadtree']]]
 ];

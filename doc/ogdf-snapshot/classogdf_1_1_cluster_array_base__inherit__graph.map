@@ -1,24 +1,24 @@
 <map id="ogdf::ClusterArrayBase" name="ogdf::ClusterArrayBase">
 <area shape="rect" id="node2" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; bool \&gt;" alt="" coords="268,5,396,47"/>
 <area shape="rect" id="node3" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; int \&gt;" alt="" coords="268,71,396,112"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterArray\l\&lt; ogdf::ClusterElement \&gt; *\&gt;" alt="" coords="239,137,425,193"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterElement \&gt;" alt="" coords="247,217,417,259"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterGraph *\&gt;" alt="" coords="251,283,413,324"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterInfo \&gt;" alt="" coords="261,348,403,389"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterPQContainer \&gt;" alt="" coords="234,413,430,455"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::EdgeArray\&lt; ogdf\l::Stack\&lt; ogdf::EdgeElement\l \&gt; *\&gt; *\&gt;" alt="" coords="239,479,425,549"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::EmbedPQTree *\&gt;" alt="" coords="247,573,417,615"/>
-<area shape="rect" id="node11" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::Graph *\&gt;" alt="" coords="268,639,396,680"/>
-<area shape="rect" id="node12" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::LHTreeNode *\&gt;" alt="" coords="253,704,411,745"/>
-<area shape="rect" id="node13" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::List\&lt; ogdf::\lEdgeElement \&gt; \&gt;" alt="" coords="265,770,399,826"/>
-<area shape="rect" id="node14" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::List\&lt; ogdf::\lNodeElement \&gt; \&gt;" alt="" coords="265,850,399,906"/>
-<area shape="rect" id="node15" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ListIterator\l\&lt; ogdf::ClusterElement \&gt; \&gt;" alt="" coords="241,930,423,986"/>
-<area shape="rect" id="node16" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeArray\&lt; bool \&gt; *\&gt;" alt="" coords="235,1011,429,1052"/>
-<area shape="rect" id="node17" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeArray\&lt; ogdf\l::ClusterElement \&gt; *\&gt;" alt="" coords="249,1077,415,1133"/>
-<area shape="rect" id="node18" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeArray\&lt; ogdf\l::NodeElement \&gt; *\&gt;" alt="" coords="249,1157,415,1213"/>
-<area shape="rect" id="node19" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeArray\&lt; ogdf\l::SListPure\&lt; ogdf::AdjElement \&gt; \&gt; *\&gt;" alt="" coords="212,1237,452,1293"/>
-<area shape="rect" id="node20" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeElement \&gt;" alt="" coords="253,1317,411,1359"/>
-<area shape="rect" id="node21" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::PlanarPQTree *\&gt;" alt="" coords="249,1383,415,1424"/>
-<area shape="rect" id="node22" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; string \&gt;" alt="" coords="268,1448,396,1489"/>
-<area shape="rect" id="node23" href="$classogdf_1_1_cluster_array.html" title="Dynamic arrays indexed with clusters. " alt="" coords="252,1514,412,1541"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::booth_lueker\l::EmbedPQTree *\&gt;" alt="" coords="261,137,403,193"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::booth_lueker\l::PlanarPQTree *\&gt;" alt="" coords="261,217,403,273"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::cluster_planarity\l::ClusterPQContainer \&gt;" alt="" coords="251,297,413,353"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterArray\l\&lt; ogdf::ClusterElement \&gt; *\&gt;" alt="" coords="239,377,425,433"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterElement \&gt;" alt="" coords="247,457,417,499"/>
+<area shape="rect" id="node9" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterGraph *\&gt;" alt="" coords="251,523,413,564"/>
+<area shape="rect" id="node10" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ClusterInfo \&gt;" alt="" coords="261,588,403,629"/>
+<area shape="rect" id="node11" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::EdgeArray\&lt; ogdf\l::Stack\&lt; ogdf::EdgeElement\l \&gt; *\&gt; *\&gt;" alt="" coords="239,653,425,724"/>
+<area shape="rect" id="node12" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::Graph *\&gt;" alt="" coords="268,748,396,789"/>
+<area shape="rect" id="node13" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::LHTreeNode *\&gt;" alt="" coords="253,813,411,855"/>
+<area shape="rect" id="node14" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::List\&lt; ogdf::\lEdgeElement \&gt; \&gt;" alt="" coords="265,879,399,935"/>
+<area shape="rect" id="node15" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::List\&lt; ogdf::\lNodeElement \&gt; \&gt;" alt="" coords="265,959,399,1015"/>
+<area shape="rect" id="node16" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::ListIteratorBase\l\&lt; ogdf::ClusterElement \&gt; \&gt;" alt="" coords="241,1039,423,1095"/>
+<area shape="rect" id="node17" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeArray\&lt; bool \&gt; *\&gt;" alt="" coords="235,1120,429,1161"/>
+<area shape="rect" id="node18" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeArray\&lt; ogdf\l::ClusterElement \&gt; *\&gt;" alt="" coords="249,1186,415,1242"/>
+<area shape="rect" id="node19" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeArray\&lt; ogdf\l::NodeElement \&gt; *\&gt;" alt="" coords="249,1266,415,1322"/>
+<area shape="rect" id="node20" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeArray\&lt; ogdf\l::SListPure\&lt; ogdf::AdjElement \&gt; \&gt; *\&gt;" alt="" coords="212,1346,452,1402"/>
+<area shape="rect" id="node21" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; ogdf::NodeElement \&gt;" alt="" coords="253,1427,411,1468"/>
+<area shape="rect" id="node22" href="$classogdf_1_1_cluster_array.html" title="ogdf::ClusterArray\l\&lt; string \&gt;" alt="" coords="268,1492,396,1533"/>
+<area shape="rect" id="node23" href="$classogdf_1_1_cluster_array.html" title="Dynamic arrays indexed with clusters. " alt="" coords="252,1558,412,1585"/>
 </map>

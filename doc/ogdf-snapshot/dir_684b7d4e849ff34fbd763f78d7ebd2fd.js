@@ -1,5 +1,9 @@
 var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
 [
+    [ "heap", "dir_a0a887bb8e581187ba932e974bcf936a.html", "dir_a0a887bb8e581187ba932e974bcf936a" ],
+    [ "internal", "dir_a84f30354f1bca7c79ea70c479d35e66.html", "dir_a84f30354f1bca7c79ea70c479d35e66" ],
+    [ "memory", "dir_03b99e424906158b62af79777b6e68cf.html", "dir_03b99e424906158b62af79777b6e68cf" ],
+    [ "pqtree", "dir_c377f5cdeb73076c2c487446f4bee499.html", "dir_c377f5cdeb73076c2c487446f4bee499" ],
     [ "AdjacencyOracle.h", "_adjacency_oracle_8h.html", null ],
     [ "AdjEntryArray.h", "_adj_entry_array_8h.html", [
       [ "AdjEntryArrayBase", "classogdf_1_1_adj_entry_array_base.html", "classogdf_1_1_adj_entry_array_base" ]
@@ -99,9 +103,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "LayoutStandards.h", "_layout_standards_8h.html", null ],
     [ "LayoutStatistics.h", "_layout_statistics_8h.html", null ],
     [ "List.h", "_list_8h.html", "_list_8h" ],
-    [ "Logger.h", "_logger_8h.html", [
-      [ "Logger", "classogdf_1_1_logger.html", "classogdf_1_1_logger" ]
-    ] ],
+    [ "Logger.h", "_logger_8h.html", "_logger_8h" ],
     [ "Math.h", "_math_8h.html", [
       [ "Math", "classogdf_1_1_math.html", "classogdf_1_1_math" ]
     ] ],
@@ -111,9 +113,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
       [ "DeletingTop10Heap", "classogdf_1_1_deleting_top10_heap.html", "classogdf_1_1_deleting_top10_heap" ],
       [ "Top10Heap", "classogdf_1_1_top10_heap.html", "classogdf_1_1_top10_heap" ]
     ] ],
-    [ "Module.h", "_module_8h.html", [
-      [ "Module", "classogdf_1_1_module.html", "classogdf_1_1_module" ]
-    ] ],
+    [ "Module.h", "_module_8h.html", "_module_8h" ],
     [ "NearestRectangleFinder.h", "_nearest_rectangle_finder_8h.html", [
       [ "NearestRectangleFinder", "classogdf_1_1_nearest_rectangle_finder.html", "classogdf_1_1_nearest_rectangle_finder" ],
       [ "PairRectDist", "structogdf_1_1_nearest_rectangle_finder_1_1_pair_rect_dist.html", "structogdf_1_1_nearest_rectangle_finder_1_1_pair_rect_dist" ],
@@ -124,6 +124,9 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     ] ],
     [ "NodeComparer.h", "_node_comparer_8h.html", null ],
     [ "NodeSet.h", "_node_set_8h.html", null ],
+    [ "PQTree.h", "_p_q_tree_8h.html", [
+      [ "PQTree", "classogdf_1_1_p_q_tree.html", "classogdf_1_1_p_q_tree" ]
+    ] ],
     [ "precondition.h", "precondition_8h.html", "precondition_8h" ],
     [ "PreprocessorLayout.h", "_preprocessor_layout_8h.html", [
       [ "EdgeData", "structogdf_1_1_preprocessor_layout_1_1_edge_data.html", "structogdf_1_1_preprocessor_layout_1_1_edge_data" ]
@@ -155,10 +158,6 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "System.h", "_system_8h.html", "_system_8h" ],
     [ "Thread.h", "_thread_8h.html", null ],
     [ "Timeouter.h", "_timeouter_8h.html", null ],
-    [ "TopologyModule.h", "_topology_module_8h.html", [
-      [ "EdgeLeg", "classogdf_1_1_edge_leg.html", "classogdf_1_1_edge_leg" ],
-      [ "PointComparer", "classogdf_1_1_point_comparer.html", "classogdf_1_1_point_comparer" ],
-      [ "TopologyModule", "classogdf_1_1_topology_module.html", "classogdf_1_1_topology_module" ]
-    ] ],
+    [ "TopologyModule.h", "_topology_module_8h.html", "_topology_module_8h" ],
     [ "tuples.h", "tuples_8h.html", "tuples_8h" ]
 ];

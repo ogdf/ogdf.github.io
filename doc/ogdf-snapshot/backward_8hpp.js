@@ -27,7 +27,7 @@ var backward_8hpp =
     [ "BACKWARD_ATLEAST_CXX98", "backward_8hpp.html#aaf7db9f321c0520a0e7f901eec032d6f", null ],
     [ "BACKWARD_CXX98", "backward_8hpp.html#abf3b44e8f938981812f1a8b796b9dbd6", null ],
     [ "BACKWARD_SYSTEM_UNKNOWN", "backward_8hpp.html#afcee5c9532cda64f6fa6fefd5882b8b9", null ],
-    [ "current_tag", "backward_8hpp.html#a005308e2bb22645ab361db437e1efbe8", null ],
+    [ "current_tag", "backward_8hpp.html#a8bd02a034045aa2519bfc732eefff48b", null ],
     [ "type", "backward_8hpp.html#a6292269f4da43517b3fe825563efee5c", [
       [ "yellow", "backward_8hpp.html#a6292269f4da43517b3fe825563efee5ca8f7946cb6e3cd72b9624130f4d6b3053", null ],
       [ "purple", "backward_8hpp.html#a6292269f4da43517b3fe825563efee5ca83495492b6ede5f3b14a20d42204b8e2", null ],

@@ -62,12 +62,14 @@ var dir_ee4a50abf63abab6075a801ceaeb8a64 =
     [ "TlpParser.h", "_tlp_parser_8h.html", [
       [ "Parser", "classogdf_1_1tlp_1_1_parser.html", "classogdf_1_1tlp_1_1_parser" ]
     ] ],
-    [ "UmlDiagramGraph.h", "_uml_diagram_graph_8h.html", "_uml_diagram_graph_8h" ],
+    [ "UmlDiagramGraph.h", "_uml_diagram_graph_8h.html", [
+      [ "UmlDiagramGraph", "classogdf_1_1_uml_diagram_graph.html", "classogdf_1_1_uml_diagram_graph" ]
+    ] ],
     [ "UmlModelGraph.h", "_uml_model_graph_8h.html", "_uml_model_graph_8h" ],
     [ "UmlToGraphConverter.h", "_uml_to_graph_converter_8h.html", [
       [ "UmlToGraphConverter", "classogdf_1_1_uml_to_graph_converter.html", "classogdf_1_1_uml_to_graph_converter" ]
     ] ],
-    [ "Utils.h", "_utils_8h.html", "_utils_8h" ],
+    [ "Utils.h", "fileformats_2utils_8h.html", "fileformats_2utils_8h" ],
     [ "XmlParser.h", "_xml_parser_8h.html", "_xml_parser_8h" ],
     [ "XmlScanner.h", "_xml_scanner_8h.html", "_xml_scanner_8h" ]
 ];

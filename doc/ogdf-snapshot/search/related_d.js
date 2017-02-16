@@ -1,8 +1,8 @@
 var searchData=
 [
   ['pairingheap',['PairingHeap',['../structogdf_1_1_pairing_heap_node.html#a11520eda654098876bc34aee23258981',1,'ogdf::PairingHeapNode']]],
-  ['planaraugmentation',['PlanarAugmentation',['../classogdf_1_1_dynamic_b_c_tree.html#a82988519648c18adfe0e50890728bd68',1,'ogdf::DynamicBCTree::PlanarAugmentation()'],['../classogdf_1_1_p_a_label.html#a82988519648c18adfe0e50890728bd68',1,'ogdf::PALabel::PlanarAugmentation()']]],
-  ['planaraugmentationfix',['PlanarAugmentationFix',['../classogdf_1_1_dynamic_b_c_tree.html#a26cfb12df56bf677a36f3536f2de2753',1,'ogdf::DynamicBCTree::PlanarAugmentationFix()'],['../classogdf_1_1_p_a_label.html#a26cfb12df56bf677a36f3536f2de2753',1,'ogdf::PALabel::PlanarAugmentationFix()']]],
+  ['planaraugmentation',['PlanarAugmentation',['../classogdf_1_1_p_a_label.html#a82988519648c18adfe0e50890728bd68',1,'ogdf::PALabel::PlanarAugmentation()'],['../classogdf_1_1_dynamic_b_c_tree.html#a82988519648c18adfe0e50890728bd68',1,'ogdf::DynamicBCTree::PlanarAugmentation()']]],
+  ['planaraugmentationfix',['PlanarAugmentationFix',['../classogdf_1_1_p_a_label.html#a26cfb12df56bf677a36f3536f2de2753',1,'ogdf::PALabel::PlanarAugmentationFix()'],['../classogdf_1_1_dynamic_b_c_tree.html#a26cfb12df56bf677a36f3536f2de2753',1,'ogdf::DynamicBCTree::PlanarAugmentationFix()']]],
   ['planargridlayoutmodule',['PlanarGridLayoutModule',['../classogdf_1_1_grid_layout_module.html#a0fb4d75466a86b3e5dd1fefe12984150',1,'ogdf::GridLayoutModule']]],
   ['pool_3c_20basetype_2c_20cotype_20_3e',['Pool&lt; BaseType, CoType &gt;',['../classabacus_1_1_pool_slot.html#aaaa252fe982debff898777fd61253a4c',1,'abacus::PoolSlot']]],
   ['pool_3c_20constraint_2c_20variable_20_3e',['Pool&lt; Constraint, Variable &gt;',['../classabacus_1_1_pool_slot.html#a8781978bbb6d1d53a085cdd9083ef24f',1,'abacus::PoolSlot']]],

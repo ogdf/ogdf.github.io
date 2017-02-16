@@ -1,9 +1,9 @@
 var classogdf_1_1_s_p_q_r_tree =
 [
     [ "NodeType", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25", [
-      [ "SNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25ac36c01aabd3284883253913b781c702c", null ],
-      [ "PNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25a6fcc485e5f1171756272adbc212abe44", null ],
-      [ "RNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25ab8de24b086edce4d96499b28a255ef3a", null ]
+      [ "SNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25adc091537f9d097e5fea4c7f51dba13c0", null ],
+      [ "PNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25a652200c6a8d215efc2c644724ba2dfc2", null ],
+      [ "RNode", "classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25a0d42cca5279f1745d639204a74ec378a", null ]
     ] ],
     [ "~SPQRTree", "classogdf_1_1_s_p_q_r_tree.html#ae2b6752c538b78c3c919708d93942850", null ],
     [ "copyOfReal", "classogdf_1_1_s_p_q_r_tree.html#a13adb3d629c4f8d831244717f7c35b55", null ],

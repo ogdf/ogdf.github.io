@@ -1,36 +1,38 @@
 var group__ga_cplanarity =
 [
     [ "CconnectClusterPlanar", "classogdf_1_1_cconnect_cluster_planar.html", [
-      [ "ccErrorCode", "classogdf_1_1_cconnect_cluster_planar.html#a207d64d4955906f30709ba36d18493db", [
-        [ "none", "classogdf_1_1_cconnect_cluster_planar.html#a207d64d4955906f30709ba36d18493dba0ee4ff6055835e45178bb692d68a9b4f", null ],
-        [ "nonConnected", "classogdf_1_1_cconnect_cluster_planar.html#a207d64d4955906f30709ba36d18493dba2ad8f25b1a273c5ebb9cc14e3d8df2c0", null ],
-        [ "nonCConnected", "classogdf_1_1_cconnect_cluster_planar.html#a207d64d4955906f30709ba36d18493dba7c1c092665c3de18101ed470afd5d0c9", null ],
-        [ "nonPlanar", "classogdf_1_1_cconnect_cluster_planar.html#a207d64d4955906f30709ba36d18493dba1fb49cb7caaf5e5bf66dd3c063463fd4", null ],
-        [ "nonCPlanar", "classogdf_1_1_cconnect_cluster_planar.html#a207d64d4955906f30709ba36d18493dba734b43db12f2b9a7eb95b9c31b3d3321", null ]
+      [ "PlanarPQTree", "classogdf_1_1_cconnect_cluster_planar.html#a42a966b38dfa05a3bcc1474c35056091", null ],
+      [ "ErrorCode", "classogdf_1_1_cconnect_cluster_planar.html#a75a5fe5070227580a36701e7cd1a3b3e", [
+        [ "none", "classogdf_1_1_cconnect_cluster_planar.html#a75a5fe5070227580a36701e7cd1a3b3ea334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
+        [ "nonConnected", "classogdf_1_1_cconnect_cluster_planar.html#a75a5fe5070227580a36701e7cd1a3b3ea6bfaec9e3ebc2404ee95dc71b0674a60", null ],
+        [ "nonCConnected", "classogdf_1_1_cconnect_cluster_planar.html#a75a5fe5070227580a36701e7cd1a3b3ea5206c7ad1f1a0dbbb8c620bd4bec11ba", null ],
+        [ "nonPlanar", "classogdf_1_1_cconnect_cluster_planar.html#a75a5fe5070227580a36701e7cd1a3b3ea283d220b6aa588098970d984db2bbe64", null ],
+        [ "nonCPlanar", "classogdf_1_1_cconnect_cluster_planar.html#a75a5fe5070227580a36701e7cd1a3b3ea82342f7cddbd0d2ec00091aba4b391ef", null ]
       ] ],
       [ "CconnectClusterPlanar", "classogdf_1_1_cconnect_cluster_planar.html#a7c5fc7e1de5044a489ebc41d2714180a", null ],
       [ "~CconnectClusterPlanar", "classogdf_1_1_cconnect_cluster_planar.html#a87a5dccdcaf59759ff13f32d55927240", null ],
       [ "call", "classogdf_1_1_cconnect_cluster_planar.html#a83226fac880e033d09d32c77fea4c442", null ],
       [ "constructWheelGraph", "classogdf_1_1_cconnect_cluster_planar.html#a321d70caffb5be18c2bae58de260c305", null ],
       [ "doTest", "classogdf_1_1_cconnect_cluster_planar.html#a6ebdcecddd678ef7058e1e34f999fdc4", null ],
-      [ "errCode", "classogdf_1_1_cconnect_cluster_planar.html#a3153f341345c349704ce9fdb5ddb23b6", null ],
+      [ "errCode", "classogdf_1_1_cconnect_cluster_planar.html#a8c387cf5b75c6086c84b00f4d59bcaf9", null ],
       [ "planarityTest", "classogdf_1_1_cconnect_cluster_planar.html#a5d744667e2b8adfc2c55db15baf58a84", null ],
       [ "preparation", "classogdf_1_1_cconnect_cluster_planar.html#a09f9add18ba5b109c55a7d76fee8a2da", null ],
       [ "prepareParallelEdges", "classogdf_1_1_cconnect_cluster_planar.html#ab0a67515460b830d0b82e469ee631dd5", null ],
       [ "preProcess", "classogdf_1_1_cconnect_cluster_planar.html#a0cb6c28fd2b5704d13d26d2f047ecd71", null ],
       [ "m_clusterPQTree", "classogdf_1_1_cconnect_cluster_planar.html#aa6aaeb9c878f5a4f48c0b84cc980e87a", null ],
-      [ "m_errorCode", "classogdf_1_1_cconnect_cluster_planar.html#a8a6c0c9fafb0e98ac76af3b97f53f352", null ],
+      [ "m_errorCode", "classogdf_1_1_cconnect_cluster_planar.html#a00ebd1b074829902364fed48b7b6193f", null ],
       [ "m_isParallel", "classogdf_1_1_cconnect_cluster_planar.html#ad9c85962bce92a9c50336641eee4e64d", null ],
       [ "m_parallelCount", "classogdf_1_1_cconnect_cluster_planar.html#aecd2590f47f6e12013a1a5de73881ccf", null ],
       [ "m_parallelEdges", "classogdf_1_1_cconnect_cluster_planar.html#a42450c25fb77145b3f21e60d14703cbc", null ]
     ] ],
     [ "CconnectClusterPlanarEmbed", "classogdf_1_1_cconnect_cluster_planar_embed.html", [
-      [ "ccErrorCode", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3fe0adb62d2447c47d23749ed72e6650", [
-        [ "none", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3fe0adb62d2447c47d23749ed72e6650a0e56abd10c9aa1c014ca799b5d4fb8a4", null ],
-        [ "nonConnected", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3fe0adb62d2447c47d23749ed72e6650a738dc5ad28c061464472d471e3c6a370", null ],
-        [ "nonCConnected", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3fe0adb62d2447c47d23749ed72e6650ad44666cf52dbd6afc5a78d757e8d1058", null ],
-        [ "nonPlanar", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3fe0adb62d2447c47d23749ed72e6650af321b0afcf160582a2c63ea621e2bf5c", null ],
-        [ "nonCPlanar", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3fe0adb62d2447c47d23749ed72e6650a4f6246458838239bf0ab0a63ee393b58", null ]
+      [ "EmbedPQTree", "classogdf_1_1_cconnect_cluster_planar_embed.html#a9720c18de87c11a3246bb8fe75edb5fc", null ],
+      [ "ErrorCode", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3f06a061b7a8663e9271c6ca846cb8df", [
+        [ "none", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3f06a061b7a8663e9271c6ca846cb8dfa334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
+        [ "nonConnected", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3f06a061b7a8663e9271c6ca846cb8dfa6bfaec9e3ebc2404ee95dc71b0674a60", null ],
+        [ "nonCConnected", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3f06a061b7a8663e9271c6ca846cb8dfa5206c7ad1f1a0dbbb8c620bd4bec11ba", null ],
+        [ "nonPlanar", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3f06a061b7a8663e9271c6ca846cb8dfa283d220b6aa588098970d984db2bbe64", null ],
+        [ "nonCPlanar", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3f06a061b7a8663e9271c6ca846cb8dfa82342f7cddbd0d2ec00091aba4b391ef", null ]
       ] ],
       [ "CconnectClusterPlanarEmbed", "classogdf_1_1_cconnect_cluster_planar_embed.html#ab3be8218470c88ac18f1ff1ebc10d41d", null ],
       [ "~CconnectClusterPlanarEmbed", "classogdf_1_1_cconnect_cluster_planar_embed.html#af331e341a06a08bab78eb6b9adf59eb2", null ],
@@ -39,7 +41,7 @@ var group__ga_cplanarity =
       [ "doEmbed", "classogdf_1_1_cconnect_cluster_planar_embed.html#a4e70bf65987b5d1945e1af6918a66776", null ],
       [ "embed", "classogdf_1_1_cconnect_cluster_planar_embed.html#a47497bab5325159e4bc28d3795ea30c5", null ],
       [ "entireEmbed", "classogdf_1_1_cconnect_cluster_planar_embed.html#ae3aa5a9d9dff07eaac41e0839574a25d", null ],
-      [ "errCode", "classogdf_1_1_cconnect_cluster_planar_embed.html#a8c6684903101457453a59d006991f605", null ],
+      [ "errCode", "classogdf_1_1_cconnect_cluster_planar_embed.html#af4d40e3dcbd2a2d0f587d491a51a5e90", null ],
       [ "hubControl", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3edf270cad412d68c1620fa43762277d", null ],
       [ "nonPlanarCleanup", "classogdf_1_1_cconnect_cluster_planar_embed.html#a625a36b800f89f5730c91ec82cb09db6", null ],
       [ "planarityTest", "classogdf_1_1_cconnect_cluster_planar_embed.html#a455c3bdfcdce196f622184df4cad73c4", null ],
@@ -53,7 +55,7 @@ var group__ga_cplanarity =
       [ "m_clusterEmbedding", "classogdf_1_1_cconnect_cluster_planar_embed.html#aa0ecc9b6ec6bfb9517f7e6ba11fd6264", null ],
       [ "m_clusterNodeTableNew2Orig", "classogdf_1_1_cconnect_cluster_planar_embed.html#ab9df1b3bda3b5017c573eab36d392adc", null ],
       [ "m_clusterOutgoingEdgesAnker", "classogdf_1_1_cconnect_cluster_planar_embed.html#a64165e67f8b4746e98b3e7a3917d9b27", null ],
-      [ "m_clusterPQContainer", "classogdf_1_1_cconnect_cluster_planar_embed.html#a627375ebd6042c147765bf1f5c9c980c", null ],
+      [ "m_clusterPQContainer", "classogdf_1_1_cconnect_cluster_planar_embed.html#a9374189fc0637029e70b9fc913187c3c", null ],
       [ "m_clusterPQTree", "classogdf_1_1_cconnect_cluster_planar_embed.html#a95fd3001186e332f99bffb7f6fb848f6", null ],
       [ "m_clusterSubgraph", "classogdf_1_1_cconnect_cluster_planar_embed.html#aa14b29290e77a45b81ff1105c3cfdddc", null ],
       [ "m_clusterSubgraphHubs", "classogdf_1_1_cconnect_cluster_planar_embed.html#a888e686ac160947f88ebbcb2d0cb28ee", null ],
@@ -62,7 +64,7 @@ var group__ga_cplanarity =
       [ "m_clusterTableCopy2Orig", "classogdf_1_1_cconnect_cluster_planar_embed.html#a5509d1382cc7239553b92ea0605ab60b", null ],
       [ "m_clusterTableOrig2Copy", "classogdf_1_1_cconnect_cluster_planar_embed.html#a5aeaebf195694377acb54e218ed45e49", null ],
       [ "m_currentHubs", "classogdf_1_1_cconnect_cluster_planar_embed.html#aaeda18c5c25d12ab22158b2aae22c02b", null ],
-      [ "m_errorCode", "classogdf_1_1_cconnect_cluster_planar_embed.html#a3ab99921502cb3dab9f03ebf72a95981", null ],
+      [ "m_errorCode", "classogdf_1_1_cconnect_cluster_planar_embed.html#a7625dd96eabe6f811282ff9d9ff279ca", null ],
       [ "m_instance", "classogdf_1_1_cconnect_cluster_planar_embed.html#abc754fae162fe1eaacb9caebe41205ea", null ],
       [ "m_isParallel", "classogdf_1_1_cconnect_cluster_planar_embed.html#af5c52a5b4e2dacda8ab0f11eff1e4dc8", null ],
       [ "m_nodeTableCopy2Orig", "classogdf_1_1_cconnect_cluster_planar_embed.html#a6509982db32e2b1cdea81bab889f4b67", null ],
@@ -74,14 +76,16 @@ var group__ga_cplanarity =
       [ "m_wheelGraphNodes", "classogdf_1_1_cconnect_cluster_planar_embed.html#a91f8a9e1a0a93d427a39de3cf52ca5d7", null ]
     ] ],
     [ "ClusterPlanarity", "classogdf_1_1_cluster_planarity.html", [
+      [ "CP_MasterBase", "classogdf_1_1_cluster_planarity.html#aa061961642986e98bb371c7db3974b40", null ],
+      [ "NodePairs", "classogdf_1_1_cluster_planarity.html#a9e01bc50cb83df7d683940fa579c9003", null ],
       [ "solmeth", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39", [
-        [ "sm_fb", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39aee4e43e97e39cfdd61a5b2f0f5dff16b", null ],
-        [ "sm_new", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39a6c27f969adb3e02539d26aaaef700021", null ]
+        [ "Fallback", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39a882277bdf25efaeb8295e842ebcb3d11", null ],
+        [ "New", "classogdf_1_1_cluster_planarity.html#ae262e5ef2d6ceb5afb91969f2b1f8e39a03c2e7e41ffc181a4e84080b4710e81e", null ]
       ] ],
       [ "ClusterPlanarity", "classogdf_1_1_cluster_planarity.html#a5a1e9fd32f0018775e5676936f722766", null ],
       [ "~ClusterPlanarity", "classogdf_1_1_cluster_planarity.html#ada84a37a293b7d27efce23daf2faaa23", null ],
       [ "doTest", "classogdf_1_1_cluster_planarity.html#af55d8900f3161661ba2f16c8778645a8", null ],
-      [ "doTest", "classogdf_1_1_cluster_planarity.html#aab7f63c9eefe440dd2fc9df55c81a68e", null ],
+      [ "doTest", "classogdf_1_1_cluster_planarity.html#a07094e74880b2bf48240d1b29258e4df", null ],
       [ "getBottomUpClusterList", "classogdf_1_1_cluster_planarity.html#a6e15aa294d55c1af0f6be858212ab30d", null ],
       [ "getDoubleTime", "classogdf_1_1_cluster_planarity.html#a2e0315bcc458f6231933689cd8170c24", null ],
       [ "getHeurTime", "classogdf_1_1_cluster_planarity.html#a51d1b5c7a49a1ffdb6eb3e36f992c320", null ],
@@ -99,7 +103,7 @@ var group__ga_cplanarity =
       [ "getSeparationTime", "classogdf_1_1_cluster_planarity.html#a6ec01dbd2833699ea6752a78eec39f0b", null ],
       [ "getTotalTime", "classogdf_1_1_cluster_planarity.html#ad9ae15877555449e4aba09aa2518efdb", null ],
       [ "getTotalWTime", "classogdf_1_1_cluster_planarity.html#a3563c66425754ee98b1bc9748d514478", null ],
-      [ "isClusterPlanar", "classogdf_1_1_cluster_planarity.html#a4d17a8b646f1c29037fc8c9de1d9bcfc", null ],
+      [ "isClusterPlanar", "classogdf_1_1_cluster_planarity.html#ad478e4ecd15c5177e7d33a82d80bb057", null ],
       [ "isClusterPlanar", "classogdf_1_1_cluster_planarity.html#a883bcdfa892d64f172477499c3b06bac", null ],
       [ "maxConLength", "classogdf_1_1_cluster_planarity.html#ab61cc069147367cc623bf4c828ac6f12", null ],
       [ "outputCons", "classogdf_1_1_cluster_planarity.html#aa3d48ee3c49b3760896bf94c634aed4d", null ],
@@ -158,8 +162,8 @@ var group__ga_cplanarity =
     ] ],
     [ "CPlanarEdgeInserter", "classogdf_1_1_c_planar_edge_inserter.html", [
       [ "PostProcessType", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3e", [
-        [ "ppNone", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3ea037127f705b1186c947ae432adf2d6c3", null ],
-        [ "ppRemoveReinsert", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3eaef9a6f672e54201971a67fc6322a7608", null ]
+        [ "None", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3ea6adf97f83acf6453d4a6a4b1070f3754", null ],
+        [ "RemoveReinsert", "classogdf_1_1_c_planar_edge_inserter.html#a3b5068301cfb3d18b493c1cce0064e3ea5d1425f444ba2725b85d02da1d8b1f5e", null ]
       ] ],
       [ "CPlanarEdgeInserter", "classogdf_1_1_c_planar_edge_inserter.html#a3fa6f756e0e1cafba67f950fafbdc020", null ],
       [ "~CPlanarEdgeInserter", "classogdf_1_1_c_planar_edge_inserter.html#ab2314de7458e65ab564d7a924da64a82", null ],
@@ -204,18 +208,18 @@ var group__ga_cplanarity =
         [ "errorILP", "classogdf_1_1_hanani_tutte_c_planarity.html#a1910841aa967ec70400fa0f06cdefb10ab7bf1c8290a73d36270ba8b43e238619", null ]
       ] ],
       [ "SubType", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099", [
-        [ "vertex", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a2b5bc093b09bd81f51de433bde9d202a", null ],
-        [ "cluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a06b2d4b91b5c9eaa8c20a1c270f95b3c", null ],
-        [ "edge", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a09039bd1628a3c1b25fda3134a4fe050", null ],
-        [ "innerCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a2e58eedb69b7062509cfa9ba00ba6076", null ],
-        [ "outerCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099adb114e774dd0d9b068424c2237be26d2", null ],
-        [ "vertexCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a75eef474635387704e0b1a4b8e1197a8", null ],
-        [ "clusterCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a8f109264eb1dd72055c6c0bfc9badef4", null ],
-        [ "crossCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099ab761c055b60ce70bc263acb18034cdfb", null ]
+        [ "stVertex", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a283d849bd34de4decd3aafe698beb751", null ],
+        [ "stCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099ac8e38cd8a088dfd0c7115aeab0677237", null ],
+        [ "stEdge", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a66988dcacd74b4caca623e2b5b2c5640", null ],
+        [ "stInnerCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099aac3b3156198e2795fd66b3e5885d5d25", null ],
+        [ "stOuterCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a84a2fc5951645bfa4a96d3929247cf19", null ],
+        [ "stVertexCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a695c02e04b7ba004506ccfec3a394c3e", null ],
+        [ "stClusterCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099ac25fd473e7855129b7034f434ce460a3", null ],
+        [ "stCrossCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099af4f591da8dcf560b3388f3a2c57a3792", null ]
       ] ],
       [ "Type", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0ca", [
-        [ "vertex", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0caa2b5bc093b09bd81f51de433bde9d202a", null ],
-        [ "edge", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0caa09039bd1628a3c1b25fda3134a4fe050", null ]
+        [ "tVertex", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0caa662adb4cb8160513ed8555d1ae85c331", null ],
+        [ "tEdge", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0caa139fb4aa7d91604ff21ec9184bcd1afa", null ]
       ] ],
       [ "Verification", "classogdf_1_1_hanani_tutte_c_planarity.html#a9b132bbc7f3d12a0a8c8670c0ba645d0", [
         [ "cPlanar", "classogdf_1_1_hanani_tutte_c_planarity.html#a9b132bbc7f3d12a0a8c8670c0ba645d0a2bd33642222a9e7dde13e6df3233e739", null ],
@@ -247,11 +251,13 @@ var group__ga_cplanarity =
       [ "m_tSolve", "classogdf_1_1_hanani_tutte_c_planarity.html#add5e856b617b91c884a6f669dc5b81d4", null ]
     ] ],
     [ "MaximumCPlanarSubgraph", "classogdf_1_1_maximum_c_planar_subgraph.html", [
+      [ "MaxCPlanarMaster", "classogdf_1_1_maximum_c_planar_subgraph.html#a7bda08c2b8e4e9e046efd9ed306c41fd", null ],
+      [ "NodePairs", "classogdf_1_1_maximum_c_planar_subgraph.html#a1f775b8864ffea01098042fd26a92ee9", null ],
       [ "MaximumCPlanarSubgraph", "classogdf_1_1_maximum_c_planar_subgraph.html#a38ab9629a443a74d75c8130da5cd8706", null ],
       [ "~MaximumCPlanarSubgraph", "classogdf_1_1_maximum_c_planar_subgraph.html#afdee7f5c724878ec536b18649fab4283", null ],
-      [ "callAndConnect", "classogdf_1_1_maximum_c_planar_subgraph.html#ad86999959147d100a9f9f4938b292198", null ],
+      [ "callAndConnect", "classogdf_1_1_maximum_c_planar_subgraph.html#a7df80ec6fc6251e0c288e9db3804e812", null ],
       [ "doCall", "classogdf_1_1_maximum_c_planar_subgraph.html#a142ac3b8e5144036d095de5ef368913e", null ],
-      [ "doCall", "classogdf_1_1_maximum_c_planar_subgraph.html#afc244e46ff0b247b578e67618b6f8b8a", null ],
+      [ "doCall", "classogdf_1_1_maximum_c_planar_subgraph.html#a169828f2df7adef56d437425b8c13543", null ],
       [ "getBottomUpClusterList", "classogdf_1_1_maximum_c_planar_subgraph.html#a5662bf6c7154e15e524d27397e29d842", null ],
       [ "getDoubleTime", "classogdf_1_1_maximum_c_planar_subgraph.html#ad9159777d33a8b0b31762f6f6630f44a", null ],
       [ "getHeurTime", "classogdf_1_1_maximum_c_planar_subgraph.html#ada77d2bb8462d681fde1ceadb46f205f", null ],

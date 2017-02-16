@@ -2,9 +2,9 @@ var classogdf_1_1_multi_edge_approx_inserter =
 [
     [ "VertexBlock", "structogdf_1_1_multi_edge_approx_inserter_1_1_vertex_block.html", "structogdf_1_1_multi_edge_approx_inserter_1_1_vertex_block" ],
     [ "PathDir", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32", [
-      [ "pdLeft", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32a341e5b7905ca60d0492e8fc2e58dabf9", null ],
-      [ "pdRight", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32aaead2bebf09133a999d6875b7f4730e9", null ],
-      [ "pdNone", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32ab37808f2d8d1e787a1018f3a910e6adc", null ]
+      [ "Left", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32a945d5e233cf7d6240f6b783b36a374ff", null ],
+      [ "Right", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32a92b09c7c48c520c3c55e497875da437c", null ],
+      [ "None", "classogdf_1_1_multi_edge_approx_inserter.html#a985c4b8aad18ab51f725382fe7d79d32a6adf97f83acf6453d4a6a4b1070f3754", null ]
     ] ],
     [ "MultiEdgeApproxInserter", "classogdf_1_1_multi_edge_approx_inserter.html#ada70eede41dfb33afc90b08eb88104c0", null ],
     [ "MultiEdgeApproxInserter", "classogdf_1_1_multi_edge_approx_inserter.html#ad228bd9e78843b4cdbebbfb0367ff558", null ],

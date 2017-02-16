@@ -1,7 +1,7 @@
 var classpugi_1_1xpath__node__set =
 [
-    [ "const_iterator", "classpugi_1_1xpath__node__set.html#a6987510e88cea4a396d186285c174de6", null ],
-    [ "iterator", "classpugi_1_1xpath__node__set.html#aa3a2497c2ad7d557672fdc92954ba210", null ],
+    [ "const_iterator", "classpugi_1_1xpath__node__set.html#a1e18ff4c3aa63babe05565c4d3f3de93", null ],
+    [ "iterator", "classpugi_1_1xpath__node__set.html#a6bc38dac0fc0e1532fca57c8a2bc9b90", null ],
     [ "type_t", "classpugi_1_1xpath__node__set.html#a6c6899c8ecfbce9e42ec85540907080e", [
       [ "type_unsorted", "classpugi_1_1xpath__node__set.html#a6c6899c8ecfbce9e42ec85540907080ea7636fa164710ab9b069850ea3b3e4924", null ],
       [ "type_sorted", "classpugi_1_1xpath__node__set.html#a6c6899c8ecfbce9e42ec85540907080ea9d5ce5e6194ac2003da0d86d9af87437", null ],

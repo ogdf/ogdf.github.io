@@ -1,5 +1,6 @@
 var group__ga_connectivity =
 [
+    [ "biconnectedComponents", "group__ga-connectivity.html#ga467c034577ce3f4e05af221389ce4fc9", null ],
     [ "biconnectedComponents", "group__ga-connectivity.html#gaaf2c637d8c661da9bd055c341755f782", null ],
     [ "connectedComponents", "group__ga-connectivity.html#ga0504711e547b0febf00a261ce27ae5f1", null ],
     [ "connectedIsolatedComponents", "group__ga-connectivity.html#gac63c344ed6d409cea63bdf7e1043bc1e", null ],
@@ -16,6 +17,6 @@ var group__ga_connectivity =
     [ "makeCConnected", "group__ga-connectivity.html#ga10548d3e57dc3e8540fa3d1999d667bd", null ],
     [ "makeConnected", "group__ga-connectivity.html#ga45ad040cb847b7c90e477a380133bf1a", null ],
     [ "makeConnected", "group__ga-connectivity.html#ga1957f900d61dfd83c7e7caf651008233", null ],
-    [ "strongComponents", "group__ga-connectivity.html#ga37066ae2d31c3bd894070370829f1047", null ],
+    [ "strongComponents", "group__ga-digraph.html#ga37066ae2d31c3bd894070370829f1047", null ],
     [ "triangulate", "group__ga-connectivity.html#gac62d9f1f36abc4452e540a02d0eca034", null ]
 ];

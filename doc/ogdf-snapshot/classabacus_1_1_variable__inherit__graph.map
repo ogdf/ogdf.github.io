@@ -1,9 +1,9 @@
 <map id="abacus::Variable" name="abacus::Variable">
 <area shape="rect" id="node4" href="$classabacus_1_1_col_var.html" title="Some optimization problems, in particular column generation problems, are better described from a var..." alt="" coords="568,5,680,32"/>
 <area shape="rect" id="node5" href="$classabacus_1_1_num_var.html" title="Variables identified by a number. " alt="" coords="564,56,684,83"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_edge_var.html" title="ogdf::EdgeVar" alt="" coords="571,107,677,133"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_variable.html" title="Variable for directed edges. " alt="" coords="528,158,720,199"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="197,81,313,108"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,81,149,108"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_c_planar_edge_var.html" title="ogdf::CPlanarEdgeVar" alt="" coords="768,107,920,133"/>
+<area shape="rect" id="node6" href="$classogdf_1_1cluster__planarity_1_1_edge_var.html" title="ogdf::cluster_planarity\l::EdgeVar" alt="" coords="549,107,699,149"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_variable.html" title="Variable for directed edges. " alt="" coords="528,173,720,214"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable). " alt="" coords="197,85,313,112"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,85,149,112"/>
+<area shape="rect" id="node7" href="$classogdf_1_1cluster__planarity_1_1_c_planar_edge_var.html" title="ogdf::cluster_planarity\l::CPlanarEdgeVar" alt="" coords="768,107,919,149"/>
 </map>

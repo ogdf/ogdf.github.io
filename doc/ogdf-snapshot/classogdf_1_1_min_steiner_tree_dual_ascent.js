@@ -7,7 +7,7 @@ var classogdf_1_1_min_steiner_tree_dual_ascent =
     [ "init", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a36fa74ffed33f0042cd7ff269da96c5c", null ],
     [ "isActiveComponent", "classogdf_1_1_min_steiner_tree_dual_ascent.html#aee78ac163b0fef4e8e1dec0c50e9481f", null ],
     [ "isTerminal", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a5b41f0c8c652d9632d7aa583e0ea740b", null ],
-    [ "updateComponents", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a1abd29eb04d92cc3f815ad63ac6fe747", null ],
+    [ "updateComponents", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a761ccb88143133851b35641e2a27133c", null ],
     [ "m_componentMapping", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a4f5dd5afc8b8c11ae329964d836441be", null ],
     [ "m_diGraph", "classogdf_1_1_min_steiner_tree_dual_ascent.html#a2801fd8996befc574d895208042e237b", null ],
     [ "m_edgeInclusions", "classogdf_1_1_min_steiner_tree_dual_ascent.html#ab6b456881d627c575854e867491e670b", null ],

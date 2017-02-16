@@ -6,13 +6,9 @@ var basic_8h =
     [ "OGDF_ASSERT_IF", "group__macros.html#gab6604de671117ba22fa29f81ca12bd94", null ],
     [ "OGDF_SET_DEBUG_LEVEL", "group__macros.html#ga702bb462c4400c9f185596c59ceafee7", null ],
     [ "Direction", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2b", [
-      [ "before", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba316bd36a4da63c26954690d7624c4429", null ],
-      [ "after", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba4c63159e8c0fde2efcf369d1251e43ee", null ]
+      [ "before", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba2f44417567bc123bd7c60de8c2a2b444", null ],
+      [ "after", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba632a2406bbcbcd553eec45ac14b40a0a", null ]
     ] ],
-    [ "doDestruction", "basic_8h.html#a45723efeb883b3f41cfb5ac5156ccefe", null ],
-    [ "doDestruction", "basic_8h.html#aa112d25b78e9e7b753ea8feacb4cad42", null ],
-    [ "doDestruction< double >", "basic_8h.html#aa639dbf13988119ef16eea60ae325a0f", null ],
-    [ "doDestruction< int >", "basic_8h.html#a9515a83a9a407f89d48b90d972e18afa", null ],
     [ "equalIgnoreCase", "basic_8h.html#a19acb1713a6450ce26c0cf1280f3e9ba", null ],
     [ "prefixIgnoreCase", "basic_8h.html#a8c0a6fa283c35776abe73b1cec7f9004", null ],
     [ "randomDouble", "basic_8h.html#ga45ca26f42fd159f5a7f91e6756197777", null ],

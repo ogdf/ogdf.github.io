@@ -1,14 +1,7 @@
 var classogdf_1_1_pool_memory_allocator =
 [
     [ "MemElem", "structogdf_1_1_pool_memory_allocator_1_1_mem_elem.html", "structogdf_1_1_pool_memory_allocator_1_1_mem_elem" ],
-    [ "MemElemEx", "structogdf_1_1_pool_memory_allocator_1_1_mem_elem_ex.html", "structogdf_1_1_pool_memory_allocator_1_1_mem_elem_ex" ],
-    [ "BlockChainPtr", "classogdf_1_1_pool_memory_allocator.html#a947d42d1f196230a0ce8f4219d3bee69", null ],
-    [ "MemElemExPtr", "classogdf_1_1_pool_memory_allocator.html#a528fdee709ba3a1a13a435537e87f5c0", null ],
-    [ "MemElemPtr", "classogdf_1_1_pool_memory_allocator.html#a4aa2e48f50461bad261502b01f5eb428", null ],
-    [ "eMinBytes", "classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba69d7dc06218481ba985786d40efee0bd", null ],
-    [ "eTableSize", "classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba4a381ddcc36303f0a33c4f0e76a3b352", null ],
-    [ "eBlockSize", "classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba1a296fd88ee03cc4eb4e5f0a23d690ac", null ],
-    [ "ePoolVectorLength", "classogdf_1_1_pool_memory_allocator.html#a2306a959d40efaedcde630b679f289eba20e44390f6ec933667da0cd291da666c", null ],
+    [ "MemElemPtr", "classogdf_1_1_pool_memory_allocator.html#ad9b5548b144b6e8e7943e1cdcdbaf0e6", null ],
     [ "PoolMemoryAllocator", "classogdf_1_1_pool_memory_allocator.html#a6e3407cdc99057fcddaacc70b82c0cf9", null ],
     [ "~PoolMemoryAllocator", "classogdf_1_1_pool_memory_allocator.html#a6d9044dab1ddf067c2c8e2394b9ec29b", null ],
     [ "allocate", "classogdf_1_1_pool_memory_allocator.html#af5682a02b8cf2326a23525fef42cc060", null ],
@@ -29,8 +22,11 @@ var classogdf_1_1_pool_memory_allocator =
     [ "slicesPerBlock", "classogdf_1_1_pool_memory_allocator.html#af7414c3411f6ecbf88fd1ea1e42cc6eb", null ],
     [ "slicesPerBlock", "classogdf_1_1_pool_memory_allocator.html#ac2acfa3c241a975d277cb626f77f440b", null ],
     [ "unguardedMemGlobalFreelist", "classogdf_1_1_pool_memory_allocator.html#a16a87c504cc2dcaa0fb08b0a2b908c32", null ],
-    [ "s_blocks", "classogdf_1_1_pool_memory_allocator.html#a12a8a03fe747303a3c11a1cb71502d92", null ],
+    [ "BLOCK_SIZE", "classogdf_1_1_pool_memory_allocator.html#a7915242ae661650ced17228a60b3b114", null ],
+    [ "MIN_BYTES", "classogdf_1_1_pool_memory_allocator.html#a53c56a3875178e4f9ff442c8778efcec", null ],
+    [ "s_blocks", "classogdf_1_1_pool_memory_allocator.html#afbb1898040e53435be7cee000a166be4", null ],
     [ "s_mutex", "classogdf_1_1_pool_memory_allocator.html#a1ae3597c73925913c7fc3ee6ab9c013d", null ],
-    [ "s_pool", "classogdf_1_1_pool_memory_allocator.html#aca62e861d1109d64f1dc71dbd5786afc", null ],
-    [ "s_tp", "classogdf_1_1_pool_memory_allocator.html#a908978eb5e128ce6d143cc2f8328bb4f", null ]
+    [ "s_pool", "classogdf_1_1_pool_memory_allocator.html#a8e6d9cecf3db9ad2122d4a53e8eb6ca8", null ],
+    [ "s_tp", "classogdf_1_1_pool_memory_allocator.html#aa9307e06abf5acecd5af31e7158b9392", null ],
+    [ "TABLE_SIZE", "classogdf_1_1_pool_memory_allocator.html#a10ec76b635781b6f752e4ca72b213e59", null ]
 ];

@@ -2,22 +2,22 @@ var classogdf_1_1_graph =
 [
     [ "CCsInfo", "classogdf_1_1_graph_1_1_c_cs_info.html", "classogdf_1_1_graph_1_1_c_cs_info" ],
     [ "HiddenEdgeSet", "classogdf_1_1_graph_1_1_hidden_edge_set.html", "classogdf_1_1_graph_1_1_hidden_edge_set" ],
-    [ "adjEntry_iterator", "classogdf_1_1_graph.html#a5d542544b657f4cc5441b522706790c3", null ],
-    [ "edge_iterator", "classogdf_1_1_graph.html#a3b00b392972dead89bda4fa0cad55c10", null ],
-    [ "node_iterator", "classogdf_1_1_graph.html#a73e4f388cc503fcfe85fd8be5c18e68b", null ],
+    [ "adjEntry_iterator", "classogdf_1_1_graph.html#a6c75a1c52e23a849b624abf779d6b78f", null ],
+    [ "edge_iterator", "classogdf_1_1_graph.html#ae61bb4960074af3e1c97af4192f1b1ec", null ],
+    [ "node_iterator", "classogdf_1_1_graph.html#a54c5cd28eaa20d261ec668d0c0c53942", null ],
     [ "EdgeType", "classogdf_1_1_graph.html#ac8c48494e3c2accfc3e401e4553eef32", [
-      [ "association", "classogdf_1_1_graph.html#ac8c48494e3c2accfc3e401e4553eef32a3f87e81869ae5cb959c31820f970ee8c", null ],
-      [ "generalization", "classogdf_1_1_graph.html#ac8c48494e3c2accfc3e401e4553eef32a173a6fa8f4a6caff615374a87492192f", null ],
-      [ "dependency", "classogdf_1_1_graph.html#ac8c48494e3c2accfc3e401e4553eef32a926f967052dd84bb9cf180de9d64f27e", null ]
+      [ "association", "classogdf_1_1_graph.html#ac8c48494e3c2accfc3e401e4553eef32aaf14b067a4804cdc758bf5ba6908a3fb", null ],
+      [ "generalization", "classogdf_1_1_graph.html#ac8c48494e3c2accfc3e401e4553eef32af70cf526b32d5c73a944d9850b898355", null ],
+      [ "dependency", "classogdf_1_1_graph.html#ac8c48494e3c2accfc3e401e4553eef32ae54debd65d8142e7785275aab411fd8f", null ]
     ] ],
     [ "NodeType", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741d", [
-      [ "vertex", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da2dfcbc859a2a77196553a913e35d4011", null ],
-      [ "dummy", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da540ed4b0911c887cc0b3265489c059fd", null ],
-      [ "generalizationMerger", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da76e2fa2972090b318abf29ed48c4b760", null ],
-      [ "generalizationExpander", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741dadf52e4922a60c547ba7e558b40a28503", null ],
-      [ "highDegreeExpander", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da68e9face5954939f79a043ea2589eb6b", null ],
-      [ "lowDegreeExpander", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741dac222dab024074bc598fb77bd04a611d3", null ],
-      [ "associationClass", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da57f750ab8a3f3db54bdcf8f67bd30e8b", null ]
+      [ "vertex", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da2b5bc093b09bd81f51de433bde9d202a", null ],
+      [ "dummy", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da275876e34cf609db118f3d84b799a790", null ],
+      [ "generalizationMerger", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741dac65cd3b2fc4750c8bfb132fbfbe94c07", null ],
+      [ "generalizationExpander", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741dab2caa62f38ce4201e38f93e53e449aae", null ],
+      [ "highDegreeExpander", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da7ce79441a3590baf520403134748e626", null ],
+      [ "lowDegreeExpander", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da3fa33f0b018be7a172a0ba334417ce29", null ],
+      [ "associationClass", "classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da82adb3878dc60a7fe47eccf082dc1635", null ]
     ] ],
     [ "Graph", "classogdf_1_1_graph.html#aab24e52e58cce69a72511c7bde57fb17", null ],
     [ "Graph", "classogdf_1_1_graph.html#a8a18bb43ac2b9175082721d3aec28882", null ],
@@ -29,7 +29,7 @@ var classogdf_1_1_graph =
     [ "chooseEdge", "classogdf_1_1_graph.html#a99f6e0a5e684fa33f4167e1211540457", null ],
     [ "chooseNode", "classogdf_1_1_graph.html#a30b6451dffe2afbc5d927da863c4546a", null ],
     [ "clear", "classogdf_1_1_graph.html#a610df8ebbd85106ce455885ffe8c5b9c", null ],
-    [ "collapse", "classogdf_1_1_graph.html#a48794b872aab7ecf8e8a53254b04d670", null ],
+    [ "collapse", "classogdf_1_1_graph.html#a5fb37cc76bada731f2c6e3aa8ffcce5c", null ],
     [ "consistencyCheck", "classogdf_1_1_graph.html#add5f591be88807f1369611c05bffb6ba", null ],
     [ "construct", "classogdf_1_1_graph.html#a0b58b28902b27e0adb5e8a02f98ce220", null ],
     [ "constructInitByActiveNodes", "classogdf_1_1_graph.html#a926c785fd457883449c5830ca29bc6ca", null ],
@@ -65,7 +65,7 @@ var classogdf_1_1_graph =
     [ "moveTarget", "classogdf_1_1_graph.html#a931e0a1d680e0c3a4ba6231cf6e50569", null ],
     [ "newEdge", "classogdf_1_1_graph.html#a5824794851132ba79dca5a2d6eef9f01", null ],
     [ "newEdge", "classogdf_1_1_graph.html#ae0071d88d3a6b162e49d530ead686119", null ],
-    [ "newEdge", "classogdf_1_1_graph.html#a992c63b9510abd4661cd5581e73ac243", null ],
+    [ "newEdge", "classogdf_1_1_graph.html#a828ce5716995ae452cc8e2842b45e313", null ],
     [ "newEdge", "classogdf_1_1_graph.html#a3826e47a69197cc709d9454ba846f0e3", null ],
     [ "newEdge", "classogdf_1_1_graph.html#a6a4fb6bac02583ae7becee675d2a0ec7", null ],
     [ "newNode", "classogdf_1_1_graph.html#adf23da993771ccb4a3af1ab5484023fc", null ],

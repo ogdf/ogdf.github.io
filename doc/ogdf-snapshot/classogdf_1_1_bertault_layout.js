@@ -33,10 +33,10 @@ var classogdf_1_1_bertault_layout =
     [ "setImpred", "classogdf_1_1_bertault_layout.html#a2fc6b2c2511002b009bb5940a6e2d414", null ],
     [ "F_x", "classogdf_1_1_bertault_layout.html#a513ad8fc0d36a1e98a9977bd1468d023", null ],
     [ "F_y", "classogdf_1_1_bertault_layout.html#a8d67bf32cdb81479477b9441a1d336ca", null ],
-    [ "i", "classogdf_1_1_bertault_layout.html#a0d76dd79d96bba8aee1ddac82adc0f01", null ],
     [ "impred", "classogdf_1_1_bertault_layout.html#a1abebc486e9d6ab6244712e416656a58", null ],
     [ "iter_no", "classogdf_1_1_bertault_layout.html#a69a1631c63a6c677971f015fde4b2c14", null ],
     [ "limit", "classogdf_1_1_bertault_layout.html#acf89d1cd7f6b9b862581c5871688a11c", null ],
+    [ "proj", "classogdf_1_1_bertault_layout.html#ae3aa873b87f17864b0908a55c9df3a77", null ],
     [ "req_length", "classogdf_1_1_bertault_layout.html#ac9703ba27558238094a7c3ce0167834e", null ],
     [ "sect", "classogdf_1_1_bertault_layout.html#ae9770b2090482307f9a1b749ff191fce", null ],
     [ "surr", "classogdf_1_1_bertault_layout.html#a3d98740de58c091536bc882ef11b1806", null ]

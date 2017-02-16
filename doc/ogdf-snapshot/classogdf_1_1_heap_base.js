@@ -1,6 +1,6 @@
 var classogdf_1_1_heap_base =
 [
-    [ "Handle", "classogdf_1_1_heap_base.html#afbe90dcefbd716b4b1cbacd8a8cbad39", null ],
+    [ "Handle", "classogdf_1_1_heap_base.html#acb10bf33176b0ed4b7f0982a77ba2261", null ],
     [ "HeapBase", "classogdf_1_1_heap_base.html#ac3c2311c40c90ad551a33f27b61f9972", null ],
     [ "comparator", "classogdf_1_1_heap_base.html#ac8828d36d63298face54a08516331b18", null ],
     [ "decrease", "classogdf_1_1_heap_base.html#ae935362e9a47cdd40f3664ad72994131", null ],

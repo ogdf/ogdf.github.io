@@ -1,5 +1,11 @@
 var dir_d50a3e54837dae900eaf432bdb34b2c1 =
 [
+    [ "booth_lueker", "dir_c0b00d6052e60cbe04d1135c5cb5512c.html", "dir_c0b00d6052e60cbe04d1135c5cb5512c" ],
+    [ "boyer_myrvold", "dir_9ad0c58f0cab74a6dcbf29220a639463.html", "dir_9ad0c58f0cab74a6dcbf29220a639463" ],
+    [ "embedder", "dir_09f0da65497f54ae5034f96b81596129.html", "dir_09f0da65497f54ae5034f96b81596129" ],
+    [ "embedding_inserter", "dir_cb83ad41afa9b055a4f6a7bf218cfae0.html", "dir_cb83ad41afa9b055a4f6a7bf218cfae0" ],
+    [ "planar_subgraph_fast", "dir_59f850a0376054518ace8fec75013e31.html", "dir_59f850a0376054518ace8fec75013e31" ],
+    [ "planarization_layout", "dir_8e349b9f40fbc8e4564e651946942216.html", "dir_8e349b9f40fbc8e4564e651946942216" ],
     [ "BoothLueker.h", "_booth_lueker_8h.html", null ],
     [ "BoyerMyrvold.h", "_boyer_myrvold_8h.html", null ],
     [ "EdgeTypePatterns.h", "_edge_type_patterns_8h.html", "_edge_type_patterns_8h" ],
@@ -10,10 +16,7 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
     [ "EmbedderMinDepthMaxFaceLayers.h", "_embedder_min_depth_max_face_layers_8h.html", null ],
     [ "EmbedderMinDepthPiTa.h", "_embedder_min_depth_pi_ta_8h.html", null ],
     [ "EmbedderOptimalFlexDraw.h", "_embedder_optimal_flex_draw_8h.html", null ],
-    [ "ExtractKuratowskis.h", "_extract_kuratowskis_8h.html", [
-      [ "DynamicBacktrack", "classogdf_1_1_dynamic_backtrack.html", "classogdf_1_1_dynamic_backtrack" ],
-      [ "KuratowskiWrapper", "classogdf_1_1_kuratowski_wrapper.html", "classogdf_1_1_kuratowski_wrapper" ]
-    ] ],
+    [ "ExtractKuratowskis.h", "_extract_kuratowskis_8h.html", "_extract_kuratowskis_8h" ],
     [ "FixedEmbeddingInserter.h", "_fixed_embedding_inserter_8h.html", null ],
     [ "KuratowskiSubdivision.h", "_kuratowski_subdivision_8h.html", [
       [ "KuratowskiSubdivision", "classogdf_1_1_kuratowski_subdivision.html", null ]
@@ -34,7 +37,8 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
     [ "NodeTypePatterns.h", "_node_type_patterns_8h.html", "_node_type_patterns_8h" ],
     [ "NonPlanarCore.h", "_non_planar_core_8h.html", [
       [ "GlueMap", "classogdf_1_1_glue_map.html", "classogdf_1_1_glue_map" ],
-      [ "CutEdge", "structogdf_1_1_non_planar_core_1_1_cut_edge.html", "structogdf_1_1_non_planar_core_1_1_cut_edge" ]
+      [ "CutEdge", "structogdf_1_1_non_planar_core_1_1_cut_edge.html", "structogdf_1_1_non_planar_core_1_1_cut_edge" ],
+      [ "QueueEntry", "structogdf_1_1_queue_entry.html", "structogdf_1_1_queue_entry" ]
     ] ],
     [ "PlanarizationGridLayout.h", "_planarization_grid_layout_8h.html", null ],
     [ "PlanarizationLayout.h", "_planarization_layout_8h.html", null ],
@@ -44,7 +48,11 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
       [ "EdgeComparer", "classogdf_1_1_planar_subgraph_cactus_1_1_edge_comparer.html", "classogdf_1_1_planar_subgraph_cactus_1_1_edge_comparer" ]
     ] ],
     [ "PlanarSubgraphEmpty.h", "_planar_subgraph_empty_8h.html", null ],
-    [ "PlanarSubgraphFast.h", "_planar_subgraph_fast_8h.html", null ],
+    [ "PlanarSubgraphFast.h", "_planar_subgraph_fast_8h.html", [
+      [ "ThreadMaster", "classogdf_1_1_planar_subgraph_fast_1_1_thread_master.html", "classogdf_1_1_planar_subgraph_fast_1_1_thread_master" ],
+      [ "Worker", "classogdf_1_1_planar_subgraph_fast_1_1_worker.html", "classogdf_1_1_planar_subgraph_fast_1_1_worker" ]
+    ] ],
+    [ "PlanarSubgraphTree.h", "_planar_subgraph_tree_8h.html", null ],
     [ "PlanRep.h", "_plan_rep_8h.html", [
       [ "Deg1RestoreInfo", "structogdf_1_1_plan_rep_1_1_deg1_restore_info.html", "structogdf_1_1_plan_rep_1_1_deg1_restore_info" ]
     ] ],

@@ -1,12 +1,6 @@
 var classogdf_1_1_spring_embedder_k_k =
 [
-    [ "dpair", "classogdf_1_1_spring_embedder_k_k.html#a343c989c4a7edfa30c924f1665b76d46", null ],
-    [ "Scaling", "classogdf_1_1_spring_embedder_k_k.html#acb95f68f682d91f60ef78fb24abea0cd", [
-      [ "scInput", "classogdf_1_1_spring_embedder_k_k.html#acb95f68f682d91f60ef78fb24abea0cdaf3d08f1236da9d94de2b21853784a5ca", null ],
-      [ "scUserBoundingBox", "classogdf_1_1_spring_embedder_k_k.html#acb95f68f682d91f60ef78fb24abea0cdab2e05b6b3c2461759719b3e46d364727", null ],
-      [ "scScaleFunction", "classogdf_1_1_spring_embedder_k_k.html#acb95f68f682d91f60ef78fb24abea0cdae972a964d8752ee6c4d17e90a1d65338", null ],
-      [ "scScaleAdaptive", "classogdf_1_1_spring_embedder_k_k.html#acb95f68f682d91f60ef78fb24abea0cdafd3c3dc0483ab5c54d07c0fd88238b3b", null ]
-    ] ],
+    [ "dpair", "classogdf_1_1_spring_embedder_k_k.html#a0993b3f11b2a96da6c5e83c14bc85dd3", null ],
     [ "SpringEmbedderKK", "classogdf_1_1_spring_embedder_k_k.html#aff10d838fc7c544ec69c3884e1a4bc20", null ],
     [ "~SpringEmbedderKK", "classogdf_1_1_spring_embedder_k_k.html#a49cbd85e1f3aa0e706e2cb022875d3d1", null ],
     [ "adaptLengths", "classogdf_1_1_spring_embedder_k_k.html#a5be03e8b0926754c7d2de325a4840898", null ],
@@ -20,8 +14,8 @@ var classogdf_1_1_spring_embedder_k_k =
     [ "doCall", "classogdf_1_1_spring_embedder_k_k.html#a108f3e0aad752cf84e0b8f162eadf067", null ],
     [ "finished", "classogdf_1_1_spring_embedder_k_k.html#a4df5909c5ff92df68c65f5e69d0de6fc", null ],
     [ "finishedNode", "classogdf_1_1_spring_embedder_k_k.html#a1e882d0f7e1c3324e8d43232523c4591", null ],
-    [ "initialize", "classogdf_1_1_spring_embedder_k_k.html#aeb8886309619dd1f326c4060f9f05207", null ],
-    [ "mainStep", "classogdf_1_1_spring_embedder_k_k.html#a792168faa46d5bc4a148328bc7de796b", null ],
+    [ "initialize", "classogdf_1_1_spring_embedder_k_k.html#a198ca5e74b7f681a29f9a2e03fdfe0a6", null ],
+    [ "mainStep", "classogdf_1_1_spring_embedder_k_k.html#aad86c495ee9918abf19455719732073b", null ],
     [ "maxGlobalIterations", "classogdf_1_1_spring_embedder_k_k.html#adb231c69473c117ffebe1138d992f1ab", null ],
     [ "maxLocalIterations", "classogdf_1_1_spring_embedder_k_k.html#af17a61ef00967b0a4c51c7a4fc93e99f", null ],
     [ "scale", "classogdf_1_1_spring_embedder_k_k.html#a2e13487a9a6d4afb2302042fe322befe", null ],

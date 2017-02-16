@@ -1,31 +1,31 @@
 var classogdf_1_1_min_steiner_tree_zelikovsky =
 [
-    [ "Save", "classogdf_1_1_min_steiner_tree_zelikovsky.html#af390aacc1c3fb7e6b338dc0d46b66235", null ],
-    [ "Triple", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a047f601315a689fa423ac4510079ce5d", null ],
+    [ "Save", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a2355d89984a295b05815adaaf2a2667f", null ],
+    [ "Triple", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a51a81ad7092f83203f6d72207467ed57", null ],
     [ "Pass", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204", [
-      [ "one", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204a098eb972d833ae6019badcc809f36bdd", null ],
-      [ "multi", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204a39724764cee84f2b0d665435cab07f7d", null ]
+      [ "one", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204af97c5d29941bfb1b2fdab0874906ab82", null ],
+      [ "multi", "classogdf_1_1_min_steiner_tree_zelikovsky.html#abffff8659575a719c5a5e9f1cc33b204aea8f243d9885cf8ce9876a580224fd3c", null ]
     ] ],
     [ "SaveCalculation", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1", [
-      [ "staticEnum", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a072d21f63f380d5f3eedca8977c97d6d", null ],
-      [ "staticLCATree", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a019b9e993ca92ce6c9b3f580a76e26bc", null ],
-      [ "dynamicLCATree", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1aec42c9238a32e9b9f02fa6e681fb049e", null ],
-      [ "hybrid", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a34cf385ccbb887c488bc7bd162221d24", null ]
+      [ "staticEnum", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a96f985e1b4990b5ea9790aac8ca3bf47", null ],
+      [ "staticLCATree", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a4dd7f9ca99fcc83117c40a40ac3765cb", null ],
+      [ "dynamicLCATree", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1a939592c391c69be2c5592e422b168882", null ],
+      [ "hybrid", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1af7befc67e4b1ddf3a03d496537760671", null ]
     ] ],
     [ "TripleGeneration", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17", [
-      [ "exhaustive", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a2ed55abddf54712fa1df69adfe7ed246", null ],
-      [ "voronoi", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17aae554f439c31cc4508c896cb449924df", null ],
-      [ "ondemand", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a8b7ee55e0bc7b38108493a5f02b9db21", null ]
+      [ "exhaustive", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a3fe7af42b09ed4d75f8322216355a326", null ],
+      [ "voronoi", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a1b4683e2fc3862e2f13441c939e06428", null ],
+      [ "ondemand", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a76c4a529eb44a72cf45359ef81e43e39", null ]
     ] ],
     [ "TripleReduction", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643", [
-      [ "on", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643acc7ed3c7e2d3f7a68bd504def6fd5a90", null ],
-      [ "off", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643a31b408fd0d5adc3bc3bd896ab140dbb9", null ]
+      [ "on", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643aed2b5c0139cec8ad2873829dc1117d50", null ],
+      [ "off", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a6a5aa4517e2950a4fe38d359f1cae643a3262d48df5d75e3452f0f16b313b7808", null ]
     ] ],
     [ "WinCalculation", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93e", [
-      [ "absolute", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93ea59142239a0b94e91e918e22df3079ceb", null ],
-      [ "relative", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93ea3e7c761d94cb1ea30ab40b54d1e736f2", null ]
+      [ "absolute", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93eadc4d53aa0d117d8b189b36d161af4e96", null ],
+      [ "relative", "classogdf_1_1_min_steiner_tree_zelikovsky.html#afa0abb9c1b9422cc7e70a2b7ee40d93ea99c483e1d11b1a279a2a1a3960528487", null ]
     ] ],
-    [ "MinSteinerTreeZelikovsky", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a804897abaf4b8001e099e8f20ffa3302", null ],
+    [ "MinSteinerTreeZelikovsky", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a67db57426d65c5d803c2bf2c9219109d", null ],
     [ "~MinSteinerTreeZelikovsky", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a148c9fa8ef0752e404fa1de37a0e0bd4", null ],
     [ "calcWin", "classogdf_1_1_min_steiner_tree_zelikovsky.html#a037ed2771d6f627f9758abac66e2146a", null ],
     [ "call", "classogdf_1_1_min_steiner_tree_zelikovsky.html#ad26ed7b5b8e6a83a829e9bb9b2d46a09", null ],

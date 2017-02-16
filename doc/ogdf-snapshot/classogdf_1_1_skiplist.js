@@ -13,8 +13,8 @@ var classogdf_1_1_skiplist =
     [ "size", "classogdf_1_1_skiplist.html#acd231e6358aef011fd429ed946f03a53", null ],
     [ "Element", "classogdf_1_1_skiplist.html#a016b821f88c7c0a2de1451c175cefbf9", null ],
     [ "SkiplistIterator< X >", "classogdf_1_1_skiplist.html#a360126d16061b311b4115da10910d714", null ],
-    [ "height", "classogdf_1_1_skiplist.html#ad5c840249984a33edd6f8fae5dc05b8c", null ],
-    [ "lSize", "classogdf_1_1_skiplist.html#ab3d6bb7470c48d8a772d56fe637d7acb", null ],
-    [ "realheight", "classogdf_1_1_skiplist.html#a9d408b019139522b8ba7584efbc32853", null ],
-    [ "start", "classogdf_1_1_skiplist.html#af4af7a32ceb195bc697f8f2d5eb0366c", null ]
+    [ "m_height", "classogdf_1_1_skiplist.html#a51879b629c6a7022f5ffddd883826f03", null ],
+    [ "m_lSize", "classogdf_1_1_skiplist.html#aa501887ab4500ea65ae264d44df0417d", null ],
+    [ "m_realheight", "classogdf_1_1_skiplist.html#a4d726a6790292d42c135dd452018d6bd", null ],
+    [ "m_start", "classogdf_1_1_skiplist.html#aa6f50ddaa0aa8733f1a1acdef98ce706", null ]
 ];

@@ -30,7 +30,6 @@ var classogdf_1_1_p_q_tree =
     [ "Initialize", "classogdf_1_1_p_q_tree.html#a1e22e7b7174465082a0326f89cbeb06b", null ],
     [ "linkChildrenOfQnode", "classogdf_1_1_p_q_tree.html#af746642d3e338f1fa13198dd58c68158", null ],
     [ "partialChildren", "classogdf_1_1_p_q_tree.html#a111287c97892d05b1a31f9fa4b5e2ec4", null ],
-    [ "printNode", "classogdf_1_1_p_q_tree.html#a2675188e830c2fb3ed3bf4a26c5223a0", null ],
     [ "Reduce", "classogdf_1_1_p_q_tree.html#a1e9389a26c6e8504ae34fddc3b4c5991", null ],
     [ "Reduction", "classogdf_1_1_p_q_tree.html#a789fbcb7d4db382f6620b785325e70c5", null ],
     [ "removeBlock", "classogdf_1_1_p_q_tree.html#a34044dcf871fafe0f85241d0398a9dcb", null ],

@@ -14,5 +14,6 @@ var group__ga_digraph =
     [ "makeAcyclicByReverse", "group__ga-digraph.html#ga6528736a9011b4183baccc1e7dc0b997", null ],
     [ "makeBimodal", "group__ga-digraph.html#ga91d3ef87476db964810bd841d99d5697", null ],
     [ "makeBimodal", "group__ga-digraph.html#ga95b7565250c60702e5c3aecfe94e68c1", null ],
+    [ "strongComponents", "group__ga-digraph.html#ga37066ae2d31c3bd894070370829f1047", null ],
     [ "topologicalNumbering", "group__ga-digraph.html#gade15a6badfff6a85e0f8bcd7cdeb7cb1", null ]
 ];

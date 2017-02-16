@@ -1,5 +1,7 @@
 var classogdf_1_1_fast_multipole_multilevel_embedder =
 [
+    [ "GalaxyMultilevel", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a494c93820bbc422dbd54233af25457cb", null ],
+    [ "GalaxyMultilevelBuilder", "classogdf_1_1_fast_multipole_multilevel_embedder.html#acc58372ca4ec80e0f1eb188e7f8b8c0c", null ],
     [ "FastMultipoleMultilevelEmbedder", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a2767b422492e3e154520b114e8c98ee6", null ],
     [ "assignPositionsFromPrevLevel", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a1a76a83c569bc073b7faab85a710bf1d", null ],
     [ "call", "classogdf_1_1_fast_multipole_multilevel_embedder.html#afffca85e9929ae427a6f97268b7df549", null ],

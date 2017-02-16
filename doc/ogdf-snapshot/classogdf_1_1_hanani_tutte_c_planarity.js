@@ -16,18 +16,18 @@ var classogdf_1_1_hanani_tutte_c_planarity =
       [ "errorILP", "classogdf_1_1_hanani_tutte_c_planarity.html#a1910841aa967ec70400fa0f06cdefb10ab7bf1c8290a73d36270ba8b43e238619", null ]
     ] ],
     [ "SubType", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099", [
-      [ "vertex", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a2b5bc093b09bd81f51de433bde9d202a", null ],
-      [ "cluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a06b2d4b91b5c9eaa8c20a1c270f95b3c", null ],
-      [ "edge", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a09039bd1628a3c1b25fda3134a4fe050", null ],
-      [ "innerCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a2e58eedb69b7062509cfa9ba00ba6076", null ],
-      [ "outerCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099adb114e774dd0d9b068424c2237be26d2", null ],
-      [ "vertexCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a75eef474635387704e0b1a4b8e1197a8", null ],
-      [ "clusterCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a8f109264eb1dd72055c6c0bfc9badef4", null ],
-      [ "crossCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099ab761c055b60ce70bc263acb18034cdfb", null ]
+      [ "stVertex", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a283d849bd34de4decd3aafe698beb751", null ],
+      [ "stCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099ac8e38cd8a088dfd0c7115aeab0677237", null ],
+      [ "stEdge", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a66988dcacd74b4caca623e2b5b2c5640", null ],
+      [ "stInnerCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099aac3b3156198e2795fd66b3e5885d5d25", null ],
+      [ "stOuterCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a84a2fc5951645bfa4a96d3929247cf19", null ],
+      [ "stVertexCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099a695c02e04b7ba004506ccfec3a394c3e", null ],
+      [ "stClusterCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099ac25fd473e7855129b7034f434ce460a3", null ],
+      [ "stCrossCluster", "classogdf_1_1_hanani_tutte_c_planarity.html#a00fecbda99fc0b36aa8bad02b9833099af4f591da8dcf560b3388f3a2c57a3792", null ]
     ] ],
     [ "Type", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0ca", [
-      [ "vertex", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0caa2b5bc093b09bd81f51de433bde9d202a", null ],
-      [ "edge", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0caa09039bd1628a3c1b25fda3134a4fe050", null ]
+      [ "tVertex", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0caa662adb4cb8160513ed8555d1ae85c331", null ],
+      [ "tEdge", "classogdf_1_1_hanani_tutte_c_planarity.html#a0222c09669fe77d48a94666daeecc0caa139fb4aa7d91604ff21ec9184bcd1afa", null ]
     ] ],
     [ "Verification", "classogdf_1_1_hanani_tutte_c_planarity.html#a9b132bbc7f3d12a0a8c8670c0ba645d0", [
       [ "cPlanar", "classogdf_1_1_hanani_tutte_c_planarity.html#a9b132bbc7f3d12a0a8c8670c0ba645d0a2bd33642222a9e7dde13e6df3233e739", null ],

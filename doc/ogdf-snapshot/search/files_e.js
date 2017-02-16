@@ -27,6 +27,7 @@ var searchData=
   ['planarsubgraphfast_2eh',['PlanarSubgraphFast.h',['../_planar_subgraph_fast_8h.html',1,'']]],
   ['planarsubgraphmodule_2eh',['PlanarSubgraphModule.h',['../_planar_subgraph_module_8h.html',1,'']]],
   ['planarsubgraphpqtree_2eh',['PlanarSubgraphPQTree.h',['../_planar_subgraph_p_q_tree_8h.html',1,'']]],
+  ['planarsubgraphtree_2eh',['PlanarSubgraphTree.h',['../_planar_subgraph_tree_8h.html',1,'']]],
   ['planrep_2eh',['PlanRep.h',['../_plan_rep_8h.html',1,'']]],
   ['planrepexpansion_2eh',['PlanRepExpansion.h',['../_plan_rep_expansion_8h.html',1,'']]],
   ['planrepinc_2eh',['PlanRepInc.h',['../_plan_rep_inc_8h.html',1,'']]],
