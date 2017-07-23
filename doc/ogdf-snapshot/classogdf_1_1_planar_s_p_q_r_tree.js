@@ -13,7 +13,7 @@ var classogdf_1_1_planar_s_p_q_r_tree =
     [ "nextEmbedding", "classogdf_1_1_planar_s_p_q_r_tree.html#a8f5d99b006487394c4978c049e345208", null ],
     [ "numberOfEmbeddings", "classogdf_1_1_planar_s_p_q_r_tree.html#acfcf7927eada06951353d6e96bdae3c4", null ],
     [ "numberOfEmbeddings", "classogdf_1_1_planar_s_p_q_r_tree.html#a65cd5adfb72d377f9765a61e48fc1e69", null ],
-    [ "numberOfNodeEmbeddings", "classogdf_1_1_planar_s_p_q_r_tree.html#af444d66fd607b6e3582964cc8e3e8d13", null ],
+    [ "numberOfNodeEmbeddings", "classogdf_1_1_planar_s_p_q_r_tree.html#a86122c6591ea71a0bfdb71b837efdfaf", null ],
     [ "randomEmbed", "classogdf_1_1_planar_s_p_q_r_tree.html#abd8b0dfdaf555dab7a794b5d23751f82", null ],
     [ "randomEmbed", "classogdf_1_1_planar_s_p_q_r_tree.html#a63ede183234e513a409ce88004e7415b", null ],
     [ "reverse", "classogdf_1_1_planar_s_p_q_r_tree.html#a5313487f6160262193bdb926637e313d", null ],

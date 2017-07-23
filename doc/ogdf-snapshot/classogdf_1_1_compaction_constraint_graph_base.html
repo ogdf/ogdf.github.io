@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::CompactionConstraintGraphBase Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -128,11 +126,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_compaction_constraint_gr
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1_compaction_constraint_graph_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ogdf::CompactionConstraintGraphBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+<div class="title">ogdf::CompactionConstraintGraphBase Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Base class implementing common behaviour of <a class="el" href="classogdf_1_1_compaction_constraint_graph.html" title="Represents a constraint graph used for compaction. ">ogdf::CompactionConstraintGraph</a>.  
+<p>Class implementing template-parameter-independent behaviour of <a class="el" href="classogdf_1_1_compaction_constraint_graph.html" title="Represents a constraint graph used for compaction. ">ogdf::CompactionConstraintGraph</a>.  
  <a href="classogdf_1_1_compaction_constraint_graph_base.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_compaction_constraint_graph_8h_source.html">ogdf/orthogonal/CompactionConstraintGraph.h</a>&gt;</code></p>
@@ -143,8 +141,9 @@ $(document).ready(function(){initNavTree('classogdf_1_1_compaction_constraint_gr
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classogdf_1_1_compaction_constraint_graph_base__inherit__graph.png" border="0" usemap="#ogdf_1_1_compaction_constraint_graph_base_inherit__map" alt="Inheritance graph"/></div>
 <map name="ogdf_1_1_compaction_constraint_graph_base_inherit__map" id="ogdf_1_1_compaction_constraint_graph_base_inherit__map">
-<area shape="rect" id="node3" href="classogdf_1_1_compaction_constraint_graph.html" title="Represents a constraint graph used for compaction. " alt="" coords="5,169,191,211"/>
-<area shape="rect" id="node2" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). " alt="" coords="53,5,143,32"/>
+<area shape="rect" id="node4" href="classogdf_1_1_compaction_constraint_graph.html" title="Represents a constraint graph used for compaction. " alt="" coords="32,259,217,300"/>
+<area shape="rect" id="node2" href="classogdf_1_1_common_compaction_constraint_graph_base.html" title="A common base class for ogdf::GridCompactionConstraintGraphBase and ogdf::CompactionConstraintGraphBa..." alt="" coords="5,80,244,121"/>
+<area shape="rect" id="node3" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). " alt="" coords="79,5,170,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -156,22 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4f0fbb8b485143812dde56cd0e129792"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a4f0fbb8b485143812dde56cd0e129792">alignmentArc</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
 <tr class="memdesc:a4f0fbb8b485143812dde56cd0e129792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if arc is important for alignment. These are the arcs representing node to gen. merger edges.  <a href="#a4f0fbb8b485143812dde56cd0e129792">More...</a><br /></td></tr>
 <tr class="separator:a4f0fbb8b485143812dde56cd0e129792"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90e68a222ace7d39337e1bafffadbf43"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a90e68a222ace7d39337e1bafffadbf43">basicArc</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
-<tr class="memdesc:a90e68a222ace7d39337e1bafffadbf43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns constraint arc representing input edge e in constraint graph.  <a href="#a90e68a222ace7d39337e1bafffadbf43">More...</a><br /></td></tr>
-<tr class="separator:a90e68a222ace7d39337e1bafffadbf43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace0000d07bc050aa2f0f49def6b946e4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#ace0000d07bc050aa2f0f49def6b946e4">getPlanRep</a> () const</td></tr>
-<tr class="separator:ace0000d07bc050aa2f0f49def6b946e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a775d5ac2dad482c35d70ebeb4b69ed32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a775d5ac2dad482c35d70ebeb4b69ed32">pathToOriginal</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v)</td></tr>
 <tr class="separator:a775d5ac2dad482c35d70ebeb4b69ed32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Output for debugging only</div></td></tr>
-<tr class="memitem:a72e01317665a5692a358e2deb3a99fe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a72e01317665a5692a358e2deb3a99fe9">writeGML</a> (const char *fileName) const</td></tr>
-<tr class="separator:a72e01317665a5692a358e2deb3a99fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c5705d38de64969f659e113063753a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a8c5705d38de64969f659e113063753a4">writeGML</a> (ostream &amp;os) const</td></tr>
-<tr class="separator:a8c5705d38de64969f659e113063753a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade7cd39bd913ae46a277d86f011ba12a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#ade7cd39bd913ae46a277d86f011ba12a">writeGML</a> (const char *fileName, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; one) const</td></tr>
-<tr class="separator:ade7cd39bd913ae46a277d86f011ba12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb7076d5ac48d9c5b73239df23bcbd51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#aeb7076d5ac48d9c5b73239df23bcbd51">writeGML</a> (ostream &amp;os, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; one) const</td></tr>
-<tr class="separator:aeb7076d5ac48d9c5b73239df23bcbd51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Edge property getters</div></td></tr>
 <tr class="memitem:a211eb632ef287ae602067af8150ecb16"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a211eb632ef287ae602067af8150ecb16">verticalGen</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
 <tr class="memdesc:a211eb632ef287ae602067af8150ecb16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if e is vertical edge in <a class="el" href="classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar...">PlanRepUML</a> hierarchy.  <a href="#a211eb632ef287ae602067af8150ecb16">More...</a><br /></td></tr>
@@ -179,29 +164,65 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1461857ccbe202149aa322532361427f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a1461857ccbe202149aa322532361427f">verticalArc</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
 <tr class="memdesc:a1461857ccbe202149aa322532361427f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if e is basic arc of vertical edge in <a class="el" href="classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar...">PlanRepUML</a> hierarchy.  <a href="#a1461857ccbe202149aa322532361427f">More...</a><br /></td></tr>
 <tr class="separator:a1461857ccbe202149aa322532361427f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e0e9775dd494c37493f477a4f4cadf9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a5e0e9775dd494c37493f477a4f4cadf9">onBorder</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
-<tr class="memdesc:a5e0e9775dd494c37493f477a4f4cadf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if edge lies on cage border.  <a href="#a5e0e9775dd494c37493f477a4f4cadf9">More...</a><br /></td></tr>
-<tr class="separator:a5e0e9775dd494c37493f477a4f4cadf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe2324548d410314eada9e30296a8c51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#abe2324548d410314eada9e30296a8c51">fixOnBorder</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
-<tr class="memdesc:abe2324548d410314eada9e30296a8c51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if edge is subject to length fixation if length &lt; sep.  <a href="#abe2324548d410314eada9e30296a8c51">More...</a><br /></td></tr>
-<tr class="separator:abe2324548d410314eada9e30296a8c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classogdf_1_1_common_compaction_constraint_graph_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html">ogdf::CommonCompactionConstraintGraphBase</a></td></tr>
+<tr class="memitem:ae82cb3b10a9ca057dd60b044eb65f6c3 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#ae82cb3b10a9ca057dd60b044eb65f6c3">basicArc</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
+<tr class="memdesc:ae82cb3b10a9ca057dd60b044eb65f6c3 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns constraint arc representing input edge e in constraint graph.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#ae82cb3b10a9ca057dd60b044eb65f6c3">More...</a><br /></td></tr>
+<tr class="separator:ae82cb3b10a9ca057dd60b044eb65f6c3 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abddb8174c57efaa5bb36ecfffd718350 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#abddb8174c57efaa5bb36ecfffd718350">computeTopologicalSegmentNum</a> (<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;topNum)</td></tr>
+<tr class="memdesc:abddb8174c57efaa5bb36ecfffd718350 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes topological numbering on the segments of the constraint graph.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#abddb8174c57efaa5bb36ecfffd718350">More...</a><br /></td></tr>
+<tr class="separator:abddb8174c57efaa5bb36ecfffd718350 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac016c5f17c3bded96a97571a1126bc08 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#ac016c5f17c3bded96a97571a1126bc08">embed</a> ()</td></tr>
+<tr class="memdesc:ac016c5f17c3bded96a97571a1126bc08 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Embeds constraint graph such that all sources and sinks lie in a common face.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#ac016c5f17c3bded96a97571a1126bc08">More...</a><br /></td></tr>
+<tr class="separator:ac016c5f17c3bded96a97571a1126bc08 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa580e83975783e64c818a3e84e636de3 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#aa580e83975783e64c818a3e84e636de3">extraNode</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
+<tr class="memdesc:aa580e83975783e64c818a3e84e636de3 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns node status.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#aa580e83975783e64c818a3e84e636de3">More...</a><br /></td></tr>
+<tr class="separator:aa580e83975783e64c818a3e84e636de3 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bb411a14e4155e998121f926e52d609 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a9bb411a14e4155e998121f926e52d609">removeRedundantVisibArcs</a> (<a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt; <a class="el" href="classogdf_1_1_tuple2.html">Tuple2</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&gt; &amp;visibArcs)</td></tr>
+<tr class="memdesc:a9bb411a14e4155e998121f926e52d609 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes "arcs" from <code>visibArcs</code> which we already have in the constraint graph (as basic arcs)  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a9bb411a14e4155e998121f926e52d609">More...</a><br /></td></tr>
+<tr class="separator:a9bb411a14e4155e998121f926e52d609 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a106c455b73da7ccefa156656e11f2e4e inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a2cb1e53dd146b58e9665ba9e70fa1d7c">ConstraintEdgeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a106c455b73da7ccefa156656e11f2e4e">typeOf</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
+<tr class="memdesc:a106c455b73da7ccefa156656e11f2e4e inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns type of edge <code>e</code>.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a106c455b73da7ccefa156656e11f2e4e">More...</a><br /></td></tr>
+<tr class="separator:a106c455b73da7ccefa156656e11f2e4e inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fb75d03e3da47968a3b173e601ed2fa inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a9fb75d03e3da47968a3b173e601ed2fa">getGraph</a> () const</td></tr>
+<tr class="memdesc:a9fb75d03e3da47968a3b173e601ed2fa inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns underlying graph.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a9fb75d03e3da47968a3b173e601ed2fa">More...</a><br /></td></tr>
+<tr class="separator:a9fb75d03e3da47968a3b173e601ed2fa inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a434fe89b2df4c97cce5b611098d171 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a4a434fe89b2df4c97cce5b611098d171">getGraph</a> ()</td></tr>
+<tr class="separator:a4a434fe89b2df4c97cce5b611098d171 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af44d9c545c06d801264a5cc2522850 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_ortho_rep.html">OrthoRep</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a7af44d9c545c06d801264a5cc2522850">getOrthoRep</a> () const</td></tr>
+<tr class="memdesc:a7af44d9c545c06d801264a5cc2522850 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns underlying <a class="el" href="classogdf_1_1_ortho_rep.html" title="Orthogonal representation of an embedded graph. ">OrthoRep</a>.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a7af44d9c545c06d801264a5cc2522850">More...</a><br /></td></tr>
+<tr class="separator:a7af44d9c545c06d801264a5cc2522850 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27a64b07043e69058455722bc2341761 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a27a64b07043e69058455722bc2341761">getPlanRep</a> () const</td></tr>
+<tr class="separator:a27a64b07043e69058455722bc2341761 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adddbe17d8298314ecf67a70728b32f0c inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#adddbe17d8298314ecf67a70728b32f0c">nodesIn</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
+<tr class="memdesc:adddbe17d8298314ecf67a70728b32f0c inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns list of nodes contained in segment <code>v</code>.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#adddbe17d8298314ecf67a70728b32f0c">More...</a><br /></td></tr>
+<tr class="separator:adddbe17d8298314ecf67a70728b32f0c inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5198146ef493cf05c10e2219e9186f9 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#aa5198146ef493cf05c10e2219e9186f9">pathNodeOf</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
+<tr class="memdesc:aa5198146ef493cf05c10e2219e9186f9 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the segment (path node in constraint graph) containing <code>v</code>.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#aa5198146ef493cf05c10e2219e9186f9">More...</a><br /></td></tr>
+<tr class="separator:aa5198146ef493cf05c10e2219e9186f9 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9d6a004aec44a09d0bf976eeb307117 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#ad9d6a004aec44a09d0bf976eeb307117">cost</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
+<tr class="memdesc:ad9d6a004aec44a09d0bf976eeb307117 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns cost of edge <code>e</code>.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#ad9d6a004aec44a09d0bf976eeb307117">More...</a><br /></td></tr>
+<tr class="separator:ad9d6a004aec44a09d0bf976eeb307117 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc31ec59513e8c9145bd4c2e12774535 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#adc31ec59513e8c9145bd4c2e12774535">extraRep</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
+<tr class="memdesc:adc31ec59513e8c9145bd4c2e12774535 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns extraNode existing anchor representant.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#adc31ec59513e8c9145bd4c2e12774535">More...</a><br /></td></tr>
+<tr class="separator:adc31ec59513e8c9145bd4c2e12774535 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af90fc744e7126011bbf9f9703702cc3f inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#af90fc744e7126011bbf9f9703702cc3f">onBorder</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
+<tr class="memdesc:af90fc744e7126011bbf9f9703702cc3f inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if edge lies on cage border.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#af90fc744e7126011bbf9f9703702cc3f">More...</a><br /></td></tr>
+<tr class="separator:af90fc744e7126011bbf9f9703702cc3f inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a309f610bbd4ced6db1200041cb6d56d2 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a309f610bbd4ced6db1200041cb6d56d2">fixOnBorder</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
+<tr class="memdesc:a309f610bbd4ced6db1200041cb6d56d2 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if edge is subject to length fixation if length &lt; sep.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a309f610bbd4ced6db1200041cb6d56d2">More...</a><br /></td></tr>
+<tr class="separator:a309f610bbd4ced6db1200041cb6d56d2 inherit pub_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa4f47b5f7cb5695b4a760f4fec08e036"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#aa4f47b5f7cb5695b4a760f4fec08e036">CompactionConstraintGraphBase</a> (const <a class="el" href="classogdf_1_1_ortho_rep.html">OrthoRep</a> &amp;OR, const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> &amp;PG, <a class="el" href="namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a">OrthoDir</a> arcDir, int costGen=1, int costAssoc=1, bool <a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a0c9019b4a58b6b1b64c6b82966c8ee2b">align</a>=false)</td></tr>
 <tr class="memdesc:aa4f47b5f7cb5695b4a760f4fec08e036"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construction.  <a href="#aa4f47b5f7cb5695b4a760f4fec08e036">More...</a><br /></td></tr>
 <tr class="separator:aa4f47b5f7cb5695b4a760f4fec08e036"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a113664f0a2a06cadd9ae6a5c8e072cda"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a113664f0a2a06cadd9ae6a5c8e072cda">computeTopologicalSegmentNum</a> (<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;topNum)</td></tr>
-<tr class="memdesc:a113664f0a2a06cadd9ae6a5c8e072cda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes topological numbering on the segments of the constraint graph.  <a href="#a113664f0a2a06cadd9ae6a5c8e072cda">More...</a><br /></td></tr>
-<tr class="separator:a113664f0a2a06cadd9ae6a5c8e072cda"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0cbb33fc6774a7c412c5cdee89adebd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#ae0cbb33fc6774a7c412c5cdee89adebd">embed</a> ()</td></tr>
-<tr class="memdesc:ae0cbb33fc6774a7c412c5cdee89adebd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Embeds constraint graph such that all sources and sinks lie in a common face.  <a href="#ae0cbb33fc6774a7c412c5cdee89adebd">More...</a><br /></td></tr>
-<tr class="separator:ae0cbb33fc6774a7c412c5cdee89adebd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a673f5d00588c0bbddfa87e7de96fe167"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a673f5d00588c0bbddfa87e7de96fe167">removeRedundantVisibArcs</a> (<a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt; <a class="el" href="classogdf_1_1_tuple2.html">Tuple2</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt; &amp;visibArcs)</td></tr>
-<tr class="memdesc:a673f5d00588c0bbddfa87e7de96fe167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes "arcs" from visibArcs which we already have in the constraint graph (as basic arcs)  <a href="#a673f5d00588c0bbddfa87e7de96fe167">More...</a><br /></td></tr>
-<tr class="separator:a673f5d00588c0bbddfa87e7de96fe167"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47b0f25d24aa74bc82a8567220227ec5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a47b0f25d24aa74bc82a8567220227ec5">writeLength</a> (ostream &amp;os, <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const =0</td></tr>
-<tr class="separator:a47b0f25d24aa74bc82a8567220227ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classogdf_1_1_common_compaction_constraint_graph_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html">ogdf::CommonCompactionConstraintGraphBase</a></td></tr>
+<tr class="memitem:a003335e0ba18e61be80304a119350507 inherit pro_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a003335e0ba18e61be80304a119350507">CommonCompactionConstraintGraphBase</a> (const <a class="el" href="classogdf_1_1_ortho_rep.html">OrthoRep</a> &amp;OR, const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> &amp;PG, <a class="el" href="namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a">OrthoDir</a> arcDir, int costAssoc)</td></tr>
+<tr class="memdesc:a003335e0ba18e61be80304a119350507 inherit pro_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build constraint graph with basic arcs.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a003335e0ba18e61be80304a119350507">More...</a><br /></td></tr>
+<tr class="separator:a003335e0ba18e61be80304a119350507 inherit pro_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed6f7bcf841fbd89855c5484f1b07dc inherit pro_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a3ed6f7bcf841fbd89855c5484f1b07dc">getLengthString</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const =0</td></tr>
+<tr class="separator:a3ed6f7bcf841fbd89855c5484f1b07dc inherit pro_methods_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classogdf_1_1_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classogdf_1_1_graph')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td></tr>
 <tr class="memitem:a9bed01e2a1161395893bfb55a96cccdc inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a9bed01e2a1161395893bfb55a96cccdc">assign</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;mapNode, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;mapEdge)</td></tr>
 <tr class="separator:a9bed01e2a1161395893bfb55a96cccdc inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -269,14 +290,14 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a99f6e0a5e684fa33f4167e1211540457 inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a99f6e0a5e684fa33f4167e1211540457">chooseEdge</a> (std::function&lt; bool(<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>)&gt; includeEdge=[](<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>) { return true;}, bool isFastTest=true) const</td></tr>
 <tr class="memdesc:a99f6e0a5e684fa33f4167e1211540457 inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random edge.  <a href="classogdf_1_1_graph.html#a99f6e0a5e684fa33f4167e1211540457">More...</a><br /></td></tr>
 <tr class="separator:a99f6e0a5e684fa33f4167e1211540457 inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3026d0677e63a24813a5a7fa1f6ef482 inherit pro_methods_classogdf_1_1_graph"><td class="memTemplParams" colspan="2">template&lt;class NODELIST &gt; </td></tr>
-<tr class="memitem:a3026d0677e63a24813a5a7fa1f6ef482 inherit pro_methods_classogdf_1_1_graph"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a3026d0677e63a24813a5a7fa1f6ef482">allNodes</a> (NODELIST &amp;nodeList) const</td></tr>
-<tr class="memdesc:a3026d0677e63a24813a5a7fa1f6ef482 inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list with all nodes of the graph.  <a href="classogdf_1_1_graph.html#a3026d0677e63a24813a5a7fa1f6ef482">More...</a><br /></td></tr>
-<tr class="separator:a3026d0677e63a24813a5a7fa1f6ef482 inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ccfb322aa81cda36fb318e15c5cd32b inherit pro_methods_classogdf_1_1_graph"><td class="memTemplParams" colspan="2">template&lt;class EDGELIST &gt; </td></tr>
-<tr class="memitem:a4ccfb322aa81cda36fb318e15c5cd32b inherit pro_methods_classogdf_1_1_graph"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a4ccfb322aa81cda36fb318e15c5cd32b">allEdges</a> (EDGELIST &amp;edgeList) const</td></tr>
-<tr class="memdesc:a4ccfb322aa81cda36fb318e15c5cd32b inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a list with all edges of the graph.  <a href="classogdf_1_1_graph.html#a4ccfb322aa81cda36fb318e15c5cd32b">More...</a><br /></td></tr>
-<tr class="separator:a4ccfb322aa81cda36fb318e15c5cd32b inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93d69da9c7effa5635dd00d25046f189 inherit pro_methods_classogdf_1_1_graph"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:a93d69da9c7effa5635dd00d25046f189 inherit pro_methods_classogdf_1_1_graph"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a93d69da9c7effa5635dd00d25046f189">allNodes</a> (CONTAINER &amp;nodeContainer) const</td></tr>
+<tr class="memdesc:a93d69da9c7effa5635dd00d25046f189 inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a container with all nodes of the graph.  <a href="classogdf_1_1_graph.html#a93d69da9c7effa5635dd00d25046f189">More...</a><br /></td></tr>
+<tr class="separator:a93d69da9c7effa5635dd00d25046f189 inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66fd7d94f0a5b2113554a61ad10fa22d inherit pro_methods_classogdf_1_1_graph"><td class="memTemplParams" colspan="2">template&lt;class CONTAINER &gt; </td></tr>
+<tr class="memitem:a66fd7d94f0a5b2113554a61ad10fa22d inherit pro_methods_classogdf_1_1_graph"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a66fd7d94f0a5b2113554a61ad10fa22d">allEdges</a> (CONTAINER &amp;edgeContainer) const</td></tr>
+<tr class="memdesc:a66fd7d94f0a5b2113554a61ad10fa22d inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a container with all edges of the graph.  <a href="classogdf_1_1_graph.html#a66fd7d94f0a5b2113554a61ad10fa22d">More...</a><br /></td></tr>
+<tr class="separator:a66fd7d94f0a5b2113554a61ad10fa22d inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf23da993771ccb4a3af1ab5484023fc inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#adf23da993771ccb4a3af1ab5484023fc">newNode</a> ()</td></tr>
 <tr class="memdesc:adf23da993771ccb4a3af1ab5484023fc inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new node and returns it.  <a href="classogdf_1_1_graph.html#adf23da993771ccb4a3af1ab5484023fc">More...</a><br /></td></tr>
 <tr class="separator:adf23da993771ccb4a3af1ab5484023fc inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -378,9 +399,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a7a2bf1c653fee5b700bdb0ecaaefc73f inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a7a2bf1c653fee5b700bdb0ecaaefc73f">representsCombEmbedding</a> () const</td></tr>
 <tr class="memdesc:a7a2bf1c653fee5b700bdb0ecaaefc73f inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the graph represents a combinatorial embedding.  <a href="classogdf_1_1_graph.html#a7a2bf1c653fee5b700bdb0ecaaefc73f">More...</a><br /></td></tr>
 <tr class="separator:a7a2bf1c653fee5b700bdb0ecaaefc73f inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add5f591be88807f1369611c05bffb6ba inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#add5f591be88807f1369611c05bffb6ba">consistencyCheck</a> () const</td></tr>
-<tr class="memdesc:add5f591be88807f1369611c05bffb6ba inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the consistency of the data structure.  <a href="classogdf_1_1_graph.html#add5f591be88807f1369611c05bffb6ba">More...</a><br /></td></tr>
-<tr class="separator:add5f591be88807f1369611c05bffb6ba inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab1bad50597d7cd5b3b3c5e3d5dbbecfd inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_node_array_base.html">NodeArrayBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#ab1bad50597d7cd5b3b3c5e3d5dbbecfd">registerArray</a> (<a class="el" href="classogdf_1_1_node_array_base.html">NodeArrayBase</a> *pNodeArray) const</td></tr>
 <tr class="memdesc:ab1bad50597d7cd5b3b3c5e3d5dbbecfd inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a node array.  <a href="classogdf_1_1_graph.html#ab1bad50597d7cd5b3b3c5e3d5dbbecfd">More...</a><br /></td></tr>
 <tr class="separator:ab1bad50597d7cd5b3b3c5e3d5dbbecfd inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -405,15 +423,10 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a551ea1c5ced97d8a1d773c0ef658e5db inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a551ea1c5ced97d8a1d773c0ef658e5db">unregisterStructure</a> (<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_graph_observer.html">GraphObserver</a> *&gt; it) const</td></tr>
 <tr class="memdesc:a551ea1c5ced97d8a1d773c0ef658e5db inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters a graph observer.  <a href="classogdf_1_1_graph.html#a551ea1c5ced97d8a1d773c0ef658e5db">More...</a><br /></td></tr>
 <tr class="separator:a551ea1c5ced97d8a1d773c0ef658e5db inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a293120e88393a988997908334c191ce6 inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a293120e88393a988997908334c191ce6">moveRegisterArray</a> (<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_node_array_base.html">NodeArrayBase</a> *&gt; it, <a class="el" href="classogdf_1_1_node_array_base.html">NodeArrayBase</a> *pNodeArray) const</td></tr>
-<tr class="memdesc:a293120e88393a988997908334c191ce6 inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the registration <code>it</code> of a node array to <code>pNodeArray</code> (used with move semantics for node arrays).  <a href="classogdf_1_1_graph.html#a293120e88393a988997908334c191ce6">More...</a><br /></td></tr>
-<tr class="separator:a293120e88393a988997908334c191ce6 inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3382f9d1429683d1a2353d1731984cdf inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a3382f9d1429683d1a2353d1731984cdf">moveRegisterArray</a> (<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_edge_array_base.html">EdgeArrayBase</a> *&gt; it, <a class="el" href="classogdf_1_1_edge_array_base.html">EdgeArrayBase</a> *pEdgeArray) const</td></tr>
-<tr class="memdesc:a3382f9d1429683d1a2353d1731984cdf inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the registration <code>it</code> of an edge array to <code>pEdgeArray</code> (used with move semantics for edge arrays).  <a href="classogdf_1_1_graph.html#a3382f9d1429683d1a2353d1731984cdf">More...</a><br /></td></tr>
-<tr class="separator:a3382f9d1429683d1a2353d1731984cdf inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0deb742043c9ed52f3ae771637b687f2 inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a0deb742043c9ed52f3ae771637b687f2">moveRegisterArray</a> (<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_adj_entry_array_base.html">AdjEntryArrayBase</a> *&gt; it, <a class="el" href="classogdf_1_1_adj_entry_array_base.html">AdjEntryArrayBase</a> *pAdjArray) const</td></tr>
-<tr class="memdesc:a0deb742043c9ed52f3ae771637b687f2 inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the registration <code>it</code> of an adjEntry array to <code>pAdjArray</code> (used with move semantics for adjEntry arrays).  <a href="classogdf_1_1_graph.html#a0deb742043c9ed52f3ae771637b687f2">More...</a><br /></td></tr>
-<tr class="separator:a0deb742043c9ed52f3ae771637b687f2 inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1fe434bfda001f88fdc83789d51711d inherit pro_methods_classogdf_1_1_graph"><td class="memTemplParams" colspan="2">template&lt;class ArrayBase &gt; </td></tr>
+<tr class="memitem:ab1fe434bfda001f88fdc83789d51711d inherit pro_methods_classogdf_1_1_graph"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#ab1fe434bfda001f88fdc83789d51711d">moveRegisterArray</a> (<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; ArrayBase *&gt; it, ArrayBase *pArray) const</td></tr>
+<tr class="memdesc:ab1fe434bfda001f88fdc83789d51711d inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the registration <code>it</code> of an graph element array to <code>pArray</code> (used with move semantics for graph element arrays).  <a href="classogdf_1_1_graph.html#ab1fe434bfda001f88fdc83789d51711d">More...</a><br /></td></tr>
+<tr class="separator:ab1fe434bfda001f88fdc83789d51711d inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e5fcf1d7bc3e32f5296371ab3e81fea inherit pro_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a7e5fcf1d7bc3e32f5296371ab3e81fea">resetEdgeIdCount</a> (int maxId)</td></tr>
 <tr class="memdesc:a7e5fcf1d7bc3e32f5296371ab3e81fea inherit pro_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the edge id count to <code>maxId</code>.  <a href="classogdf_1_1_graph.html#a7e5fcf1d7bc3e32f5296371ab3e81fea">More...</a><br /></td></tr>
 <tr class="separator:a7e5fcf1d7bc3e32f5296371ab3e81fea inherit pro_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -426,45 +439,57 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:a15a6228dd5e80080e30b685c6afda82b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a15a6228dd5e80080e30b685c6afda82b">m_alignmentArc</a></td></tr>
 <tr class="memdesc:a15a6228dd5e80080e30b685c6afda82b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Basic arcs that have to be short for alignment (node to gen expander)  <a href="#a15a6228dd5e80080e30b685c6afda82b">More...</a><br /></td></tr>
 <tr class="separator:a15a6228dd5e80080e30b685c6afda82b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05c725e9f839b7bd49af8325298202ae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a">OrthoDir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a05c725e9f839b7bd49af8325298202ae">m_arcDir</a></td></tr>
-<tr class="separator:a05c725e9f839b7bd49af8325298202ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa065a3f563b2f01f027e112498eed3c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#aa065a3f563b2f01f027e112498eed3c2">m_border</a></td></tr>
-<tr class="memdesc:aa065a3f563b2f01f027e112498eed3c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">only used for cage precompaction in flowcompaction computecoords  <a href="#aa065a3f563b2f01f027e112498eed3c2">More...</a><br /></td></tr>
-<tr class="separator:aa065a3f563b2f01f027e112498eed3c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfabc44564726cae69f867c551a96f55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#acfabc44564726cae69f867c551a96f55">m_cost</a></td></tr>
-<tr class="memdesc:acfabc44564726cae69f867c551a96f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">cost of an edge  <a href="#acfabc44564726cae69f867c551a96f55">More...</a><br /></td></tr>
-<tr class="separator:acfabc44564726cae69f867c551a96f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6ad4e9e687e83277eb4e7932bdc8236"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#af6ad4e9e687e83277eb4e7932bdc8236">m_edgeCost</a> [2]</td></tr>
 <tr class="separator:af6ad4e9e687e83277eb4e7932bdc8236"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59a321281ea34dd463680e90f057cc79"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a59a321281ea34dd463680e90f057cc79">m_edgeToBasicArc</a></td></tr>
-<tr class="memdesc:a59a321281ea34dd463680e90f057cc79"><td class="mdescLeft">&#160;</td><td class="mdescRight">basic arc representing an edge in PG  <a href="#a59a321281ea34dd463680e90f057cc79">More...</a><br /></td></tr>
-<tr class="separator:a59a321281ea34dd463680e90f057cc79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042a52e22e10fe55a70e9742dc92f60e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a">OrthoDir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a042a52e22e10fe55a70e9742dc92f60e">m_oppArcDir</a></td></tr>
-<tr class="separator:a042a52e22e10fe55a70e9742dc92f60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c4da6c851a28cbb3302d5e2c7b4a78f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a7c4da6c851a28cbb3302d5e2c7b4a78f">m_originalEdge</a></td></tr>
-<tr class="memdesc:a7c4da6c851a28cbb3302d5e2c7b4a78f"><td class="mdescLeft">&#160;</td><td class="mdescRight">save edge for the basic arcs  <a href="#a7c4da6c851a28cbb3302d5e2c7b4a78f">More...</a><br /></td></tr>
-<tr class="separator:a7c4da6c851a28cbb3302d5e2c7b4a78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c88aaf1471c5d30420bce3b3241ac0e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a8c88aaf1471c5d30420bce3b3241ac0e">m_path</a></td></tr>
-<tr class="memdesc:a8c88aaf1471c5d30420bce3b3241ac0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of nodes contained in a segment  <a href="#a8c88aaf1471c5d30420bce3b3241ac0e">More...</a><br /></td></tr>
-<tr class="separator:a8c88aaf1471c5d30420bce3b3241ac0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add95ac77837ee313abd490e43f417f0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#add95ac77837ee313abd490e43f417f0b">m_pathNode</a></td></tr>
-<tr class="memdesc:add95ac77837ee313abd490e43f417f0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">segment containing a node in PG  <a href="#add95ac77837ee313abd490e43f417f0b">More...</a><br /></td></tr>
-<tr class="separator:add95ac77837ee313abd490e43f417f0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae93c369bd37de6a6224680195797edbb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#ae93c369bd37de6a6224680195797edbb">m_pathToEdge</a></td></tr>
 <tr class="memdesc:ae93c369bd37de6a6224680195797edbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">save the (single!) edge (segment) for a pathNode  <a href="#ae93c369bd37de6a6224680195797edbb">More...</a><br /></td></tr>
 <tr class="separator:ae93c369bd37de6a6224680195797edbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e86e5bec36321c287805f47da7b1a20"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_ortho_rep.html">OrthoRep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a0e86e5bec36321c287805f47da7b1a20">m_pOR</a></td></tr>
-<tr class="separator:a0e86e5bec36321c287805f47da7b1a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5e23e2dfc7909d28bc84501899b48c9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#ab5e23e2dfc7909d28bc84501899b48c9">m_pPR</a></td></tr>
-<tr class="separator:ab5e23e2dfc7909d28bc84501899b48c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f5873402e726fc8e7b7a7f8391a9c18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="namespaceogdf.html#a2cb1e53dd146b58e9665ba9e70fa1d7c">ConstraintEdgeType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a3f5873402e726fc8e7b7a7f8391a9c18">m_type</a></td></tr>
-<tr class="separator:a3f5873402e726fc8e7b7a7f8391a9c18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac29b652d182bbe7bc02e0bbb916374d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#ac29b652d182bbe7bc02e0bbb916374d6">m_verticalArc</a></td></tr>
 <tr class="memdesc:ac29b652d182bbe7bc02e0bbb916374d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">arc corresponding to such an edge  <a href="#ac29b652d182bbe7bc02e0bbb916374d6">More...</a><br /></td></tr>
 <tr class="separator:ac29b652d182bbe7bc02e0bbb916374d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a7c87c77b00bb0c8d3171cbcac2b90d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a3a7c87c77b00bb0c8d3171cbcac2b90d">m_verticalGen</a></td></tr>
 <tr class="memdesc:a3a7c87c77b00bb0c8d3171cbcac2b90d"><td class="mdescLeft">&#160;</td><td class="mdescRight">generalization that runs vertical relative to hierarchy  <a href="#a3a7c87c77b00bb0c8d3171cbcac2b90d">More...</a><br /></td></tr>
 <tr class="separator:a3a7c87c77b00bb0c8d3171cbcac2b90d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html">ogdf::CommonCompactionConstraintGraphBase</a></td></tr>
+<tr class="memitem:a52b01b0b8c1391ddd7126df2c5460c33 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a">OrthoDir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a52b01b0b8c1391ddd7126df2c5460c33">m_arcDir</a></td></tr>
+<tr class="separator:a52b01b0b8c1391ddd7126df2c5460c33 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98d1cbe66971b119194b8c5a114ff0ad inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a98d1cbe66971b119194b8c5a114ff0ad">m_border</a></td></tr>
+<tr class="memdesc:a98d1cbe66971b119194b8c5a114ff0ad inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">only used for cage precompaction in flowcompaction computecoords  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a98d1cbe66971b119194b8c5a114ff0ad">More...</a><br /></td></tr>
+<tr class="separator:a98d1cbe66971b119194b8c5a114ff0ad inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4149b55e51cdcdb477c43971f4316f6 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#af4149b55e51cdcdb477c43971f4316f6">m_cost</a></td></tr>
+<tr class="memdesc:af4149b55e51cdcdb477c43971f4316f6 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">cost of an edge  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#af4149b55e51cdcdb477c43971f4316f6">More...</a><br /></td></tr>
+<tr class="separator:af4149b55e51cdcdb477c43971f4316f6 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad36aac503b3b2f0a28f55b6009dbcca8 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#ad36aac503b3b2f0a28f55b6009dbcca8">m_edgeToBasicArc</a></td></tr>
+<tr class="memdesc:ad36aac503b3b2f0a28f55b6009dbcca8 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">basic arc representing an edge in PG  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#ad36aac503b3b2f0a28f55b6009dbcca8">More...</a><br /></td></tr>
+<tr class="separator:ad36aac503b3b2f0a28f55b6009dbcca8 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaff750e86c3912db40d3d33ba6610c7 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#acaff750e86c3912db40d3d33ba6610c7">m_extraNode</a></td></tr>
+<tr class="memdesc:acaff750e86c3912db40d3d33ba6610c7 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Node does not represent drawing node as we dont have positions we save a drawing representant and an offset.  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#acaff750e86c3912db40d3d33ba6610c7">More...</a><br /></td></tr>
+<tr class="separator:acaff750e86c3912db40d3d33ba6610c7 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8b72bf3b96748eff41945e9fa3457f1 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#ae8b72bf3b96748eff41945e9fa3457f1">m_extraRep</a></td></tr>
+<tr class="memdesc:ae8b72bf3b96748eff41945e9fa3457f1 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">existing representant of extranodes position anchor  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#ae8b72bf3b96748eff41945e9fa3457f1">More...</a><br /></td></tr>
+<tr class="separator:ae8b72bf3b96748eff41945e9fa3457f1 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b826bf6617760a64639c70084ed28fe inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a">OrthoDir</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a6b826bf6617760a64639c70084ed28fe">m_oppArcDir</a></td></tr>
+<tr class="separator:a6b826bf6617760a64639c70084ed28fe inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53e1651be20b34e6725379a528b79219 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a53e1651be20b34e6725379a528b79219">m_originalEdge</a></td></tr>
+<tr class="memdesc:a53e1651be20b34e6725379a528b79219 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">save edge for the basic arcs  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a53e1651be20b34e6725379a528b79219">More...</a><br /></td></tr>
+<tr class="separator:a53e1651be20b34e6725379a528b79219 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2d20b81e517266856916e1b3d0e6495 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#ac2d20b81e517266856916e1b3d0e6495">m_path</a></td></tr>
+<tr class="memdesc:ac2d20b81e517266856916e1b3d0e6495 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">list of nodes contained in a segment  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#ac2d20b81e517266856916e1b3d0e6495">More...</a><br /></td></tr>
+<tr class="separator:ac2d20b81e517266856916e1b3d0e6495 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79b42e0475984ab89ed53a557073734a inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a79b42e0475984ab89ed53a557073734a">m_pathNode</a></td></tr>
+<tr class="memdesc:a79b42e0475984ab89ed53a557073734a inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">segment containing a node in PG  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#a79b42e0475984ab89ed53a557073734a">More...</a><br /></td></tr>
+<tr class="separator:a79b42e0475984ab89ed53a557073734a inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa1d8764d64b0e450e15aa057803066a inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_ortho_rep.html">OrthoRep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#aaa1d8764d64b0e450e15aa057803066a">m_pOR</a></td></tr>
+<tr class="separator:aaa1d8764d64b0e450e15aa057803066a inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776d87daa4801f3d7fd063ee776c6d53 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a776d87daa4801f3d7fd063ee776c6d53">m_pPR</a></td></tr>
+<tr class="separator:a776d87daa4801f3d7fd063ee776c6d53 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7e9a6af74b9fb334615663525f6a778 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#ab7e9a6af74b9fb334615663525f6a778">m_sinks</a></td></tr>
+<tr class="separator:ab7e9a6af74b9fb334615663525f6a778 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62064bafd29c575d820ddc7b2eee8624 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#a62064bafd29c575d820ddc7b2eee8624">m_sources</a></td></tr>
+<tr class="separator:a62064bafd29c575d820ddc7b2eee8624 inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbdcbc94e019cdf90f9f8aba53d78dea inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="namespaceogdf.html#a2cb1e53dd146b58e9665ba9e70fa1d7c">ConstraintEdgeType</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_common_compaction_constraint_graph_base.html#adbdcbc94e019cdf90f9f8aba53d78dea">m_type</a></td></tr>
+<tr class="memdesc:adbdcbc94e019cdf90f9f8aba53d78dea inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">constraint type for each edge  <a href="classogdf_1_1_common_compaction_constraint_graph_base.html#adbdcbc94e019cdf90f9f8aba53d78dea">More...</a><br /></td></tr>
+<tr class="separator:adbdcbc94e019cdf90f9f8aba53d78dea inherit pro_attribs_classogdf_1_1_common_compaction_constraint_graph_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classogdf_1_1_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1_graph')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td></tr>
 <tr class="memitem:a8f62b2f54a8bc173764a25831deaf85e inherit pro_attribs_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1internal_1_1_graph_object_container.html">internal::GraphObjectContainer</a>&lt; <a class="el" href="classogdf_1_1_node_element.html">NodeElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a8f62b2f54a8bc173764a25831deaf85e">nodes</a></td></tr>
 <tr class="memdesc:a8f62b2f54a8bc173764a25831deaf85e inherit pro_attribs_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">The container containing all node objects.  <a href="classogdf_1_1_graph.html#a8f62b2f54a8bc173764a25831deaf85e">More...</a><br /></td></tr>
@@ -486,10 +511,6 @@ Private Member Functions</h2></td></tr>
 Private Attributes</h2></td></tr>
 <tr class="memitem:ab7c04fead96e1e50bd0e80cb5f3f0571"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#ab7c04fead96e1e50bd0e80cb5f3f0571">m_align</a></td></tr>
 <tr class="separator:ab7c04fead96e1e50bd0e80cb5f3f0571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad26ab00c5ed609276daaf57abb3c5096"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#ad26ab00c5ed609276daaf57abb3c5096">m_sinks</a></td></tr>
-<tr class="separator:ad26ab00c5ed609276daaf57abb3c5096"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f521dffb5efedb735b87ddbfc38d739"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_compaction_constraint_graph_base.html#a2f521dffb5efedb735b87ddbfc38d739">m_sources</a></td></tr>
-<tr class="separator:a2f521dffb5efedb735b87ddbfc38d739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -519,15 +540,11 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a6c75a1c52e23a849b624abf779d6b78f inherit pro_types_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#a6c75a1c52e23a849b624abf779d6b78f">adjEntry_iterator</a> = <a class="el" href="classogdf_1_1internal_1_1_graph_iterator.html">internal::GraphIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt;</td></tr>
 <tr class="memdesc:a6c75a1c52e23a849b624abf779d6b78f inherit pro_types_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a bidirectional iterator to an entry in an adjacency list.  <a href="classogdf_1_1_graph.html#a6c75a1c52e23a849b624abf779d6b78f">More...</a><br /></td></tr>
 <tr class="separator:a6c75a1c52e23a849b624abf779d6b78f inherit pro_types_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_static_methods_classogdf_1_1_graph"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classogdf_1_1_graph')"><img src="closed.png" alt="-"/>&#160;Static Protected Member Functions inherited from <a class="el" href="classogdf_1_1_graph.html">ogdf::Graph</a></td></tr>
-<tr class="memitem:acb422dc135e33859e4e59b139eea8235 inherit pro_static_methods_classogdf_1_1_graph"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph.html#acb422dc135e33859e4e59b139eea8235">nextPower2</a> (int start, int idCount)</td></tr>
-<tr class="memdesc:acb422dc135e33859e4e59b139eea8235 inherit pro_static_methods_classogdf_1_1_graph"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smallest power of 2 which is &gt;= 2^<code>start</code> and &gt; <code>idCount</code>.  <a href="classogdf_1_1_graph.html#acb422dc135e33859e4e59b139eea8235">More...</a><br /></td></tr>
-<tr class="separator:acb422dc135e33859e4e59b139eea8235 inherit pro_static_methods_classogdf_1_1_graph"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Base class implementing common behaviour of <a class="el" href="classogdf_1_1_compaction_constraint_graph.html" title="Represents a constraint graph used for compaction. ">ogdf::CompactionConstraintGraph</a>. </p>
+<div class="textblock"><p>Class implementing template-parameter-independent behaviour of <a class="el" href="classogdf_1_1_compaction_constraint_graph.html" title="Represents a constraint graph used for compaction. ">ogdf::CompactionConstraintGraph</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00055">55</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00045">45</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa4f47b5f7cb5695b4a760f4fec08e036"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4f47b5f7cb5695b4a760f4fec08e036">&#9670;&nbsp;</a></span>CompactionConstraintGraphBase()</h2>
@@ -618,7 +635,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Triggers alignment (=&gt;some special edge handling to support al.) </p>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00091">91</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00061">61</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -648,65 +665,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns if arc is important for alignment. These are the arcs representing node to gen. merger edges. </p>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00095">95</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a90e68a222ace7d39337e1bafffadbf43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90e68a222ace7d39337e1bafffadbf43">&#9670;&nbsp;</a></span>basicArc()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> ogdf::CompactionConstraintGraphBase::basicArc </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns constraint arc representing input edge e in constraint graph. </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00068">68</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a113664f0a2a06cadd9ae6a5c8e072cda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a113664f0a2a06cadd9ae6a5c8e072cda">&#9670;&nbsp;</a></span>computeTopologicalSegmentNum()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::CompactionConstraintGraphBase::computeTopologicalSegmentNum </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>topNum</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes topological numbering on the segments of the constraint graph. </p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00065">65</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -755,90 +714,6 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae0cbb33fc6774a7c412c5cdee89adebd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0cbb33fc6774a7c412c5cdee89adebd">&#9670;&nbsp;</a></span>embed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::CompactionConstraintGraphBase::embed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Embeds constraint graph such that all sources and sinks lie in a common face. </p>
-
-</div>
-</div>
-<a id="abe2324548d410314eada9e30296a8c51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe2324548d410314eada9e30296a8c51">&#9670;&nbsp;</a></span>fixOnBorder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ogdf::CompactionConstraintGraphBase::fixOnBorder </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if edge is subject to length fixation if length &lt; sep. </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00086">86</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="ace0000d07bc050aa2f0f49def6b946e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace0000d07bc050aa2f0f49def6b946e4">&#9670;&nbsp;</a></span>getPlanRep()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a>&amp; ogdf::CompactionConstraintGraphBase::getPlanRep </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00097">97</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -894,36 +769,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a5e0e9775dd494c37493f477a4f4cadf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e0e9775dd494c37493f477a4f4cadf9">&#9670;&nbsp;</a></span>onBorder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ogdf::CompactionConstraintGraphBase::onBorder </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if edge lies on cage border. </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00083">83</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
 <a id="a775d5ac2dad482c35d70ebeb4b69ed32"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a775d5ac2dad482c35d70ebeb4b69ed32">&#9670;&nbsp;</a></span>pathToOriginal()</h2>
 
@@ -948,35 +793,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00099">99</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a673f5d00588c0bbddfa87e7de96fe167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a673f5d00588c0bbddfa87e7de96fe167">&#9670;&nbsp;</a></span>removeRedundantVisibArcs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::CompactionConstraintGraphBase::removeRedundantVisibArcs </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt; <a class="el" href="classogdf_1_1_tuple2.html">Tuple2</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>visibArcs</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Removes "arcs" from visibArcs which we already have in the constraint graph (as basic arcs) </p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00067">67</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1007,7 +824,7 @@ Additional Inherited Members</h2></td></tr>
 <p>Returns true if e is basic arc of vertical edge in <a class="el" href="classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar...">PlanRepUML</a> hierarchy. </p>
 <dl class="section pre"><dt>Precondition</dt><dd>e is arc in the constraint graph </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00080">80</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00056">56</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1037,137 +854,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Returns true if e is vertical edge in <a class="el" href="classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar...">PlanRepUML</a> hierarchy. </p>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00076">76</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a72e01317665a5692a358e2deb3a99fe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72e01317665a5692a358e2deb3a99fe9">&#9670;&nbsp;</a></span>writeGML() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::CompactionConstraintGraphBase::writeGML </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>fileName</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8c5705d38de64969f659e113063753a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c5705d38de64969f659e113063753a4">&#9670;&nbsp;</a></span>writeGML() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::CompactionConstraintGraphBase::writeGML </td>
-          <td>(</td>
-          <td class="paramtype">ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ade7cd39bd913ae46a277d86f011ba12a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ade7cd39bd913ae46a277d86f011ba12a">&#9670;&nbsp;</a></span>writeGML() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::CompactionConstraintGraphBase::writeGML </td>
-          <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>fileName</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt;&#160;</td>
-          <td class="paramname"><em>one</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aeb7076d5ac48d9c5b73239df23bcbd51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb7076d5ac48d9c5b73239df23bcbd51">&#9670;&nbsp;</a></span>writeGML() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::CompactionConstraintGraphBase::writeGML </td>
-          <td>(</td>
-          <td class="paramtype">ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt;&#160;</td>
-          <td class="paramname"><em>one</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a47b0f25d24aa74bc82a8567220227ec5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47b0f25d24aa74bc82a8567220227ec5">&#9670;&nbsp;</a></span>writeLength()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ogdf::CompactionConstraintGraphBase::writeLength </td>
-          <td>(</td>
-          <td class="paramtype">ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="classogdf_1_1_compaction_constraint_graph.html#aaba92c0f0fb2cee6d8955656df770a53">ogdf::CompactionConstraintGraph&lt; ATYPE &gt;</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00052">52</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1192,7 +879,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00148">148</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00090">90</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1218,83 +905,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>Basic arcs that have to be short for alignment (node to gen expander) </p>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00136">136</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a05c725e9f839b7bd49af8325298202ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05c725e9f839b7bd49af8325298202ae">&#9670;&nbsp;</a></span>m_arcDir</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a">OrthoDir</a> ogdf::CompactionConstraintGraphBase::m_arcDir</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00118">118</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="aa065a3f563b2f01f027e112498eed3c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa065a3f563b2f01f027e112498eed3c2">&#9670;&nbsp;</a></span>m_border</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;int&gt; ogdf::CompactionConstraintGraphBase::m_border</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>only used for cage precompaction in flowcompaction computecoords </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00133">133</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="acfabc44564726cae69f867c551a96f55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acfabc44564726cae69f867c551a96f55">&#9670;&nbsp;</a></span>m_cost</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;int&gt; ogdf::CompactionConstraintGraphBase::m_cost</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>cost of an edge </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00127">127</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00084">84</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1318,135 +929,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00121">121</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a59a321281ea34dd463680e90f057cc79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59a321281ea34dd463680e90f057cc79">&#9670;&nbsp;</a></span>m_edgeToBasicArc</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&gt; ogdf::CompactionConstraintGraphBase::m_edgeToBasicArc</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>basic arc representing an edge in PG </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00125">125</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a042a52e22e10fe55a70e9742dc92f60e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a042a52e22e10fe55a70e9742dc92f60e">&#9670;&nbsp;</a></span>m_oppArcDir</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a">OrthoDir</a> ogdf::CompactionConstraintGraphBase::m_oppArcDir</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00119">119</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a7c4da6c851a28cbb3302d5e2c7b4a78f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c4da6c851a28cbb3302d5e2c7b4a78f">&#9670;&nbsp;</a></span>m_originalEdge</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&gt; ogdf::CompactionConstraintGraphBase::m_originalEdge</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>save edge for the basic arcs </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00139">139</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a8c88aaf1471c5d30420bce3b3241ac0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c88aaf1471c5d30420bce3b3241ac0e">&#9670;&nbsp;</a></span>m_path</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; ogdf::CompactionConstraintGraphBase::m_path</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>list of nodes contained in a segment </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00123">123</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="add95ac77837ee313abd490e43f417f0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add95ac77837ee313abd490e43f417f0b">&#9670;&nbsp;</a></span>m_pathNode</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; ogdf::CompactionConstraintGraphBase::m_pathNode</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>segment containing a node in PG </p>
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00124">124</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00077">77</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1472,127 +955,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>save the (single!) edge (segment) for a pathNode </p>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00138">138</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a0e86e5bec36321c287805f47da7b1a20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e86e5bec36321c287805f47da7b1a20">&#9670;&nbsp;</a></span>m_pOR</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_ortho_rep.html">OrthoRep</a>* ogdf::CompactionConstraintGraphBase::m_pOR</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00116">116</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="ab5e23e2dfc7909d28bc84501899b48c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5e23e2dfc7909d28bc84501899b48c9">&#9670;&nbsp;</a></span>m_pPR</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a>* ogdf::CompactionConstraintGraphBase::m_pPR</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00117">117</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="ad26ab00c5ed609276daaf57abb3c5096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad26ab00c5ed609276daaf57abb3c5096">&#9670;&nbsp;</a></span>m_sinks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; ogdf::CompactionConstraintGraphBase::m_sinks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00160">160</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a2f521dffb5efedb735b87ddbfc38d739"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f521dffb5efedb735b87ddbfc38d739">&#9670;&nbsp;</a></span>m_sources</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; ogdf::CompactionConstraintGraphBase::m_sources</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00159">159</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
-
-</div>
-</div>
-<a id="a3f5873402e726fc8e7b7a7f8391a9c18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f5873402e726fc8e7b7a7f8391a9c18">&#9670;&nbsp;</a></span>m_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="namespaceogdf.html#a2cb1e53dd146b58e9665ba9e70fa1d7c">ConstraintEdgeType</a>&gt; ogdf::CompactionConstraintGraphBase::m_type</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00128">128</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00086">86</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1618,7 +981,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>arc corresponding to such an edge </p>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00132">132</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00081">81</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1644,7 +1007,7 @@ Additional Inherited Members</h2></td></tr>
 
 <p>generalization that runs vertical relative to hierarchy </p>
 
-<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00131">131</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_compaction_constraint_graph_8h_source.html#l00080">80</a> of file <a class="el" href="_compaction_constraint_graph_8h_source.html">CompactionConstraintGraph.h</a>.</p>
 
 </div>
 </div>

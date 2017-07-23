@@ -39,7 +39,7 @@ var classogdf_1_1_triconnectivity =
     [ "m_A", "classogdf_1_1_triconnectivity.html#a237c3a28c8e1ca1c92268a91bced90f3", null ],
     [ "m_component", "classogdf_1_1_triconnectivity.html#aa8cd515c8262535e8622778f87b08b49", null ],
     [ "m_DEGREE", "classogdf_1_1_triconnectivity.html#a5d4d1881e965db3d132e7bbda4c83774", null ],
-    [ "m_ESTACK", "classogdf_1_1_triconnectivity.html#adc9e15de03e11604da0e321d5922c748", null ],
+    [ "m_ESTACK", "classogdf_1_1_triconnectivity.html#a35118f1461681607efbec2566301f80d", null ],
     [ "m_FATHER", "classogdf_1_1_triconnectivity.html#a783ba120bf3b84299b3146744311d48b", null ],
     [ "m_HIGHPT", "classogdf_1_1_triconnectivity.html#ae485f3735d379326fb43b7e76d28b5f4", null ],
     [ "m_IN_ADJ", "classogdf_1_1_triconnectivity.html#a53acb988cf2756715ff14384d30948e8", null ],

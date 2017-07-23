@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: include/ogdf/graphalg/ShortestPathAlgorithms.h File Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -135,6 +133,7 @@ $(document).ready(function(){initNavTree('_shortest_path_algorithms_8h.html','')
 <code>#include &lt;<a class="el" href="_graph_attributes_8h_source.html">ogdf/basic/GraphAttributes.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_node_array_8h_source.html">ogdf/basic/NodeArray.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_array_8h_source.html">ogdf/basic/Array.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_dijkstra_8h_source.html">ogdf/graphalg/Dijkstra.h</a>&gt;</code><br />
 </div>
 <p><a href="_shortest_path_algorithms_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -146,24 +145,30 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:gad1a259f42185c440acb517a50803a648"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#gad1a259f42185c440acb517a50803a648">ogdf::bfs_SPAP</a> (const Graph &amp;G, NodeArray&lt; NodeArray&lt; double &gt; &gt; &amp;distance, double edgeCosts)</td></tr>
-<tr class="memdesc:gad1a259f42185c440acb517a50803a648"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in <code>G</code> using breadth-first serach (BFS).  <a href="group__ga-sp.html#gad1a259f42185c440acb517a50803a648">More...</a><br /></td></tr>
-<tr class="separator:gad1a259f42185c440acb517a50803a648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0a1698b2f26d9dec49a8b3decf94e2ad"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga0a1698b2f26d9dec49a8b3decf94e2ad">ogdf::bfs_SPSS</a> (node s, const Graph &amp;G, NodeArray&lt; double &gt; &amp;distanceArray, double edgeCosts)</td></tr>
-<tr class="memdesc:ga0a1698b2f26d9dec49a8b3decf94e2ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes single-source shortest paths from <code>s</code> in <code>G</code> using breadth-first search (BFS).  <a href="group__ga-sp.html#ga0a1698b2f26d9dec49a8b3decf94e2ad">More...</a><br /></td></tr>
-<tr class="separator:ga0a1698b2f26d9dec49a8b3decf94e2ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5af793956fc4597be234b4226299b54e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga5af793956fc4597be234b4226299b54e">ogdf::dijkstra_SPAP</a> (const GraphAttributes &amp;GA, NodeArray&lt; NodeArray&lt; double &gt; &gt; &amp;shortestPathMatrix)</td></tr>
-<tr class="memdesc:ga5af793956fc4597be234b4226299b54e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in <code>GA</code> using <a class="el" href="classogdf_1_1_dijkstra.html" title="Dijkstra&#39;s single source shortest path algorithm. ">Dijkstra</a>'s algorithm.  <a href="group__ga-sp.html#ga5af793956fc4597be234b4226299b54e">More...</a><br /></td></tr>
-<tr class="separator:ga5af793956fc4597be234b4226299b54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0d2b5d9a88f4e8a975b7e8f93321f7e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga0d2b5d9a88f4e8a975b7e8f93321f7e7">ogdf::dijkstra_SPAP</a> (const Graph &amp;G, NodeArray&lt; NodeArray&lt; double &gt; &gt; &amp;shortestPathMatrix, const EdgeArray&lt; double &gt; &amp;edgeCosts)</td></tr>
-<tr class="memdesc:ga0d2b5d9a88f4e8a975b7e8f93321f7e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in graph <code>G</code> using <a class="el" href="classogdf_1_1_dijkstra.html" title="Dijkstra&#39;s single source shortest path algorithm. ">Dijkstra</a>'s algorithm.  <a href="group__ga-sp.html#ga0d2b5d9a88f4e8a975b7e8f93321f7e7">More...</a><br /></td></tr>
-<tr class="separator:ga0d2b5d9a88f4e8a975b7e8f93321f7e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabbc575416a063ca12d9097ff3f00db6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#gabbc575416a063ca12d9097ff3f00db6b">ogdf::dijkstra_SPSS</a> (node s, const Graph &amp;G, NodeArray&lt; double &gt; &amp;shortestPathMatrix, const EdgeArray&lt; double &gt; &amp;edgeCosts)</td></tr>
-<tr class="memdesc:gabbc575416a063ca12d9097ff3f00db6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes single-source shortest paths from node <code>s</code> in <code>G</code> using Disjkstra's algorithm.  <a href="group__ga-sp.html#gabbc575416a063ca12d9097ff3f00db6b">More...</a><br /></td></tr>
-<tr class="separator:gabbc575416a063ca12d9097ff3f00db6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga72ebaf071571f2c9a252e4a520e03314"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga72ebaf071571f2c9a252e4a520e03314">ogdf::floydWarshall_SPAP</a> (NodeArray&lt; NodeArray&lt; double &gt; &gt; &amp;shortestPathMatrix, const Graph &amp;G)</td></tr>
-<tr class="memdesc:ga72ebaf071571f2c9a252e4a520e03314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in graph <code>G</code> using Floyd-Warshall's algorithm.  <a href="group__ga-sp.html#ga72ebaf071571f2c9a252e4a520e03314">More...</a><br /></td></tr>
-<tr class="separator:ga72ebaf071571f2c9a252e4a520e03314"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9669c2d0703f6e3041c6384bf990c7c6"><td class="memTemplParams" colspan="2">template&lt;typename TCost &gt; </td></tr>
+<tr class="memitem:ga9669c2d0703f6e3041c6384bf990c7c6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga9669c2d0703f6e3041c6384bf990c7c6">ogdf::bfs_SPAP</a> (const Graph &amp;G, NodeArray&lt; NodeArray&lt; TCost &gt;&gt; &amp;distance, TCost edgeCosts)</td></tr>
+<tr class="memdesc:ga9669c2d0703f6e3041c6384bf990c7c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in <code>G</code> using breadth-first serach (BFS).  <a href="group__ga-sp.html#ga9669c2d0703f6e3041c6384bf990c7c6">More...</a><br /></td></tr>
+<tr class="separator:ga9669c2d0703f6e3041c6384bf990c7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga900d113a4194675ba88c6aec52df0c27"><td class="memTemplParams" colspan="2">template&lt;typename TCost &gt; </td></tr>
+<tr class="memitem:ga900d113a4194675ba88c6aec52df0c27"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga900d113a4194675ba88c6aec52df0c27">ogdf::bfs_SPSS</a> (node s, const Graph &amp;G, NodeArray&lt; TCost &gt; &amp;distanceArray, TCost edgeCosts)</td></tr>
+<tr class="memdesc:ga900d113a4194675ba88c6aec52df0c27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes single-source shortest paths from <code>s</code> in <code>G</code> using breadth-first search (BFS).  <a href="group__ga-sp.html#ga900d113a4194675ba88c6aec52df0c27">More...</a><br /></td></tr>
+<tr class="separator:ga900d113a4194675ba88c6aec52df0c27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3880d121865657b12614d542be07e553"><td class="memTemplParams" colspan="2">template&lt;typename TCost &gt; </td></tr>
+<tr class="memitem:ga3880d121865657b12614d542be07e553"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga3880d121865657b12614d542be07e553">ogdf::dijkstra_SPAP</a> (const GraphAttributes &amp;GA, NodeArray&lt; NodeArray&lt; TCost &gt;&gt; &amp;shortestPathMatrix)</td></tr>
+<tr class="memdesc:ga3880d121865657b12614d542be07e553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in <code>GA</code> using Dijkstra's algorithm.  <a href="group__ga-sp.html#ga3880d121865657b12614d542be07e553">More...</a><br /></td></tr>
+<tr class="separator:ga3880d121865657b12614d542be07e553"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad57b51c233e7fbd416a7ecb5288eba3f"><td class="memTemplParams" colspan="2">template&lt;typename TCost &gt; </td></tr>
+<tr class="memitem:gad57b51c233e7fbd416a7ecb5288eba3f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#gad57b51c233e7fbd416a7ecb5288eba3f">ogdf::dijkstra_SPAP</a> (const Graph &amp;G, NodeArray&lt; NodeArray&lt; TCost &gt;&gt; &amp;shortestPathMatrix, const EdgeArray&lt; TCost &gt; &amp;edgeCosts)</td></tr>
+<tr class="memdesc:gad57b51c233e7fbd416a7ecb5288eba3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in graph <code>G</code> using Dijkstra's algorithm.  <a href="group__ga-sp.html#gad57b51c233e7fbd416a7ecb5288eba3f">More...</a><br /></td></tr>
+<tr class="separator:gad57b51c233e7fbd416a7ecb5288eba3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95bae4c5a5f4ba9cb7589b85e0a2cc39"><td class="memTemplParams" colspan="2">template&lt;typename TCost &gt; </td></tr>
+<tr class="memitem:ga95bae4c5a5f4ba9cb7589b85e0a2cc39"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga95bae4c5a5f4ba9cb7589b85e0a2cc39">ogdf::dijkstra_SPSS</a> (node s, const Graph &amp;G, NodeArray&lt; TCost &gt; &amp;shortestPathMatrix, const EdgeArray&lt; TCost &gt; &amp;edgeCosts)</td></tr>
+<tr class="memdesc:ga95bae4c5a5f4ba9cb7589b85e0a2cc39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes single-source shortest paths from node <code>s</code> in <code>G</code> using Disjkstra's algorithm.  <a href="group__ga-sp.html#ga95bae4c5a5f4ba9cb7589b85e0a2cc39">More...</a><br /></td></tr>
+<tr class="separator:ga95bae4c5a5f4ba9cb7589b85e0a2cc39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2266eacafc50896a579f9668d255e34b"><td class="memTemplParams" colspan="2">template&lt;typename TCost &gt; </td></tr>
+<tr class="memitem:ga2266eacafc50896a579f9668d255e34b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga2266eacafc50896a579f9668d255e34b">ogdf::floydWarshall_SPAP</a> (NodeArray&lt; NodeArray&lt; TCost &gt;&gt; &amp;shortestPathMatrix, const Graph &amp;G)</td></tr>
+<tr class="memdesc:ga2266eacafc50896a579f9668d255e34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in graph <code>G</code> using Floyd-Warshall's algorithm.  <a href="group__ga-sp.html#ga2266eacafc50896a579f9668d255e34b">More...</a><br /></td></tr>
+<tr class="separator:ga2266eacafc50896a579f9668d255e34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Declaration of several shortest path algorithms. </p>

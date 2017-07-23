@@ -1,6 +1,23 @@
 var classogdf_1_1_edge_router =
 [
     [ "NodeInfo", "classogdf_1_1_edge_router.html#aa2163fdfe445b7e21e7494acd1c16534", null ],
+    [ "BendType", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0", [
+      [ "BendFree", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0ac81e9c575acb32c2a66caaa7a0d52953", null ],
+      [ "Bend1Left", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0ac9ff5169b5139fc3b441ed8a7679cb95", null ],
+      [ "Bend1Right", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0a78d0e62d7568a2e71589be8d8c0ea3c1", null ],
+      [ "Bend2Left", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0a39dd9a32162f132c33615fdcda325748", null ],
+      [ "Bend2Right", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0aa06ea5c51e482191ca22136e9f0ca524", null ],
+      [ "ProbBf", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0ab06faac619e6abfa40856fe98069d3c3", null ],
+      [ "ProbB1L", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0a5662aad58c35d17448c8be8e6777d992", null ],
+      [ "ProbB1R", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0abf41193abe54b83a1adcb38859325a2f", null ],
+      [ "ProbB2L", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0a38c9f65c0a90677ee75829970cc39322", null ],
+      [ "ProbB2R", "classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0a1fb193d503703e9af95b1dc0124fd5db", null ]
+    ] ],
+    [ "ProcessType", "classogdf_1_1_edge_router.html#adfd718052999c090f4dfeee8fcfb43db", [
+      [ "unprocessed", "classogdf_1_1_edge_router.html#adfd718052999c090f4dfeee8fcfb43dba6f5491678b5298f9d3db48bf46fb02bc", null ],
+      [ "processed", "classogdf_1_1_edge_router.html#adfd718052999c090f4dfeee8fcfb43dba9d090a4005926e9e2a32e05cbd8c2fc6", null ],
+      [ "used", "classogdf_1_1_edge_router.html#adfd718052999c090f4dfeee8fcfb43dba1aec9c5d0644e11fd9dd0f9fb36009fb", null ]
+    ] ],
     [ "EdgeRouter", "classogdf_1_1_edge_router.html#acd53236adb454abd9d1532addc2e4340", null ],
     [ "EdgeRouter", "classogdf_1_1_edge_router.html#a99e496d6f3956e5dd0f82c2112f20a85", null ],
     [ "~EdgeRouter", "classogdf_1_1_edge_router.html#abd4a657a33df7c173cbad9cc72cd5c7a", null ],

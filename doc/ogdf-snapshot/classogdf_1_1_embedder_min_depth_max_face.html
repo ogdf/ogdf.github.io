@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::EmbedderMinDepthMaxFace Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -122,16 +120,16 @@ $(document).ready(function(){initNavTree('classogdf_1_1_embedder_min_depth_max_f
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-types">Private Types</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classogdf_1_1_embedder_min_depth_max_face-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::EmbedderMinDepthMaxFace Class Reference<div class="ingroups"><a class="el" href="group__graph-algs.html">Graph Algorithms</a> &raquo; <a class="el" href="group__ga-planarity.html">Planarity and Planarization</a> &raquo; <a class="el" href="group__ga-planembed.html">Planarity Testing and Embedding</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Planar graph embedding with minimum block-nesting depth and maximum external face.  
+<p>Embedding that minimizes block-nesting depth and maximizes the external face.  
  <a href="classogdf_1_1_embedder_min_depth_max_face.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_embedder_min_depth_max_face_8h_source.html">ogdf/planarity/EmbedderMinDepthMaxFace.h</a>&gt;</code></p>
@@ -142,16 +140,18 @@ $(document).ready(function(){initNavTree('classogdf_1_1_embedder_min_depth_max_f
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classogdf_1_1_embedder_min_depth_max_face__inherit__graph.png" border="0" usemap="#ogdf_1_1_embedder_min_depth_max_face_inherit__map" alt="Inheritance graph"/></div>
 <map name="ogdf_1_1_embedder_min_depth_max_face_inherit__map" id="ogdf_1_1_embedder_min_depth_max_face_inherit__map">
-<area shape="rect" id="node2" href="classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms. " alt="" coords="40,80,196,107"/>
-<area shape="rect" id="node3" href="classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node4" href="classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node7" href="classogdf_1_1embedder_1_1_layers_block_embedder.html" title="ogdf::embedder::LayersBlock\lEmbedder\&lt; EmbedderMinDepthMaxFace,\l embedder::MDMFLengthAttribute \&gt;" alt="" coords="1085,16,1352,72"/>
+<area shape="rect" id="node2" href="classogdf_1_1_embedder_max_face.html" title="Embedder that maximizes the external face. " alt="" coords="597,31,765,57"/>
+<area shape="rect" id="node3" href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title="ogdf::embedder::Embedder\lBCTreeBase\&lt; false \&gt;" alt="" coords="371,23,549,65"/>
+<area shape="rect" id="node4" href="classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms. " alt="" coords="167,31,323,57"/>
+<area shape="rect" id="node5" href="classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,5,111,32"/>
+<area shape="rect" id="node6" href="classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="5,56,119,83"/>
+<area shape="rect" id="node8" href="classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding that minimizes block&#45;nesting depth and maximizes the external face and optimiz..." alt="" coords="1400,23,1595,65"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9d3051443fa07d070f96a4d716f6ff9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a9d3051443fa07d070f96a4d716f6ff9f">EmbedderMinDepthMaxFace</a> ()</td></tr>
-<tr class="separator:a9d3051443fa07d070f96a4d716f6ff9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a994130418199c99a9c1302d7b372d53b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a994130418199c99a9c1302d7b372d53b">doCall</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;adjExternal) override</td></tr>
 <tr class="memdesc:a994130418199c99a9c1302d7b372d53b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call embedder algorithm.  <a href="#a994130418199c99a9c1302d7b372d53b">More...</a><br /></td></tr>
 <tr class="separator:a994130418199c99a9c1302d7b372d53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,76 +202,127 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1ec90e2dbb0919618f016ae5b7b277a9 inherit pub_methods_classogdf_1_1_timeouter"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current time limit for the call  <a href="classogdf_1_1_timeouter.html#a1ec90e2dbb0919618f016ae5b7b277a9">More...</a><br /></td></tr>
 <tr class="separator:a1ec90e2dbb0919618f016ae5b7b277a9 inherit pub_methods_classogdf_1_1_timeouter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
-Private Types</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-types"></a>
+Protected Types</h2></td></tr>
 <tr class="memitem:a36ad9fed2997b36b8d8d5b8fd8f82c91"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a36ad9fed2997b36b8d8d5b8fd8f82c91">MDMFLengthAttribute</a> = <a class="el" href="classogdf_1_1embedder_1_1_m_d_m_f_length_attribute.html">embedder::MDMFLengthAttribute</a></td></tr>
 <tr class="separator:a36ad9fed2997b36b8d8d5b8fd8f82c91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:ae019b70f9872b3f81b12158d0174f6d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ae019b70f9872b3f81b12158d0174f6d5">embedBlock</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT)</td></tr>
-<tr class="memdesc:ae019b70f9872b3f81b12158d0174f6d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the adjacency list for all nodes in a block and calls recursively the function for all blocks incident to nodes in bT.  <a href="#ae019b70f9872b3f81b12158d0174f6d5">More...</a><br /></td></tr>
-<tr class="separator:ae019b70f9872b3f81b12158d0174f6d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b46333bbc0ea33486943c29bf7cbbbb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a6b46333bbc0ea33486943c29bf7cbbbb">embedBlock</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;cT, <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &amp;<a class="el" href="namespaceogdf.html#ac7625914963ce9d09a3e208f02d12f2ba632a2406bbcbcd553eec45ac14b40a0a">after</a>)</td></tr>
-<tr class="memdesc:a6b46333bbc0ea33486943c29bf7cbbbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the adjacency list for all nodes in a block and calls recursively the function for all blocks incident to nodes in bT.  <a href="#a6b46333bbc0ea33486943c29bf7cbbbb">More...</a><br /></td></tr>
-<tr class="separator:a6b46333bbc0ea33486943c29bf7cbbbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86acf15e166827d71f54338579f02c14"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a86acf15e166827d71f54338579f02c14">md_bottomUpTraversal</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;cH)</td></tr>
-<tr class="memdesc:a86acf15e166827d71f54338579f02c14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bottom-up-traversal of bcTree computing the values <em>m_{cT</em>, bT} for all edges <em></em>(cT, bT) in the BC-tree.  <a href="#a86acf15e166827d71f54338579f02c14">More...</a><br /></td></tr>
-<tr class="separator:a86acf15e166827d71f54338579f02c14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae76761921be2d5499116c7f49ddbade7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ae76761921be2d5499116c7f49ddbade7">md_topDownTraversal</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT)</td></tr>
-<tr class="memdesc:ae76761921be2d5499116c7f49ddbade7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Top-down-traversal of BC-tree.  <a href="#ae76761921be2d5499116c7f49ddbade7">More...</a><br /></td></tr>
-<tr class="separator:ae76761921be2d5499116c7f49ddbade7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08de42a40e0195305f32b2c18df9741d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a08de42a40e0195305f32b2c18df9741d">mf_constraintMaxFace</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;cH)</td></tr>
-<tr class="memdesc:a08de42a40e0195305f32b2c18df9741d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bottom up traversal of BC-tree.  <a href="#a08de42a40e0195305f32b2c18df9741d">More...</a><br /></td></tr>
-<tr class="separator:a08de42a40e0195305f32b2c18df9741d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33568cb25d7a744a8cce229f8b1bad92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a33568cb25d7a744a8cce229f8b1bad92">mf_maximumFaceRec</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT_opt, int &amp;ell_opt)</td></tr>
-<tr class="memdesc:a33568cb25d7a744a8cce229f8b1bad92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Top down traversal of BC-tree.  <a href="#a33568cb25d7a744a8cce229f8b1bad92">More...</a><br /></td></tr>
-<tr class="separator:a33568cb25d7a744a8cce229f8b1bad92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a776c702322513241dcf350aae8a6383b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a776c702322513241dcf350aae8a6383b">bottomUpTraversal</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;cH)</td></tr>
+<tr class="memdesc:a776c702322513241dcf350aae8a6383b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bottom-up-traversal of bcTree computing the values <em>m_{cT</em>, bT} for all edges <em></em>(cT, bT) in the BC-tree.  <a href="#a776c702322513241dcf350aae8a6383b">More...</a><br /></td></tr>
+<tr class="separator:a776c702322513241dcf350aae8a6383b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5bf0010eaeca905d026d60e8c136768"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#aa5bf0010eaeca905d026d60e8c136768">constraintMaxFace</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;cH) override</td></tr>
+<tr class="memdesc:aa5bf0010eaeca905d026d60e8c136768"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bottom up traversal of BC-tree.  <a href="#aa5bf0010eaeca905d026d60e8c136768">More...</a><br /></td></tr>
+<tr class="separator:aa5bf0010eaeca905d026d60e8c136768"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a934ca3c79028191e3daec22f04f33ac1"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a934ca3c79028191e3daec22f04f33ac1">embedBlock</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;cT, <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &amp;<a class="el" href="namespaceogdf.html#ac7625914963ce9d09a3e208f02d12f2ba632a2406bbcbcd553eec45ac14b40a0a">after</a>) override</td></tr>
+<tr class="memdesc:a934ca3c79028191e3daec22f04f33ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the adjacency list for all nodes in a block and calls recursively the function for all blocks incident to nodes in bT.  <a href="#a934ca3c79028191e3daec22f04f33ac1">More...</a><br /></td></tr>
+<tr class="separator:a934ca3c79028191e3daec22f04f33ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae5f9067adfd413d4198099c0ce0f8eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#aae5f9067adfd413d4198099c0ce0f8eb">maximumFaceRec</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT_opt, int &amp;ell_opt) override</td></tr>
+<tr class="memdesc:aae5f9067adfd413d4198099c0ce0f8eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Top down traversal of BC-tree.  <a href="#aae5f9067adfd413d4198099c0ce0f8eb">More...</a><br /></td></tr>
+<tr class="separator:aae5f9067adfd413d4198099c0ce0f8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b1430a1c57b6b285d23051f3b7f8c1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a5b1430a1c57b6b285d23051f3b7f8c1f">topDownTraversal</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT)</td></tr>
+<tr class="memdesc:a5b1430a1c57b6b285d23051f3b7f8c1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Top-down-traversal of BC-tree.  <a href="#a5b1430a1c57b6b285d23051f3b7f8c1f">More...</a><br /></td></tr>
+<tr class="separator:a5b1430a1c57b6b285d23051f3b7f8c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classogdf_1_1_embedder_max_face"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classogdf_1_1_embedder_max_face')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classogdf_1_1_embedder_max_face.html">ogdf::EmbedderMaxFace</a></td></tr>
+<tr class="memitem:a1d803e68032b7d5a5b021fea68065367 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a1d803e68032b7d5a5b021fea68065367">computeBlockGraphs</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;cH)</td></tr>
+<tr class="memdesc:a1d803e68032b7d5a5b021fea68065367 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes recursively the block graph for every block.  <a href="classogdf_1_1_embedder_max_face.html#a1d803e68032b7d5a5b021fea68065367">More...</a><br /></td></tr>
+<tr class="separator:a1d803e68032b7d5a5b021fea68065367 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc88b9f3821c1075d4913794542bebba inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#abc88b9f3821c1075d4913794542bebba">computeNodeLength</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> bT, std::function&lt; int &amp;(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>)&gt; setter)</td></tr>
+<tr class="separator:abc88b9f3821c1075d4913794542bebba inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15561d704d13ea6ba120ff9fc28588ac inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a15561d704d13ea6ba120ff9fc28588ac">embedBlock</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT)</td></tr>
+<tr class="memdesc:a15561d704d13ea6ba120ff9fc28588ac inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the adjacency list for all nodes in a block and calls recursively the function for all blocks incident to nodes in bT.  <a href="classogdf_1_1_embedder_max_face.html#a15561d704d13ea6ba120ff9fc28588ac">More...</a><br /></td></tr>
+<tr class="separator:a15561d704d13ea6ba120ff9fc28588ac inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f1098a2df82417e764c5ff1e1cc22c4 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a2f1098a2df82417e764c5ff1e1cc22c4">forEachIngoingNeighbor</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v, std::function&lt; void(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>)&gt; fun)</td></tr>
+<tr class="memdesc:a2f1098a2df82417e764c5ff1e1cc22c4 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <code>fun</code> for every ingoing edge (<em>w</em>,<code>v</code>).  <a href="classogdf_1_1_embedder_max_face.html#a2f1098a2df82417e764c5ff1e1cc22c4">More...</a><br /></td></tr>
+<tr class="separator:a2f1098a2df82417e764c5ff1e1cc22c4 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9928ce47e7034a3877e4589488b78cc7 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9928ce47e7034a3877e4589488b78cc7 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a9928ce47e7034a3877e4589488b78cc7">internalEmbedBlock</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> bT, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> cT, <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &amp;<a class="el" href="namespaceogdf.html#ac7625914963ce9d09a3e208f02d12f2ba632a2406bbcbcd553eec45ac14b40a0a">after</a>, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;blockGraph, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;paramNodeLength, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &amp;paramEdgeLength, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;mapNodeToH, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;mapEdgeToH, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> nodeInBlock)</td></tr>
+<tr class="separator:a9928ce47e7034a3877e4589488b78cc7 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae331b309ba049dbb67863c0a06aedd91 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#ae331b309ba049dbb67863c0a06aedd91">internalMaximumFaceRec</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;bT_opt, int &amp;ell_opt, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;blockGraph, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;paramNodeLength, <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html">StaticSPQRTree</a> *spqrTree, std::function&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>)&gt; getBENode, std::function&lt; int &amp;(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>)&gt; getCstrLength, std::function&lt; int &amp;(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>)&gt; getNodeLength, int *const maxFaceSizeToUpdate=nullptr)</td></tr>
+<tr class="separator:ae331b309ba049dbb67863c0a06aedd91 inherit pro_methods_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classogdf_1_1embedder_1_1_embedder_b_c_tree_base')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html">ogdf::embedder::EmbedderBCTreeBase&lt; false &gt;</a></td></tr>
+<tr class="memitem:acfabf0d3b0e52dd4c2ee9e0536e65e99 inherit pro_methods_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#acfabf0d3b0e52dd4c2ee9e0536e65e99">initBCTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
+<tr class="memdesc:acfabf0d3b0e52dd4c2ee9e0536e65e99 inherit pro_methods_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes <a class="el" href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#ab4000215ae7f4e148f67ef400a0842f0" title="BC-tree of the original graph. ">pBCTree</a> and returns the root node of this tree or <code>nullptr</code> if <code>G</code> is biconnected.  <a href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#acfabf0d3b0e52dd4c2ee9e0536e65e99">More...</a><br /></td></tr>
+<tr class="separator:acfabf0d3b0e52dd4c2ee9e0536e65e99 inherit pro_methods_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada51ae7b61e35eae242cbd1bc227a2d8 inherit pro_methods_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#ada51ae7b61e35eae242cbd1bc227a2d8">trivialInit</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
+<tr class="memdesc:ada51ae7b61e35eae242cbd1bc227a2d8 inherit pro_methods_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization code for biconnected input. Returns an adjacency entry that lies on the external face.  <a href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#ada51ae7b61e35eae242cbd1bc227a2d8">More...</a><br /></td></tr>
+<tr class="separator:ada51ae7b61e35eae242cbd1bc227a2d8 inherit pro_methods_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a41ca5b3f12f9befe55b593f6261a2c0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a41ca5b3f12f9befe55b593f6261a2c0b">md_M2</a></td></tr>
-<tr class="memdesc:a41ca5b3f12f9befe55b593f6261a2c0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">M2 is empty, if |M_B| != 1, otherwise M_B = {cH} M2 = {cH' in V_B \ {v} | m_B(cH') = m2} with m2 = max{m_B(vH) : vH in V_B, vH != cH}.  <a href="#a41ca5b3f12f9befe55b593f6261a2c0b">More...</a><br /></td></tr>
-<tr class="separator:a41ca5b3f12f9befe55b593f6261a2c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0462f864ff1f1402eb3846b12dbe438"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ad0462f864ff1f1402eb3846b12dbe438">md_M_B</a></td></tr>
-<tr class="memdesc:ad0462f864ff1f1402eb3846b12dbe438"><td class="mdescLeft">&#160;</td><td class="mdescRight">M_B = {cH in B | m_B(cH) = m_B} with m_B = max{m_B(c) : c in B} and m_B(c) = max( {0} cup {m_{c, B'} | c in B', B' != B} ).  <a href="#ad0462f864ff1f1402eb3846b12dbe438">More...</a><br /></td></tr>
-<tr class="separator:ad0462f864ff1f1402eb3846b12dbe438"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69fa59fb7438ff31c687ed5d07293511"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a69fa59fb7438ff31c687ed5d07293511">md_m_cB</a></td></tr>
-<tr class="memdesc:a69fa59fb7438ff31c687ed5d07293511"><td class="mdescLeft">&#160;</td><td class="mdescRight">an array saving the length for each edge in the BC-tree  <a href="#a69fa59fb7438ff31c687ed5d07293511">More...</a><br /></td></tr>
-<tr class="separator:a69fa59fb7438ff31c687ed5d07293511"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a577be31264d00dc775fb3d4e145f9618"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a577be31264d00dc775fb3d4e145f9618">md_minDepth</a></td></tr>
-<tr class="memdesc:a577be31264d00dc775fb3d4e145f9618"><td class="mdescLeft">&#160;</td><td class="mdescRight">an array containing the minimum depth of each block  <a href="#a577be31264d00dc775fb3d4e145f9618">More...</a><br /></td></tr>
-<tr class="separator:a577be31264d00dc775fb3d4e145f9618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a17c6ecf7624821f338b1c9fe509d03bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a17c6ecf7624821f338b1c9fe509d03bf">cB</a></td></tr>
+<tr class="memdesc:a17c6ecf7624821f338b1c9fe509d03bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">an array saving the length for each edge in the BC-tree  <a href="#a17c6ecf7624821f338b1c9fe509d03bf">More...</a><br /></td></tr>
+<tr class="separator:a17c6ecf7624821f338b1c9fe509d03bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35635f8bcad358a96e14c3da27863bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a36ad9fed2997b36b8d8d5b8fd8f82c91">MDMFLengthAttribute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ae35635f8bcad358a96e14c3da27863bf">edgeLength</a></td></tr>
+<tr class="memdesc:ae35635f8bcad358a96e14c3da27863bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">is saving for each edge of the block graph its length  <a href="#ae35635f8bcad358a96e14c3da27863bf">More...</a><br /></td></tr>
+<tr class="separator:ae35635f8bcad358a96e14c3da27863bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1493b59e8417e60933f2a2c1009042db"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a1493b59e8417e60933f2a2c1009042db">M2</a></td></tr>
+<tr class="memdesc:a1493b59e8417e60933f2a2c1009042db"><td class="mdescLeft">&#160;</td><td class="mdescRight">M2 is empty, if |M_B| != 1, otherwise M_B = {cH} M2 = {cH' in V_B \ {v} | m_B(cH') = m2} with m2 = max{m_B(vH) : vH in V_B, vH != cH}.  <a href="#a1493b59e8417e60933f2a2c1009042db">More...</a><br /></td></tr>
+<tr class="separator:a1493b59e8417e60933f2a2c1009042db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8c77d1c3063a2476d171d36758056be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ad8c77d1c3063a2476d171d36758056be">maxFaceSize</a></td></tr>
+<tr class="memdesc:ad8c77d1c3063a2476d171d36758056be"><td class="mdescLeft">&#160;</td><td class="mdescRight">an array containing the maximum face size of each block  <a href="#ad8c77d1c3063a2476d171d36758056be">More...</a><br /></td></tr>
+<tr class="separator:ad8c77d1c3063a2476d171d36758056be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92c909277f616c0b532af39e3a84ce48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a92c909277f616c0b532af39e3a84ce48">md_M_B</a></td></tr>
+<tr class="memdesc:a92c909277f616c0b532af39e3a84ce48"><td class="mdescLeft">&#160;</td><td class="mdescRight">M_B = {cH in B | m_B(cH) = m_B} with m_B = max{m_B(c) : c in B} and m_B(c) = max( {0} cup {m_{c, B'} | c in B', B' != B} ).  <a href="#a92c909277f616c0b532af39e3a84ce48">More...</a><br /></td></tr>
+<tr class="separator:a92c909277f616c0b532af39e3a84ce48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6957d8a7d963e6333cce80a6baca600c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a6957d8a7d963e6333cce80a6baca600c">md_nodeLength</a></td></tr>
 <tr class="memdesc:a6957d8a7d963e6333cce80a6baca600c"><td class="mdescLeft">&#160;</td><td class="mdescRight">saving for each node in the block graph its length  <a href="#a6957d8a7d963e6333cce80a6baca600c">More...</a><br /></td></tr>
 <tr class="separator:a6957d8a7d963e6333cce80a6baca600c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a5dc3473783cdf360b891f7a0d2c3d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a36ad9fed2997b36b8d8d5b8fd8f82c91">MDMFLengthAttribute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ab1a5dc3473783cdf360b891f7a0d2c3d">mdmf_edgeLength</a></td></tr>
-<tr class="memdesc:ab1a5dc3473783cdf360b891f7a0d2c3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">is saving for each edge of the block graph its length  <a href="#ab1a5dc3473783cdf360b891f7a0d2c3d">More...</a><br /></td></tr>
-<tr class="separator:ab1a5dc3473783cdf360b891f7a0d2c3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b7f3a8127f22ae8b409d913e2df31ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a36ad9fed2997b36b8d8d5b8fd8f82c91">MDMFLengthAttribute</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a2b7f3a8127f22ae8b409d913e2df31ca">mdmf_nodeLength</a></td></tr>
 <tr class="memdesc:a2b7f3a8127f22ae8b409d913e2df31ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">is saving for each node of the block graph its length  <a href="#a2b7f3a8127f22ae8b409d913e2df31ca">More...</a><br /></td></tr>
 <tr class="separator:a2b7f3a8127f22ae8b409d913e2df31ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b0c3b337e10ee4c14f83d0c405c7077"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a8b0c3b337e10ee4c14f83d0c405c7077">mf_cstrLength</a></td></tr>
 <tr class="memdesc:a8b0c3b337e10ee4c14f83d0c405c7077"><td class="mdescLeft">&#160;</td><td class="mdescRight">is saving for each node of the block graph its cstrLength  <a href="#a8b0c3b337e10ee4c14f83d0c405c7077">More...</a><br /></td></tr>
 <tr class="separator:a8b0c3b337e10ee4c14f83d0c405c7077"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0bfed989fac77b0044345053eca8485"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ad0bfed989fac77b0044345053eca8485">mf_maxFaceSize</a></td></tr>
-<tr class="memdesc:ad0bfed989fac77b0044345053eca8485"><td class="mdescLeft">&#160;</td><td class="mdescRight">an array containing the maximum face size of each block  <a href="#ad0bfed989fac77b0044345053eca8485">More...</a><br /></td></tr>
-<tr class="separator:ad0bfed989fac77b0044345053eca8485"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28547782f46612a49b83567d8b2a1189"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a28547782f46612a49b83567d8b2a1189">mf_nodeLength</a></td></tr>
 <tr class="memdesc:a28547782f46612a49b83567d8b2a1189"><td class="mdescLeft">&#160;</td><td class="mdescRight">is saving for each node of the block graph its length  <a href="#a28547782f46612a49b83567d8b2a1189">More...</a><br /></td></tr>
 <tr class="separator:a28547782f46612a49b83567d8b2a1189"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c5f9d09036af3c0451db2b7e600f259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a1c5f9d09036af3c0451db2b7e600f259">newOrder</a></td></tr>
-<tr class="memdesc:a1c5f9d09036af3c0451db2b7e600f259"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves for every node of G the new adjacency list  <a href="#a1c5f9d09036af3c0451db2b7e600f259">More...</a><br /></td></tr>
-<tr class="separator:a1c5f9d09036af3c0451db2b7e600f259"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c99997942bb082408306fdbd8a08358"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a4c99997942bb082408306fdbd8a08358">pAdjExternal</a></td></tr>
-<tr class="memdesc:a4c99997942bb082408306fdbd8a08358"><td class="mdescLeft">&#160;</td><td class="mdescRight">an adjacency entry on the external face  <a href="#a4c99997942bb082408306fdbd8a08358">More...</a><br /></td></tr>
-<tr class="separator:a4c99997942bb082408306fdbd8a08358"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c2f090d3d08ccc51e82910af2b2a96b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_b_c_tree.html">BCTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a3c2f090d3d08ccc51e82910af2b2a96b">pBCTree</a></td></tr>
-<tr class="memdesc:a3c2f090d3d08ccc51e82910af2b2a96b"><td class="mdescLeft">&#160;</td><td class="mdescRight">the BC-tree of G  <a href="#a3c2f090d3d08ccc51e82910af2b2a96b">More...</a><br /></td></tr>
-<tr class="separator:a3c2f090d3d08ccc51e82910af2b2a96b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60052d3c982385f1eb36e64d16062f61"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a60052d3c982385f1eb36e64d16062f61">treeNodeTreated</a></td></tr>
-<tr class="memdesc:a60052d3c982385f1eb36e64d16062f61"><td class="mdescLeft">&#160;</td><td class="mdescRight">treeNodeTreated saves for all block nodes in the BC-tree if it has already been treated or not.  <a href="#a60052d3c982385f1eb36e64d16062f61">More...</a><br /></td></tr>
-<tr class="separator:a60052d3c982385f1eb36e64d16062f61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21eaec5383e2c2cc293ac07745c3cff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ac21eaec5383e2c2cc293ac07745c3cff">minDepth</a></td></tr>
+<tr class="memdesc:ac21eaec5383e2c2cc293ac07745c3cff"><td class="mdescLeft">&#160;</td><td class="mdescRight">an array containing the minimum depth of each block  <a href="#ac21eaec5383e2c2cc293ac07745c3cff">More...</a><br /></td></tr>
+<tr class="separator:ac21eaec5383e2c2cc293ac07745c3cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classogdf_1_1_embedder_max_face"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1_embedder_max_face')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1_embedder_max_face.html">ogdf::EmbedderMaxFace</a></td></tr>
+<tr class="memitem:a3864dd71a4a1b43d7dcfa3655fff941b inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_graph.html">Graph</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a3864dd71a4a1b43d7dcfa3655fff941b">blockG</a></td></tr>
+<tr class="memdesc:a3864dd71a4a1b43d7dcfa3655fff941b inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">all blocks  <a href="classogdf_1_1_embedder_max_face.html#a3864dd71a4a1b43d7dcfa3655fff941b">More...</a><br /></td></tr>
+<tr class="separator:a3864dd71a4a1b43d7dcfa3655fff941b inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2079eafa4de1aea39f0e39331020d3b inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#ae2079eafa4de1aea39f0e39331020d3b">cstrLength</a></td></tr>
+<tr class="memdesc:ae2079eafa4de1aea39f0e39331020d3b inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">is saving for each node in the block graphs its cstrLength  <a href="classogdf_1_1_embedder_max_face.html#ae2079eafa4de1aea39f0e39331020d3b">More...</a><br /></td></tr>
+<tr class="separator:ae2079eafa4de1aea39f0e39331020d3b inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4ee2ecbbe796f0aa230bf9ff076b92c inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#ac4ee2ecbbe796f0aa230bf9ff076b92c">eBlockEmbedding_to_eH</a></td></tr>
+<tr class="memdesc:ac4ee2ecbbe796f0aa230bf9ff076b92c inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">a mapping of edges in blockG to the auxiliaryGraph of the BC-tree  <a href="classogdf_1_1_embedder_max_face.html#ac4ee2ecbbe796f0aa230bf9ff076b92c">More...</a><br /></td></tr>
+<tr class="separator:ac4ee2ecbbe796f0aa230bf9ff076b92c inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a022824da2559139842189ea27365508c inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a022824da2559139842189ea27365508c">eH_to_eBlockEmbedding</a></td></tr>
+<tr class="memdesc:a022824da2559139842189ea27365508c inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">a mapping of edges in the auxiliaryGraph of the BC-tree to blockG  <a href="classogdf_1_1_embedder_max_face.html#a022824da2559139842189ea27365508c">More...</a><br /></td></tr>
+<tr class="separator:a022824da2559139842189ea27365508c inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7dc5754908034fd822dd2436626b52d inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#ad7dc5754908034fd822dd2436626b52d">nBlockEmbedding_to_nH</a></td></tr>
+<tr class="memdesc:ad7dc5754908034fd822dd2436626b52d inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">a mapping of nodes in blockG to the auxiliaryGraph of the BC-tree  <a href="classogdf_1_1_embedder_max_face.html#ad7dc5754908034fd822dd2436626b52d">More...</a><br /></td></tr>
+<tr class="separator:ad7dc5754908034fd822dd2436626b52d inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3556dc29ceb49f08d6cc268ad5319168 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a3556dc29ceb49f08d6cc268ad5319168">newOrder</a></td></tr>
+<tr class="memdesc:a3556dc29ceb49f08d6cc268ad5319168 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">saves for every node of PG the new adjacency list  <a href="classogdf_1_1_embedder_max_face.html#a3556dc29ceb49f08d6cc268ad5319168">More...</a><br /></td></tr>
+<tr class="separator:a3556dc29ceb49f08d6cc268ad5319168 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0080b7a3da5c110784ab514c5abe28f inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#ab0080b7a3da5c110784ab514c5abe28f">nH_to_nBlockEmbedding</a></td></tr>
+<tr class="memdesc:ab0080b7a3da5c110784ab514c5abe28f inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">a mapping of nodes in the auxiliaryGraph of the BC-tree to blockG  <a href="classogdf_1_1_embedder_max_face.html#ab0080b7a3da5c110784ab514c5abe28f">More...</a><br /></td></tr>
+<tr class="separator:ab0080b7a3da5c110784ab514c5abe28f inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a5f6a4d30c954e48fc5cc613839eef8 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a6a5f6a4d30c954e48fc5cc613839eef8">nodeLength</a></td></tr>
+<tr class="memdesc:a6a5f6a4d30c954e48fc5cc613839eef8 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">saving for each node in the block graphs its length  <a href="classogdf_1_1_embedder_max_face.html#a6a5f6a4d30c954e48fc5cc613839eef8">More...</a><br /></td></tr>
+<tr class="separator:a6a5f6a4d30c954e48fc5cc613839eef8 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af18f9dc23ffa37598c29372b3f6925e8 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html">StaticSPQRTree</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#af18f9dc23ffa37598c29372b3f6925e8">spqrTrees</a></td></tr>
+<tr class="memdesc:af18f9dc23ffa37598c29372b3f6925e8 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">The SPQR-trees of the blocks.  <a href="classogdf_1_1_embedder_max_face.html#af18f9dc23ffa37598c29372b3f6925e8">More...</a><br /></td></tr>
+<tr class="separator:af18f9dc23ffa37598c29372b3f6925e8 inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f5d4d245c085b0623cae750bc06b0bc inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face.html#a8f5d4d245c085b0623cae750bc06b0bc">treeNodeTreated</a></td></tr>
+<tr class="memdesc:a8f5d4d245c085b0623cae750bc06b0bc inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="mdescLeft">&#160;</td><td class="mdescRight">treeNodeTreated saves for all block nodes in the BC-tree if it has already been treated or not.  <a href="classogdf_1_1_embedder_max_face.html#a8f5d4d245c085b0623cae750bc06b0bc">More...</a><br /></td></tr>
+<tr class="separator:a8f5d4d245c085b0623cae750bc06b0bc inherit pro_attribs_classogdf_1_1_embedder_max_face"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1embedder_1_1_embedder_b_c_tree_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html">ogdf::embedder::EmbedderBCTreeBase&lt; false &gt;</a></td></tr>
+<tr class="memitem:ab8a6559cb4c8d36ea1eaa776ca742e06 inherit pro_attribs_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#ab8a6559cb4c8d36ea1eaa776ca742e06">pAdjExternal</a></td></tr>
+<tr class="memdesc:ab8a6559cb4c8d36ea1eaa776ca742e06 inherit pro_attribs_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">an adjacency entry on the external face  <a href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#ab8a6559cb4c8d36ea1eaa776ca742e06">More...</a><br /></td></tr>
+<tr class="separator:ab8a6559cb4c8d36ea1eaa776ca742e06 inherit pro_attribs_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4000215ae7f4e148f67ef400a0842f0 inherit pro_attribs_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_b_c_tree.html">BCTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#ab4000215ae7f4e148f67ef400a0842f0">pBCTree</a></td></tr>
+<tr class="memdesc:ab4000215ae7f4e148f67ef400a0842f0 inherit pro_attribs_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">BC-tree of the original graph.  <a href="classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html#ab4000215ae7f4e148f67ef400a0842f0">More...</a><br /></td></tr>
+<tr class="separator:ab4000215ae7f4e148f67ef400a0842f0 inherit pro_attribs_classogdf_1_1embedder_1_1_embedder_b_c_tree_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classogdf_1_1_timeouter"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1_timeouter')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1_timeouter.html">ogdf::Timeouter</a></td></tr>
+<tr class="memitem:abab76474e029b48d3907e09ea70c46eb inherit pro_attribs_classogdf_1_1_timeouter"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_timeouter.html#abab76474e029b48d3907e09ea70c46eb">m_timeLimit</a></td></tr>
+<tr class="memdesc:abab76474e029b48d3907e09ea70c46eb inherit pro_attribs_classogdf_1_1_timeouter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time limit for module calls (&lt; 0 means no limit).  <a href="classogdf_1_1_timeouter.html#abab76474e029b48d3907e09ea70c46eb">More...</a><br /></td></tr>
+<tr class="separator:abab76474e029b48d3907e09ea70c46eb inherit pro_attribs_classogdf_1_1_timeouter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -289,16 +340,12 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:af06f77ce9303ae90d6c7670d2f453715 inherit pub_static_methods_classogdf_1_1_module"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_module.html#af06f77ce9303ae90d6c7670d2f453715">isSolution</a> (<a class="el" href="classogdf_1_1_module.html#a9331df5a6aa5c9856a0df1e8b74f8f9a">ReturnType</a> ret)</td></tr>
 <tr class="memdesc:af06f77ce9303ae90d6c7670d2f453715 inherit pub_static_methods_classogdf_1_1_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>ret</code> indicates that the module returned a feasible solution.  <a href="classogdf_1_1_module.html#af06f77ce9303ae90d6c7670d2f453715">More...</a><br /></td></tr>
 <tr class="separator:af06f77ce9303ae90d6c7670d2f453715 inherit pub_static_methods_classogdf_1_1_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_classogdf_1_1_timeouter"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1_timeouter')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1_timeouter.html">ogdf::Timeouter</a></td></tr>
-<tr class="memitem:abab76474e029b48d3907e09ea70c46eb inherit pro_attribs_classogdf_1_1_timeouter"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_timeouter.html#abab76474e029b48d3907e09ea70c46eb">m_timeLimit</a></td></tr>
-<tr class="memdesc:abab76474e029b48d3907e09ea70c46eb inherit pro_attribs_classogdf_1_1_timeouter"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time limit for module calls (&lt; 0 means no limit).  <a href="classogdf_1_1_timeouter.html#abab76474e029b48d3907e09ea70c46eb">More...</a><br /></td></tr>
-<tr class="separator:abab76474e029b48d3907e09ea70c46eb inherit pro_attribs_classogdf_1_1_timeouter"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Planar graph embedding with minimum block-nesting depth and maximum external face. </p>
+<div class="textblock"><p>Embedding that minimizes block-nesting depth and maximizes the external face. </p>
 <p>See the paper "Graph Embedding with Minimum Depth and Maximum External Face" by C. Gutwenger and P. Mutzel (2004) for details. </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00048">48</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00046">46</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a36ad9fed2997b36b8d8d5b8fd8f82c91"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36ad9fed2997b36b8d8d5b8fd8f82c91">&#9670;&nbsp;</a></span>MDMFLengthAttribute</h2>
@@ -315,18 +362,18 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00062">62</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00057">57</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9d3051443fa07d070f96a4d716f6ff9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d3051443fa07d070f96a4d716f6ff9f">&#9670;&nbsp;</a></span>EmbedderMinDepthMaxFace()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a776c702322513241dcf350aae8a6383b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a776c702322513241dcf350aae8a6383b">&#9670;&nbsp;</a></span>bottomUpTraversal()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -335,24 +382,90 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ogdf::EmbedderMinDepthMaxFace::EmbedderMinDepthMaxFace </td>
+          <td class="memname">int ogdf::EmbedderMinDepthMaxFace::bottomUpTraversal </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
+          <td class="paramname"><em>bT</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
+          <td class="paramname"><em>cH</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00052">52</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p>Bottom-up-traversal of bcTree computing the values <em>m_{cT</em>, bT} for all edges <em></em>(cT, bT) in the BC-tree. </p>
+<p>The length of each vertex <em>v</em> != <em>c</em> in <code>bT</code> is set to 1 if <em>v</em> in M_{bT} and to 0 otherwise.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bT</td><td>is a block vertex in the BC-tree. </td></tr>
+    <tr><td class="paramname">cH</td><td>is a vertex in the original graph <em>G</em>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Minimum depth of an embedding of <code>bT</code> with <code>cH</code> on the external face. </dd></dl>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<a id="aa5bf0010eaeca905d026d60e8c136768"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5bf0010eaeca905d026d60e8c136768">&#9670;&nbsp;</a></span>constraintMaxFace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int ogdf::EmbedderMinDepthMaxFace::constraintMaxFace </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
+          <td class="paramname"><em>bT</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
+          <td class="paramname"><em>cH</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Bottom up traversal of BC-tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bT</td><td>is the BC-tree node treated in this function call. </td></tr>
+    <tr><td class="paramname">cH</td><td>is the block node which is related to the cut vertex which is parent of bT in BC-tree. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented from <a class="el" href="classogdf_1_1_embedder_max_face.html#ad08dacae419ce54062d6060dd7101c16">ogdf::EmbedderMaxFace</a>.</p>
+
+</div>
+</div>
 <a id="a994130418199c99a9c1302d7b372d53b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a994130418199c99a9c1302d7b372d53b">&#9670;&nbsp;</a></span>doCall()</h2>
 
@@ -396,12 +509,12 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implements <a class="el" href="classogdf_1_1_embedder_module.html#af4d35e517bb0ec43effc141585f122a4">ogdf::EmbedderModule</a>.</p>
+<p>Reimplemented from <a class="el" href="classogdf_1_1_embedder_max_face.html#ad72cb9c80ecfa02ad9c7f12b7ad21baf">ogdf::EmbedderMaxFace</a>.</p>
 
 </div>
 </div>
-<a id="ae019b70f9872b3f81b12158d0174f6d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae019b70f9872b3f81b12158d0174f6d5">&#9670;&nbsp;</a></span>embedBlock() <span class="overload">[1/2]</span></h2>
+<a id="a934ca3c79028191e3daec22f04f33ac1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a934ca3c79028191e3daec22f04f33ac1">&#9670;&nbsp;</a></span>embedBlock()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -410,41 +523,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::EmbedderMinDepthMaxFace::embedBlock </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
-          <td class="paramname"><em>bT</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Computes the adjacency list for all nodes in a block and calls recursively the function for all blocks incident to nodes in bT. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bT</td><td>is the tree node treated in this function call. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a6b46333bbc0ea33486943c29bf7cbbbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b46333bbc0ea33486943c29bf7cbbbb">&#9670;&nbsp;</a></span>embedBlock() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::EmbedderMinDepthMaxFace::embedBlock </td>
+          <td class="memname">virtual void ogdf::EmbedderMinDepthMaxFace::embedBlock </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
           <td class="paramname"><em>bT</em>, </td>
@@ -469,7 +548,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -484,10 +563,14 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
+<p>Reimplemented from <a class="el" href="classogdf_1_1_embedder_max_face.html#adba9215034f1939b4e01467b11e0fb9c">ogdf::EmbedderMaxFace</a>.</p>
+
+<p>Reimplemented in <a class="el" href="classogdf_1_1_embedder_min_depth_max_face_layers.html#ad9b67b6b2c7493686e4c44cd4cf74692">ogdf::EmbedderMinDepthMaxFaceLayers</a>.</p>
+
 </div>
 </div>
-<a id="a86acf15e166827d71f54338579f02c14"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86acf15e166827d71f54338579f02c14">&#9670;&nbsp;</a></span>md_bottomUpTraversal()</h2>
+<a id="aae5f9067adfd413d4198099c0ce0f8eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae5f9067adfd413d4198099c0ce0f8eb">&#9670;&nbsp;</a></span>maximumFaceRec()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -496,134 +579,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::EmbedderMinDepthMaxFace::md_bottomUpTraversal </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
-          <td class="paramname"><em>bT</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
-          <td class="paramname"><em>cH</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Bottom-up-traversal of bcTree computing the values <em>m_{cT</em>, bT} for all edges <em></em>(cT, bT) in the BC-tree. </p>
-<p>The length of each vertex <em>v</em> != <em>c</em> in <code>bT</code> is set to 1 if <em>v</em> in M_{bT} and to 0 otherwise.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bT</td><td>is a block vertex in the BC-tree. </td></tr>
-    <tr><td class="paramname">cH</td><td>is a vertex in the original graph <em>G</em>. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Minimum depth of an embedding of <code>bT</code> with <code>cH</code> on the external face. </dd></dl>
-
-</div>
-</div>
-<a id="ae76761921be2d5499116c7f49ddbade7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae76761921be2d5499116c7f49ddbade7">&#9670;&nbsp;</a></span>md_topDownTraversal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::EmbedderMinDepthMaxFace::md_topDownTraversal </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
-          <td class="paramname"><em>bT</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Top-down-traversal of BC-tree. </p>
-<p>The minimum depth of the BC-tree-node bT is calculated and before calling the function recursively for all children of bT in the BC-tree, the nodeLength of the cut-vertex which bT and the child have in common is computed. The length of each node is set to 1 if it is in M_B and 0 otherwise, except for |M_B| = 1, than it is set to 1 if it is in M2 with m2 = max{m_B(v) : v in V_B, v != c} and M2 = {c in V_B \ {v} | m_B(c) = m2}.</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bT</td><td>is a block vertex in the BC-tree. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a08de42a40e0195305f32b2c18df9741d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08de42a40e0195305f32b2c18df9741d">&#9670;&nbsp;</a></span>mf_constraintMaxFace()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ogdf::EmbedderMinDepthMaxFace::mf_constraintMaxFace </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
-          <td class="paramname"><em>bT</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
-          <td class="paramname"><em>cH</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Bottom up traversal of BC-tree. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">bT</td><td>is the BC-tree node treated in this function call. </td></tr>
-    <tr><td class="paramname">cH</td><td>is the block node which is related to the cut vertex which is parent of bT in BC-tree. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a33568cb25d7a744a8cce229f8b1bad92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33568cb25d7a744a8cce229f8b1bad92">&#9670;&nbsp;</a></span>mf_maximumFaceRec()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::EmbedderMinDepthMaxFace::mf_maximumFaceRec </td>
+          <td class="memname">void ogdf::EmbedderMinDepthMaxFace::maximumFaceRec </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
           <td class="paramname"><em>bT</em>, </td>
@@ -648,7 +604,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -663,11 +619,48 @@ Additional Inherited Members</h2></td></tr>
   </dd>
 </dl>
 
+<p>Reimplemented from <a class="el" href="classogdf_1_1_embedder_max_face.html#a6b12eee518658395cdf5b827ea5f8bb1">ogdf::EmbedderMaxFace</a>.</p>
+
+</div>
+</div>
+<a id="a5b1430a1c57b6b285d23051f3b7f8c1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b1430a1c57b6b285d23051f3b7f8c1f">&#9670;&nbsp;</a></span>topDownTraversal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::EmbedderMinDepthMaxFace::topDownTraversal </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;&#160;</td>
+          <td class="paramname"><em>bT</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Top-down-traversal of BC-tree. </p>
+<p>The minimum depth of the BC-tree-node bT is calculated and before calling the function recursively for all children of bT in the BC-tree, the nodeLength of the cut-vertex which bT and the child have in common is computed. The length of each node is set to 1 if it is in M_B and 0 otherwise, except for |M_B| = 1, than it is set to 1 if it is in M2 with m2 = max{m_B(v) : v in V_B, v != c} and M2 = {c in V_B \ {v} | m_B(c) = m2}.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bT</td><td>is a block vertex in the BC-tree. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a41ca5b3f12f9befe55b593f6261a2c0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ca5b3f12f9befe55b593f6261a2c0b">&#9670;&nbsp;</a></span>md_M2</h2>
+<a id="a17c6ecf7624821f338b1c9fe509d03bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17c6ecf7624821f338b1c9fe509d03bf">&#9670;&nbsp;</a></span>cB</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -676,76 +669,24 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; ogdf::EmbedderMinDepthMaxFace::md_M2</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;int&gt; ogdf::EmbedderMinDepthMaxFace::cB</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>M2 is empty, if |M_B| != 1, otherwise M_B = {cH} M2 = {cH' in V_B \ {v} | m_B(cH') = m2} with m2 = max{m_B(vH) : vH in V_B, vH != cH}. </p>
-
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00151">151</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
-
-</div>
-</div>
-<a id="ad0462f864ff1f1402eb3846b12dbe438"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0462f864ff1f1402eb3846b12dbe438">&#9670;&nbsp;</a></span>md_M_B</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; ogdf::EmbedderMinDepthMaxFace::md_M_B</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>M_B = {cH in B | m_B(cH) = m_B} with m_B = max{m_B(c) : c in B} and m_B(c) = max( {0} cup {m_{c, B'} | c in B', B' != B} ). </p>
-
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00146">146</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
-
-</div>
-</div>
-<a id="a69fa59fb7438ff31c687ed5d07293511"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69fa59fb7438ff31c687ed5d07293511">&#9670;&nbsp;</a></span>md_m_cB</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;int&gt; ogdf::EmbedderMinDepthMaxFace::md_m_cB</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>an array saving the length for each edge in the BC-tree </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00142">142</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00099">99</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 
 </div>
 </div>
-<a id="a577be31264d00dc775fb3d4e145f9618"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a577be31264d00dc775fb3d4e145f9618">&#9670;&nbsp;</a></span>md_minDepth</h2>
+<a id="ae35635f8bcad358a96e14c3da27863bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae35635f8bcad358a96e14c3da27863bf">&#9670;&nbsp;</a></span>edgeLength</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -754,19 +695,97 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;int&gt; ogdf::EmbedderMinDepthMaxFace::md_minDepth</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a36ad9fed2997b36b8d8d5b8fd8f82c91">MDMFLengthAttribute</a>&gt; ogdf::EmbedderMinDepthMaxFace::edgeLength</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>an array containing the minimum depth of each block </p>
+<p>is saving for each edge of the block graph its length </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00139">139</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00123">123</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+
+</div>
+</div>
+<a id="a1493b59e8417e60933f2a2c1009042db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1493b59e8417e60933f2a2c1009042db">&#9670;&nbsp;</a></span>M2</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; ogdf::EmbedderMinDepthMaxFace::M2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>M2 is empty, if |M_B| != 1, otherwise M_B = {cH} M2 = {cH' in V_B \ {v} | m_B(cH') = m2} with m2 = max{m_B(vH) : vH in V_B, vH != cH}. </p>
+
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00108">108</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+
+</div>
+</div>
+<a id="ad8c77d1c3063a2476d171d36758056be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8c77d1c3063a2476d171d36758056be">&#9670;&nbsp;</a></span>maxFaceSize</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;int&gt; ogdf::EmbedderMinDepthMaxFace::maxFaceSize</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>an array containing the maximum face size of each block </p>
+
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00117">117</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+
+</div>
+</div>
+<a id="a92c909277f616c0b532af39e3a84ce48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92c909277f616c0b532af39e3a84ce48">&#9670;&nbsp;</a></span>md_M_B</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; ogdf::EmbedderMinDepthMaxFace::md_M_B</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>M_B = {cH in B | m_B(cH) = m_B} with m_B = max{m_B(c) : c in B} and m_B(c) = max( {0} cup {m_{c, B'} | c in B', B' != B} ). </p>
+
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00103">103</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 
 </div>
 </div>
@@ -785,40 +804,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>saving for each node in the block graph its length </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00136">136</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
-
-</div>
-</div>
-<a id="ab1a5dc3473783cdf360b891f7a0d2c3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1a5dc3473783cdf360b891f7a0d2c3d">&#9670;&nbsp;</a></span>mdmf_edgeLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;<a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#a36ad9fed2997b36b8d8d5b8fd8f82c91">MDMFLengthAttribute</a>&gt; ogdf::EmbedderMinDepthMaxFace::mdmf_edgeLength</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>is saving for each edge of the block graph its length </p>
-
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00166">166</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00093">93</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 
 </div>
 </div>
@@ -837,14 +830,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>is saving for each node of the block graph its length </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00163">163</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00120">120</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 
 </div>
 </div>
@@ -863,40 +856,14 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>is saving for each node of the block graph its cstrLength </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00157">157</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
-
-</div>
-</div>
-<a id="ad0bfed989fac77b0044345053eca8485"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0bfed989fac77b0044345053eca8485">&#9670;&nbsp;</a></span>mf_maxFaceSize</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;int&gt; ogdf::EmbedderMinDepthMaxFace::mf_maxFaceSize</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>an array containing the maximum face size of each block </p>
-
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00160">160</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00114">114</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 
 </div>
 </div>
@@ -915,19 +882,19 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>is saving for each node of the block graph its length </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00154">154</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00111">111</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 
 </div>
 </div>
-<a id="a1c5f9d09036af3c0451db2b7e600f259"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c5f9d09036af3c0451db2b7e600f259">&#9670;&nbsp;</a></span>newOrder</h2>
+<a id="ac21eaec5383e2c2cc293ac07745c3cff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21eaec5383e2c2cc293ac07745c3cff">&#9670;&nbsp;</a></span>minDepth</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -936,97 +903,19 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a>&gt; &gt; ogdf::EmbedderMinDepthMaxFace::newOrder</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;int&gt; ogdf::EmbedderMinDepthMaxFace::minDepth</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>saves for every node of G the new adjacency list </p>
+<p>an array containing the minimum depth of each block </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00169">169</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
-
-</div>
-</div>
-<a id="a4c99997942bb082408306fdbd8a08358"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c99997942bb082408306fdbd8a08358">&#9670;&nbsp;</a></span>pAdjExternal</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a>* ogdf::EmbedderMinDepthMaxFace::pAdjExternal</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>an adjacency entry on the external face </p>
-
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00133">133</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
-
-</div>
-</div>
-<a id="a3c2f090d3d08ccc51e82910af2b2a96b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c2f090d3d08ccc51e82910af2b2a96b">&#9670;&nbsp;</a></span>pBCTree</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_b_c_tree.html">BCTree</a>* ogdf::EmbedderMinDepthMaxFace::pBCTree</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>the BC-tree of G </p>
-
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00130">130</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
-
-</div>
-</div>
-<a id="a60052d3c982385f1eb36e64d16062f61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60052d3c982385f1eb36e64d16062f61">&#9670;&nbsp;</a></span>treeNodeTreated</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;bool&gt; ogdf::EmbedderMinDepthMaxFace::treeNodeTreated</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>treeNodeTreated saves for all block nodes in the BC-tree if it has already been treated or not. </p>
-
-<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00173">173</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_min_depth_max_face_8h_source.html#l00096">96</a> of file <a class="el" href="_embedder_min_depth_max_face_8h_source.html">EmbedderMinDepthMaxFace.h</a>.</p>
 
 </div>
 </div>

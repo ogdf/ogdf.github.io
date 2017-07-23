@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: snapshot</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -136,7 +134,8 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <p>We also removed header files that contained declarations of classes whose implementation has already been removed in former releases. This includes <code>FixedUpwardEmbeddingInserter.h</code> and <code>UpwardPlanarizationLayout.h</code>.</p>
 <p>The directory structure for internal headers (for example, helper classes) has also changed.</p>
 <h3>Global namespace</h3>
-<p>In former versions of the OGDF some symbols were added to the global namespace. This includes but isn't limited to <code>ifstream</code>, <code>ofstream</code>, <code>min</code>, <code>max</code>, and <code>numeric_limits</code>. Thus, you may be required to explicitly use the OGDF namesapce in some places.</p>
+<p>In former versions of the OGDF some symbols were added to the global namespace. This includes but is not limited to <code>ifstream</code>, <code>ofstream</code>, <code>cout</code>, <code>ios</code>, <code>endl</code>, and <code>numeric_limits</code>. Thus, you may be required to explicitly use the <code>std</code> namespace.</p>
+<p>Also many <code>std</code> functions and classes that were also available in the <code>ogdf</code> namespace are now <em>only</em> available in the <code>std</code> namespace. For example, string-to-number conversion functions like <code>std::stoul</code> cannot be called using <code>ogdf::stoul</code> any longer.</p>
 <h3>Exceptions</h3>
 <p>When a <code>PreconditionViolationException</code> or <code>AlgorithmFailureException</code> was only thrown in debug mode, it is now replaced by an assertion (<code>OGDF_ASSERT</code>).</p>
 <h3>Enum Classes</h3>
@@ -153,7 +152,8 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <li><code>OGDF_DECL_THREAD</code> (simply use <code>thread_local</code> instead)</li>
 </ul>
 <p>We also have removed most of the iteration macros since C++11 offers range-based for loops. This includes the removal of <code>forall_nodes</code> and <code>forall_edges</code>.</p>
-<div class="fragment"><div class="line"><a class="code" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v;</div><div class="line"><a class="code" href="namespaceogdf_1_1_gml_parser_predefined_key.html#ac315fe27fce362fe4e07245746f88433">Graph</a> G;</div><div class="line"></div><div class="line">forall_nodes(v, G) { ... }</div></div><!-- fragment --><p> should be replaced by </p><div class="fragment"><div class="line"><span class="keywordflow">for</span>(<a class="code" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v : G.nodes) { ... }</div></div><!-- fragment --><p>There must now be a semicolon after usage of the macro <code>OGDF_ASSERT</code> and <code>OGDF_ASSERT_IF</code>.</p>
+<div class="fragment"><div class="line"><a class="code" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v;</div><div class="line"><a class="code" href="namespaceogdf_1_1_gml_parser_predefined_key.html#ac315fe27fce362fe4e07245746f88433">Graph</a> G;</div><div class="line"></div><div class="line">forall_nodes(v, G) { ... }</div></div><!-- fragment --><p> should be replaced by </p><div class="fragment"><div class="line"><span class="keywordflow">for</span>(<a class="code" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v : G.nodes) { ... }</div></div><!-- fragment --><p><code>OGDF_ASSERT_IF</code> was replaced by <code>OGDF_HEAVY_ASSERT</code>. The debug level argument was dropped.</p>
+<p>There must now be a semicolon after usage of the macro <code>OGDF_ASSERT</code> and <code>OGDF_HEAVY_ASSERT</code>.</p>
 <h2>Changed class, function, header names</h2>
 <h3>stNumber(), testSTnumber()</h3>
 <p>To access the st-numbering functions, include <code><a class="el" href="_s_t_numbering_8h.html" title="Declaration of st-Numbering functions. ">ogdf/basic/STNumbering.h</a></code> (instead of <code><a class="el" href="extended__graph__alg_8h.html" title="Declaration of extended graph algorithms. ">ogdf/basic/extended_graph_alg.h</a></code>).</p>
@@ -169,6 +169,8 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <h3>DTreeMultilevelEmbedder</h3>
 <p>The <code>DTreeMultilevelEmbedder</code> header file is moved from <code>include/ogdf/internal/energybased/</code> to <code>include/ogdf/energybased</code> because it is not internal.</p>
 <p>Its internal header files however have moved to <code>include/ogdf/energybased/dtree</code>.</p>
+<h3>MixedForceLayout</h3>
+<p>The class <code>MixedForceLayout</code> was removed. Instead of calling this layout algorithm, call the <code>FastMultipoleEmbedder</code> directly followed by a call to the <code>SpringEmbedderGridVariant</code>.</p>
 <h3>TricComp</h3>
 <p>The (formerly internal) class <code>TricComp</code> was renamed to <code>Triconnectivity</code> and can now be found in <code><a class="el" href="_triconnectivity_8h.html" title="Declares class Triconnectivity which realizes the Hopcroft/Tarjan algorithm for finding the triconnec...">include/ogdf/graphalg/Triconnectivity.h</a></code>.</p>
 <h3>PlanRepInc</h3>
@@ -188,8 +190,12 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <p>Hiding and restoring edges was not a safe operation in former releases. Replace code like </p><div class="fragment"><div class="line">{c++}</div><div class="line">    G.hideEdge(e);</div><div class="line">    // ...</div><div class="line">    G.restoreEdge(e);</div></div><!-- fragment --><p> by </p><div class="fragment"><div class="line">{c++}</div><div class="line">   Graph::HiddenEdgeSet hiddenSet(G);</div><div class="line">   hiddenSet.hide(e);</div><div class="line">   // ...</div><div class="line">   hiddenSet.restore(e);</div></div><!-- fragment --><p> All edges are restored by <code>hiddenSet.restore()</code> or automatically by the <code>HiddenEdgeSet</code> destructor.</p>
 <h3>Typofix: collaps</h3>
 <p>The method <code>collaps</code> has been renamed to <code>collapse</code>.</p>
+<h3>Method to compute the next Power of 2</h3>
+<p>The static method <code>nextPower2</code> was slightly changed and moved to <code>Math</code>. The computed result is no longer strictly larger than the second parameter. <code>nextPower2(0)</code> is now <code>0</code> instead of <code>1</code>.</p>
 <h2>GraphCopy class</h2>
 <p>The <code>newEdge()</code> methods to add edges at predefined positions in the adjacency list have been removed from <code>GraphCopy</code>. You can instead use the respective <code>newEdge()</code> function inherited from <code>Graph</code>, followed by <code>GraphCopy::setEdge()</code>.</p>
+<h2>Stack &amp; StackPure &amp; BoundedStack classes</h2>
+<p>The classes <code>Stack</code>, <code>StackPure</code> and <code>BoundedStack</code> are deleted. Use <code>ArrayBuffer</code> instead (which provides the functionality of all three classes (and more) and outperforms all implementations). Change <code>pop()</code> in your implementations to <code>popRet()</code>.</p>
 <h2>List &amp; ListPure class</h2>
 <p>The deprecated methods <code>List::exchange()</code> and <code>ListPure::exchange()</code> were removed. Use <code>List::swap()</code> and <code>ListPure::swap()</code> instead.</p>
 <h2>Planar Subgraph Algorithms</h2>
@@ -198,6 +204,10 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <p>The Module <code>PlanarSubgraphModule</code> is now a template. The implementations <code>PlanarSubgraphCactus</code>, <code>MaximalPlanarSubgraphSimple</code>, <code>PlanarSubgraphEmpty</code> and <code>PlanarSubgraphFast</code> are templates itself. All other implementations of the module inherit from <code>PlanarSubgraphModule&lt;int&gt;</code>.</p>
 <h3>MaximumCPlanarSubgraph</h3>
 <p><code>MaximumCPlanarSubgraph</code> supports advanced calls that also return the edges required to connect the input graph. To avoid conflicts with the method defined by <code>CPlanarSubgraphModule</code>, <code>MaximumCPlanarSubgraph::call</code> was renamed to <code>MaximumCPlanarSubgraph::callAndConnect</code>.</p>
+<h2>LayoutClusterPlanRepModule</h2>
+<p>The signature of <code>call()</code> changed. The last two parameters <code>List&lt;NodePair&gt;&amp; npEdges</code> and <code>List&lt;edge&gt;&amp; newEdges</code> became the single parameter <code>List&lt;edge&gt;&amp; origEdges</code> that contains all edges in the original that still need to be inserted. The original graph must now contain all edges prior to the call. This also means that the input graph is no longer modified (except for embedding it).</p>
+<h2>Comparers</h2>
+<p><code>NodeComparer</code> was removed. Instead of <code>NodeComparer&lt;T&gt; foo(array, asc)</code> use <code>GenericComparer&lt;node, T, asc&gt; foo(array)</code>. <code>IndexComparer</code> also was removed. Use <code>GenericComparer&lt;node, int&gt;([](node v) { return v-&gt;index(); });</code> instead. If you need a default constructor you may use <code>OGDF_DECLARE_COMPARER</code>.</p>
 <h2>Heaps and Priority Queues</h2>
 <p>In an attempt to unify the existing heap classes, <code>BinaryHeap</code> and <code>BinaryHeap2</code> were replaced by a new <code>BinaryHeap</code>. All heap implementations are derived from the common interface <code>HeapBase</code>. Additionally, the classes <code>MinPriorityQueue</code> and <code>PQueue</code> were removed.</p>
 <p>The following heap implementations were introduced:</p><ul>
@@ -301,7 +311,7 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <h2>GraphIO</h2>
 <p>Methods that take filenames (instead of streams) are deprecated and will be removed in future versions. For example, instead of using</p>
 <div class="fragment"><div class="line">{c++}</div><div class="line">    GraphIO::readLEDA(G, &quot;circulant.lgr&quot;);</div><div class="line">    GraphIO::writeChaco(G, &quot;circulant.gml&quot;);</div></div><!-- fragment --><p>you have to create the streams manually, i.e.,</p>
-<div class="fragment"><div class="line">{c++}</div><div class="line">    ifstream is(&quot;circulant.lgr&quot;);</div><div class="line">    GraphIO::readLEDA(G, is);</div><div class="line">    ofstream os(&quot;circulant.gml&quot;);</div><div class="line">    GraphIO::writeGML(G, os);</div></div><!-- fragment --><p>There are also helper functions <code>GraphIO::read()</code> and <code>GraphIO::write()</code> that accept filenames for <code>GraphAttribute</code>s and <code>Graph</code>s, so you can also write</p>
+<div class="fragment"><div class="line">{c++}</div><div class="line">    std::ifstream is(&quot;circulant.lgr&quot;);</div><div class="line">    GraphIO::readLEDA(G, is);</div><div class="line">    std::ofstream os(&quot;circulant.gml&quot;);</div><div class="line">    GraphIO::writeGML(G, os);</div></div><!-- fragment --><p>There are also helper functions <code>GraphIO::read()</code> and <code>GraphIO::write()</code> that accept filenames for <code>GraphAttribute</code>s and <code>Graph</code>s, so you can also write</p>
 <div class="fragment"><div class="line">{c++}</div><div class="line">    GraphIO::read(G, &quot;circulant.lgr&quot;, GraphIO::readLEDA);</div><div class="line">    GraphIO::write(G, &quot;circulant.gml&quot;, GraphIO::writeGML);</div></div><!-- fragment --><p>Do not confuse the new filename-based <code>GraphIO::read()</code> helper function with our new (experimental) generic reader function of the same name. However, this generic reader even allows to write</p>
 <div class="fragment"><div class="line">{c++}</div><div class="line">    GraphIO::read(G, &quot;circulant.lgr&quot;);</div><div class="line">    GraphIO::write(G, &quot;circulant.gml&quot;, GraphIO::writeGML);</div></div><!-- fragment --><h2>GmlParser</h2>
 <p>If you happened to use the <code>GmlParser</code> class directly (instead of <code>GraphIO</code>), the constructor with filename argument is also gone now. Use the constructor for input streams instead.</p>
@@ -340,10 +350,10 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 </table>
 <h2>NonPlanarCore</h2>
 <p><code>NonPlanarCore&lt;TCost&gt;::mincut(edge e)</code> now returns an <code>NonPlanarCore&lt;TCost&gt;::CutEdge</code> which is a struct with the two parameters <code>edge e</code>, the edge itself and a <code>bool dir</code> which indicates the direction of the edge, i.e. indicates if the edge goes from s to t or the other way round. Furthermore the <code>NonPlanarCore</code> can now handle weighted edges and therefore is templated with the type of the weights.</p>
+<h2>MMMExample layouts</h2>
+<p>Some very simple example layout algorithms (using the <code>ModularMultilevelMixer</code>) were removed. This includes <code>MMMExampleFast</code>, <code>MMMExampleNice</code>, and <code>MMMExampleNoTwist</code>. The respective code can still be found in <code>doc/examples/layout/multilevelmixer.cpp</code>.</p>
 <h2>FMMMLayout</h2>
 <p>The enumerators from <code>FMMMLayout</code> are now in a new class <code>FMMMOptions</code>. Hence, for example, <code>FMMMLayout::apInteger</code> became <code>FMMMOptions::AllowedPositions::Integer</code> and <code>FMMMLayout::gcNonUniformProbLowerMass</code> became <code>FMMMLayout::GalaxyChoice::NonUniformProbLowerMass</code>.</p>
-<h2>Optimal Crossing Minimizers</h2>
-<p>The enumerators <code>Minimal</code> and <code>Few</code> of <code>PricingMode</code> in the crossing minimizers are now merged to <code>Few</code>. Use <code>Few</code> also in <code>OptimalSimultaneousCrossingMinimizer</code> instead of <code>Minimal</code> (which was previously unused).</p>
 <h2>DisjointSets</h2>
 <p>The basic data structure <code>DisjointSets</code> is highly customizable using template parameters. The enumerator names to do so have now changed.</p>
 <table class="doxtable">
@@ -385,13 +395,63 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <li><code>compressionOptionNames</code></li>
 <li><code>interleavingOptionNames</code></li>
 </ul>
-<h2><a class="el" href="group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77" title="Returns true iff G represents a forest, i.e., a collection of arborescences. ">isForest()</a></h2>
-<p>The function <code><a class="el" href="group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77" title="Returns true iff G represents a forest, i.e., a collection of arborescences. ">isForest()</a></code> in <code><a class="el" href="simple__graph__alg_8h.html" title="Declaration of simple graph algorithms. ">basic/simple_graph_alg.h</a></code> formerly returned <code>true</code> even when the graph contained multi-edges or self-loops. This is no longer the case.</p>
+<h2><a class="el" href="group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77" title="Returns true iff G is a forest consisting only of arborescences. ">isForest()</a> and <a class="el" href="group__ga-tree.html#ga07fa8e31ee16a5c08919b7f072219142" title="Returns true iff the undirected graph G is acyclic. ">isFreeForest()</a></h2>
+<p>The function <code><a class="el" href="group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77" title="Returns true iff G is a forest consisting only of arborescences. ">isForest()</a></code> in <code><a class="el" href="simple__graph__alg_8h.html" title="Declaration of simple graph algorithms. ">basic/simple_graph_alg.h</a></code> has been deprecated in favor of <code><a class="el" href="group__ga-tree.html#ga2d962e9ef43b0fd8a28a697e7591ca1a" title="Returns true iff G is a forest consisting only of arborescences. ">isArborescenceForest()</a></code>. <code><a class="el" href="group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77" title="Returns true iff G is a forest consisting only of arborescences. ">isForest()</a></code> formerly returned <code>true</code> even when the graph contained multi-edges or self-loops. This is no longer the case for <code><a class="el" href="group__ga-tree.html#ga2d962e9ef43b0fd8a28a697e7591ca1a" title="Returns true iff G is a forest consisting only of arborescences. ">isArborescenceForest()</a></code>.</p>
+<p>Furthermore, <code><a class="el" href="group__ga-tree.html#ga07fa8e31ee16a5c08919b7f072219142" title="Returns true iff the undirected graph G is acyclic. ">isFreeForest()</a></code> has been deprecated in favor of <code><a class="el" href="group__ga-digraph.html#gae3a13393936c7d2d89acc8c8a5ccdcba" title="Returns true iff the undirected graph G is acyclic. ">isAcyclicUndirected()</a></code>.</p>
+<h2><a class="el" href="group__ga-connectivity.html#gac63c344ed6d409cea63bdf7e1043bc1e" title="Computes the connected components of G and optionally generates a list of isolated nodes...">connectedIsolatedComponents()</a></h2>
+<p>The function <code><a class="el" href="group__ga-connectivity.html#gac63c344ed6d409cea63bdf7e1043bc1e" title="Computes the connected components of G and optionally generates a list of isolated nodes...">connectedIsolatedComponents()</a></code> in <code><a class="el" href="simple__graph__alg_8h.html" title="Declaration of simple graph algorithms. ">basic/simple_graph_alg.h</a></code> has been deprecated in favor of <code><a class="el" href="group__ga-connectivity.html#gaab12b5e959d3e624ea032c5d80b2055a" title="Computes the connected components of G and optionally generates a list of isolated nodes...">connectedComponents()</a></code>. <code>connectedIsolatedComponents(graph, isolatedNodes, component)</code> can be rewritten as <code>connectedComponents(graph, component, &amp;isolatedNodes)</code>.</p>
+<h2><a class="el" href="group__ga-multi.html#ga63350e9b7f75e8867f1bc25d859e9b05" title="Removes all but one edge of each bundle of undirected parallel edges. ">makeParallelFreeUndirected()</a></h2>
+<p>The overloaded functions of <code><a class="el" href="group__ga-multi.html#ga63350e9b7f75e8867f1bc25d859e9b05" title="Removes all but one edge of each bundle of undirected parallel edges. ">makeParallelFreeUndirected()</a></code> in <code><a class="el" href="simple__graph__alg_8h.html" title="Declaration of simple graph algorithms. ">basic/simple_graph_alg.h</a></code> have been deprecated in favor of a single function that takes pointers as parameters (their default being <code>nullptr</code>). <code>makeParallelFreeUndirected(graph, parEdges, cardPositive, cardNegative)</code> can be rewritten as <code>makeParallelFreeUndirected(graph, &amp;parEdges, &amp;cardPositive, &amp;cardNegative)</code>.</p>
 <h2>doDestruction()</h2>
 <p>The function template <code>template&lt;class E&gt; doDestruction(const E *)</code> has been removed in favor of <code>!std::is_trivially_destructible&lt;E&gt;::value</code>. Hence, lists of elements with trivial destructors are now deallocated in constant time automatically, without the necessity of writing a template specialization.</p>
 <h2>GraphAttributes</h2>
 <p>The methods <code>setDirected</code>, <code>setStrokeType</code>, and <code>setFillPattern</code> have been removed from <code>GraphAttributes</code>. Use the respective getters (<code>directed</code>, <code>strokeType</code>, and <code>fillPattern</code>) instead to obtain a non-const reference to the underlying value.</p>
-<p>The method <code>initAttributes</code> was renamed to <code>addAttributes</code> as it does not disable previously enabled attributes. </p>
+<p>The method <code>initAttributes</code> was renamed to <code>addAttributes</code> as it does not disable previously enabled attributes.</p>
+<h2>Sets of faces and nodes</h2>
+<p>Some set classes were removed / renamed.</p>
+<table class="doxtable">
+<tr>
+<th>Former </th><th>New  </th></tr>
+<tr>
+<td><code>FaceSetSimple</code> </td><td><code>FaceSet&lt;false&gt;</code> </td></tr>
+<tr>
+<td><code>FaceSetPure</code> </td><td><code>FaceSet&lt;false&gt;</code> </td></tr>
+<tr>
+<td><code>FaceSet</code> </td><td><code>FaceSet&lt;&gt;</code> (defaults to <code>FaceSet&lt;true&gt;</code>) </td></tr>
+<tr>
+<td><code>NodeSetSimple</code> </td><td><code>NodeSet&lt;false&gt;</code> </td></tr>
+<tr>
+<td><code>NodeSetPure</code> </td><td><code>NodeSet&lt;false&gt;</code> </td></tr>
+<tr>
+<td><code>NodeSet</code> </td><td><code>NodeSet&lt;&gt;</code> (defaults to <code>FaceSet&lt;true&gt;</code>) </td></tr>
+</table>
+<h2>Math class</h2>
+<p><code>Math</code> is no longer a class with static methods but a namespace.</p>
+<h2>Geometry</h2>
+<p>The classes <code>DPoint</code> and <code>DVector</code> are now merged. Note that <code>DVector::length()</code> is now <code>DPoint::norm()</code>. Furthermore, <code>DVector::operator^</code> is now <code>DPoint::determinant</code>.</p>
+<p>The class <code>DScaler</code> and the methods <code>ogdf::DRound</code> and <code>DPolyline::convertToInt</code> were deleted.</p>
+<p>The classes <code>DLine</code> and <code>DSegment</code> were rewritten in such a way that <code>DLine</code> represents infinite lines and <code>DSegment</code> represents finite line segments with start and end points. The methods to access the sides of a <code>DRect</code> now return <code>DSegment</code>s instead of <code>DLine</code>s, and they were renamed appropriately.</p>
+<table class="doxtable">
+<tr>
+<th>Former </th><th>New  </th></tr>
+<tr>
+<td><code>DLine::intersectionOfLines()</code> </td><td><code>DLine::intersection()</code> </td></tr>
+<tr>
+<td><code>DSegment::intersectionOfLines()</code> </td><td><code>DLine::intersection()</code> </td></tr>
+<tr>
+<td><code>DRect::bottomLine()</code> </td><td><code>DRect::bottom()</code> </td></tr>
+<tr>
+<td><code>DRect::leftLine()</code> </td><td><code>DRect::left()</code> </td></tr>
+<tr>
+<td><code>DRect::rightLine()</code> </td><td><code>DRect::right()</code> </td></tr>
+<tr>
+<td><code>DRect::topLine()</code> </td><td><code>DRect::top()</code> </td></tr>
+</table>
+<p>The methods <code>intersection()</code>, <code>verIntersection()</code> and <code>horIntersection()</code> of <code>DLine</code> and <code>DSegment</code> now return an <code>IntersectionType</code> instead of a <code>bool</code>.</p>
+<h2>HyperGraph</h2>
+<p>The class <code>HyperGraph</code> was removed. Use <code>Hypergraph</code> instead.</p>
+<h2>EFreeList, EList, and EStack</h2>
+<p>The classes <code>EFreeList</code>, <code>EList</code> and <code>EStack</code> were removed. Use <code>List</code> and <code>Stack</code> instead. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

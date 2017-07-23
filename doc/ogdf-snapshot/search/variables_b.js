@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['l',['l',['../classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#aefd19dbcc1926c4ef0b1e3d3a8142d8f',1,'ogdf::CoffmanGrahamRanking::_int_set']]],
   ['l_5fpar',['l_par',['../classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner.html#a3dd239f7772adc6cc923ee66e15d0b27',1,'ogdf::fast_multipole_embedder::LQPartitioner']]],
   ['l_5fx_5fptr',['L_x_ptr',['../classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m.html#a44ecea45cea4aa707d0cf43c36b61abe',1,'ogdf::energybased::fmmm::QuadTreeNodeNM']]],
   ['l_5fy_5fptr',['L_y_ptr',['../classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m.html#a0f63c910aa95b9655637600cd7a1c574',1,'ogdf::energybased::fmmm::QuadTreeNodeNM']]],
@@ -36,8 +35,6 @@ var searchData=
   ['learntsize_5finc',['learntsize_inc',['../class_minisat_1_1_internal_1_1_solver.html#ae33bd8ae99c83e03ef5cc1a4eab30a33',1,'Minisat::Internal::Solver']]],
   ['left',['left',['../structogdf_1_1_r_m_heap_node.html#a8e7f61fcd3ca9e5d5d8de99165992445',1,'ogdf::RMHeapNode']]],
   ['lefte',['lefte',['../classogdf_1_1_edge_router.html#a2e20b6e7982a7fccd24ae2f907d8f988',1,'ogdf::EdgeRouter']]],
-  ['leftface_5fedge',['leftFace_edge',['../classogdf_1_1_visibility_layout.html#a52946bc3462bd2a29887c597c60e0498',1,'ogdf::VisibilityLayout']]],
-  ['leftface_5fnode',['leftFace_node',['../classogdf_1_1_visibility_layout.html#a2d60d154d5602e4209f64563ca7d270c',1,'ogdf::VisibilityLayout']]],
   ['length',['length',['../structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_1_1_level_edge_info.html#a043d508397041de24d85be71c08ca748',1,'ogdf::fast_multipole_embedder::GalaxyMultilevel::LevelEdgeInfo::length()'],['../classogdf_1_1energybased_1_1fmmm_1_1_edge_attributes.html#a37de3f147fb27da6e9bed94fdcf4dde5',1,'ogdf::energybased::fmmm::EdgeAttributes::length()'],['../structogdf_1_1_solar_merger_1_1_path_data.html#ac2d9ff5ad573691bc2550fa0b29f52c2',1,'ogdf::SolarMerger::PathData::length()']]],
   ['level',['level',['../structogdf_1_1energybased_1_1dtree_1_1_d_tree_1_1_node.html#acd7ab853c80de98eaaad0cf79c45f206',1,'ogdf::energybased::dtree::DTree::Node::level()'],['../structogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_1_1_l_q_node.html#a871ccc41bc3fda1c4e1d87cea0354d7b',1,'ogdf::fast_multipole_embedder::LinearQuadtree::LQNode::level()'],['../struct_minisat_1_1_internal_1_1_solver_1_1_var_data.html#a65ee6f78d4d59bd8e7aecf949673e55d',1,'Minisat::Internal::Solver::VarData::level()']]],
   ['level_5f',['level_',['../classabacus_1_1_sub.html#a4308fc252ddcf2b4adbf3e0d9e146fc5',1,'abacus::Sub']]],
@@ -59,7 +56,7 @@ var searchData=
   ['localcontext',['localContext',['../classogdf_1_1fast__multipole__embedder_1_1_node_move_functor.html#a99106eff2499db5ebc250963ea804dfb',1,'ogdf::fast_multipole_embedder::NodeMoveFunctor']]],
   ['localcontexts',['localContexts',['../classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner.html#a3ce0e7ab245afc23476bb6c9b22a9202',1,'ogdf::fast_multipole_embedder::LQPartitioner::localContexts()'],['../classogdf_1_1fast__multipole__embedder_1_1_collect_force_functor.html#aa06311abb87787a3d7ac44d192394d48',1,'ogdf::fast_multipole_embedder::CollectForceFunctor::localContexts()']]],
   ['localtimer_5f',['localTimer_',['../classabacus_1_1_sub.html#aad53c79fae7d51cd31e5e2167741165a',1,'abacus::Sub']]],
-  ['log_5fof_5f4',['log_of_4',['../classogdf_1_1_math.html#a1bceb360d85639e1f82e38bc2d545211',1,'ogdf::Math']]],
+  ['log_5fof_5f4',['log_of_4',['../namespaceogdf_1_1_math.html#a1bceb360d85639e1f82e38bc2d545211',1,'ogdf::Math']]],
   ['logger',['logger',['../classogdf_1_1_graph_i_o.html#aa075fd46d80a745012f4c9d3bde32e03',1,'ogdf::GraphIO']]],
   ['longedge',['longEdge',['../classogdf_1_1_fast_hierarchy_layout.html#aae0b8a2f7d02d8a819d5cd4530e40475',1,'ogdf::FastHierarchyLayout']]],
   ['longestdisttosteinerancestoronchain',['longestDistToSteinerAncestorOnChain',['../classogdf_1_1_steiner_tree_preprocessing_1_1_heavy_path_decomposition.html#a03f39eee22bb5519cc7a2f9ae07f7573',1,'ogdf::SteinerTreePreprocessing::HeavyPathDecomposition']]],

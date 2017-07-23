@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::FixEdgeInserterCore Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -215,13 +213,13 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ae63dd3d99ab12df0ccd2e7c9deb8104c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_set_simple.html">FaceSetSimple</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#ae63dd3d99ab12df0ccd2e7c9deb8104c">m_delFaces</a></td></tr>
-<tr class="separator:ae63dd3d99ab12df0ccd2e7c9deb8104c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5bef582aec0190fb1c8208a38692f20"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&lt; false &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#ad5bef582aec0190fb1c8208a38692f20">m_delFaces</a></td></tr>
+<tr class="separator:ad5bef582aec0190fb1c8208a38692f20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44d6770a8a42993a5bed766000448cf8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_graph.html">Graph</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#a44d6770a8a42993a5bed766000448cf8">m_dual</a></td></tr>
 <tr class="memdesc:a44d6770a8a42993a5bed766000448cf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">(Extended) dual graph, constructed/destructed during call.  <a href="#a44d6770a8a42993a5bed766000448cf8">More...</a><br /></td></tr>
 <tr class="separator:a44d6770a8a42993a5bed766000448cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a778d4b4a065540eeb18d6cf677cc1c35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_set_pure.html">FaceSetPure</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#a778d4b4a065540eeb18d6cf677cc1c35">m_newFaces</a></td></tr>
-<tr class="separator:a778d4b4a065540eeb18d6cf677cc1c35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada235dd4608aa37dfb142e9d399bdf3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&lt; false &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#ada235dd4608aa37dfb142e9d399bdf3f">m_newFaces</a></td></tr>
+<tr class="separator:ada235dd4608aa37dfb142e9d399bdf3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a766bfe1869750070efe95829b3ad4f3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_array.html">FaceArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#a766bfe1869750070efe95829b3ad4f3f">m_nodeOf</a></td></tr>
 <tr class="memdesc:a766bfe1869750070efe95829b3ad4f3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The node in dual corresponding to face in primal.  <a href="#a766bfe1869750070efe95829b3ad4f3f">More...</a><br /></td></tr>
 <tr class="separator:a766bfe1869750070efe95829b3ad4f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -907,8 +905,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae63dd3d99ab12df0ccd2e7c9deb8104c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae63dd3d99ab12df0ccd2e7c9deb8104c">&#9670;&nbsp;</a></span>m_delFaces</h2>
+<a id="ad5bef582aec0190fb1c8208a38692f20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5bef582aec0190fb1c8208a38692f20">&#9670;&nbsp;</a></span>m_delFaces</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -917,7 +915,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_face_set_simple.html">FaceSetSimple</a>* ogdf::FixEdgeInserterCore::m_delFaces</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&lt;false&gt;* ogdf::FixEdgeInserterCore::m_delFaces</td>
         </tr>
       </table>
   </td>
@@ -957,8 +955,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a778d4b4a065540eeb18d6cf677cc1c35"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a778d4b4a065540eeb18d6cf677cc1c35">&#9670;&nbsp;</a></span>m_newFaces</h2>
+<a id="ada235dd4608aa37dfb142e9d399bdf3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada235dd4608aa37dfb142e9d399bdf3f">&#9670;&nbsp;</a></span>m_newFaces</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -967,7 +965,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_face_set_pure.html">FaceSetPure</a>* ogdf::FixEdgeInserterCore::m_newFaces</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&lt;false&gt;* ogdf::FixEdgeInserterCore::m_newFaces</td>
         </tr>
       </table>
   </td>

@@ -14,7 +14,6 @@ var classogdf_1_1_sim_draw =
     [ "compareBy", "classogdf_1_1_sim_draw.html#a6616638ee40c5224b1cf66927f4c6372", null ],
     [ "compareById", "classogdf_1_1_sim_draw.html#a3db4b3971ba2a16280dc877b7636b338", null ],
     [ "compareByLabel", "classogdf_1_1_sim_draw.html#a356a2ffd679d4fadea98ca8c525944af", null ],
-    [ "consistencyCheck", "classogdf_1_1_sim_draw.html#a7091f6e4d5a915b83fc59b85a9b823e8", null ],
     [ "constGraph", "classogdf_1_1_sim_draw.html#a4aefc5ccbabd186bcd7a26fd12b39026", null ],
     [ "constGraph", "classogdf_1_1_sim_draw.html#a788c18abadf42899bffa6788cfc2b372", null ],
     [ "constGraphAttributes", "classogdf_1_1_sim_draw.html#a424d82da361943312f36babe9cc649bd", null ],

@@ -9,7 +9,7 @@ var classogdf_1_1_max_sequence_p_q_tree =
     [ "clientDefinedEmptyNode", "classogdf_1_1_max_sequence_p_q_tree.html#afa2cb6e74dff6059954f6c6ed30b432b", null ],
     [ "determineMinRemoveSequence", "classogdf_1_1_max_sequence_p_q_tree.html#a8bcae03389fb3b773cae3d287a485c9b", null ],
     [ "emptyAllPertinentNodes", "classogdf_1_1_max_sequence_p_q_tree.html#ab53f5e88734def785e5473ff14b0e493", null ],
-    [ "findMinWHASequence", "classogdf_1_1_max_sequence_p_q_tree.html#abd0ce6dab039d51030fbe02fb2d9c473", null ],
+    [ "findMinWHASequence", "classogdf_1_1_max_sequence_p_q_tree.html#aeb9594fefc5feb2eb416472c59e34b28", null ],
     [ "GetParent", "classogdf_1_1_max_sequence_p_q_tree.html#a3833d5517f5f796da145b18d9b28c5cb", null ],
     [ "haNumPnode", "classogdf_1_1_max_sequence_p_q_tree.html#ac90986b7c1e092f0b95729a4f1c669b6", null ],
     [ "haNumQnode", "classogdf_1_1_max_sequence_p_q_tree.html#a9a54f52bf461a39f2eef98e359f52b30", null ],

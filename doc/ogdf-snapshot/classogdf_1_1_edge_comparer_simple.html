@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::EdgeComparerSimple Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -129,6 +127,9 @@ $(document).ready(function(){initNavTree('classogdf_1_1_edge_comparer_simple.htm
 </div><!--header-->
 <div class="contents">
 
+<p>Compares incident edges of a node based on the position of the last bend point or the position of the adjacent node given by the layout information of the graph.  
+ <a href="classogdf_1_1_edge_comparer_simple.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_edge_comparer_simple_8h_source.html">ogdf/basic/EdgeComparerSimple.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ogdf::EdgeComparerSimple:</div>
@@ -143,8 +144,8 @@ $(document).ready(function(){initNavTree('classogdf_1_1_edge_comparer_simple.htm
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac2d421622f5ca1ec22be4aab4fe26660"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer_simple.html#ac2d421622f5ca1ec22be4aab4fe26660">EdgeComparerSimple</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;AG, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v)</td></tr>
-<tr class="separator:ac2d421622f5ca1ec22be4aab4fe26660"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12e1f3d59f2e622c82db7c1587925020"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer_simple.html#a12e1f3d59f2e622c82db7c1587925020">EdgeComparerSimple</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;AG, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v, bool useBends=true)</td></tr>
+<tr class="separator:a12e1f3d59f2e622c82db7c1587925020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68f87c27a33815820e4352f56ec4b03d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer_simple.html#a68f87c27a33815820e4352f56ec4b03d">compare</a> (const <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;e1, const <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;e2) const override</td></tr>
 <tr class="memdesc:a68f87c27a33815820e4352f56ec4b03d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares <code>x</code> and <code>y</code> and returns the result as an integer.  <a href="#a68f87c27a33815820e4352f56ec4b03d">More...</a><br /></td></tr>
 <tr class="separator:a68f87c27a33815820e4352f56ec4b03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,17 +173,21 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a2847c60cc5660298483130b27c50585a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer_simple.html#a2847c60cc5660298483130b27c50585a">basis</a></td></tr>
-<tr class="separator:a2847c60cc5660298483130b27c50585a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4167ce26594936b2f77b2a36d7f7db73"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer_simple.html#a4167ce26594936b2f77b2a36d7f7db73">m_AG</a></td></tr>
 <tr class="separator:a4167ce26594936b2f77b2a36d7f7db73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d39cc22fa3327f25316203ba96eea06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer_simple.html#a6d39cc22fa3327f25316203ba96eea06">m_basis</a></td></tr>
+<tr class="separator:a6d39cc22fa3327f25316203ba96eea06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c42f48c031d61f28bd4a9a7ed227533"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer_simple.html#a4c42f48c031d61f28bd4a9a7ed227533">m_useBends</a></td></tr>
+<tr class="memdesc:a4c42f48c031d61f28bd4a9a7ed227533"><td class="mdescLeft">&#160;</td><td class="mdescRight"><code>true</code> iff the algorithm should consider the bend-points  <a href="#a4c42f48c031d61f28bd4a9a7ed227533">More...</a><br /></td></tr>
+<tr class="separator:a4c42f48c031d61f28bd4a9a7ed227533"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00046">46</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
+<div class="textblock"><p>Compares incident edges of a node based on the position of the last bend point or the position of the adjacent node given by the layout information of the graph. </p>
+
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00044">44</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ac2d421622f5ca1ec22be4aab4fe26660"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2d421622f5ca1ec22be4aab4fe26660">&#9670;&nbsp;</a></span>EdgeComparerSimple()</h2>
+<a id="a12e1f3d59f2e622c82db7c1587925020"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12e1f3d59f2e622c82db7c1587925020">&#9670;&nbsp;</a></span>EdgeComparerSimple()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,7 +205,13 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>useBends</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -215,7 +226,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00050">50</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00047">47</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
 
 </div>
 </div>
@@ -266,30 +277,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2847c60cc5660298483130b27c50585a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2847c60cc5660298483130b27c50585a">&#9670;&nbsp;</a></span>basis</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> ogdf::EdgeComparerSimple::basis</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00055">55</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
-
-</div>
-</div>
 <a id="a4167ce26594936b2f77b2a36d7f7db73"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4167ce26594936b2f77b2a36d7f7db73">&#9670;&nbsp;</a></span>m_AG</h2>
 
@@ -310,7 +297,57 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00056">56</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00054">54</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
+
+</div>
+</div>
+<a id="a6d39cc22fa3327f25316203ba96eea06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d39cc22fa3327f25316203ba96eea06">&#9670;&nbsp;</a></span>m_basis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> ogdf::EdgeComparerSimple::m_basis</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00053">53</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
+
+</div>
+</div>
+<a id="a4c42f48c031d61f28bd4a9a7ed227533"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c42f48c031d61f28bd4a9a7ed227533">&#9670;&nbsp;</a></span>m_useBends</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::EdgeComparerSimple::m_useBends</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><code>true</code> iff the algorithm should consider the bend-points </p>
+
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_simple_8h_source.html#l00055">55</a> of file <a class="el" href="_edge_comparer_simple_8h_source.html">EdgeComparerSimple.h</a>.</p>
 
 </div>
 </div>

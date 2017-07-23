@@ -1,26 +1,4 @@
 var classogdf_1_1_embedder_min_depth_max_face_layers =
 [
-    [ "MDMFLengthAttribute", "classogdf_1_1_embedder_min_depth_max_face_layers.html#af7e0c4d386dc4099aa745dab260d76f6", null ],
-    [ "EmbedderMinDepthMaxFaceLayers", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ab304f6b619fa1b5854f5b2a5907d8198", null ],
-    [ "doCall", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a3bd26c741552cf497d2be79b75438e09", null ],
-    [ "embedBlock", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a38f6d66205568d1ee784b7b25fab9b38", null ],
-    [ "embedBlock", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ad4784aa60cb5a43c5283196ba2df6725", null ],
-    [ "md_bottomUpTraversal", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a12434e150cb2527e1fb1fcd6a49c3a5e", null ],
-    [ "md_topDownTraversal", "classogdf_1_1_embedder_min_depth_max_face_layers.html#aaeacb26ed083b7893f4555c376ec4818", null ],
-    [ "mf_constraintMaxFace", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ab7f68cf6970b973d802c2549f1db8aa2", null ],
-    [ "mf_maximumFaceRec", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a7fd1fec33d1b2da36bec55f65122713e", null ],
-    [ "md_M2", "classogdf_1_1_embedder_min_depth_max_face_layers.html#afee466c81b7bf36e8cbf52cc498e3121", null ],
-    [ "md_M_B", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a746e8c0d29d643f3c8678b690667bd0a", null ],
-    [ "md_m_cB", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a6418ff71ee71aaf49aebf4b7add13804", null ],
-    [ "md_minDepth", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ade08a931dd88b0d752b43aa95b93d026", null ],
-    [ "md_nodeLength", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a73e1de731896e284aae0a578a9dfcb2a", null ],
-    [ "mdmf_edgeLength", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a02ae4434dc43820318ebcda42bf05de1", null ],
-    [ "mdmf_nodeLength", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ad988f588e3973fc74827e8d27a925a2d", null ],
-    [ "mf_cstrLength", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ad8f3572fe836d95e37edb27880a77c8b", null ],
-    [ "mf_maxFaceSize", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ac308b24be9d9e6717095b259826d8c26", null ],
-    [ "mf_nodeLength", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a9f511888e3b5bc17e9e7d8fc4ce0564b", null ],
-    [ "newOrder", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ab07de6f6a48e3a87a55b40779778a582", null ],
-    [ "pAdjExternal", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a3584bd7688d2a6050f86d6d46853472f", null ],
-    [ "pBCTree", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a291dee352e5216ddc892ec41b8721b34", null ],
-    [ "treeNodeTreated", "classogdf_1_1_embedder_min_depth_max_face_layers.html#a5143afaa49457a1ca9eff9c4e5c28b59", null ]
+    [ "embedBlock", "classogdf_1_1_embedder_min_depth_max_face_layers.html#ad9b67b6b2c7493686e4c44cd4cf74692", null ]
 ];

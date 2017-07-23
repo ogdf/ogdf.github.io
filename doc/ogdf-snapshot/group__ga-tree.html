@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: Basic Functions for Trees and Forests</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -139,19 +137,25 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Methods for trees and forests</h2></td></tr>
 <tr class="memitem:ga07fa8e31ee16a5c08919b7f072219142"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-tree.html#ga07fa8e31ee16a5c08919b7f072219142">ogdf::isFreeForest</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
-<tr class="memdesc:ga07fa8e31ee16a5c08919b7f072219142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> is a forest, i.e. contains no undirected cycle.  <a href="group__ga-tree.html#ga07fa8e31ee16a5c08919b7f072219142">More...</a><br /></td></tr>
+<tr class="memdesc:ga07fa8e31ee16a5c08919b7f072219142"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the undirected graph <code>G</code> is acyclic.  <a href="group__ga-tree.html#ga07fa8e31ee16a5c08919b7f072219142">More...</a><br /></td></tr>
 <tr class="separator:ga07fa8e31ee16a5c08919b7f072219142"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab70eeb4c70de173d2156b0b31f9064f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-tree.html#gab70eeb4c70de173d2156b0b31f9064f5">ogdf::isTree</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:gab70eeb4c70de173d2156b0b31f9064f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> is a tree, i.e. contains no undirected cycle and is connected.  <a href="group__ga-tree.html#gab70eeb4c70de173d2156b0b31f9064f5">More...</a><br /></td></tr>
 <tr class="separator:gab70eeb4c70de173d2156b0b31f9064f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2d962e9ef43b0fd8a28a697e7591ca1a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-tree.html#ga2d962e9ef43b0fd8a28a697e7591ca1a">ogdf::isArborescenceForest</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;roots)</td></tr>
+<tr class="memdesc:ga2d962e9ef43b0fd8a28a697e7591ca1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> is a forest consisting only of arborescences.  <a href="group__ga-tree.html#ga2d962e9ef43b0fd8a28a697e7591ca1a">More...</a><br /></td></tr>
+<tr class="separator:ga2d962e9ef43b0fd8a28a697e7591ca1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga3f31efdcc4d4e581b0d05f11fc13675e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-tree.html#ga3f31efdcc4d4e581b0d05f11fc13675e">ogdf::isArborescenceForest</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
+<tr class="memdesc:ga3f31efdcc4d4e581b0d05f11fc13675e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> is a forest consisting only of arborescences.  <a href="group__ga-tree.html#ga3f31efdcc4d4e581b0d05f11fc13675e">More...</a><br /></td></tr>
+<tr class="separator:ga3f31efdcc4d4e581b0d05f11fc13675e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga4f18a35b415469dc04609034408c8b77"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77">ogdf::isForest</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;roots)</td></tr>
-<tr class="memdesc:ga4f18a35b415469dc04609034408c8b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> represents a forest, i.e., a collection of arborescences.  <a href="group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77">More...</a><br /></td></tr>
+<tr class="memdesc:ga4f18a35b415469dc04609034408c8b77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> is a forest consisting only of arborescences.  <a href="group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77">More...</a><br /></td></tr>
 <tr class="separator:ga4f18a35b415469dc04609034408c8b77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gadb239ab1dc490cda86a8831a25fee026"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-tree.html#gadb239ab1dc490cda86a8831a25fee026">ogdf::isForest</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
-<tr class="memdesc:gadb239ab1dc490cda86a8831a25fee026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> represents a forest, i.e. a collection of arborescences.  <a href="group__ga-tree.html#gadb239ab1dc490cda86a8831a25fee026">More...</a><br /></td></tr>
+<tr class="memdesc:gadb239ab1dc490cda86a8831a25fee026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> is a forest consisting only of arborescences.  <a href="group__ga-tree.html#gadb239ab1dc490cda86a8831a25fee026">More...</a><br /></td></tr>
 <tr class="separator:gadb239ab1dc490cda86a8831a25fee026"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga611956533b51c2ec7cf9959adb57cb5c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-tree.html#ga611956533b51c2ec7cf9959adb57cb5c">ogdf::isArborescence</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;root)</td></tr>
-<tr class="memdesc:ga611956533b51c2ec7cf9959adb57cb5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> represents a tree.  <a href="group__ga-tree.html#ga611956533b51c2ec7cf9959adb57cb5c">More...</a><br /></td></tr>
+<tr class="memdesc:ga611956533b51c2ec7cf9959adb57cb5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> represents an arborescence.  <a href="group__ga-tree.html#ga611956533b51c2ec7cf9959adb57cb5c">More...</a><br /></td></tr>
 <tr class="separator:ga611956533b51c2ec7cf9959adb57cb5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac5140f9721a417aca8fc58f78d55e600"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-tree.html#gac5140f9721a417aca8fc58f78d55e600">ogdf::isArborescence</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:gac5140f9721a417aca8fc58f78d55e600"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> represents an arborescence.  <a href="group__ga-tree.html#gac5140f9721a417aca8fc58f78d55e600">More...</a><br /></td></tr>
@@ -186,7 +190,7 @@ Methods for trees and forests</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns true iff <code>G</code> represents a tree. </p>
+<p>Returns true iff <code>G</code> represents an arborescence. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
@@ -194,7 +198,7 @@ Methods for trees and forests</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents a tree, false otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents an arborescence, false otherwise. </dd></dl>
 
 </div>
 </div>
@@ -229,9 +233,84 @@ Methods for trees and forests</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents a arborescence, false otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents an arborescence, false otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00925">925</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00931">931</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+
+</div>
+</div>
+<a id="ga2d962e9ef43b0fd8a28a697e7591ca1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga2d962e9ef43b0fd8a28a697e7591ca1a">&#9670;&nbsp;</a></span>isArborescenceForest() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::isArborescenceForest </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>roots</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff <code>G</code> is a forest consisting only of arborescences. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
+    <tr><td class="paramname">roots</td><td>is assigned the list of root nodes of the arborescences in the forest. If false is returned, <code>roots</code> is undefined. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents an arborescence forest, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="ga3f31efdcc4d4e581b0d05f11fc13675e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga3f31efdcc4d4e581b0d05f11fc13675e">&#9670;&nbsp;</a></span>isArborescenceForest() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::isArborescenceForest </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true iff <code>G</code> is a forest consisting only of arborescences. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents an arborescence forest, false otherwise. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00887">887</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -240,6 +319,9 @@ Methods for trees and forests</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ogdf::isForest </td>
@@ -259,9 +341,15 @@ Methods for trees and forests</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Returns true iff <code>G</code> represents a forest, i.e., a collection of arborescences. </p>
+<p>Returns true iff <code>G</code> is a forest consisting only of arborescences. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000028">Deprecated:</a></b></dt><dd>"isArborescenceForest() should be used instead." </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
@@ -269,7 +357,9 @@ Methods for trees and forests</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents a forest, false otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents an arborescence forest, false otherwise. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00898">898</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -297,16 +387,17 @@ Methods for trees and forests</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true iff <code>G</code> represents a forest, i.e. a collection of arborescences. </p>
+<p>Returns true iff <code>G</code> is a forest consisting only of arborescences. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000029">Deprecated:</a></b></dt><dd>"isArborescenceForest() should be used instead." </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents a forest, false otherwise. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> represents an arborescence forest, false otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00900">900</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00908">908</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -315,6 +406,9 @@ Methods for trees and forests</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ogdf::isFreeForest </td>
@@ -324,16 +418,24 @@ Methods for trees and forests</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Returns true iff <code>G</code> is a forest, i.e. contains no undirected cycle. </p>
+<p>Returns true iff the undirected graph <code>G</code> is acyclic. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000027">Deprecated:</a></b></dt><dd>"isAcyclicUndirected() should be used instead." </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
+    <tr><td class="paramname">G</td><td>is the input graph </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> contains no undirected cycle, false otherwise. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00850">850</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -370,7 +472,7 @@ Methods for trees and forests</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> is a tree, false otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00875">875</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00862">862</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>

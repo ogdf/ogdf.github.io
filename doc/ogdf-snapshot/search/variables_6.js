@@ -4,7 +4,6 @@ var searchData=
   ['f_5fy',['F_y',['../classogdf_1_1_bertault_layout.html#a8d67bf32cdb81479477b9441a1d336ca',1,'ogdf::BertaultLayout']]],
   ['facenum',['faceNum',['../classogdf_1_1_bertault_layout_1_1_c_c_element.html#a2989d04c6d4d983c886d00469a68e1d6',1,'ogdf::BertaultLayout::CCElement']]],
   ['faces',['faces',['../classogdf_1_1_const_combinatorial_embedding.html#ae5f72cf9e7fe001372c6448f40a92b2e',1,'ogdf::ConstCombinatorialEmbedding::faces()'],['../classogdf_1_1_embedder_min_depth_pi_ta.html#ad0fb578480370140e72ecb783785a1a7',1,'ogdf::EmbedderMinDepthPiTa::faces()']]],
-  ['facetonode',['faceToNode',['../classogdf_1_1_visibility_layout.html#a95f1a84d6bc119b2104ac45f89f85087',1,'ogdf::VisibilityLayout']]],
   ['factor',['factor',['../classogdf_1_1fast__multipole__embedder_1_1_collect_force_functor.html#abc732ae598431b926de2b94209cdbe07',1,'ogdf::fast_multipole_embedder::CollectForceFunctor::factor()'],['../classogdf_1_1_pivot_m_d_s.html#a717fcf9f28b37d9bcf40d66008ad2beb',1,'ogdf::PivotMDS::FACTOR()']]],
   ['father',['father',['../structogdf_1_1_min_cost_flow_reinelt_1_1nodetype.html#afd0d5fc4023bed25181a106203bc728e',1,'ogdf::MinCostFlowReinelt::nodetype']]],
   ['father_5f',['father_',['../classabacus_1_1_sub.html#ab6b53451afbd864a53e832ae8a3ea98b',1,'abacus::Sub']]],

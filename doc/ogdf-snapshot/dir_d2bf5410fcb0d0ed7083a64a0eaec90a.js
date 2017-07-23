@@ -17,7 +17,6 @@ var dir_d2bf5410fcb0d0ed7083a64a0eaec90a =
       [ "FUPSSimple", "classogdf_1_1_f_u_p_s_simple.html", "classogdf_1_1_f_u_p_s_simple" ]
     ] ],
     [ "LayerBasedUPRLayout.h", "_layer_based_u_p_r_layout_8h.html", [
-      [ "RankComparer", "structogdf_1_1_layer_based_u_p_r_layout_1_1_rank_comparer.html", "structogdf_1_1_layer_based_u_p_r_layout_1_1_rank_comparer" ],
       [ "OrderComparer", "classogdf_1_1_order_comparer.html", "classogdf_1_1_order_comparer" ]
     ] ],
     [ "MaximalFUPS.h", "_maximal_f_u_p_s_8h.html", [

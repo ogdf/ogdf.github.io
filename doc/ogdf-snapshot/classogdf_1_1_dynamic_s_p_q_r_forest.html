@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::DynamicSPQRForest Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -174,6 +172,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa87c7296113e09a9bba4abb767ab04b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#aa87c7296113e09a9bba4abb767ab04b9">DynamicSPQRForest</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:aa87c7296113e09a9bba4abb767ab04b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">A constructor.  <a href="#aa87c7296113e09a9bba4abb767ab04b9">More...</a><br /></td></tr>
 <tr class="separator:aa87c7296113e09a9bba4abb767ab04b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b928d9931a93fc7316a5e62fbe42f58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a5b928d9931a93fc7316a5e62fbe42f58">~DynamicSPQRForest</a> ()</td></tr>
+<tr class="separator:a5b928d9931a93fc7316a5e62fbe42f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:aa02f1d33dbdcd8e9441a515d6e01659e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#aa02f1d33dbdcd8e9441a515d6e01659e">spqrproper</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> eH) const</td></tr>
 <tr class="separator:aa02f1d33dbdcd8e9441a515d6e01659e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,12 +282,24 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
+<tr class="memitem:a380cc9c50e6b982a5b9ac743df761c8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a380cc9c50e6b982a5b9ac743df761c8a">addHEdge</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> eH, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> vT) const</td></tr>
+<tr class="memdesc:a380cc9c50e6b982a5b9ac743df761c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds edge <code>eH</code> to a vertex <code>vT</code> of the SPQRForest.  <a href="#a380cc9c50e6b982a5b9ac743df761c8a">More...</a><br /></td></tr>
+<tr class="separator:a380cc9c50e6b982a5b9ac743df761c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab562313b7cff33b9ae9e110b8bdaee38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#ab562313b7cff33b9ae9e110b8bdaee38">createSPQR</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> vB) const</td></tr>
 <tr class="memdesc:ab562313b7cff33b9ae9e110b8bdaee38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the SPQR-tree for a given B-component of the BC-tree.  <a href="#ab562313b7cff33b9ae9e110b8bdaee38">More...</a><br /></td></tr>
 <tr class="separator:ab562313b7cff33b9ae9e110b8bdaee38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27eb4fc22143824dcdd925d7603ee112"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a27eb4fc22143824dcdd925d7603ee112">delHEdge</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> eH, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> vT) const</td></tr>
+<tr class="memdesc:a27eb4fc22143824dcdd925d7603ee112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes edge <code>eH</code> from <a class="el" href="classogdf_1_1_b_c_tree.html#a3f9a462ac4db326f5f3912098c79489d" title="The biconnected components graph. ">m_H</a> and removes its connection to a vertex <code>vT</code> of the SPQRForest.  <a href="#a27eb4fc22143824dcdd925d7603ee112">More...</a><br /></td></tr>
+<tr class="separator:a27eb4fc22143824dcdd925d7603ee112"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c5f01fe4e1e9ae4d89ed2a87ca676ed"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8c5f01fe4e1e9ae4d89ed2a87ca676ed">init</a> ()</td></tr>
 <tr class="memdesc:a8c5f01fe4e1e9ae4d89ed2a87ca676ed"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classogdf_1_1_initialization.html" title="The class Initialization is used for initializing global variables. ">Initialization</a>.  <a href="#a8c5f01fe4e1e9ae4d89ed2a87ca676ed">More...</a><br /></td></tr>
 <tr class="separator:a8c5f01fe4e1e9ae4d89ed2a87ca676ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad397e2db6ffecaa03a883cd470748d6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#ad397e2db6ffecaa03a883cd470748d6d">newSPQRNode</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> vB, const <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68">TNodeType</a> spqrNodeType) const</td></tr>
+<tr class="memdesc:ad397e2db6ffecaa03a883cd470748d6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new node in the SPQR-tree for a given B-component of the BC-tree.  <a href="#ad397e2db6ffecaa03a883cd470748d6d">More...</a><br /></td></tr>
+<tr class="separator:ad397e2db6ffecaa03a883cd470748d6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76afd58b7b5dc821b0f77ba27289b19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#ae76afd58b7b5dc821b0f77ba27289b19">newTwinEdge</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> eH, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> vT) const</td></tr>
+<tr class="memdesc:ae76afd58b7b5dc821b0f77ba27289b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a twin edge for <code>eH</code>, adds it to <code>vT</code> and returns it.  <a href="#ae76afd58b7b5dc821b0f77ba27289b19">More...</a><br /></td></tr>
+<tr class="separator:ae76afd58b7b5dc821b0f77ba27289b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a9e028eaee0446657fdc684bcaced8b81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a9e028eaee0446657fdc684bcaced8b81">uniteSPQR</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> vB, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> sT, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> tT)</td></tr>
 <tr class="separator:a9e028eaee0446657fdc684bcaced8b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -360,9 +372,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ae3c4383b02e47bb6284fe4b40faba5e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#ae3c4383b02e47bb6284fe4b40faba5e5">m_tNode_hRefEdge</a></td></tr>
 <tr class="memdesc:ae3c4383b02e47bb6284fe4b40faba5e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The virtual edges leading to the parents of the SPQR-tree vertices.  <a href="#ae3c4383b02e47bb6284fe4b40faba5e5">More...</a><br /></td></tr>
 <tr class="separator:ae3c4383b02e47bb6284fe4b40faba5e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e4429cb8521968cd9c900c4b7dfcd93"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a0e4429cb8521968cd9c900c4b7dfcd93">m_tNode_hEdges</a></td></tr>
-<tr class="memdesc:a0e4429cb8521968cd9c900c4b7dfcd93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists of real and virtual edges belonging to SPQR-tree vertices.  <a href="#a0e4429cb8521968cd9c900c4b7dfcd93">More...</a><br /></td></tr>
-<tr class="separator:a0e4429cb8521968cd9c900c4b7dfcd93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ea550ef46b52aa27b6f772aab2b58f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a68ea550ef46b52aa27b6f772aab2b58f">m_tNode_hEdges</a></td></tr>
+<tr class="memdesc:a68ea550ef46b52aa27b6f772aab2b58f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists of real and virtual edges belonging to SPQR-tree vertices.  <a href="#a68ea550ef46b52aa27b6f772aab2b58f">More...</a><br /></td></tr>
+<tr class="separator:a68ea550ef46b52aa27b6f772aab2b58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a564f26deb851aaa983d5eb6739872613"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a564f26deb851aaa983d5eb6739872613">m_hEdge_position</a></td></tr>
 <tr class="memdesc:a564f26deb851aaa983d5eb6739872613"><td class="mdescLeft">&#160;</td><td class="mdescRight">The positions of real and virtual edges in their <em>m_tNode_hEdges</em> lists.  <a href="#a564f26deb851aaa983d5eb6739872613">More...</a><br /></td></tr>
@@ -448,9 +460,9 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:ac952411f766654416b7d8b00cfd19f89 inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_b_c_tree.html#ac952411f766654416b7d8b00cfd19f89">m_lowpt</a></td></tr>
 <tr class="memdesc:ac952411f766654416b7d8b00cfd19f89 inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary array.  <a href="classogdf_1_1_b_c_tree.html#ac952411f766654416b7d8b00cfd19f89">More...</a><br /></td></tr>
 <tr class="separator:ac952411f766654416b7d8b00cfd19f89 inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7004812d1979b62da1f5dde6af984ff9 inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_bounded_stack.html">BoundedStack</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_b_c_tree.html#a7004812d1979b62da1f5dde6af984ff9">m_eStack</a></td></tr>
-<tr class="memdesc:a7004812d1979b62da1f5dde6af984ff9 inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary stack.  <a href="classogdf_1_1_b_c_tree.html#a7004812d1979b62da1f5dde6af984ff9">More...</a><br /></td></tr>
-<tr class="separator:a7004812d1979b62da1f5dde6af984ff9 inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f022fed12b0f30c3e94e6cfdf3274fe inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_b_c_tree.html#a2f022fed12b0f30c3e94e6cfdf3274fe">m_eStack</a></td></tr>
+<tr class="memdesc:a2f022fed12b0f30c3e94e6cfdf3274fe inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary stack.  <a href="classogdf_1_1_b_c_tree.html#a2f022fed12b0f30c3e94e6cfdf3274fe">More...</a><br /></td></tr>
+<tr class="separator:a2f022fed12b0f30c3e94e6cfdf3274fe inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab9a2b392c25da96e8b4ccdbcd819af0e inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_b_c_tree.html#ab9a2b392c25da96e8b4ccdbcd819af0e">m_gtoh</a></td></tr>
 <tr class="memdesc:ab9a2b392c25da96e8b4ccdbcd819af0e inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="mdescLeft">&#160;</td><td class="mdescRight">Temporary array.  <a href="classogdf_1_1_b_c_tree.html#ab9a2b392c25da96e8b4ccdbcd819af0e">More...</a><br /></td></tr>
 <tr class="separator:ab9a2b392c25da96e8b4ccdbcd819af0e inherit pro_attribs_classogdf_1_1_b_c_tree"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -532,11 +544,85 @@ It provides a set of SPQR-trees for each B-component of a BC-tree. These SPQR-tr
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00250">250</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00315">315</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+
+</div>
+</div>
+<a id="a5b928d9931a93fc7316a5e62fbe42f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b928d9931a93fc7316a5e62fbe42f58">&#9670;&nbsp;</a></span>~DynamicSPQRForest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ogdf::DynamicSPQRForest::~DynamicSPQRForest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00317">317</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a380cc9c50e6b982a5b9ac743df761c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a380cc9c50e6b982a5b9ac743df761c8a">&#9670;&nbsp;</a></span>addHEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::DynamicSPQRForest::addHEdge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td>
+          <td class="paramname"><em>eH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
+          <td class="paramname"><em>vT</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds edge <code>eH</code> to a vertex <code>vT</code> of the SPQRForest. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eH</td><td>is an edge in <a class="el" href="classogdf_1_1_b_c_tree.html#a3f9a462ac4db326f5f3912098c79489d" title="The biconnected components graph. ">m_H</a>. </td></tr>
+    <tr><td class="paramname">vT</td><td>is a vertex in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a09e4a9f924a68c9d311207a3bc6d4599" title="A Graph structure containing all SPQR-trees. ">m_T</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00188">188</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+
+</div>
+</div>
 <a id="ab562313b7cff33b9ae9e110b8bdaee38"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab562313b7cff33b9ae9e110b8bdaee38">&#9670;&nbsp;</a></span>createSPQR()</h2>
 
@@ -571,6 +657,53 @@ It provides a set of SPQR-trees for each B-component of a BC-tree. These SPQR-tr
 <dl class="section pre"><dt>Precondition</dt><dd><code>vB</code> has to be the proper representative of its B-component, i.e. it has to be the root vertex of its respective UNION/FIND-tree. </dd>
 <dd>
 The B-component represented by <code>vB</code> must contain at least 3 edges. </dd></dl>
+
+</div>
+</div>
+<a id="a27eb4fc22143824dcdd925d7603ee112"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27eb4fc22143824dcdd925d7603ee112">&#9670;&nbsp;</a></span>delHEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::DynamicSPQRForest::delHEdge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td>
+          <td class="paramname"><em>eH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
+          <td class="paramname"><em>vT</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Deletes edge <code>eH</code> from <a class="el" href="classogdf_1_1_b_c_tree.html#a3f9a462ac4db326f5f3912098c79489d" title="The biconnected components graph. ">m_H</a> and removes its connection to a vertex <code>vT</code> of the SPQRForest. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eH</td><td>is an edge in <a class="el" href="classogdf_1_1_b_c_tree.html#a3f9a462ac4db326f5f3912098c79489d" title="The biconnected components graph. ">m_H</a>. </td></tr>
+    <tr><td class="paramname">vT</td><td>is a vertex in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a09e4a9f924a68c9d311207a3bc6d4599" title="A Graph structure containing all SPQR-trees. ">m_T</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00200">200</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -785,7 +918,7 @@ The B-component represented by <code>vB</code> must contain at least 3 edges. </
 <dl class="section pre"><dt>Precondition</dt><dd><code>vT</code> has to be the proper representative of its triconnected component, i.e. it has to be the root vertex of its respective UNION/FIND-tree. This condition is particularly fulfilled if <code>vT</code> is a member of a list gained by the <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8356b0d04aba3d9beb2a940449805a91" title="Finds the shortest path between the two sets of SPQR-tree-vertices which sH and tH are belonging to...">findPathSPQR()</a> member function. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>a linear list of the edges in <em>m_H</em> belonging to the triconnected component represented by <code>vT</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00302">302</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00369">369</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -813,6 +946,103 @@ The B-component represented by <code>vB</code> must contain at least 3 edges. </
 </div><div class="memdoc">
 
 <p><a class="el" href="classogdf_1_1_initialization.html" title="The class Initialization is used for initializing global variables. ">Initialization</a>. </p>
+
+</div>
+</div>
+<a id="ad397e2db6ffecaa03a883cd470748d6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad397e2db6ffecaa03a883cd470748d6d">&#9670;&nbsp;</a></span>newSPQRNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> ogdf::DynamicSPQRForest::newSPQRNode </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
+          <td class="paramname"><em>vB</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#afe6f79d01516837aeeab928fdeb84b68">TNodeType</a>&#160;</td>
+          <td class="paramname"><em>spqrNodeType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a new node in the SPQR-tree for a given B-component of the BC-tree. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">vB</td><td>is a vertex of the BC-tree representing a B-component. </td></tr>
+    <tr><td class="paramname">spqrNodeType</td><td>is the type of the new SPQR-node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondition</dt><dd><code>vB</code> has to be the proper representative of its B-component, i.e. it has to be the root vertex of its respective UNION/FIND-tree. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>the newly created node in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a09e4a9f924a68c9d311207a3bc6d4599" title="A Graph structure containing all SPQR-trees. ">m_T</a>. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00165">165</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+
+</div>
+</div>
+<a id="ae76afd58b7b5dc821b0f77ba27289b19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae76afd58b7b5dc821b0f77ba27289b19">&#9670;&nbsp;</a></span>newTwinEdge()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> ogdf::DynamicSPQRForest::newTwinEdge </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td>
+          <td class="paramname"><em>eH</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
+          <td class="paramname"><em>vT</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates a twin edge for <code>eH</code>, adds it to <code>vT</code> and returns it. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">eH</td><td>is an edge in <a class="el" href="classogdf_1_1_b_c_tree.html#a3f9a462ac4db326f5f3912098c79489d" title="The biconnected components graph. ">m_H</a>, whose twin edge should be created. </td></tr>
+    <tr><td class="paramname">vT</td><td>is a vertex in <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a09e4a9f924a68c9d311207a3bc6d4599" title="A Graph structure containing all SPQR-trees. ">m_T</a>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the new twin edge. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00212">212</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -849,7 +1079,7 @@ The B-component represented by <code>vB</code> must contain at least 3 edges. </
 <dl class="section pre"><dt>Precondition</dt><dd>The respective SPQR-tree belonging to the B-component represented by the BC-tree-vertex bcproper(<code>eH</code>) must exist! Notice, that this condition is fulfilled, if <code>eH</code> is a member of a list gained by the <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a54e5c935bc2f735bc774ddcf50c385d9" title="Returns a linear list of the edges in m_H belonging to the triconnected component represented by a gi...">hEdgesSPQR()</a> member function, because that member function needs an SPQR-tree-vertex as parameter, which might have been found (and eventually created) by the <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8356b0d04aba3d9beb2a940449805a91" title="Finds the shortest path between the two sets of SPQR-tree-vertices which sH and tH are belonging to...">findPathSPQR()</a> member function. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>the proper representative of the SPQR-tree-vertex which <code>eH</code> is belonging to. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00267">267</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00334">334</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -886,7 +1116,7 @@ The B-component represented by <code>vB</code> must contain at least 3 edges. </
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the twin edge of <code>eH</code>, if it is virtual, or <em>nullptr</em>, if it is real. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00276">276</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00343">343</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -922,7 +1152,7 @@ The B-component represented by <code>vB</code> must contain at least 3 edges. </
 <dl class="section pre"><dt>Precondition</dt><dd><code>vT</code> has to be the proper representative of its triconnected component, i.e. it has to be the root vertex of its respective UNION/FIND-tree. This condition is particularly fulfilled if <code>vT</code> is a member of a list gained by the <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_forest.html#a8356b0d04aba3d9beb2a940449805a91" title="Finds the shortest path between the two sets of SPQR-tree-vertices which sH and tH are belonging to...">findPathSPQR()</a> member function. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>the type of the triconnected component represented by <code>vT</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00289">289</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html#l00356">356</a> of file <a class="el" href="_dynamic_s_p_q_r_forest_8h_source.html">DynamicSPQRForest.h</a>.</p>
 
 </div>
 </div>
@@ -1448,8 +1678,8 @@ Both the source and the target vertices of <code>eG</code> must belong to the sa
 
 </div>
 </div>
-<a id="a0e4429cb8521968cd9c900c4b7dfcd93"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e4429cb8521968cd9c900c4b7dfcd93">&#9670;&nbsp;</a></span>m_tNode_hEdges</h2>
+<a id="a68ea550ef46b52aa27b6f772aab2b58f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68ea550ef46b52aa27b6f772aab2b58f">&#9670;&nbsp;</a></span>m_tNode_hEdges</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1458,7 +1688,7 @@ Both the source and the target vertices of <code>eG</code> must belong to the sa
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&gt; &gt; ogdf::DynamicSPQRForest::m_tNode_hEdges</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&gt;*&gt; ogdf::DynamicSPQRForest::m_tNode_hEdges</td>
         </tr>
       </table>
   </td>

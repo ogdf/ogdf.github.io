@@ -4,7 +4,7 @@ var dir_36b7d39b74edf19e9d17b6aa3207800d =
       [ "ComponentSplitterLayout", "classogdf_1_1_component_splitter_layout.html", "classogdf_1_1_component_splitter_layout" ]
     ] ],
     [ "SimpleCCPacker.h", "_simple_c_c_packer_8h.html", [
-      [ "SimpleCCPackerModule", "classogdf_1_1_simple_c_c_packer_module.html", "classogdf_1_1_simple_c_c_packer_module" ]
+      [ "SimpleCCPacker", "classogdf_1_1_simple_c_c_packer.html", "classogdf_1_1_simple_c_c_packer" ]
     ] ],
     [ "TileToRowsCCPacker.h", "_tile_to_rows_c_c_packer_8h.html", [
       [ "TileToRowsCCPacker", "classogdf_1_1_tile_to_rows_c_c_packer.html", "classogdf_1_1_tile_to_rows_c_c_packer" ],

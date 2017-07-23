@@ -2,5 +2,5 @@
 <area shape="rect" id="node2" href="$classogdf_1_1_u_m_l_crossing_minimization_module.html" title="Base class for UML crossing minimization algorithms. " alt="" coords="14,80,222,121"/>
 <area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="5,5,103,32"/>
 <area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="127,5,240,32"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_logger.html" title="Centralized global and local logging facility working on streams like cout. " alt="" coords="247,87,341,114"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_logger.html" title="Centralized global and local logging facility working on streams like std::cout. " alt="" coords="247,87,341,114"/>
 </map>

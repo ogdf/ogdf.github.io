@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::PlanarityModule Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -128,7 +126,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_planarity_module.html','
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classogdf_1_1_module.html" title="Base class for modules. ">Module</a> for planarity testing and planar embeddings.  
+<p>Module for planarity testing and planar embeddings.  
  <a href="classogdf_1_1_planarity_module.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_planarity_module_8h_source.html">ogdf/module/PlanarityModule.h</a>&gt;</code></p>
@@ -164,7 +162,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a4d561f10aaf4a82c93a7e492521f4c1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classogdf_1_1_module.html" title="Base class for modules. ">Module</a> for planarity testing and planar embeddings. </p>
+<div class="textblock"><p>Module for planarity testing and planar embeddings. </p>
 <p>This is a module defining functions to test planarity of graphs, and to embed planar graphs (i.e., find a rotation scheme of the edges around their incident vertices defining a plane graph).</p>
 <p>Use this module only if you want to be able to (later on) decide which planarity test to use. If you simply want to test planarity or to embed a graph, use the simpler/preferred method: the direct function calls in <a class="el" href="extended__graph__alg_8h.html" title="Declaration of extended graph algorithms. ">extended_graph_alg.h</a> (<a class="el" href="group__ga-planembed.html#gaed961d1a9b7810143059cb36adc32849" title="Returns true, if G is planar, false otherwise. ">ogdf::isPlanar</a>, <a class="el" href="group__ga-planembed.html#ga31d5b4e2a827042674fc667e8858b69e" title="Returns true, if G is planar, false otherwise. If true is returned, G will be planarly embedded...">ogdf::planarEmbed</a>, <a class="el" href="group__ga-planembed.html#ga0032c4984cd4ac14d375f6eded30a0d1" title="Constructs a planar embedding of G. It assumes that G is planar! ">ogdf::planarEmbedPlanarGraph</a>), which use the most efficient <a class="el" href="classogdf_1_1_boyer_myrvold.html" title="Wrapper class used for preprocessing and valid invocation of the planarity test. ">BoyerMyrvold</a> algorithm. </p>
 

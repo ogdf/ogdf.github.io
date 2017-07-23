@@ -7,7 +7,6 @@ var classogdf_1_1_s_list_element =
     [ "SListIteratorBase< E, false >", "classogdf_1_1_s_list_element.html#a512806f3d578f03eed11ae2853e84bf3", null ],
     [ "SListIteratorBase< E, true >", "classogdf_1_1_s_list_element.html#a20cae6c17001013d4d94da9745799a77", null ],
     [ "SListPure< E >", "classogdf_1_1_s_list_element.html#a8f23a820ea5965d9c08e68dddce93608", null ],
-    [ "StackPure< E >", "classogdf_1_1_s_list_element.html#a9149a19a2a4aeedc76a4b207e3827cb6", null ],
     [ "m_next", "classogdf_1_1_s_list_element.html#ab990c295eb7da991ea7fef34aab90639", null ],
     [ "m_x", "classogdf_1_1_s_list_element.html#a6fcb40a0dbbd9d1e860f6fa2af35809d", null ]
 ];

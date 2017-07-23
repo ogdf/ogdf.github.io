@@ -7,7 +7,7 @@ var classogdf_1_1_tree_layout =
     ] ],
     [ "TreeLayout", "classogdf_1_1_tree_layout.html#aa905911cfd5abe7c7555cfac81fcb60d", null ],
     [ "TreeLayout", "classogdf_1_1_tree_layout.html#a7f45cbcfd5da3f47756619c5960338d3", null ],
-    [ "~TreeLayout", "classogdf_1_1_tree_layout.html#a653a7a08ee220db54020b8baf35ab90d", null ],
+    [ "~TreeLayout", "classogdf_1_1_tree_layout.html#a86b919e86d1ad587f9cd159ca8654b76", null ],
     [ "adjustEdgeDirections", "classogdf_1_1_tree_layout.html#ab2cefe8a4b2203ffba8e1b06a497ead9", null ],
     [ "apportion", "classogdf_1_1_tree_layout.html#a3bcfbd6c7869dffb383edfadbc24da40", null ],
     [ "call", "classogdf_1_1_tree_layout.html#a46627e133ac96d4d590c53dc9c3b17fa", null ],

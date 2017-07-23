@@ -1,7 +1,7 @@
 var searchData=
 [
   ['bendcost',['BendCost',['../classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74',1,'ogdf::ClusterOrthoShaper']]],
-  ['bendtype',['BendType',['../namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2',1,'ogdf']]],
+  ['bendtype',['BendType',['../classogdf_1_1_edge_router.html#ad252c8a7a02340fc23b55864344283d0',1,'ogdf::EdgeRouter']]],
   ['bnodetype',['BNodeType',['../classogdf_1_1_b_c_tree.html#a06ce2434df67019ae3935457c21e6dff',1,'ogdf::BCTree']]],
   ['boyermyrvoldedgetype',['BoyerMyrvoldEdgeType',['../namespaceogdf.html#a16cbf72c038a853a4ed658df22659111',1,'ogdf']]],
   ['branchingstrat',['BRANCHINGSTRAT',['../classabacus_1_1_master.html#a29c7f6cf403c7b9b3087e4615a6f2bdd',1,'abacus::Master']]]

@@ -1,7 +1,7 @@
 var classogdf_1_1_shelling_order_set =
 [
     [ "ShellingOrderSet", "classogdf_1_1_shelling_order_set.html#a79854ac0b9ecd1eb69bcf1c03f2e7578", null ],
-    [ "ShellingOrderSet", "classogdf_1_1_shelling_order_set.html#a823e44911f30b987d7e85d252c920f59", null ],
+    [ "ShellingOrderSet", "classogdf_1_1_shelling_order_set.html#a19bdf7e5ac47d06425f44ac2e052dbc2", null ],
     [ "~ShellingOrderSet", "classogdf_1_1_shelling_order_set.html#ac3b02035f42c593698ffa98ffcb7448e", null ],
     [ "hasLeft", "classogdf_1_1_shelling_order_set.html#afadf46129f651dead2ab71ac61de6c43", null ],
     [ "hasRight", "classogdf_1_1_shelling_order_set.html#a53ec73c1fec58c9c4e3fa0bed04d8ec0", null ],

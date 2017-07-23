@@ -2,7 +2,6 @@ var classogdf_1_1_bitonic_ordering =
 [
     [ "BitonicOrdering", "classogdf_1_1_bitonic_ordering.html#a9e0940481ac7d9299feab232153685e5", null ],
     [ "assignLabel", "classogdf_1_1_bitonic_ordering.html#aeebcf95e04b35263f1b08dc03e00d7e7", null ],
-    [ "consistencyCheck", "classogdf_1_1_bitonic_ordering.html#ab9bd7237084fe3ca561c6044374652ac", null ],
     [ "getAdjST", "classogdf_1_1_bitonic_ordering.html#a1dc1ad78c3eedfa4befe3f7141f7b145", null ],
     [ "getIndex", "classogdf_1_1_bitonic_ordering.html#a11f7298dd72431d3ae3333523c51b54a", null ],
     [ "getLabel", "classogdf_1_1_bitonic_ordering.html#af8bf1fb5d9a0481476d8ab26aa6df611", null ],

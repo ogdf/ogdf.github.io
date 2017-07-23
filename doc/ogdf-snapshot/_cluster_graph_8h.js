@@ -8,7 +8,7 @@ var _cluster_graph_8h =
     [ "forall_clusters", "group__graphs.html#gabcd4c74f454d781828ce6322b4e86e96", null ],
     [ "forall_postOrderClusters", "group__graphs.html#ga49ae24c8fab3140a84c359291c84b09c", null ],
     [ "cluster", "_cluster_graph_8h.html#ae4067860d95138662fa5ce5b8280a459", null ],
-    [ "operator<<", "_cluster_graph_8h.html#ac61c61e8b4d4978934167b59a12f4840", null ],
+    [ "operator<<", "_cluster_graph_8h.html#ae9105c92fbf7a32279701cd19f18928c", null ],
     [ "test_forall_adj_edges_of_cluster", "_cluster_graph_8h.html#gaa9ae05442dc27f41e8ad0798b489c5fa", null ],
     [ "test_forall_adj_edges_of_cluster", "_cluster_graph_8h.html#gaf65e491cbb9378df721b7d95f61d5e14", null ],
     [ "test_forall_adj_entries_of_cluster", "_cluster_graph_8h.html#gafbce7d9b9dd773f7a8c7a4f562885602", null ]

@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::Skiplist&lt; X &gt; Class Template Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -159,9 +157,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a601ebb48f207faa813a4c52de862f857"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_skiplist.html#a601ebb48f207faa813a4c52de862f857">clear</a> (bool killData=false)</td></tr>
 <tr class="memdesc:a601ebb48f207faa813a4c52de862f857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the current skiplist.  <a href="#a601ebb48f207faa813a4c52de862f857">More...</a><br /></td></tr>
 <tr class="separator:a601ebb48f207faa813a4c52de862f857"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8adf47357487a06c340a4b6443ead17"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_skiplist.html#ae8adf47357487a06c340a4b6443ead17">empty</a> () const</td></tr>
-<tr class="memdesc:ae8adf47357487a06c340a4b6443ead17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the skiplist contains no elements.  <a href="#ae8adf47357487a06c340a4b6443ead17">More...</a><br /></td></tr>
-<tr class="separator:ae8adf47357487a06c340a4b6443ead17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a804a9f345d41f47508ba4f51f1e1422f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_skiplist.html#a804a9f345d41f47508ba4f51f1e1422f">empty</a> () const</td></tr>
+<tr class="memdesc:a804a9f345d41f47508ba4f51f1e1422f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the skiplist contains no elements.  <a href="#a804a9f345d41f47508ba4f51f1e1422f">More...</a><br /></td></tr>
+<tr class="separator:a804a9f345d41f47508ba4f51f1e1422f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf07cafed77701afb00ba5a5e61331c1"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_skiplist_iterator.html">SkiplistIterator</a>&lt; X &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_skiplist.html#adf07cafed77701afb00ba5a5e61331c1">end</a> () const</td></tr>
+<tr class="memdesc:adf07cafed77701afb00ba5a5e61331c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns an invalid iterator  <a href="#adf07cafed77701afb00ba5a5e61331c1">More...</a><br /></td></tr>
+<tr class="separator:adf07cafed77701afb00ba5a5e61331c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a797c474d5c5c39ea82b2f3ec87f83cfc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_skiplist.html#a797c474d5c5c39ea82b2f3ec87f83cfc">isElement</a> (X item) const</td></tr>
 <tr class="memdesc:a797c474d5c5c39ea82b2f3ec87f83cfc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the item <code>item</code> is contained in the skiplist [O'(log n)].  <a href="#a797c474d5c5c39ea82b2f3ec87f83cfc">More...</a><br /></td></tr>
 <tr class="separator:a797c474d5c5c39ea82b2f3ec87f83cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -361,8 +362,8 @@ template&lt;class X&gt; </div>
 
 </div>
 </div>
-<a id="ae8adf47357487a06c340a4b6443ead17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8adf47357487a06c340a4b6443ead17">&#9670;&nbsp;</a></span>empty()</h2>
+<a id="a804a9f345d41f47508ba4f51f1e1422f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a804a9f345d41f47508ba4f51f1e1422f">&#9670;&nbsp;</a></span>empty()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -373,7 +374,7 @@ template&lt;class X&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="classogdf_1_1_skiplist.html">ogdf::Skiplist</a>&lt; X &gt;::empty </td>
+          <td class="memname">bool <a class="el" href="classogdf_1_1_skiplist.html">ogdf::Skiplist</a>&lt; X &gt;::empty </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -389,6 +390,37 @@ template&lt;class X&gt; </div>
 <p>Returns true if the skiplist contains no elements. </p>
 
 <p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00132">132</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
+
+</div>
+</div>
+<a id="adf07cafed77701afb00ba5a5e61331c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf07cafed77701afb00ba5a5e61331c1">&#9670;&nbsp;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class X&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classogdf_1_1_skiplist_iterator.html">SkiplistIterator</a>&lt;X&gt; <a class="el" href="classogdf_1_1_skiplist.html">ogdf::Skiplist</a>&lt; X &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>returns an invalid iterator </p>
+
+<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00157">157</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
 
 </div>
 </div>
@@ -418,7 +450,7 @@ template&lt;class X&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00168">168</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00171">171</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
 
 </div>
 </div>
@@ -479,7 +511,7 @@ template&lt;class X&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00162">162</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00165">165</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
 
 </div>
 </div>
@@ -590,7 +622,7 @@ template&lt;class X&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00159">159</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00162">162</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
 
 </div>
 </div>
@@ -616,7 +648,7 @@ template&lt;class X&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00157">157</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00160">160</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
 
 </div>
 </div>
@@ -642,7 +674,7 @@ template&lt;class X&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00160">160</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00163">163</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
 
 </div>
 </div>
@@ -668,7 +700,7 @@ template&lt;class X&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00158">158</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_skiplist_8h_source.html#l00161">161</a> of file <a class="el" href="_skiplist_8h_source.html">Skiplist.h</a>.</p>
 
 </div>
 </div>

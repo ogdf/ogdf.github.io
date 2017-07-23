@@ -1,7 +1,7 @@
 var classogdf_1_1_planar_subgraph_module =
 [
     [ "PlanarSubgraphModule", "classogdf_1_1_planar_subgraph_module.html#ac06201daaa7ee55f24dc131018338c01", null ],
-    [ "PlanarSubgraphModule", "classogdf_1_1_planar_subgraph_module.html#a9985510001494a1fd35a14e97b77efe0", null ],
+    [ "PlanarSubgraphModule", "classogdf_1_1_planar_subgraph_module.html#a4c1664403e77be6c17d23d550da08cd8", null ],
     [ "~PlanarSubgraphModule", "classogdf_1_1_planar_subgraph_module.html#a5db8ab09b4bc115bc93eb586f9acfacd", null ],
     [ "call", "classogdf_1_1_planar_subgraph_module.html#a2eee4f0d72f5111805d2484789118668", null ],
     [ "call", "classogdf_1_1_planar_subgraph_module.html#a8be7f92e80ff21efa16576dcd1abf548", null ],

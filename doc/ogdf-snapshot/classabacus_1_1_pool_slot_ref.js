@@ -10,7 +10,7 @@ var classabacus_1_1_pool_slot_ref =
     [ "slot", "classabacus_1_1_pool_slot_ref.html#ab6b4c4167d2b252baba07740a32789bb", null ],
     [ "slot", "classabacus_1_1_pool_slot_ref.html#aeb8f232c944659c83c4ac300b005e32e", null ],
     [ "version", "classabacus_1_1_pool_slot_ref.html#af5709b7e42cb5e22a8958bd77bd48c40", null ],
-    [ "operator<<", "classabacus_1_1_pool_slot_ref.html#a48d16dab2c970fb119a5bfe78af3feed", null ],
+    [ "operator<<", "classabacus_1_1_pool_slot_ref.html#a9cd72583f23c3b28924b5bd29fb4ee94", null ],
     [ "master_", "classabacus_1_1_pool_slot_ref.html#a2f5f098af366110a286cfdc5c03034ef", null ],
     [ "slot_", "classabacus_1_1_pool_slot_ref.html#aa9cb236d9a0086653e3d7e0af3194168", null ],
     [ "version_", "classabacus_1_1_pool_slot_ref.html#a7a9ec795bdaca259160a2e2b1d5cbc36", null ]

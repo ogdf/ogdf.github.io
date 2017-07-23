@@ -1,5 +1,6 @@
 var exceptions_8h =
 [
+    [ "OGDF_FLUSH_OUTPUTS", "exceptions_8h.html#ab860fb59c0a0b59a55693e5b5e7b96a8", null ],
     [ "OGDF_THROW", "group__macros.html#ga2a6a50eb4683c16091bc8f88ad96b7e2", null ],
     [ "OGDF_THROW_PARAM", "group__macros.html#gae555347af334981e6301630da429a56f", null ],
     [ "AlgorithmFailureCode", "exceptions_8h.html#ga1fca16209583971af6d681f7bee9863e", [

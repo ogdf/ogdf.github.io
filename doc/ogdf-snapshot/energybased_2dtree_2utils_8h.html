@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: include/ogdf/energybased/dtree/utils.h File Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -128,6 +126,7 @@ $(document).ready(function(){initNavTree('energybased_2dtree_2utils_8h.html','')
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;cstddef&gt;</code><br />
+<code>#include &lt;type_traits&gt;</code><br />
 </div>
 <p><a href="energybased_2dtree_2utils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -143,39 +142,39 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7c9957598d2d6244e4cb3e92c4808a02"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
-<tr class="memitem:a7c9957598d2d6244e4cb3e92c4808a02"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a7c9957598d2d6244e4cb3e92c4808a02">ogdf::energybased::dtree::interleaveBits</a> (const IntType coords[Dim], IntType mnr[Dim])</td></tr>
-<tr class="separator:a7c9957598d2d6244e4cb3e92c4808a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc411786a1e56baa65272a003fce379a"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:afc411786a1e56baa65272a003fce379a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#afc411786a1e56baa65272a003fce379a">ogdf::energybased::dtree::interleaveBits&lt; unsigned int, 1 &gt;</a> (const unsigned int coords[1], unsigned int mnr[1])</td></tr>
-<tr class="separator:afc411786a1e56baa65272a003fce379a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbb38760f2ffbd759610e01368e5db6b"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:adbb38760f2ffbd759610e01368e5db6b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#adbb38760f2ffbd759610e01368e5db6b">ogdf::energybased::dtree::interleaveBits&lt; unsigned int, 2 &gt;</a> (const unsigned int coords[2], unsigned int mnr[2])</td></tr>
-<tr class="separator:adbb38760f2ffbd759610e01368e5db6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bd647f090f32c483282607f3e7dd442"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
-<tr class="memitem:a5bd647f090f32c483282607f3e7dd442"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a5bd647f090f32c483282607f3e7dd442">ogdf::energybased::dtree::lowestCommonAncestorLevel</a> (const IntType a[Dim], const IntType b[Dim])</td></tr>
-<tr class="separator:a5bd647f090f32c483282607f3e7dd442"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61fbe779c655c16734ea347197eb22d3"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a61fbe779c655c16734ea347197eb22d3"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a61fbe779c655c16734ea347197eb22d3">ogdf::energybased::dtree::lowestCommonAncestorLevel&lt; unsigned int, 1 &gt;</a> (const unsigned int a[1], const unsigned int b[1])</td></tr>
-<tr class="separator:a61fbe779c655c16734ea347197eb22d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab35f223f1c9e2a7dc8f53691ee0520bb"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
-<tr class="memitem:ab35f223f1c9e2a7dc8f53691ee0520bb"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ab35f223f1c9e2a7dc8f53691ee0520bb">ogdf::energybased::dtree::mortonComparerEqual</a> (const IntType a[Dim], const IntType b[Dim])</td></tr>
-<tr class="separator:ab35f223f1c9e2a7dc8f53691ee0520bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7dbb8a37a1d9241d5630f7aed4ef995"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ad7dbb8a37a1d9241d5630f7aed4ef995"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ad7dbb8a37a1d9241d5630f7aed4ef995">ogdf::energybased::dtree::mortonComparerEqual&lt; unsigned int, 1 &gt;</a> (const unsigned int a[1], const unsigned int b[1])</td></tr>
-<tr class="separator:ad7dbb8a37a1d9241d5630f7aed4ef995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc91246567df1b82840b94173a8f4ce7"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:abc91246567df1b82840b94173a8f4ce7"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#abc91246567df1b82840b94173a8f4ce7">ogdf::energybased::dtree::mortonComparerEqual&lt; unsigned int, 2 &gt;</a> (const unsigned int a[2], const unsigned int b[2])</td></tr>
-<tr class="separator:abc91246567df1b82840b94173a8f4ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9001b0b2e9d5f9fa3a0e84a0f6d3a32"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
-<tr class="memitem:ac9001b0b2e9d5f9fa3a0e84a0f6d3a32"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ac9001b0b2e9d5f9fa3a0e84a0f6d3a32">ogdf::energybased::dtree::mortonComparerLess</a> (const IntType a[Dim], const IntType b[Dim])</td></tr>
-<tr class="separator:ac9001b0b2e9d5f9fa3a0e84a0f6d3a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3d0b1fa38889e0be03a785337a7f819"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ad3d0b1fa38889e0be03a785337a7f819"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ad3d0b1fa38889e0be03a785337a7f819">ogdf::energybased::dtree::mortonComparerLess&lt; unsigned int, 1 &gt;</a> (const unsigned int a[1], const unsigned int b[1])</td></tr>
-<tr class="separator:ad3d0b1fa38889e0be03a785337a7f819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bfcc357f24760a0bf49a4fd1e467596"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a9bfcc357f24760a0bf49a4fd1e467596"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a9bfcc357f24760a0bf49a4fd1e467596">ogdf::energybased::dtree::mortonComparerLess&lt; unsigned int, 2 &gt;</a> (const unsigned int a[2], const unsigned int b[2])</td></tr>
-<tr class="separator:a9bfcc357f24760a0bf49a4fd1e467596"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c0d4b3440cb02d878a29c5c7b6e14cd"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:a7c0d4b3440cb02d878a29c5c7b6e14cd"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim !=1 &amp;&amp;Dim !=2, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a7c0d4b3440cb02d878a29c5c7b6e14cd">ogdf::energybased::dtree::interleaveBits</a> (const IntType coords[Dim], IntType mnr[Dim])</td></tr>
+<tr class="separator:a7c0d4b3440cb02d878a29c5c7b6e14cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab29251593877ee06d2b316b8ded2336d"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:ab29251593877ee06d2b316b8ded2336d"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==1, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ab29251593877ee06d2b316b8ded2336d">ogdf::energybased::dtree::interleaveBits</a> (const unsigned int coords[Dim], unsigned int mnr[Dim])</td></tr>
+<tr class="separator:ab29251593877ee06d2b316b8ded2336d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8354f5d06ecf3f412e3107904cf8374"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:ac8354f5d06ecf3f412e3107904cf8374"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==2, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ac8354f5d06ecf3f412e3107904cf8374">ogdf::energybased::dtree::interleaveBits</a> (const unsigned int coords[Dim], unsigned int mnr[Dim])</td></tr>
+<tr class="separator:ac8354f5d06ecf3f412e3107904cf8374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5970e3c0db2f9fccdc7e852dbd75e6e"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:ae5970e3c0db2f9fccdc7e852dbd75e6e"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim !=1, int &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ae5970e3c0db2f9fccdc7e852dbd75e6e">ogdf::energybased::dtree::lowestCommonAncestorLevel</a> (const IntType a[Dim], const IntType b[Dim])</td></tr>
+<tr class="separator:ae5970e3c0db2f9fccdc7e852dbd75e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5cb4b914e801fcc4e9d6b8aeb5eec40"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:ae5cb4b914e801fcc4e9d6b8aeb5eec40"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==1, int &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ae5cb4b914e801fcc4e9d6b8aeb5eec40">ogdf::energybased::dtree::lowestCommonAncestorLevel</a> (const unsigned int a[Dim], const unsigned int b[Dim])</td></tr>
+<tr class="separator:ae5cb4b914e801fcc4e9d6b8aeb5eec40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4631725b0ba16a62ff53b5884258d41c"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:a4631725b0ba16a62ff53b5884258d41c"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim !=1 &amp;&amp;Dim !=2, bool &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a4631725b0ba16a62ff53b5884258d41c">ogdf::energybased::dtree::mortonComparerEqual</a> (const IntType a[Dim], const IntType b[Dim])</td></tr>
+<tr class="separator:a4631725b0ba16a62ff53b5884258d41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4241389f461ab88b5179f22a2fbcbc6b"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:a4241389f461ab88b5179f22a2fbcbc6b"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==1, bool &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a4241389f461ab88b5179f22a2fbcbc6b">ogdf::energybased::dtree::mortonComparerEqual</a> (const IntType a[Dim], const IntType b[Dim])</td></tr>
+<tr class="separator:a4241389f461ab88b5179f22a2fbcbc6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c49da525f71a544d85c41d076380ed"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:ae0c49da525f71a544d85c41d076380ed"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==2, bool &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ae0c49da525f71a544d85c41d076380ed">ogdf::energybased::dtree::mortonComparerEqual</a> (const IntType a[Dim], const IntType b[Dim])</td></tr>
+<tr class="separator:ae0c49da525f71a544d85c41d076380ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a880fcd73db9e706f37e3d89f15c517ac"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:a880fcd73db9e706f37e3d89f15c517ac"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim !=1 &amp;&amp;Dim !=2, bool &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a880fcd73db9e706f37e3d89f15c517ac">ogdf::energybased::dtree::mortonComparerLess</a> (const IntType a[Dim], const IntType b[Dim])</td></tr>
+<tr class="separator:a880fcd73db9e706f37e3d89f15c517ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7e14f0cc6fd9e7342e2a6d1964ce116"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:aa7e14f0cc6fd9e7342e2a6d1964ce116"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==1, bool &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#aa7e14f0cc6fd9e7342e2a6d1964ce116">ogdf::energybased::dtree::mortonComparerLess</a> (const unsigned int a[Dim], const unsigned int b[Dim])</td></tr>
+<tr class="separator:aa7e14f0cc6fd9e7342e2a6d1964ce116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac36e4c35087c7888eb17fd3fc33d8278"><td class="memTemplParams" colspan="2">template&lt;typename IntType , int Dim&gt; </td></tr>
+<tr class="memitem:ac36e4c35087c7888eb17fd3fc33d8278"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==2, bool &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ac36e4c35087c7888eb17fd3fc33d8278">ogdf::energybased::dtree::mortonComparerLess</a> (const unsigned int a[Dim], const unsigned int b[Dim])</td></tr>
+<tr class="separator:ac36e4c35087c7888eb17fd3fc33d8278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcec48030081c261687791f0bc0f2116"><td class="memTemplParams" colspan="2">template&lt;typename IntType &gt; </td></tr>
 <tr class="memitem:abcec48030081c261687791f0bc0f2116"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#abcec48030081c261687791f0bc0f2116">ogdf::energybased::dtree::mostSignificantBit</a> (IntType x)</td></tr>
 <tr class="separator:abcec48030081c261687791f0bc0f2116"><td class="memSeparator" colspan="2">&#160;</td></tr>

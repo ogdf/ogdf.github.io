@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::PlanarAugmentation Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -178,77 +176,77 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a0de8e9b55be3fc6ad44e56636b90c55b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a0de8e9b55be3fc6ad44e56636b90c55b">doCall</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;L) override</td></tr>
-<tr class="memdesc:a0de8e9b55be3fc6ad44e56636b90c55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The implementation of the algorithm call.  <a href="#a0de8e9b55be3fc6ad44e56636b90c55b">More...</a><br /></td></tr>
-<tr class="separator:a0de8e9b55be3fc6ad44e56636b90c55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace916f5d420cf3b7b1154a0645e3cd38"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ace916f5d420cf3b7b1154a0645e3cd38">doCall</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;list) override</td></tr>
+<tr class="memdesc:ace916f5d420cf3b7b1154a0645e3cd38"><td class="mdescLeft">&#160;</td><td class="mdescRight">The implementation of the algorithm call.  <a href="#ace916f5d420cf3b7b1154a0645e3cd38">More...</a><br /></td></tr>
+<tr class="separator:ace916f5d420cf3b7b1154a0645e3cd38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aa606470b67e6fecfd63d784fd90cae0c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#aa606470b67e6fecfd63d784fd90cae0c">addPendant</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> p, <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;l)</td></tr>
-<tr class="memdesc:aa606470b67e6fecfd63d784fd90cae0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds a pendant p to the label l and updates the label-order.  <a href="#aa606470b67e6fecfd63d784fd90cae0c">More...</a><br /></td></tr>
-<tr class="separator:aa606470b67e6fecfd63d784fd90cae0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace14dcd0f0dbf9163b1818119f910789"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ace14dcd0f0dbf9163b1818119f910789">addPendant</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> pendant, <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;label)</td></tr>
+<tr class="memdesc:ace14dcd0f0dbf9163b1818119f910789"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds <code>pendant</code> to <code>label</code> and updates the label-order.  <a href="#ace14dcd0f0dbf9163b1818119f910789">More...</a><br /></td></tr>
+<tr class="separator:ace14dcd0f0dbf9163b1818119f910789"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f680d2b2d9a6e969ad21b6d4da7efd5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a8f680d2b2d9a6e969ad21b6d4da7efd5">adjToCutvertex</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> cutvertex=nullptr)</td></tr>
-<tr class="memdesc:a8f680d2b2d9a6e969ad21b6d4da7efd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a node that belongs to bc-node v and is adjacent to the cutvertex.  <a href="#a8f680d2b2d9a6e969ad21b6d4da7efd5">More...</a><br /></td></tr>
+<tr class="memdesc:a8f680d2b2d9a6e969ad21b6d4da7efd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a node that belongs to bc-node <code>v</code> and is adjacent to <code>cutvertex</code>.  <a href="#a8f680d2b2d9a6e969ad21b6d4da7efd5">More...</a><br /></td></tr>
 <tr class="separator:a8f680d2b2d9a6e969ad21b6d4da7efd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0ccc4bdad9e250e2d9387bbe2650ca21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a0ccc4bdad9e250e2d9387bbe2650ca21">augment</a> ()</td></tr>
 <tr class="memdesc:a0ccc4bdad9e250e2d9387bbe2650ca21"><td class="mdescLeft">&#160;</td><td class="mdescRight">The main function for planar augmentation.  <a href="#a0ccc4bdad9e250e2d9387bbe2650ca21">More...</a><br /></td></tr>
 <tr class="separator:a0ccc4bdad9e250e2d9387bbe2650ca21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd73b426891dda89efab3686f1ffa3f1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#acd73b426891dda89efab3686f1ffa3f1">connectCondition</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> a, <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> b)</td></tr>
-<tr class="memdesc:acd73b426891dda89efab3686f1ffa3f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the pendants of label a and label b can be connected without creating a new pendant.  <a href="#acd73b426891dda89efab3686f1ffa3f1">More...</a><br /></td></tr>
+<tr class="memdesc:acd73b426891dda89efab3686f1ffa3f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the pendants of label <code>a</code> and label <code>b</code> can be connected without creating a new pendant.  <a href="#acd73b426891dda89efab3686f1ffa3f1">More...</a><br /></td></tr>
 <tr class="separator:acd73b426891dda89efab3686f1ffa3f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21f4d3b9595e0ec7383c88ba64bfc3b1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a21f4d3b9595e0ec7383c88ba64bfc3b1">connectInsideLabel</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;l)</td></tr>
-<tr class="memdesc:a21f4d3b9595e0ec7383c88ba64bfc3b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects the only pendant of l with a computed ancestor.  <a href="#a21f4d3b9595e0ec7383c88ba64bfc3b1">More...</a><br /></td></tr>
-<tr class="separator:a21f4d3b9595e0ec7383c88ba64bfc3b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a686cc42e5c447e0a9f514c8241595b3d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a686cc42e5c447e0a9f514c8241595b3d">connectInsideLabel</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;label)</td></tr>
+<tr class="memdesc:a686cc42e5c447e0a9f514c8241595b3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects the only pendant of <code>label</code> with a computed ancestor.  <a href="#a686cc42e5c447e0a9f514c8241595b3d">More...</a><br /></td></tr>
+<tr class="separator:a686cc42e5c447e0a9f514c8241595b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a478b66ce41dcd8db9e19231bc51c9089"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a478b66ce41dcd8db9e19231bc51c9089">connectLabels</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> first, <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> second)</td></tr>
-<tr class="memdesc:a478b66ce41dcd8db9e19231bc51c9089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts edges between pendants of label first and second.  <a href="#a478b66ce41dcd8db9e19231bc51c9089">More...</a><br /></td></tr>
+<tr class="memdesc:a478b66ce41dcd8db9e19231bc51c9089"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts edges between pendants of label <code>first</code> and <code>second</code>.  <a href="#a478b66ce41dcd8db9e19231bc51c9089">More...</a><br /></td></tr>
 <tr class="separator:a478b66ce41dcd8db9e19231bc51c9089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd2188587960aff83f120f5c2012c6c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#acd2188587960aff83f120f5c2012c6c9">connectPendants</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> pendant1, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> pendant2)</td></tr>
 <tr class="memdesc:acd2188587960aff83f120f5c2012c6c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects two pendants.  <a href="#acd2188587960aff83f120f5c2012c6c9">More...</a><br /></td></tr>
 <tr class="separator:acd2188587960aff83f120f5c2012c6c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad95cf862bba21462976d6a96952052e9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ad95cf862bba21462976d6a96952052e9">deleteLabel</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;l, bool removePendants=true)</td></tr>
-<tr class="memdesc:ad95cf862bba21462976d6a96952052e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">deletes label <code>l</code>.  <a href="#ad95cf862bba21462976d6a96952052e9">More...</a><br /></td></tr>
-<tr class="separator:ad95cf862bba21462976d6a96952052e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a318d4c0d236d452bdb686b4f300173c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a318d4c0d236d452bdb686b4f300173c8">deletePendant</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> p, bool removeFromLabel=true)</td></tr>
-<tr class="memdesc:a318d4c0d236d452bdb686b4f300173c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the pendant p, removes it from the corresponding label and updates the label-order.  <a href="#a318d4c0d236d452bdb686b4f300173c8">More...</a><br /></td></tr>
-<tr class="separator:a318d4c0d236d452bdb686b4f300173c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae59ea3b98d630c156f262ef5734e0481"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ae59ea3b98d630c156f262ef5734e0481">deleteLabel</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;label, bool removePendants=true)</td></tr>
+<tr class="memdesc:ae59ea3b98d630c156f262ef5734e0481"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes <code>label</code>.  <a href="#ae59ea3b98d630c156f262ef5734e0481">More...</a><br /></td></tr>
+<tr class="separator:ae59ea3b98d630c156f262ef5734e0481"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d8e4e10d2eb5b6393774f73669b811f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a6d8e4e10d2eb5b6393774f73669b811f">deletePendant</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> pendant, bool removeFromLabel=true)</td></tr>
+<tr class="memdesc:a6d8e4e10d2eb5b6393774f73669b811f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes the pendant <code>pendant</code>, and, if <code>removeFromLabel</code> is true, removes it from the corresponding label and updates the label-order.  <a href="#a6d8e4e10d2eb5b6393774f73669b811f">More...</a><br /></td></tr>
+<tr class="separator:a6d8e4e10d2eb5b6393774f73669b811f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0020180b2d9bc54a65b47ff3fbaf0bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#aa0020180b2d9bc54a65b47ff3fbaf0bb">findLastBefore</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> pendant, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> ancestor)</td></tr>
-<tr class="memdesc:aa0020180b2d9bc54a65b47ff3fbaf0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traverses from pendant to ancestor and returns the last node before ancestor on the path.  <a href="#aa0020180b2d9bc54a65b47ff3fbaf0bb">More...</a><br /></td></tr>
+<tr class="memdesc:aa0020180b2d9bc54a65b47ff3fbaf0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traverses from <code>pendant</code> to <code>ancestor</code> and returns the last node before ancestor on the path.  <a href="#aa0020180b2d9bc54a65b47ff3fbaf0bb">More...</a><br /></td></tr>
 <tr class="separator:aa0020180b2d9bc54a65b47ff3fbaf0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1c6ab66de9867678292d354f03206ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ac1c6ab66de9867678292d354f03206ff">findMatching</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;first, <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;second)</td></tr>
 <tr class="memdesc:ac1c6ab66de9867678292d354f03206ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds two matching labels, so all pendants can be connected without losing planarity.  <a href="#ac1c6ab66de9867678292d354f03206ff">More...</a><br /></td></tr>
 <tr class="separator:ac1c6ab66de9867678292d354f03206ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a030f5da43852c72c933a8bf1817ec5ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_p_a_label.html#abbb2f320421be920b1fe7f4bb764d0a4">PALabel::StopCause</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a030f5da43852c72c933a8bf1817ec5ed">followPath</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;last)</td></tr>
-<tr class="memdesc:a030f5da43852c72c933a8bf1817ec5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called in reduceChain.  <a href="#a030f5da43852c72c933a8bf1817ec5ed">More...</a><br /></td></tr>
+<tr class="memdesc:a030f5da43852c72c933a8bf1817ec5ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traverses to the root and checks several stop conditions.  <a href="#a030f5da43852c72c933a8bf1817ec5ed">More...</a><br /></td></tr>
 <tr class="separator:a030f5da43852c72c933a8bf1817ec5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b3b0dba960f669c761af7604ae6f441"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a7b3b0dba960f669c761af7604ae6f441">insertLabel</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> l)</td></tr>
-<tr class="memdesc:a7b3b0dba960f669c761af7604ae6f441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts label l into m_labels by decreasing order.  <a href="#a7b3b0dba960f669c761af7604ae6f441">More...</a><br /></td></tr>
-<tr class="separator:a7b3b0dba960f669c761af7604ae6f441"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03619e1c3dd842dfd81477c217734153"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a03619e1c3dd842dfd81477c217734153">joinPendants</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;l)</td></tr>
-<tr class="memdesc:a03619e1c3dd842dfd81477c217734153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects all pendants of label <code>l</code> with new edges.  <a href="#a03619e1c3dd842dfd81477c217734153">More...</a><br /></td></tr>
-<tr class="separator:a03619e1c3dd842dfd81477c217734153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad38290695c491afa0a81dfb5d93ef741"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ad38290695c491afa0a81dfb5d93ef741">insertLabel</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> label)</td></tr>
+<tr class="memdesc:ad38290695c491afa0a81dfb5d93ef741"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts <code>label</code> into <a class="el" href="classogdf_1_1_planar_augmentation.html#a342c0ac74f37502f721ecb7370923313" title="The list of all labels, sorted by size (decreasing). ">m_labels</a> by decreasing order.  <a href="#ad38290695c491afa0a81dfb5d93ef741">More...</a><br /></td></tr>
+<tr class="separator:ad38290695c491afa0a81dfb5d93ef741"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade7f3ac98a68fd055c708b6d6115cf4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#aade7f3ac98a68fd055c708b6d6115cf4">joinPendants</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;label)</td></tr>
+<tr class="memdesc:aade7f3ac98a68fd055c708b6d6115cf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects all pendants of <code>label</code> with new edges.  <a href="#aade7f3ac98a68fd055c708b6d6115cf4">More...</a><br /></td></tr>
+<tr class="separator:aade7f3ac98a68fd055c708b6d6115cf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91f7ed90a74feda1c65d6f777de9d666"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a91f7ed90a74feda1c65d6f777de9d666">makeConnectedByPendants</a> ()</td></tr>
 <tr class="memdesc:a91f7ed90a74feda1c65d6f777de9d666"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the graph connected by new edges between pendants of the connected components.  <a href="#a91f7ed90a74feda1c65d6f777de9d666">More...</a><br /></td></tr>
 <tr class="separator:a91f7ed90a74feda1c65d6f777de9d666"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae54c7e424805d9cc717178d3c1d3e880"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ae54c7e424805d9cc717178d3c1d3e880">modifyBCRoot</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> oldRoot, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> newRoot)</td></tr>
-<tr class="memdesc:ae54c7e424805d9cc717178d3c1d3e880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the root of the BC-Tree that newRoot replaces oldRoot.  <a href="#ae54c7e424805d9cc717178d3c1d3e880">More...</a><br /></td></tr>
+<tr class="memdesc:ae54c7e424805d9cc717178d3c1d3e880"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies the root of the BC-Tree that <code>newRoot</code> replaces <code>oldRoot</code>.  <a href="#ae54c7e424805d9cc717178d3c1d3e880">More...</a><br /></td></tr>
 <tr class="separator:ae54c7e424805d9cc717178d3c1d3e880"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7f0795b8de7ee9fcf68b627c23bdb3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ac7f0795b8de7ee9fcf68b627c23bdb3f">newLabel</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> cutvertex, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> p, <a class="el" href="classogdf_1_1_p_a_label.html#abbb2f320421be920b1fe7f4bb764d0a4">PALabel::StopCause</a> whyStop)</td></tr>
-<tr class="memdesc:ac7f0795b8de7ee9fcf68b627c23bdb3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new label and inserts it into m_labels.  <a href="#ac7f0795b8de7ee9fcf68b627c23bdb3f">More...</a><br /></td></tr>
-<tr class="separator:ac7f0795b8de7ee9fcf68b627c23bdb3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7a02f06d288e5e1b42b2c5806cc7032"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ad7a02f06d288e5e1b42b2c5806cc7032">newLabel</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> cutvertex, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> pendant, <a class="el" href="classogdf_1_1_p_a_label.html#abbb2f320421be920b1fe7f4bb764d0a4">PALabel::StopCause</a> whyStop)</td></tr>
+<tr class="memdesc:ad7a02f06d288e5e1b42b2c5806cc7032"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new label and inserts it into <a class="el" href="classogdf_1_1_planar_augmentation.html#a342c0ac74f37502f721ecb7370923313" title="The list of all labels, sorted by size (decreasing). ">m_labels</a>.  <a href="#ad7a02f06d288e5e1b42b2c5806cc7032">More...</a><br /></td></tr>
+<tr class="separator:ad7a02f06d288e5e1b42b2c5806cc7032"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a45c9ae8af5e77944b9f415fc9e6c46e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a45c9ae8af5e77944b9f415fc9e6c46e2">planarityCheck</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v1, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v2)</td></tr>
-<tr class="memdesc:a45c9ae8af5e77944b9f415fc9e6c46e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks planarity for a new edge (v1,v2) in the original graph.  <a href="#a45c9ae8af5e77944b9f415fc9e6c46e2">More...</a><br /></td></tr>
+<tr class="memdesc:a45c9ae8af5e77944b9f415fc9e6c46e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks planarity for a new edge (<code>v1</code>, <code>v2</code>) in the original graph.  <a href="#a45c9ae8af5e77944b9f415fc9e6c46e2">More...</a><br /></td></tr>
 <tr class="separator:a45c9ae8af5e77944b9f415fc9e6c46e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a423f070ba3d05800052569fd3897de51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a423f070ba3d05800052569fd3897de51">reduceChain</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> p, <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> labelOld=nullptr)</td></tr>
-<tr class="memdesc:a423f070ba3d05800052569fd3897de51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Is called for every pendant-node.  <a href="#a423f070ba3d05800052569fd3897de51">More...</a><br /></td></tr>
-<tr class="separator:a423f070ba3d05800052569fd3897de51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d1759ed69a675087700c9ba5cf5140f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a6d1759ed69a675087700c9ba5cf5140f">removeAllPendants</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;l)</td></tr>
-<tr class="memdesc:a6d1759ed69a675087700c9ba5cf5140f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all pendants of a label.  <a href="#a6d1759ed69a675087700c9ba5cf5140f">More...</a><br /></td></tr>
-<tr class="separator:a6d1759ed69a675087700c9ba5cf5140f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab40557025f578f4b2aea756e9d2dbbd9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ab40557025f578f4b2aea756e9d2dbbd9">reduceChain</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> pendant, <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> labelOld=nullptr)</td></tr>
+<tr class="memdesc:ab40557025f578f4b2aea756e9d2dbbd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Traverses to the root and creates a label or updates one.  <a href="#ab40557025f578f4b2aea756e9d2dbbd9">More...</a><br /></td></tr>
+<tr class="separator:ab40557025f578f4b2aea756e9d2dbbd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9aefdf17a1c6939d666530f2ee7d45e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ae9aefdf17a1c6939d666530f2ee7d45e">removeAllPendants</a> (<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;label)</td></tr>
+<tr class="memdesc:ae9aefdf17a1c6939d666530f2ee7d45e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all pendants of <code>label</code>.  <a href="#ae9aefdf17a1c6939d666530f2ee7d45e">More...</a><br /></td></tr>
+<tr class="separator:ae9aefdf17a1c6939d666530f2ee7d45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aacebdfe18bb5fe7a1b2a66ff8bfd4fcb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#aacebdfe18bb5fe7a1b2a66ff8bfd4fcb">terminate</a> ()</td></tr>
 <tr class="memdesc:aacebdfe18bb5fe7a1b2a66ff8bfd4fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleanup.  <a href="#aacebdfe18bb5fe7a1b2a66ff8bfd4fcb">More...</a><br /></td></tr>
 <tr class="separator:aacebdfe18bb5fe7a1b2a66ff8bfd4fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3604abb6a29793dd3267fd67b731aa7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a3604abb6a29793dd3267fd67b731aa7a">updateAdjNonChildren</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> newBlock, <a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;path)</td></tr>
-<tr class="memdesc:a3604abb6a29793dd3267fd67b731aa7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates the adjNonChildren-data.  <a href="#a3604abb6a29793dd3267fd67b731aa7a">More...</a><br /></td></tr>
+<tr class="memdesc:a3604abb6a29793dd3267fd67b731aa7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates <a class="el" href="classogdf_1_1_planar_augmentation.html#a253b36a47fd5daf39fa80d6ef08830aa" title="Stores for each node of the bc-tree the children that have an adjacent bc-node that doesn&#39;t belong to...">m_adjNonChildren</a>.  <a href="#a3604abb6a29793dd3267fd67b731aa7a">More...</a><br /></td></tr>
 <tr class="separator:a3604abb6a29793dd3267fd67b731aa7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78f6f657beb69945251560b11b09865a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a78f6f657beb69945251560b11b09865a">updateNewEdges</a> (const <a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;newEdges)</td></tr>
 <tr class="memdesc:a78f6f657beb69945251560b11b09865a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Major updates caused by the new edges.  <a href="#a78f6f657beb69945251560b11b09865a">More...</a><br /></td></tr>
@@ -256,22 +254,22 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a880bb9e39198fe65bf89b90068e6868c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a880bb9e39198fe65bf89b90068e6868c">m_adjNonChildren</a></td></tr>
-<tr class="memdesc:a880bb9e39198fe65bf89b90068e6868c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores for each node of the bc-tree the children that have an adjacent bc-node that doesn't belong to the same parent-node.  <a href="#a880bb9e39198fe65bf89b90068e6868c">More...</a><br /></td></tr>
-<tr class="separator:a880bb9e39198fe65bf89b90068e6868c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a253b36a47fd5daf39fa80d6ef08830aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a253b36a47fd5daf39fa80d6ef08830aa">m_adjNonChildren</a></td></tr>
+<tr class="memdesc:a253b36a47fd5daf39fa80d6ef08830aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores for each node of the bc-tree the children that have an adjacent bc-node that doesn't belong to the same parent-node.  <a href="#a253b36a47fd5daf39fa80d6ef08830aa">More...</a><br /></td></tr>
+<tr class="separator:a253b36a47fd5daf39fa80d6ef08830aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a487cb49c9231d9862e68a06537e5cffc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a487cb49c9231d9862e68a06537e5cffc">m_belongsTo</a></td></tr>
 <tr class="memdesc:a487cb49c9231d9862e68a06537e5cffc"><td class="mdescLeft">&#160;</td><td class="mdescRight">The label a BC-Node belongs to.  <a href="#a487cb49c9231d9862e68a06537e5cffc">More...</a><br /></td></tr>
 <tr class="separator:a487cb49c9231d9862e68a06537e5cffc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa48e2baf20ab4965d03df0f1a22c237f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#aa48e2baf20ab4965d03df0f1a22c237f">m_isLabel</a></td></tr>
-<tr class="memdesc:aa48e2baf20ab4965d03df0f1a22c237f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list iterator in m_labels if the node in the BC-Tree is a label.  <a href="#aa48e2baf20ab4965d03df0f1a22c237f">More...</a><br /></td></tr>
-<tr class="separator:aa48e2baf20ab4965d03df0f1a22c237f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24878b060f4a16d93d5e9ccf677b893b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a24878b060f4a16d93d5e9ccf677b893b">m_isLabel</a></td></tr>
+<tr class="memdesc:a24878b060f4a16d93d5e9ccf677b893b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list iterator in <a class="el" href="classogdf_1_1_planar_augmentation.html#a342c0ac74f37502f721ecb7370923313" title="The list of all labels, sorted by size (decreasing). ">m_labels</a> if the node in the BC-Tree is a label.  <a href="#a24878b060f4a16d93d5e9ccf677b893b">More...</a><br /></td></tr>
+<tr class="separator:a24878b060f4a16d93d5e9ccf677b893b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a342c0ac74f37502f721ecb7370923313"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a342c0ac74f37502f721ecb7370923313">m_labels</a></td></tr>
 <tr class="memdesc:a342c0ac74f37502f721ecb7370923313"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of all labels, sorted by size (decreasing).  <a href="#a342c0ac74f37502f721ecb7370923313">More...</a><br /></td></tr>
 <tr class="separator:a342c0ac74f37502f721ecb7370923313"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0c63c29e54f2d0f8971ba353d41cc3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ad0c63c29e54f2d0f8971ba353d41cc3c">m_nPlanarityTests</a></td></tr>
-<tr class="memdesc:ad0c63c29e54f2d0f8971ba353d41cc3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts the number of planarity tests.  <a href="#ad0c63c29e54f2d0f8971ba353d41cc3c">More...</a><br /></td></tr>
+<tr class="memitem:ad0c63c29e54f2d0f8971ba353d41cc3c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#ad0c63c29e54f2d0f8971ba353d41cc3c">m_nPlanarityTests</a> = 0</td></tr>
+<tr class="memdesc:ad0c63c29e54f2d0f8971ba353d41cc3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of planarity tests.  <a href="#ad0c63c29e54f2d0f8971ba353d41cc3c">More...</a><br /></td></tr>
 <tr class="separator:ad0c63c29e54f2d0f8971ba353d41cc3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a526d468725e1fb41ee7467ee7eaede6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html">DynamicBCTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a526d468725e1fb41ee7467ee7eaede6c">m_pBCTree</a></td></tr>
+<tr class="memitem:a526d468725e1fb41ee7467ee7eaede6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html">DynamicBCTree</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a526d468725e1fb41ee7467ee7eaede6c">m_pBCTree</a> = nullptr</td></tr>
 <tr class="memdesc:a526d468725e1fb41ee7467ee7eaede6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The corresponding BC-Tree.  <a href="#a526d468725e1fb41ee7467ee7eaede6c">More...</a><br /></td></tr>
 <tr class="separator:a526d468725e1fb41ee7467ee7eaede6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e035e48c29bb59ae2be5a49c8aaaffc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a1e035e48c29bb59ae2be5a49c8aaaffc">m_pendants</a></td></tr>
@@ -280,10 +278,10 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a7c3657853faff4cf9d317e4ecddf89b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a7c3657853faff4cf9d317e4ecddf89b7">m_pendantsToDel</a></td></tr>
 <tr class="memdesc:a7c3657853faff4cf9d317e4ecddf89b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of pendants that has to be deleted after each reduceChain.  <a href="#a7c3657853faff4cf9d317e4ecddf89b7">More...</a><br /></td></tr>
 <tr class="separator:a7c3657853faff4cf9d317e4ecddf89b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c3494de31951d4456f7c2761a87a6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_graph.html">Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a2c3494de31951d4456f7c2761a87a6c8">m_pGraph</a></td></tr>
+<tr class="memitem:a2c3494de31951d4456f7c2761a87a6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_graph.html">Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a2c3494de31951d4456f7c2761a87a6c8">m_pGraph</a> = nullptr</td></tr>
 <tr class="memdesc:a2c3494de31951d4456f7c2761a87a6c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The working graph.  <a href="#a2c3494de31951d4456f7c2761a87a6c8">More...</a><br /></td></tr>
 <tr class="separator:a2c3494de31951d4456f7c2761a87a6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1238c636224432546afff50c35713175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a1238c636224432546afff50c35713175">m_pResult</a></td></tr>
+<tr class="memitem:a1238c636224432546afff50c35713175"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_augmentation.html#a1238c636224432546afff50c35713175">m_pResult</a> = nullptr</td></tr>
 <tr class="memdesc:a1238c636224432546afff50c35713175"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inserted edges by the algorithm.  <a href="#a1238c636224432546afff50c35713175">More...</a><br /></td></tr>
 <tr class="separator:a1238c636224432546afff50c35713175"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -354,8 +352,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa606470b67e6fecfd63d784fd90cae0c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa606470b67e6fecfd63d784fd90cae0c">&#9670;&nbsp;</a></span>addPendant()</h2>
+<a id="ace14dcd0f0dbf9163b1818119f910789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace14dcd0f0dbf9163b1818119f910789">&#9670;&nbsp;</a></span>addPendant()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,13 +365,13 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ogdf::PlanarAugmentation::addPendant </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
+          <td class="paramname"><em>pendant</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;&#160;</td>
-          <td class="paramname"><em>l</em>&#160;</td>
+          <td class="paramname"><em>label</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -388,7 +386,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Adds a pendant p to the label l and updates the label-order. </p>
+<p>Adds <code>pendant</code> to <code>label</code> and updates the label-order. </p>
 
 </div>
 </div>
@@ -426,11 +424,11 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a node that belongs to bc-node v and is adjacent to the cutvertex. </p>
+<p>Returns a node that belongs to bc-node <code>v</code> and is adjacent to <code>cutvertex</code>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">v</td><td>is a node in the BC-Tree. </td></tr>
-    <tr><td class="paramname">cutvertex</td><td>is the last cutvertex found. </td></tr>
+    <tr><td class="paramname">cutvertex</td><td>is the last cut-vertex found. </td></tr>
   </table>
   </dd>
 </dl>
@@ -499,12 +497,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if the pendants of label a and label b can be connected without creating a new pendant. </p>
+<p>Checks if the pendants of label <code>a</code> and label <code>b</code> can be connected without creating a new pendant. </p>
 
 </div>
 </div>
-<a id="a21f4d3b9595e0ec7383c88ba64bfc3b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21f4d3b9595e0ec7383c88ba64bfc3b1">&#9670;&nbsp;</a></span>connectInsideLabel()</h2>
+<a id="a686cc42e5c447e0a9f514c8241595b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a686cc42e5c447e0a9f514c8241595b3d">&#9670;&nbsp;</a></span>connectInsideLabel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -516,7 +514,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ogdf::PlanarAugmentation::connectInsideLabel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;&#160;</td>
-          <td class="paramname"><em>l</em></td><td>)</td>
+          <td class="paramname"><em>label</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -527,7 +525,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Connects the only pendant of l with a computed ancestor. </p>
+<p>Connects the only pendant of <code>label</code> with a computed ancestor. </p>
 
 </div>
 </div>
@@ -565,8 +563,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Inserts edges between pendants of label first and second. </p>
-<p>first.size() is gerater than second.size() or equal. </p>
+<p>Inserts edges between pendants of label <code>first</code> and <code>second</code>. </p>
+<dl class="section pre"><dt>Precondition</dt><dd><code>first.size()</code> is greater than <code>second.size()</code> or equal. </dd></dl>
 
 </div>
 </div>
@@ -609,8 +607,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad95cf862bba21462976d6a96952052e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad95cf862bba21462976d6a96952052e9">&#9670;&nbsp;</a></span>deleteLabel()</h2>
+<a id="ae59ea3b98d630c156f262ef5734e0481"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae59ea3b98d630c156f262ef5734e0481">&#9670;&nbsp;</a></span>deleteLabel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -622,7 +620,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ogdf::PlanarAugmentation::deleteLabel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;&#160;</td>
-          <td class="paramname"><em>l</em>, </td>
+          <td class="paramname"><em>label</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -643,12 +641,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>deletes label <code>l</code>. </p>
+<p>Deletes <code>label</code>. </p>
 
 </div>
 </div>
-<a id="a318d4c0d236d452bdb686b4f300173c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a318d4c0d236d452bdb686b4f300173c8">&#9670;&nbsp;</a></span>deletePendant()</h2>
+<a id="a6d8e4e10d2eb5b6393774f73669b811f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d8e4e10d2eb5b6393774f73669b811f">&#9670;&nbsp;</a></span>deletePendant()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -660,7 +658,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ogdf::PlanarAugmentation::deletePendant </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
+          <td class="paramname"><em>pendant</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -681,12 +679,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Deletes the pendant p, removes it from the corresponding label and updates the label-order. </p>
+<p>Deletes the pendant <code>pendant</code>, and, if <code>removeFromLabel</code> is true, removes it from the corresponding label and updates the label-order. </p>
 
 </div>
 </div>
-<a id="a0de8e9b55be3fc6ad44e56636b90c55b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0de8e9b55be3fc6ad44e56636b90c55b">&#9670;&nbsp;</a></span>doCall()</h2>
+<a id="ace916f5d420cf3b7b1154a0645e3cd38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace916f5d420cf3b7b1154a0645e3cd38">&#9670;&nbsp;</a></span>doCall()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -704,7 +702,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>L</em>&#160;</td>
+          <td class="paramname"><em>list</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -723,7 +721,7 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the working graph. </td></tr>
-    <tr><td class="paramname">L</td><td>is the list of all new edges. </td></tr>
+    <tr><td class="paramname">list</td><td>is the list of all new edges. </td></tr>
   </table>
   </dd>
 </dl>
@@ -766,7 +764,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Traverses from pendant to ancestor and returns the last node before ancestor on the path. </p>
+<p>Traverses from <code>pendant</code> to <code>ancestor</code> and returns the last node before ancestor on the path. </p>
 
 </div>
 </div>
@@ -850,8 +848,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Is called in reduceChain. </p>
-<p>It traverses to the root and checks several stop conditions.</p>
+<p>Traverses to the root and checks several stop conditions. </p>
+<p>Is called by <a class="el" href="classogdf_1_1_planar_augmentation.html#ab40557025f578f4b2aea756e9d2dbbd9" title="Traverses to the root and creates a label or updates one. ">reduceChain</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">v</td><td>is a node of the BC-Tree. </td></tr>
@@ -863,8 +861,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7b3b0dba960f669c761af7604ae6f441"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b3b0dba960f669c761af7604ae6f441">&#9670;&nbsp;</a></span>insertLabel()</h2>
+<a id="ad38290695c491afa0a81dfb5d93ef741"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad38290695c491afa0a81dfb5d93ef741">&#9670;&nbsp;</a></span>insertLabel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -876,7 +874,7 @@ Private Attributes</h2></td></tr>
           <td class="memname"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a>&gt; ogdf::PlanarAugmentation::insertLabel </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a>&#160;</td>
-          <td class="paramname"><em>l</em></td><td>)</td>
+          <td class="paramname"><em>label</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -887,13 +885,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Inserts label l into m_labels by decreasing order. </p>
+<p>Inserts <code>label</code> into <a class="el" href="classogdf_1_1_planar_augmentation.html#a342c0ac74f37502f721ecb7370923313" title="The list of all labels, sorted by size (decreasing). ">m_labels</a> by decreasing order. </p>
 <dl class="section return"><dt>Returns</dt><dd>the corresponding list iterator. </dd></dl>
 
 </div>
 </div>
-<a id="a03619e1c3dd842dfd81477c217734153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03619e1c3dd842dfd81477c217734153">&#9670;&nbsp;</a></span>joinPendants()</h2>
+<a id="aade7f3ac98a68fd055c708b6d6115cf4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade7f3ac98a68fd055c708b6d6115cf4">&#9670;&nbsp;</a></span>joinPendants()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -905,7 +903,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ogdf::PlanarAugmentation::joinPendants </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;&#160;</td>
-          <td class="paramname"><em>l</em></td><td>)</td>
+          <td class="paramname"><em>label</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -916,7 +914,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Connects all pendants of label <code>l</code> with new edges. </p>
+<p>Connects all pendants of <code>label</code> with new edges. </p>
 
 </div>
 </div>
@@ -981,12 +979,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Modifies the root of the BC-Tree that newRoot replaces oldRoot. </p>
+<p>Modifies the root of the BC-Tree that <code>newRoot</code> replaces <code>oldRoot</code>. </p>
 
 </div>
 </div>
-<a id="ac7f0795b8de7ee9fcf68b627c23bdb3f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7f0795b8de7ee9fcf68b627c23bdb3f">&#9670;&nbsp;</a></span>newLabel()</h2>
+<a id="ad7a02f06d288e5e1b42b2c5806cc7032"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7a02f06d288e5e1b42b2c5806cc7032">&#9670;&nbsp;</a></span>newLabel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1004,7 +1002,7 @@ Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
+          <td class="paramname"><em>pendant</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1025,7 +1023,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates a new label and inserts it into m_labels. </p>
+<p>Creates a new label and inserts it into <a class="el" href="classogdf_1_1_planar_augmentation.html#a342c0ac74f37502f721ecb7370923313" title="The list of all labels, sorted by size (decreasing). ">m_labels</a>. </p>
 
 </div>
 </div>
@@ -1063,7 +1061,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks planarity for a new edge (v1,v2) in the original graph. </p>
+<p>Checks planarity for a new edge (<code>v1</code>, <code>v2</code>) in the original graph. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">v1</td><td>is a node in the original graph. </td></tr>
@@ -1075,8 +1073,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a423f070ba3d05800052569fd3897de51"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a423f070ba3d05800052569fd3897de51">&#9670;&nbsp;</a></span>reduceChain()</h2>
+<a id="ab40557025f578f4b2aea756e9d2dbbd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab40557025f578f4b2aea756e9d2dbbd9">&#9670;&nbsp;</a></span>reduceChain()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1088,7 +1086,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ogdf::PlanarAugmentation::reduceChain </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
+          <td class="paramname"><em>pendant</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1109,20 +1107,20 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Is called for every pendant-node. </p>
-<p>It traverses to the root and creates a label or updates one.</p>
+<p>Traverses to the root and creates a label or updates one. </p>
+<p>Is called for every pendant node.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">p</td><td>is a pendant in the BC-Tree. </td></tr>
-    <tr><td class="paramname">labelOld</td><td>is the old label of <code>p</code>. </td></tr>
+    <tr><td class="paramname">pendant</td><td>is a pendant in the BC-Tree. </td></tr>
+    <tr><td class="paramname">labelOld</td><td>is the old label of <code>pendant</code>. </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a6d1759ed69a675087700c9ba5cf5140f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d1759ed69a675087700c9ba5cf5140f">&#9670;&nbsp;</a></span>removeAllPendants()</h2>
+<a id="ae9aefdf17a1c6939d666530f2ee7d45e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9aefdf17a1c6939d666530f2ee7d45e">&#9670;&nbsp;</a></span>removeAllPendants()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1134,7 +1132,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ogdf::PlanarAugmentation::removeAllPendants </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a> &amp;&#160;</td>
-          <td class="paramname"><em>l</em></td><td>)</td>
+          <td class="paramname"><em>label</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1145,7 +1143,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Removes all pendants of a label. </p>
+<p>Removes all pendants of <code>label</code>. </p>
 
 </div>
 </div>
@@ -1210,7 +1208,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Updates the adjNonChildren-data. </p>
+<p>Updates <a class="el" href="classogdf_1_1_planar_augmentation.html#a253b36a47fd5daf39fa80d6ef08830aa" title="Stores for each node of the bc-tree the children that have an adjacent bc-node that doesn&#39;t belong to...">m_adjNonChildren</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newBlock</td><td>is a new created block of the BC-Tree. </td></tr>
@@ -1256,8 +1254,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a880bb9e39198fe65bf89b90068e6868c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a880bb9e39198fe65bf89b90068e6868c">&#9670;&nbsp;</a></span>m_adjNonChildren</h2>
+<a id="a253b36a47fd5daf39fa80d6ef08830aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a253b36a47fd5daf39fa80d6ef08830aa">&#9670;&nbsp;</a></span>m_adjNonChildren</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1266,7 +1264,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt;<a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a>&gt; &gt; ogdf::PlanarAugmentation::m_adjNonChildren</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="classogdf_1_1_s_list.html">SList</a>&lt;<a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a>&gt; &gt; ogdf::PlanarAugmentation::m_adjNonChildren</td>
         </tr>
       </table>
   </td>
@@ -1279,7 +1277,7 @@ Private Attributes</h2></td></tr>
 <p>Stores for each node of the bc-tree the children that have an adjacent bc-node that doesn't belong to the same parent-node. </p>
 <p>This is necessary because the bc-tree uses an union-find-data-structure to store dependencies between bc-nodes. The adjacencies in the bc-tree won't be updated. </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00128">128</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00113">113</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
@@ -1305,12 +1303,12 @@ Private Attributes</h2></td></tr>
 
 <p>The label a BC-Node belongs to. </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00115">115</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00101">101</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
-<a id="aa48e2baf20ab4965d03df0f1a22c237f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa48e2baf20ab4965d03df0f1a22c237f">&#9670;&nbsp;</a></span>m_isLabel</h2>
+<a id="a24878b060f4a16d93d5e9ccf677b893b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24878b060f4a16d93d5e9ccf677b893b">&#9670;&nbsp;</a></span>m_isLabel</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1319,7 +1317,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a>&gt; &gt; ogdf::PlanarAugmentation::m_isLabel</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="namespaceogdf.html#ae1e521e198adaecea9c0ab27c2c6d60a">pa_label</a>&gt; &gt; ogdf::PlanarAugmentation::m_isLabel</td>
         </tr>
       </table>
   </td>
@@ -1329,9 +1327,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The list iterator in m_labels if the node in the BC-Tree is a label. </p>
+<p>The list iterator in <a class="el" href="classogdf_1_1_planar_augmentation.html#a342c0ac74f37502f721ecb7370923313" title="The list of all labels, sorted by size (decreasing). ">m_labels</a> if the node in the BC-Tree is a label. </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00119">119</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00104">104</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
@@ -1357,7 +1355,7 @@ Private Attributes</h2></td></tr>
 
 <p>The list of all labels, sorted by size (decreasing). </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00101">101</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00092">92</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
@@ -1371,7 +1369,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::PlanarAugmentation::m_nPlanarityTests</td>
+          <td class="memname">int ogdf::PlanarAugmentation::m_nPlanarityTests = 0</td>
         </tr>
       </table>
   </td>
@@ -1381,9 +1379,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Counts the number of planarity tests. </p>
+<p>The number of planarity tests. </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00082">82</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00080">80</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
@@ -1397,7 +1395,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html">DynamicBCTree</a>* ogdf::PlanarAugmentation::m_pBCTree</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_dynamic_b_c_tree.html">DynamicBCTree</a>* ogdf::PlanarAugmentation::m_pBCTree = nullptr</td>
         </tr>
       </table>
   </td>
@@ -1409,7 +1407,7 @@ Private Attributes</h2></td></tr>
 
 <p>The corresponding BC-Tree. </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00091">91</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00086">86</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
@@ -1435,7 +1433,7 @@ Private Attributes</h2></td></tr>
 
 <p>The list of all pendants (leaves in the BC-Tree). </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00105">105</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00095">95</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
@@ -1461,7 +1459,7 @@ Private Attributes</h2></td></tr>
 
 <p>The list of pendants that has to be deleted after each reduceChain. </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00110">110</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00098">98</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
@@ -1475,7 +1473,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_graph.html">Graph</a>* ogdf::PlanarAugmentation::m_pGraph</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_graph.html">Graph</a>* ogdf::PlanarAugmentation::m_pGraph = nullptr</td>
         </tr>
       </table>
   </td>
@@ -1487,7 +1485,7 @@ Private Attributes</h2></td></tr>
 
 <p>The working graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00087">87</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00083">83</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>
@@ -1501,7 +1499,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&gt;* ogdf::PlanarAugmentation::m_pResult</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&gt;* ogdf::PlanarAugmentation::m_pResult = nullptr</td>
         </tr>
       </table>
   </td>
@@ -1513,7 +1511,7 @@ Private Attributes</h2></td></tr>
 
 <p>The inserted edges by the algorithm. </p>
 
-<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00096">96</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_planar_augmentation_8h_source.html#l00089">89</a> of file <a class="el" href="_planar_augmentation_8h_source.html">PlanarAugmentation.h</a>.</p>
 
 </div>
 </div>

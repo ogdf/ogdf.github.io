@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::DisjointSets&lt; linkOption, compressionOption, interleavingOption &gt; Class Template Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -151,9 +149,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3cac585cccd1d82c6aa2215fb6b0dc44"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#a3cac585cccd1d82c6aa2215fb6b0dc44">getNumberOfSets</a> ()</td></tr>
 <tr class="memdesc:a3cac585cccd1d82c6aa2215fb6b0dc44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current number of disjoint sets.  <a href="#a3cac585cccd1d82c6aa2215fb6b0dc44">More...</a><br /></td></tr>
 <tr class="separator:a3cac585cccd1d82c6aa2215fb6b0dc44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a843635fa6f8a35a4e573b73842659c65"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#a843635fa6f8a35a4e573b73842659c65">getRepresentative</a> (int set)</td></tr>
-<tr class="memdesc:a843635fa6f8a35a4e573b73842659c65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the id of the largest superset of <code>set</code>.  <a href="#a843635fa6f8a35a4e573b73842659c65">More...</a><br /></td></tr>
-<tr class="separator:a843635fa6f8a35a4e573b73842659c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10a8a8c3ca6c887dab64ba577530742e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#a10a8a8c3ca6c887dab64ba577530742e">getRepresentative</a> (int set) const</td></tr>
+<tr class="memdesc:a10a8a8c3ca6c887dab64ba577530742e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the id of the largest superset of <code>set</code>.  <a href="#a10a8a8c3ca6c887dab64ba577530742e">More...</a><br /></td></tr>
+<tr class="separator:a10a8a8c3ca6c887dab64ba577530742e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac0e86c7cae663e69164867b7a110a4ec"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#ac0e86c7cae663e69164867b7a110a4ec">link</a> (int set1, int set2)</td></tr>
 <tr class="memdesc:ac0e86c7cae663e69164867b7a110a4ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unions <code>set1</code> and <code>set2</code>.  <a href="#ac0e86c7cae663e69164867b7a110a4ec">More...</a><br /></td></tr>
 <tr class="separator:ac0e86c7cae663e69164867b7a110a4ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -639,8 +637,8 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 
 </div>
 </div>
-<a id="a843635fa6f8a35a4e573b73842659c65"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a843635fa6f8a35a4e573b73842659c65">&#9670;&nbsp;</a></span>getRepresentative()</h2>
+<a id="a10a8a8c3ca6c887dab64ba577530742e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a8a8c3ca6c887dab64ba577530742e">&#9670;&nbsp;</a></span>getRepresentative()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -655,7 +653,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>set</em></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>

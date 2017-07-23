@@ -7,7 +7,7 @@ var classabacus_1_1_val_branch_rule =
     [ "unExtract", "classabacus_1_1_val_branch_rule.html#adb43f3ed1188ce2a779e3ad2ffbe620d", null ],
     [ "value", "classabacus_1_1_val_branch_rule.html#aad662d1dd8788403bcf94cd7b60542a7", null ],
     [ "variable", "classabacus_1_1_val_branch_rule.html#a14810dcd2927c11494e3020165316ddf", null ],
-    [ "operator<<", "classabacus_1_1_val_branch_rule.html#a4c14b154de51b5667876ba8bb7e64d1d", null ],
+    [ "operator<<", "classabacus_1_1_val_branch_rule.html#ace9200bdd57003b86d9644a331fc5069", null ],
     [ "oldLpLBound_", "classabacus_1_1_val_branch_rule.html#a05e720ccb3b40c6fad5dbba3fadab610", null ],
     [ "oldLpUBound_", "classabacus_1_1_val_branch_rule.html#abdbfe0cd6cf6a49c95e0048df18b1d39", null ],
     [ "value_", "classabacus_1_1_val_branch_rule.html#ab12061e5a522a2e356f10187d587cf7e", null ],

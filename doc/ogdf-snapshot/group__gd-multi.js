@@ -164,7 +164,7 @@ var group__gd_multi =
       [ "buildAllLevels", "classogdf_1_1_solar_merger.html#aa09338a9b9313eb28fa20289b8e064ff", null ],
       [ "buildOneLevel", "classogdf_1_1_solar_merger.html#a500d5fb10d6293d020fb35ed9b90ff89", null ],
       [ "calcSystemMass", "classogdf_1_1_solar_merger.html#a16a37b799aab5d3223feaee720dbf4ae", null ],
-      [ "collapsSolarSystem", "classogdf_1_1_solar_merger.html#a1393eb299b54a65b69f41206b6a88478", null ],
+      [ "collapseSolarSystem", "classogdf_1_1_solar_merger.html#a03635d0d9599477acb495e6d132401a3", null ],
       [ "distanceToSun", "classogdf_1_1_solar_merger.html#a3ab676f852cbf54fa63a3e162e3588dc", null ],
       [ "findInterSystemPaths", "classogdf_1_1_solar_merger.html#a4e04e1d1388a28f973ca316eecb01922", null ],
       [ "selectSuns", "classogdf_1_1_solar_merger.html#a041690826b31728f12673002e00cba02", null ],

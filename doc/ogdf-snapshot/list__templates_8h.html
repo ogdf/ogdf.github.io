@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: include/ogdf/basic/internal/list_templates.h File Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -169,6 +167,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a9a69de56b00253dba2d777b91e9f318e"><td class="memTemplParams" colspan="2">template&lt;class LIST , class COMPARER &gt; </td></tr>
 <tr class="memitem:a9a69de56b00253dba2d777b91e9f318e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a9a69de56b00253dba2d777b91e9f318e">ogdf::quicksortTemplate</a> (LIST &amp;L, const COMPARER &amp;comp)</td></tr>
 <tr class="separator:a9a69de56b00253dba2d777b91e9f318e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a00ddb26fbc3524ee18c3eb9e9f9325"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER &gt; </td></tr>
+<tr class="memitem:a6a00ddb26fbc3524ee18c3eb9e9f9325"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a6a00ddb26fbc3524ee18c3eb9e9f9325">ogdf::safeForEach</a> (CONTAINER &amp;container, std::function&lt; void(typename CONTAINER::value_type)&gt; func)</td></tr>
+<tr class="memdesc:a6a00ddb26fbc3524ee18c3eb9e9f9325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls (possibly destructive) <code>func</code> for each element of <code>container</code>.  <a href="namespaceogdf.html#a6a00ddb26fbc3524ee18c3eb9e9f9325">More...</a><br /></td></tr>
+<tr class="separator:a6a00ddb26fbc3524ee18c3eb9e9f9325"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d45fcf9b5cc455f4e232418f7c501d3"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER &gt; </td></tr>
+<tr class="memitem:a1d45fcf9b5cc455f4e232418f7c501d3"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a1d45fcf9b5cc455f4e232418f7c501d3">ogdf::safeTestForEach</a> (CONTAINER &amp;container, std::function&lt; bool(typename CONTAINER::value_type)&gt; func)</td></tr>
+<tr class="memdesc:a1d45fcf9b5cc455f4e232418f7c501d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Like <a class="el" href="namespaceogdf.html#a6a00ddb26fbc3524ee18c3eb9e9f9325" title="Calls (possibly destructive) func for each element of container. ">ogdf::safeForEach()</a> but aborts if <code>func</code> returns <code>false</code>.  <a href="namespaceogdf.html#a1d45fcf9b5cc455f4e232418f7c501d3">More...</a><br /></td></tr>
+<tr class="separator:a1d45fcf9b5cc455f4e232418f7c501d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Implementation of algorithms as templates working with different list types. </p>

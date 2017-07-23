@@ -4,7 +4,7 @@ var group__gd_cluster =
       [ "ClusterOrthoLayout", "classogdf_1_1_cluster_ortho_layout.html#a66cb26b5a459af6027510ca6ce3c880a", null ],
       [ "align", "classogdf_1_1_cluster_ortho_layout.html#a05a80fe3f62c956a44e113a68a0db6c9", null ],
       [ "call", "classogdf_1_1_cluster_ortho_layout.html#a86372d650aa4b4e8ab2991b957add667", null ],
-      [ "call", "classogdf_1_1_cluster_ortho_layout.html#a18b8e51bf8107067d8f491340f7a882a", null ],
+      [ "call", "classogdf_1_1_cluster_ortho_layout.html#a6b0241948c92d8713128f6bdc00bf681", null ],
       [ "computeBoundingBox", "classogdf_1_1_cluster_ortho_layout.html#a5bfab2cdd635be5bf0d8a3b79472af0a", null ],
       [ "costAssoc", "classogdf_1_1_cluster_ortho_layout.html#a74a55bcc41c39d504275e7dcde00160d", null ],
       [ "costAssoc", "classogdf_1_1_cluster_ortho_layout.html#ac197c7683d05af510aa1699457904b11", null ],

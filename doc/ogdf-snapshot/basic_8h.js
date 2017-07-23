@@ -3,8 +3,7 @@ var basic_8h =
     [ "BucketFunc", "classogdf_1_1_bucket_func.html", "classogdf_1_1_bucket_func" ],
     [ "Initialization", "classogdf_1_1_initialization.html", "classogdf_1_1_initialization" ],
     [ "OGDF_ASSERT", "group__macros.html#gaba9188896165f0dc2e3ad0ab69fab97c", null ],
-    [ "OGDF_ASSERT_IF", "group__macros.html#gab6604de671117ba22fa29f81ca12bd94", null ],
-    [ "OGDF_SET_DEBUG_LEVEL", "group__macros.html#ga702bb462c4400c9f185596c59ceafee7", null ],
+    [ "OGDF_HEAVY_ASSERT", "group__macros.html#ga640a6d01cb763c1c6d8fba6314ecb1e6", null ],
     [ "Direction", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2b", [
       [ "before", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba2f44417567bc123bd7c60de8c2a2b444", null ],
       [ "after", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba632a2406bbcbcd553eec45ac14b40a0a", null ]

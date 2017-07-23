@@ -20,7 +20,7 @@ var classabacus_1_1_spar_vec =
     [ "rename", "classabacus_1_1_spar_vec.html#a9a5baf6f333bdcb7a0ab0996163db02c", null ],
     [ "size", "classabacus_1_1_spar_vec.html#a1e170b71c66a76bafd262a1029ea8243", null ],
     [ "support", "classabacus_1_1_spar_vec.html#a5a0190ba3049afcc753368aa4a52f97c", null ],
-    [ "operator<<", "classabacus_1_1_spar_vec.html#a5c3ddec03cdb82fc298bb701d8016df2", null ],
+    [ "operator<<", "classabacus_1_1_spar_vec.html#a94e208b2329c3f26ae6ddb4f798c1953", null ],
     [ "coeff_", "classabacus_1_1_spar_vec.html#aed27ca6127c6e85957c4ee393af911de", null ],
     [ "glob_", "classabacus_1_1_spar_vec.html#a047c9d752526e86d3534b78073a512d2", null ],
     [ "nnz_", "classabacus_1_1_spar_vec.html#a4ec77094abdd5e55bdf1c3d9c5c76e8f", null ],

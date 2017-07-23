@@ -8,18 +8,6 @@ var dir_ff8fbd6ebdadfbd3731f808956f187ce =
     [ "LocalBiconnectedMerger.h", "_local_biconnected_merger_8h.html", null ],
     [ "MatchingMerger.h", "_matching_merger_8h.html", null ],
     [ "MedianPlacer.h", "_median_placer_8h.html", null ],
-    [ "MixedForceLayout.h", "_mixed_force_layout_8h.html", [
-      [ "MixedForceLayout", "classogdf_1_1_mixed_force_layout.html", "classogdf_1_1_mixed_force_layout" ]
-    ] ],
-    [ "MMMExampleFastLayout.h", "_m_m_m_example_fast_layout_8h.html", [
-      [ "MMMExampleFastLayout", "classogdf_1_1_m_m_m_example_fast_layout.html", "classogdf_1_1_m_m_m_example_fast_layout" ]
-    ] ],
-    [ "MMMExampleNiceLayout.h", "_m_m_m_example_nice_layout_8h.html", [
-      [ "MMMExampleNiceLayout", "classogdf_1_1_m_m_m_example_nice_layout.html", "classogdf_1_1_m_m_m_example_nice_layout" ]
-    ] ],
-    [ "MMMExampleNoTwistLayout.h", "_m_m_m_example_no_twist_layout_8h.html", [
-      [ "MMMExampleNoTwistLayout", "classogdf_1_1_m_m_m_example_no_twist_layout.html", "classogdf_1_1_m_m_m_example_no_twist_layout" ]
-    ] ],
     [ "ModularMultilevelMixer.h", "_modular_multilevel_mixer_8h.html", null ],
     [ "MultilevelBuilder.h", "_multilevel_builder_8h.html", null ],
     [ "MultilevelGraph.h", "_multilevel_graph_8h.html", [

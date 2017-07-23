@@ -1,6 +1,6 @@
 var classogdf_1_1_xml_scanner =
 [
-    [ "XmlScanner", "classogdf_1_1_xml_scanner.html#ade974e6b7d69bd517d478bb532fc36a7", null ],
+    [ "XmlScanner", "classogdf_1_1_xml_scanner.html#a45c72b8839d60b3d850ce01edd5e2f6b", null ],
     [ "~XmlScanner", "classogdf_1_1_xml_scanner.html#a1da6525552d7ea5ae1b18cd9c3308f7c", null ],
     [ "getCurrentToken", "classogdf_1_1_xml_scanner.html#a79795c0d493b57d2645341f543b118c8", null ],
     [ "getInputFileLineCounter", "classogdf_1_1_xml_scanner.html#aec2435e3c3678da4ce74ee5bb13529ad", null ],

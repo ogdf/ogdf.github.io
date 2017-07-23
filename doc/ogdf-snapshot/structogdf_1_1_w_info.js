@@ -10,11 +10,11 @@ var structogdf_1_1_w_info =
     [ "externEEnd", "structogdf_1_1_w_info.html#a4fb55ded5b8d426c0dc91d71b40c2800", null ],
     [ "externEStart", "structogdf_1_1_w_info.html#a75d4423e5908354c201e832c712515a6", null ],
     [ "firstExternEAfterW", "structogdf_1_1_w_info.html#a49de079753cb9ab056a272e11d032340", null ],
-    [ "highestXYPath", "structogdf_1_1_w_info.html#a520171540627f42b42f9c87ba46aac99", null ],
+    [ "highestXYPath", "structogdf_1_1_w_info.html#a36f74ea0545aebf1880aff6d402529a5", null ],
     [ "minorType", "structogdf_1_1_w_info.html#a84d9a60bee20f9858be41ea29dccd039", null ],
     [ "pertinentPaths", "structogdf_1_1_w_info.html#a51b1e211eb55a943f33da69a8b65818f", null ],
     [ "pxAboveStopX", "structogdf_1_1_w_info.html#ad5c9f9db21fc76e22dac3cfba9d40b97", null ],
     [ "pyAboveStopY", "structogdf_1_1_w_info.html#a8ffde3575e875f408a4e709e2a090723", null ],
     [ "w", "structogdf_1_1_w_info.html#abcff4310adc26e960d555a61a0e7b756", null ],
-    [ "zPath", "structogdf_1_1_w_info.html#ad20df05a4d6757d43d69ba4912952de5", null ]
+    [ "zPath", "structogdf_1_1_w_info.html#a84b5afe4802b4f7d34b69459fef3d3fc", null ]
 ];

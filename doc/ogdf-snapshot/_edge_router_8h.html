@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: include/ogdf/orthogonal/EdgeRouter.h File Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -122,8 +120,7 @@ $(document).ready(function(){initNavTree('_edge_router_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">EdgeRouter.h File Reference</div>  </div>
 </div><!--header-->
@@ -153,27 +150,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceogdf"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html">ogdf</a></td></tr>
 <tr class="memdesc:namespaceogdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace for all OGDF objects. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a55bdc97d4f6e5c427a8c0e556ddbeca2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2">ogdf::BendType</a> { <a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2ac81e9c575acb32c2a66caaa7a0d52953">ogdf::BendType::BendFree</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2ac9ff5169b5139fc3b441ed8a7679cb95">ogdf::BendType::Bend1Left</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2a78d0e62d7568a2e71589be8d8c0ea3c1">ogdf::BendType::Bend1Right</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2a39dd9a32162f132c33615fdcda325748">ogdf::BendType::Bend2Left</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2aa06ea5c51e482191ca22136e9f0ca524">ogdf::BendType::Bend2Right</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2ab06faac619e6abfa40856fe98069d3c3">ogdf::BendType::ProbBf</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2a5662aad58c35d17448c8be8e6777d992">ogdf::BendType::ProbB1L</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2abf41193abe54b83a1adcb38859325a2f">ogdf::BendType::ProbB1R</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2a38c9f65c0a90677ee75829970cc39322">ogdf::BendType::ProbB2L</a>, 
-<a class="el" href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2a1fb193d503703e9af95b1dc0124fd5db">ogdf::BendType::ProbB2R</a>
- }<tr class="memdesc:a55bdc97d4f6e5c427a8c0e556ddbeca2"><td class="mdescLeft">&#160;</td><td class="mdescRight">edge types, defined by necessary bends  <a href="namespaceogdf.html#a55bdc97d4f6e5c427a8c0e556ddbeca2">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a55bdc97d4f6e5c427a8c0e556ddbeca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a215ed80398f7dd994fe423ef85c9f7f4"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a215ed80398f7dd994fe423ef85c9f7f4">ogdf::ProcessType</a> { <a class="el" href="namespaceogdf.html#a215ed80398f7dd994fe423ef85c9f7f4a6f5491678b5298f9d3db48bf46fb02bc">ogdf::ProcessType::unprocessed</a>, 
-<a class="el" href="namespaceogdf.html#a215ed80398f7dd994fe423ef85c9f7f4a9d090a4005926e9e2a32e05cbd8c2fc6">ogdf::ProcessType::processed</a>, 
-<a class="el" href="namespaceogdf.html#a215ed80398f7dd994fe423ef85c9f7f4a1aec9c5d0644e11fd9dd0f9fb36009fb">ogdf::ProcessType::used</a>
- }</td></tr>
-<tr class="separator:a215ed80398f7dd994fe423ef85c9f7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Declaration of EdgeRouter... </p>

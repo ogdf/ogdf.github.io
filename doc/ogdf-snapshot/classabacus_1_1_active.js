@@ -18,7 +18,7 @@ var classabacus_1_1_active =
     [ "redundantAge", "classabacus_1_1_active.html#a51a5340ee3901e14d3069bf3a8468558", null ],
     [ "remove", "classabacus_1_1_active.html#a7c56fd9c7f507ccca5e10d51816fc1f2", null ],
     [ "resetRedundantAge", "classabacus_1_1_active.html#a0812a5483d4c41d823474f1d4476e9b8", null ],
-    [ "operator<<", "classabacus_1_1_active.html#a71df24e67553218fadb2d1ff6d6a778e", null ],
+    [ "operator<<", "classabacus_1_1_active.html#a589dfc1dd774dc8cf053131635d3f2a3", null ],
     [ "active_", "classabacus_1_1_active.html#aaacf4d2751935a1b241e50969b3036f7", null ],
     [ "master_", "classabacus_1_1_active.html#a2cf8a526d9337fed87a8fa7fe630cd3a", null ],
     [ "n_", "classabacus_1_1_active.html#a2d29b9062873285f5eacfde4e42de8e6", null ],

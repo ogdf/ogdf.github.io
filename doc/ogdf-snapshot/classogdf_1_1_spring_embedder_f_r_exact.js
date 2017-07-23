@@ -6,7 +6,6 @@ var classogdf_1_1_spring_embedder_f_r_exact =
       [ "Logarithmic", "classogdf_1_1_spring_embedder_f_r_exact.html#a34d5b58aaf64ced878882cb0eafd5743a2f8e38ec1a5832670c5011a71603c929", null ]
     ] ],
     [ "SpringEmbedderFRExact", "classogdf_1_1_spring_embedder_f_r_exact.html#a177efe4ebccb1422b2c639090288d25c", null ],
-    [ "~SpringEmbedderFRExact", "classogdf_1_1_spring_embedder_f_r_exact.html#a6b4d4a50b6f1a37823c599a32694e7cc", null ],
     [ "call", "classogdf_1_1_spring_embedder_f_r_exact.html#a978e5a5f71d8433f3d9547e649a6edbc", null ],
     [ "checkConvergence", "classogdf_1_1_spring_embedder_f_r_exact.html#a95e54089a5f0548c44153279eba5135d", null ],
     [ "checkConvergence", "classogdf_1_1_spring_embedder_f_r_exact.html#adea264c446a0a2d5db4b701c93a9dbdb", null ],

@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::Block Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -152,10 +150,10 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ab24742e67fcaf3b83873f9769a56bc89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#ab24742e67fcaf3b83873f9769a56bc89">m_Edge</a></td></tr>
+<tr class="memitem:ab24742e67fcaf3b83873f9769a56bc89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#ab24742e67fcaf3b83873f9769a56bc89">m_Edge</a> = nullptr</td></tr>
 <tr class="memdesc:ab24742e67fcaf3b83873f9769a56bc89"><td class="mdescLeft">&#160;</td><td class="mdescRight">The edge for which this block was created.  <a href="#ab24742e67fcaf3b83873f9769a56bc89">More...</a><br /></td></tr>
 <tr class="separator:ab24742e67fcaf3b83873f9769a56bc89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d77eea41dc39c2da6fcfe8cd74f8f57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#a1d77eea41dc39c2da6fcfe8cd74f8f57">m_index</a></td></tr>
+<tr class="memitem:a1d77eea41dc39c2da6fcfe8cd74f8f57"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#a1d77eea41dc39c2da6fcfe8cd74f8f57">m_index</a> = 0</td></tr>
 <tr class="memdesc:a1d77eea41dc39c2da6fcfe8cd74f8f57"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index of this block in <a class="el" href="classogdf_1_1_block_order.html" title="Hierarchical graph representation used by GlobalSifting and GridSifting algorithms. ">BlockOrder</a>.  <a href="#a1d77eea41dc39c2da6fcfe8cd74f8f57">More...</a><br /></td></tr>
 <tr class="separator:a1d77eea41dc39c2da6fcfe8cd74f8f57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af7e20f5bf04ae5e5f46561f211d06559"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#af7e20f5bf04ae5e5f46561f211d06559">m_InvertedIncoming</a></td></tr>
@@ -168,7 +166,7 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a8eb42325155e031f02de81d3229c31db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7873c92d438a2a049be2010244f443d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#aa7873c92d438a2a049be2010244f443d">m_isNodeBlock</a></td></tr>
 <tr class="separator:aa7873c92d438a2a049be2010244f443d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e01141f3f81cb345ddeaddc1ddb904a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#a3e01141f3f81cb345ddeaddc1ddb904a">m_lower</a></td></tr>
+<tr class="memitem:a3e01141f3f81cb345ddeaddc1ddb904a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#a3e01141f3f81cb345ddeaddc1ddb904a">m_lower</a> = 0</td></tr>
 <tr class="memdesc:a3e01141f3f81cb345ddeaddc1ddb904a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The bottom level of this block.  <a href="#a3e01141f3f81cb345ddeaddc1ddb904a">More...</a><br /></td></tr>
 <tr class="separator:a3e01141f3f81cb345ddeaddc1ddb904a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af245e821343fbeefb6eb0dccaede536e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#af245e821343fbeefb6eb0dccaede536e">m_NeighboursIncoming</a></td></tr>
@@ -177,13 +175,13 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a4d8c0cca7d603381f64c72542df5352b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html">Array</a>&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#a4d8c0cca7d603381f64c72542df5352b">m_NeighboursOutgoing</a></td></tr>
 <tr class="memdesc:a4d8c0cca7d603381f64c72542df5352b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indices of neighbouring outgoing blocks.  <a href="#a4d8c0cca7d603381f64c72542df5352b">More...</a><br /></td></tr>
 <tr class="separator:a4d8c0cca7d603381f64c72542df5352b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc451261eba90acfe991bef637ca76f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#abc451261eba90acfe991bef637ca76f2">m_Node</a></td></tr>
+<tr class="memitem:abc451261eba90acfe991bef637ca76f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#abc451261eba90acfe991bef637ca76f2">m_Node</a> = nullptr</td></tr>
 <tr class="memdesc:abc451261eba90acfe991bef637ca76f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The node for which this block was created.  <a href="#abc451261eba90acfe991bef637ca76f2">More...</a><br /></td></tr>
 <tr class="separator:abc451261eba90acfe991bef637ca76f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a260e7365f2f21c152ec95071e75f85ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#a260e7365f2f21c152ec95071e75f85ef">m_nodes</a></td></tr>
 <tr class="memdesc:a260e7365f2f21c152ec95071e75f85ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vertices from the proper hierarchy corresponding to this block.  <a href="#a260e7365f2f21c152ec95071e75f85ef">More...</a><br /></td></tr>
 <tr class="separator:a260e7365f2f21c152ec95071e75f85ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5fe7be7fe39fff8179be41cfdf0a4302"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#a5fe7be7fe39fff8179be41cfdf0a4302">m_upper</a></td></tr>
+<tr class="memitem:a5fe7be7fe39fff8179be41cfdf0a4302"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_block.html#a5fe7be7fe39fff8179be41cfdf0a4302">m_upper</a> = 0</td></tr>
 <tr class="memdesc:a5fe7be7fe39fff8179be41cfdf0a4302"><td class="mdescLeft">&#160;</td><td class="mdescRight">The top level of this block.  <a href="#a5fe7be7fe39fff8179be41cfdf0a4302">More...</a><br /></td></tr>
 <tr class="separator:a5fe7be7fe39fff8179be41cfdf0a4302"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -372,7 +370,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> ogdf::Block::m_Edge</td>
+          <td class="memname"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> ogdf::Block::m_Edge = nullptr</td>
         </tr>
       </table>
   </td>
@@ -398,7 +396,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::Block::m_index</td>
+          <td class="memname">int ogdf::Block::m_index = 0</td>
         </tr>
       </table>
   </td>
@@ -524,7 +522,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::Block::m_lower</td>
+          <td class="memname">int ogdf::Block::m_lower = 0</td>
         </tr>
       </table>
   </td>
@@ -602,7 +600,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> ogdf::Block::m_Node</td>
+          <td class="memname"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> ogdf::Block::m_Node = nullptr</td>
         </tr>
       </table>
   </td>
@@ -654,7 +652,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::Block::m_upper</td>
+          <td class="memname">int ogdf::Block::m_upper = 0</td>
         </tr>
       </table>
   </td>

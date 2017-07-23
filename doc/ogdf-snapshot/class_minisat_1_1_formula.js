@@ -10,7 +10,7 @@ var class_minisat_1_1_formula =
     [ "getClause", "class_minisat_1_1_formula.html#a37d6128cf2660192aa5eaa33b54f1bdd", null ],
     [ "getClauseCount", "class_minisat_1_1_formula.html#a641e0ca6ceb65c7d4aed1ba13f575306", null ],
     [ "getProblemClauseCount", "class_minisat_1_1_formula.html#a63d4699dfb2e406d58aa794fa29d6a86", null ],
-    [ "getVarFromLit", "class_minisat_1_1_formula.html#ad09e023b1109b3304da86a5398edcaa8", null ],
+    [ "getVarFromLit", "class_minisat_1_1_formula.html#ae2403378520f6d8ff0fc07ccd8296407", null ],
     [ "getVariableCount", "class_minisat_1_1_formula.html#ae22d2ccdeb8601047d8ffe88afd7b117", null ],
     [ "newClause", "class_minisat_1_1_formula.html#af1a88916f9c0118f02ea8b171a3fa5a3", null ],
     [ "newVar", "class_minisat_1_1_formula.html#a3f97dd19d2dd81e45054b0b4ef8b60b5", null ],

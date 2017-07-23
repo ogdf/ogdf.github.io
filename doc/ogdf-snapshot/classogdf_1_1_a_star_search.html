@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::AStarSearch&lt; T &gt; Class Template Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -157,7 +155,7 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a521c649b3e21dce6c99f57ccea9bd3d2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a521c649b3e21dce6c99f57ccea9bd3d2">m_cost</a></td></tr>
+<tr class="memitem:a521c649b3e21dce6c99f57ccea9bd3d2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a521c649b3e21dce6c99f57ccea9bd3d2">m_cost</a> = nullptr</td></tr>
 <tr class="separator:a521c649b3e21dce6c99f57ccea9bd3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0c0cb95b29218b2a72bc754b900ada0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#ab0c0cb95b29218b2a72bc754b900ada0">m_directed</a></td></tr>
 <tr class="separator:ab0c0cb95b29218b2a72bc754b900ada0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,9 +169,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ae44646bb9d2935b9c4befe9c5ea180d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af9596abb96c1019b78b71ceeb3f8485e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#af9596abb96c1019b78b71ceeb3f8485e">m_maxGap</a></td></tr>
 <tr class="separator:af9596abb96c1019b78b71ceeb3f8485e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47689338b4de5e5dfca9a780f25dfc81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a47689338b4de5e5dfca9a780f25dfc81">m_predecessor</a></td></tr>
+<tr class="memitem:a47689338b4de5e5dfca9a780f25dfc81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a47689338b4de5e5dfca9a780f25dfc81">m_predecessor</a> = nullptr</td></tr>
 <tr class="separator:a47689338b4de5e5dfca9a780f25dfc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38e17b6b5a6644ee2dfb6403ab01bc65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_a_star_search.html#a140d3bad3e21f835b8d5ca9c9eca78fd">NodeQueue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a38e17b6b5a6644ee2dfb6403ab01bc65">m_queue</a></td></tr>
+<tr class="memitem:a38e17b6b5a6644ee2dfb6403ab01bc65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_a_star_search.html#a140d3bad3e21f835b8d5ca9c9eca78fd">NodeQueue</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html#a38e17b6b5a6644ee2dfb6403ab01bc65">m_queue</a> = nullptr</td></tr>
 <tr class="separator:a38e17b6b5a6644ee2dfb6403ab01bc65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -181,7 +179,7 @@ Private Attributes</h2></td></tr>
 class ogdf::AStarSearch&lt; T &gt;</h3>
 
 <p>A-Star informed search algorithm. </p>
-<p>The algorithm is a generalization the the shortest path algorithm by <a class="el" href="classogdf_1_1_dijkstra.html" title="Dijkstra&#39;s single source shortest path algorithm. ">Dijkstra</a>. It was first described in "A Formal Basis for the Heuristic Determination of Minimum Cost Paths" by Hart, Nilsson and Raphael in 1968.</p>
+<p>The algorithm is a generalization the the shortest path algorithm by Dijkstra. It was first described in "A Formal Basis for the Heuristic Determination of Minimum Cost Paths" by Hart, Nilsson and Raphael in 1968.</p>
 <p>The algorithm yields an optimal solution to the single pair shortest pair problem. A heuristic for calculating a lower bound on the distance from any node to the target is optional. The algorithm can also be used to compute approximate solutions at a faster pace.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
@@ -350,7 +348,7 @@ template&lt;typename T&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The total length of the found path </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_a_star_search_8h_source.html#l00096">96</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_star_search_8h_source.html#l00099">99</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
@@ -380,7 +378,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_a_star_search_8h_source.html#l00169">169</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_a_star_search_8h_source.html#l00172">172</a> of file <a class="el" href="_a_star_search_8h_source.html">AStarSearch.h</a>.</p>
 
 </div>
 </div>
@@ -397,7 +395,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;T&gt;* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_cost</td>
+          <td class="memname">const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt;T&gt;* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_cost = nullptr</td>
         </tr>
       </table>
   </td>
@@ -579,7 +577,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&gt;* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_predecessor</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&gt;* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_predecessor = nullptr</td>
         </tr>
       </table>
   </td>
@@ -605,7 +603,7 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_a_star_search.html#a140d3bad3e21f835b8d5ca9c9eca78fd">NodeQueue</a>* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_queue</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_a_star_search.html#a140d3bad3e21f835b8d5ca9c9eca78fd">NodeQueue</a>* <a class="el" href="classogdf_1_1_a_star_search.html">ogdf::AStarSearch</a>&lt; T &gt;::m_queue = nullptr</td>
         </tr>
       </table>
   </td>

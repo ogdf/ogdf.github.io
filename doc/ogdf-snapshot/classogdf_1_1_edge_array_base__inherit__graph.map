@@ -12,39 +12,38 @@
 <area shape="rect" id="node12" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; Graph\l::EdgeType \&gt;" alt="" coords="241,543,404,585"/>
 <area shape="rect" id="node13" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; int \&gt;" alt="" coords="245,609,400,636"/>
 <area shape="rect" id="node14" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::AdjElement \&gt;" alt="" coords="246,661,399,702"/>
-<area shape="rect" id="node15" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::Block *\&gt;" alt="" coords="246,726,399,767"/>
-<area shape="rect" id="node16" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::booth_lueker::PlanarLeafKey \&gt;" alt="" coords="218,791,427,833"/>
-<area shape="rect" id="node17" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ClusterElement \&gt;" alt="" coords="246,857,399,898"/>
-<area shape="rect" id="node18" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::DPolyline \&gt;" alt="" coords="246,922,399,963"/>
-<area shape="rect" id="node19" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::EdgeArray\&lt; ogdf::EdgeElement \&gt; *\&gt;" alt="" coords="201,987,444,1029"/>
-<area shape="rect" id="node20" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::EdgeElement \&gt;" alt="" coords="246,1053,399,1094"/>
-<area shape="rect" id="node21" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::EdgeLabel\&lt; coordType \&gt; \&gt;" alt="" coords="229,1118,417,1159"/>
-<area shape="rect" id="node22" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::embedder::MDMFLengthAttribute \&gt;" alt="" coords="205,1183,440,1225"/>
-<area shape="rect" id="node23" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::FaceElement \&gt;" alt="" coords="246,1249,399,1290"/>
-<area shape="rect" id="node24" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::fast_multipole_embedder\l::GalaxyMultilevel::LevelEdgeInfo \&gt;" alt="" coords="208,1315,437,1371"/>
-<area shape="rect" id="node25" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::Graph *\&gt;" alt="" coords="246,1395,399,1437"/>
-<area shape="rect" id="node26" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::HyperedgeElement \&gt;" alt="" coords="246,1461,399,1502"/>
-<area shape="rect" id="node27" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::IPolyline \&gt;" alt="" coords="246,1526,399,1567"/>
-<area shape="rect" id="node28" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::List\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="223,1591,422,1633"/>
-<area shape="rect" id="node29" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::List\&lt; ogdf::IPoint \&gt; \&gt;" alt="" coords="245,1657,400,1698"/>
-<area shape="rect" id="node30" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::List\&lt; ogdf::NonPlanarCore\l::CutEdge \&gt; \&gt;" alt="" coords="230,1723,415,1779"/>
-<area shape="rect" id="node31" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::List\&lt; ogdf::topology\l_module::EdgeLeg *\&gt; \&gt;" alt="" coords="243,1803,402,1859"/>
-<area shape="rect" id="node32" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ListIteratorBase\&lt; int \&gt; \&gt;" alt="" coords="237,1883,409,1925"/>
-<area shape="rect" id="node33" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ListIteratorBase\&lt; ogdf\l::EdgeElement \&gt; \&gt;" alt="" coords="243,1949,402,2005"/>
-<area shape="rect" id="node34" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ListPure\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="210,2030,435,2071"/>
-<area shape="rect" id="node35" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::MinSteinerTreeDirectedCut\l::EdgeVariable *\&gt;" alt="" coords="229,2096,417,2152"/>
-<area shape="rect" id="node36" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::NodeArray\&lt; ogdf::NodeElement \&gt; *\&gt;" alt="" coords="200,2177,445,2218"/>
-<area shape="rect" id="node37" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::NodeElement \&gt;" alt="" coords="246,2242,399,2283"/>
-<area shape="rect" id="node38" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::PlanRepExpansion::NodeSplit *\&gt;" alt="" coords="211,2307,434,2349"/>
-<area shape="rect" id="node39" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::SListPure\&lt; int \&gt; \&gt;" alt="" coords="246,2373,399,2414"/>
-<area shape="rect" id="node40" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::Stack\&lt; ogdf::EdgeElement \&gt; *\&gt;" alt="" coords="215,2438,431,2479"/>
-<area shape="rect" id="node41" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::StaticSkeleton *\&gt;" alt="" coords="246,2503,399,2545"/>
-<area shape="rect" id="node42" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::Stroke \&gt;" alt="" coords="246,2569,399,2610"/>
-<area shape="rect" id="node43" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::UMLGraph::AssociationClass *\&gt;" alt="" coords="213,2634,433,2675"/>
-<area shape="rect" id="node44" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::VisibilityLayout::EdgeSegment \&gt;" alt="" coords="213,2699,433,2741"/>
-<area shape="rect" id="node45" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; Prioritized\lQueue\&lt; edge, P, C, Impl\l \&gt;::Handle \&gt;" alt="" coords="229,2765,416,2821"/>
-<area shape="rect" id="node46" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; string \&gt;" alt="" coords="237,2845,409,2872"/>
-<area shape="rect" id="node47" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; TCap \&gt;" alt="" coords="237,2896,409,2923"/>
-<area shape="rect" id="node48" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; TCost \&gt;" alt="" coords="235,2947,411,2973"/>
-<area shape="rect" id="node49" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; uint32_t \&gt;" alt="" coords="229,2997,416,3024"/>
+<area shape="rect" id="node15" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ArrayBuffer\&lt; ogdf::\lEdgeElement \&gt; *\&gt;" alt="" coords="246,727,399,783"/>
+<area shape="rect" id="node16" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::Block *\&gt;" alt="" coords="246,807,399,849"/>
+<area shape="rect" id="node17" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::booth_lueker::PlanarLeafKey \&gt;" alt="" coords="218,873,427,914"/>
+<area shape="rect" id="node18" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ClusterElement \&gt;" alt="" coords="246,938,399,979"/>
+<area shape="rect" id="node19" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::EdgeArray\&lt; ogdf::EdgeElement \&gt; *\&gt;" alt="" coords="201,1003,444,1045"/>
+<area shape="rect" id="node20" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::EdgeElement \&gt;" alt="" coords="246,1069,399,1110"/>
+<area shape="rect" id="node21" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::EdgeLabel\&lt; coordType \&gt; \&gt;" alt="" coords="229,1134,417,1175"/>
+<area shape="rect" id="node22" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::embedder::MDMFLengthAttribute \&gt;" alt="" coords="205,1199,440,1241"/>
+<area shape="rect" id="node23" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::fast_multipole_embedder\l::GalaxyMultilevel::LevelEdgeInfo \&gt;" alt="" coords="208,1265,437,1321"/>
+<area shape="rect" id="node24" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::GenericPolyline \&gt;" alt="" coords="246,1346,399,1387"/>
+<area shape="rect" id="node25" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::Graph *\&gt;" alt="" coords="246,1411,399,1453"/>
+<area shape="rect" id="node26" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::HyperedgeElement \&gt;" alt="" coords="246,1477,399,1518"/>
+<area shape="rect" id="node27" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::List\&lt; GenericPoint\l\&lt; int \&gt; \&gt; \&gt;" alt="" coords="246,1543,399,1599"/>
+<area shape="rect" id="node28" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::List\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="223,1623,422,1665"/>
+<area shape="rect" id="node29" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::List\&lt; ogdf::NonPlanarCore\l::CutEdge \&gt; \&gt;" alt="" coords="230,1689,415,1745"/>
+<area shape="rect" id="node30" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::List\&lt; ogdf::topology\l_module::EdgeLeg *\&gt; \&gt;" alt="" coords="243,1769,402,1825"/>
+<area shape="rect" id="node31" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ListIteratorBase\&lt; int \&gt; \&gt;" alt="" coords="237,1850,409,1891"/>
+<area shape="rect" id="node32" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ListIteratorBase\&lt; ogdf\l::EdgeElement \&gt; \&gt;" alt="" coords="243,1916,402,1972"/>
+<area shape="rect" id="node33" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::ListPure\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="210,1997,435,2038"/>
+<area shape="rect" id="node34" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::MinSteinerTreeDirectedCut\l::EdgeVariable *\&gt;" alt="" coords="229,2063,417,2119"/>
+<area shape="rect" id="node35" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::NodeArray\&lt; ogdf::NodeElement \&gt; *\&gt;" alt="" coords="200,2143,445,2185"/>
+<area shape="rect" id="node36" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::NodeElement \&gt;" alt="" coords="246,2209,399,2250"/>
+<area shape="rect" id="node37" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::PlanRepExpansion::NodeSplit *\&gt;" alt="" coords="211,2274,434,2315"/>
+<area shape="rect" id="node38" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::SListPure\&lt; int \&gt; \&gt;" alt="" coords="246,2339,399,2381"/>
+<area shape="rect" id="node39" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::StaticSkeleton *\&gt;" alt="" coords="246,2405,399,2446"/>
+<area shape="rect" id="node40" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::Stroke \&gt;" alt="" coords="246,2470,399,2511"/>
+<area shape="rect" id="node41" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::UMLGraph::AssociationClass *\&gt;" alt="" coords="213,2535,433,2577"/>
+<area shape="rect" id="node42" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; ogdf\l::VisibilityLayout::EdgeSegment \&gt;" alt="" coords="213,2601,433,2642"/>
+<area shape="rect" id="node43" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; Prioritized\lQueue\&lt; edge, P, C, Impl\l \&gt;::Handle \&gt;" alt="" coords="229,2667,416,2723"/>
+<area shape="rect" id="node44" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; string \&gt;" alt="" coords="237,2747,409,2773"/>
+<area shape="rect" id="node45" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; TCap \&gt;" alt="" coords="237,2797,409,2824"/>
+<area shape="rect" id="node46" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; TCost \&gt;" alt="" coords="235,2848,411,2875"/>
+<area shape="rect" id="node47" href="$classogdf_1_1_edge_array.html" title="ogdf::EdgeArray\&lt; uint32_t \&gt;" alt="" coords="229,2899,416,2925"/>
+<area shape="rect" id="node48" href="$classogdf_1_1_edge_array.html" title="Dynamic arrays indexed with edges. " alt="" coords="249,2949,397,2976"/>
 </map>

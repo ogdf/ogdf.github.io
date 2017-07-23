@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::SpringEmbedderFRExact Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -132,6 +130,9 @@ $(document).ready(function(){initNavTree('classogdf_1_1_spring_embedder_f_r_exac
 </div><!--header-->
 <div class="contents">
 
+<p>Fruchterman-Reingold algorithm with (exact) layout.  
+ <a href="classogdf_1_1_spring_embedder_f_r_exact.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="_spring_embedder_f_r_exact_8h_source.html">ogdf/energybased/SpringEmbedderFRExact.h</a>&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ogdf::SpringEmbedderFRExact:</div>
@@ -162,8 +163,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a177efe4ebccb1422b2c639090288d25c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_f_r_exact.html#a177efe4ebccb1422b2c639090288d25c">SpringEmbedderFRExact</a> ()</td></tr>
 <tr class="memdesc:a177efe4ebccb1422b2c639090288d25c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of Fruchterman/Reingold (exact) layout.  <a href="#a177efe4ebccb1422b2c639090288d25c">More...</a><br /></td></tr>
 <tr class="separator:a177efe4ebccb1422b2c639090288d25c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b4d4a50b6f1a37823c599a32694e7cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_f_r_exact.html#a6b4d4a50b6f1a37823c599a32694e7cc">~SpringEmbedderFRExact</a> ()</td></tr>
-<tr class="separator:a6b4d4a50b6f1a37823c599a32694e7cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a978e5a5f71d8433f3d9547e649a6edbc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_f_r_exact.html#a978e5a5f71d8433f3d9547e649a6edbc">call</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA) override</td></tr>
 <tr class="memdesc:a978e5a5f71d8433f3d9547e649a6edbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the layout algorithm for graph attributes <code>GA</code>.  <a href="#a978e5a5f71d8433f3d9547e649a6edbc">More...</a><br /></td></tr>
 <tr class="separator:a978e5a5f71d8433f3d9547e649a6edbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,7 +281,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a0f4a1a3546a4d1a4bba4414bfa0a2359"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
+<div class="textblock"><p>Fruchterman-Reingold algorithm with (exact) layout. </p>
+
 <p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00041">41</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 </div><h2 class="groupheader">Member Enumeration Documentation</h2>
 <a id="a34d5b58aaf64ced878882cb0eafd5743"></a>
@@ -330,33 +330,6 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Creates an instance of Fruchterman/Reingold (exact) layout. </p>
-
-</div>
-</div>
-<a id="a6b4d4a50b6f1a37823c599a32694e7cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b4d4a50b6f1a37823c599a32694e7cc">&#9670;&nbsp;</a></span>~SpringEmbedderFRExact()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ogdf::SpringEmbedderFRExact::~SpringEmbedderFRExact </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00050">50</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -415,7 +388,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00110">110</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00105">105</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -442,7 +415,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00111">111</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00106">106</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -470,7 +443,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00112">112</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00107">107</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -541,7 +514,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the current setting for the cooling function. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00083">83</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00078">78</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -571,7 +544,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the parameter coolingFunction to <code>f</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00088">88</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00083">83</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -600,7 +573,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the ideal edge length. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00093">93</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00088">88</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -630,7 +603,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the ideal edge length to <code>len</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00096">96</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00091">91</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -685,7 +658,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the current setting of iterations. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00058">58</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00053">53</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -715,7 +688,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the number of iterations to <code>i</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00063">63</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00058">58</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -743,7 +716,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00148">148</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00143">143</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -824,7 +797,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the minimum distance between connected components. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00099">99</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00094">94</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -854,7 +827,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the minimum distance between connected components to <code>x</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00102">102</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00097">97</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -882,7 +855,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00149">149</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00144">144</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -912,7 +885,7 @@ Private Attributes</h2></td></tr>
 
 <p>Switches use of node weights given in GraphAttributtes. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00079">79</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00074">74</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -941,7 +914,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the current setting of nodes. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00069">69</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00064">64</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -971,7 +944,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the parameter noise to <code>on</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00074">74</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00069">69</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1000,7 +973,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the page ratio. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00105">105</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00100">100</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1030,7 +1003,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the page ration to <code>x</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00108">108</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00103">103</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1055,7 +1028,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00198">198</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00193">193</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1079,7 +1052,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00199">199</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00194">194</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1103,7 +1076,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00184">184</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00179">179</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1127,7 +1100,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00185">185</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00180">180</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1153,7 +1126,7 @@ Private Attributes</h2></td></tr>
 
 <p>The selected cooling function. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00177">177</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00172">172</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1179,7 +1152,7 @@ Private Attributes</h2></td></tr>
 
 <p>The ideal edge length. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00187">187</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00182">182</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1205,7 +1178,7 @@ Private Attributes</h2></td></tr>
 
 <p>The number of iterations. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00175">175</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00170">170</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1231,7 +1204,7 @@ Private Attributes</h2></td></tr>
 
 <p>The minimal distance between connected components. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00188">188</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00183">183</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1257,7 +1230,7 @@ Private Attributes</h2></td></tr>
 
 <p>Perform random perturbations? </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00176">176</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00171">171</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1283,7 +1256,7 @@ Private Attributes</h2></td></tr>
 
 <p>The page ratio. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00189">189</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00184">184</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1307,7 +1280,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00194">194</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00189">189</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1331,7 +1304,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00195">195</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00190">190</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>
@@ -1355,7 +1328,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00197">197</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_f_r_exact_8h_source.html#l00192">192</a> of file <a class="el" href="_spring_embedder_f_r_exact_8h_source.html">SpringEmbedderFRExact.h</a>.</p>
 
 </div>
 </div>

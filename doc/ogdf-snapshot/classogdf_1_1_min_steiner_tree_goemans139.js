@@ -1,6 +1,6 @@
 var classogdf_1_1_min_steiner_tree_goemans139 =
 [
-    [ "UFCR", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html", "classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r" ],
+    [ "Main", "classogdf_1_1_min_steiner_tree_goemans139_1_1_main.html", "classogdf_1_1_min_steiner_tree_goemans139_1_1_main" ],
     [ "MinSteinerTreeGoemans139", "classogdf_1_1_min_steiner_tree_goemans139.html#a8c031d0ba116009ab90bb612bb269a35", null ],
     [ "~MinSteinerTreeGoemans139", "classogdf_1_1_min_steiner_tree_goemans139.html#a1c4fb0f491f2ffc9798f46ff2115d039", null ],
     [ "computeSteinerTree", "classogdf_1_1_min_steiner_tree_goemans139.html#a9d382f210db1059186f57e626a08fbc3", null ],

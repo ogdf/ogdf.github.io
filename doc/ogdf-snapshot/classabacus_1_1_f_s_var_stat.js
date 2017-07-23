@@ -24,7 +24,7 @@ var classabacus_1_1_f_s_var_stat =
     [ "status", "classabacus_1_1_f_s_var_stat.html#a92ec86a29f07c350b8b26bc11c1793ce", null ],
     [ "value", "classabacus_1_1_f_s_var_stat.html#aebfdfb812effbc2b21c54ac00610e86f", null ],
     [ "value", "classabacus_1_1_f_s_var_stat.html#a944d7953af52b42640c20c7665221208", null ],
-    [ "operator<<", "classabacus_1_1_f_s_var_stat.html#a38b54cc755f9a3a8d9376fc65cfbd4e6", null ],
+    [ "operator<<", "classabacus_1_1_f_s_var_stat.html#a283404559fb473803936587a2b8dceb2", null ],
     [ "glob_", "classabacus_1_1_f_s_var_stat.html#a9db9aa696fe9cef853c06a156c143701", null ],
     [ "status_", "classabacus_1_1_f_s_var_stat.html#af73b9229357b03919173d965f5a90597", null ],
     [ "value_", "classabacus_1_1_f_s_var_stat.html#a9daa628d769cb42a804747e717c9e093", null ]

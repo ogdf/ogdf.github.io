@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['ufcr',['UFCR',['../classogdf_1_1_min_steiner_tree_goemans139_1_1_u_f_c_r.html',1,'ogdf::MinSteinerTreeGoemans139']]],
   ['umlcrossingminimizationmodule',['UMLCrossingMinimizationModule',['../classogdf_1_1_u_m_l_crossing_minimization_module.html',1,'ogdf']]],
   ['umldiagramgraph',['UmlDiagramGraph',['../classogdf_1_1_uml_diagram_graph.html',1,'ogdf']]],
   ['umledgeinsertionmodule',['UMLEdgeInsertionModule',['../classogdf_1_1_u_m_l_edge_insertion_module.html',1,'ogdf']]],

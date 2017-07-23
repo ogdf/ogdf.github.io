@@ -21,7 +21,7 @@ var classogdf_1_1_bend_string =
     [ "set", "classogdf_1_1_bend_string.html#a9c5cfb9179d44ef5250fd31b90c16e43", null ],
     [ "size", "classogdf_1_1_bend_string.html#afad9ca4a4c996bb5f537d4de9ef69ada", null ],
     [ "toString", "classogdf_1_1_bend_string.html#a874e23a29c786a05f1e6a309fad58a2c", null ],
-    [ "operator<<", "classogdf_1_1_bend_string.html#a240178b11a124cf3be7693c16cae815f", null ],
+    [ "operator<<", "classogdf_1_1_bend_string.html#af56c80afa6c160137e7e23eb8b1ebde7", null ],
     [ "m_len", "classogdf_1_1_bend_string.html#a4cb738f1cfa2ff118b787e1c570fa745", null ],
     [ "m_pBend", "classogdf_1_1_bend_string.html#ac41f888139ebeb174462924fc776f34e", null ]
 ];

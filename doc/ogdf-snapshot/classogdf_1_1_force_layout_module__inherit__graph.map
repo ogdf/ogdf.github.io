@@ -1,4 +1,4 @@
 <map id="ogdf::ForceLayoutModule" name="ogdf::ForceLayoutModule">
-<area shape="rect" id="node3" href="$classogdf_1_1_spring_embedder_f_r_exact.html" title="ogdf::SpringEmbedderFRExact" alt="" coords="5,155,208,181"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_spring_embedder_f_r_exact.html" title="Fruchterman&#45;Reingold algorithm with (exact) layout. " alt="" coords="5,155,208,181"/>
 <area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms. " alt="" coords="39,5,175,32"/>
 </map>

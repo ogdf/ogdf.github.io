@@ -1,6 +1,5 @@
 var classogdf_1_1_embedder_max_face_biconnected_graphs =
 [
-    [ "EmbedderMaxFaceBiconnectedGraphs", "classogdf_1_1_embedder_max_face_biconnected_graphs.html#abd9ed1c73ad5099ebee3f4e9251a0891", null ],
     [ "adjEntryForNode", "classogdf_1_1_embedder_max_face_biconnected_graphs.html#af1012faf8a353c4b480bc444d1993243", null ],
     [ "bottomUpTraversal", "classogdf_1_1_embedder_max_face_biconnected_graphs.html#a8544e5ed97e2ba3b3db5fb6cdbad5b96", null ],
     [ "compute", "classogdf_1_1_embedder_max_face_biconnected_graphs.html#aa161e7687a81c41229a886316cc12f24", null ],

@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: Connectivity in Graphs and Digraphs</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -148,11 +146,11 @@ Methods for connectivity</h2></td></tr>
 <tr class="memitem:ga1957f900d61dfd83c7e7caf651008233"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#ga1957f900d61dfd83c7e7caf651008233">ogdf::makeConnected</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:ga1957f900d61dfd83c7e7caf651008233"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes <code>G</code> connected by adding a minimum number of edges.  <a href="group__ga-connectivity.html#ga1957f900d61dfd83c7e7caf651008233">More...</a><br /></td></tr>
 <tr class="separator:ga1957f900d61dfd83c7e7caf651008233"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0504711e547b0febf00a261ce27ae5f1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#ga0504711e547b0febf00a261ce27ae5f1">ogdf::connectedComponents</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;component)</td></tr>
-<tr class="memdesc:ga0504711e547b0febf00a261ce27ae5f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the connected components of <code>G</code>.  <a href="group__ga-connectivity.html#ga0504711e547b0febf00a261ce27ae5f1">More...</a><br /></td></tr>
-<tr class="separator:ga0504711e547b0febf00a261ce27ae5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaab12b5e959d3e624ea032c5d80b2055a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#gaab12b5e959d3e624ea032c5d80b2055a">ogdf::connectedComponents</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;component, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; *isolated=nullptr)</td></tr>
+<tr class="memdesc:gaab12b5e959d3e624ea032c5d80b2055a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the connected components of <code>G</code> and optionally generates a list of isolated nodes.  <a href="group__ga-connectivity.html#gaab12b5e959d3e624ea032c5d80b2055a">More...</a><br /></td></tr>
+<tr class="separator:gaab12b5e959d3e624ea032c5d80b2055a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac63c344ed6d409cea63bdf7e1043bc1e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#gac63c344ed6d409cea63bdf7e1043bc1e">ogdf::connectedIsolatedComponents</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;isolated, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;component)</td></tr>
-<tr class="memdesc:gac63c344ed6d409cea63bdf7e1043bc1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the connected components of <code>G</code> and returns the list of isolated nodes.  <a href="group__ga-connectivity.html#gac63c344ed6d409cea63bdf7e1043bc1e">More...</a><br /></td></tr>
+<tr class="memdesc:gac63c344ed6d409cea63bdf7e1043bc1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the connected components of <code>G</code> and optionally generates a list of isolated nodes.  <a href="group__ga-connectivity.html#gac63c344ed6d409cea63bdf7e1043bc1e">More...</a><br /></td></tr>
 <tr class="separator:gac63c344ed6d409cea63bdf7e1043bc1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga17796203f9633f8ccb1055fd07f17d3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#ga17796203f9633f8ccb1055fd07f17d3f">ogdf::isBiconnected</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;cutVertex)</td></tr>
 <tr class="memdesc:ga17796203f9633f8ccb1055fd07f17d3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> is biconnected.  <a href="group__ga-connectivity.html#ga17796203f9633f8ccb1055fd07f17d3f">More...</a><br /></td></tr>
@@ -172,6 +170,9 @@ Methods for connectivity</h2></td></tr>
 <tr class="memitem:gaaf2c637d8c661da9bd055c341755f782"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#gaaf2c637d8c661da9bd055c341755f782">ogdf::biconnectedComponents</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;component)</td></tr>
 <tr class="memdesc:gaaf2c637d8c661da9bd055c341755f782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the biconnected components of <code>G</code>.  <a href="group__ga-connectivity.html#gaaf2c637d8c661da9bd055c341755f782">More...</a><br /></td></tr>
 <tr class="separator:gaaf2c637d8c661da9bd055c341755f782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6da739d3fafe634d86b321bdc12f1f58"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#ga6da739d3fafe634d86b321bdc12f1f58">ogdf::isTwoEdgeConnected</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;graph)</td></tr>
+<tr class="memdesc:ga6da739d3fafe634d86b321bdc12f1f58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>graph</code> is 2-edge-connected.  <a href="group__ga-connectivity.html#ga6da739d3fafe634d86b321bdc12f1f58">More...</a><br /></td></tr>
+<tr class="separator:ga6da739d3fafe634d86b321bdc12f1f58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga7ac1a5296c11fe2e3f78c532b1795a2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#ga7ac1a5296c11fe2e3f78c532b1795a2c">ogdf::isTriconnected</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;s1, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;s2)</td></tr>
 <tr class="memdesc:ga7ac1a5296c11fe2e3f78c532b1795a2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> is triconnected.  <a href="group__ga-connectivity.html#ga7ac1a5296c11fe2e3f78c532b1795a2c">More...</a><br /></td></tr>
 <tr class="separator:ga7ac1a5296c11fe2e3f78c532b1795a2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,6 +188,9 @@ Methods for connectivity</h2></td></tr>
 <tr class="memitem:gac62d9f1f36abc4452e540a02d0eca034"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#gac62d9f1f36abc4452e540a02d0eca034">ogdf::triangulate</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:gac62d9f1f36abc4452e540a02d0eca034"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triangulates a planarly embedded graph <code>G</code> by adding edges.  <a href="group__ga-connectivity.html#gac62d9f1f36abc4452e540a02d0eca034">More...</a><br /></td></tr>
 <tr class="separator:gac62d9f1f36abc4452e540a02d0eca034"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6a678d7f3950c58ac7677edf8d77716a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-connectivity.html#ga6a678d7f3950c58ac7677edf8d77716a">ogdf::isTwoEdgeConnected</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;graph, <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &amp;bridge)</td></tr>
+<tr class="memdesc:ga6a678d7f3950c58ac7677edf8d77716a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>graph</code> is 2-edge-connected.  <a href="group__ga-connectivity.html#ga6a678d7f3950c58ac7677edf8d77716a">More...</a><br /></td></tr>
+<tr class="separator:ga6a678d7f3950c58ac7677edf8d77716a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Methods for directed graphs</h2></td></tr>
@@ -293,12 +297,12 @@ Methods for directed graphs</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number of biconnected components (including self-loops) + the number of nodes without neighbours (that is, the number of nodes who have no incident edges or whose incident edges are all self-loops). </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00563">563</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00523">523</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
-<a id="ga0504711e547b0febf00a261ce27ae5f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga0504711e547b0febf00a261ce27ae5f1">&#9670;&nbsp;</a></span>connectedComponents()</h2>
+<a id="gaab12b5e959d3e624ea032c5d80b2055a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gaab12b5e959d3e624ea032c5d80b2055a">&#9670;&nbsp;</a></span>connectedComponents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -313,7 +317,13 @@ Methods for directed graphs</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>component</em>&#160;</td>
+          <td class="paramname"><em>component</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; *&#160;</td>
+          <td class="paramname"><em>isolated</em> = <code>nullptr</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -323,12 +333,13 @@ Methods for directed graphs</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Computes the connected components of <code>G</code>. </p>
+<p>Computes the connected components of <code>G</code> and optionally generates a list of isolated nodes. </p>
 <p>Assigns component numbers (0, 1, ...) to the nodes of <code>G</code>. The component number of each node is stored in the node array <code>component</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
     <tr><td class="paramname">component</td><td>is assigned a mapping from nodes to component numbers. </td></tr>
+    <tr><td class="paramname">isolated</td><td>is assigned the list of isolated nodes. An isolated node is a node without incident edges. </td></tr>
   </table>
   </dd>
 </dl>
@@ -341,6 +352,9 @@ Methods for directed graphs</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int ogdf::connectedIsolatedComponents </td>
@@ -366,19 +380,27 @@ Methods for directed graphs</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Computes the connected components of <code>G</code> and returns the list of isolated nodes. </p>
+<p>Computes the connected components of <code>G</code> and optionally generates a list of isolated nodes. </p>
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000026">Deprecated:</a></b></dt><dd>"connectedComponents() should be used instead." </dd></dl>
 <p>Assigns component numbers (0, 1, ...) to the nodes of <code>G</code>. The component number of each node is stored in the node array <code>component</code>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
-    <tr><td class="paramname">isolated</td><td>is assigned the list of isolated nodes. An isolated node is a node without incident edges. </td></tr>
     <tr><td class="paramname">component</td><td>is assigned a mapping from nodes to component numbers. </td></tr>
+    <tr><td class="paramname">isolated</td><td>is assigned the list of isolated nodes. An isolated node is a node without incident edges. </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number of connected components. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00449">449</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -451,7 +473,7 @@ Methods for directed graphs</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00513">513</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00473">473</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -585,7 +607,7 @@ Methods for directed graphs</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> is triconnected, false otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00593">593</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00579">579</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -674,7 +696,86 @@ Methods for directed graphs</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> is triconnected, false otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00629">629</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00615">615</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+
+</div>
+</div>
+<a id="ga6a678d7f3950c58ac7677edf8d77716a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6a678d7f3950c58ac7677edf8d77716a">&#9670;&nbsp;</a></span>isTwoEdgeConnected() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::isTwoEdgeConnected </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>graph</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &amp;&#160;</td>
+          <td class="paramname"><em>bridge</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true iff <code>graph</code> is 2-edge-connected. </p>
+<p>Implementation of the algorithm to determine 2-edge-connectivity from the following publication:</p>
+<p>Jens M. Schmidt: <em>A Simple Test on 2-Vertex- and 2-Edge-Connectivity</em>. Information Processing Letters (2013)</p>
+<p>It runs in O(|E|+|V|) as it relies on two DFS.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graph</td><td>is the input graph. </td></tr>
+    <tr><td class="paramname">bridge</td><td>If false is returned and <code>graph</code> is connected, <code>bridge</code> is assigned a bridge in <code>graph</code>, else it is assigned <code>nullptr</code> </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga6da739d3fafe634d86b321bdc12f1f58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga6da739d3fafe634d86b321bdc12f1f58">&#9670;&nbsp;</a></span>isTwoEdgeConnected() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::isTwoEdgeConnected </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>graph</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true iff <code>graph</code> is 2-edge-connected. </p>
+<p>Implementation of the algorithm to determine 2-edge-connectivity from the following publication:</p>
+<p>Jens M. Schmidt: <em>A Simple Test on 2-Vertex- and 2-Edge-Connectivity</em>. Information Processing Letters (2013)</p>
+<p>It runs in O(|E|+|V|) as it relies on two DFS.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">graph</td><td>is the input graph. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00549">549</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -747,7 +848,7 @@ Methods for directed graphs</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00535">535</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00495">495</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -871,7 +972,7 @@ Methods for directed graphs</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00457">457</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00419">419</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>

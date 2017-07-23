@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['d',['D',['../classogdf_1_1_up_s_a_t.html#a22f2da2002e63c7f19ee2c2a3b3836e6',1,'ogdf::UpSAT::D()'],['../classogdf_1_1_visibility_layout.html#a592e51dbbf2cd18ce2f2d07749dc7e4b',1,'ogdf::VisibilityLayout::D()']]],
+  ['d',['D',['../classogdf_1_1_up_s_a_t.html#a22f2da2002e63c7f19ee2c2a3b3836e6',1,'ogdf::UpSAT']]],
   ['d1',['D1',['../classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m.html#a63af5fcb9ecaa00361ab1c4bdb355962',1,'ogdf::energybased::fmmm::QuadTreeNodeNM']]],
   ['d2',['D2',['../classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m.html#afbf4cf00c9d408503e5a6a27c225cbab',1,'ogdf::energybased::fmmm::QuadTreeNodeNM']]],
   ['data',['data',['../classogdf_1_1_binary_heap_simple.html#aeedae9a019e25182c291e1b7c7aab321',1,'ogdf::BinaryHeapSimple::data()'],['../class_minisat_1_1_internal_1_1_clause.html#a1b9d4d962fd9d4280999d7e8aaca1703',1,'Minisat::Internal::Clause::data()'],['../struct_minisat_1_1_internal_1_1_map_1_1_pair.html#a00842867d72a1847f0d0d4007f76f0e5',1,'Minisat::Internal::Map::Pair::data()'],['../class_minisat_1_1_internal_1_1vec.html#a17d4e34ab99f118f5ae6664d344f78e1',1,'Minisat::Internal::vec::data()']]],

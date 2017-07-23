@@ -36,7 +36,6 @@ var classogdf_1_1_hanani_tutte_c_planarity =
       [ "verificationFailed", "classogdf_1_1_hanani_tutte_c_planarity.html#a9b132bbc7f3d12a0a8c8670c0ba645d0a9e9d822f87501a85c1fabe3be6f8e066", null ],
       [ "timeout", "classogdf_1_1_hanani_tutte_c_planarity.html#a9b132bbc7f3d12a0a8c8670c0ba645d0a90272dda245ae1fb3cf197e91a8689dc", null ]
     ] ],
-    [ "HananiTutteCPlanarity", "classogdf_1_1_hanani_tutte_c_planarity.html#aa84c0204c43d0f22ace680c216161dd4", null ],
     [ "isCPlanar", "classogdf_1_1_hanani_tutte_c_planarity.html#a4f081d278b6b9ee7e560e1b1d075febd", null ],
     [ "numClustersPreproc", "classogdf_1_1_hanani_tutte_c_planarity.html#a5b0d2a997d501d55788b1f1e8dd41c47", null ],
     [ "numEdgesPreproc", "classogdf_1_1_hanani_tutte_c_planarity.html#ae9e3a461bebb1e777d502b2806e6077f", null ],

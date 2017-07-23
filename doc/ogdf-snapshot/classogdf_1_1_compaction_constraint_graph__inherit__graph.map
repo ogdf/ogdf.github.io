@@ -1,4 +1,5 @@
 <map id="ogdf::CompactionConstraintGraph&lt; ATYPE &gt;" name="ogdf::CompactionConstraintGraph&lt; ATYPE &gt;">
-<area shape="rect" id="node2" href="$classogdf_1_1_compaction_constraint_graph_base.html" title="Base class implementing common behaviour of ogdf::CompactionConstraintGraph. " alt="" coords="5,80,191,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). " alt="" coords="53,5,143,32"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_compaction_constraint_graph_base.html" title="Class implementing template&#45;parameter&#45;independent behaviour of ogdf::CompactionConstraintGraph. " alt="" coords="32,169,217,211"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_common_compaction_constraint_graph_base.html" title="A common base class for ogdf::GridCompactionConstraintGraphBase and ogdf::CompactionConstraintGraphBa..." alt="" coords="5,80,244,121"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). " alt="" coords="79,5,170,32"/>
 </map>

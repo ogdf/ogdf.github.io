@@ -1,7 +1,6 @@
 var classogdf_1_1_tutte_layout =
 [
     [ "TutteLayout", "classogdf_1_1_tutte_layout.html#a8b7f61a5089ce86f1b48f1487cd4dc2e", null ],
-    [ "~TutteLayout", "classogdf_1_1_tutte_layout.html#a9cf35fe4f34758e3ec1670bcd7a353cd", null ],
     [ "bbox", "classogdf_1_1_tutte_layout.html#aaea67cce70db7d815765f48bbf238c6c", null ],
     [ "bbox", "classogdf_1_1_tutte_layout.html#afd2a50c73932cafb370227ff7e175592", null ],
     [ "call", "classogdf_1_1_tutte_layout.html#a7605d501a1aa338464259694ead16f29", null ],

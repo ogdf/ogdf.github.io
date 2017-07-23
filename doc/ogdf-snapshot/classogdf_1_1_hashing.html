@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::Hashing&lt; K, I, H &gt; Class Template Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -187,7 +185,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a17143cd6df49b678dc6c0266ec7a9eb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element with key <code>key</code> and information <code>info</code> into the hash table.  <a href="#a17143cd6df49b678dc6c0266ec7a9eb6">More...</a><br /></td></tr>
 <tr class="separator:a17143cd6df49b678dc6c0266ec7a9eb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d77f6802b0ac77e2f3c62a44f0ce266"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_hash_element.html">HashElement</a>&lt; K, I &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_hashing.html#a5d77f6802b0ac77e2f3c62a44f0ce266">lookup</a> (const K &amp;key) const</td></tr>
-<tr class="memdesc:a5d77f6802b0ac77e2f3c62a44f0ce266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the hash element with key <code>key</code> in the hash table; returns 0 if no such element.  <a href="#a5d77f6802b0ac77e2f3c62a44f0ce266">More...</a><br /></td></tr>
+<tr class="memdesc:a5d77f6802b0ac77e2f3c62a44f0ce266"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the hash element with key <code>key</code> in the hash table; returns <code>nullptr</code> if no such element exists.  <a href="#a5d77f6802b0ac77e2f3c62a44f0ce266">More...</a><br /></td></tr>
 <tr class="separator:a5d77f6802b0ac77e2f3c62a44f0ce266"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab69ece64370607e17ce9705cb2f987dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_hashing.html#ab69ece64370607e17ce9705cb2f987dc">member</a> (const K &amp;key) const</td></tr>
 <tr class="memdesc:ab69ece64370607e17ce9705cb2f987dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the hash table contains an element with key <code>key</code>.  <a href="#ab69ece64370607e17ce9705cb2f987dc">More...</a><br /></td></tr>
@@ -707,7 +705,7 @@ template&lt;class K, class I, class H = DefHashFunc&lt;K&gt;&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a pointer to the first element or 0 if hash table is empty. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a pointer to the first element or <code>nullptr</code> if hash table is empty. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_hashing_8h_source.html#l00380">380</a> of file <a class="el" href="_hashing_8h_source.html">Hashing.h</a>.</p>
 
@@ -825,7 +823,7 @@ template&lt;class K, class I, class H = DefHashFunc&lt;K&gt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the hash element with key <code>key</code> in the hash table; returns 0 if no such element. </p>
+<p>Returns the hash element with key <code>key</code> in the hash table; returns <code>nullptr</code> if no such element exists. </p>
 
 <p class="definition">Definition at line <a class="el" href="_hashing_8h_source.html#l00296">296</a> of file <a class="el" href="_hashing_8h_source.html">Hashing.h</a>.</p>
 
@@ -907,7 +905,7 @@ template&lt;class K, class I, class H = DefHashFunc&lt;K&gt;&gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>a pointer to the first element or 0 if hash table is empty. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>a pointer to the first element or <code>nullptr</code> if hash table is empty. </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_hashing_8h_source.html#l00393">393</a> of file <a class="el" href="_hashing_8h_source.html">Hashing.h</a>.</p>
 

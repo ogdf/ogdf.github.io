@@ -19,7 +19,7 @@ var classogdf_1_1_sorted_sequence =
     [ "crend", "classogdf_1_1_sorted_sequence.html#a29798ce350ef457aee8fea7d549a9b93", null ],
     [ "del", "classogdf_1_1_sorted_sequence.html#acee3ab70b3707118d0a067fed8494a3e", null ],
     [ "delItem", "classogdf_1_1_sorted_sequence.html#a1f959e81a290cc5b142aefeb186e7440", null ],
-    [ "empty", "classogdf_1_1_sorted_sequence.html#a8279d8e81b9651c5c269dc2e2a7be563", null ],
+    [ "empty", "classogdf_1_1_sorted_sequence.html#ae00c5c64440afd996817592f67280cd8", null ],
     [ "end", "classogdf_1_1_sorted_sequence.html#af1983df0f278209fe99a4da2ff8556e2", null ],
     [ "end", "classogdf_1_1_sorted_sequence.html#a54944a75652f34ae75b3feaea362ea86", null ],
     [ "grow", "classogdf_1_1_sorted_sequence.html#ae4db189baf23df6286c59f72df6d2acd", null ],

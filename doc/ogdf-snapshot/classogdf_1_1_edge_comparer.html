@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::EdgeComparer Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -130,7 +128,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_edge_comparer.html','');
 </div><!--header-->
 <div class="contents">
 
-<p>The <a class="el" href="classogdf_1_1_edge_comparer.html" title="The EdgeComparer compares adjacency entries on base of the position of the nodes given by an Attribut...">EdgeComparer</a> compares adjacency entries on base of the position of the nodes given by an Attributed <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a>'s layout information.  
+<p>Compares adjacency entries based on the position of the nodes given by GraphAttribute layout information.  
  <a href="classogdf_1_1_edge_comparer.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_edge_comparer_8h_source.html">ogdf/basic/EdgeComparer.h</a>&gt;</code></p>
@@ -148,12 +146,13 @@ $(document).ready(function(){initNavTree('classogdf_1_1_edge_comparer.html','');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a9d61720cd936955c2c6267b3b7559fe9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer.html#a9d61720cd936955c2c6267b3b7559fe9">EdgeComparer</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;AG, const <a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> &amp;PR)</td></tr>
+<tr class="memdesc:a9d61720cd936955c2c6267b3b7559fe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for a given <a class="el" href="classogdf_1_1_plan_rep.html" title="Planarized representations (of a connected component) of a graph. ">PlanRep</a> and given <a class="el" href="classogdf_1_1_graph_attributes.html" title="Stores additional attributes of a graph (like layout information). ">GraphAttributes</a>.  <a href="#a9d61720cd936955c2c6267b3b7559fe9">More...</a><br /></td></tr>
 <tr class="separator:a9d61720cd936955c2c6267b3b7559fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed0f447f1208f2a54073ffc147cd585a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer.html#aed0f447f1208f2a54073ffc147cd585a">EdgeComparer</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;AG)</td></tr>
-<tr class="memdesc:aed0f447f1208f2a54073ffc147cd585a"><td class="mdescLeft">&#160;</td><td class="mdescRight">compare the edges directly in AG  <a href="#aed0f447f1208f2a54073ffc147cd585a">More...</a><br /></td></tr>
+<tr class="memdesc:aed0f447f1208f2a54073ffc147cd585a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor for given <a class="el" href="classogdf_1_1_graph_attributes.html" title="Stores additional attributes of a graph (like layout information). ">GraphAttributes</a>.  <a href="#aed0f447f1208f2a54073ffc147cd585a">More...</a><br /></td></tr>
 <tr class="separator:aed0f447f1208f2a54073ffc147cd585a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65caae22aeef8dcebbd65a1d988866fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer.html#a65caae22aeef8dcebbd65a1d988866fc">before</a> (const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;u, const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;v, const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;w) const</td></tr>
-<tr class="memdesc:a65caae22aeef8dcebbd65a1d988866fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if vector u-&gt;v lies within 180degree halfcircle before vector u-&gt;w in clockwise order (i.e. twelve o'clock lies before 1)  <a href="#a65caae22aeef8dcebbd65a1d988866fc">More...</a><br /></td></tr>
+<tr class="memitem:a65caae22aeef8dcebbd65a1d988866fc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer.html#a65caae22aeef8dcebbd65a1d988866fc">before</a> (const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;u, const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;v, const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;w) const</td></tr>
+<tr class="memdesc:a65caae22aeef8dcebbd65a1d988866fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if vector from <code>u</code> to <code>v</code> lies within the 180-degree halfcircle before the vector from <code>u</code> to <code>w</code> in clockwise order (i.e.  <a href="#a65caae22aeef8dcebbd65a1d988866fc">More...</a><br /></td></tr>
 <tr class="separator:a65caae22aeef8dcebbd65a1d988866fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a878ba67afd277314fa4f287d4824ff45"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer.html#a878ba67afd277314fa4f287d4824ff45">compare</a> (const <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;e1, const <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;e2) const override</td></tr>
 <tr class="memdesc:a878ba67afd277314fa4f287d4824ff45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares <code>x</code> and <code>y</code> and returns the result as an integer.  <a href="#a878ba67afd277314fa4f287d4824ff45">More...</a><br /></td></tr>
@@ -182,11 +181,8 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:aa7fa927079c67fd9b1098513d92ed056"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer.html#aa7fa927079c67fd9b1098513d92ed056">angle</a> (<a class="el" href="classogdf_1_1_d_point.html">DPoint</a> p, <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> q, <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> r) const</td></tr>
-<tr class="memdesc:aa7fa927079c67fd9b1098513d92ed056"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes angle between vectors p-&gt;q, p-&gt;r  <a href="#aa7fa927079c67fd9b1098513d92ed056">More...</a><br /></td></tr>
-<tr class="separator:aa7fa927079c67fd9b1098513d92ed056"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af580d3880dc6b0ff93c7e312a246ff0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer.html#af580d3880dc6b0ff93c7e312a246ff0e">orientation</a> (const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;u, const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;v, const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;w) const</td></tr>
-<tr class="memdesc:af580d3880dc6b0ff93c7e312a246ff0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns a value &gt; 0, if vector uv lies "before" vector uw  <a href="#af580d3880dc6b0ff93c7e312a246ff0e">More...</a><br /></td></tr>
+<tr class="memitem:af580d3880dc6b0ff93c7e312a246ff0e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_comparer.html#af580d3880dc6b0ff93c7e312a246ff0e">orientation</a> (const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;u, const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;v, const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;w) const</td></tr>
+<tr class="memdesc:af580d3880dc6b0ff93c7e312a246ff0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns 1 if <code>v</code> lies to the left of the line through <code>u</code> and <code>w</code>, -1 if it lies to the right, and 0 if it lies on that line.  <a href="#af580d3880dc6b0ff93c7e312a246ff0e">More...</a><br /></td></tr>
 <tr class="separator:af580d3880dc6b0ff93c7e312a246ff0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -197,10 +193,10 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a90618d5dd94bfee9298a2789a7a74ddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>The <a class="el" href="classogdf_1_1_edge_comparer.html" title="The EdgeComparer compares adjacency entries on base of the position of the nodes given by an Attribut...">EdgeComparer</a> compares adjacency entries on base of the position of the nodes given by an Attributed <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a>'s layout information. </p>
-<p>helper function for ordering / sorting assumes that PG is a planrep on original AG and that PG is not normalized, i.e., if there are bends in AG, they do not have a counterpart in PG (all nodes in PG have an original) temporary: we assume that we have two adjentries at a common point, so we leave the check for now if they meet and at which point</p>
+<div class="textblock"><p>Compares adjacency entries based on the position of the nodes given by GraphAttribute layout information. </p>
+<p>An adjacency entry considered greater than another if it comes after the other in a clockwise manner.</p>
 
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00057">57</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00048">48</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9d61720cd936955c2c6267b3b7559fe9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d61720cd936955c2c6267b3b7559fe9">&#9670;&nbsp;</a></span>EdgeComparer() <span class="overload">[1/2]</span></h2>
@@ -236,7 +232,10 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00062">62</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
+<p>Constructor for a given <a class="el" href="classogdf_1_1_plan_rep.html" title="Planarized representations (of a connected component) of a graph. ">PlanRep</a> and given <a class="el" href="classogdf_1_1_graph_attributes.html" title="Stores additional attributes of a graph (like layout information). ">GraphAttributes</a>. </p>
+<p>Assumes that <code>PR</code> is a <a class="el" href="classogdf_1_1_plan_rep.html" title="Planarized representations (of a connected component) of a graph. ">PlanRep</a> on original <code>AG</code> and that <code>PR</code> is not normalized, i.e., if there are bends in <code>AG</code>, they do not have a counterpart in <code>PR</code> (all nodes in <code>PR</code> have an original) temporary: we assume that we have two adjacency entries at a common point, so we leave the check for now if they meet and at which point. </p>
+
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00060">60</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
 
 </div>
 </div>
@@ -264,57 +263,14 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>compare the edges directly in AG </p>
+<p>Constructor for given <a class="el" href="classogdf_1_1_graph_attributes.html" title="Stores additional attributes of a graph (like layout information). ">GraphAttributes</a>. </p>
+<p>Compares the edges directly in <code>AG</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00065">65</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00067">67</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa7fa927079c67fd9b1098513d92ed056"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7fa927079c67fd9b1098513d92ed056">&#9670;&nbsp;</a></span>angle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::EdgeComparer::angle </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td>
-          <td class="paramname"><em>p</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td>
-          <td class="paramname"><em>q</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td>
-          <td class="paramname"><em>r</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>computes angle between vectors p-&gt;q, p-&gt;r </p>
-
-</div>
-</div>
 <a id="a65caae22aeef8dcebbd65a1d988866fc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a65caae22aeef8dcebbd65a1d988866fc">&#9670;&nbsp;</a></span>before()</h2>
 
@@ -324,19 +280,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool ogdf::EdgeComparer::before </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>u</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>v</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>w</em>&#160;</td>
         </tr>
         <tr>
@@ -347,7 +303,8 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>check if vector u-&gt;v lies within 180degree halfcircle before vector u-&gt;w in clockwise order (i.e. twelve o'clock lies before 1) </p>
+<p>Checks if vector from <code>u</code> to <code>v</code> lies within the 180-degree halfcircle before the vector from <code>u</code> to <code>w</code> in clockwise order (i.e. </p>
+<p>twelve o'clock lies before 1). </p>
 
 </div>
 </div>
@@ -408,19 +365,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">int ogdf::EdgeComparer::orientation </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>u</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>v</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>w</em>&#160;</td>
         </tr>
         <tr>
@@ -436,7 +393,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>returns a value &gt; 0, if vector uv lies "before" vector uw </p>
+<p>Returns 1 if <code>v</code> lies to the left of the line through <code>u</code> and <code>w</code>, -1 if it lies to the right, and 0 if it lies on that line. </p>
 
 </div>
 </div>
@@ -461,7 +418,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00083">83</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00087">87</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
 
 </div>
 </div>
@@ -485,7 +442,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00084">84</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_edge_comparer_8h_source.html#l00088">88</a> of file <a class="el" href="_edge_comparer_8h_source.html">EdgeComparer.h</a>.</p>
 
 </div>
 </div>

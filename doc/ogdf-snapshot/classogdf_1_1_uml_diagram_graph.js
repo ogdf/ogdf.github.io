@@ -20,7 +20,7 @@ var classogdf_1_1_uml_diagram_graph =
     [ "getWidth", "classogdf_1_1_uml_diagram_graph.html#aa0dc215a44459beaf261aee319f69ee2", null ],
     [ "getX", "classogdf_1_1_uml_diagram_graph.html#aa9d88c0365d37b02178b8a50faecc52c", null ],
     [ "getY", "classogdf_1_1_uml_diagram_graph.html#afc3528c5b7b107233a6775fc39494c0f", null ],
-    [ "operator<<", "classogdf_1_1_uml_diagram_graph.html#a7a353a7eba241a20bae6ada6637ef4d8", null ],
+    [ "operator<<", "classogdf_1_1_uml_diagram_graph.html#ab247390b7f7d13ca697d2f61f5b26533", null ],
     [ "m_containedEdges", "classogdf_1_1_uml_diagram_graph.html#aacac3f2c9e72625ec6e8f5d8e2dce768", null ],
     [ "m_containedNodes", "classogdf_1_1_uml_diagram_graph.html#ac3f985f274998448c209543766394af0", null ],
     [ "m_diagramName", "classogdf_1_1_uml_diagram_graph.html#a404d01e0d5eb777faf9c2464b948bad6", null ],

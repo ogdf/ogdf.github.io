@@ -9,6 +9,7 @@ var searchData=
   ['adjentryarray_2eh',['AdjEntryArray.h',['../_adj_entry_array_8h.html',1,'']]],
   ['alg_2eh',['Alg.h',['../_alg_8h.html',1,'']]],
   ['alloc_2eh',['Alloc.h',['../_alloc_8h.html',1,'']]],
+  ['approximation_2eh',['Approximation.h',['../_approximation_8h.html',1,'']]],
   ['array_2eh',['Array.h',['../_array_8h.html',1,'']]],
   ['array2d_2eh',['Array2D.h',['../_array2_d_8h.html',1,'']]],
   ['arraybuffer_2eh',['ArrayBuffer.h',['../_array_buffer_8h.html',1,'']]],

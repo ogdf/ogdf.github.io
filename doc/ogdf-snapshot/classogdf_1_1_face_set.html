@@ -5,9 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>ogdf: ogdf::FaceSet Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
+<title>ogdf: ogdf::FaceSet&lt; SupportFastSizeQuery &gt; Class Template Reference</title>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -121,11 +119,12 @@ $(document).ready(function(){initNavTree('classogdf_1_1_face_set.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1_face_set-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ogdf::FaceSet Class Reference<div class="ingroups"><a class="el" href="group__graphs.html">Graphs and Embeddings</a> &raquo; <a class="el" href="group__graph-containers.html">Containers Associated with Graphs</a></div></div>  </div>
+<div class="title">ogdf::FaceSet&lt; SupportFastSizeQuery &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__graphs.html">Graphs and Embeddings</a> &raquo; <a class="el" href="group__graph-containers.html">Containers Associated with Graphs</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -134,64 +133,103 @@ $(document).ready(function(){initNavTree('classogdf_1_1_face_set.html','');});
 
 <p><code>#include &lt;<a class="el" href="_face_set_8h_source.html">ogdf/basic/FaceSet.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a920544a895d798c0b69fadcca8974b4a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a920544a895d798c0b69fadcca8974b4a">ListType</a> = typename std::conditional&lt; SupportFastSizeQuery, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> &gt;, <a class="el" href="classogdf_1_1_list_pure.html">ListPure</a>&lt; <a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> &gt; &gt;::type</td></tr>
+<tr class="separator:a920544a895d798c0b69fadcca8974b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ad4f4470dfe8dca33dd08f7226b17a9e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#ad4f4470dfe8dca33dd08f7226b17a9e9">FaceSet</a> (const <a class="el" href="classogdf_1_1_combinatorial_embedding.html">CombinatorialEmbedding</a> &amp;E)</td></tr>
-<tr class="memdesc:ad4f4470dfe8dca33dd08f7226b17a9e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty node set associated with combinatorial embedding <code>E</code>.  <a href="#ad4f4470dfe8dca33dd08f7226b17a9e9">More...</a><br /></td></tr>
-<tr class="separator:ad4f4470dfe8dca33dd08f7226b17a9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94870a603c79e81916edb1cf779a9cd1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a94870a603c79e81916edb1cf779a9cd1">~FaceSet</a> ()</td></tr>
-<tr class="separator:a94870a603c79e81916edb1cf779a9cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c0499bb3c1e8a8aafcf09c8f2fbbc05"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a1c0499bb3c1e8a8aafcf09c8f2fbbc05">clear</a> ()</td></tr>
-<tr class="memdesc:a1c0499bb3c1e8a8aafcf09c8f2fbbc05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all faces from <em>S</em>.  <a href="#a1c0499bb3c1e8a8aafcf09c8f2fbbc05">More...</a><br /></td></tr>
-<tr class="separator:a1c0499bb3c1e8a8aafcf09c8f2fbbc05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7bf23af4e872ea2495cce92a192761ef"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a7bf23af4e872ea2495cce92a192761ef">faces</a> () const</td></tr>
-<tr class="memdesc:a7bf23af4e872ea2495cce92a192761ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the list of faces contained in <em>S</em>.  <a href="#a7bf23af4e872ea2495cce92a192761ef">More...</a><br /></td></tr>
-<tr class="separator:a7bf23af4e872ea2495cce92a192761ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb51927b87f67a18b1147bd610e0fa03"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#afb51927b87f67a18b1147bd610e0fa03">insert</a> (<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> f)</td></tr>
-<tr class="memdesc:afb51927b87f67a18b1147bd610e0fa03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts face <code>f</code> into <em>S</em>.  <a href="#afb51927b87f67a18b1147bd610e0fa03">More...</a><br /></td></tr>
-<tr class="separator:afb51927b87f67a18b1147bd610e0fa03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d69937554c41f2c7071ada25c059aaf"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a3d69937554c41f2c7071ada25c059aaf">isMember</a> (<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> f) const</td></tr>
-<tr class="memdesc:a3d69937554c41f2c7071ada25c059aaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if face <code>f</code> is contained in <em>S</em>, false otherwise.  <a href="#a3d69937554c41f2c7071ada25c059aaf">More...</a><br /></td></tr>
-<tr class="separator:a3d69937554c41f2c7071ada25c059aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6587824f738aa7642e6f8e87272b6a4d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a6587824f738aa7642e6f8e87272b6a4d">remove</a> (<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> f)</td></tr>
-<tr class="memdesc:a6587824f738aa7642e6f8e87272b6a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes face <code>f</code> from <em>S</em>.  <a href="#a6587824f738aa7642e6f8e87272b6a4d">More...</a><br /></td></tr>
-<tr class="separator:a6587824f738aa7642e6f8e87272b6a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85706358d26ee6e60f75b2b967afe0c4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a85706358d26ee6e60f75b2b967afe0c4">size</a> () const</td></tr>
-<tr class="memdesc:a85706358d26ee6e60f75b2b967afe0c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of <em>S</em>.  <a href="#a85706358d26ee6e60f75b2b967afe0c4">More...</a><br /></td></tr>
-<tr class="separator:a85706358d26ee6e60f75b2b967afe0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a270eca3ca1b35f162ac1399c9b06ec1e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a270eca3ca1b35f162ac1399c9b06ec1e">FaceSet</a> (const <a class="el" href="classogdf_1_1_combinatorial_embedding.html">CombinatorialEmbedding</a> &amp;E)</td></tr>
+<tr class="memdesc:a270eca3ca1b35f162ac1399c9b06ec1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty face set associated with combinatorial embedding <code>E</code>.  <a href="#a270eca3ca1b35f162ac1399c9b06ec1e">More...</a><br /></td></tr>
+<tr class="separator:a270eca3ca1b35f162ac1399c9b06ec1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a449b3a3ef202ae7b602e0a3520d0b931"><td class="memTemplParams" colspan="2">template&lt;bool OtherSupportsFastSizeQuery&gt; </td></tr>
+<tr class="memitem:a449b3a3ef202ae7b602e0a3520d0b931"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a449b3a3ef202ae7b602e0a3520d0b931">FaceSet</a> (const <a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&lt; OtherSupportsFastSizeQuery &gt; &amp;other)</td></tr>
+<tr class="memdesc:a449b3a3ef202ae7b602e0a3520d0b931"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a449b3a3ef202ae7b602e0a3520d0b931">More...</a><br /></td></tr>
+<tr class="separator:a449b3a3ef202ae7b602e0a3520d0b931"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eb5ac6a8239cbe1603ee044ae4be520"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a2eb5ac6a8239cbe1603ee044ae4be520">clear</a> ()</td></tr>
+<tr class="memdesc:a2eb5ac6a8239cbe1603ee044ae4be520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all faces from this set-.  <a href="#a2eb5ac6a8239cbe1603ee044ae4be520">More...</a><br /></td></tr>
+<tr class="separator:a2eb5ac6a8239cbe1603ee044ae4be520"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e5371bec4b49de851fb23c2a9b3ca33"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_const_combinatorial_embedding.html">ConstCombinatorialEmbedding</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a3e5371bec4b49de851fb23c2a9b3ca33">embeddingOf</a> () const</td></tr>
+<tr class="memdesc:a3e5371bec4b49de851fb23c2a9b3ca33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the associated combinatorial embedding.  <a href="#a3e5371bec4b49de851fb23c2a9b3ca33">More...</a><br /></td></tr>
+<tr class="separator:a3e5371bec4b49de851fb23c2a9b3ca33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4194a4e48a3990350bf66930199cd7c9"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_face_set.html#a920544a895d798c0b69fadcca8974b4a">ListType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a4194a4e48a3990350bf66930199cd7c9">faces</a> () const</td></tr>
+<tr class="memdesc:a4194a4e48a3990350bf66930199cd7c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the list of faces contained in this set.  <a href="#a4194a4e48a3990350bf66930199cd7c9">More...</a><br /></td></tr>
+<tr class="separator:a4194a4e48a3990350bf66930199cd7c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b2b69b13c4876080c87fc81582284e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a2b2b69b13c4876080c87fc81582284e2">insert</a> (<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> f)</td></tr>
+<tr class="memdesc:a2b2b69b13c4876080c87fc81582284e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts face <code>f</code> into this set.  <a href="#a2b2b69b13c4876080c87fc81582284e2">More...</a><br /></td></tr>
+<tr class="separator:a2b2b69b13c4876080c87fc81582284e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6af81b5a0407f8155d720cb1c8838ba2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a6af81b5a0407f8155d720cb1c8838ba2">isMember</a> (<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> f) const</td></tr>
+<tr class="memdesc:a6af81b5a0407f8155d720cb1c8838ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> iff face <code>f</code> is contained in this set.  <a href="#a6af81b5a0407f8155d720cb1c8838ba2">More...</a><br /></td></tr>
+<tr class="separator:a6af81b5a0407f8155d720cb1c8838ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe870e6037a436a15f6faaea51ec5598"><td class="memTemplParams" colspan="2">template&lt;bool OtherSupportsFastSizeQuery&gt; </td></tr>
+<tr class="memitem:abe870e6037a436a15f6faaea51ec5598"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_set.html">FaceSet</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#abe870e6037a436a15f6faaea51ec5598">operator=</a> (const <a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&lt; OtherSupportsFastSizeQuery &gt; &amp;other)</td></tr>
+<tr class="memdesc:abe870e6037a436a15f6faaea51ec5598"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#abe870e6037a436a15f6faaea51ec5598">More...</a><br /></td></tr>
+<tr class="separator:abe870e6037a436a15f6faaea51ec5598"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f64a9d70137e1a4a40835e69f7dbcbc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a1f64a9d70137e1a4a40835e69f7dbcbc">remove</a> (<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> f)</td></tr>
+<tr class="memdesc:a1f64a9d70137e1a4a40835e69f7dbcbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes face <code>f</code> from this set.  <a href="#a1f64a9d70137e1a4a40835e69f7dbcbc">More...</a><br /></td></tr>
+<tr class="separator:a1f64a9d70137e1a4a40835e69f7dbcbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7fb0d8c615008cb9f4d289a336b6e6a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#ab7fb0d8c615008cb9f4d289a336b6e6a">size</a> () const</td></tr>
+<tr class="memdesc:ab7fb0d8c615008cb9f4d289a336b6e6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of faces in this set.  <a href="#ab7fb0d8c615008cb9f4d289a336b6e6a">More...</a><br /></td></tr>
+<tr class="separator:ab7fb0d8c615008cb9f4d289a336b6e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a553b7452d7648f5a5b028c61ad408017"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a553b7452d7648f5a5b028c61ad408017">m_faces</a></td></tr>
-<tr class="memdesc:a553b7452d7648f5a5b028c61ad408017"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of faces contained in <em>S</em>.  <a href="#a553b7452d7648f5a5b028c61ad408017">More...</a><br /></td></tr>
-<tr class="separator:a553b7452d7648f5a5b028c61ad408017"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ec2f46a118e5339e38720d295fb8038"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_array.html">FaceArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a0ec2f46a118e5339e38720d295fb8038">m_it</a></td></tr>
-<tr class="memdesc:a0ec2f46a118e5339e38720d295fb8038"><td class="mdescLeft">&#160;</td><td class="mdescRight">m_it[f] contains the list iterator pointing to <em>f</em> if <em>f</em> is contained in S, an invalid list iterator otherwise.  <a href="#a0ec2f46a118e5339e38720d295fb8038">More...</a><br /></td></tr>
-<tr class="separator:a0ec2f46a118e5339e38720d295fb8038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf8b22a48000d98a736e76401bed842"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_set.html#a920544a895d798c0b69fadcca8974b4a">ListType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a1cf8b22a48000d98a736e76401bed842">m_faces</a></td></tr>
+<tr class="memdesc:a1cf8b22a48000d98a736e76401bed842"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of faces contained in this set.  <a href="#a1cf8b22a48000d98a736e76401bed842">More...</a><br /></td></tr>
+<tr class="separator:a1cf8b22a48000d98a736e76401bed842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a535e31f471c85025a38c5183eeb1e36e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_face_array.html">FaceArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_face_set.html#a535e31f471c85025a38c5183eeb1e36e">m_it</a></td></tr>
+<tr class="memdesc:a535e31f471c85025a38c5183eeb1e36e"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classogdf_1_1_face_set.html#a535e31f471c85025a38c5183eeb1e36e" title="m_it[f] contains the list iterator pointing to f if f is contained in S, or an invalid list iterator ...">m_it</a>[<em>f</em>] contains the list iterator pointing to <em>f</em> if <em>f</em> is contained in S, or an invalid list iterator otherwise.  <a href="#a535e31f471c85025a38c5183eeb1e36e">More...</a><br /></td></tr>
+<tr class="separator:a535e31f471c85025a38c5183eeb1e36e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Face sets. </p>
-<p>A face set maintains a subset <em>S</em> of the faces contained in an associated combinatorial embedding. This kind of face set provides efficient operations for testing membership, insertion and deletion of elements, and clearing the set.</p>
-<p>In contrast to <a class="el" href="classogdf_1_1_face_set_pure.html" title="Face sets. ">FaceSetPure</a>, a <a class="el" href="classogdf_1_1_face_set.html" title="Face sets. ">FaceSet</a> provides efficient access to the number of faces stored in the set.</p>
-<dl class="section see"><dt>See also</dt><dd><ul>
-<li><a class="el" href="classogdf_1_1_face_set_pure.html" title="Face sets. ">FaceSetPure</a>, <a class="el" href="classogdf_1_1_face_set_simple.html" title="Simple face sets. ">FaceSetSimple</a></li>
-<li><a class="el" href="classogdf_1_1_node_set.html" title="Node sets. ">NodeSet</a>, <a class="el" href="classogdf_1_1_node_set_pure.html" title="Node sets. ">NodeSetPure</a>, <a class="el" href="classogdf_1_1_node_set_simple.html" title="Simple node sets. ">NodeSetSimple</a> </li>
-</ul>
-</dd></dl>
+<div class="textblock"><h3>template&lt;bool SupportFastSizeQuery = true&gt;<br />
+class ogdf::FaceSet&lt; SupportFastSizeQuery &gt;</h3>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00234">234</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ad4f4470dfe8dca33dd08f7226b17a9e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4f4470dfe8dca33dd08f7226b17a9e9">&#9670;&nbsp;</a></span>FaceSet()</h2>
+<p>Face sets. </p>
+<p>Maintains a subset of faces contained in an associated combinatorial embedding. Provides efficient operations for testing membership, iteration, insertion and deletion of elements, as well as clearing the set.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">SupportFastSizeQuery</td><td>Whether this set supports querying it's <a class="el" href="classogdf_1_1_face_set.html#ab7fb0d8c615008cb9f4d289a336b6e6a" title="Returns the number of faces in this set. ">size</a> in constant instead of linear time (in the size).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classogdf_1_1_node_set.html" title="Node sets. ">NodeSet</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00053">53</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a920544a895d798c0b69fadcca8974b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a920544a895d798c0b69fadcca8974b4a">&#9670;&nbsp;</a></span>ListType</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::<a class="el" href="classogdf_1_1_face_set.html#a920544a895d798c0b69fadcca8974b4a">ListType</a> =  typename std::conditional&lt;SupportFastSizeQuery, <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&gt;, <a class="el" href="classogdf_1_1_list_pure.html">ListPure</a>&lt;<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&gt; &gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00055">55</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a270eca3ca1b35f162ac1399c9b06ec1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a270eca3ca1b35f162ac1399c9b06ec1e">&#9670;&nbsp;</a></span>FaceSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ogdf::FaceSet::FaceSet </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::<a class="el" href="classogdf_1_1_face_set.html">FaceSet</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_combinatorial_embedding.html">CombinatorialEmbedding</a> &amp;&#160;</td>
           <td class="paramname"><em>E</em></td><td>)</td>
@@ -205,25 +243,30 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Creates an empty node set associated with combinatorial embedding <code>E</code>. </p>
+<p>Creates an empty face set associated with combinatorial embedding <code>E</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00237">237</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00058">58</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a94870a603c79e81916edb1cf779a9cd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94870a603c79e81916edb1cf779a9cd1">&#9670;&nbsp;</a></span>~FaceSet()</h2>
+<a id="a449b3a3ef202ae7b602e0a3520d0b931"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a449b3a3ef202ae7b602e0a3520d0b931">&#9670;&nbsp;</a></span>FaceSet() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+<div class="memtemplate">
+template&lt;bool OtherSupportsFastSizeQuery&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ogdf::FaceSet::~FaceSet </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::<a class="el" href="classogdf_1_1_face_set.html">FaceSet</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&lt; OtherSupportsFastSizeQuery &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -234,22 +277,26 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00240">240</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p>Copy constructor. </p>
+
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00134">134</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1c0499bb3c1e8a8aafcf09c8f2fbbc05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c0499bb3c1e8a8aafcf09c8f2fbbc05">&#9670;&nbsp;</a></span>clear()</h2>
+<a id="a2eb5ac6a8239cbe1603ee044ae4be520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb5ac6a8239cbe1603ee044ae4be520">&#9670;&nbsp;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::FaceSet::clear </td>
+          <td class="memname">void <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -262,24 +309,26 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Removes all faces from <em>S</em>. </p>
-<p>After this operation, <em>S</em> is empty and still associated with the same combinatorial embedding. The runtime of this operations is O(k), where k is the number of faces in <em>S</em> before this operation. </p>
+<p>Removes all faces from this set-. </p>
+<p>After this operation, this set is empty and still associated with the same combinatorial embedding. The runtime of this operations is linear in the <a class="el" href="classogdf_1_1_face_set.html#ab7fb0d8c615008cb9f4d289a336b6e6a" title="Returns the number of faces in this set. ">size()</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00277">277</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00098">98</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a7bf23af4e872ea2495cce92a192761ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7bf23af4e872ea2495cce92a192761ef">&#9670;&nbsp;</a></span>faces()</h2>
+<a id="a3e5371bec4b49de851fb23c2a9b3ca33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e5371bec4b49de851fb23c2a9b3ca33">&#9670;&nbsp;</a></span>embeddingOf()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&gt;&amp; ogdf::FaceSet::faces </td>
+          <td class="memname">const <a class="el" href="classogdf_1_1_const_combinatorial_embedding.html">ConstCombinatorialEmbedding</a>&amp; <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::embeddingOf </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -292,24 +341,56 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a reference to the list of faces contained in <em>S</em>. </p>
-<p>This list can be used for iterating over all faces in <em>S</em>. </p>
+<p>Returns the associated combinatorial embedding. </p>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00308">308</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00120">120</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
-<a id="afb51927b87f67a18b1147bd610e0fa03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb51927b87f67a18b1147bd610e0fa03">&#9670;&nbsp;</a></span>insert()</h2>
+<a id="a4194a4e48a3990350bf66930199cd7c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4194a4e48a3990350bf66930199cd7c9">&#9670;&nbsp;</a></span>faces()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::FaceSet::insert </td>
+          <td class="memname">const <a class="el" href="classogdf_1_1_face_set.html#a920544a895d798c0b69fadcca8974b4a">ListType</a>&amp; <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::faces </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the list of faces contained in this set. </p>
+
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00115">115</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+
+</div>
+</div>
+<a id="a2b2b69b13c4876080c87fc81582284e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b2b69b13c4876080c87fc81582284e2">&#9670;&nbsp;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::insert </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
@@ -323,25 +404,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Inserts face <code>f</code> into <em>S</em>. </p>
-<p>This operation has constant runtime.</p>
+<p>Inserts face <code>f</code> into this set. </p>
+<p>This operation has constant runtime. If the face is already contained in this set, nothing happens.</p>
 <dl class="section pre"><dt>Precondition</dt><dd><code>f</code> is a face in the associated combinatorial embedding. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00248">248</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00067">67</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a3d69937554c41f2c7071ada25c059aaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d69937554c41f2c7071ada25c059aaf">&#9670;&nbsp;</a></span>isMember()</h2>
+<a id="a6af81b5a0407f8155d720cb1c8838ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6af81b5a0407f8155d720cb1c8838ba2">&#9670;&nbsp;</a></span>isMember()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ogdf::FaceSet::isMember </td>
+          <td class="memname">bool <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::isMember </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
@@ -355,25 +438,61 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if face <code>f</code> is contained in <em>S</em>, false otherwise. </p>
+<p>Returns <code>true</code> iff face <code>f</code> is contained in this set. </p>
 <p>This operation has constant runtime.</p>
 <dl class="section pre"><dt>Precondition</dt><dd><code>f</code> is a face in the associated combinatorial embedding. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00291">291</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00109">109</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a6587824f738aa7642e6f8e87272b6a4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6587824f738aa7642e6f8e87272b6a4d">&#9670;&nbsp;</a></span>remove()</h2>
+<a id="abe870e6037a436a15f6faaea51ec5598"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe870e6037a436a15f6faaea51ec5598">&#9670;&nbsp;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+<div class="memtemplate">
+template&lt;bool OtherSupportsFastSizeQuery&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::FaceSet::remove </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&amp; <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_face_set.html">FaceSet</a>&lt; OtherSupportsFastSizeQuery &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Assignment operator. </p>
+
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00140">140</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+
+</div>
+</div>
+<a id="a1f64a9d70137e1a4a40835e69f7dbcbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f64a9d70137e1a4a40835e69f7dbcbc">&#9670;&nbsp;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::remove </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
@@ -387,25 +506,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Removes face <code>f</code> from <em>S</em>. </p>
-<p>This operation has constant runtime.</p>
+<p>Removes face <code>f</code> from this set. </p>
+<p>This operation has constant runtime. If the face is not contained in this set, nothing happens.</p>
 <dl class="section pre"><dt>Precondition</dt><dd><code>f</code> is a face in the associated combinatorial embedding. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00261">261</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00083">83</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a85706358d26ee6e60f75b2b967afe0c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85706358d26ee6e60f75b2b967afe0c4">&#9670;&nbsp;</a></span>size()</h2>
+<a id="ab7fb0d8c615008cb9f4d289a336b6e6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7fb0d8c615008cb9f4d289a336b6e6a">&#9670;&nbsp;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::FaceSet::size </td>
+          <td class="memname">int <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -418,25 +539,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the size of <em>S</em>. </p>
-<p>This operation has constant runtime. </p>
+<p>Returns the number of faces in this set. </p>
+<p>This operation has either linear or constant runtime, depending on <em>SupportFastSizeQuery</em>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00300">300</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00128">128</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a553b7452d7648f5a5b028c61ad408017"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a553b7452d7648f5a5b028c61ad408017">&#9670;&nbsp;</a></span>m_faces</h2>
+<a id="a1cf8b22a48000d98a736e76401bed842"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cf8b22a48000d98a736e76401bed842">&#9670;&nbsp;</a></span>m_faces</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&gt; ogdf::FaceSet::m_faces</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_face_set.html#a920544a895d798c0b69fadcca8974b4a">ListType</a> <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::m_faces</td>
         </tr>
       </table>
   </td>
@@ -446,23 +569,25 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The list of faces contained in <em>S</em>. </p>
+<p>The list of faces contained in this set. </p>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00318">318</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00154">154</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a0ec2f46a118e5339e38720d295fb8038"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ec2f46a118e5339e38720d295fb8038">&#9670;&nbsp;</a></span>m_it</h2>
+<a id="a535e31f471c85025a38c5183eeb1e36e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a535e31f471c85025a38c5183eeb1e36e">&#9670;&nbsp;</a></span>m_it</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_face_array.html">FaceArray</a>&lt;<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&gt; &gt; ogdf::FaceSet::m_it</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_face_array.html">FaceArray</a>&lt;<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="namespaceogdf.html#a6cc109d2799c8e6c0a4443766b0d87b3">face</a>&gt; &gt; <a class="el" href="classogdf_1_1_face_set.html">ogdf::FaceSet</a>&lt; SupportFastSizeQuery &gt;::m_it</td>
         </tr>
       </table>
   </td>
@@ -472,9 +597,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>m_it[f] contains the list iterator pointing to <em>f</em> if <em>f</em> is contained in S, an invalid list iterator otherwise. </p>
+<p><a class="el" href="classogdf_1_1_face_set.html#a535e31f471c85025a38c5183eeb1e36e" title="m_it[f] contains the list iterator pointing to f if f is contained in S, or an invalid list iterator ...">m_it</a>[<em>f</em>] contains the list iterator pointing to <em>f</em> if <em>f</em> is contained in S, or an invalid list iterator otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00315">315</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_face_set_8h_source.html#l00151">151</a> of file <a class="el" href="_face_set_8h_source.html">FaceSet.h</a>.</p>
 
 </div>
 </div>

@@ -7,7 +7,7 @@ var classogdf_1_1_p_q_node =
     [ "changeSiblings", "classogdf_1_1_p_q_node.html#a22f5498d3d3d785afb03c08f2f560763", null ],
     [ "childCount", "classogdf_1_1_p_q_node.html#a67d45970a8a390bf0e153c2a12e11d57", null ],
     [ "childCount", "classogdf_1_1_p_q_node.html#a363dc83e6011b6118bc09eeeaed9d94b", null ],
-    [ "endmostChild", "classogdf_1_1_p_q_node.html#ab4f45a5c3c9a70e40d69907db86b78a0", null ],
+    [ "endmostChild", "classogdf_1_1_p_q_node.html#af22ac73809f05aaa7f05a80e6aa6081c", null ],
     [ "getEndmost", "classogdf_1_1_p_q_node.html#a029c3c7d21ec08b1eba4eff266c61c45", null ],
     [ "getEndmost", "classogdf_1_1_p_q_node.html#ab707dc52c347c6c6e694a37da8b82dc1", null ],
     [ "getInternal", "classogdf_1_1_p_q_node.html#ae4f3b3ec9e44ae199f92731e1a2e974f", null ],

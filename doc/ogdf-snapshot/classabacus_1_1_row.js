@@ -13,7 +13,7 @@ var classabacus_1_1_row =
     [ "sense", "classabacus_1_1_row.html#ac7968d0756832df618f2717da18d2c43", null ],
     [ "sense", "classabacus_1_1_row.html#a327c73e51187b12fbb7f7b5e6208ffd1", null ],
     [ "sense", "classabacus_1_1_row.html#a800d2b2f004091a39b14fdd72d0ffdc3", null ],
-    [ "operator<<", "classabacus_1_1_row.html#a082747ed8a797902bdd3a3df0629b4ed", null ],
+    [ "operator<<", "classabacus_1_1_row.html#a07fccb8206271741a20327d2a5d11733", null ],
     [ "rhs_", "classabacus_1_1_row.html#af441ca630dc46bf166b05d8259736c19", null ],
     [ "sense_", "classabacus_1_1_row.html#adb321b1c513bc166d4bfb8bf7c49f84e", null ]
 ];

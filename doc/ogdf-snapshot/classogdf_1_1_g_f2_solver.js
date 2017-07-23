@@ -2,6 +2,7 @@ var classogdf_1_1_g_f2_solver =
 [
     [ "Chunk", "structogdf_1_1_g_f2_solver_1_1_chunk.html", "structogdf_1_1_g_f2_solver_1_1_chunk" ],
     [ "Chunk2", "structogdf_1_1_g_f2_solver_1_1_chunk2.html", "structogdf_1_1_g_f2_solver_1_1_chunk2" ],
+    [ "ChunkBase", "structogdf_1_1_g_f2_solver_1_1_chunk_base.html", "structogdf_1_1_g_f2_solver_1_1_chunk_base" ],
     [ "Equation", "classogdf_1_1_g_f2_solver_1_1_equation.html", "classogdf_1_1_g_f2_solver_1_1_equation" ],
     [ "Matrix", "classogdf_1_1_g_f2_solver_1_1_matrix.html", "classogdf_1_1_g_f2_solver_1_1_matrix" ],
     [ "Row2", "structogdf_1_1_g_f2_solver_1_1_row2.html", "structogdf_1_1_g_f2_solver_1_1_row2" ],

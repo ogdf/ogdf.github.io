@@ -1,6 +1,5 @@
 var classogdf_1_1_embedder_min_depth =
 [
-    [ "EmbedderMinDepth", "classogdf_1_1_embedder_min_depth.html#a6ebd8c0d44cbae43827c6dfbd503bf68", null ],
     [ "bottomUpTraversal", "classogdf_1_1_embedder_min_depth.html#a4cb0ce0e2e5f38eba2b2fa2d11461468", null ],
     [ "computeBlockGraphs", "classogdf_1_1_embedder_min_depth.html#a55b9f1200ee7f8dcbad236a08394457d", null ],
     [ "doCall", "classogdf_1_1_embedder_min_depth.html#a3e07eaff2058425ac7e588c5e20fd341", null ],
@@ -18,8 +17,6 @@ var classogdf_1_1_embedder_min_depth =
     [ "newOrder", "classogdf_1_1_embedder_min_depth.html#ae33beab60d68a08fe8800606dbcb0ea1", null ],
     [ "nH_to_nBlockEmbedding", "classogdf_1_1_embedder_min_depth.html#a3e14f5b0725952358f36e94e935c688e", null ],
     [ "nodeLength", "classogdf_1_1_embedder_min_depth.html#ae126c4759eaae83937fb6d73e3a737d5", null ],
-    [ "pAdjExternal", "classogdf_1_1_embedder_min_depth.html#a7ec23fbbcc48edbaa2cee276eea523bc", null ],
-    [ "pBCTree", "classogdf_1_1_embedder_min_depth.html#a39ea00aad463c5734b7eea7b132fcb9e", null ],
     [ "spqrTrees", "classogdf_1_1_embedder_min_depth.html#aab76fac1262afd5810cc2d1dcff075d5", null ],
     [ "treeNodeTreated", "classogdf_1_1_embedder_min_depth.html#a618b1bf4961c90aa3e7c1d98c89f0ec0", null ]
 ];

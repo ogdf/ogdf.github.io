@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: defines</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -135,6 +133,8 @@ Compiler Defines</h1>
 <tr>
 <td><code>OGDF_DEBUG</code> </td><td>build configuration </td><td>Perform OGDF assertions. </td></tr>
 <tr>
+<td><code>OGDF_HEAVY_DEBUG</code> </td><td>build configuration </td><td>Perform demanding OGDF assertions that might heavily increase runtime. </td></tr>
+<tr>
 <td><code>OGDF_USE_ASSERT_EXCEPTIONS</code> </td><td>build configuration </td><td>Throw exceptions instead of exiting by <code>assert()</code>. </td></tr>
 <tr>
 <td><code>OGDF_USE_ASSERT_EXCEPTIONS_WITH_STACK_TRACE</code> </td><td>build configuration </td><td>If assert exceptions are thrown, add a stack trace in the <code>what()</code> string. </td></tr>
@@ -145,23 +145,27 @@ Compiler Defines</h1>
 <tr>
 <td><code>OGDF_INSTALL</code> </td><td>build configuration </td><td>Building ODFG as a DLL. </td></tr>
 <tr>
+<td><code>OGDF_MEMORY_POOL_TS</code> </td><td>build configuration </td><td>OGDF uses the custom thread-safe pool memory manager (default). </td></tr>
+<tr>
+<td><code>OGDF_MEMORY_POOL_NTS</code> </td><td>build configuration </td><td>OGDF uses the custom non-thread-safe pool memory manager. </td></tr>
+<tr>
+<td><code>OGDF_MEMORY_MALLOC_TS</code> </td><td>build configuration </td><td>OGDF uses the default c++ memory manager. </td></tr>
+<tr>
+<td><code>OGDF_HAS_LINUX_CPU_MACROS</code> </td><td>build configuration </td><td>Set if macros like <code>CPU_SET</code> are available. </td></tr>
+<tr>
+<td><code>OGDF_SSE3_EXTENSIONS</code> </td><td>build configuration </td><td>Set to the (system-specific) path of intrinsics (eg, <code>&lt;intrin.h&gt;</code>) or not defined. </td></tr>
+<tr>
 <td><code>COIN_OSI_CLP</code> </td><td>build configuration </td><td>Clp is the linear program solver (default). </td></tr>
 <tr>
 <td><code>COIN_OSI_GRB</code> </td><td>build configuration </td><td>Gurobi is the linear program solver. </td></tr>
 <tr>
 <td><code>COIN_OSI_CPX</code> </td><td>build configuration </td><td>CPLEX is the linear program solver. </td></tr>
 <tr>
-<td><code>OGDF_MEMORY_POOL_TS</code> </td><td>build configuration </td><td>OGDF uses the custom thread-safe pool memory manager (default). </td></tr>
+<td><code>OGDF_SYSTEM_WINDOWS</code> </td><td><code><a class="el" href="config_8h.html" title="Basic configuration file. ">basic/internal/config.h</a></code> </td><td>Compiling for a Windows system. </td></tr>
 <tr>
-<td><code>OGDF_MEMORY_POOL_NTS</code> </td><td>build configuration </td><td>OGDF uses the custom non-thread-safe pool memory manager. </td></tr>
+<td><code>OGDF_SYSTEM_UNIX</code> </td><td><code><a class="el" href="config_8h.html" title="Basic configuration file. ">basic/internal/config.h</a></code> </td><td>Compiling for a UNIX system. </td></tr>
 <tr>
-<td><code>OGDF_MEMORY_POOL_MALLOC</code> </td><td>build configuration </td><td>OGDF uses the default c++ memory manager. </td></tr>
-<tr>
-<td><code>OGDF_SSE3_EXTENSIONS</code> </td><td>build configuration </td><td>Set to the (system-specific) path of intrinsics (eg, <code>&lt;intrin.h&gt;</code>) or not defined. </td></tr>
-<tr>
-<td><code>OGDF_SYSTEM_WINDOWS</code> </td><td><code><a class="el" href="basic_8h.html" title="Basic declarations, included by all source files. ">basic/basic.h</a></code> </td><td>Compiling for a Windows system. </td></tr>
-<tr>
-<td><code>OGDF_SYSTEM_OSX</code> </td><td><code><a class="el" href="basic_8h.html" title="Basic declarations, included by all source files. ">basic/basic.h</a></code> </td><td>Compiling for a Mac OS X system; in this case OGDF_SYSTEM_UNIX is also defined. </td></tr>
+<td><code>OGDF_SYSTEM_OSX</code> </td><td><code><a class="el" href="config_8h.html" title="Basic configuration file. ">basic/internal/config.h</a></code> </td><td>Compiling for a Mac OS X system; in this case <code>OGDF_SYSTEM_UNIX</code> is also defined. </td></tr>
 <tr>
 <td><code>OGDF_ARCH_X86</code> </td><td><code><a class="el" href="_system_8h.html" title="Decalration of System class which provides unified access to system information. ">basic/System.h</a></code> </td><td>Compiling for a 32-bit x86 (Intel/AMD) architecture. </td></tr>
 <tr>

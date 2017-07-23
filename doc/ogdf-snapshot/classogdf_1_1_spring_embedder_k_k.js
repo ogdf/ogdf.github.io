@@ -2,9 +2,8 @@ var classogdf_1_1_spring_embedder_k_k =
 [
     [ "dpair", "classogdf_1_1_spring_embedder_k_k.html#a0993b3f11b2a96da6c5e83c14bc85dd3", null ],
     [ "SpringEmbedderKK", "classogdf_1_1_spring_embedder_k_k.html#aff10d838fc7c544ec69c3884e1a4bc20", null ],
-    [ "~SpringEmbedderKK", "classogdf_1_1_spring_embedder_k_k.html#a49cbd85e1f3aa0e706e2cb022875d3d1", null ],
     [ "adaptLengths", "classogdf_1_1_spring_embedder_k_k.html#a5be03e8b0926754c7d2de325a4840898", null ],
-    [ "allpairssp", "classogdf_1_1_spring_embedder_k_k.html#a423f3e7eac3f22a3811d6c0b7ee4136f", null ],
+    [ "allpairssp", "classogdf_1_1_spring_embedder_k_k.html#a5d2d12675d37a741c228ac4c4f32ee12", null ],
     [ "allpairsspBFS", "classogdf_1_1_spring_embedder_k_k.html#ae3b89961101ca136214738f82232d0bb", null ],
     [ "call", "classogdf_1_1_spring_embedder_k_k.html#aab0d17c733577b620d3dd0d8fda57f18", null ],
     [ "call", "classogdf_1_1_spring_embedder_k_k.html#af97eea9645d262bc8d98ddeaf01962d4", null ],

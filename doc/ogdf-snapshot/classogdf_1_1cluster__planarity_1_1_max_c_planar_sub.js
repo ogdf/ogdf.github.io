@@ -22,7 +22,7 @@ var classogdf_1_1cluster__planarity_1_1_max_c_planar_sub =
     [ "intSolutionInducedGraph", "classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#a6a278453d975adc9c21296c3c1be13e8", null ],
     [ "kuratowskiSupportGraph", "classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#a6df4b6bc9ceedada2ab23554882a202c", null ],
     [ "makeFeasible", "classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#a05db52e270cfcc014828eca50fa18ec4", null ],
-    [ "master", "classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#ae11d5f59dcce4b7bc918ee053b0aff8b", null ],
+    [ "master", "classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#ac21199306ae0409fc5cbdaeca1f47f8e", null ],
     [ "myAddVars", "classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#a788561ff080b6d6e6cba65634a07668d", null ],
     [ "optimize", "classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#a1f497887c75db367eca4c392edec65cc", null ],
     [ "pricing", "classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#afbed90906764ff9a061b87517cb31c15", null ],

@@ -26,6 +26,7 @@ var group__graph_generators =
     [ "randomHierarchy", "group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36", null ],
     [ "randomRegularGraph", "group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171", null ],
     [ "randomSeriesParallelDAG", "group__graph-generators.html#gab7bf735577889df8926599b1152957f5", null ],
+    [ "randomSimpleConnectedGraph", "group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201", null ],
     [ "randomSimpleGraph", "group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d", null ],
     [ "randomTree", "group__graph-generators.html#ga95ff41c015fe92cc550088127e43d09c", null ],
     [ "randomTree", "group__graph-generators.html#gad83c1576fee773abf95334f842f6849b", null ],

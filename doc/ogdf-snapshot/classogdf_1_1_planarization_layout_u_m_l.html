@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::PlanarizationLayoutUML Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -212,7 +210,7 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ac29823f1dbfd054d13d10f91866ee708"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planarization_layout_u_m_l.html#ac29823f1dbfd054d13d10f91866ee708">arrangeCCs</a> (<a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> &amp;PG, <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;boundingBox)</td></tr>
+<tr class="memitem:ac29823f1dbfd054d13d10f91866ee708"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planarization_layout_u_m_l.html#ac29823f1dbfd054d13d10f91866ee708">arrangeCCs</a> (<a class="el" href="classogdf_1_1_plan_rep.html">PlanRep</a> &amp;PG, <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;boundingBox)</td></tr>
 <tr class="separator:ac29823f1dbfd054d13d10f91866ee708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b7476b4d47765b0fcacf1747e318c45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planarization_layout_u_m_l.html#a4b7476b4d47765b0fcacf1747e318c45">doSimpleCall</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA)</td></tr>
 <tr class="separator:a4b7476b4d47765b0fcacf1747e318c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,7 +287,7 @@ Private Attributes</h2></td></tr>
 <tr>
 <td><em>crossMin</em></td><td><a class="el" href="classogdf_1_1_u_m_l_crossing_minimization_module.html" title="Base class for UML crossing minimization algorithms. ">UMLCrossingMinimizationModule</a></td><td><a class="el" href="classogdf_1_1_subgraph_planarizer_u_m_l.html" title="The planarization approach for UML crossing minimization. ">SubgraphPlanarizerUML</a> </td><td>The module used for the crossing minimization step. </td></tr>
 <tr>
-<td><em>embedder</em></td><td><a class="el" href="classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms. ">EmbedderModule</a></td><td><a class="el" href="classogdf_1_1_simple_embedder.html" title="Planar graph embedding by using default planarEmbed. ">SimpleEmbedder</a> </td><td>The graph embedding algorithm applied after the crossing minimization step. </td></tr>
+<td><em>embedder</em></td><td><a class="el" href="classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms. ">EmbedderModule</a></td><td><a class="el" href="classogdf_1_1_simple_embedder.html" title="Embedder that chooses a largest face as the external one. ">SimpleEmbedder</a> </td><td>The graph embedding algorithm applied after the crossing minimization step. </td></tr>
 <tr>
 <td><em>planarLayouter</em></td><td><a class="el" href="classogdf_1_1_layout_plan_rep_u_m_l_module.html" title="Interface for planar UML layout algorithms. ">LayoutPlanRepUMLModule</a></td><td><a class="el" href="classogdf_1_1_ortho_layout_u_m_l.html" title="Represents planar orthogonal drawing algorithm for mixed-upward planar embedded graphs (UML-diagrams)...">OrthoLayoutUML</a> </td><td>The planar layout algorithm used to compute a planar layout of the planarized representation resulting from the crossing minimization step. </td></tr>
 <tr>
@@ -397,7 +395,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>boundingBox</em>&#160;</td>
         </tr>
         <tr>

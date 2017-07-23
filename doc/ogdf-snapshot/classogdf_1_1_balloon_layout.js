@@ -14,7 +14,6 @@ var classogdf_1_1_balloon_layout =
       [ "BfsRandom", "classogdf_1_1_balloon_layout.html#a4c0907ad5aa63967eb0dae310208d53daf65ef662c2336614e79090d07dca593e", null ]
     ] ],
     [ "BalloonLayout", "classogdf_1_1_balloon_layout.html#a865ab25ddf238f9dffe08875ba34fec2", null ],
-    [ "~BalloonLayout", "classogdf_1_1_balloon_layout.html#a3bc957b58f5764065f15bdba0214ef2a", null ],
     [ "call", "classogdf_1_1_balloon_layout.html#a92fc233167402e5872dd0cc8fe45d316", null ],
     [ "callFractal", "classogdf_1_1_balloon_layout.html#a9452bc3e83c3baba2d3212f533f48922", null ],
     [ "check", "classogdf_1_1_balloon_layout.html#a5a4a8d2cc2703df4451303cc3dbb63f8", null ],

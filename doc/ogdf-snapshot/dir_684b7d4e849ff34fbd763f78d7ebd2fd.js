@@ -14,7 +14,6 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "Barrier.h", "_barrier_8h.html", null ],
     [ "basic.h", "basic_8h.html", "basic_8h" ],
     [ "BoundedQueue.h", "_bounded_queue_8h.html", "_bounded_queue_8h" ],
-    [ "BoundedStack.h", "_bounded_stack_8h.html", "_bounded_stack_8h" ],
     [ "CombinatorialEmbedding.h", "_combinatorial_embedding_8h.html", "_combinatorial_embedding_8h" ],
     [ "comparer.h", "comparer_8h.html", "comparer_8h" ],
     [ "DisjointSets.h", "_disjoint_sets_8h.html", "_disjoint_sets_8h" ],
@@ -26,22 +25,6 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "EdgeComparer.h", "_edge_comparer_8h.html", null ],
     [ "EdgeComparerSimple.h", "_edge_comparer_simple_8h.html", [
       [ "EdgeComparerSimple", "classogdf_1_1_edge_comparer_simple.html", "classogdf_1_1_edge_comparer_simple" ]
-    ] ],
-    [ "EFreeList.h", "_e_free_list_8h.html", [
-      [ "EFreeList", "classogdf_1_1_e_free_list.html", "classogdf_1_1_e_free_list" ],
-      [ "EFreeList", "classogdf_1_1_e_free_list.html", "classogdf_1_1_e_free_list" ],
-      [ "EFreeListIndexPool", "classogdf_1_1_e_free_list_index_pool.html", "classogdf_1_1_e_free_list_index_pool" ],
-      [ "EFreeListIndexPool", "classogdf_1_1_e_free_list_index_pool.html", "classogdf_1_1_e_free_list_index_pool" ],
-      [ "EFreeListTypes", "classogdf_1_1_e_free_list_types.html", "classogdf_1_1_e_free_list_types" ],
-      [ "EFreeListTypes", "classogdf_1_1_e_free_list_types.html", "classogdf_1_1_e_free_list_types" ]
-    ] ],
-    [ "EList.h", "_e_list_8h.html", [
-      [ "EList", "classogdf_1_1_e_list.html", "classogdf_1_1_e_list" ],
-      [ "EList", "classogdf_1_1_e_list.html", "classogdf_1_1_e_list" ],
-      [ "EListIterator", "classogdf_1_1_e_list_iterator.html", "classogdf_1_1_e_list_iterator" ],
-      [ "EListIterator", "classogdf_1_1_e_list_iterator.html", "classogdf_1_1_e_list_iterator" ],
-      [ "EStack", "classogdf_1_1_e_stack.html", "classogdf_1_1_e_stack" ],
-      [ "EStack", "classogdf_1_1_e_stack.html", "classogdf_1_1_e_stack" ]
     ] ],
     [ "EpsilonTest.h", "_epsilon_test_8h.html", [
       [ "EpsilonTest", "classogdf_1_1_epsilon_test.html", "classogdf_1_1_epsilon_test" ]
@@ -58,6 +41,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
       [ "GF2Solver", "classogdf_1_1_g_f2_solver.html", "classogdf_1_1_g_f2_solver" ],
       [ "Chunk", "structogdf_1_1_g_f2_solver_1_1_chunk.html", "structogdf_1_1_g_f2_solver_1_1_chunk" ],
       [ "Chunk2", "structogdf_1_1_g_f2_solver_1_1_chunk2.html", "structogdf_1_1_g_f2_solver_1_1_chunk2" ],
+      [ "ChunkBase", "structogdf_1_1_g_f2_solver_1_1_chunk_base.html", "structogdf_1_1_g_f2_solver_1_1_chunk_base" ],
       [ "Equation", "classogdf_1_1_g_f2_solver_1_1_equation.html", "classogdf_1_1_g_f2_solver_1_1_equation" ],
       [ "Matrix", "classogdf_1_1_g_f2_solver_1_1_matrix.html", "classogdf_1_1_g_f2_solver_1_1_matrix" ],
       [ "Row2", "structogdf_1_1_g_f2_solver_1_1_row2.html", "structogdf_1_1_g_f2_solver_1_1_row2" ]
@@ -94,19 +78,15 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "HashIterator2D.h", "_hash_iterator2_d_8h.html", [
       [ "HashConstIterator2D", "classogdf_1_1_hash_const_iterator2_d.html", "classogdf_1_1_hash_const_iterator2_d" ]
     ] ],
-    [ "HyperGraph.h", "basic_2_hyper_graph_8h.html", "basic_2_hyper_graph_8h" ],
     [ "IncNodeInserter.h", "_inc_node_inserter_8h.html", [
       [ "IncNodeInserter", "classogdf_1_1_inc_node_inserter.html", "classogdf_1_1_inc_node_inserter" ]
     ] ],
-    [ "IndexComparer.h", "_index_comparer_8h.html", null ],
     [ "Layout.h", "_layout_8h.html", null ],
     [ "LayoutStandards.h", "_layout_standards_8h.html", null ],
     [ "LayoutStatistics.h", "_layout_statistics_8h.html", null ],
     [ "List.h", "_list_8h.html", "_list_8h" ],
     [ "Logger.h", "_logger_8h.html", "_logger_8h" ],
-    [ "Math.h", "_math_8h.html", [
-      [ "Math", "classogdf_1_1_math.html", "classogdf_1_1_math" ]
-    ] ],
+    [ "Math.h", "_math_8h.html", "_math_8h" ],
     [ "memory.h", "memory_8h.html", "memory_8h" ],
     [ "MinHeap.h", "_min_heap_8h.html", [
       [ "BinaryHeapSimple", "classogdf_1_1_binary_heap_simple.html", "classogdf_1_1_binary_heap_simple" ],
@@ -122,7 +102,6 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "NodeArray.h", "_node_array_8h.html", [
       [ "NodeArrayBase", "classogdf_1_1_node_array_base.html", "classogdf_1_1_node_array_base" ]
     ] ],
-    [ "NodeComparer.h", "_node_comparer_8h.html", null ],
     [ "NodeSet.h", "_node_set_8h.html", null ],
     [ "PQTree.h", "_p_q_tree_8h.html", [
       [ "PQTree", "classogdf_1_1_p_q_tree.html", "classogdf_1_1_p_q_tree" ]
@@ -148,7 +127,6 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
       [ "SortedSequenceIterator", "classogdf_1_1_sorted_sequence_iterator.html", "classogdf_1_1_sorted_sequence_iterator" ],
       [ "SortedSequenceIterator", "classogdf_1_1_sorted_sequence_iterator.html", "classogdf_1_1_sorted_sequence_iterator" ]
     ] ],
-    [ "Stack.h", "_stack_8h.html", "_stack_8h" ],
     [ "STNumbering.h", "_s_t_numbering_8h.html", "_s_t_numbering_8h" ],
     [ "Stopwatch.h", "_stopwatch_8h.html", [
       [ "StopwatchCPU", "classogdf_1_1_stopwatch_c_p_u.html", "classogdf_1_1_stopwatch_c_p_u" ],

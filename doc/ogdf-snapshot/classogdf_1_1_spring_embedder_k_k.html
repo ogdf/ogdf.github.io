@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::SpringEmbedderKK Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -158,9 +156,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff10d838fc7c544ec69c3884e1a4bc20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_k_k.html#aff10d838fc7c544ec69c3884e1a4bc20">SpringEmbedderKK</a> ()</td></tr>
 <tr class="memdesc:aff10d838fc7c544ec69c3884e1a4bc20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor: Constructs instance of Kamada Kawai <a class="el" href="classogdf_1_1_layout.html" title="Stores a layout of a graph (coordinates of nodes, bend points of edges). ">Layout</a>.  <a href="#aff10d838fc7c544ec69c3884e1a4bc20">More...</a><br /></td></tr>
 <tr class="separator:aff10d838fc7c544ec69c3884e1a4bc20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49cbd85e1f3aa0e706e2cb022875d3d1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_k_k.html#a49cbd85e1f3aa0e706e2cb022875d3d1">~SpringEmbedderKK</a> ()</td></tr>
-<tr class="memdesc:a49cbd85e1f3aa0e706e2cb022875d3d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor.  <a href="#a49cbd85e1f3aa0e706e2cb022875d3d1">More...</a><br /></td></tr>
-<tr class="separator:a49cbd85e1f3aa0e706e2cb022875d3d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab0d17c733577b620d3dd0d8fda57f18"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_k_k.html#aab0d17c733577b620d3dd0d8fda57f18">call</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA) override</td></tr>
 <tr class="memdesc:aab0d17c733577b620d3dd0d8fda57f18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the layout algorithm for graph attributes <code>GA</code>. Currently, GA.doubleWeight is NOT used to allow simple distinction of BFS/APSS. Precondition: <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a> is connected.  <a href="#aab0d17c733577b620d3dd0d8fda57f18">More...</a><br /></td></tr>
 <tr class="separator:aab0d17c733577b620d3dd0d8fda57f18"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -244,10 +239,9 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a423f3e7eac3f22a3811d6c0b7ee4136f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_k_k.html#a423f3e7eac3f22a3811d6c0b7ee4136f">allpairssp</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; double &gt; &amp;eLengths, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; double &gt; &gt; &amp;distance, const double threshold=numeric_limits&lt; double &gt;::max())</td></tr>
-<tr class="separator:a423f3e7eac3f22a3811d6c0b7ee4136f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d2d12675d37a741c228ac4c4f32ee12"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_k_k.html#a5d2d12675d37a741c228ac4c4f32ee12">allpairssp</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; double &gt; &amp;eLengths, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; double &gt; &gt; &amp;distance, const double threshold=std::numeric_limits&lt; double &gt;::max())</td></tr>
+<tr class="separator:a5d2d12675d37a741c228ac4c4f32ee12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b89961101ca136214738f82232d0bb"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_k_k.html#ae3b89961101ca136214738f82232d0bb">allpairsspBFS</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; double &gt; &gt; &amp;distance)</td></tr>
-<tr class="memdesc:ae3b89961101ca136214738f82232d0bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines infinite upper bound for iteration number  <a href="#ae3b89961101ca136214738f82232d0bb">More...</a><br /></td></tr>
 <tr class="separator:ae3b89961101ca136214738f82232d0bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -299,6 +293,7 @@ Static Private Attributes</h2></td></tr>
 <tr class="memdesc:a13bf1193ce63c5d13e66207a836e5fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines minimum desired edge length.  <a href="#a13bf1193ce63c5d13e66207a836e5fc9">More...</a><br /></td></tr>
 <tr class="separator:a13bf1193ce63c5d13e66207a836e5fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e16228fae5bdd5cc889cba04b474f70"><td class="memItemLeft" align="right" valign="top">static const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_k_k.html#a7e16228fae5bdd5cc889cba04b474f70">maxVal</a></td></tr>
+<tr class="memdesc:a7e16228fae5bdd5cc889cba04b474f70"><td class="mdescLeft">&#160;</td><td class="mdescRight">defines infinite upper bound for iteration number  <a href="#a7e16228fae5bdd5cc889cba04b474f70">More...</a><br /></td></tr>
 <tr class="separator:a7e16228fae5bdd5cc889cba04b474f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2afee1179e55a40285d923febc9f87d1"><td class="memItemLeft" align="right" valign="top">static const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_k_k.html#a2afee1179e55a40285d923febc9f87d1">minVal</a></td></tr>
 <tr class="separator:a2afee1179e55a40285d923febc9f87d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,7 +313,7 @@ Static Private Attributes</h2></td></tr>
 <td><em>tolerance</em></td><td>int</td><td>0.0001 </td><td>Tolerance for the energy level (below which the main loop stops).  </td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00075">75</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00074">74</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a0993b3f11b2a96da6c5e83c14bc85dd3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0993b3f11b2a96da6c5e83c14bc85dd3">&#9670;&nbsp;</a></span>dpair</h2>
@@ -332,7 +327,7 @@ Static Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00078">78</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00077">77</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -362,36 +357,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Constructor: Constructs instance of Kamada Kawai <a class="el" href="classogdf_1_1_layout.html" title="Stores a layout of a graph (coordinates of nodes, bend points of edges). ">Layout</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00081">81</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
-
-</div>
-</div>
-<a id="a49cbd85e1f3aa0e706e2cb022875d3d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49cbd85e1f3aa0e706e2cb022875d3d1">&#9670;&nbsp;</a></span>~SpringEmbedderKK()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ogdf::SpringEmbedderKK::~SpringEmbedderKK </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Destructor. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00089">89</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00080">80</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -446,8 +412,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a423f3e7eac3f22a3811d6c0b7ee4136f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a423f3e7eac3f22a3811d6c0b7ee4136f">&#9670;&nbsp;</a></span>allpairssp()</h2>
+<a id="a5d2d12675d37a741c228ac4c4f32ee12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d2d12675d37a741c228ac4c4f32ee12">&#9670;&nbsp;</a></span>allpairssp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -477,7 +443,7 @@ Static Private Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const double&#160;</td>
-          <td class="paramname"><em>threshold</em> = <code>numeric_limits&lt;&#160;double&#160;&gt;::max()</code>&#160;</td>
+          <td class="paramname"><em>threshold</em> = <code>std::numeric_limits&lt;&#160;double&#160;&gt;::max()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -527,8 +493,6 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>defines infinite upper bound for iteration number </p>
 
 </div>
 </div>
@@ -618,7 +582,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>If set to true, number of iterations is computed depending on G. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00140">140</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00150">150</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -798,7 +762,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Checks if main loop is finished because local optimum reached. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00162">162</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00173">173</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -828,7 +792,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Checks if inner loop (current node) is finished. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00186">186</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00198">198</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -967,7 +931,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00126">126</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00134">134</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -996,7 +960,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>It is possible to limit the number of iterations to a fixed value Returns the current setting of iterations. These values are only used if m_computeMaxIt is set to true. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00122">122</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00128">128</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1054,7 +1018,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Sets desirable edge length directly. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00116">116</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00122">122</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1082,7 +1046,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00125">125</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00132">132</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1112,7 +1076,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Sets the number of global iterations to <code>i</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00130">130</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00139">139</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1142,7 +1106,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Sets the number of local iterations to <code>i</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00135">135</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00145">145</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1172,7 +1136,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Sets the value for the stop tolerance, below which the system is regarded stable (balanced) and the optimization stopped. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00103">103</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00109">109</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1202,7 +1166,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>If set to true, the given layout is used for the initial positions. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00106">106</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00112">112</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1232,7 +1196,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>If set != 0, value zerolength is used to determine the desirable edge length by L = zerolength / max distance_ij. Otherwise, zerolength is determined using the node number and sizes. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00112">112</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00118">118</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1287,7 +1251,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00107">107</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00113">113</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1314,7 +1278,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00113">113</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00119">119</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1342,7 +1306,7 @@ Static Private Attributes</h2></td></tr>
 <p>Defines minimum desired edge length. </p>
 <p>Smaller values are treated as zero </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00265">265</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00281">281</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1368,7 +1332,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>If true, number of iterations is computed depending on number of nodes. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00249">249</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00268">268</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1394,7 +1358,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Desirable edge length, used instead if &gt; 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00256">256</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00273">273</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1418,7 +1382,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00257">257</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00274">274</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1444,7 +1408,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>minimum number of global iterations </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00260">260</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00276">276</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1470,7 +1434,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>factor for global iterations: m_gItBaseVal+m_gItFactor*|V| </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00261">261</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00277">277</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1494,7 +1458,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00251">251</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00269">269</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1520,7 +1484,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>value for local stop criterion </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00246">246</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00265">265</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1546,7 +1510,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Maximum number of global iterations. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00247">247</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00266">266</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1572,7 +1536,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Maximum number of local iterations. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00248">248</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00267">267</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1599,7 +1563,7 @@ Static Private Attributes</h2></td></tr>
 <p>Big K constant for strength computation. </p>
 <p>max energy value </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00252">252</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00270">270</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1625,7 +1589,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>local energy </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00253">253</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00271">271</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1652,7 +1616,7 @@ Static Private Attributes</h2></td></tr>
 <p>The stop criterion when the forces of all strings are considered to be balanced. </p>
 <p>value for stop criterion </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00245">245</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00264">264</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1678,7 +1642,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>use positions or allow to shuffle nodes to avoid degeneration </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00259">259</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00275">275</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1704,7 +1668,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Length of a side of the display area, used for edge length computation if &gt; 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00254">254</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00272">272</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1728,7 +1692,9 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00267">267</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p>defines infinite upper bound for iteration number </p>
+
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00282">282</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1752,7 +1718,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00264">264</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00280">280</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>
@@ -1776,7 +1742,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00263">263</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_k_k_8h_source.html#l00279">279</a> of file <a class="el" href="_spring_embedder_k_k_8h_source.html">SpringEmbedderKK.h</a>.</p>
 
 </div>
 </div>

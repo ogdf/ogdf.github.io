@@ -15,7 +15,7 @@ var classogdf_1_1_stopwatch =
     [ "start", "classogdf_1_1_stopwatch.html#a7be44ae4194a0ad80b8dfe32f9a3c5f8", null ],
     [ "stop", "classogdf_1_1_stopwatch.html#aa9beeea38fa4b08bfcbd78f7ce9ad7fe", null ],
     [ "theTime", "classogdf_1_1_stopwatch.html#af194f14818646ed87e227aa3ce23e4e2", null ],
-    [ "operator<<", "classogdf_1_1_stopwatch.html#a589b5f003c42ab5971c99d70ef9d3ba2", null ],
+    [ "operator<<", "classogdf_1_1_stopwatch.html#af7ce1a3d5cc191d2090bdd17456ca7d4", null ],
     [ "m_running", "classogdf_1_1_stopwatch.html#a5e75f935fa9308d62ada52cc177ffc62", null ],
     [ "m_startTime", "classogdf_1_1_stopwatch.html#a7343910d4759f26a955353daf77584b4", null ],
     [ "m_totalTime", "classogdf_1_1_stopwatch.html#a02a83fa7ca424b07579b35bf9797b8ae", null ]

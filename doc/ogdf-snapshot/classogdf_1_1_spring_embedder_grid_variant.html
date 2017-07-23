@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::SpringEmbedderGridVariant Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -122,9 +120,8 @@ $(document).ready(function(){initNavTree('classogdf_1_1_spring_embedder_grid_var
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classogdf_1_1_spring_embedder_grid_variant-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::SpringEmbedderGridVariant Class Reference<div class="ingroups"><a class="el" href="group__graph-drawing.html">Graph Drawing</a> &raquo; <a class="el" href="group__gd-energy.html">Energy-based Layout Algorithms</a></div></div>  </div>
@@ -142,7 +139,8 @@ $(document).ready(function(){initNavTree('classogdf_1_1_spring_embedder_grid_var
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classogdf_1_1_spring_embedder_grid_variant__inherit__graph.png" border="0" usemap="#ogdf_1_1_spring_embedder_grid_variant_inherit__map" alt="Inheritance graph"/></div>
 <map name="ogdf_1_1_spring_embedder_grid_variant_inherit__map" id="ogdf_1_1_spring_embedder_grid_variant_inherit__map">
-<area shape="rect" id="node2" href="classogdf_1_1_layout_module.html" title="Interface of general layout algorithms. " alt="" coords="25,5,161,32"/>
+<area shape="rect" id="node2" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html" title="Common base class for ogdf::SpringEmbedderBase and ogdf::SpringEmbedderGridVariant. " alt="" coords="15,80,171,121"/>
+<area shape="rect" id="node3" href="classogdf_1_1_layout_module.html" title="Interface of general layout algorithms. " alt="" coords="25,5,161,32"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -165,111 +163,105 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1_spring_embedder_grid_variant_1_1_node_info.html">NodeInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a8697d25990f9906080372319a487c95a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">Scaling</a> { <a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95aaa43c1b0aa53a0c908810c06ab1ff3967">Scaling::input</a>, 
-<a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95aac32fcaaab073e478ffd75bb6e2ce03f0">Scaling::userBoundingBox</a>, 
-<a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95aad042e1d6ead678fde0a3dd75d49b6902">Scaling::scaleFunction</a>, 
-<a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95aac1c9c85e8b98ac6784ecd0bb7c93c870">Scaling::useIdealEdgeLength</a>
- }<tr class="memdesc:a8697d25990f9906080372319a487c95a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scaling method used by the algorithm.  <a href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a8697d25990f9906080372319a487c95a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5e6dbb5d32edfeb353712b58041ef6ef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a5e6dbb5d32edfeb353712b58041ef6ef">SpringEmbedderGridVariant</a> ()</td></tr>
-<tr class="memdesc:a5e6dbb5d32edfeb353712b58041ef6ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an instance of Fruchterman/Reingold layout.  <a href="#a5e6dbb5d32edfeb353712b58041ef6ef">More...</a><br /></td></tr>
 <tr class="separator:a5e6dbb5d32edfeb353712b58041ef6ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20123a1eedf7f88cdf2131e8fec13097"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a20123a1eedf7f88cdf2131e8fec13097">~SpringEmbedderGridVariant</a> ()</td></tr>
-<tr class="separator:a20123a1eedf7f88cdf2131e8fec13097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aeb235653a786288c4241127557df7a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a1aeb235653a786288c4241127557df7a">avgConvergenceFactor</a> () const</td></tr>
-<tr class="memdesc:a1aeb235653a786288c4241127557df7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently used <em>average convergence factor</em>.  <a href="#a1aeb235653a786288c4241127557df7a">More...</a><br /></td></tr>
-<tr class="separator:a1aeb235653a786288c4241127557df7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc5662b68c14f046ac247596686dfe5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#adc5662b68c14f046ac247596686dfe5c">avgConvergenceFactor</a> (double f)</td></tr>
-<tr class="memdesc:adc5662b68c14f046ac247596686dfe5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <em>average convergence factor</em> to <code>f</code>.  <a href="#adc5662b68c14f046ac247596686dfe5c">More...</a><br /></td></tr>
-<tr class="separator:adc5662b68c14f046ac247596686dfe5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2567fd515fffef23d8606ca000e6d50f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a2567fd515fffef23d8606ca000e6d50f">call</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA) override</td></tr>
-<tr class="memdesc:a2567fd515fffef23d8606ca000e6d50f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the layout algorithm for graph attributes <code>GA</code>.  <a href="#a2567fd515fffef23d8606ca000e6d50f">More...</a><br /></td></tr>
-<tr class="separator:a2567fd515fffef23d8606ca000e6d50f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27fc7410d8c7820e1a34d0100f3cee0a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a27fc7410d8c7820e1a34d0100f3cee0a">coolDownFactor</a> () const</td></tr>
-<tr class="separator:a27fc7410d8c7820e1a34d0100f3cee0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a372984b896ba76f42f27fb19593ce5f7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a372984b896ba76f42f27fb19593ce5f7">forceLimitStep</a> () const</td></tr>
-<tr class="separator:a372984b896ba76f42f27fb19593ce5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10a398408f2c635ae49126f96e898cef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a10a398408f2c635ae49126f96e898cef">forceModel</a> () const</td></tr>
-<tr class="memdesc:a10a398408f2c635ae49126f96e898cef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently used force model.  <a href="#a10a398408f2c635ae49126f96e898cef">More...</a><br /></td></tr>
-<tr class="separator:a10a398408f2c635ae49126f96e898cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf1b1d948fa81e2515f4ddf16b17a0c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#aaf1b1d948fa81e2515f4ddf16b17a0c3">forceModel</a> (<a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a> fm)</td></tr>
-<tr class="memdesc:aaf1b1d948fa81e2515f4ddf16b17a0c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the used force model to <code>fm</code>.  <a href="#aaf1b1d948fa81e2515f4ddf16b17a0c3">More...</a><br /></td></tr>
-<tr class="separator:aaf1b1d948fa81e2515f4ddf16b17a0c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a870646300d599cf4ed515b3b4f0a70a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a870646300d599cf4ed515b3b4f0a70a4">forceModelImprove</a> () const</td></tr>
-<tr class="memdesc:a870646300d599cf4ed515b3b4f0a70a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently used force model for the improvement step.  <a href="#a870646300d599cf4ed515b3b4f0a70a4">More...</a><br /></td></tr>
-<tr class="separator:a870646300d599cf4ed515b3b4f0a70a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1423e2ae9127eb29c6ea2fe94f84a33f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a1423e2ae9127eb29c6ea2fe94f84a33f">forceModelImprove</a> (<a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a> fm)</td></tr>
-<tr class="memdesc:a1423e2ae9127eb29c6ea2fe94f84a33f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the used force model for the improvement step to <code>fm</code>.  <a href="#a1423e2ae9127eb29c6ea2fe94f84a33f">More...</a><br /></td></tr>
-<tr class="separator:a1423e2ae9127eb29c6ea2fe94f84a33f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f0127259f6c34a153d63628ee588eef"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a1f0127259f6c34a153d63628ee588eef">idealEdgeLength</a> () const</td></tr>
-<tr class="memdesc:a1f0127259f6c34a153d63628ee588eef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of ideal edge length.  <a href="#a1f0127259f6c34a153d63628ee588eef">More...</a><br /></td></tr>
-<tr class="separator:a1f0127259f6c34a153d63628ee588eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1721060e170cfc8fa099c418348f7ba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#ad1721060e170cfc8fa099c418348f7ba">idealEdgeLength</a> (double len)</td></tr>
-<tr class="memdesc:ad1721060e170cfc8fa099c418348f7ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the ideal edge length to <code>len</code>.  <a href="#ad1721060e170cfc8fa099c418348f7ba">More...</a><br /></td></tr>
-<tr class="separator:ad1721060e170cfc8fa099c418348f7ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75fc75be15dcafec3eb89b23e7e846a6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a75fc75be15dcafec3eb89b23e7e846a6">iterations</a> () const</td></tr>
-<tr class="memdesc:a75fc75be15dcafec3eb89b23e7e846a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of iterations.  <a href="#a75fc75be15dcafec3eb89b23e7e846a6">More...</a><br /></td></tr>
-<tr class="separator:a75fc75be15dcafec3eb89b23e7e846a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ebe73ee5e79d82ca1b2569dcc9ede1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a2ebe73ee5e79d82ca1b2569dcc9ede1f">iterations</a> (int i)</td></tr>
-<tr class="memdesc:a2ebe73ee5e79d82ca1b2569dcc9ede1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of iterations to <code>i</code>.  <a href="#a2ebe73ee5e79d82ca1b2569dcc9ede1f">More...</a><br /></td></tr>
-<tr class="separator:a2ebe73ee5e79d82ca1b2569dcc9ede1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5624f085a1597b0a797474a4ff1be8f3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a5624f085a1597b0a797474a4ff1be8f3">iterationsImprove</a> () const</td></tr>
-<tr class="memdesc:a5624f085a1597b0a797474a4ff1be8f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of iterations for the improvement phase.  <a href="#a5624f085a1597b0a797474a4ff1be8f3">More...</a><br /></td></tr>
-<tr class="separator:a5624f085a1597b0a797474a4ff1be8f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0881d5f79b3b7df5a7bf64377539301e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a0881d5f79b3b7df5a7bf64377539301e">iterationsImprove</a> (int i)</td></tr>
-<tr class="memdesc:a0881d5f79b3b7df5a7bf64377539301e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of iterations for the improvement phase to <code>i</code>.  <a href="#a0881d5f79b3b7df5a7bf64377539301e">More...</a><br /></td></tr>
-<tr class="separator:a0881d5f79b3b7df5a7bf64377539301e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71793d34c808be432e8b93f3e3ba4106"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a71793d34c808be432e8b93f3e3ba4106">maxConvergenceFactor</a> () const</td></tr>
-<tr class="memdesc:a71793d34c808be432e8b93f3e3ba4106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently used <em>maximum</em> convergence factor.  <a href="#a71793d34c808be432e8b93f3e3ba4106">More...</a><br /></td></tr>
-<tr class="separator:a71793d34c808be432e8b93f3e3ba4106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35081191037f921cf2f2b972337acb9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a35081191037f921cf2f2b972337acb9e">maxConvergenceFactor</a> (double f)</td></tr>
-<tr class="memdesc:a35081191037f921cf2f2b972337acb9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <em>maximum</em> convergence factor to <code>f</code>.  <a href="#a35081191037f921cf2f2b972337acb9e">More...</a><br /></td></tr>
-<tr class="separator:a35081191037f921cf2f2b972337acb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29726f78c597c02665ba631687176992"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a29726f78c597c02665ba631687176992">maxThreads</a> () const</td></tr>
-<tr class="memdesc:a29726f78c597c02665ba631687176992"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximal number of used threads.  <a href="#a29726f78c597c02665ba631687176992">More...</a><br /></td></tr>
-<tr class="separator:a29726f78c597c02665ba631687176992"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37b6071eed71df3a48f2c54abe9e05fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a37b6071eed71df3a48f2c54abe9e05fd">maxThreads</a> (unsigned int n)</td></tr>
-<tr class="memdesc:a37b6071eed71df3a48f2c54abe9e05fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximal number of used threads to <code>n</code>.  <a href="#a37b6071eed71df3a48f2c54abe9e05fd">More...</a><br /></td></tr>
-<tr class="separator:a37b6071eed71df3a48f2c54abe9e05fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23cce6dd1042e006d1cca4f68cafba57"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a23cce6dd1042e006d1cca4f68cafba57">minDistCC</a> () const</td></tr>
-<tr class="memdesc:a23cce6dd1042e006d1cca4f68cafba57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the minimum distance between connected components.  <a href="#a23cce6dd1042e006d1cca4f68cafba57">More...</a><br /></td></tr>
-<tr class="separator:a23cce6dd1042e006d1cca4f68cafba57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab27a1c0f2301ddfe6f13303fd3c0d86b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#ab27a1c0f2301ddfe6f13303fd3c0d86b">minDistCC</a> (double x)</td></tr>
-<tr class="memdesc:ab27a1c0f2301ddfe6f13303fd3c0d86b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the minimum distance between connected components to <code>x</code>.  <a href="#ab27a1c0f2301ddfe6f13303fd3c0d86b">More...</a><br /></td></tr>
-<tr class="separator:ab27a1c0f2301ddfe6f13303fd3c0d86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80da8743cf987603a66978628b9ef89d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a80da8743cf987603a66978628b9ef89d">noise</a> () const</td></tr>
-<tr class="memdesc:a80da8743cf987603a66978628b9ef89d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of noise.  <a href="#a80da8743cf987603a66978628b9ef89d">More...</a><br /></td></tr>
-<tr class="separator:a80da8743cf987603a66978628b9ef89d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44fce2383521e9d223d7a87d79159194"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a44fce2383521e9d223d7a87d79159194">noise</a> (bool on)</td></tr>
-<tr class="memdesc:a44fce2383521e9d223d7a87d79159194"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the parameter noise to <code>on</code>.  <a href="#a44fce2383521e9d223d7a87d79159194">More...</a><br /></td></tr>
-<tr class="separator:a44fce2383521e9d223d7a87d79159194"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3eada2fdbab12400690c5bc294add20"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#ae3eada2fdbab12400690c5bc294add20">pageRatio</a> ()</td></tr>
-<tr class="memdesc:ae3eada2fdbab12400690c5bc294add20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the page ratio.  <a href="#ae3eada2fdbab12400690c5bc294add20">More...</a><br /></td></tr>
-<tr class="separator:ae3eada2fdbab12400690c5bc294add20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22f704021a98a778df32dca0ff8cc69d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a22f704021a98a778df32dca0ff8cc69d">pageRatio</a> (double x)</td></tr>
-<tr class="memdesc:a22f704021a98a778df32dca0ff8cc69d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the page ration to <code>x</code>.  <a href="#a22f704021a98a778df32dca0ff8cc69d">More...</a><br /></td></tr>
-<tr class="separator:a22f704021a98a778df32dca0ff8cc69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38402daa40a5f514759f662e4a3a721e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a38402daa40a5f514759f662e4a3a721e">scaleFunctionFactor</a> () const</td></tr>
-<tr class="memdesc:a38402daa40a5f514759f662e4a3a721e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current scale function factor.  <a href="#a38402daa40a5f514759f662e4a3a721e">More...</a><br /></td></tr>
-<tr class="separator:a38402daa40a5f514759f662e4a3a721e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dc775c7a79334920739c6b07d2edc3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8dc775c7a79334920739c6b07d2edc3a">scaleFunctionFactor</a> (double f)</td></tr>
-<tr class="memdesc:a8dc775c7a79334920739c6b07d2edc3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scale function factor to <code>f</code>.  <a href="#a8dc775c7a79334920739c6b07d2edc3a">More...</a><br /></td></tr>
-<tr class="separator:a8dc775c7a79334920739c6b07d2edc3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e13bcd7dd252955ed562ffa83eda42a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">Scaling</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8e13bcd7dd252955ed562ffa83eda42a">scaling</a> () const</td></tr>
-<tr class="memdesc:a8e13bcd7dd252955ed562ffa83eda42a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current scaling method.  <a href="#a8e13bcd7dd252955ed562ffa83eda42a">More...</a><br /></td></tr>
-<tr class="separator:a8e13bcd7dd252955ed562ffa83eda42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a931b4630042016392330cd54891f86c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a931b4630042016392330cd54891f86c5">scaling</a> (<a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">Scaling</a> sc)</td></tr>
-<tr class="memdesc:a931b4630042016392330cd54891f86c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the method for scaling the inital layout to <code>sc</code>.  <a href="#a931b4630042016392330cd54891f86c5">More...</a><br /></td></tr>
-<tr class="separator:a931b4630042016392330cd54891f86c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83962c73c1bfce255a57d76b2fb6b127"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a83962c73c1bfce255a57d76b2fb6b127">userBoundingBox</a> (double xmin, double ymin, double xmax, double ymax)</td></tr>
-<tr class="memdesc:a83962c73c1bfce255a57d76b2fb6b127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the user bounding box (used if scaling method is scUserBoundingBox).  <a href="#a83962c73c1bfce255a57d76b2fb6b127">More...</a><br /></td></tr>
-<tr class="separator:a83962c73c1bfce255a57d76b2fb6b127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html">ogdf::spring_embedder::SpringEmbedderBase</a></td></tr>
+<tr class="memitem:ab8db54f3fc03759b40b2fadcd00fb5b9 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ab8db54f3fc03759b40b2fadcd00fb5b9">SpringEmbedderBase</a> ()</td></tr>
+<tr class="memdesc:ab8db54f3fc03759b40b2fadcd00fb5b9 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ab8db54f3fc03759b40b2fadcd00fb5b9">More...</a><br /></td></tr>
+<tr class="separator:ab8db54f3fc03759b40b2fadcd00fb5b9 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6417f6a2baeb652a75c5789807520c4 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af6417f6a2baeb652a75c5789807520c4">avgConvergenceFactor</a> () const</td></tr>
+<tr class="memdesc:af6417f6a2baeb652a75c5789807520c4 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently used <em>average convergence factor</em>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af6417f6a2baeb652a75c5789807520c4">More...</a><br /></td></tr>
+<tr class="separator:af6417f6a2baeb652a75c5789807520c4 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9ad98540704d998ee903c73032c0306 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aa9ad98540704d998ee903c73032c0306">avgConvergenceFactor</a> (double f)</td></tr>
+<tr class="memdesc:aa9ad98540704d998ee903c73032c0306 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <em>average convergence factor</em> to <code>f</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aa9ad98540704d998ee903c73032c0306">More...</a><br /></td></tr>
+<tr class="separator:aa9ad98540704d998ee903c73032c0306 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a645645bd561de89c75e9023295ba66da inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a645645bd561de89c75e9023295ba66da">call</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;GA) override</td></tr>
+<tr class="memdesc:a645645bd561de89c75e9023295ba66da inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a layout of graph <code>GA</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a645645bd561de89c75e9023295ba66da">More...</a><br /></td></tr>
+<tr class="separator:a645645bd561de89c75e9023295ba66da inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4f4933bde388225a9c333c358740254 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ac4f4933bde388225a9c333c358740254">coolDownFactor</a> () const</td></tr>
+<tr class="separator:ac4f4933bde388225a9c333c358740254 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8e576d8bf26e2a097fe597f57d4013 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0e8e576d8bf26e2a097fe597f57d4013">forceLimitStep</a> () const</td></tr>
+<tr class="separator:a0e8e576d8bf26e2a097fe597f57d4013 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab10b4e47288f337402169f6a85d3b882 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ab10b4e47288f337402169f6a85d3b882">forceModel</a> () const</td></tr>
+<tr class="memdesc:ab10b4e47288f337402169f6a85d3b882 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently used force model.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ab10b4e47288f337402169f6a85d3b882">More...</a><br /></td></tr>
+<tr class="separator:ab10b4e47288f337402169f6a85d3b882 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a011b4097556030c532de2786406e8726 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a011b4097556030c532de2786406e8726">forceModel</a> (<a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a> fm)</td></tr>
+<tr class="memdesc:a011b4097556030c532de2786406e8726 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the used force model to <code>fm</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a011b4097556030c532de2786406e8726">More...</a><br /></td></tr>
+<tr class="separator:a011b4097556030c532de2786406e8726 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a731bd9c3b21f970cd3fccebc11339c51 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a731bd9c3b21f970cd3fccebc11339c51">forceModelImprove</a> () const</td></tr>
+<tr class="memdesc:a731bd9c3b21f970cd3fccebc11339c51 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently used force model for the improvement step.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a731bd9c3b21f970cd3fccebc11339c51">More...</a><br /></td></tr>
+<tr class="separator:a731bd9c3b21f970cd3fccebc11339c51 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18186d6a3c2fbb5c6f9c88d35a5a3c51 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a18186d6a3c2fbb5c6f9c88d35a5a3c51">forceModelImprove</a> (<a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a> fm)</td></tr>
+<tr class="memdesc:a18186d6a3c2fbb5c6f9c88d35a5a3c51 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the used force model for the improvement step to <code>fm</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a18186d6a3c2fbb5c6f9c88d35a5a3c51">More...</a><br /></td></tr>
+<tr class="separator:a18186d6a3c2fbb5c6f9c88d35a5a3c51 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0932e0e44833e4d62d117109d1f52ab inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ac0932e0e44833e4d62d117109d1f52ab">idealEdgeLength</a> () const</td></tr>
+<tr class="memdesc:ac0932e0e44833e4d62d117109d1f52ab inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of ideal edge length.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ac0932e0e44833e4d62d117109d1f52ab">More...</a><br /></td></tr>
+<tr class="separator:ac0932e0e44833e4d62d117109d1f52ab inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f00e4e2c2f093dc1af433a79d23c194 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a8f00e4e2c2f093dc1af433a79d23c194">idealEdgeLength</a> (double len)</td></tr>
+<tr class="memdesc:a8f00e4e2c2f093dc1af433a79d23c194 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the ideal edge length to <code>len</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a8f00e4e2c2f093dc1af433a79d23c194">More...</a><br /></td></tr>
+<tr class="separator:a8f00e4e2c2f093dc1af433a79d23c194 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4ba1d3d8bdf3facbd5161e83a899862 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ad4ba1d3d8bdf3facbd5161e83a899862">iterations</a> () const</td></tr>
+<tr class="memdesc:ad4ba1d3d8bdf3facbd5161e83a899862 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of iterations.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ad4ba1d3d8bdf3facbd5161e83a899862">More...</a><br /></td></tr>
+<tr class="separator:ad4ba1d3d8bdf3facbd5161e83a899862 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7e16c3d9ea682c5c3de1e4c555ac241 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af7e16c3d9ea682c5c3de1e4c555ac241">iterations</a> (int i)</td></tr>
+<tr class="memdesc:af7e16c3d9ea682c5c3de1e4c555ac241 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of iterations to <code>i</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af7e16c3d9ea682c5c3de1e4c555ac241">More...</a><br /></td></tr>
+<tr class="separator:af7e16c3d9ea682c5c3de1e4c555ac241 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6eca6c57c1f9e814d70dd8b88053bd inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#abb6eca6c57c1f9e814d70dd8b88053bd">iterationsImprove</a> () const</td></tr>
+<tr class="memdesc:abb6eca6c57c1f9e814d70dd8b88053bd inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of iterations for the improvement phase.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#abb6eca6c57c1f9e814d70dd8b88053bd">More...</a><br /></td></tr>
+<tr class="separator:abb6eca6c57c1f9e814d70dd8b88053bd inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa77845d94643fd0e5ba7333432f92f5 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aaa77845d94643fd0e5ba7333432f92f5">iterationsImprove</a> (int i)</td></tr>
+<tr class="memdesc:aaa77845d94643fd0e5ba7333432f92f5 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the number of iterations for the improvement phase to <code>i</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aaa77845d94643fd0e5ba7333432f92f5">More...</a><br /></td></tr>
+<tr class="separator:aaa77845d94643fd0e5ba7333432f92f5 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a003b7dfe38e3d9f7434f0244da5f844d inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a003b7dfe38e3d9f7434f0244da5f844d">maxConvergenceFactor</a> () const</td></tr>
+<tr class="memdesc:a003b7dfe38e3d9f7434f0244da5f844d inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the currently used <em>maximum</em> convergence factor.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a003b7dfe38e3d9f7434f0244da5f844d">More...</a><br /></td></tr>
+<tr class="separator:a003b7dfe38e3d9f7434f0244da5f844d inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86c2a264ee411f1f03a0442dcf159aad inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a86c2a264ee411f1f03a0442dcf159aad">maxConvergenceFactor</a> (double f)</td></tr>
+<tr class="memdesc:a86c2a264ee411f1f03a0442dcf159aad inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the <em>maximum</em> convergence factor to <code>f</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a86c2a264ee411f1f03a0442dcf159aad">More...</a><br /></td></tr>
+<tr class="separator:a86c2a264ee411f1f03a0442dcf159aad inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8a5255b0172c3c77f1533dd43574d71 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ae8a5255b0172c3c77f1533dd43574d71">maxThreads</a> () const</td></tr>
+<tr class="memdesc:ae8a5255b0172c3c77f1533dd43574d71 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximal number of used threads.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ae8a5255b0172c3c77f1533dd43574d71">More...</a><br /></td></tr>
+<tr class="separator:ae8a5255b0172c3c77f1533dd43574d71 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b2119c456ee604c30e69184cfe5d73 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af6b2119c456ee604c30e69184cfe5d73">maxThreads</a> (unsigned int n)</td></tr>
+<tr class="memdesc:af6b2119c456ee604c30e69184cfe5d73 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximal number of used threads to <code>n</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af6b2119c456ee604c30e69184cfe5d73">More...</a><br /></td></tr>
+<tr class="separator:af6b2119c456ee604c30e69184cfe5d73 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcb01ad9018455c943e6b2ea46d6c4fc inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#afcb01ad9018455c943e6b2ea46d6c4fc">minDistCC</a> () const</td></tr>
+<tr class="memdesc:afcb01ad9018455c943e6b2ea46d6c4fc inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the minimum distance between connected components.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#afcb01ad9018455c943e6b2ea46d6c4fc">More...</a><br /></td></tr>
+<tr class="separator:afcb01ad9018455c943e6b2ea46d6c4fc inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a947cf24f7b80020c332f074e100c529f inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a947cf24f7b80020c332f074e100c529f">minDistCC</a> (double x)</td></tr>
+<tr class="memdesc:a947cf24f7b80020c332f074e100c529f inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the minimum distance between connected components to <code>x</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a947cf24f7b80020c332f074e100c529f">More...</a><br /></td></tr>
+<tr class="separator:a947cf24f7b80020c332f074e100c529f inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89bbc357ecbb25ca902948bd3f90116a inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a89bbc357ecbb25ca902948bd3f90116a">noise</a> () const</td></tr>
+<tr class="memdesc:a89bbc357ecbb25ca902948bd3f90116a inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of noise.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a89bbc357ecbb25ca902948bd3f90116a">More...</a><br /></td></tr>
+<tr class="separator:a89bbc357ecbb25ca902948bd3f90116a inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a609acd0f67fb3e32ceacd04c1e2e3f57 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a609acd0f67fb3e32ceacd04c1e2e3f57">noise</a> (bool on)</td></tr>
+<tr class="memdesc:a609acd0f67fb3e32ceacd04c1e2e3f57 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the parameter noise to <code>on</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a609acd0f67fb3e32ceacd04c1e2e3f57">More...</a><br /></td></tr>
+<tr class="separator:a609acd0f67fb3e32ceacd04c1e2e3f57 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af787b9e472960b373bd8d6cd205ef22c inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af787b9e472960b373bd8d6cd205ef22c">pageRatio</a> ()</td></tr>
+<tr class="memdesc:af787b9e472960b373bd8d6cd205ef22c inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the page ratio.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af787b9e472960b373bd8d6cd205ef22c">More...</a><br /></td></tr>
+<tr class="separator:af787b9e472960b373bd8d6cd205ef22c inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af96cc371593dec52e4c42dd76aff8304 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af96cc371593dec52e4c42dd76aff8304">pageRatio</a> (double x)</td></tr>
+<tr class="memdesc:af96cc371593dec52e4c42dd76aff8304 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the page ration to <code>x</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af96cc371593dec52e4c42dd76aff8304">More...</a><br /></td></tr>
+<tr class="separator:af96cc371593dec52e4c42dd76aff8304 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12480002128c96003829d01f9487c08d inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a12480002128c96003829d01f9487c08d">scaleFunctionFactor</a> () const</td></tr>
+<tr class="memdesc:a12480002128c96003829d01f9487c08d inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current scale function factor.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a12480002128c96003829d01f9487c08d">More...</a><br /></td></tr>
+<tr class="separator:a12480002128c96003829d01f9487c08d inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d4ff067434f7073f65ce1c0723a855e inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a4d4ff067434f7073f65ce1c0723a855e">scaleFunctionFactor</a> (double f)</td></tr>
+<tr class="memdesc:a4d4ff067434f7073f65ce1c0723a855e inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the scale function factor to <code>f</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a4d4ff067434f7073f65ce1c0723a855e">More...</a><br /></td></tr>
+<tr class="separator:a4d4ff067434f7073f65ce1c0723a855e inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5521ac85aab037274b93e1c56fd20e97 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631">Scaling</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a5521ac85aab037274b93e1c56fd20e97">scaling</a> () const</td></tr>
+<tr class="memdesc:a5521ac85aab037274b93e1c56fd20e97 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current scaling method.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a5521ac85aab037274b93e1c56fd20e97">More...</a><br /></td></tr>
+<tr class="separator:a5521ac85aab037274b93e1c56fd20e97 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab42d9ceac93d3149b77a2be38d770c0a inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ab42d9ceac93d3149b77a2be38d770c0a">scaling</a> (<a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631">Scaling</a> sc)</td></tr>
+<tr class="memdesc:ab42d9ceac93d3149b77a2be38d770c0a inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the method for scaling the inital layout to <code>sc</code>.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ab42d9ceac93d3149b77a2be38d770c0a">More...</a><br /></td></tr>
+<tr class="separator:ab42d9ceac93d3149b77a2be38d770c0a inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f277ee059b38c343dd1186f48e6cf68 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0f277ee059b38c343dd1186f48e6cf68">userBoundingBox</a> (double xmin, double ymin, double xmax, double ymax)</td></tr>
+<tr class="memdesc:a0f277ee059b38c343dd1186f48e6cf68 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the user bounding box (used if scaling method is scUserBoundingBox).  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0f277ee059b38c343dd1186f48e6cf68">More...</a><br /></td></tr>
+<tr class="separator:a0f277ee059b38c343dd1186f48e6cf68 inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a779049d085a5e3deaf1e49998534917f inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_rect.html">DRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a779049d085a5e3deaf1e49998534917f">userBoundingBox</a> () const</td></tr>
+<tr class="memdesc:a779049d085a5e3deaf1e49998534917f inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the user bounding box.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a779049d085a5e3deaf1e49998534917f">More...</a><br /></td></tr>
+<tr class="separator:a779049d085a5e3deaf1e49998534917f inherit pub_methods_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classogdf_1_1_layout_module"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classogdf_1_1_layout_module')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classogdf_1_1_layout_module.html">ogdf::LayoutModule</a></td></tr>
 <tr class="memitem:afa15908e24507d452034fb16841e5a44 inherit pub_methods_classogdf_1_1_layout_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_layout_module.html#afa15908e24507d452034fb16841e5a44">LayoutModule</a> ()</td></tr>
 <tr class="memdesc:afa15908e24507d452034fb16841e5a44 inherit pub_methods_classogdf_1_1_layout_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a layout module.  <a href="classogdf_1_1_layout_module.html#afa15908e24507d452034fb16841e5a44">More...</a><br /></td></tr>
@@ -280,74 +272,68 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ad21c3c2a7f0c237e2c3ab02c6ae1edc7 inherit pub_methods_classogdf_1_1_layout_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a layout of graph <code>GA</code>.  <a href="classogdf_1_1_layout_module.html#ad21c3c2a7f0c237e2c3ab02c6ae1edc7">More...</a><br /></td></tr>
 <tr class="separator:ad21c3c2a7f0c237e2c3ab02c6ae1edc7 inherit pub_methods_classogdf_1_1_layout_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ad8808267a4c9c45d7d29435cff4a0e6e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#ad8808267a4c9c45d7d29435cff4a0e6e">m_avgConvergenceFactor</a></td></tr>
-<tr class="memdesc:ad8808267a4c9c45d7d29435cff4a0e6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">convergence if avg.  <a href="#ad8808267a4c9c45d7d29435cff4a0e6e">More...</a><br /></td></tr>
-<tr class="separator:ad8808267a4c9c45d7d29435cff4a0e6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aadfb4e3589210a8c5bf85532d6fcd0b1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#aadfb4e3589210a8c5bf85532d6fcd0b1">m_bbXmax</a></td></tr>
-<tr class="memdesc:aadfb4e3589210a8c5bf85532d6fcd0b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">User bounding box (minimal y-coordinate).  <a href="#aadfb4e3589210a8c5bf85532d6fcd0b1">More...</a><br /></td></tr>
-<tr class="separator:aadfb4e3589210a8c5bf85532d6fcd0b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c750c24c5a2f3828a0fde7855eb15e3"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a1c750c24c5a2f3828a0fde7855eb15e3">m_bbXmin</a></td></tr>
-<tr class="memdesc:a1c750c24c5a2f3828a0fde7855eb15e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">User bounding box (minimal x-coordinate).  <a href="#a1c750c24c5a2f3828a0fde7855eb15e3">More...</a><br /></td></tr>
-<tr class="separator:a1c750c24c5a2f3828a0fde7855eb15e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c6567edeb2d3a83eaa50eefdbf07650"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a1c6567edeb2d3a83eaa50eefdbf07650">m_bbYmax</a></td></tr>
-<tr class="memdesc:a1c6567edeb2d3a83eaa50eefdbf07650"><td class="mdescLeft">&#160;</td><td class="mdescRight">User bounding box (maximal y-coordinate).  <a href="#a1c6567edeb2d3a83eaa50eefdbf07650">More...</a><br /></td></tr>
-<tr class="separator:a1c6567edeb2d3a83eaa50eefdbf07650"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f4c46a47c3fdd7388ac3a8d06f8b230"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a6f4c46a47c3fdd7388ac3a8d06f8b230">m_bbYmin</a></td></tr>
-<tr class="memdesc:a6f4c46a47c3fdd7388ac3a8d06f8b230"><td class="mdescLeft">&#160;</td><td class="mdescRight">User bounding box (maximal x-coordinate).  <a href="#a6f4c46a47c3fdd7388ac3a8d06f8b230">More...</a><br /></td></tr>
-<tr class="separator:a6f4c46a47c3fdd7388ac3a8d06f8b230"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aece03d736e516cc564ebcd0ae2f501"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8aece03d736e516cc564ebcd0ae2f501">m_coolDownFactor</a></td></tr>
-<tr class="separator:a8aece03d736e516cc564ebcd0ae2f501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a695cdb15f83054836052c7246ee33b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a9a695cdb15f83054836052c7246ee33b">m_forceLimitStep</a></td></tr>
-<tr class="separator:a9a695cdb15f83054836052c7246ee33b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50ee9bccb562a04923b36778f7db745c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a50ee9bccb562a04923b36778f7db745c">m_forceModel</a></td></tr>
-<tr class="separator:a50ee9bccb562a04923b36778f7db745c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4046fdabbe0451177caf4124e982451"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#ae4046fdabbe0451177caf4124e982451">m_forceModelImprove</a></td></tr>
-<tr class="memdesc:ae4046fdabbe0451177caf4124e982451"><td class="mdescLeft">&#160;</td><td class="mdescRight">The used force model.  <a href="#ae4046fdabbe0451177caf4124e982451">More...</a><br /></td></tr>
-<tr class="separator:ae4046fdabbe0451177caf4124e982451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb8f219e705c6da0f6896c95048ff839"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#abb8f219e705c6da0f6896c95048ff839">m_idealEdgeLength</a></td></tr>
-<tr class="memdesc:abb8f219e705c6da0f6896c95048ff839"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ideal edge length.  <a href="#abb8f219e705c6da0f6896c95048ff839">More...</a><br /></td></tr>
-<tr class="separator:abb8f219e705c6da0f6896c95048ff839"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a736234169485f4488c89efbd2425cd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8a736234169485f4488c89efbd2425cd">m_iterations</a></td></tr>
-<tr class="memdesc:a8a736234169485f4488c89efbd2425cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of iterations.  <a href="#a8a736234169485f4488c89efbd2425cd">More...</a><br /></td></tr>
-<tr class="separator:a8a736234169485f4488c89efbd2425cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5d6ee2718791261c33fb83c588c1ec6"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#aa5d6ee2718791261c33fb83c588c1ec6">m_iterationsImprove</a></td></tr>
-<tr class="memdesc:aa5d6ee2718791261c33fb83c588c1ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of iterations for the improvement phase.  <a href="#aa5d6ee2718791261c33fb83c588c1ec6">More...</a><br /></td></tr>
-<tr class="separator:aa5d6ee2718791261c33fb83c588c1ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab30165a70eba4cd11198bd691d1c5b9d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#ab30165a70eba4cd11198bd691d1c5b9d">m_maxConvergenceFactor</a></td></tr>
-<tr class="memdesc:ab30165a70eba4cd11198bd691d1c5b9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">convergence if max.  <a href="#ab30165a70eba4cd11198bd691d1c5b9d">More...</a><br /></td></tr>
-<tr class="separator:ab30165a70eba4cd11198bd691d1c5b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a495e75551f4a7e47d768ca690943249d"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a495e75551f4a7e47d768ca690943249d">m_maxThreads</a></td></tr>
-<tr class="memdesc:a495e75551f4a7e47d768ca690943249d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximal number of used threads.  <a href="#a495e75551f4a7e47d768ca690943249d">More...</a><br /></td></tr>
-<tr class="separator:a495e75551f4a7e47d768ca690943249d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa11b22ec24aa9a5dd727590d844d709f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#aa11b22ec24aa9a5dd727590d844d709f">m_minDistCC</a></td></tr>
-<tr class="memdesc:aa11b22ec24aa9a5dd727590d844d709f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimal distance between connected components.  <a href="#aa11b22ec24aa9a5dd727590d844d709f">More...</a><br /></td></tr>
-<tr class="separator:aa11b22ec24aa9a5dd727590d844d709f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38d2dff39773ddf189c03fd7811904e0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a38d2dff39773ddf189c03fd7811904e0">m_noise</a></td></tr>
-<tr class="memdesc:a38d2dff39773ddf189c03fd7811904e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The used force model for the improvement phase.  <a href="#a38d2dff39773ddf189c03fd7811904e0">More...</a><br /></td></tr>
-<tr class="separator:a38d2dff39773ddf189c03fd7811904e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a150e6625d865df3c09bfa9465993bc3a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a150e6625d865df3c09bfa9465993bc3a">m_pageRatio</a></td></tr>
-<tr class="memdesc:a150e6625d865df3c09bfa9465993bc3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The page ratio.  <a href="#a150e6625d865df3c09bfa9465993bc3a">More...</a><br /></td></tr>
-<tr class="separator:a150e6625d865df3c09bfa9465993bc3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4027faaaad628bd947a75e5ce1cab34a"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a4027faaaad628bd947a75e5ce1cab34a">m_scaleFactor</a></td></tr>
-<tr class="memdesc:a4027faaaad628bd947a75e5ce1cab34a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The factor used if scaling type is scScaleFunction.  <a href="#a4027faaaad628bd947a75e5ce1cab34a">More...</a><br /></td></tr>
-<tr class="separator:a4027faaaad628bd947a75e5ce1cab34a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f4d338cacb9d98615f07bc1d15d30a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">Scaling</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a7f4d338cacb9d98615f07bc1d15d30a4">m_scaling</a></td></tr>
-<tr class="memdesc:a7f4d338cacb9d98615f07bc1d15d30a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scaling method.  <a href="#a7f4d338cacb9d98615f07bc1d15d30a4">More...</a><br /></td></tr>
-<tr class="separator:a7f4d338cacb9d98615f07bc1d15d30a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44a1528eb1b7e0fd9641657baf1d840b"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a44a1528eb1b7e0fd9641657baf1d840b">m_xleft</a></td></tr>
-<tr class="memdesc:a44a1528eb1b7e0fd9641657baf1d840b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounding box (minimal x-coordinate).  <a href="#a44a1528eb1b7e0fd9641657baf1d840b">More...</a><br /></td></tr>
-<tr class="separator:a44a1528eb1b7e0fd9641657baf1d840b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a649026d3152f22a923280be25d335aea"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a649026d3152f22a923280be25d335aea">m_xright</a></td></tr>
-<tr class="memdesc:a649026d3152f22a923280be25d335aea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounding box (maximal x-coordinate).  <a href="#a649026d3152f22a923280be25d335aea">More...</a><br /></td></tr>
-<tr class="separator:a649026d3152f22a923280be25d335aea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a856c1d171e5832cab658674e4b09068e"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a856c1d171e5832cab658674e4b09068e">m_ybig</a></td></tr>
-<tr class="memdesc:a856c1d171e5832cab658674e4b09068e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounding box (maximal y-coordinate).  <a href="#a856c1d171e5832cab658674e4b09068e">More...</a><br /></td></tr>
-<tr class="separator:a856c1d171e5832cab658674e4b09068e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54a966e4c9aa465d23557508d5a61857"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a54a966e4c9aa465d23557508d5a61857">m_ysmall</a></td></tr>
-<tr class="memdesc:a54a966e4c9aa465d23557508d5a61857"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bounding box (minimal y-coordinate).  <a href="#a54a966e4c9aa465d23557508d5a61857">More...</a><br /></td></tr>
-<tr class="separator:a54a966e4c9aa465d23557508d5a61857"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a9406add9a765caea9b722298c8f0c791"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a9406add9a765caea9b722298c8f0c791">callMaster</a> (const <a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;copy, <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;attr, <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;box) override</td></tr>
+<tr class="separator:a9406add9a765caea9b722298c8f0c791"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_types_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classogdf_1_1spring__embedder_1_1_spring_embedder_base')"><img src="closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html">ogdf::spring_embedder::SpringEmbedderBase</a></td></tr>
+<tr class="memitem:af97ce711b8f1fb71ca1824cfb029a631 inherit pub_types_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631">Scaling</a> { <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631aa43c1b0aa53a0c908810c06ab1ff3967">Scaling::input</a>, 
+<a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631ac32fcaaab073e478ffd75bb6e2ce03f0">Scaling::userBoundingBox</a>, 
+<a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631ad042e1d6ead678fde0a3dd75d49b6902">Scaling::scaleFunction</a>, 
+<a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631ac1c9c85e8b98ac6784ecd0bb7c93c870">Scaling::useIdealEdgeLength</a>
+ }<tr class="memdesc:af97ce711b8f1fb71ca1824cfb029a631"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scaling method used by the algorithm.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:af97ce711b8f1fb71ca1824cfb029a631 inherit pub_types_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html">ogdf::spring_embedder::SpringEmbedderBase</a></td></tr>
+<tr class="memitem:a0448dac9346603767b3af1d50ab96ecb inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0448dac9346603767b3af1d50ab96ecb">m_avgConvergenceFactor</a></td></tr>
+<tr class="memdesc:a0448dac9346603767b3af1d50ab96ecb inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">convergence if avg.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0448dac9346603767b3af1d50ab96ecb">More...</a><br /></td></tr>
+<tr class="separator:a0448dac9346603767b3af1d50ab96ecb inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2801df9c7f707f7839c9b74f49bb74c inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_rect.html">DRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ae2801df9c7f707f7839c9b74f49bb74c">m_boundingBox</a></td></tr>
+<tr class="separator:ae2801df9c7f707f7839c9b74f49bb74c inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30ea2cb42056ddd30d5b29f7996b55cf inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a30ea2cb42056ddd30d5b29f7996b55cf">m_coolDownFactor</a></td></tr>
+<tr class="separator:a30ea2cb42056ddd30d5b29f7996b55cf inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99f78988371cacbc9d0453a71abe39d3 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a99f78988371cacbc9d0453a71abe39d3">m_forceLimitStep</a></td></tr>
+<tr class="separator:a99f78988371cacbc9d0453a71abe39d3 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67a40be2266316a2cdc17380a70d7553 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a67a40be2266316a2cdc17380a70d7553">m_forceModel</a></td></tr>
+<tr class="separator:a67a40be2266316a2cdc17380a70d7553 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b36fd92145da3504e922cc328636aff inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0b36fd92145da3504e922cc328636aff">m_forceModelImprove</a></td></tr>
+<tr class="memdesc:a0b36fd92145da3504e922cc328636aff inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The used force model.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0b36fd92145da3504e922cc328636aff">More...</a><br /></td></tr>
+<tr class="separator:a0b36fd92145da3504e922cc328636aff inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6cfcdb56a725e149306ba1facbe72e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aeb6cfcdb56a725e149306ba1facbe72e">m_idealEdgeLength</a></td></tr>
+<tr class="memdesc:aeb6cfcdb56a725e149306ba1facbe72e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The ideal edge length.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aeb6cfcdb56a725e149306ba1facbe72e">More...</a><br /></td></tr>
+<tr class="separator:aeb6cfcdb56a725e149306ba1facbe72e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8136412513f9cf270c43a47ed2ab324f inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a8136412513f9cf270c43a47ed2ab324f">m_iterations</a></td></tr>
+<tr class="memdesc:a8136412513f9cf270c43a47ed2ab324f inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of iterations.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a8136412513f9cf270c43a47ed2ab324f">More...</a><br /></td></tr>
+<tr class="separator:a8136412513f9cf270c43a47ed2ab324f inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0adb1d3ed410e5a56de1a4f076416d4e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0adb1d3ed410e5a56de1a4f076416d4e">m_iterationsImprove</a></td></tr>
+<tr class="memdesc:a0adb1d3ed410e5a56de1a4f076416d4e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The number of iterations for the improvement phase.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0adb1d3ed410e5a56de1a4f076416d4e">More...</a><br /></td></tr>
+<tr class="separator:a0adb1d3ed410e5a56de1a4f076416d4e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20613e0acdf47327ae48795e7f4ed14 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af20613e0acdf47327ae48795e7f4ed14">m_maxConvergenceFactor</a></td></tr>
+<tr class="memdesc:af20613e0acdf47327ae48795e7f4ed14 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">convergence if max.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af20613e0acdf47327ae48795e7f4ed14">More...</a><br /></td></tr>
+<tr class="separator:af20613e0acdf47327ae48795e7f4ed14 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86466b1a3f2254cd250801d11fc91f84 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a86466b1a3f2254cd250801d11fc91f84">m_maxThreads</a></td></tr>
+<tr class="memdesc:a86466b1a3f2254cd250801d11fc91f84 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximal number of used threads.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a86466b1a3f2254cd250801d11fc91f84">More...</a><br /></td></tr>
+<tr class="separator:a86466b1a3f2254cd250801d11fc91f84 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8dd794a00fe33c0a8b51eb589eb1cc5 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aa8dd794a00fe33c0a8b51eb589eb1cc5">m_minDistCC</a></td></tr>
+<tr class="memdesc:aa8dd794a00fe33c0a8b51eb589eb1cc5 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimal distance between connected components.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aa8dd794a00fe33c0a8b51eb589eb1cc5">More...</a><br /></td></tr>
+<tr class="separator:aa8dd794a00fe33c0a8b51eb589eb1cc5 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eeb437bc71b654919c5fe440e3a51fe inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a9eeb437bc71b654919c5fe440e3a51fe">m_noise</a></td></tr>
+<tr class="memdesc:a9eeb437bc71b654919c5fe440e3a51fe inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The used force model for the improvement phase.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a9eeb437bc71b654919c5fe440e3a51fe">More...</a><br /></td></tr>
+<tr class="separator:a9eeb437bc71b654919c5fe440e3a51fe inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab16778dfc798dcebecd5e0c6eb34daa inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aab16778dfc798dcebecd5e0c6eb34daa">m_pageRatio</a></td></tr>
+<tr class="memdesc:aab16778dfc798dcebecd5e0c6eb34daa inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The page ratio.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aab16778dfc798dcebecd5e0c6eb34daa">More...</a><br /></td></tr>
+<tr class="separator:aab16778dfc798dcebecd5e0c6eb34daa inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9342d9f4f0a307666514a66b1281c56 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af9342d9f4f0a307666514a66b1281c56">m_scaleFactor</a></td></tr>
+<tr class="memdesc:af9342d9f4f0a307666514a66b1281c56 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The factor used if scaling type is scScaleFunction.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af9342d9f4f0a307666514a66b1281c56">More...</a><br /></td></tr>
+<tr class="separator:af9342d9f4f0a307666514a66b1281c56 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ac469a286227ef5f5f4764cbf7abb5e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631">Scaling</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a6ac469a286227ef5f5f4764cbf7abb5e">m_scaling</a></td></tr>
+<tr class="memdesc:a6ac469a286227ef5f5f4764cbf7abb5e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scaling method.  <a href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a6ac469a286227ef5f5f4764cbf7abb5e">More...</a><br /></td></tr>
+<tr class="separator:a6ac469a286227ef5f5f4764cbf7abb5e inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb6efb0a41bc395a47b619d7f928b6e3 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_rect.html">DRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#acb6efb0a41bc395a47b619d7f928b6e3">m_userBoundingBox</a></td></tr>
+<tr class="separator:acb6efb0a41bc395a47b619d7f928b6e3 inherit pro_attribs_classogdf_1_1spring__embedder_1_1_spring_embedder_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The spring-embedder layout algorithm with force approximation using hte grid variant approach. </p>
@@ -367,7 +353,7 @@ Private Attributes</h2></td></tr>
 <tr>
 <td><em>pageRatio</em></td><td>double</td><td>1.0 </td><td>The page ratio. </td></tr>
 <tr>
-<td><em>scaling</em></td><td><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a" title="The scaling method used by the algorithm. ">Scaling</a> </td><td><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95aad042e1d6ead678fde0a3dd75d49b6902" title="automatic scaling is used with parameter set by scaleFunctionFactor() (larger factor, larger b-box). ">Scaling::scaleFunction</a> </td><td>The scaling method for scaling the inital layout. </td></tr>
+<td><em>scaling</em></td><td><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631" title="The scaling method used by the algorithm. ">Scaling</a> </td><td><a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631ad042e1d6ead678fde0a3dd75d49b6902" title="automatic scaling is used with parameter set by scaleFunctionFactor() (larger factor, larger b-box). ">Scaling::scaleFunction</a> </td><td>The scaling method for scaling the inital layout. </td></tr>
 <tr>
 <td><em>scaleFunctionFactor</em></td><td>double</td><td>8.0 </td><td>The scale function factor (used if scaling = scaleFunction). </td></tr>
 <tr>
@@ -375,49 +361,15 @@ Private Attributes</h2></td></tr>
 </table>
 
 <p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00081">81</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a8697d25990f9906080372319a487c95a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8697d25990f9906080372319a487c95a">&#9670;&nbsp;</a></span>Scaling</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a5e6dbb5d32edfeb353712b58041ef6ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e6dbb5d32edfeb353712b58041ef6ef">&#9670;&nbsp;</a></span>SpringEmbedderGridVariant()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">ogdf::SpringEmbedderGridVariant::Scaling</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The scaling method used by the algorithm. </p>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a8697d25990f9906080372319a487c95aaa43c1b0aa53a0c908810c06ab1ff3967"></a>input&#160;</td><td class="fielddoc"><p>bounding box of input is used. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a8697d25990f9906080372319a487c95aac32fcaaab073e478ffd75bb6e2ce03f0"></a>userBoundingBox&#160;</td><td class="fielddoc"><p>bounding box set by <a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a83962c73c1bfce255a57d76b2fb6b127" title="Sets the user bounding box (used if scaling method is scUserBoundingBox). ">userBoundingBox()</a> is used. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a8697d25990f9906080372319a487c95aad042e1d6ead678fde0a3dd75d49b6902"></a>scaleFunction&#160;</td><td class="fielddoc"><p>automatic scaling is used with parameter set by <a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a38402daa40a5f514759f662e4a3a721e" title="Returns the current scale function factor. ">scaleFunctionFactor()</a> (larger factor, larger b-box). </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a8697d25990f9906080372319a487c95aac1c9c85e8b98ac6784ecd0bb7c93c870"></a>useIdealEdgeLength&#160;</td><td class="fielddoc"><p>use the given ideal edge length to scale the layout suitably. </p>
-</td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00085">85</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5e6dbb5d32edfeb353712b58041ef6ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e6dbb5d32edfeb353712b58041ef6ef">&#9670;&nbsp;</a></span>SpringEmbedderGridVariant()</h2>
-
-<div class="memitem">
-<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">ogdf::SpringEmbedderGridVariant::SpringEmbedderGridVariant </td>
@@ -426,28 +378,6 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-<p>Creates an instance of Fruchterman/Reingold layout. </p>
-
-</div>
-</div>
-<a id="a20123a1eedf7f88cdf2131e8fec13097"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20123a1eedf7f88cdf2131e8fec13097">&#9670;&nbsp;</a></span>~SpringEmbedderGridVariant()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ogdf::SpringEmbedderGridVariant::~SpringEmbedderGridVariant </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
@@ -455,13 +385,13 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00097">97</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00084">84</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1aeb235653a786288c4241127557df7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1aeb235653a786288c4241127557df7a">&#9670;&nbsp;</a></span>avgConvergenceFactor() <span class="overload">[1/2]</span></h2>
+<a id="a9406add9a765caea9b722298c8f0c791"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9406add9a765caea9b722298c8f0c791">&#9670;&nbsp;</a></span>callMaster()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -470,883 +400,22 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::avgConvergenceFactor </td>
+          <td class="memname">void ogdf::SpringEmbedderGridVariant::callMaster </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph_copy.html">GraphCopy</a> &amp;&#160;</td>
+          <td class="paramname"><em>copy</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the currently used <em>average convergence factor</em>. </p>
-<p>This factor is used for detecting convergence of the energy system. With respect to the average displacement of a node in a single step, we assume to have convergence if it is at most <a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#ad8808267a4c9c45d7d29435cff4a0e6e" title="convergence if avg. ">m_avgConvergenceFactor</a> * <a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#abb8f219e705c6da0f6896c95048ff839" title="The ideal edge length. ">m_idealEdgeLength</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00133">133</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="adc5662b68c14f046ac247596686dfe5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc5662b68c14f046ac247596686dfe5c">&#9670;&nbsp;</a></span>avgConvergenceFactor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::avgConvergenceFactor </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the <em>average convergence factor</em> to <code>f</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00138">138</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a2567fd515fffef23d8606ca000e6d50f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2567fd515fffef23d8606ca000e6d50f">&#9670;&nbsp;</a></span>call()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void ogdf::SpringEmbedderGridVariant::call </td>
-          <td>(</td>
           <td class="paramtype"><a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;&#160;</td>
-          <td class="paramname"><em>GA</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Calls the layout algorithm for graph attributes <code>GA</code>. </p>
-
-<p>Implements <a class="el" href="classogdf_1_1_layout_module.html#ae6fe7945f310d5e21e5e559675bb6521">ogdf::LayoutModule</a>.</p>
-
-</div>
-</div>
-<a id="a27fc7410d8c7820e1a34d0100f3cee0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27fc7410d8c7820e1a34d0100f3cee0a">&#9670;&nbsp;</a></span>coolDownFactor()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::coolDownFactor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00190">190</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a372984b896ba76f42f27fb19593ce5f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a372984b896ba76f42f27fb19593ce5f7">&#9670;&nbsp;</a></span>forceLimitStep()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::forceLimitStep </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00194">194</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a10a398408f2c635ae49126f96e898cef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10a398408f2c635ae49126f96e898cef">&#9670;&nbsp;</a></span>forceModel() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a> ogdf::SpringEmbedderGridVariant::forceModel </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the currently used force model. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00108">108</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="aaf1b1d948fa81e2515f4ddf16b17a0c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf1b1d948fa81e2515f4ddf16b17a0c3">&#9670;&nbsp;</a></span>forceModel() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::forceModel </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td>
-          <td class="paramname"><em>fm</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the used force model to <code>fm</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00113">113</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a870646300d599cf4ed515b3b4f0a70a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a870646300d599cf4ed515b3b4f0a70a4">&#9670;&nbsp;</a></span>forceModelImprove() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a> ogdf::SpringEmbedderGridVariant::forceModelImprove </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the currently used force model for the improvement step. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00118">118</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a1423e2ae9127eb29c6ea2fe94f84a33f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1423e2ae9127eb29c6ea2fe94f84a33f">&#9670;&nbsp;</a></span>forceModelImprove() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::forceModelImprove </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a>&#160;</td>
-          <td class="paramname"><em>fm</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the used force model for the improvement step to <code>fm</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00123">123</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a1f0127259f6c34a153d63628ee588eef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f0127259f6c34a153d63628ee588eef">&#9670;&nbsp;</a></span>idealEdgeLength() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::idealEdgeLength </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the current setting of ideal edge length. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00186">186</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="ad1721060e170cfc8fa099c418348f7ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1721060e170cfc8fa099c418348f7ba">&#9670;&nbsp;</a></span>idealEdgeLength() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::idealEdgeLength </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>len</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the ideal edge length to <code>len</code>. </p>
-<p>Edge lengths are measured between the centers of the two nodes, i.e., node sizes are not taken into account. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00203">203</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a75fc75be15dcafec3eb89b23e7e846a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75fc75be15dcafec3eb89b23e7e846a6">&#9670;&nbsp;</a></span>iterations() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ogdf::SpringEmbedderGridVariant::iterations </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the current setting of iterations. </p>
-<p>This setting limits the number of optimization rounds. If convergence (with respect to node displacement) is detected, the optimization process is immediately finished. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00164">164</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a2ebe73ee5e79d82ca1b2569dcc9ede1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ebe73ee5e79d82ca1b2569dcc9ede1f">&#9670;&nbsp;</a></span>iterations() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::iterations </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the number of iterations to <code>i</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00169">169</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a5624f085a1597b0a797474a4ff1be8f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5624f085a1597b0a797474a4ff1be8f3">&#9670;&nbsp;</a></span>iterationsImprove() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ogdf::SpringEmbedderGridVariant::iterationsImprove </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the current setting of iterations for the improvement phase. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00175">175</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a0881d5f79b3b7df5a7bf64377539301e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0881d5f79b3b7df5a7bf64377539301e">&#9670;&nbsp;</a></span>iterationsImprove() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::iterationsImprove </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>i</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the number of iterations for the improvement phase to <code>i</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00180">180</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a71793d34c808be432e8b93f3e3ba4106"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71793d34c808be432e8b93f3e3ba4106">&#9670;&nbsp;</a></span>maxConvergenceFactor() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::maxConvergenceFactor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the currently used <em>maximum</em> convergence factor. </p>
-<p>This factor is used for detecting convergence of the energy system. With respect to the maximum displacement of a node in a single step, we assume to have convergence if it is at most <a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#ab30165a70eba4cd11198bd691d1c5b9d" title="convergence if max. ">m_maxConvergenceFactor</a> * <a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#abb8f219e705c6da0f6896c95048ff839" title="The ideal edge length. ">m_idealEdgeLength</a>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00149">149</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a35081191037f921cf2f2b972337acb9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35081191037f921cf2f2b972337acb9e">&#9670;&nbsp;</a></span>maxConvergenceFactor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::maxConvergenceFactor </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the <em>maximum</em> convergence factor to <code>f</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00154">154</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a29726f78c597c02665ba631687176992"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29726f78c597c02665ba631687176992">&#9670;&nbsp;</a></span>maxThreads() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int ogdf::SpringEmbedderGridVariant::maxThreads </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the maximal number of used threads. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00258">258</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a37b6071eed71df3a48f2c54abe9e05fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37b6071eed71df3a48f2c54abe9e05fd">&#9670;&nbsp;</a></span>maxThreads() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::maxThreads </td>
-          <td>(</td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the maximal number of used threads to <code>n</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00261">261</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a23cce6dd1042e006d1cca4f68cafba57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23cce6dd1042e006d1cca4f68cafba57">&#9670;&nbsp;</a></span>minDistCC() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::minDistCC </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the minimum distance between connected components. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00218">218</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="ab27a1c0f2301ddfe6f13303fd3c0d86b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab27a1c0f2301ddfe6f13303fd3c0d86b">&#9670;&nbsp;</a></span>minDistCC() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::minDistCC </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the minimum distance between connected components to <code>x</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00221">221</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a80da8743cf987603a66978628b9ef89d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80da8743cf987603a66978628b9ef89d">&#9670;&nbsp;</a></span>noise() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ogdf::SpringEmbedderGridVariant::noise </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the current setting of noise. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00208">208</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a44fce2383521e9d223d7a87d79159194"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44fce2383521e9d223d7a87d79159194">&#9670;&nbsp;</a></span>noise() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::noise </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>on</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the parameter noise to <code>on</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00213">213</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="ae3eada2fdbab12400690c5bc294add20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3eada2fdbab12400690c5bc294add20">&#9670;&nbsp;</a></span>pageRatio() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::pageRatio </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the page ratio. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00224">224</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a22f704021a98a778df32dca0ff8cc69d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22f704021a98a778df32dca0ff8cc69d">&#9670;&nbsp;</a></span>pageRatio() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::pageRatio </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>x</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the page ration to <code>x</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00227">227</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a38402daa40a5f514759f662e4a3a721e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38402daa40a5f514759f662e4a3a721e">&#9670;&nbsp;</a></span>scaleFunctionFactor() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::scaleFunctionFactor </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the current scale function factor. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00240">240</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a8dc775c7a79334920739c6b07d2edc3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dc775c7a79334920739c6b07d2edc3a">&#9670;&nbsp;</a></span>scaleFunctionFactor() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::scaleFunctionFactor </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>f</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the scale function factor to <code>f</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00245">245</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a8e13bcd7dd252955ed562ffa83eda42a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e13bcd7dd252955ed562ffa83eda42a">&#9670;&nbsp;</a></span>scaling() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">Scaling</a> ogdf::SpringEmbedderGridVariant::scaling </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns the current scaling method. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00230">230</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a931b4630042016392330cd54891f86c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a931b4630042016392330cd54891f86c5">&#9670;&nbsp;</a></span>scaling() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::scaling </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">Scaling</a>&#160;</td>
-          <td class="paramname"><em>sc</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Sets the method for scaling the inital layout to <code>sc</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00235">235</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a83962c73c1bfce255a57d76b2fb6b127"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83962c73c1bfce255a57d76b2fb6b127">&#9670;&nbsp;</a></span>userBoundingBox()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::SpringEmbedderGridVariant::userBoundingBox </td>
-          <td>(</td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>xmin</em>, </td>
+          <td class="paramname"><em>attr</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ymin</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>xmax</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">double&#160;</td>
-          <td class="paramname"><em>ymax</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
+          <td class="paramname"><em>box</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1356,610 +425,12 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Sets the user bounding box (used if scaling method is scUserBoundingBox). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00250">250</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ad8808267a4c9c45d7d29435cff4a0e6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8808267a4c9c45d7d29435cff4a0e6e">&#9670;&nbsp;</a></span>m_avgConvergenceFactor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_avgConvergenceFactor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>convergence if avg. </p>
-<p>displacement is at most this factor times ideal edge length </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00315">315</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="aadfb4e3589210a8c5bf85532d6fcd0b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aadfb4e3589210a8c5bf85532d6fcd0b1">&#9670;&nbsp;</a></span>m_bbXmax</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_bbXmax</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>User bounding box (minimal y-coordinate). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00309">309</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a1c750c24c5a2f3828a0fde7855eb15e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c750c24c5a2f3828a0fde7855eb15e3">&#9670;&nbsp;</a></span>m_bbXmin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_bbXmin</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>User bounding box (minimal x-coordinate). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00307">307</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a1c6567edeb2d3a83eaa50eefdbf07650"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c6567edeb2d3a83eaa50eefdbf07650">&#9670;&nbsp;</a></span>m_bbYmax</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_bbYmax</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>User bounding box (maximal y-coordinate). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00310">310</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a6f4c46a47c3fdd7388ac3a8d06f8b230"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f4c46a47c3fdd7388ac3a8d06f8b230">&#9670;&nbsp;</a></span>m_bbYmin</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_bbYmin</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>User bounding box (maximal x-coordinate). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00308">308</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a8aece03d736e516cc564ebcd0ae2f501"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8aece03d736e516cc564ebcd0ae2f501">&#9670;&nbsp;</a></span>m_coolDownFactor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_coolDownFactor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00292">292</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a9a695cdb15f83054836052c7246ee33b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a695cdb15f83054836052c7246ee33b">&#9670;&nbsp;</a></span>m_forceLimitStep</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_forceLimitStep</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00293">293</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a50ee9bccb562a04923b36778f7db745c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50ee9bccb562a04923b36778f7db745c">&#9670;&nbsp;</a></span>m_forceModel</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a> ogdf::SpringEmbedderGridVariant::m_forceModel</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00300">300</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="ae4046fdabbe0451177caf4124e982451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4046fdabbe0451177caf4124e982451">&#9670;&nbsp;</a></span>m_forceModelImprove</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea">SpringForceModel</a> ogdf::SpringEmbedderGridVariant::m_forceModelImprove</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The used force model. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00301">301</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="abb8f219e705c6da0f6896c95048ff839"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb8f219e705c6da0f6896c95048ff839">&#9670;&nbsp;</a></span>m_idealEdgeLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_idealEdgeLength</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The ideal edge length. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00291">291</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a8a736234169485f4488c89efbd2425cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a736234169485f4488c89efbd2425cd">&#9670;&nbsp;</a></span>m_iterations</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ogdf::SpringEmbedderGridVariant::m_iterations</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The number of iterations. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00287">287</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="aa5d6ee2718791261c33fb83c588c1ec6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5d6ee2718791261c33fb83c588c1ec6">&#9670;&nbsp;</a></span>m_iterationsImprove</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">int ogdf::SpringEmbedderGridVariant::m_iterationsImprove</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The number of iterations for the improvement phase. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00290">290</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="ab30165a70eba4cd11198bd691d1c5b9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab30165a70eba4cd11198bd691d1c5b9d">&#9670;&nbsp;</a></span>m_maxConvergenceFactor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_maxConvergenceFactor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>convergence if max. </p>
-<p>displacement is at most this factor times ideal edge length </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00316">316</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a495e75551f4a7e47d768ca690943249d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a495e75551f4a7e47d768ca690943249d">&#9670;&nbsp;</a></span>m_maxThreads</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int ogdf::SpringEmbedderGridVariant::m_maxThreads</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The maximal number of used threads. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00318">318</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="aa11b22ec24aa9a5dd727590d844d709f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa11b22ec24aa9a5dd727590d844d709f">&#9670;&nbsp;</a></span>m_minDistCC</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_minDistCC</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The minimal distance between connected components. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00312">312</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a38d2dff39773ddf189c03fd7811904e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38d2dff39773ddf189c03fd7811904e0">&#9670;&nbsp;</a></span>m_noise</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ogdf::SpringEmbedderGridVariant::m_noise</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The used force model for the improvement phase. </p>
-<p>Perform random perturbations? </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00302">302</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a150e6625d865df3c09bfa9465993bc3a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a150e6625d865df3c09bfa9465993bc3a">&#9670;&nbsp;</a></span>m_pageRatio</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_pageRatio</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The page ratio. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00313">313</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a4027faaaad628bd947a75e5ce1cab34a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4027faaaad628bd947a75e5ce1cab34a">&#9670;&nbsp;</a></span>m_scaleFactor</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_scaleFactor</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The factor used if scaling type is scScaleFunction. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00305">305</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a7f4d338cacb9d98615f07bc1d15d30a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f4d338cacb9d98615f07bc1d15d30a4">&#9670;&nbsp;</a></span>m_scaling</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a">Scaling</a> ogdf::SpringEmbedderGridVariant::m_scaling</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The scaling method. </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00304">304</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a44a1528eb1b7e0fd9641657baf1d840b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44a1528eb1b7e0fd9641657baf1d840b">&#9670;&nbsp;</a></span>m_xleft</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_xleft</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Bounding box (minimal x-coordinate). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00295">295</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a649026d3152f22a923280be25d335aea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a649026d3152f22a923280be25d335aea">&#9670;&nbsp;</a></span>m_xright</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_xright</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Bounding box (maximal x-coordinate). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00296">296</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a856c1d171e5832cab658674e4b09068e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a856c1d171e5832cab658674e4b09068e">&#9670;&nbsp;</a></span>m_ybig</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_ybig</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Bounding box (maximal y-coordinate). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00298">298</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
-
-</div>
-</div>
-<a id="a54a966e4c9aa465d23557508d5a61857"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54a966e4c9aa465d23557508d5a61857">&#9670;&nbsp;</a></span>m_ysmall</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double ogdf::SpringEmbedderGridVariant::m_ysmall</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Bounding box (minimal y-coordinate). </p>
-
-<p class="definition">Definition at line <a class="el" href="_spring_embedder_grid_variant_8h_source.html#l00297">297</a> of file <a class="el" href="_spring_embedder_grid_variant_8h_source.html">SpringEmbedderGridVariant.h</a>.</p>
+<p>Implements <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0ac56adc841a40f0d432cc0bf2dc1cde">ogdf::spring_embedder::SpringEmbedderBase</a>.</p>
 
 </div>
 </div>

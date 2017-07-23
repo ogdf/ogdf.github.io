@@ -15,7 +15,7 @@ var classogdf_1_1_hyperedge_element =
     [ "GraphListBase", "classogdf_1_1_hyperedge_element.html#aa958c3325a69c57ff5d84f00e9d18daf", null ],
     [ "Hypergraph", "classogdf_1_1_hyperedge_element.html#a447609da470cfcf34741663740900df7", null ],
     [ "internal::GraphList< HyperedgeElement >", "classogdf_1_1_hyperedge_element.html#a23a06544b43b2ae28f392fa51c112276", null ],
-    [ "operator<<", "classogdf_1_1_hyperedge_element.html#a0b70dac2b32d94533f3215cdc98b214d", null ],
+    [ "operator<<", "classogdf_1_1_hyperedge_element.html#a0cbcd77bdd721461ce6c9ad22e327f4e", null ],
     [ "m_adjHypernodes", "classogdf_1_1_hyperedge_element.html#a239576c64cb16353337e5f094633079c", null ],
     [ "m_cardinality", "classogdf_1_1_hyperedge_element.html#a793a2afd2f6a461d2a32ba0903512714", null ],
     [ "m_hypergraph", "classogdf_1_1_hyperedge_element.html#ac1d0f79cdea036856e71dc68611b5dfc", null ],

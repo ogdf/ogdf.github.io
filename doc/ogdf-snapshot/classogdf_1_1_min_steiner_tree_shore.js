@@ -20,12 +20,11 @@ var classogdf_1_1_min_steiner_tree_shore =
     [ "m_chosenEdges", "classogdf_1_1_min_steiner_tree_shore.html#a83f6999b07fad32c3b5d471a41ad61d1", null ],
     [ "m_edges", "classogdf_1_1_min_steiner_tree_shore.html#a44581814161696a4baf2eb5717ab152e", null ],
     [ "m_graph", "classogdf_1_1_min_steiner_tree_shore.html#a14728d5c8af75713cc82b08867a1e22f", null ],
-    [ "m_isTerminal", "classogdf_1_1_min_steiner_tree_shore.html#a97c3e95e5d9988a71e706d4a7fb12c95", null ],
     [ "m_mapping", "classogdf_1_1_min_steiner_tree_shore.html#afee556a8bb9bce54b9031d772b1ffa2a", null ],
     [ "m_originalGraph", "classogdf_1_1_min_steiner_tree_shore.html#a188bb03d81e59f07c185e04ce2bc1632", null ],
     [ "m_originalTerminals", "classogdf_1_1_min_steiner_tree_shore.html#a8c86102841447e555f9e9790f53edf3f", null ],
     [ "m_recursionDepth", "classogdf_1_1_min_steiner_tree_shore.html#a2532ec76d15fa37aa620462bc82b8a35", null ],
-    [ "m_terminals", "classogdf_1_1_min_steiner_tree_shore.html#a5404b4532e730d35b364e617d2add309", null ],
+    [ "m_terminals", "classogdf_1_1_min_steiner_tree_shore.html#aaa1a89f9be09656f2bac2197037c2c27", null ],
     [ "m_upperBound", "classogdf_1_1_min_steiner_tree_shore.html#a0862038f005c832f773d0f8c7ae62323", null ],
     [ "MAX_WEIGHT", "classogdf_1_1_min_steiner_tree_shore.html#a886663560d0426d833e18dbeca1e45f5", null ]
 ];

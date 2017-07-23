@@ -18,7 +18,7 @@ var classogdf_1_1_modified_nibble_clusterer =
     [ "postProcess", "classogdf_1_1_modified_nibble_clusterer.html#a86644e8b1ee81b3746fd85b4d37b703d", null ],
     [ "pot", "classogdf_1_1_modified_nibble_clusterer.html#a3a4aed89abb0c286e4abdbbf3528b4fc", null ],
     [ "selectStartNode", "classogdf_1_1_modified_nibble_clusterer.html#a60221c556c850413666270c4f2f4e308", null ],
-    [ "setClusterSizeThreshold", "classogdf_1_1_modified_nibble_clusterer.html#a0672e56e7d2ecf2fd1bdaa5a53c4b5b6", null ],
+    [ "setClusterSizeThreshold", "classogdf_1_1_modified_nibble_clusterer.html#a2fce7a1818a121f3c21780090fdead60", null ],
     [ "setMaxClusterNum", "classogdf_1_1_modified_nibble_clusterer.html#afc4096e37f12a02eb610eadb27f126cd", null ],
     [ "setMaxClusterSize", "classogdf_1_1_modified_nibble_clusterer.html#a29d0ddc613757e41dc911ee83a3c00a7", null ],
     [ "spreadValues", "classogdf_1_1_modified_nibble_clusterer.html#a50d1127d7aef6176e7351f88edcbdb4f", null ],

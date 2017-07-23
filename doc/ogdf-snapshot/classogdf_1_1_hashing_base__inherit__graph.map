@@ -11,12 +11,12 @@
 <area shape="rect" id="node16" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; int,\l OgmlTag \&gt;" alt="" coords="249,648,383,689"/>
 <area shape="rect" id="node17" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; int,\l string \&gt;" alt="" coords="249,713,383,755"/>
 <area shape="rect" id="node18" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; ogdf\l::EdgeElement, Prioritized\lQueue\&lt; ogdf::EdgeElement,\l TCap, std::less\&lt; TCap \&gt;,\l PairingHeap \&gt;::Handle, DefHashFunc\l\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="193,779,439,879"/>
-<area shape="rect" id="node20" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; ogdf\l::List\&lt; ogdf::NodeElement\l \&gt;, ogdf::steiner_tree::\lDreyfusWagnerFullComponentGenerator\l::DWMData, ogdf::steiner_tree::\lDreyfusWagnerFullComponentGenerator\l::SortedNodeListHashFunc \&gt;" alt="" coords="187,903,445,1018"/>
+<area shape="rect" id="node20" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; ogdf\l::List\&lt; ogdf::NodeElement\l \&gt;, ogdf::steiner_tree::\lFullComponentGeneratorDreyfusWagner\l::DWMData, ogdf::steiner_tree::\lFullComponentGeneratorDreyfusWagner\l::SortedNodeListHashFunc \&gt;" alt="" coords="187,903,445,1018"/>
 <area shape="rect" id="node21" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; std\l::string, ogdf::NodeElement,\l DefHashFunc\&lt; std::string \&gt; \&gt;" alt="" coords="215,1042,417,1098"/>
 <area shape="rect" id="node23" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l const ogdf::XmlTagObject *\&gt;" alt="" coords="219,1123,413,1164"/>
-<area shape="rect" id="node24" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l int \&gt;" alt="" coords="241,1188,391,1229"/>
-<area shape="rect" id="node25" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l ogdf::ClusterElement \&gt;" alt="" coords="235,1253,397,1295"/>
-<area shape="rect" id="node26" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l ogdf::DPoint \&gt;" alt="" coords="241,1319,391,1360"/>
+<area shape="rect" id="node24" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l GenericPoint\&lt; double \&gt; \&gt;" alt="" coords="229,1188,403,1229"/>
+<area shape="rect" id="node25" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l int \&gt;" alt="" coords="241,1253,391,1295"/>
+<area shape="rect" id="node26" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l ogdf::ClusterElement \&gt;" alt="" coords="235,1319,397,1360"/>
 <area shape="rect" id="node27" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l ogdf::EdgeElement \&gt;" alt="" coords="241,1384,391,1425"/>
 <area shape="rect" id="node28" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l ogdf::NodeElement \&gt;" alt="" coords="241,1449,391,1491"/>
 <area shape="rect" id="node29" href="$classogdf_1_1_hashing.html" title="ogdf::Hashing\&lt; string,\l OgmlEdgeTemplate *\&gt;" alt="" coords="237,1515,395,1556"/>

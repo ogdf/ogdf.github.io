@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::HashConstIterator&lt; K, I, H &gt; Class Template Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -190,7 +188,7 @@ class ogdf::HashConstIterator&lt; K, I, H &gt;</h3>
 <p>Iterators for hash tables. </p>
 <p>This class implements an iterator for iterating over all elements in a hash table. Hash iterators are provided by <a class="el" href="classogdf_1_1_hashing.html#a5329f6a476189db12a05157c3cdd5eef" title="Returns an hash iterator to the first element in the list of all elements. ">Hashing&lt;K,I&gt;::begin()</a>.</p>
 <h3>Example</h3>
-<p>The following code snippet demonstrates how to iterate over all elements of a hash table. First, the example fills a hash table with a tiny German&ndash;English dictionary, and then it iterates over the elements and prints the entries. </p><div class="fragment"><div class="line">Hashing&lt;string,string&gt; <a class="code" href="namespaceogdf.html#ac143ef80abc00ee193e7b5780fe1e152ac1d9f50f86825a1a2302ec2449c17196">H</a>;</div><div class="line"></div><div class="line">H.fastInsert(<span class="stringliteral">&quot;Hund&quot;</span>,<span class="stringliteral">&quot;dog&quot;</span>);</div><div class="line">H.fastInsert(<span class="stringliteral">&quot;Katze&quot;</span>,<span class="stringliteral">&quot;cat&quot;</span>);</div><div class="line">H.fastInsert(<span class="stringliteral">&quot;Maus&quot;</span>,<span class="stringliteral">&quot;mouse&quot;</span>);</div><div class="line"></div><div class="line">HashConstIterator&lt;string,string&gt; it;</div><div class="line"><span class="keywordflow">for</span>(it = H.begin(); it.valid(); ++it)</div><div class="line">  cout &lt;&lt; it.key() &lt;&lt; <span class="stringliteral">&quot; -&gt; &quot;</span> &lt;&lt; it.info() &lt;&lt; endl;</div></div><!-- fragment --> 
+<p>The following code snippet demonstrates how to iterate over all elements of a hash table. First, the example fills a hash table with a tiny German&ndash;English dictionary, and then it iterates over the elements and prints the entries. </p><div class="fragment"><div class="line">Hashing&lt;string,string&gt; <a class="code" href="namespaceogdf.html#ac143ef80abc00ee193e7b5780fe1e152ac1d9f50f86825a1a2302ec2449c17196">H</a>;</div><div class="line"></div><div class="line">H.fastInsert(<span class="stringliteral">&quot;Hund&quot;</span>,<span class="stringliteral">&quot;dog&quot;</span>);</div><div class="line">H.fastInsert(<span class="stringliteral">&quot;Katze&quot;</span>,<span class="stringliteral">&quot;cat&quot;</span>);</div><div class="line">H.fastInsert(<span class="stringliteral">&quot;Maus&quot;</span>,<span class="stringliteral">&quot;mouse&quot;</span>);</div><div class="line"></div><div class="line">HashConstIterator&lt;string,string&gt; it;</div><div class="line"><span class="keywordflow">for</span>(it = H.begin(); it.valid(); ++it)</div><div class="line">  std::cout &lt;&lt; it.key() &lt;&lt; <span class="stringliteral">&quot; -&gt; &quot;</span> &lt;&lt; it.info() &lt;&lt; std::endl;</div></div><!-- fragment --> 
 <p class="definition">Definition at line <a class="el" href="_hashing_8h_source.html#l00208">208</a> of file <a class="el" href="_hashing_8h_source.html">Hashing.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2754e5417b6a1aad9137974ca0ae8ddb"></a>

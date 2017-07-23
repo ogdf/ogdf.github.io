@@ -20,6 +20,8 @@ var group__ga_tree =
     ] ],
     [ "isArborescence", "group__ga-tree.html#ga611956533b51c2ec7cf9959adb57cb5c", null ],
     [ "isArborescence", "group__ga-tree.html#gac5140f9721a417aca8fc58f78d55e600", null ],
+    [ "isArborescenceForest", "group__ga-tree.html#ga2d962e9ef43b0fd8a28a697e7591ca1a", null ],
+    [ "isArborescenceForest", "group__ga-tree.html#ga3f31efdcc4d4e581b0d05f11fc13675e", null ],
     [ "isForest", "group__ga-tree.html#ga4f18a35b415469dc04609034408c8b77", null ],
     [ "isForest", "group__ga-tree.html#gadb239ab1dc490cda86a8831a25fee026", null ],
     [ "isFreeForest", "group__ga-tree.html#ga07fa8e31ee16a5c08919b7f072219142", null ],

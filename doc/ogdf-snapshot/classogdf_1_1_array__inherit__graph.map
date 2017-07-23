@@ -7,7 +7,7 @@
 <area shape="rect" id="node7" href="$classogdf_1_1_cluster_array.html" title="ClusterArray\&lt; ogdf\l::ClusterArray\&lt; ogdf\l::ClusterElement \&gt; *\&gt;" alt="" coords="271,347,420,403"/>
 <area shape="rect" id="node8" href="$classogdf_1_1_cluster_array.html" title="ClusterArray\&lt; ogdf\l::ClusterGraph *\&gt;" alt="" coords="279,428,411,469"/>
 <area shape="rect" id="node9" href="$classogdf_1_1_cluster_array.html" title="ClusterArray\&lt; ogdf\l::ClusterInfo \&gt;" alt="" coords="279,493,411,535"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_cluster_array.html" title="ClusterArray\&lt; ogdf\l::EdgeArray\&lt; ogdf::Stack\l\&lt; ogdf::EdgeElement \&gt; *\&gt; *\&gt;" alt="" coords="250,559,441,615"/>
+<area shape="rect" id="node10" href="$classogdf_1_1_cluster_array.html" title="ClusterArray\&lt; ogdf\l::EdgeArray\&lt; ogdf::ArrayBuffer\l\&lt; ogdf::EdgeElement \&gt; *\&gt; *\&gt;" alt="" coords="244,559,447,615"/>
 <area shape="rect" id="node11" href="$classogdf_1_1_cluster_array.html" title="ClusterArray\&lt; ogdf\l::Graph *\&gt;" alt="" coords="279,640,411,681"/>
 <area shape="rect" id="node12" href="$classogdf_1_1_cluster_array.html" title="ClusterArray\&lt; ogdf\l::LHTreeNode *\&gt;" alt="" coords="279,705,411,747"/>
 <area shape="rect" id="node13" href="$classogdf_1_1_cluster_array.html" title="ClusterArray\&lt; ogdf\l::ListIteratorBase\&lt;\l ogdf::ClusterElement \&gt; \&gt;" alt="" coords="259,771,432,827"/>
@@ -22,28 +22,27 @@
 <area shape="rect" id="node22" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; edgeType \&gt;" alt="" coords="263,1378,427,1405"/>
 <area shape="rect" id="node23" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; EdgeType \&gt;" alt="" coords="262,1429,429,1455"/>
 <area shape="rect" id="node24" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; Graph::EdgeType \&gt;" alt="" coords="241,1479,450,1506"/>
-<area shape="rect" id="node25" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::booth\l_lueker::PlanarLeafKey \&gt;" alt="" coords="261,1531,430,1572"/>
-<area shape="rect" id="node26" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::DPolyline \&gt;" alt="" coords="247,1597,443,1623"/>
-<area shape="rect" id="node27" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::EdgeArray\l\&lt; ogdf::EdgeElement \&gt; *\&gt;" alt="" coords="251,1648,440,1689"/>
-<area shape="rect" id="node28" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::EdgeLabel\l\&lt; coordType \&gt; \&gt;" alt="" coords="251,1713,440,1755"/>
-<area shape="rect" id="node29" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::fast\l_multipole_embedder::\lGalaxyMultilevel::LevelEdgeInfo \&gt;" alt="" coords="235,1779,456,1835"/>
-<area shape="rect" id="node30" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::Graph *\&gt;" alt="" coords="255,1859,435,1886"/>
-<area shape="rect" id="node31" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::Hyperedge\lElement \&gt;" alt="" coords="250,1911,441,1952"/>
-<area shape="rect" id="node32" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::IPolyline \&gt;" alt="" coords="250,1977,441,2003"/>
-<area shape="rect" id="node33" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::List\l\&lt; ogdf::IPoint \&gt; \&gt;" alt="" coords="271,2028,420,2069"/>
-<area shape="rect" id="node34" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::List\l\&lt; ogdf::NonPlanarCore\l::CutEdge \&gt; \&gt;" alt="" coords="267,2094,423,2150"/>
-<area shape="rect" id="node35" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::List\l\&lt; ogdf::topology_module\l::EdgeLeg *\&gt; \&gt;" alt="" coords="263,2174,428,2230"/>
-<area shape="rect" id="node36" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::ListIterator\lBase\&lt; int \&gt; \&gt;" alt="" coords="250,2255,441,2296"/>
-<area shape="rect" id="node37" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::ListIterator\lBase\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="246,2320,445,2361"/>
-<area shape="rect" id="node38" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::ListPure\l\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="257,2385,433,2427"/>
-<area shape="rect" id="node39" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::MinSteiner\lTreeDirectedCut::EdgeVariable *\&gt;" alt="" coords="235,2451,455,2492"/>
-<area shape="rect" id="node40" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::NodeArray\l\&lt; ogdf::NodeElement \&gt; *\&gt;" alt="" coords="250,2516,441,2557"/>
-<area shape="rect" id="node41" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::PlanRep\lExpansion::NodeSplit *\&gt;" alt="" coords="256,2581,435,2623"/>
-<area shape="rect" id="node42" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::SListPure\l\&lt; int \&gt; \&gt;" alt="" coords="253,2647,438,2688"/>
-<area shape="rect" id="node43" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::Stack\l\&lt; ogdf::EdgeElement \&gt; *\&gt;" alt="" coords="258,2712,433,2753"/>
-<area shape="rect" id="node44" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::UMLGraph\l::AssociationClass *\&gt;" alt="" coords="250,2777,441,2819"/>
-<area shape="rect" id="node45" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::Visibility\lLayout::EdgeSegment \&gt;" alt="" coords="257,2843,434,2884"/>
-<area shape="rect" id="node46" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; PrioritizedQueue\l\&lt; edge, P, C, Impl \&gt;::Handle \&gt;" alt="" coords="244,2908,447,2949"/>
-<area shape="rect" id="node47" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; uint32_t \&gt;" alt="" coords="269,2974,422,3001"/>
-<area shape="rect" id="node48" href="$classogdf_1_1_array_buffer.html" title="An array that keeps track of the number of inserted elements; also usable as an efficient stack..." alt="" coords="281,3025,410,3067"/>
+<area shape="rect" id="node25" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::ArrayBuffer\l\&lt; ogdf::EdgeElement \&gt; *\&gt;" alt="" coords="248,1531,443,1572"/>
+<area shape="rect" id="node26" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::booth\l_lueker::PlanarLeafKey \&gt;" alt="" coords="261,1596,430,1637"/>
+<area shape="rect" id="node27" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::EdgeArray\l\&lt; ogdf::EdgeElement \&gt; *\&gt;" alt="" coords="251,1661,440,1703"/>
+<area shape="rect" id="node28" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::EdgeLabel\l\&lt; coordType \&gt; \&gt;" alt="" coords="251,1727,440,1768"/>
+<area shape="rect" id="node29" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::fast\l_multipole_embedder::\lGalaxyMultilevel::LevelEdgeInfo \&gt;" alt="" coords="235,1793,456,1849"/>
+<area shape="rect" id="node30" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::Generic\lPolyline \&gt;" alt="" coords="259,1873,432,1915"/>
+<area shape="rect" id="node31" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::Graph *\&gt;" alt="" coords="255,1939,435,1966"/>
+<area shape="rect" id="node32" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::Hyperedge\lElement \&gt;" alt="" coords="250,1991,441,2032"/>
+<area shape="rect" id="node33" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::List\l\&lt; GenericPoint\&lt; int \&gt; \&gt; \&gt;" alt="" coords="260,2056,431,2097"/>
+<area shape="rect" id="node34" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::List\l\&lt; ogdf::NonPlanarCore\l::CutEdge \&gt; \&gt;" alt="" coords="267,2122,423,2178"/>
+<area shape="rect" id="node35" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::List\l\&lt; ogdf::topology_module\l::EdgeLeg *\&gt; \&gt;" alt="" coords="263,2202,428,2258"/>
+<area shape="rect" id="node36" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::ListIterator\lBase\&lt; int \&gt; \&gt;" alt="" coords="250,2283,441,2324"/>
+<area shape="rect" id="node37" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::ListIterator\lBase\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="246,2348,445,2389"/>
+<area shape="rect" id="node38" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::ListPure\l\&lt; ogdf::EdgeElement \&gt; \&gt;" alt="" coords="257,2413,433,2455"/>
+<area shape="rect" id="node39" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::MinSteiner\lTreeDirectedCut::EdgeVariable *\&gt;" alt="" coords="235,2479,455,2520"/>
+<area shape="rect" id="node40" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::NodeArray\l\&lt; ogdf::NodeElement \&gt; *\&gt;" alt="" coords="250,2544,441,2585"/>
+<area shape="rect" id="node41" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::PlanRep\lExpansion::NodeSplit *\&gt;" alt="" coords="256,2609,435,2651"/>
+<area shape="rect" id="node42" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::SListPure\l\&lt; int \&gt; \&gt;" alt="" coords="253,2675,438,2716"/>
+<area shape="rect" id="node43" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::UMLGraph\l::AssociationClass *\&gt;" alt="" coords="250,2740,441,2781"/>
+<area shape="rect" id="node44" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; ogdf::Visibility\lLayout::EdgeSegment \&gt;" alt="" coords="257,2805,434,2847"/>
+<area shape="rect" id="node45" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; PrioritizedQueue\l\&lt; edge, P, C, Impl \&gt;::Handle \&gt;" alt="" coords="244,2871,447,2912"/>
+<area shape="rect" id="node46" href="$classogdf_1_1_edge_array.html" title="EdgeArray\&lt; uint32_t \&gt;" alt="" coords="269,2937,422,2963"/>
+<area shape="rect" id="node47" href="$classogdf_1_1_array_buffer.html" title="An array that keeps track of the number of inserted elements; also usable as an efficient stack..." alt="" coords="281,2988,410,3029"/>
 </map>

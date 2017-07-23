@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::LineBuffer Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -137,9 +135,9 @@ $(document).ready(function(){initNavTree('classogdf_1_1_line_buffer.html','');})
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af12c99613e4517321d2d86b767a429d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#af12c99613e4517321d2d86b767a429d9">LineBuffer</a> (istream &amp;is)</td></tr>
-<tr class="memdesc:af12c99613e4517321d2d86b767a429d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construction.  <a href="#af12c99613e4517321d2d86b767a429d9">More...</a><br /></td></tr>
-<tr class="separator:af12c99613e4517321d2d86b767a429d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ac136ee777bde4a870a8fd6804f91ca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a9ac136ee777bde4a870a8fd6804f91ca">LineBuffer</a> (std::istream &amp;is)</td></tr>
+<tr class="memdesc:a9ac136ee777bde4a870a8fd6804f91ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construction.  <a href="#a9ac136ee777bde4a870a8fd6804f91ca">More...</a><br /></td></tr>
+<tr class="separator:a9ac136ee777bde4a870a8fd6804f91ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac27856c5ae41551e3e36c066dc251c78"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#ac27856c5ae41551e3e36c066dc251c78">~LineBuffer</a> ()</td></tr>
 <tr class="memdesc:ac27856c5ae41551e3e36c066dc251c78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruction.  <a href="#ac27856c5ae41551e3e36c066dc251c78">More...</a><br /></td></tr>
 <tr class="separator:ac27856c5ae41551e3e36c066dc251c78"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,17 +186,17 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a307b9d18eb295accf8e8d93830c96ead"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#a307b9d18eb295accf8e8d93830c96ead">m_numberOfMostRecentlyReadLine</a></td></tr>
 <tr class="memdesc:a307b9d18eb295accf8e8d93830c96ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line which has been read from the file most recently; this does not have to be equal to m_currentPosition.m_lineNumber because of the lookahead facilities.  <a href="#a307b9d18eb295accf8e8d93830c96ead">More...</a><br /></td></tr>
 <tr class="separator:a307b9d18eb295accf8e8d93830c96ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaad25a924a2cd2fa2934eadf9ddd68d4"><td class="memItemLeft" align="right" valign="top">istream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#aaad25a924a2cd2fa2934eadf9ddd68d4">m_pIs</a></td></tr>
-<tr class="memdesc:aaad25a924a2cd2fa2934eadf9ddd68d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle to the input file.  <a href="#aaad25a924a2cd2fa2934eadf9ddd68d4">More...</a><br /></td></tr>
-<tr class="separator:aaad25a924a2cd2fa2934eadf9ddd68d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae23811ee1712f227a65726d125931120"><td class="memItemLeft" align="right" valign="top">std::istream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html#ae23811ee1712f227a65726d125931120">m_pIs</a></td></tr>
+<tr class="memdesc:ae23811ee1712f227a65726d125931120"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handle to the input file.  <a href="#ae23811ee1712f227a65726d125931120">More...</a><br /></td></tr>
+<tr class="separator:ae23811ee1712f227a65726d125931120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class maintains the input file and provides a convenient interface to handle it. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00114">114</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00112">112</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af12c99613e4517321d2d86b767a429d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af12c99613e4517321d2d86b767a429d9">&#9670;&nbsp;</a></span>LineBuffer()</h2>
+<a id="a9ac136ee777bde4a870a8fd6804f91ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ac136ee777bde4a870a8fd6804f91ca">&#9670;&nbsp;</a></span>LineBuffer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -209,7 +207,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">ogdf::LineBuffer::LineBuffer </td>
           <td>(</td>
-          <td class="paramtype">istream &amp;&#160;</td>
+          <td class="paramtype">std::istream &amp;&#160;</td>
           <td class="paramname"><em>is</em></td><td>)</td>
           <td></td>
         </tr>
@@ -315,7 +313,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the character which is currently pointed to. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00154">154</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00152">152</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -344,7 +342,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns the current position (as a copy) </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00149">149</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00147">147</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -373,7 +371,7 @@ Private Attributes</h2></td></tr>
 
 <p>Returns line number of the most recently read line of the input file. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00163">163</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00161">161</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -494,7 +492,7 @@ Private Attributes</h2></td></tr>
 
 <p>The current position in m_linBuf. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00128">128</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00126">126</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -520,7 +518,7 @@ Private Attributes</h2></td></tr>
 
 <p>Contains the current line number of the input file;. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00138">138</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00136">136</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -546,7 +544,7 @@ Private Attributes</h2></td></tr>
 
 <p>Pointer to the line buffer. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00125">125</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00123">123</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -572,7 +570,7 @@ Private Attributes</h2></td></tr>
 
 <p>Contains for each line of the line buffer its update count. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00122">122</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00120">120</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -598,12 +596,12 @@ Private Attributes</h2></td></tr>
 
 <p>The line which has been read from the file most recently; this does not have to be equal to m_currentPosition.m_lineNumber because of the lookahead facilities. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00135">135</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00133">133</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>
-<a id="aaad25a924a2cd2fa2934eadf9ddd68d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaad25a924a2cd2fa2934eadf9ddd68d4">&#9670;&nbsp;</a></span>m_pIs</h2>
+<a id="ae23811ee1712f227a65726d125931120"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae23811ee1712f227a65726d125931120">&#9670;&nbsp;</a></span>m_pIs</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -612,7 +610,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">istream* ogdf::LineBuffer::m_pIs</td>
+          <td class="memname">std::istream* ogdf::LineBuffer::m_pIs</td>
         </tr>
       </table>
   </td>
@@ -624,7 +622,7 @@ Private Attributes</h2></td></tr>
 
 <p>Handle to the input file. </p>
 
-<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00119">119</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_line_buffer_8h_source.html#l00117">117</a> of file <a class="el" href="_line_buffer_8h_source.html">LineBuffer.h</a>.</p>
 
 </div>
 </div>

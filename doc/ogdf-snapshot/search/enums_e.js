@@ -14,7 +14,7 @@ var searchData=
   ['predefinedinfoindex',['PredefinedInfoIndex',['../classogdf_1_1_uml_to_graph_converter.html#aa595d051ad24644b0c208b33d9209b89',1,'ogdf::UmlToGraphConverter']]],
   ['presort',['PreSort',['../classogdf_1_1_f_m_m_m_options.html#ad23fb95db3d57dd74e2980a49a413feb',1,'ogdf::FMMMOptions']]],
   ['primalboundmode',['PRIMALBOUNDMODE',['../classabacus_1_1_master.html#ac84b57bbed8fde4439c7098c0bf5376e',1,'abacus::Master']]],
-  ['processtype',['ProcessType',['../namespaceogdf.html#a215ed80398f7dd994fe423ef85c9f7f4',1,'ogdf']]],
+  ['processtype',['ProcessType',['../classogdf_1_1_edge_router.html#adfd718052999c090f4dfeee8fcfb43db',1,'ogdf::EdgeRouter']]],
   ['profile',['Profile',['../classogdf_1_1_hypergraph_layout_e_s.html#aa3a2a619e159c93927db05e2de0c1792',1,'ogdf::HypergraphLayoutES']]],
   ['pushresult',['PushResult',['../classogdf_1_1_top10_heap.html#af4cedf5ab29c56ab5c0b86c9666f747f',1,'ogdf::Top10Heap']]]
 ];

@@ -56,7 +56,7 @@ var classogdf_1_1edge__router_1_1_node_info =
     [ "t_left_unbend", "classogdf_1_1edge__router_1_1_node_info.html#a35a56ea999e4252023b54c5c459a26c2", null ],
     [ "t_right_unbend", "classogdf_1_1edge__router_1_1_node_info.html#a7bb63487a0592109e974928f13076358", null ],
     [ "vDegree", "classogdf_1_1edge__router_1_1_node_info.html#aa47dedbc7acac4bdf2592b680256bb18", null ],
-    [ "operator<<", "classogdf_1_1edge__router_1_1_node_info.html#a0d84a00d9e2492528640eedd493e9475", null ],
+    [ "operator<<", "classogdf_1_1edge__router_1_1_node_info.html#a6c922775085ba3e5f9e513f8b8f515c5", null ],
     [ "bl", "classogdf_1_1edge__router_1_1_node_info.html#a428319beab6dbe08c99eda0fecdf9970", null ],
     [ "box_x_size", "classogdf_1_1edge__router_1_1_node_info.html#ac85ce24aa679d9134ef840c70402f4ec", null ],
     [ "box_y_size", "classogdf_1_1edge__router_1_1_node_info.html#af1409d526ae54927e0cf5e4e5fd64d8d", null ],

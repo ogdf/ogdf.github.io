@@ -16,7 +16,7 @@ var classabacus_1_1_aba_ring =
     [ "previous", "classabacus_1_1_aba_ring.html#ab8e775ddc3444e47f1c34e92779336b8", null ],
     [ "realloc", "classabacus_1_1_aba_ring.html#ab3b17c3826632bcd7f5f3c7ee864629d", null ],
     [ "size", "classabacus_1_1_aba_ring.html#a4ed1fa64b89f31a3db5a8c75f5ba2957", null ],
-    [ "operator<<", "classabacus_1_1_aba_ring.html#ac533fdd546198d4d74fc6e5558487a9d", null ],
+    [ "operator<<", "classabacus_1_1_aba_ring.html#aa57e11b3746ec0ce95863d802900be0a", null ],
     [ "filled_", "classabacus_1_1_aba_ring.html#aef97163ae4f94ec2c9e6d53aa2c66ccb", null ],
     [ "head_", "classabacus_1_1_aba_ring.html#adbf7abac94a52db55c3de3a637af58d3", null ],
     [ "ring_", "classabacus_1_1_aba_ring.html#ac2f3d4e855e2f070c5664725e1e3df5f", null ]

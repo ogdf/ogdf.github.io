@@ -1,7 +1,6 @@
 var classogdf_1_1energybased_1_1fmmm_1_1_node_attributes =
 [
     [ "NodeAttributes", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a673c8349125e972938a7cdaeffc20bd5", null ],
-    [ "~NodeAttributes", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a70ee260fdef5b7fb92c9faf49626cc43", null ],
     [ "get_angle_1", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#ad8ba86cfd51aa3e96db74d745521cc56", null ],
     [ "get_angle_2", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a33b1b18629d69226f2ab0e9d5ae35dd6", null ],
     [ "get_copy_node", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a7c39ba03cc143ebac4c46e80df2ab6cd", null ],
@@ -43,8 +42,8 @@ var classogdf_1_1energybased_1_1fmmm_1_1_node_attributes =
     [ "set_width", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#acf0d99d487f6762af6b39a9c5eaac46c", null ],
     [ "set_x", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a13e0fdc6516b3c541f5b193be9a0f077", null ],
     [ "set_y", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a9bac258a97943dbaab89786ca94700bd", null ],
-    [ "operator<<", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a7c99709f0ff7b7da959a2ff618e84172", null ],
-    [ "operator>>", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#af9b7550bbf50467eeef62b4f3c1d517d", null ],
+    [ "operator<<", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a581869aaf661b4783f2e17e51c2ecc6a", null ],
+    [ "operator>>", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a5ea11e8545185d33d903a5f52ae39836", null ],
     [ "angle_1", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#a124bd34cf0510446cf533612e6dc9f5d", null ],
     [ "angle_2", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#aea6e911db936d7784ed613058b41f705", null ],
     [ "dedicated_pm_node", "classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#ad0f1ca2570d22deb850708f690e175ef", null ],

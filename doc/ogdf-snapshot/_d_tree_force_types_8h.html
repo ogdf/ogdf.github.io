@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: include/ogdf/energybased/dtree/DTreeForceTypes.h File Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -127,7 +125,8 @@ $(document).ready(function(){initNavTree('_d_tree_force_types_8h.html','');});
 <div class="title">DTreeForceTypes.h File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="basic_8h_source.html">ogdf/basic/basic.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;type_traits&gt;</code><br />
+<code>#include &lt;<a class="el" href="basic_8h_source.html">ogdf/basic/basic.h</a>&gt;</code><br />
 </div>
 <p><a href="_d_tree_force_types_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -146,30 +145,30 @@ Functions</h2></td></tr>
 <tr class="memitem:a5c31de0ba4da6cb82442632441f3ae88"><td class="memTemplParams" colspan="2">template&lt;int Dim&gt; </td></tr>
 <tr class="memitem:a5c31de0ba4da6cb82442632441f3ae88"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a5c31de0ba4da6cb82442632441f3ae88">ogdf::energybased::dtree::AttrForceFunctionLog</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
 <tr class="separator:a5c31de0ba4da6cb82442632441f3ae88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ade5387c27c6a4f5ade15951a61d44289"><td class="memTemplParams" colspan="2">template&lt;int Dim, int K&gt; </td></tr>
-<tr class="memitem:ade5387c27c6a4f5ade15951a61d44289"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ade5387c27c6a4f5ade15951a61d44289">ogdf::energybased::dtree::AttrForceFunctionPow</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
-<tr class="separator:ade5387c27c6a4f5ade15951a61d44289"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea06421d50d67b33a2a523c51973f102"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:aea06421d50d67b33a2a523c51973f102"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#aea06421d50d67b33a2a523c51973f102">ogdf::energybased::dtree::AttrForceFunctionPow&lt; 2, 1 &gt;</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
-<tr class="separator:aea06421d50d67b33a2a523c51973f102"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92a8e8c062d18aaa8ac38e22da8ed148"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a92a8e8c062d18aaa8ac38e22da8ed148"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a92a8e8c062d18aaa8ac38e22da8ed148">ogdf::energybased::dtree::AttrForceFunctionPow&lt; 2, 2 &gt;</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
-<tr class="separator:a92a8e8c062d18aaa8ac38e22da8ed148"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a293dced54a9a1eaa22c40cbd4d6340c6"><td class="memTemplParams" colspan="2">template&lt;int Dim&gt; </td></tr>
-<tr class="memitem:a293dced54a9a1eaa22c40cbd4d6340c6"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a293dced54a9a1eaa22c40cbd4d6340c6">ogdf::energybased::dtree::computeDeltaAndDistance</a> (const double a[Dim], const double b[Dim], double delta[Dim])</td></tr>
-<tr class="separator:a293dced54a9a1eaa22c40cbd4d6340c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accc30e80bbf597db7142aaba9c6d7f76"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:accc30e80bbf597db7142aaba9c6d7f76"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#accc30e80bbf597db7142aaba9c6d7f76">ogdf::energybased::dtree::computeDeltaAndDistance&lt; 2 &gt;</a> (const double a[2], const double b[2], double delta[2])</td></tr>
-<tr class="separator:accc30e80bbf597db7142aaba9c6d7f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43796cf69dfa68f261989483ef77df5d"><td class="memTemplParams" colspan="2">template&lt;int Dim, int K&gt; </td></tr>
-<tr class="memitem:a43796cf69dfa68f261989483ef77df5d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a43796cf69dfa68f261989483ef77df5d">ogdf::energybased::dtree::RepForceFunctionNewton</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
-<tr class="separator:a43796cf69dfa68f261989483ef77df5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9a94db26ecc4d657a890a3fbeee0c0d"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:ab9a94db26ecc4d657a890a3fbeee0c0d"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ab9a94db26ecc4d657a890a3fbeee0c0d">ogdf::energybased::dtree::RepForceFunctionNewton&lt; 2, 1 &gt;</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
-<tr class="separator:ab9a94db26ecc4d657a890a3fbeee0c0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e280bcccdc3b7e77bb35139790f5dee"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
-<tr class="memitem:a6e280bcccdc3b7e77bb35139790f5dee"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a6e280bcccdc3b7e77bb35139790f5dee">ogdf::energybased::dtree::RepForceFunctionNewton&lt; 2, 2 &gt;</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
-<tr class="separator:a6e280bcccdc3b7e77bb35139790f5dee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8d072a1937d0d3cc879f12f0569a339"><td class="memTemplParams" colspan="2">template&lt;int Dim, int K&gt; </td></tr>
+<tr class="memitem:ae8d072a1937d0d3cc879f12f0569a339"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim !=2||(K !=1 &amp;&amp;K !=2), void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ae8d072a1937d0d3cc879f12f0569a339">ogdf::energybased::dtree::AttrForceFunctionPow</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
+<tr class="separator:ae8d072a1937d0d3cc879f12f0569a339"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02984be52e1fbcb0ded18b4980222837"><td class="memTemplParams" colspan="2">template&lt;int Dim, int K&gt; </td></tr>
+<tr class="memitem:a02984be52e1fbcb0ded18b4980222837"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==2 &amp;&amp;K==2, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a02984be52e1fbcb0ded18b4980222837">ogdf::energybased::dtree::AttrForceFunctionPow</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
+<tr class="separator:a02984be52e1fbcb0ded18b4980222837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a928abe6c17afb2efa21143703489ab27"><td class="memTemplParams" colspan="2">template&lt;int Dim, int K&gt; </td></tr>
+<tr class="memitem:a928abe6c17afb2efa21143703489ab27"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==2 &amp;&amp;K==1, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a928abe6c17afb2efa21143703489ab27">ogdf::energybased::dtree::AttrForceFunctionPow</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
+<tr class="separator:a928abe6c17afb2efa21143703489ab27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c4276a7a67411336e568073870ed40e"><td class="memTemplParams" colspan="2">template&lt;int Dim&gt; </td></tr>
+<tr class="memitem:a7c4276a7a67411336e568073870ed40e"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim !=2, double &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a7c4276a7a67411336e568073870ed40e">ogdf::energybased::dtree::computeDeltaAndDistance</a> (const double a[Dim], const double b[Dim], double delta[Dim])</td></tr>
+<tr class="separator:a7c4276a7a67411336e568073870ed40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eb76d4c31d846f3e48df4c054723d36"><td class="memTemplParams" colspan="2">template&lt;int Dim&gt; </td></tr>
+<tr class="memitem:a7eb76d4c31d846f3e48df4c054723d36"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==2, double &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a7eb76d4c31d846f3e48df4c054723d36">ogdf::energybased::dtree::computeDeltaAndDistance</a> (const double a[Dim], const double b[Dim], double delta[Dim])</td></tr>
+<tr class="separator:a7eb76d4c31d846f3e48df4c054723d36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae11abb9b42a8cd0122208200216d0d57"><td class="memTemplParams" colspan="2">template&lt;int Dim, int K&gt; </td></tr>
+<tr class="memitem:ae11abb9b42a8cd0122208200216d0d57"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim !=2||(K !=1 &amp;&amp;K !=2), void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#ae11abb9b42a8cd0122208200216d0d57">ogdf::energybased::dtree::RepForceFunctionNewton</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
+<tr class="separator:ae11abb9b42a8cd0122208200216d0d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c97cf93ffa00fbb56ce2129bc268321"><td class="memTemplParams" colspan="2">template&lt;int Dim, int K&gt; </td></tr>
+<tr class="memitem:a2c97cf93ffa00fbb56ce2129bc268321"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==2 &amp;&amp;K==2, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#a2c97cf93ffa00fbb56ce2129bc268321">ogdf::energybased::dtree::RepForceFunctionNewton</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
+<tr class="separator:a2c97cf93ffa00fbb56ce2129bc268321"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec6e140f6f728c63d0c941149a1596a8"><td class="memTemplParams" colspan="2">template&lt;int Dim, int K&gt; </td></tr>
+<tr class="memitem:aec6e140f6f728c63d0c941149a1596a8"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; Dim==2 &amp;&amp;K==1, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1dtree.html#aec6e140f6f728c63d0c941149a1596a8">ogdf::energybased::dtree::RepForceFunctionNewton</a> (double dist, double &amp;force, double &amp;force_prime)</td></tr>
+<tr class="separator:aec6e140f6f728c63d0c941149a1596a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>

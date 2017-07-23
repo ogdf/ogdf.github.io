@@ -24,7 +24,7 @@ var classogdf_1_1_maximum_c_planar_subgraph =
     [ "getTotalTime", "classogdf_1_1_maximum_c_planar_subgraph.html#a07d5607c7d8797bccc43220de70efdb0", null ],
     [ "getTotalWTime", "classogdf_1_1_maximum_c_planar_subgraph.html#ae940e93b54a851c7c7cfbb1fa9d9dfe7", null ],
     [ "maxConLength", "classogdf_1_1_maximum_c_planar_subgraph.html#a53d3b6f922235c5a6eb272dd71970c39", null ],
-    [ "outputCons", "classogdf_1_1_maximum_c_planar_subgraph.html#aee1204e341ae97f5f6742a24a6203c90", null ],
+    [ "outputCons", "classogdf_1_1_maximum_c_planar_subgraph.html#a6261fde951d4e4b63824223b07045787", null ],
     [ "setBranchingGap", "classogdf_1_1_maximum_c_planar_subgraph.html#a1731c90d585c42413c5d5ab1354c00b1", null ],
     [ "setCheckCPlanar", "classogdf_1_1_maximum_c_planar_subgraph.html#a6336ee52a8c4e134e23a33662f8832f6", null ],
     [ "setHeuristicBound", "classogdf_1_1_maximum_c_planar_subgraph.html#a65481ea41cd37fcda2f93fa68bea20c1", null ],

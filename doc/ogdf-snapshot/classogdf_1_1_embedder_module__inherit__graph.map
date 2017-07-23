@@ -1,12 +1,16 @@
 <map id="ogdf::EmbedderModule" name="ogdf::EmbedderModule">
-<area shape="rect" id="node4" href="$classogdf_1_1_embedder_max_face.html" title="Planar graph embedding with maximum external face. " alt="" coords="399,5,567,32"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_embedder_max_face_layers.html" title="Planar graph embedding with maximum external face (plus layers approach). " alt="" coords="379,56,586,83"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_embedder_min_depth.html" title="Planar graph embedding with minimum block&#45;nesting depth. " alt="" coords="397,107,568,133"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_embedder_min_depth_max_face.html" title="Planar graph embedding with minimum block&#45;nesting depth and maximum external face. " alt="" coords="371,157,595,184"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding with minimum block&#45;nesting depth and maximum external face (plus layers approa..." alt="" coords="385,209,580,250"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_embedder_min_depth_pi_ta.html" title="Planar graph embedding with minimum block&#45;nesting depth for given embedded blocks. " alt="" coords="384,275,581,301"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_embedder_optimal_flex_draw.html" title="The algorithm computes a planar embedding with minimum cost. " alt="" coords="375,325,590,352"/>
-<area shape="rect" id="node11" href="$classogdf_1_1_simple_embedder.html" title="Planar graph embedding by using default planarEmbed. " alt="" coords="405,376,560,403"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,161,111,188"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="5,212,119,239"/>
+<area shape="rect" id="node4" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title="ogdf::embedder::Embedder\lBCTreeBase\&lt; false \&gt;" alt="" coords="389,88,567,129"/>
+<area shape="rect" id="node13" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title="Common base for embedder algorithms based on BC trees. " alt="" coords="378,153,578,195"/>
+<area shape="rect" id="node14" href="$classogdf_1_1_embedder_optimal_flex_draw.html" title="The algorithm computes a planar embedding with minimum cost. " alt="" coords="371,219,585,246"/>
+<area shape="rect" id="node15" href="$classogdf_1_1_simple_embedder.html" title="Embedder that chooses a largest face as the external one. " alt="" coords="401,270,555,297"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,165,111,191"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="5,215,119,242"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_embedder_max_face.html" title="Embedder that maximizes the external face. " alt="" coords="648,45,816,71"/>
+<area shape="rect" id="node11" href="$classogdf_1_1_embedder_min_depth.html" title="Embedder that minimizes block&#45;nesting depth. " alt="" coords="647,95,817,122"/>
+<area shape="rect" id="node12" href="$classogdf_1_1_embedder_min_depth_pi_ta.html" title="Embedder that minimizes block&#45;nesting depth for given embedded blocks. " alt="" coords="633,146,831,173"/>
+<area shape="rect" id="node6" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title="ogdf::embedder::LayersBlock\lEmbedder\&lt; EmbedderMaxFace, int \&gt;" alt="" coords="879,5,1119,47"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_embedder_min_depth_max_face.html" title="Embedding that minimizes block&#45;nesting depth and maximizes the external face. " alt="" coords="887,74,1111,101"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_embedder_max_face_layers.html" title="Embedder that maximizes the external face and optimizes the position of blocks afterwards. " alt="" coords="1197,10,1403,37"/>
+<area shape="rect" id="node9" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title="ogdf::embedder::LayersBlock\lEmbedder\&lt; EmbedderMinDepthMaxFace,\l embedder::MDMFLengthAttribute \&gt;" alt="" coords="1167,61,1433,117"/>
+<area shape="rect" id="node10" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding that minimizes block&#45;nesting depth and maximizes the external face and optimiz..." alt="" coords="1481,68,1676,109"/>
 </map>

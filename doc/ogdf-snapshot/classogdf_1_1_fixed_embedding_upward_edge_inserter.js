@@ -10,7 +10,7 @@ var classogdf_1_1_fixed_embedding_upward_edge_inserter =
     [ "insertAll", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html#ac6432c6c8448263c63c72d4157883f43", null ],
     [ "isConstraintFeasible", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html#a69d7682e58c5f714da03e724aa341927", null ],
     [ "isConstraintFeasible", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html#a35b522243495ff64b6e8b53c48a501d4", null ],
-    [ "isUpwardPlanar", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html#ad5a36b6a317efe45f4cbeb80da04fb7a", null ],
+    [ "isUpwardPlanar", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html#a36bfd77f2fd73d00758c7224c6b2d100", null ],
     [ "markDown", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html#a6270e49e821ccd864ffa87497b235b2e", null ],
     [ "markUp", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html#a7a1e2db3d8a2f124c23fa8c66eaed361", null ],
     [ "minFIP", "classogdf_1_1_fixed_embedding_upward_edge_inserter.html#ab7f66a1e3949fa00c2281f37fb6e8071", null ],

@@ -1,5 +1,11 @@
 <map id="ogdf::EmbedderMaxFace" name="ogdf::EmbedderMaxFace">
-<area shape="rect" id="node2" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms. " alt="" coords="40,80,196,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node6" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title="ogdf::embedder::LayersBlock\lEmbedder\&lt; EmbedderMaxFace, int \&gt;" alt="" coords="813,5,1053,47"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_embedder_min_depth_max_face.html" title="Embedding that minimizes block&#45;nesting depth and maximizes the external face. " alt="" coords="821,74,1045,101"/>
+<area shape="rect" id="node2" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title="ogdf::embedder::Embedder\lBCTreeBase\&lt; false \&gt;" alt="" coords="371,37,549,79"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms. " alt="" coords="167,45,323,71"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="13,19,111,46"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="5,70,119,97"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_embedder_max_face_layers.html" title="Embedder that maximizes the external face and optimizes the position of blocks afterwards. " alt="" coords="1131,10,1338,37"/>
+<area shape="rect" id="node9" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title="ogdf::embedder::LayersBlock\lEmbedder\&lt; EmbedderMinDepthMaxFace,\l embedder::MDMFLengthAttribute \&gt;" alt="" coords="1101,61,1368,117"/>
+<area shape="rect" id="node10" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding that minimizes block&#45;nesting depth and maximizes the external face and optimiz..." alt="" coords="1416,68,1611,109"/>
 </map>

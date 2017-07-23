@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: include/ogdf/basic/geometry.h File Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -123,6 +121,7 @@ $(document).ready(function(){initNavTree('geometry_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -131,7 +130,7 @@ $(document).ready(function(){initNavTree('geometry_8h.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Declaration of classes DPoint, DPolyline, DLine, DRect, DIntersectableRect, DScaler.  
+<p>Declaration of classes GenericPoint, GenericPolyline, GenericLine, GenericSegment, DPolygon, DRect, DIntersectableRect.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="_list_8h_source.html">ogdf/basic/List.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_hashing_8h_source.html">ogdf/basic/Hashing.h</a>&gt;</code><br />
@@ -148,38 +147,23 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_intersectable_rect.html">ogdf::DIntersectableRect</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rectangles with real coordinates.  <a href="classogdf_1_1_d_intersectable_rect.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_line.html">ogdf::DLine</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lines with real coordinates.  <a href="classogdf_1_1_d_line.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_point.html">ogdf::DPoint</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real points.  <a href="classogdf_1_1_d_point.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_polygon.html">ogdf::DPolygon</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polygons with real coordinates.  <a href="classogdf_1_1_d_polygon.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_polyline.html">ogdf::DPolyline</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polylines with real coordinates.  <a href="classogdf_1_1_d_polyline.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_rect.html">ogdf::DRect</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rectangles with real coordinates.  <a href="classogdf_1_1_d_rect.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_scaler.html">ogdf::DScaler</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Scaling between coordinate systems.  <a href="classogdf_1_1_d_scaler.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_line.html">ogdf::GenericLine&lt; PointType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Infinite lines.  <a href="classogdf_1_1_generic_line.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_segment.html">ogdf::DSegment</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line segments with real coordinates.  <a href="classogdf_1_1_d_segment.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_d_vector.html">ogdf::DVector</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vectors with real coordinates.  <a href="classogdf_1_1_d_vector.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_point.html">ogdf::GenericPoint&lt; NUMBER &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_point.html">ogdf::GenericPoint&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameterized base class for points.  <a href="classogdf_1_1_generic_point.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_i_point.html">ogdf::IPoint</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integer points.  <a href="classogdf_1_1_i_point.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_polyline.html">ogdf::GenericPolyline&lt; PointType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polylines with <em>PointType</em> points.  <a href="classogdf_1_1_generic_polyline.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_i_polyline.html">ogdf::IPolyline</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polylines with integer coordinates.  <a href="classogdf_1_1_i_polyline.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_generic_segment.html">ogdf::GenericSegment&lt; PointType &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finite line segments.  <a href="classogdf_1_1_generic_segment.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -188,8 +172,35 @@ Namespaces</h2></td></tr>
 <tr class="memdesc:namespaceogdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace for all OGDF objects. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:add7a5276e16a90e94cc7b126f1bb0d6e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#add7a5276e16a90e94cc7b126f1bb0d6e">ogdf::DLine</a> = GenericLine&lt; DPoint &gt;</td></tr>
+<tr class="memdesc:add7a5276e16a90e94cc7b126f1bb0d6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lines with real coordinates.  <a href="namespaceogdf.html#add7a5276e16a90e94cc7b126f1bb0d6e">More...</a><br /></td></tr>
+<tr class="separator:add7a5276e16a90e94cc7b126f1bb0d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a192ee29fe44e90270e7515b07763779e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">ogdf::DPoint</a> = GenericPoint&lt; double &gt;</td></tr>
+<tr class="memdesc:a192ee29fe44e90270e7515b07763779e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representing two-dimensional point with real coordinates.  <a href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">More...</a><br /></td></tr>
+<tr class="separator:a192ee29fe44e90270e7515b07763779e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22ebb9a5786478b4e58d76ce175a91df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a22ebb9a5786478b4e58d76ce175a91df">ogdf::DPolyline</a> = GenericPolyline&lt; DPoint &gt;</td></tr>
+<tr class="memdesc:a22ebb9a5786478b4e58d76ce175a91df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polylines with DPoint points.  <a href="namespaceogdf.html#a22ebb9a5786478b4e58d76ce175a91df">More...</a><br /></td></tr>
+<tr class="separator:a22ebb9a5786478b4e58d76ce175a91df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a7f80eca439078917e0ea15b7ad1a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#af1a7f80eca439078917e0ea15b7ad1a1">ogdf::DSegment</a> = GenericSegment&lt; DPoint &gt;</td></tr>
+<tr class="memdesc:af1a7f80eca439078917e0ea15b7ad1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Segments with real coordinates.  <a href="namespaceogdf.html#af1a7f80eca439078917e0ea15b7ad1a1">More...</a><br /></td></tr>
+<tr class="separator:af1a7f80eca439078917e0ea15b7ad1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68ad236741f3e62f6ffd722915f717ae"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a68ad236741f3e62f6ffd722915f717ae">ogdf::IPoint</a> = GenericPoint&lt; int &gt;</td></tr>
+<tr class="memdesc:a68ad236741f3e62f6ffd722915f717ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Representing a two-dimensional point with integer coordinates.  <a href="namespaceogdf.html#a68ad236741f3e62f6ffd722915f717ae">More...</a><br /></td></tr>
+<tr class="separator:a68ad236741f3e62f6ffd722915f717ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a747cb55b01946c2b5c0a22cf8a338059"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a747cb55b01946c2b5c0a22cf8a338059">ogdf::IPolyline</a> = GenericPolyline&lt; IPoint &gt;</td></tr>
+<tr class="memdesc:a747cb55b01946c2b5c0a22cf8a338059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polylines with IPoint points.  <a href="namespaceogdf.html#a747cb55b01946c2b5c0a22cf8a338059">More...</a><br /></td></tr>
+<tr class="separator:a747cb55b01946c2b5c0a22cf8a338059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
+<tr class="memitem:a0fe84a998ac725a47b495bb3fc3babee"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a0fe84a998ac725a47b495bb3fc3babee">ogdf::IntersectionType</a> { <a class="el" href="namespaceogdf.html#a0fe84a998ac725a47b495bb3fc3babeea6adf97f83acf6453d4a6a4b1070f3754">ogdf::IntersectionType::None</a>, 
+<a class="el" href="namespaceogdf.html#a0fe84a998ac725a47b495bb3fc3babeea1dd773e22d00c1a26c1bd2af74da255d">ogdf::IntersectionType::SinglePoint</a>, 
+<a class="el" href="namespaceogdf.html#a0fe84a998ac725a47b495bb3fc3babeeac309128476f539aaa98e2de4e5380c7f">ogdf::IntersectionType::Overlapping</a>
+ }<tr class="memdesc:a0fe84a998ac725a47b495bb3fc3babee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the type of intersection of two geometric objects.  <a href="namespaceogdf.html#a0fe84a998ac725a47b495bb3fc3babee">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a0fe84a998ac725a47b495bb3fc3babee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4c7fa2c473d2bbd159ca465d748fcbe2"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a4c7fa2c473d2bbd159ca465d748fcbe2">ogdf::Orientation</a> { <a class="el" href="namespaceogdf.html#a4c7fa2c473d2bbd159ca465d748fcbe2afb9fd904b2aaa466b602eda4752ab155">ogdf::Orientation::topToBottom</a>, 
 <a class="el" href="namespaceogdf.html#a4c7fa2c473d2bbd159ca465d748fcbe2ad21134c4e3ec9e79fb8466624a44aa1b">ogdf::Orientation::bottomToTop</a>, 
 <a class="el" href="namespaceogdf.html#a4c7fa2c473d2bbd159ca465d748fcbe2af5393c00a90864827cdb43170d6efc26">ogdf::Orientation::leftToRight</a>, 
@@ -200,23 +211,21 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1954747c130923179d8934979bacd170"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a1954747c130923179d8934979bacd170">ogdf::DRound</a> (const double &amp;d, int prec=0)</td></tr>
-<tr class="separator:a1954747c130923179d8934979bacd170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c26c2f3e33b5afbb2ac858a54b073f7"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a7c26c2f3e33b5afbb2ac858a54b073f7">ogdf::operator&lt;&lt;</a> (ostream &amp;os, const IPoint &amp;ip)</td></tr>
-<tr class="memdesc:a7c26c2f3e33b5afbb2ac858a54b073f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for integer points.  <a href="namespaceogdf.html#a7c26c2f3e33b5afbb2ac858a54b073f7">More...</a><br /></td></tr>
-<tr class="separator:a7c26c2f3e33b5afbb2ac858a54b073f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74293f3de5b097474232ed3c7d5db6d7"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a74293f3de5b097474232ed3c7d5db6d7">ogdf::operator&lt;&lt;</a> (ostream &amp;os, const DPoint &amp;dp)</td></tr>
-<tr class="memdesc:a74293f3de5b097474232ed3c7d5db6d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for real points.  <a href="namespaceogdf.html#a74293f3de5b097474232ed3c7d5db6d7">More...</a><br /></td></tr>
-<tr class="separator:a74293f3de5b097474232ed3c7d5db6d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8627d241bee12511bd5622b3474a00e2"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a8627d241bee12511bd5622b3474a00e2">ogdf::operator&lt;&lt;</a> (ostream &amp;os, const DLine &amp;dl)</td></tr>
-<tr class="memdesc:a8627d241bee12511bd5622b3474a00e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for lines.  <a href="namespaceogdf.html#a8627d241bee12511bd5622b3474a00e2">More...</a><br /></td></tr>
-<tr class="separator:a8627d241bee12511bd5622b3474a00e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a189c37fe60b7e73945029f7fd93924f5"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a189c37fe60b7e73945029f7fd93924f5">ogdf::operator&lt;&lt;</a> (ostream &amp;os, const DScaler &amp;ds)</td></tr>
-<tr class="memdesc:a189c37fe60b7e73945029f7fd93924f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for scalers.  <a href="namespaceogdf.html#a189c37fe60b7e73945029f7fd93924f5">More...</a><br /></td></tr>
-<tr class="separator:a189c37fe60b7e73945029f7fd93924f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75563d57025c0c398c1202408275dd20"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a75563d57025c0c398c1202408275dd20">ogdf::operator&lt;&lt;</a> (ostream &amp;os, const DPolygon &amp;dop)</td></tr>
-<tr class="memdesc:a75563d57025c0c398c1202408275dd20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for polygons.  <a href="namespaceogdf.html#a75563d57025c0c398c1202408275dd20">More...</a><br /></td></tr>
-<tr class="separator:a75563d57025c0c398c1202408275dd20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41744f45c463f83ededa29a431fb77fa"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a41744f45c463f83ededa29a431fb77fa"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a41744f45c463f83ededa29a431fb77fa">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const GenericPoint&lt; T &gt; &amp;p)</td></tr>
+<tr class="memdesc:a41744f45c463f83ededa29a431fb77fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for generic points.  <a href="namespaceogdf.html#a41744f45c463f83ededa29a431fb77fa">More...</a><br /></td></tr>
+<tr class="separator:a41744f45c463f83ededa29a431fb77fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a832e7109da8ea215cfa0e2320e3df41c"><td class="memTemplParams" colspan="2">template&lt;class PointType &gt; </td></tr>
+<tr class="memitem:a832e7109da8ea215cfa0e2320e3df41c"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a832e7109da8ea215cfa0e2320e3df41c">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const GenericLine&lt; PointType &gt; &amp;line)</td></tr>
+<tr class="memdesc:a832e7109da8ea215cfa0e2320e3df41c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for lines.  <a href="namespaceogdf.html#a832e7109da8ea215cfa0e2320e3df41c">More...</a><br /></td></tr>
+<tr class="separator:a832e7109da8ea215cfa0e2320e3df41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03b73c97b7500bf8abe50bc65a06a1f4"><td class="memTemplParams" colspan="2">template&lt;class PointType &gt; </td></tr>
+<tr class="memitem:a03b73c97b7500bf8abe50bc65a06a1f4"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a03b73c97b7500bf8abe50bc65a06a1f4">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const GenericSegment&lt; PointType &gt; &amp;dl)</td></tr>
+<tr class="memdesc:a03b73c97b7500bf8abe50bc65a06a1f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for line segments.  <a href="namespaceogdf.html#a03b73c97b7500bf8abe50bc65a06a1f4">More...</a><br /></td></tr>
+<tr class="separator:a03b73c97b7500bf8abe50bc65a06a1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0db2b50e7927229d4e6ac6de84f9dba"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ab0db2b50e7927229d4e6ac6de84f9dba">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const DPolygon &amp;dop)</td></tr>
+<tr class="memdesc:ab0db2b50e7927229d4e6ac6de84f9dba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for polygons.  <a href="namespaceogdf.html#ab0db2b50e7927229d4e6ac6de84f9dba">More...</a><br /></td></tr>
+<tr class="separator:ab0db2b50e7927229d4e6ac6de84f9dba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a14d99c15d323cde84861c7068e50949c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a14d99c15d323cde84861c7068e50949c">ogdf::orientation</a> (const DPoint &amp;p, const DPoint &amp;q, const DPoint &amp;r)</td></tr>
 <tr class="separator:a14d99c15d323cde84861c7068e50949c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c31de7b79a17bb31dc560fddbe82fc3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a2c31de7b79a17bb31dc560fddbe82fc3">ogdf::orientation</a> (const DSegment &amp;s, const DPoint &amp;p)</td></tr>
@@ -228,7 +237,7 @@ Variables</h2></td></tr>
 <tr class="separator:aa1e5a6f58ae167317e533f8236dfc68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Declaration of classes DPoint, DPolyline, DLine, DRect, DIntersectableRect, DScaler. </p>
+<div class="textblock"><p>Declaration of classes GenericPoint, GenericPolyline, GenericLine, GenericSegment, DPolygon, DRect, DIntersectableRect. </p>
 <dl class="section author"><dt>Author</dt><dd>Joachim Kupke, Rene Weiskircher, Ivo Hedtke</dd></dl>
 <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />

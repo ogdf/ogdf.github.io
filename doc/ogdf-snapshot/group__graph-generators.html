@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: Graph Generators</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -139,6 +137,9 @@ Randomized graph generators</h2></td></tr>
 <tr class="memitem:gac6991a8ef695dc1ce1c320aeb843856d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d">ogdf::randomSimpleGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
 <tr class="memdesc:gac6991a8ef695dc1ce1c320aeb843856d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random simple graph.  <a href="group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d">More...</a><br /></td></tr>
 <tr class="separator:gac6991a8ef695dc1ce1c320aeb843856d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201">ogdf::randomSimpleConnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
+<tr class="memdesc:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random simple and connected graph.  <a href="group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201">More...</a><br /></td></tr>
+<tr class="separator:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gae84cb709f5fcb098528bc0474d1a55b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gae84cb709f5fcb098528bc0474d1a55b2">ogdf::randomBiconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
 <tr class="memdesc:gae84cb709f5fcb098528bc0474d1a55b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random biconnected graph.  <a href="group__graph-generators.html#gae84cb709f5fcb098528bc0474d1a55b2">More...</a><br /></td></tr>
 <tr class="separator:gae84cb709f5fcb098528bc0474d1a55b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -539,7 +540,7 @@ Deterministic graph generators</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="graph__generators_8h_source.html#l00322">322</a> of file <a class="el" href="graph__generators_8h_source.html">graph_generators.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="graph__generators_8h_source.html#l00330">330</a> of file <a class="el" href="graph__generators_8h_source.html">graph_generators.h</a>.</p>
 
 </div>
 </div>
@@ -1472,6 +1473,50 @@ Deterministic graph generators</h2></td></tr>
     <tr><td class="paramname">edges</td><td>is the number of edges in the generated graph. </td></tr>
     <tr><td class="paramname">p</td><td>= probability of a series composition; default = 0.5 </td></tr>
     <tr><td class="paramname">flt</td><td>= up to edges*flt edges will be reversed preversing acyclicity; default = 0.0 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ga781aeb9ae0e597beb8cfd97f2dc15201"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga781aeb9ae0e597beb8cfd97f2dc15201">&#9670;&nbsp;</a></span>randomSimpleConnectedGraph()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::randomSimpleConnectedGraph </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates a random simple and connected graph. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is assigned the generated graph. </td></tr>
+    <tr><td class="paramname">n</td><td>is the number of nodes of the generated graph. </td></tr>
+    <tr><td class="paramname">m</td><td>is the number of edges of the generated graph. </td></tr>
   </table>
   </dd>
 </dl>

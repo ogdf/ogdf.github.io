@@ -1,7 +1,5 @@
 var classogdf_1_1energybased_1_1fmmm_1_1_multilevel =
 [
-    [ "Multilevel", "classogdf_1_1energybased_1_1fmmm_1_1_multilevel.html#affbfe86aa57bb636d1cac4c09e5d9cad", null ],
-    [ "~Multilevel", "classogdf_1_1energybased_1_1fmmm_1_1_multilevel.html#adeefc0e4b15c28a6e4ce111f378d2a60", null ],
     [ "calculate_mass_of_collapsed_nodes", "classogdf_1_1energybased_1_1fmmm_1_1_multilevel.html#abc6f0577ac2b8dade860b852b657b0d9", null ],
     [ "calculate_position", "classogdf_1_1energybased_1_1fmmm_1_1_multilevel.html#a67cc6f9754ceac8d8ecd82ebc5665c8a", null ],
     [ "collaps_solar_systems", "classogdf_1_1energybased_1_1fmmm_1_1_multilevel.html#a74af0b0043d6527889570887e11e9745", null ],

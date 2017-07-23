@@ -48,7 +48,7 @@ var classogdf_1_1_p_q_tree =
     [ "templateQ2", "classogdf_1_1_p_q_tree.html#a6839d25d0a5e27cd24f2f3da604b7169", null ],
     [ "templateQ3", "classogdf_1_1_p_q_tree.html#aefd5607fec9aaf74d58fb53ddb9883a7", null ],
     [ "writeGML", "classogdf_1_1_p_q_tree.html#a5b7764739dfcfc6d7c956870ccdf0230", null ],
-    [ "writeGML", "classogdf_1_1_p_q_tree.html#a37530cf5088cc5f7edb8063a45495756", null ],
+    [ "writeGML", "classogdf_1_1_p_q_tree.html#a98046ca03115c5b2241564f02bf2c257", null ],
     [ "m_identificationNumber", "classogdf_1_1_p_q_tree.html#a75ed08b07f23d14328a91a7ba8bacc7a", null ],
     [ "m_numberOfLeaves", "classogdf_1_1_p_q_tree.html#aa1f6f339ca2536e8dd9ebc15a5af8a2c", null ],
     [ "m_pertinentNodes", "classogdf_1_1_p_q_tree.html#a0a1a39850b4f51707c6b4609dd45f106", null ],

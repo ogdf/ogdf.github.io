@@ -1,6 +1,6 @@
 var classogdf_1_1_line_buffer =
 [
-    [ "LineBuffer", "classogdf_1_1_line_buffer.html#af12c99613e4517321d2d86b767a429d9", null ],
+    [ "LineBuffer", "classogdf_1_1_line_buffer.html#a9ac136ee777bde4a870a8fd6804f91ca", null ],
     [ "~LineBuffer", "classogdf_1_1_line_buffer.html#ac27856c5ae41551e3e36c066dc251c78", null ],
     [ "extractString", "classogdf_1_1_line_buffer.html#a602e123b39de192bedeee33fa0f041e6", null ],
     [ "getCurrentCharacter", "classogdf_1_1_line_buffer.html#a05e8b6954422ad4825296f84772220fb", null ],
@@ -15,5 +15,5 @@ var classogdf_1_1_line_buffer =
     [ "m_linBuf", "classogdf_1_1_line_buffer.html#a9580967ce03e57b0e53a6dd44452fe96", null ],
     [ "m_lineUpdateCountArray", "classogdf_1_1_line_buffer.html#a2c3d24ff92560149243a2ce5ac45f48f", null ],
     [ "m_numberOfMostRecentlyReadLine", "classogdf_1_1_line_buffer.html#a307b9d18eb295accf8e8d93830c96ead", null ],
-    [ "m_pIs", "classogdf_1_1_line_buffer.html#aaad25a924a2cd2fa2934eadf9ddd68d4", null ]
+    [ "m_pIs", "classogdf_1_1_line_buffer.html#ae23811ee1712f227a65726d125931120", null ]
 ];

@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::EmbedderMaxFaceBiconnectedGraphs&lt; T &gt; Class Template Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -121,26 +119,29 @@ $(document).ready(function(){initNavTree('classogdf_1_1_embedder_max_face_biconn
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="classogdf_1_1_embedder_max_face_biconnected_graphs-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::EmbedderMaxFaceBiconnectedGraphs&lt; T &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>Computes an embedding of a biconnected graph with maximum external face.  
+<p>Embedder that maximizing the external face.  
  <a href="classogdf_1_1_embedder_max_face_biconnected_graphs.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">ogdf/planarity/embedder/EmbedderMaxFaceBiconnectedGraphs.h</a>&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Inheritance diagram for ogdf::EmbedderMaxFaceBiconnectedGraphs&lt; T &gt;:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classogdf_1_1_embedder_max_face_biconnected_graphs__inherit__graph.png" border="0" usemap="#ogdf_1_1_embedder_max_face_biconnected_graphs_3_01_t_01_4_inherit__map" alt="Inheritance graph"/></div>
+<map name="ogdf_1_1_embedder_max_face_biconnected_graphs_3_01_t_01_4_inherit__map" id="ogdf_1_1_embedder_max_face_biconnected_graphs_3_01_t_01_4_inherit__map">
+<area shape="rect" id="node2" href="classogdf_1_1_embedder_max_face_biconnected_graphs_layers.html" title="Embedder that maximizes the external face (plus layers approach). " alt="" coords="5,95,245,136"/>
+</map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:abd9ed1c73ad5099ebee3f4e9251a0891"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face_biconnected_graphs.html#abd9ed1c73ad5099ebee3f4e9251a0891">EmbedderMaxFaceBiconnectedGraphs</a> ()</td></tr>
-<tr class="memdesc:abd9ed1c73ad5099ebee3f4e9251a0891"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an embedder.  <a href="#abd9ed1c73ad5099ebee3f4e9251a0891">More...</a><br /></td></tr>
-<tr class="separator:abd9ed1c73ad5099ebee3f4e9251a0891"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:aa161e7687a81c41229a886316cc12f24"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face_biconnected_graphs.html#aa161e7687a81c41229a886316cc12f24">compute</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;nodeLength, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &amp;edgeLength, <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html">StaticSPQRTree</a> *spqrTree, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &gt; &amp;edgeLengthSkel)</td></tr>
@@ -165,8 +166,8 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7d11d916f47361f40ce3a63e08753b0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Embeds <code>G</code> by computing and extending a maximum face in <code>G</code> containing <code>n</code>.  <a href="#a7d11d916f47361f40ce3a63e08753b0e">More...</a><br /></td></tr>
 <tr class="separator:a7d11d916f47361f40ce3a63e08753b0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:af1012faf8a353c4b480bc444d1993243"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face_biconnected_graphs.html#af1012faf8a353c4b480bc444d1993243">adjEntryForNode</a> (<a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;ae, <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &amp;<a class="el" href="namespaceogdf.html#ac7625914963ce9d09a3e208f02d12f2ba2f44417567bc123bd7c60de8c2a2b444">before</a>, const <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html">StaticSPQRTree</a> &amp;spqrTree, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;treeNodeTreated, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;mu, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;leftNode, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;nodeLength, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &gt; &amp;edgeLength, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &gt; &amp;newOrder, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &gt; &amp;adjBeforeNodeArraySource, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &gt; &amp;adjBeforeNodeArrayTarget, <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;adjExternal)</td></tr>
 <tr class="separator:af1012faf8a353c4b480bc444d1993243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8544e5ed97e2ba3b3db5fb6cdbad5b96"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_embedder_max_face_biconnected_graphs.html#a8544e5ed97e2ba3b3db5fb6cdbad5b96">bottomUpTraversal</a> (<a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html">StaticSPQRTree</a> &amp;spqrTree, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &amp;mu, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;nodeLength, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &gt; &amp;edgeLength)</td></tr>
@@ -194,44 +195,12 @@ Static Private Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;class T&gt;<br />
 class ogdf::EmbedderMaxFaceBiconnectedGraphs&lt; T &gt;</h3>
 
-<p>Computes an embedding of a biconnected graph with maximum external face. </p>
-<p>See the paper "Graph Embedding with Minimum Depth and
-Maximum External Face" by C. Gutwenger and P. Mutzel (2004) for details. </p>
+<p>Embedder that maximizing the external face. </p>
+<dl class="section pre"><dt>Precondition</dt><dd>Input graphs need to be biconnected.</dd></dl>
+<p>See the paper "Graph Embedding with Minimum Depth and Maximum External Face" by C. Gutwenger and P. Mutzel (2004) for details. </p>
 
 <p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00049">49</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="abd9ed1c73ad5099ebee3f4e9251a0891"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd9ed1c73ad5099ebee3f4e9251a0891">&#9670;&nbsp;</a></span>EmbedderMaxFaceBiconnectedGraphs()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_embedder_max_face_biconnected_graphs.html">ogdf::EmbedderMaxFaceBiconnectedGraphs</a>&lt; T &gt;::<a class="el" href="classogdf_1_1_embedder_max_face_biconnected_graphs.html">EmbedderMaxFaceBiconnectedGraphs</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates an embedder. </p>
-
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00053">53</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="af1012faf8a353c4b480bc444d1993243"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af1012faf8a353c4b480bc444d1993243">&#9670;&nbsp;</a></span>adjEntryForNode()</h2>
 
@@ -323,14 +292,14 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <p>(ae-&gt;theEdge() == referenceEdge)</p>
 <p>(S.isVirtual(ae-&gt;theEdge())) </p>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00525">525</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00522">522</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -377,7 +346,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -393,7 +362,7 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01475">1475</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01472">1472</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -463,7 +432,7 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01265">1265</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01262">1262</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -527,7 +496,7 @@ template&lt;class T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The size of a maximum external face in <code>G</code> containing the node <code>n</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01379">1379</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01376">1376</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -598,7 +567,7 @@ template&lt;class T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The size of a maximum external face in <code>G</code> containing the node <code>n</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01406">1406</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01403">1403</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -676,7 +645,7 @@ template&lt;class T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The size of a maximum external face in <code>G</code> containing the node <code>n</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01420">1420</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01417">1417</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -733,7 +702,7 @@ template&lt;class T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The size of a maximum external face in <code>G</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01299">1299</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01296">1296</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -805,7 +774,7 @@ template&lt;class T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>The size of a maximum external face in <code>G</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01324">1324</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01321">1321</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -875,7 +844,7 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00434">434</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00431">431</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -964,12 +933,12 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00615">615</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00612">612</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -1052,12 +1021,12 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00753">753</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00750">750</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -1146,12 +1115,12 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00988">988</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00985">985</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -1234,12 +1203,12 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00654">654</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l00651">651</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -1292,7 +1261,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1309,7 +1278,7 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01649">1649</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01646">1646</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -1356,7 +1325,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1372,7 +1341,7 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01743">1743</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01740">1740</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>
@@ -1419,7 +1388,7 @@ template&lt;class T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1435,7 +1404,7 @@ template&lt;class T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01564">1564</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html#l01561">1561</a> of file <a class="el" href="_embedder_max_face_biconnected_graphs_8h_source.html">EmbedderMaxFaceBiconnectedGraphs.h</a>.</p>
 
 </div>
 </div>

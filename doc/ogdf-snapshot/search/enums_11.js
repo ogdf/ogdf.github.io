@@ -1,7 +1,7 @@
 var searchData=
 [
   ['savecalculation',['SaveCalculation',['../classogdf_1_1_min_steiner_tree_zelikovsky.html#a14388d5d1447cad2cdaf3bf917ff2bf1',1,'ogdf::MinSteinerTreeZelikovsky']]],
-  ['scaling',['Scaling',['../classogdf_1_1_spring_embedder_grid_variant.html#a8697d25990f9906080372319a487c95a',1,'ogdf::SpringEmbedderGridVariant']]],
+  ['scaling',['Scaling',['../classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#af97ce711b8f1fb71ca1824cfb029a631',1,'ogdf::spring_embedder::SpringEmbedderBase']]],
   ['scalingtype',['ScalingType',['../classogdf_1_1_scaling_layout.html#af82613f4b24b733ede92fa1fbd82de44',1,'ogdf::ScalingLayout']]],
   ['sense',['SENSE',['../classabacus_1_1_c_sense.html#a8c4369c8aaa89140a14a456204eb0da9',1,'abacus::CSense::SENSE()'],['../classabacus_1_1_opt_sense.html#ae44b15cdfafd644766b9defcbddc5360',1,'abacus::OptSense::SENSE()']]],
   ['separator_5fcutfound',['Separator_CUTFOUND',['../namespaceabacus.html#ae8090cdeea2e9ef8c1c35624ee5e5b12',1,'abacus']]],
@@ -18,7 +18,7 @@ var searchData=
   ['speedparameter',['SpeedParameter',['../classogdf_1_1_davidson_harel_layout.html#ad459fc6a1b33fb735679159c9a4e7652',1,'ogdf::DavidsonHarelLayout']]],
   ['springforcemodel',['SpringForceModel',['../group__gd-energy.html#ga198047c11aad29596e2bfa8286c27aea',1,'ogdf']]],
   ['startnodestrategy',['StartNodeStrategy',['../classogdf_1_1_modified_nibble_clusterer.html#a666daaf85fd63b2a11f7d64ccc60013e',1,'ogdf::ModifiedNibbleClusterer']]],
-  ['status',['STATUS',['../classabacus_1_1_f_s_var_stat.html#a0b174a15f4bfd9c3a20cbd3ccc0efbb9',1,'abacus::FSVarStat::STATUS()'],['../classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26136feb2521120a7c71e02e830af809',1,'abacus::LPVARSTAT::STATUS()'],['../classabacus_1_1_master.html#a54e939daa08127053085262bdfd82188',1,'abacus::Master::STATUS()'],['../classabacus_1_1_slack_stat.html#a7aaac2c567af8d69a233ee04b7dc0bcb',1,'abacus::SlackStat::STATUS()'],['../classabacus_1_1_sub.html#a49aa228f17967fc8ac589b5fb7bc3297',1,'abacus::Sub::STATUS()'],['../classogdf_1_1_hanani_tutte_c_planarity.html#a1910841aa967ec70400fa0f06cdefb10',1,'ogdf::HananiTutteCPlanarity::Status()'],['../classogdf_1_1_l_p_solver.html#ab8cdd4c5fa2526257d633c77bba713ee',1,'ogdf::LPSolver::Status()']]],
+  ['status',['Status',['../classogdf_1_1_hanani_tutte_c_planarity.html#a1910841aa967ec70400fa0f06cdefb10',1,'ogdf::HananiTutteCPlanarity::Status()'],['../classogdf_1_1_l_p_solver.html#ab8cdd4c5fa2526257d633c77bba713ee',1,'ogdf::LPSolver::Status()'],['../classabacus_1_1_f_s_var_stat.html#a0b174a15f4bfd9c3a20cbd3ccc0efbb9',1,'abacus::FSVarStat::STATUS()'],['../classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26136feb2521120a7c71e02e830af809',1,'abacus::LPVARSTAT::STATUS()'],['../classabacus_1_1_master.html#a54e939daa08127053085262bdfd82188',1,'abacus::Master::STATUS()'],['../classabacus_1_1_slack_stat.html#a7aaac2c567af8d69a233ee04b7dc0bcb',1,'abacus::SlackStat::STATUS()'],['../classabacus_1_1_sub.html#a49aa228f17967fc8ac589b5fb7bc3297',1,'abacus::Sub::STATUS()']]],
   ['stopcause',['StopCause',['../classogdf_1_1_p_a_label.html#abbb2f320421be920b1fe7f4bb764d0a4',1,'ogdf::PALabel']]],
   ['stopcriterion',['StopCriterion',['../classogdf_1_1_f_m_m_m_options.html#a193eb2c48d9895bf320b19a748112297',1,'ogdf::FMMMOptions']]],
   ['strategy',['Strategy',['../classogdf_1_1_sifting_heuristic.html#acf7d16c0f8c79c95379ae9f4b4b034c9',1,'ogdf::SiftingHeuristic']]],

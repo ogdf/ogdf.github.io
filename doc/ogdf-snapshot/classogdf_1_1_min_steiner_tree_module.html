@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::MinSteinerTreeModule&lt; T &gt; Class Template Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -124,13 +122,15 @@ $(document).ready(function(){initNavTree('classogdf_1_1_min_steiner_tree_module.
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="classogdf_1_1_min_steiner_tree_module-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::MinSteinerTreeModule&lt; T &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
 
-<p>This class serves as an interface for various methods to compute minimum or approximations of minimum Steiner trees.  
+<p>Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirected graphs with edge costs.  
  <a href="classogdf_1_1_min_steiner_tree_module.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_min_steiner_tree_module_8h_source.html">ogdf/module/MinSteinerTreeModule.h</a>&gt;</code></p>
@@ -156,98 +156,110 @@ $(document).ready(function(){initNavTree('classogdf_1_1_min_steiner_tree_module.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a676d0d03639d206fdc6c075d1a644bb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a676d0d03639d206fdc6c075d1a644bb8">MinSteinerTreeModule</a> ()</td></tr>
-<tr class="separator:a676d0d03639d206fdc6c075d1a644bb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af83963f0c2193e52f151907b36d1926c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#af83963f0c2193e52f151907b36d1926c">~MinSteinerTreeModule</a> ()</td></tr>
+<tr class="memdesc:af83963f0c2193e52f151907b36d1926c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do nothing on destruction.  <a href="#af83963f0c2193e52f151907b36d1926c">More...</a><br /></td></tr>
 <tr class="separator:af83963f0c2193e52f151907b36d1926c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27f92bfbfeeb4c373a923c053e38d24c"><td class="memItemLeft" align="right" valign="top">virtual T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a27f92bfbfeeb4c373a923c053e38d24c">call</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; *&amp;finalSteinerTree)</td></tr>
-<tr class="memdesc:a27f92bfbfeeb4c373a923c053e38d24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a minimum Steiner tree given a weighted graph and a list of terminals.  <a href="#a27f92bfbfeeb4c373a923c053e38d24c">More...</a><br /></td></tr>
+<tr class="memdesc:a27f92bfbfeeb4c373a923c053e38d24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls the Steiner tree algorithm for nontrivial cases but handles trivial cases directly.  <a href="#a27f92bfbfeeb4c373a923c053e38d24c">More...</a><br /></td></tr>
 <tr class="separator:a27f92bfbfeeb4c373a923c053e38d24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a571faefbad0a9255fd100dc3b68fe3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a3a571faefbad0a9255fd100dc3b68fe3">allPairShortestPaths</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nonterminals, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt; &amp;pred)</td></tr>
-<tr class="memdesc:a3a571faefbad0a9255fd100dc3b68fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undirected All-pair-shortest-paths (Floyd-Warshall) over non-terminal nodes of G.  <a href="#a3a571faefbad0a9255fd100dc3b68fe3">More...</a><br /></td></tr>
-<tr class="separator:a3a571faefbad0a9255fd100dc3b68fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad02365792722f08744d4fb290cc070a9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ad02365792722f08744d4fb290cc070a9">allPairShortestPathsDetour</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nonterminals, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt; &amp;pred)</td></tr>
-<tr class="separator:ad02365792722f08744d4fb290cc070a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49605bde35baea89f617543e3d47aac0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a49605bde35baea89f617543e3d47aac0">allPairShortestPathsStrict</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt; &amp;pred)</td></tr>
-<tr class="separator:a49605bde35baea89f617543e3d47aac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae882932fb65db1f4a6559df8e30d6b67"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ae882932fb65db1f4a6559df8e30d6b67">drawSteinerTreeSVG</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const char *filename)</td></tr>
-<tr class="memdesc:ae882932fb65db1f4a6559df8e30d6b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a SVG that shows only the given Steiner tree.  <a href="#ae882932fb65db1f4a6559df8e30d6b67">More...</a><br /></td></tr>
-<tr class="separator:ae882932fb65db1f4a6559df8e30d6b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fecb7d68f283a153c8247c9feb23417"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a8fecb7d68f283a153c8247c9feb23417">drawSVG</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const char *filename)</td></tr>
-<tr class="memdesc:a8fecb7d68f283a153c8247c9feb23417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an SVG file of a minimum Steiner tree in the original graph.  <a href="#a8fecb7d68f283a153c8247c9feb23417">More...</a><br /></td></tr>
-<tr class="separator:a8fecb7d68f283a153c8247c9feb23417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af61ecef8b899e9e5b0e81d4573431ba2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#af61ecef8b899e9e5b0e81d4573431ba2">getNonterminals</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nonterminals, const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal)</td></tr>
+<tr class="memdesc:af61ecef8b899e9e5b0e81d4573431ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a list (as ArrayBuffer&lt;node&gt;) of all nonterminals.  <a href="#af61ecef8b899e9e5b0e81d4573431ba2">More...</a><br /></td></tr>
+<tr class="separator:af61ecef8b899e9e5b0e81d4573431ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd3242ae3d106abc4d6f8afb95f61f0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a3cd3242ae3d106abc4d6f8afb95f61f0">getTerminals</a> (<a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals, const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal)</td></tr>
+<tr class="memdesc:a3cd3242ae3d106abc4d6f8afb95f61f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a list (as List&lt;node&gt;) of all terminals.  <a href="#a3cd3242ae3d106abc4d6f8afb95f61f0">More...</a><br /></td></tr>
+<tr class="separator:a3cd3242ae3d106abc4d6f8afb95f61f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a141e9a352f8008eb9acd3440e7a316a6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a141e9a352f8008eb9acd3440e7a316a6">isQuasiBipartite</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal)</td></tr>
 <tr class="memdesc:a141e9a352f8008eb9acd3440e7a316a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks in O(n + m) time if a given Steiner tree problem instance is quasi-bipartite.  <a href="#a141e9a352f8008eb9acd3440e7a316a6">More...</a><br /></td></tr>
 <tr class="separator:a141e9a352f8008eb9acd3440e7a316a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad049624b4f98fee9e8c15cfbdb67dead"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ad049624b4f98fee9e8c15cfbdb67dead">isSteinerTree</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree)</td></tr>
 <tr class="memdesc:ad049624b4f98fee9e8c15cfbdb67dead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks in O(n) time if a given tree is acually a Steiner Tree.  <a href="#ad049624b4f98fee9e8c15cfbdb67dead">More...</a><br /></td></tr>
 <tr class="separator:ad049624b4f98fee9e8c15cfbdb67dead"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9994e3c166cc2b0b4f6376b10c94ad94"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a9994e3c166cc2b0b4f6376b10c94ad94">sortTerminals</a> (<a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals)</td></tr>
+<tr class="memdesc:a9994e3c166cc2b0b4f6376b10c94ad94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sort terminals by index.  <a href="#a9994e3c166cc2b0b4f6376b10c94ad94">More...</a><br /></td></tr>
+<tr class="separator:a9994e3c166cc2b0b4f6376b10c94ad94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Auxiliary post-processing functions</div></td></tr>
 <tr class="memitem:a3510dd9124f2aeb50b4a5598f711793d"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a3510dd9124f2aeb50b4a5598f711793d">pruneAllDanglingSteinerPaths</a> (<a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal)</td></tr>
-<tr class="memdesc:a3510dd9124f2aeb50b4a5598f711793d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prune Steiner nodes with degree 1 and their paths to terminal or branching nodes.  <a href="#a3510dd9124f2aeb50b4a5598f711793d">More...</a><br /></td></tr>
+<tr class="memdesc:a3510dd9124f2aeb50b4a5598f711793d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prunes nonterminal leaves and their paths to terminal or branching nodes.  <a href="#a3510dd9124f2aeb50b4a5598f711793d">More...</a><br /></td></tr>
 <tr class="separator:a3510dd9124f2aeb50b4a5598f711793d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a490cdae395d096808b308cac4c1c7833"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a490cdae395d096808b308cac4c1c7833">pruneDanglingSteinerPathFrom</a> (<a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> start)</td></tr>
-<tr class="memdesc:a490cdae395d096808b308cac4c1c7833"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prune the dangling Steiner path beginning at a given node only.  <a href="#a490cdae395d096808b308cac4c1c7833">More...</a><br /></td></tr>
+<tr class="memdesc:a490cdae395d096808b308cac4c1c7833"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prunes the dangling Steiner path beginning at a given nonterminal leaf only.  <a href="#a490cdae395d096808b308cac4c1c7833">More...</a><br /></td></tr>
 <tr class="separator:a490cdae395d096808b308cac4c1c7833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1a4a05b05e43be7b8e2db577b481b8a"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#af1a4a05b05e43be7b8e2db577b481b8a">pruneDanglingSteinerPathsFrom</a> (<a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;start)</td></tr>
-<tr class="memdesc:af1a4a05b05e43be7b8e2db577b481b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prune dangling Steiner paths beginning at given nodes only.  <a href="#af1a4a05b05e43be7b8e2db577b481b8a">More...</a><br /></td></tr>
+<tr class="memdesc:af1a4a05b05e43be7b8e2db577b481b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prunes dangling Steiner paths beginning at given nonterminal leaves only.  <a href="#af1a4a05b05e43be7b8e2db577b481b8a">More...</a><br /></td></tr>
 <tr class="separator:af1a4a05b05e43be7b8e2db577b481b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75dca819f08e214f286cf14f0db407e8"><td class="memItemLeft" align="right" valign="top">static T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a75dca819f08e214f286cf14f0db407e8">removeCyclesFrom</a> (<a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal)</td></tr>
-<tr class="memdesc:a75dca819f08e214f286cf14f0db407e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove remaining cycles from an Steiner "almost" tree.  <a href="#a75dca819f08e214f286cf14f0db407e8">More...</a><br /></td></tr>
+<tr class="memdesc:a75dca819f08e214f286cf14f0db407e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove remaining cycles from a Steiner "almost" tree.  <a href="#a75dca819f08e214f286cf14f0db407e8">More...</a><br /></td></tr>
 <tr class="separator:a75dca819f08e214f286cf14f0db407e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d00f2b017734b30643ae8fc4b41a601"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a7d00f2b017734b30643ae8fc4b41a601">singleSourceShortestPaths</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> source, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;pred)</td></tr>
-<tr class="memdesc:a7d00f2b017734b30643ae8fc4b41a601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Undirected Single-source-shortest-paths (<a class="el" href="classogdf_1_1_dijkstra.html" title="Dijkstra&#39;s single source shortest path algorithm. ">Dijkstra</a>) over non-terminal nodes of G.  <a href="#a7d00f2b017734b30643ae8fc4b41a601">More...</a><br /></td></tr>
-<tr class="separator:a7d00f2b017734b30643ae8fc4b41a601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22408581751287150356dcb7f2daff48"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a22408581751287150356dcb7f2daff48">singleSourceShortestPathsDetour</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> source, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;pred)</td></tr>
-<tr class="separator:a22408581751287150356dcb7f2daff48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Special SSSP and APSP algorithms used in component-based approximation algorithms</div></td></tr>
 <tr class="memitem:ab5c86fac7f694b3406c3aafaf4e225f8"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ab5c86fac7f694b3406c3aafaf4e225f8">singleSourceShortestPathsStrict</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> source, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;pred)</td></tr>
+<tr class="memdesc:ab5c86fac7f694b3406c3aafaf4e225f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modified single-source-shortest-paths (Dijkstra) with heuristic to prefer paths over terminals.  <a href="#ab5c86fac7f694b3406c3aafaf4e225f8">More...</a><br /></td></tr>
 <tr class="separator:ab5c86fac7f694b3406c3aafaf4e225f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22408581751287150356dcb7f2daff48"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a22408581751287150356dcb7f2daff48">singleSourceShortestPathsDetour</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> source, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;pred)</td></tr>
+<tr class="memdesc:a22408581751287150356dcb7f2daff48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modified single-source-shortest-paths (Dijkstra) with heuristic to avoid paths over terminals.  <a href="#a22408581751287150356dcb7f2daff48">More...</a><br /></td></tr>
+<tr class="separator:a22408581751287150356dcb7f2daff48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b62580c79d0bd9e6419f86aa60a9f3"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ac2b62580c79d0bd9e6419f86aa60a9f3">allTerminalShortestPathsDetour</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;pred)</td></tr>
+<tr class="memdesc:ac2b62580c79d0bd9e6419f86aa60a9f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs <a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a22408581751287150356dcb7f2daff48" title="Modified single-source-shortest-paths (Dijkstra) with heuristic to avoid paths over terminals...">singleSourceShortestPathsDetour</a> from all terminals.  <a href="#ac2b62580c79d0bd9e6419f86aa60a9f3">More...</a><br /></td></tr>
+<tr class="separator:ac2b62580c79d0bd9e6419f86aa60a9f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8dfd9a55e30fe8fa8c75ff42a23ae6b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ad8dfd9a55e30fe8fa8c75ff42a23ae6b">allTerminalShortestPathsStrict</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;pred)</td></tr>
+<tr class="memdesc:ad8dfd9a55e30fe8fa8c75ff42a23ae6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs <a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ab5c86fac7f694b3406c3aafaf4e225f8" title="Modified single-source-shortest-paths (Dijkstra) with heuristic to prefer paths over terminals...">singleSourceShortestPathsStrict</a> from all terminals.  <a href="#ad8dfd9a55e30fe8fa8c75ff42a23ae6b">More...</a><br /></td></tr>
+<tr class="separator:ad8dfd9a55e30fe8fa8c75ff42a23ae6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50852057d445db8fae0f72b45d640ec0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a50852057d445db8fae0f72b45d640ec0">allPairShortestPathsStrict</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;pred)</td></tr>
+<tr class="memdesc:a50852057d445db8fae0f72b45d640ec0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modified all-pair-shortest-paths algorithm (Floyd-Warshall) over nonterminals with heuristic to prefer paths over terminals.  <a href="#a50852057d445db8fae0f72b45d640ec0">More...</a><br /></td></tr>
+<tr class="separator:a50852057d445db8fae0f72b45d640ec0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a10a60c75d4d648853710d46ad75b8a"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER &gt; </td></tr>
+<tr class="memitem:a9a10a60c75d4d648853710d46ad75b8a"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a9a10a60c75d4d648853710d46ad75b8a">allPairShortestPathsDetour</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const CONTAINER &amp;nonterminals, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;pred)</td></tr>
+<tr class="memdesc:a9a10a60c75d4d648853710d46ad75b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modified all-pair-shortest-paths algorithm (Floyd-Warshall) over nonterminals with heuristic to avoid paths over terminals and hence accepting detours.  <a href="#a9a10a60c75d4d648853710d46ad75b8a">More...</a><br /></td></tr>
+<tr class="separator:a9a10a60c75d4d648853710d46ad75b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Drawings for debugging</div></td></tr>
+<tr class="memitem:a8fecb7d68f283a153c8247c9feb23417"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a8fecb7d68f283a153c8247c9feb23417">drawSVG</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const char *filename)</td></tr>
+<tr class="memdesc:a8fecb7d68f283a153c8247c9feb23417"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an SVG file of a minimum Steiner tree in the original graph.  <a href="#a8fecb7d68f283a153c8247c9feb23417">More...</a><br /></td></tr>
+<tr class="separator:a8fecb7d68f283a153c8247c9feb23417"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae882932fb65db1f4a6559df8e30d6b67"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ae882932fb65db1f4a6559df8e30d6b67">drawSteinerTreeSVG</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const char *filename)</td></tr>
+<tr class="memdesc:ae882932fb65db1f4a6559df8e30d6b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a SVG that shows only the given Steiner tree.  <a href="#ae882932fb65db1f4a6559df8e30d6b67">More...</a><br /></td></tr>
+<tr class="separator:ae882932fb65db1f4a6559df8e30d6b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:a670aca509e97bbcda09871796e94be0e"><td class="memItemLeft" align="right" valign="top">virtual T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a670aca509e97bbcda09871796e94be0e">computeSteinerTree</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; *&amp;finalSteinerTree)=0</td></tr>
+<tr class="memdesc:a670aca509e97bbcda09871796e94be0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the actual Steiner tree.  <a href="#a670aca509e97bbcda09871796e94be0e">More...</a><br /></td></tr>
 <tr class="separator:a670aca509e97bbcda09871796e94be0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a0a26075278f9f8e4e12674205f73010a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a0a26075278f9f8e4e12674205f73010a">allTerminalShortestPaths</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;pred, std::function&lt; void(const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;)&gt; ssspFunc)</td></tr>
+<tr class="memdesc:a0a26075278f9f8e4e12674205f73010a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs a given single-source-shortest-paths function from all terminals.  <a href="#a0a26075278f9f8e4e12674205f73010a">More...</a><br /></td></tr>
+<tr class="separator:a0a26075278f9f8e4e12674205f73010a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a6fe57af738172fedf287faa2cbd2548c"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a6fe57af738172fedf287faa2cbd2548c">apspInit</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;pred)</td></tr>
+<tr class="memdesc:a6fe57af738172fedf287faa2cbd2548c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common initialization routine for APSP algorithms.  <a href="#a6fe57af738172fedf287faa2cbd2548c">More...</a><br /></td></tr>
+<tr class="separator:a6fe57af738172fedf287faa2cbd2548c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023d22fce4ac6fae9602df4c9fdb8197"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a023d22fce4ac6fae9602df4c9fdb8197">apspInnerLoop</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v, const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;distance, std::function&lt; void(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, T)&gt; func)</td></tr>
+<tr class="memdesc:a023d22fce4ac6fae9602df4c9fdb8197"><td class="mdescLeft">&#160;</td><td class="mdescRight">The inner loop for APSP algorithm to avoid code duplication.  <a href="#a023d22fce4ac6fae9602df4c9fdb8197">More...</a><br /></td></tr>
+<tr class="separator:a023d22fce4ac6fae9602df4c9fdb8197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68fea7a23c91295f826ee797cf8e8656"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a68fea7a23c91295f826ee797cf8e8656">ssspInit</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> source, <a class="el" href="classogdf_1_1_prioritized_map_queue.html">PrioritizedMapQueue</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, T &gt; &amp;queue, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;distance, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;pred)</td></tr>
+<tr class="memdesc:a68fea7a23c91295f826ee797cf8e8656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Common initialization routine for SSSP algorithms.  <a href="#a68fea7a23c91295f826ee797cf8e8656">More...</a><br /></td></tr>
+<tr class="separator:a68fea7a23c91295f826ee797cf8e8656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 class ogdf::MinSteinerTreeModule&lt; T &gt;</h3>
 
-<p>This class serves as an interface for various methods to compute minimum or approximations of minimum Steiner trees. </p>
-<p>Furthermore it supplies some helping methods. </p>
+<p>Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirected graphs with edge costs. </p>
+<p>Furthermore it supplies some auxiliary methods.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>The type of the edge costs of the Steiner tree instance </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00054">54</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00057">57</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a676d0d03639d206fdc6c075d1a644bb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a676d0d03639d206fdc6c075d1a644bb8">&#9670;&nbsp;</a></span>MinSteinerTreeModule()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::<a class="el" href="classogdf_1_1_min_steiner_tree_module.html">MinSteinerTreeModule</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00056">56</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
-
-</div>
-</div>
 <a id="af83963f0c2193e52f151907b36d1926c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af83963f0c2193e52f151907b36d1926c">&#9670;&nbsp;</a></span>~MinSteinerTreeModule()</h2>
 
@@ -273,81 +285,22 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00058">58</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p>Do nothing on destruction. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00060">60</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3a571faefbad0a9255fd100dc3b68fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a571faefbad0a9255fd100dc3b68fe3">&#9670;&nbsp;</a></span>allPairShortestPaths()</h2>
+<a id="a9a10a60c75d4d648853710d46ad75b8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a10a60c75d4d648853710d46ad75b8a">&#9670;&nbsp;</a></span>allPairShortestPathsDetour()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::allPairShortestPaths </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>G</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>nonterminals</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>distance</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt; &amp;&#160;</td>
-          <td class="paramname"><em>pred</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Undirected All-pair-shortest-paths (Floyd-Warshall) over non-terminal nodes of G. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">G</td><td>The graph </td></tr>
-    <tr><td class="paramname">nonterminals</td><td><a class="el" href="classogdf_1_1_list.html" title="Doubly linked lists (maintaining the length of the list). ">List</a> of non-terminals (APSP is only computed over non-terminal nodes) </td></tr>
-    <tr><td class="paramname">distance</td><td>The distance matrix result </td></tr>
-    <tr><td class="paramname">pred</td><td>The resulting shortest-path last edge of a path </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00443">443</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
-
-</div>
-</div>
-<a id="ad02365792722f08744d4fb290cc070a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad02365792722f08744d4fb290cc070a9">&#9670;&nbsp;</a></span>allPairShortestPathsDetour()</h2>
-
-<div class="memitem">
-<div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename CONTAINER &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -361,19 +314,19 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramtype">const CONTAINER &amp;&#160;</td>
           <td class="paramname"><em>nonterminals</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>distance</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>pred</em>&#160;</td>
         </tr>
         <tr>
@@ -389,12 +342,29 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00529">529</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p>Modified all-pair-shortest-paths algorithm (Floyd-Warshall) over nonterminals with heuristic to avoid paths over terminals and hence accepting detours. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>Input graph </td></tr>
+    <tr><td class="paramname">nonterminals</td><td>Container of nonterminals </td></tr>
+    <tr><td class="paramname">distance</td><td>Distance matrix result </td></tr>
+    <tr><td class="paramname">pred</td><td>Resulting shortest path such that <code>pred</code>[s][t] contains last edge of an s-t-path </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">CONTAINER</td><td>Container </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00608">608</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
-<a id="a49605bde35baea89f617543e3d47aac0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49605bde35baea89f617543e3d47aac0">&#9670;&nbsp;</a></span>allPairShortestPathsStrict()</h2>
+<a id="a50852057d445db8fae0f72b45d640ec0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50852057d445db8fae0f72b45d640ec0">&#9670;&nbsp;</a></span>allPairShortestPathsStrict()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,13 +389,13 @@ template&lt;typename T &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>distance</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>pred</em>&#160;</td>
         </tr>
         <tr>
@@ -441,7 +411,306 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00478">478</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p>Modified all-pair-shortest-paths algorithm (Floyd-Warshall) over nonterminals with heuristic to prefer paths over terminals. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>Input graph </td></tr>
+    <tr><td class="paramname">isTerminal</td><td>Incidence vector indicating terminal nodes </td></tr>
+    <tr><td class="paramname">distance</td><td>Distance matrix result </td></tr>
+    <tr><td class="paramname">pred</td><td>Resulting shortest path such that <code>pred</code>[s][t] contains last edge of an s-t-path </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00563">563</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="a0a26075278f9f8e4e12674205f73010a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a26075278f9f8e4e12674205f73010a">&#9670;&nbsp;</a></span>allTerminalShortestPaths()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::allTerminalShortestPaths </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>terminals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>isTerminal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pred</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;)&gt;&#160;</td>
+          <td class="paramname"><em>ssspFunc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Runs a given single-source-shortest-paths function from all terminals. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00288">288</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="ac2b62580c79d0bd9e6419f86aa60a9f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b62580c79d0bd9e6419f86aa60a9f3">&#9670;&nbsp;</a></span>allTerminalShortestPathsDetour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::allTerminalShortestPathsDetour </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>terminals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>isTerminal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Runs <a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a22408581751287150356dcb7f2daff48" title="Modified single-source-shortest-paths (Dijkstra) with heuristic to avoid paths over terminals...">singleSourceShortestPathsDetour</a> from all terminals. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00146">146</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="ad8dfd9a55e30fe8fa8c75ff42a23ae6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8dfd9a55e30fe8fa8c75ff42a23ae6b">&#9670;&nbsp;</a></span>allTerminalShortestPathsStrict()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::allTerminalShortestPathsStrict </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>terminals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>isTerminal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Runs <a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ab5c86fac7f694b3406c3aafaf4e225f8" title="Modified single-source-shortest-paths (Dijkstra) with heuristic to prefer paths over terminals...">singleSourceShortestPathsStrict</a> from all terminals. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00157">157</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="a6fe57af738172fedf287faa2cbd2548c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe57af738172fedf287faa2cbd2548c">&#9670;&nbsp;</a></span>apspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::apspInit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Common initialization routine for APSP algorithms. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00591">591</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="a023d22fce4ac6fae9602df4c9fdb8197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a023d22fce4ac6fae9602df4c9fdb8197">&#9670;&nbsp;</a></span>apspInnerLoop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::apspInnerLoop </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&gt; &amp;&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; void(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, T)&gt;&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The inner loop for APSP algorithm to avoid code duplication. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00310">310</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -493,7 +762,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Builds a minimum Steiner tree given a weighted graph and a list of terminals. </p>
+<p>Calls the Steiner tree algorithm for nontrivial cases but handles trivial cases directly. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>The weighted input graph </td></tr>
@@ -503,11 +772,11 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The objective value (sum of edge costs) of the final Steiner tree </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The total cost of the final Steiner tree </dd></dl>
 
 <p>Reimplemented in <a class="el" href="classogdf_1_1_min_steiner_tree_primal_dual.html#a0cbcc2e99712e4976522fff4a61589a8">ogdf::MinSteinerTreePrimalDual&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_zelikovsky.html#ad26ed7b5b8e6a83a829e9bb9b2d46a09">ogdf::MinSteinerTreeZelikovsky&lt; T &gt;</a>, and <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#acba02ced6778cf15168c5bf474cbcf36">ogdf::MinSteinerTreeRZLoss&lt; T &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00165">165</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00326">326</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -559,7 +828,10 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="classogdf_1_1_min_steiner_tree_zelikovsky.html#a2bbcb198b63dc97c72bfaaea125cbafb">ogdf::MinSteinerTreeZelikovsky&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut.html#ac110e8ea1535caf7d11caa76fbdb61d9">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139.html#a9d382f210db1059186f57e626a08fbc3">ogdf::MinSteinerTreeGoemans139&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_dual_ascent.html#a6c4752234cb58659e19ccf3f180dc5af">ogdf::MinSteinerTreeDualAscent&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_primal_dual.html#aca1ed976dd3d2831226e679aad9e504d">ogdf::MinSteinerTreePrimalDual&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#ad40c71092e42a458e1617951e69e1212">ogdf::MinSteinerTreeRZLoss&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_takahashi.html#af4c40390f7788660771805884aa1b48e">ogdf::MinSteinerTreeTakahashi&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_shore.html#a6e8d4bb6b6fb629bbad10badc6a7e08b">ogdf::MinSteinerTreeShore&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_mehlhorn.html#a552f5ad3b11c37fe993106e84efd0b8a">ogdf::MinSteinerTreeMehlhorn&lt; T &gt;</a>, and <a class="el" href="classogdf_1_1_min_steiner_tree_kou.html#a71adc91f33cc9a0f42886a53cbeeb2ef">ogdf::MinSteinerTreeKou&lt; T &gt;</a>.</p>
+<p>Computes the actual Steiner tree. </p>
+<dl class="section return"><dt>Returns</dt><dd>The total cost of the final Steiner tree </dd></dl>
+
+<p>Implemented in <a class="el" href="classogdf_1_1_min_steiner_tree_zelikovsky.html#a2bbcb198b63dc97c72bfaaea125cbafb">ogdf::MinSteinerTreeZelikovsky&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut.html#ac110e8ea1535caf7d11caa76fbdb61d9">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_dual_ascent.html#a6c4752234cb58659e19ccf3f180dc5af">ogdf::MinSteinerTreeDualAscent&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139.html#a9d382f210db1059186f57e626a08fbc3">ogdf::MinSteinerTreeGoemans139&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_primal_dual.html#aca1ed976dd3d2831226e679aad9e504d">ogdf::MinSteinerTreePrimalDual&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#ad40c71092e42a458e1617951e69e1212">ogdf::MinSteinerTreeRZLoss&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_takahashi.html#af4c40390f7788660771805884aa1b48e">ogdf::MinSteinerTreeTakahashi&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_shore.html#a6e8d4bb6b6fb629bbad10badc6a7e08b">ogdf::MinSteinerTreeShore&lt; T &gt;</a>, <a class="el" href="classogdf_1_1_min_steiner_tree_mehlhorn.html#a552f5ad3b11c37fe993106e84efd0b8a">ogdf::MinSteinerTreeMehlhorn&lt; T &gt;</a>, and <a class="el" href="classogdf_1_1_min_steiner_tree_kou.html#a71adc91f33cc9a0f42886a53cbeeb2ef">ogdf::MinSteinerTreeKou&lt; T &gt;</a>.</p>
 
 </div>
 </div>
@@ -615,7 +887,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00564">564</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00627">627</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -678,7 +950,119 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00607">607</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00670">670</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="af61ecef8b899e9e5b0e81d4573431ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af61ecef8b899e9e5b0e81d4573431ba2">&#9670;&nbsp;</a></span>getNonterminals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::getNonterminals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>nonterminals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>isTerminal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generates a list (as ArrayBuffer&lt;node&gt;) of all nonterminals. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">nonterminals</td><td>The returned list (nonterminals are appended) </td></tr>
+    <tr><td class="paramname">G</td><td>The weighted input graph </td></tr>
+    <tr><td class="paramname">isTerminal</td><td>A bool array of terminals </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00266">266</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="a3cd3242ae3d106abc4d6f8afb95f61f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd3242ae3d106abc4d6f8afb95f61f0">&#9670;&nbsp;</a></span>getTerminals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::getTerminals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>terminals</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>isTerminal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generates a list (as List&lt;node&gt;) of all terminals. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">terminals</td><td>The returned list (terminals are appended) </td></tr>
+    <tr><td class="paramname">G</td><td>The weighted input graph </td></tr>
+    <tr><td class="paramname">isTerminal</td><td>A bool array of terminals </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00244">244</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -728,7 +1112,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true iff the given Steiner tree problem instance is quasi-bipartite </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00234">234</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00393">393</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -792,7 +1176,7 @@ template&lt;typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true iff the given Steiner tree is actually one, false otherwise </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00203">203</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00362">362</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -832,7 +1216,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prune Steiner nodes with degree 1 and their paths to terminal or branching nodes. </p>
+<p>Prunes nonterminal leaves and their paths to terminal or branching nodes. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">steinerTree</td><td>The given Steiner tree </td></tr>
@@ -840,9 +1224,9 @@ template&lt;typename T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>The edge weights of the removed edges (achieved improvement) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>The total cost of the removed edges (achieved improvement) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00276">276</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00435">435</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -888,9 +1272,18 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prune the dangling Steiner path beginning at a given node only. </p>
+<p>Prunes the dangling Steiner path beginning at a given nonterminal leaf only. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">steinerTree</td><td>The given Steiner tree </td></tr>
+    <tr><td class="paramname">isTerminal</td><td>Incidence vector indicating terminals </td></tr>
+    <tr><td class="paramname">start</td><td>A nonterminal leaf to start pruning at </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The total cost of the removed edges (achieved improvement) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00249">249</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00408">408</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -936,9 +1329,10 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prune dangling Steiner paths beginning at given nodes only. </p>
+<p>Prunes dangling Steiner paths beginning at given nonterminal leaves only. </p>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a490cdae395d096808b308cac4c1c7833" title="Prunes the dangling Steiner path beginning at a given nonterminal leaf only. ">pruneDanglingSteinerPathFrom(EdgeWeightedGraphCopy&lt;T&gt; &amp;steinerTree, const NodeArray&lt;bool&gt; &amp;isTerminal, node start)</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00266">266</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00425">425</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -978,80 +1372,10 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Remove remaining cycles from an Steiner "almost" tree. </p>
+<p>Remove remaining cycles from a Steiner "almost" tree. </p>
 <dl class="section return"><dt>Returns</dt><dd>The edge weights of the removed edges (achieved improvement) </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00290">290</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
-
-</div>
-</div>
-<a id="a7d00f2b017734b30643ae8fc4b41a601"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d00f2b017734b30643ae8fc4b41a601">&#9670;&nbsp;</a></span>singleSourceShortestPaths()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::singleSourceShortestPaths </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>G</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
-          <td class="paramname"><em>source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
-          <td class="paramname"><em>isTerminal</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>distance</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>pred</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Undirected Single-source-shortest-paths (<a class="el" href="classogdf_1_1_dijkstra.html" title="Dijkstra&#39;s single source shortest path algorithm. ">Dijkstra</a>) over non-terminal nodes of G. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">G</td><td>The graph </td></tr>
-    <tr><td class="paramname">source</td><td>The start terminal </td></tr>
-    <tr><td class="paramname">isTerminal</td><td>Incidence vector indicating terminal nodes </td></tr>
-    <tr><td class="paramname">distance</td><td>The distance matrix result </td></tr>
-    <tr><td class="paramname">pred</td><td>The resulting shortest-path last edge of a path </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00318">318</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00449">449</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -1109,7 +1433,10 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00409">409</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p>Modified single-source-shortest-paths (Dijkstra) with heuristic to avoid paths over terminals. </p>
+<p>Avoiding terminals results in paths with detours. If a node is only reachable over a terminal, there is no path to it in the solution, i.e., there is no predecessor and the distance is <code>std::numeric_limits&lt;T&gt;::max()</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00536">536</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>
@@ -1167,7 +1494,112 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00352">352</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+<p>Modified single-source-shortest-paths (Dijkstra) with heuristic to prefer paths over terminals. </p>
+<p>A shortest path over a terminal will mark the nodes that come after that terminal as unreachable by setting the predecessor to <code>nullptr</code>. Nevertheless, the distance will be set correctly.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>Input graph </td></tr>
+    <tr><td class="paramname">source</td><td>Start terminal </td></tr>
+    <tr><td class="paramname">isTerminal</td><td>Incidence vector indicating terminal nodes </td></tr>
+    <tr><td class="paramname">distance</td><td>Distance matrix result </td></tr>
+    <tr><td class="paramname">pred</td><td>Resulting shortest path such that <code>pred</code>[s][t] contains last edge of an s-t-path </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00490">490</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="a9994e3c166cc2b0b4f6376b10c94ad94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9994e3c166cc2b0b4f6376b10c94ad94">&#9670;&nbsp;</a></span>sortTerminals()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::sortTerminals </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>terminals</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sort terminals by index. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00254">254</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
+
+</div>
+</div>
+<a id="a68fea7a23c91295f826ee797cf8e8656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68fea7a23c91295f826ee797cf8e8656">&#9670;&nbsp;</a></span>ssspInit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classogdf_1_1_min_steiner_tree_module.html">ogdf::MinSteinerTreeModule</a>&lt; T &gt;::ssspInit </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
+          <td class="paramname"><em>source</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_prioritized_map_queue.html">PrioritizedMapQueue</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>queue</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>distance</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Common initialization routine for SSSP algorithms. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_module_8h_source.html#l00477">477</a> of file <a class="el" href="_min_steiner_tree_module_8h_source.html">MinSteinerTreeModule.h</a>.</p>
 
 </div>
 </div>

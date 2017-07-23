@@ -38,8 +38,6 @@ var searchData=
   ['rhs_5f',['rhs_',['../classabacus_1_1_constraint.html#aca819f928d24a090e0218fd36280ed2e',1,'abacus::Constraint::rhs_()'],['../classabacus_1_1_osi_i_f.html#abd3ede20a76591567f43560bae656386',1,'abacus::OsiIF::rhs_()'],['../classabacus_1_1_row.html#af441ca630dc46bf166b05d8259736c19',1,'abacus::Row::rhs_()']]],
   ['right',['right',['../structogdf_1_1_r_m_heap_node.html#afcf784ea60d4764fa5f766ad0232ed14',1,'ogdf::RMHeapNode']]],
   ['righte',['righte',['../classogdf_1_1_edge_router.html#a5214e67c488763e9221692a7439fe194',1,'ogdf::EdgeRouter']]],
-  ['rightface_5fedge',['rightFace_edge',['../classogdf_1_1_visibility_layout.html#a09969d73a516110dc2252bf5fd56d585',1,'ogdf::VisibilityLayout']]],
-  ['rightface_5fnode',['rightFace_node',['../classogdf_1_1_visibility_layout.html#af1956fcdbf83d275b65abe65a49a42a1',1,'ogdf::VisibilityLayout']]],
   ['ring_5f',['ring_',['../classabacus_1_1_aba_ring.html#ac2f3d4e855e2f070c5664725e1e3df5f',1,'abacus::AbaRing']]],
   ['rl',['rl',['../classogdf_1_1edge__router_1_1_node_info.html#a07340633254598f2c9bbf95acba3fe0b',1,'ogdf::edge_router::NodeInfo']]],
   ['rnd_5fdecisions',['rnd_decisions',['../class_minisat_1_1_internal_1_1_solver.html#a16676784a7f6f50e574c1260854268cc',1,'Minisat::Internal::Solver']]],

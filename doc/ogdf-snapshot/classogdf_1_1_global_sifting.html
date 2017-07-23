@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::GlobalSifting Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -146,9 +144,6 @@ $(document).ready(function(){initNavTree('classogdf_1_1_global_sifting.html','')
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9f6e7489da8992b9d040fadce0291b0b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_global_sifting.html#a9f6e7489da8992b9d040fadce0291b0b">GlobalSifting</a> ()</td></tr>
-<tr class="memdesc:a9f6e7489da8992b9d040fadce0291b0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a new instance of the global sifting heuristic.  <a href="#a9f6e7489da8992b9d040fadce0291b0b">More...</a><br /></td></tr>
-<tr class="separator:a9f6e7489da8992b9d040fadce0291b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2575c60a27fd2e0c8f2a6187327fc80"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_global_sifting.html#ae2575c60a27fd2e0c8f2a6187327fc80">nRepeats</a> ()</td></tr>
 <tr class="memdesc:ae2575c60a27fd2e0c8f2a6187327fc80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the current setting of option nRepeats.  <a href="#ae2575c60a27fd2e0c8f2a6187327fc80">More...</a><br /></td></tr>
 <tr class="separator:ae2575c60a27fd2e0c8f2a6187327fc80"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,45 +166,15 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a285c477c248134160ba9a11eaa2c767c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_global_sifting.html#a285c477c248134160ba9a11eaa2c767c">m_nRepeats</a></td></tr>
+<tr class="memitem:a285c477c248134160ba9a11eaa2c767c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_global_sifting.html#a285c477c248134160ba9a11eaa2c767c">m_nRepeats</a> = 10</td></tr>
 <tr class="separator:a285c477c248134160ba9a11eaa2c767c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The global sifting heuristic for crossing minimization. </p>
 <p>Implementation of the global sifting heuristic based on C. Bachmaier, F. J. Brandenburg, W. Brunner, F. Hübner, <em>Global k-Level Crossing Reduction</em>, J. <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a> Algorithms and Appl. 15(5), 2011, pp. 631-659. This class implements the interface <a class="el" href="classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs. ">LayeredCrossMinModule</a> and should be used as a part of the Sugiyama algorithm for drawing layered graphs. </p>
 
-<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00053">53</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a9f6e7489da8992b9d040fadce0291b0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f6e7489da8992b9d040fadce0291b0b">&#9670;&nbsp;</a></span>GlobalSifting()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ogdf::GlobalSifting::GlobalSifting </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Creates a new instance of the global sifting heuristic. </p>
-
-<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00058">58</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00052">52</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae2575c60a27fd2e0c8f2a6187327fc80"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae2575c60a27fd2e0c8f2a6187327fc80">&#9670;&nbsp;</a></span>nRepeats() <span class="overload">[1/2]</span></h2>
 
@@ -236,7 +201,7 @@ Private Attributes</h2></td></tr>
 <p>Returns the current setting of option nRepeats. </p>
 <p>This option determines, how many times the global sifting is repeated. Each repetition starts from permutation returned by the previous one. The first repetition starts from random permutation. </p>
 
-<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00067">67</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00061">61</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
 
 </div>
 </div>
@@ -266,7 +231,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the option nRepeats to <code>num</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00070">70</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00064">64</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
 
 </div>
 </div>
@@ -314,7 +279,7 @@ Private Attributes</h2></td></tr>
 
 <p>Implements <a class="el" href="classogdf_1_1_layered_cross_min_module.html#a59dc466012e0cb9963abd0d12a162c81">ogdf::LayeredCrossMinModule</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00073">73</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00067">67</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
 
 </div>
 </div>
@@ -329,7 +294,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::GlobalSifting::m_nRepeats</td>
+          <td class="memname">int ogdf::GlobalSifting::m_nRepeats = 10</td>
         </tr>
       </table>
   </td>
@@ -339,7 +304,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00083">83</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_grid_sifting_8h_source.html#l00075">75</a> of file <a class="el" href="_grid_sifting_8h_source.html">GridSifting.h</a>.</p>
 
 </div>
 </div>

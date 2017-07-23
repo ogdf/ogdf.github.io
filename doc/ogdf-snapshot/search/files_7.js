@@ -15,7 +15,7 @@ var searchData=
   ['hierarchylevels_2eh',['HierarchyLevels.h',['../_hierarchy_levels_8h.html',1,'']]],
   ['history_2eh',['history.h',['../history_8h.html',1,'']]],
   ['hotqueue_2eh',['HotQueue.h',['../_hot_queue_8h.html',1,'']]],
-  ['hypergraph_2eh',['HyperGraph.h',['../basic_2_hyper_graph_8h.html',1,'(Global Namespace)'],['../hypergraph_2_hyper_graph_8h.html',1,'(Global Namespace)']]],
+  ['hypergraph_2eh',['Hypergraph.h',['../_hypergraph_8h.html',1,'']]],
   ['hypergrapharray_2eh',['HypergraphArray.h',['../_hypergraph_array_8h.html',1,'']]],
   ['hypergraphattributes_2eh',['HypergraphAttributes.h',['../_hypergraph_attributes_8h.html',1,'']]],
   ['hypergraphlayout_2eh',['HypergraphLayout.h',['../_hypergraph_layout_8h.html',1,'']]],

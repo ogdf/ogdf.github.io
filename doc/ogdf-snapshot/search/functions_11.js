@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['quadhelper',['quadHelper',['../classogdf_1_1energybased_1_1fmmm_1_1_new_multipole_method.html#a76af332eecf73536d5b9da5081578627',1,'ogdf::energybased::fmmm::NewMultipoleMethod']]],
+  ['quadhelper',['quadHelper',['../classogdf_1_1energybased_1_1fmmm_1_1_new_multipole_method.html#a938942bfa5fbfacf0adbd5b814e635bf',1,'ogdf::energybased::fmmm::NewMultipoleMethod']]],
   ['quadtreeconstruction',['quadtreeConstruction',['../classogdf_1_1fast__multipole__embedder_1_1_f_m_e_multipole_kernel.html#a49b2e90ef615ded1e8fc165525f2972e',1,'ogdf::fast_multipole_embedder::FMEMultipoleKernel']]],
   ['quadtreenm',['QuadTreeNM',['../classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#a095d303791f56dedca5c7aa8079b8a86',1,'ogdf::energybased::fmmm::QuadTreeNM']]],
   ['quadtreenodenm',['QuadTreeNodeNM',['../classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m.html#a7b8f11b6791cf246b7bc3fc0fbcd2944',1,'ogdf::energybased::fmmm::QuadTreeNodeNM']]],

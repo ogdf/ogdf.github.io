@@ -6,7 +6,7 @@ var classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder =
     [ "buildHierarchy", "classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#ace8c7dd87b13c44d63fddf024ab0d138", null ],
     [ "CAL", "classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#a09781799eb519be6a7864ad5cacafece", null ],
     [ "mergeWithNext", "classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#a0e6f1dfbb2deff228b9aea70217d3a7b", null ],
-    [ "prepareNodeAndLeaf", "classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#af45276f6dabcd8d4f2586a3ac1ae4634", null ],
+    [ "prepareNodeAndLeaf", "classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#a626c448ccfae8f014e78fc0ef559e4f7", null ],
     [ "prepareTree", "classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#a4bc9c09219af270aa611cc7558323bd6", null ],
     [ "prepareTree", "classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#a4c7d2a4b4fdc0c0165f31d8e4a303515", null ],
     [ "restoreChain", "classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#a573228abc1e25ce3d7dd7bf8330ff55d", null ],

@@ -4,10 +4,6 @@ var group__gd_layered =
     [ "Crossing Minimization Modules", "group__gd-layered-crossmin.html", "group__gd-layered-crossmin" ],
     [ "Hierarchy Layout (Coordinate Assignment) Modules", "group__gd-hlm.html", "group__gd-hlm" ],
     [ "LayerBasedUPRLayout", "classogdf_1_1_layer_based_u_p_r_layout.html", [
-      [ "RankComparer", "structogdf_1_1_layer_based_u_p_r_layout_1_1_rank_comparer.html", [
-        [ "less", "structogdf_1_1_layer_based_u_p_r_layout_1_1_rank_comparer.html#a188d0967fc398b3861dd62b8519cab4e", null ],
-        [ "H", "structogdf_1_1_layer_based_u_p_r_layout_1_1_rank_comparer.html#ac5d7113ee6e8595725a5d7d8f1089aef", null ]
-      ] ],
       [ "LayerBasedUPRLayout", "classogdf_1_1_layer_based_u_p_r_layout.html#af4297b5fe597c5db9022baf7cac5f21c", null ],
       [ "~LayerBasedUPRLayout", "classogdf_1_1_layer_based_u_p_r_layout.html#a9b34beeec590afae0493d231f2762e3b", null ],
       [ "callSimple", "classogdf_1_1_layer_based_u_p_r_layout.html#ab7b45f283f0f16cfbc8377ce3f5ca153", null ],

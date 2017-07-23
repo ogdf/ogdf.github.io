@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['e',['E',['../structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0a3a3ea00cfc35332cedf6e5e9a32e94da',1,'ogdf::WInfo::E()'],['../structogdf_1_1dot_1_1_ast_1_1_compass_pt.html#a11a59a5a3edef197f1dceab2050e1544ae1671797c52e15f763380b45e841ec32',1,'ogdf::dot::Ast::CompassPt::e()']]],
+  ['e',['e',['../structogdf_1_1dot_1_1_ast_1_1_compass_pt.html#a11a59a5a3edef197f1dceab2050e1544ae1671797c52e15f763380b45e841ec32',1,'ogdf::dot::Ast::CompassPt::e()'],['../structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0a3a3ea00cfc35332cedf6e5e9a32e94da',1,'ogdf::WInfo::E()']]],
   ['e1',['E1',['../classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a48ed5d2db39237d7ae5e829b17581629',1,'ogdf::KuratowskiWrapper']]],
   ['e2',['E2',['../classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a560fce20abef5cd3f8e4d13c94669a46',1,'ogdf::KuratowskiWrapper']]],
   ['e3',['E3',['../classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2ab29bcbb0f188e0093434a5f213285f46',1,'ogdf::KuratowskiWrapper']]],

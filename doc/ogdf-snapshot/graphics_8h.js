@@ -60,7 +60,7 @@ var graphics_8h =
     ] ],
     [ "intToFillPattern", "graphics_8h.html#ga435e1c2f4ee01077030fdbabc76f8445", null ],
     [ "intToStrokeType", "graphics_8h.html#ga0a5d80ea79060b826eb9b3bbd3c07d89", null ],
-    [ "operator<<", "graphics_8h.html#a62cee77858dde21a8560bf8fb8da4ce3", null ],
-    [ "operator<<", "graphics_8h.html#a3620dfa37389e2ca55d7d5a5d0867201", null ],
-    [ "operator<<", "graphics_8h.html#ab4ae5b1065b9c0c373c9f8350e1ec895", null ]
+    [ "operator<<", "graphics_8h.html#a72db78444ee0e7d6256070cfa056078d", null ],
+    [ "operator<<", "graphics_8h.html#a79d9e239b7b021647c0da9c885210963", null ],
+    [ "operator<<", "graphics_8h.html#a2deee3e61c8b58b00e141651e4674b6b", null ]
 ];

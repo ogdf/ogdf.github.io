@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::TutteLayout Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -131,7 +129,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_tutte_layout.html','');}
 </div><!--header-->
 <div class="contents">
 
-<p>Tutte's method for graph layout.  
+<p>Tutte's layout algorithm.  
  <a href="classogdf_1_1_tutte_layout.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_tutte_layout_8h_source.html">ogdf/energybased/TutteLayout.h</a>&gt;</code></p>
@@ -150,8 +148,6 @@ $(document).ready(function(){initNavTree('classogdf_1_1_tutte_layout.html','');}
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a8b7f61a5089ce86f1b48f1487cd4dc2e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#a8b7f61a5089ce86f1b48f1487cd4dc2e">TutteLayout</a> ()</td></tr>
 <tr class="separator:a8b7f61a5089ce86f1b48f1487cd4dc2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cf35fe4f34758e3ec1670bcd7a353cd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#a9cf35fe4f34758e3ec1670bcd7a353cd">~TutteLayout</a> ()</td></tr>
-<tr class="separator:a9cf35fe4f34758e3ec1670bcd7a353cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaea67cce70db7d815765f48bbf238c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_rect.html">DRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#aaea67cce70db7d815765f48bbf238c6c">bbox</a> () const</td></tr>
 <tr class="separator:aaea67cce70db7d815765f48bbf238c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd2a50c73932cafb370227ff7e175592"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#afd2a50c73932cafb370227ff7e175592">bbox</a> (const <a class="el" href="classogdf_1_1_d_rect.html">DRect</a> &amp;bb)</td></tr>
@@ -173,12 +169,11 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a42c2c3489030441f84c2592502c17ee6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#a42c2c3489030441f84c2592502c17ee6">doCall</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;AG, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;fixedNodes, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;fixedPositions)</td></tr>
-<tr class="memdesc:a42c2c3489030441f84c2592502c17ee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">the method is overloaded for a given set of nodes.  <a href="#a42c2c3489030441f84c2592502c17ee6">More...</a><br /></td></tr>
+<tr class="memitem:a42c2c3489030441f84c2592502c17ee6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#a42c2c3489030441f84c2592502c17ee6">doCall</a> (<a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;AG, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;fixedNodes, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;fixedPositions)</td></tr>
 <tr class="separator:a42c2c3489030441f84c2592502c17ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85f1a4f156e7eb8d80a5cebd6937fc90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#a85f1a4f156e7eb8d80a5cebd6937fc90">setFixedNodes</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nodes, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;pos, double radius=1.0)</td></tr>
+<tr class="memitem:a85f1a4f156e7eb8d80a5cebd6937fc90"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#a85f1a4f156e7eb8d80a5cebd6937fc90">setFixedNodes</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nodes, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;pos, double radius=1.0)</td></tr>
 <tr class="separator:a85f1a4f156e7eb8d80a5cebd6937fc90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d77eca413637af7dcddf98cfe904ab8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#a4d77eca413637af7dcddf98cfe904ab8">setFixedNodes</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nodes, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;givenNodes, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;pos, double radius=1.0)</td></tr>
+<tr class="memitem:a4d77eca413637af7dcddf98cfe904ab8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_tutte_layout.html#a4d77eca413637af7dcddf98cfe904ab8">setFixedNodes</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nodes, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;givenNodes, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;pos, double radius=1.0)</td></tr>
 <tr class="memdesc:a4d77eca413637af7dcddf98cfe904ab8"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets the positions of the nodes in a largest face of $G$ in the form of a regular $k$-gon with the prescribed radius.  <a href="#a4d77eca413637af7dcddf98cfe904ab8">More...</a><br /></td></tr>
 <tr class="separator:a4d77eca413637af7dcddf98cfe904ab8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -193,9 +188,13 @@ Private Attributes</h2></td></tr>
 <tr class="separator:ac21c410017724252c7b2dda01adda887"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Tutte's method for graph layout. </p>
+<div class="textblock"><p>Tutte's layout algorithm. </p>
+<p>This algorithm draws a planar graph straight-line without crossings.</p>
+<p>The idea of the algorithm is to place every vertex into the center of gravity by its neighbours.</p>
+<p>See "How to draw a graph" by W. T. Tutte (1962) for details.</p>
+<dl class="section pre"><dt>Precondition</dt><dd>Input graphs need to be triconnected. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00057">57</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00056">56</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8b7f61a5089ce86f1b48f1487cd4dc2e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b7f61a5089ce86f1b48f1487cd4dc2e">&#9670;&nbsp;</a></span>TutteLayout()</h2>
@@ -211,33 +210,6 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9cf35fe4f34758e3ec1670bcd7a353cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cf35fe4f34758e3ec1670bcd7a353cd">&#9670;&nbsp;</a></span>~TutteLayout()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ogdf::TutteLayout::~TutteLayout </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00062">62</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
 
 </div>
 </div>
@@ -265,7 +237,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00064">64</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00061">61</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
 
 </div>
 </div>
@@ -293,7 +265,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00068">68</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00065">65</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
 
 </div>
 </div>
@@ -385,7 +357,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>fixedPositions</em>&#160;</td>
         </tr>
         <tr>
@@ -400,8 +372,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>the method is overloaded for a given set of nodes. </p>
 
 </div>
 </div>
@@ -429,7 +399,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -483,7 +453,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
         </tr>
         <tr>
@@ -579,7 +549,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00100">100</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_tutte_layout_8h_source.html#l00094">94</a> of file <a class="el" href="_tutte_layout_8h_source.html">TutteLayout.h</a>.</p>
 
 </div>
 </div>

@@ -7,7 +7,6 @@ var classogdf_1_1_const_combinatorial_embedding =
     [ "~ConstCombinatorialEmbedding", "classogdf_1_1_const_combinatorial_embedding.html#a551d5eed2f6e0abb6830729f93b3f38e", null ],
     [ "chooseFace", "classogdf_1_1_const_combinatorial_embedding.html#a25db681fd2791ffc6bf16f7233054b14", null ],
     [ "computeFaces", "classogdf_1_1_const_combinatorial_embedding.html#a4cef55f6353daa34404c93924d6c0aca", null ],
-    [ "consistencyCheck", "classogdf_1_1_const_combinatorial_embedding.html#a9554bcad5202d8b92991159ea06edd28", null ],
     [ "createFaceElement", "classogdf_1_1_const_combinatorial_embedding.html#a4d17d5291e9bca41a000cf6b3b3373f2", null ],
     [ "externalFace", "classogdf_1_1_const_combinatorial_embedding.html#a47f081f64f4b3fdaa39165741df950d1", null ],
     [ "faceArrayTableSize", "classogdf_1_1_const_combinatorial_embedding.html#a40f1678fe2430e8c9a23bd2aa6d80a6b", null ],

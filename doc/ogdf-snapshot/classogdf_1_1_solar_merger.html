@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::SolarMerger Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -176,8 +174,8 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a500d5fb10d6293d020fb35ed9b90ff89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16a37b799aab5d3223feaee720dbf4ae"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_solar_merger.html#a16a37b799aab5d3223feaee720dbf4ae">calcSystemMass</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v)</td></tr>
 <tr class="separator:a16a37b799aab5d3223feaee720dbf4ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1393eb299b54a65b69f41206b6a88478"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_solar_merger.html#a1393eb299b54a65b69f41206b6a88478">collapsSolarSystem</a> (<a class="el" href="classogdf_1_1_multilevel_graph.html">MultilevelGraph</a> &amp;MLG, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> sun, int level)</td></tr>
-<tr class="separator:a1393eb299b54a65b69f41206b6a88478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03635d0d9599477acb495e6d132401a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_solar_merger.html#a03635d0d9599477acb495e6d132401a3">collapseSolarSystem</a> (<a class="el" href="classogdf_1_1_multilevel_graph.html">MultilevelGraph</a> &amp;MLG, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> sun, int level)</td></tr>
+<tr class="separator:a03635d0d9599477acb495e6d132401a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ab676f852cbf54fa63a3e162e3588dc"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_solar_merger.html#a3ab676f852cbf54fa63a3e162e3588dc">distanceToSun</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> object, <a class="el" href="classogdf_1_1_multilevel_graph.html">MultilevelGraph</a> &amp;MLG)</td></tr>
 <tr class="separator:a3ab676f852cbf54fa63a3e162e3588dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e04e1d1388a28f973ca316eecb01922"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_solar_merger.html#a4e04e1d1388a28f973ca316eecb01922">findInterSystemPaths</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_multilevel_graph.html">MultilevelGraph</a> &amp;MLG)</td></tr>
@@ -361,7 +359,7 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a> was changed or false if no <a class="el" href="classogdf_1_1_level.html" title="Representation of levels in hierarchies. ">Level</a> can be built. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a> was changed or false if no level can be built. </dd></dl>
 
 <p>Implements <a class="el" href="classogdf_1_1_multilevel_builder.html#acb31fb9e78058642042c2e19b89e4d60">ogdf::MultilevelBuilder</a>.</p>
 
@@ -393,8 +391,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a1393eb299b54a65b69f41206b6a88478"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1393eb299b54a65b69f41206b6a88478">&#9670;&nbsp;</a></span>collapsSolarSystem()</h2>
+<a id="a03635d0d9599477acb495e6d132401a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03635d0d9599477acb495e6d132401a3">&#9670;&nbsp;</a></span>collapseSolarSystem()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,7 +401,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ogdf::SolarMerger::collapsSolarSystem </td>
+          <td class="memname">bool ogdf::SolarMerger::collapseSolarSystem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classogdf_1_1_multilevel_graph.html">MultilevelGraph</a> &amp;&#160;</td>
           <td class="paramname"><em>MLG</em>, </td>

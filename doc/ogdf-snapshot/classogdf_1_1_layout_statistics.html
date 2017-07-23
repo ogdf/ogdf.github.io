@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::LayoutStatistics Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -128,7 +126,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_layout_statistics.html',
 </div><!--header-->
 <div class="contents">
 
-<p>Utility class providing functions for computing statistical information about a layout.  
+<p>Computes statistical information about a layout.  
  <a href="classogdf_1_1_layout_statistics.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_layout_statistics_8h_source.html">ogdf/basic/LayoutStatistics.h</a>&gt;</code></p>
@@ -136,23 +134,23 @@ $(document).ready(function(){initNavTree('classogdf_1_1_layout_statistics.html',
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a16ef37adddc1ad06afb5b74a3377a01f"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_layout_statistics.html#a16ef37adddc1ad06afb5b74a3377a01f">angularResolution</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;ga, double *pMaxAngle=nullptr, double *pAvgAngle=nullptr, double *pStdDeviation=nullptr, bool considerBends=true)</td></tr>
-<tr class="memdesc:a16ef37adddc1ad06afb5b74a3377a01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the angular resolution of the layout given by <code>ga</code>.  <a href="#a16ef37adddc1ad06afb5b74a3377a01f">More...</a><br /></td></tr>
+<tr class="memdesc:a16ef37adddc1ad06afb5b74a3377a01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the angular resolution of the layout <code>ga</code>.  <a href="#a16ef37adddc1ad06afb5b74a3377a01f">More...</a><br /></td></tr>
 <tr class="separator:a16ef37adddc1ad06afb5b74a3377a01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6b42b5d311661c8a6878e55b2922948"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_layout_statistics.html#ab6b42b5d311661c8a6878e55b2922948">edgeLengths</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;ga, double *pMinLength=nullptr, double *pMaxLength=nullptr, double *pAvgLength=nullptr, double *pStdDeviation=nullptr, bool considerSelfLoops=false)</td></tr>
-<tr class="memdesc:ab6b42b5d311661c8a6878e55b2922948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the total edge lengths in the layout given by <code>ga</code>.  <a href="#ab6b42b5d311661c8a6878e55b2922948">More...</a><br /></td></tr>
+<tr class="memdesc:ab6b42b5d311661c8a6878e55b2922948"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the total edge length in the layout <code>ga</code>.  <a href="#ab6b42b5d311661c8a6878e55b2922948">More...</a><br /></td></tr>
 <tr class="separator:ab6b42b5d311661c8a6878e55b2922948"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e7d910c001e57f61ff2535e58f2dea7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_layout_statistics.html#a9e7d910c001e57f61ff2535e58f2dea7">intersectionGraph</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;ga, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;<a class="el" href="namespaceogdf.html#ac143ef80abc00ee193e7b5780fe1e152ac1d9f50f86825a1a2302ec2449c17196">H</a>, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;points, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;origNode, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;origEdge)</td></tr>
+<tr class="memitem:a9e7d910c001e57f61ff2535e58f2dea7"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_layout_statistics.html#a9e7d910c001e57f61ff2535e58f2dea7">intersectionGraph</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;ga, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;<a class="el" href="namespaceogdf.html#ac143ef80abc00ee193e7b5780fe1e152ac1d9f50f86825a1a2302ec2449c17196">H</a>, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;points, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;origNode, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;origEdge)</td></tr>
 <tr class="memdesc:a9e7d910c001e57f61ff2535e58f2dea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the intersection graph <code>H</code> of the line segments in the layout given by <code>ga</code>.  <a href="#a9e7d910c001e57f61ff2535e58f2dea7">More...</a><br /></td></tr>
 <tr class="separator:a9e7d910c001e57f61ff2535e58f2dea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae6da09b21b8cb95dc317a1c3c8578f66"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_layout_statistics.html#ae6da09b21b8cb95dc317a1c3c8578f66">numberOfBends</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;ga, int *pMinBendsPerEdge=nullptr, int *pMaxBendsPerEdge=nullptr, double *pAvgBendsPerEdge=nullptr, double *pStdDeviation=nullptr, bool considerSelfLoops=false)</td></tr>
-<tr class="memdesc:ae6da09b21b8cb95dc317a1c3c8578f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the total number of bends in the layout given by <code>ga</code>.  <a href="#ae6da09b21b8cb95dc317a1c3c8578f66">More...</a><br /></td></tr>
+<tr class="memdesc:ae6da09b21b8cb95dc317a1c3c8578f66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the total number of bends (i.e., bend-points) in the layout <code>ga</code>.  <a href="#ae6da09b21b8cb95dc317a1c3c8578f66">More...</a><br /></td></tr>
 <tr class="separator:ae6da09b21b8cb95dc317a1c3c8578f66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a551887ede32648eaa119af9a9c288d6c"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_layout_statistics.html#a551887ede32648eaa119af9a9c288d6c">numberOfCrossings</a> (const <a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a> &amp;ga)</td></tr>
-<tr class="memdesc:a551887ede32648eaa119af9a9c288d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the number of edge crossings in the layout given by <code>ga</code>.  <a href="#a551887ede32648eaa119af9a9c288d6c">More...</a><br /></td></tr>
+<tr class="memdesc:a551887ede32648eaa119af9a9c288d6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the number of edge crossings in the layout <code>ga</code>.  <a href="#a551887ede32648eaa119af9a9c288d6c">More...</a><br /></td></tr>
 <tr class="separator:a551887ede32648eaa119af9a9c288d6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Utility class providing functions for computing statistical information about a layout. </p>
+<div class="textblock"><p>Computes statistical information about a layout. </p>
 
 <p class="definition">Definition at line <a class="el" href="_layout_statistics_8h_source.html#l00045">45</a> of file <a class="el" href="_layout_statistics_8h_source.html">LayoutStatistics.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
@@ -208,19 +206,20 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Computes the angular resolution of the layout given by <code>ga</code>. </p>
-<p>The angular resolution of a layout is the smallest angle formed by two edge segments that meet in a common endpoint or bend point. Angles are given in radians.</p>
+<p>Computes the angular resolution of the layout <code>ga</code>. </p>
+<p>The angular resolution of a layout is the smallest angle formed by any two edge segments that meet in a common endpoint or bend point. Angles are given in radians.</p>
+<p>One may assign <code>nullptr</code> to any of the output parameter if the respective value isn't of interest.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ga</td><td>is the input layout. </td></tr>
-    <tr><td class="paramname">pMaxAngle</td><td>points to a variable in which the largest angle in the layout is stored; <code>pMaxAngle</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">pAvgAngle</td><td>points to a variable in which the average angle in the layout is stored; <code>pAvgAngle</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">pStdDeviation</td><td>points to a variable in which the standard deviation of angles is stored; <code>pStdDeviation</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">considerBends</td><td>determines whether bend points of edges shall be considered (true) or not (false). </td></tr>
+    <tr><td class="paramname">ga</td><td>Input layout. </td></tr>
+    <tr><td class="paramname">pMaxAngle</td><td>Is assigned the maximum angle for any two tangent segments. </td></tr>
+    <tr><td class="paramname">pAvgAngle</td><td>Is assigned the average angle for any two tangent segments. </td></tr>
+    <tr><td class="paramname">pStdDeviation</td><td>Is assigned the standard deviation for angles of tangent segments. </td></tr>
+    <tr><td class="paramname">considerBends</td><td>Determines whether bend points of edges shall be considered. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the angular resolution (smallest angle) of the layout. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Angular resolution (smallest angle) of the layout. </dd></dl>
 
 </div>
 </div>
@@ -282,19 +281,20 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Computes the total edge lengths in the layout given by <code>ga</code>. </p>
+<p>Computes the total edge length in the layout <code>ga</code>. </p>
+<p>One may assign <code>nullptr</code> to any of the output parameter if the respective value isn't of interest.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ga</td><td>is the input layout. </td></tr>
-    <tr><td class="paramname">pMinLength</td><td>points to a variable in which the minimum lengths of an edge is stored; <code>pMinLength</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">pMaxLength</td><td>points to a variable in which the maximum lengths of an edge is stored; <code>pMaxLength</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">pAvgLength</td><td>points to a variable in which the average lengths of an edge is stored; <code>pAvgLength</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">pStdDeviation</td><td>points to a variable in which the standard deviation of edge lengths is stored; <code>pStdDeviation</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">considerSelfLoops</td><td>determines whether the lengths of self-loops shall be considered (true) or not (false). </td></tr>
+    <tr><td class="paramname">ga</td><td>Input layout. </td></tr>
+    <tr><td class="paramname">pMinLength</td><td>Is assigned the minimum edge length. </td></tr>
+    <tr><td class="paramname">pMaxLength</td><td>Is assigned the maximum edge length. </td></tr>
+    <tr><td class="paramname">pAvgLength</td><td>Is assigned the average edge length. </td></tr>
+    <tr><td class="paramname">pStdDeviation</td><td>Is assigned the standard deviation of edge lengths. </td></tr>
+    <tr><td class="paramname">considerSelfLoops</td><td>Determines whether the lengths of self-loops are considered. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the sum of all edge lengths. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Sum of all edge lengths. </dd></dl>
 
 </div>
 </div>
@@ -322,7 +322,7 @@ Static Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>points</em>, </td>
         </tr>
         <tr>
@@ -351,15 +351,16 @@ Static Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Computes the intersection graph <code>H</code> of the line segments in the layout given by <code>ga</code>. </p>
-<p>The nodes of the intersection graph are all the endpoints of segments in the layout and intersection points. The edges corrsepond to edges in the input layout: If an edge connecting points <em>p</em> and <em>q</em> in <code>H</code> corresponds to an edge <em>e</em> in the input graph, then <em>e</em> contains a line segment <em>s</em> such that both <em>p</em> and <em>q</em> are endpoints or intersection points of <em>s</em>.</p>
-<p>To put it more simple, we obtain graph <code>H</code> from the input layout <code>ga</code> by putting a dummy vertex on each crossing and bend point, and joining all nodes representing the same point in the plane.</p>
+<p>The nodes of the intersection graph are all endpoints of segments in <code>ga</code> plus all intersection points. The edges corrsepond to edges in the input layout: If an edge connecting points <em>v</em> and <em>w</em> in <code>H</code> corresponds to an edge <em>e</em> in the input graph, then <em>e</em> contains a line segment <em>s</em> such that both <em>v</em> and <em>w</em> are endpoints or intersection points of <em>s</em>.</p>
+<p>To put it more simple, we obtain graph <code>H</code> from <code>ga</code> by putting a dummy vertex on each crossing and bend point, and joining all nodes representing the same point in the plane.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Do not call this algorithm on drawings with arbitrarily close curves (e.g., curves overlapping on an interval).</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ga</td><td>is the input layout; if it contains bend points, edge segement of an edge's polyline is considered as line segment. </td></tr>
-    <tr><td class="paramname">H</td><td>is assigned the intersection graph. </td></tr>
-    <tr><td class="paramname">points</td><td>maps nodes in <code>H</code> to their geometric position in the layout. </td></tr>
-    <tr><td class="paramname">origNode</td><td>maps nodes in <code>H</code> to nodes in the input graph (given by <code>ga</code>); points which are only intersection points of segments are mapped to <code>nullptr</code>. </td></tr>
-    <tr><td class="paramname">origEdge</td><td>maps edges in <code>H</code> to the corresponding edges in the input graph (given by <code>ga</code>). </td></tr>
+    <tr><td class="paramname">ga</td><td>Input layout. If it contains bend points, each segement of an edge's polyline is considered as a line segment. Otherwise, a straight-line drawing is assumed. </td></tr>
+    <tr><td class="paramname">H</td><td>Is assigned the intersection graph. </td></tr>
+    <tr><td class="paramname">points</td><td>Maps nodes in <code>H</code> to their geometric position in the layout. </td></tr>
+    <tr><td class="paramname">origNode</td><td>Maps nodes in <code>H</code> to nodes in <code>ga's</code> graph. Points that are only intersection points of segments are mapped to <code>nullptr</code>. </td></tr>
+    <tr><td class="paramname">origEdge</td><td>Maps edges in <code>H</code> to the corresponding edges in <code>ga's</code> graph. </td></tr>
   </table>
   </dd>
 </dl>
@@ -424,19 +425,20 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Computes the total number of bends in the layout given by <code>ga</code>. </p>
+<p>Computes the total number of bends (i.e., bend-points) in the layout <code>ga</code>. </p>
+<p>One may assign <code>nullptr</code> to any of the output parameter if the respective value isn't of interest.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ga</td><td>is the input layout. </td></tr>
-    <tr><td class="paramname">pMinBendsPerEdge</td><td>points to a variable in which the minimum lengths of an edge is stored; <code>pMinBendsPerEdge</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">pMaxBendsPerEdge</td><td>points to a variable in which the maximum lengths of an edge is stored; <code>pMaxBendsPerEdge</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">pAvgBendsPerEdge</td><td>points to a variable in which the average lengths of an edge is stored; <code>pAvgBendsPerEdge</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">pStdDeviation</td><td>points to a variable in which the standard deviation of edge lengths is stored; <code>pStdDeviation</code> may be a <code>nullptr</code> in which case nothing is stored. </td></tr>
-    <tr><td class="paramname">considerSelfLoops</td><td>determines whether the bends of self-loops shall be considered (true) or not (false). </td></tr>
+    <tr><td class="paramname">ga</td><td>Input layout. </td></tr>
+    <tr><td class="paramname">pMinBendsPerEdge</td><td>Is assigned the minimum number of bends for any edge. </td></tr>
+    <tr><td class="paramname">pMaxBendsPerEdge</td><td>Is assigned the maximum number of bends for any edge. </td></tr>
+    <tr><td class="paramname">pAvgBendsPerEdge</td><td>Is assigned the average number of bends per edge. </td></tr>
+    <tr><td class="paramname">pStdDeviation</td><td>Is assigned the standard deviation of edge bends. </td></tr>
+    <tr><td class="paramname">considerSelfLoops</td><td>Determines whether the bends of self-loops are considered. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the total number of bend points on all edges. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Total number of bend points on all edges. </dd></dl>
 
 </div>
 </div>
@@ -464,15 +466,16 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Computes the number of edge crossings in the layout given by <code>ga</code>. </p>
+<p>Computes the number of edge crossings in the layout <code>ga</code>. </p>
 <p>If several edge segments cross in the same point, this is counted as if all of these segments would cross pairwise. E.g., if three edge segments cross in a common points, this counts as three crossings.</p>
+<dl class="section warning"><dt>Warning</dt><dd>The same warning as for <a class="el" href="classogdf_1_1_layout_statistics.html#a9e7d910c001e57f61ff2535e58f2dea7" title="Computes the intersection graph H of the line segments in the layout given by ga. ...">intersectionGraph</a> applies.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ga</td><td>is the input layout; if it contains bend points, edge segement of an edge's polyline is considered as line segment. </td></tr>
+    <tr><td class="paramname">ga</td><td>Input layout. If it contains bend points, each segement of an edge's polyline is considered as a line segment. Otherwise, a straight-line drawing is assumed. </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>the number of line crossings. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Crossing number of the drawing. </dd></dl>
 
 </div>
 </div>

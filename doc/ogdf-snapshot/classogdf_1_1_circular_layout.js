@@ -3,7 +3,7 @@ var classogdf_1_1_circular_layout =
     [ "CircularLayout", "classogdf_1_1_circular_layout.html#a152faf26be5d317ba67b4753b342587d", null ],
     [ "~CircularLayout", "classogdf_1_1_circular_layout.html#a344803417183320571c418f15209bab8", null ],
     [ "assignClustersByBiconnectedComponents", "classogdf_1_1_circular_layout.html#ac0ab48f46f9060b372dd883c668d59b7", null ],
-    [ "assignPrefAngle", "classogdf_1_1_circular_layout.html#a37b2b61671d2b41b48f27c425314cc02", null ],
+    [ "assignPrefAngle", "classogdf_1_1_circular_layout.html#a1c4d2a89b1cc8a769d24e8b727480d56", null ],
     [ "call", "classogdf_1_1_circular_layout.html#a9181bf60cc8d79ba985affd401e50290", null ],
     [ "computePreferedAngles", "classogdf_1_1_circular_layout.html#a8f46017ab85b109a20f26c8569d795c9", null ],
     [ "doCall", "classogdf_1_1_circular_layout.html#a358b2da7440d4d315596e5fd8150050f", null ],

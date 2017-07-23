@@ -2,8 +2,8 @@ var classogdf_1_1_upward_planarity_embedded_digraph =
 [
     [ "UpwardPlanarityEmbeddedDigraph", "classogdf_1_1_upward_planarity_embedded_digraph.html#ace65bc78514c25440abce38ad81b0628", null ],
     [ "constructNetwork", "classogdf_1_1_upward_planarity_embedded_digraph.html#a18611ea8ca4d57129b234f6cf6eefbce", null ],
-    [ "getMin", "classogdf_1_1_upward_planarity_embedded_digraph.html#ac01ecf1eb41fb41e09f8b2ccb9f67a94", null ],
-    [ "getPath", "classogdf_1_1_upward_planarity_embedded_digraph.html#a49b8a8474e40f77fc43726e2dd88ea81", null ],
+    [ "getMin", "classogdf_1_1_upward_planarity_embedded_digraph.html#a62d79a9727b500e3b0cb80e579d6e7a9", null ],
+    [ "getPath", "classogdf_1_1_upward_planarity_embedded_digraph.html#a1cabc41039c4b9e0e2da845e0d9a4899", null ],
     [ "isFlow", "classogdf_1_1_upward_planarity_embedded_digraph.html#a47c6ae315151c3512214a54c8e8d682a", null ],
     [ "isUpwardPlanarEmbedded", "classogdf_1_1_upward_planarity_embedded_digraph.html#a8ab68229aa4f92e43aeab9bcfb7e42e3", null ],
     [ "isUpwardPlanarEmbedded", "classogdf_1_1_upward_planarity_embedded_digraph.html#a955f2ade29948d2494987378a75026ed", null ],

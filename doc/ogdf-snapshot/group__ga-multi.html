@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: Self-Loops and Multi-Edges</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -147,7 +145,7 @@ Methods for parallel edges</h2></td></tr>
 <tr class="memdesc:ga6dde8fe4b58e0aa47a33a469937ede63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the edges of <code>G</code> such that parallel edges come after each other in the list.  <a href="group__ga-multi.html#ga6dde8fe4b58e0aa47a33a469937ede63">More...</a><br /></td></tr>
 <tr class="separator:ga6dde8fe4b58e0aa47a33a469937ede63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga20070ca58c7ecd22f6382eae50674c62"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga20070ca58c7ecd22f6382eae50674c62">ogdf::isParallelFree</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
-<tr class="memdesc:ga20070ca58c7ecd22f6382eae50674c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> contains no paralle edges.  <a href="group__ga-multi.html#ga20070ca58c7ecd22f6382eae50674c62">More...</a><br /></td></tr>
+<tr class="memdesc:ga20070ca58c7ecd22f6382eae50674c62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> contains no parallel edges.  <a href="group__ga-multi.html#ga20070ca58c7ecd22f6382eae50674c62">More...</a><br /></td></tr>
 <tr class="separator:ga20070ca58c7ecd22f6382eae50674c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga45cbd7c8e6ed90a40bdd61efe1161e8a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga45cbd7c8e6ed90a40bdd61efe1161e8a">ogdf::numParallelEdges</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:ga45cbd7c8e6ed90a40bdd61efe1161e8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of parallel edges in <code>G</code>.  <a href="group__ga-multi.html#ga45cbd7c8e6ed90a40bdd61efe1161e8a">More...</a><br /></td></tr>
@@ -168,21 +166,20 @@ Methods for parallel edges</h2></td></tr>
 <tr class="memitem:ga6a1c50ef11f22ddf3512044e81f455e5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga6a1c50ef11f22ddf3512044e81f455e5">ogdf::numParallelEdgesUndirected</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:ga6a1c50ef11f22ddf3512044e81f455e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of undirected parallel edges in <code>G</code>.  <a href="group__ga-multi.html#ga6a1c50ef11f22ddf3512044e81f455e5">More...</a><br /></td></tr>
 <tr class="separator:ga6a1c50ef11f22ddf3512044e81f455e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8ba9a6d9f81a196ba264621ac9f17e18"><td class="memTemplParams" colspan="2">template&lt;class EDGELIST &gt; </td></tr>
-<tr class="memitem:ga8ba9a6d9f81a196ba264621ac9f17e18"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga8ba9a6d9f81a196ba264621ac9f17e18">ogdf::makeParallelFreeUndirected</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, EDGELIST &amp;parallelEdges)</td></tr>
-<tr class="memdesc:ga8ba9a6d9f81a196ba264621ac9f17e18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all but one of each bundle of undirected parallel edges.  <a href="group__ga-multi.html#ga8ba9a6d9f81a196ba264621ac9f17e18">More...</a><br /></td></tr>
-<tr class="separator:ga8ba9a6d9f81a196ba264621ac9f17e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga49c6516ddc2a7fced4318e372209fe4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga49c6516ddc2a7fced4318e372209fe4c">ogdf::makeParallelFreeUndirected</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
-<tr class="memdesc:ga49c6516ddc2a7fced4318e372209fe4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all but one of each bundle of undirected parallel edges.  <a href="group__ga-multi.html#ga49c6516ddc2a7fced4318e372209fe4c">More...</a><br /></td></tr>
-<tr class="separator:ga49c6516ddc2a7fced4318e372209fe4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaecf56f01578c501503c973673ec4cb82"><td class="memTemplParams" colspan="2">template&lt;class EDGELIST &gt; </td></tr>
-<tr class="memitem:gaecf56f01578c501503c973673ec4cb82"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#gaecf56f01578c501503c973673ec4cb82">ogdf::makeParallelFreeUndirected</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, EDGELIST &amp;parallelEdges, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;cardPositive, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;cardNegative)</td></tr>
-<tr class="memdesc:gaecf56f01578c501503c973673ec4cb82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all but one of each bundle of undirected parallel edges.  <a href="group__ga-multi.html#gaecf56f01578c501503c973673ec4cb82">More...</a><br /></td></tr>
-<tr class="separator:gaecf56f01578c501503c973673ec4cb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga96e783ece038f9498bc2d1f2bb809363"><td class="memTemplParams" colspan="2">template&lt;class EDGELIST &gt; </td></tr>
 <tr class="memitem:ga96e783ece038f9498bc2d1f2bb809363"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga96e783ece038f9498bc2d1f2bb809363">ogdf::getParallelFreeUndirected</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; EDGELIST &gt; &amp;parallelEdges)</td></tr>
 <tr class="memdesc:ga96e783ece038f9498bc2d1f2bb809363"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the bundles of undirected parallel edges in <code>G</code>.  <a href="group__ga-multi.html#ga96e783ece038f9498bc2d1f2bb809363">More...</a><br /></td></tr>
 <tr class="separator:ga96e783ece038f9498bc2d1f2bb809363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga63350e9b7f75e8867f1bc25d859e9b05"><td class="memTemplParams" colspan="2">template&lt;class EDGELIST  = SListPure&lt;edge&gt;&gt; </td></tr>
+<tr class="memitem:ga63350e9b7f75e8867f1bc25d859e9b05"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga63350e9b7f75e8867f1bc25d859e9b05">ogdf::makeParallelFreeUndirected</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, EDGELIST *parallelEdges=nullptr, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *cardPositive=nullptr, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *cardNegative=nullptr)</td></tr>
+<tr class="memdesc:ga63350e9b7f75e8867f1bc25d859e9b05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all but one edge of each bundle of undirected parallel edges.  <a href="group__ga-multi.html#ga63350e9b7f75e8867f1bc25d859e9b05">More...</a><br /></td></tr>
+<tr class="separator:ga63350e9b7f75e8867f1bc25d859e9b05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga8ba9a6d9f81a196ba264621ac9f17e18"><td class="memTemplParams" colspan="2">template&lt;class EDGELIST &gt; </td></tr>
+<tr class="memitem:ga8ba9a6d9f81a196ba264621ac9f17e18"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga8ba9a6d9f81a196ba264621ac9f17e18">ogdf::makeParallelFreeUndirected</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, EDGELIST &amp;parallelEdges)</td></tr>
+<tr class="separator:ga8ba9a6d9f81a196ba264621ac9f17e18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaecf56f01578c501503c973673ec4cb82"><td class="memTemplParams" colspan="2">template&lt;class EDGELIST &gt; </td></tr>
+<tr class="memitem:gaecf56f01578c501503c973673ec4cb82"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#gaecf56f01578c501503c973673ec4cb82">ogdf::makeParallelFreeUndirected</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, EDGELIST &amp;parallelEdges, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;cardPositive, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;cardNegative)</td></tr>
+<tr class="separator:gaecf56f01578c501503c973673ec4cb82"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Methods for simple graphs</h2></td></tr>
@@ -246,7 +243,7 @@ template&lt;class EDGELIST &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00355">355</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00240">240</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -293,7 +290,7 @@ template&lt;class EDGELIST &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns true iff <code>G</code> contains no paralle edges. </p>
+<p>Returns true iff <code>G</code> contains no parallel edges. </p>
 <p>A parallel edge is an edge e1=(v,w) such that there exists another edge e2=(v,w) in the graph. Reversal edges (e.g. (v,w) and (w,v)) are not parallel edges. If you want to test if a graph contains no undirected parallel edges, use <a class="el" href="group__ga-multi.html#ga045ca949ad54197c383a02c5b69b7d30" title="Returns true iff G contains no undirected parallel edges. ">isParallelFreeUndirected()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
@@ -366,7 +363,7 @@ template&lt;class EDGELIST &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> is simple, i.e. contains neither self-loops nor parallel edges, false otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00386">386</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00348">348</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -403,7 +400,7 @@ template&lt;class EDGELIST &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> is (undirected) simple, i.e. contains neither self-loops nor undirected parallel edges, false otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00411">411</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00373">373</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -450,7 +447,7 @@ template&lt;class NODELIST &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00061">61</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00060">60</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -509,7 +506,7 @@ template&lt;class EDGELIST &gt; </div>
 </div><div class="memdoc">
 
 <p>Removes all but one of each bundle of parallel edges. </p>
-<p>A parallel edge is an edge e1=(v,w) such that there exists another edge e2=(v,w) in the graph. Reversal edges (e.g. (v,w) and (w,v)) are not multi-edges. If you want to remove parallel and reversal edges, use <a class="el" href="group__ga-multi.html#ga8ba9a6d9f81a196ba264621ac9f17e18" title="Removes all but one of each bundle of undirected parallel edges. ">makeParallelFreeUndirected(Graph&amp;,EDGELIST&amp;)</a>.</p>
+<p>A parallel edge is an edge e1=(v,w) such that there exists another edge e2=(v,w) in the graph. Reversal edges (e.g. (v,w) and (w,v)) are not multi-edges. If you want to remove parallel and reversal edges, use <a class="el" href="group__ga-multi.html#ga63350e9b7f75e8867f1bc25d859e9b05" title="Removes all but one edge of each bundle of undirected parallel edges. ">ogdf::makeParallelFreeUndirected()</a>.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">EDGELIST</td><td>is the type of edge list that will be assigned the list of parallel edges. </td></tr>
@@ -524,7 +521,7 @@ template&lt;class EDGELIST &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00142">142</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00141">141</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -553,7 +550,7 @@ template&lt;class EDGELIST &gt; </div>
 </div><div class="memdoc">
 
 <p>Removes all but one edge of each bundle of parallel edges in <code>G</code>. </p>
-<p>A parallel edge is an edge e1=(v,w) such that there exists another edge e2=(v,w) in the graph. Reversal edges (e.g. (v,w) and (w,v)) are not parallel edges. If you want to remove parallel and reversal edges, use <a class="el" href="group__ga-multi.html#ga49c6516ddc2a7fced4318e372209fe4c" title="Removes all but one of each bundle of undirected parallel edges. ">makeParallelFreeUndirected(Graph&amp;)</a>.</p>
+<p>A parallel edge is an edge e1=(v,w) such that there exists another edge e2=(v,w) in the graph. Reversal edges (e.g. (v,w) and (w,v)) are not parallel edges. If you want to remove parallel and reversal edges, use <a class="el" href="group__ga-multi.html#ga63350e9b7f75e8867f1bc25d859e9b05" title="Removes all but one edge of each bundle of undirected parallel edges. ">ogdf::makeParallelFreeUndirected()</a>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
@@ -561,12 +558,74 @@ template&lt;class EDGELIST &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00175">175</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00174">174</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+
+</div>
+</div>
+<a id="ga63350e9b7f75e8867f1bc25d859e9b05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga63350e9b7f75e8867f1bc25d859e9b05">&#9670;&nbsp;</a></span>makeParallelFreeUndirected() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class EDGELIST  = SListPure&lt;edge&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::makeParallelFreeUndirected </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">EDGELIST *&#160;</td>
+          <td class="paramname"><em>parallelEdges</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>cardPositive</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; *&#160;</td>
+          <td class="paramname"><em>cardNegative</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes all but one edge of each bundle of undirected parallel edges. </p>
+<p>An undirected parallel edge is an edge e1=(v,w) such that there exists another edge e2=(v,w) or (w,v) in the graph. This function removes all but one of the edges with endpoints v and w for each unordered pair of nodes {v,w}.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">EDGELIST</td><td>is the type of edge list that will be assigned the list of edges. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
+    <tr><td class="paramname">parallelEdges</td><td>is assigned the list of remaining edges that were part of a bundle of undirected parallel edges in the input graph. </td></tr>
+    <tr><td class="paramname">cardPositive</td><td>contains for each edge the number of removed undirected parallel edges pointing in the same direction. </td></tr>
+    <tr><td class="paramname">cardNegative</td><td>contains for each edge the number of removed undirected parallel edges pointing in the opposite direction. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00282">282</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
 <a id="ga8ba9a6d9f81a196ba264621ac9f17e18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga8ba9a6d9f81a196ba264621ac9f17e18">&#9670;&nbsp;</a></span>makeParallelFreeUndirected() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ga8ba9a6d9f81a196ba264621ac9f17e18">&#9670;&nbsp;</a></span>makeParallelFreeUndirected() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -592,61 +651,9 @@ template&lt;class EDGELIST &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000024">Deprecated:</a></b></dt><dd>"The pointer-based makeParallelFreeUndirected() should be used instead." </dd></dl>
 
-<p>Removes all but one of each bundle of undirected parallel edges. </p>
-<p>An undirected parallel edges is an edge e1=(v,w) such that there exists another edge e2=(v,w) or (w,v) in the graph. The function removes unordered pair {v,w} of nodes all but one of the edges with endpoints v and w (in any order).</p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">EDGELIST</td><td>is the type of edge list that will be assigned the list of edges. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
-    <tr><td class="paramname">parallelEdges</td><td>is assigned the list of remaining edges that were part of a bundle of undirected parallel edges in the input graph. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00242">242</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
-
-</div>
-</div>
-<a id="ga49c6516ddc2a7fced4318e372209fe4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga49c6516ddc2a7fced4318e372209fe4c">&#9670;&nbsp;</a></span>makeParallelFreeUndirected() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ogdf::makeParallelFreeUndirected </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
-          <td class="paramname"><em>G</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Removes all but one of each bundle of undirected parallel edges. </p>
-<p>An undirected parallel edges is an edge e1=(v,w) such that there exists another edge e2=(v,w) or (w,v) in the graph. The function removes unordered pair {v,w} of nodes all but one of the edges with endpoints v and w (in any order).</p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00276">276</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00321">321</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -689,26 +696,9 @@ template&lt;class EDGELIST &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="deprecated"><dt><b><a class="el" href="deprecated.html#_deprecated000025">Deprecated:</a></b></dt><dd>"The pointer-based makeParallelFreeUndirected() should be used instead." </dd></dl>
 
-<p>Removes all but one of each bundle of undirected parallel edges. </p>
-<p>An undirected parallel edges is an edge e1=(v,w) such that there exists another edge e2=(v,w) or (w,v) in the graph. The function removes unordered pair {v,w} of nodes all but one of the edges with endpoints v and w (in any order).</p>
-<dl class="tparams"><dt>Template Parameters</dt><dd>
-  <table class="tparams">
-    <tr><td class="paramname">EDGELIST</td><td>is the type of edge list that is assigned the list of edges. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
-    <tr><td class="paramname">parallelEdges</td><td>is assigned the list of remaining edges that were part of a bundle of undirected parallel edges in the input graph. </td></tr>
-    <tr><td class="paramname">cardPositive</td><td>contains for each edge the number of removed undirected parallel edges pointing in the same direction. </td></tr>
-    <tr><td class="paramname">cardNegative</td><td>contains for each edge the number of removed undirected parallel edges pointing in the opposite direction. </td></tr>
-  </table>
-  </dd>
-</dl>
-
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00300">300</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00330">330</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -744,7 +734,7 @@ template&lt;class EDGELIST &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00397">397</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00359">359</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -780,7 +770,7 @@ template&lt;class EDGELIST &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00422">422</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00384">384</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>

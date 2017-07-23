@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::SimDraw Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -168,9 +166,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6616638ee40c5224b1cf66927f4c6372"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_sim_draw.html#a1d84262f951cddce0880cb7223c89b21">CompareBy</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sim_draw.html#a6616638ee40c5224b1cf66927f4c6372">compareBy</a> ()</td></tr>
 <tr class="memdesc:a6616638ee40c5224b1cf66927f4c6372"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns compare mode  <a href="#a6616638ee40c5224b1cf66927f4c6372">More...</a><br /></td></tr>
 <tr class="separator:a6616638ee40c5224b1cf66927f4c6372"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7091f6e4d5a915b83fc59b85a9b823e8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sim_draw.html#a7091f6e4d5a915b83fc59b85a9b823e8">consistencyCheck</a> () const</td></tr>
-<tr class="memdesc:a7091f6e4d5a915b83fc59b85a9b823e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks whether instance is a consistent <a class="el" href="classogdf_1_1_sim_draw.html" title="The Base class for simultaneous graph drawing. ">SimDraw</a> instance  <a href="#a7091f6e4d5a915b83fc59b85a9b823e8">More...</a><br /></td></tr>
-<tr class="separator:a7091f6e4d5a915b83fc59b85a9b823e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4aefc5ccbabd186bcd7a26fd12b39026"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sim_draw.html#a4aefc5ccbabd186bcd7a26fd12b39026">constGraph</a> () const</td></tr>
 <tr class="memdesc:a4aefc5ccbabd186bcd7a26fd12b39026"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns graph  <a href="#a4aefc5ccbabd186bcd7a26fd12b39026">More...</a><br /></td></tr>
 <tr class="separator:a4aefc5ccbabd186bcd7a26fd12b39026"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -353,7 +348,7 @@ Friends</h2></td></tr>
 
 <p>gives access to new attribute if not already given </p>
 
-<p class="definition">Definition at line <a class="el" href="_sim_draw_8h_source.html#l00183">183</a> of file <a class="el" href="_sim_draw_8h_source.html">SimDraw.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_sim_draw_8h_source.html#l00185">185</a> of file <a class="el" href="_sim_draw_8h_source.html">SimDraw.h</a>.</p>
 
 </div>
 </div>
@@ -573,7 +568,7 @@ Friends</h2></td></tr>
 
 <p>compares two nodes <code>v</code> and <code>w</code> by their ids </p>
 
-<p class="definition">Definition at line <a class="el" href="_sim_draw_8h_source.html#l00191">191</a> of file <a class="el" href="_sim_draw_8h_source.html">SimDraw.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_sim_draw_8h_source.html#l00193">193</a> of file <a class="el" href="_sim_draw_8h_source.html">SimDraw.h</a>.</p>
 
 </div>
 </div>
@@ -626,26 +621,7 @@ Friends</h2></td></tr>
 <p>compares two nodes <code>v</code> and <code>w</code> by their labels </p>
 <p>This method only works, if attribute nodeLabel is activated and set properly. Otherwise it is recommended to use compareById. </p>
 
-<p class="definition">Definition at line <a class="el" href="_sim_draw_8h_source.html#l00199">199</a> of file <a class="el" href="_sim_draw_8h_source.html">SimDraw.h</a>.</p>
-
-</div>
-</div>
-<a id="a7091f6e4d5a915b83fc59b85a9b823e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7091f6e4d5a915b83fc59b85a9b823e8">&#9670;&nbsp;</a></span>consistencyCheck()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ogdf::SimDraw::consistencyCheck </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>checks whether instance is a consistent <a class="el" href="classogdf_1_1_sim_draw.html" title="The Base class for simultaneous graph drawing. ">SimDraw</a> instance </p>
+<p class="definition">Definition at line <a class="el" href="_sim_draw_8h_source.html#l00201">201</a> of file <a class="el" href="_sim_draw_8h_source.html">SimDraw.h</a>.</p>
 
 </div>
 </div>

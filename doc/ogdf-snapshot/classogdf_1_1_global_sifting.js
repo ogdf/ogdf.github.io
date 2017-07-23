@@ -1,6 +1,5 @@
 var classogdf_1_1_global_sifting =
 [
-    [ "GlobalSifting", "classogdf_1_1_global_sifting.html#a9f6e7489da8992b9d040fadce0291b0b", null ],
     [ "nRepeats", "classogdf_1_1_global_sifting.html#ae2575c60a27fd2e0c8f2a6187327fc80", null ],
     [ "nRepeats", "classogdf_1_1_global_sifting.html#a50be4b2e1550ccf94caf37a119b7369e", null ],
     [ "reduceCrossings", "classogdf_1_1_global_sifting.html#ae21283a29b073e0ca7bad2e13ed2a8dc", null ],

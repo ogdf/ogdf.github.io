@@ -12,8 +12,8 @@ var classogdf_1_1_kuratowski_structure =
     [ "externalFacePath", "classogdf_1_1_kuratowski_structure.html#a55b89473ac6a20e8792dfee9c7b04901", null ],
     [ "externalSubgraph", "classogdf_1_1_kuratowski_structure.html#a5609c84c6a57acf8cf9c8c94e968abd4", null ],
     [ "externE", "classogdf_1_1_kuratowski_structure.html#a9891ffb35083f74c12156cd2e548406d", null ],
-    [ "highestFacePath", "classogdf_1_1_kuratowski_structure.html#a859ded38b34b3ee3686703b56dfec52c", null ],
-    [ "highestXYPaths", "classogdf_1_1_kuratowski_structure.html#aeefe0fe3f82f7776c0a9d8aed23da3eb", null ],
+    [ "highestFacePath", "classogdf_1_1_kuratowski_structure.html#aa4ca483ce351d5e19e41b338bfc1f9a9", null ],
+    [ "highestXYPaths", "classogdf_1_1_kuratowski_structure.html#acd05a4ac95ebbdf0b230e0d85423258b", null ],
     [ "pertinentSubgraph", "classogdf_1_1_kuratowski_structure.html#a3c8a1b6c1a664aff96d278d47fbd5562", null ],
     [ "R", "classogdf_1_1_kuratowski_structure.html#a940da4ae3b96d164a8bf3aee855fe3aa", null ],
     [ "RReal", "classogdf_1_1_kuratowski_structure.html#ab1ef35ea41aeb624c3a24822e6a2f24d", null ],
@@ -26,5 +26,5 @@ var classogdf_1_1_kuratowski_structure =
     [ "V", "classogdf_1_1_kuratowski_structure.html#af7497f51b097f471449edfc5049d3d7f", null ],
     [ "V_DFI", "classogdf_1_1_kuratowski_structure.html#a5809bb7bc07e1ccc1be261fd0940f100", null ],
     [ "wNodes", "classogdf_1_1_kuratowski_structure.html#ac2151c517ddad68327a20a74c77f5b2c", null ],
-    [ "zPaths", "classogdf_1_1_kuratowski_structure.html#a2df7a56c74715fd1acfb3ee0f3d822c6", null ]
+    [ "zPaths", "classogdf_1_1_kuratowski_structure.html#a1fc86dde640946a97496eef3b7ce79a6", null ]
 ];

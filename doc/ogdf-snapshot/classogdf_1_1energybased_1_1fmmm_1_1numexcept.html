@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::energybased::fmmm::numexcept Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -121,7 +119,8 @@ $(document).ready(function(){initNavTree('classogdf_1_1energybased_1_1fmmm_1_1nu
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
 <a href="classogdf_1_1energybased_1_1fmmm_1_1numexcept-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::energybased::fmmm::numexcept Class Reference</div>  </div>
@@ -133,39 +132,50 @@ $(document).ready(function(){initNavTree('classogdf_1_1energybased_1_1fmmm_1_1nu
 
 <p><code>#include &lt;<a class="el" href="numexcept_8h_source.html">ogdf/energybased/fmmm/numexcept.h</a>&gt;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:afdaed738cc47b21601d724cac3d500f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#afdaed738cc47b21601d724cac3d500f2">choose_distinct_random_point_in_disque</a> (<a class="el" href="classogdf_1_1_d_point.html">DPoint</a> old_point, double xmin, double xmax, double ymin, double ymax)</td></tr>
-<tr class="memdesc:afdaed738cc47b21601d724cac3d500f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a distinct random point within the smallest disque D with center old_point that is contained in the box defined by xmin,...,ymax; The size of D is shrunk by multiplying with epsilon = 0.1; Precondition: old_point is contained in the box and the box is not equal to old_point.  <a href="#afdaed738cc47b21601d724cac3d500f2">More...</a><br /></td></tr>
-<tr class="separator:afdaed738cc47b21601d724cac3d500f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1d46acf4418bc5e91df28f54105448d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#af1d46acf4418bc5e91df28f54105448d">choose_distinct_random_point_in_radius_epsilon</a> (<a class="el" href="classogdf_1_1_d_point.html">DPoint</a> old_pos)</td></tr>
-<tr class="memdesc:af1d46acf4418bc5e91df28f54105448d"><td class="mdescLeft">&#160;</td><td class="mdescRight">A random point (distinct from old_pos) on the disque around old_pos with radius epsilon = 0.1 is computed.  <a href="#af1d46acf4418bc5e91df28f54105448d">More...</a><br /></td></tr>
-<tr class="separator:af1d46acf4418bc5e91df28f54105448d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a011f9fdc80f19fc1d46b2ab992b9e37c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#a011f9fdc80f19fc1d46b2ab992b9e37c">f_near_machine_precision</a> (double distance, <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;force)</td></tr>
-<tr class="memdesc:a011f9fdc80f19fc1d46b2ab992b9e37c"><td class="mdescLeft">&#160;</td><td class="mdescRight">If distance has a value near the machine precision the (attractive)force calculation is not possible (calculated values exceed the machine accuracy) in this cases true is returned and force is set to a reasonable value that does not cause problems; Else false is returned and force keeps unchanged.  <a href="#a011f9fdc80f19fc1d46b2ab992b9e37c">More...</a><br /></td></tr>
-<tr class="separator:a011f9fdc80f19fc1d46b2ab992b9e37c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c0db6a21508d08b373bfd99eb3ebc53"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#a8c0db6a21508d08b373bfd99eb3ebc53">f_rep_near_machine_precision</a> (double distance, <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;force)</td></tr>
-<tr class="memdesc:a8c0db6a21508d08b373bfd99eb3ebc53"><td class="mdescLeft">&#160;</td><td class="mdescRight">If distance has a value near the machine precision the repulsive force calculation is not possible (calculated values exceed the machine accuracy) in this cases true is returned and force is set to a reasonable value that does not cause problems; Else false is returned and force keeps unchanged.  <a href="#a8c0db6a21508d08b373bfd99eb3ebc53">More...</a><br /></td></tr>
-<tr class="separator:a8c0db6a21508d08b373bfd99eb3ebc53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad811b97e647bd5d2cac70c543dc0152e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#ad811b97e647bd5d2cac70c543dc0152e">nearly_equal</a> (double a, double b)</td></tr>
-<tr class="memdesc:ad811b97e647bd5d2cac70c543dc0152e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a is "nearly" equal to b (needed, when machine accuracy is insufficient in functions well_seperated and bordering of NMM)  <a href="#ad811b97e647bd5d2cac70c543dc0152e">More...</a><br /></td></tr>
-<tr class="separator:ad811b97e647bd5d2cac70c543dc0152e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a709a2b03c7fd1bfa030413e5df7c9b11"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#a709a2b03c7fd1bfa030413e5df7c9b11">choose_distinct_random_point_in_disque</a> (<a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> old_point, double xmin, double xmax, double ymin, double ymax)</td></tr>
+<tr class="memdesc:a709a2b03c7fd1bfa030413e5df7c9b11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a distinct random point within the smallest disque D with center old_point that is contained in the box defined by xmin,...,ymax; The size of D is shrunk by multiplying with epsilon = 0.1; Precondition: old_point is contained in the box and the box is not equal to old_point.  <a href="#a709a2b03c7fd1bfa030413e5df7c9b11">More...</a><br /></td></tr>
+<tr class="separator:a709a2b03c7fd1bfa030413e5df7c9b11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe890fe4848bb3b17911d60dff5483de"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#afe890fe4848bb3b17911d60dff5483de">f_near_machine_precision</a> (double distance, <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;force)</td></tr>
+<tr class="memdesc:afe890fe4848bb3b17911d60dff5483de"><td class="mdescLeft">&#160;</td><td class="mdescRight">If distance has a value near the machine precision the (attractive)force calculation is not possible (calculated values exceed the machine accuracy) in this cases true is returned and force is set to a reasonable value that does not cause problems; Else false is returned and force keeps unchanged.  <a href="#afe890fe4848bb3b17911d60dff5483de">More...</a><br /></td></tr>
+<tr class="separator:afe890fe4848bb3b17911d60dff5483de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60461d2e51f035638bf66ad2a08a2156"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#a60461d2e51f035638bf66ad2a08a2156">f_rep_u_on_v</a> (<a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> pos_u, <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> pos_v)</td></tr>
+<tr class="separator:a60461d2e51f035638bf66ad2a08a2156"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18c3355737d8e6dd2da949f12b3b42a0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#a18c3355737d8e6dd2da949f12b3b42a0">nearly_equal</a> (double a, double b)</td></tr>
+<tr class="memdesc:a18c3355737d8e6dd2da949f12b3b42a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a is "nearly" equal to b (needed, when machine accuracy is insufficient in functions well_seperated and bordering of NMM)  <a href="#a18c3355737d8e6dd2da949f12b3b42a0">More...</a><br /></td></tr>
+<tr class="separator:a18c3355737d8e6dd2da949f12b3b42a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
+Static Protected Member Functions</h2></td></tr>
+<tr class="memitem:a4d22f36f8d2c6abc62669f4ac24f7f71"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#a4d22f36f8d2c6abc62669f4ac24f7f71">choose_distinct_random_point_in_radius_epsilon</a> (<a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> old_pos)</td></tr>
+<tr class="memdesc:a4d22f36f8d2c6abc62669f4ac24f7f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">A random point (distinct from old_pos) on the disque around old_pos with radius epsilon = 0.1 is computed.  <a href="#a4d22f36f8d2c6abc62669f4ac24f7f71">More...</a><br /></td></tr>
+<tr class="separator:a4d22f36f8d2c6abc62669f4ac24f7f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5331f39aac067d728ff703891383fb19"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#a5331f39aac067d728ff703891383fb19">f_rep_near_machine_precision</a> (double distance, <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;force)</td></tr>
+<tr class="memdesc:a5331f39aac067d728ff703891383fb19"><td class="mdescLeft">&#160;</td><td class="mdescRight">If distance has a value near the machine precision the repulsive force calculation is not possible (calculated values exceed the machine accuracy) in this cases true is returned and force is set to a reasonable value that does not cause problems; Else false is returned and force keeps unchanged.  <a href="#a5331f39aac067d728ff703891383fb19">More...</a><br /></td></tr>
+<tr class="separator:a5331f39aac067d728ff703891383fb19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e0a2a4c2742f2edf1a415a8a85b4efa"><td class="memItemLeft" align="right" valign="top">static double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1numexcept.html#a0e0a2a4c2742f2edf1a415a8a85b4efa">f_rep_scalar</a> (double d)</td></tr>
+<tr class="memdesc:a0e0a2a4c2742f2edf1a415a8a85b4efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the repulsing force_function_value of scalar d.  <a href="#a0e0a2a4c2742f2edf1a415a8a85b4efa">More...</a><br /></td></tr>
+<tr class="separator:a0e0a2a4c2742f2edf1a415a8a85b4efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class is developed for exceptions that might occure, when nodes are placed at the same position and a new random position has to be found, or when the calculated forces are near the machine accuracy, where no reasonable numeric and logic calculations are possible any more. </p>
 
 <p class="definition">Definition at line <a class="el" href="numexcept_8h_source.html#l00044">44</a> of file <a class="el" href="numexcept_8h_source.html">numexcept.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="afdaed738cc47b21601d724cac3d500f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdaed738cc47b21601d724cac3d500f2">&#9670;&nbsp;</a></span>choose_distinct_random_point_in_disque()</h2>
+<a id="a709a2b03c7fd1bfa030413e5df7c9b11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a709a2b03c7fd1bfa030413e5df7c9b11">&#9670;&nbsp;</a></span>choose_distinct_random_point_in_disque()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a> ogdf::energybased::fmmm::numexcept::choose_distinct_random_point_in_disque </td>
+          <td class="memname">static <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> ogdf::energybased::fmmm::numexcept::choose_distinct_random_point_in_disque </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td>
           <td class="paramname"><em>old_point</em>, </td>
         </tr>
         <tr>
@@ -198,40 +208,56 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns a distinct random point within the smallest disque D with center old_point that is contained in the box defined by xmin,...,ymax; The size of D is shrunk by multiplying with epsilon = 0.1; Precondition: old_point is contained in the box and the box is not equal to old_point. </p>
 
 </div>
 </div>
-<a id="af1d46acf4418bc5e91df28f54105448d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1d46acf4418bc5e91df28f54105448d">&#9670;&nbsp;</a></span>choose_distinct_random_point_in_radius_epsilon()</h2>
+<a id="a4d22f36f8d2c6abc62669f4ac24f7f71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d22f36f8d2c6abc62669f4ac24f7f71">&#9670;&nbsp;</a></span>choose_distinct_random_point_in_radius_epsilon()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a> ogdf::energybased::fmmm::numexcept::choose_distinct_random_point_in_radius_epsilon </td>
+          <td class="memname">static <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> ogdf::energybased::fmmm::numexcept::choose_distinct_random_point_in_radius_epsilon </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td>
           <td class="paramname"><em>old_pos</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>A random point (distinct from old_pos) on the disque around old_pos with radius epsilon = 0.1 is computed. </p>
 
 </div>
 </div>
-<a id="a011f9fdc80f19fc1d46b2ab992b9e37c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a011f9fdc80f19fc1d46b2ab992b9e37c">&#9670;&nbsp;</a></span>f_near_machine_precision()</h2>
+<a id="afe890fe4848bb3b17911d60dff5483de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe890fe4848bb3b17911d60dff5483de">&#9670;&nbsp;</a></span>f_near_machine_precision()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ogdf::energybased::fmmm::numexcept::f_near_machine_precision </td>
+          <td class="memname">static bool ogdf::energybased::fmmm::numexcept::f_near_machine_precision </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>distance</em>, </td>
@@ -239,7 +265,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>force</em>&#160;</td>
         </tr>
         <tr>
@@ -248,20 +274,28 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>If distance has a value near the machine precision the (attractive)force calculation is not possible (calculated values exceed the machine accuracy) in this cases true is returned and force is set to a reasonable value that does not cause problems; Else false is returned and force keeps unchanged. </p>
 
 </div>
 </div>
-<a id="a8c0db6a21508d08b373bfd99eb3ebc53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c0db6a21508d08b373bfd99eb3ebc53">&#9670;&nbsp;</a></span>f_rep_near_machine_precision()</h2>
+<a id="a5331f39aac067d728ff703891383fb19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5331f39aac067d728ff703891383fb19">&#9670;&nbsp;</a></span>f_rep_near_machine_precision()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ogdf::energybased::fmmm::numexcept::f_rep_near_machine_precision </td>
+          <td class="memname">static bool ogdf::energybased::fmmm::numexcept::f_rep_near_machine_precision </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>distance</em>, </td>
@@ -269,7 +303,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>force</em>&#160;</td>
         </tr>
         <tr>
@@ -278,20 +312,94 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>If distance has a value near the machine precision the repulsive force calculation is not possible (calculated values exceed the machine accuracy) in this cases true is returned and force is set to a reasonable value that does not cause problems; Else false is returned and force keeps unchanged. </p>
 
 </div>
 </div>
-<a id="ad811b97e647bd5d2cac70c543dc0152e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad811b97e647bd5d2cac70c543dc0152e">&#9670;&nbsp;</a></span>nearly_equal()</h2>
+<a id="a0e0a2a4c2742f2edf1a415a8a85b4efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e0a2a4c2742f2edf1a415a8a85b4efa">&#9670;&nbsp;</a></span>f_rep_scalar()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ogdf::energybased::fmmm::numexcept::nearly_equal </td>
+          <td class="memname">static double ogdf::energybased::fmmm::numexcept::f_rep_scalar </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the repulsing force_function_value of scalar d. </p>
+
+<p class="definition">Definition at line <a class="el" href="numexcept_8h_source.html#l00082">82</a> of file <a class="el" href="numexcept_8h_source.html">numexcept.h</a>.</p>
+
+</div>
+</div>
+<a id="a60461d2e51f035638bf66ad2a08a2156"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60461d2e51f035638bf66ad2a08a2156">&#9670;&nbsp;</a></span>f_rep_u_on_v()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> ogdf::energybased::fmmm::numexcept::f_rep_u_on_v </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td>
+          <td class="paramname"><em>pos_u</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td>
+          <td class="paramname"><em>pos_v</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a18c3355737d8e6dd2da949f12b3b42a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18c3355737d8e6dd2da949f12b3b42a0">&#9670;&nbsp;</a></span>nearly_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static bool ogdf::energybased::fmmm::numexcept::nearly_equal </td>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -308,6 +416,11 @@ Public Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Returns true if a is "nearly" equal to b (needed, when machine accuracy is insufficient in functions well_seperated and bordering of NMM) </p>

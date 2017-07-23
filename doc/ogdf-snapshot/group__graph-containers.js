@@ -223,37 +223,19 @@ var group__graph_containers =
       [ "m_x", "classogdf_1_1_face_array.html#aedce7930350b2599b5e06c1ac8e002bb", null ]
     ] ],
     [ "FaceSet", "classogdf_1_1_face_set.html", [
-      [ "FaceSet", "classogdf_1_1_face_set.html#ad4f4470dfe8dca33dd08f7226b17a9e9", null ],
-      [ "~FaceSet", "classogdf_1_1_face_set.html#a94870a603c79e81916edb1cf779a9cd1", null ],
-      [ "clear", "classogdf_1_1_face_set.html#a1c0499bb3c1e8a8aafcf09c8f2fbbc05", null ],
-      [ "faces", "classogdf_1_1_face_set.html#a7bf23af4e872ea2495cce92a192761ef", null ],
-      [ "insert", "classogdf_1_1_face_set.html#afb51927b87f67a18b1147bd610e0fa03", null ],
-      [ "isMember", "classogdf_1_1_face_set.html#a3d69937554c41f2c7071ada25c059aaf", null ],
-      [ "remove", "classogdf_1_1_face_set.html#a6587824f738aa7642e6f8e87272b6a4d", null ],
-      [ "size", "classogdf_1_1_face_set.html#a85706358d26ee6e60f75b2b967afe0c4", null ],
-      [ "m_faces", "classogdf_1_1_face_set.html#a553b7452d7648f5a5b028c61ad408017", null ],
-      [ "m_it", "classogdf_1_1_face_set.html#a0ec2f46a118e5339e38720d295fb8038", null ]
-    ] ],
-    [ "FaceSetPure", "classogdf_1_1_face_set_pure.html", [
-      [ "FaceSetPure", "classogdf_1_1_face_set_pure.html#a5b6ecd5d2dcb26c1b1f253a60fc596be", null ],
-      [ "~FaceSetPure", "classogdf_1_1_face_set_pure.html#ac2d15569ee760e69a0521c914216deb8", null ],
-      [ "clear", "classogdf_1_1_face_set_pure.html#afdd0a252374734f699cf2db85c5659a5", null ],
-      [ "faces", "classogdf_1_1_face_set_pure.html#a4cd29a2947ed142d4c309223d41ba2fc", null ],
-      [ "insert", "classogdf_1_1_face_set_pure.html#ac637f85620ecb547feeb755b1ae58c32", null ],
-      [ "isMember", "classogdf_1_1_face_set_pure.html#a1e823b7004aba40ab299db70c79f51c2", null ],
-      [ "remove", "classogdf_1_1_face_set_pure.html#afbbaf07e6e6329825edee95026fa22ab", null ],
-      [ "m_faces", "classogdf_1_1_face_set_pure.html#a34b0609fbc05558162ac007aa37beb3a", null ],
-      [ "m_it", "classogdf_1_1_face_set_pure.html#ae73053599e3de3593b48f6c7e8f9049d", null ]
-    ] ],
-    [ "FaceSetSimple", "classogdf_1_1_face_set_simple.html", [
-      [ "FaceSetSimple", "classogdf_1_1_face_set_simple.html#ac45e8f0fbc6c5675d29d4481f727e557", null ],
-      [ "~FaceSetSimple", "classogdf_1_1_face_set_simple.html#aa971c75855709072b28e14e6a3430f19", null ],
-      [ "clear", "classogdf_1_1_face_set_simple.html#a91ce1390918bf894af3e4136ede60b45", null ],
-      [ "faces", "classogdf_1_1_face_set_simple.html#ad448c282fedc726040d96f47ab516088", null ],
-      [ "insert", "classogdf_1_1_face_set_simple.html#a3bfd1c7ca2e4040fbd0b20bc99dfb722", null ],
-      [ "isMember", "classogdf_1_1_face_set_simple.html#aeea9e9ae076bd8b4e7f504d955a4cbd6", null ],
-      [ "m_faces", "classogdf_1_1_face_set_simple.html#a97cbc3ba9d22ac4854f590a4e71b38aa", null ],
-      [ "m_isContained", "classogdf_1_1_face_set_simple.html#a0649a4b98576af11d23532e851584e74", null ]
+      [ "ListType", "classogdf_1_1_face_set.html#a920544a895d798c0b69fadcca8974b4a", null ],
+      [ "FaceSet", "classogdf_1_1_face_set.html#a270eca3ca1b35f162ac1399c9b06ec1e", null ],
+      [ "FaceSet", "classogdf_1_1_face_set.html#a449b3a3ef202ae7b602e0a3520d0b931", null ],
+      [ "clear", "classogdf_1_1_face_set.html#a2eb5ac6a8239cbe1603ee044ae4be520", null ],
+      [ "embeddingOf", "classogdf_1_1_face_set.html#a3e5371bec4b49de851fb23c2a9b3ca33", null ],
+      [ "faces", "classogdf_1_1_face_set.html#a4194a4e48a3990350bf66930199cd7c9", null ],
+      [ "insert", "classogdf_1_1_face_set.html#a2b2b69b13c4876080c87fc81582284e2", null ],
+      [ "isMember", "classogdf_1_1_face_set.html#a6af81b5a0407f8155d720cb1c8838ba2", null ],
+      [ "operator=", "classogdf_1_1_face_set.html#abe870e6037a436a15f6faaea51ec5598", null ],
+      [ "remove", "classogdf_1_1_face_set.html#a1f64a9d70137e1a4a40835e69f7dbcbc", null ],
+      [ "size", "classogdf_1_1_face_set.html#ab7fb0d8c615008cb9f4d289a336b6e6a", null ],
+      [ "m_faces", "classogdf_1_1_face_set.html#a1cf8b22a48000d98a736e76401bed842", null ],
+      [ "m_it", "classogdf_1_1_face_set.html#a535e31f471c85025a38c5183eeb1e36e", null ]
     ] ],
     [ "NodeArray", "classogdf_1_1_node_array.html", [
       [ "const_iterator", "classogdf_1_1_node_array.html#a06da1c494eaa872da3c7806ab3028561", null ],
@@ -299,40 +281,18 @@ var group__graph_containers =
       [ "m_x", "classogdf_1_1_node_array.html#a4fa501fdf42f302c9cd5ee50a204e2fb", null ]
     ] ],
     [ "NodeSet", "classogdf_1_1_node_set.html", [
-      [ "NodeSet", "classogdf_1_1_node_set.html#a4ce2d82fbfe791ac68e428e97e58ea9a", null ],
-      [ "~NodeSet", "classogdf_1_1_node_set.html#a925b042efb42e5be75b51aec769c5ce5", null ],
-      [ "NodeSet", "classogdf_1_1_node_set.html#a3fbbf940ed7355ef15dd8005138e8a83", null ],
-      [ "clear", "classogdf_1_1_node_set.html#a20b1db1066ea7cabc7855acc2472d422", null ],
-      [ "insert", "classogdf_1_1_node_set.html#a9f223f76fed59da0b688086e5ff5ebd7", null ],
-      [ "isMember", "classogdf_1_1_node_set.html#a35c6994d392c7ff0a79c732b25c2da9d", null ],
-      [ "nodes", "classogdf_1_1_node_set.html#a122f03b09ccfaa3f7c5761be79cd9bbb", null ],
-      [ "operator=", "classogdf_1_1_node_set.html#a03992a17f035ae4a44353bda83dc4395", null ],
-      [ "remove", "classogdf_1_1_node_set.html#ae7d82e1dcfa2446132ee458c2c9b044e", null ],
-      [ "size", "classogdf_1_1_node_set.html#af0b5a9b2c23f0fa78b65a17222eed8c9", null ],
-      [ "m_it", "classogdf_1_1_node_set.html#a5ef91b6c97bddb2a31b6f635293a0b6b", null ],
-      [ "m_nodes", "classogdf_1_1_node_set.html#a6f3bf0d7e7eabe1d16e5c476a9d6eee6", null ]
-    ] ],
-    [ "NodeSetPure", "classogdf_1_1_node_set_pure.html", [
-      [ "NodeSetPure", "classogdf_1_1_node_set_pure.html#a77a02fad2d662ef607b7cd5d353ff26e", null ],
-      [ "~NodeSetPure", "classogdf_1_1_node_set_pure.html#a9ef87708830d959bdd90884923ee169d", null ],
-      [ "NodeSetPure", "classogdf_1_1_node_set_pure.html#ad315a3db746de4a91b4cbe88cdc675f2", null ],
-      [ "clear", "classogdf_1_1_node_set_pure.html#aed27c3c7ab229bf555d003773370722a", null ],
-      [ "insert", "classogdf_1_1_node_set_pure.html#a20bad41aa9697b0e52f14e3212615f99", null ],
-      [ "isMember", "classogdf_1_1_node_set_pure.html#acb784506534216825708199f1786b736", null ],
-      [ "nodes", "classogdf_1_1_node_set_pure.html#a7909b969f25e2abc0c624eaff92d1216", null ],
-      [ "operator=", "classogdf_1_1_node_set_pure.html#a07d51cbdc063b929a16ec72b2c244bbc", null ],
-      [ "remove", "classogdf_1_1_node_set_pure.html#aaa6772f54702fbe208b4e057436545d1", null ],
-      [ "m_it", "classogdf_1_1_node_set_pure.html#a1c9254fc99c80541fd2e39c4f760f6a8", null ],
-      [ "m_nodes", "classogdf_1_1_node_set_pure.html#a925097bd954033bf81a2317e0aa8c656", null ]
-    ] ],
-    [ "NodeSetSimple", "classogdf_1_1_node_set_simple.html", [
-      [ "NodeSetSimple", "classogdf_1_1_node_set_simple.html#a3e93467ffd39c9e46e8e3ba0d1552aba", null ],
-      [ "~NodeSetSimple", "classogdf_1_1_node_set_simple.html#a4f9d6057dbb9c89e4e3fde863c320d34", null ],
-      [ "clear", "classogdf_1_1_node_set_simple.html#a8f0bf7b1ea0225e65c14ddfbd385c120", null ],
-      [ "insert", "classogdf_1_1_node_set_simple.html#a6466eabbd71148542b8141cb43ccd4a0", null ],
-      [ "isMember", "classogdf_1_1_node_set_simple.html#a20dc97f92dac0a32c21b16add337a1b8", null ],
-      [ "nodes", "classogdf_1_1_node_set_simple.html#ab34e5815d60dbf951aaf09c8049002e9", null ],
-      [ "m_isContained", "classogdf_1_1_node_set_simple.html#a1b8e1dbe7e2d886a8802ba1d5a3683b5", null ],
-      [ "m_nodes", "classogdf_1_1_node_set_simple.html#af0515565bcadba06c8ec5bffe3804a73", null ]
+      [ "ListType", "classogdf_1_1_node_set.html#a7f4c5f23f64836ee88797938744afc14", null ],
+      [ "NodeSet", "classogdf_1_1_node_set.html#a76c79b1be8fe4aa9942e636beaf56c8a", null ],
+      [ "NodeSet", "classogdf_1_1_node_set.html#afdc88270fc203cf78cae404db4d772b3", null ],
+      [ "clear", "classogdf_1_1_node_set.html#ae936d5647b366dc29366dac4f4eb0b18", null ],
+      [ "graphOf", "classogdf_1_1_node_set.html#a5ccf2aa36b3ce6f72edbce5eca5b8ca3", null ],
+      [ "insert", "classogdf_1_1_node_set.html#aff3f0f230920b7500546469f9f39311f", null ],
+      [ "isMember", "classogdf_1_1_node_set.html#a9b9c60cc3d6f3e88d2e776db6ba9f44b", null ],
+      [ "nodes", "classogdf_1_1_node_set.html#aa2aebcb2d3ff3630563371916ee72159", null ],
+      [ "operator=", "classogdf_1_1_node_set.html#ac4c4e4abe434ce61775af4c2b44ee50d", null ],
+      [ "remove", "classogdf_1_1_node_set.html#a38cc1fba534cccfa6ea8cf3d5527b7f2", null ],
+      [ "size", "classogdf_1_1_node_set.html#aa6103ccce305e1160777f78036e81f47", null ],
+      [ "m_it", "classogdf_1_1_node_set.html#aaea1c90644491f149131cf43721f68b7", null ],
+      [ "m_nodes", "classogdf_1_1_node_set.html#a6fa02a22706275e19fb07f2e3d6e4714", null ]
     ] ]
 ];

@@ -1,7 +1,7 @@
 var dir_0d5519c64fc959960fc51282b53b9b55 =
 [
     [ "EdgeStandardRep.h", "_edge_standard_rep_8h.html", "_edge_standard_rep_8h" ],
-    [ "Hypergraph.h", "hypergraph_2_hyper_graph_8h.html", "hypergraph_2_hyper_graph_8h" ],
+    [ "Hypergraph.h", "_hypergraph_8h.html", "_hypergraph_8h" ],
     [ "HypergraphArray.h", "_hypergraph_array_8h.html", [
       [ "HyperedgeArray", "classogdf_1_1_hyperedge_array.html", "classogdf_1_1_hyperedge_array" ],
       [ "HypergraphArrayBase", "classogdf_1_1_hypergraph_array_base.html", "classogdf_1_1_hypergraph_array_base" ],

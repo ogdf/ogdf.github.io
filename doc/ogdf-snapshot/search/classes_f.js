@@ -13,7 +13,6 @@ var searchData=
   ['palabel',['PALabel',['../classogdf_1_1_p_a_label.html',1,'ogdf']]],
   ['parser',['Parser',['../classogdf_1_1dot_1_1_parser.html',1,'ogdf::dot::Parser'],['../classogdf_1_1gdf_1_1_parser.html',1,'ogdf::gdf::Parser'],['../classogdf_1_1gexf_1_1_parser.html',1,'ogdf::gexf::Parser'],['../classogdf_1_1tlp_1_1_parser.html',1,'ogdf::tlp::Parser']]],
   ['particleinfo',['ParticleInfo',['../classogdf_1_1energybased_1_1fmmm_1_1_particle_info.html',1,'ogdf::energybased::fmmm']]],
-  ['particleinfocomparer',['ParticleInfoComparer',['../classogdf_1_1energybased_1_1fmmm_1_1_particle_info_comparer.html',1,'ogdf::energybased::fmmm']]],
   ['partitioning',['Partitioning',['../classogdf_1_1_leftist_ordering_1_1_partitioning.html',1,'ogdf::LeftistOrdering']]],
   ['pathdata',['PathData',['../structogdf_1_1_solar_merger_1_1_path_data.html',1,'ogdf::SolarMerger']]],
   ['paths',['Paths',['../structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html',1,'ogdf::MMVariableEmbeddingInserter']]],

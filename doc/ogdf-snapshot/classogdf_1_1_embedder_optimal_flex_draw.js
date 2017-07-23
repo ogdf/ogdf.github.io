@@ -1,7 +1,6 @@
 var classogdf_1_1_embedder_optimal_flex_draw =
 [
     [ "EmbedderOptimalFlexDraw", "classogdf_1_1_embedder_optimal_flex_draw.html#ab71b35b43e77c7182f3150fdfcc582a3", null ],
-    [ "~EmbedderOptimalFlexDraw", "classogdf_1_1_embedder_optimal_flex_draw.html#a6fdd02d763eede8b38c310282ede1575", null ],
     [ "computePrincipalSplitComponentCost", "classogdf_1_1_embedder_optimal_flex_draw.html#a82c8b51bb037ac226734fe75aa6f3be0", null ],
     [ "cost", "classogdf_1_1_embedder_optimal_flex_draw.html#a55ed14e7a4b3bf447e9f43641f2f6120", null ],
     [ "createNetwork", "classogdf_1_1_embedder_optimal_flex_draw.html#a0ad1929136cf55e16c15164399e86237", null ],

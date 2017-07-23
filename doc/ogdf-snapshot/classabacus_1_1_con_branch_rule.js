@@ -9,6 +9,6 @@ var classabacus_1_1_con_branch_rule =
     [ "initialize", "classabacus_1_1_con_branch_rule.html#abaff221e99ca55b04c9f9567e83ce366", null ],
     [ "operator=", "classabacus_1_1_con_branch_rule.html#a7e2f0abc6b41355e728445c9d8d20f54", null ],
     [ "unExtract", "classabacus_1_1_con_branch_rule.html#ae76c9824d3ba6d4143f43ea41e9411a3", null ],
-    [ "operator<<", "classabacus_1_1_con_branch_rule.html#aed7fb3e4ea2980bbaa308f6e5c8fab8a", null ],
+    [ "operator<<", "classabacus_1_1_con_branch_rule.html#a95fc0184c9dc43568ee354ffaccb6044", null ],
     [ "poolSlotRef_", "classabacus_1_1_con_branch_rule.html#aa466e14a0aa93324d006a0777d4a0108", null ]
 ];

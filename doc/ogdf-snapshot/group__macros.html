@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: Useful Macros</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -141,19 +139,16 @@ Assertions (only active in debug builds)</h2></td></tr>
 <tr class="memitem:gaba9188896165f0dc2e3ad0ab69fab97c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#gaba9188896165f0dc2e3ad0ab69fab97c">OGDF_ASSERT</a>(expr)</td></tr>
 <tr class="memdesc:gaba9188896165f0dc2e3ad0ab69fab97c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assert condition <code>expr</code>. See <a class="el" href="build_8md.html">doc/build.md</a> for more information.  <a href="#gaba9188896165f0dc2e3ad0ab69fab97c">More...</a><br /></td></tr>
 <tr class="separator:gaba9188896165f0dc2e3ad0ab69fab97c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab6604de671117ba22fa29f81ca12bd94"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#gab6604de671117ba22fa29f81ca12bd94">OGDF_ASSERT_IF</a>(minLevel,  expr)</td></tr>
-<tr class="memdesc:gab6604de671117ba22fa29f81ca12bd94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assert condition <code>expr</code> if debug level is at least <code>minLevel</code>.  <a href="#gab6604de671117ba22fa29f81ca12bd94">More...</a><br /></td></tr>
-<tr class="separator:gab6604de671117ba22fa29f81ca12bd94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga702bb462c4400c9f185596c59ceafee7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga702bb462c4400c9f185596c59ceafee7">OGDF_SET_DEBUG_LEVEL</a>(level)</td></tr>
-<tr class="memdesc:ga702bb462c4400c9f185596c59ceafee7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set debug level to <code>level</code>.  <a href="#ga702bb462c4400c9f185596c59ceafee7">More...</a><br /></td></tr>
-<tr class="separator:ga702bb462c4400c9f185596c59ceafee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga640a6d01cb763c1c6d8fba6314ecb1e6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga640a6d01cb763c1c6d8fba6314ecb1e6">OGDF_HEAVY_ASSERT</a>(expr)</td></tr>
+<tr class="memdesc:ga640a6d01cb763c1c6d8fba6314ecb1e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assert condition <code>expr</code> when using heavy debugging. See OGDF_ASSERT.  <a href="#ga640a6d01cb763c1c6d8fba6314ecb1e6">More...</a><br /></td></tr>
+<tr class="separator:ga640a6d01cb763c1c6d8fba6314ecb1e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="member-group"></a>
 Throwing exceptions</h2></td></tr>
-<tr class="memitem:gae555347af334981e6301630da429a56f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#gae555347af334981e6301630da429a56f">OGDF_THROW_PARAM</a>(CLASS,  PARAM)&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( PARAM )</td></tr>
+<tr class="memitem:gae555347af334981e6301630da429a56f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#gae555347af334981e6301630da429a56f">OGDF_THROW_PARAM</a>(CLASS,  PARAM)&#160;&#160;&#160;<a class="el" href="exceptions_8h.html#ab860fb59c0a0b59a55693e5b5e7b96a8">OGDF_FLUSH_OUTPUTS</a>, throw CLASS(PARAM)</td></tr>
 <tr class="memdesc:gae555347af334981e6301630da429a56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement for <code>throw</code>.  <a href="#gae555347af334981e6301630da429a56f">More...</a><br /></td></tr>
 <tr class="separator:gae555347af334981e6301630da429a56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2a6a50eb4683c16091bc8f88ad96b7e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga2a6a50eb4683c16091bc8f88ad96b7e2">OGDF_THROW</a>(CLASS)&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( )</td></tr>
+<tr class="memitem:ga2a6a50eb4683c16091bc8f88ad96b7e2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__macros.html#ga2a6a50eb4683c16091bc8f88ad96b7e2">OGDF_THROW</a>(CLASS)&#160;&#160;&#160;<a class="el" href="exceptions_8h.html#ab860fb59c0a0b59a55693e5b5e7b96a8">OGDF_FLUSH_OUTPUTS</a>, throw CLASS()</td></tr>
 <tr class="memdesc:ga2a6a50eb4683c16091bc8f88ad96b7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replacement for <code>throw</code>.  <a href="#ga2a6a50eb4683c16091bc8f88ad96b7e2">More...</a><br /></td></tr>
 <tr class="separator:ga2a6a50eb4683c16091bc8f88ad96b7e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -209,38 +204,6 @@ Managing memory</h2></td></tr>
 
 </div>
 </div>
-<a id="gab6604de671117ba22fa29f81ca12bd94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gab6604de671117ba22fa29f81ca12bd94">&#9670;&nbsp;</a></span>OGDF_ASSERT_IF</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OGDF_ASSERT_IF</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">minLevel, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">expr&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Assert condition <code>expr</code> if debug level is at least <code>minLevel</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00044">44</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
-
-</div>
-</div>
 <a id="ga0532a4f90bb38df3f833445d6694abee"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga0532a4f90bb38df3f833445d6694abee">&#9670;&nbsp;</a></span>OGDF_DECL_ALIGN</h2>
 
@@ -259,7 +222,7 @@ Managing memory</h2></td></tr>
 
 <p>Specify the minimum alignment (in bytes) of a type to be <code>b</code>. This is used in type declarations. </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00152">152</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00148">148</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 
 </div>
 </div>
@@ -281,7 +244,29 @@ Managing memory</h2></td></tr>
 
 <p>Mark a class / member / function as deprecated. </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00118">118</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00114">114</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+
+</div>
+</div>
+<a id="ga640a6d01cb763c1c6d8fba6314ecb1e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga640a6d01cb763c1c6d8fba6314ecb1e6">&#9670;&nbsp;</a></span>OGDF_HEAVY_ASSERT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OGDF_HEAVY_ASSERT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">expr</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assert condition <code>expr</code> when using heavy debugging. See OGDF_ASSERT. </p>
+
+<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00044">44</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
 
 </div>
 </div>
@@ -303,7 +288,7 @@ Managing memory</h2></td></tr>
 
 <p>Specify the likely branch in a condition. </p>
 <p>Usage:</p><div class="fragment"><div class="line"><span class="keywordflow">if</span> (<a class="code" href="group__macros.html#gac9d6d876168a27d05a2fe25e6b2d99fd">OGDF_LIKELY</a>(i &gt;= 0)) { likely branch } <span class="keywordflow">else</span> { unlikely branch } </div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00141">141</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00137">137</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 
 </div>
 </div>
@@ -345,28 +330,6 @@ Managing memory</h2></td></tr>
 
 </div>
 </div>
-<a id="ga702bb462c4400c9f185596c59ceafee7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ga702bb462c4400c9f185596c59ceafee7">&#9670;&nbsp;</a></span>OGDF_SET_DEBUG_LEVEL</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define OGDF_SET_DEBUG_LEVEL</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">level</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Set debug level to <code>level</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00047">47</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
-
-</div>
-</div>
 <a id="ga830ff47e6ca9d06cb10193d62835b9d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga830ff47e6ca9d06cb10193d62835b9d4">&#9670;&nbsp;</a></span>OGDF_SIZEOF_POINTER</h2>
 
@@ -381,7 +344,7 @@ Managing memory</h2></td></tr>
 
 <p>The size of a pointer. </p>
 
-<p class="definition">Definition at line <a class="el" href="config__autogen_8h_source.html#l00024">24</a> of file <a class="el" href="config__autogen_8h_source.html">config_autogen.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config__autogen_8h_source.html#l00025">25</a> of file <a class="el" href="config__autogen_8h_source.html">config_autogen.h</a>.</p>
 
 </div>
 </div>
@@ -396,7 +359,7 @@ Managing memory</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">CLASS</td><td>)</td>
-          <td>&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( )</td>
+          <td>&#160;&#160;&#160;<a class="el" href="exceptions_8h.html#ab860fb59c0a0b59a55693e5b5e7b96a8">OGDF_FLUSH_OUTPUTS</a>, throw CLASS()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -409,7 +372,7 @@ Managing memory</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="exceptions_8h_source.html#l00060">60</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exceptions_8h_source.html#l00065">65</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
 
 </div>
 </div>
@@ -434,7 +397,7 @@ Managing memory</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;cout&lt;&lt;flush,Logger::sfout()&lt;&lt;flush,throw CLASS ( PARAM )</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="exceptions_8h.html#ab860fb59c0a0b59a55693e5b5e7b96a8">OGDF_FLUSH_OUTPUTS</a>, throw CLASS(PARAM)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -448,7 +411,7 @@ Managing memory</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="exceptions_8h_source.html#l00051">51</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="exceptions_8h_source.html#l00055">55</a> of file <a class="el" href="exceptions_8h_source.html">exceptions.h</a>.</p>
 
 </div>
 </div>
@@ -470,7 +433,7 @@ Managing memory</h2></td></tr>
 
 <p>Specify the unlikely branch in a condition. </p>
 <p>Usage:</p><div class="fragment"><div class="line"><span class="keywordflow">if</span> (<a class="code" href="group__macros.html#ga9c229025dd9a19d02997c31bf3726cf4">OGDF_UNLIKELY</a>(<span class="keyword">set</span>.empty())) { unlikely branch } <span class="keywordflow">else</span> { likely branch } </div></div><!-- fragment --> 
-<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00148">148</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00144">144</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 
 </div>
 </div>

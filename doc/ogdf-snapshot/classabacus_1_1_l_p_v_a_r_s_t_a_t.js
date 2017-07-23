@@ -16,6 +16,6 @@ var classabacus_1_1_l_p_v_a_r_s_t_a_t =
     [ "status", "classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a9cb1d0281b2ba42c7a4f77ffe4967e3c", null ],
     [ "status", "classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a20ba7ab461c6ae14b4167ee1c6cf9997", null ],
     [ "status", "classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a97c4e465757655b103cac7e4fcc83211", null ],
-    [ "operator<<", "classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a278b041487f4e2eaf79bcf663469cada", null ],
+    [ "operator<<", "classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a6e0cc18119f691521fcfd494b526a279", null ],
     [ "status_", "classabacus_1_1_l_p_v_a_r_s_t_a_t.html#a26a34c4df220826765990b0eca7fbd42", null ]
 ];

@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::internal Namespace Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -174,6 +172,18 @@ Functions</h2></td></tr>
 <tr class="memitem:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="memTemplItemLeft" align="right" valign="top">ITERATOR&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#ab8ea3350b39c7ce703ab6ef77e2b4b91">chooseIteratorFrom</a> (CONTAINER &amp;container, std::function&lt; bool(const TYPE &amp;)&gt; includeElement, bool isFastTest)</td></tr>
 <tr class="memdesc:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to a random element in the <code>container</code>.  <a href="#ab8ea3350b39c7ce703ab6ef77e2b4b91">More...</a><br /></td></tr>
 <tr class="separator:ab8ea3350b39c7ce703ab6ef77e2b4b91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd44c1cd80c54d5f8159eaf25fbbb537"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER &gt; </td></tr>
+<tr class="memitem:abd44c1cd80c54d5f8159eaf25fbbb537"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#abd44c1cd80c54d5f8159eaf25fbbb537">getAllEdges</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, CONTAINER &amp;edges)</td></tr>
+<tr class="separator:abd44c1cd80c54d5f8159eaf25fbbb537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a523b5e3f518a9a25175621625f9e97d4"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a523b5e3f518a9a25175621625f9e97d4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a523b5e3f518a9a25175621625f9e97d4">getAllEdges</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;edges)</td></tr>
+<tr class="separator:a523b5e3f518a9a25175621625f9e97d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7e5edb138f018186be2236d523c13f"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER &gt; </td></tr>
+<tr class="memitem:a9a7e5edb138f018186be2236d523c13f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a9a7e5edb138f018186be2236d523c13f">getAllNodes</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, CONTAINER &amp;nodes)</td></tr>
+<tr class="separator:a9a7e5edb138f018186be2236d523c13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a7a4feee04da1d0756d2efe751c3fe"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a51a7a4feee04da1d0756d2efe751c3fe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a51a7a4feee04da1d0756d2efe751c3fe">getAllNodes</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nodes)</td></tr>
+<tr class="separator:a51a7a4feee04da1d0756d2efe751c3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ac1e752f994382906d0bfae11f4df5c40"></a>
@@ -243,7 +253,7 @@ template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </div>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceogdf_1_1internal.html#ab8ea3350b39c7ce703ab6ef77e2b4b91" title="Returns an iterator to a random element in the container. ">chooseIteratorFrom</a></dd></dl>
 <p>Don't allocate additional space but count the number of feasible elements instead. </p>
 
-<p class="definition">Definition at line <a class="el" href="list__templates_8h_source.html#l00075">75</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="list__templates_8h_source.html#l00110">110</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
 
 </div>
 </div>
@@ -283,7 +293,7 @@ template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </div>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceogdf_1_1internal.html#ab8ea3350b39c7ce703ab6ef77e2b4b91" title="Returns an iterator to a random element in the container. ">chooseIteratorFrom</a></dd></dl>
 <p>Store elements in permuted order and call includeElement at most once per element. </p>
 
-<p class="definition">Definition at line <a class="el" href="list__templates_8h_source.html#l00110">110</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="list__templates_8h_source.html#l00145">145</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
 
 </div>
 </div>
@@ -340,7 +350,167 @@ template&lt;typename CONTAINER , typename TYPE , typename ITERATOR &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>An iterator to the picked element or an invalid iterator if no such element exists. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="list__templates_8h_source.html#l00156">156</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="list__templates_8h_source.html#l00191">191</a> of file <a class="el" href="list__templates_8h_source.html">list_templates.h</a>.</p>
+
+</div>
+</div>
+<a id="abd44c1cd80c54d5f8159eaf25fbbb537"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd44c1cd80c54d5f8159eaf25fbbb537">&#9670;&nbsp;</a></span>getAllEdges() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CONTAINER &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::internal::getAllEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>edges</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01418">1418</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+
+</div>
+</div>
+<a id="a523b5e3f518a9a25175621625f9e97d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a523b5e3f518a9a25175621625f9e97d4">&#9670;&nbsp;</a></span>getAllEdges() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::internal::getAllEdges </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>edges</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01426">1426</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+
+</div>
+</div>
+<a id="a9a7e5edb138f018186be2236d523c13f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a7e5edb138f018186be2236d523c13f">&#9670;&nbsp;</a></span>getAllNodes() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CONTAINER &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::internal::getAllNodes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CONTAINER &amp;&#160;</td>
+          <td class="paramname"><em>nodes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01401">1401</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+
+</div>
+</div>
+<a id="a51a7a4feee04da1d0756d2efe751c3fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a7a4feee04da1d0756d2efe751c3fe">&#9670;&nbsp;</a></span>getAllNodes() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::internal::getAllNodes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>nodes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01409">1409</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>

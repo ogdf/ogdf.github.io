@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::Voronoi&lt; T &gt; Class Template Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -130,7 +128,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_voronoi.html','');});
 </div><!--header-->
 <div class="contents">
 
-<p>Computes <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> regions in an edge weighted graph.  
+<p>Computes Voronoi regions in an edge-weighted graph.  
  <a href="classogdf_1_1_voronoi.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_voronoi_8h_source.html">ogdf/graphalg/Voronoi.h</a>&gt;</code></p>
@@ -138,22 +136,28 @@ $(document).ready(function(){initNavTree('classogdf_1_1_voronoi.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a93a2bc5f7caf4ee48e71bc6ef997aae6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a93a2bc5f7caf4ee48e71bc6ef997aae6">Voronoi</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &amp;weights, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;seeds)</td></tr>
-<tr class="memdesc:a93a2bc5f7caf4ee48e71bc6ef997aae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build data structure to query <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> regions of edge-weighted graph G with given <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seeds.  <a href="#a93a2bc5f7caf4ee48e71bc6ef997aae6">More...</a><br /></td></tr>
+<tr class="memdesc:a93a2bc5f7caf4ee48e71bc6ef997aae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Build data structure to query Voronoi regions of edge-weighted graph <code>G</code> with given Voronoi seeds.  <a href="#a93a2bc5f7caf4ee48e71bc6ef997aae6">More...</a><br /></td></tr>
 <tr class="separator:a93a2bc5f7caf4ee48e71bc6ef997aae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44fcb9ec5ce185ec2518279636767912"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a44fcb9ec5ce185ec2518279636767912">distance</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
-<tr class="memdesc:a44fcb9ec5ce185ec2518279636767912"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance between v and its <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seed.  <a href="#a44fcb9ec5ce185ec2518279636767912">More...</a><br /></td></tr>
+<tr class="memdesc:a44fcb9ec5ce185ec2518279636767912"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the distance between <code>v</code> and its Voronoi seed.  <a href="#a44fcb9ec5ce185ec2518279636767912">More...</a><br /></td></tr>
 <tr class="separator:a44fcb9ec5ce185ec2518279636767912"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4ebe6e9ed5893ac130d383e173126e0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#ac4ebe6e9ed5893ac130d383e173126e0">nodesInRegion</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
-<tr class="memdesc:ac4ebe6e9ed5893ac130d383e173126e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of nodes in the <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> region of node v.  <a href="#ac4ebe6e9ed5893ac130d383e173126e0">More...</a><br /></td></tr>
-<tr class="separator:ac4ebe6e9ed5893ac130d383e173126e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a836095ffd3cc0f20a31d040677a5a6d4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a836095ffd3cc0f20a31d040677a5a6d4">getGraph</a> () const</td></tr>
+<tr class="memdesc:a836095ffd3cc0f20a31d040677a5a6d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the graph the Voronoi region has been computed for.  <a href="#a836095ffd3cc0f20a31d040677a5a6d4">More...</a><br /></td></tr>
+<tr class="separator:a836095ffd3cc0f20a31d040677a5a6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0302d23248be0d0e82245c48135d364"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#ac0302d23248be0d0e82245c48135d364">getSeeds</a> () const</td></tr>
+<tr class="memdesc:ac0302d23248be0d0e82245c48135d364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the list of seeds the Voronoi region has been computed for.  <a href="#ac0302d23248be0d0e82245c48135d364">More...</a><br /></td></tr>
+<tr class="separator:ac0302d23248be0d0e82245c48135d364"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56aeb12bc225ff6ec79e5cce2fc558d4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a56aeb12bc225ff6ec79e5cce2fc558d4">nodesInRegion</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
+<tr class="memdesc:a56aeb12bc225ff6ec79e5cce2fc558d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the list of nodes in the Voronoi region of node <code>v</code>.  <a href="#a56aeb12bc225ff6ec79e5cce2fc558d4">More...</a><br /></td></tr>
+<tr class="separator:a56aeb12bc225ff6ec79e5cce2fc558d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a698e84b9759b66c19bd0f7d40c47267b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a698e84b9759b66c19bd0f7d40c47267b">predecessor</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
-<tr class="memdesc:a698e84b9759b66c19bd0f7d40c47267b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the nearest node to v on the shortest path to its <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seed.  <a href="#a698e84b9759b66c19bd0f7d40c47267b">More...</a><br /></td></tr>
+<tr class="memdesc:a698e84b9759b66c19bd0f7d40c47267b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the nearest node to <code>v</code> on the shortest path to its Voronoi seed.  <a href="#a698e84b9759b66c19bd0f7d40c47267b">More...</a><br /></td></tr>
 <tr class="separator:a698e84b9759b66c19bd0f7d40c47267b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac6817a7a8007cf50f9a6390971e01180"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#ac6817a7a8007cf50f9a6390971e01180">predecessorEdge</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
-<tr class="memdesc:ac6817a7a8007cf50f9a6390971e01180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the edge incident to v and its predecessor. Note that the predecessor of a terminal is nullptr.  <a href="#ac6817a7a8007cf50f9a6390971e01180">More...</a><br /></td></tr>
+<tr class="memdesc:ac6817a7a8007cf50f9a6390971e01180"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the edge incident to <code>v</code> and its predecessor. Note that the predecessor of a terminal is <code>nullptr</code>.  <a href="#ac6817a7a8007cf50f9a6390971e01180">More...</a><br /></td></tr>
 <tr class="separator:ac6817a7a8007cf50f9a6390971e01180"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e98fff628a12e1258fb9dfcc55229f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a6e98fff628a12e1258fb9dfcc55229f7">seed</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
-<tr class="memdesc:a6e98fff628a12e1258fb9dfcc55229f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seed of node v.  <a href="#a6e98fff628a12e1258fb9dfcc55229f7">More...</a><br /></td></tr>
+<tr class="memdesc:a6e98fff628a12e1258fb9dfcc55229f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the Voronoi seed of node <code>v</code>.  <a href="#a6e98fff628a12e1258fb9dfcc55229f7">More...</a><br /></td></tr>
 <tr class="separator:a6e98fff628a12e1258fb9dfcc55229f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -165,18 +169,22 @@ Protected Member Functions</h2></td></tr>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a82dea4f7c5456eaaf65ab716974f4e85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a82dea4f7c5456eaaf65ab716974f4e85">m_distance</a></td></tr>
 <tr class="separator:a82dea4f7c5456eaaf65ab716974f4e85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad89a5512b80ebcf95abf7ad89132e29f"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#ad89a5512b80ebcf95abf7ad89132e29f">m_nodeList</a></td></tr>
-<tr class="separator:ad89a5512b80ebcf95abf7ad89132e29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af71deb7fdb6a190b48123cec1e88cad0"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#af71deb7fdb6a190b48123cec1e88cad0">m_graph</a></td></tr>
+<tr class="separator:af71deb7fdb6a190b48123cec1e88cad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d448669dcc10a6649b6e5928072877a"><td class="memItemLeft" align="right" valign="top">std::map&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a1d448669dcc10a6649b6e5928072877a">m_nodeList</a></td></tr>
+<tr class="separator:a1d448669dcc10a6649b6e5928072877a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1223c23b97c07fedb279c37e2e43b853"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a1223c23b97c07fedb279c37e2e43b853">m_predecessor</a></td></tr>
 <tr class="separator:a1223c23b97c07fedb279c37e2e43b853"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5775f01b622f62b49dd185b1cad22351"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a5775f01b622f62b49dd185b1cad22351">m_seedOfNode</a></td></tr>
 <tr class="separator:a5775f01b622f62b49dd185b1cad22351"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d6483a84379634a2f1d878ec9d496f2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_voronoi.html#a1d6483a84379634a2f1d878ec9d496f2">m_seeds</a></td></tr>
+<tr class="separator:a1d6483a84379634a2f1d878ec9d496f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 class ogdf::Voronoi&lt; T &gt;</h3>
 
-<p>Computes <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> regions in an edge weighted graph. </p>
+<p>Computes Voronoi regions in an edge-weighted graph. </p>
 
 <p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00045">45</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -222,17 +230,17 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Build data structure to query <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> regions of edge-weighted graph G with given <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seeds. </p>
+<p>Build data structure to query Voronoi regions of edge-weighted graph <code>G</code> with given Voronoi seeds. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">G</td><td>the input graph </td></tr>
     <tr><td class="paramname">weights</td><td>edge weights </td></tr>
-    <tr><td class="paramname">seeds</td><td>a list of <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seed nodes, the centers of the <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> regions </td></tr>
+    <tr><td class="paramname">seeds</td><td>a list of Voronoi seed nodes, the centers of the Voronoi regions </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00059">59</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00061">61</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 
 </div>
 </div>
@@ -279,7 +287,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00101">101</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00118">118</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 
 </div>
 </div>
@@ -309,14 +317,14 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the distance between v and its <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seed. </p>
+<p>Returns the distance between <code>v</code> and its Voronoi seed. </p>
 
-<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00080">80</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00097">97</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 
 </div>
 </div>
-<a id="ac4ebe6e9ed5893ac130d383e173126e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4ebe6e9ed5893ac130d383e173126e0">&#9670;&nbsp;</a></span>nodesInRegion()</h2>
+<a id="a836095ffd3cc0f20a31d040677a5a6d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a836095ffd3cc0f20a31d040677a5a6d4">&#9670;&nbsp;</a></span>getGraph()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,7 +335,69 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt;&amp; <a class="el" href="classogdf_1_1_voronoi.html">ogdf::Voronoi</a>&lt; T &gt;::nodesInRegion </td>
+          <td class="memname">const <a class="el" href="classogdf_1_1_graph.html">Graph</a>&amp; <a class="el" href="classogdf_1_1_voronoi.html">ogdf::Voronoi</a>&lt; T &gt;::getGraph </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the graph the Voronoi region has been computed for. </p>
+
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00071">71</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+
+</div>
+</div>
+<a id="ac0302d23248be0d0e82245c48135d364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0302d23248be0d0e82245c48135d364">&#9670;&nbsp;</a></span>getSeeds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt;&amp; <a class="el" href="classogdf_1_1_voronoi.html">ogdf::Voronoi</a>&lt; T &gt;::getSeeds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the list of seeds the Voronoi region has been computed for. </p>
+
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00077">77</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+
+</div>
+</div>
+<a id="a56aeb12bc225ff6ec79e5cce2fc558d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56aeb12bc225ff6ec79e5cce2fc558d4">&#9670;&nbsp;</a></span>nodesInRegion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt;&amp; <a class="el" href="classogdf_1_1_voronoi.html">ogdf::Voronoi</a>&lt; T &gt;::nodesInRegion </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -341,9 +411,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the list of nodes in the <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> region of node v. </p>
+<p>Returns the list of nodes in the Voronoi region of node <code>v</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00092">92</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00109">109</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 
 </div>
 </div>
@@ -373,9 +443,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the nearest node to v on the shortest path to its <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seed. </p>
+<p>Returns the nearest node to <code>v</code> on the shortest path to its Voronoi seed. </p>
 
-<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00073">73</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00090">90</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 
 </div>
 </div>
@@ -405,9 +475,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the edge incident to v and its predecessor. Note that the predecessor of a terminal is nullptr. </p>
+<p>Returns the edge incident to <code>v</code> and its predecessor. Note that the predecessor of a terminal is <code>nullptr</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00067">67</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00084">84</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 
 </div>
 </div>
@@ -437,9 +507,9 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the <a class="el" href="classogdf_1_1_voronoi.html" title="Computes Voronoi regions in an edge weighted graph. ">Voronoi</a> seed of node v. </p>
+<p>Returns the Voronoi seed of node <code>v</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00086">86</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00103">103</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 
 </div>
 </div>
@@ -470,8 +540,8 @@ template&lt;typename T&gt; </div>
 
 </div>
 </div>
-<a id="ad89a5512b80ebcf95abf7ad89132e29f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad89a5512b80ebcf95abf7ad89132e29f">&#9670;&nbsp;</a></span>m_nodeList</h2>
+<a id="af71deb7fdb6a190b48123cec1e88cad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af71deb7fdb6a190b48123cec1e88cad0">&#9670;&nbsp;</a></span>m_graph</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,7 +552,33 @@ template&lt;typename T&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::map&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; <a class="el" href="classogdf_1_1_voronoi.html">ogdf::Voronoi</a>&lt; T &gt;::m_nodeList</td>
+          <td class="memname">const <a class="el" href="classogdf_1_1_graph.html">Graph</a>&amp; <a class="el" href="classogdf_1_1_voronoi.html">ogdf::Voronoi</a>&lt; T &gt;::m_graph</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00051">51</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+
+</div>
+</div>
+<a id="a1d448669dcc10a6649b6e5928072877a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d448669dcc10a6649b6e5928072877a">&#9670;&nbsp;</a></span>m_nodeList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::map&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; <a class="el" href="classogdf_1_1_voronoi.html">ogdf::Voronoi</a>&lt; T &gt;::m_nodeList</td>
         </tr>
       </table>
   </td>
@@ -545,6 +641,32 @@ template&lt;typename T&gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00049">49</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
+
+</div>
+</div>
+<a id="a1d6483a84379634a2f1d878ec9d496f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d6483a84379634a2f1d878ec9d496f2">&#9670;&nbsp;</a></span>m_seeds</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt;&amp; <a class="el" href="classogdf_1_1_voronoi.html">ogdf::Voronoi</a>&lt; T &gt;::m_seeds</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_voronoi_8h_source.html#l00052">52</a> of file <a class="el" href="_voronoi_8h_source.html">Voronoi.h</a>.</p>
 
 </div>
 </div>

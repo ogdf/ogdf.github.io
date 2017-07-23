@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::ClusterGraph Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -243,10 +241,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6c554dd138c5582d5eee9b2e3ceec1c3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a6c554dd138c5582d5eee9b2e3ceec1c3">reInit</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:a6c554dd138c5582d5eee9b2e3ceec1c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear cluster info structure, reinitializes with underlying graph <code>G</code>.  <a href="#a6c554dd138c5582d5eee9b2e3ceec1c3">More...</a><br /></td></tr>
 <tr class="separator:a6c554dd138c5582d5eee9b2e3ceec1c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8168eba5e1c01b77b3ce5032ba435ff6"><td class="memTemplParams" colspan="2">template&lt;class NODELIST &gt; </td></tr>
-<tr class="memitem:a8168eba5e1c01b77b3ce5032ba435ff6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a8168eba5e1c01b77b3ce5032ba435ff6">collaps</a> (NODELIST &amp;nodes, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
-<tr class="memdesc:a8168eba5e1c01b77b3ce5032ba435ff6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapses all nodes in the list <code>nodes</code> to the first node; multi-edges are removed.  <a href="#a8168eba5e1c01b77b3ce5032ba435ff6">More...</a><br /></td></tr>
-<tr class="separator:a8168eba5e1c01b77b3ce5032ba435ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac21de4cbafc8f67cba6fac9f0e28576"><td class="memTemplParams" colspan="2">template&lt;class NODELIST &gt; </td></tr>
+<tr class="memitem:aac21de4cbafc8f67cba6fac9f0e28576"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#aac21de4cbafc8f67cba6fac9f0e28576">collapse</a> (NODELIST &amp;nodes, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
+<tr class="memdesc:aac21de4cbafc8f67cba6fac9f0e28576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapses all nodes in the list <code>nodes</code> to the first node; multi-edges are removed.  <a href="#aac21de4cbafc8f67cba6fac9f0e28576">More...</a><br /></td></tr>
+<tr class="separator:aac21de4cbafc8f67cba6fac9f0e28576"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Cluster tree queries</div></td></tr>
 <tr class="memitem:a1893b380681324e89bfa6ab04870e9b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a1893b380681324e89bfa6ab04870e9b2">setUpdateDepth</a> (bool b) const</td></tr>
 <tr class="memdesc:a1893b380681324e89bfa6ab04870e9b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Turns automatic update of node depth values on or off.  <a href="#a1893b380681324e89bfa6ab04870e9b2">More...</a><br /></td></tr>
@@ -304,9 +302,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd0c9780b5ed7f29f866665fb9e88392"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#acd0c9780b5ed7f29f866665fb9e88392">representsCombEmbedding</a> () const</td></tr>
 <tr class="memdesc:acd0c9780b5ed7f29f866665fb9e88392"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the combinatorial cluster planar embedding.  <a href="#acd0c9780b5ed7f29f866665fb9e88392">More...</a><br /></td></tr>
 <tr class="separator:acd0c9780b5ed7f29f866665fb9e88392"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a906b50beab10f1a911e55f3e6e33340e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a906b50beab10f1a911e55f3e6e33340e">consistencyCheck</a> () const</td></tr>
-<tr class="memdesc:a906b50beab10f1a911e55f3e6e33340e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks the consistency of the data structure.  <a href="#a906b50beab10f1a911e55f3e6e33340e">More...</a><br /></td></tr>
-<tr class="separator:a906b50beab10f1a911e55f3e6e33340e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Registering arrays and observers</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>These methods are used by <a class="el" href="classogdf_1_1_cluster_array.html" title="Dynamic arrays indexed with clusters. ">ClusterArray</a> or <a class="el" href="classogdf_1_1_cluster_graph_observer.html" title="Abstract base class for cluster graph observers. ">ClusterGraphObserver</a>.</p>
 <p>There should be no need to use them directly in user code. </p>
@@ -438,6 +433,9 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:afce97c7ef3fc40538bfcbcbb3eb1ce5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5d5da35f2c25efea6cf796dd73078ee"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#af5d5da35f2c25efea6cf796dd73078ee">clearClusterTree</a> (<a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> c, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;attached)</td></tr>
 <tr class="separator:af5d5da35f2c25efea6cf796dd73078ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab26a2fb762c64ff02f934b6f1648328"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#aab26a2fb762c64ff02f934b6f1648328">constructClusterTree</a> (const <a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_cluster_array.html">ClusterArray</a>&lt; <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> &gt; &amp;originalClusterTable, std::function&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>)&gt; nodeMap=[](<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) { return v;})</td></tr>
+<tr class="memdesc:aab26a2fb762c64ff02f934b6f1648328"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a cluster tree.  <a href="#aab26a2fb762c64ff02f934b6f1648328">More...</a><br /></td></tr>
+<tr class="separator:aab26a2fb762c64ff02f934b6f1648328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a78701495a508475e100b4941b744c6e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a78701495a508475e100b4941b744c6e0">deepCopy</a> (const <a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:a78701495a508475e100b4941b744c6e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a deep copy on <code>C</code>, <code>C's</code> underlying graph is copied into <code>G</code>.  <a href="#a78701495a508475e100b4941b744c6e0">More...</a><br /></td></tr>
 <tr class="separator:a78701495a508475e100b4941b744c6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -464,6 +462,9 @@ Private Member Functions</h2></td></tr>
 <tr class="separator:a80237f0684078d00450970cf30bf72d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17e8682811df0a0ff0a7fe41239cc52d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a17e8682811df0a0ff0a7fe41239cc52d">postOrder</a> (<a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> c, <a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt; <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> &gt; &amp;S) const</td></tr>
 <tr class="separator:a17e8682811df0a0ff0a7fe41239cc52d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18809552956ee39dd6d15a2918b086be"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a18809552956ee39dd6d15a2918b086be">recurseClearClusterTreeOnChildren</a> (<a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> c, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;attached)</td></tr>
+<tr class="memdesc:a18809552956ee39dd6d15a2918b086be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears children of a cluster, used by recursive <a class="el" href="classogdf_1_1_cluster_graph.html#ad022e01240c9983e91e10c67b9402eac" title="Removes all clusters from the cluster subtree rooted at cluster C except for cluster C itself...">clearClusterTree</a>.  <a href="#a18809552956ee39dd6d15a2918b086be">More...</a><br /></td></tr>
+<tr class="separator:a18809552956ee39dd6d15a2918b086be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7015ccff4fb74219afefec994a77403e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a7015ccff4fb74219afefec994a77403e">reinitArrays</a> ()</td></tr>
 <tr class="separator:a7015ccff4fb74219afefec994a77403e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9046897ca9b15d85d6700813e975824f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a9046897ca9b15d85d6700813e975824f">reinitGraph</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
@@ -1040,7 +1041,7 @@ template&lt;class CLUSTERLIST &gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_graph_observer.html#ac1a3589a6431eed3a635a28d9a831a54">ogdf::GraphObserver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00801">801</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00798">798</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1133,8 +1134,8 @@ template&lt;class CLUSTERLIST &gt; </div>
 
 </div>
 </div>
-<a id="a8168eba5e1c01b77b3ce5032ba435ff6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8168eba5e1c01b77b3ce5032ba435ff6">&#9670;&nbsp;</a></span>collaps()</h2>
+<a id="aac21de4cbafc8f67cba6fac9f0e28576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac21de4cbafc8f67cba6fac9f0e28576">&#9670;&nbsp;</a></span>collapse()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1145,7 +1146,7 @@ template&lt;class NODELIST &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::ClusterGraph::collaps </td>
+          <td class="memname">void ogdf::ClusterGraph::collapse </td>
           <td>(</td>
           <td class="paramtype">NODELIST &amp;&#160;</td>
           <td class="paramname"><em>nodes</em>, </td>
@@ -1403,27 +1404,6 @@ template&lt;class NODELIST &gt; </div>
 
 </div>
 </div>
-<a id="a906b50beab10f1a911e55f3e6e33340e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a906b50beab10f1a911e55f3e6e33340e">&#9670;&nbsp;</a></span>consistencyCheck()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool ogdf::ClusterGraph::consistencyCheck </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Checks the consistency of the data structure. </p>
-<dl class="section remark"><dt>Remarks</dt><dd>This method is meant for debugging purposes only.</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>true if everything is ok, false if the data structure is inconsistent. </dd></dl>
-
-</div>
-</div>
 <a id="a93d81d9f661276e2f7638501026ea543"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a93d81d9f661276e2f7638501026ea543">&#9670;&nbsp;</a></span>constGraph()</h2>
 
@@ -1449,7 +1429,57 @@ template&lt;class NODELIST &gt; </div>
 
 <p>Returns a reference to the underlying graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00736">736</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00733">733</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+
+</div>
+</div>
+<a id="aab26a2fb762c64ff02f934b6f1648328"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab26a2fb762c64ff02f934b6f1648328">&#9670;&nbsp;</a></span>constructClusterTree()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::ClusterGraph::constructClusterTree </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;&#160;</td>
+          <td class="paramname"><em>C</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_cluster_array.html">ClusterArray</a>&lt; <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>originalClusterTable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::function&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>)&gt;&#160;</td>
+          <td class="paramname"><em>nodeMap</em> = <code>[](<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;v)&#160;{&#160;return&#160;v;}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a cluster tree. </p>
 
 </div>
 </div>
@@ -1863,7 +1893,7 @@ template&lt;class NODELIST &gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_graph_observer.html#a53ff76a54c135b05877ba8c9b754b799">ogdf::GraphObserver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00795">795</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00792">792</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -1895,7 +1925,7 @@ template&lt;class NODELIST &gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_graph_observer.html#a13b7f0af0701e5483c9fc8b5b8295e26">ogdf::GraphObserver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00792">792</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00789">789</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -2028,7 +2058,7 @@ template&lt;typename T &gt; </div>
 
 <p>Fills <code>emptyCluster</code> with empty, non-root clusters from <code>clusterList</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00812">812</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00809">809</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -2437,7 +2467,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_graph_observer.html#a75e0b609cc199d017ef43916c37ba461">ogdf::GraphObserver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00787">787</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00784">784</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -2525,7 +2555,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Conversion to const <a class="el" href="classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). ">Graph</a> reference (to underlying graph). </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00733">733</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00730">730</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -2690,6 +2720,46 @@ template&lt;class LISTITERATOR &gt; </div>
 
 </div>
 </div>
+<a id="a18809552956ee39dd6d15a2918b086be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18809552956ee39dd6d15a2918b086be">&#9670;&nbsp;</a></span>recurseClearClusterTreeOnChildren()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::ClusterGraph::recurseClearClusterTreeOnChildren </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a>&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>attached</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Clears children of a cluster, used by recursive <a class="el" href="classogdf_1_1_cluster_graph.html#ad022e01240c9983e91e10c67b9402eac" title="Removes all clusters from the cluster subtree rooted at cluster C except for cluster C itself...">clearClusterTree</a>. </p>
+
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00822">822</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+
+</div>
+</div>
 <a id="ad76e19f6fa1c65eca5f11406cb87abc7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad76e19f6fa1c65eca5f11406cb87abc7">&#9670;&nbsp;</a></span>registerArray()</h2>
 
@@ -2787,7 +2857,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_graph_observer.html#a6c74030ab34e797a5cbb92e493fc2353">ogdf::GraphObserver</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00798">798</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00795">795</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -2870,7 +2940,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Remove the assignment entries for nodes. Checks if node <code>v</code> is currently not assigned. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00832">832</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00844">844</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -3254,7 +3324,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Status of cluster depth information. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00750">750</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00747">747</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -3304,7 +3374,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Used to save last search run number for commoncluster. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00745">745</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00742">742</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -3330,7 +3400,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Used to save last search run number for commoncluster. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00744">744</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00741">741</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -3539,7 +3609,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Depth of clusters is always updated if set to true. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00749">749</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00746">746</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -3565,7 +3635,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Used to save last search run number for commoncluster. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00746">746</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00743">743</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>
@@ -3591,7 +3661,7 @@ template&lt;class LISTITERATOR &gt; </div>
 
 <p>Used to save last search run number for commoncluster. </p>
 
-<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00747">747</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_cluster_graph_8h_source.html#l00744">744</a> of file <a class="el" href="_cluster_graph_8h_source.html">ClusterGraph.h</a>.</p>
 
 </div>
 </div>

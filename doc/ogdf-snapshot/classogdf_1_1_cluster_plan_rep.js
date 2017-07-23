@@ -23,7 +23,7 @@ var classogdf_1_1_cluster_plan_rep =
     [ "split", "classogdf_1_1_cluster_plan_rep.html#afe02b8a66fa5da489448623182247c4d", null ],
     [ "writeGML", "classogdf_1_1_cluster_plan_rep.html#a59828f70d53a9b608f0aab34145bad51", null ],
     [ "writeGML", "classogdf_1_1_cluster_plan_rep.html#a9eef99eb8e831a1987107151c02403c4", null ],
-    [ "writeGML", "classogdf_1_1_cluster_plan_rep.html#a04eb53bf620783740588afe9b4cbbc8e", null ],
+    [ "writeGML", "classogdf_1_1_cluster_plan_rep.html#a4442f7bedf615702671b83c76032b8d6", null ],
     [ "m_clusterOfIndex", "classogdf_1_1_cluster_plan_rep.html#a60840f0e0a7b68eb10fd11e1b9dd0c3e", null ],
     [ "m_edgeClusterID", "classogdf_1_1_cluster_plan_rep.html#a09909f31a3ea0cd82be06f4484aac9de", null ],
     [ "m_nodeClusterID", "classogdf_1_1_cluster_plan_rep.html#a6face1e7c027a9e05ab019b5efb7db76", null ],

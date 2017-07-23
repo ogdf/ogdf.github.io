@@ -3,7 +3,6 @@ var searchData=
   ['if_5fthen_5felse_5ffunctor',['if_then_else_functor',['../structogdf_1_1fast__multipole__embedder_1_1if__then__else__functor.html',1,'ogdf::fast_multipole_embedder']]],
   ['incnodeinserter',['IncNodeInserter',['../classogdf_1_1_inc_node_inserter.html',1,'ogdf']]],
   ['independentsetmerger',['IndependentSetMerger',['../classogdf_1_1_independent_set_merger.html',1,'ogdf']]],
-  ['indexcomparer',['IndexComparer',['../classogdf_1_1_index_comparer.html',1,'ogdf']]],
   ['indinfo',['IndInfo',['../classogdf_1_1booth__lueker_1_1_ind_info.html',1,'ogdf::booth_lueker']]],
   ['infeascon',['InfeasCon',['../classabacus_1_1_infeas_con.html',1,'abacus']]],
   ['infotype',['InfoType',['../structogdf_1_1_minimum_edge_distances_1_1_info_type.html',1,'ogdf::MinimumEdgeDistances']]],
@@ -16,8 +15,6 @@ var searchData=
   ['intoption',['IntOption',['../class_minisat_1_1_internal_1_1_int_option.html',1,'Minisat::Internal']]],
   ['intrange',['IntRange',['../struct_minisat_1_1_internal_1_1_int_range.html',1,'Minisat::Internal']]],
   ['iopoints',['IOPoints',['../classogdf_1_1_i_o_points.html',1,'ogdf']]],
-  ['ipoint',['IPoint',['../classogdf_1_1_i_point.html',1,'ogdf']]],
-  ['ipolyline',['IPolyline',['../classogdf_1_1_i_polyline.html',1,'ogdf']]],
   ['is_5ffence_5fcondition_5ffunctor',['is_fence_condition_functor',['../structogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_1_1is__fence__condition__functor.html',1,'ogdf::fast_multipole_embedder::LinearQuadtree']]],
   ['is_5fleaf_5fcondition_5ffunctor',['is_leaf_condition_functor',['../structogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_1_1is__leaf__condition__functor.html',1,'ogdf::fast_multipole_embedder::LinearQuadtree']]],
   ['iwspd',['IWSPD',['../classogdf_1_1energybased_1_1dtree_1_1_i_w_s_p_d.html',1,'ogdf::energybased::dtree']]]

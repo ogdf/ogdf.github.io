@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: abacus::AbacusGlobal Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -146,7 +144,7 @@ $(document).ready(function(){initNavTree('classabacus_1_1_abacus_global.html',''
 <area shape="rect" id="node2" href="classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,78,149,105"/>
 <area shape="rect" id="node4" href="classogdf_1_1cluster__planarity_1_1_c_p___master_base.html" title="ogdf::cluster_planarity\l::CP_MasterBase" alt="" coords="579,5,730,47"/>
 <area shape="rect" id="node6" href="classogdf_1_1cluster__planarity_1_1_max_c_planar_master.html" title="ogdf::cluster_planarity\l::MaxCPlanarMaster" alt="" coords="579,71,730,112"/>
-<area shape="rect" id="node7" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html" title="Master problem of Steiner tree branch&amp;cut algorithm. " alt="" coords="559,136,751,177"/>
+<area shape="rect" id="node7" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html" title="Master problem of Steiner tree branch&amp;cut algorithm " alt="" coords="559,136,751,177"/>
 <area shape="rect" id="node5" href="classogdf_1_1cluster__planarity_1_1_c_planarity_master.html" title="ogdf::cluster_planarity\l::CPlanarityMaster" alt="" coords="799,5,949,47"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
@@ -284,9 +282,9 @@ Private Attributes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a9d537d1da7398a19feb225feed7b31ba"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_abacus_global.html#a9d537d1da7398a19feb225feed7b31ba">operator&lt;&lt;</a> (ostream &amp;out, const <a class="el" href="classabacus_1_1_abacus_global.html">AbacusGlobal</a> &amp;rhs)</td></tr>
-<tr class="memdesc:a9d537d1da7398a19feb225feed7b31ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">The output operator writes some of the data members to an ouput stream <em>out</em>.  <a href="#a9d537d1da7398a19feb225feed7b31ba">More...</a><br /></td></tr>
-<tr class="separator:a9d537d1da7398a19feb225feed7b31ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e53ea2815fa84e1c595ae6c349a253"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classabacus_1_1_abacus_global.html#af3e53ea2815fa84e1c595ae6c349a253">operator&lt;&lt;</a> (std::ostream &amp;out, const <a class="el" href="classabacus_1_1_abacus_global.html">AbacusGlobal</a> &amp;rhs)</td></tr>
+<tr class="memdesc:af3e53ea2815fa84e1c595ae6c349a253"><td class="mdescLeft">&#160;</td><td class="mdescRight">The output operator writes some of the data members to an ouput stream <em>out</em>.  <a href="#af3e53ea2815fa84e1c595ae6c349a253">More...</a><br /></td></tr>
+<tr class="separator:af3e53ea2815fa84e1c595ae6c349a253"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -353,7 +351,7 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The constructor. </p>
-<p>Initializes our filtered output and error stream with the standard output stream <em>cout</em> and the standard error stream <em>cerr</em>.</p>
+<p>Initializes our filtered output and error stream with the standard output stream <em>std::cout</em> and the standard error stream <em>std::cerr</em>.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">eps</td><td>The zero-tolerance used within all member functions of objects which have a pointer to this global object (default value 1.0e-4). </td></tr>
@@ -1746,8 +1744,8 @@ Additional Inherited Members</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a9d537d1da7398a19feb225feed7b31ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d537d1da7398a19feb225feed7b31ba">&#9670;&nbsp;</a></span>operator<<</h2>
+<a id="af3e53ea2815fa84e1c595ae6c349a253"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e53ea2815fa84e1c595ae6c349a253">&#9670;&nbsp;</a></span>operator<<</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1756,9 +1754,9 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ostream&amp; operator&lt;&lt; </td>
+          <td class="memname">std::ostream&amp; operator&lt;&lt; </td>
           <td>(</td>
-          <td class="paramtype">ostream &amp;&#160;</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
           <td class="paramname"><em>out</em>, </td>
         </tr>
         <tr>

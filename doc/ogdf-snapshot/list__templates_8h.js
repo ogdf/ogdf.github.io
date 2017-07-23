@@ -6,5 +6,7 @@ var list__templates_8h =
     [ "chooseIteratorFrom", "list__templates_8h.html#a9840b3263bda98cfa1bb2a1fe4aac047", null ],
     [ "chooseIteratorFrom", "list__templates_8h.html#a2b9b0a3f2639f8247e3ca7324e3b6e47", null ],
     [ "quicksortTemplate", "list__templates_8h.html#acfaaa224a44655459119a9954440aed7", null ],
-    [ "quicksortTemplate", "list__templates_8h.html#a9a69de56b00253dba2d777b91e9f318e", null ]
+    [ "quicksortTemplate", "list__templates_8h.html#a9a69de56b00253dba2d777b91e9f318e", null ],
+    [ "safeForEach", "list__templates_8h.html#a6a00ddb26fbc3524ee18c3eb9e9f9325", null ],
+    [ "safeTestForEach", "list__templates_8h.html#a1d45fcf9b5cc455f4e232418f7c501d3", null ]
 ];

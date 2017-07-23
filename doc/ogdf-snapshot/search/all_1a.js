@@ -7,8 +7,8 @@ var searchData=
   ['zeroplacer_2eh',['ZeroPlacer.h',['../_zero_placer_8h.html',1,'']]],
   ['zerothreadarray',['ZeroThreadArray',['../namespaceogdf_1_1fast__multipole__embedder.html#a66423a603c9204d4922a8c63197fbaafa10c69da05ff4c27b1d29821b15680605',1,'ogdf::fast_multipole_embedder']]],
   ['zlabel',['zLabel',['../classogdf_1_1_graph_attributes.html#ab02785bffe569a2d9c214ba9e19ab3a3',1,'ogdf::GraphAttributes::zLabel(node v) const'],['../classogdf_1_1_graph_attributes.html#a2f69707d3fc0223204d6c159e9d3aac7',1,'ogdf::GraphAttributes::zLabel(node v)']]],
-  ['zpath',['zPath',['../structogdf_1_1_w_info.html#ad20df05a4d6757d43d69ba4912952de5',1,'ogdf::WInfo']]],
-  ['zpaths',['zPaths',['../classogdf_1_1_kuratowski_structure.html#a2df7a56c74715fd1acfb3ee0f3d822c6',1,'ogdf::KuratowskiStructure']]],
+  ['zpath',['zPath',['../structogdf_1_1_w_info.html#a84b5afe4802b4f7d34b69459fef3d3fc',1,'ogdf::WInfo']]],
+  ['zpaths',['zPaths',['../classogdf_1_1_kuratowski_structure.html#a1fc86dde640946a97496eef3b7ce79a6',1,'ogdf::KuratowskiStructure']]],
   ['zval',['zVal',['../classabacus_1_1_lp_solution.html#a5fd7c0e206d95caebe471c522abba698',1,'abacus::LpSolution::zVal()'],['../classabacus_1_1_lp_solution.html#a2d2b7c197aeb7739d7bc4445e0cc7532',1,'abacus::LpSolution::zVal() const']]],
   ['zval_5f',['zVal_',['../classabacus_1_1_lp_solution.html#a0ee89fd62723925989fd907161b93a66',1,'abacus::LpSolution']]]
 ];

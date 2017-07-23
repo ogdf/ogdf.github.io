@@ -5,9 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>ogdf: ogdf::NodeSet Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
+<title>ogdf: ogdf::NodeSet&lt; SupportFastSizeQuery &gt; Class Template Reference</title>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -121,11 +119,12 @@ $(document).ready(function(){initNavTree('classogdf_1_1_node_set.html','');});
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1_node_set-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ogdf::NodeSet Class Reference<div class="ingroups"><a class="el" href="group__graphs.html">Graphs and Embeddings</a> &raquo; <a class="el" href="group__graph-containers.html">Containers Associated with Graphs</a></div></div>  </div>
+<div class="title">ogdf::NodeSet&lt; SupportFastSizeQuery &gt; Class Template Reference<div class="ingroups"><a class="el" href="group__graphs.html">Graphs and Embeddings</a> &raquo; <a class="el" href="group__graph-containers.html">Containers Associated with Graphs</a></div></div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -134,70 +133,104 @@ $(document).ready(function(){initNavTree('classogdf_1_1_node_set.html','');});
 
 <p><code>#include &lt;<a class="el" href="_node_set_8h_source.html">ogdf/basic/NodeSet.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a7f4c5f23f64836ee88797938744afc14"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a7f4c5f23f64836ee88797938744afc14">ListType</a> = typename std::conditional&lt; SupportFastSizeQuery, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;, <a class="el" href="classogdf_1_1_list_pure.html">ListPure</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;::type</td></tr>
+<tr class="separator:a7f4c5f23f64836ee88797938744afc14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4ce2d82fbfe791ac68e428e97e58ea9a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a4ce2d82fbfe791ac68e428e97e58ea9a">NodeSet</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
-<tr class="memdesc:a4ce2d82fbfe791ac68e428e97e58ea9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty node set associated with graph <code>G</code>.  <a href="#a4ce2d82fbfe791ac68e428e97e58ea9a">More...</a><br /></td></tr>
-<tr class="separator:a4ce2d82fbfe791ac68e428e97e58ea9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fbbf940ed7355ef15dd8005138e8a83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a3fbbf940ed7355ef15dd8005138e8a83">NodeSet</a> (const <a class="el" href="classogdf_1_1_node_set.html">NodeSet</a> &amp;V)</td></tr>
-<tr class="memdesc:a3fbbf940ed7355ef15dd8005138e8a83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a3fbbf940ed7355ef15dd8005138e8a83">More...</a><br /></td></tr>
-<tr class="separator:a3fbbf940ed7355ef15dd8005138e8a83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a925b042efb42e5be75b51aec769c5ce5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a925b042efb42e5be75b51aec769c5ce5">~NodeSet</a> ()</td></tr>
-<tr class="separator:a925b042efb42e5be75b51aec769c5ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20b1db1066ea7cabc7855acc2472d422"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a20b1db1066ea7cabc7855acc2472d422">clear</a> ()</td></tr>
-<tr class="memdesc:a20b1db1066ea7cabc7855acc2472d422"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all nodes from <em>S</em>.  <a href="#a20b1db1066ea7cabc7855acc2472d422">More...</a><br /></td></tr>
-<tr class="separator:a20b1db1066ea7cabc7855acc2472d422"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f223f76fed59da0b688086e5ff5ebd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a9f223f76fed59da0b688086e5ff5ebd7">insert</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v)</td></tr>
-<tr class="memdesc:a9f223f76fed59da0b688086e5ff5ebd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts node <code>v</code> into <em>S</em>.  <a href="#a9f223f76fed59da0b688086e5ff5ebd7">More...</a><br /></td></tr>
-<tr class="separator:a9f223f76fed59da0b688086e5ff5ebd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35c6994d392c7ff0a79c732b25c2da9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a35c6994d392c7ff0a79c732b25c2da9d">isMember</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
-<tr class="memdesc:a35c6994d392c7ff0a79c732b25c2da9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if node <code>v</code> is contained in <em>S</em>, false otherwise.  <a href="#a35c6994d392c7ff0a79c732b25c2da9d">More...</a><br /></td></tr>
-<tr class="separator:a35c6994d392c7ff0a79c732b25c2da9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a122f03b09ccfaa3f7c5761be79cd9bbb"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a122f03b09ccfaa3f7c5761be79cd9bbb">nodes</a> () const</td></tr>
-<tr class="memdesc:a122f03b09ccfaa3f7c5761be79cd9bbb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the list of nodes contained in <em>S</em>.  <a href="#a122f03b09ccfaa3f7c5761be79cd9bbb">More...</a><br /></td></tr>
-<tr class="separator:a122f03b09ccfaa3f7c5761be79cd9bbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03992a17f035ae4a44353bda83dc4395"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_set.html">NodeSet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a03992a17f035ae4a44353bda83dc4395">operator=</a> (const <a class="el" href="classogdf_1_1_node_set.html">NodeSet</a> &amp;V)</td></tr>
-<tr class="memdesc:a03992a17f035ae4a44353bda83dc4395"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#a03992a17f035ae4a44353bda83dc4395">More...</a><br /></td></tr>
-<tr class="separator:a03992a17f035ae4a44353bda83dc4395"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7d82e1dcfa2446132ee458c2c9b044e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#ae7d82e1dcfa2446132ee458c2c9b044e">remove</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v)</td></tr>
-<tr class="memdesc:ae7d82e1dcfa2446132ee458c2c9b044e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes node <code>v</code> from <em>S</em>.  <a href="#ae7d82e1dcfa2446132ee458c2c9b044e">More...</a><br /></td></tr>
-<tr class="separator:ae7d82e1dcfa2446132ee458c2c9b044e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0b5a9b2c23f0fa78b65a17222eed8c9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#af0b5a9b2c23f0fa78b65a17222eed8c9">size</a> () const</td></tr>
-<tr class="memdesc:af0b5a9b2c23f0fa78b65a17222eed8c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of <em>S</em>.  <a href="#af0b5a9b2c23f0fa78b65a17222eed8c9">More...</a><br /></td></tr>
-<tr class="separator:af0b5a9b2c23f0fa78b65a17222eed8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76c79b1be8fe4aa9942e636beaf56c8a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a76c79b1be8fe4aa9942e636beaf56c8a">NodeSet</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
+<tr class="memdesc:a76c79b1be8fe4aa9942e636beaf56c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty node set associated with graph <code>G</code>.  <a href="#a76c79b1be8fe4aa9942e636beaf56c8a">More...</a><br /></td></tr>
+<tr class="separator:a76c79b1be8fe4aa9942e636beaf56c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc88270fc203cf78cae404db4d772b3"><td class="memTemplParams" colspan="2">template&lt;bool OtherSupportsFastSizeQuery&gt; </td></tr>
+<tr class="memitem:afdc88270fc203cf78cae404db4d772b3"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#afdc88270fc203cf78cae404db4d772b3">NodeSet</a> (const <a class="el" href="classogdf_1_1_node_set.html">NodeSet</a>&lt; OtherSupportsFastSizeQuery &gt; &amp;other)</td></tr>
+<tr class="memdesc:afdc88270fc203cf78cae404db4d772b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#afdc88270fc203cf78cae404db4d772b3">More...</a><br /></td></tr>
+<tr class="separator:afdc88270fc203cf78cae404db4d772b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae936d5647b366dc29366dac4f4eb0b18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#ae936d5647b366dc29366dac4f4eb0b18">clear</a> ()</td></tr>
+<tr class="memdesc:ae936d5647b366dc29366dac4f4eb0b18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all nodes from this set.  <a href="#ae936d5647b366dc29366dac4f4eb0b18">More...</a><br /></td></tr>
+<tr class="separator:ae936d5647b366dc29366dac4f4eb0b18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ccf2aa36b3ce6f72edbce5eca5b8ca3"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a5ccf2aa36b3ce6f72edbce5eca5b8ca3">graphOf</a> () const</td></tr>
+<tr class="memdesc:a5ccf2aa36b3ce6f72edbce5eca5b8ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the associated graph.  <a href="#a5ccf2aa36b3ce6f72edbce5eca5b8ca3">More...</a><br /></td></tr>
+<tr class="separator:a5ccf2aa36b3ce6f72edbce5eca5b8ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3f0f230920b7500546469f9f39311f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#aff3f0f230920b7500546469f9f39311f">insert</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v)</td></tr>
+<tr class="memdesc:aff3f0f230920b7500546469f9f39311f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts node <code>v</code> into this set.  <a href="#aff3f0f230920b7500546469f9f39311f">More...</a><br /></td></tr>
+<tr class="separator:aff3f0f230920b7500546469f9f39311f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b9c60cc3d6f3e88d2e776db6ba9f44b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a9b9c60cc3d6f3e88d2e776db6ba9f44b">isMember</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
+<tr class="memdesc:a9b9c60cc3d6f3e88d2e776db6ba9f44b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns <code>true</code> iff node <code>v</code> is contained in this set.  <a href="#a9b9c60cc3d6f3e88d2e776db6ba9f44b">More...</a><br /></td></tr>
+<tr class="separator:a9b9c60cc3d6f3e88d2e776db6ba9f44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2aebcb2d3ff3630563371916ee72159"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_node_set.html#a7f4c5f23f64836ee88797938744afc14">ListType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#aa2aebcb2d3ff3630563371916ee72159">nodes</a> () const</td></tr>
+<tr class="memdesc:aa2aebcb2d3ff3630563371916ee72159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the list of nodes contained in this set.  <a href="#aa2aebcb2d3ff3630563371916ee72159">More...</a><br /></td></tr>
+<tr class="separator:aa2aebcb2d3ff3630563371916ee72159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4c4e4abe434ce61775af4c2b44ee50d"><td class="memTemplParams" colspan="2">template&lt;bool OtherSupportsFastSizeQuery&gt; </td></tr>
+<tr class="memitem:ac4c4e4abe434ce61775af4c2b44ee50d"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_set.html">NodeSet</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#ac4c4e4abe434ce61775af4c2b44ee50d">operator=</a> (const <a class="el" href="classogdf_1_1_node_set.html">NodeSet</a>&lt; OtherSupportsFastSizeQuery &gt; &amp;other)</td></tr>
+<tr class="memdesc:ac4c4e4abe434ce61775af4c2b44ee50d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#ac4c4e4abe434ce61775af4c2b44ee50d">More...</a><br /></td></tr>
+<tr class="separator:ac4c4e4abe434ce61775af4c2b44ee50d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38cc1fba534cccfa6ea8cf3d5527b7f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a38cc1fba534cccfa6ea8cf3d5527b7f2">remove</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v)</td></tr>
+<tr class="memdesc:a38cc1fba534cccfa6ea8cf3d5527b7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes node <code>v</code> from this set.  <a href="#a38cc1fba534cccfa6ea8cf3d5527b7f2">More...</a><br /></td></tr>
+<tr class="separator:a38cc1fba534cccfa6ea8cf3d5527b7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6103ccce305e1160777f78036e81f47"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#aa6103ccce305e1160777f78036e81f47">size</a> () const</td></tr>
+<tr class="memdesc:aa6103ccce305e1160777f78036e81f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of nodes in this set.  <a href="#aa6103ccce305e1160777f78036e81f47">More...</a><br /></td></tr>
+<tr class="separator:aa6103ccce305e1160777f78036e81f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a5ef91b6c97bddb2a31b6f635293a0b6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a5ef91b6c97bddb2a31b6f635293a0b6b">m_it</a></td></tr>
-<tr class="memdesc:a5ef91b6c97bddb2a31b6f635293a0b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">m_it[v] contains the list iterator pointing to <em>v</em> if <em>v</em> is contained in <em>S</em>, an invalid list iterator otherwise.  <a href="#a5ef91b6c97bddb2a31b6f635293a0b6b">More...</a><br /></td></tr>
-<tr class="separator:a5ef91b6c97bddb2a31b6f635293a0b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f3bf0d7e7eabe1d16e5c476a9d6eee6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a6f3bf0d7e7eabe1d16e5c476a9d6eee6">m_nodes</a></td></tr>
-<tr class="memdesc:a6f3bf0d7e7eabe1d16e5c476a9d6eee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of nodes contained in <em>S</em>.  <a href="#a6f3bf0d7e7eabe1d16e5c476a9d6eee6">More...</a><br /></td></tr>
-<tr class="separator:a6f3bf0d7e7eabe1d16e5c476a9d6eee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaea1c90644491f149131cf43721f68b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#aaea1c90644491f149131cf43721f68b7">m_it</a></td></tr>
+<tr class="memdesc:aaea1c90644491f149131cf43721f68b7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classogdf_1_1_node_set.html#aaea1c90644491f149131cf43721f68b7" title="m_it[v] contains the list iterator pointing to v if v is contained in this set, or an invalid list it...">m_it</a>[<em>v</em>] contains the list iterator pointing to <em>v</em> if <em>v</em> is contained in this set, or an invalid list iterator otherwise.  <a href="#aaea1c90644491f149131cf43721f68b7">More...</a><br /></td></tr>
+<tr class="separator:aaea1c90644491f149131cf43721f68b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa02a22706275e19fb07f2e3d6e4714"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_set.html#a7f4c5f23f64836ee88797938744afc14">ListType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html#a6fa02a22706275e19fb07f2e3d6e4714">m_nodes</a></td></tr>
+<tr class="memdesc:a6fa02a22706275e19fb07f2e3d6e4714"><td class="mdescLeft">&#160;</td><td class="mdescRight">The list of nodes contained in this set.  <a href="#a6fa02a22706275e19fb07f2e3d6e4714">More...</a><br /></td></tr>
+<tr class="separator:a6fa02a22706275e19fb07f2e3d6e4714"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Node sets. </p>
-<p>A node set maintains a subset <em>S</em> of the nodes contained in an associated graph. This kind of node set provides efficient operations for testing membership, insertion and deletion of elements, and clearing the set.</p>
-<p>In contrast to <a class="el" href="classogdf_1_1_node_set_pure.html" title="Node sets. ">NodeSetPure</a>, a <a class="el" href="classogdf_1_1_node_set.html" title="Node sets. ">NodeSet</a> provides efficient access to the number of nodes stored in the set.</p>
-<dl class="section see"><dt>See also</dt><dd><ul>
-<li><a class="el" href="classogdf_1_1_node_set_pure.html" title="Node sets. ">NodeSetPure</a>, <a class="el" href="classogdf_1_1_node_set_simple.html" title="Simple node sets. ">NodeSetSimple</a></li>
-<li><a class="el" href="classogdf_1_1_face_set.html" title="Face sets. ">FaceSet</a>, <a class="el" href="classogdf_1_1_face_set_pure.html" title="Face sets. ">FaceSetPure</a>, <a class="el" href="classogdf_1_1_face_set_simple.html" title="Simple face sets. ">FaceSetSimple</a> </li>
-</ul>
-</dd></dl>
+<div class="textblock"><h3>template&lt;bool SupportFastSizeQuery = true&gt;<br />
+class ogdf::NodeSet&lt; SupportFastSizeQuery &gt;</h3>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00249">249</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4ce2d82fbfe791ac68e428e97e58ea9a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ce2d82fbfe791ac68e428e97e58ea9a">&#9670;&nbsp;</a></span>NodeSet() <span class="overload">[1/2]</span></h2>
+<p>Node sets. </p>
+<p>Maintains a subset of nodes contained in an associated graph.</p>
+<p>Provides efficient operations for testing membership, iteration, insertion, and deletion of elements, as well as clearing the set.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">SupportFastSizeQuery</td><td>Whether this set supports querying it's <a class="el" href="classogdf_1_1_node_set.html#aa6103ccce305e1160777f78036e81f47" title="Returns the number of nodes in this set. ">size</a> in constant instead of linear time (in the size).</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="classogdf_1_1_face_set.html" title="Face sets. ">FaceSet</a> </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00054">54</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a7f4c5f23f64836ee88797938744afc14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4c5f23f64836ee88797938744afc14">&#9670;&nbsp;</a></span>ListType</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::<a class="el" href="classogdf_1_1_node_set.html#a7f4c5f23f64836ee88797938744afc14">ListType</a> =  typename std::conditional&lt;SupportFastSizeQuery, <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt;, <a class="el" href="classogdf_1_1_list_pure.html">ListPure</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00056">56</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a76c79b1be8fe4aa9942e636beaf56c8a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76c79b1be8fe4aa9942e636beaf56c8a">&#9670;&nbsp;</a></span>NodeSet() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ogdf::NodeSet::NodeSet </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::<a class="el" href="classogdf_1_1_node_set.html">NodeSet</a> </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
           <td class="paramname"><em>G</em></td><td>)</td>
@@ -213,51 +246,28 @@ Private Attributes</h2></td></tr>
 
 <p>Creates an empty node set associated with graph <code>G</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00252">252</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00059">59</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a925b042efb42e5be75b51aec769c5ce5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a925b042efb42e5be75b51aec769c5ce5">&#9670;&nbsp;</a></span>~NodeSet()</h2>
+<a id="afdc88270fc203cf78cae404db4d772b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdc88270fc203cf78cae404db4d772b3">&#9670;&nbsp;</a></span>NodeSet() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+<div class="memtemplate">
+template&lt;bool OtherSupportsFastSizeQuery&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ogdf::NodeSet::~NodeSet </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::<a class="el" href="classogdf_1_1_node_set.html">NodeSet</a> </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00255">255</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
-
-</div>
-</div>
-<a id="a3fbbf940ed7355ef15dd8005138e8a83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fbbf940ed7355ef15dd8005138e8a83">&#9670;&nbsp;</a></span>NodeSet() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">ogdf::NodeSet::NodeSet </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_set.html">NodeSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>V</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_set.html">NodeSet</a>&lt; OtherSupportsFastSizeQuery &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -270,22 +280,24 @@ Private Attributes</h2></td></tr>
 
 <p>Copy constructor. </p>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00328">328</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00135">135</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a20b1db1066ea7cabc7855acc2472d422"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a20b1db1066ea7cabc7855acc2472d422">&#9670;&nbsp;</a></span>clear()</h2>
+<a id="ae936d5647b366dc29366dac4f4eb0b18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae936d5647b366dc29366dac4f4eb0b18">&#9670;&nbsp;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::NodeSet::clear </td>
+          <td class="memname">void <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -298,24 +310,57 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Removes all nodes from <em>S</em>. </p>
-<p>After this operation, <em>S</em> is empty and still associated with the same graph. The runtime of this operations is O(k), where k is the number of nodes in <em>S</em> before this operation. </p>
+<p>Removes all nodes from this set. </p>
+<p>After this operation, this set is empty and still associated with the same graph. The runtime of this operations is linear in the <a class="el" href="classogdf_1_1_node_set.html#aa6103ccce305e1160777f78036e81f47" title="Returns the number of nodes in this set. ">size()</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00292">292</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00099">99</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a9f223f76fed59da0b688086e5ff5ebd7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f223f76fed59da0b688086e5ff5ebd7">&#9670;&nbsp;</a></span>insert()</h2>
+<a id="a5ccf2aa36b3ce6f72edbce5eca5b8ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ccf2aa36b3ce6f72edbce5eca5b8ca3">&#9670;&nbsp;</a></span>graphOf()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::NodeSet::insert </td>
+          <td class="memname">const <a class="el" href="classogdf_1_1_graph.html">Graph</a>&amp; <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::graphOf </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the associated graph. </p>
+
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00121">121</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+
+</div>
+</div>
+<a id="aff3f0f230920b7500546469f9f39311f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3f0f230920b7500546469f9f39311f">&#9670;&nbsp;</a></span>insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::insert </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -329,25 +374,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Inserts node <code>v</code> into <em>S</em>. </p>
-<p>This operation has constant runtime.</p>
+<p>Inserts node <code>v</code> into this set. </p>
+<p>This operation has constant runtime. If the node is already contained in this set, nothing happens.</p>
 <dl class="section pre"><dt>Precondition</dt><dd><code>v</code> is a node in the associated graph. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00263">263</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00068">68</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a35c6994d392c7ff0a79c732b25c2da9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35c6994d392c7ff0a79c732b25c2da9d">&#9670;&nbsp;</a></span>isMember()</h2>
+<a id="a9b9c60cc3d6f3e88d2e776db6ba9f44b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b9c60cc3d6f3e88d2e776db6ba9f44b">&#9670;&nbsp;</a></span>isMember()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ogdf::NodeSet::isMember </td>
+          <td class="memname">bool <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::isMember </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -361,25 +408,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns true if node <code>v</code> is contained in <em>S</em>, false otherwise. </p>
+<p>Returns <code>true</code> iff node <code>v</code> is contained in this set. </p>
 <p>This operation has constant runtime.</p>
 <dl class="section pre"><dt>Precondition</dt><dd><code>v</code> is a node in the associated graph. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00306">306</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00110">110</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a122f03b09ccfaa3f7c5761be79cd9bbb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a122f03b09ccfaa3f7c5761be79cd9bbb">&#9670;&nbsp;</a></span>nodes()</h2>
+<a id="aa2aebcb2d3ff3630563371916ee72159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2aebcb2d3ff3630563371916ee72159">&#9670;&nbsp;</a></span>nodes()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt;&amp; ogdf::NodeSet::nodes </td>
+          <td class="memname">const <a class="el" href="classogdf_1_1_node_set.html#a7f4c5f23f64836ee88797938744afc14">ListType</a>&amp; <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::nodes </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -392,27 +441,30 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a reference to the list of nodes contained in <em>S</em>. </p>
-<p>This list can be used for iterating over all nodes in <em>S</em>. </p>
+<p>Returns a reference to the list of nodes contained in this set. </p>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00323">323</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00116">116</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a03992a17f035ae4a44353bda83dc4395"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03992a17f035ae4a44353bda83dc4395">&#9670;&nbsp;</a></span>operator=()</h2>
+<a id="ac4c4e4abe434ce61775af4c2b44ee50d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4c4e4abe434ce61775af4c2b44ee50d">&#9670;&nbsp;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
+<div class="memtemplate">
+template&lt;bool OtherSupportsFastSizeQuery&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_set.html">NodeSet</a>&amp; ogdf::NodeSet::operator= </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_set.html">NodeSet</a>&amp; <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_set.html">NodeSet</a> &amp;&#160;</td>
-          <td class="paramname"><em>V</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_set.html">NodeSet</a>&lt; OtherSupportsFastSizeQuery &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -425,21 +477,23 @@ Private Attributes</h2></td></tr>
 
 <p>Assignment operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00335">335</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00141">141</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
-<a id="ae7d82e1dcfa2446132ee458c2c9b044e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7d82e1dcfa2446132ee458c2c9b044e">&#9670;&nbsp;</a></span>remove()</h2>
+<a id="a38cc1fba534cccfa6ea8cf3d5527b7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38cc1fba534cccfa6ea8cf3d5527b7f2">&#9670;&nbsp;</a></span>remove()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void ogdf::NodeSet::remove </td>
+          <td class="memname">void <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::remove </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -453,25 +507,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Removes node <code>v</code> from <em>S</em>. </p>
+<p>Removes node <code>v</code> from this set. </p>
 <p>This operation has constant runtime.</p>
-<dl class="section pre"><dt>Precondition</dt><dd><code>v</code> is a node in the associated graph. </dd></dl>
+<dl class="section pre"><dt>Precondition</dt><dd><code>v</code> is a node in the associated graph. If the node is not contained in this set, nothing happens. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00276">276</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00084">84</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
-<a id="af0b5a9b2c23f0fa78b65a17222eed8c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0b5a9b2c23f0fa78b65a17222eed8c9">&#9670;&nbsp;</a></span>size()</h2>
+<a id="aa6103ccce305e1160777f78036e81f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6103ccce305e1160777f78036e81f47">&#9670;&nbsp;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int ogdf::NodeSet::size </td>
+          <td class="memname">int <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -484,25 +540,27 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the size of <em>S</em>. </p>
-<p>This operation has constant runtime. </p>
+<p>Returns the number of nodes in this set. </p>
+<p>This operation has either linear or constant runtime, depending on <em>SupportFastSizeQuery</em>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00315">315</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00129">129</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5ef91b6c97bddb2a31b6f635293a0b6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ef91b6c97bddb2a31b6f635293a0b6b">&#9670;&nbsp;</a></span>m_it</h2>
+<a id="aaea1c90644491f149131cf43721f68b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaea1c90644491f149131cf43721f68b7">&#9670;&nbsp;</a></span>m_it</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; ogdf::NodeSet::m_it</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::m_it</td>
         </tr>
       </table>
   </td>
@@ -512,23 +570,25 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>m_it[v] contains the list iterator pointing to <em>v</em> if <em>v</em> is contained in <em>S</em>, an invalid list iterator otherwise. </p>
+<p><a class="el" href="classogdf_1_1_node_set.html#aaea1c90644491f149131cf43721f68b7" title="m_it[v] contains the list iterator pointing to v if v is contained in this set, or an invalid list it...">m_it</a>[<em>v</em>] contains the list iterator pointing to <em>v</em> if <em>v</em> is contained in this set, or an invalid list iterator otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00347">347</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00152">152</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>
-<a id="a6f3bf0d7e7eabe1d16e5c476a9d6eee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f3bf0d7e7eabe1d16e5c476a9d6eee6">&#9670;&nbsp;</a></span>m_nodes</h2>
+<a id="a6fa02a22706275e19fb07f2e3d6e4714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa02a22706275e19fb07f2e3d6e4714">&#9670;&nbsp;</a></span>m_nodes</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;bool SupportFastSizeQuery = true&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list.html">List</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; ogdf::NodeSet::m_nodes</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_set.html#a7f4c5f23f64836ee88797938744afc14">ListType</a> <a class="el" href="classogdf_1_1_node_set.html">ogdf::NodeSet</a>&lt; SupportFastSizeQuery &gt;::m_nodes</td>
         </tr>
       </table>
   </td>
@@ -538,9 +598,9 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The list of nodes contained in <em>S</em>. </p>
+<p>The list of nodes contained in this set. </p>
 
-<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00350">350</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_node_set_8h_source.html#l00155">155</a> of file <a class="el" href="_node_set_8h_source.html">NodeSet.h</a>.</p>
 
 </div>
 </div>

@@ -36,7 +36,7 @@ var classogdf_1_1_ortho_rep =
     [ "prevDir", "classogdf_1_1_ortho_rep.html#a918fec617b7964b8d2608edd15bc79e4", null ],
     [ "rotate", "classogdf_1_1_ortho_rep.html#a8d0b4d16685058128cbac13c2ce225cc", null ],
     [ "undissect", "classogdf_1_1_ortho_rep.html#a2d416f1681fbd30e47bb0e84bf5b35a1", null ],
-    [ "operator<<", "classogdf_1_1_ortho_rep.html#aa5cb6d4e385a0acfb70911876cb08aa5", null ],
+    [ "operator<<", "classogdf_1_1_ortho_rep.html#a103994ae6fae4200f55ff0fbbe74cea8", null ],
     [ "m_adjAlign", "classogdf_1_1_ortho_rep.html#aff6c1891d2f1a1f7640024ead5884021", null ],
     [ "m_adjExternal", "classogdf_1_1_ortho_rep.html#a9c16090fae3f4110d6288320ba8605c1", null ],
     [ "m_alignmentEdge", "classogdf_1_1_ortho_rep.html#a57318fa1df0d7e8bbed84fb17681b771", null ],
@@ -47,6 +47,6 @@ var classogdf_1_1_ortho_rep =
     [ "m_pattern2", "classogdf_1_1_ortho_rep.html#a823c61f0abfc6afe4ccea205814274e5", null ],
     [ "m_pE", "classogdf_1_1_ortho_rep.html#ae0ab57539162b0448c5ae2e7e8896e72", null ],
     [ "m_preprocess", "classogdf_1_1_ortho_rep.html#a337bb7c7d1b1ecb4be92a7590f629766", null ],
-    [ "m_splitNodes", "classogdf_1_1_ortho_rep.html#a79e5b07df7a899ed0d1fbf77c40a6f9b", null ],
+    [ "m_splitNodes", "classogdf_1_1_ortho_rep.html#a92bcafc5ff7a9790181e911014ef0858", null ],
     [ "m_umlCageInfo", "classogdf_1_1_ortho_rep.html#ae7f19e80df8020c3a7cc0615fca7f7ef", null ]
 ];

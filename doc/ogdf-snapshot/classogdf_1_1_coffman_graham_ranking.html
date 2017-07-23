@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::CoffmanGrahamRanking Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -201,8 +199,6 @@ Private Attributes</h2></td></tr>
 <tr class="separator:aae8ab9140b4c7753b0d9dcbb20e116fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f2d193bc1bc1d6f7a7cc94c76f63bc9"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classogdf_1_1_acyclic_subgraph_module.html">AcyclicSubgraphModule</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coffman_graham_ranking.html#a9f2d193bc1bc1d6f7a7cc94c76f63bc9">m_subgraph</a></td></tr>
 <tr class="separator:a9f2d193bc1bc1d6f7a7cc94c76f63bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68c6a7d9123a0836a3d84aca94486d81"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_stack_pure.html">StackPure</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coffman_graham_ranking.html#a68c6a7d9123a0836a3d84aca94486d81">m_visited</a></td></tr>
-<tr class="separator:a68c6a7d9123a0836a3d84aca94486d81"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a191611a96b8b7d3303892d0d97a8e5d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coffman_graham_ranking.html#a191611a96b8b7d3303892d0d97a8e5d0">m_w</a></td></tr>
 <tr class="separator:a191611a96b8b7d3303892d0d97a8e5d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -210,7 +206,7 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><p>The coffman graham ranking algorithm. </p>
 <p>The class <a class="el" href="classogdf_1_1_coffman_graham_ranking.html" title="The coffman graham ranking algorithm. ">CoffmanGrahamRanking</a> implements a node ranking algorithmn based on the coffman graham scheduling algorithm, which can be used as first phase in <a class="el" href="classogdf_1_1_sugiyama_layout.html" title="Sugiyama&#39;s layout algorithm. ">SugiyamaLayout</a>. The aim of the algorithm is to ensure that the height of the ranking (the number of layers) is kept small. </p>
 
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00053">53</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00052">52</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a12f788026e183c15fa545ed5319255d2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a12f788026e183c15fa545ed5319255d2">&#9670;&nbsp;</a></span>CoffmanGrahamRanking()</h2>
@@ -428,7 +424,7 @@ Private Attributes</h2></td></tr>
 
 <p>Sets the module for the computation of the acyclic subgraph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00075">75</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00074">74</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
 
 </div>
 </div>
@@ -457,7 +453,7 @@ Private Attributes</h2></td></tr>
 
 <p>Get for the with. </p>
 
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00082">82</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00081">81</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
 
 </div>
 </div>
@@ -487,7 +483,7 @@ Private Attributes</h2></td></tr>
 
 <p>Set for the with. </p>
 
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00087">87</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00086">86</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
 
 </div>
 </div>
@@ -512,7 +508,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00136">136</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00137">137</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
 
 </div>
 </div>
@@ -536,7 +532,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00133">133</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00134">134</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
 
 </div>
 </div>
@@ -560,31 +556,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00131">131</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
-
-</div>
-</div>
-<a id="a68c6a7d9123a0836a3d84aca94486d81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68c6a7d9123a0836a3d84aca94486d81">&#9670;&nbsp;</a></span>m_visited</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_stack_pure.html">StackPure</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt;* ogdf::CoffmanGrahamRanking::m_visited</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00137">137</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00132">132</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
 
 </div>
 </div>
@@ -608,7 +580,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00132">132</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_coffman_graham_ranking_8h_source.html#l00133">133</a> of file <a class="el" href="_coffman_graham_ranking_8h_source.html">CoffmanGrahamRanking.h</a>.</p>
 
 </div>
 </div>

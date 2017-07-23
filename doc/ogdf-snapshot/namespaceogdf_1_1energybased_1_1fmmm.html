@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::energybased::fmmm Namespace Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -121,7 +119,8 @@ $(document).ready(function(){initNavTree('namespaceogdf_1_1energybased_1_1fmmm.h
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::energybased::fmmm Namespace Reference</div>  </div>
 </div><!--header-->
@@ -163,9 +162,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_particle_info.html">ParticleInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helping data structure for building up the reduced quad tree by NMM.  <a href="classogdf_1_1energybased_1_1fmmm_1_1_particle_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_particle_info_comparer.html">ParticleInfoComparer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Needed for sorting algorithms in ogdf/List and ogdf/Array.  <a href="classogdf_1_1energybased_1_1fmmm_1_1_particle_info_comparer.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html">QuadTreeNM</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helping data structure that stores the information needed to represent the modified quadtree in the New Multipole Method (NMM)  <a href="classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,15 +171,102 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html">Rectangle</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helping data structure for packing rectangles; The width, height and the position of the down left corner of the tight surroundig rectangle is represented for each connected component of the graph.  <a href="classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_rectangle_comparer_height.html">RectangleComparerHeight</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Needed for sorting algorithms in ogdf/List and ogdf/Array.  <a href="classogdf_1_1energybased_1_1fmmm_1_1_rectangle_comparer_height.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_rectangle_comparer_width.html">RectangleComparerWidth</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_set.html">Set</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helping data structure that holds set S_node of nodes in the range [0, G.number_of_nodes()-1] (needed for class <a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_multilevel.html">Multilevel</a>) for randomly choosing nodes (with uniform or weighted probability!)  <a href="classogdf_1_1energybased_1_1fmmm_1_1_set.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a745b3b323d108383d12abf2e163ef643"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1fmmm.html#a745b3b323d108383d12abf2e163ef643">calculate_forces_inside_contained_nodes</a> (<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;F_rep, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html">NodeAttributes</a> &gt; &amp;A, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;contained_nodes)</td></tr>
+<tr class="separator:a745b3b323d108383d12abf2e163ef643"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c0cad36099eb54675059159b88c8216"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1energybased_1_1fmmm.html#a4c0cad36099eb54675059159b88c8216">OGDF_DECLARE_COMPARER</a> (ParticleInfoComparer, <a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_particle_info.html">ParticleInfo</a>, double, x.get_x_y_coord())</td></tr>
+<tr class="separator:a4c0cad36099eb54675059159b88c8216"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a745b3b323d108383d12abf2e163ef643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a745b3b323d108383d12abf2e163ef643">&#9670;&nbsp;</a></span>calculate_forces_inside_contained_nodes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::energybased::fmmm::calculate_forces_inside_contained_nodes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>F_rep</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html">NodeAttributes</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>A</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>contained_nodes</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="fmmm_2common_8h_source.html#l00041">41</a> of file <a class="el" href="fmmm_2common_8h_source.html">common.h</a>.</p>
+
+</div>
+</div>
+<a id="a4c0cad36099eb54675059159b88c8216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0cad36099eb54675059159b88c8216">&#9670;&nbsp;</a></span>OGDF_DECLARE_COMPARER()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ogdf::energybased::fmmm::OGDF_DECLARE_COMPARER </td>
+          <td>(</td>
+          <td class="paramtype">ParticleInfoComparer&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_particle_info.html">ParticleInfo</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">x.&#160;</td>
+          <td class="paramname"><em>get_x_y_coord</em>()&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

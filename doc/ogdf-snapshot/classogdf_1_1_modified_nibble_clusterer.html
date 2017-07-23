@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::ModifiedNibbleClusterer Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -157,8 +155,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac924aa0adb2fc8b7ef85163952c31eee"><td class="memItemLeft" align="right" valign="top">long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_modified_nibble_clusterer.html#ac924aa0adb2fc8b7ef85163952c31eee">call</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; long &gt; &amp;clusterNum, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; long &gt; &amp;topLevelNum)</td></tr>
 <tr class="memdesc:ac924aa0adb2fc8b7ef85163952c31eee"><td class="mdescLeft">&#160;</td><td class="mdescRight">A convenience method. Due to the characteristics of the algorithm (not very accurate, fast for large graphs), we could have a medium number (several hundreds) of clusters, and could need a further level of clustering. On the other hand, fully recursive clustering does not make much sense as after a second level there will be not to many clusters left. topLevelNum keeps a cluster number in the top level of the two level cluster hierarchy.  <a href="#ac924aa0adb2fc8b7ef85163952c31eee">More...</a><br /></td></tr>
 <tr class="separator:ac924aa0adb2fc8b7ef85163952c31eee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0672e56e7d2ecf2fd1bdaa5a53c4b5b6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_modified_nibble_clusterer.html#a0672e56e7d2ecf2fd1bdaa5a53c4b5b6">setClusterSizeThreshold</a> (int l)</td></tr>
-<tr class="separator:a0672e56e7d2ecf2fd1bdaa5a53c4b5b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fce7a1818a121f3c21780090fdead60"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_modified_nibble_clusterer.html#a2fce7a1818a121f3c21780090fdead60">setClusterSizeThreshold</a> (int threshold)</td></tr>
+<tr class="separator:a2fce7a1818a121f3c21780090fdead60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc4096e37f12a02eb610eadb27f126cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_modified_nibble_clusterer.html#afc4096e37f12a02eb610eadb27f126cd">setMaxClusterNum</a> (int i)</td></tr>
 <tr class="memdesc:afc4096e37f12a02eb610eadb27f126cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call method: Creates a clustering of G in C Returns number of created clusters.  <a href="#afc4096e37f12a02eb610eadb27f126cd">More...</a><br /></td></tr>
 <tr class="separator:afc4096e37f12a02eb610eadb27f126cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -657,8 +655,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0672e56e7d2ecf2fd1bdaa5a53c4b5b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0672e56e7d2ecf2fd1bdaa5a53c4b5b6">&#9670;&nbsp;</a></span>setClusterSizeThreshold()</h2>
+<a id="a2fce7a1818a121f3c21780090fdead60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2fce7a1818a121f3c21780090fdead60">&#9670;&nbsp;</a></span>setClusterSizeThreshold()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -670,7 +668,7 @@ Private Attributes</h2></td></tr>
           <td class="memname">void ogdf::ModifiedNibbleClusterer::setClusterSizeThreshold </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>l</em></td><td>)</td>
+          <td class="paramname"><em>threshold</em></td><td>)</td>
           <td></td>
         </tr>
       </table>

@@ -2,7 +2,7 @@ var group__ga_connectivity =
 [
     [ "biconnectedComponents", "group__ga-connectivity.html#ga467c034577ce3f4e05af221389ce4fc9", null ],
     [ "biconnectedComponents", "group__ga-connectivity.html#gaaf2c637d8c661da9bd055c341755f782", null ],
-    [ "connectedComponents", "group__ga-connectivity.html#ga0504711e547b0febf00a261ce27ae5f1", null ],
+    [ "connectedComponents", "group__ga-connectivity.html#gaab12b5e959d3e624ea032c5d80b2055a", null ],
     [ "connectedIsolatedComponents", "group__ga-connectivity.html#gac63c344ed6d409cea63bdf7e1043bc1e", null ],
     [ "isBiconnected", "group__ga-connectivity.html#ga17796203f9633f8ccb1055fd07f17d3f", null ],
     [ "isBiconnected", "group__ga-connectivity.html#gafd4e07c4a9cd4f47ce1c8d8d90ab1251", null ],
@@ -12,6 +12,8 @@ var group__ga_connectivity =
     [ "isTriconnected", "group__ga-connectivity.html#gae85e75170e805acdcffc9db7f1d1a589", null ],
     [ "isTriconnectedPrimitive", "group__ga-connectivity.html#gad2e9d27668720ede5601267651af09f6", null ],
     [ "isTriconnectedPrimitive", "group__ga-connectivity.html#ga3a72f1e5aa47d941cdaf5453c3f0a139", null ],
+    [ "isTwoEdgeConnected", "group__ga-connectivity.html#ga6a678d7f3950c58ac7677edf8d77716a", null ],
+    [ "isTwoEdgeConnected", "group__ga-connectivity.html#ga6da739d3fafe634d86b321bdc12f1f58", null ],
     [ "makeBiconnected", "group__ga-connectivity.html#ga2dce4d57d715ebfa824144260ef304c9", null ],
     [ "makeBiconnected", "group__ga-connectivity.html#ga6eee1a780cacf210168b173fb365454e", null ],
     [ "makeCConnected", "group__ga-connectivity.html#ga10548d3e57dc3e8540fa3d1999d667bd", null ],

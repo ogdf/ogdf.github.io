@@ -2,8 +2,15 @@ var dir_35a6c9586c88aac46d0b85a566d23878 =
 [
     [ "edge_router", "dir_57c146f53cfe2cb30f7541130a3bc151.html", "dir_57c146f53cfe2cb30f7541130a3bc151" ],
     [ "internal", "dir_fe36df5a6bb31965aab2b6352d6bc32b.html", "dir_fe36df5a6bb31965aab2b6352d6bc32b" ],
-    [ "CompactionConstraintGraph.h", "_compaction_constraint_graph_8h.html", "_compaction_constraint_graph_8h" ],
-    [ "EdgeRouter.h", "_edge_router_8h.html", "_edge_router_8h" ],
+    [ "CompactionConstraintGraph.h", "_compaction_constraint_graph_8h.html", [
+      [ "CompactionConstraintGraph", "classogdf_1_1_compaction_constraint_graph.html", "classogdf_1_1_compaction_constraint_graph" ],
+      [ "Interval", "structogdf_1_1_compaction_constraint_graph_1_1_interval.html", "structogdf_1_1_compaction_constraint_graph_1_1_interval" ],
+      [ "SegmentComparer", "classogdf_1_1_compaction_constraint_graph_1_1_segment_comparer.html", "classogdf_1_1_compaction_constraint_graph_1_1_segment_comparer" ],
+      [ "CompactionConstraintGraphBase", "classogdf_1_1_compaction_constraint_graph_base.html", "classogdf_1_1_compaction_constraint_graph_base" ]
+    ] ],
+    [ "EdgeRouter.h", "_edge_router_8h.html", [
+      [ "EdgeRouter", "classogdf_1_1_edge_router.html", "classogdf_1_1_edge_router" ]
+    ] ],
     [ "FlowCompaction.h", "_flow_compaction_8h.html", [
       [ "CompactionConstraintGraph", "classogdf_1_1_compaction_constraint_graph.html", "classogdf_1_1_compaction_constraint_graph" ],
       [ "FlowCompaction", "classogdf_1_1_flow_compaction.html", "classogdf_1_1_flow_compaction" ]

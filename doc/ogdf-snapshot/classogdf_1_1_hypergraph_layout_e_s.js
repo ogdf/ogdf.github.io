@@ -9,7 +9,7 @@ var classogdf_1_1_hypergraph_layout_e_s =
     [ "applyProfile", "classogdf_1_1_hypergraph_layout_e_s.html#ace96c4ca76a99909ffceb9333069b322", null ],
     [ "call", "classogdf_1_1_hypergraph_layout_e_s.html#af936e27e5fb0677faf0c5c33fd9639cf", null ],
     [ "crossings", "classogdf_1_1_hypergraph_layout_e_s.html#a1ec305ad1971719dc19e51594cd8fd61", null ],
-    [ "insertShell", "classogdf_1_1_hypergraph_layout_e_s.html#a8e257795626dfacfa1e23886f64a6a80", null ],
+    [ "insertShell", "classogdf_1_1_hypergraph_layout_e_s.html#a4aa5daf2ff377134e82c74fb16772daf", null ],
     [ "layout", "classogdf_1_1_hypergraph_layout_e_s.html#a671849ed80ba1260f27154c20f52b972", null ],
     [ "operator=", "classogdf_1_1_hypergraph_layout_e_s.html#a9cc9179ca7c7a97b2978547f748f307c", null ],
     [ "packAllCC", "classogdf_1_1_hypergraph_layout_e_s.html#a654521032f67f8fce85b7c0c44754668", null ],

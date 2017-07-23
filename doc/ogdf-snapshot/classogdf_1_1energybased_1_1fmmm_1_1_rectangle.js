@@ -1,7 +1,6 @@
 var classogdf_1_1energybased_1_1fmmm_1_1_rectangle =
 [
     [ "Rectangle", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#a41894e07497ad09df11b4e87bb37c071", null ],
-    [ "~Rectangle", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#a1eec084e407d05065aa0b7801e62e7eb", null ],
     [ "get_component_index", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#ad25899bd35141f2e796ecbc6045fdde0", null ],
     [ "get_height", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#ac4bdee51c89e1e26f6d836b5be43e886", null ],
     [ "get_new_dlc_position", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#ad96977fb92ee38c351998c998ceb32cc", null ],
@@ -15,8 +14,8 @@ var classogdf_1_1energybased_1_1fmmm_1_1_rectangle =
     [ "set_rectangle", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#afc700f33ffb3d11315fc496a5301f59f", null ],
     [ "set_width", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#acbd85bc06d32765c5af3ddb9ac34e098", null ],
     [ "tipp_over", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#a6df98d0865cfe5ee8711f0c9e826fcc7", null ],
-    [ "operator<<", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#a968c649a754e4afa79c09fc8f3a33598", null ],
-    [ "operator>>", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#abab34275340f5f11e6413507c9dfd140", null ],
+    [ "operator<<", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#a11d6fbc8d9beb98ae0e75b94afd5bc2a", null ],
+    [ "operator>>", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#aef3896fa9e2f03e8002d854f96fa1a3e", null ],
     [ "component_index", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#a8a169af53b906af52f9de90606b3fe7f", null ],
     [ "height", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#ae7424a3787f56f36d3361baa89de59b2", null ],
     [ "new_down_left_corner_position", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#a03dfea469b6802d728d7d078339e68e5", null ],

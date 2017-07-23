@@ -21,7 +21,7 @@ var classogdf_1_1_mixed_model_base =
     [ "printNodeCoords", "classogdf_1_1_mixed_model_base.html#af32a34312c9eb98c7ebca27f7ba57b9f", null ],
     [ "removeDeg1Nodes", "classogdf_1_1_mixed_model_base.html#a537c6a6a23ef8ed3a2ea72e8dca51408", null ],
     [ "setBends", "classogdf_1_1_mixed_model_base.html#a2b2986ee0062d761d94fc4e22bb396fa", null ],
-    [ "m_deg1RestoreStack", "classogdf_1_1_mixed_model_base.html#a12c93f505d935a022151ba20c6bb2ee7", null ],
+    [ "m_deg1RestoreStack", "classogdf_1_1_mixed_model_base.html#ab0abaaf3899c4614acbc6cd8d394946a", null ],
     [ "m_dxla", "classogdf_1_1_mixed_model_base.html#a16b30a7e7f5f497ff1df606608997dc9", null ],
     [ "m_dxra", "classogdf_1_1_mixed_model_base.html#acacd5053ac9dfae20284ba9847a5d259", null ],
     [ "m_dyl", "classogdf_1_1_mixed_model_base.html#a4add49ac85f6814ab87b93d0708a26a0", null ],

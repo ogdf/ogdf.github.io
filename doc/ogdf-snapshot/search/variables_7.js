@@ -1,7 +1,7 @@
 var searchData=
 [
   ['g_5fnt',['G_nT',['../classogdf_1_1_embedder_min_depth_pi_ta.html#a886494d3a43c5edc170a995b9cc2e92d',1,'ogdf::EmbedderMinDepthPiTa']]],
-  ['gamma',['gamma',['../classogdf_1_1_math.html#afe14ad7cae066232cf41833de7295a79',1,'ogdf::Math']]],
+  ['gamma',['gamma',['../namespaceogdf_1_1_math.html#a4080f1ac2bd6622ec289bc910ed78dc2',1,'ogdf::Math']]],
   ['gamma_5fadjext_5fnt',['Gamma_adjExt_nT',['../classogdf_1_1_embedder_min_depth_pi_ta.html#a242561b3d8504a71620bb25ab1b854f8',1,'ogdf::EmbedderMinDepthPiTa']]],
   ['garbage_5ffrac',['garbage_frac',['../class_minisat_1_1_internal_1_1_solver.html#aa07787e5e87d24887f33c723221049a5',1,'Minisat::Internal::Solver']]],
   ['generalization',['Generalization',['../namespaceogdf_1_1_gml_parser_predefined_key.html#a127ecb318bb8c6602ca89e0550280d89',1,'ogdf::GmlParserPredefinedKey']]],

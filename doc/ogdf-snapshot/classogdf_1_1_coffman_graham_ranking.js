@@ -13,6 +13,5 @@ var classogdf_1_1_coffman_graham_ranking =
     [ "m_mark", "classogdf_1_1_coffman_graham_ranking.html#a5671eb589cc0ce410a22ac5a235fa34d", null ],
     [ "m_s", "classogdf_1_1_coffman_graham_ranking.html#aae8ab9140b4c7753b0d9dcbb20e116fe", null ],
     [ "m_subgraph", "classogdf_1_1_coffman_graham_ranking.html#a9f2d193bc1bc1d6f7a7cc94c76f63bc9", null ],
-    [ "m_visited", "classogdf_1_1_coffman_graham_ranking.html#a68c6a7d9123a0836a3d84aca94486d81", null ],
     [ "m_w", "classogdf_1_1_coffman_graham_ranking.html#a191611a96b8b7d3303892d0d97a8e5d0", null ]
 ];

@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: include/ogdf/basic/internal/config.h File Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -123,6 +121,7 @@ $(document).ready(function(){initNavTree('config_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">config.h File Reference</div>  </div>
@@ -152,6 +151,11 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:ab35d5a153bb20aa5d85c69e4ab8ac8ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#ab35d5a153bb20aa5d85c69e4ab8ac8ee">OGDF_CASE_FALLTHROUGH</a></td></tr>
+<tr class="memdesc:ab35d5a153bb20aa5d85c69e4ab8ac8ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">An attribute to mark cases (in switch) that fall through to the next case.  <a href="#ab35d5a153bb20aa5d85c69e4ab8ac8ee">More...</a><br /></td></tr>
+<tr class="separator:ab35d5a153bb20aa5d85c69e4ab8ac8ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa618689ee72214f767122cba184536d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#aa618689ee72214f767122cba184536d1">OGDF_HAS_CPP_ATTRIBUTE</a>(x)&#160;&#160;&#160;0</td></tr>
+<tr class="separator:aa618689ee72214f767122cba184536d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Important when compiling OGDF as DLL</div></td></tr>
 <tr class="memitem:a7c3d8dd02d991bf844b9ce797ef5cede"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="config_8h.html#a7c3d8dd02d991bf844b9ce797ef5cede">OGDF_EXPORT</a></td></tr>
 <tr class="memdesc:a7c3d8dd02d991bf844b9ce797ef5cede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specifies that a function or class is exported by the OGDF DLL.  <a href="#a7c3d8dd02d991bf844b9ce797ef5cede">More...</a><br /></td></tr>
@@ -173,15 +177,15 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af6f45a6180deefd4c266914326f95ba0"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#af6f45a6180deefd4c266914326f95ba0">ogdf::operator&lt;&lt;</a> (ostream &amp;os, Configuration::System sys)</td></tr>
-<tr class="memdesc:af6f45a6180deefd4c266914326f95ba0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14c" title="Specifies the operating system for which OGDF has been configured/built. ">Configuration::System</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a00ddd7e235de880bd5e975f46da4969d" title="Converts sys to a (readable) string. ">Configuration::toString(Configuration::System)</a>).  <a href="namespaceogdf.html#af6f45a6180deefd4c266914326f95ba0">More...</a><br /></td></tr>
-<tr class="separator:af6f45a6180deefd4c266914326f95ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0e5a718427c11bed3b4abf6bdf77b4b"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ad0e5a718427c11bed3b4abf6bdf77b4b">ogdf::operator&lt;&lt;</a> (ostream &amp;os, Configuration::LPSolver lps)</td></tr>
-<tr class="memdesc:ad0e5a718427c11bed3b4abf6bdf77b4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567" title="Specifies the LP-solver used by OGDF. ">Configuration::LPSolver</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a527d0d4948147526c5d55f87749d38c3" title="Converts lps to a (readable) string. ">Configuration::toString(Configuration::LPSolver)</a>).  <a href="namespaceogdf.html#ad0e5a718427c11bed3b4abf6bdf77b4b">More...</a><br /></td></tr>
-<tr class="separator:ad0e5a718427c11bed3b4abf6bdf77b4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4651355376e08902973243d42530ca5"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ab4651355376e08902973243d42530ca5">ogdf::operator&lt;&lt;</a> (ostream &amp;os, Configuration::MemoryManager mm)</td></tr>
-<tr class="memdesc:ab4651355376e08902973243d42530ca5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930e" title="Specifies the memory-manager used by OGDF. ">Configuration::MemoryManager</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a1fc0a984676c712853234c7288f06469" title="Converts mm to a (readable) string. ">Configuration::toString(Configuration::MemoryManager)</a>).  <a href="namespaceogdf.html#ab4651355376e08902973243d42530ca5">More...</a><br /></td></tr>
-<tr class="separator:ab4651355376e08902973243d42530ca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a521824b8c8b4ec11598321866c39fecd"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a521824b8c8b4ec11598321866c39fecd">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, Configuration::System sys)</td></tr>
+<tr class="memdesc:a521824b8c8b4ec11598321866c39fecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14c" title="Specifies the operating system for which OGDF has been configured/built. ">Configuration::System</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a00ddd7e235de880bd5e975f46da4969d" title="Converts sys to a (readable) string. ">Configuration::toString(Configuration::System)</a>).  <a href="namespaceogdf.html#a521824b8c8b4ec11598321866c39fecd">More...</a><br /></td></tr>
+<tr class="separator:a521824b8c8b4ec11598321866c39fecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebadeb763dbf7c0e9946d470d297513e"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#aebadeb763dbf7c0e9946d470d297513e">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, Configuration::LPSolver lps)</td></tr>
+<tr class="memdesc:aebadeb763dbf7c0e9946d470d297513e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567" title="Specifies the LP-solver used by OGDF. ">Configuration::LPSolver</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a527d0d4948147526c5d55f87749d38c3" title="Converts lps to a (readable) string. ">Configuration::toString(Configuration::LPSolver)</a>).  <a href="namespaceogdf.html#aebadeb763dbf7c0e9946d470d297513e">More...</a><br /></td></tr>
+<tr class="separator:aebadeb763dbf7c0e9946d470d297513e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0326b946744344fbcad367806fd34b2f"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a0326b946744344fbcad367806fd34b2f">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, Configuration::MemoryManager mm)</td></tr>
+<tr class="memdesc:a0326b946744344fbcad367806fd34b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930e" title="Specifies the memory-manager used by OGDF. ">Configuration::MemoryManager</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a1fc0a984676c712853234c7288f06469" title="Converts mm to a (readable) string. ">Configuration::toString(Configuration::MemoryManager)</a>).  <a href="namespaceogdf.html#a0326b946744344fbcad367806fd34b2f">More...</a><br /></td></tr>
+<tr class="separator:a0326b946744344fbcad367806fd34b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Basic configuration file. </p>
@@ -195,6 +199,24 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition in file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 </div><h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ab35d5a153bb20aa5d85c69e4ab8ac8ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab35d5a153bb20aa5d85c69e4ab8ac8ee">&#9670;&nbsp;</a></span>OGDF_CASE_FALLTHROUGH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OGDF_CASE_FALLTHROUGH</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>An attribute to mark cases (in switch) that fall through to the next case. </p>
+
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00165">165</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+
+</div>
+</div>
 <a id="a7c3d8dd02d991bf844b9ce797ef5cede"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c3d8dd02d991bf844b9ce797ef5cede">&#9670;&nbsp;</a></span>OGDF_EXPORT</h2>
 
@@ -210,7 +232,27 @@ Functions</h2></td></tr>
 <p>Specifies that a function or class is exported by the OGDF DLL. </p>
 <p>It is set according to the definition of OGDF_INSTALL (OGDF is build as DLL) and OGDF_DLL (OGDF is used as DLL). If none of these are defined (OGDF is build or used as static library), the define expands to nothing. </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00099">99</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00095">95</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+
+</div>
+</div>
+<a id="aa618689ee72214f767122cba184536d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa618689ee72214f767122cba184536d1">&#9670;&nbsp;</a></span>OGDF_HAS_CPP_ATTRIBUTE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define OGDF_HAS_CPP_ATTRIBUTE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x</td><td>)</td>
+          <td>&#160;&#160;&#160;0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00083">83</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 
 </div>
 </div>

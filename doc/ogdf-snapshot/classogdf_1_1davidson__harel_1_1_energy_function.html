@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: ogdf::davidson_harel::EnergyFunction Class Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -162,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab0b0047ea4a50c0e121fd3e9825a25f4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#ab0b0047ea4a50c0e121fd3e9825a25f4">candidateTaken</a> ()</td></tr>
 <tr class="memdesc:ab0b0047ea4a50c0e121fd3e9825a25f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Changes m_currentX and m_currentY by setting the position of m_testNode to m_testX and m_testY. Sets m_energy to m_candidateEnergy. Computes the energy of the layout stored in AG.  <a href="#ab0b0047ea4a50c0e121fd3e9825a25f4">More...</a><br /></td></tr>
 <tr class="separator:ab0b0047ea4a50c0e121fd3e9825a25f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae90b2bc44aa94e69fad8eceecfff55d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#aae90b2bc44aa94e69fad8eceecfff55d">computeCandidateEnergy</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v, const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;newPos)</td></tr>
+<tr class="memitem:aae90b2bc44aa94e69fad8eceecfff55d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#aae90b2bc44aa94e69fad8eceecfff55d">computeCandidateEnergy</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v, const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;newPos)</td></tr>
 <tr class="memdesc:aae90b2bc44aa94e69fad8eceecfff55d"><td class="mdescLeft">&#160;</td><td class="mdescRight">sets m_testNode, m_testX and m_testY and computes the energy for the new configuration (vertex v moves to newPos)  <a href="#aae90b2bc44aa94e69fad8eceecfff55d">More...</a><br /></td></tr>
 <tr class="separator:aae90b2bc44aa94e69fad8eceecfff55d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90aab12cdcd59daf3c95bfcf1fb31331"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a90aab12cdcd59daf3c95bfcf1fb31331">computeEnergy</a> ()=0</td></tr>
@@ -179,7 +177,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:af597a6908e9b704a3be04815e212d7f0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#af597a6908e9b704a3be04815e212d7f0">compCandEnergy</a> ()=0</td></tr>
 <tr class="memdesc:af597a6908e9b704a3be04815e212d7f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">computes the energy if m_testNode changes position to m_testX and m_testY, sets the value of m_candidateEnergy.  <a href="#af597a6908e9b704a3be04815e212d7f0">More...</a><br /></td></tr>
 <tr class="separator:af597a6908e9b704a3be04815e212d7f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a568bdaed08d26f1841b7edb979faec56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a568bdaed08d26f1841b7edb979faec56">currentPos</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
+<tr class="memitem:a568bdaed08d26f1841b7edb979faec56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a568bdaed08d26f1841b7edb979faec56">currentPos</a> (const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
 <tr class="memdesc:a568bdaed08d26f1841b7edb979faec56"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the current position of vertex v  <a href="#a568bdaed08d26f1841b7edb979faec56">More...</a><br /></td></tr>
 <tr class="separator:a568bdaed08d26f1841b7edb979faec56"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4da6c9c16651dc02ba904b5138354da3"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a4da6c9c16651dc02ba904b5138354da3">internalCandidateTaken</a> ()=0</td></tr>
@@ -188,7 +186,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a746ec94236c6cb0ae0255fae710ae21e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a746ec94236c6cb0ae0255fae710ae21e">testNode</a> () const</td></tr>
 <tr class="memdesc:a746ec94236c6cb0ae0255fae710ae21e"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns the vertex that is under consideration in the current step  <a href="#a746ec94236c6cb0ae0255fae710ae21e">More...</a><br /></td></tr>
 <tr class="separator:a746ec94236c6cb0ae0255fae710ae21e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8efc6584b1a15a869746f8319aaebc29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a8efc6584b1a15a869746f8319aaebc29">testPos</a> ()</td></tr>
+<tr class="memitem:a8efc6584b1a15a869746f8319aaebc29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a8efc6584b1a15a869746f8319aaebc29">testPos</a> ()</td></tr>
 <tr class="memdesc:a8efc6584b1a15a869746f8319aaebc29"><td class="mdescLeft">&#160;</td><td class="mdescRight">returns candidate position for the node to be moved  <a href="#a8efc6584b1a15a869746f8319aaebc29">More...</a><br /></td></tr>
 <tr class="separator:a8efc6584b1a15a869746f8319aaebc29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -224,7 +222,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a59aff4cdafe62f956dea72b552f493a9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a59aff4cdafe62f956dea72b552f493a9">m_testNode</a></td></tr>
 <tr class="memdesc:a59aff4cdafe62f956dea72b552f493a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The node that changed position in the candidate.  <a href="#a59aff4cdafe62f956dea72b552f493a9">More...</a><br /></td></tr>
 <tr class="separator:a59aff4cdafe62f956dea72b552f493a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83b3b796c5370237e05e9daebecf832c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a83b3b796c5370237e05e9daebecf832c">m_testPos</a></td></tr>
+<tr class="memitem:a83b3b796c5370237e05e9daebecf832c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1davidson__harel_1_1_energy_function.html#a83b3b796c5370237e05e9daebecf832c">m_testPos</a></td></tr>
 <tr class="memdesc:a83b3b796c5370237e05e9daebecf832c"><td class="mdescLeft">&#160;</td><td class="mdescRight">New candidate positions for m_testNode.  <a href="#a83b3b796c5370237e05e9daebecf832c">More...</a><br /></td></tr>
 <tr class="separator:a83b3b796c5370237e05e9daebecf832c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -385,7 +383,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_d_point.html">DPoint</a> &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> &amp;&#160;</td>
           <td class="paramname"><em>newPos</em>&#160;</td>
         </tr>
         <tr>
@@ -439,7 +437,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a> ogdf::davidson_harel::EnergyFunction::currentPos </td>
+          <td class="memname"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> ogdf::davidson_harel::EnergyFunction::currentPos </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -611,7 +609,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a> ogdf::davidson_harel::EnergyFunction::testPos </td>
+          <td class="memname"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> ogdf::davidson_harel::EnergyFunction::testPos </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -797,7 +795,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_d_point.html">DPoint</a> ogdf::davidson_harel::EnergyFunction::m_testPos</td>
+          <td class="memname"><a class="el" href="namespaceogdf.html#a192ee29fe44e90270e7515b07763779e">DPoint</a> ogdf::davidson_harel::EnergyFunction::m_testPos</td>
         </tr>
       </table>
   </td>

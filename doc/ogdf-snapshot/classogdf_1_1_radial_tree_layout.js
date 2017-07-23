@@ -9,7 +9,7 @@ var classogdf_1_1_radial_tree_layout =
     ] ],
     [ "RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#abc2864529af6f294a27de65ecdf5628c", null ],
     [ "RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#a7afa51525b4e4fea3c691184971c829b", null ],
-    [ "~RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#a6fdc57e1acea6a83879b295123b03ad6", null ],
+    [ "~RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#abccae6baabb295ef53c5be69ca1e1d19", null ],
     [ "call", "classogdf_1_1_radial_tree_layout.html#a275c5955849dbbe95b346f81b2ef11ce", null ],
     [ "ComputeAngles", "classogdf_1_1_radial_tree_layout.html#a11c9bb2a669a2b044d6f0b13c9b8aeb3", null ],
     [ "ComputeCoordinates", "classogdf_1_1_radial_tree_layout.html#a1b622535f08b6d97057b61b3a528e5dc", null ],

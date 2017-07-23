@@ -1,6 +1,5 @@
 var classogdf_1_1_layer_based_u_p_r_layout =
 [
-    [ "RankComparer", "structogdf_1_1_layer_based_u_p_r_layout_1_1_rank_comparer.html", "structogdf_1_1_layer_based_u_p_r_layout_1_1_rank_comparer" ],
     [ "LayerBasedUPRLayout", "classogdf_1_1_layer_based_u_p_r_layout.html#af4297b5fe597c5db9022baf7cac5f21c", null ],
     [ "~LayerBasedUPRLayout", "classogdf_1_1_layer_based_u_p_r_layout.html#a9b34beeec590afae0493d231f2762e3b", null ],
     [ "callSimple", "classogdf_1_1_layer_based_u_p_r_layout.html#ab7b45f283f0f16cfbc8377ce3f5ca153", null ],

@@ -31,7 +31,7 @@ var classogdf_1_1_i_o_points =
     [ "pointOf", "classogdf_1_1_i_o_points.html#af4cec1a21e861d4edce3d736a96a0585", null ],
     [ "prevRealOut", "classogdf_1_1_i_o_points.html#ae5ca2c3114ac4f5611a3dd7bb81a8f82", null ],
     [ "pushInpoint", "classogdf_1_1_i_o_points.html#a67395d18e688d293f59eb211e66f5b7f", null ],
-    [ "restoreDeg1Nodes", "classogdf_1_1_i_o_points.html#a279acff7b200cced67eda42daf02974a", null ],
+    [ "restoreDeg1Nodes", "classogdf_1_1_i_o_points.html#a6b076f10e6b8a645b7fe7b547edf977c", null ],
     [ "searchRealBackward", "classogdf_1_1_i_o_points.html#a59deac80fdea734ba4cf5387f10f0826", null ],
     [ "searchRealForward", "classogdf_1_1_i_o_points.html#a087d2ab05bee827e5e9dfce6c15a2c7b", null ],
     [ "setInCoord", "classogdf_1_1_i_o_points.html#a5d131c8ffdb5aad3d36d8a4f46002d8b", null ],

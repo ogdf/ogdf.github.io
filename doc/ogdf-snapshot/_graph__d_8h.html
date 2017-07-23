@@ -6,8 +6,6 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <title>ogdf: include/ogdf/basic/Graph_d.h File Reference</title>
-<link href="tabs.css" rel="stylesheet" type="text/css"/>
-<link href="govisual.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -44,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-02-16</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -181,6 +179,8 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceogdf"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html">ogdf</a></td></tr>
 <tr class="memdesc:namespaceogdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace for all OGDF objects. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceogdf_1_1internal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html">ogdf::internal</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
@@ -196,10 +196,22 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:abd44c1cd80c54d5f8159eaf25fbbb537"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER &gt; </td></tr>
+<tr class="memitem:abd44c1cd80c54d5f8159eaf25fbbb537"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#abd44c1cd80c54d5f8159eaf25fbbb537">ogdf::internal::getAllEdges</a> (const Graph &amp;G, CONTAINER &amp;edges)</td></tr>
+<tr class="separator:abd44c1cd80c54d5f8159eaf25fbbb537"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a523b5e3f518a9a25175621625f9e97d4"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a523b5e3f518a9a25175621625f9e97d4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a523b5e3f518a9a25175621625f9e97d4">ogdf::internal::getAllEdges</a> (const Graph &amp;G, Array&lt; edge &gt; &amp;edges)</td></tr>
+<tr class="separator:a523b5e3f518a9a25175621625f9e97d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a7e5edb138f018186be2236d523c13f"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER &gt; </td></tr>
+<tr class="memitem:a9a7e5edb138f018186be2236d523c13f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a9a7e5edb138f018186be2236d523c13f">ogdf::internal::getAllNodes</a> (const Graph &amp;G, CONTAINER &amp;nodes)</td></tr>
+<tr class="separator:a9a7e5edb138f018186be2236d523c13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a7a4feee04da1d0756d2efe751c3fe"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a51a7a4feee04da1d0756d2efe751c3fe"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a51a7a4feee04da1d0756d2efe751c3fe">ogdf::internal::getAllNodes</a> (const Graph &amp;G, Array&lt; node &gt; &amp;nodes)</td></tr>
+<tr class="separator:a51a7a4feee04da1d0756d2efe751c3fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32d8e0fc12ac7bae85825d231204deec"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a32d8e0fc12ac7bae85825d231204deec">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const Graph::EdgeType &amp;et)</td></tr>
 <tr class="separator:a32d8e0fc12ac7bae85825d231204deec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac68e31364eeedcca84336891d074775c"><td class="memItemLeft" align="right" valign="top">ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ac68e31364eeedcca84336891d074775c">ogdf::operator&lt;&lt;</a> (ostream &amp;os, const NodePair &amp;np)</td></tr>
-<tr class="separator:ac68e31364eeedcca84336891d074775c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afef922ffd7bf531806f20328366a5ea6"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#afef922ffd7bf531806f20328366a5ea6">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const NodePair &amp;np)</td></tr>
+<tr class="separator:afef922ffd7bf531806f20328366a5ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Pure declaration header, find template implementation in <a class="el" href="_graph_8h.html" title="Includes declaration of graph class. ">Graph.h</a>. </p>

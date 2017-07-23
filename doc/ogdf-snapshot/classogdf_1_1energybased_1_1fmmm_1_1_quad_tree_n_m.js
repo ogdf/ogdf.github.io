@@ -1,7 +1,6 @@
 var classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m =
 [
     [ "QuadTreeNM", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#a095d303791f56dedca5c7aa8079b8a86", null ],
-    [ "~QuadTreeNM", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#abfa24ef257726f559059befdfd4715fe", null ],
     [ "cout_preorder", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#a7ef727e9d70c67f0b07a25899f39f00a", null ],
     [ "cout_preorder", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#ae1e9265c5e1af3eaf840013351fde47a", null ],
     [ "create_new_lb_child", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#a8a77767c37073fe14565cb7c16d74191", null ],
@@ -14,8 +13,8 @@ var classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m =
     [ "create_new_rt_child", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#afecfc2233ee384a617789fdc286340f7", null ],
     [ "delete_tree", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#acc060c89bc7bfa22646f6a768f18b649", null ],
     [ "delete_tree_and_count_nodes", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#a15879b665ba37c34522a12262902b858", null ],
-    [ "get_act_ptr", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#ad5dc740186b72d59c0865c82f59682c4", null ],
-    [ "get_root_ptr", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#aba50a189b0b444ae551ddf03a417f680", null ],
+    [ "get_act_ptr", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#ad9498b4a036c591456969a466faf196a", null ],
+    [ "get_root_ptr", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#a40fc206d84eb173b67bcd86e82ac1220", null ],
     [ "go_to_father", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#aeb24d60eeb62e7ac027646d7866cfd17", null ],
     [ "go_to_lb_child", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#a34736a7f020bd78265a11be1fbe4c0ca", null ],
     [ "go_to_lt_child", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html#a31e61cb0175cfe6db32916ea686a9f90", null ],
