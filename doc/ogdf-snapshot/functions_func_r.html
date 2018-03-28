@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,6 +138,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 </li>
 <li>radius()
 : <a class="el" href="classogdf_1_1_multilevel_graph.html#a87857d003d3d8e2517cd66835b052ebc">ogdf::MultilevelGraph</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a65494f8c7afa08f99c1794540d3c90fd">ogdf::NodeRespecterLayout</a>
 </li>
 <li>RadixHeap()
 : <a class="el" href="classogdf_1_1_radix_heap.html#abf22439c2d90d52d470d42aa3426bbfb">ogdf::RadixHeap&lt; V, P &gt;</a>
@@ -213,20 +214,12 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classogdf_1_1_hypergraph_layout_e_s.html#a0ba7f52c1696977c2928d2ab0e4a07c2">ogdf::HypergraphLayoutES</a>
 </li>
 <li>rbegin()
-: <a class="el" href="classogdf_1_1_adj_entry_array.html#a2c85bb36aa8adf9b5d10f9770b70d4f3">ogdf::AdjEntryArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_array.html#a1c0a942355cf89aae5b5abfc6908376a">ogdf::Array&lt; E, INDEX &gt;</a>
-, <a class="el" href="classogdf_1_1_array_buffer.html#a11737930426e0fa83575fb5c6ad12916">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a>
-, <a class="el" href="classogdf_1_1_cluster_array.html#adb1cbd17452af83db6c4da60ed843f86">ogdf::ClusterArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_edge_array.html#a59aee8644ab356991d3205bb5fb96151">ogdf::EdgeArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_face_array.html#a3a6e794af86ad8be0127142a3c2bf71b">ogdf::FaceArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1internal_1_1_graph_object_container.html#a53fed9c5f45add5753c1800eec546a45">ogdf::internal::GraphObjectContainer&lt; GraphObject &gt;</a>
-, <a class="el" href="classogdf_1_1_list_container.html#a51e0a1be5eed4c19cc5ed304b481c0ed">ogdf::ListContainer&lt; E, Master &gt;</a>
-, <a class="el" href="classogdf_1_1_list_pure.html#af5cd6ce121384d8115e45d3e053d5cad">ogdf::ListPure&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_node_array.html#ac42a3c999a5d1304fbb51d623b0538bd">ogdf::NodeArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_queue.html#abff80a2a7bfad8aebb92b927aca20340">ogdf::Queue&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_queue_pure.html#acab2b37fd0f99fd39a7c184553ab753f">ogdf::QueuePure&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_s_list_pure.html#a627e96acfbc8dd3bfb501c224a7a3682">ogdf::SListPure&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_sorted_sequence.html#a92cd74f1e03d9234568e04b1322b9a08">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+: <a class="el" href="classogdf_1_1_array.html#a1ec45cf72b1dcbad5efc9069724aecf4">ogdf::Array&lt; E, INDEX &gt;</a>
+, <a class="el" href="classogdf_1_1_array_buffer.html#a460c1fe1ca942e04e5e0bea9f17d4af8">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a>
+, <a class="el" href="classogdf_1_1internal_1_1_graph_object_container.html#a68d7054b212a4c1549dd58703f9637c8">ogdf::internal::GraphObjectContainer&lt; GraphObject &gt;</a>
+, <a class="el" href="classogdf_1_1_list_container.html#a0f2318ad3e9f74b116ee3aec78ff7067">ogdf::ListContainer&lt; E, Master &gt;</a>
+, <a class="el" href="classogdf_1_1_list_pure.html#ab6ea10923c0637c97d3cb43e8da5b02c">ogdf::ListPure&lt; E &gt;</a>
+, <a class="el" href="classogdf_1_1_sorted_sequence.html#af3d1ea268b1afd94c1f69daa482ea57f">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
 </li>
 <li>rc()
 : <a class="el" href="classogdf_1_1edge__router_1_1_node_info.html#ae8740b25b34eb084603cd96b50a209d6">ogdf::edge_router::NodeInfo</a>
@@ -257,7 +250,6 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 , <a class="el" href="classogdf_1_1_gml_parser.html#afa2fdd4a0bf9eec89df7c81fbd3a1b3a">ogdf::GmlParser</a>
 , <a class="el" href="classogdf_1_1_graph_i_o.html#a49420bd502f27463464c2e4761e1a118">ogdf::GraphIO</a>
 , <a class="el" href="classogdf_1_1_graph_m_l_parser.html#aac7d87ae2bbbd3eafc66a960d5069ec1">ogdf::GraphMLParser</a>
-, <a class="el" href="classogdf_1_1_ogml_parser.html#ad256da50b36c11389b35fd3240e41ea2">ogdf::OgmlParser</a>
 , <a class="el" href="classogdf_1_1tlp_1_1_parser.html#ae3e5085f27e93631b4a041318bec7d55">ogdf::tlp::Parser</a>
 </li>
 <li>readAssignment()
@@ -308,7 +300,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classogdf_1_1_graph_i_o.html#a47c9560c53c6229a4c7092679aa81170">ogdf::GraphIO</a>
 </li>
 <li>readDOT()
-: <a class="el" href="classogdf_1_1_graph_i_o.html#a894b3598e3ace3715c156487b7aca162">ogdf::GraphIO</a>
+: <a class="el" href="classogdf_1_1_graph_i_o.html#a7f22479beaa52e2fbed2cdfc8f315b7c">ogdf::GraphIO</a>
 </li>
 <li>readEdge()
 : <a class="el" href="classogdf_1_1tlp_1_1_parser.html#affc70494ac669b2c7b2f36ce9f611aa9">ogdf::tlp::Parser</a>
@@ -390,9 +382,6 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <li>readNodeStmt()
 : <a class="el" href="classogdf_1_1gdf_1_1_parser.html#a180d9c3864b699d791e5c6b04255c98d">ogdf::gdf::Parser</a>
 </li>
-<li>readOGML()
-: <a class="el" href="classogdf_1_1_graph_i_o.html#aba47023080dc001bea250784aa01cb56">ogdf::GraphIO</a>
-</li>
 <li>readParameters()
 : <a class="el" href="classabacus_1_1_abacus_global.html#a796f21ed158563dbef3bd6b81ee13573">abacus::AbacusGlobal</a>
 </li>
@@ -425,9 +414,6 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 </li>
 <li>readSTP()
 : <a class="el" href="classogdf_1_1_graph_i_o.html#aedebd0bdf6f97862048234dd404e9383">ogdf::GraphIO</a>
-</li>
-<li>readStringUntil()
-: <a class="el" href="classogdf_1_1_xml_scanner.html#af73a99efbc6783cb78f3365a7b087ca5">ogdf::XmlScanner</a>
 </li>
 <li>readTLP()
 : <a class="el" href="classogdf_1_1_graph_i_o.html#a2cd97621f7835cc6fee36869f8951442">ogdf::GraphIO</a>
@@ -589,9 +575,6 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 , <a class="el" href="classogdf_1_1_const_combinatorial_embedding.html#acb57e7e67269496e8c4a22bdf3a3f43d">ogdf::ConstCombinatorialEmbedding</a>
 , <a class="el" href="classogdf_1_1_graph.html#ab1bad50597d7cd5b3b3c5e3d5dbbecfd">ogdf::Graph</a>
 </li>
-<li>registerCallbacks()
-: <a class="el" href="classogdf_1_1_coin_callbacks.html#a8310cc4b6cd32ee074e20322b6e9c12d">ogdf::CoinCallbacks</a>
-</li>
 <li>registerHyperedgeArray()
 : <a class="el" href="classogdf_1_1_hypergraph.html#a83b83bda85d07e75e19265e1db0861e6">ogdf::Hypergraph</a>
 </li>
@@ -721,7 +704,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 , <a class="el" href="classogdf_1_1steiner__tree_1_1_full_component_store.html#a138e3c4b46512518a6cf6d3b6319e85b">ogdf::steiner_tree::FullComponentStore&lt; T, ExtraDataType &gt;</a>
 </li>
 <li>remove_attribute()
-: <a class="el" href="classpugi_1_1xml__node.html#a9b93a949a0c8d23c6457eb18bedf6fe8">pugi::xml_node</a>
+: <a class="el" href="classpugi_1_1xml__node.html#ad2a65ed9e5a0c8ff40918e98c2c2319d">pugi::xml_node</a>
 </li>
 <li>remove_child()
 : <a class="el" href="classpugi_1_1xml__node.html#a0adf80ff295b5ebfc38d9164b99c1ee3">pugi::xml_node</a>
@@ -737,10 +720,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 , <a class="el" href="classogdf_1_1_extended_nesting_graph.html#aaff14f8b2ca60ddf170d8f4e3dcc072d">ogdf::ExtendedNestingGraph</a>
 </li>
 <li>removeBasis()
-: <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html#a4399393021b70331aacaf81be6a61ffe">ogdf::steiner_tree::goemans::BlowupGraph&lt; T &gt;</a>
-</li>
-<li>removeBasisAndCleanup()
-: <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#ad545204b813bd87c64137a1000c736b8">ogdf::steiner_tree::goemans::Approximation&lt; T &gt;</a>
+: <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html#a065d18134f3566c077b198cae187cc18">ogdf::steiner_tree::goemans::BlowupGraph&lt; T &gt;</a>
 </li>
 <li>removeBlock()
 : <a class="el" href="classogdf_1_1_p_q_tree.html#a34044dcf871fafe0f85241d0398a9dcb">ogdf::PQTree&lt; T, X, Y &gt;</a>
@@ -867,13 +847,13 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classogdf_1_1_fixed_embedding_inserter.html#ac9e0d65bb73f9d3df264df60f23d74c8">ogdf::FixedEmbeddingInserter</a>
 , <a class="el" href="classogdf_1_1_fixed_embedding_inserter_u_m_l.html#a42f6f2c555bf53d6981177078891296d">ogdf::FixedEmbeddingInserterUML</a>
 , <a class="el" href="classogdf_1_1_m_m_fixed_embedding_inserter.html#a3f4628fffb1d3d8e55a93fbd6ac2b8aa">ogdf::MMFixedEmbeddingInserter</a>
-, <a class="el" href="classogdf_1_1_m_m_variable_embedding_inserter.html#adf66585aa15ff93266669e89d6c2c93b">ogdf::MMVariableEmbeddingInserter</a>
+, <a class="el" href="classogdf_1_1_m_m_variable_embedding_inserter.html#a1c2c9a10facf00f994f818de2a179b80">ogdf::MMVariableEmbeddingInserter</a>
 , <a class="el" href="classogdf_1_1_variable_embedding_inserter_base.html#ac99a4217c7de2599affa285f98fb9093">ogdf::VariableEmbeddingInserterBase</a>
 , <a class="el" href="classogdf_1_1_variable_embedding_inserter_dyn_u_m_l.html#a1abef6cb9c5f32084296f1f621ed1e6b">ogdf::VariableEmbeddingInserterDynUML</a>
-, <a class="el" href="classogdf_1_1_variable_embedding_inserter_u_m_l.html#a609e9c4cbbaa0623b5a7df8d879b64fd">ogdf::VariableEmbeddingInserterUML</a>
+, <a class="el" href="classogdf_1_1_variable_embedding_inserter_u_m_l.html#afc8cb1ef75520c555417d5184196d2e2">ogdf::VariableEmbeddingInserterUML</a>
 </li>
 <li>removeReinsertFix()
-: <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#a05aa61925f981ba0b8f100386e81a498">ogdf::MultiEdgeApproxInserter</a>
+: <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#ab06e8e10eb9c4fa538554e78e552cfc2">ogdf::MultiEdgeApproxInserter</a>
 </li>
 <li>removeReinsertVar()
 : <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#a261d1142f790a49cd6f8a52344caf68b">ogdf::MultiEdgeApproxInserter</a>
@@ -924,17 +904,12 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classabacus_1_1_spar_vec.html#a9a5baf6f333bdcb7a0ab0996163db02c">abacus::SparVec</a>
 </li>
 <li>rend()
-: <a class="el" href="classogdf_1_1_adj_entry_array.html#a49159636876f462a1c204d5532e4ed5f">ogdf::AdjEntryArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_array.html#a010886e1fe56a7c96b073852b0a4d9b5">ogdf::Array&lt; E, INDEX &gt;</a>
-, <a class="el" href="classogdf_1_1_array_buffer.html#a728fb6b8761636c2da0dae6e44beef58">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a>
-, <a class="el" href="classogdf_1_1_cluster_array.html#a5bf65ada5ad11588a2f045fea9591a37">ogdf::ClusterArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_edge_array.html#ab055c7f8d84a3fee86babfa7c0b68a5c">ogdf::EdgeArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_face_array.html#af731fa50d7599620fada747a0bffba13">ogdf::FaceArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1internal_1_1_graph_object_container.html#a1fd78b0e18d4bc25dc860b3fa61ae50a">ogdf::internal::GraphObjectContainer&lt; GraphObject &gt;</a>
-, <a class="el" href="classogdf_1_1_list_container.html#a0b228636bae30176eb74d34ad9fbdecd">ogdf::ListContainer&lt; E, Master &gt;</a>
-, <a class="el" href="classogdf_1_1_list_pure.html#a027a0025f39c1763d6b062ce953bebb3">ogdf::ListPure&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_node_array.html#aea4b6823b4eed3b032607eb658707f8f">ogdf::NodeArray&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_sorted_sequence.html#a8f0d06456a81e855cb2f10bac16c9057">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+: <a class="el" href="classogdf_1_1_array.html#a1fe69d549c8193000872e9630e2d2fbc">ogdf::Array&lt; E, INDEX &gt;</a>
+, <a class="el" href="classogdf_1_1_array_buffer.html#a2cbbe0f127a02053d8c4c22bf57433f5">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a>
+, <a class="el" href="classogdf_1_1internal_1_1_graph_object_container.html#af6f936b81bc79ec36460e1c11c34e816">ogdf::internal::GraphObjectContainer&lt; GraphObject &gt;</a>
+, <a class="el" href="classogdf_1_1_list_container.html#aa99fc6b2145bce0232aa452ce1f6f655">ogdf::ListContainer&lt; E, Master &gt;</a>
+, <a class="el" href="classogdf_1_1_list_pure.html#a1c084090dd8b54f61d9144255ee11a8e">ogdf::ListPure&lt; E &gt;</a>
+, <a class="el" href="classogdf_1_1_sorted_sequence.html#aea69830f4d35af50f9cd67f6b2972e36">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
 </li>
 <li>reoptimize()
 : <a class="el" href="classabacus_1_1_sub.html#a7dd477fadcb66cda3b11f4d4d462f516">abacus::Sub</a>
@@ -969,7 +944,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 </li>
 <li>replaceByStar()
 : <a class="el" href="classogdf_1_1planarization__layout_1_1_clique_replacer.html#ad3f77a6d9c654c12a1e3aad9c59d28db">ogdf::planarization_layout::CliqueReplacer</a>
-, <a class="el" href="classogdf_1_1_u_m_l_graph.html#a3073b84dd2d3beb61ed86848172c8325">ogdf::UMLGraph</a>
+, <a class="el" href="classogdf_1_1_u_m_l_graph.html#a205608c0645d716f4827e7d0460475e8">ogdf::UMLGraph</a>
 </li>
 <li>ReplaceFullRoot()
 : <a class="el" href="classogdf_1_1booth__lueker_1_1_embed_p_q_tree.html#aa5239964087207732d45a1e809f01d5b">ogdf::booth_lueker::EmbedPQTree</a>
@@ -992,9 +967,6 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <li>replaceSkEdgeByPeak()
 : <a class="el" href="classogdf_1_1_s_p_q_r_tree.html#a475ee571022c7af175f9cdaf051a1386">ogdf::SPQRTree</a>
 </li>
-<li>reportError()
-: <a class="el" href="classogdf_1_1_xml_parser.html#a9fb01c1decccf4881135a7da814df7d7">ogdf::XmlParser</a>
-</li>
 <li>representative()
 : <a class="el" href="classogdf_1_1_expansion_graph.html#a7185ea099dcb56c1e3d1beea73fbf788">ogdf::ExpansionGraph</a>
 </li>
@@ -1013,7 +985,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 , <a class="el" href="classogdf_1_1_dynamic_b_c_tree.html#a64910a5994c59924cad6c68e17e8ca5b">ogdf::DynamicBCTree</a>
 </li>
 <li>reqlength()
-: <a class="el" href="classogdf_1_1_bertault_layout.html#a6d2b02142a0ab1c26658a3f6b6bf9df1">ogdf::BertaultLayout</a>
+: <a class="el" href="classogdf_1_1_bertault_layout.html#a3450e84667d98b7b41c67622c3a0be20">ogdf::BertaultLayout</a>
 </li>
 <li>requestLabel()
 : <a class="el" href="classogdf_1_1_d_l_parser.html#a968b7685269ca605c85fea180961ead0">ogdf::DLParser</a>
@@ -1022,7 +994,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classogdf_1_1dot_1_1_parser.html#adccd48effd7b797c3c23b03c9c681a0c">ogdf::dot::Parser</a>
 </li>
 <li>requiredGuarantee()
-: <a class="el" href="classabacus_1_1_master.html#a22848f98b47e37d057146725946f3ff4">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#af735db9fb371a8194c820097efacf96b">abacus::Master</a>
 </li>
 <li>reregister()
 : <a class="el" href="classogdf_1_1_adj_entry_array_base.html#af30d827503896ccb0d4807c1f4b46ad4">ogdf::AdjEntryArrayBase</a>
@@ -1078,20 +1050,20 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 </li>
 <li>resize()
 : <a class="el" href="classabacus_1_1_aba_hash.html#aed6b324d326a07a2e208d5cb9023c1dc">abacus::AbaHash&lt; KeyType, ItemType &gt;</a>
-, <a class="el" href="classogdf_1_1_array.html#a0b1b75093fedcec4dfa367be5ffba0ae">ogdf::Array&lt; E, INDEX &gt;</a>
+, <a class="el" href="classogdf_1_1_array.html#aa8118436f180a66e8d68212f9aea1954">ogdf::Array&lt; E, INDEX &gt;</a>
 , <a class="el" href="classogdf_1_1_hashing_base.html#a7c2a45aff1bce5a413eb6062a91c5f5c">ogdf::HashingBase</a>
 </li>
 <li>resizeDrawing()
-: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#ab724c1dfc3126d60c251ed277a76630e">ogdf::FMMMLayout</a>
+: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a7c8ca1dd928622f8846305fe6003f985">ogdf::FMMMLayout</a>
 </li>
 <li>resizingScalar()
-: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a4d621aa5d02f95bf2e79c60a3861630d">ogdf::FMMMLayout</a>
+: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a8d70ad68b6ba2c81424463eef230622a">ogdf::FMMMLayout</a>
 </li>
 <li>resolve()
 : <a class="el" href="classbackward_1_1_trace_resolver_impl_3_01system__tag_1_1unknown__tag_01_4.html#a67316e7b0f2cd4ee3b9ebf05e189efe5">backward::TraceResolverImpl&lt; system_tag::unknown_tag &gt;</a>
 </li>
 <li>ResolvedTrace()
-: <a class="el" href="structbackward_1_1_resolved_trace.html#a2529017fa942cdc8db3e82424d1fc5d8">backward::ResolvedTrace</a>
+: <a class="el" href="structbackward_1_1_resolved_trace.html#a24776ce373aea34523de100bc81aa2f1">backward::ResolvedTrace</a>
 </li>
 <li>resolvePseudoCrossing()
 : <a class="el" href="classogdf_1_1_plan_rep_expansion.html#aa73eaa26883cbe91e0ef51db935c0bf4">ogdf::PlanRepExpansion</a>
@@ -1107,7 +1079,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classogdf_1_1_graph.html#acc0ac1b11b7cd584e29e8e884d019f74">ogdf::Graph</a>
 </li>
 <li>restoreChain()
-: <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#aa8bf59be8016b77242def03f16b560bd">ogdf::fast_multipole_embedder::LinearQuadtreeBuilder</a>
+: <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html#a573228abc1e25ce3d7dd7bf8330ff55d">ogdf::fast_multipole_embedder::LinearQuadtreeBuilder</a>
 </li>
 <li>restoreDeg1Nodes()
 : <a class="el" href="classogdf_1_1_i_o_points.html#a6b076f10e6b8a645b7fe7b547edf977c">ogdf::IOPoints</a>
@@ -1149,7 +1121,12 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 , <a class="el" href="classogdf_1_1internal_1_1_graph_list_base.html#abf73a287eba4555112fe50b2d2dcf2c9">ogdf::internal::GraphListBase</a>
 , <a class="el" href="classogdf_1_1_list_pure.html#a1838c94b95007881bccef1e091681840">ogdf::ListPure&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_planar_s_p_q_r_tree.html#a5313487f6160262193bdb926637e313d">ogdf::PlanarSPQRTree</a>
-, <a class="el" href="classogdf_1_1_s_list_pure.html#a541d6885ca880ad710dbb0a3eef4ea04">ogdf::SListPure&lt; E &gt;</a>
+</li>
+<li>Reverse()
+: <a class="el" href="classogdf_1_1_reverse.html#ad7bfdc8c0a4a3fdac76a218db048b030">ogdf::Reverse&lt; T &gt;</a>
+</li>
+<li>reverse()
+: <a class="el" href="classogdf_1_1_s_list_pure.html#a541d6885ca880ad710dbb0a3eef4ea04">ogdf::SListPure&lt; E &gt;</a>
 </li>
 <li>reverseAdjEdges()
 : <a class="el" href="classogdf_1_1_graph.html#ab42491244bc6f2682edca264d0759551">ogdf::Graph</a>
@@ -1180,10 +1157,10 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 , <a class="el" href="classogdf_1_1_d_rect.html#a668f8fee32147a720afd6aca043e2ec2">ogdf::DRect</a>
 , <a class="el" href="classogdf_1_1_leftist_ordering_1_1_partitioning.html#a81fb1694aaf9f9a0db4fcccb2183c5ef">ogdf::LeftistOrdering::Partitioning</a>
 , <a class="el" href="classogdf_1_1_shelling_order.html#a1070c530f022085f0833bc67c2be9b42">ogdf::ShellingOrder</a>
-, <a class="el" href="classogdf_1_1_shelling_order_set.html#ad52cde459d2bb40bd811477db8f20894">ogdf::ShellingOrderSet</a>
+, <a class="el" href="classogdf_1_1_shelling_order_set.html#ab04aafc1967bfe2d76286ed01cc2f762">ogdf::ShellingOrderSet</a>
 </li>
 <li>rightAdj()
-: <a class="el" href="classogdf_1_1_shelling_order_set.html#aa90cdb147d3b43fb26e149b8f104990e">ogdf::ShellingOrderSet</a>
+: <a class="el" href="classogdf_1_1_shelling_order_set.html#afee4fcd705fbe5ce1838f3cd98963387">ogdf::ShellingOrderSet</a>
 </li>
 <li>rightChildIndex()
 : <a class="el" href="classogdf_1_1_binary_heap.html#a740a1bfd94f3a5d12cfb16b6237e3341">ogdf::BinaryHeap&lt; T, C &gt;</a>
@@ -1250,7 +1227,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 </li>
 <li>rootTreeAt()
 : <a class="el" href="classogdf_1_1_dynamic_s_p_q_r_tree.html#ae636e948172e271e8bbf44bca0a87a52">ogdf::DynamicSPQRTree</a>
-, <a class="el" href="classogdf_1_1_s_p_q_r_tree.html#a6596949ceda68783201ecdfa43865ed1">ogdf::SPQRTree</a>
+, <a class="el" href="classogdf_1_1_s_p_q_r_tree.html#af8fbcf42c51249601833223bd628807e">ogdf::SPQRTree</a>
 , <a class="el" href="classogdf_1_1_static_s_p_q_r_tree.html#a028c98020d123a13c05e79ba30eb2802">ogdf::StaticSPQRTree</a>
 </li>
 <li>rotate()
@@ -1270,10 +1247,10 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classogdf_1_1_procrustes_point_set.html#a285dcb7e1dbe1845d04131c4484b7aa9">ogdf::ProcrustesPointSet</a>
 </li>
 <li>rotationAngle()
-: <a class="el" href="classogdf_1_1_g_e_m_layout.html#a749a0a896e995ff76bdd68dcb3fbf356">ogdf::GEMLayout</a>
+: <a class="el" href="classogdf_1_1_g_e_m_layout.html#a90e43a38230304e376c0c8e447a9da99">ogdf::GEMLayout</a>
 </li>
 <li>rotationSensitivity()
-: <a class="el" href="classogdf_1_1_g_e_m_layout.html#a398d214995b4b82e5fdcf05192c06d8a">ogdf::GEMLayout</a>
+: <a class="el" href="classogdf_1_1_g_e_m_layout.html#a93605ffd6f724605e668e8eeb5d9e455">ogdf::GEMLayout</a>
 </li>
 <li>RoutingChannel()
 : <a class="el" href="classogdf_1_1_routing_channel.html#abcc84cf25fc1dc9ade502f3b64d643c9">ogdf::RoutingChannel&lt; ATYPE &gt;</a>
@@ -1282,7 +1259,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classabacus_1_1_l_p.html#a0261fde619e348415b63928c944b3a52">abacus::LP</a>
 </li>
 <li>Row()
-: <a class="el" href="classabacus_1_1_row.html#a819e0a9d1f9eb2af96fe93dab6e17916">abacus::Row</a>
+: <a class="el" href="classabacus_1_1_row.html#a587d3d7c777ba174aeb212230caf2490">abacus::Row</a>
 </li>
 <li>row()
 : <a class="el" href="classabacus_1_1_row_con.html#aaeb7f4e0d6ed27b620731fa6994070c3">abacus::RowCon</a>
@@ -1291,7 +1268,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="structogdf_1_1_g_f2_solver_1_1_row2.html#a3843e2b3a52672fc6e265aa345f393a8">ogdf::GF2Solver::Row2</a>
 </li>
 <li>RowCon()
-: <a class="el" href="classabacus_1_1_row_con.html#ae1c67e5d590fcf052cb22db1bd700ee7">abacus::RowCon</a>
+: <a class="el" href="classabacus_1_1_row_con.html#a33e811349199ae113b40fb7c759e6290">abacus::RowCon</a>
 </li>
 <li>rowRangeCheck()
 : <a class="el" href="classabacus_1_1_l_p.html#ad4ca0aa1f3f77f98da42b772562b258a">abacus::LP</a>
@@ -1342,7 +1319,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 : <a class="el" href="classogdf_1_1_f_u_p_s_simple.html#a8f0fcf9abdfca361af7c77b1446e6140">ogdf::FUPSSimple</a>
 , <a class="el" href="classogdf_1_1_planar_subgraph_fast.html#a4440891594c0c13420a59490985a4fd6">ogdf::PlanarSubgraphFast&lt; TCost &gt;</a>
 , <a class="el" href="classogdf_1_1_subgraph_upward_planarizer.html#a8e5c3b4069b32fb894db1b0886de2fd1">ogdf::SubgraphUpwardPlanarizer</a>
-, <a class="el" href="classogdf_1_1_sugiyama_layout.html#a94087212e8afe01fbc12fbbbc6e44907">ogdf::SugiyamaLayout</a>
+, <a class="el" href="classogdf_1_1_sugiyama_layout.html#a769338ee048d5cc186fe834fe3d85f70">ogdf::SugiyamaLayout</a>
 </li>
 <li>runSingle()
 : <a class="el" href="classogdf_1_1_fast_multipole_embedder.html#a25869d97dc9a9311e49d4a9308355ada">ogdf::FastMultipoleEmbedder</a>
@@ -1352,7 +1329,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 , <a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#a8dc505d8fbd039773c3e8147142d5203">ogdf::FixEdgeInserterCore</a>
 , <a class="el" href="classogdf_1_1_var_edge_inserter_core.html#ad4c477618a0b2b9e88a6f0c3baa974a0">ogdf::VarEdgeInserterCore</a>
 , <a class="el" href="classogdf_1_1_var_edge_inserter_dyn_core.html#ad65f88be8d92de55b7a5a8ebbc6c4d7d">ogdf::VarEdgeInserterDynCore</a>
-, <a class="el" href="classogdf_1_1_variable_embedding_inserter_base.html#ade2698be032723c4a6903c19899ff8e8">ogdf::VariableEmbeddingInserterBase</a>
+, <a class="el" href="classogdf_1_1_variable_embedding_inserter_base.html#a4857188f9ddc4670814e1087cd316178">ogdf::VariableEmbeddingInserterBase</a>
 </li>
 <li>runThreads()
 : <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_f_m_e_thread_pool.html#a3f1c42ac07f2c0c30bee87d2a0f61000">ogdf::fast_multipole_embedder::FMEThreadPool</a>
@@ -1363,7 +1340,7 @@ $(document).ready(function(){initNavTree('functions_func_r.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

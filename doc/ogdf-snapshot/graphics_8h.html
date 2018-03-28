@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -122,7 +122,8 @@ $(document).ready(function(){initNavTree('graphics_8h.html','');});
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">graphics.h File Reference</div>  </div>
 </div><!--header-->
@@ -131,6 +132,9 @@ $(document).ready(function(){initNavTree('graphics_8h.html','');});
 <p>Declaration of basic types for graphics.  
 <a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;<a class="el" href="basic_8h_source.html">ogdf/basic/basic.h</a>&gt;</code><br />
+<code>#include &lt;map&gt;</code><br />
+<code>#include &lt;typeinfo&gt;</code><br />
+<code>#include &lt;<a class="el" href="_logger_8h_source.html">ogdf/basic/Logger.h</a>&gt;</code><br />
 </div>
 <p><a href="graphics_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -150,6 +154,8 @@ Classes</h2></td></tr>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceogdf"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html">ogdf</a></td></tr>
 <tr class="memdesc:namespaceogdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace for all OGDF objects. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceogdf_1_1graphics"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html">ogdf::graphics</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
@@ -224,6 +230,53 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga0a7e4d51d4a158cd5ff472f74758a1fa"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga0a7e4d51d4a158cd5ff472f74758a1fa">ogdf::fillPatternToString</a> (FillPattern fp)</td></tr>
+<tr class="memdesc:ga0a7e4d51d4a158cd5ff472f74758a1fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts fillpattern <code>fp</code> to string.  <a href="group__graph-drawing.html#ga0a7e4d51d4a158cd5ff472f74758a1fa">More...</a><br /></td></tr>
+<tr class="separator:ga0a7e4d51d4a158cd5ff472f74758a1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d10038516990a6a4d5536a0776780a7"><td class="memTemplParams" colspan="2">template&lt;class ToClass &gt; </td></tr>
+<tr class="memitem:a8d10038516990a6a4d5536a0776780a7"><td class="memTemplItemLeft" align="right" valign="top">ToClass&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a8d10038516990a6a4d5536a0776780a7">ogdf::fromString</a> (string key)</td></tr>
+<tr class="separator:a8d10038516990a6a4d5536a0776780a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c1aede64e8ba9203993f1f2c59e9d67"><td class="memTemplParams" colspan="2">template&lt;class ToClass &gt; </td></tr>
+<tr class="memitem:a8c1aede64e8ba9203993f1f2c59e9d67"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; string, ToClass &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a8c1aede64e8ba9203993f1f2c59e9d67">ogdf::graphics::getMapToEnum</a> ()</td></tr>
+<tr class="separator:a8c1aede64e8ba9203993f1f2c59e9d67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85c4ff854a4b62c38851b72563edec3b"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a85c4ff854a4b62c38851b72563edec3b"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; string, FillPattern &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a85c4ff854a4b62c38851b72563edec3b">ogdf::graphics::getMapToEnum</a> ()</td></tr>
+<tr class="separator:a85c4ff854a4b62c38851b72563edec3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5882d01cd5ade3a533a7b8eb90a7fb61"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a5882d01cd5ade3a533a7b8eb90a7fb61"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; string, Shape &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a5882d01cd5ade3a533a7b8eb90a7fb61">ogdf::graphics::getMapToEnum</a> ()</td></tr>
+<tr class="separator:a5882d01cd5ade3a533a7b8eb90a7fb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4df788860e534e595bb155f19a8e6dbd"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a4df788860e534e595bb155f19a8e6dbd"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; string, StrokeType &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a4df788860e534e595bb155f19a8e6dbd">ogdf::graphics::getMapToEnum</a> ()</td></tr>
+<tr class="separator:a4df788860e534e595bb155f19a8e6dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17eb17d3462b983600271db1073d298f"><td class="memTemplParams" colspan="2">template&lt;class FromClass &gt; </td></tr>
+<tr class="memitem:a17eb17d3462b983600271db1073d298f"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; FromClass, string &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a17eb17d3462b983600271db1073d298f">ogdf::graphics::getMapToString</a> ()</td></tr>
+<tr class="separator:a17eb17d3462b983600271db1073d298f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab7c8908424249023075075c91ddc71b"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:aab7c8908424249023075075c91ddc71b"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; FillPattern, string &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#aab7c8908424249023075075c91ddc71b">ogdf::graphics::getMapToString</a> ()</td></tr>
+<tr class="separator:aab7c8908424249023075075c91ddc71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cf347b86d1e3ca3493b35ced2f3c47d"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a1cf347b86d1e3ca3493b35ced2f3c47d"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; Shape, string &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a1cf347b86d1e3ca3493b35ced2f3c47d">ogdf::graphics::getMapToString</a> ()</td></tr>
+<tr class="separator:a1cf347b86d1e3ca3493b35ced2f3c47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3872c6827837fc51e5fa530cc4f643da"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a3872c6827837fc51e5fa530cc4f643da"><td class="memTemplItemLeft" align="right" valign="top">std::map&lt; StrokeType, string &gt; *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a3872c6827837fc51e5fa530cc4f643da">ogdf::graphics::getMapToString</a> ()</td></tr>
+<tr class="separator:a3872c6827837fc51e5fa530cc4f643da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c8aa47765dda6f8e1e6777ee83c330"><td class="memTemplParams" colspan="2">template&lt;class Enum &gt; </td></tr>
+<tr class="memitem:a28c8aa47765dda6f8e1e6777ee83c330"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a28c8aa47765dda6f8e1e6777ee83c330">ogdf::graphics::init</a> ()</td></tr>
+<tr class="separator:a28c8aa47765dda6f8e1e6777ee83c330"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51024ff7cd0c624879fc4c280dd5568f"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a51024ff7cd0c624879fc4c280dd5568f"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a51024ff7cd0c624879fc4c280dd5568f">ogdf::graphics::init&lt; FillPattern &gt;</a> ()</td></tr>
+<tr class="separator:a51024ff7cd0c624879fc4c280dd5568f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a958f09bc2c137838a2b0470073fc5e36"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a958f09bc2c137838a2b0470073fc5e36"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a958f09bc2c137838a2b0470073fc5e36">ogdf::graphics::init&lt; Shape &gt;</a> ()</td></tr>
+<tr class="separator:a958f09bc2c137838a2b0470073fc5e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2997cd6853bbaf1fd80fdf9f22fefeea"><td class="memTemplParams" colspan="2">template&lt;&gt; </td></tr>
+<tr class="memitem:a2997cd6853bbaf1fd80fdf9f22fefeea"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a2997cd6853bbaf1fd80fdf9f22fefeea">ogdf::graphics::init&lt; StrokeType &gt;</a> ()</td></tr>
+<tr class="separator:a2997cd6853bbaf1fd80fdf9f22fefeea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b49816799b3bb974b2909438b20f35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a16b49816799b3bb974b2909438b20f35">ogdf::initFillPatternHashing</a> ()</td></tr>
+<tr class="separator:a16b49816799b3bb974b2909438b20f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c34e0ea6820bb0eea898108498f21a3"><td class="memTemplParams" colspan="2">template&lt;class Enum &gt; </td></tr>
+<tr class="memitem:a2c34e0ea6820bb0eea898108498f21a3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a2c34e0ea6820bb0eea898108498f21a3">ogdf::graphics::initSecondMap</a> (std::map&lt; Enum, string &gt; &amp;fromMap, std::map&lt; string, Enum &gt; &amp;toMap)</td></tr>
+<tr class="separator:a2c34e0ea6820bb0eea898108498f21a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga435e1c2f4ee01077030fdbabc76f8445"><td class="memItemLeft" align="right" valign="top">FillPattern&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga435e1c2f4ee01077030fdbabc76f8445">ogdf::intToFillPattern</a> (int i)</td></tr>
 <tr class="memdesc:ga435e1c2f4ee01077030fdbabc76f8445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts integer <code>i</code> to fill pattern.  <a href="group__graph-drawing.html#ga435e1c2f4ee01077030fdbabc76f8445">More...</a><br /></td></tr>
 <tr class="separator:ga435e1c2f4ee01077030fdbabc76f8445"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -233,12 +286,45 @@ Functions</h2></td></tr>
 <tr class="memitem:a72db78444ee0e7d6256070cfa056078d"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a72db78444ee0e7d6256070cfa056078d">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const StrokeType &amp;st)</td></tr>
 <tr class="memdesc:a72db78444ee0e7d6256070cfa056078d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator.  <a href="namespaceogdf.html#a72db78444ee0e7d6256070cfa056078d">More...</a><br /></td></tr>
 <tr class="separator:a72db78444ee0e7d6256070cfa056078d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79d9e239b7b021647c0da9c885210963"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a79d9e239b7b021647c0da9c885210963">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const FillPattern &amp;fp)</td></tr>
-<tr class="memdesc:a79d9e239b7b021647c0da9c885210963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator.  <a href="namespaceogdf.html#a79d9e239b7b021647c0da9c885210963">More...</a><br /></td></tr>
-<tr class="separator:a79d9e239b7b021647c0da9c885210963"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02a39fc86c1ae14f51945af12f0d220"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ad02a39fc86c1ae14f51945af12f0d220">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const FillPattern &amp;fp)</td></tr>
+<tr class="memdesc:ad02a39fc86c1ae14f51945af12f0d220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator.  <a href="namespaceogdf.html#ad02a39fc86c1ae14f51945af12f0d220">More...</a><br /></td></tr>
+<tr class="separator:ad02a39fc86c1ae14f51945af12f0d220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2deee3e61c8b58b00e141651e4674b6b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a2deee3e61c8b58b00e141651e4674b6b">ogdf::operator&lt;&lt;</a> (std::ostream &amp;os, const EdgeArrow &amp;ea)</td></tr>
 <tr class="memdesc:a2deee3e61c8b58b00e141651e4674b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator.  <a href="namespaceogdf.html#a2deee3e61c8b58b00e141651e4674b6b">More...</a><br /></td></tr>
 <tr class="separator:a2deee3e61c8b58b00e141651e4674b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6486334f92b37e3c06032c34f4cdd6c7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga6486334f92b37e3c06032c34f4cdd6c7">ogdf::shapeToString</a> (Shape s)</td></tr>
+<tr class="memdesc:ga6486334f92b37e3c06032c34f4cdd6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts shape <code>s</code> to string.  <a href="group__graph-drawing.html#ga6486334f92b37e3c06032c34f4cdd6c7">More...</a><br /></td></tr>
+<tr class="separator:ga6486334f92b37e3c06032c34f4cdd6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0026baf06b7c3e290621fa9880262cb"><td class="memItemLeft" align="right" valign="top">FillPattern&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#gab0026baf06b7c3e290621fa9880262cb">ogdf::stringToFillPattern</a> (string s)</td></tr>
+<tr class="memdesc:gab0026baf06b7c3e290621fa9880262cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string <code>s</code> to fill pattern.  <a href="group__graph-drawing.html#gab0026baf06b7c3e290621fa9880262cb">More...</a><br /></td></tr>
+<tr class="separator:gab0026baf06b7c3e290621fa9880262cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga39d7e37e69e1b0227f7414f115e1935f"><td class="memItemLeft" align="right" valign="top">Shape&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga39d7e37e69e1b0227f7414f115e1935f">ogdf::stringToShape</a> (string s)</td></tr>
+<tr class="memdesc:ga39d7e37e69e1b0227f7414f115e1935f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string <code>s</code> to shape.  <a href="group__graph-drawing.html#ga39d7e37e69e1b0227f7414f115e1935f">More...</a><br /></td></tr>
+<tr class="separator:ga39d7e37e69e1b0227f7414f115e1935f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2342d0627f164079cd0a2d77150d1247"><td class="memItemLeft" align="right" valign="top">StrokeType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga2342d0627f164079cd0a2d77150d1247">ogdf::stringToStrokeType</a> (string s)</td></tr>
+<tr class="memdesc:ga2342d0627f164079cd0a2d77150d1247"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string <code>s</code> to stroke type.  <a href="group__graph-drawing.html#ga2342d0627f164079cd0a2d77150d1247">More...</a><br /></td></tr>
+<tr class="separator:ga2342d0627f164079cd0a2d77150d1247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf59deb66f6c1c0fc8788d7295c426ec7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#gaf59deb66f6c1c0fc8788d7295c426ec7">ogdf::strokeTypeToString</a> (StrokeType st)</td></tr>
+<tr class="memdesc:gaf59deb66f6c1c0fc8788d7295c426ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string <code>s</code> to stroke type.  <a href="group__graph-drawing.html#gaf59deb66f6c1c0fc8788d7295c426ec7">More...</a><br /></td></tr>
+<tr class="separator:gaf59deb66f6c1c0fc8788d7295c426ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a8fda4de970af64edeec10da3d4752e"><td class="memTemplParams" colspan="2">template&lt;class FromClass &gt; </td></tr>
+<tr class="memitem:a8a8fda4de970af64edeec10da3d4752e"><td class="memTemplItemLeft" align="right" valign="top">string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a8a8fda4de970af64edeec10da3d4752e">ogdf::toString</a> (FromClass key)</td></tr>
+<tr class="separator:a8a8fda4de970af64edeec10da3d4752e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a8bc6821b28102b15e14c49234b365784"><td class="memItemLeft" align="right" valign="top">std::map&lt; FillPattern, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a8bc6821b28102b15e14c49234b365784">ogdf::graphics::fromFillPattern</a></td></tr>
+<tr class="separator:a8bc6821b28102b15e14c49234b365784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a571bab362f936c0fa3ebf58ba6c92e90"><td class="memItemLeft" align="right" valign="top">std::map&lt; Shape, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a571bab362f936c0fa3ebf58ba6c92e90">ogdf::graphics::fromShape</a></td></tr>
+<tr class="separator:a571bab362f936c0fa3ebf58ba6c92e90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa455e28047464192120af0605b642f0d"><td class="memItemLeft" align="right" valign="top">std::map&lt; StrokeType, string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#aa455e28047464192120af0605b642f0d">ogdf::graphics::fromStrokeType</a></td></tr>
+<tr class="separator:aa455e28047464192120af0605b642f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01ec304e1a09bfb35d001aa3016899a2"><td class="memItemLeft" align="right" valign="top">std::map&lt; string, FillPattern &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#a01ec304e1a09bfb35d001aa3016899a2">ogdf::graphics::toFillPattern</a></td></tr>
+<tr class="separator:a01ec304e1a09bfb35d001aa3016899a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad13bbfabf0690413de1ea9ad4ed37d2e"><td class="memItemLeft" align="right" valign="top">std::map&lt; string, Shape &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#ad13bbfabf0690413de1ea9ad4ed37d2e">ogdf::graphics::toShape</a></td></tr>
+<tr class="separator:ad13bbfabf0690413de1ea9ad4ed37d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af23668acc68bdd15b3efe32d9599b92e"><td class="memItemLeft" align="right" valign="top">std::map&lt; string, StrokeType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html#af23668acc68bdd15b3efe32d9599b92e">ogdf::graphics::toStrokeType</a></td></tr>
+<tr class="separator:af23668acc68bdd15b3efe32d9599b92e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Declaration of basic types for graphics. </p>
@@ -257,7 +343,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html">basic</a></li><li class="navelem"><a class="el" href="graphics_8h.html">graphics.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

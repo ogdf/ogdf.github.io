@@ -6,8 +6,8 @@ var classogdf_1_1_min_s_t_cut_max_flow =
       [ "NO_CUT", "classogdf_1_1_min_s_t_cut_max_flow.html#a64170920abf7fb6a811a023b513f290fa0a9c1273aab6ea7e3f3bdbfbadda3150", null ]
     ] ],
     [ "MinSTCutMaxFlow", "classogdf_1_1_min_s_t_cut_max_flow.html#ab22452a84267b1d36502c8b11aa420b0", null ],
-    [ "call", "classogdf_1_1_min_s_t_cut_max_flow.html#aa4827a52b9193d56798eb23e0324a368", null ],
-    [ "call", "classogdf_1_1_min_s_t_cut_max_flow.html#a3c2b2ee5a82d03aaa11a0a79b29706fa", null ],
+    [ "call", "classogdf_1_1_min_s_t_cut_max_flow.html#ade414f5ae81e6868c8474293d03a8692", null ],
+    [ "call", "classogdf_1_1_min_s_t_cut_max_flow.html#a5629f1a28395a7cef00a8b34f51804b7", null ],
     [ "call", "classogdf_1_1_min_s_t_cut_max_flow.html#a16afe78d6d7d04dded163cbc78ff2d50", null ],
     [ "computeCut", "classogdf_1_1_min_s_t_cut_max_flow.html#ab74bf2edf41110333b05e5cf0b864b67", null ],
     [ "frontCutIsComplementOfBackCut", "classogdf_1_1_min_s_t_cut_max_flow.html#adf086fccbde76cbcecc93e7f9177ba76", null ],

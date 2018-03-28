@@ -14,6 +14,7 @@ var searchData=
   ['regionallocator_3c_20uint32_5ft_20_3e',['RegionAllocator&lt; uint32_t &gt;',['../class_minisat_1_1_internal_1_1_region_allocator.html',1,'Minisat::Internal']]],
   ['repulsion',['Repulsion',['../classogdf_1_1davidson__harel_1_1_repulsion.html',1,'ogdf::davidson_harel']]],
   ['resolvedtrace',['ResolvedTrace',['../structbackward_1_1_resolved_trace.html',1,'backward']]],
+  ['reverse',['Reverse',['../classogdf_1_1_reverse.html',1,'ogdf']]],
   ['rm_5fptr',['rm_ptr',['../structbackward_1_1details_1_1rm__ptr.html',1,'backward::details']]],
   ['rm_5fptr_3c_20const_20t_20_2a_20_3e',['rm_ptr&lt; const T * &gt;',['../structbackward_1_1details_1_1rm__ptr_3_01const_01_t_01_5_01_4.html',1,'backward::details']]],
   ['rm_5fptr_3c_20t_20_2a_20_3e',['rm_ptr&lt; T * &gt;',['../structbackward_1_1details_1_1rm__ptr_3_01_t_01_5_01_4.html',1,'backward::details']]],

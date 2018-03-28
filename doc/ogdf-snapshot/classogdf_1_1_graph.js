@@ -45,6 +45,8 @@ var classogdf_1_1_graph =
     [ "firstEdge", "classogdf_1_1_graph.html#a570d6fc6fe21e4bc13399404d22c9621", null ],
     [ "firstNode", "classogdf_1_1_graph.html#aa4dbf08f1e4fc7057ffd332fe68d0599", null ],
     [ "genus", "classogdf_1_1_graph.html#aeb527046317b832e3317a257621b6b3a", null ],
+    [ "insert", "classogdf_1_1_graph.html#ae1619f37955862b44d04324fc73d579a", null ],
+    [ "insert", "classogdf_1_1_graph.html#a88effd88a4eb0086447d594636a6bbd1", null ],
     [ "lastEdge", "classogdf_1_1_graph.html#a4a5f7f2b144ae234f6a6293ad2e55ff1", null ],
     [ "lastNode", "classogdf_1_1_graph.html#a36a579f19234aafd4a3c69c5a3cefe65", null ],
     [ "maxAdjEntryIndex", "classogdf_1_1_graph.html#a73c8ce0eaea214b891c221f35c20396e", null ],

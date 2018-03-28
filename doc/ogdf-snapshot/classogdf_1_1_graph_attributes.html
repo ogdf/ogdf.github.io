@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -425,6 +425,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7d4d07cfb3cc2572faa82f1a3ede2e4b"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classogdf_1_1_d_rect.html">DRect</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph_attributes.html#a7d4d07cfb3cc2572faa82f1a3ede2e4b">boundingBox</a> () const</td></tr>
 <tr class="memdesc:a7d4d07cfb3cc2572faa82f1a3ede2e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the bounding box of the graph.  <a href="#a7d4d07cfb3cc2572faa82f1a3ede2e4b">More...</a><br /></td></tr>
 <tr class="separator:a7d4d07cfb3cc2572faa82f1a3ede2e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785675cee0b9667e6ccb59331981f453"><td class="memTemplParams" colspan="2">template&lt;class Rectangle  = DRect&gt; </td></tr>
+<tr class="memitem:a785675cee0b9667e6ccb59331981f453"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph_attributes.html#a785675cee0b9667e6ccb59331981f453">nodeBoundingBoxes</a> (<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; Rectangle &gt; &amp;boundingBoxes) const</td></tr>
+<tr class="memdesc:a785675cee0b9667e6ccb59331981f453"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the bounding rectangle for each node.  <a href="#a785675cee0b9667e6ccb59331981f453">More...</a><br /></td></tr>
+<tr class="separator:a785675cee0b9667e6ccb59331981f453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c244076f2824290aa16ca38fdabb8e8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph_attributes.html#a3c244076f2824290aa16ca38fdabb8e8">setAllWidth</a> (double w)</td></tr>
 <tr class="memdesc:a3c244076f2824290aa16ca38fdabb8e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the width of all nodes to <code>w</code>.  <a href="#a3c244076f2824290aa16ca38fdabb8e8">More...</a><br /></td></tr>
 <tr class="separator:a3c244076f2824290aa16ca38fdabb8e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1930,7 +1934,7 @@ Protected Attributes</h2></td></tr>
 <p>We hide the internal representation of semantic node types from the user to be able to change this later (semantic node type member array). We are not allowed to set association classes manually, only by calling createAssociationClass().</p>
 <dl class="section pre"><dt>Precondition</dt><dd><a class="el" href="classogdf_1_1_graph_attributes.html#ac72ce313c809a1ae8379742c49633c7d" title="Corresponds to node attributes x(node), y(node), width(node), height(node), and shape(node). ">nodeGraphics</a> are enabled </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_graph_attributes_8h_source.html#l01072">1072</a> of file <a class="el" href="_graph_attributes_8h_source.html">GraphAttributes.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph_attributes_8h_source.html#l01088">1088</a> of file <a class="el" href="_graph_attributes_8h_source.html">GraphAttributes.h</a>.</p>
 
 </div>
 </div>
@@ -2055,6 +2059,51 @@ Protected Attributes</h2></td></tr>
 <dl class="section pre"><dt>Precondition</dt><dd><a class="el" href="classogdf_1_1_graph_attributes.html#abdcf665fe2db344f18a8bb3ade9f4a20" title="Corresponds to edge attribute label(edge). ">edgeLabel</a> is enabled </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="_graph_attributes_8h_source.html#l00790">790</a> of file <a class="el" href="_graph_attributes_8h_source.html">GraphAttributes.h</a>.</p>
+
+</div>
+</div>
+<a id="a785675cee0b9667e6ccb59331981f453"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a785675cee0b9667e6ccb59331981f453">&#9670;&nbsp;</a></span>nodeBoundingBoxes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Rectangle  = DRect&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::GraphAttributes::nodeBoundingBoxes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; Rectangle &gt; &amp;&#160;</td>
+          <td class="paramname"><em>boundingBoxes</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Computes the bounding rectangle for each node. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Rectangle</td><td>is the kind of rectangle that should be created. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">boundingBoxes</td><td>is assigned the bounding rectangle for each node. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section pre"><dt>Precondition</dt><dd><a class="el" href="classogdf_1_1_graph_attributes.html#ac72ce313c809a1ae8379742c49633c7d" title="Corresponds to node attributes x(node), y(node), width(node), height(node), and shape(node). ">nodeGraphics</a> is enabled </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="_graph_attributes_8h_source.html#l01026">1026</a> of file <a class="el" href="_graph_attributes_8h_source.html">GraphAttributes.h</a>.</p>
 
 </div>
 </div>
@@ -4916,7 +4965,7 @@ Protected Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_graph_attributes.html">GraphAttributes</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

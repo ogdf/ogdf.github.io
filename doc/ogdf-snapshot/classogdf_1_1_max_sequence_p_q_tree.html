@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -464,7 +464,7 @@ template&lt;class T, class Y&gt; </div>
 <p>Returns alpha_1 = beta_1 = sum_{i in P(<code>nodePtr</code>)} w_i - max_{i in P(<code>nodePtr</code>)}{(w_i = a_i)}, where P(<code>nodePtr</code>) denotes the set of all pertinent children of the node <code>nodePtr</code> regardless whether <code>nodePtr</code> is a P- or a Q-node. </p>
 <p>Depicts the a-number if just one child of <code>nodePtr</code> is made a-node. This child is returned by the function <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#a88ad80c6515aad3cbb57ece9cb79c879" title="Returns alpha_1 = beta_1 = sum_{i in P(nodePtr)} w_i - max_{i in P(nodePtr)}{(w_i = a_i)}...">alpha1beta1Number()</a> using the pointer <code>aChild</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01590">1590</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01587">1587</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -509,7 +509,7 @@ template&lt;class T, class Y&gt; </div>
 <p>It Checks for consecutive sequences between all children of the Q-node <code>nodePtr</code>. The children which form a consecutive sequence are stored in a stack called <em>sequence</em> that is emptied, as soon as the end of the sequence is reached. When the stack is emptied, we count for the pertinent leaves in the front of the sequence, and update if necessary the sequence holding the maximum number of pertinent leaves in its frontier.</p>
 <p>Observe that if the sequence ends with a partial node, this node may form a consecutive sequence with its other siblings. Hence the partial node is pushed back onto the stack <em>sequence</em> after the stack has been emptied. </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01350">1350</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01347">1347</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -588,7 +588,7 @@ template&lt;class T, class Y&gt; </div>
 
 <p>Reimplemented from <a class="el" href="classogdf_1_1_p_q_tree.html#ab52db9d9ca5b62ec0a3edbe171624d6e">ogdf::PQTree&lt; T, whaInfo *, Y &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00486">486</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00483">483</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -623,7 +623,7 @@ template&lt;class T, class Y&gt; </div>
 
 <p>Reimplemented from <a class="el" href="classogdf_1_1_p_q_tree.html#aad3622dd2eb4a98178f63f13a6d452fb">ogdf::PQTree&lt; T, whaInfo *, Y &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00496">496</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00493">493</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -660,7 +660,7 @@ template&lt;class T, class Y&gt; </div>
 <p>In order to compute the maximal pertinent sequence the function <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#a8bcae03389fb3b773cae3d287a485c9b" title="Computes the maximal pertinent sequence S&#39; of elements of the set S, that can be reduced in a PQ-tree...">determineMinRemoveSequence()</a> computes the [w,h,a]-number of every pertinent node in the pertinent subtree of the PQ-tree. If the minimum of the h- and a-number of the root of the pertinent subtree is not 0, then the PQ-tree is not reducible. According to the [w,h,a]-numbering, this procedure computes a minimal number of pertinent leaves that have to be removed from of the PQ-tree to gain reducibility.</p>
 <p>The user should observe that removing the leaves from the PQ-tree, depicted by the pointers to their information class stored in <em>EliminatedElements</em> is a necessary but not sufficient action to gain reducibility. The client calling this function has to make sure that nodes, where the complete frontier has been removed during the process must be removed as well. This can easily be done using functions of the base class <a class="el" href="classogdf_1_1_p_q_tree.html">PQTree</a> such as <a class="el" href="classogdf_1_1_p_q_tree.html#a70a0040240c4da107e76844e86fe5954" title="Checks if child is the only child of parent. ">checkIfOnlyChild()</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00556">556</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00553">553</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -702,7 +702,7 @@ template&lt;class T , class Y &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classogdf_1_1_p_q_tree.html#a88cca4fcb55736c826a9ddd5802302c8">ogdf::PQTree&lt; T, whaInfo *, Y &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00513">513</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00510">510</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -748,7 +748,7 @@ template&lt;class T, class Y&gt; </div>
 <p>The procedure <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#aeb9594fefc5feb2eb416472c59e34b28" title="Checks the [w,h,a]-number of the pertinent root. ">findMinWHASequence()</a> is called by the procedure <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#a8bcae03389fb3b773cae3d287a485c9b" title="Computes the maximal pertinent sequence S&#39; of elements of the set S, that can be reduced in a PQ-tree...">determineMinRemoveSequence()</a>.</p>
 <p>Returns an <a class="el" href="classogdf_1_1_s_list.html" title="Singly linked lists (maintaining the length of the list). ">SList</a> <code>eliminatedKeys</code> of pointers to <a class="el" href="classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey. ">PQLeafKey</a>, describing the leaves that have to be removed. </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00694">694</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00691">691</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -782,7 +782,7 @@ template&lt;class T, class Y&gt; </div>
 <p>The parent pointer is needed during the <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#a9805faf4fb6286e49d4dc2e0167ca415" title="The function Bubble() is an overloaded function of the base template class PQTree. ">Bubble()</a> phase.</p>
 <p>In case that <code>nodePtr</code> does not have a valid pointer to its parent, it points to a node that is not contained in the tree anymore. Since we do not free the memory of such nodes, using the parent pointer of <code>nodePtr</code> does not cause runtime errors. The previous parent of <code>nodePtr</code> itself is marked as <a class="el" href="classogdf_1_1_p_q_node_root.html#a7729cc8321784a24f8a9391c11396e1ba05f2426d5da6511afee2c155ceadaab2" title="Nodes removed during the template reduction are marked as as Eliminated. Their memory is not freed...">PQNodeRoot::PQNodeStatus::Eliminated</a>, denoting a node that has been removed from the tree. Since such a <code>nodePtr</code> with a non-valid parent pointer can only appear somewhere between the children of a Q-node, the function <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#a3833d5517f5f796da145b18d9b28c5cb" title="Computes for the node nodePtr its valid parent in the PQ-tree. ">GetParent()</a> sweeps through the siblings of <code>nodePtr</code> to get a valid parent pointer from the endmost child, thereby updating the parent pointers of all the siblings between the endmost child and <code>nodePtr</code>. Since the number of children of Q-nodes corresponds to the number of cutvertices in the bushform, the total number of children updated by <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#a3833d5517f5f796da145b18d9b28c5cb" title="Computes for the node nodePtr its valid parent in the PQ-tree. ">GetParent()</a> is in O(n) for every call of <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#a9805faf4fb6286e49d4dc2e0167ca415" title="The function Bubble() is an overloaded function of the base template class PQTree. ">Bubble()</a>. Hence the complexity of the update procedure is bounded by O(n^2). </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01664">1664</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01661">1661</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -814,7 +814,7 @@ template&lt;class T, class Y&gt; </div>
 
 <p>Computes the h- and a-number of a P-node <code>nodePtr</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01106">1106</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01103">1103</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -847,7 +847,7 @@ template&lt;class T, class Y&gt; </div>
 <p>Computes the h- and a-number of the partial Q-node <code>nodePtr</code>. </p>
 <p>Furthermore sets the children <em>aChild</em>, <em>hChild1</em> and <em>hChild2</em> of the node information class whaInfo* of <code>nodePtr</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01202">1202</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01199">1199</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -890,7 +890,7 @@ template&lt;class T, class Y&gt; </div>
 <p>Computes the h-number of the partial Q-node <code>nodePtr</code>. </p>
 <p>Furthermore sets the child <em>hChild1</em> of the node information class whaInfo* of <code>nodePtr</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01215">1215</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01212">1212</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -947,7 +947,7 @@ template&lt;class T, class Y&gt; </div>
 </dl>
 <p>The function <a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html#a2c90fdc13fee1ddac9c50a38e0b169b2" title="Marks all full and/or partial children of nodePtr as either an a-, b-, h- or w-node. ">markPertinentChildren()</a> uses just a pointer <em>currentNode</em> for tracing the pertinent children of <code>nodePtr</code>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01069">1069</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01066">1066</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -998,7 +998,7 @@ template&lt;class T, class Y&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the number of pertinent children of the Q-node according to the [w,h,a]-numbering. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00990">990</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00987">987</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1038,7 +1038,7 @@ template&lt;class T, class Y&gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>number of pertinent children, corresponding to the [w,h,a]-numbering. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00932">932</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l00929">929</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1070,7 @@ template&lt;class T, class Y&gt; </div>
 
 <p>Returns <em>w</em> = sum_{i in P(<code>nodePtr</code>)}w_i, where <code>nodePtr</code> is any pertinent node of the PQ-tree. </p>
 
-<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01642">1642</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_sequence_p_q_tree_8h_source.html#l01639">1639</a> of file <a class="el" href="_max_sequence_p_q_tree_8h_source.html">MaxSequencePQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1142,7 +1142,7 @@ template&lt;class T, class Y&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_max_sequence_p_q_tree.html">MaxSequencePQTree</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

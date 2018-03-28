@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['n_5ftype',['n_type',['../classogdf_1_1_cluster_ortho_shaper.html#a4384bd1505d1e3953c3429427b65583e',1,'ogdf::ClusterOrthoShaper']]],
-  ['name',['Name',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125',1,'ogdf::Color']]],
-  ['networknodetype',['NetworkNodeType',['../classogdf_1_1_ortho_shaper.html#a64b212b64b81010f965907dc9a2134e6',1,'ogdf::OrthoShaper']]],
-  ['nodeattribute',['NodeAttribute',['../namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392',1,'ogdf::gdf']]],
-  ['nodeselection',['NodeSelection',['../classogdf_1_1_circle_placer.html#a8aa1786e0ea8f45e5ad0307a82a2abe7',1,'ogdf::CirclePlacer']]],
-  ['nodetype',['NodeType',['../classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741d',1,'ogdf::Graph::NodeType()'],['../classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25',1,'ogdf::SPQRTree::NodeType()'],['../classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a33bd296a7c0006707331a8bf10682675',1,'ogdf::MaxFlowSTPlanarItaiShiloach::NodeType()'],['../classogdf_1_1_extended_nesting_graph.html#a2d4de7a62452de0aafb0b1005c100293',1,'ogdf::ExtendedNestingGraph::NodeType()']]]
+  ['optimizationgoal',['OptimizationGoal',['../classogdf_1_1_l_p_solver.html#a4ad57e60e520120e1a300b0aceaae357',1,'ogdf::LPSolver']]],
+  ['options',['Options',['../classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64',1,'ogdf::TopologyModule']]],
+  ['optstat',['OPTSTAT',['../classabacus_1_1_l_p.html#a395bcfe1e844ad315ef7751c2ecc7dce',1,'abacus::LP']]],
+  ['orientation',['Orientation',['../namespaceogdf.html#a4c7fa2c473d2bbd159ca465d748fcbe2',1,'ogdf']]],
+  ['orthobendtype',['OrthoBendType',['../namespaceogdf.html#ad107a6e5a6c9c18a8a8f9218c27909c2',1,'ogdf']]],
+  ['orthodir',['OrthoDir',['../namespaceogdf.html#a4bdd17a8ab5de5e40c436b5963be981a',1,'ogdf']]],
+  ['osisolver',['OSISOLVER',['../classabacus_1_1_master.html#a6a01f17d0710fe8d10f7e2238ee241b7',1,'abacus::Master']]]
 ];

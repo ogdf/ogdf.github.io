@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -120,7 +120,8 @@ $(document).ready(function(){initNavTree('_sorted_sequence_8h.html','');});
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a>  </div>
   <div class="headertitle">
 <div class="title">SortedSequence.h File Reference</div>  </div>
 </div><!--header-->
@@ -131,6 +132,7 @@ $(document).ready(function(){initNavTree('_sorted_sequence_8h.html','');});
 <div class="textblock"><code>#include &lt;random&gt;</code><br />
 <code>#include &lt;<a class="el" href="comparer_8h_source.html">ogdf/basic/comparer.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="memory_8h_source.html">ogdf/basic/memory.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_reverse_8h_source.html">ogdf/basic/Reverse.h</a>&gt;</code><br />
 </div>
 <p><a href="_sorted_sequence_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -142,17 +144,11 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1_sorted_sequence_1_1_element.html">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;::Element</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Internal structure to hold the items and internal forward/backward pointers of the skiplist.  <a href="structogdf_1_1_sorted_sequence_1_1_element.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_const_iterator.html">ogdf::SortedSequenceConstIterator&lt; KEY, INFO, CMP &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_const_iterator.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">ogdf::SortedSequenceIteratorBase&lt; KEY, INFO, CMP, isConst, isReverse &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_iterator_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_const_iterator.html">ogdf::SortedSequenceConstIterator&lt; KEY, INFO, CMP &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_const_iterator.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_iterator.html">ogdf::SortedSequenceIterator&lt; KEY, INFO, CMP &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_iterator.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_iterator.html">ogdf::SortedSequenceIterator&lt; KEY, INFO, CMP &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_iterator.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">ogdf::SortedSequenceIteratorBase&lt; KEY, INFO, CMP, isConst, isReverse &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_iterator_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -160,6 +156,21 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceogdf"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html">ogdf</a></td></tr>
 <tr class="memdesc:namespaceogdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace for all OGDF objects. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:ab99e4f2292a8be5612655dcb8d23db8f"><td class="memTemplParams" colspan="2">template&lt;class KEY , class INFO , class CMP &gt; </td></tr>
+<tr class="memitem:ab99e4f2292a8be5612655dcb8d23db8f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ab99e4f2292a8be5612655dcb8d23db8f">ogdf::SortedSequenceConstIterator</a> = SortedSequenceIteratorBase&lt; KEY, INFO, CMP, true, false &gt;</td></tr>
+<tr class="separator:ab99e4f2292a8be5612655dcb8d23db8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89735fa4d0ce3474420af1b9f1d8d954"><td class="memTemplParams" colspan="2">template&lt;class KEY , class INFO , class CMP &gt; </td></tr>
+<tr class="memitem:a89735fa4d0ce3474420af1b9f1d8d954"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a89735fa4d0ce3474420af1b9f1d8d954">ogdf::SortedSequenceConstReverseIterator</a> = SortedSequenceIteratorBase&lt; KEY, INFO, CMP, true, true &gt;</td></tr>
+<tr class="separator:a89735fa4d0ce3474420af1b9f1d8d954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c30fb5dcb70384c1c26d6bf630f3c44"><td class="memTemplParams" colspan="2">template&lt;class KEY , class INFO , class CMP &gt; </td></tr>
+<tr class="memitem:a7c30fb5dcb70384c1c26d6bf630f3c44"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a7c30fb5dcb70384c1c26d6bf630f3c44">ogdf::SortedSequenceIterator</a> = SortedSequenceIteratorBase&lt; KEY, INFO, CMP, false, false &gt;</td></tr>
+<tr class="separator:a7c30fb5dcb70384c1c26d6bf630f3c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af214a27f815769b9398085fff2ed203c"><td class="memTemplParams" colspan="2">template&lt;class KEY , class INFO , class CMP &gt; </td></tr>
+<tr class="memitem:af214a27f815769b9398085fff2ed203c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#af214a27f815769b9398085fff2ed203c">ogdf::SortedSequenceReverseIterator</a> = SortedSequenceIteratorBase&lt; KEY, INFO, CMP, false, true &gt;</td></tr>
+<tr class="separator:af214a27f815769b9398085fff2ed203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data type for sorted sequences (based on skiplists) </p>
@@ -178,7 +189,7 @@ Namespaces</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html">basic</a></li><li class="navelem"><a class="el" href="_sorted_sequence_8h.html">SortedSequence.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

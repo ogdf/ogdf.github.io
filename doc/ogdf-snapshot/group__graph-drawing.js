@@ -282,6 +282,7 @@ var group__graph_drawing =
       [ "label", "classogdf_1_1_graph_attributes.html#a158e0e079ec95ce2ec61d69bffd251d7", null ],
       [ "label", "classogdf_1_1_graph_attributes.html#ad93a053b2fef9de3fdefc5363b5c5571", null ],
       [ "label", "classogdf_1_1_graph_attributes.html#af37e974d9f90473a3fec44c879bc4d2c", null ],
+      [ "nodeBoundingBoxes", "classogdf_1_1_graph_attributes.html#a785675cee0b9667e6ccb59331981f453", null ],
       [ "removeSubGraph", "classogdf_1_1_graph_attributes.html#ab2afd10dd93ed3cb6e81a34e4740618b", null ],
       [ "removeUnnecessaryBendsHV", "classogdf_1_1_graph_attributes.html#a3155ffa41978d89397740f324f05adec", null ],
       [ "rotateLeft90", "classogdf_1_1_graph_attributes.html#a42653963d10113265b30833ed9a7dafb", null ],
@@ -479,14 +480,6 @@ var group__graph_drawing =
       [ "readLEDA", "classogdf_1_1_graph_i_o.html#ab7c2391993f48509a96280b3d784a941", null ],
       [ "readMatrixMarket", "classogdf_1_1_graph_i_o.html#a4d0261119cca24d3714b8930e8a1f69f", null ],
       [ "readMatrixMarket", "classogdf_1_1_graph_i_o.html#ac2b0e0459fa25d34d9b0b8a855071981", null ],
-      [ "readOGML", "classogdf_1_1_graph_i_o.html#aba47023080dc001bea250784aa01cb56", null ],
-      [ "readOGML", "classogdf_1_1_graph_i_o.html#ae071deff1bb21a79c5543fe1747546b5", null ],
-      [ "readOGML", "classogdf_1_1_graph_i_o.html#a53e26b1a00bf4b3745c738f42d6e1b23", null ],
-      [ "readOGML", "classogdf_1_1_graph_i_o.html#a82193742b5480f42ad1ed5799e40a650", null ],
-      [ "readOGML", "classogdf_1_1_graph_i_o.html#a02a2c1342654df61c84d810fe059a661", null ],
-      [ "readOGML", "classogdf_1_1_graph_i_o.html#ad07c9f7149fba4bc572410d4b806ccd4", null ],
-      [ "readOGML", "classogdf_1_1_graph_i_o.html#a5fa143a0c046a57f24612895aa03c7eb", null ],
-      [ "readOGML", "classogdf_1_1_graph_i_o.html#ab26b77bc010fb7cb234877e9324867a3", null ],
       [ "readPLA", "classogdf_1_1_graph_i_o.html#af531880a69821300c05e8624e2082516", null ],
       [ "readPLA", "classogdf_1_1_graph_i_o.html#a5eab04722783365f409151731a69d306", null ],
       [ "readPMDissGraph", "classogdf_1_1_graph_i_o.html#aca85d992eeb87566987b5022ecef698e", null ],
@@ -565,14 +558,6 @@ var group__graph_drawing =
       [ "writeGraphML", "classogdf_1_1_graph_i_o.html#a2ef344579c3653f292b84f7c22fea475", null ],
       [ "writeLEDA", "classogdf_1_1_graph_i_o.html#a9dcb24ecc3b5d2bbaba2ce0bda75a08e", null ],
       [ "writeLEDA", "classogdf_1_1_graph_i_o.html#ab1343276b083fd2d1a89b633a9e0aac3", null ],
-      [ "writeOGML", "classogdf_1_1_graph_i_o.html#aac360c2a52b5a83ac3369be6e4c7fc56", null ],
-      [ "writeOGML", "classogdf_1_1_graph_i_o.html#a741752c0157368a4e885f66121397f98", null ],
-      [ "writeOGML", "classogdf_1_1_graph_i_o.html#a9c4d898ee092f9a2eaadfde9376d0bd2", null ],
-      [ "writeOGML", "classogdf_1_1_graph_i_o.html#aa6958873d153597da43f06748619b186", null ],
-      [ "writeOGML", "classogdf_1_1_graph_i_o.html#a124c2884aa0744d1a6f33999b6a159ab", null ],
-      [ "writeOGML", "classogdf_1_1_graph_i_o.html#af7c949ac8a632c20acc1ffdca89ab36e", null ],
-      [ "writeOGML", "classogdf_1_1_graph_i_o.html#a588f6b26c5ab28e5d9e64471c6287ff7", null ],
-      [ "writeOGML", "classogdf_1_1_graph_i_o.html#a882363d2349c2776806a8963fe673f5f", null ],
       [ "writePMDissGraph", "classogdf_1_1_graph_i_o.html#a2967c0cec386256cdbb1609d58a8d97b", null ],
       [ "writePMDissGraph", "classogdf_1_1_graph_i_o.html#ac392fdfe52b4442d6f4edf266cb228d1", null ],
       [ "writeRome", "classogdf_1_1_graph_i_o.html#a8ae421744beb05241c2d7948f532356e", null ],
@@ -696,11 +681,13 @@ var group__graph_drawing =
       [ "s_defNodeWidth", "classogdf_1_1_layout_standards.html#afae3738ac39284201f0459db8867a8d1", null ]
     ] ],
     [ "LayoutStatistics", "classogdf_1_1_layout_statistics.html", [
-      [ "angularResolution", "classogdf_1_1_layout_statistics.html#a16ef37adddc1ad06afb5b74a3377a01f", null ],
-      [ "edgeLengths", "classogdf_1_1_layout_statistics.html#ab6b42b5d311661c8a6878e55b2922948", null ],
+      [ "angles", "classogdf_1_1_layout_statistics.html#aa43c7b1ef6358322486cc02605a7f028", null ],
+      [ "edgeLengths", "classogdf_1_1_layout_statistics.html#abd514d77d3f82a915c1ccd82669e51ae", null ],
       [ "intersectionGraph", "classogdf_1_1_layout_statistics.html#a9e7d910c001e57f61ff2535e58f2dea7", null ],
-      [ "numberOfBends", "classogdf_1_1_layout_statistics.html#ae6da09b21b8cb95dc317a1c3c8578f66", null ],
-      [ "numberOfCrossings", "classogdf_1_1_layout_statistics.html#a551887ede32648eaa119af9a9c288d6c", null ]
+      [ "numberOfBends", "classogdf_1_1_layout_statistics.html#a23ea75f79f7cbe46a9d6017a4434b9be", null ],
+      [ "numberOfCrossings", "classogdf_1_1_layout_statistics.html#a92564947f8c7715fffb02fc0701d4733", null ],
+      [ "numberOfNodeCrossings", "classogdf_1_1_layout_statistics.html#a4242b4649b74e1386d870f52a4cc4923", null ],
+      [ "numberOfNodeOverlaps", "classogdf_1_1_layout_statistics.html#add80e466360ba85a97731990c8b75f93", null ]
     ] ],
     [ "PreprocessorLayout", "classogdf_1_1_preprocessor_layout.html", [
       [ "EdgeData", "structogdf_1_1_preprocessor_layout_1_1_edge_data.html", [
@@ -788,6 +775,12 @@ var group__graph_drawing =
       [ "Dashdot", "group__graph-drawing.html#ggaabb5da401630956e2bd8873e08802915a57c71f70162967da6037e34640ba4ca2", null ],
       [ "Dashdotdot", "group__graph-drawing.html#ggaabb5da401630956e2bd8873e08802915a4dde0aef20ba62864241b0612d3897ed", null ]
     ] ],
+    [ "fillPatternToString", "group__graph-drawing.html#ga0a7e4d51d4a158cd5ff472f74758a1fa", null ],
     [ "intToFillPattern", "group__graph-drawing.html#ga435e1c2f4ee01077030fdbabc76f8445", null ],
-    [ "intToStrokeType", "group__graph-drawing.html#ga0a5d80ea79060b826eb9b3bbd3c07d89", null ]
+    [ "intToStrokeType", "group__graph-drawing.html#ga0a5d80ea79060b826eb9b3bbd3c07d89", null ],
+    [ "shapeToString", "group__graph-drawing.html#ga6486334f92b37e3c06032c34f4cdd6c7", null ],
+    [ "stringToFillPattern", "group__graph-drawing.html#gab0026baf06b7c3e290621fa9880262cb", null ],
+    [ "stringToShape", "group__graph-drawing.html#ga39d7e37e69e1b0227f7414f115e1935f", null ],
+    [ "stringToStrokeType", "group__graph-drawing.html#ga2342d0627f164079cd0a2d77150d1247", null ],
+    [ "strokeTypeToString", "group__graph-drawing.html#gaf59deb66f6c1c0fc8788d7295c426ec7", null ]
 ];

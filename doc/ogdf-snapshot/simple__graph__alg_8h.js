@@ -20,6 +20,8 @@ var simple__graph__alg_8h =
     [ "isArborescenceForest", "simple__graph__alg_8h.html#ga3f31efdcc4d4e581b0d05f11fc13675e", null ],
     [ "isBiconnected", "simple__graph__alg_8h.html#ga17796203f9633f8ccb1055fd07f17d3f", null ],
     [ "isBiconnected", "simple__graph__alg_8h.html#gafd4e07c4a9cd4f47ce1c8d8d90ab1251", null ],
+    [ "isBipartite", "simple__graph__alg_8h.html#a795f37852ee144392f768f111557f985", null ],
+    [ "isBipartite", "simple__graph__alg_8h.html#af226f8a4f66a45ae498f81e6474c9b1c", null ],
     [ "isConnected", "simple__graph__alg_8h.html#ga58d3a541294790f845eedb3f67040a6d", null ],
     [ "isForest", "simple__graph__alg_8h.html#ga4f18a35b415469dc04609034408c8b77", null ],
     [ "isForest", "simple__graph__alg_8h.html#gadb239ab1dc490cda86a8831a25fee026", null ],

@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -1261,7 +1261,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>Returns the keys stored in the leaves of the front of <code>nodePtr</code>. </p>
 <p>A specified node <code>nodePtr</code> of the PQ-tree is handed to the function and <a class="el" href="classogdf_1_1_p_q_tree.html#a0f3dfb30f8db95403c61bbec97069e0d" title="Returns the keys stored in the leaves of the front of nodePtr. ">front()</a> detects the leaves in the front of this node returning the elements represented by the leaves. These elements are stored in an array of keys named <code>leafKeys</code>. Observe that <a class="el" href="classogdf_1_1_p_q_tree.html#a0f3dfb30f8db95403c61bbec97069e0d" title="Returns the keys stored in the leaves of the front of nodePtr. ">front()</a> uses <code>leafKeys</code>[0] to store the first key. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l01988">1988</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l01987">1987</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1328,7 +1328,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Reimplemented in <a class="el" href="classogdf_1_1_planar_subgraph_p_q_tree.html#a73bce05b76cc2289f8a20795feb5bc1c">ogdf::PlanarSubgraphPQTree</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02033">2033</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02032">2032</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1371,7 +1371,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>Links the two endmost children of two <b>different</b> Q-nodes via their sibling pointers together. </p>
 <p>The purpose of doing this is to combine the children of two Q-nodes as children of only one Q-node. This function does not reset the pointers to the endmost children of the Q-node. This has to be done by the client of the function. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02061">2061</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02060">2060</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1436,7 +1436,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>The function <a class="el" href="classogdf_1_1_p_q_tree.html#a1e9389a26c6e8504ae34fddc3b4c5991" title="Performs the reduction of the pertinent leaves with the help of the template matchings, designed by Booth and Lueker. ">Reduce()</a> starts with the pertinent leaves and stores them in a queue <em>processNodes</em>. Every time a node is processed, its parent is checked whether all its pertinent children are already processed. If this is the case, the parent is allowed to be processed as well and stored in the queue.</p>
 <p>Processing a node means that the function <a class="el" href="classogdf_1_1_p_q_tree.html#a1e9389a26c6e8504ae34fddc3b4c5991" title="Performs the reduction of the pertinent leaves with the help of the template matchings, designed by Booth and Lueker. ">Reduce()</a> tries to apply one of the template matchings. In case that one template matching was successful, the node was reduced and <a class="el" href="classogdf_1_1_p_q_tree.html#a1e9389a26c6e8504ae34fddc3b4c5991" title="Performs the reduction of the pertinent leaves with the help of the template matchings, designed by Booth and Lueker. ">Reduce()</a> tries to reduce the next node. In case that no template matching was successfully applied, the tree is is irreducible. This causes the reduction process to be halted returning 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02288">2288</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02287">2287</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1472,7 +1472,7 @@ template&lt;class T, class X, class Y&gt; </div>
 
 <p>Reimplemented in <a class="el" href="classogdf_1_1_planar_subgraph_p_q_tree.html#a1ecef76136f37638c4be8b3a00d9ae58">ogdf::PlanarSubgraphPQTree</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02388">2388</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02387">2387</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1518,7 +1518,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>The node <code>nodePtr</code> is expected to be a Q-node with no, one or at most two partial children, such that the partial and full children of <code>nodePtr</code> form a legal consecutive sequence, hence can be reduced. </p>
 <p>Pointer to the first partial child </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02402">2402</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02401">2401</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1551,7 +1551,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>Removes the node <code>nodePtr</code> from the doubly linked list of its parent. </p>
 <p>In case that <code>nodePtr</code> is endmost child of an Q-node or child of a P-node equiped with a valid reference pointer <em>referenceParent</em> to its parent (see <a class="el" href="classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class. ">PQNode</a>), these pointers are considered as well and the adjacent siblings of <code>nodePtr</code> have to cover <code>nodePtr's</code> task. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02965">2965</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02960">2960</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1603,7 +1603,7 @@ template&lt;class T, class X, class Y&gt; </div>
 </ol>
 <p>Observe that <a class="el" href="classogdf_1_1_p_q_tree.html#a9e55e4addaa7de1ffb6e6332fd087892" title="The objective is to remove a node child from the PQ-tree. ">removeNodeFromTree()</a> does not free the allocated memory of <code>child</code>. This has to be done by the user <b>after</b> calling <a class="el" href="classogdf_1_1_p_q_tree.html#a9e55e4addaa7de1ffb6e6332fd087892" title="The objective is to remove a node child from the PQ-tree. ">removeNodeFromTree()</a>. It also offers the opportunity to reuse deleted nodes. Observe that the identification number of a node <a class="el" href="classogdf_1_1_p_q_tree.html#a75ed08b07f23d14328a91a7ba8bacc7a" title="Stores the total number of nodes that have been allocated. ">m_identificationNumber</a> (see <a class="el" href="classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class. ">PQNode</a>) cannot be changed. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03027">3027</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03022">3022</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1677,7 +1677,7 @@ template&lt;class T , class X , class Y &gt; </div>
 <p>Sorts the exceptions before frontExcept() scans the frontier. </p>
 <p>It is only called by the function frontExcept(). </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03045">3045</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03040">3040</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1722,7 +1722,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>If <a class="el" href="classogdf_1_1_p_q_tree.html#a230967681d50f958a8f1318f15e70638" title="Template matching for leaves. ">templateL1()</a> was responsible for <code>nodePtr</code> and the reduction was successful, the return value is 1. Otherwise the return value is 0.</p>
 <p>The function updates the <em>fullChildren</em> stack of its parent, as long as <code>nodePtr</code> is not the root of the pertinent subtree. Observe that <code>nodePtr</code> needs a valid pointer to its parent. This can be achieved by using the function <a class="el" href="classogdf_1_1_p_q_tree.html#ace5980fd70b9dbe14b2b09de22319761" title="Realizes a function described in [Booth]. ">Bubble()</a> or any other appropriate, user defined function. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03063">3063</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03058">3058</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1767,7 +1767,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>If <a class="el" href="classogdf_1_1_p_q_tree.html#a2a1d21d208da1a620292ff92a101dcf8" title="Template matching for P-nodes with only full children. ">templateP1()</a> was responsible for <code>nodePtr</code> and the reduction was successful, the return value is 1. Otherwise the return value is 0.</p>
 <p>If the P-node is not the root of the pertinent subtree, the <em>fullChildren</em> stack of the parent of <code>nodePtr</code> is updated. If the P-node is the root of the pertinent subtree, nothing has to be done. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03076">3076</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03071">3071</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1802,7 +1802,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>If <a class="el" href="classogdf_1_1_p_q_tree.html#ac4660c9511e753585cc5f77106de61e7" title="Template matching for a P-node with full and empty children that is the root of the pertinent subtree...">templateP2()</a> was responsible for <code>nodePtr</code> and the reduction was successful, the return value is 1. Otherwise the return value is 0.</p>
 <p>The function <a class="el" href="classogdf_1_1_p_q_tree.html#ac4660c9511e753585cc5f77106de61e7" title="Template matching for a P-node with full and empty children that is the root of the pertinent subtree...">templateP2()</a> creates a new full P-node that will be the new root of the pertinent subtree. It then copies all full children from <code>nodePtr</code> to the new root of the pertinent subtree. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03092">3092</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03087">3087</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1837,7 +1837,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>If <a class="el" href="classogdf_1_1_p_q_tree.html#a9b9b472f8e7c6bd35d2741850c7bcaac" title="Template matching for a P-node with full and empty children that is not the root of the pertinent sub...">templateP3()</a> was responsible for <code>nodePtr</code> and the reduction was successful, the return value is 1. Otherwise the return value is 0.</p>
 <p>The function <a class="el" href="classogdf_1_1_p_q_tree.html#a9b9b472f8e7c6bd35d2741850c7bcaac" title="Template matching for a P-node with full and empty children that is not the root of the pertinent sub...">templateP3()</a> creates a new full P-node, stored in <em>newPnode</em> and copies the full children of <code>nodePtr</code> to <em>newPnode</em>. <code>nodePtr</code> keeps all empty children and will be labeled empty. A new partial Q-node will be created and stored in <em>newQnode</em>. <em>newQnode</em> is placed at the position of <code>nodePtr</code> in the tree and gets two children: <code>nodePtr</code> itself and the newly created <em>newPnode</em>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03122">3122</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03117">3117</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1872,7 +1872,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>If <a class="el" href="classogdf_1_1_p_q_tree.html#a08ac709fa37043f44cbd15386d85b520" title="Template matching for a P-node with full, empty and exactly one partial children. ...">templateP4()</a> was responsible for <code>nodePtr</code> and the reduction was successful, the return value is 1. Otherwise the return value is 0.</p>
 <p>The function <a class="el" href="classogdf_1_1_p_q_tree.html#a08ac709fa37043f44cbd15386d85b520" title="Template matching for a P-node with full, empty and exactly one partial children. ...">templateP4()</a> creates a new full P-node, if neccessary, and copies the full children of <code>nodePtr</code> to this P-node. The new P-node then is made endmost child of <em>partialChild</em>. The node <em>partialChild</em> is used to store the adress of the partial child of <code>nodePtr</code>. The <em>partialChild</em> itself stays child of <code>nodePtr</code>. Most of the here described action is done in the function <a class="el" href="classogdf_1_1_p_q_tree.html#af75513a32b835a71780a48b3c09f90ec" title="Copies all full children of nodePtr to a new P-node The node nodePtr has to be a P-node. ">copyFullChildrenToPartial()</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03189">3189</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03184">3184</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1906,7 +1906,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>The P-node is not allowed to be the root of the pertinent subtree. The function requires as input any pointer to a node stored in <code>nodePtr</code>. If the node stored in <code>nodePtr</code> is a P-node with one partial child, <a class="el" href="classogdf_1_1_p_q_tree.html#a59dc0201fbefa391f83c3d7d28414530" title="Template matching for a P-node with full, empty children and exactly one partial child. ">templateP5()</a> considers itself responsible for the node and will apply the template matching <b>P5</b> to <code>nodePtr</code>. Observe that the user calling this function has to make sure that <code>nodePtr</code> is not the root of the pertinent subtree.</p>
 <p>If <a class="el" href="classogdf_1_1_p_q_tree.html#a59dc0201fbefa391f83c3d7d28414530" title="Template matching for a P-node with full, empty children and exactly one partial child. ">templateP5()</a> was responsible for <code>nodePtr</code> and the reduction was successful, the return value is 1. Otherwise the return value is 0. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03210">3210</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03205">3205</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1941,7 +1941,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>If <a class="el" href="classogdf_1_1_p_q_tree.html#a21c29c90e12637a2c1a91a59f67c9c74" title="Template matching for a P-node with full, empty and exactly two partial children. ...">templateP6()</a> was responsible for <code>nodePtr</code> and the reduction was successful, the return value is 1. Otherwise the return value is 0.</p>
 <p>The function <a class="el" href="classogdf_1_1_p_q_tree.html#a21c29c90e12637a2c1a91a59f67c9c74" title="Template matching for a P-node with full, empty and exactly two partial children. ...">templateP6()</a> creates, if neccessary, a new full P-node and copies all the full children of <code>nodePtr</code> to the new full P-node, whereas all empty children stay children of <code>nodePtr</code>. The new P-node will be copied to one of the partial children as endmost child of this partial node. The children of the second partial node are copied to the first one, such that the pertinent nodes form a consecutive sequence. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03306">3306</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03301">3301</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -1986,7 +1986,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <p>If <a class="el" href="classogdf_1_1_p_q_tree.html#a206e9453307cee62d87b915b3f33c036" title="Template matching for Q-nodes with only full children. ">templateQ1()</a> was responsible for <code>nodePtr</code> and the reduction was successful, the return value is 1. Otherwise the return value is 0.</p>
 <p>Different to the <a class="el" href="classogdf_1_1_p_q_tree.html#a2a1d21d208da1a620292ff92a101dcf8" title="Template matching for P-nodes with only full children. ">templateP1()</a> for P-nodes, this function is not able to check if Q-node is full by comparing the number of children with the number of full children. The reason is the application of the <a class="el" href="classogdf_1_1_p_q_tree.html#afaf037b32f2e61ee0056fb25fd91e536" title="a pointer to the virtual root of the pertinent subtree, in case that the pertinent root cannot be det...">m_pseudoRoot</a> at certain steps in the matching algorithm. This <a class="el" href="classogdf_1_1_p_q_tree.html#afaf037b32f2e61ee0056fb25fd91e536" title="a pointer to the virtual root of the pertinent subtree, in case that the pertinent root cannot be det...">m_pseudoRoot</a> is used instead of the real root of the pertinent subtree in case that no parent pointer was found. But this implies that changing the number of the children of the pertinent root is not registered by the pertinent root. Hence we are not allowed to use the <em>childCount</em> of Q-nodes. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03431">3431</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03426">3426</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -2036,7 +2036,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <li>partial, empty. </li>
 </ul>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03453">3453</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03448">3448</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -2066,7 +2066,7 @@ template&lt;class T, class X, class Y&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03561">3561</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l03556">3556</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -2090,7 +2090,7 @@ template&lt;class T , class X , class Y &gt; </div>
 
 <p>The function <a class="el" href="classogdf_1_1_p_q_tree.html#a5b7764739dfcfc6d7c956870ccdf0230" title="The function writeGML() prints the PQ-tree in the GML fileformat. ">writeGML()</a> prints the PQ-tree in the GML fileformat. </p>
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02089">2089</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02088">2088</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -2112,7 +2112,7 @@ template&lt;class T , class X , class Y &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02096">2096</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_p_q_tree_8h_source.html#l02095">2095</a> of file <a class="el" href="_p_q_tree_8h_source.html">PQTree.h</a>.</p>
 
 </div>
 </div>
@@ -2297,7 +2297,7 @@ template&lt;class T, class X, class Y&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_p_q_tree.html">PQTree</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

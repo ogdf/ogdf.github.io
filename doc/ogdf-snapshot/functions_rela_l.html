@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,18 +138,30 @@ $(document).ready(function(){initNavTree('functions_rela_l.html','');});
 <li>List&lt; E &gt;
 : <a class="el" href="classogdf_1_1_list_element.html#a9789918f98f4a0dd437d6f93285d083c">ogdf::ListElement&lt; E &gt;</a>
 </li>
-<li>ListIteratorBase&lt; E, !isConst &gt;
-: <a class="el" href="classogdf_1_1_list_iterator_base.html#a83c5886e51452df4e6a495d267f2ee00">ogdf::ListIteratorBase&lt; E, isConst &gt;</a>
+<li>ListIteratorBase&lt; E, !isConst, !isReverse &gt;
+: <a class="el" href="classogdf_1_1_list_iterator_base.html#a60fc7a7b2e6c958e3166e8bb55a319e2">ogdf::ListIteratorBase&lt; E, isConst, isReverse &gt;</a>
 </li>
-<li>ListIteratorBase&lt; E, false &gt;
-: <a class="el" href="classogdf_1_1_list_element.html#a79c3d5335b6387e8536c0766a5c5ddf9">ogdf::ListElement&lt; E &gt;</a>
+<li>ListIteratorBase&lt; E, !isConst, isReverse &gt;
+: <a class="el" href="classogdf_1_1_list_iterator_base.html#a3fa956d845cf84d153c10ad444216f90">ogdf::ListIteratorBase&lt; E, isConst, isReverse &gt;</a>
 </li>
-<li>ListIteratorBase&lt; E, true &gt;
-: <a class="el" href="classogdf_1_1_list_element.html#a7ecd676593f23b6a3b9af26dab4d6858">ogdf::ListElement&lt; E &gt;</a>
+<li>ListIteratorBase&lt; E, false, false &gt;
+: <a class="el" href="classogdf_1_1_list_element.html#a48d382d4a17570f23c156bd3bdf5b971">ogdf::ListElement&lt; E &gt;</a>
+</li>
+<li>ListIteratorBase&lt; E, false, true &gt;
+: <a class="el" href="classogdf_1_1_list_element.html#ad0ef439589abb8906a85a1b772c738de">ogdf::ListElement&lt; E &gt;</a>
+</li>
+<li>ListIteratorBase&lt; E, isConst, !isReverse &gt;
+: <a class="el" href="classogdf_1_1_list_iterator_base.html#ad17fe449b76e4b6503ac90b8ecee90be">ogdf::ListIteratorBase&lt; E, isConst, isReverse &gt;</a>
+</li>
+<li>ListIteratorBase&lt; E, true, false &gt;
+: <a class="el" href="classogdf_1_1_list_element.html#ad3059475de86c897019746dc81ef10a0">ogdf::ListElement&lt; E &gt;</a>
+</li>
+<li>ListIteratorBase&lt; E, true, true &gt;
+: <a class="el" href="classogdf_1_1_list_element.html#a085d7377d57d078ddc77a682ff62dfdb">ogdf::ListElement&lt; E &gt;</a>
 </li>
 <li>ListPure&lt; E &gt;
 : <a class="el" href="classogdf_1_1_list_element.html#ab725b0c230c786388dbc5e3c305d96e2">ogdf::ListElement&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_list_iterator_base.html#ab725b0c230c786388dbc5e3c305d96e2">ogdf::ListIteratorBase&lt; E, isConst &gt;</a>
+, <a class="el" href="classogdf_1_1_list_iterator_base.html#ab725b0c230c786388dbc5e3c305d96e2">ogdf::ListIteratorBase&lt; E, isConst, isReverse &gt;</a>
 </li>
 <li>LpSolution&lt; Constraint, Variable &gt;
 : <a class="el" href="classabacus_1_1_sub.html#ae4fc97a80de99c3272c02c78c6b69774">abacus::Sub</a>
@@ -166,7 +178,7 @@ $(document).ready(function(){initNavTree('functions_rela_l.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

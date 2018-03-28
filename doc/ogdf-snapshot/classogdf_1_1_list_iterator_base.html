@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
-<title>ogdf: ogdf::ListIteratorBase&lt; E, isConst &gt; Class Template Reference</title>
+<title>ogdf: ogdf::ListIteratorBase&lt; E, isConst, isReverse &gt; Class Template Reference</title>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -126,7 +126,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1_list_iterator_base.html'
 <a href="#friends">Friends</a> &#124;
 <a href="classogdf_1_1_list_iterator_base-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">ogdf::ListIteratorBase&lt; E, isConst &gt; Class Template Reference</div>  </div>
+<div class="title">ogdf::ListIteratorBase&lt; E, isConst, isReverse &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -137,81 +137,85 @@ $(document).ready(function(){initNavTree('classogdf_1_1_list_iterator_base.html'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a63b12fc31f654a6dc005d28535249eea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a63b12fc31f654a6dc005d28535249eea">ListIteratorBase</a> (<a class="el" href="classogdf_1_1_list_iterator_base.html#a3e62e7b1343310c50c2e1bd24be3c4f3">ListElem</a> *pX)</td></tr>
-<tr class="memdesc:a63b12fc31f654a6dc005d28535249eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an iterator that points to <code>pX</code>.  <a href="#a63b12fc31f654a6dc005d28535249eea">More...</a><br /></td></tr>
-<tr class="separator:a63b12fc31f654a6dc005d28535249eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c4e3680fff294b329974da226cc46d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a3c4e3680fff294b329974da226cc46d9">ListIteratorBase</a> ()</td></tr>
-<tr class="memdesc:a3c4e3680fff294b329974da226cc46d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an invalid iterator.  <a href="#a3c4e3680fff294b329974da226cc46d9">More...</a><br /></td></tr>
-<tr class="separator:a3c4e3680fff294b329974da226cc46d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae201bb4cf863a973223d37a5d7dcaa27"><td class="memTemplParams" colspan="2">template&lt;bool isArgConst, typename std::enable_if&lt; isConst||!isArgConst, int &gt;::type  = 0&gt; </td></tr>
-<tr class="memitem:ae201bb4cf863a973223d37a5d7dcaa27"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#ae201bb4cf863a973223d37a5d7dcaa27">ListIteratorBase</a> (const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isArgConst &gt; &amp;it)</td></tr>
-<tr class="memdesc:ae201bb4cf863a973223d37a5d7dcaa27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an iterator that is a copy of <code>it</code>.  <a href="#ae201bb4cf863a973223d37a5d7dcaa27">More...</a><br /></td></tr>
-<tr class="separator:ae201bb4cf863a973223d37a5d7dcaa27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f7ccc63e4389a49ce7bca7178eab89f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a4f7ccc63e4389a49ce7bca7178eab89f">operator!=</a> (const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;it) const</td></tr>
-<tr class="memdesc:a4f7ccc63e4389a49ce7bca7178eab89f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator.  <a href="#a4f7ccc63e4389a49ce7bca7178eab89f">More...</a><br /></td></tr>
-<tr class="separator:a4f7ccc63e4389a49ce7bca7178eab89f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72a9eecb7081c0003b7e24b7be11eee2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html#afa5d996505dd33e7ecc696bc6fa9a2e3">Elem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a72a9eecb7081c0003b7e24b7be11eee2">operator*</a> () const</td></tr>
-<tr class="memdesc:a72a9eecb7081c0003b7e24b7be11eee2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the element content.  <a href="#a72a9eecb7081c0003b7e24b7be11eee2">More...</a><br /></td></tr>
-<tr class="separator:a72a9eecb7081c0003b7e24b7be11eee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75e6ee1889839ca6ecd0af79f414d0cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a75e6ee1889839ca6ecd0af79f414d0cb">operator++</a> ()</td></tr>
-<tr class="memdesc:a75e6ee1889839ca6ecd0af79f414d0cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment operator (prefix).  <a href="#a75e6ee1889839ca6ecd0af79f414d0cb">More...</a><br /></td></tr>
-<tr class="separator:a75e6ee1889839ca6ecd0af79f414d0cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76d6ed9250b83ac9fa833d6559f17153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a76d6ed9250b83ac9fa833d6559f17153">operator++</a> (int)</td></tr>
-<tr class="memdesc:a76d6ed9250b83ac9fa833d6559f17153"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment operator (postfix).  <a href="#a76d6ed9250b83ac9fa833d6559f17153">More...</a><br /></td></tr>
-<tr class="separator:a76d6ed9250b83ac9fa833d6559f17153"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a912a8877bf8611adead2159224ec13ef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a912a8877bf8611adead2159224ec13ef">operator--</a> ()</td></tr>
-<tr class="memdesc:a912a8877bf8611adead2159224ec13ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement operator (prefix).  <a href="#a912a8877bf8611adead2159224ec13ef">More...</a><br /></td></tr>
-<tr class="separator:a912a8877bf8611adead2159224ec13ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9d197726ec634e1f54694b14a27d029"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#ad9d197726ec634e1f54694b14a27d029">operator--</a> (int)</td></tr>
-<tr class="memdesc:ad9d197726ec634e1f54694b14a27d029"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement operator (postfix).  <a href="#ad9d197726ec634e1f54694b14a27d029">More...</a><br /></td></tr>
-<tr class="separator:ad9d197726ec634e1f54694b14a27d029"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0cc146d7e14fcd59b21f64da48970aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#ae0cc146d7e14fcd59b21f64da48970aa">operator=</a> (const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;it)</td></tr>
-<tr class="memdesc:ae0cc146d7e14fcd59b21f64da48970aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#ae0cc146d7e14fcd59b21f64da48970aa">More...</a><br /></td></tr>
-<tr class="separator:ae0cc146d7e14fcd59b21f64da48970aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93c67561bfbc0bdbe5ed166f474b9bf6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a93c67561bfbc0bdbe5ed166f474b9bf6">operator==</a> (const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;it) const</td></tr>
-<tr class="memdesc:a93c67561bfbc0bdbe5ed166f474b9bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="#a93c67561bfbc0bdbe5ed166f474b9bf6">More...</a><br /></td></tr>
-<tr class="separator:a93c67561bfbc0bdbe5ed166f474b9bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82e9189f45e1163fa0ff928b371810de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a82e9189f45e1163fa0ff928b371810de">pred</a> () const</td></tr>
-<tr class="memdesc:a82e9189f45e1163fa0ff928b371810de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns predecessor iterator.  <a href="#a82e9189f45e1163fa0ff928b371810de">More...</a><br /></td></tr>
-<tr class="separator:a82e9189f45e1163fa0ff928b371810de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46ef891029e153ad5af9edc7e8e2441a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a46ef891029e153ad5af9edc7e8e2441a">succ</a> () const</td></tr>
-<tr class="memdesc:a46ef891029e153ad5af9edc7e8e2441a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns successor iterator.  <a href="#a46ef891029e153ad5af9edc7e8e2441a">More...</a><br /></td></tr>
-<tr class="separator:a46ef891029e153ad5af9edc7e8e2441a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d2af803c4d5177a55e52e199d8c89b0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a1d2af803c4d5177a55e52e199d8c89b0">valid</a> () const</td></tr>
-<tr class="memdesc:a1d2af803c4d5177a55e52e199d8c89b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the iterator points to an element.  <a href="#a1d2af803c4d5177a55e52e199d8c89b0">More...</a><br /></td></tr>
-<tr class="separator:a1d2af803c4d5177a55e52e199d8c89b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1580c64ea2a0a5fcfa075e37b0346324"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a1580c64ea2a0a5fcfa075e37b0346324">ListIteratorBase</a> (<a class="el" href="classogdf_1_1_list_iterator_base.html#aaa2e98c84af3d702485d072aba4f549b">ListElem</a> *pX)</td></tr>
+<tr class="memdesc:a1580c64ea2a0a5fcfa075e37b0346324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an iterator that points to <code>pX</code>.  <a href="#a1580c64ea2a0a5fcfa075e37b0346324">More...</a><br /></td></tr>
+<tr class="separator:a1580c64ea2a0a5fcfa075e37b0346324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58e97959c5400b49b3d32964606cf934"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a58e97959c5400b49b3d32964606cf934">ListIteratorBase</a> ()</td></tr>
+<tr class="memdesc:a58e97959c5400b49b3d32964606cf934"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an invalid iterator.  <a href="#a58e97959c5400b49b3d32964606cf934">More...</a><br /></td></tr>
+<tr class="separator:a58e97959c5400b49b3d32964606cf934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4dc53576248acaa31278ffbc65f18a"><td class="memTemplParams" colspan="2">template&lt;bool isArgConst, typename std::enable_if&lt; isConst||!isArgConst, int &gt;::type  = 0, bool isArgReverse&gt; </td></tr>
+<tr class="memitem:aac4dc53576248acaa31278ffbc65f18a"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#aac4dc53576248acaa31278ffbc65f18a">ListIteratorBase</a> (const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isArgConst, isArgReverse &gt; &amp;it)</td></tr>
+<tr class="memdesc:aac4dc53576248acaa31278ffbc65f18a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an iterator that is a copy of <code>it</code>.  <a href="#aac4dc53576248acaa31278ffbc65f18a">More...</a><br /></td></tr>
+<tr class="separator:aac4dc53576248acaa31278ffbc65f18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2295f95a2b468e38d8eecc167eefa35e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a2295f95a2b468e38d8eecc167eefa35e">operator!=</a> (const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;it) const</td></tr>
+<tr class="memdesc:a2295f95a2b468e38d8eecc167eefa35e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inequality operator.  <a href="#a2295f95a2b468e38d8eecc167eefa35e">More...</a><br /></td></tr>
+<tr class="separator:a2295f95a2b468e38d8eecc167eefa35e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e58bafdc34d2138f3f23aef6c1a5007"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html#a909827192a5ccafb67328b8adbb7b107">Elem</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a4e58bafdc34d2138f3f23aef6c1a5007">operator*</a> () const</td></tr>
+<tr class="memdesc:a4e58bafdc34d2138f3f23aef6c1a5007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the element content.  <a href="#a4e58bafdc34d2138f3f23aef6c1a5007">More...</a><br /></td></tr>
+<tr class="separator:a4e58bafdc34d2138f3f23aef6c1a5007"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48ceaf7feaa6457453dfba9187c5583b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a48ceaf7feaa6457453dfba9187c5583b">operator++</a> ()</td></tr>
+<tr class="memdesc:a48ceaf7feaa6457453dfba9187c5583b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment operator (prefix).  <a href="#a48ceaf7feaa6457453dfba9187c5583b">More...</a><br /></td></tr>
+<tr class="separator:a48ceaf7feaa6457453dfba9187c5583b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d717e6b150c7c2fa4e07bca31c5b292"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a1d717e6b150c7c2fa4e07bca31c5b292">operator++</a> (int)</td></tr>
+<tr class="memdesc:a1d717e6b150c7c2fa4e07bca31c5b292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Increment operator (postfix).  <a href="#a1d717e6b150c7c2fa4e07bca31c5b292">More...</a><br /></td></tr>
+<tr class="separator:a1d717e6b150c7c2fa4e07bca31c5b292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af86e2666973f785a525aad2945e64881"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#af86e2666973f785a525aad2945e64881">operator--</a> ()</td></tr>
+<tr class="memdesc:af86e2666973f785a525aad2945e64881"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement operator (prefix).  <a href="#af86e2666973f785a525aad2945e64881">More...</a><br /></td></tr>
+<tr class="separator:af86e2666973f785a525aad2945e64881"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af66de3ad69c1eaeacf1387cd382382cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#af66de3ad69c1eaeacf1387cd382382cb">operator--</a> (int)</td></tr>
+<tr class="memdesc:af66de3ad69c1eaeacf1387cd382382cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrement operator (postfix).  <a href="#af66de3ad69c1eaeacf1387cd382382cb">More...</a><br /></td></tr>
+<tr class="separator:af66de3ad69c1eaeacf1387cd382382cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a213d68c8e6dfbf148a32a2a53b842bb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a213d68c8e6dfbf148a32a2a53b842bb3">operator=</a> (const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;it)</td></tr>
+<tr class="memdesc:a213d68c8e6dfbf148a32a2a53b842bb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator.  <a href="#a213d68c8e6dfbf148a32a2a53b842bb3">More...</a><br /></td></tr>
+<tr class="separator:a213d68c8e6dfbf148a32a2a53b842bb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a173de947e5461ce761d8edd8a0ae815a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a173de947e5461ce761d8edd8a0ae815a">operator==</a> (const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;it) const</td></tr>
+<tr class="memdesc:a173de947e5461ce761d8edd8a0ae815a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equality operator.  <a href="#a173de947e5461ce761d8edd8a0ae815a">More...</a><br /></td></tr>
+<tr class="separator:a173de947e5461ce761d8edd8a0ae815a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78874228ed91def1c99e339a10a67e0f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a78874228ed91def1c99e339a10a67e0f">pred</a> () const</td></tr>
+<tr class="memdesc:a78874228ed91def1c99e339a10a67e0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns predecessor iterator.  <a href="#a78874228ed91def1c99e339a10a67e0f">More...</a><br /></td></tr>
+<tr class="separator:a78874228ed91def1c99e339a10a67e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab122a9cbcfb1d0219a6736ecde7da7a7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#ab122a9cbcfb1d0219a6736ecde7da7a7">succ</a> () const</td></tr>
+<tr class="memdesc:ab122a9cbcfb1d0219a6736ecde7da7a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns successor iterator.  <a href="#ab122a9cbcfb1d0219a6736ecde7da7a7">More...</a><br /></td></tr>
+<tr class="separator:ab122a9cbcfb1d0219a6736ecde7da7a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a337149ad7f86d47a21c1b99dd6a04643"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a337149ad7f86d47a21c1b99dd6a04643">valid</a> () const</td></tr>
+<tr class="memdesc:a337149ad7f86d47a21c1b99dd6a04643"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff the iterator points to an element.  <a href="#a337149ad7f86d47a21c1b99dd6a04643">More...</a><br /></td></tr>
+<tr class="separator:a337149ad7f86d47a21c1b99dd6a04643"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private Types</h2></td></tr>
-<tr class="memitem:afa5d996505dd33e7ecc696bc6fa9a2e3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#afa5d996505dd33e7ecc696bc6fa9a2e3">Elem</a> = typename std::conditional&lt; isConst, const E, E &gt;::type</td></tr>
-<tr class="memdesc:afa5d996505dd33e7ecc696bc6fa9a2e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The underlying type, depending on isConst.  <a href="#afa5d996505dd33e7ecc696bc6fa9a2e3">More...</a><br /></td></tr>
-<tr class="separator:afa5d996505dd33e7ecc696bc6fa9a2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e62e7b1343310c50c2e1bd24be3c4f3"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a3e62e7b1343310c50c2e1bd24be3c4f3">ListElem</a> = typename std::conditional&lt; isConst, const <a class="el" href="classogdf_1_1_list_element.html">ListElement</a>&lt; E &gt;, <a class="el" href="classogdf_1_1_list_element.html">ListElement</a>&lt; E &gt; &gt;::type</td></tr>
-<tr class="memdesc:a3e62e7b1343310c50c2e1bd24be3c4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The underlying list element, depending on isConst.  <a href="#a3e62e7b1343310c50c2e1bd24be3c4f3">More...</a><br /></td></tr>
-<tr class="separator:a3e62e7b1343310c50c2e1bd24be3c4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a909827192a5ccafb67328b8adbb7b107"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a909827192a5ccafb67328b8adbb7b107">Elem</a> = typename std::conditional&lt; isConst, const E, E &gt;::type</td></tr>
+<tr class="memdesc:a909827192a5ccafb67328b8adbb7b107"><td class="mdescLeft">&#160;</td><td class="mdescRight">The underlying type, depending on isConst.  <a href="#a909827192a5ccafb67328b8adbb7b107">More...</a><br /></td></tr>
+<tr class="separator:a909827192a5ccafb67328b8adbb7b107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa2e98c84af3d702485d072aba4f549b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#aaa2e98c84af3d702485d072aba4f549b">ListElem</a> = typename std::conditional&lt; isConst, const <a class="el" href="classogdf_1_1_list_element.html">ListElement</a>&lt; E &gt;, <a class="el" href="classogdf_1_1_list_element.html">ListElement</a>&lt; E &gt; &gt;::type</td></tr>
+<tr class="memdesc:aaa2e98c84af3d702485d072aba4f549b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The underlying list element, depending on isConst.  <a href="#aaa2e98c84af3d702485d072aba4f549b">More...</a><br /></td></tr>
+<tr class="separator:aaa2e98c84af3d702485d072aba4f549b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:acb6e44b6961d5748dc8ead3401ed1717"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#acb6e44b6961d5748dc8ead3401ed1717">operator ListElem *</a> ()</td></tr>
-<tr class="memdesc:acb6e44b6961d5748dc8ead3401ed1717"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to pointer to list element.  <a href="#acb6e44b6961d5748dc8ead3401ed1717">More...</a><br /></td></tr>
-<tr class="separator:acb6e44b6961d5748dc8ead3401ed1717"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeeaac14620a7b1c33f1ba4cb9802076e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#aeeaac14620a7b1c33f1ba4cb9802076e">operator ListElem *</a> ()</td></tr>
+<tr class="memdesc:aeeaac14620a7b1c33f1ba4cb9802076e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Conversion to pointer to list element.  <a href="#aeeaac14620a7b1c33f1ba4cb9802076e">More...</a><br /></td></tr>
+<tr class="separator:aeeaac14620a7b1c33f1ba4cb9802076e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:adb4cea67ce8370954a64d1ed325f129b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html#a3e62e7b1343310c50c2e1bd24be3c4f3">ListElem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#adb4cea67ce8370954a64d1ed325f129b">m_pX</a></td></tr>
-<tr class="memdesc:adb4cea67ce8370954a64d1ed325f129b"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to list element  <a href="#adb4cea67ce8370954a64d1ed325f129b">More...</a><br /></td></tr>
-<tr class="separator:adb4cea67ce8370954a64d1ed325f129b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a911abc9030405c68105a3f882d719623"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_list_iterator_base.html#aaa2e98c84af3d702485d072aba4f549b">ListElem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a911abc9030405c68105a3f882d719623">m_pX</a></td></tr>
+<tr class="memdesc:a911abc9030405c68105a3f882d719623"><td class="mdescLeft">&#160;</td><td class="mdescRight">pointer to list element  <a href="#a911abc9030405c68105a3f882d719623">More...</a><br /></td></tr>
+<tr class="separator:a911abc9030405c68105a3f882d719623"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a83c5886e51452df4e6a495d267f2ee00"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a83c5886e51452df4e6a495d267f2ee00">ListIteratorBase&lt; E, !isConst &gt;</a></td></tr>
-<tr class="separator:a83c5886e51452df4e6a495d267f2ee00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60fc7a7b2e6c958e3166e8bb55a319e2"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a60fc7a7b2e6c958e3166e8bb55a319e2">ListIteratorBase&lt; E, !isConst, !isReverse &gt;</a></td></tr>
+<tr class="separator:a60fc7a7b2e6c958e3166e8bb55a319e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fa956d845cf84d153c10ad444216f90"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#a3fa956d845cf84d153c10ad444216f90">ListIteratorBase&lt; E, !isConst, isReverse &gt;</a></td></tr>
+<tr class="separator:a3fa956d845cf84d153c10ad444216f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad17fe449b76e4b6503ac90b8ecee90be"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#ad17fe449b76e4b6503ac90b8ecee90be">ListIteratorBase&lt; E, isConst, !isReverse &gt;</a></td></tr>
+<tr class="separator:ad17fe449b76e4b6503ac90b8ecee90be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab725b0c230c786388dbc5e3c305d96e2"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list_iterator_base.html#ab725b0c230c786388dbc5e3c305d96e2">ListPure&lt; E &gt;</a></td></tr>
 <tr class="separator:ab725b0c230c786388dbc5e3c305d96e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class E, bool isConst&gt;<br />
-class ogdf::ListIteratorBase&lt; E, isConst &gt;</h3>
+<div class="textblock"><h3>template&lt;class E, bool isConst, bool isReverse&gt;<br />
+class ogdf::ListIteratorBase&lt; E, isConst, isReverse &gt;</h3>
 
 <p>Encapsulates a pointer to a list element. </p>
 <p>It is used in order to iterate over doubly linked lists, and to specify a position in a doubly linked list. It is possible that an iterator encapsulates a null pointer.</p>
@@ -219,25 +223,26 @@ class ogdf::ListIteratorBase&lt; E, isConst &gt;</h3>
   <table class="tparams">
     <tr><td class="paramname">E</td><td>The type of element. </td></tr>
     <tr><td class="paramname">isConst</td><td>True iff this iterator allows only const-access to the element. </td></tr>
+    <tr><td class="paramname">isReverse</td><td>True iff this iterator is a reverse iterator. </td></tr>
   </table>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00041">41</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00042">42</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="afa5d996505dd33e7ecc696bc6fa9a2e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa5d996505dd33e7ecc696bc6fa9a2e3">&#9670;&nbsp;</a></span>Elem</h2>
+<a id="a909827192a5ccafb67328b8adbb7b107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a909827192a5ccafb67328b8adbb7b107">&#9670;&nbsp;</a></span>Elem</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html#afa5d996505dd33e7ecc696bc6fa9a2e3">Elem</a> =  typename std::conditional&lt;isConst, const E, E&gt;::type</td>
+          <td class="memname">using <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html#a909827192a5ccafb67328b8adbb7b107">Elem</a> =  typename std::conditional&lt;isConst, const E, E&gt;::type</td>
         </tr>
       </table>
   </td>
@@ -249,23 +254,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>The underlying type, depending on isConst. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00092">92</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00100">100</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a3e62e7b1343310c50c2e1bd24be3c4f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e62e7b1343310c50c2e1bd24be3c4f3">&#9670;&nbsp;</a></span>ListElem</h2>
+<a id="aaa2e98c84af3d702485d072aba4f549b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa2e98c84af3d702485d072aba4f549b">&#9670;&nbsp;</a></span>ListElem</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html#a3e62e7b1343310c50c2e1bd24be3c4f3">ListElem</a> =  typename std::conditional&lt;isConst, const <a class="el" href="classogdf_1_1_list_element.html">ListElement</a>&lt;E&gt;, <a class="el" href="classogdf_1_1_list_element.html">ListElement</a>&lt;E&gt; &gt;::type</td>
+          <td class="memname">using <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html#aaa2e98c84af3d702485d072aba4f549b">ListElem</a> =  typename std::conditional&lt;isConst, const <a class="el" href="classogdf_1_1_list_element.html">ListElement</a>&lt;E&gt;, <a class="el" href="classogdf_1_1_list_element.html">ListElement</a>&lt;E&gt; &gt;::type</td>
         </tr>
       </table>
   </td>
@@ -277,26 +282,26 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>The underlying list element, depending on isConst. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00090">90</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00098">98</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a63b12fc31f654a6dc005d28535249eea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63b12fc31f654a6dc005d28535249eea">&#9670;&nbsp;</a></span>ListIteratorBase() <span class="overload">[1/3]</span></h2>
+<a id="a1580c64ea2a0a5fcfa075e37b0346324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1580c64ea2a0a5fcfa075e37b0346324">&#9670;&nbsp;</a></span>ListIteratorBase() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a> </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_list_iterator_base.html#a3e62e7b1343310c50c2e1bd24be3c4f3">ListElem</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_list_iterator_base.html#aaa2e98c84af3d702485d072aba4f549b">ListElem</a> *&#160;</td>
           <td class="paramname"><em>pX</em></td><td>)</td>
           <td></td>
         </tr>
@@ -310,23 +315,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Constructs an iterator that points to <code>pX</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00102">102</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00110">110</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a3c4e3680fff294b329974da226cc46d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c4e3680fff294b329974da226cc46d9">&#9670;&nbsp;</a></span>ListIteratorBase() <span class="overload">[2/3]</span></h2>
+<a id="a58e97959c5400b49b3d32964606cf934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58e97959c5400b49b3d32964606cf934">&#9670;&nbsp;</a></span>ListIteratorBase() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a> </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -341,27 +346,27 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Constructs an invalid iterator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00105">105</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00113">113</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="ae201bb4cf863a973223d37a5d7dcaa27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae201bb4cf863a973223d37a5d7dcaa27">&#9670;&nbsp;</a></span>ListIteratorBase() <span class="overload">[3/3]</span></h2>
+<a id="aac4dc53576248acaa31278ffbc65f18a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac4dc53576248acaa31278ffbc65f18a">&#9670;&nbsp;</a></span>ListIteratorBase() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <div class="memtemplate">
-template&lt;bool isArgConst, typename std::enable_if&lt; isConst||!isArgConst, int &gt;::type  = 0&gt; </div>
+template&lt;bool isArgConst, typename std::enable_if&lt; isConst||!isArgConst, int &gt;::type  = 0, bool isArgReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a> </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::<a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isArgConst &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isArgConst, isArgReverse &gt; &amp;&#160;</td>
           <td class="paramname"><em>it</em></td><td>)</td>
           <td></td>
         </tr>
@@ -375,24 +380,24 @@ template&lt;bool isArgConst, typename std::enable_if&lt; isConst||!isArgConst, i
 
 <p>Constructs an iterator that is a copy of <code>it</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00109">109</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00117">117</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="acb6e44b6961d5748dc8ead3401ed1717"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb6e44b6961d5748dc8ead3401ed1717">&#9670;&nbsp;</a></span>operator ListElem *()</h2>
+<a id="aeeaac14620a7b1c33f1ba4cb9802076e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeeaac14620a7b1c33f1ba4cb9802076e">&#9670;&nbsp;</a></span>operator ListElem *()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator <a class="el" href="classogdf_1_1_list_iterator_base.html#a3e62e7b1343310c50c2e1bd24be3c4f3">ListElem</a> * </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator <a class="el" href="classogdf_1_1_list_iterator_base.html#aaa2e98c84af3d702485d072aba4f549b">ListElem</a> * </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -407,25 +412,25 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Conversion to pointer to list element. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00098">98</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00106">106</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a4f7ccc63e4389a49ce7bca7178eab89f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f7ccc63e4389a49ce7bca7178eab89f">&#9670;&nbsp;</a></span>operator!=()</h2>
+<a id="a2295f95a2b468e38d8eecc167eefa35e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2295f95a2b468e38d8eecc167eefa35e">&#9670;&nbsp;</a></span>operator!=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator!= </td>
+          <td class="memname">bool <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator!= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;&#160;</td>
           <td class="paramname"><em>it</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -439,23 +444,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Inequality operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00128">128</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00136">136</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a72a9eecb7081c0003b7e24b7be11eee2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72a9eecb7081c0003b7e24b7be11eee2">&#9670;&nbsp;</a></span>operator*()</h2>
+<a id="a4e58bafdc34d2138f3f23aef6c1a5007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e58bafdc34d2138f3f23aef6c1a5007">&#9670;&nbsp;</a></span>operator*()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html#afa5d996505dd33e7ecc696bc6fa9a2e3">Elem</a>&amp; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator* </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html#a909827192a5ccafb67328b8adbb7b107">Elem</a>&amp; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator* </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -470,23 +475,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Returns a reference to the element content. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00139">139</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00151">151</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a75e6ee1889839ca6ecd0af79f414d0cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75e6ee1889839ca6ecd0af79f414d0cb">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+<a id="a48ceaf7feaa6457453dfba9187c5583b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48ceaf7feaa6457453dfba9187c5583b">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst&gt;&amp; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator++ </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst, isReverse&gt;&amp; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator++ </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -501,23 +506,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Increment operator (prefix). </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00148">148</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00160">160</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a76d6ed9250b83ac9fa833d6559f17153"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76d6ed9250b83ac9fa833d6559f17153">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
+<a id="a1d717e6b150c7c2fa4e07bca31c5b292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d717e6b150c7c2fa4e07bca31c5b292">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst&gt; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator++ </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst, isReverse&gt; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator++ </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -533,23 +538,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Increment operator (postfix). </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00154">154</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00166">166</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a912a8877bf8611adead2159224ec13ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a912a8877bf8611adead2159224ec13ef">&#9670;&nbsp;</a></span>operator--() <span class="overload">[1/2]</span></h2>
+<a id="af86e2666973f785a525aad2945e64881"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af86e2666973f785a525aad2945e64881">&#9670;&nbsp;</a></span>operator--() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst&gt;&amp; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator-- </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst, isReverse&gt;&amp; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator-- </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -564,23 +569,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Decrement operator (prefix). </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00161">161</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00173">173</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="ad9d197726ec634e1f54694b14a27d029"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9d197726ec634e1f54694b14a27d029">&#9670;&nbsp;</a></span>operator--() <span class="overload">[2/2]</span></h2>
+<a id="af66de3ad69c1eaeacf1387cd382382cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af66de3ad69c1eaeacf1387cd382382cb">&#9670;&nbsp;</a></span>operator--() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst&gt; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator-- </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst, isReverse&gt; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator-- </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
@@ -596,25 +601,25 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Decrement operator (postfix). </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00167">167</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00179">179</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="ae0cc146d7e14fcd59b21f64da48970aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0cc146d7e14fcd59b21f64da48970aa">&#9670;&nbsp;</a></span>operator=()</h2>
+<a id="a213d68c8e6dfbf148a32a2a53b842bb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a213d68c8e6dfbf148a32a2a53b842bb3">&#9670;&nbsp;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst&gt;&amp; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator= </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst, isReverse&gt;&amp; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;&#160;</td>
           <td class="paramname"><em>it</em></td><td>)</td>
           <td></td>
         </tr>
@@ -628,25 +633,25 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Assignment operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00142">142</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00154">154</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a93c67561bfbc0bdbe5ed166f474b9bf6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93c67561bfbc0bdbe5ed166f474b9bf6">&#9670;&nbsp;</a></span>operator==()</h2>
+<a id="a173de947e5461ce761d8edd8a0ae815a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a173de947e5461ce761d8edd8a0ae815a">&#9670;&nbsp;</a></span>operator==()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::operator== </td>
+          <td class="memname">bool <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::operator== </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, isReverse &gt; &amp;&#160;</td>
           <td class="paramname"><em>it</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -660,23 +665,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Equality operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00123">123</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00131">131</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a82e9189f45e1163fa0ff928b371810de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82e9189f45e1163fa0ff928b371810de">&#9670;&nbsp;</a></span>pred()</h2>
+<a id="a78874228ed91def1c99e339a10a67e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78874228ed91def1c99e339a10a67e0f">&#9670;&nbsp;</a></span>pred()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst&gt; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::pred </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst, isReverse&gt; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::pred </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -691,23 +696,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Returns predecessor iterator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00136">136</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00146">146</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a46ef891029e153ad5af9edc7e8e2441a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46ef891029e153ad5af9edc7e8e2441a">&#9670;&nbsp;</a></span>succ()</h2>
+<a id="ab122a9cbcfb1d0219a6736ecde7da7a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab122a9cbcfb1d0219a6736ecde7da7a7">&#9670;&nbsp;</a></span>succ()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst&gt; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::succ </td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, isConst, isReverse&gt; <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::succ </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -722,23 +727,23 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Returns successor iterator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00133">133</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00141">141</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
-<a id="a1d2af803c4d5177a55e52e199d8c89b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d2af803c4d5177a55e52e199d8c89b0">&#9670;&nbsp;</a></span>valid()</h2>
+<a id="a337149ad7f86d47a21c1b99dd6a04643"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a337149ad7f86d47a21c1b99dd6a04643">&#9670;&nbsp;</a></span>valid()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::valid </td>
+          <td class="memname">bool <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::valid </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -753,24 +758,24 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>Returns true iff the iterator points to an element. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00112">112</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00120">120</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a83c5886e51452df4e6a495d267f2ee00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83c5886e51452df4e6a495d267f2ee00">&#9670;&nbsp;</a></span>ListIteratorBase< E, !isConst ></h2>
+<a id="a60fc7a7b2e6c958e3166e8bb55a319e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60fc7a7b2e6c958e3166e8bb55a319e2">&#9670;&nbsp;</a></span>ListIteratorBase< E, !isConst, !isReverse ></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, !isConst &gt;</td>
+          <td class="memname">friend class <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, !isConst, !isReverse &gt;</td>
         </tr>
       </table>
   </td>
@@ -780,7 +785,59 @@ template&lt;class E, bool isConst&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00087">87</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00095">95</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+
+</div>
+</div>
+<a id="a3fa956d845cf84d153c10ad444216f90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fa956d845cf84d153c10ad444216f90">&#9670;&nbsp;</a></span>ListIteratorBase< E, !isConst, isReverse ></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, !isConst, isReverse &gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00093">93</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+
+</div>
+</div>
+<a id="ad17fe449b76e4b6503ac90b8ecee90be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad17fe449b76e4b6503ac90b8ecee90be">&#9670;&nbsp;</a></span>ListIteratorBase< E, isConst, !isReverse ></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, isConst, !isReverse &gt;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00094">94</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -790,7 +847,7 @@ template&lt;class E, bool isConst&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -806,24 +863,24 @@ template&lt;class E, bool isConst&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00088">88</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00096">96</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="adb4cea67ce8370954a64d1ed325f129b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb4cea67ce8370954a64d1ed325f129b">&#9670;&nbsp;</a></span>m_pX</h2>
+<a id="a911abc9030405c68105a3f882d719623"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a911abc9030405c68105a3f882d719623">&#9670;&nbsp;</a></span>m_pX</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class E, bool isConst&gt; </div>
+template&lt;class E, bool isConst, bool isReverse&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html#a3e62e7b1343310c50c2e1bd24be3c4f3">ListElem</a>* <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst &gt;::m_pX</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_list_iterator_base.html#aaa2e98c84af3d702485d072aba4f549b">ListElem</a>* <a class="el" href="classogdf_1_1_list_iterator_base.html">ogdf::ListIteratorBase</a>&lt; E, isConst, isReverse &gt;::m_pX</td>
         </tr>
       </table>
   </td>
@@ -835,7 +892,7 @@ template&lt;class E, bool isConst&gt; </div>
 
 <p>pointer to list element </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00095">95</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00103">103</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -848,7 +905,7 @@ template&lt;class E, bool isConst&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

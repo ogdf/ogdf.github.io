@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -165,6 +165,8 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceogdf_1_1_gml_parser_predefined_key"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_gml_parser_predefined_key.html">GmlParserPredefinedKey</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceogdf_1_1graphics"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphics.html">graphics</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceogdf_1_1graphml"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1graphml.html">graphml</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceogdf_1_1internal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html">internal</a></td></tr>
@@ -221,6 +223,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array_level.html">ArrayLevel</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The simple implementation of <a class="el" href="classogdf_1_1_level_base.html" title="Representation of levels in hierarchies. ">LevelBase</a> interface.  <a href="classogdf_1_1_array_level.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array_reverse_iterator_base.html">ArrayReverseIteratorBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random-access reverse iterator based on a pointer to an array element.  <a href="classogdf_1_1_array_reverse_iterator_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_a_star_search.html">AStarSearch</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A-Star informed search algorithm.  <a href="classogdf_1_1_a_star_search.html#details">More...</a><br /></td></tr>
@@ -378,9 +383,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coffman_graham_ranking.html">CoffmanGrahamRanking</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The coffman graham ranking algorithm.  <a href="classogdf_1_1_coffman_graham_ranking.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coin_callbacks.html">CoinCallbacks</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coin_manager.html">CoinManager</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If you use COIN-OR, you should use this class.  <a href="classogdf_1_1_coin_manager.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_color.html">Color</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Colors represented as RGBA values.  <a href="classogdf_1_1_color.html#details">More...</a><br /></td></tr>
@@ -900,12 +904,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_linear_layout.html">LinearLayout</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout the graph with nodes next to each other with natural or custom order and draw the edges as semicircular bows above them.  <a href="classogdf_1_1_linear_layout.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer.html">LineBuffer</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class maintains the input file and provides a convenient interface to handle it.  <a href="classogdf_1_1_line_buffer.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_line_buffer_position.html">LineBufferPosition</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class characterizes uniquely a position in the line buffer.  <a href="classogdf_1_1_line_buffer_position.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_list.html">List</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Doubly linked lists (maintaining the length of the list).  <a href="classogdf_1_1_list.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1006,7 +1004,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class implements the Directed Cut Integer Linear Program for the Steiner tree problem.  <a href="classogdf_1_1_min_steiner_tree_directed_cut.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_dual_ascent.html">MinSteinerTreeDualAscent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dual ascent approximation algorithm for Steiner tree problems.  <a href="classogdf_1_1_min_steiner_tree_dual_ascent.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dual ascent heuristic for the minimum Steiner tree problem.  <a href="classogdf_1_1_min_steiner_tree_dual_ascent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_goemans139.html">MinSteinerTreeGoemans139</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class implements the (1.39+epsilon)-approximation algorithm for the Steiner tree problem by Goemans et.  <a href="classogdf_1_1_min_steiner_tree_goemans139.html#details">More...</a><br /></td></tr>
@@ -1111,6 +1109,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1_node_pair.html">NodePair</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_respecter_layout.html">NodeRespecterLayout</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="classogdf_1_1_node_respecter_layout.html" title="The NodeRespecterLayout layout algorithm. ">NodeRespecterLayout</a> layout algorithm.  <a href="classogdf_1_1_node_respecter_layout.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_node_set.html">NodeSet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Node sets.  <a href="classogdf_1_1_node_set.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1119,11 +1120,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_no_std_comparer_exception.html">NoStdComparerException</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exception thrown when a required standard comparer has not been specialized.  <a href="classogdf_1_1_no_std_comparer_exception.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_ogml.html">Ogml</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_ogml_parser.html">OgmlParser</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Objects of this class represent a validating parser for files in Ogml.  <a href="classogdf_1_1_ogml_parser.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_optimal_hierarchy_cluster_layout.html">OptimalHierarchyClusterLayout</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The LP-based hierarchy cluster layout algorithm.  <a href="classogdf_1_1_optimal_hierarchy_cluster_layout.html#details">More...</a><br /></td></tr>
@@ -1311,6 +1307,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1_r_c_crossings.html">RCCrossings</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_reverse.html">Reverse</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper class to easily iterate through a container in reverse.  <a href="classogdf_1_1_reverse.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_r_m_heap.html">RMHeap</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Randomized meldable heap implementation.  <a href="classogdf_1_1_r_m_heap.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1401,11 +1400,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence.html">SortedSequence</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maintains a sequence of (key,info) pairs sorted by key.  <a href="classogdf_1_1_sorted_sequence.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_const_iterator.html">SortedSequenceConstIterator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_const_iterator.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_iterator.html">SortedSequenceIterator</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_iterator.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Iterators for sorted sequences.  <a href="classogdf_1_1_sorted_sequence_iterator_base.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_split_heuristic.html">SplitHeuristic</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The split heuristic for 2-layer crossing minimization.  <a href="classogdf_1_1_split_heuristic.html#details">More...</a><br /></td></tr>
@@ -1540,9 +1536,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_uml_model_graph.html">UmlModelGraph</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class represents the complete UML Model in a graph-like data structure.  <a href="classogdf_1_1_uml_model_graph.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_uml_to_graph_converter.html">UmlToGraphConverter</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class performs all necessary steps to obtain a model graph and diagram graphs from the input file which contains an UML model in XML format.  <a href="classogdf_1_1_uml_to_graph_converter.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_u_p_r_layout_module.html">UPRLayoutModule</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interface of hierarchy layout algorithms.  <a href="classogdf_1_1_u_p_r_layout_module.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1608,18 +1601,6 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1_w_info.html">WInfo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves information about a pertinent node w between two stopping vertices.  <a href="structogdf_1_1_w_info.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1_xml_attribute_object.html">XmlAttributeObject</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This struct represents an attribute associated to a tag.  <a href="structogdf_1_1_xml_attribute_object.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_xml_parser.html">XmlParser</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class parses the XML input file and builds up a parse tree with linked elements XMLTagObject and XMLAttributeObject.  <a href="classogdf_1_1_xml_parser.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_xml_scanner.html">XmlScanner</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This class scans the characters of the input file and provides the detected token.  <a href="classogdf_1_1_xml_scanner.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1_xml_tag_object.html">XmlTagObject</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">This struct represents a node in the XML parse tree.  <a href="structogdf_1_1_xml_tag_object.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_zero_placer.html">ZeroPlacer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The zero placer for multilevel layout.  <a href="classogdf_1_1_zero_placer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1632,6 +1613,18 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a393d14d80754d1a29560b91ab7d04999"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a393d14d80754d1a29560b91ab7d04999">adjHypergraphEntry</a> = <a class="el" href="classogdf_1_1_adj_hypergraph_element.html">AdjHypergraphElement</a> *</td></tr>
 <tr class="memdesc:a393d14d80754d1a29560b91ab7d04999"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of adjacency entries.  <a href="#a393d14d80754d1a29560b91ab7d04999">More...</a><br /></td></tr>
 <tr class="separator:a393d14d80754d1a29560b91ab7d04999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a753f54c5d4569d9f228a561525604bce"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a753f54c5d4569d9f228a561525604bce"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a753f54c5d4569d9f228a561525604bce">ArrayConstIterator</a> = const E *</td></tr>
+<tr class="separator:a753f54c5d4569d9f228a561525604bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e5ec88efaecf8855757e89ada13012"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:ad1e5ec88efaecf8855757e89ada13012"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ad1e5ec88efaecf8855757e89ada13012">ArrayConstReverseIterator</a> = <a class="el" href="classogdf_1_1_array_reverse_iterator_base.html">ArrayReverseIteratorBase</a>&lt; E, true &gt;</td></tr>
+<tr class="separator:ad1e5ec88efaecf8855757e89ada13012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c7e9e082c33ee3fba6c8d3e8e3f646"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a65c7e9e082c33ee3fba6c8d3e8e3f646"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a65c7e9e082c33ee3fba6c8d3e8e3f646">ArrayIterator</a> = E *</td></tr>
+<tr class="separator:a65c7e9e082c33ee3fba6c8d3e8e3f646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee32ffd917d6c95795a043b40afc71c"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:aeee32ffd917d6c95795a043b40afc71c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#aeee32ffd917d6c95795a043b40afc71c">ArrayReverseIterator</a> = <a class="el" href="classogdf_1_1_array_reverse_iterator_base.html">ArrayReverseIteratorBase</a>&lt; E, false &gt;</td></tr>
+<tr class="separator:aeee32ffd917d6c95795a043b40afc71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae4067860d95138662fa5ce5b8280a459"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> = <a class="el" href="classogdf_1_1_cluster_element.html">ClusterElement</a> *</td></tr>
 <tr class="memdesc:ae4067860d95138662fa5ce5b8280a459"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of clusters.  <a href="#ae4067860d95138662fa5ce5b8280a459">More...</a><br /></td></tr>
 <tr class="separator:ae4067860d95138662fa5ce5b8280a459"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1656,8 +1649,6 @@ Typedefs</h2></td></tr>
 <tr class="separator:a6cc109d2799c8e6c0a4443766b0d87b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d030df1a1665d9e823814b503531b44"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a5d030df1a1665d9e823814b503531b44">GmlKey</a> = <a class="el" href="classogdf_1_1_hash_element.html">HashElement</a>&lt; string, int &gt; *</td></tr>
 <tr class="separator:a5d030df1a1665d9e823814b503531b44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f00b29f8b78da46796ade6d1447e7f2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a2f00b29f8b78da46796ade6d1447e7f2">HashedString</a> = <a class="el" href="classogdf_1_1_hash_element.html">HashElement</a>&lt; string, int &gt;</td></tr>
-<tr class="separator:a2f00b29f8b78da46796ade6d1447e7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab713002ba7246b35e2b98a1ac9b56068"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ab713002ba7246b35e2b98a1ac9b56068">hyperedge</a> = <a class="el" href="classogdf_1_1_hyperedge_element.html">HyperedgeElement</a> *</td></tr>
 <tr class="memdesc:ab713002ba7246b35e2b98a1ac9b56068"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of hyperedges.  <a href="#ab713002ba7246b35e2b98a1ac9b56068">More...</a><br /></td></tr>
 <tr class="separator:ab713002ba7246b35e2b98a1ac9b56068"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1670,12 +1661,18 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a747cb55b01946c2b5c0a22cf8a338059"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a747cb55b01946c2b5c0a22cf8a338059">IPolyline</a> = <a class="el" href="classogdf_1_1_generic_polyline.html">GenericPolyline</a>&lt; <a class="el" href="namespaceogdf.html#a68ad236741f3e62f6ffd722915f717ae">IPoint</a> &gt;</td></tr>
 <tr class="memdesc:a747cb55b01946c2b5c0a22cf8a338059"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polylines with IPoint points.  <a href="#a747cb55b01946c2b5c0a22cf8a338059">More...</a><br /></td></tr>
 <tr class="separator:a747cb55b01946c2b5c0a22cf8a338059"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9edbfe290f7c1ff2f1f8cd93276f9b1"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
-<tr class="memitem:aa9edbfe290f7c1ff2f1f8cd93276f9b1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#aa9edbfe290f7c1ff2f1f8cd93276f9b1">ListConstIterator</a> = <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, true &gt;</td></tr>
-<tr class="separator:aa9edbfe290f7c1ff2f1f8cd93276f9b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbc8ed0a45db9e00400d4bc7399ef1f5"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
-<tr class="memitem:afbc8ed0a45db9e00400d4bc7399ef1f5"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a> = <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, false &gt;</td></tr>
-<tr class="separator:afbc8ed0a45db9e00400d4bc7399ef1f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89890bf3d6dd2b1d0a26a0893b29a676"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a89890bf3d6dd2b1d0a26a0893b29a676"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a89890bf3d6dd2b1d0a26a0893b29a676">ListConstIterator</a> = <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, true, false &gt;</td></tr>
+<tr class="separator:a89890bf3d6dd2b1d0a26a0893b29a676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31063890a4f3f8fe5a098df99a6fc75e"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a31063890a4f3f8fe5a098df99a6fc75e"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a31063890a4f3f8fe5a098df99a6fc75e">ListConstReverseIterator</a> = <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, true, true &gt;</td></tr>
+<tr class="separator:a31063890a4f3f8fe5a098df99a6fc75e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b81f98a6e0ea41cb2b034de41b06398"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a4b81f98a6e0ea41cb2b034de41b06398"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a> = <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, false, false &gt;</td></tr>
+<tr class="separator:a4b81f98a6e0ea41cb2b034de41b06398"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a695bd3e918f122014d12a8edb282f8a2"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a695bd3e918f122014d12a8edb282f8a2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a695bd3e918f122014d12a8edb282f8a2">ListReverseIterator</a> = <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt; E, false, true &gt;</td></tr>
+<tr class="separator:a695bd3e918f122014d12a8edb282f8a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab5b3e7ed7cf2e6271b285c7ed39b87e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> = <a class="el" href="classogdf_1_1_node_element.html">NodeElement</a> *</td></tr>
 <tr class="memdesc:gab5b3e7ed7cf2e6271b285c7ed39b87e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type of nodes.  <a href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">More...</a><br /></td></tr>
 <tr class="separator:gab5b3e7ed7cf2e6271b285c7ed39b87e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1693,6 +1690,18 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a5172cb366642272fcbe6859705641409"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
 <tr class="memitem:a5172cb366642272fcbe6859705641409"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a5172cb366642272fcbe6859705641409">SListIterator</a> = <a class="el" href="classogdf_1_1_s_list_iterator_base.html">SListIteratorBase</a>&lt; E, false &gt;</td></tr>
 <tr class="separator:a5172cb366642272fcbe6859705641409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab99e4f2292a8be5612655dcb8d23db8f"><td class="memTemplParams" colspan="2">template&lt;class KEY , class INFO , class CMP &gt; </td></tr>
+<tr class="memitem:ab99e4f2292a8be5612655dcb8d23db8f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ab99e4f2292a8be5612655dcb8d23db8f">SortedSequenceConstIterator</a> = <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a>&lt; KEY, INFO, CMP, true, false &gt;</td></tr>
+<tr class="separator:ab99e4f2292a8be5612655dcb8d23db8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89735fa4d0ce3474420af1b9f1d8d954"><td class="memTemplParams" colspan="2">template&lt;class KEY , class INFO , class CMP &gt; </td></tr>
+<tr class="memitem:a89735fa4d0ce3474420af1b9f1d8d954"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a89735fa4d0ce3474420af1b9f1d8d954">SortedSequenceConstReverseIterator</a> = <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a>&lt; KEY, INFO, CMP, true, true &gt;</td></tr>
+<tr class="separator:a89735fa4d0ce3474420af1b9f1d8d954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c30fb5dcb70384c1c26d6bf630f3c44"><td class="memTemplParams" colspan="2">template&lt;class KEY , class INFO , class CMP &gt; </td></tr>
+<tr class="memitem:a7c30fb5dcb70384c1c26d6bf630f3c44"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a7c30fb5dcb70384c1c26d6bf630f3c44">SortedSequenceIterator</a> = <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a>&lt; KEY, INFO, CMP, false, false &gt;</td></tr>
+<tr class="separator:a7c30fb5dcb70384c1c26d6bf630f3c44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af214a27f815769b9398085fff2ed203c"><td class="memTemplParams" colspan="2">template&lt;class KEY , class INFO , class CMP &gt; </td></tr>
+<tr class="memitem:af214a27f815769b9398085fff2ed203c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#af214a27f815769b9398085fff2ed203c">SortedSequenceReverseIterator</a> = <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a>&lt; KEY, INFO, CMP, false, true &gt;</td></tr>
+<tr class="separator:af214a27f815769b9398085fff2ed203c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -2081,22 +2090,6 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:ac143ef80abc00ee193e7b5780fe1e152"><td class="mdescLeft">&#160;</td><td class="mdescRight">The definitions for W, B, H and A describe the type of a node during the computation of the maximal pertinent sequence.  <a href="namespaceogdf.html#ac143ef80abc00ee193e7b5780fe1e152">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:ac143ef80abc00ee193e7b5780fe1e152"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a822fe23411206276c7065c10a6689b6c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6c">XmlToken</a> { <a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6cafc3d67dba68762a2a6d7274077eecf72">XmlToken::openingBracket</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6ca27a6ca199cb07e63d818e86210a1506d">XmlToken::closingBracket</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6cae74cb12e5379c7272a2c177ba198a950">XmlToken::questionMark</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6ca0fdde37ae817f7e8eed6687c55d991c4">XmlToken::exclamationMark</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6cadabe6e597b70e5760826aea1dcc564f7">XmlToken::minus</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6ca9fbbaa4cc515bc46e0c12e82a31df736">XmlToken::slash</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6ca97239d7e43ad1bf31e07b65dfbea07db">XmlToken::equalSign</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6caf393f3f5e496869a15bc72cbfd56f541">XmlToken::identifier</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6caa0157e792caaa3a3702d1d77b7bf9ebd">XmlToken::attributeValue</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6ca1f150a76cdebf505b2890ef1e1925eae">XmlToken::quotedValue</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6ca0a3f176052ab982cb6749f1fe7e2de17">XmlToken::endOfFile</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6ca98eec83040c443282be2555a86e23f13">XmlToken::invalidToken</a>, 
-<a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6cab5cbf08f8a31aba3c07f74053d30f9e3">XmlToken::noToken</a>
- }<tr class="memdesc:a822fe23411206276c7065c10a6689b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum type represents the values, which are returned by the function XmlScanner::getNextToken().  <a href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6c">More...</a><br /></td></tr>
-</td></tr>
-<tr class="separator:a822fe23411206276c7065c10a6689b6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -2148,12 +2141,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a19acb1713a6450ce26c0cf1280f3e9ba"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a19acb1713a6450ce26c0cf1280f3e9ba">equalIgnoreCase</a> (const string &amp;str1, const string &amp;str2)</td></tr>
 <tr class="memdesc:a19acb1713a6450ce26c0cf1280f3e9ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the two strings <code>str1</code> and <code>str2</code>, ignoring the case of characters.  <a href="#a19acb1713a6450ce26c0cf1280f3e9ba">More...</a><br /></td></tr>
 <tr class="separator:a19acb1713a6450ce26c0cf1280f3e9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0a7e4d51d4a158cd5ff472f74758a1fa"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga0a7e4d51d4a158cd5ff472f74758a1fa">fillPatternToString</a> (<a class="el" href="group__graph-drawing.html#ga3fa89995b8a28ae0a566cc9e2f3d3c80">FillPattern</a> fp)</td></tr>
+<tr class="memdesc:ga0a7e4d51d4a158cd5ff472f74758a1fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts fillpattern <code>fp</code> to string.  <a href="group__graph-drawing.html#ga0a7e4d51d4a158cd5ff472f74758a1fa">More...</a><br /></td></tr>
+<tr class="separator:ga0a7e4d51d4a158cd5ff472f74758a1fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afebc1cafe7f4e9952a343f960400c3f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#afebc1cafe7f4e9952a343f960400c3f0">firstOutGen</a> (<a class="el" href="classogdf_1_1_u_m_l_graph.html">UMLGraph</a> &amp;UG, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v, <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; bool &gt; &amp;)</td></tr>
 <tr class="separator:afebc1cafe7f4e9952a343f960400c3f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga2266eacafc50896a579f9668d255e34b"><td class="memTemplParams" colspan="2">template&lt;typename TCost &gt; </td></tr>
 <tr class="memitem:ga2266eacafc50896a579f9668d255e34b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-sp.html#ga2266eacafc50896a579f9668d255e34b">floydWarshall_SPAP</a> (<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; TCost &gt;&gt; &amp;shortestPathMatrix, const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:ga2266eacafc50896a579f9668d255e34b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes all-pairs shortest paths in graph <code>G</code> using Floyd-Warshall's algorithm.  <a href="group__ga-sp.html#ga2266eacafc50896a579f9668d255e34b">More...</a><br /></td></tr>
 <tr class="separator:ga2266eacafc50896a579f9668d255e34b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d10038516990a6a4d5536a0776780a7"><td class="memTemplParams" colspan="2">template&lt;class ToClass &gt; </td></tr>
+<tr class="memitem:a8d10038516990a6a4d5536a0776780a7"><td class="memTemplItemLeft" align="right" valign="top">ToClass&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a8d10038516990a6a4d5536a0776780a7">fromString</a> (string key)</td></tr>
+<tr class="separator:a8d10038516990a6a4d5536a0776780a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga41bd180662939df60bb56abd61d7139e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__file-system.html#ga41bd180662939df60bb56abd61d7139e">getEntries</a> (const char *dirName, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; string &gt; &amp;entries, const char *pattern=&quot;*&quot;)</td></tr>
 <tr class="memdesc:ga41bd180662939df60bb56abd61d7139e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns in <code>entries</code> the list of all entries contained in directory <code>dirName</code>.  <a href="group__file-system.html#ga41bd180662939df60bb56abd61d7139e">More...</a><br /></td></tr>
 <tr class="separator:ga41bd180662939df60bb56abd61d7139e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2178,12 +2177,20 @@ Functions</h2></td></tr>
 <tr class="memitem:ga2d33aa43ed542e2864c0c8f2344560ab"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__file-system.html#ga2d33aa43ed542e2864c0c8f2344560ab">getSubdirsAppend</a> (const char *dirName, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; string &gt; &amp;subdirs, const char *pattern=&quot;*&quot;)</td></tr>
 <tr class="memdesc:ga2d33aa43ed542e2864c0c8f2344560ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends to <code>subdirs</code> the list of directories contained in directory <code>dirName</code>.  <a href="group__file-system.html#ga2d33aa43ed542e2864c0c8f2344560ab">More...</a><br /></td></tr>
 <tr class="separator:ga2d33aa43ed542e2864c0c8f2344560ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16b49816799b3bb974b2909438b20f35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a16b49816799b3bb974b2909438b20f35">initFillPatternHashing</a> ()</td></tr>
+<tr class="separator:a16b49816799b3bb974b2909438b20f35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga435e1c2f4ee01077030fdbabc76f8445"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graph-drawing.html#ga3fa89995b8a28ae0a566cc9e2f3d3c80">FillPattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga435e1c2f4ee01077030fdbabc76f8445">intToFillPattern</a> (int i)</td></tr>
 <tr class="memdesc:ga435e1c2f4ee01077030fdbabc76f8445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts integer <code>i</code> to fill pattern.  <a href="group__graph-drawing.html#ga435e1c2f4ee01077030fdbabc76f8445">More...</a><br /></td></tr>
 <tr class="separator:ga435e1c2f4ee01077030fdbabc76f8445"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga0a5d80ea79060b826eb9b3bbd3c07d89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graph-drawing.html#gaabb5da401630956e2bd8873e08802915">StrokeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga0a5d80ea79060b826eb9b3bbd3c07d89">intToStrokeType</a> (int i)</td></tr>
 <tr class="memdesc:ga0a5d80ea79060b826eb9b3bbd3c07d89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts integer <code>i</code> to stroke type.  <a href="group__graph-drawing.html#ga0a5d80ea79060b826eb9b3bbd3c07d89">More...</a><br /></td></tr>
 <tr class="separator:ga0a5d80ea79060b826eb9b3bbd3c07d89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a795f37852ee144392f768f111557f985"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a795f37852ee144392f768f111557f985">isBipartite</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;color)</td></tr>
+<tr class="memdesc:a795f37852ee144392f768f111557f985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a graph is bipartite.  <a href="#a795f37852ee144392f768f111557f985">More...</a><br /></td></tr>
+<tr class="separator:a795f37852ee144392f768f111557f985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af226f8a4f66a45ae498f81e6474c9b1c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#af226f8a4f66a45ae498f81e6474c9b1c">isBipartite</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
+<tr class="memdesc:af226f8a4f66a45ae498f81e6474c9b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether a graph is bipartite.  <a href="#af226f8a4f66a45ae498f81e6474c9b1c">More...</a><br /></td></tr>
+<tr class="separator:af226f8a4f66a45ae498f81e6474c9b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga737448818001d3e77c974a229e412f2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__file-system.html#ga737448818001d3e77c974a229e412f2c">isDirectory</a> (const char *fileName)</td></tr>
 <tr class="memdesc:ga737448818001d3e77c974a229e412f2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>fileName</code> is a directory.  <a href="group__file-system.html#ga737448818001d3e77c974a229e412f2c">More...</a><br /></td></tr>
 <tr class="separator:ga737448818001d3e77c974a229e412f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2258,20 +2265,20 @@ Functions</h2></td></tr>
 <tr class="memitem:a445111a3ea0752090b59e2150e122314"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a445111a3ea0752090b59e2150e122314">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_uml_model_graph.html">UmlModelGraph</a> &amp;modelGraph)</td></tr>
 <tr class="memdesc:a445111a3ea0752090b59e2150e122314"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for <a class="el" href="classogdf_1_1_uml_model_graph.html" title="This class represents the complete UML Model in a graph-like data structure. ">UmlModelGraph</a>.  <a href="#a445111a3ea0752090b59e2150e122314">More...</a><br /></td></tr>
 <tr class="separator:a445111a3ea0752090b59e2150e122314"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79d9e239b7b021647c0da9c885210963"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a79d9e239b7b021647c0da9c885210963">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="group__graph-drawing.html#ga3fa89995b8a28ae0a566cc9e2f3d3c80">FillPattern</a> &amp;fp)</td></tr>
-<tr class="memdesc:a79d9e239b7b021647c0da9c885210963"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator.  <a href="#a79d9e239b7b021647c0da9c885210963">More...</a><br /></td></tr>
-<tr class="separator:a79d9e239b7b021647c0da9c885210963"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a63df57134bae85c6f30bb58f5fade57b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a3c5706813872661ef171b77923f927f4">edgeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a63df57134bae85c6f30bb58f5fade57b">operator&lt;&lt;</a> (<a class="el" href="namespaceogdf.html#a3c5706813872661ef171b77923f927f4">edgeType</a> lhs, <a class="el" href="namespaceogdf.html#a68f340087b3cf8a1442b6044c5c98bab">UMLEdgeTypeOffsets</a> rhs)</td></tr>
 <tr class="separator:a63df57134bae85c6f30bb58f5fade57b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a645542951ce45de5c484b1aaea260656"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a645542951ce45de5c484b1aaea260656">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="structogdf_1_1_r_c_crossings.html">RCCrossings</a> &amp;cr)</td></tr>
 <tr class="separator:a645542951ce45de5c484b1aaea260656"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43ee3c904e7b3b30ca8b61de45b01ec5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a3c5706813872661ef171b77923f927f4">edgeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a43ee3c904e7b3b30ca8b61de45b01ec5">operator&lt;&lt;</a> (<a class="el" href="namespaceogdf.html#a6bdf4c93c9029bacf4850096731bfb5f">UMLEdgeTypeConstants</a> lhs, <a class="el" href="namespaceogdf.html#a68f340087b3cf8a1442b6044c5c98bab">UMLEdgeTypeOffsets</a> rhs)</td></tr>
 <tr class="separator:a43ee3c904e7b3b30ca8b61de45b01ec5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02a39fc86c1ae14f51945af12f0d220"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ad02a39fc86c1ae14f51945af12f0d220">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="group__graph-drawing.html#ga3fa89995b8a28ae0a566cc9e2f3d3c80">FillPattern</a> &amp;fp)</td></tr>
+<tr class="memdesc:ad02a39fc86c1ae14f51945af12f0d220"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator.  <a href="#ad02a39fc86c1ae14f51945af12f0d220">More...</a><br /></td></tr>
+<tr class="separator:ad02a39fc86c1ae14f51945af12f0d220"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada5a84e686148a342cbc65e7ad0069b2"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ada5a84e686148a342cbc65e7ad0069b2">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100">BalloonLayout::RootSelection</a> &amp;rs)</td></tr>
+<tr class="separator:ada5a84e686148a342cbc65e7ad0069b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2deee3e61c8b58b00e141651e4674b6b"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a2deee3e61c8b58b00e141651e4674b6b">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="group__graph-drawing.html#gaed0c5722d05b28bf2d550bff2847b2af">EdgeArrow</a> &amp;ea)</td></tr>
 <tr class="memdesc:a2deee3e61c8b58b00e141651e4674b6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator.  <a href="#a2deee3e61c8b58b00e141651e4674b6b">More...</a><br /></td></tr>
 <tr class="separator:a2deee3e61c8b58b00e141651e4674b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada5a84e686148a342cbc65e7ad0069b2"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ada5a84e686148a342cbc65e7ad0069b2">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100">BalloonLayout::RootSelection</a> &amp;rs)</td></tr>
-<tr class="separator:ada5a84e686148a342cbc65e7ad0069b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b848c0e24d34bd770b7777c66ce8c34"><td class="memTemplParams" colspan="2">template&lt;class E , class INDEX &gt; </td></tr>
 <tr class="memitem:a6b848c0e24d34bd770b7777c66ce8c34"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a6b848c0e24d34bd770b7777c66ce8c34">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_bounded_queue.html">BoundedQueue</a>&lt; E, INDEX &gt; &amp;Q)</td></tr>
 <tr class="memdesc:a6b848c0e24d34bd770b7777c66ce8c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints <a class="el" href="classogdf_1_1_bounded_queue.html" title="The parameterized class BoundedQueue implements queues with bounded size. ">BoundedQueue</a> <code>Q</code> to output stream <code>os</code>.  <a href="#a6b848c0e24d34bd770b7777c66ce8c34">More...</a><br /></td></tr>
@@ -2308,16 +2315,16 @@ Functions</h2></td></tr>
 <tr class="memitem:a832e7109da8ea215cfa0e2320e3df41c"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a832e7109da8ea215cfa0e2320e3df41c">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_generic_line.html">GenericLine</a>&lt; PointType &gt; &amp;line)</td></tr>
 <tr class="memdesc:a832e7109da8ea215cfa0e2320e3df41c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for lines.  <a href="#a832e7109da8ea215cfa0e2320e3df41c">More...</a><br /></td></tr>
 <tr class="separator:a832e7109da8ea215cfa0e2320e3df41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cdb9d14403e87539d6dd0c902a8bdb8"><td class="memTemplParams" colspan="2">template&lt;class E , class INDEX &gt; </td></tr>
-<tr class="memitem:a1cdb9d14403e87539d6dd0c902a8bdb8"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a1cdb9d14403e87539d6dd0c902a8bdb8">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_array.html">ogdf::Array</a>&lt; E, INDEX &gt; &amp;a)</td></tr>
-<tr class="memdesc:a1cdb9d14403e87539d6dd0c902a8bdb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints array <code>a</code> to output stream <code>os</code>.  <a href="#a1cdb9d14403e87539d6dd0c902a8bdb8">More...</a><br /></td></tr>
-<tr class="separator:a1cdb9d14403e87539d6dd0c902a8bdb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03b73c97b7500bf8abe50bc65a06a1f4"><td class="memTemplParams" colspan="2">template&lt;class PointType &gt; </td></tr>
 <tr class="memitem:a03b73c97b7500bf8abe50bc65a06a1f4"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a03b73c97b7500bf8abe50bc65a06a1f4">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_generic_segment.html">GenericSegment</a>&lt; PointType &gt; &amp;dl)</td></tr>
 <tr class="memdesc:a03b73c97b7500bf8abe50bc65a06a1f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator for line segments.  <a href="#a03b73c97b7500bf8abe50bc65a06a1f4">More...</a><br /></td></tr>
 <tr class="separator:a03b73c97b7500bf8abe50bc65a06a1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9105c92fbf7a32279701cd19f18928c"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ae9105c92fbf7a32279701cd19f18928c">operator&lt;&lt;</a> (std::ostream &amp;os, <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> c)</td></tr>
 <tr class="separator:ae9105c92fbf7a32279701cd19f18928c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cdb9d14403e87539d6dd0c902a8bdb8"><td class="memTemplParams" colspan="2">template&lt;class E , class INDEX &gt; </td></tr>
+<tr class="memitem:a1cdb9d14403e87539d6dd0c902a8bdb8"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a1cdb9d14403e87539d6dd0c902a8bdb8">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_array.html">ogdf::Array</a>&lt; E, INDEX &gt; &amp;a)</td></tr>
+<tr class="memdesc:a1cdb9d14403e87539d6dd0c902a8bdb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints array <code>a</code> to output stream <code>os</code>.  <a href="#a1cdb9d14403e87539d6dd0c902a8bdb8">More...</a><br /></td></tr>
+<tr class="separator:a1cdb9d14403e87539d6dd0c902a8bdb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71634902d1291b1c4b1115d699626fb2"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
 <tr class="memitem:a71634902d1291b1c4b1115d699626fb2"><td class="memTemplItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a71634902d1291b1c4b1115d699626fb2">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classogdf_1_1_s_list_pure.html">SListPure</a>&lt; E &gt; &amp;L)</td></tr>
 <tr class="memdesc:a71634902d1291b1c4b1115d699626fb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output operator.  <a href="#a71634902d1291b1c4b1115d699626fb2">More...</a><br /></td></tr>
@@ -2436,6 +2443,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ab1fc439c1b48b5ae02e7f06ad42b1b4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ab1fc439c1b48b5ae02e7f06ad42b1b4c">removeTrailingWhitespace</a> (string &amp;str)</td></tr>
 <tr class="memdesc:ab1fc439c1b48b5ae02e7f06ad42b1b4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes trailing space, horizontal and vertical tab, feed, newline, and carriage return from <code>str</code>.  <a href="#ab1fc439c1b48b5ae02e7f06ad42b1b4c">More...</a><br /></td></tr>
 <tr class="separator:ab1fc439c1b48b5ae02e7f06ad42b1b4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga993f493f373e35f56c802a085df0549b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga993f493f373e35f56c802a085df0549b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_reverse.html">Reverse</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__container-functions.html#ga993f493f373e35f56c802a085df0549b">reverse</a> (T &amp;container)</td></tr>
+<tr class="memdesc:ga993f493f373e35f56c802a085df0549b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides iterators for <code>container</code> to make it easily iterable in reverse.  <a href="group__container-functions.html#ga993f493f373e35f56c802a085df0549b">More...</a><br /></td></tr>
+<tr class="separator:ga993f493f373e35f56c802a085df0549b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a00ddb26fbc3524ee18c3eb9e9f9325"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER &gt; </td></tr>
 <tr class="memitem:a6a00ddb26fbc3524ee18c3eb9e9f9325"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a6a00ddb26fbc3524ee18c3eb9e9f9325">safeForEach</a> (CONTAINER &amp;container, std::function&lt; void(typename CONTAINER::value_type)&gt; func)</td></tr>
 <tr class="memdesc:a6a00ddb26fbc3524ee18c3eb9e9f9325"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls (possibly destructive) <code>func</code> for each element of <code>container</code>.  <a href="#a6a00ddb26fbc3524ee18c3eb9e9f9325">More...</a><br /></td></tr>
@@ -2451,9 +2462,27 @@ Functions</h2></td></tr>
 <tr class="memitem:gac9bc27ac10fd1f95d4ace1a5032d275f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__random.html#gac9bc27ac10fd1f95d4ace1a5032d275f">setSeed</a> (int val)</td></tr>
 <tr class="memdesc:gac9bc27ac10fd1f95d4ace1a5032d275f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the seed for functions like <a class="el" href="group__random.html#gaf3f034665d8513b9be4fe3912fe8afa0" title="Returns a random value suitable as initial seed for a random number engine. ">randomSeed()</a>, <a class="el" href="group__random.html#ga102a5bb3ad5265abf5fe9c7168490ffc" title="Returns random integer between low and high (including). ">randomNumber()</a>, <a class="el" href="group__random.html#ga45ca26f42fd159f5a7f91e6756197777" title="Returns a random double value from the interval [low, high). ">randomDouble()</a>.  <a href="group__random.html#gac9bc27ac10fd1f95d4ace1a5032d275f">More...</a><br /></td></tr>
 <tr class="separator:gac9bc27ac10fd1f95d4ace1a5032d275f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6486334f92b37e3c06032c34f4cdd6c7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga6486334f92b37e3c06032c34f4cdd6c7">shapeToString</a> (<a class="el" href="group__graph-drawing.html#gae985d12477ba134f85f06b974a5d0625">Shape</a> s)</td></tr>
+<tr class="memdesc:ga6486334f92b37e3c06032c34f4cdd6c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts shape <code>s</code> to string.  <a href="group__graph-drawing.html#ga6486334f92b37e3c06032c34f4cdd6c7">More...</a><br /></td></tr>
+<tr class="separator:ga6486334f92b37e3c06032c34f4cdd6c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab0026baf06b7c3e290621fa9880262cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graph-drawing.html#ga3fa89995b8a28ae0a566cc9e2f3d3c80">FillPattern</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#gab0026baf06b7c3e290621fa9880262cb">stringToFillPattern</a> (string s)</td></tr>
+<tr class="memdesc:gab0026baf06b7c3e290621fa9880262cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string <code>s</code> to fill pattern.  <a href="group__graph-drawing.html#gab0026baf06b7c3e290621fa9880262cb">More...</a><br /></td></tr>
+<tr class="separator:gab0026baf06b7c3e290621fa9880262cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga39d7e37e69e1b0227f7414f115e1935f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graph-drawing.html#gae985d12477ba134f85f06b974a5d0625">Shape</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga39d7e37e69e1b0227f7414f115e1935f">stringToShape</a> (string s)</td></tr>
+<tr class="memdesc:ga39d7e37e69e1b0227f7414f115e1935f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string <code>s</code> to shape.  <a href="group__graph-drawing.html#ga39d7e37e69e1b0227f7414f115e1935f">More...</a><br /></td></tr>
+<tr class="separator:ga39d7e37e69e1b0227f7414f115e1935f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga2342d0627f164079cd0a2d77150d1247"><td class="memItemLeft" align="right" valign="top"><a class="el" href="group__graph-drawing.html#gaabb5da401630956e2bd8873e08802915">StrokeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#ga2342d0627f164079cd0a2d77150d1247">stringToStrokeType</a> (string s)</td></tr>
+<tr class="memdesc:ga2342d0627f164079cd0a2d77150d1247"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string <code>s</code> to stroke type.  <a href="group__graph-drawing.html#ga2342d0627f164079cd0a2d77150d1247">More...</a><br /></td></tr>
+<tr class="separator:ga2342d0627f164079cd0a2d77150d1247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaf59deb66f6c1c0fc8788d7295c426ec7"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-drawing.html#gaf59deb66f6c1c0fc8788d7295c426ec7">strokeTypeToString</a> (<a class="el" href="group__graph-drawing.html#gaabb5da401630956e2bd8873e08802915">StrokeType</a> st)</td></tr>
+<tr class="memdesc:gaf59deb66f6c1c0fc8788d7295c426ec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts string <code>s</code> to stroke type.  <a href="group__graph-drawing.html#gaf59deb66f6c1c0fc8788d7295c426ec7">More...</a><br /></td></tr>
+<tr class="separator:gaf59deb66f6c1c0fc8788d7295c426ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dec9e9886a231ca47197572647077fe"><td class="memTemplParams" colspan="2">template&lt;typename E &gt; </td></tr>
-<tr class="memitem:a7dec9e9886a231ca47197572647077fe"><td class="memTemplItemLeft" align="right" valign="top">static E&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a7dec9e9886a231ca47197572647077fe">toEnum</a> (const std::string &amp;str, std::map&lt; std::string, E &gt; &amp;map, std::string toString(const E &amp;), const E first, const E last, const E def)</td></tr>
+<tr class="memitem:a7dec9e9886a231ca47197572647077fe"><td class="memTemplItemLeft" align="right" valign="top">static E&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a7dec9e9886a231ca47197572647077fe">toEnum</a> (const std::string &amp;str, std::map&lt; std::string, E &gt; &amp;map, std::string <a class="el" href="namespaceogdf.html#a8a8fda4de970af64edeec10da3d4752e">toString</a>(const E &amp;), const E first, const E last, const E def)</td></tr>
 <tr class="separator:a7dec9e9886a231ca47197572647077fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a8fda4de970af64edeec10da3d4752e"><td class="memTemplParams" colspan="2">template&lt;class FromClass &gt; </td></tr>
+<tr class="memitem:a8a8fda4de970af64edeec10da3d4752e"><td class="memTemplItemLeft" align="right" valign="top">string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a8a8fda4de970af64edeec10da3d4752e">toString</a> (FromClass key)</td></tr>
+<tr class="separator:a8a8fda4de970af64edeec10da3d4752e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga569b0889c74ca8cceee1dd1f161c45bd"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__date-time.html#ga569b0889c74ca8cceee1dd1f161c45bd">usedTime</a> (double &amp;T)</td></tr>
 <tr class="memdesc:ga569b0889c74ca8cceee1dd1f161c45bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns used CPU time from T to current time and assigns current time to T.  <a href="group__date-time.html#ga569b0889c74ca8cceee1dd1f161c45bd">More...</a><br /></td></tr>
 <tr class="separator:ga569b0889c74ca8cceee1dd1f161c45bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2506,73 +2535,6 @@ Functions</h2></td></tr>
 <tr class="memitem:ga089d9a98611c9c75b3ba7cded171de16"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__ga-mst.html#ga089d9a98611c9c75b3ba7cded171de16">makeMinimumSpanningTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; T &gt; &amp;weight)</td></tr>
 <tr class="memdesc:ga089d9a98611c9c75b3ba7cded171de16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reduce a graph to its minimum spanning tree (MST) using Kruskal's algorithm.  <a href="group__ga-mst.html#ga089d9a98611c9c75b3ba7cded171de16">More...</a><br /></td></tr>
 <tr class="separator:ga089d9a98611c9c75b3ba7cded171de16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Randomized graph generators</div></td></tr>
-<tr class="memitem:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">randomRegularGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int d)</td></tr>
-<tr class="memdesc:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random d-regular graph. This method is not guaranteed to terminate!  <a href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">More...</a><br /></td></tr>
-<tr class="separator:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga0feff1b510864aba8b73a1b34e5f2ca1">randomGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random graph.  <a href="group__graph-generators.html#ga0feff1b510864aba8b73a1b34e5f2ca1">More...</a><br /></td></tr>
-<tr class="separator:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac6991a8ef695dc1ce1c320aeb843856d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d">randomSimpleGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gac6991a8ef695dc1ce1c320aeb843856d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random simple graph.  <a href="group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d">More...</a><br /></td></tr>
-<tr class="separator:gac6991a8ef695dc1ce1c320aeb843856d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201">randomSimpleConnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random simple and connected graph.  <a href="group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201">More...</a><br /></td></tr>
-<tr class="separator:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae84cb709f5fcb098528bc0474d1a55b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gae84cb709f5fcb098528bc0474d1a55b2">randomBiconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gae84cb709f5fcb098528bc0474d1a55b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random biconnected graph.  <a href="group__graph-generators.html#gae84cb709f5fcb098528bc0474d1a55b2">More...</a><br /></td></tr>
-<tr class="separator:gae84cb709f5fcb098528bc0474d1a55b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafe26d6380a47bb9650da4ee26cbe90b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gafe26d6380a47bb9650da4ee26cbe90b4">planarConnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gafe26d6380a47bb9650da4ee26cbe90b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random connected (simple) planar (embedded) graph.  <a href="group__graph-generators.html#gafe26d6380a47bb9650da4ee26cbe90b4">More...</a><br /></td></tr>
-<tr class="separator:gafe26d6380a47bb9650da4ee26cbe90b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga12a6c6c7d7a99b18a5d7144bc9a9ee1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga12a6c6c7d7a99b18a5d7144bc9a9ee1d">planarBiconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, bool multiEdges=false)</td></tr>
-<tr class="memdesc:ga12a6c6c7d7a99b18a5d7144bc9a9ee1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar biconnected (embedded) graph.  <a href="group__graph-generators.html#ga12a6c6c7d7a99b18a5d7144bc9a9ee1d">More...</a><br /></td></tr>
-<tr class="separator:ga12a6c6c7d7a99b18a5d7144bc9a9ee1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5cd204ae91dfee75eec3e8b96227629b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5cd204ae91dfee75eec3e8b96227629b">planarBiconnectedDiGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, double p=0, bool multiEdges=false)</td></tr>
-<tr class="memdesc:ga5cd204ae91dfee75eec3e8b96227629b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar biconnected acyclic (embedded) digraph.  <a href="group__graph-generators.html#ga5cd204ae91dfee75eec3e8b96227629b">More...</a><br /></td></tr>
-<tr class="separator:ga5cd204ae91dfee75eec3e8b96227629b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad349959d8e15558b0d6821778481b4ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gad349959d8e15558b0d6821778481b4ac">upwardPlanarBiconnectedDiGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gad349959d8e15558b0d6821778481b4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random upward planar biconnected (embedded) digraph.  <a href="group__graph-generators.html#gad349959d8e15558b0d6821778481b4ac">More...</a><br /></td></tr>
-<tr class="separator:gad349959d8e15558b0d6821778481b4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga96e017ffba996249254e58c9e330d112"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga96e017ffba996249254e58c9e330d112">planarCNBGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, int b)</td></tr>
-<tr class="memdesc:ga96e017ffba996249254e58c9e330d112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar graph, that is connected, but not biconnected.  <a href="group__graph-generators.html#ga96e017ffba996249254e58c9e330d112">More...</a><br /></td></tr>
-<tr class="separator:ga96e017ffba996249254e58c9e330d112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadad6b837cade23898f3dc0ae68239274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gadad6b837cade23898f3dc0ae68239274">randomTriconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, double p1, double p2)</td></tr>
-<tr class="memdesc:gadad6b837cade23898f3dc0ae68239274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random triconnected (and simple) graph.  <a href="group__graph-generators.html#gadad6b837cade23898f3dc0ae68239274">More...</a><br /></td></tr>
-<tr class="separator:gadad6b837cade23898f3dc0ae68239274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga181c070c885d02d1611cd83efd529611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga181c070c885d02d1611cd83efd529611">planarTriconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:ga181c070c885d02d1611cd83efd529611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar triconnected (and simple) graph.  <a href="group__graph-generators.html#ga181c070c885d02d1611cd83efd529611">More...</a><br /></td></tr>
-<tr class="separator:ga181c070c885d02d1611cd83efd529611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2921ef7352d86abb984e01300e323c38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga2921ef7352d86abb984e01300e323c38">planarTriconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, double p1, double p2)</td></tr>
-<tr class="memdesc:ga2921ef7352d86abb984e01300e323c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar triconnected (and simple) graph.  <a href="group__graph-generators.html#ga2921ef7352d86abb984e01300e323c38">More...</a><br /></td></tr>
-<tr class="separator:ga2921ef7352d86abb984e01300e323c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga95ff41c015fe92cc550088127e43d09c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga95ff41c015fe92cc550088127e43d09c">randomTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n)</td></tr>
-<tr class="memdesc:ga95ff41c015fe92cc550088127e43d09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random tree (simpler version.  <a href="group__graph-generators.html#ga95ff41c015fe92cc550088127e43d09c">More...</a><br /></td></tr>
-<tr class="separator:ga95ff41c015fe92cc550088127e43d09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad83c1576fee773abf95334f842f6849b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gad83c1576fee773abf95334f842f6849b">randomTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int maxDeg, int maxWidth)</td></tr>
-<tr class="memdesc:gad83c1576fee773abf95334f842f6849b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random tree.  <a href="group__graph-generators.html#gad83c1576fee773abf95334f842f6849b">More...</a><br /></td></tr>
-<tr class="separator:gad83c1576fee773abf95334f842f6849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36">randomHierarchy</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, bool planar, bool singleSource, bool longEdges)</td></tr>
-<tr class="memdesc:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random hierarchical graph.  <a href="group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36">More...</a><br /></td></tr>
-<tr class="separator:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga85a79853e408557d003de19d0034614e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga85a79853e408557d003de19d0034614e">randomClusterPlanarGraph</a> (<a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int cNum)</td></tr>
-<tr class="memdesc:ga85a79853e408557d003de19d0034614e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns random clusters to a given graph <code>G</code>.  <a href="group__graph-generators.html#ga85a79853e408557d003de19d0034614e">More...</a><br /></td></tr>
-<tr class="separator:ga85a79853e408557d003de19d0034614e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga519fee82a5b4ee56b07e74f32e1ff7d9">randomClusterGraph</a> (<a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int cNum)</td></tr>
-<tr class="memdesc:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns random clusters to a given graph <code>G</code>.  <a href="group__graph-generators.html#ga519fee82a5b4ee56b07e74f32e1ff7d9">More...</a><br /></td></tr>
-<tr class="separator:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c51749db17a3cb4362789e28b3efd9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga1c51749db17a3cb4362789e28b3efd9f">randomClusterGraph</a> (<a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> root, int moreInLeaves)</td></tr>
-<tr class="memdesc:ga1c51749db17a3cb4362789e28b3efd9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a specified cluster structure to a given graph <code>G</code>, and assigns vertices to clusters.  <a href="group__graph-generators.html#ga1c51749db17a3cb4362789e28b3efd9f">More...</a><br /></td></tr>
-<tr class="separator:ga1c51749db17a3cb4362789e28b3efd9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga09ba6d0ea460b12dc307e1d0c3458f25">randomDiGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, double p)</td></tr>
-<tr class="memdesc:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random (simple) directed graph.  <a href="group__graph-generators.html#ga09ba6d0ea460b12dc307e1d0c3458f25">More...</a><br /></td></tr>
-<tr class="separator:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab7bf735577889df8926599b1152957f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gab7bf735577889df8926599b1152957f5">randomSeriesParallelDAG</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int edges, double p=0.5, double flt=0.0)</td></tr>
-<tr class="memdesc:gab7bf735577889df8926599b1152957f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random (simple, biconnected) series parallel DAG.  <a href="group__graph-generators.html#gab7bf735577889df8926599b1152957f5">More...</a><br /></td></tr>
-<tr class="separator:gab7bf735577889df8926599b1152957f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa22bfe93fe65faf3f59f3c966a71471b">randomGeometricCubeGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int nodes, double threshold, int dimension=2)</td></tr>
-<tr class="memdesc:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random geometric graph by laying out nodes in a unit n-cube. Nodes with a distance &lt; threshold are connected, 0 &lt;= threshold &lt;= sqrt(dimension). The graph is simple.  <a href="group__graph-generators.html#gaa22bfe93fe65faf3f59f3c966a71471b">More...</a><br /></td></tr>
-<tr class="separator:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Deterministic graph generators</div></td></tr>
 <tr class="memitem:gad0a545afc61d9b588bb859851a024c7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gad0a545afc61d9b588bb859851a024c7b">customGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; std::pair&lt; int, int &gt;&gt; edges, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nodes)</td></tr>
 <tr class="memdesc:gad0a545afc61d9b588bb859851a024c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a custom graph using a list of pairs to determine the graph's edges.  <a href="group__graph-generators.html#gad0a545afc61d9b588bb859851a024c7b">More...</a><br /></td></tr>
@@ -2583,6 +2545,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga061ae4c9a5ba165e0cc57998df2c878f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga061ae4c9a5ba165e0cc57998df2c878f">circulantGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; int &gt; jumps)</td></tr>
 <tr class="memdesc:ga061ae4c9a5ba165e0cc57998df2c878f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a circulant graph.  <a href="group__graph-generators.html#ga061ae4c9a5ba165e0cc57998df2c878f">More...</a><br /></td></tr>
 <tr class="separator:ga061ae4c9a5ba165e0cc57998df2c878f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6c2abcc203dcfc0839f5233afeebbe5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga6c2abcc203dcfc0839f5233afeebbe5d">regularLatticeGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int k)</td></tr>
+<tr class="memdesc:ga6c2abcc203dcfc0839f5233afeebbe5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a regular lattice graph.  <a href="group__graph-generators.html#ga6c2abcc203dcfc0839f5233afeebbe5d">More...</a><br /></td></tr>
+<tr class="separator:ga6c2abcc203dcfc0839f5233afeebbe5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac0cfb1b80c90a6f6cea17589bc522c29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gac0cfb1b80c90a6f6cea17589bc522c29">regularTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int children)</td></tr>
 <tr class="memdesc:gac0cfb1b80c90a6f6cea17589bc522c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a regular tree.  <a href="group__graph-generators.html#gac0cfb1b80c90a6f6cea17589bc522c29">More...</a><br /></td></tr>
 <tr class="separator:gac0cfb1b80c90a6f6cea17589bc522c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2599,20 +2564,110 @@ Functions</h2></td></tr>
 <tr class="memdesc:ga8cf4c76cee9dcb8bf4dbc3a13b401e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the graph <em>W_n:</em> A wheel graph.  <a href="group__graph-generators.html#ga8cf4c76cee9dcb8bf4dbc3a13b401e2f">More...</a><br /></td></tr>
 <tr class="separator:ga8cf4c76cee9dcb8bf4dbc3a13b401e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gab7c85da1b67c5f397be073826a532f39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gab7c85da1b67c5f397be073826a532f39">cubeGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n)</td></tr>
-<tr class="memdesc:gab7c85da1b67c5f397be073826a532f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the graph <em>Q^n</em>: A <em>n</em>-cube graph.  <a href="group__graph-generators.html#gab7c85da1b67c5f397be073826a532f39">More...</a><br /></td></tr>
+<tr class="memdesc:gab7c85da1b67c5f397be073826a532f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the graph <em>Q^n</em>: A <code>n</code>-cube graph.  <a href="group__graph-generators.html#gab7c85da1b67c5f397be073826a532f39">More...</a><br /></td></tr>
 <tr class="separator:gab7c85da1b67c5f397be073826a532f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3b6fc792acfc6697de0ae62c01df372b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga3b6fc792acfc6697de0ae62c01df372b">suspension</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int s)</td></tr>
-<tr class="memdesc:ga3b6fc792acfc6697de0ae62c01df372b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies <code>G</code> by adding its <em>n</em>-th suspension.  <a href="group__graph-generators.html#ga3b6fc792acfc6697de0ae62c01df372b">More...</a><br /></td></tr>
+<tr class="memdesc:ga3b6fc792acfc6697de0ae62c01df372b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies <code>G</code> by adding its <code>s</code>-th suspension.  <a href="group__graph-generators.html#ga3b6fc792acfc6697de0ae62c01df372b">More...</a><br /></td></tr>
 <tr class="separator:ga3b6fc792acfc6697de0ae62c01df372b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5e5147b533c68c25f3372b3ec5c2f04b">gridGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, bool loopN, bool loopM)</td></tr>
 <tr class="memdesc:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a (toroidal) grid graph on <code>n</code> x <code>m</code> nodes.  <a href="group__graph-generators.html#ga5e5147b533c68c25f3372b3ec5c2f04b">More...</a><br /></td></tr>
 <tr class="separator:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf0420643bdd6ded0f5825ec0b86c3732"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaf0420643bdd6ded0f5825ec0b86c3732">petersenGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gaf0420643bdd6ded0f5825ec0b86c3732"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a generalized Petersen graph.  <a href="group__graph-generators.html#gaf0420643bdd6ded0f5825ec0b86c3732">More...</a><br /></td></tr>
-<tr class="separator:gaf0420643bdd6ded0f5825ec0b86c3732"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga9473b8540a5bbe604f84042d30c8a47f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga9473b8540a5bbe604f84042d30c8a47f">petersenGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n=5, int m=2)</td></tr>
+<tr class="memdesc:ga9473b8540a5bbe604f84042d30c8a47f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a generalized Petersen graph.  <a href="group__graph-generators.html#ga9473b8540a5bbe604f84042d30c8a47f">More...</a><br /></td></tr>
+<tr class="separator:ga9473b8540a5bbe604f84042d30c8a47f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga44c2631acd39f73c7117a8a8c60d6071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga44c2631acd39f73c7117a8a8c60d6071">emptyGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int nodes)</td></tr>
 <tr class="memdesc:ga44c2631acd39f73c7117a8a8c60d6071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a graph with <code>nodes</code> nodes and no edges.  <a href="group__graph-generators.html#ga44c2631acd39f73c7117a8a8c60d6071">More...</a><br /></td></tr>
 <tr class="separator:ga44c2631acd39f73c7117a8a8c60d6071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader">Randomized graph generators</div></td></tr>
+<tr class="memitem:ga65f5f08f024374b5816505aa018f05d4"><td class="memTemplParams" colspan="2">template&lt;typename D &gt; </td></tr>
+<tr class="memitem:ga65f5f08f024374b5816505aa018f05d4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga65f5f08f024374b5816505aa018f05d4">randomGeographicalThresholdGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; int &gt; &amp;weights, D &amp;dist, double threshold, std::function&lt; double(double)&gt; h, int dimension=2)</td></tr>
+<tr class="memdesc:ga65f5f08f024374b5816505aa018f05d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random geometric graph where edges are created based on their distance and the weight of nodes.  <a href="group__graph-generators.html#ga65f5f08f024374b5816505aa018f05d4">More...</a><br /></td></tr>
+<tr class="separator:ga65f5f08f024374b5816505aa018f05d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabf06aebce8dcd68412cecd330c8d83b5"><td class="memTemplParams" colspan="2">template&lt;typename D &gt; </td></tr>
+<tr class="memitem:gabf06aebce8dcd68412cecd330c8d83b5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gabf06aebce8dcd68412cecd330c8d83b5">randomGeographicalThresholdGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; int &gt; &amp;weights, D &amp;dist, double threshold, int alpha=2, int dimension=2)</td></tr>
+<tr class="memdesc:gabf06aebce8dcd68412cecd330c8d83b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random geometric graph where edges are created based on their distance and the weight of nodes.  <a href="group__graph-generators.html#gabf06aebce8dcd68412cecd330c8d83b5">More...</a><br /></td></tr>
+<tr class="separator:gabf06aebce8dcd68412cecd330c8d83b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36">randomHierarchy</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, bool planar, bool singleSource, bool longEdges)</td></tr>
+<tr class="memdesc:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random hierarchical graph.  <a href="group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36">More...</a><br /></td></tr>
+<tr class="separator:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">randomRegularGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int d)</td></tr>
+<tr class="memdesc:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random <code>d</code>-regular graph.  <a href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">More...</a><br /></td></tr>
+<tr class="separator:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga0feff1b510864aba8b73a1b34e5f2ca1">randomGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
+<tr class="memdesc:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random graph.  <a href="group__graph-generators.html#ga0feff1b510864aba8b73a1b34e5f2ca1">More...</a><br /></td></tr>
+<tr class="separator:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac6991a8ef695dc1ce1c320aeb843856d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d">randomSimpleGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
+<tr class="memdesc:gac6991a8ef695dc1ce1c320aeb843856d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random simple graph.  <a href="group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d">More...</a><br /></td></tr>
+<tr class="separator:gac6991a8ef695dc1ce1c320aeb843856d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201">randomSimpleConnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
+<tr class="memdesc:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random simple and connected graph.  <a href="group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201">More...</a><br /></td></tr>
+<tr class="separator:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae84cb709f5fcb098528bc0474d1a55b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gae84cb709f5fcb098528bc0474d1a55b2">randomBiconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
+<tr class="memdesc:gae84cb709f5fcb098528bc0474d1a55b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random biconnected graph.  <a href="group__graph-generators.html#gae84cb709f5fcb098528bc0474d1a55b2">More...</a><br /></td></tr>
+<tr class="separator:gae84cb709f5fcb098528bc0474d1a55b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae9de58fd22ae2533f0d81d450d4bf985"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gae9de58fd22ae2533f0d81d450d4bf985">randomPlanarConnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
+<tr class="memdesc:gae9de58fd22ae2533f0d81d450d4bf985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random connected (simple) planar (embedded) graph.  <a href="group__graph-generators.html#gae9de58fd22ae2533f0d81d450d4bf985">More...</a><br /></td></tr>
+<tr class="separator:gae9de58fd22ae2533f0d81d450d4bf985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad0e3ab667c0cda3afe62c22f780b162c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gad0e3ab667c0cda3afe62c22f780b162c">randomPlanarBiconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, bool multiEdges=false)</td></tr>
+<tr class="memdesc:gad0e3ab667c0cda3afe62c22f780b162c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar biconnected (embedded) graph.  <a href="group__graph-generators.html#gad0e3ab667c0cda3afe62c22f780b162c">More...</a><br /></td></tr>
+<tr class="separator:gad0e3ab667c0cda3afe62c22f780b162c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga27a0d0e584ba5cdfe1e0cd4049b793ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga27a0d0e584ba5cdfe1e0cd4049b793ca">randomPlanarBiconnectedDigraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, double p=0, bool multiEdges=false)</td></tr>
+<tr class="memdesc:ga27a0d0e584ba5cdfe1e0cd4049b793ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar biconnected acyclic (embedded) digraph.  <a href="group__graph-generators.html#ga27a0d0e584ba5cdfe1e0cd4049b793ca">More...</a><br /></td></tr>
+<tr class="separator:ga27a0d0e584ba5cdfe1e0cd4049b793ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1b40a1075eb63d5a28b0655d701dec67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga1b40a1075eb63d5a28b0655d701dec67">randomUpwardPlanarBiconnectedDigraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
+<tr class="memdesc:ga1b40a1075eb63d5a28b0655d701dec67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random upward planar biconnected (embedded) digraph.  <a href="group__graph-generators.html#ga1b40a1075eb63d5a28b0655d701dec67">More...</a><br /></td></tr>
+<tr class="separator:ga1b40a1075eb63d5a28b0655d701dec67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gae4da58b786a2bb0c8eff99fa9b205e58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gae4da58b786a2bb0c8eff99fa9b205e58">randomPlanarCNBGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m, int b)</td></tr>
+<tr class="memdesc:gae4da58b786a2bb0c8eff99fa9b205e58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar graph, that is connected, but not biconnected.  <a href="group__graph-generators.html#gae4da58b786a2bb0c8eff99fa9b205e58">More...</a><br /></td></tr>
+<tr class="separator:gae4da58b786a2bb0c8eff99fa9b205e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gadad6b837cade23898f3dc0ae68239274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gadad6b837cade23898f3dc0ae68239274">randomTriconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, double p1, double p2)</td></tr>
+<tr class="memdesc:gadad6b837cade23898f3dc0ae68239274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random triconnected (and simple) graph.  <a href="group__graph-generators.html#gadad6b837cade23898f3dc0ae68239274">More...</a><br /></td></tr>
+<tr class="separator:gadad6b837cade23898f3dc0ae68239274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga6602d5f7709f793dcc53e83e1875b1a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga6602d5f7709f793dcc53e83e1875b1a6">randomPlanarTriconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int m)</td></tr>
+<tr class="memdesc:ga6602d5f7709f793dcc53e83e1875b1a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar triconnected (and simple) graph.  <a href="group__graph-generators.html#ga6602d5f7709f793dcc53e83e1875b1a6">More...</a><br /></td></tr>
+<tr class="separator:ga6602d5f7709f793dcc53e83e1875b1a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga38b77440e49db5110960a11be8195a30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga38b77440e49db5110960a11be8195a30">randomPlanarTriconnectedGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, double p1, double p2)</td></tr>
+<tr class="memdesc:ga38b77440e49db5110960a11be8195a30"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar triconnected (and simple) graph.  <a href="group__graph-generators.html#ga38b77440e49db5110960a11be8195a30">More...</a><br /></td></tr>
+<tr class="separator:ga38b77440e49db5110960a11be8195a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga95ff41c015fe92cc550088127e43d09c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga95ff41c015fe92cc550088127e43d09c">randomTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n)</td></tr>
+<tr class="memdesc:ga95ff41c015fe92cc550088127e43d09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random tree (simpler version.  <a href="group__graph-generators.html#ga95ff41c015fe92cc550088127e43d09c">More...</a><br /></td></tr>
+<tr class="separator:ga95ff41c015fe92cc550088127e43d09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad83c1576fee773abf95334f842f6849b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gad83c1576fee773abf95334f842f6849b">randomTree</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int maxDeg, int maxWidth)</td></tr>
+<tr class="memdesc:gad83c1576fee773abf95334f842f6849b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random tree.  <a href="group__graph-generators.html#gad83c1576fee773abf95334f842f6849b">More...</a><br /></td></tr>
+<tr class="separator:gad83c1576fee773abf95334f842f6849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga85a79853e408557d003de19d0034614e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga85a79853e408557d003de19d0034614e">randomClusterPlanarGraph</a> (<a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int cNum)</td></tr>
+<tr class="memdesc:ga85a79853e408557d003de19d0034614e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns random clusters to a given graph <code>G</code>.  <a href="group__graph-generators.html#ga85a79853e408557d003de19d0034614e">More...</a><br /></td></tr>
+<tr class="separator:ga85a79853e408557d003de19d0034614e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga519fee82a5b4ee56b07e74f32e1ff7d9">randomClusterGraph</a> (<a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int cNum)</td></tr>
+<tr class="memdesc:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns random clusters to a given graph <code>G</code>.  <a href="group__graph-generators.html#ga519fee82a5b4ee56b07e74f32e1ff7d9">More...</a><br /></td></tr>
+<tr class="separator:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga1c51749db17a3cb4362789e28b3efd9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga1c51749db17a3cb4362789e28b3efd9f">randomClusterGraph</a> (<a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a> &amp;C, const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, const <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> root, int moreInLeaves)</td></tr>
+<tr class="memdesc:ga1c51749db17a3cb4362789e28b3efd9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a specified cluster structure to a given graph <code>G</code>, and assigns vertices to clusters.  <a href="group__graph-generators.html#ga1c51749db17a3cb4362789e28b3efd9f">More...</a><br /></td></tr>
+<tr class="separator:ga1c51749db17a3cb4362789e28b3efd9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabfc90d445bff2e543aeae557af7da45b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gabfc90d445bff2e543aeae557af7da45b">randomDigraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, double p)</td></tr>
+<tr class="memdesc:gabfc90d445bff2e543aeae557af7da45b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random (simple) directed graph.  <a href="group__graph-generators.html#gabfc90d445bff2e543aeae557af7da45b">More...</a><br /></td></tr>
+<tr class="separator:gabfc90d445bff2e543aeae557af7da45b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gab7bf735577889df8926599b1152957f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gab7bf735577889df8926599b1152957f5">randomSeriesParallelDAG</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int edges, double p=0.5, double flt=0.0)</td></tr>
+<tr class="memdesc:gab7bf735577889df8926599b1152957f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random (simple, biconnected) series parallel DAG.  <a href="group__graph-generators.html#gab7bf735577889df8926599b1152957f5">More...</a><br /></td></tr>
+<tr class="separator:gab7bf735577889df8926599b1152957f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa22bfe93fe65faf3f59f3c966a71471b">randomGeometricCubeGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int nodes, double threshold, int dimension=2)</td></tr>
+<tr class="memdesc:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random geometric graph by laying out nodes in a unit n-cube. Nodes with a distance &lt; threshold are connected, 0 &lt;= threshold &lt;= sqrt(dimension). The graph is simple.  <a href="group__graph-generators.html#gaa22bfe93fe65faf3f59f3c966a71471b">More...</a><br /></td></tr>
+<tr class="separator:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga28d983e7ad7f1dc8b4e91cb4326e68ec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga28d983e7ad7f1dc8b4e91cb4326e68ec">randomWaxmanGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int nodes, double alpha, double beta, double width=1.0, double height=1.0)</td></tr>
+<tr class="memdesc:ga28d983e7ad7f1dc8b4e91cb4326e68ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a Waxman graph where nodes are uniformly randomly placed in a grid, then edges are inserted based on nodes' euclidean distances.  <a href="group__graph-generators.html#ga28d983e7ad7f1dc8b4e91cb4326e68ec">More...</a><br /></td></tr>
+<tr class="separator:ga28d983e7ad7f1dc8b4e91cb4326e68ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga70be73bda36b4aeb89122bcd3154af7c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga70be73bda36b4aeb89122bcd3154af7c">preferentialAttachmentGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int nodes, int minDegree)</td></tr>
+<tr class="memdesc:ga70be73bda36b4aeb89122bcd3154af7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a graph where new nodes are more likely to connect to nodes with high degree.  <a href="group__graph-generators.html#ga70be73bda36b4aeb89122bcd3154af7c">More...</a><br /></td></tr>
+<tr class="separator:ga70be73bda36b4aeb89122bcd3154af7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaba4c92aaba97ed6ec8c4e250268f5c5a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaba4c92aaba97ed6ec8c4e250268f5c5a">randomWattsStrogatzGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, int n, int k, double probability)</td></tr>
+<tr class="memdesc:gaba4c92aaba97ed6ec8c4e250268f5c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a "small world" graph as described by Watts &amp; Strogatz.  <a href="group__graph-generators.html#gaba4c92aaba97ed6ec8c4e250268f5c5a">More...</a><br /></td></tr>
+<tr class="separator:gaba4c92aaba97ed6ec8c4e250268f5c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga5163ba3842a6d1cec25c758b2ac12899"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5163ba3842a6d1cec25c758b2ac12899">randomChungLuGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; int &gt; expectedDegreeDistribution)</td></tr>
+<tr class="memdesc:ga5163ba3842a6d1cec25c758b2ac12899"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a graph where edges are inserted based on given weights.  <a href="group__graph-generators.html#ga5163ba3842a6d1cec25c758b2ac12899">More...</a><br /></td></tr>
+<tr class="separator:ga5163ba3842a6d1cec25c758b2ac12899"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gac378d37324b0feb49b6bbf7430970308"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gac378d37324b0feb49b6bbf7430970308">randomEdgesGraph</a> (<a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G, std::function&lt; double(<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>)&gt; probability)</td></tr>
+<tr class="memdesc:gac378d37324b0feb49b6bbf7430970308"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts edges into the given graph based on probabilities given by a callback function.  <a href="group__graph-generators.html#gac378d37324b0feb49b6bbf7430970308">More...</a><br /></td></tr>
+<tr class="separator:gac378d37324b0feb49b6bbf7430970308"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Methods for loops</div></td></tr>
 <tr class="memitem:ga635b08778f71b22bfe54e97731c335e6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__ga-multi.html#ga635b08778f71b22bfe54e97731c335e6">isLoopFree</a> (const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;G)</td></tr>
 <tr class="memdesc:ga635b08778f71b22bfe54e97731c335e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> contains no self-loop.  <a href="group__ga-multi.html#ga635b08778f71b22bfe54e97731c335e6">More...</a><br /></td></tr>
@@ -2807,15 +2862,18 @@ Functions</h2></td></tr>
 <tr class="memdesc:gac5140f9721a417aca8fc58f78d55e600"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>G</code> represents an arborescence.  <a href="group__ga-tree.html#gac5140f9721a417aca8fc58f78d55e600">More...</a><br /></td></tr>
 <tr class="separator:gac5140f9721a417aca8fc58f78d55e600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Iteration macros</div></td></tr>
-<tr class="memitem:gafbce7d9b9dd773f7a8c7a4f562885602"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graphs.html#gafbce7d9b9dd773f7a8c7a4f562885602">test_forall_adj_entries_of_cluster</a> (<a class="el" href="namespaceogdf.html#aa9edbfe290f7c1ff2f1f8cd93276f9b1">ListConstIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &amp;it, <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;adj)</td></tr>
+<tr class="memitem:gafbce7d9b9dd773f7a8c7a4f562885602"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graphs.html#gafbce7d9b9dd773f7a8c7a4f562885602">test_forall_adj_entries_of_cluster</a> (<a class="el" href="namespaceogdf.html#a89890bf3d6dd2b1d0a26a0893b29a676">ListConstIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &amp;it, <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;adj)</td></tr>
 <tr class="separator:gafbce7d9b9dd773f7a8c7a4f562885602"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa9ae05442dc27f41e8ad0798b489c5fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graphs.html#gaa9ae05442dc27f41e8ad0798b489c5fa">test_forall_adj_edges_of_cluster</a> (<a class="el" href="namespaceogdf.html#aa9edbfe290f7c1ff2f1f8cd93276f9b1">ListConstIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &amp;it, <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &amp;e)</td></tr>
+<tr class="memitem:gaa9ae05442dc27f41e8ad0798b489c5fa"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graphs.html#gaa9ae05442dc27f41e8ad0798b489c5fa">test_forall_adj_edges_of_cluster</a> (<a class="el" href="namespaceogdf.html#a89890bf3d6dd2b1d0a26a0893b29a676">ListConstIterator</a>&lt; <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &gt; &amp;it, <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &amp;e)</td></tr>
 <tr class="separator:gaa9ae05442dc27f41e8ad0798b489c5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gaf65e491cbb9378df721b7d95f61d5e14"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graphs.html#gaf65e491cbb9378df721b7d95f61d5e14">test_forall_adj_edges_of_cluster</a> (<a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a> &amp;adj, <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &amp;e)</td></tr>
 <tr class="separator:gaf65e491cbb9378df721b7d95f61d5e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:affdd2b44937145630ebe67ac443ca38c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#affdd2b44937145630ebe67ac443ca38c">debugMode</a></td></tr>
+<tr class="memdesc:affdd2b44937145630ebe67ac443ca38c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set to true iff debug mode is used during compilation of the OGDF.  <a href="#affdd2b44937145630ebe67ac443ca38c">More...</a><br /></td></tr>
+<tr class="separator:affdd2b44937145630ebe67ac443ca38c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa1e5a6f58ae167317e533f8236dfc68f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_epsilon_test.html">EpsilonTest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#aa1e5a6f58ae167317e533f8236dfc68f">OGDF_GEOM_ET</a></td></tr>
 <tr class="separator:aa1e5a6f58ae167317e533f8236dfc68f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad02b99d09bc1494f2e023ebd8c2faf7b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classogdf_1_1_initialization.html">Initialization</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ad02b99d09bc1494f2e023ebd8c2faf7b">s_ogdfInitializer</a></td></tr>
@@ -2839,6 +2897,78 @@ Variables</h2></td></tr>
 <p>The type of adjacency entries. </p>
 
 <p class="definition">Definition at line <a class="el" href="_hypergraph_8h_source.html#l00068">68</a> of file <a class="el" href="_hypergraph_8h_source.html">Hypergraph.h</a>.</p>
+
+</div>
+</div>
+<a id="a753f54c5d4569d9f228a561525604bce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a753f54c5d4569d9f228a561525604bce">&#9670;&nbsp;</a></span>ArrayConstIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#a753f54c5d4569d9f228a561525604bce">ogdf::ArrayConstIterator</a> = typedef const E*</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_array_8h_source.html#l00048">48</a> of file <a class="el" href="_array_8h_source.html">Array.h</a>.</p>
+
+</div>
+</div>
+<a id="ad1e5ec88efaecf8855757e89ada13012"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1e5ec88efaecf8855757e89ada13012">&#9670;&nbsp;</a></span>ArrayConstReverseIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#ad1e5ec88efaecf8855757e89ada13012">ogdf::ArrayConstReverseIterator</a> = typedef <a class="el" href="classogdf_1_1_array_reverse_iterator_base.html">ArrayReverseIteratorBase</a>&lt;E, true&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_array_8h_source.html#l00050">50</a> of file <a class="el" href="_array_8h_source.html">Array.h</a>.</p>
+
+</div>
+</div>
+<a id="a65c7e9e082c33ee3fba6c8d3e8e3f646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65c7e9e082c33ee3fba6c8d3e8e3f646">&#9670;&nbsp;</a></span>ArrayIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#a65c7e9e082c33ee3fba6c8d3e8e3f646">ogdf::ArrayIterator</a> = typedef E*</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_array_8h_source.html#l00049">49</a> of file <a class="el" href="_array_8h_source.html">Array.h</a>.</p>
+
+</div>
+</div>
+<a id="aeee32ffd917d6c95795a043b40afc71c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeee32ffd917d6c95795a043b40afc71c">&#9670;&nbsp;</a></span>ArrayReverseIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#aeee32ffd917d6c95795a043b40afc71c">ogdf::ArrayReverseIterator</a> = typedef <a class="el" href="classogdf_1_1_array_reverse_iterator_base.html">ArrayReverseIteratorBase</a>&lt;E, false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_array_8h_source.html#l00051">51</a> of file <a class="el" href="_array_8h_source.html">Array.h</a>.</p>
 
 </div>
 </div>
@@ -2980,22 +3110,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="a2f00b29f8b78da46796ade6d1447e7f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f00b29f8b78da46796ade6d1447e7f2">&#9670;&nbsp;</a></span>HashedString</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespaceogdf.html#a2f00b29f8b78da46796ade6d1447e7f2">ogdf::HashedString</a> = typedef <a class="el" href="classogdf_1_1_hash_element.html">HashElement</a>&lt;string,int&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_xml_parser_8h_source.html#l00043">43</a> of file <a class="el" href="_xml_parser_8h_source.html">XmlParser.h</a>.</p>
-
-</div>
-</div>
 <a id="ab713002ba7246b35e2b98a1ac9b56068"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab713002ba7246b35e2b98a1ac9b56068">&#9670;&nbsp;</a></span>hyperedge</h2>
 
@@ -3068,8 +3182,8 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a id="aa9edbfe290f7c1ff2f1f8cd93276f9b1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9edbfe290f7c1ff2f1f8cd93276f9b1">&#9670;&nbsp;</a></span>ListConstIterator</h2>
+<a id="a89890bf3d6dd2b1d0a26a0893b29a676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89890bf3d6dd2b1d0a26a0893b29a676">&#9670;&nbsp;</a></span>ListConstIterator</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3077,30 +3191,66 @@ Variables</h2></td></tr>
 template&lt;class E &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceogdf.html#aa9edbfe290f7c1ff2f1f8cd93276f9b1">ogdf::ListConstIterator</a> = typedef <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, true&gt;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00042">42</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
-
-</div>
-</div>
-<a id="afbc8ed0a45db9e00400d4bc7399ef1f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbc8ed0a45db9e00400d4bc7399ef1f5">&#9670;&nbsp;</a></span>ListIterator</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class E &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ogdf::ListIterator</a> = typedef <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, false&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#a89890bf3d6dd2b1d0a26a0893b29a676">ogdf::ListConstIterator</a> = typedef <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, true, false&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00043">43</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+
+</div>
+</div>
+<a id="a31063890a4f3f8fe5a098df99a6fc75e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31063890a4f3f8fe5a098df99a6fc75e">&#9670;&nbsp;</a></span>ListConstReverseIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#a31063890a4f3f8fe5a098df99a6fc75e">ogdf::ListConstReverseIterator</a> = typedef <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, true, true&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00045">45</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+
+</div>
+</div>
+<a id="a4b81f98a6e0ea41cb2b034de41b06398"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b81f98a6e0ea41cb2b034de41b06398">&#9670;&nbsp;</a></span>ListIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ogdf::ListIterator</a> = typedef <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, false, false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00044">44</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+
+</div>
+</div>
+<a id="a695bd3e918f122014d12a8edb282f8a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a695bd3e918f122014d12a8edb282f8a2">&#9670;&nbsp;</a></span>ListReverseIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#a695bd3e918f122014d12a8edb282f8a2">ogdf::ListReverseIterator</a> = typedef <a class="el" href="classogdf_1_1_list_iterator_base.html">ListIteratorBase</a>&lt;E, false, true&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l00046">46</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -3169,6 +3319,78 @@ template&lt;class E &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l00041">41</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
+
+</div>
+</div>
+<a id="ab99e4f2292a8be5612655dcb8d23db8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab99e4f2292a8be5612655dcb8d23db8f">&#9670;&nbsp;</a></span>SortedSequenceConstIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class KEY , class INFO , class CMP &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#ab99e4f2292a8be5612655dcb8d23db8f">ogdf::SortedSequenceConstIterator</a> = typedef <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a>&lt;KEY,INFO,CMP,true,false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_sorted_sequence_8h_source.html#l00048">48</a> of file <a class="el" href="_sorted_sequence_8h_source.html">SortedSequence.h</a>.</p>
+
+</div>
+</div>
+<a id="a89735fa4d0ce3474420af1b9f1d8d954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89735fa4d0ce3474420af1b9f1d8d954">&#9670;&nbsp;</a></span>SortedSequenceConstReverseIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class KEY , class INFO , class CMP &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#a89735fa4d0ce3474420af1b9f1d8d954">ogdf::SortedSequenceConstReverseIterator</a> = typedef <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a>&lt;KEY,INFO,CMP,true,true&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_sorted_sequence_8h_source.html#l00054">54</a> of file <a class="el" href="_sorted_sequence_8h_source.html">SortedSequence.h</a>.</p>
+
+</div>
+</div>
+<a id="a7c30fb5dcb70384c1c26d6bf630f3c44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c30fb5dcb70384c1c26d6bf630f3c44">&#9670;&nbsp;</a></span>SortedSequenceIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class KEY , class INFO , class CMP &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#a7c30fb5dcb70384c1c26d6bf630f3c44">ogdf::SortedSequenceIterator</a> = typedef <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a>&lt;KEY,INFO,CMP,false,false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_sorted_sequence_8h_source.html#l00045">45</a> of file <a class="el" href="_sorted_sequence_8h_source.html">SortedSequence.h</a>.</p>
+
+</div>
+</div>
+<a id="af214a27f815769b9398085fff2ed203c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af214a27f815769b9398085fff2ed203c">&#9670;&nbsp;</a></span>SortedSequenceReverseIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class KEY , class INFO , class CMP &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf.html#af214a27f815769b9398085fff2ed203c">ogdf::SortedSequenceReverseIterator</a> = typedef <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html">SortedSequenceIteratorBase</a>&lt;KEY,INFO,CMP,false,true&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="_sorted_sequence_8h_source.html#l00051">51</a> of file <a class="el" href="_sorted_sequence_8h_source.html">SortedSequence.h</a>.</p>
 
 </div>
 </div>
@@ -3314,7 +3536,7 @@ template&lt;class E &gt; </div>
 <tr><td class="fieldname"><a id="ac7625914963ce9d09a3e208f02d12f2ba632a2406bbcbcd553eec45ac14b40a0a"></a>after&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00123">123</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00126">126</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
 
 </div>
 </div>
@@ -3891,61 +4113,6 @@ template&lt;class E &gt; </div>
 
 </div>
 </div>
-<a id="a822fe23411206276c7065c10a6689b6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a822fe23411206276c7065c10a6689b6c">&#9670;&nbsp;</a></span>XmlToken</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="namespaceogdf.html#a822fe23411206276c7065c10a6689b6c">ogdf::XmlToken</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>This enum type represents the values, which are returned by the function <a class="el" href="classogdf_1_1_xml_scanner.html#a4c34e10a7807c9f0f85e407294868d05">XmlScanner::getNextToken()</a>. </p>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="classogdf_1_1_xml_scanner.html#a4c34e10a7807c9f0f85e407294868d05">XmlScanner::getNextToken()</a> </dd></dl>
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6cafc3d67dba68762a2a6d7274077eecf72"></a>openingBracket&#160;</td><td class="fielddoc"><p>&lt; </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6ca27a6ca199cb07e63d818e86210a1506d"></a>closingBracket&#160;</td><td class="fielddoc"><p>&gt; </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6cae74cb12e5379c7272a2c177ba198a950"></a>questionMark&#160;</td><td class="fielddoc"><p>? </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6ca0fdde37ae817f7e8eed6687c55d991c4"></a>exclamationMark&#160;</td><td class="fielddoc"><p>! </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6cadabe6e597b70e5760826aea1dcc564f7"></a>minus&#160;</td><td class="fielddoc"><p>&minus; </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6ca9fbbaa4cc515bc46e0c12e82a31df736"></a>slash&#160;</td><td class="fielddoc"><p>/ </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6ca97239d7e43ad1bf31e07b65dfbea07db"></a>equalSign&#160;</td><td class="fielddoc"><p>= </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6caf393f3f5e496869a15bc72cbfd56f541"></a>identifier&#160;</td><td class="fielddoc"><p>(a..z|A..Z){(a..z|A..Z|0..9|.|_|:)} </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6caa0157e792caaa3a3702d1d77b7bf9ebd"></a>attributeValue&#160;</td><td class="fielddoc"><p>a sequence of characters, digits, minus - and dot . </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6ca1f150a76cdebf505b2890ef1e1925eae"></a>quotedValue&#160;</td><td class="fielddoc"><p>all quoted content " ... " or ' ... ' </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6ca0a3f176052ab982cb6749f1fe7e2de17"></a>endOfFile&#160;</td><td class="fielddoc"><p>End of file detected. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6ca98eec83040c443282be2555a86e23f13"></a>invalidToken&#160;</td><td class="fielddoc"><p>No token identified. </p>
-</td></tr>
-<tr><td class="fieldname"><a id="a822fe23411206276c7065c10a6689b6cab5cbf08f8a31aba3c07f74053d30f9e3"></a>noToken&#160;</td><td class="fielddoc"><p>Used for the m_lookAheadToken to indicate that there is no lookahead token. </p>
-</td></tr>
-</table>
-
-<p class="definition">Definition at line <a class="el" href="_xml_scanner_8h_source.html#l00042">42</a> of file <a class="el" href="_xml_scanner_8h_source.html">XmlScanner.h</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aa6b9e138e2892652414a8217b176dc66"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa6b9e138e2892652414a8217b176dc66">&#9670;&nbsp;</a></span>bucketSort()</h2>
@@ -3989,7 +4156,7 @@ template&lt;class E &gt; </div>
 
 <p>Bucket-sort array <code>a</code> using bucket assignment <code>f</code>; the values of <code>f</code> must be in the interval [<code>min</code>,<code>max</code>]. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01091">1091</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01088">1088</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
 
 </div>
 </div>
@@ -4144,7 +4311,7 @@ template&lt;typename CONTAINER , typename TYPE &gt; </div>
 <p>Fills <code>degdist</code> with the degree distribution of graph <code>G</code>. </p>
 <dl class="section see"><dt>See also</dt><dd><a class="el" href="namespaceogdf.html#ac8bef872e3e9fffafcef3b7d6629a322" title="Fills dist with the distribution given by a function func in graph G. ">ogdf::nodeDistribution</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00991">991</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l01013">1013</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -4307,6 +4474,128 @@ template&lt;typename CONTAINER , typename TYPE &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="precondition_8h_source.html#l00093">93</a> of file <a class="el" href="precondition_8h_source.html">precondition.h</a>.</p>
+
+</div>
+</div>
+<a id="a8d10038516990a6a4d5536a0776780a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d10038516990a6a4d5536a0776780a7">&#9670;&nbsp;</a></span>fromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ToClass &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ToClass ogdf::fromString </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="graphics_8h_source.html#l00596">596</a> of file <a class="el" href="graphics_8h_source.html">graphics.h</a>.</p>
+
+</div>
+</div>
+<a id="a16b49816799b3bb974b2909438b20f35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16b49816799b3bb974b2909438b20f35">&#9670;&nbsp;</a></span>initFillPatternHashing()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::initFillPatternHashing </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a795f37852ee144392f768f111557f985"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a795f37852ee144392f768f111557f985">&#9670;&nbsp;</a></span>isBipartite() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::isBipartite </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;&#160;</td>
+          <td class="paramname"><em>color</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks whether a graph is bipartite. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
+    <tr><td class="paramname">color</td><td>is assigned the color for each node, i.e. the partition it belongs to, if G is bipartite. Otherwise its contents are undefined. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> is bipartite, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="af226f8a4f66a45ae498f81e6474c9b1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af226f8a4f66a45ae498f81e6474c9b1c">&#9670;&nbsp;</a></span>isBipartite() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::isBipartite </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> &amp;&#160;</td>
+          <td class="paramname"><em>G</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks whether a graph is bipartite. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">G</td><td>is the input graph. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if <code>G</code> is bipartite, false otherwise. </dd></dl>
+
+<p class="definition">Definition at line <a class="el" href="simple__graph__alg_8h_source.html#l00971">971</a> of file <a class="el" href="simple__graph__alg_8h_source.html">simple_graph_alg.h</a>.</p>
 
 </div>
 </div>
@@ -5158,38 +5447,8 @@ template&lt;class E1 , class E2 &gt; </div>
 
 </div>
 </div>
-<a id="a79d9e239b7b021647c0da9c885210963"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79d9e239b7b021647c0da9c885210963">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[11/37]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; ogdf::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="group__graph-drawing.html#ga3fa89995b8a28ae0a566cc9e2f3d3c80">FillPattern</a> &amp;&#160;</td>
-          <td class="paramname"><em>fp</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Output operator. </p>
-
-</div>
-</div>
 <a id="a63df57134bae85c6f30bb58f5fade57b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63df57134bae85c6f30bb58f5fade57b">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[12/37]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a63df57134bae85c6f30bb58f5fade57b">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[11/37]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5227,7 +5486,7 @@ template&lt;class E1 , class E2 &gt; </div>
 </div>
 </div>
 <a id="a645542951ce45de5c484b1aaea260656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a645542951ce45de5c484b1aaea260656">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[13/37]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a645542951ce45de5c484b1aaea260656">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[12/37]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5255,7 +5514,7 @@ template&lt;class E1 , class E2 &gt; </div>
 </div>
 </div>
 <a id="a43ee3c904e7b3b30ca8b61de45b01ec5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43ee3c904e7b3b30ca8b61de45b01ec5">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[14/37]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ee3c904e7b3b30ca8b61de45b01ec5">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[13/37]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5292,8 +5551,66 @@ template&lt;class E1 , class E2 &gt; </div>
 
 </div>
 </div>
+<a id="ad02a39fc86c1ae14f51945af12f0d220"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02a39fc86c1ae14f51945af12f0d220">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[14/37]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; ogdf::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="group__graph-drawing.html#ga3fa89995b8a28ae0a566cc9e2f3d3c80">FillPattern</a> &amp;&#160;</td>
+          <td class="paramname"><em>fp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Output operator. </p>
+
+</div>
+</div>
+<a id="ada5a84e686148a342cbc65e7ad0069b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada5a84e686148a342cbc65e7ad0069b2">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[15/37]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; ogdf::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100">BalloonLayout::RootSelection</a> &amp;&#160;</td>
+          <td class="paramname"><em>rs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a2deee3e61c8b58b00e141651e4674b6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2deee3e61c8b58b00e141651e4674b6b">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[15/37]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2deee3e61c8b58b00e141651e4674b6b">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[16/37]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5319,34 +5636,6 @@ template&lt;class E1 , class E2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Output operator. </p>
-
-</div>
-</div>
-<a id="ada5a84e686148a342cbc65e7ad0069b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada5a84e686148a342cbc65e7ad0069b2">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[16/37]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; ogdf::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100">BalloonLayout::RootSelection</a> &amp;&#160;</td>
-          <td class="paramname"><em>rs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -5380,7 +5669,7 @@ template&lt;class E , class INDEX &gt; </div>
 
 <p>Prints <a class="el" href="classogdf_1_1_bounded_queue.html" title="The parameterized class BoundedQueue implements queues with bounded size. ">BoundedQueue</a> <code>Q</code> to output stream <code>os</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00222">222</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_bounded_queue_8h_source.html#l00220">220</a> of file <a class="el" href="_bounded_queue_8h_source.html">BoundedQueue.h</a>.</p>
 
 </div>
 </div>
@@ -5484,7 +5773,7 @@ template&lt;class T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00287">287</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00298">298</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -5524,7 +5813,7 @@ template&lt;class T &gt; </div>
 
 <p>Output operator for <a class="el" href="classogdf_1_1_configuration.html#a7d284324c0f6081e61d9c0e49135c14c" title="Specifies the operating system for which OGDF has been configured/built. ">Configuration::System</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a00ddd7e235de880bd5e975f46da4969d" title="Converts sys to a (readable) string. ">Configuration::toString(Configuration::System)</a>). </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00321">321</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00325">325</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 
 </div>
 </div>
@@ -5564,7 +5853,7 @@ template&lt;class T &gt; </div>
 
 <p>Output operator for <a class="el" href="classogdf_1_1_configuration.html#a69a78994f8c6084d650f680a9530d567" title="Specifies the LP-solver used by OGDF. ">Configuration::LPSolver</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a527d0d4948147526c5d55f87749d38c3" title="Converts lps to a (readable) string. ">Configuration::toString(Configuration::LPSolver)</a>). </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00328">328</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00332">332</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 
 </div>
 </div>
@@ -5604,7 +5893,7 @@ template&lt;class T &gt; </div>
 
 <p>Output operator for <a class="el" href="classogdf_1_1_configuration.html#ab3bdd14fc00f56f91af5034a06e7930e" title="Specifies the memory-manager used by OGDF. ">Configuration::MemoryManager</a> (uses <a class="el" href="classogdf_1_1_configuration.html#a1fc0a984676c712853234c7288f06469" title="Converts mm to a (readable) string. ">Configuration::toString(Configuration::MemoryManager)</a>). </p>
 
-<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00335">335</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="config_8h_source.html#l00339">339</a> of file <a class="el" href="config_8h_source.html">config.h</a>.</p>
 
 </div>
 </div>
@@ -5636,7 +5925,7 @@ template&lt;class E &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00383">383</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00377">377</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -5668,7 +5957,7 @@ template&lt;class E &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00389">389</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00383">383</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -5702,7 +5991,7 @@ template&lt;class E , class INDEX &gt; </div>
 
 <p>Prints <a class="el" href="classogdf_1_1_array_buffer.html" title="An array that keeps track of the number of inserted elements; also usable as an efficient stack...">ArrayBuffer</a> <code>a</code> to output stream <code>os</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_array_buffer_8h_source.html#l00433">433</a> of file <a class="el" href="_array_buffer_8h_source.html">ArrayBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_array_buffer_8h_source.html#l00447">447</a> of file <a class="el" href="_array_buffer_8h_source.html">ArrayBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -5740,42 +6029,8 @@ template&lt;class PointType &gt; </div>
 
 </div>
 </div>
-<a id="a1cdb9d14403e87539d6dd0c902a8bdb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cdb9d14403e87539d6dd0c902a8bdb8">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[28/37]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class E , class INDEX &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::ostream&amp; ogdf::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classogdf_1_1_array.html">ogdf::Array</a>&lt; E, INDEX &gt; &amp;&#160;</td>
-          <td class="paramname"><em>a</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Prints array <code>a</code> to output stream <code>os</code>. </p>
-
-<p class="definition">Definition at line <a class="el" href="_array_8h_source.html#l00794">794</a> of file <a class="el" href="_array_8h_source.html">Array.h</a>.</p>
-
-</div>
-</div>
 <a id="a03b73c97b7500bf8abe50bc65a06a1f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03b73c97b7500bf8abe50bc65a06a1f4">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[29/37]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b73c97b7500bf8abe50bc65a06a1f4">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[28/37]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5809,7 +6064,7 @@ template&lt;class PointType &gt; </div>
 </div>
 </div>
 <a id="ae9105c92fbf7a32279701cd19f18928c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9105c92fbf7a32279701cd19f18928c">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[30/37]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9105c92fbf7a32279701cd19f18928c">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[29/37]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5833,6 +6088,40 @@ template&lt;class PointType &gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cdb9d14403e87539d6dd0c902a8bdb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cdb9d14403e87539d6dd0c902a8bdb8">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[30/37]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class E , class INDEX &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream&amp; ogdf::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_array.html">ogdf::Array</a>&lt; E, INDEX &gt; &amp;&#160;</td>
+          <td class="paramname"><em>a</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Prints array <code>a</code> to output stream <code>os</code>. </p>
+
+<p class="definition">Definition at line <a class="el" href="_array_8h_source.html#l00942">942</a> of file <a class="el" href="_array_8h_source.html">Array.h</a>.</p>
 
 </div>
 </div>
@@ -5866,7 +6155,7 @@ template&lt;class E &gt; </div>
 
 <p>Output operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01075">1075</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01072">1072</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
 
 </div>
 </div>
@@ -5900,7 +6189,7 @@ template&lt;class E &gt; </div>
 
 <p>Output operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01083">1083</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01080">1080</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
 
 </div>
 </div>
@@ -5996,7 +6285,7 @@ template&lt;class E &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01443">1443</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01458">1458</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -6030,7 +6319,7 @@ template&lt;class E &gt; </div>
 
 <p>Prints list <code>L</code> to output stream <code>os</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l01573">1573</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l01626">1626</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -6064,7 +6353,7 @@ template&lt;class E &gt; </div>
 
 <p>Prints list <code>L</code> to output stream <code>os</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l01581">1581</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l01634">1634</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -6719,7 +7008,7 @@ template&lt;class E &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00372">372</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00366">366</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -6757,7 +7046,7 @@ template&lt;class E &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00377">377</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="basic_2_queue_8h_source.html#l00371">371</a> of file <a class="el" href="basic_2_queue_8h_source.html">Queue.h</a>.</p>
 
 </div>
 </div>
@@ -6797,7 +7086,7 @@ template&lt;class E , class INDEX &gt; </div>
 
 <p>Prints <a class="el" href="classogdf_1_1_array_buffer.html" title="An array that keeps track of the number of inserted elements; also usable as an efficient stack...">ArrayBuffer</a> <code>a</code> to output stream <code>os</code> using delimiter <code>delim</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_array_buffer_8h_source.html#l00422">422</a> of file <a class="el" href="_array_buffer_8h_source.html">ArrayBuffer.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_array_buffer_8h_source.html#l00436">436</a> of file <a class="el" href="_array_buffer_8h_source.html">ArrayBuffer.h</a>.</p>
 
 </div>
 </div>
@@ -6837,7 +7126,7 @@ template&lt;class E , class INDEX &gt; </div>
 
 <p>Prints array <code>a</code> to output stream <code>os</code> using delimiter <code>delim</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_array_8h_source.html#l00783">783</a> of file <a class="el" href="_array_8h_source.html">Array.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_array_8h_source.html#l00931">931</a> of file <a class="el" href="_array_8h_source.html">Array.h</a>.</p>
 
 </div>
 </div>
@@ -6877,7 +7166,7 @@ template&lt;class E &gt; </div>
 
 <p>Prints list <code>L</code> to output stream <code>os</code> using delimiter <code>delim</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01056">1056</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01053">1053</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
 
 </div>
 </div>
@@ -6917,7 +7206,7 @@ template&lt;class E &gt; </div>
 
 <p>Prints list <code>L</code> to output stream <code>os</code> using delimiter <code>delim</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01068">1068</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_s_list_8h_source.html#l01065">1065</a> of file <a class="el" href="_s_list_8h_source.html">SList.h</a>.</p>
 
 </div>
 </div>
@@ -6957,7 +7246,7 @@ template&lt;class E &gt; </div>
 
 <p>Prints list <code>L</code> to output stream <code>os</code> using delimiter <code>delim</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l01554">1554</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l01607">1607</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -6997,7 +7286,7 @@ template&lt;class E &gt; </div>
 
 <p>Prints list <code>L</code> to output stream <code>os</code> using delimiter <code>delim</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l01566">1566</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_list_8h_source.html#l01619">1619</a> of file <a class="el" href="_list_8h_source.html">List.h</a>.</p>
 
 </div>
 </div>
@@ -7225,7 +7514,53 @@ template&lt;typename E &gt; </div>
 
 </div>
 </div>
+<a id="a8a8fda4de970af64edeec10da3d4752e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a8fda4de970af64edeec10da3d4752e">&#9670;&nbsp;</a></span>toString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class FromClass &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string ogdf::toString </td>
+          <td>(</td>
+          <td class="paramtype">FromClass&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="graphics_8h_source.html#l00584">584</a> of file <a class="el" href="graphics_8h_source.html">graphics.h</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="affdd2b44937145630ebe67ac443ca38c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affdd2b44937145630ebe67ac443ca38c">&#9670;&nbsp;</a></span>debugMode</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::debugMode</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set to true iff debug mode is used during compilation of the OGDF. </p>
+
+</div>
+</div>
 <a id="aa1e5a6f58ae167317e533f8236dfc68f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1e5a6f58ae167317e533f8236dfc68f">&#9670;&nbsp;</a></span>OGDF_GEOM_ET</h2>
 
@@ -7260,7 +7595,7 @@ template&lt;typename E &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00115">115</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00118">118</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
 
 </div>
 </div>
@@ -7270,7 +7605,7 @@ template&lt;typename E &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

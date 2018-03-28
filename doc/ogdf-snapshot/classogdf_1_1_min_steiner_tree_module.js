@@ -12,6 +12,7 @@ var classogdf_1_1_min_steiner_tree_module =
     [ "computeSteinerTree", "classogdf_1_1_min_steiner_tree_module.html#a670aca509e97bbcda09871796e94be0e", null ],
     [ "drawSteinerTreeSVG", "classogdf_1_1_min_steiner_tree_module.html#ae882932fb65db1f4a6559df8e30d6b67", null ],
     [ "drawSVG", "classogdf_1_1_min_steiner_tree_module.html#a8fecb7d68f283a153c8247c9feb23417", null ],
+    [ "drawSVG", "classogdf_1_1_min_steiner_tree_module.html#adf16950c9429343012ce4029ab42758e", null ],
     [ "getNonterminals", "classogdf_1_1_min_steiner_tree_module.html#af61ecef8b899e9e5b0e81d4573431ba2", null ],
     [ "getTerminals", "classogdf_1_1_min_steiner_tree_module.html#a3cd3242ae3d106abc4d6f8afb95f61f0", null ],
     [ "isQuasiBipartite", "classogdf_1_1_min_steiner_tree_module.html#a141e9a352f8008eb9acd3440e7a316a6", null ],

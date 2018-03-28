@@ -1,5 +1,6 @@
 var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
 [
+    [ "graph_generators", "dir_58cfc05f5e50e1349ab3ec5b14448f02.html", "dir_58cfc05f5e50e1349ab3ec5b14448f02" ],
     [ "heap", "dir_a0a887bb8e581187ba932e974bcf936a.html", "dir_a0a887bb8e581187ba932e974bcf936a" ],
     [ "internal", "dir_a84f30354f1bca7c79ea70c479d35e66.html", "dir_a84f30354f1bca7c79ea70c479d35e66" ],
     [ "memory", "dir_03b99e424906158b62af79777b6e68cf.html", "dir_03b99e424906158b62af79777b6e68cf" ],
@@ -48,7 +49,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     ] ],
     [ "Graph.h", "_graph_8h.html", "_graph_8h" ],
     [ "Graph_d.h", "_graph__d_8h.html", "_graph__d_8h" ],
-    [ "graph_generators.h", "graph__generators_8h.html", "graph__generators_8h" ],
+    [ "graph_generators.h", "graph__generators_8h.html", null ],
     [ "GraphAttributes.h", "_graph_attributes_8h.html", null ],
     [ "GraphCopy.h", "_graph_copy_8h.html", null ],
     [ "GraphCopyAttributes.h", "_graph_copy_attributes_8h.html", null ],
@@ -112,6 +113,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     ] ],
     [ "PriorityQueue.h", "_priority_queue_8h.html", "_priority_queue_8h" ],
     [ "Queue.h", "basic_2_queue_8h.html", "basic_2_queue_8h" ],
+    [ "Reverse.h", "_reverse_8h.html", "_reverse_8h" ],
     [ "simple_graph_alg.h", "simple__graph__alg_8h.html", "simple__graph__alg_8h" ],
     [ "Skiplist.h", "_skiplist_8h.html", [
       [ "Skiplist", "classogdf_1_1_skiplist.html", "classogdf_1_1_skiplist" ],
@@ -120,13 +122,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
       [ "SkiplistIterator", "classogdf_1_1_skiplist_iterator.html", "classogdf_1_1_skiplist_iterator" ]
     ] ],
     [ "SList.h", "_s_list_8h.html", "_s_list_8h" ],
-    [ "SortedSequence.h", "_sorted_sequence_8h.html", [
-      [ "Element", "structogdf_1_1_sorted_sequence_1_1_element.html", "structogdf_1_1_sorted_sequence_1_1_element" ],
-      [ "SortedSequenceConstIterator", "classogdf_1_1_sorted_sequence_const_iterator.html", "classogdf_1_1_sorted_sequence_const_iterator" ],
-      [ "SortedSequenceConstIterator", "classogdf_1_1_sorted_sequence_const_iterator.html", "classogdf_1_1_sorted_sequence_const_iterator" ],
-      [ "SortedSequenceIterator", "classogdf_1_1_sorted_sequence_iterator.html", "classogdf_1_1_sorted_sequence_iterator" ],
-      [ "SortedSequenceIterator", "classogdf_1_1_sorted_sequence_iterator.html", "classogdf_1_1_sorted_sequence_iterator" ]
-    ] ],
+    [ "SortedSequence.h", "_sorted_sequence_8h.html", "_sorted_sequence_8h" ],
     [ "STNumbering.h", "_s_t_numbering_8h.html", "_s_t_numbering_8h" ],
     [ "Stopwatch.h", "_stopwatch_8h.html", [
       [ "StopwatchCPU", "classogdf_1_1_stopwatch_c_p_u.html", "classogdf_1_1_stopwatch_c_p_u" ],

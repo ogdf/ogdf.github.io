@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -119,6 +119,7 @@ $(document).ready(function(){initNavTree('group__container-functions.html','');}
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Container Functions<div class="ingroups"><a class="el" href="group__basic.html">Basic Functionality</a></div></div>  </div>
@@ -128,8 +129,18 @@ $(document).ready(function(){initNavTree('group__container-functions.html','');}
 <p>Provides some commonly useful functions for general containers.  
 <a href="#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_reverse.html">ogdf::Reverse&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A wrapper class to easily iterate through a container in reverse.  <a href="classogdf_1_1_reverse.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:ga993f493f373e35f56c802a085df0549b"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ga993f493f373e35f56c802a085df0549b"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_reverse.html">Reverse</a>&lt; T &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__container-functions.html#ga993f493f373e35f56c802a085df0549b">ogdf::reverse</a> (T &amp;container)</td></tr>
+<tr class="memdesc:ga993f493f373e35f56c802a085df0549b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides iterators for <code>container</code> to make it easily iterable in reverse.  <a href="group__container-functions.html#ga993f493f373e35f56c802a085df0549b">More...</a><br /></td></tr>
+<tr class="separator:ga993f493f373e35f56c802a085df0549b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga79451b5485f98027cb726869dea59e33"><td class="memTemplParams" colspan="2">template&lt;typename CONTAINER , typename T &gt; </td></tr>
 <tr class="memitem:ga79451b5485f98027cb726869dea59e33"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__container-functions.html#ga79451b5485f98027cb726869dea59e33">ogdf::searchPos</a> (const CONTAINER &amp;C, const T &amp;x)</td></tr>
 <tr class="memdesc:ga79451b5485f98027cb726869dea59e33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for the position of <code>x</code> in container <code>C</code>; returns -1 if not found.  <a href="group__container-functions.html#ga79451b5485f98027cb726869dea59e33">More...</a><br /></td></tr>
@@ -138,6 +149,42 @@ Functions</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Provides some commonly useful functions for general containers. </p>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ga993f493f373e35f56c802a085df0549b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga993f493f373e35f56c802a085df0549b">&#9670;&nbsp;</a></span>reverse()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_reverse.html">Reverse</a>&lt;T&gt; ogdf::reverse </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Provides iterators for <code>container</code> to make it easily iterable in reverse. </p>
+<div class="fragment"><div class="line"><span class="keywordflow">for</span> (<span class="keyword">auto</span> elem : <a class="code" href="group__container-functions.html#ga993f493f373e35f56c802a085df0549b">reverse</a>(container)) { ... } </div></div><!-- fragment --> <dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">T</td><td>denotes the type of <code>container</code>. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>is the container to be reversed. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_reverse_8h_source.html#l00075">75</a> of file <a class="el" href="_reverse_8h_source.html">Reverse.h</a>.</p>
+
+</div>
+</div>
 <a id="ga79451b5485f98027cb726869dea59e33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ga79451b5485f98027cb726869dea59e33">&#9670;&nbsp;</a></span>searchPos()</h2>
 
@@ -183,7 +230,7 @@ template&lt;typename CONTAINER , typename T &gt; </div>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>the position of the first occurrence of <code>x</code> in <code>C</code> (positions start with 0), or -1 if <code>x</code> is not in <code>C</code>. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00203">203</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="basic_8h_source.html#l00206">206</a> of file <a class="el" href="basic_8h_source.html">basic.h</a>.</p>
 
 </div>
 </div>
@@ -192,7 +239,7 @@ template&lt;typename CONTAINER , typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

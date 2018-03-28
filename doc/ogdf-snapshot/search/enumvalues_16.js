@@ -1,9 +1,6 @@
 var searchData=
 [
   ['x',['X',['../namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a02129bb861061d1a052c592e2dc6b383',1,'ogdf::gdf::X()'],['../namespaceogdf_1_1graphml.html#a8ec1f3d5a98f27193764249aa99275aba02129bb861061d1a052c592e2dc6b383',1,'ogdf::graphml::X()']]],
-  ['xmi',['xmi',['../classogdf_1_1_uml_to_graph_converter.html#aa595d051ad24644b0c208b33d9209b89a1f490aabf0793c27d57533eea199c8e6',1,'ogdf::UmlToGraphConverter']]],
-  ['xmicontent',['xmiContent',['../classogdf_1_1_uml_to_graph_converter.html#aa595d051ad24644b0c208b33d9209b89a070c11becd9807cff37026c56467f9d1',1,'ogdf::UmlToGraphConverter']]],
-  ['xmiid',['xmiId',['../classogdf_1_1_uml_to_graph_converter.html#aa595d051ad24644b0c208b33d9209b89a1fd384eeb1d17ecb7ac4cd1ebe722f23',1,'ogdf::UmlToGraphConverter']]],
   ['xor',['XOR',['../classogdf_1_1_hypernode_element.html#ae109c7444b6b88013c7e6f95041a54cfa97675eb3f268048604dc5155511a2a4d',1,'ogdf::HypernodeElement']]],
   ['xpath_5ftype_5fboolean',['xpath_type_boolean',['../namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6a049dd1494237a55f8aba3392d12a0164',1,'pugi']]],
   ['xpath_5ftype_5fnode_5fset',['xpath_type_node_set',['../namespacepugi.html#ae3820874caf240e9f311bfd2790a84d6af5613748204e2e4861524e7d63a699c9',1,'pugi']]],

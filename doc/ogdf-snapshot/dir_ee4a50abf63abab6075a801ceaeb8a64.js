@@ -44,16 +44,6 @@ var dir_ee4a50abf63abab6075a801ceaeb8a64 =
     [ "GraphMLParser.h", "_graph_m_l_parser_8h.html", [
       [ "GraphMLParser", "classogdf_1_1_graph_m_l_parser.html", "classogdf_1_1_graph_m_l_parser" ]
     ] ],
-    [ "LineBuffer.h", "_line_buffer_8h.html", [
-      [ "LineBuffer", "classogdf_1_1_line_buffer.html", "classogdf_1_1_line_buffer" ],
-      [ "LineBufferPosition", "classogdf_1_1_line_buffer_position.html", "classogdf_1_1_line_buffer_position" ]
-    ] ],
-    [ "Ogml.h", "_ogml_8h.html", [
-      [ "Ogml", "classogdf_1_1_ogml.html", "classogdf_1_1_ogml" ]
-    ] ],
-    [ "OgmlParser.h", "_ogml_parser_8h.html", [
-      [ "OgmlParser", "classogdf_1_1_ogml_parser.html", "classogdf_1_1_ogml_parser" ]
-    ] ],
     [ "SvgPrinter.h", "_svg_printer_8h.html", [
       [ "SvgPrinter", "classogdf_1_1_svg_printer.html", "classogdf_1_1_svg_printer" ]
     ] ],
@@ -62,14 +52,5 @@ var dir_ee4a50abf63abab6075a801ceaeb8a64 =
     [ "TlpParser.h", "_tlp_parser_8h.html", [
       [ "Parser", "classogdf_1_1tlp_1_1_parser.html", "classogdf_1_1tlp_1_1_parser" ]
     ] ],
-    [ "UmlDiagramGraph.h", "_uml_diagram_graph_8h.html", [
-      [ "UmlDiagramGraph", "classogdf_1_1_uml_diagram_graph.html", "classogdf_1_1_uml_diagram_graph" ]
-    ] ],
-    [ "UmlModelGraph.h", "_uml_model_graph_8h.html", "_uml_model_graph_8h" ],
-    [ "UmlToGraphConverter.h", "_uml_to_graph_converter_8h.html", [
-      [ "UmlToGraphConverter", "classogdf_1_1_uml_to_graph_converter.html", "classogdf_1_1_uml_to_graph_converter" ]
-    ] ],
-    [ "Utils.h", "fileformats_2utils_8h.html", "fileformats_2utils_8h" ],
-    [ "XmlParser.h", "_xml_parser_8h.html", "_xml_parser_8h" ],
-    [ "XmlScanner.h", "_xml_scanner_8h.html", "_xml_scanner_8h" ]
+    [ "Utils.h", "fileformats_2utils_8h.html", "fileformats_2utils_8h" ]
 ];

@@ -13,7 +13,7 @@ var searchData=
   ['vardata',['vardata',['../class_minisat_1_1_internal_1_1_solver.html#ac65015221e3c295900354768440453b5',1,'Minisat::Internal::Solver']]],
   ['varelimage_5f',['varElimAge_',['../classabacus_1_1_master.html#adefe7cb01fa954a0c49faf9f7e6538bf',1,'abacus::Master']]],
   ['varelimeps_5f',['varElimEps_',['../classabacus_1_1_master.html#a3dd53454a0e4810df149c05cd11b6b40',1,'abacus::Master']]],
-  ['varelimmode_5f',['VARELIMMODE_',['../classabacus_1_1_master.html#a4dc3afaf02fd674c9e84212e6a0e5e7e',1,'abacus::Master::VARELIMMODE_()'],['../classabacus_1_1_master.html#aed94f47d89db7f388c13f76abec02a06',1,'abacus::Master::varElimMode_()']]],
+  ['varelimmode_5f',['varElimMode_',['../classabacus_1_1_master.html#aed94f47d89db7f388c13f76abec02a06',1,'abacus::Master::varElimMode_()'],['../classabacus_1_1_master.html#a4dc3afaf02fd674c9e84212e6a0e5e7e',1,'abacus::Master::VARELIMMODE_()']]],
   ['variable_5f',['variable_',['../classabacus_1_1_bound_branch_rule.html#ae514e7e17507af9edf609f8a35d8f046',1,'abacus::BoundBranchRule::variable_()'],['../classabacus_1_1_set_branch_rule.html#a6827b0ecb9ac283518332f4cb534cd50',1,'abacus::SetBranchRule::variable_()'],['../classabacus_1_1_val_branch_rule.html#a16b3073ffc62257c942b91f3d8a8a62a',1,'abacus::ValBranchRule::variable_()']]],
   ['varnum',['varnum',['../structogdf_1_1cluster__planarity_1_1_c_planarity_sub_1_1_kura_size.html#aebf158e4a8eef585ce00006ca17d0b1c',1,'ogdf::cluster_planarity::CPlanaritySub::KuraSize']]],
   ['varpool_5f',['varPool_',['../classabacus_1_1_master.html#a8c0bf45c3f9d780e59d7bba9fd819d08',1,'abacus::Master']]],

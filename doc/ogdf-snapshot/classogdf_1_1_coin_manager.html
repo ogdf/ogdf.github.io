@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -126,23 +126,27 @@ $(document).ready(function(){initNavTree('classogdf_1_1_coin_manager.html','');}
 </div><!--header-->
 <div class="contents">
 
+<p>If you use COIN-OR, you should use this class.  
+ <a href="classogdf_1_1_coin_manager.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="coin_8h_source.html">ogdf/external/coin.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a63c68febc82635e032a109b898999ea5"><td class="memItemLeft" align="right" valign="top">static OsiSolverInterface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coin_manager.html#a63c68febc82635e032a109b898999ea5">createCorrectOsiSolverInterface</a> ()</td></tr>
+<tr class="memdesc:a63c68febc82635e032a109b898999ea5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a new solver.  <a href="#a63c68febc82635e032a109b898999ea5">More...</a><br /></td></tr>
 <tr class="separator:a63c68febc82635e032a109b898999ea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a494d2bedd3c6e98618c43715a53b035e"><td class="memItemLeft" align="right" valign="top">static OsiSolverInterface *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coin_manager.html#a494d2bedd3c6e98618c43715a53b035e">createCorrectOsiSolverInterface</a> (<a class="el" href="classogdf_1_1_coin_callbacks.html">CoinCallbacks</a> *ccc, int callbackTypes)</td></tr>
-<tr class="separator:a494d2bedd3c6e98618c43715a53b035e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a786509023a316dff3b7e564978e2d858"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_coin_manager.html#a786509023a316dff3b7e564978e2d858">logging</a> (OsiSolverInterface *osi, bool logMe)</td></tr>
+<tr class="memdesc:a786509023a316dff3b7e564978e2d858"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable or disable logging for the given solver interface.  <a href="#a786509023a316dff3b7e564978e2d858">More...</a><br /></td></tr>
 <tr class="separator:a786509023a316dff3b7e564978e2d858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock">
-<p class="definition">Definition at line <a class="el" href="coin_8h_source.html#l00071">71</a> of file <a class="el" href="coin_8h_source.html">coin.h</a>.</p>
+<div class="textblock"><p>If you use COIN-OR, you should use this class. </p>
+
+<p class="definition">Definition at line <a class="el" href="coin_8h_source.html#l00042">42</a> of file <a class="el" href="coin_8h_source.html">coin.h</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a63c68febc82635e032a109b898999ea5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63c68febc82635e032a109b898999ea5">&#9670;&nbsp;</a></span>createCorrectOsiSolverInterface() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a63c68febc82635e032a109b898999ea5">&#9670;&nbsp;</a></span>createCorrectOsiSolverInterface()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -159,48 +163,14 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a494d2bedd3c6e98618c43715a53b035e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a494d2bedd3c6e98618c43715a53b035e">&#9670;&nbsp;</a></span>createCorrectOsiSolverInterface() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static OsiSolverInterface* ogdf::CoinManager::createCorrectOsiSolverInterface </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_coin_callbacks.html">CoinCallbacks</a> *&#160;</td>
-          <td class="paramname"><em>ccc</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>callbackTypes</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="coin_8h_source.html#l00074">74</a> of file <a class="el" href="coin_8h_source.html">coin.h</a>.</p>
+<p>Get a new solver. </p>
+
+<p class="definition">Definition at line <a class="el" href="coin_8h_source.html#l00045">45</a> of file <a class="el" href="coin_8h_source.html">coin.h</a>.</p>
 
 </div>
 </div>
@@ -233,10 +203,14 @@ Static Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Enable or disable logging for the given solver interface. </p>
+
+<p class="definition">Definition at line <a class="el" href="coin_8h_source.html#l00061">61</a> of file <a class="el" href="coin_8h_source.html">coin.h</a>.</p>
 
 </div>
 </div>
@@ -249,7 +223,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_coin_manager.html">CoinManager</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

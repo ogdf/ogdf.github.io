@@ -14,8 +14,6 @@ var classogdf_1_1_cluster_array =
     [ "begin", "classogdf_1_1_cluster_array.html#a25570aa3158c6e5e446cb2d5592b57ab", null ],
     [ "cbegin", "classogdf_1_1_cluster_array.html#a248f7a8d9bc237d96ed7105a7582e81f", null ],
     [ "cend", "classogdf_1_1_cluster_array.html#a1f1a6075e309a455973f5cd9d19bd1a9", null ],
-    [ "crbegin", "classogdf_1_1_cluster_array.html#a6f7f5ab3a6db3db0b52c53ae01487c3f", null ],
-    [ "crend", "classogdf_1_1_cluster_array.html#a282de28484928968e19de8e819a62b56", null ],
     [ "disconnect", "classogdf_1_1_cluster_array.html#a7ebf290b4efc1cca3245b8e06283f72d", null ],
     [ "end", "classogdf_1_1_cluster_array.html#adcdbb4695243b746fcbc7c855c2e3c70", null ],
     [ "end", "classogdf_1_1_cluster_array.html#a2329b1747accb71d796a58b837b1656e", null ],
@@ -35,11 +33,7 @@ var classogdf_1_1_cluster_array =
     [ "operator[]", "classogdf_1_1_cluster_array.html#a2c98b7f3aca98cc66d9ff175488e60c3", null ],
     [ "operator[]", "classogdf_1_1_cluster_array.html#a0b6a82834ce068a0e6796ccf382bd80b", null ],
     [ "operator[]", "classogdf_1_1_cluster_array.html#a7e080c28a2b1a899c945d23032cf7085", null ],
-    [ "rbegin", "classogdf_1_1_cluster_array.html#a724df4e781583d7ebe6fa71dc6a15df1", null ],
-    [ "rbegin", "classogdf_1_1_cluster_array.html#adb1cbd17452af83db6c4da60ed843f86", null ],
     [ "reinit", "classogdf_1_1_cluster_array.html#afa5398d8d980a09091f0985e5bd7b880", null ],
-    [ "rend", "classogdf_1_1_cluster_array.html#a42680c6d5a45696e90216dad2278a588", null ],
-    [ "rend", "classogdf_1_1_cluster_array.html#a5bf65ada5ad11588a2f045fea9591a37", null ],
     [ "valid", "classogdf_1_1_cluster_array.html#a9e644e0bc7f5b487a04ffc9495877fff", null ],
     [ "m_x", "classogdf_1_1_cluster_array.html#a11571d4e51521dfa2c9a1ca6d3a19a28", null ]
 ];

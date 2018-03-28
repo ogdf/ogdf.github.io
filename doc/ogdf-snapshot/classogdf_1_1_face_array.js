@@ -13,8 +13,6 @@ var classogdf_1_1_face_array =
     [ "begin", "classogdf_1_1_face_array.html#a22341987c873d09f41dcf46901d63811", null ],
     [ "cbegin", "classogdf_1_1_face_array.html#af83f7dff939907866962819da9a2bd5a", null ],
     [ "cend", "classogdf_1_1_face_array.html#ab80a72cffdcfa3a3c48f98a0d7e1ebce", null ],
-    [ "crbegin", "classogdf_1_1_face_array.html#a000271474f65115aed5eebf2a1b26caa", null ],
-    [ "crend", "classogdf_1_1_face_array.html#acd8633a403cdae339559a70d28db787f", null ],
     [ "embeddingOf", "classogdf_1_1_face_array.html#ae4d7ed284631fcb4db2efbf4bd6eec91", null ],
     [ "end", "classogdf_1_1_face_array.html#a6a01453658fc577c388583569f9279aa", null ],
     [ "end", "classogdf_1_1_face_array.html#ab0664e49b0fac95c9b584be1551da2cf", null ],
@@ -31,11 +29,7 @@ var classogdf_1_1_face_array =
     [ "operator=", "classogdf_1_1_face_array.html#aa5b5f7858eb3be0aff6218d9cdaec222", null ],
     [ "operator[]", "classogdf_1_1_face_array.html#a0ba443b6101b698076dfaf7981d3be6e", null ],
     [ "operator[]", "classogdf_1_1_face_array.html#a0fd66e1efc5e8da708edb347b95759aa", null ],
-    [ "rbegin", "classogdf_1_1_face_array.html#a3a6e794af86ad8be0127142a3c2bf71b", null ],
-    [ "rbegin", "classogdf_1_1_face_array.html#a6c7c765ff38ea1b406f0473f9b03de04", null ],
     [ "reinit", "classogdf_1_1_face_array.html#ab7da9c89234689834dcffc157fcc71aa", null ],
-    [ "rend", "classogdf_1_1_face_array.html#af731fa50d7599620fada747a0bffba13", null ],
-    [ "rend", "classogdf_1_1_face_array.html#ade7c3f25250bdc80c72b60589ace114b", null ],
     [ "valid", "classogdf_1_1_face_array.html#a54bbb4958729c57b98fbe050a395deef", null ],
     [ "m_x", "classogdf_1_1_face_array.html#aedce7930350b2599b5e06c1ac8e002bb", null ]
 ];

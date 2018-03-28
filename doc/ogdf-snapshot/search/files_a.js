@@ -19,7 +19,6 @@ var searchData=
   ['linearquadtree_2eh',['LinearQuadtree.h',['../_linear_quadtree_8h.html',1,'']]],
   ['linearquadtreebuilder_2eh',['LinearQuadtreeBuilder.h',['../_linear_quadtree_builder_8h.html',1,'']]],
   ['linearquadtreeexpansion_2eh',['LinearQuadtreeExpansion.h',['../_linear_quadtree_expansion_8h.html',1,'']]],
-  ['linebuffer_2eh',['LineBuffer.h',['../_line_buffer_8h.html',1,'']]],
   ['list_2eh',['List.h',['../_list_8h.html',1,'']]],
   ['list_5ftemplates_2eh',['list_templates.h',['../list__templates_8h.html',1,'']]],
   ['localbiconnectedmerger_2eh',['LocalBiconnectedMerger.h',['../_local_biconnected_merger_8h.html',1,'']]],

@@ -3,8 +3,6 @@ var searchData=
   ['occlists',['OccLists',['../class_minisat_1_1_internal_1_1_occ_lists.html',1,'Minisat::Internal']]],
   ['occlists_3c_20minisat_3a_3ainternal_3a_3alit_2c_20minisat_3a_3ainternal_3a_3avec_3c_20minisat_3a_3ainternal_3a_3asolver_3a_3awatcher_20_3e_2c_20minisat_3a_3ainternal_3a_3asolver_3a_3awatcherdeleted_20_3e',['OccLists&lt; Minisat::Internal::Lit, Minisat::Internal::vec&lt; Minisat::Internal::Solver::Watcher &gt;, Minisat::Internal::Solver::WatcherDeleted &gt;',['../class_minisat_1_1_internal_1_1_occ_lists.html',1,'Minisat::Internal']]],
   ['occlists_3c_20var_2c_20minisat_3a_3ainternal_3a_3avec_3c_20cref_20_3e_2c_20minisat_3a_3ainternal_3a_3asimpsolver_3a_3aclausedeleted_20_3e',['OccLists&lt; Var, Minisat::Internal::vec&lt; CRef &gt;, Minisat::Internal::SimpSolver::ClauseDeleted &gt;',['../class_minisat_1_1_internal_1_1_occ_lists.html',1,'Minisat::Internal']]],
-  ['ogml',['Ogml',['../classogdf_1_1_ogml.html',1,'ogdf']]],
-  ['ogmlparser',['OgmlParser',['../classogdf_1_1_ogml_parser.html',1,'ogdf']]],
   ['opensub',['OpenSub',['../classabacus_1_1_open_sub.html',1,'abacus']]],
   ['optimalhierarchyclusterlayout',['OptimalHierarchyClusterLayout',['../classogdf_1_1_optimal_hierarchy_cluster_layout.html',1,'ogdf']]],
   ['optimalhierarchylayout',['OptimalHierarchyLayout',['../classogdf_1_1_optimal_hierarchy_layout.html',1,'ogdf']]],

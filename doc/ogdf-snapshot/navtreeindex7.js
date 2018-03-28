@@ -1,5 +1,15 @@
 var NAVTREEINDEX7 =
 {
+"class_minisat_1_1_internal_1_1_clause_allocator.html":[3,0,2,0,2],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#a06f02ad256020fafd74e745ea286fb20":[3,0,2,0,2,7],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#a0816c0881b035bbb5a7c9e8530328da4":[3,0,2,0,2,11],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#a142b858b57fdf84381a30a77679fa1fc":[3,0,2,0,2,4],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#a21c28d06bbca75726f6a7514dd48abaf":[3,0,2,0,2,3],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#a290a3c3c138a324305c14dcd90b99b50":[3,0,2,0,2,6],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#a3a0fe7157f60252867cb5b540e3f42e6":[3,0,2,0,2,1],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#a3c8ae43d00f989be577e432ece4815e8":[3,0,2,0,2,5],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#a4b43708be1dad9589989815cc56ed979":[3,0,2,0,2,8],
+"class_minisat_1_1_internal_1_1_clause_allocator.html#ac9ae766e87dccec125baccdfd67c3e9a":[3,0,2,0,2,0],
 "class_minisat_1_1_internal_1_1_clause_allocator.html#acd0b94f11669acc0038627a7408bd249":[3,0,2,0,2,2],
 "class_minisat_1_1_internal_1_1_clause_allocator.html#acf4801589d1b3a9722b2cbdc2266d29e":[3,0,2,0,2,9],
 "class_minisat_1_1_internal_1_1_clause_allocator.html#adf1684ed0f7cd7837a14a4456215b926":[3,0,2,0,2,10],
@@ -239,15 +249,5 @@ var NAVTREEINDEX7 =
 "class_minisat_1_1_internal_1_1_solver.html#a71ba2016738911248675269dfde27eb4":[3,0,2,0,22,79],
 "class_minisat_1_1_internal_1_1_solver.html#a7293a20077f452a849b0ae449d9e70e0":[3,0,2,0,22,42],
 "class_minisat_1_1_internal_1_1_solver.html#a7363c90991359dfd3b5a03e61e596bb1":[3,0,2,0,22,119],
-"class_minisat_1_1_internal_1_1_solver.html#a73838118ae88b7b6f69350dd21730f21":[3,0,2,0,22,70],
-"class_minisat_1_1_internal_1_1_solver.html#a73b5797ad0cbff4d9e58833caa793199":[3,0,2,0,22,37],
-"class_minisat_1_1_internal_1_1_solver.html#a794496c0e670ac97178f0d0b65f49e18":[3,0,2,0,22,36],
-"class_minisat_1_1_internal_1_1_solver.html#a7a202e5a71ca17d888787e23833e11c0":[3,0,2,0,22,105],
-"class_minisat_1_1_internal_1_1_solver.html#a7d56e4185e6f9a3c564608df88a2bfab":[3,0,2,0,22,18],
-"class_minisat_1_1_internal_1_1_solver.html#a7f5a1f0ddc6e77f32230c84262c5813d":[3,0,2,0,22,81],
-"class_minisat_1_1_internal_1_1_solver.html#a7f6b7a098f300acfbc94e80d093a2f8a":[3,0,2,0,22,14],
-"class_minisat_1_1_internal_1_1_solver.html#a7fd5a8d209e7fe61119a0c10db45d5f2":[3,0,2,0,22,27],
-"class_minisat_1_1_internal_1_1_solver.html#a808b3537cff625f8f90668cbc7666d0e":[3,0,2,0,22,128],
-"class_minisat_1_1_internal_1_1_solver.html#a818f93c09bb94f3f5e39ddbd7a00a174":[3,0,2,0,22,121],
-"class_minisat_1_1_internal_1_1_solver.html#a826672b03aaf10f069e0f970417ef144":[3,0,2,0,22,41]
+"class_minisat_1_1_internal_1_1_solver.html#a73838118ae88b7b6f69350dd21730f21":[3,0,2,0,22,70]
 };

@@ -1,10 +1,18 @@
 var NAVTREEINDEX22 =
 {
-"classogdf_1_1_coin_callbacks.html#ae12a026997c4eb24953e895b9020e267add41e67ced6c603a471935510e07e1cc":[3,0,3,87,1,3],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a28f8c17e77e5652fc361d64d264882a5":[1,5,1,0,0,0,5],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a3fbfce9595abbc75334e5014ccb86b82":[1,5,1,0,0,0,4],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a419c3b72e0ca08ec1264f8a236825a04":[1,5,1,0,0,0,3],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a5063aa20e7a75383fd80356caa72fff4":[1,5,1,0,0,0,9],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a76783b0dbea959637de3f41ea8d96db0":[1,5,1,0,0,0,10],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a83e4b570ea2b69d2d63962d128b82dfb":[1,5,1,0,0,0,1],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a8f34c384a6ff7075d3ed14ba9939cd28":[1,5,1,0,0,0,6],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a942f818d42cb1c29488f478c25dce33c":[1,5,1,0,0,0,7],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#ab2972153eda436f30f975465e0475aab":[1,5,1,0,0,0,8],
+"classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#af2a7615e25516cbbe795b55cf8fe89bb":[1,5,1,0,0,0,0],
 "classogdf_1_1_coin_manager.html":[3,0,3,88],
-"classogdf_1_1_coin_manager.html#a494d2bedd3c6e98618c43715a53b035e":[3,0,3,88,1],
 "classogdf_1_1_coin_manager.html#a63c68febc82635e032a109b898999ea5":[3,0,3,88,0],
-"classogdf_1_1_coin_manager.html#a786509023a316dff3b7e564978e2d858":[3,0,3,88,2],
+"classogdf_1_1_coin_manager.html#a786509023a316dff3b7e564978e2d858":[3,0,3,88,1],
 "classogdf_1_1_color.html":[1,5,6],
 "classogdf_1_1_color.html#a1c2e28559ce06d36cf1c1cb181e2b00d":[1,5,6,4],
 "classogdf_1_1_color.html#a2b6168fd78ec9bc4e6089ef84c079eba":[1,5,6,15],
@@ -241,13 +249,5 @@ var NAVTREEINDEX22 =
 "classogdf_1_1_compaction_constraint_graph.html":[3,0,3,92],
 "classogdf_1_1_compaction_constraint_graph.html#a002065f0c6ba463e5fc6a19ceb60c840":[3,0,3,92,18],
 "classogdf_1_1_compaction_constraint_graph.html#a0b0a8b55f3fa217306b21893b1aa6403":[3,0,3,92,30],
-"classogdf_1_1_compaction_constraint_graph.html#a2826ff37382bec7c89134d74cb0d93ca":[3,0,3,92,34],
-"classogdf_1_1_compaction_constraint_graph.html#a2a1184967dff9c905fd27bf48668fdff":[3,0,3,92,31],
-"classogdf_1_1_compaction_constraint_graph.html#a2a4ddfd5463aabebf1e0271659870a8b":[3,0,3,92,8],
-"classogdf_1_1_compaction_constraint_graph.html#a2aff1b79777dab54cfb8f0c08efa4083":[3,0,3,92,23],
-"classogdf_1_1_compaction_constraint_graph.html#a2eaef4ed58a85b43f07ffc5ed2ef512a":[3,0,3,92,32],
-"classogdf_1_1_compaction_constraint_graph.html#a3620522df93836ed0f6a83d31208b7dd":[3,0,3,92,12],
-"classogdf_1_1_compaction_constraint_graph.html#a37eca1597cd48c9d7247df4ab4f1830d":[3,0,3,92,11],
-"classogdf_1_1_compaction_constraint_graph.html#a39004f96499497257223148443569047":[3,0,3,92,2],
-"classogdf_1_1_compaction_constraint_graph.html#a4aa4d61c988b0a716acc112cc362b732":[3,0,3,92,26]
+"classogdf_1_1_compaction_constraint_graph.html#a2826ff37382bec7c89134d74cb0d93ca":[3,0,3,92,34]
 };

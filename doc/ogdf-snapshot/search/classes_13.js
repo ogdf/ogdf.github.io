@@ -2,6 +2,7 @@ var searchData=
 [
   ['tailoff',['TailOff',['../classabacus_1_1_tail_off.html',1,'abacus']]],
   ['targetcomparer',['TargetComparer',['../classogdf_1_1_target_comparer.html',1,'ogdf']]],
+  ['temporaryedges',['TemporaryEdges',['../structogdf_1_1steiner__tree_1_1goemans_1_1_approximation_1_1_temporary_edges.html',1,'ogdf::steiner_tree::goemans::Approximation']]],
   ['thread',['Thread',['../classogdf_1_1_thread.html',1,'ogdf']]],
   ['threadmaster',['ThreadMaster',['../classogdf_1_1_planar_subgraph_fast_1_1_thread_master.html',1,'ogdf::PlanarSubgraphFast']]],
   ['tiletorowsccpacker',['TileToRowsCCPacker',['../classogdf_1_1_tile_to_rows_c_c_packer.html',1,'ogdf']]],

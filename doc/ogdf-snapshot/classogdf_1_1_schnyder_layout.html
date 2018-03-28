@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -119,9 +119,11 @@ $(document).ready(function(){initNavTree('classogdf_1_1_schnyder_layout.html',''
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classogdf_1_1_schnyder_layout-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ogdf::SchnyderLayout Class Reference</div>  </div>
@@ -145,10 +147,24 @@ $(document).ready(function(){initNavTree('classogdf_1_1_schnyder_layout.html',''
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a967bca2cc37c7ff9b689876897f8cb87"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">CombinatorialObjects</a> { <a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87a32ac3e1caa1aa68b79e31201fc5acf2e">CombinatorialObjects::VerticesMinusDepth</a>, 
+<a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87a4f93ea0836ba76b6f9b81e3eee53a3af">CombinatorialObjects::Faces</a>
+ }<tr class="memdesc:a967bca2cc37c7ff9b689876897f8cb87"><td class="mdescLeft">&#160;</td><td class="mdescRight">Each node in a Schnyder wood splits the graph into three regions.  <a href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:a967bca2cc37c7ff9b689876897f8cb87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a01b1942773ba29416b41a740bf093bb6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_schnyder_layout.html#a01b1942773ba29416b41a740bf093bb6">SchnyderLayout</a> ()</td></tr>
 <tr class="separator:a01b1942773ba29416b41a740bf093bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae62cc6726cfa5a9b7e16f7354afbab95"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">CombinatorialObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_schnyder_layout.html#ae62cc6726cfa5a9b7e16f7354afbab95">getCombinatorialObjects</a> ()</td></tr>
+<tr class="memdesc:ae62cc6726cfa5a9b7e16f7354afbab95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type of combinatorial objects whose number corresponds to the node coordinates.  <a href="#ae62cc6726cfa5a9b7e16f7354afbab95">More...</a><br /></td></tr>
+<tr class="separator:ae62cc6726cfa5a9b7e16f7354afbab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e1c088140d100b2486c1a86db1b5a3c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_schnyder_layout.html#a4e1c088140d100b2486c1a86db1b5a3c">setCombinatorialObjects</a> (<a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">CombinatorialObjects</a> combinatorialObjects)</td></tr>
+<tr class="memdesc:a4e1c088140d100b2486c1a86db1b5a3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the type of combinatorial objects whose number corresponds to the node coordinates.  <a href="#a4e1c088140d100b2486c1a86db1b5a3c">More...</a><br /></td></tr>
+<tr class="separator:a4e1c088140d100b2486c1a86db1b5a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classogdf_1_1_planar_grid_layout_module"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classogdf_1_1_planar_grid_layout_module')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classogdf_1_1_planar_grid_layout_module.html">ogdf::PlanarGridLayoutModule</a></td></tr>
 <tr class="memitem:aa1ae56f6f645663f0ca71fecf3765405 inherit pub_methods_classogdf_1_1_planar_grid_layout_module"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_planar_grid_layout_module.html#aa1ae56f6f645663f0ca71fecf3765405">PlanarGridLayoutModule</a> ()</td></tr>
 <tr class="memdesc:aa1ae56f6f645663f0ca71fecf3765405 inherit pub_methods_classogdf_1_1_planar_grid_layout_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a planar grid layout module.  <a href="classogdf_1_1_planar_grid_layout_module.html#aa1ae56f6f645663f0ca71fecf3765405">More...</a><br /></td></tr>
@@ -217,6 +233,12 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a87354c28e05cf710bcbe785559cad740"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_schnyder_layout.html#a87354c28e05cf710bcbe785559cad740">subtreeSizes</a> (<a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; int &gt; &amp;rValues, int i, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> r, <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; int &gt; &amp;size)</td></tr>
 <tr class="separator:a87354c28e05cf710bcbe785559cad740"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a812934809784274794f88b53dd29b1f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">CombinatorialObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_schnyder_layout.html#a812934809784274794f88b53dd29b1f6">m_combinatorialObjects</a></td></tr>
+<tr class="memdesc:a812934809784274794f88b53dd29b1f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines how the barycentric coordinates of each node are computed.  <a href="#a812934809784274794f88b53dd29b1f6">More...</a><br /></td></tr>
+<tr class="separator:a812934809784274794f88b53dd29b1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_attribs_classogdf_1_1_grid_layout_module"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1_grid_layout_module')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1_grid_layout_module.html">ogdf::GridLayoutModule</a></td></tr>
@@ -226,10 +248,48 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The class <a class="el" href="classogdf_1_1_schnyder_layout.html" title="The class SchnyderLayout represents the layout algorithm by Schnyder [Sch90]. ">SchnyderLayout</a> represents the layout algorithm by Schnyder [Sch90]. </p>
-<p>This algorithm draws a planar graph G straight-line without crossings. G must not contain self-loops or multiple edges. The grid layout size is (<em>n</em> − 2) × (<em>n</em> − 2) for a graph with n nodes (<em>n</em> ≥ 3). The algorithm runs in three phases. In the ﬁrst phase, the graph is augmented by adding new artiﬁcial edges to get a triangulated plane graph. Then, a partition of the set of interior edges in three trees (also called Schnyder trees) with special orientation properties is derived. In the third step, the actual coordinates are computed. </p>
+<p>This algorithm draws a planar graph G straight-line without crossings. G (with |V| ≥ 3) must not contain self-loops or multiple edges. The algorithm runs in three phases. In the first phase, the graph is augmented by adding new artificial edges to get a triangulated plane graph. Then, a partition of the set of interior edges in three trees (also called Schnyder trees) with special orientation properties is derived. In the third step, the actual coordinates are computed. See:</p>
+<p>[Sch90] Schnyder, Walter. "Embedding planar graphs on the grid." Proceedings of the first annual ACM-SIAM symposium on Discrete algorithms. Society for Industrial and Applied Mathematics, 1990.</p>
+<p>[Sch89] Schnyder, Walter. "Planar graphs and poset dimension." Order 5.4 (1989): 323-343. </p>
 
-<p class="definition">Definition at line <a class="el" href="_schnyder_layout_8h_source.html#l00054">54</a> of file <a class="el" href="_schnyder_layout_8h_source.html">SchnyderLayout.h</a>.</p>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<p class="definition">Definition at line <a class="el" href="_schnyder_layout_8h_source.html#l00060">60</a> of file <a class="el" href="_schnyder_layout_8h_source.html">SchnyderLayout.h</a>.</p>
+</div><h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a967bca2cc37c7ff9b689876897f8cb87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a967bca2cc37c7ff9b689876897f8cb87">&#9670;&nbsp;</a></span>CombinatorialObjects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">ogdf::SchnyderLayout::CombinatorialObjects</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Each node in a Schnyder wood splits the graph into three regions. </p>
+<p>The barycentric coordinates of the nodes are given by the count of combinatorial objects in these regions. </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a967bca2cc37c7ff9b689876897f8cb87a32ac3e1caa1aa68b79e31201fc5acf2e"></a>VerticesMinusDepth&#160;</td><td class="fielddoc"><p>Count the number of vertices in each region i and subtract the depth of the (i-1)-path of the node. </p>
+<p>This approach is outlined in [Sch90]. The grid layout size is (n - 2) × (n - 2). </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a967bca2cc37c7ff9b689876897f8cb87a4f93ea0836ba76b6f9b81e3eee53a3af"></a>Faces&#160;</td><td class="fielddoc"><p>Count the number of faces in each region i. </p>
+<p>This approach is outlined in [Sch89]. The grid layout size is (2n - 5) × (2n - 5). </p>
+</td></tr>
+</table>
+
+<p class="definition">Definition at line <a class="el" href="_schnyder_layout_8h_source.html#l00070">70</a> of file <a class="el" href="_schnyder_layout_8h_source.html">SchnyderLayout.h</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a01b1942773ba29416b41a740bf093bb6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01b1942773ba29416b41a740bf093bb6">&#9670;&nbsp;</a></span>SchnyderLayout()</h2>
 
@@ -368,6 +428,35 @@ Additional Inherited Members</h2></td></tr>
 </dl>
 
 <p>Implements <a class="el" href="classogdf_1_1_planar_grid_layout_module.html#a81dad22c31c7a2313bf213d6408ea60e">ogdf::PlanarGridLayoutModule</a>.</p>
+
+</div>
+</div>
+<a id="ae62cc6726cfa5a9b7e16f7354afbab95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae62cc6726cfa5a9b7e16f7354afbab95">&#9670;&nbsp;</a></span>getCombinatorialObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">CombinatorialObjects</a> ogdf::SchnyderLayout::getCombinatorialObjects </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the type of combinatorial objects whose number corresponds to the node coordinates. </p>
+
+<p class="definition">Definition at line <a class="el" href="_schnyder_layout_8h_source.html#l00081">81</a> of file <a class="el" href="_schnyder_layout_8h_source.html">SchnyderLayout.h</a>.</p>
 
 </div>
 </div>
@@ -533,6 +622,36 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a4e1c088140d100b2486c1a86db1b5a3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e1c088140d100b2486c1a86db1b5a3c">&#9670;&nbsp;</a></span>setCombinatorialObjects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ogdf::SchnyderLayout::setCombinatorialObjects </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">CombinatorialObjects</a>&#160;</td>
+          <td class="paramname"><em>combinatorialObjects</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the type of combinatorial objects whose number corresponds to the node coordinates. </p>
+
+<p class="definition">Definition at line <a class="el" href="_schnyder_layout_8h_source.html#l00084">84</a> of file <a class="el" href="_schnyder_layout_8h_source.html">SchnyderLayout.h</a>.</p>
+
+</div>
+</div>
 <a id="a87354c28e05cf710bcbe785559cad740"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87354c28e05cf710bcbe785559cad740">&#9670;&nbsp;</a></span>subtreeSizes()</h2>
 
@@ -581,6 +700,33 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a812934809784274794f88b53dd29b1f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a812934809784274794f88b53dd29b1f6">&#9670;&nbsp;</a></span>m_combinatorialObjects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87">CombinatorialObjects</a> ogdf::SchnyderLayout::m_combinatorialObjects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines how the barycentric coordinates of each node are computed. </p>
+
+<p class="definition">Definition at line <a class="el" href="_schnyder_layout_8h_source.html#l00127">127</a> of file <a class="el" href="_schnyder_layout_8h_source.html">SchnyderLayout.h</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>include/ogdf/planarlayout/<a class="el" href="_schnyder_layout_8h_source.html">SchnyderLayout.h</a></li>
 </ul>
@@ -590,7 +736,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_schnyder_layout.html">SchnyderLayout</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

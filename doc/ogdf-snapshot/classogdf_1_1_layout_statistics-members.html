@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -125,17 +125,19 @@ $(document).ready(function(){initNavTree('classogdf_1_1_layout_statistics.html',
 
 <p>This is the complete list of members for <a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#a16ef37adddc1ad06afb5b74a3377a01f">angularResolution</a>(const GraphAttributes &amp;ga, double *pMaxAngle=nullptr, double *pAvgAngle=nullptr, double *pStdDeviation=nullptr, bool considerBends=true)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#ab6b42b5d311661c8a6878e55b2922948">edgeLengths</a>(const GraphAttributes &amp;ga, double *pMinLength=nullptr, double *pMaxLength=nullptr, double *pAvgLength=nullptr, double *pStdDeviation=nullptr, bool considerSelfLoops=false)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#aa43c7b1ef6358322486cc02605a7f028">angles</a>(const GraphAttributes &amp;ga, bool considerBends=true)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#abd514d77d3f82a915c1ccd82669e51ae">edgeLengths</a>(const GraphAttributes &amp;ga, bool considerSelfLoops=false)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#a9e7d910c001e57f61ff2535e58f2dea7">intersectionGraph</a>(const GraphAttributes &amp;ga, Graph &amp;H, NodeArray&lt; DPoint &gt; &amp;points, NodeArray&lt; node &gt; &amp;origNode, EdgeArray&lt; edge &gt; &amp;origEdge)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#ae6da09b21b8cb95dc317a1c3c8578f66">numberOfBends</a>(const GraphAttributes &amp;ga, int *pMinBendsPerEdge=nullptr, int *pMaxBendsPerEdge=nullptr, double *pAvgBendsPerEdge=nullptr, double *pStdDeviation=nullptr, bool considerSelfLoops=false)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#a551887ede32648eaa119af9a9c288d6c">numberOfCrossings</a>(const GraphAttributes &amp;ga)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#a23ea75f79f7cbe46a9d6017a4434b9be">numberOfBends</a>(const GraphAttributes &amp;ga, bool considerSelfLoops=false)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#a92564947f8c7715fffb02fc0701d4733">numberOfCrossings</a>(const GraphAttributes &amp;ga)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#a4242b4649b74e1386d870f52a4cc4923">numberOfNodeCrossings</a>(const GraphAttributes &amp;ga)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html#add80e466360ba85a97731990c8b75f93">numberOfNodeOverlaps</a>(const GraphAttributes &amp;ga)</td><td class="entry"><a class="el" href="classogdf_1_1_layout_statistics.html">ogdf::LayoutStatistics</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

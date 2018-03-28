@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -118,8 +118,6 @@ $(document).ready(function(){initNavTree('graph__generators_8h.html','');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
 <div class="title">graph_generators.h File Reference</div>  </div>
 </div><!--header-->
@@ -127,130 +125,13 @@ $(document).ready(function(){initNavTree('graph__generators_8h.html','');});
 
 <p>Declaration of graph generators.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;<a class="el" href="_graph_8h_source.html">ogdf/basic/Graph.h</a>&gt;</code><br />
-<code>#include &lt;<a class="el" href="_cluster_graph_8h_source.html">ogdf/cluster/ClusterGraph.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;<a class="el" href="randomized_8h_source.html">ogdf/basic/graph_generators/randomized.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="deterministic_8h_source.html">ogdf/basic/graph_generators/deterministic.h</a>&gt;</code><br />
 </div>
 <p><a href="graph__generators_8h_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:namespaceogdf"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html">ogdf</a></td></tr>
-<tr class="memdesc:namespaceogdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace for all OGDF objects. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr><td colspan="2"><div class="groupHeader">Randomized graph generators</div></td></tr>
-<tr class="memitem:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">ogdf::randomRegularGraph</a> (Graph &amp;G, int n, int d)</td></tr>
-<tr class="memdesc:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random d-regular graph. This method is not guaranteed to terminate!  <a href="group__graph-generators.html#ga5e2b0644b941d5f8bb7770a27a1f6171">More...</a><br /></td></tr>
-<tr class="separator:ga5e2b0644b941d5f8bb7770a27a1f6171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga0feff1b510864aba8b73a1b34e5f2ca1">ogdf::randomGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random graph.  <a href="group__graph-generators.html#ga0feff1b510864aba8b73a1b34e5f2ca1">More...</a><br /></td></tr>
-<tr class="separator:ga0feff1b510864aba8b73a1b34e5f2ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac6991a8ef695dc1ce1c320aeb843856d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d">ogdf::randomSimpleGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gac6991a8ef695dc1ce1c320aeb843856d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random simple graph.  <a href="group__graph-generators.html#gac6991a8ef695dc1ce1c320aeb843856d">More...</a><br /></td></tr>
-<tr class="separator:gac6991a8ef695dc1ce1c320aeb843856d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201">ogdf::randomSimpleConnectedGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random simple and connected graph.  <a href="group__graph-generators.html#ga781aeb9ae0e597beb8cfd97f2dc15201">More...</a><br /></td></tr>
-<tr class="separator:ga781aeb9ae0e597beb8cfd97f2dc15201"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae84cb709f5fcb098528bc0474d1a55b2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gae84cb709f5fcb098528bc0474d1a55b2">ogdf::randomBiconnectedGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gae84cb709f5fcb098528bc0474d1a55b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random biconnected graph.  <a href="group__graph-generators.html#gae84cb709f5fcb098528bc0474d1a55b2">More...</a><br /></td></tr>
-<tr class="separator:gae84cb709f5fcb098528bc0474d1a55b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gafe26d6380a47bb9650da4ee26cbe90b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gafe26d6380a47bb9650da4ee26cbe90b4">ogdf::planarConnectedGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gafe26d6380a47bb9650da4ee26cbe90b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random connected (simple) planar (embedded) graph.  <a href="group__graph-generators.html#gafe26d6380a47bb9650da4ee26cbe90b4">More...</a><br /></td></tr>
-<tr class="separator:gafe26d6380a47bb9650da4ee26cbe90b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga12a6c6c7d7a99b18a5d7144bc9a9ee1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga12a6c6c7d7a99b18a5d7144bc9a9ee1d">ogdf::planarBiconnectedGraph</a> (Graph &amp;G, int n, int m, bool multiEdges=false)</td></tr>
-<tr class="memdesc:ga12a6c6c7d7a99b18a5d7144bc9a9ee1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar biconnected (embedded) graph.  <a href="group__graph-generators.html#ga12a6c6c7d7a99b18a5d7144bc9a9ee1d">More...</a><br /></td></tr>
-<tr class="separator:ga12a6c6c7d7a99b18a5d7144bc9a9ee1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5cd204ae91dfee75eec3e8b96227629b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5cd204ae91dfee75eec3e8b96227629b">ogdf::planarBiconnectedDiGraph</a> (Graph &amp;G, int n, int m, double p=0, bool multiEdges=false)</td></tr>
-<tr class="memdesc:ga5cd204ae91dfee75eec3e8b96227629b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar biconnected acyclic (embedded) digraph.  <a href="group__graph-generators.html#ga5cd204ae91dfee75eec3e8b96227629b">More...</a><br /></td></tr>
-<tr class="separator:ga5cd204ae91dfee75eec3e8b96227629b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad349959d8e15558b0d6821778481b4ac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gad349959d8e15558b0d6821778481b4ac">ogdf::upwardPlanarBiconnectedDiGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gad349959d8e15558b0d6821778481b4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random upward planar biconnected (embedded) digraph.  <a href="group__graph-generators.html#gad349959d8e15558b0d6821778481b4ac">More...</a><br /></td></tr>
-<tr class="separator:gad349959d8e15558b0d6821778481b4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga96e017ffba996249254e58c9e330d112"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga96e017ffba996249254e58c9e330d112">ogdf::planarCNBGraph</a> (Graph &amp;G, int n, int m, int b)</td></tr>
-<tr class="memdesc:ga96e017ffba996249254e58c9e330d112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar graph, that is connected, but not biconnected.  <a href="group__graph-generators.html#ga96e017ffba996249254e58c9e330d112">More...</a><br /></td></tr>
-<tr class="separator:ga96e017ffba996249254e58c9e330d112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gadad6b837cade23898f3dc0ae68239274"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gadad6b837cade23898f3dc0ae68239274">ogdf::randomTriconnectedGraph</a> (Graph &amp;G, int n, double p1, double p2)</td></tr>
-<tr class="memdesc:gadad6b837cade23898f3dc0ae68239274"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random triconnected (and simple) graph.  <a href="group__graph-generators.html#gadad6b837cade23898f3dc0ae68239274">More...</a><br /></td></tr>
-<tr class="separator:gadad6b837cade23898f3dc0ae68239274"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga181c070c885d02d1611cd83efd529611"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga181c070c885d02d1611cd83efd529611">ogdf::planarTriconnectedGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:ga181c070c885d02d1611cd83efd529611"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar triconnected (and simple) graph.  <a href="group__graph-generators.html#ga181c070c885d02d1611cd83efd529611">More...</a><br /></td></tr>
-<tr class="separator:ga181c070c885d02d1611cd83efd529611"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga2921ef7352d86abb984e01300e323c38"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga2921ef7352d86abb984e01300e323c38">ogdf::planarTriconnectedGraph</a> (Graph &amp;G, int n, double p1, double p2)</td></tr>
-<tr class="memdesc:ga2921ef7352d86abb984e01300e323c38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random planar triconnected (and simple) graph.  <a href="group__graph-generators.html#ga2921ef7352d86abb984e01300e323c38">More...</a><br /></td></tr>
-<tr class="separator:ga2921ef7352d86abb984e01300e323c38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga95ff41c015fe92cc550088127e43d09c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga95ff41c015fe92cc550088127e43d09c">ogdf::randomTree</a> (Graph &amp;G, int n)</td></tr>
-<tr class="memdesc:ga95ff41c015fe92cc550088127e43d09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random tree (simpler version.  <a href="group__graph-generators.html#ga95ff41c015fe92cc550088127e43d09c">More...</a><br /></td></tr>
-<tr class="separator:ga95ff41c015fe92cc550088127e43d09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gad83c1576fee773abf95334f842f6849b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gad83c1576fee773abf95334f842f6849b">ogdf::randomTree</a> (Graph &amp;G, int n, int maxDeg, int maxWidth)</td></tr>
-<tr class="memdesc:gad83c1576fee773abf95334f842f6849b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random tree.  <a href="group__graph-generators.html#gad83c1576fee773abf95334f842f6849b">More...</a><br /></td></tr>
-<tr class="separator:gad83c1576fee773abf95334f842f6849b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36">ogdf::randomHierarchy</a> (Graph &amp;G, int n, int m, bool planar, bool singleSource, bool longEdges)</td></tr>
-<tr class="memdesc:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random hierarchical graph.  <a href="group__graph-generators.html#gaa4f8e06a35368a8ce24efcbb71bf1e36">More...</a><br /></td></tr>
-<tr class="separator:gaa4f8e06a35368a8ce24efcbb71bf1e36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga85a79853e408557d003de19d0034614e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga85a79853e408557d003de19d0034614e">ogdf::randomClusterPlanarGraph</a> (ClusterGraph &amp;C, Graph &amp;G, int cNum)</td></tr>
-<tr class="memdesc:ga85a79853e408557d003de19d0034614e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns random clusters to a given graph <code>G</code>.  <a href="group__graph-generators.html#ga85a79853e408557d003de19d0034614e">More...</a><br /></td></tr>
-<tr class="separator:ga85a79853e408557d003de19d0034614e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga519fee82a5b4ee56b07e74f32e1ff7d9">ogdf::randomClusterGraph</a> (ClusterGraph &amp;C, Graph &amp;G, int cNum)</td></tr>
-<tr class="memdesc:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns random clusters to a given graph <code>G</code>.  <a href="group__graph-generators.html#ga519fee82a5b4ee56b07e74f32e1ff7d9">More...</a><br /></td></tr>
-<tr class="separator:ga519fee82a5b4ee56b07e74f32e1ff7d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga1c51749db17a3cb4362789e28b3efd9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga1c51749db17a3cb4362789e28b3efd9f">ogdf::randomClusterGraph</a> (ClusterGraph &amp;C, const Graph &amp;G, const node root, int moreInLeaves)</td></tr>
-<tr class="memdesc:ga1c51749db17a3cb4362789e28b3efd9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns a specified cluster structure to a given graph <code>G</code>, and assigns vertices to clusters.  <a href="group__graph-generators.html#ga1c51749db17a3cb4362789e28b3efd9f">More...</a><br /></td></tr>
-<tr class="separator:ga1c51749db17a3cb4362789e28b3efd9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga09ba6d0ea460b12dc307e1d0c3458f25">ogdf::randomDiGraph</a> (Graph &amp;G, int n, double p)</td></tr>
-<tr class="memdesc:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random (simple) directed graph.  <a href="group__graph-generators.html#ga09ba6d0ea460b12dc307e1d0c3458f25">More...</a><br /></td></tr>
-<tr class="separator:ga09ba6d0ea460b12dc307e1d0c3458f25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab7bf735577889df8926599b1152957f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gab7bf735577889df8926599b1152957f5">ogdf::randomSeriesParallelDAG</a> (Graph &amp;G, int edges, double p=0.5, double flt=0.0)</td></tr>
-<tr class="memdesc:gab7bf735577889df8926599b1152957f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random (simple, biconnected) series parallel DAG.  <a href="group__graph-generators.html#gab7bf735577889df8926599b1152957f5">More...</a><br /></td></tr>
-<tr class="separator:gab7bf735577889df8926599b1152957f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa22bfe93fe65faf3f59f3c966a71471b">ogdf::randomGeometricCubeGraph</a> (Graph &amp;G, int nodes, double threshold, int dimension=2)</td></tr>
-<tr class="memdesc:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a random geometric graph by laying out nodes in a unit n-cube. Nodes with a distance &lt; threshold are connected, 0 &lt;= threshold &lt;= sqrt(dimension). The graph is simple.  <a href="group__graph-generators.html#gaa22bfe93fe65faf3f59f3c966a71471b">More...</a><br /></td></tr>
-<tr class="separator:gaa22bfe93fe65faf3f59f3c966a71471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr><td colspan="2"><div class="groupHeader">Deterministic graph generators</div></td></tr>
-<tr class="memitem:gad0a545afc61d9b588bb859851a024c7b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gad0a545afc61d9b588bb859851a024c7b">ogdf::customGraph</a> (Graph &amp;G, int n, List&lt; std::pair&lt; int, int &gt;&gt; edges, Array&lt; node &gt; &amp;nodes)</td></tr>
-<tr class="memdesc:gad0a545afc61d9b588bb859851a024c7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a custom graph using a list of pairs to determine the graph's edges.  <a href="group__graph-generators.html#gad0a545afc61d9b588bb859851a024c7b">More...</a><br /></td></tr>
-<tr class="separator:gad0a545afc61d9b588bb859851a024c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gabf374e75edf393767720724e794f6d41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gabf374e75edf393767720724e794f6d41">ogdf::customGraph</a> (Graph &amp;G, int n, List&lt; std::pair&lt; int, int &gt;&gt; edges)</td></tr>
-<tr class="memdesc:gabf374e75edf393767720724e794f6d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a custom graph using a list of pairs to determine the graph's edges.  <a href="group__graph-generators.html#gabf374e75edf393767720724e794f6d41">More...</a><br /></td></tr>
-<tr class="separator:gabf374e75edf393767720724e794f6d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga061ae4c9a5ba165e0cc57998df2c878f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga061ae4c9a5ba165e0cc57998df2c878f">ogdf::circulantGraph</a> (Graph &amp;G, int n, Array&lt; int &gt; jumps)</td></tr>
-<tr class="memdesc:ga061ae4c9a5ba165e0cc57998df2c878f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a circulant graph.  <a href="group__graph-generators.html#ga061ae4c9a5ba165e0cc57998df2c878f">More...</a><br /></td></tr>
-<tr class="separator:ga061ae4c9a5ba165e0cc57998df2c878f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gac0cfb1b80c90a6f6cea17589bc522c29"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gac0cfb1b80c90a6f6cea17589bc522c29">ogdf::regularTree</a> (Graph &amp;G, int n, int children)</td></tr>
-<tr class="memdesc:gac0cfb1b80c90a6f6cea17589bc522c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a regular tree.  <a href="group__graph-generators.html#gac0cfb1b80c90a6f6cea17589bc522c29">More...</a><br /></td></tr>
-<tr class="separator:gac0cfb1b80c90a6f6cea17589bc522c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaa3f3de8e779cf75d10d3784c8da491fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaa3f3de8e779cf75d10d3784c8da491fc">ogdf::completeGraph</a> (Graph &amp;G, int n)</td></tr>
-<tr class="memdesc:gaa3f3de8e779cf75d10d3784c8da491fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the complete graph <em>K_n</em>.  <a href="group__graph-generators.html#gaa3f3de8e779cf75d10d3784c8da491fc">More...</a><br /></td></tr>
-<tr class="separator:gaa3f3de8e779cf75d10d3784c8da491fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga75e3a665f927e3200e63e4b9f16e5553"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga75e3a665f927e3200e63e4b9f16e5553">ogdf::completeKPartiteGraph</a> (Graph &amp;G, const Array&lt; int &gt; &amp;signature)</td></tr>
-<tr class="memdesc:ga75e3a665f927e3200e63e4b9f16e5553"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the complete k-partite graph <em>K_{k1</em>,k2,...,kn}.  <a href="group__graph-generators.html#ga75e3a665f927e3200e63e4b9f16e5553">More...</a><br /></td></tr>
-<tr class="separator:ga75e3a665f927e3200e63e4b9f16e5553"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga9d8c6b9ec7744fc50a48678666bb9f76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga9d8c6b9ec7744fc50a48678666bb9f76">ogdf::completeBipartiteGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:ga9d8c6b9ec7744fc50a48678666bb9f76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the complete bipartite graph <em>K_{n</em>,m}.  <a href="group__graph-generators.html#ga9d8c6b9ec7744fc50a48678666bb9f76">More...</a><br /></td></tr>
-<tr class="separator:ga9d8c6b9ec7744fc50a48678666bb9f76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga8cf4c76cee9dcb8bf4dbc3a13b401e2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga8cf4c76cee9dcb8bf4dbc3a13b401e2f">ogdf::wheelGraph</a> (Graph &amp;G, int n)</td></tr>
-<tr class="memdesc:ga8cf4c76cee9dcb8bf4dbc3a13b401e2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the graph <em>W_n:</em> A wheel graph.  <a href="group__graph-generators.html#ga8cf4c76cee9dcb8bf4dbc3a13b401e2f">More...</a><br /></td></tr>
-<tr class="separator:ga8cf4c76cee9dcb8bf4dbc3a13b401e2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gab7c85da1b67c5f397be073826a532f39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gab7c85da1b67c5f397be073826a532f39">ogdf::cubeGraph</a> (Graph &amp;G, int n)</td></tr>
-<tr class="memdesc:gab7c85da1b67c5f397be073826a532f39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates the graph <em>Q^n</em>: A <em>n</em>-cube graph.  <a href="group__graph-generators.html#gab7c85da1b67c5f397be073826a532f39">More...</a><br /></td></tr>
-<tr class="separator:gab7c85da1b67c5f397be073826a532f39"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga3b6fc792acfc6697de0ae62c01df372b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga3b6fc792acfc6697de0ae62c01df372b">ogdf::suspension</a> (Graph &amp;G, int s)</td></tr>
-<tr class="memdesc:ga3b6fc792acfc6697de0ae62c01df372b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modifies <code>G</code> by adding its <em>n</em>-th suspension.  <a href="group__graph-generators.html#ga3b6fc792acfc6697de0ae62c01df372b">More...</a><br /></td></tr>
-<tr class="separator:ga3b6fc792acfc6697de0ae62c01df372b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga5e5147b533c68c25f3372b3ec5c2f04b">ogdf::gridGraph</a> (Graph &amp;G, int n, int m, bool loopN, bool loopM)</td></tr>
-<tr class="memdesc:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a (toroidal) grid graph on <code>n</code> x <code>m</code> nodes.  <a href="group__graph-generators.html#ga5e5147b533c68c25f3372b3ec5c2f04b">More...</a><br /></td></tr>
-<tr class="separator:ga5e5147b533c68c25f3372b3ec5c2f04b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gaf0420643bdd6ded0f5825ec0b86c3732"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#gaf0420643bdd6ded0f5825ec0b86c3732">ogdf::petersenGraph</a> (Graph &amp;G, int n, int m)</td></tr>
-<tr class="memdesc:gaf0420643bdd6ded0f5825ec0b86c3732"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a generalized Petersen graph.  <a href="group__graph-generators.html#gaf0420643bdd6ded0f5825ec0b86c3732">More...</a><br /></td></tr>
-<tr class="separator:gaf0420643bdd6ded0f5825ec0b86c3732"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ga44c2631acd39f73c7117a8a8c60d6071"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__graph-generators.html#ga44c2631acd39f73c7117a8a8c60d6071">ogdf::emptyGraph</a> (Graph &amp;G, int nodes)</td></tr>
-<tr class="memdesc:ga44c2631acd39f73c7117a8a8c60d6071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a graph with <code>nodes</code> nodes and no edges.  <a href="group__graph-generators.html#ga44c2631acd39f73c7117a8a8c60d6071">More...</a><br /></td></tr>
-<tr class="separator:ga44c2631acd39f73c7117a8a8c60d6071"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Declaration of graph generators. </p>
-<dl class="section author"><dt>Author</dt><dd>Carsten Gutwenger, Markus Chimani</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Jöran Schierbaum</dd></dl>
 <dl class="section user"><dt>License:</dt><dd>This file is part of the Open Graph Drawing Framework (OGDF).</dd></dl>
 <dl class="section user"><dt></dt><dd>Copyright (C)<br />
  See README.md in the OGDF root directory for details.</dd></dl>
@@ -265,7 +146,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html">basic</a></li><li class="navelem"><a class="el" href="graph__generators_8h.html">graph_generators.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

@@ -5,6 +5,7 @@ var searchData=
   ['d2',['D2',['../classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m.html#afbf4cf00c9d408503e5a6a27c225cbab',1,'ogdf::energybased::fmmm::QuadTreeNodeNM']]],
   ['data',['data',['../classogdf_1_1_binary_heap_simple.html#aeedae9a019e25182c291e1b7c7aab321',1,'ogdf::BinaryHeapSimple::data()'],['../class_minisat_1_1_internal_1_1_clause.html#a1b9d4d962fd9d4280999d7e8aaca1703',1,'Minisat::Internal::Clause::data()'],['../struct_minisat_1_1_internal_1_1_map_1_1_pair.html#a00842867d72a1847f0d0d4007f76f0e5',1,'Minisat::Internal::Map::Pair::data()'],['../class_minisat_1_1_internal_1_1vec.html#a17d4e34ab99f118f5ae6664d344f78e1',1,'Minisat::Internal::vec::data()']]],
   ['dbthreshold_5f',['dbThreshold_',['../classabacus_1_1_master.html#af439fa80305eca6aa4d1434f6b059c97',1,'abacus::Master']]],
+  ['debugmode',['debugMode',['../namespaceogdf.html#affdd2b44937145630ebe67ac443ca38c',1,'ogdf']]],
   ['dec_5fvars',['dec_vars',['../class_minisat_1_1_internal_1_1_solver.html#a92bfe3035902165e573811ca8462633c',1,'Minisat::Internal::Solver']]],
   ['decision',['decision',['../class_minisat_1_1_internal_1_1_solver.html#aa300668fa5856d90fb0d5677fcde7cf0',1,'Minisat::Internal::Solver']]],
   ['decisions',['decisions',['../struct_minisat_1_1_internal_1_1_solver_1_1_solver_status.html#a2548894bd2fa191ff28a68f7b2e88e1d',1,'Minisat::Internal::Solver::SolverStatus::decisions()'],['../class_minisat_1_1_internal_1_1_solver.html#a7a202e5a71ca17d888787e23833e11c0',1,'Minisat::Internal::Solver::decisions()']]],

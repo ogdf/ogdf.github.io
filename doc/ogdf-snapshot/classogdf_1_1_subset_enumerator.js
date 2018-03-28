@@ -13,6 +13,7 @@ var classogdf_1_1_subset_enumerator =
     [ "list", "classogdf_1_1_subset_enumerator.html#a7be5376a14c47346a8af1310272457d4", null ],
     [ "list", "classogdf_1_1_subset_enumerator.html#adbc723510fe682f8c7501b46ebc183ba", null ],
     [ "next", "classogdf_1_1_subset_enumerator.html#ac900e20401f7f4d318ad285a1f2440cd", null ],
+    [ "numberOfMembersAndNonmembers", "classogdf_1_1_subset_enumerator.html#a4ea789b66e7317ffefe7c3e9db937a07", null ],
     [ "operator[]", "classogdf_1_1_subset_enumerator.html#a6e9897736de5d19a3501ad3871d744fe", null ],
     [ "print", "classogdf_1_1_subset_enumerator.html#a1318576c7e5304e4f898862138748b54", null ],
     [ "size", "classogdf_1_1_subset_enumerator.html#a1480cdcfde354de971ac7057bebab67b", null ],

@@ -1,6 +1,7 @@
 var classogdf_1_1_disjoint_sets =
 [
     [ "DisjointSets", "classogdf_1_1_disjoint_sets.html#a88b754d74bf7412279b04d70a1d8da37", null ],
+    [ "DisjointSets", "classogdf_1_1_disjoint_sets.html#aa85c613b1bcf1172fd3bde05191cd011", null ],
     [ "~DisjointSets", "classogdf_1_1_disjoint_sets.html#af3b245acd21ff26d2008e70021dfab18", null ],
     [ "find", "classogdf_1_1_disjoint_sets.html#a646e5e4b579052695bc267275c0db308", null ],
     [ "find", "classogdf_1_1_disjoint_sets.html#a6be09fc3cc190d0d1c76ba93d5e93193", null ],
@@ -19,6 +20,7 @@ var classogdf_1_1_disjoint_sets =
     [ "link", "classogdf_1_1_disjoint_sets.html#ac0e86c7cae663e69164867b7a110a4ec", null ],
     [ "linkPure", "classogdf_1_1_disjoint_sets.html#accc7647109a977e500d00906e37c4cf7", null ],
     [ "makeSet", "classogdf_1_1_disjoint_sets.html#a0b40e1ab3287b1d55e2d2524af1721d7", null ],
+    [ "operator=", "classogdf_1_1_disjoint_sets.html#a483c1bc52e03aa28339f1d8034bcca10", null ],
     [ "quickUnion", "classogdf_1_1_disjoint_sets.html#a2a2f57a20576f05ff78912d28b5e0871", null ],
     [ "quickUnion", "classogdf_1_1_disjoint_sets.html#a6b131e83add225184df7da96ea1a160a", null ],
     [ "quickUnion", "classogdf_1_1_disjoint_sets.html#a7fa422b77708b214f6a48d00084b8b89", null ],

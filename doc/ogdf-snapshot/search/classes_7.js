@@ -24,7 +24,7 @@ var searchData=
   ['graphcopysimple',['GraphCopySimple',['../classogdf_1_1_graph_copy_simple.html',1,'ogdf']]],
   ['graphelement',['GraphElement',['../classogdf_1_1internal_1_1_graph_element.html',1,'ogdf::internal']]],
   ['graphio',['GraphIO',['../classogdf_1_1_graph_i_o.html',1,'ogdf']]],
-  ['graphiterator',['GraphIterator',['../classogdf_1_1internal_1_1_graph_iterator.html',1,'ogdf::internal']]],
+  ['graphiteratorbase',['GraphIteratorBase',['../classogdf_1_1internal_1_1_graph_iterator_base.html',1,'ogdf::internal']]],
   ['graphlist',['GraphList',['../classogdf_1_1internal_1_1_graph_list.html',1,'ogdf::internal']]],
   ['graphlist_3c_20graphobject_20_3e',['GraphList&lt; GraphObject &gt;',['../classogdf_1_1internal_1_1_graph_list.html',1,'ogdf::internal']]],
   ['graphlist_3c_20ogdf_3a_3aadjelement_20_3e',['GraphList&lt; ogdf::AdjElement &gt;',['../classogdf_1_1internal_1_1_graph_list.html',1,'ogdf::internal']]],

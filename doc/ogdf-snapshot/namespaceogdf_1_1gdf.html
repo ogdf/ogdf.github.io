@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -144,19 +144,25 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceogdf_1_1gdf.html#a5af4444c564793b934e33bb719528c89a88183b946cc5f0e8c96b2e66e1c74a7e">EdgeAttribute::Unknown</a>
  }</td></tr>
 <tr class="separator:a5af4444c564793b934e33bb719528c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae146089d38e718726a82db1bf6b06392"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392">NodeAttribute</a> { <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a49ee3087348e8d44e1feda1917443987">NodeAttribute::Name</a> = 0, 
+<tr class="memitem:ae146089d38e718726a82db1bf6b06392"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392">NodeAttribute</a> { <br />
+&#160;&#160;<a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a49ee3087348e8d44e1feda1917443987">NodeAttribute::Name</a> = 0, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392ab021df6aac4654c454f46c77646e745f">NodeAttribute::Label</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a02129bb861061d1a052c592e2dc6b383">NodeAttribute::X</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a57cec4137b614c87cb4e24a3d003a3e0">NodeAttribute::Y</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a21c2e59531c8710156d34a3c30ac81d5">NodeAttribute::Z</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a6876a5fdead44d4a4531d97ede9c5462">NodeAttribute::FillColor</a>, 
+<a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392ad76f0382fd158d487dd65c4032e3d61c">NodeAttribute::FillPattern</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a98febad518408518cab31e25337aa1ce">NodeAttribute::StrokeColor</a>, 
+<a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a7ef7224453ef0a70322fbe7bb34cd166">NodeAttribute::StrokeType</a>, 
+<a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392ada7232fcae69fcb6a3248b422bf7878f">NodeAttribute::StrokeWidth</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a880c1273b27d27cfc82004c3a4b205c9">NodeAttribute::Shape</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a32954654ac8fe66a1d09be19001de2d4">NodeAttribute::Width</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392aeec6c4bdbd339edf8cbea68becb85244">NodeAttribute::Height</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a278c491bdd8a53618c149c4ac790da34">NodeAttribute::Template</a>, 
-<a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a8c489d0946f66d17d73f26366a4bf620">NodeAttribute::Weight</a>, 
+<br />
+&#160;&#160;<a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a8c489d0946f66d17d73f26366a4bf620">NodeAttribute::Weight</a>, 
 <a class="el" href="namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a88183b946cc5f0e8c96b2e66e1c74a7e">NodeAttribute::Unknown</a>
+<br />
  }</td></tr>
 <tr class="separator:ae146089d38e718726a82db1bf6b06392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -206,7 +212,7 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="a5af4444c564793b934e33bb719528c89a88183b946cc5f0e8c96b2e66e1c74a7e"></a>Unknown&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
-<p class="definition">Definition at line <a class="el" href="_g_d_f_8h_source.html#l00065">65</a> of file <a class="el" href="_g_d_f_8h_source.html">GDF.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_g_d_f_8h_source.html#l00069">69</a> of file <a class="el" href="_g_d_f_8h_source.html">GDF.h</a>.</p>
 
 </div>
 </div>
@@ -236,7 +242,10 @@ Functions</h2></td></tr>
 <tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392a57cec4137b614c87cb4e24a3d003a3e0"></a>Y&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392a21c2e59531c8710156d34a3c30ac81d5"></a>Z&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392a6876a5fdead44d4a4531d97ede9c5462"></a>FillColor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392ad76f0382fd158d487dd65c4032e3d61c"></a>FillPattern&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392a98febad518408518cab31e25337aa1ce"></a>StrokeColor&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392a7ef7224453ef0a70322fbe7bb34cd166"></a>StrokeType&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392ada7232fcae69fcb6a3248b422bf7878f"></a>StrokeWidth&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392a880c1273b27d27cfc82004c3a4b205c9"></a>Shape&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392a32954654ac8fe66a1d09be19001de2d4"></a>Width&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae146089d38e718726a82db1bf6b06392aeec6c4bdbd339edf8cbea68becb85244"></a>Height&#160;</td><td class="fielddoc"></td></tr>
@@ -364,7 +373,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="namespaceogdf_1_1gdf.html">gdf</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

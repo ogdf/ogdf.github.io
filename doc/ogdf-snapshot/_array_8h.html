@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -121,6 +121,7 @@ $(document).ready(function(){initNavTree('_array_8h.html','');});
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">Array.h File Reference</div>  </div>
@@ -132,6 +133,7 @@ $(document).ready(function(){initNavTree('_array_8h.html','');});
 <div class="textblock"><code>#include &lt;<a class="el" href="comparer_8h_source.html">ogdf/basic/comparer.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="memory_8h_source.html">ogdf/basic/memory.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="exceptions_8h_source.html">ogdf/basic/exceptions.h</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="_reverse_8h_source.html">ogdf/basic/Reverse.h</a>&gt;</code><br />
 <code>#include &lt;random&gt;</code><br />
 <code>#include &lt;type_traits&gt;</code><br />
 <code>#include &lt;<a class="el" href="_array_buffer_8h_source.html">ogdf/basic/ArrayBuffer.h</a>&gt;</code><br />
@@ -146,12 +148,33 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array_buffer.html">ogdf::ArrayBuffer&lt; E, INDEX &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">An array that keeps track of the number of inserted elements; also usable as an efficient stack.  <a href="classogdf_1_1_array_buffer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array_reverse_iterator_base.html">ogdf::ArrayReverseIteratorBase&lt; E, isConst &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random-access reverse iterator based on a pointer to an array element.  <a href="classogdf_1_1_array_reverse_iterator_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array_reverse_iterator_base.html">ogdf::ArrayReverseIteratorBase&lt; E, isConst &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random-access reverse iterator based on a pointer to an array element.  <a href="classogdf_1_1_array_reverse_iterator_base.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceogdf"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf.html">ogdf</a></td></tr>
 <tr class="memdesc:namespaceogdf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The namespace for all OGDF objects. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a753f54c5d4569d9f228a561525604bce"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a753f54c5d4569d9f228a561525604bce"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a753f54c5d4569d9f228a561525604bce">ogdf::ArrayConstIterator</a> = const E *</td></tr>
+<tr class="separator:a753f54c5d4569d9f228a561525604bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1e5ec88efaecf8855757e89ada13012"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:ad1e5ec88efaecf8855757e89ada13012"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#ad1e5ec88efaecf8855757e89ada13012">ogdf::ArrayConstReverseIterator</a> = ArrayReverseIteratorBase&lt; E, true &gt;</td></tr>
+<tr class="separator:ad1e5ec88efaecf8855757e89ada13012"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65c7e9e082c33ee3fba6c8d3e8e3f646"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:a65c7e9e082c33ee3fba6c8d3e8e3f646"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#a65c7e9e082c33ee3fba6c8d3e8e3f646">ogdf::ArrayIterator</a> = E *</td></tr>
+<tr class="separator:a65c7e9e082c33ee3fba6c8d3e8e3f646"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeee32ffd917d6c95795a043b40afc71c"><td class="memTemplParams" colspan="2">template&lt;class E &gt; </td></tr>
+<tr class="memitem:aeee32ffd917d6c95795a043b40afc71c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf.html#aeee32ffd917d6c95795a043b40afc71c">ogdf::ArrayReverseIterator</a> = ArrayReverseIteratorBase&lt; E, false &gt;</td></tr>
+<tr class="separator:aeee32ffd917d6c95795a043b40afc71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -181,7 +204,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html">basic</a></li><li class="navelem"><a class="el" href="_array_8h.html">Array.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

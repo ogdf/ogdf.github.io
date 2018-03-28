@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -175,6 +175,27 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <p>The (formerly internal) class <code>TricComp</code> was renamed to <code>Triconnectivity</code> and can now be found in <code><a class="el" href="_triconnectivity_8h.html" title="Declares class Triconnectivity which realizes the Hopcroft/Tarjan algorithm for finding the triconnec...">include/ogdf/graphalg/Triconnectivity.h</a></code>.</p>
 <h3>PlanRepInc</h3>
 <p>The method <code>writeGML(const char*, GraphAttributes&amp;, bool)</code> was deleted. Use <code>writeGML(ostream &amp;os, const GraphAttributes&amp;)</code> instead.</p>
+<h3>Graph generators</h3>
+<p>The random planar graph generators got a <code>random</code> prefix. All directed graph generators are now called <code>Digraph</code> instead of <code>DiGraph</code> to keep consistency in capitalization across the OGDF. This affects the following generators:</p>
+<table class="doxtable">
+<tr>
+<th>Former </th><th>New  </th></tr>
+<tr>
+<td>randomDiGraph </td><td>randomDigraph </td></tr>
+<tr>
+<td>planarConnectedGraph </td><td>randomPlanarConnectedGraph </td></tr>
+<tr>
+<td>planarBiconnectedGraph </td><td>randomPlanarBiconnectedGraph </td></tr>
+<tr>
+<td>planarBiconnectedDiGraph </td><td>randomPlanarBiconnectedDigraph </td></tr>
+<tr>
+<td>upwardPlanarBiconnectedDiGraph </td><td>randomUpwardPlanarBiconnectedDigraph </td></tr>
+<tr>
+<td>planarCNBGraph </td><td>randomPlanarCNBGraph </td></tr>
+<tr>
+<td>planarTriconnectedGraph </td><td>randomPlanarTriconnectedGraph </td></tr>
+</table>
+<p>Additionally, if you require only either deterministic or randomized generators, you can now include <code><a class="el" href="deterministic_8h.html" title="Declaration of deterministic graph generators. ">include/ogdf/basic/graph_generators/deterministic.h</a></code> and <code><a class="el" href="randomized_8h.html" title="Declaration of randomized graph generators. ">include/ogdf/basic/graph_generators/randomized.h</a></code> respectively.</p>
 <h2>Changed method signatures</h2>
 <p>The parameter <code>BlockOrder* order</code> was deleted from the constructors of <code>Block</code> in <code><a class="el" href="_block_order_8h.html" title="Declaration of BlockOrder and related classes. ">BlockOrder.h</a></code>. Use the constructors <code>Block(edge e)</code> and <code>Block(node v)</code> instead.</p>
 <h2>Graph class</h2>
@@ -194,10 +215,15 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <p>The static method <code>nextPower2</code> was slightly changed and moved to <code>Math</code>. The computed result is no longer strictly larger than the second parameter. <code>nextPower2(0)</code> is now <code>0</code> instead of <code>1</code>.</p>
 <h2>GraphCopy class</h2>
 <p>The <code>newEdge()</code> methods to add edges at predefined positions in the adjacency list have been removed from <code>GraphCopy</code>. You can instead use the respective <code>newEdge()</code> function inherited from <code>Graph</code>, followed by <code>GraphCopy::setEdge()</code>.</p>
+<h2>Container Classes</h2>
+<p>The methods <code>rbegin()</code> and <code>rend()</code> were removed from all <code>GraphArrayIterator</code>-classes, i.e. from <code>AdjEntryArray</code>, <code>ClusterArray</code>, <code>EdgeArray</code>, <code>FaceArray</code> and <code>NodeArray</code>. Iterating over their elements in any order can be done by iterating over their respective keys in this order.</p>
+<p>The methods <code>rbegin()</code> and <code>rend()</code> of all container classes now return reverse iterators. <code>succ()</code>, <code>operator++()</code>, <code>&amp;operator++()</code> and <code>cyclicSucc()</code> of reverse iterators behave like <code>pred()</code>, <code>operator--()</code>, <code>&amp;operator--()</code> and <code>cyclicPred()</code> of normal iterators respectively, and vice versa.</p>
 <h2>Stack &amp; StackPure &amp; BoundedStack classes</h2>
 <p>The classes <code>Stack</code>, <code>StackPure</code> and <code>BoundedStack</code> are deleted. Use <code>ArrayBuffer</code> instead (which provides the functionality of all three classes (and more) and outperforms all implementations). Change <code>pop()</code> in your implementations to <code>popRet()</code>.</p>
 <h2>List &amp; ListPure class</h2>
 <p>The deprecated methods <code>List::exchange()</code> and <code>ListPure::exchange()</code> were removed. Use <code>List::swap()</code> and <code>ListPure::swap()</code> instead.</p>
+<h2>SList, SListPure, Queue &amp; QueuePure class</h2>
+<p>The <code>rbegin()</code>-methods of the classes <code>SList</code>, <code>SListPure</code>, <code>Queue</code> and <code>QueuePure</code> were replaced by <code>backIterator()</code>-methods. The name <code>rbegin()</code> was misleading since the methods do not return reverse iterators.</p>
 <h2>Planar Subgraph Algorithms</h2>
 <p><code>BoyerMyrvoldSubgraph</code> was renamed to <code>PlanarSubgraphBoyerMyrvold</code> and <code>FastPlanarSubgraph</code> to <code>PlanarSubgraphFast</code>. <code>MaximalPlanarSubgraphSimple</code> now supports arbitrary start heuristics. As such, the <code>doMaximize</code> option was removed from <code>PlanarSubgraphBoyerMyrvold</code> (formerly <code>BoyerMyrvoldSubgraph</code>). <code>MaximalPlanarSubgraphSimple::clone()</code> should be used to obtain a copy of the respective instance since <code>MaximalPlanarSubgraphSimple(const MaximalPlanarSubgraphSimple &amp;mps)</code> is no longer available.</p>
 <p>Support for edge weights was added to <code>MaximumCPlanarSubgraph</code>. The signature of <code>call</code> includes the new parameter <code>EdgeArray&lt;int&gt; *pCost</code> that can be set to <code>nullptr</code> for uniform weight.</p>
@@ -308,12 +334,24 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 </table>
 <h2>Layout algorithms and graph constraints</h2>
 <p>Layout algorithms no longer support <code>GraphConstraints</code>. Use <code>call(GraphAttributes)</code> instead of <code>call(GraphAttributes, GraphConstraints)</code>. Graph constraints were removed entirely. Removed classes: <code>Constraint</code>, <code>ConstraintManager</code>, and <code>GraphConstraints</code>.</p>
+<h2>LayoutStatistics</h2>
+<p><code>edgeLengths()</code>, <code>numberOfBends()</code>, <code>angularResolution()</code> and <code>numberOfCrossings()</code> now return <code>ArrayBuffer</code>s with values for each edge/angle/node. The mininum, maximum, mean and standard deviation can no longer be obtained using function parameters but by applying <code>Math</code>-functions to the returned values.</p>
+<p>Moreover, <code>angularResolution()</code> was renamed to <code>angles()</code>.</p>
 <h2>GraphIO</h2>
 <p>Methods that take filenames (instead of streams) are deprecated and will be removed in future versions. For example, instead of using</p>
 <div class="fragment"><div class="line">{c++}</div><div class="line">    GraphIO::readLEDA(G, &quot;circulant.lgr&quot;);</div><div class="line">    GraphIO::writeChaco(G, &quot;circulant.gml&quot;);</div></div><!-- fragment --><p>you have to create the streams manually, i.e.,</p>
 <div class="fragment"><div class="line">{c++}</div><div class="line">    std::ifstream is(&quot;circulant.lgr&quot;);</div><div class="line">    GraphIO::readLEDA(G, is);</div><div class="line">    std::ofstream os(&quot;circulant.gml&quot;);</div><div class="line">    GraphIO::writeGML(G, os);</div></div><!-- fragment --><p>There are also helper functions <code>GraphIO::read()</code> and <code>GraphIO::write()</code> that accept filenames for <code>GraphAttribute</code>s and <code>Graph</code>s, so you can also write</p>
 <div class="fragment"><div class="line">{c++}</div><div class="line">    GraphIO::read(G, &quot;circulant.lgr&quot;, GraphIO::readLEDA);</div><div class="line">    GraphIO::write(G, &quot;circulant.gml&quot;, GraphIO::writeGML);</div></div><!-- fragment --><p>Do not confuse the new filename-based <code>GraphIO::read()</code> helper function with our new (experimental) generic reader function of the same name. However, this generic reader even allows to write</p>
-<div class="fragment"><div class="line">{c++}</div><div class="line">    GraphIO::read(G, &quot;circulant.lgr&quot;);</div><div class="line">    GraphIO::write(G, &quot;circulant.gml&quot;, GraphIO::writeGML);</div></div><!-- fragment --><h2>GmlParser</h2>
+<div class="fragment"><div class="line">{c++}</div><div class="line">    GraphIO::read(G, &quot;circulant.lgr&quot;);</div><div class="line">    GraphIO::write(G, &quot;circulant.gml&quot;, GraphIO::writeGML);</div></div><!-- fragment --><h2>OGML</h2>
+<p>Support for the <code>OGML</code>-format was dropped entirely. This includes several methods of <code>GraphIO</code> and some classes that were used only by the <code>OGML</code> reader/writer.</p>
+<p>The list of deleted classes includes</p><ul>
+<li><code>LineBuffer</code></li>
+<li><code>OgmlParser</code></li>
+<li><code>UmlToGraphConverter</code></li>
+<li><code>XmlParser</code></li>
+<li><code>XmlScanner</code></li>
+</ul>
+<h2>GmlParser</h2>
 <p>If you happened to use the <code>GmlParser</code> class directly (instead of <code>GraphIO</code>), the constructor with filename argument is also gone now. Use the constructor for input streams instead.</p>
 <h2>Filesystem functions</h2>
 <p>If you have used filesystem functions in your code, you can include <code><a class="el" href="filesystem_8h.html" title="Declaration of deprecated file system functions. ">ogdf/basic/filesystem.h</a></code> now and you get them back. They are marked deprecated now since there are maintained and portable alternatives like <a href="https://github.com/cxong/tinydir">tinydir</a>. Also C++17 will have filesystem functions.</p>
@@ -451,13 +489,35 @@ $(document).ready(function(){initNavTree('md_doc_porting_snapshot.html','');});
 <h2>HyperGraph</h2>
 <p>The class <code>HyperGraph</code> was removed. Use <code>Hypergraph</code> instead.</p>
 <h2>EFreeList, EList, and EStack</h2>
-<p>The classes <code>EFreeList</code>, <code>EList</code> and <code>EStack</code> were removed. Use <code>List</code> and <code>Stack</code> instead. </p>
+<p>The classes <code>EFreeList</code>, <code>EList</code> and <code>EStack</code> were removed. Use <code>List</code> and <code>Stack</code> instead.</p>
+<h2>GraphIO</h2>
+<h1>Dot</h1>
+<p>The keywords for nodeshapes changed for some shapes.</p>
+<table class="doxtable">
+<tr>
+<th>Shape </th><th>Former </th><th>New  </th></tr>
+<tr>
+<td>Shape::RoundedRect </td><td>"rect" </td><td>"roundedrect" </td></tr>
+<tr>
+<td>Shape::InvParallelogram </td><td>"parallelogram" </td><td>"invparallelogram" </td></tr>
+<tr>
+<td>Shape::Image </td><td>"box" </td><td>"image" </td></tr>
+</table>
+<p>This can result in these node shapes not being recognized by other programs when parsed, but provides better OGDF to OGDF parsing and writing.</p>
+<p>edgeArrow is now "string" instead of "int".</p>
+<h1>GML</h1>
+<p>When parsing bends the first (last) point of the bend is deleted, if it is inside the source (target) node, i.e., if its distance to the source (target) node is zero.</p>
+<p>stroketype and stipple are now "string" instead of "int".</p>
+<p>GML files use one '' instead of two ' ' as indentChar now.</p>
+<h1>GraphML</h1>
+<p>x,y,z and size are now "double" instead of "float".</p>
+<p>NodeType is now "int" instead of "string". </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

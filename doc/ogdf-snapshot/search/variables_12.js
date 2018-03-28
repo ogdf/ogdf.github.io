@@ -1,8 +1,6 @@
 var searchData=
 [
   ['s',['s',['../classogdf_1_1fast__multipole__embedder_1_1_l_q_morton_functor.html#aeb50040896a8f273fba0195f9fb1a7ad',1,'ogdf::fast_multipole_embedder::LQMortonFunctor::s()'],['../classogdf_1_1fast__multipole__embedder_1_1_l_q_point_update_functor.html#a68f51f86dba1d865254bda97ec5b5971',1,'ogdf::fast_multipole_embedder::LQPointUpdateFunctor::s()']]],
-  ['s_5fattributenames',['s_attributeNames',['../classogdf_1_1_ogml.html#a3b28ee6d50a5c1a303bd37c71cd147b7',1,'ogdf::Ogml']]],
-  ['s_5fattributevaluenames',['s_attributeValueNames',['../classogdf_1_1_ogml.html#a51302ac3f4fba9ed226a3cbf342ffed3',1,'ogdf::Ogml']]],
   ['s_5fblocks',['s_blocks',['../classogdf_1_1_pool_memory_allocator.html#afbb1898040e53435be7cee000a166be4',1,'ogdf::PoolMemoryAllocator']]],
   ['s_5fcacheline',['s_cacheLine',['../classogdf_1_1_system.html#a38a4b90b84a2b6f5ca4663fed07561c5',1,'ogdf::System']]],
   ['s_5fcachesize',['s_cacheSize',['../classogdf_1_1_system.html#afaf46cb66f7f88014182ed4b8ac5f5b0',1,'ogdf::System']]],
@@ -18,7 +16,6 @@ var searchData=
   ['s_5fdefnodeshape',['s_defNodeShape',['../classogdf_1_1_layout_standards.html#a5124533dcc97c15d3d7a9edc42824743',1,'ogdf::LayoutStandards']]],
   ['s_5fdefnodestroke',['s_defNodeStroke',['../classogdf_1_1_layout_standards.html#a4af2bc8c2030165fef42c866e2941885',1,'ogdf::LayoutStandards']]],
   ['s_5fdefnodewidth',['s_defNodeWidth',['../classogdf_1_1_layout_standards.html#afae3738ac39284201f0459db8867a8d1',1,'ogdf::LayoutStandards']]],
-  ['s_5fgraphtypes',['s_graphTypeS',['../classogdf_1_1_ogml.html#a91a626529a1a85f63845eac611341909',1,'ogdf::Ogml']]],
   ['s_5fhat',['s_hat',['../classogdf_1_1_upward_plan_rep.html#a5287192271318c661123c7290a21e390',1,'ogdf::UpwardPlanRep']]],
   ['s_5fhpcounterfrequency',['s_HPCounterFrequency',['../classogdf_1_1_system.html#abf0846758b1b747363da319655b441af',1,'ogdf::System']]],
   ['s_5findentchar',['s_indentChar',['../classogdf_1_1_graph_i_o.html#a5accdb8ea63ef17e27b0891c8b2073c4',1,'ogdf::GraphIO']]],
@@ -27,10 +24,8 @@ var searchData=
   ['s_5fnode',['S_node',['../classogdf_1_1energybased_1_1fmmm_1_1_set.html#a0a3e49329f518c2f5606f861fb16f2b4',1,'ogdf::energybased::fmmm::Set']]],
   ['s_5fnumberofprocessors',['s_numberOfProcessors',['../classogdf_1_1_system.html#a73c814a077059b20fcf922f08dfaf8b8',1,'ogdf::System']]],
   ['s_5fogdfinitializer',['s_ogdfInitializer',['../namespaceogdf.html#ad02b99d09bc1494f2e023ebd8c2faf7b',1,'ogdf']]],
-  ['s_5foppdir',['s_oppDir',['../classogdf_1_1_multi_edge_approx_inserter.html#a0df49f89a429c51dfa2b9927348da788',1,'ogdf::MultiEdgeApproxInserter']]],
   ['s_5fpagesize',['s_pageSize',['../classogdf_1_1_system.html#a8dac55c5c8d83421e6ccfdfb60d69cf3',1,'ogdf::System']]],
   ['s_5fpool',['s_pool',['../classogdf_1_1_pool_memory_allocator.html#a8e6d9cecf3db9ad2122d4a53e8eb6ca8',1,'ogdf::PoolMemoryAllocator']]],
-  ['s_5ftagnames',['s_tagNames',['../classogdf_1_1_ogml.html#aeff8187f02b4376c215f6c6d5542a09a',1,'ogdf::Ogml']]],
   ['s_5ftp',['s_tp',['../classogdf_1_1_pool_memory_allocator.html#aa9307e06abf5acecd5af31e7158b9392',1,'ogdf::PoolMemoryAllocator']]],
   ['scale',['scale',['../classogdf_1_1fast__multipole__embedder_1_1_l_q_morton_functor.html#ae384ea42cdb4a6bb6d89e50e1a3ca1e1',1,'ogdf::fast_multipole_embedder::LQMortonFunctor']]],
   ['scalefactor',['scaleFactor',['../structogdf_1_1fast__multipole__embedder_1_1_f_m_e_global_context.html#a7de3f9902f86d9ea26d274d89557c574',1,'ogdf::fast_multipole_embedder::FMEGlobalContext']]],

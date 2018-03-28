@@ -41,7 +41,6 @@ var searchData=
   ['bottomupcost',['bottomUpCost',['../classogdf_1_1_cluster_ortho_shaper.html#aa5f1e39f14816f0e1c6f4fc8e5ac2d74a4d676de5ac76204c5ea246f50e8c8c85',1,'ogdf::ClusterOrthoShaper']]],
   ['boundingcircle',['BoundingCircle',['../classogdf_1_1_f_m_m_m_options.html#a899f2fcfa8a2b16d1450208542751777a6398d0e30a5ed65e1e01f64ddd805d1c',1,'ogdf::FMMMOptions']]],
   ['bprioqueue',['BPrioQueue',['../group__exceptions.html#gga1fca16209583971af6d681f7bee9863eaa34cdb6bf18ce1ec5f4d7d9ff36611f3',1,'ogdf']]],
-  ['branch',['Branch',['../classogdf_1_1_coin_callbacks.html#a290d7e7278167603bcd9dfefb2fd84aeadacdb83ade6c4e8878717e206175dfd8',1,'ogdf::CoinCallbacks']]],
   ['branching',['Branching',['../classabacus_1_1_sub.html#aa9fe7d3a08b8ba4d97a8e4927178256ea269cf6042e08ab945d99d3d9acb1c89f',1,'abacus::Sub']]],
   ['branchingrule',['BranchingRule',['../group__exceptions.html#gga1fca16209583971af6d681f7bee9863eaa1c8b5c7749c7496eaecb541ef300bf1',1,'ogdf']]],
   ['branchingvariable',['BranchingVariable',['../group__exceptions.html#gga1fca16209583971af6d681f7bee9863eaf65e3973f36aba6de618f74794f5dd04',1,'ogdf']]],

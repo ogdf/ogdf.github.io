@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -169,6 +169,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aeae0f27e27127809d069cb3308f41f1e inherit pub_methods_classogdf_1_1_max_flow_module"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_max_flow_module.html#aeae0f27e27127809d069cb3308f41f1e">computeFlowAfterValue</a> (<a class="el" href="classogdf_1_1_edge_array.html">EdgeArray</a>&lt; TCap &gt; &amp;flow)</td></tr>
 <tr class="memdesc:aeae0f27e27127809d069cb3308f41f1e inherit pub_methods_classogdf_1_1_max_flow_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the flow itself after the flow value is already computed. Only used in algorithms with 2 phases. The flow is stored in the parameter <code>flow</code>.  <a href="classogdf_1_1_max_flow_module.html#aeae0f27e27127809d069cb3308f41f1e">More...</a><br /></td></tr>
 <tr class="separator:aeae0f27e27127809d069cb3308f41f1e inherit pub_methods_classogdf_1_1_max_flow_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6914bc17aa6d66fdaeac5824f4f83989 inherit pub_methods_classogdf_1_1_max_flow_module"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_max_flow_module.html#a6914bc17aa6d66fdaeac5824f4f83989">isFeasibleInstance</a> () const</td></tr>
+<tr class="memdesc:a6914bc17aa6d66fdaeac5824f4f83989 inherit pub_methods_classogdf_1_1_max_flow_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return whether the instance is feasible, i.e. the capacities are non-negative.  <a href="classogdf_1_1_max_flow_module.html#a6914bc17aa6d66fdaeac5824f4f83989">More...</a><br /></td></tr>
+<tr class="separator:a6914bc17aa6d66fdaeac5824f4f83989 inherit pub_methods_classogdf_1_1_max_flow_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66f4572df466f853cfd306f6890182f2 inherit pub_methods_classogdf_1_1_max_flow_module"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_max_flow_module.html#a66f4572df466f853cfd306f6890182f2">useEpsilonTest</a> (const double &amp;eps)</td></tr>
 <tr class="memdesc:a66f4572df466f853cfd306f6890182f2 inherit pub_methods_classogdf_1_1_max_flow_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Change the used EpsilonTest from StandardEpsilonTest to a user given EpsilonTest.  <a href="classogdf_1_1_max_flow_module.html#a66f4572df466f853cfd306f6890182f2">More...</a><br /></td></tr>
 <tr class="separator:a66f4572df466f853cfd306f6890182f2 inherit pub_methods_classogdf_1_1_max_flow_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,7 +241,7 @@ template&lt;typename TCap &gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_max_flow_module.html#a39f84ca5b1b616d475b1305a5f7436e2">ogdf::MaxFlowModule&lt; TCap &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_max_flow_s_t_planar_digraph_8h_source.html#l00124">124</a> of file <a class="el" href="_max_flow_s_t_planar_digraph_8h_source.html">MaxFlowSTPlanarDigraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_flow_s_t_planar_digraph_8h_source.html#l00125">125</a> of file <a class="el" href="_max_flow_s_t_planar_digraph_8h_source.html">MaxFlowSTPlanarDigraph.h</a>.</p>
 
 </div>
 </div>
@@ -290,7 +293,7 @@ template&lt;typename TCap &gt; </div>
 <dl class="section return"><dt>Returns</dt><dd>The value of the flow. </dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">cap</td><td>is the <a class="el" href="classogdf_1_1_edge_array.html" title="Dynamic arrays indexed with edges. ">EdgeArray</a> of capacities. </td></tr>
+    <tr><td class="paramname">cap</td><td>is the <a class="el" href="classogdf_1_1_edge_array.html" title="Dynamic arrays indexed with edges. ">EdgeArray</a> of non-negative capacities. </td></tr>
     <tr><td class="paramname">s</td><td>is the source. </td></tr>
     <tr><td class="paramname">t</td><td>is the sink. </td></tr>
   </table>
@@ -392,7 +395,7 @@ template&lt;typename TCap &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classogdf_1_1_max_flow_module.html#a5d86c12ee29e77c0fc489a9a34eac4c9">ogdf::MaxFlowModule&lt; TCap &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_max_flow_s_t_planar_digraph_8h_source.html#l00127">127</a> of file <a class="el" href="_max_flow_s_t_planar_digraph_8h_source.html">MaxFlowSTPlanarDigraph.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_max_flow_s_t_planar_digraph_8h_source.html#l00128">128</a> of file <a class="el" href="_max_flow_s_t_planar_digraph_8h_source.html">MaxFlowSTPlanarDigraph.h</a>.</p>
 
 </div>
 </div>
@@ -405,7 +408,7 @@ template&lt;typename TCap &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_max_flow_s_t_planar_digraph.html">MaxFlowSTPlanarDigraph</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

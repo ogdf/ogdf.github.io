@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -138,6 +138,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a88b754d74bf7412279b04d70a1d8da37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#a88b754d74bf7412279b04d70a1d8da37">DisjointSets</a> (int maxNumberOfElements=(1&lt;&lt; 15))</td></tr>
 <tr class="memdesc:a88b754d74bf7412279b04d70a1d8da37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates an empty <a class="el" href="classogdf_1_1_disjoint_sets.html" title="A Union/Find data structure for maintaining disjoint sets. ">DisjointSets</a> structure.  <a href="#a88b754d74bf7412279b04d70a1d8da37">More...</a><br /></td></tr>
 <tr class="separator:a88b754d74bf7412279b04d70a1d8da37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa85c613b1bcf1172fd3bde05191cd011"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#aa85c613b1bcf1172fd3bde05191cd011">DisjointSets</a> (const <a class="el" href="classogdf_1_1_disjoint_sets.html">DisjointSets</a> &amp;)=delete</td></tr>
+<tr class="separator:aa85c613b1bcf1172fd3bde05191cd011"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3b245acd21ff26d2008e70021dfab18"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#af3b245acd21ff26d2008e70021dfab18">~DisjointSets</a> ()</td></tr>
 <tr class="separator:af3b245acd21ff26d2008e70021dfab18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2a87079f69c0cb97f59cc50b7d157920"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#a2a87079f69c0cb97f59cc50b7d157920">find</a> (int set)</td></tr>
@@ -158,6 +160,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0b40e1ab3287b1d55e2d2524af1721d7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#a0b40e1ab3287b1d55e2d2524af1721d7">makeSet</a> ()</td></tr>
 <tr class="memdesc:a0b40e1ab3287b1d55e2d2524af1721d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a singleton set.  <a href="#a0b40e1ab3287b1d55e2d2524af1721d7">More...</a><br /></td></tr>
 <tr class="separator:a0b40e1ab3287b1d55e2d2524af1721d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a483c1bc52e03aa28339f1d8034bcca10"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_disjoint_sets.html">DisjointSets</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#a483c1bc52e03aa28339f1d8034bcca10">operator=</a> (const <a class="el" href="classogdf_1_1_disjoint_sets.html">DisjointSets</a> &amp;)=delete</td></tr>
+<tr class="separator:a483c1bc52e03aa28339f1d8034bcca10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0aa405189e63eee8308582a385885f0a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_disjoint_sets.html#a0aa405189e63eee8308582a385885f0a">quickUnion</a> (int set1, int set2)</td></tr>
 <tr class="memdesc:a0aa405189e63eee8308582a385885f0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unions the maximal disjoint sets containing <code>set1</code> and <code>set2</code>.  <a href="#a0aa405189e63eee8308582a385885f0a">More...</a><br /></td></tr>
 <tr class="separator:a0aa405189e63eee8308582a385885f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,7 +232,7 @@ class ogdf::DisjointSets&lt; linkOption, compressionOption, interleavingOption &
 <p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00081">81</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a88b754d74bf7412279b04d70a1d8da37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88b754d74bf7412279b04d70a1d8da37">&#9670;&nbsp;</a></span>DisjointSets()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a88b754d74bf7412279b04d70a1d8da37">&#9670;&nbsp;</a></span>DisjointSets() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,6 +269,34 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 
 </div>
 </div>
+<a id="aa85c613b1bcf1172fd3bde05191cd011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa85c613b1bcf1172fd3bde05191cd011">&#9670;&nbsp;</a></span>DisjointSets() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions compressionOption = CompressionOptions::PathSplitting, InterleavingOptions interleavingOption = InterleavingOptions::Disabled&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_disjoint_sets.html">ogdf::DisjointSets</a>&lt; linkOption, compressionOption, interleavingOption &gt;::<a class="el" href="classogdf_1_1_disjoint_sets.html">DisjointSets</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_disjoint_sets.html">DisjointSets</a>&lt; linkOption, compressionOption, interleavingOption &gt; &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af3b245acd21ff26d2008e70021dfab18"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af3b245acd21ff26d2008e70021dfab18">&#9670;&nbsp;</a></span>~DisjointSets()</h2>
 
@@ -290,7 +322,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00134">134</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00138">138</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -331,7 +363,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00269">269</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00273">273</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -371,7 +403,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00298">298</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00302">302</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -411,7 +443,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00285">285</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00289">289</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -451,7 +483,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00313">313</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00317">317</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -491,7 +523,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00336">336</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00340">340</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -531,7 +563,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00329">329</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00333">333</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -571,7 +603,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 <dl class="section return"><dt>Returns</dt><dd>Superset id </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>set</code> is a non negative properly initialized id. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00147">147</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00151">151</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -602,7 +634,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 
 <p>Returns the current number of elements. </p>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00238">238</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00242">242</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -633,7 +665,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 
 <p>Returns the current number of disjoint sets. </p>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00235">235</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00239">239</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -673,7 +705,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 <dl class="section return"><dt>Returns</dt><dd>Superset id </dd></dl>
 <dl class="section pre"><dt>Precondition</dt><dd><code>set</code> is a non negative properly initialized id. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00160">160</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00164">164</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -719,7 +751,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00599">599</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00603">603</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -765,7 +797,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00540">540</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00544">544</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -811,7 +843,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00579">579</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00583">583</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -857,7 +889,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00555">555</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00559">559</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -901,7 +933,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 <dl class="section pre"><dt>Precondition</dt><dd><code>set1</code> and <code>set2</code> are maximal disjoint sets. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Set id of the union. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00213">213</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00217">217</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -945,7 +977,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 <dl class="section pre"><dt>Precondition</dt><dd><code>set1</code> and <code>set2</code> are maximal disjoint sets. </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>Set id of the union </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00246">246</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00250">250</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -977,7 +1009,35 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 <p>Initializes a singleton set. </p>
 <dl class="section return"><dt>Returns</dt><dd>Set id of the initialized singleton set. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00172">172</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00176">176</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+
+</div>
+</div>
+<a id="a483c1bc52e03aa28339f1d8034bcca10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a483c1bc52e03aa28339f1d8034bcca10">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions compressionOption = CompressionOptions::PathSplitting, InterleavingOptions interleavingOption = InterleavingOptions::Disabled&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classogdf_1_1_disjoint_sets.html">DisjointSets</a>&amp; <a class="el" href="classogdf_1_1_disjoint_sets.html">ogdf::DisjointSets</a>&lt; linkOption, compressionOption, interleavingOption &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classogdf_1_1_disjoint_sets.html">DisjointSets</a>&lt; linkOption, compressionOption, interleavingOption &gt; &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1029,7 +1089,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00403">403</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00407">407</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -1083,7 +1143,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 <p>Use path splitting to compress the path of set1 and get the root</p>
 <p>Redirect all nodes with smaller indices on the path of set2 to the root </p>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00440">440</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00444">444</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -1135,7 +1195,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00497">497</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00501">501</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -1187,7 +1247,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00345">345</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00349">349</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -1239,7 +1299,7 @@ template&lt;LinkOptions linkOption, CompressionOptions compressionOption, Interl
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00364">364</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00368">368</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -1282,7 +1342,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 <p>Unions the maximal disjoint sets containing <code>set1</code> and <code>set2</code>. </p>
 <dl class="section return"><dt>Returns</dt><dd>True, if the maximal sets containing <code>set1</code> and <code>set2</code> were disjoint und joined correctly. False otherwise. </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00226">226</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_disjoint_sets_8h_source.html#l00230">230</a> of file <a class="el" href="_disjoint_sets_8h_source.html">DisjointSets.h</a>.</p>
 
 </div>
 </div>
@@ -1464,7 +1524,7 @@ template&lt;LinkOptions linkOption = LinkOptions::Index, CompressionOptions comp
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_disjoint_sets.html">DisjointSets</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

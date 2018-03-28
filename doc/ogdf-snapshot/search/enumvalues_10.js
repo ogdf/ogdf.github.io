@@ -34,7 +34,6 @@ var searchData=
   ['righttoleft',['rightToLeft',['../namespaceogdf.html#a4c7fa2c473d2bbd159ca465d748fcbe2a58afff90d71a2da06527f9de82892d80',1,'ogdf']]],
   ['rnode',['RNode',['../classogdf_1_1_s_p_q_r_tree.html#ac6274139b4295e1ce75a311d3f622d25a0d42cca5279f1745d639204a74ec378a',1,'ogdf::SPQRTree']]],
   ['root',['Root',['../classogdf_1_1_p_a_label.html#abbb2f320421be920b1fe7f4bb764d0a4afa03eb688ad8aa1db593d33dabd89bad',1,'ogdf::PALabel']]],
-  ['rootumldiagramelement',['rootUmlDiagramElement',['../classogdf_1_1_uml_to_graph_converter.html#aa595d051ad24644b0c208b33d9209b89ab74cada11fb2d65cbb9e32f86327d65f',1,'ogdf::UmlToGraphConverter']]],
   ['rosybrown',['Rosybrown',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a3eedcd0326719e4f934807a6b85c8fb0',1,'ogdf::Color']]],
   ['round',['Round',['../group__graph-drawing.html#gga6aaeb2f033e1b06f9d55ac3d767266bbab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'ogdf::Round()'],['../group__graph-drawing.html#gga23d9a0401c602293fa543c68bf3e5fdfab7f41fc1412ad2ee75e9b2635d3b9d5c',1,'ogdf::Round()']]],
   ['roundedrect',['RoundedRect',['../group__graph-drawing.html#ggae985d12477ba134f85f06b974a5d0625a26ad877fc81bc38ff689ab1c8767732e',1,'ogdf']]],

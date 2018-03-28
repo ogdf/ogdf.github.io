@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -173,6 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac900e20401f7f4d318ad285a1f2440cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_subset_enumerator.html#ac900e20401f7f4d318ad285a1f2440cd">next</a> ()</td></tr>
 <tr class="memdesc:ac900e20401f7f4d318ad285a1f2440cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the next subset if possible. The result should be checked using the <a class="el" href="classogdf_1_1_subset_enumerator.html#a34177c0b01b0fe66f1d0e857148e75eb" title="Checks if the current subset is valid. If not, the subset is either not initialized or all subsets ha...">valid()</a> method.  <a href="#ac900e20401f7f4d318ad285a1f2440cd">More...</a><br /></td></tr>
 <tr class="separator:ac900e20401f7f4d318ad285a1f2440cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ea789b66e7317ffefe7c3e9db937a07"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_subset_enumerator.html#a4ea789b66e7317ffefe7c3e9db937a07">numberOfMembersAndNonmembers</a> () const</td></tr>
+<tr class="memdesc:a4ea789b66e7317ffefe7c3e9db937a07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cardinality of the (super-)set. This is the maximum size that can be used for a subset.  <a href="#a4ea789b66e7317ffefe7c3e9db937a07">More...</a><br /></td></tr>
+<tr class="separator:a4ea789b66e7317ffefe7c3e9db937a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e9897736de5d19a3501ad3871d744fe"><td class="memItemLeft" align="right" valign="top">T&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_subset_enumerator.html#a6e9897736de5d19a3501ad3871d744fe">operator[]</a> (int i) const</td></tr>
 <tr class="memdesc:a6e9897736de5d19a3501ad3871d744fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a member of subset by index (starting from 0).  <a href="#a6e9897736de5d19a3501ad3871d744fe">More...</a><br /></td></tr>
 <tr class="separator:a6e9897736de5d19a3501ad3871d744fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -292,7 +295,7 @@ template&lt;typename T&gt; </div>
 
 <p>Obtains an array of the subset members. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00222">222</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00230">230</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -366,7 +369,7 @@ template&lt;typename T&gt; </div>
 
 <p>Initializes the <a class="el" href="classogdf_1_1_subset_enumerator.html" title="Enumerator for k-subsets of a given type. ">SubsetEnumerator</a> to enumerate subsets of given cardinality. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00131">131</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00132">132</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -397,7 +400,7 @@ template&lt;typename T&gt; </div>
 
 <p>Initializes the <a class="el" href="classogdf_1_1_subset_enumerator.html" title="Enumerator for k-subsets of a given type. ">SubsetEnumerator</a> to enumerate all subsets. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00137">137</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00138">138</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -429,7 +432,7 @@ template&lt;typename T&gt; </div>
 
 <p>Calls <code>func</code> for each member in the subset. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00206">206</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00214">214</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -471,7 +474,7 @@ template&lt;typename T&gt; </div>
 
 <p>Calls <code>funcIn</code> for each subset member and <code>funcNotIn</code> for each other element of the set. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00231">231</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00239">239</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -521,7 +524,7 @@ template&lt;typename ContainerType &gt; </div>
 
 <p>Obtains a container of the subset members and a container of the other elements of the set. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00245">245</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00253">253</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -553,7 +556,7 @@ template&lt;typename T&gt; </div>
 
 <p>Checks in O(subset cardinality) whether <code>element</code> is a member of the subset. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00156">156</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00164">164</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -615,7 +618,7 @@ template&lt;typename T&gt; </div>
 
 <p>Obtains (appends) a list of the subset members. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00214">214</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00222">222</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -657,7 +660,7 @@ template&lt;typename T&gt; </div>
 
 <p>Obtains (appends) a list of the subset members and a list of the other elements of the set. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00255">255</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00263">263</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -688,7 +691,38 @@ template&lt;typename T&gt; </div>
 
 <p>Obtains the next subset if possible. The result should be checked using the <a class="el" href="classogdf_1_1_subset_enumerator.html#a34177c0b01b0fe66f1d0e857148e75eb" title="Checks if the current subset is valid. If not, the subset is either not initialized or all subsets ha...">valid()</a> method. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00175">175</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00183">183</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+
+</div>
+</div>
+<a id="a4ea789b66e7317ffefe7c3e9db937a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ea789b66e7317ffefe7c3e9db937a07">&#9670;&nbsp;</a></span>numberOfMembersAndNonmembers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int <a class="el" href="classogdf_1_1_subset_enumerator.html">ogdf::SubsetEnumerator</a>&lt; T &gt;::numberOfMembersAndNonmembers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the cardinality of the (super-)set. This is the maximum size that can be used for a subset. </p>
+
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00151">151</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -720,7 +754,7 @@ template&lt;typename T&gt; </div>
 
 <p>Gets a member of subset by index (starting from 0). </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00167">167</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00175">175</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -762,7 +796,7 @@ template&lt;typename T&gt; </div>
 
 <p>Prints subset to output stream <code>os</code> using delimiter <code>delim</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00274">274</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00282">282</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -793,7 +827,7 @@ template&lt;typename T&gt; </div>
 
 <p>Returns the cardinality of the subset. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00143">143</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00144">144</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -825,7 +859,7 @@ template&lt;typename T&gt; </div>
 
 <p>Tests <code>predicate</code> for all subset members. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00263">263</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00271">271</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -856,7 +890,7 @@ template&lt;typename T&gt; </div>
 
 <p>Checks if the current subset is valid. If not, the subset is either not initialized or all subsets have already been enumerated. </p>
 
-<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00150">150</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_subset_enumerator_8h_source.html#l00158">158</a> of file <a class="el" href="_subset_enumerator_8h_source.html">SubsetEnumerator.h</a>.</p>
 
 </div>
 </div>
@@ -974,7 +1008,7 @@ template&lt;typename T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_subset_enumerator.html">SubsetEnumerator</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

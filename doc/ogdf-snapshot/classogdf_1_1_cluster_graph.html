@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -151,7 +151,7 @@ Public Types</h2></td></tr>
 <tr><td colspan="2"><div class="groupHeader">Iterators</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>These types are used for graph object iterators, which are returned by graph object containers like nodes and edges. </p>
 </div></td></tr>
-<tr class="memitem:a0154447d15b8e7d4785d0be5cbfb5836"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a0154447d15b8e7d4785d0be5cbfb5836">cluster_iterator</a> = <a class="el" href="classogdf_1_1internal_1_1_graph_iterator.html">internal::GraphIterator</a>&lt; <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> &gt;</td></tr>
+<tr class="memitem:a0154447d15b8e7d4785d0be5cbfb5836"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a0154447d15b8e7d4785d0be5cbfb5836">cluster_iterator</a> = <a class="el" href="namespaceogdf_1_1internal.html#a679ca99b2ea2299123bf0e5563105c30">internal::GraphIterator</a>&lt; <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> &gt;</td></tr>
 <tr class="memdesc:a0154447d15b8e7d4785d0be5cbfb5836"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a bidirectional iterator to a cluster in a clustered graph.  <a href="#a0154447d15b8e7d4785d0be5cbfb5836">More...</a><br /></td></tr>
 <tr class="separator:a0154447d15b8e7d4785d0be5cbfb5836"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -306,19 +306,19 @@ Public Member Functions</h2></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>These methods are used by <a class="el" href="classogdf_1_1_cluster_array.html" title="Dynamic arrays indexed with clusters. ">ClusterArray</a> or <a class="el" href="classogdf_1_1_cluster_graph_observer.html" title="Abstract base class for cluster graph observers. ">ClusterGraphObserver</a>.</p>
 <p>There should be no need to use them directly in user code. </p>
 </div></td></tr>
-<tr class="memitem:ad76e19f6fa1c65eca5f11406cb87abc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#ad76e19f6fa1c65eca5f11406cb87abc7">registerArray</a> (<a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *pClusterArray) const</td></tr>
+<tr class="memitem:ad76e19f6fa1c65eca5f11406cb87abc7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#ad76e19f6fa1c65eca5f11406cb87abc7">registerArray</a> (<a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *pClusterArray) const</td></tr>
 <tr class="memdesc:ad76e19f6fa1c65eca5f11406cb87abc7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a cluster array.  <a href="#ad76e19f6fa1c65eca5f11406cb87abc7">More...</a><br /></td></tr>
 <tr class="separator:ad76e19f6fa1c65eca5f11406cb87abc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a222aac377cbfc988000d685c97fdb508"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a222aac377cbfc988000d685c97fdb508">unregisterArray</a> (<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&gt; it) const</td></tr>
+<tr class="memitem:a222aac377cbfc988000d685c97fdb508"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a222aac377cbfc988000d685c97fdb508">unregisterArray</a> (<a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&gt; it) const</td></tr>
 <tr class="memdesc:a222aac377cbfc988000d685c97fdb508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters a cluster array.  <a href="#a222aac377cbfc988000d685c97fdb508">More...</a><br /></td></tr>
 <tr class="separator:a222aac377cbfc988000d685c97fdb508"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a819f6445562bed103e5ead6eda72cf15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a819f6445562bed103e5ead6eda72cf15">moveRegisterArray</a> (<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&gt; it, <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *pClusterArray) const</td></tr>
+<tr class="memitem:a819f6445562bed103e5ead6eda72cf15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a819f6445562bed103e5ead6eda72cf15">moveRegisterArray</a> (<a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&gt; it, <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *pClusterArray) const</td></tr>
 <tr class="memdesc:a819f6445562bed103e5ead6eda72cf15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move the registration <code>it</code> of a cluster array to <code>pClusterArray</code> (used with move semantics for cluster arrays).  <a href="#a819f6445562bed103e5ead6eda72cf15">More...</a><br /></td></tr>
 <tr class="separator:a819f6445562bed103e5ead6eda72cf15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79b0f3a531db20ef73be1f2b2f9185f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a79b0f3a531db20ef73be1f2b2f9185f8">registerObserver</a> (<a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> *pObserver) const</td></tr>
+<tr class="memitem:a79b0f3a531db20ef73be1f2b2f9185f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a79b0f3a531db20ef73be1f2b2f9185f8">registerObserver</a> (<a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> *pObserver) const</td></tr>
 <tr class="memdesc:a79b0f3a531db20ef73be1f2b2f9185f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Registers a cluster graph observer.  <a href="#a79b0f3a531db20ef73be1f2b2f9185f8">More...</a><br /></td></tr>
 <tr class="separator:a79b0f3a531db20ef73be1f2b2f9185f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8fde6449103df54597a6461055acd759"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a8fde6449103df54597a6461055acd759">unregisterObserver</a> (<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> *&gt; it) const</td></tr>
+<tr class="memitem:a8fde6449103df54597a6461055acd759"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a8fde6449103df54597a6461055acd759">unregisterObserver</a> (<a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> *&gt; it) const</td></tr>
 <tr class="memdesc:a8fde6449103df54597a6461055acd759"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unregisters a cluster graph observer.  <a href="#a8fde6449103df54597a6461055acd759">More...</a><br /></td></tr>
 <tr class="separator:a8fde6449103df54597a6461055acd759"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Operators and conversion</div></td></tr>
@@ -420,7 +420,7 @@ Protected Attributes</h2></td></tr>
 <tr class="memdesc:a36c79a793a9d40efe1cda65006fa00a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to save last search run number for commoncluster.  <a href="#a36c79a793a9d40efe1cda65006fa00a9">More...</a><br /></td></tr>
 <tr class="separator:a36c79a793a9d40efe1cda65006fa00a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classogdf_1_1_graph_observer"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classogdf_1_1_graph_observer')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classogdf_1_1_graph_observer.html">ogdf::GraphObserver</a></td></tr>
-<tr class="memitem:a40879fd9b7e7f0b512030978510148cc inherit pro_attribs_classogdf_1_1_graph_observer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_graph_observer.html">GraphObserver</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph_observer.html#a40879fd9b7e7f0b512030978510148cc">m_itGList</a></td></tr>
+<tr class="memitem:a40879fd9b7e7f0b512030978510148cc inherit pro_attribs_classogdf_1_1_graph_observer"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_graph_observer.html">GraphObserver</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph_observer.html#a40879fd9b7e7f0b512030978510148cc">m_itGList</a></td></tr>
 <tr class="memdesc:a40879fd9b7e7f0b512030978510148cc inherit pro_attribs_classogdf_1_1_graph_observer"><td class="mdescLeft">&#160;</td><td class="mdescRight">watched graph  <a href="classogdf_1_1_graph_observer.html#a40879fd9b7e7f0b512030978510148cc">More...</a><br /></td></tr>
 <tr class="separator:a40879fd9b7e7f0b512030978510148cc inherit pro_attribs_classogdf_1_1_graph_observer"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a484a7c1b9aa7e0ebb1757c79b679be50 inherit pro_attribs_classogdf_1_1_graph_observer"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_graph.html">Graph</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_graph_observer.html#a484a7c1b9aa7e0ebb1757c79b679be50">m_pGraph</a></td></tr>
@@ -493,7 +493,7 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a03f9d36bf5bbcd47c9e18a2d13feed5a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a03f9d36bf5bbcd47c9e18a2d13feed5a">m_clusterIdCount</a></td></tr>
 <tr class="memdesc:a03f9d36bf5bbcd47c9e18a2d13feed5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index assigned to the next created cluster.  <a href="#a03f9d36bf5bbcd47c9e18a2d13feed5a">More...</a><br /></td></tr>
 <tr class="separator:a03f9d36bf5bbcd47c9e18a2d13feed5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c546de2a1ae6d9c2feefcab84edfd22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a0c546de2a1ae6d9c2feefcab84edfd22">m_itMap</a></td></tr>
+<tr class="memitem:a0c546de2a1ae6d9c2feefcab84edfd22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#a0c546de2a1ae6d9c2feefcab84edfd22">m_itMap</a></td></tr>
 <tr class="separator:a0c546de2a1ae6d9c2feefcab84edfd22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa57c7b7e8290779c7375efbe0d61ef7a"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_graph.html#aa57c7b7e8290779c7375efbe0d61ef7a">m_mutexRegArrays</a></td></tr>
 <tr class="memdesc:aa57c7b7e8290779c7375efbe0d61ef7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The critical section for protecting shared acces to register/unregister methods.  <a href="#aa57c7b7e8290779c7375efbe0d61ef7a">More...</a><br /></td></tr>
@@ -530,7 +530,7 @@ Private Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="classogdf_1_1_cluster_graph.html#a0154447d15b8e7d4785d0be5cbfb5836">ogdf::ClusterGraph::cluster_iterator</a> =  <a class="el" href="classogdf_1_1internal_1_1_graph_iterator.html">internal::GraphIterator</a>&lt;<a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a>&gt;</td>
+          <td class="memname">using <a class="el" href="classogdf_1_1_cluster_graph.html#a0154447d15b8e7d4785d0be5cbfb5836">ogdf::ClusterGraph::cluster_iterator</a> =  <a class="el" href="namespaceogdf_1_1internal.html#a679ca99b2ea2299123bf0e5563105c30">internal::GraphIterator</a>&lt;<a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2333,7 +2333,7 @@ template&lt;class LISTITERATOR &gt; </div>
         <tr>
           <td class="memname">void ogdf::ClusterGraph::moveRegisterArray </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&gt;&#160;</td>
           <td class="paramname"><em>it</em>, </td>
         </tr>
         <tr>
@@ -2767,7 +2767,7 @@ template&lt;class LISTITERATOR &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a>*&gt; ogdf::ClusterGraph::registerArray </td>
+          <td class="memname"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt;<a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a>*&gt; ogdf::ClusterGraph::registerArray </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&#160;</td>
           <td class="paramname"><em>pClusterArray</em></td><td>)</td>
@@ -2787,7 +2787,7 @@ template&lt;class LISTITERATOR &gt; </div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a>*&gt; ogdf::ClusterGraph::registerObserver </td>
+          <td class="memname"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt;<a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a>*&gt; ogdf::ClusterGraph::registerObserver </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> *&#160;</td>
           <td class="paramname"><em>pObserver</em></td><td>)</td>
@@ -3106,7 +3106,7 @@ template&lt;class LISTITERATOR &gt; </div>
         <tr>
           <td class="memname">void ogdf::ClusterGraph::unregisterArray </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_array_base.html">ClusterArrayBase</a> *&gt;&#160;</td>
           <td class="paramname"><em>it</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -3126,7 +3126,7 @@ template&lt;class LISTITERATOR &gt; </div>
         <tr>
           <td class="memname">void ogdf::ClusterGraph::unregisterObserver </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> *&gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt; <a class="el" href="classogdf_1_1_cluster_graph_observer.html">ClusterGraphObserver</a> *&gt;&#160;</td>
           <td class="paramname"><em>it</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -3338,7 +3338,7 @@ template&lt;class LISTITERATOR &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="namespaceogdf.html#afbc8ed0a45db9e00400d4bc7399ef1f5">ListIterator</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; ogdf::ClusterGraph::m_itMap</td>
+          <td class="memname"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt;<a class="el" href="namespaceogdf.html#a4b81f98a6e0ea41cb2b034de41b06398">ListIterator</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; &gt; ogdf::ClusterGraph::m_itMap</td>
         </tr>
       </table>
   </td>
@@ -3674,7 +3674,7 @@ template&lt;class LISTITERATOR &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_cluster_graph.html">ClusterGraph</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

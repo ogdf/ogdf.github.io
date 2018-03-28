@@ -11,6 +11,8 @@ var classogdf_1_1_queue_pure =
     [ "QueuePure", "classogdf_1_1_queue_pure.html#acce4be83652fab6ef8e0d18a505d1a0c", null ],
     [ "~QueuePure", "classogdf_1_1_queue_pure.html#a243606cf2c751d134d9ae67f9afbce17", null ],
     [ "append", "classogdf_1_1_queue_pure.html#a635ad8a8dfb5702a15a520e7c4bac05a", null ],
+    [ "backIterator", "classogdf_1_1_queue_pure.html#ae1c50773457968864838c15b8d81afc2", null ],
+    [ "backIterator", "classogdf_1_1_queue_pure.html#ae5d710bce168c83a8e72c28b3f1722a5", null ],
     [ "begin", "classogdf_1_1_queue_pure.html#a693332db834d6e202dbdd0b2776c0de5", null ],
     [ "begin", "classogdf_1_1_queue_pure.html#af32926ed2cc1842e7b280939bae4e704", null ],
     [ "bottom", "classogdf_1_1_queue_pure.html#acd57fcf00a3aa21b2b8f79d1f3ebc9d6", null ],
@@ -18,7 +20,6 @@ var classogdf_1_1_queue_pure =
     [ "cbegin", "classogdf_1_1_queue_pure.html#acbded5324c6b997ee029bc4737b35e21", null ],
     [ "cend", "classogdf_1_1_queue_pure.html#a2edab015a040166df460acbc84403062", null ],
     [ "clear", "classogdf_1_1_queue_pure.html#a01b95e6204a51c99dbb10e9dd27775c7", null ],
-    [ "crbegin", "classogdf_1_1_queue_pure.html#a40bec5f4e8f1321184feea154c228985", null ],
     [ "emplace", "classogdf_1_1_queue_pure.html#a31971d2ff677573f68bd11570e555476", null ],
     [ "empty", "classogdf_1_1_queue_pure.html#a4fced29198632daab2380113253f9484", null ],
     [ "end", "classogdf_1_1_queue_pure.html#a2c03b28953a60901d662c71d0606eeeb", null ],
@@ -27,8 +28,6 @@ var classogdf_1_1_queue_pure =
     [ "operator=", "classogdf_1_1_queue_pure.html#a327dee3e951002b20cc0fdf1c123ad13", null ],
     [ "operator=", "classogdf_1_1_queue_pure.html#aa85be0ad665c08437f2e6ff5ea4f17f2", null ],
     [ "pop", "classogdf_1_1_queue_pure.html#a653632976a90382eda246b46f247929f", null ],
-    [ "rbegin", "classogdf_1_1_queue_pure.html#acab2b37fd0f99fd39a7c184553ab753f", null ],
-    [ "rbegin", "classogdf_1_1_queue_pure.html#af78dae4b95834615ef430b5b49dffe8f", null ],
     [ "top", "classogdf_1_1_queue_pure.html#af284f6bf439528706e9a5c68d1fd8ba7", null ],
     [ "top", "classogdf_1_1_queue_pure.html#a13ca23882f3c7af4d1c2c28f4e1260d7", null ]
 ];

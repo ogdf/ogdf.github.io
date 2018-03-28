@@ -2,7 +2,6 @@ var searchData=
 [
   ['ogdf_5fallocator',['OGDF_ALLOCATOR',['../memory_8h.html#a5424553d596bd919e028c0bb716b5af7',1,'memory.h']]],
   ['ogdf_5fcase_5ffallthrough',['OGDF_CASE_FALLTHROUGH',['../config_8h.html#ab35d5a153bb20aa5d85c69e4ab8ac8ee',1,'config.h']]],
-  ['ogdf_5fdebug',['OGDF_DEBUG',['../config__autogen_8h.html#a4ae9048c6418e30af8cb2336aba49aca',1,'config_autogen.h']]],
   ['ogdf_5fdisjoint_5fsets_5fintermediate_5fparent_5fcheck',['OGDF_DISJOINT_SETS_INTERMEDIATE_PARENT_CHECK',['../_disjoint_sets_8h.html#ac866eb51fd3f9b58529b4be8b10b5b51',1,'DisjointSets.h']]],
   ['ogdf_5fexport',['OGDF_EXPORT',['../config_8h.html#a7c3d8dd02d991bf844b9ce797ef5cede',1,'config.h']]],
   ['ogdf_5fflush_5foutputs',['OGDF_FLUSH_OUTPUTS',['../exceptions_8h.html#ab860fb59c0a0b59a55693e5b5e7b96a8',1,'exceptions.h']]],

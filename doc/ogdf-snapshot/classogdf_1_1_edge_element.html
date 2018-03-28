@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -162,6 +162,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a27b0877c6f1170feb0c676ece7d18d13"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_element.html#a27b0877c6f1170feb0c676ece7d18d13">index</a> () const</td></tr>
 <tr class="memdesc:a27b0877c6f1170feb0c676ece7d18d13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the index of the edge.  <a href="#a27b0877c6f1170feb0c676ece7d18d13">More...</a><br /></td></tr>
 <tr class="separator:a27b0877c6f1170feb0c676ece7d18d13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a946cf6c600dec90176773c8ae34abcb9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_element.html#a946cf6c600dec90176773c8ae34abcb9">isAdjacent</a> (<a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> e) const</td></tr>
+<tr class="memdesc:a946cf6c600dec90176773c8ae34abcb9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>e</code> is adjacent to the edge.  <a href="#a946cf6c600dec90176773c8ae34abcb9">More...</a><br /></td></tr>
+<tr class="separator:a946cf6c600dec90176773c8ae34abcb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a960a2b9167d66916e9d2ba86efe9b58e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_edge_element.html#a960a2b9167d66916e9d2ba86efe9b58e">isIncident</a> (<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v) const</td></tr>
 <tr class="memdesc:a960a2b9167d66916e9d2ba86efe9b58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true iff <code>v</code> is incident to the edge.  <a href="#a960a2b9167d66916e9d2ba86efe9b58e">More...</a><br /></td></tr>
 <tr class="separator:a960a2b9167d66916e9d2ba86efe9b58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -441,7 +444,7 @@ Friends</h2></td></tr>
 
 <p>Returns the common node of the edge and <code>e</code>. Returns nullptr if the two edges are not adjacent. </p>
 
-<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l00351">351</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l00354">354</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -481,7 +484,7 @@ Friends</h2></td></tr>
 
 <p>Standard Comparer. </p>
 
-<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l00361">361</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l00364">364</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -511,7 +514,7 @@ Friends</h2></td></tr>
 
 <p>Returns an adjacency entry of this edge at node <code>v</code>. If this is a self-loop the source adjacency entry will always be returned. </p>
 
-<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l00355">355</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l00358">358</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -541,6 +544,36 @@ Friends</h2></td></tr>
 <p>Returns the index of the edge. </p>
 
 <p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l00321">321</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+
+</div>
+</div>
+<a id="a946cf6c600dec90176773c8ae34abcb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a946cf6c600dec90176773c8ae34abcb9">&#9670;&nbsp;</a></span>isAdjacent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ogdf::EdgeElement::isAdjacent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a>&#160;</td>
+          <td class="paramname"><em>e</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true iff <code>e</code> is adjacent to the edge. </p>
+
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l00351">351</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -934,7 +967,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_edge_element.html">EdgeElement</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

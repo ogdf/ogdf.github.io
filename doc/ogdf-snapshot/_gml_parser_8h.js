@@ -46,5 +46,6 @@ var _gml_parser_8h =
     [ "W", "_gml_parser_8h.html#afe28540a042cbf30855ea1c9c18e88e7", null ],
     [ "Width", "_gml_parser_8h.html#ac3c25fc553b6a7e29de006ec806ac9e5", null ],
     [ "X", "_gml_parser_8h.html#a82db4417b92d776b9142b7ebf01e6ebe", null ],
-    [ "Y", "_gml_parser_8h.html#acb3d03a670506be4a625d217f7837664", null ]
+    [ "Y", "_gml_parser_8h.html#acb3d03a670506be4a625d217f7837664", null ],
+    [ "Z", "_gml_parser_8h.html#ae7a1df5b3fec286bca356fde14f3be87", null ]
 ];

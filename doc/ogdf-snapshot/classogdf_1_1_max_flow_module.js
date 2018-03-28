@@ -9,6 +9,7 @@ var classogdf_1_1_max_flow_module =
     [ "computeValue", "classogdf_1_1_max_flow_module.html#a7c520ed6c0f465ad006c488220e33f89", null ],
     [ "destroy", "classogdf_1_1_max_flow_module.html#a671756968749ffba495258ebfc1c7af5", null ],
     [ "init", "classogdf_1_1_max_flow_module.html#a5d86c12ee29e77c0fc489a9a34eac4c9", null ],
+    [ "isFeasibleInstance", "classogdf_1_1_max_flow_module.html#a6914bc17aa6d66fdaeac5824f4f83989", null ],
     [ "useEpsilonTest", "classogdf_1_1_max_flow_module.html#a66f4572df466f853cfd306f6890182f2", null ],
     [ "doingAReInit", "classogdf_1_1_max_flow_module.html#a8ece1818548e833fa9e850bad86a0c31", null ],
     [ "m_cap", "classogdf_1_1_max_flow_module.html#adc7546b42f4863fc193f8fb6a3af0306", null ],

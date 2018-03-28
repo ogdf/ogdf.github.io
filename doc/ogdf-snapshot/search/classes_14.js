@@ -6,7 +6,6 @@ var searchData=
   ['umlgraph',['UMLGraph',['../classogdf_1_1_u_m_l_graph.html',1,'ogdf']]],
   ['umllayoutmodule',['UMLLayoutModule',['../classogdf_1_1_u_m_l_layout_module.html',1,'ogdf']]],
   ['umlmodelgraph',['UmlModelGraph',['../classogdf_1_1_uml_model_graph.html',1,'ogdf']]],
-  ['umltographconverter',['UmlToGraphConverter',['../classogdf_1_1_uml_to_graph_converter.html',1,'ogdf']]],
   ['uniformgrid',['UniformGrid',['../classogdf_1_1davidson__harel_1_1_uniform_grid.html',1,'ogdf::davidson_harel']]],
   ['unorderednodepairequality',['UnorderedNodePairEquality',['../classogdf_1_1steiner__tree_1_1_unordered_node_pair_equality.html',1,'ogdf::steiner_tree']]],
   ['unorderednodepairhasher',['UnorderedNodePairHasher',['../classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher.html',1,'ogdf::steiner_tree']]],

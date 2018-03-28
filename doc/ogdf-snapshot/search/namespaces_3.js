@@ -18,6 +18,7 @@ var searchData=
   ['gmlobjecttype',['GmlObjectType',['../namespaceogdf_1_1_gml_object_type.html',1,'ogdf']]],
   ['gmlparserpredefinedkey',['GmlParserPredefinedKey',['../namespaceogdf_1_1_gml_parser_predefined_key.html',1,'ogdf']]],
   ['goemans',['goemans',['../namespaceogdf_1_1steiner__tree_1_1goemans.html',1,'ogdf::steiner_tree']]],
+  ['graphics',['graphics',['../namespaceogdf_1_1graphics.html',1,'ogdf']]],
   ['graphml',['graphml',['../namespaceogdf_1_1graphml.html',1,'ogdf']]],
   ['internal',['internal',['../namespaceogdf_1_1internal.html',1,'ogdf::internal'],['../namespaceogdf_1_1_math_1_1internal.html',1,'ogdf::Math::internal']]],
   ['math',['Math',['../namespaceogdf_1_1_math.html',1,'ogdf']]],

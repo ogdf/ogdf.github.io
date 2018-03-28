@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -208,7 +208,7 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:abc57ad9c515b85dd041a6d44a738232a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_analysis.html#abc57ad9c515b85dd041a6d44a738232a">init</a> ()</td></tr>
 <tr class="memdesc:abc57ad9c515b85dd041a6d44a738232a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize the structures, performs analyses.  <a href="#abc57ad9c515b85dd041a6d44a738232a">More...</a><br /></td></tr>
 <tr class="separator:abc57ad9c515b85dd041a6d44a738232a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a55e3c03dc28e0c0b85b17af9f2a89d92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_analysis.html#a55e3c03dc28e0c0b85b17af9f2a89d92">partitionCluster</a> (<a class="el" href="namespaceogdf.html#aa9edbfe290f7c1ff2f1f8cd93276f9b1">ListConstIterator</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nodeIt, <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> c, <a class="el" href="classogdf_1_1_hash_array.html">HashArray</a>&lt; int, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt; &amp;bagNodes, <a class="el" href="classogdf_1_1_hash_array.html">HashArray</a>&lt; int, bool &gt; &amp;indyBag, <a class="el" href="classogdf_1_1_skiplist.html">Skiplist</a>&lt; int *&gt; &amp;indexNumbers, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> &gt; &amp;bagRoots)</td></tr>
+<tr class="memitem:a55e3c03dc28e0c0b85b17af9f2a89d92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_cluster_analysis.html#a55e3c03dc28e0c0b85b17af9f2a89d92">partitionCluster</a> (<a class="el" href="namespaceogdf.html#a89890bf3d6dd2b1d0a26a0893b29a676">ListConstIterator</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;nodeIt, <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> c, <a class="el" href="classogdf_1_1_hash_array.html">HashArray</a>&lt; int, <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &gt; &amp;bagNodes, <a class="el" href="classogdf_1_1_hash_array.html">HashArray</a>&lt; int, bool &gt; &amp;indyBag, <a class="el" href="classogdf_1_1_skiplist.html">Skiplist</a>&lt; int *&gt; &amp;indexNumbers, <a class="el" href="classogdf_1_1_array.html">Array</a>&lt; <a class="el" href="namespaceogdf.html#ae4067860d95138662fa5ce5b8280a459">cluster</a> &gt; &amp;bagRoots)</td></tr>
 <tr class="memdesc:a55e3c03dc28e0c0b85b17af9f2a89d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Runs through a list of vertices (starting with the one <code>nodeIT</code> points to) which is expected to be a full list of cluster vertices in <code>c</code>. Depending on outer activity and bag index number of the vertices, independent bags are detected and a corresponding index is assigned accordingly for each vertex. If omitChildBags is set to true, already processed vertices are skipped.  <a href="#a55e3c03dc28e0c0b85b17af9f2a89d92">More...</a><br /></td></tr>
 <tr class="separator:a55e3c03dc28e0c0b85b17af9f2a89d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -833,7 +833,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void ogdf::ClusterAnalysis::partitionCluster </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceogdf.html#aa9edbfe290f7c1ff2f1f8cd93276f9b1">ListConstIterator</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceogdf.html#a89890bf3d6dd2b1d0a26a0893b29a676">ListConstIterator</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;&#160;</td>
           <td class="paramname"><em>nodeIt</em>, </td>
         </tr>
         <tr>
@@ -1343,7 +1343,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_cluster_analysis.html">ClusterAnalysis</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

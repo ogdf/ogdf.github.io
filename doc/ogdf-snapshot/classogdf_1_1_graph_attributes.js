@@ -48,6 +48,7 @@ var classogdf_1_1_graph_attributes =
     [ "label", "classogdf_1_1_graph_attributes.html#a158e0e079ec95ce2ec61d69bffd251d7", null ],
     [ "label", "classogdf_1_1_graph_attributes.html#ad93a053b2fef9de3fdefc5363b5c5571", null ],
     [ "label", "classogdf_1_1_graph_attributes.html#af37e974d9f90473a3fec44c879bc4d2c", null ],
+    [ "nodeBoundingBoxes", "classogdf_1_1_graph_attributes.html#a785675cee0b9667e6ccb59331981f453", null ],
     [ "removeSubGraph", "classogdf_1_1_graph_attributes.html#ab2afd10dd93ed3cb6e81a34e4740618b", null ],
     [ "removeUnnecessaryBendsHV", "classogdf_1_1_graph_attributes.html#a3155ffa41978d89397740f324f05adec", null ],
     [ "rotateLeft90", "classogdf_1_1_graph_attributes.html#a42653963d10113265b30833ed9a7dafb", null ],

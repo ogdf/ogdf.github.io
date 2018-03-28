@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['ogml_2eh',['Ogml.h',['../_ogml_8h.html',1,'']]],
-  ['ogmlparser_2eh',['OgmlParser.h',['../_ogml_parser_8h.html',1,'']]],
   ['opensub_2eh',['opensub.h',['../opensub_8h.html',1,'']]],
   ['optimalhierarchyclusterlayout_2eh',['OptimalHierarchyClusterLayout.h',['../_optimal_hierarchy_cluster_layout_8h.html',1,'']]],
   ['optimalhierarchylayout_2eh',['OptimalHierarchyLayout.h',['../_optimal_hierarchy_layout_8h.html',1,'']]],

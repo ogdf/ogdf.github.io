@@ -150,6 +150,7 @@ var group__ga_insert =
       [ "embedBlock", "classogdf_1_1_multi_edge_approx_inserter.html#a77a7553892b9e7dd8473a084ac69afe6", null ],
       [ "findShortestPath", "classogdf_1_1_multi_edge_approx_inserter.html#a3d5ceec7805edd87fb5160ad01d0409b", null ],
       [ "operator=", "classogdf_1_1_multi_edge_approx_inserter.html#a5c0a11185ab069f3db87504c910cb06d", null ],
+      [ "oppDir", "classogdf_1_1_multi_edge_approx_inserter.html#a1209f7d7dfe20f485bb9cba16811d4e2", null ],
       [ "percentMostCrossedFix", "classogdf_1_1_multi_edge_approx_inserter.html#ad771335599cd305e94912355e49b050f", null ],
       [ "percentMostCrossedFix", "classogdf_1_1_multi_edge_approx_inserter.html#a32a97628bd5baf70421d295bee1896cc", null ],
       [ "percentMostCrossedVar", "classogdf_1_1_multi_edge_approx_inserter.html#aef878206bb16acc8d6285b3a0402a4df", null ],
@@ -186,8 +187,7 @@ var group__ga_insert =
       [ "m_sumInsertionCosts", "classogdf_1_1_multi_edge_approx_inserter.html#a3ad7c0f1315f53cca9309fe6ff188ca5", null ],
       [ "m_verticesB", "classogdf_1_1_multi_edge_approx_inserter.html#ad1d6131d9430318b30575147ba089ff8", null ],
       [ "m_vS", "classogdf_1_1_multi_edge_approx_inserter.html#aac0e6d9c9a37e8eb52a25a7b314ff0e9", null ],
-      [ "m_vT", "classogdf_1_1_multi_edge_approx_inserter.html#a87e6e8dd44ae52dc968a6b094f5b2967", null ],
-      [ "s_oppDir", "classogdf_1_1_multi_edge_approx_inserter.html#a0df49f89a429c51dfa2b9927348da788", null ]
+      [ "m_vT", "classogdf_1_1_multi_edge_approx_inserter.html#a87e6e8dd44ae52dc968a6b094f5b2967", null ]
     ] ],
     [ "VariableEmbeddingInserter", "classogdf_1_1_variable_embedding_inserter.html", [
       [ "~VariableEmbeddingInserter", "classogdf_1_1_variable_embedding_inserter.html#ac72a77fa8b6f8c55f32e4c8b885612af", null ],

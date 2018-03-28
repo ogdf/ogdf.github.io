@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -148,10 +148,10 @@ $(document).ready(function(){initNavTree('classogdf_1_1_adj_entry_array.html',''
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a2d6ca50498ec417b631b251abc40f4d0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a> = <a class="el" href="namespaceogdf_1_1internal.html#ac1e752f994382906d0bfae11f4df5c40">internal::GraphArrayConstIterator</a>&lt; <a class="el" href="classogdf_1_1_adj_entry_array.html">AdjEntryArray</a>&lt; T &gt; &gt;</td></tr>
-<tr class="memdesc:a2d6ca50498ec417b631b251abc40f4d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type for edge array const iterators.  <a href="#a2d6ca50498ec417b631b251abc40f4d0">More...</a><br /></td></tr>
+<tr class="memdesc:a2d6ca50498ec417b631b251abc40f4d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type for adjEntry array const iterators.  <a href="#a2d6ca50498ec417b631b251abc40f4d0">More...</a><br /></td></tr>
 <tr class="separator:a2d6ca50498ec417b631b251abc40f4d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aab5a471552ba99fb0daa0fd9c13e68bf"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#aab5a471552ba99fb0daa0fd9c13e68bf">iterator</a> = <a class="el" href="namespaceogdf_1_1internal.html#ac487eeb92c46f185b6073ed7623972c2">internal::GraphArrayIterator</a>&lt; <a class="el" href="classogdf_1_1_adj_entry_array.html">AdjEntryArray</a>&lt; T &gt; &gt;</td></tr>
-<tr class="memdesc:aab5a471552ba99fb0daa0fd9c13e68bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type for edge array iterators.  <a href="#aab5a471552ba99fb0daa0fd9c13e68bf">More...</a><br /></td></tr>
+<tr class="memdesc:aab5a471552ba99fb0daa0fd9c13e68bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type for adjEntry array iterators.  <a href="#aab5a471552ba99fb0daa0fd9c13e68bf">More...</a><br /></td></tr>
 <tr class="separator:aab5a471552ba99fb0daa0fd9c13e68bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a331416dfb041bc7696e99cef2687714e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#a331416dfb041bc7696e99cef2687714e">key_type</a> = <a class="el" href="group__graphs.html#ga5a2907bfb0593a05e6e933616794c15a">adjEntry</a></td></tr>
 <tr class="memdesc:a331416dfb041bc7696e99cef2687714e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The type for array keys.  <a href="#a331416dfb041bc7696e99cef2687714e">More...</a><br /></td></tr>
@@ -219,24 +219,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab7fcb037dc685097424c535a9b0deb9f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#ab7fcb037dc685097424c535a9b0deb9f">cend</a> () const</td></tr>
 <tr class="memdesc:ab7fcb037dc685097424c535a9b0deb9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to one-past-last entry in the array.  <a href="#ab7fcb037dc685097424c535a9b0deb9f">More...</a><br /></td></tr>
 <tr class="separator:ab7fcb037dc685097424c535a9b0deb9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c85bb36aa8adf9b5d10f9770b70d4f3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_adj_entry_array.html#aab5a471552ba99fb0daa0fd9c13e68bf">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2c85bb36aa8adf9b5d10f9770b70d4f3">rbegin</a> ()</td></tr>
-<tr class="memdesc:a2c85bb36aa8adf9b5d10f9770b70d4f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the last entry in the array.  <a href="#a2c85bb36aa8adf9b5d10f9770b70d4f3">More...</a><br /></td></tr>
-<tr class="separator:a2c85bb36aa8adf9b5d10f9770b70d4f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64d60345687176286412e6359cfffa8c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#a64d60345687176286412e6359cfffa8c">rbegin</a> () const</td></tr>
-<tr class="memdesc:a64d60345687176286412e6359cfffa8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to the last entry in the array.  <a href="#a64d60345687176286412e6359cfffa8c">More...</a><br /></td></tr>
-<tr class="separator:a64d60345687176286412e6359cfffa8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4e6aa4078a5a3260b410b00ce2c984d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#aa4e6aa4078a5a3260b410b00ce2c984d">crbegin</a> () const</td></tr>
-<tr class="memdesc:aa4e6aa4078a5a3260b410b00ce2c984d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to the last entry in the array.  <a href="#aa4e6aa4078a5a3260b410b00ce2c984d">More...</a><br /></td></tr>
-<tr class="separator:aa4e6aa4078a5a3260b410b00ce2c984d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49159636876f462a1c204d5532e4ed5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_adj_entry_array.html#aab5a471552ba99fb0daa0fd9c13e68bf">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#a49159636876f462a1c204d5532e4ed5f">rend</a> ()</td></tr>
-<tr class="memdesc:a49159636876f462a1c204d5532e4ed5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to one-before-first entry in the array.  <a href="#a49159636876f462a1c204d5532e4ed5f">More...</a><br /></td></tr>
-<tr class="separator:a49159636876f462a1c204d5532e4ed5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6661d4953b854bec77f2ee2ad0fe361"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#ac6661d4953b854bec77f2ee2ad0fe361">rend</a> () const</td></tr>
-<tr class="memdesc:ac6661d4953b854bec77f2ee2ad0fe361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to one-before-first entry in the array.  <a href="#ac6661d4953b854bec77f2ee2ad0fe361">More...</a><br /></td></tr>
-<tr class="separator:ac6661d4953b854bec77f2ee2ad0fe361"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab455f1dcc89860ae786afdd7c0ff6c5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_adj_entry_array.html#ab455f1dcc89860ae786afdd7c0ff6c5d">crend</a> () const</td></tr>
-<tr class="memdesc:ab455f1dcc89860ae786afdd7c0ff6c5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to one-before-first entry in the array.  <a href="#ab455f1dcc89860ae786afdd7c0ff6c5d">More...</a><br /></td></tr>
-<tr class="separator:ab455f1dcc89860ae786afdd7c0ff6c5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader">Initialization and assignment</div></td></tr>
 <tr><td colspan="2"><div class="groupText"><p>These methods can be used to reinitialize the array, or to initialize all elements with a given value. </p>
 </div></td></tr>
@@ -337,42 +319,42 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a0f6befb24904890d8500ec08574c5ca2 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a789469ac77bb7f15bb8b8c4db45885c7">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a0f6befb24904890d8500ec08574c5ca2">operator[]</a> (int i)</td></tr>
 <tr class="memdesc:a0f6befb24904890d8500ec08574c5ca2 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the element at position <code>i</code>.  <a href="classogdf_1_1_array.html#a0f6befb24904890d8500ec08574c5ca2">More...</a><br /></td></tr>
 <tr class="separator:a0f6befb24904890d8500ec08574c5ca2 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0071474057eca78df7f1d3d9f69a78ff inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a71c17e205acde75abfb36889c9d03c0d">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a0071474057eca78df7f1d3d9f69a78ff">begin</a> ()</td></tr>
+<tr class="memitem:a0071474057eca78df7f1d3d9f69a78ff inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#ab9ad729a2716d474b1eb597ad974ffa7">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a0071474057eca78df7f1d3d9f69a78ff">begin</a> ()</td></tr>
 <tr class="memdesc:a0071474057eca78df7f1d3d9f69a78ff inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first element.  <a href="classogdf_1_1_array.html#a0071474057eca78df7f1d3d9f69a78ff">More...</a><br /></td></tr>
 <tr class="separator:a0071474057eca78df7f1d3d9f69a78ff inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a371f34511d906d30aa928d53173f4403 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a371f34511d906d30aa928d53173f4403">begin</a> () const</td></tr>
+<tr class="memitem:a371f34511d906d30aa928d53173f4403 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a7960138e8aadca1feb74deda4ec2a392">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a371f34511d906d30aa928d53173f4403">begin</a> () const</td></tr>
 <tr class="memdesc:a371f34511d906d30aa928d53173f4403 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to the first element.  <a href="classogdf_1_1_array.html#a371f34511d906d30aa928d53173f4403">More...</a><br /></td></tr>
 <tr class="separator:a371f34511d906d30aa928d53173f4403 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8433bd905d5bba504312e18ac2f0273 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#ad8433bd905d5bba504312e18ac2f0273">cbegin</a> () const</td></tr>
+<tr class="memitem:ad8433bd905d5bba504312e18ac2f0273 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a7960138e8aadca1feb74deda4ec2a392">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#ad8433bd905d5bba504312e18ac2f0273">cbegin</a> () const</td></tr>
 <tr class="memdesc:ad8433bd905d5bba504312e18ac2f0273 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to the first element.  <a href="classogdf_1_1_array.html#ad8433bd905d5bba504312e18ac2f0273">More...</a><br /></td></tr>
 <tr class="separator:ad8433bd905d5bba504312e18ac2f0273 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49db722737e14a76089c5bf15ee05824 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a71c17e205acde75abfb36889c9d03c0d">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a49db722737e14a76089c5bf15ee05824">end</a> ()</td></tr>
+<tr class="memitem:a49db722737e14a76089c5bf15ee05824 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#ab9ad729a2716d474b1eb597ad974ffa7">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a49db722737e14a76089c5bf15ee05824">end</a> ()</td></tr>
 <tr class="memdesc:a49db722737e14a76089c5bf15ee05824 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to one past the last element.  <a href="classogdf_1_1_array.html#a49db722737e14a76089c5bf15ee05824">More...</a><br /></td></tr>
 <tr class="separator:a49db722737e14a76089c5bf15ee05824 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9e328f3d235e8d98f3010b288d170f0 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#aa9e328f3d235e8d98f3010b288d170f0">end</a> () const</td></tr>
+<tr class="memitem:aa9e328f3d235e8d98f3010b288d170f0 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a7960138e8aadca1feb74deda4ec2a392">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#aa9e328f3d235e8d98f3010b288d170f0">end</a> () const</td></tr>
 <tr class="memdesc:aa9e328f3d235e8d98f3010b288d170f0 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to one past the last element.  <a href="classogdf_1_1_array.html#aa9e328f3d235e8d98f3010b288d170f0">More...</a><br /></td></tr>
 <tr class="separator:aa9e328f3d235e8d98f3010b288d170f0 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33abd6c87eb643bbffdfa61a265c0faa inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a33abd6c87eb643bbffdfa61a265c0faa">cend</a> () const</td></tr>
+<tr class="memitem:a33abd6c87eb643bbffdfa61a265c0faa inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a7960138e8aadca1feb74deda4ec2a392">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a33abd6c87eb643bbffdfa61a265c0faa">cend</a> () const</td></tr>
 <tr class="memdesc:a33abd6c87eb643bbffdfa61a265c0faa inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to one past the last element.  <a href="classogdf_1_1_array.html#a33abd6c87eb643bbffdfa61a265c0faa">More...</a><br /></td></tr>
 <tr class="separator:a33abd6c87eb643bbffdfa61a265c0faa inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c0a942355cf89aae5b5abfc6908376a inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a71c17e205acde75abfb36889c9d03c0d">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a1c0a942355cf89aae5b5abfc6908376a">rbegin</a> ()</td></tr>
-<tr class="memdesc:a1c0a942355cf89aae5b5abfc6908376a inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the last element.  <a href="classogdf_1_1_array.html#a1c0a942355cf89aae5b5abfc6908376a">More...</a><br /></td></tr>
-<tr class="separator:a1c0a942355cf89aae5b5abfc6908376a inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e0e88b07319081aad785115d505addc inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a2e0e88b07319081aad785115d505addc">rbegin</a> () const</td></tr>
-<tr class="memdesc:a2e0e88b07319081aad785115d505addc inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to the last element.  <a href="classogdf_1_1_array.html#a2e0e88b07319081aad785115d505addc">More...</a><br /></td></tr>
-<tr class="separator:a2e0e88b07319081aad785115d505addc inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2954b1b436ededed60148c0ddae51416 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a2954b1b436ededed60148c0ddae51416">crbegin</a> () const</td></tr>
-<tr class="memdesc:a2954b1b436ededed60148c0ddae51416 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to the last element.  <a href="classogdf_1_1_array.html#a2954b1b436ededed60148c0ddae51416">More...</a><br /></td></tr>
-<tr class="separator:a2954b1b436ededed60148c0ddae51416 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a010886e1fe56a7c96b073852b0a4d9b5 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a71c17e205acde75abfb36889c9d03c0d">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a010886e1fe56a7c96b073852b0a4d9b5">rend</a> ()</td></tr>
-<tr class="memdesc:a010886e1fe56a7c96b073852b0a4d9b5 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to one before the first element.  <a href="classogdf_1_1_array.html#a010886e1fe56a7c96b073852b0a4d9b5">More...</a><br /></td></tr>
-<tr class="separator:a010886e1fe56a7c96b073852b0a4d9b5 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a48cde1898bcdfa443e72c52cdf588ecd inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a48cde1898bcdfa443e72c52cdf588ecd">rend</a> () const</td></tr>
-<tr class="memdesc:a48cde1898bcdfa443e72c52cdf588ecd inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to one before the first element.  <a href="classogdf_1_1_array.html#a48cde1898bcdfa443e72c52cdf588ecd">More...</a><br /></td></tr>
-<tr class="separator:a48cde1898bcdfa443e72c52cdf588ecd inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7da64945f70e9860ddf8c3b4475ed45c inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a7da64945f70e9860ddf8c3b4475ed45c">crend</a> () const</td></tr>
-<tr class="memdesc:a7da64945f70e9860ddf8c3b4475ed45c inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const iterator to one before the first element.  <a href="classogdf_1_1_array.html#a7da64945f70e9860ddf8c3b4475ed45c">More...</a><br /></td></tr>
-<tr class="separator:a7da64945f70e9860ddf8c3b4475ed45c inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ec45cf72b1dcbad5efc9069724aecf4 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a98d68617c7dab3c3c058ec9729209a3d">reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a1ec45cf72b1dcbad5efc9069724aecf4">rbegin</a> ()</td></tr>
+<tr class="memdesc:a1ec45cf72b1dcbad5efc9069724aecf4 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an reverse iterator to the last element.  <a href="classogdf_1_1_array.html#a1ec45cf72b1dcbad5efc9069724aecf4">More...</a><br /></td></tr>
+<tr class="separator:a1ec45cf72b1dcbad5efc9069724aecf4 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af964ff182b28f2f450e50c4f10eebc3a inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a089f726332e9307fa4cf3b3f682daff8">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#af964ff182b28f2f450e50c4f10eebc3a">rbegin</a> () const</td></tr>
+<tr class="memdesc:af964ff182b28f2f450e50c4f10eebc3a inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reverse iterator to the last element.  <a href="classogdf_1_1_array.html#af964ff182b28f2f450e50c4f10eebc3a">More...</a><br /></td></tr>
+<tr class="separator:af964ff182b28f2f450e50c4f10eebc3a inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d800a40186f2f7b15759b9bad45a230 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a089f726332e9307fa4cf3b3f682daff8">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a9d800a40186f2f7b15759b9bad45a230">crbegin</a> () const</td></tr>
+<tr class="memdesc:a9d800a40186f2f7b15759b9bad45a230 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reverse iterator to the last element.  <a href="classogdf_1_1_array.html#a9d800a40186f2f7b15759b9bad45a230">More...</a><br /></td></tr>
+<tr class="separator:a9d800a40186f2f7b15759b9bad45a230 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fe69d549c8193000872e9630e2d2fbc inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a98d68617c7dab3c3c058ec9729209a3d">reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a1fe69d549c8193000872e9630e2d2fbc">rend</a> ()</td></tr>
+<tr class="memdesc:a1fe69d549c8193000872e9630e2d2fbc inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an reverse iterator to one before the first element.  <a href="classogdf_1_1_array.html#a1fe69d549c8193000872e9630e2d2fbc">More...</a><br /></td></tr>
+<tr class="separator:a1fe69d549c8193000872e9630e2d2fbc inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a172a35d671f3bac1de6d665add31238d inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a089f726332e9307fa4cf3b3f682daff8">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a172a35d671f3bac1de6d665add31238d">rend</a> () const</td></tr>
+<tr class="memdesc:a172a35d671f3bac1de6d665add31238d inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reverse iterator to one before the first element.  <a href="classogdf_1_1_array.html#a172a35d671f3bac1de6d665add31238d">More...</a><br /></td></tr>
+<tr class="separator:a172a35d671f3bac1de6d665add31238d inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f4bc9900de5ab97d0a544717b642dc0 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array.html#a089f726332e9307fa4cf3b3f682daff8">const_reverse_iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a5f4bc9900de5ab97d0a544717b642dc0">crend</a> () const</td></tr>
+<tr class="memdesc:a5f4bc9900de5ab97d0a544717b642dc0 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reverse iterator to one before the first element.  <a href="classogdf_1_1_array.html#a5f4bc9900de5ab97d0a544717b642dc0">More...</a><br /></td></tr>
+<tr class="separator:a5f4bc9900de5ab97d0a544717b642dc0 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4fb188dde3b4723a21c30757019dfd64 inherit pub_methods_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a4fb188dde3b4723a21c30757019dfd64">init</a> ()</td></tr>
 <tr class="memdesc:a4fb188dde3b4723a21c30757019dfd64 inherit pub_methods_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reinitializes the array to an array with empty index set.  <a href="classogdf_1_1_array.html#a4fb188dde3b4723a21c30757019dfd64">More...</a><br /></td></tr>
 <tr class="separator:a4fb188dde3b4723a21c30757019dfd64 inherit pub_methods_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -499,18 +481,24 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:a015013e9014b16fb0d2a141f8fdd4da5 inherit pro_attribs_classogdf_1_1_adj_entry_array_base"><td class="mdescLeft">&#160;</td><td class="mdescRight">The associated graph.  <a href="classogdf_1_1_adj_entry_array_base.html#a015013e9014b16fb0d2a141f8fdd4da5">More...</a><br /></td></tr>
 <tr class="separator:a015013e9014b16fb0d2a141f8fdd4da5 inherit pro_attribs_classogdf_1_1_adj_entry_array_base"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_types_classogdf_1_1_array"><td colspan="2" onclick="javascript:toggleInherit('pub_types_classogdf_1_1_array')"><img src="closed.png" alt="-"/>&#160;Private Types inherited from <a class="el" href="classogdf_1_1_array.html">ogdf::Array&lt; T &gt;</a></td></tr>
-<tr class="memitem:a6958cc53ca951a310ca9ff3a4f28e5de inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">const_iterator</a> = const T *</td></tr>
-<tr class="memdesc:a6958cc53ca951a310ca9ff3a4f28e5de inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a random-access iterator that can read a const element in an array.  <a href="classogdf_1_1_array.html#a6958cc53ca951a310ca9ff3a4f28e5de">More...</a><br /></td></tr>
-<tr class="separator:a6958cc53ca951a310ca9ff3a4f28e5de inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7960138e8aadca1feb74deda4ec2a392 inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a7960138e8aadca1feb74deda4ec2a392">const_iterator</a> = <a class="el" href="namespaceogdf.html#a753f54c5d4569d9f228a561525604bce">ArrayConstIterator</a>&lt; T &gt;</td></tr>
+<tr class="memdesc:a7960138e8aadca1feb74deda4ec2a392 inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a random-access iterator that can read a const element in an array.  <a href="classogdf_1_1_array.html#a7960138e8aadca1feb74deda4ec2a392">More...</a><br /></td></tr>
+<tr class="separator:a7960138e8aadca1feb74deda4ec2a392 inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aefaba02e940da55c3ff6e0a957593286 inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#aefaba02e940da55c3ff6e0a957593286">const_reference</a> = const T &amp;</td></tr>
 <tr class="memdesc:aefaba02e940da55c3ff6e0a957593286 inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a reference to a const element stored in an array for reading and performing const operations.  <a href="classogdf_1_1_array.html#aefaba02e940da55c3ff6e0a957593286">More...</a><br /></td></tr>
 <tr class="separator:aefaba02e940da55c3ff6e0a957593286 inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71c17e205acde75abfb36889c9d03c0d inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a71c17e205acde75abfb36889c9d03c0d">iterator</a> = T *</td></tr>
-<tr class="memdesc:a71c17e205acde75abfb36889c9d03c0d inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a random-access iterator that can read or modify any element in an array.  <a href="classogdf_1_1_array.html#a71c17e205acde75abfb36889c9d03c0d">More...</a><br /></td></tr>
-<tr class="separator:a71c17e205acde75abfb36889c9d03c0d inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a089f726332e9307fa4cf3b3f682daff8 inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a089f726332e9307fa4cf3b3f682daff8">const_reverse_iterator</a> = <a class="el" href="namespaceogdf.html#ad1e5ec88efaecf8855757e89ada13012">ArrayConstReverseIterator</a>&lt; T &gt;</td></tr>
+<tr class="memdesc:a089f726332e9307fa4cf3b3f682daff8 inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a reverse random-access iterator that can read a const element in an array.  <a href="classogdf_1_1_array.html#a089f726332e9307fa4cf3b3f682daff8">More...</a><br /></td></tr>
+<tr class="separator:a089f726332e9307fa4cf3b3f682daff8 inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9ad729a2716d474b1eb597ad974ffa7 inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#ab9ad729a2716d474b1eb597ad974ffa7">iterator</a> = <a class="el" href="namespaceogdf.html#a65c7e9e082c33ee3fba6c8d3e8e3f646">ArrayIterator</a>&lt; T &gt;</td></tr>
+<tr class="memdesc:ab9ad729a2716d474b1eb597ad974ffa7 inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a random-access iterator that can read or modify any element in an array.  <a href="classogdf_1_1_array.html#ab9ad729a2716d474b1eb597ad974ffa7">More...</a><br /></td></tr>
+<tr class="separator:ab9ad729a2716d474b1eb597ad974ffa7 inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a789469ac77bb7f15bb8b8c4db45885c7 inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a789469ac77bb7f15bb8b8c4db45885c7">reference</a> = T &amp;</td></tr>
 <tr class="memdesc:a789469ac77bb7f15bb8b8c4db45885c7 inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a reference to an element stored in an array.  <a href="classogdf_1_1_array.html#a789469ac77bb7f15bb8b8c4db45885c7">More...</a><br /></td></tr>
 <tr class="separator:a789469ac77bb7f15bb8b8c4db45885c7 inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98d68617c7dab3c3c058ec9729209a3d inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#a98d68617c7dab3c3c058ec9729209a3d">reverse_iterator</a> = <a class="el" href="namespaceogdf.html#aeee32ffd917d6c95795a043b40afc71c">ArrayReverseIterator</a>&lt; T &gt;</td></tr>
+<tr class="memdesc:a98d68617c7dab3c3c058ec9729209a3d inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a reverse random-access iterator that can read or modify any element in an array.  <a href="classogdf_1_1_array.html#a98d68617c7dab3c3c058ec9729209a3d">More...</a><br /></td></tr>
+<tr class="separator:a98d68617c7dab3c3c058ec9729209a3d inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace120162cf83efa8d8613ed88d893acc inherit pub_types_classogdf_1_1_array"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_array.html#ace120162cf83efa8d8613ed88d893acc">value_type</a> = T</td></tr>
 <tr class="memdesc:ace120162cf83efa8d8613ed88d893acc inherit pub_types_classogdf_1_1_array"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents the data type stored in an array element.  <a href="classogdf_1_1_array.html#ace120162cf83efa8d8613ed88d893acc">More...</a><br /></td></tr>
 <tr class="separator:ace120162cf83efa8d8613ed88d893acc inherit pub_types_classogdf_1_1_array"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -525,6 +513,7 @@ class ogdf::AdjEntryArray&lt; T &gt;</h3>
 
 <p>Dynamic arrays indexed with adjacency entries. </p>
 <p>Adjacency entry arrays represent a mapping from adjacency entries to data of type <em>T</em>. They adjust their table size automatically when the graph grows.</p>
+<dl class="section warning"><dt>Warning</dt><dd>Undefined behavior can occur when the array is used in the left-hand side of an assignment and the observed graph is changed in the right-hand side. To resolve the issue, use: <div class="fragment"><div class="line"><span class="keyword">auto</span> tmp = RHS; LHS = <a class="code" href="namespacebackward_1_1details.html#ad24f2f88d54f9427acdf56cc736374b0">std::move</a>(tmp); </div></div><!-- fragment --></dd></dl>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td>is the element type. </td></tr>
@@ -532,7 +521,7 @@ class ogdf::AdjEntryArray&lt; T &gt;</h3>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00112">112</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00114">114</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a2d6ca50498ec417b631b251abc40f4d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d6ca50498ec417b631b251abc40f4d0">&#9670;&nbsp;</a></span>const_iterator</h2>
@@ -548,9 +537,9 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The type for edge array const iterators. </p>
+<p>The type for adjEntry array const iterators. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00124">124</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00126">126</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -568,9 +557,9 @@ template&lt;class T&gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The type for edge array iterators. </p>
+<p>The type for adjEntry array iterators. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00122">122</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00124">124</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -590,7 +579,7 @@ template&lt;class T&gt; </div>
 
 <p>The type for array keys. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00117">117</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00119">119</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -610,7 +599,7 @@ template&lt;class T&gt; </div>
 
 <p>The type for array entries. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00119">119</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00121">121</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -642,7 +631,7 @@ template&lt;class T&gt; </div>
 
 <p>Constructs an empty adjacency entry array associated with no graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00128">128</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00130">130</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -674,7 +663,7 @@ template&lt;class T&gt; </div>
 
 <p>Constructs an adjacency entry array associated with <code>G</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00131">131</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00133">133</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -723,7 +712,7 @@ template&lt;class T&gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00138">138</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00140">140</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -756,7 +745,7 @@ template&lt;class T&gt; </div>
 <p>Constructs an adjacency entry array that is a copy of <code>A</code>. </p>
 <p>Associates the array with the same graph as <code>A</code> and copies all elements. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00145">145</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00147">147</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -789,7 +778,7 @@ template&lt;class T&gt; </div>
 <p>Constructs an adjacency entry array containing the elements of <code>A</code> (move semantics). </p>
 <p>Adjacency entry array <code>A</code> is empty afterwards and not associated with any graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00151">151</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00153">153</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -822,7 +811,7 @@ template&lt;class T&gt; </div>
 <p>Returns an iterator to the first entry in the array. </p>
 <p>If the array is empty, a null pointer iterator is returned. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00208">208</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00210">210</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -854,7 +843,7 @@ template&lt;class T&gt; </div>
 <p>Returns a const iterator to the first entry in the array. </p>
 <p>If the array is empty, a null pointer iterator is returned. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00216">216</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00218">218</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -886,7 +875,7 @@ template&lt;class T&gt; </div>
 <p>Returns a const iterator to the first entry in the array. </p>
 <p>If the array is empty, a null pointer iterator is returned. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00222">222</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00224">224</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -918,71 +907,7 @@ template&lt;class T&gt; </div>
 <p>Returns a const iterator to one-past-last entry in the array. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00240">240</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
-
-</div>
-</div>
-<a id="aa4e6aa4078a5a3260b410b00ce2c984d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4e6aa4078a5a3260b410b00ce2c984d">&#9670;&nbsp;</a></span>crbegin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a> <a class="el" href="classogdf_1_1_adj_entry_array.html">ogdf::AdjEntryArray</a>&lt; T &gt;::crbegin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const iterator to the last entry in the array. </p>
-<p>If the array is empty, a null pointer iterator is returned. </p>
-
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00260">260</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
-
-</div>
-</div>
-<a id="ab455f1dcc89860ae786afdd7c0ff6c5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab455f1dcc89860ae786afdd7c0ff6c5d">&#9670;&nbsp;</a></span>crend()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a> <a class="el" href="classogdf_1_1_adj_entry_array.html">ogdf::AdjEntryArray</a>&lt; T &gt;::crend </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const iterator to one-before-first entry in the array. </p>
-<p>This is always a null pointer iterator. </p>
-
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00278">278</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00242">242</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1015,7 +940,7 @@ template&lt;class T&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_adj_entry_array_base.html#a973e5c9c23c7f46b06362c02b0ac4b44">ogdf::AdjEntryArrayBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00394">394</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00357">357</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1047,7 +972,7 @@ template&lt;class T&gt; </div>
 <p>Returns an iterator to one-past-last entry in the array. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00228">228</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00230">230</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1079,7 +1004,7 @@ template&lt;class T&gt; </div>
 <p>Returns a const iterator to one-past-last entry in the array. </p>
 <p>This is always a null pointer iterator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00234">234</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00236">236</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1113,7 +1038,7 @@ template&lt;class T&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_adj_entry_array_base.html#acb24e8fc8e7f64b8a7f272cda35737ed">ogdf::AdjEntryArrayBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00382">382</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00345">345</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1145,7 +1070,7 @@ template&lt;class T&gt; </div>
 
 <p>Sets all array elements to <code>x</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00308">308</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00271">271</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1176,7 +1101,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns the first key (adjacency entry in the graph). </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00365">365</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00328">328</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1207,7 +1132,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns the last key (adjacency entry in the graph). </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00374">374</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00337">337</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1239,7 +1164,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns the key preceeding <code>adj</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00352">352</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00315">315</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1271,7 +1196,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns the key succeeding <code>adj</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00342">342</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00305">305</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1302,7 +1227,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns a pointer to the associated graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00164">164</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00166">166</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1333,7 +1258,7 @@ template&lt;class T&gt; </div>
 
 <p>Reinitializes the array. Associates the array with no graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00289">289</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00252">252</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1365,7 +1290,7 @@ template&lt;class T&gt; </div>
 
 <p>Reinitializes the array. Associates the array with <code>G</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00294">294</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00257">257</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1414,7 +1339,7 @@ template&lt;class T&gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00303">303</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00266">266</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1446,7 +1371,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns a reference to the element with index <code>adj</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00183">183</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00185">185</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1478,7 +1403,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns a reference to the element with index <code>adj</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00190">190</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00192">192</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1510,7 +1435,7 @@ template&lt;class T&gt; </div>
 
 <p>Assignment operator. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00315">315</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00278">278</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1543,7 +1468,7 @@ template&lt;class T&gt; </div>
 <p>Assignment operator (move semantics). </p>
 <p>Adjacency entry array <code>a</code> is empty afterwards and not associated with any graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00326">326</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00289">289</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1575,7 +1500,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns a reference to the element with index <code>adj</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00169">169</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00171">171</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1607,71 +1532,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns a reference to the element with index <code>adj</code>. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00176">176</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
-
-</div>
-</div>
-<a id="a2c85bb36aa8adf9b5d10f9770b70d4f3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c85bb36aa8adf9b5d10f9770b70d4f3">&#9670;&nbsp;</a></span>rbegin() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_adj_entry_array.html#aab5a471552ba99fb0daa0fd9c13e68bf">iterator</a> <a class="el" href="classogdf_1_1_adj_entry_array.html">ogdf::AdjEntryArray</a>&lt; T &gt;::rbegin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns an iterator to the last entry in the array. </p>
-<p>If the array is empty, a null pointer iterator is returned. </p>
-
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00246">246</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
-
-</div>
-</div>
-<a id="a64d60345687176286412e6359cfffa8c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64d60345687176286412e6359cfffa8c">&#9670;&nbsp;</a></span>rbegin() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a> <a class="el" href="classogdf_1_1_adj_entry_array.html">ogdf::AdjEntryArray</a>&lt; T &gt;::rbegin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const iterator to the last entry in the array. </p>
-<p>If the array is empty, a null pointer iterator is returned. </p>
-
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00254">254</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00178">178</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1705,71 +1566,7 @@ template&lt;class T&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_adj_entry_array_base.html#a645421f5fe8e30e7dab0b514ecd7af42">ogdf::AdjEntryArrayBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00386">386</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
-
-</div>
-</div>
-<a id="a49159636876f462a1c204d5532e4ed5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49159636876f462a1c204d5532e4ed5f">&#9670;&nbsp;</a></span>rend() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_adj_entry_array.html#aab5a471552ba99fb0daa0fd9c13e68bf">iterator</a> <a class="el" href="classogdf_1_1_adj_entry_array.html">ogdf::AdjEntryArray</a>&lt; T &gt;::rend </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns an iterator to one-before-first entry in the array. </p>
-<p>This is always a null pointer iterator. </p>
-
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00266">266</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
-
-</div>
-</div>
-<a id="ac6661d4953b854bec77f2ee2ad0fe361"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6661d4953b854bec77f2ee2ad0fe361">&#9670;&nbsp;</a></span>rend() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_adj_entry_array.html#a2d6ca50498ec417b631b251abc40f4d0">const_iterator</a> <a class="el" href="classogdf_1_1_adj_entry_array.html">ogdf::AdjEntryArray</a>&lt; T &gt;::rend </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const iterator to one-before-first entry in the array. </p>
-<p>This is always a null pointer iterator. </p>
-
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00272">272</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00349">349</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1813,7 +1610,7 @@ template&lt;class T&gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_adj_entry_array_base.html#a9e4a9151ddd60f098406f3e95739b48e">ogdf::AdjEntryArrayBase</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00390">390</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00353">353</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1844,7 +1641,7 @@ template&lt;class T&gt; </div>
 
 <p>Returns true iff the array is associated with a graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00161">161</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00163">163</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1873,7 +1670,7 @@ template&lt;class T&gt; </div>
 
 <p>The default value for array elements. </p>
 
-<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00113">113</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_adj_entry_array_8h_source.html#l00115">115</a> of file <a class="el" href="_adj_entry_array_8h_source.html">AdjEntryArray.h</a>.</p>
 
 </div>
 </div>
@@ -1886,7 +1683,7 @@ template&lt;class T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_adj_entry_array.html">AdjEntryArray</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

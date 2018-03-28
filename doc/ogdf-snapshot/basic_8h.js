@@ -18,5 +18,6 @@ var basic_8h =
     [ "searchPos", "basic_8h.html#ga79451b5485f98027cb726869dea59e33", null ],
     [ "setSeed", "basic_8h.html#gac9bc27ac10fd1f95d4ace1a5032d275f", null ],
     [ "usedTime", "basic_8h.html#ga569b0889c74ca8cceee1dd1f161c45bd", null ],
+    [ "debugMode", "basic_8h.html#affdd2b44937145630ebe67ac443ca38c", null ],
     [ "s_ogdfInitializer", "basic_8h.html#ad02b99d09bc1494f2e023ebd8c2faf7b", null ]
 ];

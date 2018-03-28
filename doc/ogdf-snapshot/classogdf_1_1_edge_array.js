@@ -13,8 +13,6 @@ var classogdf_1_1_edge_array =
     [ "begin", "classogdf_1_1_edge_array.html#aed72ee325430ddcb7ad96badf7a89300", null ],
     [ "cbegin", "classogdf_1_1_edge_array.html#ac7ba63dc569856295bc4510d418348ca", null ],
     [ "cend", "classogdf_1_1_edge_array.html#ab0a4b9fb13b5038755e038afbda0b9c9", null ],
-    [ "crbegin", "classogdf_1_1_edge_array.html#a43dec1ef6d3c26e1117a869dd1c059a4", null ],
-    [ "crend", "classogdf_1_1_edge_array.html#a72ac36f6c4dd64320983ce534a77b982", null ],
     [ "disconnect", "classogdf_1_1_edge_array.html#a39fae887423ccc0357cc2029af6b80e8", null ],
     [ "end", "classogdf_1_1_edge_array.html#a7080ac2bd7aeddee5933964c47579f3f", null ],
     [ "end", "classogdf_1_1_edge_array.html#a0272b70c29421c6724b1e1d8a88d33fe", null ],
@@ -38,11 +36,7 @@ var classogdf_1_1_edge_array =
     [ "operator[]", "classogdf_1_1_edge_array.html#a9a388fc218414c8afeba900e4b455f76", null ],
     [ "operator[]", "classogdf_1_1_edge_array.html#ab357557b8d703dc75452ae8970900c0b", null ],
     [ "operator[]", "classogdf_1_1_edge_array.html#a9a0920df2bc9e6183ed3af0bacf11821", null ],
-    [ "rbegin", "classogdf_1_1_edge_array.html#a59aee8644ab356991d3205bb5fb96151", null ],
-    [ "rbegin", "classogdf_1_1_edge_array.html#a9361ebf4073d6fc8889e8b346027402a", null ],
     [ "reinit", "classogdf_1_1_edge_array.html#a54949902e9179201cfa0c3b09b55506f", null ],
-    [ "rend", "classogdf_1_1_edge_array.html#ab055c7f8d84a3fee86babfa7c0b68a5c", null ],
-    [ "rend", "classogdf_1_1_edge_array.html#abb8f080ad92c48ed14fd227fffecc7a8", null ],
     [ "valid", "classogdf_1_1_edge_array.html#a7c54c6b6c084991ca2ee8547d1c5d3d4", null ],
     [ "m_x", "classogdf_1_1_edge_array.html#a5dc69aca714a0b0918ac23340c2c5df2", null ]
 ];

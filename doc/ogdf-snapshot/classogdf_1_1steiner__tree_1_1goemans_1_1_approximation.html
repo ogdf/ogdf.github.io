@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -119,6 +119,7 @@ $(document).ready(function(){initNavTree('classogdf_1_1steiner__tree_1_1goemans_
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
@@ -133,6 +134,12 @@ $(document).ready(function(){initNavTree('classogdf_1_1steiner__tree_1_1goemans_
 
 <p><code>#include &lt;<a class="el" href="_approximation_8h_source.html">ogdf/graphalg/steiner_tree/goemans/Approximation.h</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structogdf_1_1steiner__tree_1_1goemans_1_1_approximation_1_1_temporary_edges.html">TemporaryEdges</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add edges into a blowup graph and delete them on destruction.  <a href="structogdf_1_1steiner__tree_1_1goemans_1_1_approximation_1_1_temporary_edges.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a96886c90481f083277a0c30d3bb10e33"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#a96886c90481f083277a0c30d3bb10e33">Approximation</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_list.html">List</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt; &amp;terminals, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const <a class="el" href="classogdf_1_1steiner__tree_1_1_full_component_with_extra_store.html">FullComponentWithExtraStore</a>&lt; T, double &gt; &amp;fullCompStore, const std::minstd_rand &amp;rng, double eps=1e-8)</td></tr>
@@ -147,18 +154,15 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:aadb6004ba7997ff3099007d570b43f67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#aadb6004ba7997ff3099007d570b43f67">addComponent</a> (<a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isNewTerminal, const <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;blowupGraph, const <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> rootEdge)</td></tr>
 <tr class="memdesc:aadb6004ba7997ff3099007d570b43f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a component of the blowup graph to the final solution (by changing nonterminals to terminals)  <a href="#aadb6004ba7997ff3099007d570b43f67">More...</a><br /></td></tr>
 <tr class="separator:aadb6004ba7997ff3099007d570b43f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33ca6b6395694d5d70824e1a78847e5a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#a33ca6b6395694d5d70824e1a78847e5a">findCheapestComponentAndRemainingBasis</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt; *&amp;maxBasis, const <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;blowupGraph, const <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_components.html">BlowupComponents</a>&lt; T &gt; &amp;gamma)</td></tr>
-<tr class="memdesc:a33ca6b6395694d5d70824e1a78847e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the end of the algorithm: find cheapest component and choose all remaining core edges as basis.  <a href="#a33ca6b6395694d5d70824e1a78847e5a">More...</a><br /></td></tr>
-<tr class="separator:a33ca6b6395694d5d70824e1a78847e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1c84cc20862dd661f0616ba3ee1c0ff"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#ab1c84cc20862dd661f0616ba3ee1c0ff">findComponentAndMaxBasis</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt; *&amp;maxBasis, <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;blowupGraph, const <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_components.html">BlowupComponents</a>&lt; T &gt; &amp;gamma)</td></tr>
-<tr class="memdesc:ab1c84cc20862dd661f0616ba3ee1c0ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the best component and its maximum-weight basis in the given blowup graph with given core and witness set.  <a href="#ab1c84cc20862dd661f0616ba3ee1c0ff">More...</a><br /></td></tr>
-<tr class="separator:ab1c84cc20862dd661f0616ba3ee1c0ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac2f4baf50c32595ac9686248b66ad5c"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#aac2f4baf50c32595ac9686248b66ad5c">findCheapestComponentAndRemainingBasis</a> (std::unique_ptr&lt; <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt;&gt; &amp;maxBasis, const <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;blowupGraph, const <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_components.html">BlowupComponents</a>&lt; T &gt; &amp;gamma)</td></tr>
+<tr class="memdesc:aac2f4baf50c32595ac9686248b66ad5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">For the end of the algorithm: find cheapest component and choose all remaining core edges as basis.  <a href="#aac2f4baf50c32595ac9686248b66ad5c">More...</a><br /></td></tr>
+<tr class="separator:aac2f4baf50c32595ac9686248b66ad5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43ce1435c995b3acaa7d23da4e5ef855"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#a43ce1435c995b3acaa7d23da4e5ef855">findComponentAndMaxBasis</a> (std::unique_ptr&lt; <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt;&gt; &amp;maxBasis, <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;blowupGraph, const <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_components.html">BlowupComponents</a>&lt; T &gt; &amp;gamma)</td></tr>
+<tr class="memdesc:a43ce1435c995b3acaa7d23da4e5ef855"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the best component and its maximum-weight basis in the given blowup graph with given core and witness set.  <a href="#a43ce1435c995b3acaa7d23da4e5ef855">More...</a><br /></td></tr>
+<tr class="separator:a43ce1435c995b3acaa7d23da4e5ef855"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91e9106c151c1cce414adcb406c368af"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#a91e9106c151c1cce414adcb406c368af">gammoidGetRank</a> (const <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;blowupGraph) const</td></tr>
 <tr class="memdesc:a91e9106c151c1cce414adcb406c368af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the rank of the gammoid (given by the blowup graph)  <a href="#a91e9106c151c1cce414adcb406c368af">More...</a><br /></td></tr>
 <tr class="separator:a91e9106c151c1cce414adcb406c368af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad545204b813bd87c64137a1000c736b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#ad545204b813bd87c64137a1000c736b8">removeBasisAndCleanup</a> (<a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;blowupGraph, <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_components.html">BlowupComponents</a>&lt; T &gt; &amp;gamma, <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> v)</td></tr>
-<tr class="memdesc:ad545204b813bd87c64137a1000c736b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove basis (given by <code>v</code>, a core edge node of the maximum basis) and cleanup.  <a href="#ad545204b813bd87c64137a1000c736b8">More...</a><br /></td></tr>
-<tr class="separator:ad545204b813bd87c64137a1000c736b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3ef023221b0e4dede87f1e2ba672c8a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#ac3ef023221b0e4dede87f1e2ba672c8a">removeFractionalBasisAndCleanup</a> (<a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt; &amp;basis, <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;blowupGraph, <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_components.html">BlowupComponents</a>&lt; T &gt; &amp;gamma)</td></tr>
 <tr class="memdesc:ac3ef023221b0e4dede87f1e2ba672c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Remove a given basis and cleanup, the basis may be given fractionally.  <a href="#ac3ef023221b0e4dede87f1e2ba672c8a">More...</a><br /></td></tr>
 <tr class="separator:ac3ef023221b0e4dede87f1e2ba672c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -186,7 +190,7 @@ class ogdf::steiner_tree::goemans::Approximation&lt; T &gt;</h3>
 
 <p>The actual 1.39-approximation algorithm by Goemans et al. with a set of terminalized nodes as result. </p>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00045">45</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00048">48</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a96886c90481f083277a0c30d3bb10e33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a96886c90481f083277a0c30d3bb10e33">&#9670;&nbsp;</a></span>Approximation()</h2>
@@ -250,7 +254,7 @@ template&lt;typename T&gt; </div>
 
 <p>Initialize everything. </p>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00271">271</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00321">321</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -299,12 +303,12 @@ template&lt;typename T&gt; </div>
 
 <p>Add a component of the blowup graph to the final solution (by changing nonterminals to terminals) </p>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00198">198</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00240">240</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
-<a id="a33ca6b6395694d5d70824e1a78847e5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ca6b6395694d5d70824e1a78847e5a">&#9670;&nbsp;</a></span>findCheapestComponentAndRemainingBasis()</h2>
+<a id="aac2f4baf50c32595ac9686248b66ad5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac2f4baf50c32595ac9686248b66ad5c">&#9670;&nbsp;</a></span>findCheapestComponentAndRemainingBasis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -317,7 +321,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">int <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html">ogdf::steiner_tree::goemans::Approximation</a>&lt; T &gt;::findCheapestComponentAndRemainingBasis </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt; *&amp;&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>maxBasis</em>, </td>
         </tr>
         <tr>
@@ -348,12 +352,12 @@ template&lt;typename T&gt; </div>
 <p>For the end of the algorithm: find cheapest component and choose all remaining core edges as basis. </p>
 <dl class="section return"><dt>Returns</dt><dd>The component id of the cheapest component </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00175">175</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00218">218</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
-<a id="ab1c84cc20862dd661f0616ba3ee1c0ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1c84cc20862dd661f0616ba3ee1c0ff">&#9670;&nbsp;</a></span>findComponentAndMaxBasis()</h2>
+<a id="a43ce1435c995b3acaa7d23da4e5ef855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43ce1435c995b3acaa7d23da4e5ef855">&#9670;&nbsp;</a></span>findComponentAndMaxBasis()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -366,7 +370,7 @@ template&lt;typename T&gt; </div>
         <tr>
           <td class="memname">int <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html">ogdf::steiner_tree::goemans::Approximation</a>&lt; T &gt;::findComponentAndMaxBasis </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt; *&amp;&#160;</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; std::pair&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>, int &gt;&gt;&gt; &amp;&#160;</td>
           <td class="paramname"><em>maxBasis</em>, </td>
         </tr>
         <tr>
@@ -397,7 +401,7 @@ template&lt;typename T&gt; </div>
 <p>Finds the best component and its maximum-weight basis in the given blowup graph with given core and witness set. </p>
 <dl class="section return"><dt>Returns</dt><dd>The component id of the best component </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00065">65</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00089">89</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -429,55 +433,7 @@ template&lt;typename T&gt; </div>
 
 <p>Computes the rank of the gammoid (given by the blowup graph) </p>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00057">57</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
-
-</div>
-</div>
-<a id="ad545204b813bd87c64137a1000c736b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad545204b813bd87c64137a1000c736b8">&#9670;&nbsp;</a></span>removeBasisAndCleanup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html">ogdf::steiner_tree::goemans::Approximation</a>&lt; T &gt;::removeBasisAndCleanup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html">BlowupGraph</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>blowupGraph</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_components.html">BlowupComponents</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>gamma</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Remove basis (given by <code>v</code>, a core edge node of the maximum basis) and cleanup. </p>
-
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00222">222</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00081">81</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -525,7 +481,7 @@ template&lt;typename T&gt; </div>
 
 <p>Remove a given basis and cleanup, the basis may be given fractionally. </p>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00232">232</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00264">264</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -555,7 +511,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00290">290</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00340">340</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -584,7 +540,7 @@ template&lt;typename T&gt; </div>
 
 <p>epsilon for double operations </p>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00052">52</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00055">55</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -612,7 +568,7 @@ template&lt;typename T&gt; </div>
 
 <p>all enumerated full components, with solution </p>
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00050">50</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00053">53</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -638,7 +594,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00047">47</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00050">50</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -664,7 +620,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00048">48</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00051">51</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -690,7 +646,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00054">54</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00057">57</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -716,7 +672,7 @@ template&lt;typename T&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00049">49</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_approximation_8h_source.html#l00052">52</a> of file <a class="el" href="_approximation_8h_source.html">Approximation.h</a>.</p>
 
 </div>
 </div>
@@ -729,7 +685,7 @@ template&lt;typename T&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="namespaceogdf_1_1steiner__tree.html">steiner_tree</a></li><li class="navelem"><a class="el" href="namespaceogdf_1_1steiner__tree_1_1goemans.html">goemans</a></li><li class="navelem"><a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html">Approximation</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

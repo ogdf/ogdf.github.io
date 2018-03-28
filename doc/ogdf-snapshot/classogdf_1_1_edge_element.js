@@ -8,6 +8,7 @@ var classogdf_1_1_edge_element =
     [ "compare", "classogdf_1_1_edge_element.html#ab8f7d8b883164a799191671144bc49e3", null ],
     [ "getAdj", "classogdf_1_1_edge_element.html#af6d74ca02b1a64062f583aab661678bf", null ],
     [ "index", "classogdf_1_1_edge_element.html#a27b0877c6f1170feb0c676ece7d18d13", null ],
+    [ "isAdjacent", "classogdf_1_1_edge_element.html#a946cf6c600dec90176773c8ae34abcb9", null ],
     [ "isIncident", "classogdf_1_1_edge_element.html#a960a2b9167d66916e9d2ba86efe9b58e", null ],
     [ "isSelfLoop", "classogdf_1_1_edge_element.html#aed168195e08ad53e1af848a9169f4f62", null ],
     [ "opposite", "classogdf_1_1_edge_element.html#a432989b20dd25b12e9f6f98fc0e879e8", null ],

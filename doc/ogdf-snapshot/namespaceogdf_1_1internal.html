@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -140,7 +140,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1internal_1_1_graph_element.html">GraphElement</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The base class for objects used by (hyper)graphs.  <a href="classogdf_1_1internal_1_1_graph_element.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1internal_1_1_graph_iterator.html">GraphIterator</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1internal_1_1_graph_iterator_base.html">GraphIteratorBase</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1internal_1_1_graph_list.html">GraphList</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lists of graph objects (like nodes, edges, etc.).  <a href="classogdf_1_1internal_1_1_graph_list.html#details">More...</a><br /></td></tr>
@@ -159,6 +159,12 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ac487eeb92c46f185b6073ed7623972c2"><td class="memTemplParams" colspan="2">template&lt;class ArrayType &gt; </td></tr>
 <tr class="memitem:ac487eeb92c46f185b6073ed7623972c2"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#ac487eeb92c46f185b6073ed7623972c2">GraphArrayIterator</a> = <a class="el" href="classogdf_1_1internal_1_1_graph_array_iterator_base.html">GraphArrayIteratorBase</a>&lt; ArrayType, false &gt;</td></tr>
 <tr class="separator:ac487eeb92c46f185b6073ed7623972c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a679ca99b2ea2299123bf0e5563105c30"><td class="memTemplParams" colspan="2">template&lt;class GraphObjectPtr &gt; </td></tr>
+<tr class="memitem:a679ca99b2ea2299123bf0e5563105c30"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#a679ca99b2ea2299123bf0e5563105c30">GraphIterator</a> = <a class="el" href="classogdf_1_1internal_1_1_graph_iterator_base.html">GraphIteratorBase</a>&lt; GraphObjectPtr, false &gt;</td></tr>
+<tr class="separator:a679ca99b2ea2299123bf0e5563105c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43700285c0a2a348c3b246c887c479c"><td class="memTemplParams" colspan="2">template&lt;class GraphObjectPtr &gt; </td></tr>
+<tr class="memitem:aa43700285c0a2a348c3b246c887c479c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1internal.html#aa43700285c0a2a348c3b246c887c479c">GraphReverseIterator</a> = <a class="el" href="classogdf_1_1internal_1_1_graph_iterator_base.html">GraphIteratorBase</a>&lt; GraphObjectPtr, true &gt;</td></tr>
+<tr class="separator:aa43700285c0a2a348c3b246c887c479c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -200,7 +206,7 @@ template&lt;class ArrayType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="graph__iterators_8h_source.html#l00093">93</a> of file <a class="el" href="graph__iterators_8h_source.html">graph_iterators.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="graph__iterators_8h_source.html#l00104">104</a> of file <a class="el" href="graph__iterators_8h_source.html">graph_iterators.h</a>.</p>
 
 </div>
 </div>
@@ -218,7 +224,43 @@ template&lt;class ArrayType &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="graph__iterators_8h_source.html#l00092">92</a> of file <a class="el" href="graph__iterators_8h_source.html">graph_iterators.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="graph__iterators_8h_source.html#l00103">103</a> of file <a class="el" href="graph__iterators_8h_source.html">graph_iterators.h</a>.</p>
+
+</div>
+</div>
+<a id="a679ca99b2ea2299123bf0e5563105c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a679ca99b2ea2299123bf0e5563105c30">&#9670;&nbsp;</a></span>GraphIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class GraphObjectPtr &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf_1_1internal.html#a679ca99b2ea2299123bf0e5563105c30">ogdf::internal::GraphIterator</a> = typedef <a class="el" href="classogdf_1_1internal_1_1_graph_iterator_base.html">GraphIteratorBase</a>&lt;GraphObjectPtr,false&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="graph__iterators_8h_source.html#l00043">43</a> of file <a class="el" href="graph__iterators_8h_source.html">graph_iterators.h</a>.</p>
+
+</div>
+</div>
+<a id="aa43700285c0a2a348c3b246c887c479c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa43700285c0a2a348c3b246c887c479c">&#9670;&nbsp;</a></span>GraphReverseIterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class GraphObjectPtr &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceogdf_1_1internal.html#aa43700285c0a2a348c3b246c887c479c">ogdf::internal::GraphReverseIterator</a> = typedef <a class="el" href="classogdf_1_1internal_1_1_graph_iterator_base.html">GraphIteratorBase</a>&lt;GraphObjectPtr,true&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="graph__iterators_8h_source.html#l00044">44</a> of file <a class="el" href="graph__iterators_8h_source.html">graph_iterators.h</a>.</p>
 
 </div>
 </div>
@@ -390,7 +432,7 @@ template&lt;typename CONTAINER &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01418">1418</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01433">1433</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -430,7 +472,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01426">1426</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01441">1441</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -470,7 +512,7 @@ template&lt;typename CONTAINER &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01401">1401</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01416">1416</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -510,7 +552,7 @@ template&lt;&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01409">1409</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_graph__d_8h_source.html#l01424">1424</a> of file <a class="el" href="_graph__d_8h_source.html">Graph_d.h</a>.</p>
 
 </div>
 </div>
@@ -520,7 +562,7 @@ template&lt;&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="namespaceogdf_1_1internal.html">internal</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

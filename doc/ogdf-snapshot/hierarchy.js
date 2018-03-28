@@ -184,6 +184,11 @@ var hierarchy =
     [ "ogdf::Array< double, int >", "classogdf_1_1_array.html", [
       [ "ogdf::ArrayBuffer< double >", "classogdf_1_1_array_buffer.html", null ]
     ] ],
+    [ "ogdf::Array< edge, int >", "classogdf_1_1_array.html", [
+      [ "ogdf::ArrayBuffer< edge >", "classogdf_1_1_array_buffer.html", [
+        [ "ogdf::steiner_tree::goemans::Approximation< T >::TemporaryEdges", "structogdf_1_1steiner__tree_1_1goemans_1_1_approximation_1_1_temporary_edges.html", null ]
+      ] ]
+    ] ],
     [ "ogdf::Array< float >", "classogdf_1_1_array.html", [
       [ "ogdf::EdgeArray< float >", "classogdf_1_1_edge_array.html", null ],
       [ "ogdf::NodeArray< float >", "classogdf_1_1_node_array.html", null ]
@@ -214,7 +219,9 @@ var hierarchy =
       [ "ogdf::ShellingOrderSet", "classogdf_1_1_shelling_order_set.html", null ]
     ] ],
     [ "ogdf::Array< NodeInfo >", "classogdf_1_1_array.html", null ],
-    [ "ogdf::Array< NodePair >", "classogdf_1_1_array.html", null ],
+    [ "ogdf::Array< NodePair, int >", "classogdf_1_1_array.html", [
+      [ "ogdf::ArrayBuffer< NodePair >", "classogdf_1_1_array_buffer.html", null ]
+    ] ],
     [ "ogdf::Array< NodeType >", "classogdf_1_1_array.html", [
       [ "ogdf::NodeArray< NodeType >", "classogdf_1_1_node_array.html", null ]
     ] ],
@@ -366,6 +373,9 @@ var hierarchy =
     [ "ogdf::Array< ogdf::NodeArray< bool > >", "classogdf_1_1_array.html", [
       [ "ogdf::NodeArray< ogdf::NodeArray< bool > >", "classogdf_1_1_node_array.html", null ]
     ] ],
+    [ "ogdf::Array< ogdf::NodeArray< double > >", "classogdf_1_1_array.html", [
+      [ "ogdf::NodeArray< ogdf::NodeArray< double > >", "classogdf_1_1_node_array.html", null ]
+    ] ],
     [ "ogdf::Array< ogdf::NodeArray< int > >", "classogdf_1_1_array.html", [
       [ "ogdf::NodeArray< ogdf::NodeArray< int > >", "classogdf_1_1_node_array.html", null ]
     ] ],
@@ -483,9 +493,6 @@ var hierarchy =
       [ "ogdf::EdgeArray< string >", "classogdf_1_1_edge_array.html", null ],
       [ "ogdf::HypernodeArray< string >", "classogdf_1_1_hypernode_array.html", null ],
       [ "ogdf::NodeArray< string >", "classogdf_1_1_node_array.html", null ]
-    ] ],
-    [ "ogdf::Array< string, int >", "classogdf_1_1_array.html", [
-      [ "ogdf::ArrayBuffer< string >", "classogdf_1_1_array_buffer.html", null ]
     ] ],
     [ "ogdf::Array< T >", "classogdf_1_1_array.html", [
       [ "ogdf::AdjEntryArray< T >", "classogdf_1_1_adj_entry_array.html", null ],
@@ -942,6 +949,7 @@ var hierarchy =
       [ "ogdf::ArrayBuffer< E, INDEX >", "classogdf_1_1_array_buffer.html", null ]
     ] ],
     [ "ogdf::Array2D< E >", "classogdf_1_1_array2_d.html", null ],
+    [ "ogdf::ArrayReverseIteratorBase< E, isConst >", "classogdf_1_1_array_reverse_iterator_base.html", null ],
     [ "ogdf::AStarSearch< T >", "classogdf_1_1_a_star_search.html", null ],
     [ "ogdf::AugmentationModule", "classogdf_1_1_augmentation_module.html", [
       [ "ogdf::DfsMakeBiconnected", "classogdf_1_1_dfs_make_biconnected.html", null ],
@@ -1023,7 +1031,6 @@ var hierarchy =
     [ "ogdf::ClusterSetPure", "classogdf_1_1_cluster_set_pure.html", null ],
     [ "ogdf::ClusterSetSimple", "classogdf_1_1_cluster_set_simple.html", null ],
     [ "ogdf::CoffmanGrahamRanking::_int_set", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html", null ],
-    [ "ogdf::CoinCallbacks", "classogdf_1_1_coin_callbacks.html", null ],
     [ "ogdf::CoinManager", "classogdf_1_1_coin_manager.html", null ],
     [ "ogdf::Color", "classogdf_1_1_color.html", null ],
     [ "ogdf::CompactionConstraintGraph< ATYPE >::Interval", "structogdf_1_1_compaction_constraint_graph_1_1_interval.html", null ],
@@ -1373,15 +1380,9 @@ var hierarchy =
       [ "ogdf::Hashing< int, ogdf::ClusterElement, DefHashFunc< int > >", "classogdf_1_1_hashing.html", [
         [ "ogdf::HashArray< int, ogdf::ClusterElement >", "classogdf_1_1_hash_array.html", null ]
       ] ],
-      [ "ogdf::Hashing< int, ogdf::EdgeElement >", "classogdf_1_1_hashing.html", null ],
       [ "ogdf::Hashing< int, ogdf::ListIteratorBase< int >, DefHashFunc< int > >", "classogdf_1_1_hashing.html", [
         [ "ogdf::HashArray< int, ogdf::ListIteratorBase< int > >", "classogdf_1_1_hash_array.html", null ]
       ] ],
-      [ "ogdf::Hashing< int, ogdf::NodeElement >", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< int, OgmlAttribute >", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< int, OgmlAttributeValue >", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< int, OgmlTag >", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< int, string >", "classogdf_1_1_hashing.html", null ],
       [ "ogdf::Hashing< ogdf::EdgeElement, PrioritizedQueue< ogdf::EdgeElement, TCap, std::less< TCap >, PairingHeap >::Handle, DefHashFunc< ogdf::EdgeElement > >", "classogdf_1_1_hashing.html", [
         [ "ogdf::HashArray< ogdf::EdgeElement, PrioritizedQueue< ogdf::EdgeElement, TCap, std::less< TCap >, PairingHeap >::Handle, DefHashFunc< ogdf::EdgeElement > >", "classogdf_1_1_hash_array.html", null ]
       ] ],
@@ -1389,14 +1390,7 @@ var hierarchy =
       [ "ogdf::Hashing< std::string, ogdf::NodeElement, DefHashFunc< std::string > >", "classogdf_1_1_hashing.html", [
         [ "ogdf::HashArray< std::string, ogdf::NodeElement >", "classogdf_1_1_hash_array.html", null ]
       ] ],
-      [ "ogdf::Hashing< string, const ogdf::XmlTagObject *>", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< string, GenericPoint< double > >", "classogdf_1_1_hashing.html", null ],
       [ "ogdf::Hashing< string, int >", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< string, ogdf::ClusterElement >", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< string, ogdf::EdgeElement >", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< string, ogdf::NodeElement >", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< string, OgmlEdgeTemplate *>", "classogdf_1_1_hashing.html", null ],
-      [ "ogdf::Hashing< string, OgmlNodeTemplate *>", "classogdf_1_1_hashing.html", null ],
       [ "ogdf::Hashing< Tuple2< I1, I2 >, E, HashFuncTuple< I1, I2, H1, H2 > >", "classogdf_1_1_hashing.html", [
         [ "ogdf::HashArray2D< I1, I2, E, H1, H2 >", "classogdf_1_1_hash_array2_d.html", null ]
       ] ],
@@ -1469,7 +1463,7 @@ var hierarchy =
       [ "ogdf::HypernodeElement", "classogdf_1_1_hypernode_element.html", null ],
       [ "ogdf::NodeElement", "classogdf_1_1_node_element.html", null ]
     ] ],
-    [ "ogdf::internal::GraphIterator< GraphObjectPtr >", "classogdf_1_1internal_1_1_graph_iterator.html", null ],
+    [ "ogdf::internal::GraphIteratorBase< GraphObjectPtr, isReverse >", "classogdf_1_1internal_1_1_graph_iterator_base.html", null ],
     [ "ogdf::internal::GraphListBase", "classogdf_1_1internal_1_1_graph_list_base.html", [
       [ "ogdf::internal::GraphList< GraphObject >", "classogdf_1_1internal_1_1_graph_list.html", [
         [ "ogdf::internal::GraphObjectContainer< GraphObject >", "classogdf_1_1internal_1_1_graph_object_container.html", null ]
@@ -1550,6 +1544,7 @@ var hierarchy =
         [ "ogdf::PreprocessorLayout", "classogdf_1_1_preprocessor_layout.html", null ],
         [ "ogdf::ScalingLayout", "classogdf_1_1_scaling_layout.html", null ]
       ] ],
+      [ "ogdf::NodeRespecterLayout", "classogdf_1_1_node_respecter_layout.html", null ],
       [ "ogdf::PivotMDS", "classogdf_1_1_pivot_m_d_s.html", null ],
       [ "ogdf::PlanarizationLayout", "classogdf_1_1_planarization_layout.html", null ],
       [ "ogdf::ProcrustesSubLayout", "classogdf_1_1_procrustes_sub_layout.html", null ],
@@ -1584,10 +1579,8 @@ var hierarchy =
     [ "ogdf::LHTreeNode", "classogdf_1_1_l_h_tree_node.html", null ],
     [ "ogdf::LHTreeNode::Adjacency", "structogdf_1_1_l_h_tree_node_1_1_adjacency.html", null ],
     [ "ogdf::LHTreeNode::ClusterCrossing", "structogdf_1_1_l_h_tree_node_1_1_cluster_crossing.html", null ],
-    [ "ogdf::LineBuffer", "classogdf_1_1_line_buffer.html", null ],
-    [ "ogdf::LineBufferPosition", "classogdf_1_1_line_buffer_position.html", null ],
     [ "ogdf::ListElement< E >", "classogdf_1_1_list_element.html", null ],
-    [ "ogdf::ListIteratorBase< E, isConst >", "classogdf_1_1_list_iterator_base.html", null ],
+    [ "ogdf::ListIteratorBase< E, isConst, isReverse >", "classogdf_1_1_list_iterator_base.html", null ],
     [ "ogdf::ListPure< E >", "classogdf_1_1_list_pure.html", [
       [ "ogdf::List< E >", "classogdf_1_1_list.html", [
         [ "ogdf::ListContainer< E, Master >", "classogdf_1_1_list_container.html", null ]
@@ -1779,6 +1772,7 @@ var hierarchy =
       [ "ogdf::NodeArray< ogdf::ListPure< ogdf::NodeElement > >", "classogdf_1_1_node_array.html", null ],
       [ "ogdf::NodeArray< ogdf::MinimumEdgeDistances::InfoType >", "classogdf_1_1_node_array.html", null ],
       [ "ogdf::NodeArray< ogdf::NodeArray< bool > >", "classogdf_1_1_node_array.html", null ],
+      [ "ogdf::NodeArray< ogdf::NodeArray< double > >", "classogdf_1_1_node_array.html", null ],
       [ "ogdf::NodeArray< ogdf::NodeArray< int > >", "classogdf_1_1_node_array.html", null ],
       [ "ogdf::NodeArray< ogdf::NodeArray< ogdf::EdgeElement > >", "classogdf_1_1_node_array.html", null ],
       [ "ogdf::NodeArray< ogdf::NodeArray< ogdf::NodeElement > >", "classogdf_1_1_node_array.html", null ],
@@ -1818,8 +1812,6 @@ var hierarchy =
     [ "ogdf::NodeSet< SupportFastSizeQuery >", "classogdf_1_1_node_set.html", null ],
     [ "ogdf::NonPlanarCore< TCost >", "classogdf_1_1_non_planar_core.html", null ],
     [ "ogdf::NonPlanarCore< TCost >::CutEdge", "structogdf_1_1_non_planar_core_1_1_cut_edge.html", null ],
-    [ "ogdf::Ogml", "classogdf_1_1_ogml.html", null ],
-    [ "ogdf::OgmlParser", "classogdf_1_1_ogml_parser.html", null ],
     [ "ogdf::OrderComparer", "classogdf_1_1_order_comparer.html", null ],
     [ "ogdf::OrthoRep", "classogdf_1_1_ortho_rep.html", null ],
     [ "ogdf::OrthoRep::SideInfoUML", "structogdf_1_1_ortho_rep_1_1_side_info_u_m_l.html", null ],
@@ -1922,6 +1914,7 @@ var hierarchy =
       [ "ogdf::OptimalRanking", "classogdf_1_1_optimal_ranking.html", null ]
     ] ],
     [ "ogdf::RCCrossings", "structogdf_1_1_r_c_crossings.html", null ],
+    [ "ogdf::Reverse< T >", "classogdf_1_1_reverse.html", null ],
     [ "ogdf::RMHeapNode< T >", "structogdf_1_1_r_m_heap_node.html", null ],
     [ "ogdf::RoutingChannel< ATYPE >", "classogdf_1_1_routing_channel.html", null ],
     [ "ogdf::RoutingChannel< ATYPE >::vInfo", "structogdf_1_1_routing_channel_1_1v_info.html", null ],
@@ -1961,8 +1954,7 @@ var hierarchy =
     [ "ogdf::SolarMerger::PathData", "structogdf_1_1_solar_merger_1_1_path_data.html", null ],
     [ "ogdf::SortedSequence< KEY, INFO, CMP >", "classogdf_1_1_sorted_sequence.html", null ],
     [ "ogdf::SortedSequence< KEY, INFO, CMP >::Element", "structogdf_1_1_sorted_sequence_1_1_element.html", null ],
-    [ "ogdf::SortedSequenceConstIterator< KEY, INFO, CMP >", "classogdf_1_1_sorted_sequence_const_iterator.html", null ],
-    [ "ogdf::SortedSequenceIterator< KEY, INFO, CMP >", "classogdf_1_1_sorted_sequence_iterator.html", null ],
+    [ "ogdf::SortedSequenceIteratorBase< KEY, INFO, CMP, isConst, isReverse >", "classogdf_1_1_sorted_sequence_iterator_base.html", null ],
     [ "ogdf::SPQRTree", "classogdf_1_1_s_p_q_r_tree.html", [
       [ "ogdf::DynamicSPQRTree", "classogdf_1_1_dynamic_s_p_q_r_tree.html", null ],
       [ "ogdf::PlanarSPQRTree", "classogdf_1_1_planar_s_p_q_r_tree.html", [
@@ -2067,7 +2059,6 @@ var hierarchy =
     [ "ogdf::UMLLayoutModule", "classogdf_1_1_u_m_l_layout_module.html", [
       [ "ogdf::PlanarizationLayoutUML", "classogdf_1_1_planarization_layout_u_m_l.html", null ]
     ] ],
-    [ "ogdf::UmlToGraphConverter", "classogdf_1_1_uml_to_graph_converter.html", null ],
     [ "ogdf::UPRLayoutModule", "classogdf_1_1_u_p_r_layout_module.html", [
       [ "ogdf::LayerBasedUPRLayout", "classogdf_1_1_layer_based_u_p_r_layout.html", null ]
     ] ],
@@ -2086,10 +2077,6 @@ var hierarchy =
     [ "ogdf::WeightComparer< T >", "classogdf_1_1_weight_comparer.html", null ],
     [ "ogdf::whaInfo", "classogdf_1_1wha_info.html", null ],
     [ "ogdf::WInfo", "structogdf_1_1_w_info.html", null ],
-    [ "ogdf::XmlAttributeObject", "structogdf_1_1_xml_attribute_object.html", null ],
-    [ "ogdf::XmlParser", "classogdf_1_1_xml_parser.html", null ],
-    [ "ogdf::XmlScanner", "classogdf_1_1_xml_scanner.html", null ],
-    [ "ogdf::XmlTagObject", "structogdf_1_1_xml_tag_object.html", null ],
     [ "ogdf::PQTree< edge, IndInfo *, bool >", "classogdf_1_1_p_q_tree.html", [
       [ "ogdf::booth_lueker::EmbedPQTree", "classogdf_1_1booth__lueker_1_1_embed_p_q_tree.html", null ],
       [ "ogdf::booth_lueker::PlanarPQTree", "classogdf_1_1booth__lueker_1_1_planar_p_q_tree.html", null ]
@@ -2148,8 +2135,6 @@ var hierarchy =
     [ "ogdf::SListElement< ogdf::SimpleCluster *>", "classogdf_1_1_s_list_element.html", null ],
     [ "ogdf::SListElement< ogdf::SListPure< ogdf::EdgeElement > >", "classogdf_1_1_s_list_element.html", null ],
     [ "ogdf::SListElement< ogdf::Tuple2< ogdf::NodeElement, int > >", "classogdf_1_1_s_list_element.html", null ],
-    [ "ogdf::SListElement< ogdf::UmlDiagramGraph *>", "classogdf_1_1_s_list_element.html", null ],
-    [ "ogdf::SListElement< ogdf::UMLGraph *>", "classogdf_1_1_s_list_element.html", null ],
     [ "ogdf::SListElement< ogdf::UMLGraph::AssociationClass *>", "classogdf_1_1_s_list_element.html", null ],
     [ "ogdf::SListElement< ogdf::WInfo >", "classogdf_1_1_s_list_element.html", null ],
     [ "ogdf::SListIteratorBase< ogdf::ExternE >", "classogdf_1_1_s_list_iterator_base.html", null ],
@@ -2186,12 +2171,6 @@ var hierarchy =
     ] ],
     [ "ogdf::SListPure< ogdf::SListPure< ogdf::EdgeElement > >", "classogdf_1_1_s_list_pure.html", null ],
     [ "ogdf::SListPure< ogdf::Tuple2< ogdf::NodeElement, int > >", "classogdf_1_1_s_list_pure.html", null ],
-    [ "ogdf::SListPure< ogdf::UmlDiagramGraph * >", "classogdf_1_1_s_list_pure.html", [
-      [ "ogdf::SList< ogdf::UmlDiagramGraph *>", "classogdf_1_1_s_list.html", null ]
-    ] ],
-    [ "ogdf::SListPure< ogdf::UMLGraph * >", "classogdf_1_1_s_list_pure.html", [
-      [ "ogdf::SList< ogdf::UMLGraph *>", "classogdf_1_1_s_list.html", null ]
-    ] ],
     [ "ogdf::SListPure< ogdf::UMLGraph::AssociationClass *>", "classogdf_1_1_s_list_pure.html", null ],
     [ "ogdf::SListPure< ogdf::WInfo >", "classogdf_1_1_s_list_pure.html", null ],
     [ "backward::StackTraceImpl< system_tag::current_tag >", "classbackward_1_1_stack_trace_impl.html", [
@@ -2200,6 +2179,7 @@ var hierarchy =
     [ "thread", null, [
       [ "ogdf::Thread", "classogdf_1_1_thread.html", null ]
     ] ],
+    [ "ogdf::SubsetEnumerator< ogdf::NodeElement >", "classogdf_1_1_subset_enumerator.html", null ],
     [ "backward::TraceResolverImpl< system_tag::current_tag >", "classbackward_1_1_trace_resolver_impl.html", [
       [ "backward::TraceResolver", "classbackward_1_1_trace_resolver.html", null ]
     ] ],

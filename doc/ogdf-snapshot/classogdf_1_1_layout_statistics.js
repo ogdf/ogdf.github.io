@@ -1,8 +1,10 @@
 var classogdf_1_1_layout_statistics =
 [
-    [ "angularResolution", "classogdf_1_1_layout_statistics.html#a16ef37adddc1ad06afb5b74a3377a01f", null ],
-    [ "edgeLengths", "classogdf_1_1_layout_statistics.html#ab6b42b5d311661c8a6878e55b2922948", null ],
+    [ "angles", "classogdf_1_1_layout_statistics.html#aa43c7b1ef6358322486cc02605a7f028", null ],
+    [ "edgeLengths", "classogdf_1_1_layout_statistics.html#abd514d77d3f82a915c1ccd82669e51ae", null ],
     [ "intersectionGraph", "classogdf_1_1_layout_statistics.html#a9e7d910c001e57f61ff2535e58f2dea7", null ],
-    [ "numberOfBends", "classogdf_1_1_layout_statistics.html#ae6da09b21b8cb95dc317a1c3c8578f66", null ],
-    [ "numberOfCrossings", "classogdf_1_1_layout_statistics.html#a551887ede32648eaa119af9a9c288d6c", null ]
+    [ "numberOfBends", "classogdf_1_1_layout_statistics.html#a23ea75f79f7cbe46a9d6017a4434b9be", null ],
+    [ "numberOfCrossings", "classogdf_1_1_layout_statistics.html#a92564947f8c7715fffb02fc0701d4733", null ],
+    [ "numberOfNodeCrossings", "classogdf_1_1_layout_statistics.html#a4242b4649b74e1386d870f52a4cc4923", null ],
+    [ "numberOfNodeOverlaps", "classogdf_1_1_layout_statistics.html#add80e466360ba85a97731990c8b75f93", null ]
 ];

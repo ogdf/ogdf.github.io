@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -384,7 +384,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_approx2SteinerTree
 : <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139_1_1_main.html#abc5983f43312b9dcf6fc1cbcb384a487">ogdf::MinSteinerTreeGoemans139&lt; T &gt;::Main</a>
-, <a class="el" href="classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a73f00feba237511b094dd55d1ab122ae">ogdf::steiner_tree::LPRelaxationSER&lt; T &gt;</a>
 </li>
 <li>m_approx2Weight
 : <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139_1_1_main.html#a2236334a6305fa56a41963988b6cc49f">ogdf::MinSteinerTreeGoemans139&lt; T &gt;::Main</a>
@@ -435,13 +434,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_attributes
 : <a class="el" href="classogdf_1_1_graph_attributes.html#ac2db09eddc4dfc860d05ef22206d588e">ogdf::GraphAttributes</a>
-, <a class="el" href="classogdf_1_1_ogml_parser.html#a4c3a3436c3c72cf85f91faefa146462c">ogdf::OgmlParser</a>
 </li>
 <li>m_attrName
 : <a class="el" href="classogdf_1_1_graph_m_l_parser.html#a85f722f5c4c202d18295eee014061112">ogdf::GraphMLParser</a>
-</li>
-<li>m_attValues
-: <a class="el" href="classogdf_1_1_ogml_parser.html#abe0274a7f1dbe8fa2125a83c51a9b914">ogdf::OgmlParser</a>
 </li>
 <li>m_augmenter
 : <a class="el" href="classogdf_1_1_mixed_model_layout.html#afdf37bb02ca74e66ab35279e49b05717">ogdf::MixedModelLayout</a>
@@ -515,9 +510,11 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_barycenterX
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#a65898960c182453b9f9662579022c83a">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#af83c8fc6a81c0a9e96cfb0898507c2bc">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_barycenterY
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#af5727a1935f1967c3b31bbdb69da41cd">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#aaca553b6b76f32e50c172a14b390a34f">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_base
 : <a class="el" href="classogdf_1_1_independent_set_merger.html#a2a0095794d664303bac3e5a01e030c8a">ogdf::IndependentSetMerger</a>
@@ -560,6 +557,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_ortho_layout.html#a964d23e84ca416623279f2f805e58f4c">ogdf::OrthoLayout</a>
 , <a class="el" href="classogdf_1_1_ortho_layout_u_m_l.html#a9f293cd1587d57cc053d881c065552c1">ogdf::OrthoLayoutUML</a>
 </li>
+<li>m_bendNormalizationAngle
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a407bb82d8275e547db1c6e6590420de9">ogdf::NodeRespecterLayout</a>
+</li>
 <li>m_bends
 : <a class="el" href="classogdf_1_1_graph_attributes.html#a1c020e09f1dc120aa1c334090251119c">ogdf::GraphAttributes</a>
 , <a class="el" href="classogdf_1_1_grid_layout.html#a5369b86c06f4f33ea8e4e7021b0834e9">ogdf::GridLayout</a>
@@ -598,6 +598,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_Blocks
 : <a class="el" href="classogdf_1_1_block_order.html#aa20a62319e959b98866b8ac4755a401a">ogdf::BlockOrder</a>
+</li>
+<li>m_blowupGraph
+: <a class="el" href="structogdf_1_1steiner__tree_1_1goemans_1_1_approximation_1_1_temporary_edges.html#ad97c1387e2458850efe2925f3c054f5d">ogdf::steiner_tree::goemans::Approximation&lt; T &gt;::TemporaryEdges</a>
 </li>
 <li>m_blue
 : <a class="el" href="classogdf_1_1_color.html#a8f8f59a2eda8f26f0662237b339d3043">ogdf::Color</a>
@@ -879,9 +882,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_clusterIdCount
 : <a class="el" href="classogdf_1_1_cluster_graph.html#a03f9d36bf5bbcd47c9e18a2d13feed5a">ogdf::ClusterGraph</a>
 </li>
-<li>m_clusterIds
-: <a class="el" href="classogdf_1_1_ogml_parser.html#a34ac3b91a0a47f7d92d5f3f39c596a28">ogdf::OgmlParser</a>
-</li>
 <li>m_clusterInfo
 : <a class="el" href="classogdf_1_1_cluster_graph_attributes.html#a6d54375ba69a097652f2c6dcbee3e7a8">ogdf::ClusterGraphAttributes</a>
 </li>
@@ -914,7 +914,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_cluster_set.html#aeda60d534c815a02b2de0ccd916be734">ogdf::ClusterSet</a>
 , <a class="el" href="classogdf_1_1_cluster_set_pure.html#a519388c0296d248c2a42dd45cc791173">ogdf::ClusterSetPure</a>
 , <a class="el" href="classogdf_1_1_cluster_set_simple.html#aa1bd5cfcc2529a805eafe821359e6d75">ogdf::ClusterSetSimple</a>
-, <a class="el" href="classogdf_1_1_ogml_parser.html#ab44f1a6a6e8a2d512e37ea571b6e64d7">ogdf::OgmlParser</a>
 </li>
 <li>m_clusterSubgraph
 : <a class="el" href="classogdf_1_1_cconnect_cluster_planar_embed.html#aa14b29290e77a45b81ff1105c3cfdddc">ogdf::CconnectClusterPlanarEmbed</a>
@@ -989,6 +988,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_combEmb
 : <a class="el" href="classogdf_1_1_upward_planarity_embedded_digraph.html#a8cf151a145fac07df7045c2d80b26176">ogdf::UpwardPlanarityEmbeddedDigraph</a>
+</li>
+<li>m_combinatorialObjects
+: <a class="el" href="classogdf_1_1_schnyder_layout.html#a812934809784274794f88b53dd29b1f6">ogdf::SchnyderLayout</a>
 </li>
 <li>m_commonFaceAdj
 : <a class="el" href="classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#ace498e10c26f1e15017a2f4952c027a0">ogdf::MaxFlowSTPlanarItaiShiloach&lt; TCap &gt;</a>
@@ -1084,14 +1086,14 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1cluster__planarity_1_1_c_planarity_sub.html#aeeca9b0edb605ce5c7b8df2fff22fcfe">ogdf::cluster_planarity::CPlanaritySub</a>
 , <a class="el" href="classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#a6f466ba44af2741ca8db30c03b9e13de">ogdf::cluster_planarity::MaxCPlanarSub</a>
 </li>
-<li>m_constraintsTag
-: <a class="el" href="classogdf_1_1_ogml_parser.html#a3cfee33d24a7e8dc4b2ac2748dbe76e1">ogdf::OgmlParser</a>
-</li>
 <li>m_containedEdges
 : <a class="el" href="classogdf_1_1_uml_diagram_graph.html#aacac3f2c9e72625ec6e8f5d8e2dce768">ogdf::UmlDiagramGraph</a>
 </li>
 <li>m_containedNodes
 : <a class="el" href="classogdf_1_1_uml_diagram_graph.html#ac3f985f274998448c209543766394af0">ogdf::UmlDiagramGraph</a>
+</li>
+<li>m_container
+: <a class="el" href="classogdf_1_1_reverse.html#a6351235d8f5d8d9be623603c14b68f6c">ogdf::Reverse&lt; T &gt;</a>
 </li>
 <li>m_containsSource
 : <a class="el" href="classogdf_1_1_face_sink_graph.html#af06bee7e4b3a75c254060fde34cba21d">ogdf::FaceSinkGraph</a>
@@ -1136,7 +1138,11 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_copy
 : <a class="el" href="classogdf_1_1_cluster_graph_copy.html#a523bdc32f317b49a2328de9b9e2e9ea4">ogdf::ClusterGraphCopy</a>
 , <a class="el" href="classogdf_1_1_extended_nesting_graph.html#a163642f13db74b0ed34920f4c2e5bb50">ogdf::ExtendedNestingGraph</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a80d3366b2db29b65d7d0c3b37e5285fa">ogdf::NodeRespecterLayout</a>
 , <a class="el" href="classogdf_1_1_planar_subgraph_cactus_1_1_edge_comparer.html#a41fd7d8a676d808244d64744e1605acd">ogdf::PlanarSubgraphCactus&lt; TCost &gt;::EdgeComparer</a>
+</li>
+<li>m_copyAttr
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#af2eed4710115c1abe74ea5f137cdbd4c">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_copyCliqueNumber
 : <a class="el" href="classogdf_1_1_clique_finder.html#aa2dba55d6c22a30ffe4a7b4a220727ed">ogdf::CliqueFinder</a>
@@ -1180,6 +1186,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_cos
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#a4f3edee7c1ff0f96b5f20fb886de7be8">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a5720f4f17d6ca1a58f816801e66ccac4">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_cost
 : <a class="el" href="classogdf_1_1_a_star_search.html#a521c649b3e21dce6c99f57ccea9bd3d2">ogdf::AStarSearch&lt; T &gt;</a>
@@ -1311,12 +1318,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_currentPermInv
 : <a class="el" href="classogdf_1_1_block_order.html#afab38183a9c88a240052e4d8164a6714">ogdf::BlockOrder</a>
 </li>
-<li>m_currentPosition
-: <a class="el" href="classogdf_1_1_line_buffer.html#aeb4279335fba34ae686ffd48bb1b85ee">ogdf::LineBuffer</a>
-</li>
-<li>m_currentToken
-: <a class="el" href="classogdf_1_1_xml_scanner.html#ac82ced9d19c6560a4bb850860a22ae32">ogdf::XmlScanner</a>
-</li>
 <li>m_currLabel
 : <a class="el" href="classogdf_1_1_bitonic_ordering.html#a8ca254e9181c23852bb1d26d79b057b7">ogdf::BitonicOrdering</a>
 </li>
@@ -1400,6 +1401,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_DEGREE
 : <a class="el" href="classogdf_1_1_triconnectivity.html#a5d4d1881e965db3d132e7bbda4c83774">ogdf::Triconnectivity</a>
 </li>
+<li>m_degreeSum
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a6f7d28335d0e927e2fd3bb25acd1a078">ogdf::NodeRespecterLayout</a>
+</li>
 <li>m_deletedEdges
 : <a class="el" href="structogdf_1_1_node_merge.html#a97d2cedc91c9406d8d8cc6bae06f4c69">ogdf::NodeMerge</a>
 , <a class="el" href="classogdf_1_1_preprocessor_layout.html#a60a83866426d2fd553baebf866bdb0dc">ogdf::PreprocessorLayout</a>
@@ -1432,7 +1436,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_depth
 : <a class="el" href="classogdf_1_1_cluster_element.html#a382762e5b1553daaca3858a8701178d2">ogdf::ClusterElement</a>
 , <a class="el" href="classogdf_1_1_i_o_points.html#ac0c1072b063f0e49903b6c4b37cc9f1c">ogdf::IOPoints</a>
-, <a class="el" href="structogdf_1_1_xml_tag_object.html#a33fa97d934da16c03f44f6bead0ea633">ogdf::XmlTagObject</a>
 </li>
 <li>m_depthUpToDate
 : <a class="el" href="classogdf_1_1_cluster_graph.html#a6ae1705c29440f1d02b68aa628231672">ogdf::ClusterGraph</a>
@@ -1443,11 +1446,17 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_desiredAvgEdgeLength
 : <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_array_graph.html#a1bd5704cfa7830d534c7284492ed927c">ogdf::fast_multipole_embedder::ArrayGraph</a>
 </li>
+<li>m_desiredDistance
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a1853a685e99279e823602c1e4e634fe4">ogdf::NodeRespecterLayout</a>
+</li>
 <li>m_desiredEdgeLength
 : <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_array_graph.html#ab31fc895da852b0daa4c043a4b91de26">ogdf::fast_multipole_embedder::ArrayGraph</a>
 </li>
 <li>m_desiredLength
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#aef6c2b54112ac3cb46cc059a3730e123">ogdf::GEMLayout</a>
+</li>
+<li>m_desiredMinEdgeLength
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#ad61f7ed32edb1fc4cac7de4cc8c0aa2c">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_desLength
 : <a class="el" href="classogdf_1_1_spring_embedder_k_k.html#ade2b649c5628006285336976813dc052">ogdf::SpringEmbedderKK</a>
@@ -1460,12 +1469,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_dfsNum
 : <a class="el" href="classogdf_1_1_order_comparer.html#ae2def10e6da84360640a47660e17916f">ogdf::OrderComparer</a>
-</li>
-<li>m_diagramGraphs
-: <a class="el" href="classogdf_1_1_uml_to_graph_converter.html#a36c5c1a624fcb2d16f904c6738538226">ogdf::UmlToGraphConverter</a>
-</li>
-<li>m_diagramGraphsInUMLGraphFormat
-: <a class="el" href="classogdf_1_1_uml_to_graph_converter.html#a7672910663bd1b541859e232d647afb6">ogdf::UmlToGraphConverter</a>
 </li>
 <li>m_diagramName
 : <a class="el" href="classogdf_1_1_uml_diagram_graph.html#a404d01e0d5eb777faf9c2464b948bad6">ogdf::UmlDiagramGraph</a>
@@ -1508,7 +1511,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_distance
 : <a class="el" href="classogdf_1_1_a_star_search.html#ac5d844356a72c4b21e4517df6e3902bc">ogdf::AStarSearch&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139_1_1_main.html#a2215b6e03225e3a87174acc926689235">ogdf::MinSteinerTreeGoemans139&lt; T &gt;::Main</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#ad2f2165356d8705d83d94599b0c6436c">ogdf::MinSteinerTreeRZLoss&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_zelikovsky.html#a7483e568709ebe7cb13e4f0fdd924735">ogdf::MinSteinerTreeZelikovsky&lt; T &gt;</a>
 , <a class="el" href="structogdf_1_1_nearest_rectangle_finder_1_1_pair_rect_dist.html#ad5a3ee0424ddb84405da57ed48777465">ogdf::NearestRectangleFinder::PairRectDist</a>
@@ -1581,6 +1583,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_dummy
 : <a class="el" href="classogdf_1_1_sorted_sequence.html#a87927c46a9f13419b4043cc65d04e5ec">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+</li>
+<li>m_dummyInsertionThreshold
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a8ccef3c5fcbb257b5cb6c0094e45813c">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_dummyNodes
 : <a class="el" href="classogdf_1_1_edge_standard_rep.html#a65d05d62723c2f5414f7fc471fb1c686">ogdf::EdgeStandardRep</a>
@@ -1696,9 +1701,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_edgeIDs
 : <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#a1c97f5cb0fe25ea720a247fb2a524100">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
 </li>
-<li>m_edgeIds
-: <a class="el" href="classogdf_1_1_ogml_parser.html#a4a8840b7a3afdddbaac3575d0015cff2">ogdf::OgmlParser</a>
-</li>
 <li>m_edgeInclusions
 : <a class="el" href="classogdf_1_1_min_steiner_tree_dual_ascent.html#ab6b456881d627c575854e867491e670b">ogdf::MinSteinerTreeDualAscent&lt; T &gt;</a>
 </li>
@@ -1724,7 +1726,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1_graph_1_1_hidden_edge_set.html#ad3e5a5a98c34fe0bddc4486104deed5b">ogdf::Graph::HiddenEdgeSet</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#a148da858467baf32e893eea8223e3b71">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_shore.html#a44581814161696a4baf2eb5717ab152e">ogdf::MinSteinerTreeShore&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_ogml_parser.html#ad476089ee0c912dde912e2f022b36a1e">ogdf::OgmlParser</a>
 , <a class="el" href="structogdf_1_1_triconnectivity_1_1_comp_struct.html#a363b2fa35c399570df669c0a4a1e9603">ogdf::Triconnectivity::CompStruct</a>
 </li>
 <li>m_edgesB
@@ -1966,6 +1967,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_factor
 : <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_constraint.html#a987a10426420239ad680c06c9bcda28b">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::EdgeConstraint</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a566ac98124116880d4059cad6dcc0913">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_fails
 : <a class="el" href="classogdf_1_1_sugiyama_layout.html#afc4bda6f2b34c0a3cfff014bf573eace">ogdf::SugiyamaLayout</a>
@@ -2129,7 +2131,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_fullCompStore
 : <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139_1_1_main.html#aabec1f1af52518bf89653f3ddb3d6ef4">ogdf::MinSteinerTreeGoemans139&lt; T &gt;::Main</a>
-, <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#ab9b5acd0228814d312899dbe339ada9d">ogdf::MinSteinerTreeRZLoss&lt; T &gt;</a>
+, <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a4eee15d801770ae90a084c17d9bfe724">ogdf::MinSteinerTreeRZLoss&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#a8ed5c174066311d471c2dd7d804b28a9">ogdf::steiner_tree::goemans::Approximation&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html#a7fc7cd9448a23f2fa500c32e41553908">ogdf::steiner_tree::goemans::BlowupGraph&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#adc4f4d8936dfa08a987d6baa775f0052">ogdf::steiner_tree::LPRelaxationSER&lt; T &gt;</a>
@@ -2221,6 +2223,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_globalTemperature
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#af24ea4aff85b51b6ee2168499b142f6e">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a61a056d62196cba2daf00572fca99d9e">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_gLoser
 : <a class="el" href="classogdf_1_1_glue_map.html#a27c8b2d54d753468ebc58bac14d1406d">ogdf::GlueMap&lt; Cost &gt;</a>
@@ -2265,8 +2268,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1gexf_1_1_parser.html#aa2be1289f05e0fc8a649f5b15c75138a">ogdf::gexf::Parser</a>
 , <a class="el" href="classogdf_1_1_graph_m_l_parser.html#aa90af67d53184b11fe545ba09212b6af">ogdf::GraphMLParser</a>
 </li>
-<li>m_graphType
-: <a class="el" href="classogdf_1_1_ogml_parser.html#adf5a9b0d145396152cf5205bac1c4e8b">ogdf::OgmlParser</a>
+<li>m_gravitation
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#ac75f8f43136d6b3c41c54c80678a8037">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_gravitationalConstant
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#aed2e11af52cb5f1395aa088e8e00ed5b">ogdf::GEMLayout</a>
@@ -2353,16 +2356,15 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_hashTable
 : <a class="el" href="classogdf_1_1_gml_parser.html#a8d929237470b6903a140963a36ebf904">ogdf::GmlParser</a>
-, <a class="el" href="classogdf_1_1_xml_parser.html#a6e4f3ef847a3eb16a6f10e7a10805f3e">ogdf::XmlParser</a>
-</li>
-<li>m_hashTableInfoIndex
-: <a class="el" href="classogdf_1_1_xml_parser.html#a94071c7f9a46e25d408f0dbb1399f883">ogdf::XmlParser</a>
 </li>
 <li>m_hashValue
 : <a class="el" href="classogdf_1_1_hash_element_base.html#a56b28210ce4ee9552080ecd52149b65e">ogdf::HashElementBase</a>
 </li>
 <li>m_hasInitialLayout
 : <a class="el" href="classogdf_1_1_stress_minimization.html#addc7b016210149ec08bed473f74d34c0">ogdf::StressMinimization</a>
+</li>
+<li>m_hasParEdges
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#aecc162c3cb308aaeabb3ad6a69499c0f">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_hChild1
 : <a class="el" href="classogdf_1_1wha_info.html#a1ca65f6c0ca896e408573d8c05b42992">ogdf::whaInfo</a>
@@ -2561,15 +2563,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_idNode
 : <a class="el" href="classogdf_1_1tlp_1_1_parser.html#a35d970387e2121a0348d5369e81100da">ogdf::tlp::Parser</a>
 </li>
-<li>m_ids
-: <a class="el" href="classogdf_1_1_ogml_parser.html#a7b684d7948aa732a3fef1f79e84d03b7">ogdf::OgmlParser</a>
-</li>
-<li>m_idToEdge
-: <a class="el" href="classogdf_1_1_uml_to_graph_converter.html#a2f413fac551a1a0db37dd82225045270">ogdf::UmlToGraphConverter</a>
-</li>
-<li>m_idToNode
-: <a class="el" href="classogdf_1_1_uml_to_graph_converter.html#a65486764a994132527824919fdb82f68">ogdf::UmlToGraphConverter</a>
-</li>
 <li>m_iMaxNumThreads
 : <a class="el" href="classogdf_1_1_fast_multipole_multilevel_embedder.html#a0861b25ffad4b5cf4c9a82c80e20fa76">ogdf::FastMultipoleMultilevelEmbedder</a>
 </li>
@@ -2578,9 +2571,11 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_impulseX
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#a6a633c5e837b2ee430af796aa09374d1">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a934e51d8de2e16885cb257a03edad6d8">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_impulseY
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#afd52a107c758acc85054b42d810d6336">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#af68bcb0b931d3071a3e514098142ac79">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_in
 : <a class="el" href="classogdf_1_1dot_1_1_parser.html#ab1f7f79bb50d258585f142fb4d4163c5">ogdf::dot::Parser</a>
@@ -2644,6 +2639,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_ingoing
 : <a class="el" href="classogdf_1_1_longest_path_ranking.html#a2d8df1fa4baa18c2a353a0d3a4f66903">ogdf::LongestPathRanking</a>
 </li>
+<li>m_initDummiesPerEdge
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a48be277f3cdf42b28afa8872f31e08cc">ogdf::NodeRespecterLayout</a>
+</li>
 <li>m_initialized
 : <a class="el" href="classogdf_1_1_d_l_parser.html#ac55974f682c5727c44d685fa153b625b">ogdf::DLParser</a>
 </li>
@@ -2661,15 +2659,13 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_initialTemperature
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#a54fbd3bb717304d9802dcae2d261a27f">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a1cc77e278e6a30621fb5368d2d6a77b2">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_inLeaves
 : <a class="el" href="classogdf_1_1cluster__planarity_1_1_cluster_p_q_container.html#af76ff0c7e80456bde23fc9dd5b4d9af4">ogdf::cluster_planarity::ClusterPQContainer</a>
 </li>
 <li>m_input
 : <a class="el" href="classogdf_1_1dot_1_1_lexer.html#ab366436081d083127832613cf938d6d0">ogdf::dot::Lexer</a>
-</li>
-<li>m_inputFileLineCounter
-: <a class="el" href="classogdf_1_1_line_buffer.html#a970f7faf23716c4724bb7ba1554d06ae">ogdf::LineBuffer</a>
 </li>
 <li>m_inserter
 : <a class="el" href="classogdf_1_1_m_m_subgraph_planarizer.html#afa98496b2b726d859c28a9fe07f27032">ogdf::MMSubgraphPlanarizer</a>
@@ -2814,6 +2810,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_iterationsImprove
 : <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a0adb1d3ed410e5a56de1a4f076416d4e">ogdf::spring_embedder::SpringEmbedderBase</a>
+</li>
+<li>m_iterCounter
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#aa2320bc4dedda16a06119c86eea64651">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_itGList
 : <a class="el" href="classogdf_1_1_graph_observer.html#a40879fd9b7e7f0b512030978510148cc">ogdf::GraphObserver</a>
@@ -2999,28 +2998,12 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_limitStructures
 : <a class="el" href="classogdf_1_1_boyer_myrvold_planar.html#a5190d16a1b6573619c6c4f6b8404368d">ogdf::BoyerMyrvoldPlanar</a>
 </li>
-<li>m_linBuf
-: <a class="el" href="classogdf_1_1_line_buffer.html#a9580967ce03e57b0e53a6dd44452fe96">ogdf::LineBuffer</a>
-</li>
 <li>m_line
 : <a class="el" href="classogdf_1_1_exception.html#a386b56a5d7735eb8f6f75fd0dae8f919">ogdf::Exception</a>
 , <a class="el" href="classogdf_1_1tlp_1_1_lexer.html#a007844efcdf58ad254eee459ad777016">ogdf::tlp::Lexer</a>
-, <a class="el" href="structogdf_1_1_xml_tag_object.html#a900f136366f3377536857dc01c3ecd23">ogdf::XmlTagObject</a>
 </li>
 <li>m_lineBuffer
 : <a class="el" href="classogdf_1_1_gml_parser.html#ae49cf2cdd1755331f7c0aa6b040c76ca">ogdf::GmlParser</a>
-</li>
-<li>m_lineNumber
-: <a class="el" href="classogdf_1_1_line_buffer_position.html#a9a25f17474086478633bae868b76b72a">ogdf::LineBufferPosition</a>
-</li>
-<li>m_linePosition
-: <a class="el" href="classogdf_1_1_line_buffer_position.html#aced7854e1ca8dee3236f5df3ed053786">ogdf::LineBufferPosition</a>
-</li>
-<li>m_lineUpdateCount
-: <a class="el" href="classogdf_1_1_line_buffer_position.html#a1d86a6c013e12160b5029dd20c6e0465">ogdf::LineBufferPosition</a>
-</li>
-<li>m_lineUpdateCountArray
-: <a class="el" href="classogdf_1_1_line_buffer.html#a2c3d24ff92560149243a2ce5ac45f48f">ogdf::LineBuffer</a>
 </li>
 <li>m_link
 : <a class="el" href="classogdf_1_1_boyer_myrvold_planar.html#a762ce007fc9b7f120d91506d44d321f8">ogdf::BoyerMyrvoldPlanar</a>
@@ -3036,6 +3019,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_localTemperature
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#a4b046dcee59fcd384eb48d0a9ec05a3d">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a0af11bdbc95f97b5088629d81ce9e3e4">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_loglevel
 : <a class="el" href="classogdf_1_1_logger.html#a7b5b9169368bca997f7ea1c60c049393">ogdf::Logger</a>
@@ -3237,6 +3221,12 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_maxDisplacement
 : <a class="el" href="classogdf_1_1spring__embedder_1_1_master_base.html#a170cdbf8f17eea7132029c38c3bd46cb">ogdf::spring_embedder::MasterBase&lt; NodeInfo, ForceModelBase &gt;</a>
 </li>
+<li>m_maxDisturbance
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a62a3bd4903c5de1122695e997ccc67e0">ogdf::NodeRespecterLayout</a>
+</li>
+<li>m_maxDummiesPerEdge
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a7770093f40684887eb2d92f7527bbd89">ogdf::NodeRespecterLayout</a>
+</li>
 <li>m_maxFlowModule
 : <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#aec500cdfda4cf9b3a0c2d5c61c6e7ff7">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
 </li>
@@ -3396,6 +3386,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_circular_layout.html#adc4355e5cca9c3d02415f99992bc30f3">ogdf::CircularLayout</a>
 , <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a2e7f28d9ae9fc35c2cea84bf7607f021">ogdf::FMMMLayout</a>
 , <a class="el" href="classogdf_1_1_g_e_m_layout.html#a69a1691929bb212283313a5103ec1f2a">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#af1c80db040dc7b529b24c202a2972b43">ogdf::NodeRespecterLayout</a>
 , <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#aa8dd794a00fe33c0a8b51eb589eb1cc5">ogdf::spring_embedder::SpringEmbedderBase</a>
 , <a class="el" href="classogdf_1_1_spring_embedder_f_r_exact.html#a2ac7cd52188c1430117ba318fbf5710f">ogdf::SpringEmbedderFRExact</a>
 , <a class="el" href="classogdf_1_1_sugiyama_layout.html#ada9cf18c1840c85d2ce65701f47b385c">ogdf::SugiyamaLayout</a>
@@ -3420,6 +3411,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_minimalTemperature
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#a3062444961e2fcd384bb3c19123f77c4">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a53d63c9f428a62225cf71cd610b671cb">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_minimum
 : <a class="el" href="classogdf_1_1_radix_heap.html#ae0fcc422dd8a0d314cd09582b5f41cd4">ogdf::RadixHeap&lt; V, P &gt;</a>
@@ -3462,7 +3454,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_modelGraph
 : <a class="el" href="classogdf_1_1_uml_diagram_graph.html#afa0b1374bf57b578fa84e0ee4944cd07">ogdf::UmlDiagramGraph</a>
-, <a class="el" href="classogdf_1_1_uml_to_graph_converter.html#abddb809a78a54c5c4b09dd05c2eb2c21">ogdf::UmlToGraphConverter</a>
 </li>
 <li>m_modelName
 : <a class="el" href="classogdf_1_1_uml_model_graph.html#a9b3a4a9e018886cd4c865c3a810d8ac9">ogdf::UmlModelGraph</a>
@@ -3725,9 +3716,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_nodeIDs
 : <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#af698d281b753678dd7f83ebfc872d70b">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
 </li>
-<li>m_nodeIds
-: <a class="el" href="classogdf_1_1_ogml_parser.html#ac0b84b1fcb67d32983cf763c409042f5">ogdf::OgmlParser</a>
-</li>
 <li>m_nodeIndex
 : <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_random_node_set.html#a886d78b17151ca1a45e69e5dc97d90e4">ogdf::fast_multipole_embedder::RandomNodeSet</a>
 </li>
@@ -3791,6 +3779,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_nodePointer
 : <a class="el" href="classogdf_1_1_p_q_basic_key.html#adb2c771be83a6f414356df62bdb60911">ogdf::PQBasicKey&lt; T, X, Y &gt;</a>
 </li>
+<li>m_nodeRadius
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#acd6618d5ae79e74e5c94dca91fabc9f4">ogdf::NodeRespecterLayout</a>
+</li>
 <li>m_nodes
 : <a class="el" href="classogdf_1_1_array_level.html#a8b61bb76c67d26ab280a6641e2a36637">ogdf::ArrayLevel</a>
 , <a class="el" href="classogdf_1_1_b_c_tree.html#ad290c30d2bf08a09fd28a07674f27a94">ogdf::BCTree</a>
@@ -3801,7 +3792,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1_level.html#af52933495642f9e66b5004d7644d1b7a">ogdf::Level</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#ae415a1d354a37ead45d85c377b6d0c55">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
 , <a class="el" href="classogdf_1_1_node_set.html#a6fa02a22706275e19fb07f2e3d6e4714">ogdf::NodeSet&lt; SupportFastSizeQuery &gt;</a>
-, <a class="el" href="classogdf_1_1_ogml_parser.html#a3dcd18e98e6329a3d6dc7d5f71c02a5f">ogdf::OgmlParser</a>
 , <a class="el" href="structogdf_1_1_radial_tree_layout_1_1_group.html#aa1da9c2f7405648c65d4ad0b0322362c">ogdf::RadialTreeLayout::Group</a>
 , <a class="el" href="classogdf_1_1_radial_tree_layout.html#a8171f8e5f113e370425b08e75ff5e55f">ogdf::RadialTreeLayout</a>
 , <a class="el" href="classogdf_1_1_simple_cluster.html#ab1c8ad514cb66e67b68b9b49655108d3">ogdf::SimpleCluster</a>
@@ -3886,9 +3876,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_nonSelfLoops
 : <a class="el" href="classogdf_1_1davidson__harel_1_1_planarity.html#aead1e165a440f15e851bdeaf5066543d">ogdf::davidson_harel::Planarity</a>
 </li>
-<li>m_nonterminals
-: <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a35b7643b4a88c64bdd69a7bbdcc56408">ogdf::MinSteinerTreeRZLoss&lt; T &gt;</a>
-</li>
 <li>m_notVisitedCount
 : <a class="el" href="classogdf_1_1wha_info.html#a9f248a2deed3af3153e612bf6f26bfe5">ogdf::whaInfo</a>
 </li>
@@ -3969,13 +3956,11 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_numberOfIterations
 : <a class="el" href="classogdf_1_1_davidson_harel.html#a5ed6d2e3601fe3a36ea07f570472bed5">ogdf::DavidsonHarel</a>
 , <a class="el" href="classogdf_1_1_davidson_harel_layout.html#a4c532c5d352b23007e496964fd62767a">ogdf::DavidsonHarelLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a009f9faa9aa9f3c8cd2495c0e41ca355">ogdf::NodeRespecterLayout</a>
 , <a class="el" href="classogdf_1_1_stress_minimization.html#aafe88f4a439eb1f16db4797664af7f23">ogdf::StressMinimization</a>
 </li>
 <li>m_numberOfLeaves
 : <a class="el" href="classogdf_1_1_p_q_tree.html#aa1f6f339ca2536e8dd9ebc15a5af8a2c">ogdf::PQTree&lt; T, X, Y &gt;</a>
-</li>
-<li>m_numberOfMostRecentlyReadLine
-: <a class="el" href="classogdf_1_1_line_buffer.html#a307b9d18eb295accf8e8d93830c96ead">ogdf::LineBuffer</a>
 </li>
 <li>m_numberOfPivots
 : <a class="el" href="classogdf_1_1_pivot_m_d_s.html#a6689c6b650b8338376d195a2cda0e9aa">ogdf::PivotMDS</a>
@@ -4158,12 +4143,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_offset
 : <a class="el" href="classogdf_1_1_longest_path_ranking.html#ab353c8135cc16415a674c3182a4d0e54">ogdf::LongestPathRanking</a>
 </li>
-<li>m_ogmlEdgeTemplates
-: <a class="el" href="classogdf_1_1_ogml_parser.html#a0fdcfaaa9862fb2391bd0fb5c8ed9c29">ogdf::OgmlParser</a>
-</li>
-<li>m_ogmlNodeTemplates
-: <a class="el" href="classogdf_1_1_ogml_parser.html#a9989fc0e5514561ceeb14e303f82d847">ogdf::OgmlParser</a>
-</li>
 <li>m_oneLevelLayoutModule
 : <a class="el" href="classogdf_1_1_modular_multilevel_mixer.html#a07c991d4f8779912c834e951aa394748">ogdf::ModularMultilevelMixer</a>
 </li>
@@ -4291,6 +4270,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_oscillationAngle
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#aa9be4537d779a1338c43c025de57f0a2">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#a15cbd14edbdddb24af91ee66778592de">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_oscillationSensitivity
 : <a class="el" href="classogdf_1_1_g_e_m_layout.html#a88f5e095a2d67a705db57dc6752a5a66">ogdf::GEMLayout</a>
@@ -4374,6 +4354,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1_cluster_planarization_layout.html#a3d24cb791db7438d3b40908f5faddbe0">ogdf::ClusterPlanarizationLayout</a>
 , <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a242a1bfe5811f99319f4da64a0bb1a7f">ogdf::FMMMLayout</a>
 , <a class="el" href="classogdf_1_1_g_e_m_layout.html#a3fb4339dec061f4ac18570c4bc7559db">ogdf::GEMLayout</a>
+, <a class="el" href="classogdf_1_1_node_respecter_layout.html#acae8006a94ebac635e3018c707dfd8ef">ogdf::NodeRespecterLayout</a>
 , <a class="el" href="classogdf_1_1_planarization_grid_layout.html#a9493b366d0e63b4de05d837d5d6d9006">ogdf::PlanarizationGridLayout</a>
 , <a class="el" href="classogdf_1_1_planarization_layout.html#ab91f497ea2ab062268e4b38d54ceb6d9">ogdf::PlanarizationLayout</a>
 , <a class="el" href="classogdf_1_1_planarization_layout_u_m_l.html#a7351d06ec24478a2806c424c8cf6e62d">ogdf::PlanarizationLayoutUML</a>
@@ -4417,9 +4398,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_parentType
 : <a class="el" href="classogdf_1_1_p_q_node.html#a22bdda9b73e6be15a6b17c5652b45da1">ogdf::PQNode&lt; T, X, Y &gt;</a>
 </li>
-<li>m_parseError
-: <a class="el" href="classogdf_1_1_xml_parser.html#a8e8aafdfe6d30cccf9a85a145233fe8f">ogdf::XmlParser</a>
-</li>
 <li>m_partialFlow
 : <a class="el" href="classogdf_1_1_max_flow_s_t_planar_itai_shiloach.html#a97ef915cc03ea709d63efa17fa486877">ogdf::MaxFlowSTPlanarItaiShiloach&lt; TCap &gt;</a>
 </li>
@@ -4461,12 +4439,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_pattern2
 : <a class="el" href="classogdf_1_1_ortho_rep.html#a823c61f0abfc6afe4ccea205814274e5">ogdf::OrthoRep</a>
 </li>
-<li>m_pAttributeName
-: <a class="el" href="structogdf_1_1_xml_attribute_object.html#a474d8b78ccd351da3f185a2a44743098">ogdf::XmlAttributeObject</a>
-</li>
-<li>m_pAttributeValue
-: <a class="el" href="structogdf_1_1_xml_attribute_object.html#ac67f72143f327e55aedd0eb52d253409">ogdf::XmlAttributeObject</a>
-</li>
 <li>m_pBC
 : <a class="el" href="classogdf_1_1_var_edge_inserter_dyn_core.html#a710975d08463b546bd27246c9caeab67">ogdf::VarEdgeInserterDynCore</a>
 </li>
@@ -4479,7 +4451,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_pBrother
 : <a class="el" href="structogdf_1_1_gml_object.html#a19b32511cd80dafe6b836b288173845a">ogdf::GmlObject</a>
-, <a class="el" href="structogdf_1_1_xml_tag_object.html#ac679bc4da063212e6c54f3fe4d1a1d66">ogdf::XmlTagObject</a>
 </li>
 <li>m_pCG
 : <a class="el" href="classogdf_1_1_cluster_graph_copy.html#a25000044cd4334f901a30a9fee2dfbac">ogdf::ClusterGraphCopy</a>
@@ -4552,8 +4523,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_pElement
 : <a class="el" href="classogdf_1_1_hash_const_iterator.html#a50c60d938f5fc6fe5e3e00943a0eb0fd">ogdf::HashConstIterator&lt; K, I, H &gt;</a>
-, <a class="el" href="classogdf_1_1_sorted_sequence_const_iterator.html#ac44b79a88db6ba8c846a34b462914b49">ogdf::SortedSequenceConstIterator&lt; KEY, INFO, CMP &gt;</a>
-, <a class="el" href="classogdf_1_1_sorted_sequence_iterator.html#a4e635967886c80795b8d698f91d8872b">ogdf::SortedSequenceIterator&lt; KEY, INFO, CMP &gt;</a>
+, <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html#a4bb46f7f84892a34fac7c3518dd51623">ogdf::SortedSequenceIteratorBase&lt; KEY, INFO, CMP, isConst, isReverse &gt;</a>
 </li>
 <li>m_pEmbedding
 : <a class="el" href="classogdf_1_1_face_array_base.html#aebbd9dc156acca09fac4a45ed30e106e">ogdf::FaceArrayBase</a>
@@ -4622,12 +4592,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_pFirst
 : <a class="el" href="classogdf_1_1_bounded_queue.html#a04d38903d567db95f83c520a91e7b18f">ogdf::BoundedQueue&lt; E, INDEX &gt;</a>
 </li>
-<li>m_pFirstAttribute
-: <a class="el" href="structogdf_1_1_xml_tag_object.html#a2b83a744ba0a2d8df5b37ada323440fa">ogdf::XmlTagObject</a>
-</li>
 <li>m_pFirstSon
 : <a class="el" href="structogdf_1_1_gml_object.html#af8b8c278e066cece36ffd575eec0706d">ogdf::GmlObject</a>
-, <a class="el" href="structogdf_1_1_xml_tag_object.html#a73d9038868186d7e0ea2909046271b6f">ogdf::XmlTagObject</a>
 </li>
 <li>m_pForbidden
 : <a class="el" href="classogdf_1_1_fix_edge_inserter_core.html#a23d091e5c84437a984480ae5a6abee2e">ogdf::FixEdgeInserterCore</a>
@@ -4692,9 +4658,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_pHead
 : <a class="el" href="structogdf_1_1_g_f2_solver_1_1_row2.html#aa3749dcd6e3d779c5005b67740ed45f8">ogdf::GF2Solver::Row2</a>
 </li>
-<li>m_pIs
-: <a class="el" href="classogdf_1_1_line_buffer.html#ae23811ee1712f227a65726d125931120">ogdf::LineBuffer</a>
-</li>
 <li>m_pIsTerminal
 : <a class="el" href="classogdf_1_1_min_steiner_tree_dual_ascent.html#adb3de3cc9db08a67e3072f23eaa45285">ogdf::MinSteinerTreeDualAscent&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_primal_dual.html#a08f13dfb9200505226c225561ed4368b">ogdf::MinSteinerTreePrimalDual&lt; T &gt;</a>
@@ -4735,9 +4698,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_pLevels
 : <a class="el" href="classogdf_1_1_level.html#add334448ddbb1d346c22f808f6810e47">ogdf::Level</a>
 </li>
-<li>m_pLineBuffer
-: <a class="el" href="classogdf_1_1_xml_scanner.html#a55a038f564f6719353a530a312674c64">ogdf::XmlScanner</a>
-</li>
 <li>m_pList
 : <a class="el" href="classogdf_1_1_clique_finder.html#a64e1b95f67c16b52b1c66015c0668221">ogdf::CliqueFinder</a>
 , <a class="el" href="classogdf_1_1_hash_const_iterator.html#ad812f230e097fabbc9ffc394125c522c">ogdf::HashConstIterator&lt; K, I, H &gt;</a>
@@ -4751,9 +4711,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_pNext
 : <a class="el" href="classogdf_1_1_cluster_element.html#ac295ea247054517124ffb7d0ba28d3d3">ogdf::ClusterElement</a>
-</li>
-<li>m_pNextAttribute
-: <a class="el" href="structogdf_1_1_xml_attribute_object.html#a0df8c960575200c14f67908cf16a1f48">ogdf::XmlAttributeObject</a>
 </li>
 <li>m_pNextCoarser
 : <a class="el" href="classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a99fcefc2e8b4d4a99b311cd9c187c948">ogdf::energybased::dtree::GalaxyLevel</a>
@@ -4791,7 +4748,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_points
 : <a class="el" href="classogdf_1_1energybased_1_1dtree_1_1_d_tree.html#a59ffdddf017e7762b5ead01f1b128831">ogdf::energybased::dtree::DTree&lt; IntType, Dim &gt;</a>
 , <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree.html#a0dcceb267a8125838109636d3c52b1a5">ogdf::fast_multipole_embedder::LinearQuadtree</a>
-, <a class="el" href="classogdf_1_1_ogml_parser.html#ad7d5a3dd11cdf7e05e03ebdcb58ffadb">ogdf::OgmlParser</a>
 </li>
 <li>m_pointSize
 : <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree.html#a220185eb85aa370b415add6ee1d3a614">ogdf::fast_multipole_embedder::LinearQuadtree</a>
@@ -4852,6 +4808,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_postProcess
 : <a class="el" href="classogdf_1_1_clique_finder.html#a049f38e4977dacc8d2152499713d80e1">ogdf::CliqueFinder</a>
 </li>
+<li>m_postProcessing
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#ad32e03bd7d7653906745fc0f72f68230">ogdf::NodeRespecterLayout</a>
+</li>
 <li>m_postSpringStrength
 : <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#af64e43c455eb6872546303331c512edc">ogdf::FMMMLayout</a>
 </li>
@@ -4896,9 +4855,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a0542b4698e7bbe12174dda26df8b18cf">ogdf::MinSteinerTreeRZLoss&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_zelikovsky.html#ab2582f8849b8d39b161ed2c1474f0033">ogdf::MinSteinerTreeZelikovsky&lt; T &gt;</a>
 , <a class="el" href="structogdf_1_1_m_m_variable_embedding_inserter_1_1_paths.html#aa4502c6431c6b6c80f34604d36f6f274">ogdf::MMVariableEmbeddingInserter::Paths</a>
-</li>
-<li>m_predAPSP
-: <a class="el" href="classogdf_1_1_min_steiner_tree_goemans139_1_1_main.html#a59edb119e487caacfc43ab088e73afc1">ogdf::MinSteinerTreeGoemans139&lt; T &gt;::Main</a>
 </li>
 <li>m_predecessor
 : <a class="el" href="classogdf_1_1_a_star_search.html#a47689338b4de5e5dfca9a780f25dfc81">ogdf::AStarSearch&lt; T &gt;</a>
@@ -4996,17 +4952,11 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_progressive
 : <a class="el" href="classogdf_1_1_ortho_layout.html#abfc9f415e951f01209ad34106b10781e">ogdf::OrthoLayout</a>
 </li>
-<li>m_pRootTag
-: <a class="el" href="classogdf_1_1_xml_parser.html#a27334044644b03e3b613f70de9bcf7b0">ogdf::XmlParser</a>
-</li>
 <li>m_prup
 : <a class="el" href="classogdf_1_1_edge_router.html#a9cde0f36377e4d28aa46a4b00189472d">ogdf::EdgeRouter</a>
 </li>
 <li>m_ps
 : <a class="el" href="class_minisat_1_1_clause.html#a0eabba5c0e8698b068aaf618b56de74a">Minisat::Clause</a>
-</li>
-<li>m_pScanner
-: <a class="el" href="classogdf_1_1_xml_parser.html#ac5b7bd8e2fc161c2692b8c8e0bdc6e48">ogdf::XmlParser</a>
 </li>
 <li>m_pSec
 : <a class="el" href="classogdf_1_1_compaction_constraint_graph_1_1_segment_comparer.html#a13c0715baa43d4b5c77045d1240599d0">ogdf::CompactionConstraintGraph&lt; ATYPE &gt;::SegmentComparer</a>
@@ -5050,12 +5000,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_pSyncBarrier
 : <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_f_m_e_thread_pool.html#a5ebac5853c2a90ade6dfb9f0a22c7db1">ogdf::fast_multipole_embedder::FMEThreadPool</a>
 </li>
-<li>m_pTagName
-: <a class="el" href="structogdf_1_1_xml_tag_object.html#a7c7936b87ea93952970d45890231daee">ogdf::XmlTagObject</a>
-</li>
-<li>m_pTagValue
-: <a class="el" href="structogdf_1_1_xml_tag_object.html#aa1a5fc1749451ea90fcef9f1bf83d4a8">ogdf::XmlTagObject</a>
-</li>
 <li>m_pTail
 : <a class="el" href="structogdf_1_1_g_f2_solver_1_1_row2.html#afefd7c6b0c90c8f56ca5913fea57860e">ogdf::GF2Solver::Row2</a>
 </li>
@@ -5079,7 +5023,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_f_m_e_thread_pool.html#ac1f8fe3011b235ed070182bcdfc59d28">ogdf::fast_multipole_embedder::FMEThreadPool</a>
 </li>
 <li>m_ptr
-: <a class="el" href="classogdf_1_1internal_1_1_graph_iterator.html#a8ee2c2a184f2f5827f52f1a1cecc3482">ogdf::internal::GraphIterator&lt; GraphObjectPtr &gt;</a>
+: <a class="el" href="classogdf_1_1internal_1_1_graph_iterator_base.html#ae73d07be32c612ef2ea8fef56ed44203">ogdf::internal::GraphIteratorBase&lt; GraphObjectPtr, isReverse &gt;</a>
 </li>
 <li>m_pTree
 : <a class="el" href="classogdf_1_1energybased_1_1dtree_1_1_d_tree_w_s_p_d.html#a03bf42e68a80e3e667c6a68ccb1b92cf">ogdf::energybased::dtree::DTreeWSPD&lt; Dim &gt;</a>
@@ -5100,7 +5044,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1energybased_1_1dtree_1_1_d_tree_force.html#a3afb6cde7fde5367aab21a5e60942fb3">ogdf::energybased::dtree::DTreeForce&lt; Dim &gt;</a>
 </li>
 <li>m_pX
-: <a class="el" href="classogdf_1_1_list_iterator_base.html#adb4cea67ce8370954a64d1ed325f129b">ogdf::ListIteratorBase&lt; E, isConst &gt;</a>
+: <a class="el" href="classogdf_1_1_array_reverse_iterator_base.html#aa7dfa90d01116245b6572c58171bc2ab">ogdf::ArrayReverseIteratorBase&lt; E, isConst &gt;</a>
+, <a class="el" href="classogdf_1_1_list_iterator_base.html#a911abc9030405c68105a3f882d719623">ogdf::ListIteratorBase&lt; E, isConst, isReverse &gt;</a>
 , <a class="el" href="classogdf_1_1_s_list_iterator_base.html#a9dc0554f97b609bab1ab746948765261">ogdf::SListIteratorBase&lt; E, isConst &gt;</a>
 </li>
 <li>m_qualityVersusSpeed
@@ -5133,6 +5078,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_randomGenerator
 : <a class="el" href="classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a5f4ba12496638016d99fdc105b6fc240">ogdf::MaximalPlanarSubgraphSimple&lt; TCost, typename std::enable_if&lt; std::is_floating_point&lt; TCost &gt;::value &gt;::type &gt;</a>
+</li>
+<li>m_randomInitialPlacement
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a7dfcacb0b932b56786a7ddb6ee59c7f6">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_randomize
 : <a class="el" href="classogdf_1_1_fast_multipole_embedder.html#ad68f63ce7d85c3b00a9a5242cc1cfcce">ogdf::FastMultipoleEmbedder</a>
@@ -5202,7 +5150,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_recursionDepth
 : <a class="el" href="classogdf_1_1_min_steiner_tree_shore.html#a2532ec76d15fa37aa620462bc82b8a35">ogdf::MinSteinerTreeShore&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_xml_parser.html#a7fe266d4be3401316d234603ca266349">ogdf::XmlParser</a>
 </li>
 <li>m_recursive
 : <a class="el" href="classogdf_1_1_clusterer.html#a4d04b8295ba60d45e6f42046d2738ae7">ogdf::Clusterer</a>
@@ -5272,6 +5219,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_representative
 : <a class="el" href="classogdf_1_1_l_c_a.html#a5f73aa2ccae67e40b7382f055cd2d2c0">ogdf::LCA</a>
+</li>
+<li>m_repulsionDistance
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#a2f5ef39f27f71d2f291b1e6b92298918">ogdf::NodeRespecterLayout</a>
 </li>
 <li>m_repulsionWeight
 : <a class="el" href="classogdf_1_1_davidson_harel_layout.html#a589de2208d8972d62fddad0aee5e0afd">ogdf::DavidsonHarelLayout</a>
@@ -5920,12 +5870,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_tableSizeLow
 : <a class="el" href="classogdf_1_1_hashing_base.html#a9c638d77097398047f8c337d379c6b31">ogdf::HashingBase</a>
 </li>
-<li>m_tagObserver
-: <a class="el" href="classogdf_1_1_xml_parser.html#ab8ab0a99ee174026837937da0f60f59d">ogdf::XmlParser</a>
-</li>
-<li>m_tags
-: <a class="el" href="classogdf_1_1_ogml_parser.html#a1393c704f803da25c212b535849d7f73">ogdf::OgmlParser</a>
-</li>
 <li>m_tail
 : <a class="el" href="classogdf_1_1internal_1_1_graph_list_base.html#ac840d6b5b995bf31bb6cd9c3e885eb45">ogdf::internal::GraphListBase</a>
 , <a class="el" href="classogdf_1_1_list_pure.html#a8ee93466661119a9f18aa54f5fc47ffa">ogdf::ListPure&lt; E &gt;</a>
@@ -5945,6 +5889,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>m_temperature
 : <a class="el" href="classogdf_1_1_davidson_harel.html#a39b14aec519a06c865c63c3a0c044922">ogdf::DavidsonHarel</a>
 </li>
+<li>m_temperatureDecreaseOffset
+: <a class="el" href="classogdf_1_1_node_respecter_layout.html#aa7c0480b78d40bc233e5e84d3e49bb46">ogdf::NodeRespecterLayout</a>
+</li>
 <li>m_tend
 : <a class="el" href="classogdf_1_1dot_1_1_ast.html#ad36efdc39cff94291174be3114ffe5bd">ogdf::dot::Ast</a>
 </li>
@@ -5962,6 +5909,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_approximation.html#aa73f77fde7f7e24bfebc4c217909ec82">ogdf::steiner_tree::goemans::Approximation&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_graph.html#a0669602a9a9fa0779e517652ad3fd1a5">ogdf::steiner_tree::goemans::BlowupGraph&lt; T &gt;</a>
 , <a class="el" href="classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#adba53ca956f94f9652bfd5145cc62419">ogdf::steiner_tree::LPRelaxationSER&lt; T &gt;</a>
+</li>
+<li>m_terminalSubset
+: <a class="el" href="classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner.html#ad1a9f8ab1f60fe9245946d2987eae292">ogdf::steiner_tree::FullComponentGeneratorDreyfusWagner&lt; T &gt;</a>
 </li>
 <li>m_terminationCriterion
 : <a class="el" href="classogdf_1_1_stress_minimization.html#a0ba91ac6dc639e9ccf2da082e44b930b">ogdf::StressMinimization</a>
@@ -6339,8 +6289,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>m_valid
 : <a class="el" href="classogdf_1_1_subset_enumerator.html#acb53fdb1e8645238d1e6d2a8a9f821f2">ogdf::SubsetEnumerator&lt; T &gt;</a>
-, <a class="el" href="structogdf_1_1_xml_attribute_object.html#aac3ec361874ba31376601132d4f7e12d">ogdf::XmlAttributeObject</a>
-, <a class="el" href="structogdf_1_1_xml_tag_object.html#a8cd8101ffee8a39b1ab6de902330ec2f">ogdf::XmlTagObject</a>
 </li>
 <li>m_valueType
 : <a class="el" href="structogdf_1_1_gml_object.html#ac3d5135ede5d357cc8d402aa88946d1a">ogdf::GmlObject</a>
@@ -6622,9 +6570,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1gexf_1_1_parser.html#aef4fe1e199019f4982abef7222c33dc9">ogdf::gexf::Parser</a>
 , <a class="el" href="classogdf_1_1_graph_m_l_parser.html#a741ce690c1deeea20f478b1d03224e05">ogdf::GraphMLParser</a>
 </li>
-<li>m_xmlParser
-: <a class="el" href="classogdf_1_1_uml_to_graph_converter.html#ad7d93fb39e398e55fca875cbf5a52888">ogdf::UmlToGraphConverter</a>
-</li>
 <li>m_xp
 : <a class="el" href="classogdf_1_1topology__module_1_1_edge_leg.html#aea8c3e7497c47586e1c16c9f10384ef5">ogdf::topology_module::EdgeLeg</a>
 </li>
@@ -6676,7 +6621,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#a4c7f8c87cfc617154aa22d501760103e">ogdf::energybased::fmmm::MAARPacking</a>
 </li>
 <li>machineEps()
-: <a class="el" href="classabacus_1_1_abacus_global.html#a259b9812e914b3abfa93cf92cb71cafb">abacus::AbacusGlobal</a>
+: <a class="el" href="classabacus_1_1_abacus_global.html#afb8a85cb73a4c17a91ab38dfa83407ef">abacus::AbacusGlobal</a>
 </li>
 <li>machineEps_
 : <a class="el" href="classabacus_1_1_abacus_global.html#a19882793f28c2b01e49ac84260f3aee9">abacus::AbacusGlobal</a>
@@ -6752,7 +6697,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="class_minisat_1_1_internal_1_1_c_map.html#afde7f47957b0076354babd53e6f11958">Minisat::Internal::CMap&lt; T &gt;</a>
 </li>
 <li>Map()
-: <a class="el" href="class_minisat_1_1_internal_1_1_map.html#ace8bb6efadec091411ad94c8622b993b">Minisat::Internal::Map&lt; K, D, H, E &gt;</a>
+: <a class="el" href="class_minisat_1_1_internal_1_1_map.html#ab6e9368951ccd04767e074c6ed9002cb">Minisat::Internal::Map&lt; K, D, H, E &gt;</a>
 </li>
 <li>map
 : <a class="el" href="classogdf_1_1_crossings_matrix.html#a8144c171eecbe9044ad65aeca5c1f0b4">ogdf::CrossingsMatrix</a>
@@ -6778,9 +6723,9 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1_ortho_layout.html#a8540d0c384a8a6fcb3c633c80f31a2be">ogdf::OrthoLayout</a>
 , <a class="el" href="classogdf_1_1_ortho_layout_u_m_l.html#ade8dca37abf3cba15729298756ae03a2">ogdf::OrthoLayoutUML</a>
 </li>
-<li>mark()
-: <a class="el" href="class_minisat_1_1_internal_1_1_clause.html#a314388930fa1122d00401030995486d9">Minisat::Internal::Clause</a>
-, <a class="el" href="classogdf_1_1booth__lueker_1_1_embed_indicator.html#a0d2b0d1149a222a6c990524ae8bdc1db">ogdf::booth_lueker::EmbedIndicator</a>
+<li>mark
+: <a class="el" href="class_minisat_1_1_internal_1_1_clause.html#aa84ba61ddb5092666d5c706a4e713457">Minisat::Internal::Clause</a>
+, <a class="el" href="classogdf_1_1booth__lueker_1_1_embed_indicator.html#adf00a773b24e85f734aaba84da1e4d16">ogdf::booth_lueker::EmbedIndicator</a>
 , <a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_particle_info.html#a7efb8aeedbb55e45273c8a57ebbd4150">ogdf::energybased::fmmm::ParticleInfo</a>
 , <a class="el" href="classogdf_1_1_p_q_internal_node.html#a968ec34aecb5d73ab86de43ca2346847">ogdf::PQInternalNode&lt; T, X, Y &gt;</a>
 , <a class="el" href="classogdf_1_1_p_q_leaf.html#a838d72ea52624f098aac398c1a2b2759">ogdf::PQLeaf&lt; T, X, Y &gt;</a>
@@ -6801,7 +6746,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>marked
 : <a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_particle_info.html#aba326cd96bd6257ecba9f6b1bc9e0a10">ogdf::energybased::fmmm::ParticleInfo</a>
 , <a class="el" href="structogdf_1_1_fibonacci_heap_node.html#a03ec827d97f05251b92f50bbc2edc112">ogdf::FibonacciHeapNode&lt; T &gt;</a>
-, <a class="el" href="classogdf_1_1_i_o_points.html#a3a06d62c614d5d4f8f4a2c2e90c31588">ogdf::IOPoints</a>
+, <a class="el" href="classogdf_1_1_i_o_points.html#adf473b7e61b7c7de9adf2e957027db4e">ogdf::IOPoints</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html#a4b392f091fcf3a7127e540dd85c099fa">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::DirectedCutConstraint</a>
 </li>
 <li>markPertinentChildren()
@@ -6834,8 +6779,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classabacus_1_1_open_sub.html#a34b85c36cc2386b553fcff72fc15a596">abacus::OpenSub</a>
 </li>
 <li>master()
-: <a class="el" href="classabacus_1_1_pool_slot.html#a3f78abe19b236691d66d1dfb535c1ae0">abacus::PoolSlot&lt; BaseType, CoType &gt;</a>
-, <a class="el" href="classabacus_1_1_sub.html#acef4a106b35486eee20ad545dcf956b6">abacus::Sub</a>
+: <a class="el" href="classabacus_1_1_pool_slot.html#a23245328b469db3048c836b414fbeecf">abacus::PoolSlot&lt; BaseType, CoType &gt;</a>
+, <a class="el" href="classabacus_1_1_sub.html#ad6143a5d18cd5446523a465a1383bd05">abacus::Sub</a>
 </li>
 <li>Master
 : <a class="el" href="classabacus_1_1_sub.html#a34b85c36cc2386b553fcff72fc15a596">abacus::Sub</a>
@@ -6846,7 +6791,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>Master
 : <a class="el" href="classogdf_1_1_list_container.html#abd6bc6ba4a7809b9decb2598b11e99e8">ogdf::ListContainer&lt; E, Master &gt;</a>
-, <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#ae0ef6c2d8206398d322af8acab1543c0">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
+, <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#af43a462c39f340d7128c4eb443e57612">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
 </li>
 <li>master_
 : <a class="el" href="classabacus_1_1_active.html#a2cf8a526d9337fed87a8fa7fe630cd3a">abacus::Active&lt; BaseType, CoType &gt;</a>
@@ -6966,7 +6911,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classabacus_1_1_master.html#ac804ce2f80eb514c68caa9ac529aefa4">abacus::Master</a>
 </li>
 <li>maxConBuffered()
-: <a class="el" href="classabacus_1_1_master.html#a16a4bfc74868b593260ab176624347cd">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a83b5b1218129aba86adc37504caf0d6c">abacus::Master</a>
 </li>
 <li>maxConBuffered_
 : <a class="el" href="classabacus_1_1_master.html#a1175f99d449656ab5895b9aa8d28a8cd">abacus::Master</a>
@@ -7004,7 +6949,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html#acc24815d8d6d3be948bbfab01b01eff0">ogdf::cluster_planarity::MaxCPlanarSub</a>
 </li>
 <li>maxCpuTime()
-: <a class="el" href="classabacus_1_1_master.html#a5bfd502242b1af909b2e2b46b6a7dc5d">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a629cd459091a53b2e30e2e1612a27f21">abacus::Master</a>
 </li>
 <li>MaxCpuTime
 : <a class="el" href="classabacus_1_1_master.html#a54e939daa08127053085262bdfd82188a7d21dbfa4721e7391ba4fd3180bf8893">abacus::Master</a>
@@ -7055,7 +7000,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1steiner__tree_1_1goemans_1_1_blowup_components.html#a7257e8ff3d1174f144450eaea863d95b">ogdf::steiner_tree::goemans::BlowupComponents&lt; T &gt;</a>
 </li>
 <li>maximalDisturbance()
-: <a class="el" href="classogdf_1_1_g_e_m_layout.html#ab7c9888dd0513874b167377bd5211d98">ogdf::GEMLayout</a>
+: <a class="el" href="classogdf_1_1_g_e_m_layout.html#a809100f656685964fd79c946e9a4d991">ogdf::GEMLayout</a>
 </li>
 <li>maximalFace()
 : <a class="el" href="classogdf_1_1_const_combinatorial_embedding.html#a37ac37f41dc5714fc77052afe26befd4">ogdf::ConstCombinatorialEmbedding</a>
@@ -7068,8 +7013,8 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html#ab0efb53513ceaded36560b19b54259b8">ogdf::MaximalPlanarSubgraphSimple&lt; TCost, typename std::enable_if&lt; std::is_integral&lt; TCost &gt;::value &gt;::type &gt;</a>
 </li>
 <li>maxImprovementSteps()
-: <a class="el" href="classogdf_1_1_flow_compaction.html#ac313f27c4289447772ec8b4edb8addc9">ogdf::FlowCompaction</a>
-, <a class="el" href="classogdf_1_1_longest_path_compaction.html#a062d6af13d16d0244e6a445b0f5f5657">ogdf::LongestPathCompaction</a>
+: <a class="el" href="classogdf_1_1_flow_compaction.html#ab061e396e285b2942ee7ba06d66fc7dd">ogdf::FlowCompaction</a>
+, <a class="el" href="classogdf_1_1_longest_path_compaction.html#a5015e78dd5e7fe2e3c409ab41c486ef8">ogdf::LongestPathCompaction</a>
 </li>
 <li>MaximumCPlanarSubgraph()
 : <a class="el" href="classogdf_1_1_maximum_c_planar_subgraph.html#a38ab9629a443a74d75c8130da5cd8706">ogdf::MaximumCPlanarSubgraph</a>
@@ -7082,13 +7027,13 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_maximum_planar_subgraph.html#a63af7a0cc3ebedde8603738e7e4dd284">ogdf::MaximumPlanarSubgraph</a>
 </li>
 <li>maxIntPosExponent()
-: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a9efa8edc29a2b2c32f0cbdca88e64f92">ogdf::FMMMLayout</a>
+: <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#a5dbe80785b25d7eb268570281051a0b6">ogdf::FMMMLayout</a>
 </li>
 <li>maxItem()
-: <a class="el" href="classogdf_1_1_sorted_sequence.html#a23af98c4f31968a440cda4391b88fe93">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+: <a class="el" href="classogdf_1_1_sorted_sequence.html#a52ffbae094716f7cee57a13de7c06e91">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
 </li>
 <li>maxIterations()
-: <a class="el" href="classabacus_1_1_master.html#ab33788735dfcae9bd09636f7ded71208">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a3929b7e3da282d9f4e303465a213053c">abacus::Master</a>
 , <a class="el" href="classabacus_1_1_sub.html#ae7c5c15d639b7a56c8ccd950d1644df5">abacus::Sub</a>
 </li>
 <li>maxIterations_
@@ -7135,13 +7080,13 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#a3e697b1bbd32ff236152fe070519d3b4">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
 </li>
 <li>maxNSub()
-: <a class="el" href="classabacus_1_1_master.html#a0832c487e9a3cbb3c66cb751e626a365">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a36a95b5ba8b8aafef44b44d3ea7f4d11">abacus::Master</a>
 </li>
 <li>MaxNSub
 : <a class="el" href="classabacus_1_1_master.html#a54e939daa08127053085262bdfd82188a8b8fd6339f9d04e1ecba8c305f59a999">abacus::Master</a>
 </li>
 <li>maxNSub()
-: <a class="el" href="classabacus_1_1_master.html#a36a95b5ba8b8aafef44b44d3ea7f4d11">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a0832c487e9a3cbb3c66cb751e626a365">abacus::Master</a>
 </li>
 <li>maxNSub_
 : <a class="el" href="classabacus_1_1_master.html#a1318e84298630814b9de411a9340b74e">abacus::Master</a>
@@ -7167,7 +7112,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_fast_multipole_multilevel_embedder.html#a66f5ff7fe5c0cfd61f224107e71b194a">ogdf::FastMultipoleMultilevelEmbedder</a>
 </li>
 <li>MaxPlanarEdgesConstraint()
-: <a class="el" href="classogdf_1_1cluster__planarity_1_1_max_planar_edges_constraint.html#aa9bdfa4adca998f6eadbccc3ed46cb27">ogdf::cluster_planarity::MaxPlanarEdgesConstraint</a>
+: <a class="el" href="classogdf_1_1cluster__planarity_1_1_max_planar_edges_constraint.html#af3a0ae5452f371f55f9fa3690637a16a">ogdf::cluster_planarity::MaxPlanarEdgesConstraint</a>
 </li>
 <li>maxPlusLeft()
 : <a class="el" href="classogdf_1_1_i_o_points.html#a3f8f972e2ac123e0e05e5c3497c4de76">ogdf::IOPoints</a>
@@ -7198,7 +7143,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_sim_draw.html#a1496f7f554268fa71f131a4e7041127f">ogdf::SimDraw</a>
 </li>
 <li>maxThreads()
-: <a class="el" href="classogdf_1_1_planar_subgraph_module.html#a2c5db3905839e49c32cec5b523549e3b">ogdf::PlanarSubgraphModule&lt; TCost &gt;</a>
+: <a class="el" href="classogdf_1_1_planar_subgraph_module.html#a3cff4a6407148686d5d8cc1b66ba7635">ogdf::PlanarSubgraphModule&lt; TCost &gt;</a>
 , <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#ae8a5255b0172c3c77f1533dd43574d71">ogdf::spring_embedder::SpringEmbedderBase</a>
 , <a class="el" href="classogdf_1_1_subgraph_planarizer.html#adfcfba82c627eb17730ac342c14cb780">ogdf::SubgraphPlanarizer</a>
 , <a class="el" href="classogdf_1_1_subgraph_planarizer_u_m_l.html#ac1575f356baaddeda97f1d2e2087df59">ogdf::SubgraphPlanarizerUML</a>
@@ -7217,7 +7162,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classabacus_1_1_master.html#ab4ca0cc0bceb7f560fb1a7197879d4ce">abacus::Master</a>
 </li>
 <li>maxVarBuffered()
-: <a class="el" href="classabacus_1_1_master.html#a9d9ed31f1e34c52af70e15309269121c">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#ae6a14df810b7970d7dc19d1e85ad38eb">abacus::Master</a>
 </li>
 <li>maxVarBuffered_
 : <a class="el" href="classabacus_1_1_master.html#a4c5f38d9e2cdc3ecc3099eb29d3d7b71">abacus::Master</a>
@@ -7251,7 +7196,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m.html#a383e95440a6efa8e5b6cf1f9cf77c3e2">ogdf::energybased::fmmm::QuadTreeNodeNM</a>
 </li>
 <li>MedianHeuristic()
-: <a class="el" href="classogdf_1_1_median_heuristic.html#a52214b4f59ffc574fc6165ea9eb6bb24">ogdf::MedianHeuristic</a>
+: <a class="el" href="classogdf_1_1_median_heuristic.html#aeaf0acdcb887249b79fac6b5f6e417bd">ogdf::MedianHeuristic</a>
 </li>
 <li>MehlhornTripleBucketMaxFunc()
 : <a class="el" href="classogdf_1_1_min_steiner_tree_mehlhorn_1_1_mehlhorn_triple_bucket_max_func.html#a1abca54456158f59e08915e0ac17c96b">ogdf::MinSteinerTreeMehlhorn&lt; T &gt;::MehlhornTripleBucketMaxFunc</a>
@@ -7306,13 +7251,13 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_system.html#a169603e63f1a3d29af1bce99bccf78cd">ogdf::System</a>
 </li>
 <li>merge()
-: <a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#a80a5c442515d04733763e7a414487b39">Minisat::Internal::SimpSolver</a>
-, <a class="el" href="classogdf_1_1_binomial_heap.html#a24abfd4c5824ec083fa8a4ab8f5685b9">ogdf::BinomialHeap&lt; T, C &gt;</a>
-, <a class="el" href="classogdf_1_1_fibonacci_heap.html#a22759f485ac021f2b1bede8d255b2c92">ogdf::FibonacciHeap&lt; T, C &gt;</a>
+: <a class="el" href="class_minisat_1_1_internal_1_1_simp_solver.html#ac6c5785ffbbfdfeecb09a310019a4305">Minisat::Internal::SimpSolver</a>
+, <a class="el" href="classogdf_1_1_binomial_heap.html#a4e13c425eb6de25bab35dcdde4133500">ogdf::BinomialHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_fibonacci_heap.html#a393042519dbf2bbec2aa6dddcdf8fc16">ogdf::FibonacciHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_heap_base.html#a2f129e1aab23ac0d21561a22ce27ba91">ogdf::HeapBase&lt; IMPL, H, T, C &gt;</a>
-, <a class="el" href="classogdf_1_1_pairing_heap.html#a9813ca515ca1d289216003cefc8d2c0e">ogdf::PairingHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_pairing_heap.html#a5961dce4b84223797f0b0c5174dc4fa7">ogdf::PairingHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_priority_queue.html#aa563bf3a9b75b2ebe02dcaa2904cedf5">ogdf::PriorityQueue&lt; T, C, Impl &gt;</a>
-, <a class="el" href="classogdf_1_1_r_m_heap.html#abfd142737175237a90fdccd9546dd9e7">ogdf::RMHeap&lt; T, C &gt;</a>
+, <a class="el" href="classogdf_1_1_r_m_heap.html#a580882ec7daceb5067ea0bba14ab034e">ogdf::RMHeap&lt; T, C &gt;</a>
 , <a class="el" href="classogdf_1_1_subgraph_upward_planarizer.html#a80c0ae63b1ed371175d12efc8cda5fb3">ogdf::SubgraphUpwardPlanarizer</a>
 </li>
 <li>mergeBiconnectedComponent()
@@ -7353,11 +7298,11 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>milliSeconds()
 : <a class="el" href="classogdf_1_1_stopwatch.html#ac91c4439061bbb2877cb80f3c9525dfb">ogdf::Stopwatch</a>
 </li>
-<li>Min
-: <a class="el" href="classabacus_1_1_opt_sense.html#ae44b15cdfafd644766b9defcbddc5360ab54cc75f0b8b42ea9c420ab126c976b8">abacus::OptSense</a>
-</li>
 <li>min()
 : <a class="el" href="classabacus_1_1_opt_sense.html#a8a51505935791f11f7582747c338e154">abacus::OptSense</a>
+</li>
+<li>Min
+: <a class="el" href="classabacus_1_1_opt_sense.html#ae44b15cdfafd644766b9defcbddc5360ab54cc75f0b8b42ea9c420ab126c976b8">abacus::OptSense</a>
 </li>
 <li>MIN_BYTES
 : <a class="el" href="classogdf_1_1_pool_memory_allocator.html#a53c56a3875178e4f9ff442c8778efcec">ogdf::PoolMemoryAllocator</a>
@@ -7381,7 +7326,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="structogdf_1_1fast__multipole__embedder_1_1_f_m_e_local_context.html#af24615a87bbd085004335dcc21f58eb7">ogdf::fast_multipole_embedder::FMELocalContext</a>
 </li>
 <li>minAbsViolation()
-: <a class="el" href="classabacus_1_1_separator.html#a5e7e9b63dab03850b1a3b42cd114cb94">abacus::Separator&lt; BaseType, CoType &gt;</a>
+: <a class="el" href="classabacus_1_1_separator.html#a15b92c8d888f28275e99246762fe9bf5">abacus::Separator&lt; BaseType, CoType &gt;</a>
 </li>
 <li>minAbsViolation_
 : <a class="el" href="classabacus_1_1_separator.html#a6263565d0f1474ed7a0b96e9a3e55e7f">abacus::Separator&lt; BaseType, CoType &gt;</a>
@@ -7390,7 +7335,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html#aa6e5219307805f2ab98384e46a23d695">ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master</a>
 </li>
 <li>minCliqueSize()
-: <a class="el" href="classogdf_1_1_planarization_layout.html#a3d89ffa366824b347e7be3b32f523faa">ogdf::PlanarizationLayout</a>
+: <a class="el" href="classogdf_1_1_planarization_layout.html#a2a3cea2ab7b867a061b7dd4fd5454a92">ogdf::PlanarizationLayout</a>
 </li>
 <li>MinCostFlowModule()
 : <a class="el" href="classogdf_1_1_min_cost_flow_module.html#a906df7c19c16400c4eb34d931b1b5660">ogdf::MinCostFlowModule&lt; TCost &gt;</a>
@@ -7412,24 +7357,24 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1_embedder_min_depth_max_face.html#ac21eaec5383e2c2cc293ac07745c3cff">ogdf::EmbedderMinDepthMaxFace</a>
 </li>
 <li>minDistCC()
-: <a class="el" href="classogdf_1_1_circular_layout.html#ae3fe4081b0b4b0b3b26fb8ed7e7174c5">ogdf::CircularLayout</a>
+: <a class="el" href="classogdf_1_1_circular_layout.html#a1965cc868aa0831305848bb1fe7aeb21">ogdf::CircularLayout</a>
 , <a class="el" href="classogdf_1_1_f_m_m_m_layout.html#ac870d20f3b118e604b4119daef73f75d">ogdf::FMMMLayout</a>
 , <a class="el" href="classogdf_1_1_g_e_m_layout.html#a9286f65ba2c81a4c42dbab31b9842391">ogdf::GEMLayout</a>
-, <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#a947cf24f7b80020c332f074e100c529f">ogdf::spring_embedder::SpringEmbedderBase</a>
-, <a class="el" href="classogdf_1_1_spring_embedder_f_r_exact.html#ae0b4dce552d644a0fe68ae2357608966">ogdf::SpringEmbedderFRExact</a>
+, <a class="el" href="classogdf_1_1spring__embedder_1_1_spring_embedder_base.html#afcb01ad9018455c943e6b2ea46d6c4fc">ogdf::spring_embedder::SpringEmbedderBase</a>
+, <a class="el" href="classogdf_1_1_spring_embedder_f_r_exact.html#a1c436fb6db544d4c9a64778578f52c40">ogdf::SpringEmbedderFRExact</a>
 , <a class="el" href="classogdf_1_1_sugiyama_layout.html#a21a57351ea5d273f18f66974438b63dc">ogdf::SugiyamaLayout</a>
 </li>
 <li>minDistCircle()
-: <a class="el" href="classogdf_1_1_circular_layout.html#a973d129b33431fe85f639c55c81c18fa">ogdf::CircularLayout</a>
+: <a class="el" href="classogdf_1_1_circular_layout.html#a2de2168c526826c4adb93e3ddcc80935">ogdf::CircularLayout</a>
 </li>
 <li>minDistLevel()
-: <a class="el" href="classogdf_1_1_circular_layout.html#af2ffd26c1b1ef5a8cab28e4f5b7a272b">ogdf::CircularLayout</a>
+: <a class="el" href="classogdf_1_1_circular_layout.html#ac16f1f7c43e5b117840a68e6715093fc">ogdf::CircularLayout</a>
 </li>
 <li>minDistSibling()
-: <a class="el" href="classogdf_1_1_circular_layout.html#a112b8a25161ead29eb8a67b5fd80e947">ogdf::CircularLayout</a>
+: <a class="el" href="classogdf_1_1_circular_layout.html#aab79292116d62e6811ec2509a836a4d6">ogdf::CircularLayout</a>
 </li>
 <li>minDormantRounds()
-: <a class="el" href="classabacus_1_1_master.html#a5138e44c685388894e10b39584473929">abacus::Master</a>
+: <a class="el" href="classabacus_1_1_master.html#a4805291e224b1f59559089c119ced6cf">abacus::Master</a>
 </li>
 <li>minDormantRounds_
 : <a class="el" href="classabacus_1_1_master.html#a7f4e46973e2e45a2ab92eb75e87968b5">abacus::Master</a>
@@ -7450,7 +7395,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1cluster__planarity_1_1_minimal_cluster_connection.html#acd414849e885f1c4d0b4e59125b4d46e">ogdf::cluster_planarity::MinimalClusterConnection</a>
 </li>
 <li>minimalTemperature()
-: <a class="el" href="classogdf_1_1_g_e_m_layout.html#a5374c8304741e9a2afaf9638a6d6c235">ogdf::GEMLayout</a>
+: <a class="el" href="classogdf_1_1_g_e_m_layout.html#a325a68112fbb6fd28313a81f30c6d0d4">ogdf::GEMLayout</a>
 </li>
 <li>minimizeStress()
 : <a class="el" href="classogdf_1_1_stress_minimization.html#afe41bbfdc77decb0ce088b12a20593c8">ogdf::StressMinimization</a>
@@ -7468,7 +7413,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_cluster_analysis.html#aeb34be65660933a7d53d85aa6c4ab230">ogdf::ClusterAnalysis</a>
 </li>
 <li>minItem()
-: <a class="el" href="classogdf_1_1_sorted_sequence.html#a9a3ed51c4ddbc3d4b159d38222616675">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+: <a class="el" href="classogdf_1_1_sorted_sequence.html#a433511d2fc47565272f09b299456cdb1">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
 </li>
 <li>minNumIterations
 : <a class="el" href="structogdf_1_1fast__multipole__embedder_1_1_f_m_e_global_options.html#a2f2b3d411d6f1305dd22b604282d5b9c">ogdf::fast_multipole_embedder::FMEGlobalOptions</a>
@@ -7476,11 +7421,11 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <li>minOALevel()
 : <a class="el" href="classogdf_1_1_cluster_analysis.html#a749d85c4361e697fc96a1cf105eebb02">ogdf::ClusterAnalysis</a>
 </li>
-<li>minorType
-: <a class="el" href="structogdf_1_1_w_info.html#a84d9a60bee20f9858be41ea29dccd039">ogdf::WInfo</a>
-</li>
 <li>MinorType
 : <a class="el" href="structogdf_1_1_w_info.html#ada47dce76244bcbed809268a2da268d0">ogdf::WInfo</a>
+</li>
+<li>minorType
+: <a class="el" href="structogdf_1_1_w_info.html#a84d9a60bee20f9858be41ea29dccd039">ogdf::WInfo</a>
 </li>
 <li>MinSTCutBFS()
 : <a class="el" href="classogdf_1_1_min_s_t_cut_b_f_s.html#a0af3254f1bc9d822aa24d42e76629845">ogdf::MinSTCutBFS&lt; TCost &gt;</a>
@@ -7577,9 +7522,6 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 </li>
 <li>MMVariableEmbeddingInserter()
 : <a class="el" href="classogdf_1_1_m_m_variable_embedding_inserter.html#aa4bc713fc3e066b9850f244dadc9bf9f">ogdf::MMVariableEmbeddingInserter</a>
-</li>
-<li>Mode
-: <a class="el" href="classogdf_1_1_ogml_parser.html#a43d53742fc6db5d225d8d4e0e92fa0f1">ogdf::OgmlParser</a>
 </li>
 <li>model
 : <a class="el" href="class_minisat_1_1_internal_1_1_solver.html#ac871ad45495685b0624af563fde5d343">Minisat::Internal::Solver</a>
@@ -7716,7 +7658,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 , <a class="el" href="classogdf_1_1_min_steiner_tree_shore.html#a073ee1954e9cdc46ba5b7624a883605f">ogdf::MinSteinerTreeShore&lt; T &gt;</a>
 </li>
 <li>moveTarget()
-: <a class="el" href="classogdf_1_1_graph.html#a66f58c14ce22e375ebf97739b22a0214">ogdf::Graph</a>
+: <a class="el" href="classogdf_1_1_graph.html#a931e0a1d680e0c3a4ba6231cf6e50569">ogdf::Graph</a>
 , <a class="el" href="classogdf_1_1_min_steiner_tree_shore.html#a93728133cd508bb9a09f7951bbae3ddc">ogdf::MinSteinerTreeShore&lt; T &gt;</a>
 </li>
 <li>moveTo()
@@ -7734,16 +7676,13 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_list.html#a6b94e3fdf951440201acad7fd143af1d">ogdf::List&lt; E &gt;</a>
 , <a class="el" href="classogdf_1_1_list_pure.html#ac185c72c792415e34984f0247198e844">ogdf::ListPure&lt; E &gt;</a>
 </li>
-<li>moveToNextCharacter()
-: <a class="el" href="classogdf_1_1_line_buffer.html#a80855c28bdf907c794b0eeed8b3efff0">ogdf::LineBuffer</a>
-</li>
 <li>moveToPrec()
 : <a class="el" href="classogdf_1_1_list.html#a8919245acaaeb5b2a6c8610782dee869">ogdf::List&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_list_pure.html#af163a3553e2ed0a2395fca4a5f182176">ogdf::ListPure&lt; E &gt;</a>
+, <a class="el" href="classogdf_1_1_list_pure.html#a6bda8f48c6b531a429ba17ec59449312">ogdf::ListPure&lt; E &gt;</a>
 </li>
 <li>moveToSucc()
 : <a class="el" href="classogdf_1_1_list.html#ae0d12f4ea74a8a821ede0976006d9b77">ogdf::List&lt; E &gt;</a>
-, <a class="el" href="classogdf_1_1_list_pure.html#aede3daf9ae3451181bea750fed2c1b09">ogdf::ListPure&lt; E &gt;</a>
+, <a class="el" href="classogdf_1_1_list_pure.html#adfb6d452e190342a8d79dbef8131bde7">ogdf::ListPure&lt; E &gt;</a>
 </li>
 <li>moveToZero()
 : <a class="el" href="classogdf_1_1_multilevel_graph.html#ab267bf76b7d2efbe2e30b8c8929292b3">ogdf::MultilevelGraph</a>
@@ -7755,14 +7694,14 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_up_s_a_t.html#ae85efaa0f3239c4750fd1b8f91e2b3bf">ogdf::UpSAT</a>
 </li>
 <li>multiAlign()
-: <a class="el" href="classogdf_1_1_cluster_ortho_shaper.html#a56bd4305288c86149d146437c2807b00">ogdf::ClusterOrthoShaper</a>
-, <a class="el" href="classogdf_1_1_ortho_shaper.html#adebeff4d6627940766b6c920d962de67">ogdf::OrthoShaper</a>
+: <a class="el" href="classogdf_1_1_cluster_ortho_shaper.html#a6848c4662ea451e8674db930a2a6b60e">ogdf::ClusterOrthoShaper</a>
+, <a class="el" href="classogdf_1_1_ortho_shaper.html#a80012b62364183397836f1e305b98513">ogdf::OrthoShaper</a>
 </li>
 <li>multiDelta()
 : <a class="el" href="classogdf_1_1_edge_router.html#a439fc5daff80fe4912e5083d2c34d6d0">ogdf::EdgeRouter</a>
 </li>
 <li>MultiEdgeApproxInserter()
-: <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#ad228bd9e78843b4cdbebbfb0367ff558">ogdf::MultiEdgeApproxInserter</a>
+: <a class="el" href="classogdf_1_1_multi_edge_approx_inserter.html#ada70eede41dfb33afc90b08eb88104c0">ogdf::MultiEdgeApproxInserter</a>
 </li>
 <li>multiExp()
 : <a class="el" href="classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_expansion.html#a97fc95ce2d6639d5cdcef20e734f3db2">ogdf::fast_multipole_embedder::LinearQuadtreeExpansion</a>
@@ -7771,7 +7710,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 : <a class="el" href="classogdf_1_1_multilevel_builder.html#ad86cf5470ca2cb1a86dc2042db288b12">ogdf::MultilevelBuilder</a>
 </li>
 <li>MultilevelGraph()
-: <a class="el" href="classogdf_1_1_multilevel_graph.html#abff05ecf7d6d219c4ccb8a6cc7adc02d">ogdf::MultilevelGraph</a>
+: <a class="el" href="classogdf_1_1_multilevel_graph.html#a5d9ce469b4cf8a959962de99fb570916">ogdf::MultilevelGraph</a>
 </li>
 <li>MultilevelLayout()
 : <a class="el" href="classogdf_1_1_multilevel_layout.html#a6acde7d2367cb2b4d1410c85a2f9f08a">ogdf::MultilevelLayout</a>
@@ -7823,7 +7762,7 @@ $(document).ready(function(){initNavTree('functions_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

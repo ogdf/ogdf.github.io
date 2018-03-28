@@ -1,6 +1,6 @@
 <map id="ogdf::MinSteinerTreeModule&lt; T &gt;" name="ogdf::MinSteinerTreeModule&lt; T &gt;">
 <area shape="rect" id="node2" href="$classogdf_1_1_min_steiner_tree_directed_cut.html" title="This class implements the Directed Cut Integer Linear Program for the Steiner tree problem..." alt="" coords="301,5,493,47"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_min_steiner_tree_dual_ascent.html" title="Dual ascent approximation algorithm for Steiner tree problems. " alt="" coords="311,71,482,112"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_min_steiner_tree_dual_ascent.html" title="Dual ascent heuristic for the minimum Steiner tree problem. " alt="" coords="311,71,482,112"/>
 <area shape="rect" id="node4" href="$classogdf_1_1_min_steiner_tree_goemans139.html" title="This class implements the (1.39+epsilon)&#45;approximation algorithm for the Steiner tree problem by Goem..." alt="" coords="271,137,523,163"/>
 <area shape="rect" id="node5" href="$classogdf_1_1_min_steiner_tree_kou.html" title="This class implements the Minimum Steiner Tree 2&#45;approximation algorithm by Kou et al..." alt="" coords="297,187,496,214"/>
 <area shape="rect" id="node6" href="$classogdf_1_1_min_steiner_tree_mehlhorn.html" title="This class implements the Minimum Steiner Tree 2&#45;approximation algorithm by Mehlhorn. " alt="" coords="283,238,511,265"/>

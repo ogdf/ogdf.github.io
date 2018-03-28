@@ -68,7 +68,6 @@ var searchData=
   ['clustersetsimple',['ClusterSetSimple',['../classogdf_1_1_cluster_set_simple.html',1,'ogdf']]],
   ['cmap',['CMap',['../class_minisat_1_1_internal_1_1_c_map.html',1,'Minisat::Internal']]],
   ['coffmangrahamranking',['CoffmanGrahamRanking',['../classogdf_1_1_coffman_graham_ranking.html',1,'ogdf']]],
-  ['coincallbacks',['CoinCallbacks',['../classogdf_1_1_coin_callbacks.html',1,'ogdf']]],
   ['coinmanager',['CoinManager',['../classogdf_1_1_coin_manager.html',1,'ogdf']]],
   ['collectforcefunctor',['CollectForceFunctor',['../classogdf_1_1fast__multipole__embedder_1_1_collect_force_functor.html',1,'ogdf::fast_multipole_embedder']]],
   ['color',['Color',['../classogdf_1_1_color.html',1,'ogdf']]],

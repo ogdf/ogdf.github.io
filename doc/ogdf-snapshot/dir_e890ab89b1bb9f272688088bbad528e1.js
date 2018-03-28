@@ -20,6 +20,7 @@ var dir_e890ab89b1bb9f272688088bbad528e1 =
     [ "FMMMLayout.h", "_f_m_m_m_layout_8h.html", null ],
     [ "GEMLayout.h", "_g_e_m_layout_8h.html", null ],
     [ "MultilevelLayout.h", "_multilevel_layout_8h.html", null ],
+    [ "NodeRespecterLayout.h", "_node_respecter_layout_8h.html", null ],
     [ "PivotMDS.h", "_pivot_m_d_s_8h.html", "_pivot_m_d_s_8h" ],
     [ "SpringEmbedderFRExact.h", "_spring_embedder_f_r_exact_8h.html", [
       [ "SpringEmbedderFRExact", "classogdf_1_1_spring_embedder_f_r_exact.html", "classogdf_1_1_spring_embedder_f_r_exact" ],

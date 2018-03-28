@@ -2,7 +2,6 @@ var searchData=
 [
   ['clauseallocator',['ClauseAllocator',['../class_minisat_1_1_internal_1_1_clause.html#a4b58c002d425db12e1a8d49499359d69',1,'Minisat::Internal::Clause']]],
   ['clustergraph',['ClusterGraph',['../classogdf_1_1_cluster_element.html#a2fc1b467e32d321f4f4cc2644bd228fb',1,'ogdf::ClusterElement::ClusterGraph()'],['../classogdf_1_1_cluster_graph_observer.html#a2fc1b467e32d321f4f4cc2644bd228fb',1,'ogdf::ClusterGraphObserver::ClusterGraph()']]],
-  ['coinmanager',['CoinManager',['../classogdf_1_1_coin_callbacks.html#a777104bbf1ff1e34cb084062347ecccc',1,'ogdf::CoinCallbacks']]],
   ['combinatorialembedding',['CombinatorialEmbedding',['../classogdf_1_1_face_element.html#a58edc29eca9571bd1a56c8607ac12533',1,'ogdf::FaceElement']]],
   ['comporderbic',['CompOrderBic',['../classogdf_1_1_shelling_order.html#a62fa55facc43fa363dd6412f0083690a',1,'ogdf::ShellingOrder']]],
   ['conbranchrule',['ConBranchRule',['../classabacus_1_1_lp_sub.html#a888b4c101ce8ac6891db9097675dea1c',1,'abacus::LpSub']]],

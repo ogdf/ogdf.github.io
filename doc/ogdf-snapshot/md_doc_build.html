@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -160,13 +160,22 @@ Build Guide</h1>
 <p>OGDF code has a lot of extra assertions in its code, partly adding running time. These assertions are only activated in debug mode and if the advanced option <code>OGDF_DEBUG_MODE</code> is either set to <code>REGULAR</code> (it is by default) or <code>HEAVY</code> (even more assertions). The assertions (plus a backtrace of the calls) might be very valuable and helpful for debugging (user) code.</p>
 <p>There are two modes how failed assertions are handled.</p>
 <p>If <code>OGDF_USE_ASSERT_EXCEPTIONS</code> is turned off (default), an <code>assert()</code> call exits the program. Note that enabling this might hide failed assertions when <code>catch (...)</code> is used. You can get a call stack trace if the program was invoked with a debugger (which is part of many IDEs).</p>
-<p>If turned on, an <code>ogdf::AssertionFailed</code> exception is thrown instead. The informational string returned by the <code>what()</code> method contains the failed expression, its source code file, line, and function. By also setting the <code>OGDF_USE_ASSERT_EXCEPTIONS_WITH_STACK_TRACE</code> variable to <code>ON_LIBDW</code> (if libdw is installed, recommended), <code>ON_LIBBFD</code> (if libbfd from binutils is installed), or <code>ON_LIBUNWIND</code> (if libunwind is installed), a stack trace will be part of the exception's <code>what()</code> return string. As far as we know, this feature only works on Linux. </p>
+<p>If turned on, an <code>ogdf::AssertionFailed</code> exception is thrown instead. The informational string returned by the <code>what()</code> method contains the failed expression, its source code file, line, and function. By also setting the <code>OGDF_USE_ASSERT_EXCEPTIONS_WITH_STACK_TRACE</code> variable to <code>ON_LIBDW</code> (if libdw is installed, recommended), <code>ON_LIBBFD</code> (if libbfd from binutils is installed), or <code>ON_LIBUNWIND</code> (if libunwind is installed), a stack trace will be part of the exception's <code>what()</code> return string. As far as we know, this feature only works on Linux.</p>
+<h2>System-wide Installation</h2>
+<p>System-wide installation of OGDF is supported through the standard mechanisms provided by CMake. This support, however, is not thoroughly tested and may change in the future.</p>
+<p>Current limitations are that Debug and Release installations are not supported at the same time. We also do not provide version information at the moment.</p>
+<h2>Building User Code</h2>
+<p>When you want to build user code that uses OGDF, you have to take care of the correct include paths. You should use <code>&lt;OGDF build directory&gt;/include</code> and <code>&lt;OGDF source directory&gt;/include</code> as include paths, and your OGDF build directory as library path. In case of an in-source build, the build and source directories coincide. It is not supported to have in-source and out-of-source builds at the same time. In case you want to remove an in-source build entirely, do not forget to remove the file <code><a class="el" href="config__autogen_8h.html">include/ogdf/basic/internal/config_autogen.h</a></code>.</p>
+<p>If you are running into linking errors, undefined behavior or crashes at runtime, a typical mistake is that OGDF and user code is compiled in different modes (like Debug mode and Release mode). To make sure that your configuration is correct, you might use the file <code>examples/special/check-build-mode.cpp</code> and try to compile it using your configuration.</p>
+<p>On Unix systems, typical compilation and linkage of user code would look like this:</p>
+<div class="fragment"><div class="line"># compile source files</div><div class="line">c++ -Ibuild_path/include -Isource_path/include -o file1.o -c file1.cpp</div><div class="line">c++ -Ibuild_path/include -Isource_path/include -o file2.o -c file2.cpp</div><div class="line"># link source files</div><div class="line">c++ -o output_binary -Lbuild_path file1.o file2.o -lOGDF -lCOIN</div></div><!-- fragment --><h3>Example CMake configuration</h3>
+<p>Since OGDF uses CMake, it is convenient for you to use CMake, too. The file <code>examples/special/CMakeLists.txt</code> contains a basic configuration to start with. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

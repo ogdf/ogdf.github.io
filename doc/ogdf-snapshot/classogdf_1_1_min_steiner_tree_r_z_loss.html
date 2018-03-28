@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -191,7 +191,7 @@ Protected Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a56acb83b5aa4a0479e87f9a5d3cb856e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a56acb83b5aa4a0479e87f9a5d3cb856e">computeDistanceMatrix</a> ()</td></tr>
-<tr class="memdesc:a56acb83b5aa4a0479e87f9a5d3cb856e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute m_distance and m_pred.  <a href="#a56acb83b5aa4a0479e87f9a5d3cb856e">More...</a><br /></td></tr>
+<tr class="memdesc:a56acb83b5aa4a0479e87f9a5d3cb856e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes distance and predecessor matrix.  <a href="#a56acb83b5aa4a0479e87f9a5d3cb856e">More...</a><br /></td></tr>
 <tr class="separator:a56acb83b5aa4a0479e87f9a5d3cb856e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aece9340f696b01afe4e43e4641fd3943"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#aece9340f696b01afe4e43e4641fd3943">contractLoss</a> (<a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, int compId)</td></tr>
 <tr class="memdesc:aece9340f696b01afe4e43e4641fd3943"><td class="mdescLeft">&#160;</td><td class="mdescRight">Contracts the loss of a full component and integrates it into the given terminal-spanning tree.  <a href="#aece9340f696b01afe4e43e4641fd3943">More...</a><br /></td></tr>
@@ -227,20 +227,19 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:ae052fb4ce9788362adca7c09de44cf41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of components lookups.  <a href="#ae052fb4ce9788362adca7c09de44cf41">More...</a><br /></td></tr>
 <tr class="separator:ae052fb4ce9788362adca7c09de44cf41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2f2165356d8705d83d94599b0c6436c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#ad2f2165356d8705d83d94599b0c6436c">m_distance</a></td></tr>
+<tr class="memdesc:ad2f2165356d8705d83d94599b0c6436c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance matrix for full components.  <a href="#ad2f2165356d8705d83d94599b0c6436c">More...</a><br /></td></tr>
 <tr class="separator:ad2f2165356d8705d83d94599b0c6436c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9b5acd0228814d312899dbe339ada9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1steiner__tree_1_1_full_component_with_loss_store.html">steiner_tree::FullComponentWithLossStore</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#ab9b5acd0228814d312899dbe339ada9d">m_fullCompStore</a></td></tr>
-<tr class="memdesc:ab9b5acd0228814d312899dbe339ada9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">All generated full components.  <a href="#ab9b5acd0228814d312899dbe339ada9d">More...</a><br /></td></tr>
-<tr class="separator:ab9b5acd0228814d312899dbe339ada9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4eee15d801770ae90a084c17d9bfe724"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classogdf_1_1steiner__tree_1_1_full_component_with_loss_store.html">steiner_tree::FullComponentWithLossStore</a>&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a4eee15d801770ae90a084c17d9bfe724">m_fullCompStore</a></td></tr>
+<tr class="memdesc:a4eee15d801770ae90a084c17d9bfe724"><td class="mdescLeft">&#160;</td><td class="mdescRight">All generated full components.  <a href="#a4eee15d801770ae90a084c17d9bfe724">More...</a><br /></td></tr>
+<tr class="separator:a4eee15d801770ae90a084c17d9bfe724"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a400805f3361b4ebd7469e6352e38c39b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a400805f3361b4ebd7469e6352e38c39b">m_isTerminal</a></td></tr>
 <tr class="memdesc:a400805f3361b4ebd7469e6352e38c39b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Incidence vector for terminal nodes.  <a href="#a400805f3361b4ebd7469e6352e38c39b">More...</a><br /></td></tr>
 <tr class="separator:a400805f3361b4ebd7469e6352e38c39b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35b7643b4a88c64bdd69a7bbdcc56408"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt; <a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a35b7643b4a88c64bdd69a7bbdcc56408">m_nonterminals</a></td></tr>
-<tr class="memdesc:a35b7643b4a88c64bdd69a7bbdcc56408"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container of Steiner (non-terminal) nodes.  <a href="#a35b7643b4a88c64bdd69a7bbdcc56408">More...</a><br /></td></tr>
-<tr class="separator:a35b7643b4a88c64bdd69a7bbdcc56408"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cfb4983481bc5d53a15584926efab35"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a2cfb4983481bc5d53a15584926efab35">m_originalGraph</a></td></tr>
 <tr class="memdesc:a2cfb4983481bc5d53a15584926efab35"><td class="mdescLeft">&#160;</td><td class="mdescRight">The original edge-weighted graph.  <a href="#a2cfb4983481bc5d53a15584926efab35">More...</a><br /></td></tr>
 <tr class="separator:a2cfb4983481bc5d53a15584926efab35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0542b4698e7bbe12174dda26df8b18cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; <a class="el" href="group__graphs.html#gae0cee9acb9903ded4912cb46c0c829a5">edge</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a0542b4698e7bbe12174dda26df8b18cf">m_pred</a></td></tr>
+<tr class="memdesc:a0542b4698e7bbe12174dda26df8b18cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Predecessor matrix for full components.  <a href="#a0542b4698e7bbe12174dda26df8b18cf">More...</a><br /></td></tr>
 <tr class="separator:a0542b4698e7bbe12174dda26df8b18cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3aaef1189033d43ead042e7a3bf47235"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html#a3aaef1189033d43ead042e7a3bf47235">m_restricted</a></td></tr>
 <tr class="memdesc:a3aaef1189033d43ead042e7a3bf47235"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parameter for the number of terminals in a full component.  <a href="#a3aaef1189033d43ead042e7a3bf47235">More...</a><br /></td></tr>
@@ -304,6 +303,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a8fecb7d68f283a153c8247c9feb23417 inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a8fecb7d68f283a153c8247c9feb23417">drawSVG</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const char *filename)</td></tr>
 <tr class="memdesc:a8fecb7d68f283a153c8247c9feb23417 inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an SVG file of a minimum Steiner tree in the original graph.  <a href="classogdf_1_1_min_steiner_tree_module.html#a8fecb7d68f283a153c8247c9feb23417">More...</a><br /></td></tr>
 <tr class="separator:a8fecb7d68f283a153c8247c9feb23417 inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf16950c9429343012ce4029ab42758e inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#adf16950c9429343012ce4029ab42758e">drawSVG</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph.html">EdgeWeightedGraph</a>&lt; T &gt; &amp;G, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const char *filename)</td></tr>
+<tr class="memdesc:adf16950c9429343012ce4029ab42758e inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes an SVG file of the instance graph.  <a href="classogdf_1_1_min_steiner_tree_module.html#adf16950c9429343012ce4029ab42758e">More...</a><br /></td></tr>
+<tr class="separator:adf16950c9429343012ce4029ab42758e inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae882932fb65db1f4a6559df8e30d6b67 inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classogdf_1_1_min_steiner_tree_module.html#ae882932fb65db1f4a6559df8e30d6b67">drawSteinerTreeSVG</a> (const <a class="el" href="classogdf_1_1_edge_weighted_graph_copy.html">EdgeWeightedGraphCopy</a>&lt; T &gt; &amp;steinerTree, const <a class="el" href="classogdf_1_1_node_array.html">NodeArray</a>&lt; bool &gt; &amp;isTerminal, const char *filename)</td></tr>
 <tr class="memdesc:ae882932fb65db1f4a6559df8e30d6b67 inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes a SVG that shows only the given Steiner tree.  <a href="classogdf_1_1_min_steiner_tree_module.html#ae882932fb65db1f4a6559df8e30d6b67">More...</a><br /></td></tr>
 <tr class="separator:ae882932fb65db1f4a6559df8e30d6b67 inherit pub_static_methods_classogdf_1_1_min_steiner_tree_module"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -320,7 +322,7 @@ class ogdf::MinSteinerTreeRZLoss&lt; T &gt;</h3>
 <p>This implementation is based on:</p>
 <p>(G. Robins, A. Zelikovsky, Improved Steiner Tree Approximation in Graphs, SODA 2000, pages 770-779, SIAM, 2000) </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00062">62</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00063">63</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ae3e158fd59c4222c12420a199e2ea5a5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae3e158fd59c4222c12420a199e2ea5a5">&#9670;&nbsp;</a></span>SaveStatic</h2>
@@ -338,7 +340,7 @@ template&lt;typename TYPE &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00064">64</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00065">65</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -368,7 +370,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00066">66</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00067">67</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -398,7 +400,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00072">72</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00073">73</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -427,7 +429,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00078">78</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00079">79</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -494,7 +496,7 @@ template&lt;typename T &gt; </div>
 
 <p>Reimplemented from <a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a27f92bfbfeeb4c373a923c053e38d24c">ogdf::MinSteinerTreeModule&lt; T &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00080">80</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00081">81</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -523,7 +525,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Compute m_distance and m_pred. </p>
+<p>Computes distance and predecessor matrix. </p>
 
 <p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00272">272</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
@@ -592,7 +594,7 @@ template&lt;typename T &gt; </div>
 
 <p>Implements <a class="el" href="classogdf_1_1_min_steiner_tree_module.html#a670aca509e97bbcda09871796e94be0e">ogdf::MinSteinerTreeModule&lt; T &gt;</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00205">205</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00208">208</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -825,7 +827,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00102">102</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00103">103</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1012,7 +1014,7 @@ template&lt;typename T &gt; </div>
 
 <p>Returns the number of components lookups during execution time. </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00118">118</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00119">119</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1043,7 +1045,7 @@ template&lt;typename T &gt; </div>
 
 <p>Returns the number of contracted components. </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00113">113</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00114">114</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1074,7 +1076,7 @@ template&lt;typename T &gt; </div>
 
 <p>Returns the number of generated components. </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00108">108</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00109">109</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1112,7 +1114,7 @@ template&lt;typename T &gt; </div>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00092">92</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00093">93</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1141,7 +1143,7 @@ template&lt;typename T &gt; </div>
 
 <p>Number of contracted components. </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00200">200</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00203">203</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1169,7 +1171,7 @@ template&lt;typename T &gt; </div>
 
 <p>Number of generated components. </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00199">199</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00202">202</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1197,7 +1199,7 @@ template&lt;typename T &gt; </div>
 
 <p>Number of components lookups. </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00201">201</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00204">204</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1223,12 +1225,14 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00196">196</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p>Distance matrix for full components. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00198">198</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
-<a id="ab9b5acd0228814d312899dbe339ada9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9b5acd0228814d312899dbe339ada9d">&#9670;&nbsp;</a></span>m_fullCompStore</h2>
+<a id="a4eee15d801770ae90a084c17d9bfe724"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4eee15d801770ae90a084c17d9bfe724">&#9670;&nbsp;</a></span>m_fullCompStore</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1239,7 +1243,7 @@ template&lt;typename T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1steiner__tree_1_1_full_component_with_loss_store.html">steiner_tree::FullComponentWithLossStore</a>&lt;T&gt;* <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html">ogdf::MinSteinerTreeRZLoss</a>&lt; T &gt;::m_fullCompStore</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classogdf_1_1steiner__tree_1_1_full_component_with_loss_store.html">steiner_tree::FullComponentWithLossStore</a>&lt;T&gt; &gt; <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html">ogdf::MinSteinerTreeRZLoss</a>&lt; T &gt;::m_fullCompStore</td>
         </tr>
       </table>
   </td>
@@ -1279,35 +1283,7 @@ template&lt;typename T &gt; </div>
 
 <p>Incidence vector for terminal nodes. </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00190">190</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
-
-</div>
-</div>
-<a id="a35b7643b4a88c64bdd69a7bbdcc56408"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35b7643b4a88c64bdd69a7bbdcc56408">&#9670;&nbsp;</a></span>m_nonterminals</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classogdf_1_1_array_buffer.html">ArrayBuffer</a>&lt;<a class="el" href="group__graphs.html#gab5b3e7ed7cf2e6271b285c7ed39b87e2">node</a>&gt; <a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html">ogdf::MinSteinerTreeRZLoss</a>&lt; T &gt;::m_nonterminals</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Container of Steiner (non-terminal) nodes. </p>
-
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00192">192</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00191">191</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1335,7 +1311,7 @@ template&lt;typename T &gt; </div>
 
 <p>The original edge-weighted graph. </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00189">189</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00190">190</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1361,7 +1337,9 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00197">197</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p>Predecessor matrix for full components. </p>
+
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00200">200</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1445,7 +1423,7 @@ template&lt;typename T &gt; </div>
 
 <p><a class="el" href="classogdf_1_1_list.html" title="Doubly linked lists (maintaining the length of the list). ">List</a> of terminal nodes (will be copied and sorted) </p>
 
-<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00191">191</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html#l00192">192</a> of file <a class="el" href="_min_steiner_tree_r_z_loss_8h_source.html">MinSteinerTreeRZLoss.h</a>.</p>
 
 </div>
 </div>
@@ -1458,7 +1436,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceogdf.html">ogdf</a></li><li class="navelem"><a class="el" href="classogdf_1_1_min_steiner_tree_r_z_loss.html">MinSteinerTreeRZLoss</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

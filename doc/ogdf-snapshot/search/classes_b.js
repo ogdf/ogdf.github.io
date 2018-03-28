@@ -31,8 +31,6 @@ var searchData=
   ['linearquadtree',['LinearQuadtree',['../classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree.html',1,'ogdf::fast_multipole_embedder']]],
   ['linearquadtreebuilder',['LinearQuadtreeBuilder',['../classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_builder.html',1,'ogdf::fast_multipole_embedder']]],
   ['linearquadtreeexpansion',['LinearQuadtreeExpansion',['../classogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_expansion.html',1,'ogdf::fast_multipole_embedder']]],
-  ['linebuffer',['LineBuffer',['../classogdf_1_1_line_buffer.html',1,'ogdf']]],
-  ['linebufferposition',['LineBufferPosition',['../classogdf_1_1_line_buffer_position.html',1,'ogdf']]],
   ['linkoption',['LinkOption',['../structogdf_1_1disjoint__sets_1_1_link_option.html',1,'ogdf::disjoint_sets']]],
   ['list',['List',['../classogdf_1_1_list.html',1,'ogdf']]],
   ['list_3c_20abacus_3a_3aconstraint_20_2a_20_3e',['List&lt; abacus::Constraint * &gt;',['../classogdf_1_1_list.html',1,'ogdf']]],

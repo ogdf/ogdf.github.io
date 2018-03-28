@@ -1,6 +1,6 @@
 var classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r =
 [
-    [ "LPRelaxationSER", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a32dd1fdf46eb25e22233b3bb9f219eb6", null ],
+    [ "LPRelaxationSER", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a10278f5543a6eae03197e4befb8f1d10", null ],
     [ "~LPRelaxationSER", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#ae14817b77177eb195de3121cd425cc31", null ],
     [ "addSubsetCoverConstraint", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a683014059b1470d34706aecc6e1244ed", null ],
     [ "addTerminalCoverConstraint", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#afbd935feacf06d1cd2f8340d0369d2e4", null ],
@@ -12,7 +12,6 @@ var classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r =
     [ "separateCycles", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a3a82a5cc55efd050593b21e86dd4d2ce", null ],
     [ "separateMinCut", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#aa095d62443beb38930a154de7d969fef", null ],
     [ "solve", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a26ec4955d9449f2dbb777676f645618e", null ],
-    [ "m_approx2SteinerTree", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a73f00feba237511b094dd55d1ab122ae", null ],
     [ "m_eps", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a4e3cc413516408d81cd85b68159a5ef8", null ],
     [ "m_fullCompStore", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#adc4f4d8936dfa08a987d6baa775f0052", null ],
     [ "m_G", "classogdf_1_1steiner__tree_1_1_l_p_relaxation_s_e_r.html#a8fc7a47ade5d458b37ae8950b3d79e4e", null ],

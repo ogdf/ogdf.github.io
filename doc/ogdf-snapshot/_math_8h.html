@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -129,7 +129,8 @@ $(document).ready(function(){initNavTree('_math_8h.html','');});
 
 <p>Mathematical Helpers.  
 <a href="#details">More...</a></p>
-<div class="textblock"><code>#include &lt;<a class="el" href="basic_8h_source.html">ogdf/basic/basic.h</a>&gt;</code><br />
+<div class="textblock"><code>#include &lt;numeric&gt;</code><br />
+<code>#include &lt;<a class="el" href="basic_8h_source.html">ogdf/basic/basic.h</a>&gt;</code><br />
 <code>#include &lt;<a class="el" href="_array_8h_source.html">ogdf/basic/Array.h</a>&gt;</code><br />
 </div>
 <p><a href="_math_8h_source.html">Go to the source code of this file.</a></p>
@@ -189,6 +190,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a7f747c63b813f65deaf84201256f86e9"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#a7f747c63b813f65deaf84201256f86e9">ogdf::Math::log4</a> (double x)</td></tr>
 <tr class="memdesc:a7f747c63b813f65deaf84201256f86e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the logarithm of <code>x</code> to the base 4.  <a href="namespaceogdf_1_1_math.html#a7f747c63b813f65deaf84201256f86e9">More...</a><br /></td></tr>
 <tr class="separator:a7f747c63b813f65deaf84201256f86e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae31ca2f1373ddcfb842d9ce05277717a"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:ae31ca2f1373ddcfb842d9ce05277717a"><td class="memTemplItemLeft" align="right" valign="top">Container::value_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#ae31ca2f1373ddcfb842d9ce05277717a">ogdf::Math::maxValue</a> (const Container &amp;values)</td></tr>
+<tr class="memdesc:ae31ca2f1373ddcfb842d9ce05277717a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the maximum of an iterable container of given <code>values</code>.  <a href="namespaceogdf_1_1_math.html#ae31ca2f1373ddcfb842d9ce05277717a">More...</a><br /></td></tr>
+<tr class="separator:ae31ca2f1373ddcfb842d9ce05277717a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd673b96f646463f6cb4be8755124952"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:afd673b96f646463f6cb4be8755124952"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#afd673b96f646463f6cb4be8755124952">ogdf::Math::mean</a> (const Container &amp;values)</td></tr>
+<tr class="memdesc:afd673b96f646463f6cb4be8755124952"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the mean of an iterable container of given <code>values</code>.  <a href="namespaceogdf_1_1_math.html#afd673b96f646463f6cb4be8755124952">More...</a><br /></td></tr>
+<tr class="separator:afd673b96f646463f6cb4be8755124952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ccb86289653d65e3913d1069e32d44e"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a9ccb86289653d65e3913d1069e32d44e"><td class="memTemplItemLeft" align="right" valign="top">Container::value_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#a9ccb86289653d65e3913d1069e32d44e">ogdf::Math::minValue</a> (const Container &amp;values)</td></tr>
+<tr class="memdesc:a9ccb86289653d65e3913d1069e32d44e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the minimum of an iterable container of given <code>values</code>.  <a href="namespaceogdf_1_1_math.html#a9ccb86289653d65e3913d1069e32d44e">More...</a><br /></td></tr>
+<tr class="separator:a9ccb86289653d65e3913d1069e32d44e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79c54ffb8b81b8f287299a2ce4602fe2"><td class="memTemplParams" colspan="2">template&lt;typename T , int size&gt; </td></tr>
 <tr class="memitem:a79c54ffb8b81b8f287299a2ce4602fe2"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; size==1, T &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math_1_1internal.html#a79c54ffb8b81b8f287299a2ce4602fe2">ogdf::Math::internal::nextPower2</a> (T x)</td></tr>
 <tr class="separator:a79c54ffb8b81b8f287299a2ce4602fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +224,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a74880ea7fc87ad2af2d3d65a5990ee8c"><td class="memTemplItemLeft" align="right" valign="top">int&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#a74880ea7fc87ad2af2d3d65a5990ee8c">ogdf::Math::sgn</a> (T val)</td></tr>
 <tr class="memdesc:a74880ea7fc87ad2af2d3d65a5990ee8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns +1 for val &gt; 0, 0 for val = 0, and -1 for val &lt; 0.  <a href="namespaceogdf_1_1_math.html#a74880ea7fc87ad2af2d3d65a5990ee8c">More...</a><br /></td></tr>
 <tr class="separator:a74880ea7fc87ad2af2d3d65a5990ee8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c100f66da7259509c30876f086b3697"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a1c100f66da7259509c30876f086b3697"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#a1c100f66da7259509c30876f086b3697">ogdf::Math::standardDeviation</a> (const Container &amp;values, double mean)</td></tr>
+<tr class="memdesc:a1c100f66da7259509c30876f086b3697"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the standard deviation of an iterable container of given <code>values</code>.  <a href="namespaceogdf_1_1_math.html#a1c100f66da7259509c30876f086b3697">More...</a><br /></td></tr>
+<tr class="separator:a1c100f66da7259509c30876f086b3697"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05ff5ec3632055261926ec6aa1347a66"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a05ff5ec3632055261926ec6aa1347a66"><td class="memTemplItemLeft" align="right" valign="top">double&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#a05ff5ec3632055261926ec6aa1347a66">ogdf::Math::standardDeviation</a> (const Container &amp;values)</td></tr>
+<tr class="memdesc:a05ff5ec3632055261926ec6aa1347a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the standard deviation of an iterable container of given <code>values</code>.  <a href="namespaceogdf_1_1_math.html#a05ff5ec3632055261926ec6aa1347a66">More...</a><br /></td></tr>
+<tr class="separator:a05ff5ec3632055261926ec6aa1347a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9269fbf6645b2458ca2176c951ea35b4"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a9269fbf6645b2458ca2176c951ea35b4"><td class="memTemplItemLeft" align="right" valign="top">Container::value_type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#a9269fbf6645b2458ca2176c951ea35b4">ogdf::Math::sum</a> (const Container &amp;values)</td></tr>
+<tr class="memdesc:a9269fbf6645b2458ca2176c951ea35b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the sum of an iterable container of given <code>values</code>.  <a href="namespaceogdf_1_1_math.html#a9269fbf6645b2458ca2176c951ea35b4">More...</a><br /></td></tr>
+<tr class="separator:a9269fbf6645b2458ca2176c951ea35b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99f42b475a926b4f478c575c59c24d2e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a99f42b475a926b4f478c575c59c24d2e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceogdf_1_1_math.html#a99f42b475a926b4f478c575c59c24d2e">ogdf::Math::updateMax</a> (T &amp;max, const T &amp;newValue)</td></tr>
 <tr class="memdesc:a99f42b475a926b4f478c575c59c24d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the maximum of <code>max</code> and <code>newValue</code> in <code>max</code>.  <a href="namespaceogdf_1_1_math.html#a99f42b475a926b4f478c575c59c24d2e">More...</a><br /></td></tr>
@@ -258,7 +283,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_946faf0608b096809b336c78e83b057e.html">ogdf</a></li><li class="navelem"><a class="el" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html">basic</a></li><li class="navelem"><a class="el" href="_math_8h.html">Math.h</a></li>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>

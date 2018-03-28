@@ -5,19 +5,9 @@ var searchData=
   ['vertex',['vertex',['../classogdf_1_1_graph.html#abfefed1cf73ecd215796ad529a5f741da2b5bc093b09bd81f51de433bde9d202a',1,'ogdf::Graph']]],
   ['vertexsizearc',['VertexSizeArc',['../namespaceogdf.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca35f4723fdad5af7666f3bf648e6b7d06',1,'ogdf']]],
   ['vertical',['Vertical',['../group__graph-drawing.html#gga3fa89995b8a28ae0a566cc9e2f3d3c80a06ce2a25e5d12c166a36f654dbea6012',1,'ogdf::Vertical()'],['../namespaceogdf.html#a6bdf4c93c9029bacf4850096731bfb5fa06ce2a25e5d12c166a36f654dbea6012',1,'ogdf::Vertical()']]],
+  ['verticesminusdepth',['VerticesMinusDepth',['../classogdf_1_1_schnyder_layout.html#a967bca2cc37c7ff9b689876897f8cb87a32ac3e1caa1aa68b79e31201fc5acf2e',1,'ogdf::SchnyderLayout']]],
   ['violet',['Violet',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a80f1187112e2e5e0403499147f7014b8',1,'ogdf::Color']]],
   ['visibilityarc',['VisibilityArc',['../namespaceogdf.html#a2cb1e53dd146b58e9665ba9e70fa1d7cac0f06d98a28c4c8e43105e50b659d220',1,'ogdf']]],
   ['vmx',['VMX',['../group__system.html#ggadf1f0673cd41c92e0d15fe7980c3923cab21819f000ff3fd488fe20c783df0402',1,'ogdf::VMX()'],['../group__system.html#ggad727f4d33911afb5e5717278b354117eab21819f000ff3fd488fe20c783df0402',1,'ogdf::VMX()']]],
-  ['voronoi',['voronoi',['../classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a1b4683e2fc3862e2f13441c939e06428',1,'ogdf::MinSteinerTreeZelikovsky']]],
-  ['vs_5fattvalueerr',['vs_attValueErr',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a9cfdc5838c27bfc6c8cbcb0aba3a218d',1,'ogdf::Ogml']]],
-  ['vs_5fcarderr',['vs_cardErr',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a3d7053a3109011dded30130a1be55932',1,'ogdf::Ogml']]],
-  ['vs_5fexpattnotfound',['vs_expAttNotFound',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07ac512474c7f8488cac3b5a1fff3381e0e',1,'ogdf::Ogml']]],
-  ['vs_5fexptagnotfound',['vs_expTagNotFound',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a26db468276a95b91e3fc9a9975a03df0',1,'ogdf::Ogml']]],
-  ['vs_5fidnotunique',['vs_idNotUnique',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a7402760508055ea4dcf306a74a2222fa',1,'ogdf::Ogml']]],
-  ['vs_5fidreferr',['vs_idRefErr',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a7b6c4e22ccde9932a196ac80ada85add',1,'ogdf::Ogml']]],
-  ['vs_5finvalid',['vs_invalid',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a5c4a0ba45ca905b613f667dbfb0fa63d',1,'ogdf::Ogml']]],
-  ['vs_5ftagemptincl',['vs_tagEmptIncl',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a7c0023407ba5e5de70f4e8a9b3dccf0c',1,'ogdf::Ogml']]],
-  ['vs_5funexpatt',['vs_unexpAtt',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07aed13302b4e9022e382c1c4de59e72266',1,'ogdf::Ogml']]],
-  ['vs_5funexptag',['vs_unexpTag',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a33f7a764103051c40f5bf538669680b4',1,'ogdf::Ogml']]],
-  ['vs_5fvalid',['vs_valid',['../classogdf_1_1_ogml.html#a7a7fbd69d161d2d8ba79639770020a07a1e86d2d9c0c051905af5997644d3cedb',1,'ogdf::Ogml']]]
+  ['voronoi',['voronoi',['../classogdf_1_1_min_steiner_tree_zelikovsky.html#a4ee038de1567010fbf51211635112b17a1b4683e2fc3862e2f13441c939e06428',1,'ogdf::MinSteinerTreeZelikovsky']]]
 ];

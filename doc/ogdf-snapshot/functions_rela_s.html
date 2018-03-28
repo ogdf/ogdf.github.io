@@ -42,7 +42,7 @@
      <td width="264"><a href="http://www.ogdf.net" title="Go to www.ogdf.net" target="blank"><img  style="border-width: 0px" src="http://www.ogdf.net/lib/images/logoA.png"/></a></td>
      <td align="left"><h1 class="ogdftitle">Open<br>Graph Drawing<br>Framework</h1></td>
         <td align="left" valign="bottom" >
-      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2017-07-23</span><br>&nbsp;
+      <span style="font-size:110%; color:rgb(56,95,118)">&nbsp;v. snapshot-2018-03-28</span><br>&nbsp;
         </td>
     </tr>
    </table>
@@ -164,15 +164,28 @@ $(document).ready(function(){initNavTree('functions_rela_s.html','');});
 , <a class="el" href="classogdf_1_1_s_list_iterator_base.html#a8f23a820ea5965d9c08e68dddce93608">ogdf::SListIteratorBase&lt; E, isConst &gt;</a>
 </li>
 <li>SortedSequence&lt; KEY, INFO, CMP &gt;
-: <a class="el" href="classogdf_1_1_sorted_sequence_const_iterator.html#aa1dfb3824a0add810ed3facaa0c98c67">ogdf::SortedSequenceConstIterator&lt; KEY, INFO, CMP &gt;</a>
-, <a class="el" href="classogdf_1_1_sorted_sequence_iterator.html#aa1dfb3824a0add810ed3facaa0c98c67">ogdf::SortedSequenceIterator&lt; KEY, INFO, CMP &gt;</a>
+: <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html#aa1dfb3824a0add810ed3facaa0c98c67">ogdf::SortedSequenceIteratorBase&lt; KEY, INFO, CMP, isConst, isReverse &gt;</a>
 </li>
-<li>SortedSequenceConstIterator&lt; KEY, INFO, CMP &gt;
-: <a class="el" href="classogdf_1_1_sorted_sequence.html#a8444dc8fce7d480aaa3a882739d95ef3">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
-, <a class="el" href="classogdf_1_1_sorted_sequence_iterator.html#a8444dc8fce7d480aaa3a882739d95ef3">ogdf::SortedSequenceIterator&lt; KEY, INFO, CMP &gt;</a>
+<li>SortedSequenceIteratorBase&lt; KEY, INFO, CMP, false, false &gt;
+: <a class="el" href="classogdf_1_1_sorted_sequence.html#a0210d01292947d953ec381f9ba3f5269">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
 </li>
-<li>SortedSequenceIterator&lt; KEY, INFO, CMP &gt;
-: <a class="el" href="classogdf_1_1_sorted_sequence.html#aeab3db2e639c2f36ffdf8c7b4ebcb6dd">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+<li>SortedSequenceIteratorBase&lt; KEY, INFO, CMP, false, true &gt;
+: <a class="el" href="classogdf_1_1_sorted_sequence.html#a633fb5d7866745e3f33f1855e606d4f0">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+</li>
+<li>SortedSequenceIteratorBase&lt; KEY, INFO, CMP, isConst,!isReverse &gt;
+: <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html#a150c5b43abf6eebc469d005120e31184">ogdf::SortedSequenceIteratorBase&lt; KEY, INFO, CMP, isConst, isReverse &gt;</a>
+</li>
+<li>SortedSequenceIteratorBase&lt; KEY, INFO, CMP, true, false &gt;
+: <a class="el" href="classogdf_1_1_sorted_sequence.html#ac9aaebacfa55135761054d5be809d3a7">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+</li>
+<li>SortedSequenceIteratorBase&lt; KEY, INFO, CMP, true, true &gt;
+: <a class="el" href="classogdf_1_1_sorted_sequence.html#ac06bd0ae5a40cfb382b1ac8798fa83a5">ogdf::SortedSequence&lt; KEY, INFO, CMP &gt;</a>
+</li>
+<li>SortedSequenceIteratorBase&lt; KEY, INFO, CMP,!isConst, isReverse &gt;
+: <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html#aa428542f7451ba7bd28be4fc9f43d5be">ogdf::SortedSequenceIteratorBase&lt; KEY, INFO, CMP, isConst, isReverse &gt;</a>
+</li>
+<li>SortedSequenceIteratorBase&lt; KEY, INFO, CMP,!isConst,!isReverse &gt;
+: <a class="el" href="classogdf_1_1_sorted_sequence_iterator_base.html#a852e5f0ac1de4147c6e3355433e43789">ogdf::SortedSequenceIteratorBase&lt; KEY, INFO, CMP, isConst, isReverse &gt;</a>
 </li>
 <li>SPQRTree
 : <a class="el" href="classogdf_1_1_pertinent_graph.html#a5cdb8a555e2396a8610b483873f6fe2d">ogdf::PertinentGraph</a>
@@ -216,7 +229,7 @@ $(document).ready(function(){initNavTree('functions_rela_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">&copy; 1999&ndash;2017 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
+    <li class="footer">&copy; 1999&ndash;2018 <a href="http://ogdf.net/doku.php/team:about">The OGDF Team</a></li>
   </ul>
 </div>
 </body>
