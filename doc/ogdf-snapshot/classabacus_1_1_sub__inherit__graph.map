@@ -1,6 +1,0 @@
-<map id="abacus::Sub" name="abacus::Sub">
-<area shape="rect" id="node3" href="$classogdf_1_1cluster__planarity_1_1_c_planarity_sub.html" title="ogdf::cluster_planarity\l::CPlanaritySub" alt="" coords="361,5,511,47"/>
-<area shape="rect" id="node4" href="$classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html" title="ogdf::cluster_planarity\l::MaxCPlanarSub" alt="" coords="361,71,511,112"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html" title="Subproblem of Steiner tree algorithm. " alt="" coords="340,136,532,177"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,78,149,105"/>
-</map>

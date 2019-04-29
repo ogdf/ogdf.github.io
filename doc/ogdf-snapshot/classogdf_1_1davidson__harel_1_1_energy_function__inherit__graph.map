@@ -1,8 +1,0 @@
-<map id="ogdf::davidson_harel::EnergyFunction" name="ogdf::davidson_harel::EnergyFunction">
-<area shape="rect" id="node2" href="$classogdf_1_1davidson__harel_1_1_node_pair_energy.html" title="ogdf::davidson_harel\l::NodePairEnergy" alt="" coords="196,71,339,112"/>
-<area shape="rect" id="node6" href="$classogdf_1_1davidson__harel_1_1_planarity.html" title="ogdf::davidson_harel\l::Planarity" alt="" coords="196,136,339,177"/>
-<area shape="rect" id="node7" href="$classogdf_1_1davidson__harel_1_1_planarity_grid.html" title="ogdf::davidson_harel\l::PlanarityGrid" alt="" coords="196,201,339,243"/>
-<area shape="rect" id="node3" href="$classogdf_1_1davidson__harel_1_1_attraction.html" title="Energy function for attraction between two adjacent vertices. " alt="" coords="387,5,529,47"/>
-<area shape="rect" id="node4" href="$classogdf_1_1davidson__harel_1_1_overlap.html" title="ogdf::davidson_harel\l::Overlap" alt="" coords="387,71,529,112"/>
-<area shape="rect" id="node5" href="$classogdf_1_1davidson__harel_1_1_repulsion.html" title="ogdf::davidson_harel\l::Repulsion" alt="" coords="387,136,529,177"/>
-</map>

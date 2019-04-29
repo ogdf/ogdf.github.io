@@ -1,6 +1,0 @@
-<map id="ogdf::BCTree" name="ogdf::BCTree">
-<area shape="rect" id="node2" href="$classogdf_1_1_dynamic_b_c_tree.html" title="Dynamic BC&#45;trees. " alt="" coords="33,80,185,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_dynamic_s_p_q_r_forest.html" title="Dynamic SPQR&#45;forest. " alt="" coords="18,155,201,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_dynamic_s_p_q_r_tree.html" title="Linear&#45;time implementation of dynamic SPQR&#45;trees. " alt="" coords="24,229,195,256"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_dynamic_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="5,304,213,331"/>
-</map>

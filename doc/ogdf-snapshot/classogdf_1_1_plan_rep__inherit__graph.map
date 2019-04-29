@@ -1,7 +1,0 @@
-<map id="ogdf::PlanRep" name="ogdf::PlanRep">
-<area shape="rect" id="node4" href="$classogdf_1_1_cluster_plan_rep.html" title="Planarized representations for clustered graphs. " alt="" coords="5,229,152,256"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="176,229,309,256"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting. " alt="" coords="99,80,221,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation). " alt="" coords="115,5,205,32"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_plan_rep_inc.html" title="This class is only an adaption of PlanRep for the special incremental drawing case. " alt="" coords="181,304,304,331"/>
-</map>

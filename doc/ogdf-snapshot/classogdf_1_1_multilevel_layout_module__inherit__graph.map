@@ -1,5 +1,0 @@
-<map id="ogdf::MultilevelLayoutModule" name="ogdf::MultilevelLayoutModule">
-<area shape="rect" id="node3" href="$classogdf_1_1_preprocessor_layout.html" title="The PreprocessorLayout removes multi&#45;edges and self&#45;loops. " alt="" coords="5,155,176,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_scaling_layout.html" title="Scales a graph layout and calls a secondary layout algorithm. " alt="" coords="201,155,338,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms. " alt="" coords="112,5,248,32"/>
-</map>

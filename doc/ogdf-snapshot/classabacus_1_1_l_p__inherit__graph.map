@@ -1,6 +1,0 @@
-<map id="abacus::LP" name="abacus::LP">
-<area shape="rect" id="node3" href="$classabacus_1_1_lp_sub.html" title="The linear program of a subproblem. " alt="" coords="5,155,115,181"/>
-<area shape="rect" id="node5" href="$classabacus_1_1_osi_i_f.html" title="abacus::OsiIF" alt="" coords="139,155,243,181"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="53,5,197,32"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_lp_sub_osi.html" title="abacus::LpSubOsi" alt="" coords="61,229,190,256"/>
-</map>

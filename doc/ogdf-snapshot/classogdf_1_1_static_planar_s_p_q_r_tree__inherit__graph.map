@@ -1,5 +1,0 @@
-<map id="ogdf::StaticPlanarSPQRTree" name="ogdf::StaticPlanarSPQRTree">
-<area shape="rect" id="node2" href="$classogdf_1_1_static_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees. " alt="" coords="5,80,159,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees. " alt="" coords="112,5,231,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs. " alt="" coords="183,80,339,107"/>
-</map>

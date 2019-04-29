@@ -1,7 +1,0 @@
-var searchData=
-[
-  ['uint32_5fmax',['UINT32_MAX',['../_int_types_8h.html#ab5eb23180f7cc12b7d6c04a8ec067fdd',1,'IntTypes.h']]],
-  ['uint32_5fmin',['UINT32_MIN',['../_int_types_8h.html#af2a8408fbb6decd71eb49bd3e4a1649f',1,'IntTypes.h']]],
-  ['uint64_5fmax',['UINT64_MAX',['../_int_types_8h.html#a30654b4b67d97c42ca3f9b6052dda916',1,'IntTypes.h']]],
-  ['uint64_5fmin',['UINT64_MIN',['../_int_types_8h.html#a49201bdfc59cccf6f337a171f8ab4e91',1,'IntTypes.h']]]
-];

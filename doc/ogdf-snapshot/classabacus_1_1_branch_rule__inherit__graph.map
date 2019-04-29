@@ -1,7 +1,0 @@
-<map id="abacus::BranchRule" name="abacus::BranchRule">
-<area shape="rect" id="node3" href="$classabacus_1_1_bound_branch_rule.html" title="Implements a branching rule for modifying the lower and the upper bound of a variable. " alt="" coords="385,5,563,32"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_con_branch_rule.html" title="Implements the branching by adding a constraint to the set of active constraints. ..." alt="" coords="392,56,556,83"/>
-<area shape="rect" id="node5" href="$classabacus_1_1_set_branch_rule.html" title="Implements a branching rule for setting a binary variable to its lower or upper bound. " alt="" coords="394,107,554,133"/>
-<area shape="rect" id="node6" href="$classabacus_1_1_val_branch_rule.html" title="Implements a branching rule for setting a variable to a certain value. " alt="" coords="395,157,553,184"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS. " alt="" coords="5,81,149,108"/>
-</map>

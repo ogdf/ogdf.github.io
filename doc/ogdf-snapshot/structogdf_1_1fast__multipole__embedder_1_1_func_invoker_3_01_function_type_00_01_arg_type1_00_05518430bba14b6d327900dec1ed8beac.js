@@ -1,8 +1,0 @@
-var structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_05518430bba14b6d327900dec1ed8beac =
-[
-    [ "FuncInvoker", "structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_05518430bba14b6d327900dec1ed8beac.html#ac581a8e92e1e45741d632857c2e80e9d", null ],
-    [ "operator()", "structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_05518430bba14b6d327900dec1ed8beac.html#aa1743a9ffefca53b69395f7971623d84", null ],
-    [ "arg1", "structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_05518430bba14b6d327900dec1ed8beac.html#ab927d0a498313191619cb90594e36f7a", null ],
-    [ "arg2", "structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_05518430bba14b6d327900dec1ed8beac.html#aebc6ec6d1cfda7b00eac3872cd6f1575", null ],
-    [ "function", "structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_arg_type1_00_05518430bba14b6d327900dec1ed8beac.html#aed3427bc5c08a16378aefa9b85e47ec5", null ]
-];

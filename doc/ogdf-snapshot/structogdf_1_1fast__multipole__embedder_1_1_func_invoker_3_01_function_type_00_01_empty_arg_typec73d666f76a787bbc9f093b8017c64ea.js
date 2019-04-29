@@ -1,6 +1,0 @@
-var structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_empty_arg_typec73d666f76a787bbc9f093b8017c64ea =
-[
-    [ "FuncInvoker", "structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_empty_arg_typec73d666f76a787bbc9f093b8017c64ea.html#aab1f66e84161747d0df2739ad3896535", null ],
-    [ "operator()", "structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_empty_arg_typec73d666f76a787bbc9f093b8017c64ea.html#a7d4d543818a83c63c8a3d65fc439f454", null ],
-    [ "function", "structogdf_1_1fast__multipole__embedder_1_1_func_invoker_3_01_function_type_00_01_empty_arg_typec73d666f76a787bbc9f093b8017c64ea.html#a7c20982f444776d7dde2272d66554110", null ]
-];

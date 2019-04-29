@@ -1,7 +1,0 @@
-<map id="ogdf::VariableEmbeddingInserterBase" name="ogdf::VariableEmbeddingInserterBase">
-<area shape="rect" id="node5" href="$classogdf_1_1_variable_embedding_inserter.html" title="Optimal edge insertion module. " alt="" coords="5,229,216,256"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_variable_embedding_inserter_dyn.html" title="Optimal edge insertion module. " alt="" coords="240,229,475,256"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms. " alt="" coords="145,80,322,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules. " alt="" coords="121,5,218,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality. " alt="" coords="242,5,355,32"/>
-</map>
