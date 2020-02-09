@@ -1,0 +1,6 @@
+<map id="ogdf::CPlanarSubgraphModule" name="ogdf::CPlanarSubgraphModule">
+<area shape="rect" id="node1" title="Interface of algorithms for the computation of c&#45;planar subgraphs." alt="" coords="19,80,217,107"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_maximum_c_planar_subgraph.html" title="Exact computation of a maximum c&#45;planar subgraph." alt="" coords="11,155,225,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+</map>

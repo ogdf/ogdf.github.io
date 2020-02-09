@@ -1,0 +1,6 @@
+<map id="ogdf::PrioritizedMapQueue&lt; E, P, C, Impl, HashFunc &gt;" name="ogdf::PrioritizedMapQueue&lt; E, P, C, Impl, HashFunc &gt;">
+<area shape="rect" id="node1" title="Prioritized queue interface wrapper for heaps." alt="" coords="655,35,845,76"/>
+<area shape="rect" id="node2" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="392,5,607,105"/>
+<area shape="rect" id="node3" href="$classogdf_1_1pq__internal_1_1_prioritized_queue.html" title="Defines a queue for handling prioritized elements." alt="" coords="201,27,344,83"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_priority_queue.html" title="Priority queue interface wrapper for heaps." alt="" coords="5,35,153,76"/>
+</map>

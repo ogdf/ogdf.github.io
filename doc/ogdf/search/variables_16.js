@@ -1,12 +1,15 @@
 var searchData=
 [
-  ['x',['x',['../classogdf_1_1_prioritized.html#abdf41b95da626129049af68e29472fe2',1,'ogdf::Prioritized::x()'],['../classogdf_1_1_heap_element.html#a7e4838deb27f482c47b8db645165296f',1,'ogdf::HeapElement::x()'],['../classogdf_1_1_fast_hierarchy_layout.html#a8a737cad7627cfdbecc7cc5e256c2312',1,'ogdf::FastHierarchyLayout::x()'],['../structogdf_1_1_bertault_layout_1_1proj.html#a80cfe5f200bebd783ded5eac272425c7',1,'ogdf::BertaultLayout::proj::x()'],['../structogdf_1_1_visibility_layout_1_1_edge_segment.html#ae859224a2d9c3438dc298e412e359f0a',1,'ogdf::VisibilityLayout::EdgeSegment::x()']]],
-  ['x_5fl',['x_l',['../structogdf_1_1_visibility_layout_1_1_node_segment.html#a6a63f6d710c3a251a216418ac239fd50',1,'ogdf::VisibilityLayout::NodeSegment']]],
-  ['x_5fr',['x_r',['../structogdf_1_1_visibility_layout_1_1_node_segment.html#a9f80931443d302007f9785ba0444aa9c',1,'ogdf::VisibilityLayout::NodeSegment']]],
-  ['x_5fy_5fcoord',['x_y_coord',['../classogdf_1_1_particle_info.html#a16f1cc50186724640dfa227b0d1102ab',1,'ogdf::ParticleInfo']]],
-  ['xcoord',['xCoord',['../classogdf_1_1_dominance_layout.html#af3297642a4f5ca3d748211ee7a80a379',1,'ogdf::DominanceLayout']]],
-  ['xnodes',['xNodes',['../classogdf_1_1_dominance_layout.html#a9d8548044209b4aada5cfe79ecbd0ca4',1,'ogdf::DominanceLayout']]],
-  ['xprecoord',['xPreCoord',['../classogdf_1_1_dominance_layout.html#aa2eaeabe3331b062aaa313da66a602b6',1,'ogdf::DominanceLayout']]],
-  ['xval_5f',['xVal_',['../classabacus_1_1_osi_i_f.html#a6ff843d66ed482292f74906f6a8468c1',1,'abacus::OsiIF::xVal_()'],['../classabacus_1_1_sub.html#ab6e1176f96f27168f1831c2a94e727a1',1,'abacus::Sub::xVal_()']]],
-  ['xvalstatus_5f',['xValStatus_',['../classabacus_1_1_l_p.html#a5950d2b910e737a241ef57c7bd07ce45',1,'abacus::LP']]]
+  ['w_22196',['w',['../structogdf_1_1_w_info.html#abcff4310adc26e960d555a61a0e7b756',1,'ogdf::WInfo']]],
+  ['wasted_5f_22197',['wasted_',['../class_minisat_1_1_internal_1_1_region_allocator.html#aaa0cd804ec99ec6364c9ac82bd733bf9',1,'Minisat::Internal::RegionAllocator']]],
+  ['watches_22198',['watches',['../class_minisat_1_1_internal_1_1_solver.html#aaaac096c498e25f45a0e2efa881122ad',1,'Minisat::Internal::Solver']]],
+  ['weight_22199',['weight',['../structogdf_1_1_preprocessor_layout_1_1_edge_data.html#a6daf4d81ba89da943e265f269a6a8e33',1,'ogdf::PreprocessorLayout::EdgeData']]],
+  ['weightofsubtree_22200',['weightOfSubtree',['../classogdf_1_1steiner__tree_1_1_heavy_path_decomposition.html#af6fb6501854a8e5551d3631650b5a354',1,'ogdf::steiner_tree::HeavyPathDecomposition']]],
+  ['wide_5fstream_22201',['wide_stream',['../classpugi_1_1xml__writer__stream.html#a2a2d6d877beda21263dc36e37a40ac71',1,'pugi::xml_writer_stream']]],
+  ['width_22202',['width',['../classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html#ab4a17df7958db9fac7a7d2aa1ffccb2e',1,'ogdf::energybased::fmmm::Rectangle::width()'],['../classogdf_1_1energybased_1_1fmmm_1_1_node_attributes.html#abd1cb79cc255c68b0368c57a4e077914',1,'ogdf::energybased::fmmm::NodeAttributes::width()']]],
+  ['wnodes_22203',['wNodes',['../classogdf_1_1_kuratowski_structure.html#ac2151c517ddad68327a20a74c77f5b2c',1,'ogdf::KuratowskiStructure']]],
+  ['world_22204',['world',['../classogdf_1_1_logger.html#a03e73f911afe112f4132a09c2bec05b5',1,'ogdf::Logger']]],
+  ['ws_5f_22205',['ws_',['../classabacus_1_1_osi_i_f.html#aa20af8bf83c069fce2aeaf30de530a8f',1,'abacus::OsiIF']]],
+  ['wsfunction_22206',['WSFunction',['../structogdf_1_1fast__multipole__embedder_1_1_linear_quadtree_1_1wspd__functor.html#ae4a71cf5632db99ebb67e49a6f227246',1,'ogdf::fast_multipole_embedder::LinearQuadtree::wspd_functor']]],
+  ['wspd_22207',['wspd',['../classogdf_1_1fast__multipole__embedder_1_1_m2_l_functor.html#a21230e1892e4fa14662e9f576382ea45',1,'ogdf::fast_multipole_embedder::M2LFunctor']]]
 ];

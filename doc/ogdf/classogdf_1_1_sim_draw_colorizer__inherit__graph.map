@@ -1,0 +1,4 @@
+<map id="ogdf::SimDrawColorizer" name="ogdf::SimDrawColorizer">
+<area shape="rect" id="node1" title="Adds color to a graph." alt="" coords="13,95,174,121"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_sim_draw_manipulator_module.html" title="Interface for simdraw manipulators." alt="" coords="5,5,181,47"/>
+</map>

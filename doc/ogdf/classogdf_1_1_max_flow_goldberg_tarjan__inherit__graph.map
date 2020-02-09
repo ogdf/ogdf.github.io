@@ -1,0 +1,4 @@
+<map id="ogdf::MaxFlowGoldbergTarjan&lt; TCap &gt;" name="ogdf::MaxFlowGoldbergTarjan&lt; TCap &gt;">
+<area shape="rect" id="node1" title="Computes a max flow via Preflow&#45;Push (global relabeling and gap relabeling heuristic)." alt="" coords="5,95,201,136"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_max_flow_module.html" title=" " alt="" coords="28,5,179,47"/>
+</map>

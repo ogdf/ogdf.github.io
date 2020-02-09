@@ -1,0 +1,6 @@
+<map id="ogdf::SplitHeuristic" name="ogdf::SplitHeuristic">
+<area shape="rect" id="node1" title="The split heuristic for 2&#45;layer crossing minimization." alt="" coords="50,229,183,256"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_two_layer_cross_min_sim_draw.html" title=" " alt="" coords="5,155,228,181"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_layer_by_layer_sweep.html" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="29,80,204,107"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="17,5,216,32"/>
+</map>

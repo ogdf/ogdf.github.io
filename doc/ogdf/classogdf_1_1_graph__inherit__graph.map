@@ -1,0 +1,23 @@
+<map id="ogdf::Graph" name="ogdf::Graph">
+<area shape="rect" id="node1" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="5,289,96,315"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_edge_weighted_graph.html" title=" " alt="" coords="176,5,351,47"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_common_compaction_constraint_graph_base.html" title="A common base class for ogdf::GridCompactionConstraintGraphBase and ogdf::CompactionConstraintGraphBa..." alt="" coords="144,71,383,112"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_edge_weighted_graph.html" title=" " alt="" coords="160,137,367,163"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_expansion_graph.html" title="Represents expansion graph of each biconnected component of a given digraph, i.e.,..." alt="" coords="188,187,339,214"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_extended_nesting_graph.html" title=" " alt="" coords="168,238,359,265"/>
+<area shape="rect" id="node9" href="$classogdf_1_1_face_sink_graph.html" title=" " alt="" coords="191,289,336,315"/>
+<area shape="rect" id="node10" href="$classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting." alt="" coords="203,339,324,366"/>
+<area shape="rect" id="node18" href="$classogdf_1_1_graph_copy_simple.html" title="Copies of graphs with mapping between nodes and edges." alt="" coords="183,390,344,417"/>
+<area shape="rect" id="node19" href="$classogdf_1_1_graph_reduction.html" title="Creates a reduced graph by removing leaves, self&#45;loops, and reducing chains." alt="" coords="189,441,338,467"/>
+<area shape="rect" id="node20" href="$classogdf_1_1_plan_rep_expansion.html" title="Planarized representations (of a connected component) of a graph." alt="" coords="180,491,347,518"/>
+<area shape="rect" id="node21" href="$classogdf_1_1_uml_model_graph.html" title="This class represents the complete UML Model in a graph&#45;like data structure." alt="" coords="189,542,338,569"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_compaction_constraint_graph_base.html" title="Class implementing template&#45;parameter&#45;independent behaviour of ogdf::CompactionConstraintGraph." alt="" coords="457,71,643,112"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_compaction_constraint_graph.html" title="Represents a constraint graph used for compaction." alt="" coords="717,71,903,112"/>
+<area shape="rect" id="node11" href="$classogdf_1_1_edge_weighted_graph_copy.html" title=" " alt="" coords="431,263,669,290"/>
+<area shape="rect" id="node12" href="$classogdf_1_1_plan_rep.html" title="Planarized representations (of a connected component) of a graph." alt="" coords="497,314,603,341"/>
+<area shape="rect" id="node16" href="$classogdf_1_1_plan_rep_light.html" title="Light&#45;weight version of a planarized representation, associated with a PlanRep." alt="" coords="483,365,617,391"/>
+<area shape="rect" id="node17" href="$classogdf_1_1_upward_plan_rep.html" title="Upward planarized representations (of a connected component) of a graph." alt="" coords="475,415,625,442"/>
+<area shape="rect" id="node13" href="$classogdf_1_1_cluster_plan_rep.html" title="Planarized representations for clustered graphs." alt="" coords="737,289,883,315"/>
+<area shape="rect" id="node14" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="743,339,877,366"/>
+<area shape="rect" id="node15" href="$classogdf_1_1_plan_rep_inc.html" title="This class is only an adaption of PlanRep for the special incremental drawing case." alt="" coords="951,339,1073,366"/>
+</map>

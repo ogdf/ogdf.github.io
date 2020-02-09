@@ -1,0 +1,7 @@
+<map id="ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master" name="ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Master">
+<area shape="rect" id="node1" title="Master problem of Steiner tree branch&amp;cut algorithm" alt="" coords="50,229,242,271"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_master.html" title="The master of the optimization." alt="" coords="26,155,138,181"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_abacus_global.html" title="Global data and functions." alt="" coords="5,80,159,107"/>
+<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="10,5,154,32"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_logger.html" title="Centralized global and local logging facility working on streams like std::cout." alt="" coords="163,155,257,181"/>
+</map>

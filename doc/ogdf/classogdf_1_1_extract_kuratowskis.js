@@ -1,9 +1,9 @@
 var classogdf_1_1_extract_kuratowskis =
 [
-    [ "enumKuratowskiType", "classogdf_1_1_extract_kuratowskis.html#a7ff92743de6011f9d7a900c086781e75", [
-      [ "none", "classogdf_1_1_extract_kuratowskis.html#a7ff92743de6011f9d7a900c086781e75af7f5821b529defc3a6f372b6777536ac", null ],
-      [ "K33", "classogdf_1_1_extract_kuratowskis.html#a7ff92743de6011f9d7a900c086781e75a5e0291f369f9ca9192f7601a9e19d088", null ],
-      [ "K5", "classogdf_1_1_extract_kuratowskis.html#a7ff92743de6011f9d7a900c086781e75afa077456d82b2f6a88e508b30196d7a0", null ]
+    [ "KuratowskiType", "classogdf_1_1_extract_kuratowskis.html#a49941b74a28c91c3ed3b8857b90dcb9e", [
+      [ "none", "classogdf_1_1_extract_kuratowskis.html#a49941b74a28c91c3ed3b8857b90dcb9ea334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
+      [ "K33", "classogdf_1_1_extract_kuratowskis.html#a49941b74a28c91c3ed3b8857b90dcb9eaa875c7bb48fbff4e17fa1d8b4821b181", null ],
+      [ "K5", "classogdf_1_1_extract_kuratowskis.html#a49941b74a28c91c3ed3b8857b90dcb9ea0b48b1841bf2b209986a30f9720aafd1", null ]
     ] ],
     [ "ExtractKuratowskis", "classogdf_1_1_extract_kuratowskis.html#a9d20dba07b310e16b39d9de8cc13242f", null ],
     [ "~ExtractKuratowskis", "classogdf_1_1_extract_kuratowskis.html#aca278a1c2ad16ba50d0448701b7ac844", null ],
@@ -11,6 +11,7 @@ var classogdf_1_1_extract_kuratowskis =
     [ "addDFSPathReverse", "classogdf_1_1_extract_kuratowskis.html#a11fc62ee8d16dad7f1dc70c71f8bc0b9", null ],
     [ "addExternalFacePath", "classogdf_1_1_extract_kuratowskis.html#af7e973859754d143c637507a2248681a", null ],
     [ "adjToLowestNodeBelow", "classogdf_1_1_extract_kuratowskis.html#a67a69423816a90ed568de0af1a721b38", null ],
+    [ "checkMinorE2", "classogdf_1_1_extract_kuratowskis.html#a9ef69997daada1d49dc174a54198624b", null ],
     [ "extract", "classogdf_1_1_extract_kuratowskis.html#a2b4df2327aeb1149f6b07d490e5859ba", null ],
     [ "extractBundles", "classogdf_1_1_extract_kuratowskis.html#a97881d52db49c1ab9821dd85665be8d5", null ],
     [ "extractMinorA", "classogdf_1_1_extract_kuratowskis.html#a0104a6abd3fbba0f5146082948fe8eb3", null ],
@@ -25,12 +26,17 @@ var classogdf_1_1_extract_kuratowskis =
     [ "extractMinorE4", "classogdf_1_1_extract_kuratowskis.html#a7afb025ed83f522b21e5a90c198fe2f2", null ],
     [ "extractMinorE5", "classogdf_1_1_extract_kuratowskis.html#ac2546705acb17967de1f075de3212ade", null ],
     [ "extractMinorEBundles", "classogdf_1_1_extract_kuratowskis.html#a02c111987135ff10f83e115dce07a85b", null ],
-    [ "isANewKuratowski", "classogdf_1_1_extract_kuratowskis.html#a4d24c2935371bb5bb2ede80351cd31ae", null ],
     [ "isANewKuratowski", "classogdf_1_1_extract_kuratowskis.html#acd7e12aa10e4f68dd51a0830af5e2c9a", null ],
+    [ "isANewKuratowski", "classogdf_1_1_extract_kuratowskis.html#a4d24c2935371bb5bb2ede80351cd31ae", null ],
+    [ "isMinorE1", "classogdf_1_1_extract_kuratowskis.html#a995f23e65b92eb6af82827312b8e533f", null ],
+    [ "isMinorE2", "classogdf_1_1_extract_kuratowskis.html#ac8b41ab2c840831a0111bcf163c5f0a3", null ],
+    [ "isMinorE3", "classogdf_1_1_extract_kuratowskis.html#a18f57a7495d9b4925fc166071e1e157e", null ],
+    [ "isMinorE4", "classogdf_1_1_extract_kuratowskis.html#a3a7c416dddae48c140c459e79d869f61", null ],
+    [ "isMinorE5", "classogdf_1_1_extract_kuratowskis.html#a87febc68f64ab3b261a0392d709d5ad4", null ],
     [ "operator=", "classogdf_1_1_extract_kuratowskis.html#a098348fbbc28e6ef9f6d125639ffc707", null ],
     [ "truncateEdgelist", "classogdf_1_1_extract_kuratowskis.html#ace50c68bf692b11abfae0149b467e38c", null ],
-    [ "whichKuratowski", "classogdf_1_1_extract_kuratowskis.html#ac75f0a3775fce7330f69c42d8ff17559", null ],
-    [ "whichKuratowskiArray", "classogdf_1_1_extract_kuratowskis.html#ab770fc63c7b2f72184fbb9c885691313", null ],
+    [ "whichKuratowski", "classogdf_1_1_extract_kuratowskis.html#a91560f057063e75a05f248b468044424", null ],
+    [ "whichKuratowskiArray", "classogdf_1_1_extract_kuratowskis.html#aa2608ef2aa9f09ae9805451d3e8f53dc", null ],
     [ "BMP", "classogdf_1_1_extract_kuratowskis.html#a3713dabef8fe2f42395d069a479a3bdb", null ],
     [ "m_adjParent", "classogdf_1_1_extract_kuratowskis.html#aa124f5c13916b86922625cbe0a29544d", null ],
     [ "m_avoidE2Minors", "classogdf_1_1_extract_kuratowskis.html#ae00fa02ffff99999595cc41c6b81cc77", null ],

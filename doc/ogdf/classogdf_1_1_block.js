@@ -1,8 +1,8 @@
 var classogdf_1_1_block =
 [
     [ "~Block", "classogdf_1_1_block.html#a36806577ac9df378130a1ba4ff8f8626", null ],
-    [ "Block", "classogdf_1_1_block.html#a5a7d61b065792c56e5d31b92b2084c7e", null ],
-    [ "Block", "classogdf_1_1_block.html#aaf4c8b38be4605578077f0c74c031463", null ],
+    [ "Block", "classogdf_1_1_block.html#aff2b2806b0fa05f5c5603f4f2ec04a07", null ],
+    [ "Block", "classogdf_1_1_block.html#a17bfce79de79e8892a3d4791c7f40685", null ],
     [ "isEdgeBlock", "classogdf_1_1_block.html#a7f83e66d251b763e8369c6ae93b4fe49", null ],
     [ "isVertexBlock", "classogdf_1_1_block.html#a000939e391d4511ae39f9c4d70ba382b", null ],
     [ "BlockOrder", "classogdf_1_1_block.html#ab2279a72e7eba03b2e29a4a5168b93d5", null ],
@@ -17,6 +17,5 @@ var classogdf_1_1_block =
     [ "m_NeighboursOutgoing", "classogdf_1_1_block.html#a4d8c0cca7d603381f64c72542df5352b", null ],
     [ "m_Node", "classogdf_1_1_block.html#abc451261eba90acfe991bef637ca76f2", null ],
     [ "m_nodes", "classogdf_1_1_block.html#a260e7365f2f21c152ec95071e75f85ef", null ],
-    [ "m_pOrder", "classogdf_1_1_block.html#a4e7b68806dac9889e3360deffb0e098d", null ],
     [ "m_upper", "classogdf_1_1_block.html#a5fe7be7fe39fff8179be41cfdf0a4302", null ]
 ];

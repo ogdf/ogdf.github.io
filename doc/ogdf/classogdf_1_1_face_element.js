@@ -10,8 +10,8 @@ var classogdf_1_1_face_element =
     [ "succ", "classogdf_1_1_face_element.html#ae6a85c3cdf29c7ee4449910592cfb747", null ],
     [ "CombinatorialEmbedding", "classogdf_1_1_face_element.html#a58edc29eca9571bd1a56c8607ac12533", null ],
     [ "ConstCombinatorialEmbedding", "classogdf_1_1_face_element.html#aba123355c368bcda1c493095b3bbe5fb", null ],
-    [ "GraphList< FaceElement >", "classogdf_1_1_face_element.html#aed74d850a6989db66578b25951541878", null ],
-    [ "m_adjFirst", "classogdf_1_1_face_element.html#acb047ee9d1c7419f2df4c7764aacceea", null ],
+    [ "internal::GraphList< FaceElement >", "classogdf_1_1_face_element.html#a7cceb92d87257dd4c299018d3ac2a5ba", null ],
+    [ "entries", "classogdf_1_1_face_element.html#ae73fc0c0466439e08273b19604791727", null ],
     [ "m_id", "classogdf_1_1_face_element.html#af3f71ee6ba1028cb6a029433eda6ee6a", null ],
     [ "m_size", "classogdf_1_1_face_element.html#ab7d8203716ac363c2be6a8cdea22e918", null ]
 ];

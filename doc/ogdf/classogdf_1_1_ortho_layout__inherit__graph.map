@@ -1,0 +1,4 @@
+<map id="ogdf::OrthoLayout" name="ogdf::OrthoLayout">
+<area shape="rect" id="node1" title="The Orthogonal layout algorithm for planar graphs." alt="" coords="35,80,162,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layout_plan_rep_module.html" title="Interface for planar layout algorithms (used in the planarization approach)." alt="" coords="5,5,192,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ogdf::LevelBase" name="ogdf::LevelBase">
+<area shape="rect" id="node1" title="Representation of levels in hierarchies." alt="" coords="69,5,185,32"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_array_level.html" title="The simple implementation of LevelBase interface." alt="" coords="5,80,123,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_level.html" title="Representation of levels in hierarchies." alt="" coords="147,80,234,107"/>
+</map>

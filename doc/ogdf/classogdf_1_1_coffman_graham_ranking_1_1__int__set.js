@@ -8,7 +8,7 @@ var classogdf_1_1_coffman_graham_ranking_1_1__int__set =
     [ "length", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a28f8c17e77e5652fc361d64d264882a5", null ],
     [ "operator[]", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a8f34c384a6ff7075d3ed14ba9939cd28", null ],
     [ "ready", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a942f818d42cb1c29488f478c25dce33c", null ],
-    [ "A", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#af03dcb605af13c654aa18b5678ffd0c4", null ],
-    [ "l", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#aefd19dbcc1926c4ef0b1e3d3a8142d8f", null ],
-    [ "p", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#ac3d625253a68f1e7162bb9935090bc4e", null ]
+    [ "m_array", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#ab2972153eda436f30f975465e0475aab", null ],
+    [ "m_index", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a5063aa20e7a75383fd80356caa72fff4", null ],
+    [ "m_length", "classogdf_1_1_coffman_graham_ranking_1_1__int__set.html#a76783b0dbea959637de3f41ea8d96db0", null ]
 ];

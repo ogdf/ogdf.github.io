@@ -1,17 +1,16 @@
 var _boyer_myrvold_planar_8h =
 [
     [ "BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html", "classogdf_1_1_boyer_myrvold_planar" ],
-    [ "OGDF_BOYER_MYRVOLD_PLANAR_H", "_boyer_myrvold_planar_8h.html#ae481733475825c842cd29126afbcb615", null ],
-    [ "enumDirection", "_boyer_myrvold_planar_8h.html#a4b216693fd93da9ed00497c9f795c79a", [
-      [ "CCW", "_boyer_myrvold_planar_8h.html#a4b216693fd93da9ed00497c9f795c79aae7bf42e57859ea732889c78228cb960f", null ],
-      [ "CW", "_boyer_myrvold_planar_8h.html#a4b216693fd93da9ed00497c9f795c79aa668ae5437fe32013130a6310eaae15be", null ]
+    [ "BoyerMyrvoldEdgeType", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111", [
+      [ "Undefined", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111aec0fc0100c4fc1ce4eea230c3dc10360", null ],
+      [ "Selfloop", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111a9f0f96a75579b65f26062a6f180dfc60", null ],
+      [ "Back", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111a0557fa923dcee4d0f86b1409f5c2167f", null ],
+      [ "Dfs", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111a0578b3a1f4450ddcd5f2d323355a4126", null ],
+      [ "DfsParallel", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111a2fdd4842b2ebc1895a07f5441dc08809", null ],
+      [ "BackDeleted", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111aa07329cfb915c77117a7e624a20ea12f", null ]
     ] ],
-    [ "enumEdgeType", "_boyer_myrvold_planar_8h.html#a0f9e7ce5df7d39b37cae28fa4783d71e", [
-      [ "EDGE_UNDEFINED", "_boyer_myrvold_planar_8h.html#a0f9e7ce5df7d39b37cae28fa4783d71eae8ab991502569243c8a2c55479d08c90", null ],
-      [ "EDGE_SELFLOOP", "_boyer_myrvold_planar_8h.html#a0f9e7ce5df7d39b37cae28fa4783d71eac3a2c4196e7564c07c6408bf54427a94", null ],
-      [ "EDGE_BACK", "_boyer_myrvold_planar_8h.html#a0f9e7ce5df7d39b37cae28fa4783d71eabaf1cb0d39de7a2eb3927c709b386b5f", null ],
-      [ "EDGE_DFS", "_boyer_myrvold_planar_8h.html#a0f9e7ce5df7d39b37cae28fa4783d71ea36af3cc8498e1874f0dbe87a7ba07093", null ],
-      [ "EDGE_DFS_PARALLEL", "_boyer_myrvold_planar_8h.html#a0f9e7ce5df7d39b37cae28fa4783d71ea3736282cade7d4d0ce4cb67a61d51455", null ],
-      [ "EDGE_BACK_DELETED", "_boyer_myrvold_planar_8h.html#a0f9e7ce5df7d39b37cae28fa4783d71ea7f46c3620545f56b30b233837024c4c8", null ]
-    ] ]
+    [ "operator!=", "_boyer_myrvold_planar_8h.html#aba6bce3ffbd10b1d837856a95b585ef0", null ],
+    [ "operator<=", "_boyer_myrvold_planar_8h.html#a62d0b6878e21b687a1d7fbc82ec23aa3", null ],
+    [ "operator==", "_boyer_myrvold_planar_8h.html#a19fd145e5a7d7fc4d6c0ef04ef5b5fbf", null ],
+    [ "operator>", "_boyer_myrvold_planar_8h.html#a279111234fb81980825d19ba2cfda7d6", null ]
 ];

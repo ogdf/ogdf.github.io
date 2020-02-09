@@ -1,0 +1,6 @@
+<map id="ogdf::AugmentationModule" name="ogdf::AugmentationModule">
+<area shape="rect" id="node1" title="The base class for graph augmentation algorithms." alt="" coords="207,5,384,32"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_dfs_make_biconnected.html" title="Implementation of a DFS&#45;based algorithm for biconnectivity augmentation." alt="" coords="5,80,185,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_planar_augmentation.html" title="The algorithm for planar biconnectivity augmentation (Mutzel, Fialko)." alt="" coords="209,80,381,107"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_planar_augmentation_fix.html" title="The algorithm for biconnectivity augmentation with fixed combinatorial embedding." alt="" coords="405,80,596,107"/>
+</map>

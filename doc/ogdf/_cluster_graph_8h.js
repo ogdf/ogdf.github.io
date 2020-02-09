@@ -2,16 +2,14 @@ var _cluster_graph_8h =
 [
     [ "ClusterArray", "classogdf_1_1_cluster_array.html", "classogdf_1_1_cluster_array" ],
     [ "ClusterElement", "classogdf_1_1_cluster_element.html", "classogdf_1_1_cluster_element" ],
-    [ "ClusterGraph", "classogdf_1_1_cluster_graph.html", "classogdf_1_1_cluster_graph" ],
-    [ "forall_cluster_adj", "_cluster_graph_8h.html#a271001265c1d1427ca1a9ae202c1677d", null ],
-    [ "forall_cluster_adj_edges", "_cluster_graph_8h.html#a9d12289293121a5c8c55b392f1ce3335", null ],
-    [ "forall_cluster_rev_adj", "_cluster_graph_8h.html#a412f16659dbb255c5e63d4c52e38f90b", null ],
-    [ "forall_clusters", "_cluster_graph_8h.html#abcd4c74f454d781828ce6322b4e86e96", null ],
-    [ "forall_postOrderClusters", "_cluster_graph_8h.html#a49ae24c8fab3140a84c359291c84b09c", null ],
-    [ "OGDF_CLUSTER_GRAPH_H", "_cluster_graph_8h.html#a62be061cdc4d35af06fe5e723ac956c0", null ],
-    [ "cluster", "_cluster_graph_8h.html#a4cc62da82e411458d24d4dc76c9261c1", null ],
-    [ "operator<<", "_cluster_graph_8h.html#ac61c61e8b4d4978934167b59a12f4840", null ],
-    [ "test_forall_adj_edges_of_cluster", "_cluster_graph_8h.html#a743d43b4bf399cdf151b097e0d193bf4", null ],
-    [ "test_forall_adj_edges_of_cluster", "_cluster_graph_8h.html#af65e491cbb9378df721b7d95f61d5e14", null ],
-    [ "test_forall_adj_entries_of_cluster", "_cluster_graph_8h.html#a85acbf9c05831043f0b283176e3453b7", null ]
+    [ "forall_cluster_adj", "group__graphs.html#ga271001265c1d1427ca1a9ae202c1677d", null ],
+    [ "forall_cluster_adj_edges", "group__graphs.html#ga9d12289293121a5c8c55b392f1ce3335", null ],
+    [ "forall_cluster_rev_adj", "group__graphs.html#ga412f16659dbb255c5e63d4c52e38f90b", null ],
+    [ "forall_clusters", "group__graphs.html#gabcd4c74f454d781828ce6322b4e86e96", null ],
+    [ "forall_postOrderClusters", "group__graphs.html#ga49ae24c8fab3140a84c359291c84b09c", null ],
+    [ "cluster", "_cluster_graph_8h.html#ae4067860d95138662fa5ce5b8280a459", null ],
+    [ "operator<<", "_cluster_graph_8h.html#ae9105c92fbf7a32279701cd19f18928c", null ],
+    [ "test_forall_adj_edges_of_cluster", "_cluster_graph_8h.html#gaf65e491cbb9378df721b7d95f61d5e14", null ],
+    [ "test_forall_adj_edges_of_cluster", "_cluster_graph_8h.html#gaa9ae05442dc27f41e8ad0798b489c5fa", null ],
+    [ "test_forall_adj_entries_of_cluster", "_cluster_graph_8h.html#gafbce7d9b9dd773f7a8c7a4f562885602", null ]
 ];

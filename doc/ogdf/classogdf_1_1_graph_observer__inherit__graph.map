@@ -1,0 +1,6 @@
+<map id="ogdf::GraphObserver" name="ogdf::GraphObserver">
+<area shape="rect" id="node1" title="Abstract Base class for graph observers." alt="" coords="91,5,234,32"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_cluster_graph.html" title="Representation of clustered graphs." alt="" coords="21,80,153,107"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_plan_rep_inc.html" title="This class is only an adaption of PlanRep for the special incremental drawing case." alt="" coords="177,80,300,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_cluster_graph_copy.html" title=" " alt="" coords="5,155,168,181"/>
+</map>

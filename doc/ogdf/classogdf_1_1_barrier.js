@@ -1,11 +1,10 @@
 var classogdf_1_1_barrier =
 [
-    [ "Barrier", "classogdf_1_1_barrier.html#a74eee90065185060d4def2d9f56756b2", null ],
-    [ "~Barrier", "classogdf_1_1_barrier.html#a1ddd9c070012274d4db94db27649168d", null ],
+    [ "Barrier", "classogdf_1_1_barrier.html#a0bedd3578d92146dfda43dc623685361", null ],
     [ "threadSync", "classogdf_1_1_barrier.html#ac5b771c975f32d4c26f040e3ecd5b0f6", null ],
-    [ "m_allThreadsReachedSync", "classogdf_1_1_barrier.html#aeb6e4fcc0e51d75790aa6cbc329b52c0", null ],
-    [ "m_numThreadsReachedSync", "classogdf_1_1_barrier.html#a4a87f8e2831d8c1264ff3968049deb6d", null ],
-    [ "m_numThreadsReachedSyncLock", "classogdf_1_1_barrier.html#ad33f80c10e3a8e74bcf60abfc3f132b0", null ],
-    [ "m_syncNumber", "classogdf_1_1_barrier.html#a26cc4416bfbd1fd71324919c6139ef3e", null ],
-    [ "m_threadCount", "classogdf_1_1_barrier.html#a4c1e62dab1a005145890ee4fba219202", null ]
+    [ "m_allThreadsReachedSync", "classogdf_1_1_barrier.html#aff28643d24827087e3753673637c93cd", null ],
+    [ "m_numThreadsReachedSync", "classogdf_1_1_barrier.html#a5abf1869743f6354af975453936194fd", null ],
+    [ "m_numThreadsReachedSyncLock", "classogdf_1_1_barrier.html#a1ccb13b7907ab49fac682ece637d3893", null ],
+    [ "m_syncNumber", "classogdf_1_1_barrier.html#aba3a90557c0fc00285b23ea394c73a49", null ],
+    [ "m_threadCount", "classogdf_1_1_barrier.html#a52ce45aff0485eec244a75d24745dbdc", null ]
 ];

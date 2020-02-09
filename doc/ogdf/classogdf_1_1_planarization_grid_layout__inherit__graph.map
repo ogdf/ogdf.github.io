@@ -1,0 +1,5 @@
+<map id="ogdf::PlanarizationGridLayout" name="ogdf::PlanarizationGridLayout">
+<area shape="rect" id="node1" title="The planarization grid layout algorithm." alt="" coords="5,155,199,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_grid_layout_module.html" title="Base class for grid layout algorithms." alt="" coords="22,80,182,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="34,5,170,32"/>
+</map>

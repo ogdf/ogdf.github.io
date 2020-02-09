@@ -1,35 +1,35 @@
 var geometry_8h =
 [
     [ "DefHashFunc< IPoint >", "classogdf_1_1_def_hash_func_3_01_i_point_01_4.html", "classogdf_1_1_def_hash_func_3_01_i_point_01_4" ],
-    [ "DLine", "classogdf_1_1_d_line.html", "classogdf_1_1_d_line" ],
-    [ "DPoint", "classogdf_1_1_d_point.html", "classogdf_1_1_d_point" ],
+    [ "DIntersectableRect", "classogdf_1_1_d_intersectable_rect.html", "classogdf_1_1_d_intersectable_rect" ],
     [ "DPolygon", "classogdf_1_1_d_polygon.html", "classogdf_1_1_d_polygon" ],
-    [ "DPolyline", "classogdf_1_1_d_polyline.html", "classogdf_1_1_d_polyline" ],
     [ "DRect", "classogdf_1_1_d_rect.html", "classogdf_1_1_d_rect" ],
-    [ "DScaler", "classogdf_1_1_d_scaler.html", "classogdf_1_1_d_scaler" ],
-    [ "DSegment", "classogdf_1_1_d_segment.html", "classogdf_1_1_d_segment" ],
-    [ "DVector", "classogdf_1_1_d_vector.html", "classogdf_1_1_d_vector" ],
+    [ "GenericLine", "classogdf_1_1_generic_line.html", "classogdf_1_1_generic_line" ],
     [ "GenericPoint", "classogdf_1_1_generic_point.html", "classogdf_1_1_generic_point" ],
-    [ "IPoint", "classogdf_1_1_i_point.html", "classogdf_1_1_i_point" ],
-    [ "IPolyline", "classogdf_1_1_i_polyline.html", "classogdf_1_1_i_polyline" ],
-    [ "OGDF_GEOM_EPS", "geometry_8h.html#af91d879e663872706f38f3a40e3b516c", null ],
-    [ "OGDF_GEOMETRY_H", "geometry_8h.html#a472145b283ed633fc3fd11b87c56b7fa", null ],
-    [ "Orientation", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2", [
-      [ "topToBottom", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2aeabfc7ba02afcecd0813a45d57ff68fc", null ],
-      [ "bottomToTop", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2a331e545853b0102965447f7574cd46f2", null ],
-      [ "leftToRight", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2a25f4540477c893ff9daa8524a659490f", null ],
-      [ "rightToLeft", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2af84578dd40360f99554225c80bd1ffd2", null ]
+    [ "GenericPolyline", "classogdf_1_1_generic_polyline.html", "classogdf_1_1_generic_polyline" ],
+    [ "GenericSegment", "classogdf_1_1_generic_segment.html", "classogdf_1_1_generic_segment" ],
+    [ "DLine", "geometry_8h.html#add7a5276e16a90e94cc7b126f1bb0d6e", null ],
+    [ "DPoint", "geometry_8h.html#a192ee29fe44e90270e7515b07763779e", null ],
+    [ "DPolyline", "geometry_8h.html#a22ebb9a5786478b4e58d76ce175a91df", null ],
+    [ "DSegment", "geometry_8h.html#af1a7f80eca439078917e0ea15b7ad1a1", null ],
+    [ "IPoint", "geometry_8h.html#a68ad236741f3e62f6ffd722915f717ae", null ],
+    [ "IPolyline", "geometry_8h.html#a747cb55b01946c2b5c0a22cf8a338059", null ],
+    [ "IntersectionType", "geometry_8h.html#a0fe84a998ac725a47b495bb3fc3babee", [
+      [ "None", "geometry_8h.html#a0fe84a998ac725a47b495bb3fc3babeea6adf97f83acf6453d4a6a4b1070f3754", null ],
+      [ "SinglePoint", "geometry_8h.html#a0fe84a998ac725a47b495bb3fc3babeea1dd773e22d00c1a26c1bd2af74da255d", null ],
+      [ "Overlapping", "geometry_8h.html#a0fe84a998ac725a47b495bb3fc3babeeac309128476f539aaa98e2de4e5380c7f", null ]
     ] ],
-    [ "DIsEqual", "geometry_8h.html#a1ad51ab916d8c3cd07673e3776ebba6f", null ],
-    [ "DIsGreater", "geometry_8h.html#a59830fe45a75e316654791848cece977", null ],
-    [ "DIsGreaterEqual", "geometry_8h.html#aef7f4422338baad6e45ec8ffbeca7c12", null ],
-    [ "DIsLess", "geometry_8h.html#a01687fa217495527c20c8af24dc6b75d", null ],
-    [ "DIsLessEqual", "geometry_8h.html#af0e59dbb8882f618fbd0b492cf8a8223", null ],
-    [ "DRound", "geometry_8h.html#a1954747c130923179d8934979bacd170", null ],
-    [ "operator<<", "geometry_8h.html#a7c26c2f3e33b5afbb2ac858a54b073f7", null ],
-    [ "operator<<", "geometry_8h.html#a74293f3de5b097474232ed3c7d5db6d7", null ],
-    [ "operator<<", "geometry_8h.html#a8627d241bee12511bd5622b3474a00e2", null ],
-    [ "operator<<", "geometry_8h.html#a490ff557f9aefb776e415c08946e37fb", null ],
-    [ "operator<<", "geometry_8h.html#a189c37fe60b7e73945029f7fd93924f5", null ],
-    [ "operator<<", "geometry_8h.html#a75563d57025c0c398c1202408275dd20", null ]
+    [ "Orientation", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2", [
+      [ "topToBottom", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2afb9fd904b2aaa466b602eda4752ab155", null ],
+      [ "bottomToTop", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2ad21134c4e3ec9e79fb8466624a44aa1b", null ],
+      [ "leftToRight", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2af5393c00a90864827cdb43170d6efc26", null ],
+      [ "rightToLeft", "geometry_8h.html#a4c7fa2c473d2bbd159ca465d748fcbe2a58afff90d71a2da06527f9de82892d80", null ]
+    ] ],
+    [ "operator<<", "geometry_8h.html#ab0db2b50e7927229d4e6ac6de84f9dba", null ],
+    [ "operator<<", "geometry_8h.html#a832e7109da8ea215cfa0e2320e3df41c", null ],
+    [ "operator<<", "geometry_8h.html#a41744f45c463f83ededa29a431fb77fa", null ],
+    [ "operator<<", "geometry_8h.html#a03b73c97b7500bf8abe50bc65a06a1f4", null ],
+    [ "orientation", "geometry_8h.html#a14d99c15d323cde84861c7068e50949c", null ],
+    [ "orientation", "geometry_8h.html#a2c31de7b79a17bb31dc560fddbe82fc3", null ],
+    [ "OGDF_GEOM_ET", "geometry_8h.html#aa1e5a6f58ae167317e533f8236dfc68f", null ]
 ];

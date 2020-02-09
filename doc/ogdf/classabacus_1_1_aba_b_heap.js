@@ -16,7 +16,7 @@ var classabacus_1_1_aba_b_heap =
     [ "realloc", "classabacus_1_1_aba_b_heap.html#ab0c668b32b4734b87583c219aa47478f", null ],
     [ "rightSon", "classabacus_1_1_aba_b_heap.html#aac2945824d64a92062aea3010211c32f", null ],
     [ "size", "classabacus_1_1_aba_b_heap.html#a7ab7b8bd2cc3102edf521e75990a6dea", null ],
-    [ "operator<<", "classabacus_1_1_aba_b_heap.html#a65890df3dd5404c20581a57963e13f63", null ],
+    [ "operator<<", "classabacus_1_1_aba_b_heap.html#a2496f6754ade624aa46a46af58990f49", null ],
     [ "heap_", "classabacus_1_1_aba_b_heap.html#adafb60b132051b8b2e8fdd6278cdf4d9", null ],
     [ "keys_", "classabacus_1_1_aba_b_heap.html#ae58c443f7ad14e4b94c9c168233592d6", null ],
     [ "n_", "classabacus_1_1_aba_b_heap.html#aea6ca1f29422993f43f0d6b3cd6c9fb0", null ]

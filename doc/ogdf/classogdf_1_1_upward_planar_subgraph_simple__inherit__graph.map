@@ -1,0 +1,4 @@
+<map id="ogdf::UpwardPlanarSubgraphSimple" name="ogdf::UpwardPlanarSubgraphSimple">
+<area shape="rect" id="node1" title="A maximal planar subgraph algorithm using planarity testing." alt="" coords="5,95,197,136"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_upward_planar_subgraph_module.html" title="Interface for algorithms for computing an upward planar subgraph." alt="" coords="5,5,197,47"/>
+</map>

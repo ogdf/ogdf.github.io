@@ -1,27 +1,27 @@
 var classogdf_1_1_kuratowski_wrapper =
 [
-    [ "enumSubdivisionType", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461", [
-      [ "A", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a8192abb4856ac3c407dc7e2792f40c14", null ],
-      [ "AB", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a421b3b7d160019132be2f06fc5626b4c", null ],
-      [ "AC", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461ac58f6e1ea5d3ab5b00b500d187622e2d", null ],
-      [ "AD", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a754050ebc9749409943bf05da0d148d2", null ],
-      [ "AE1", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a4af075e56508e8110e4dec3075581d09", null ],
-      [ "AE2", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a2e54d05a4b38961a4f67683c179e1e1e", null ],
-      [ "AE3", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a7a9ef27b6d9137a99d14f016fe5eeb8a", null ],
-      [ "AE4", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461ad09bed2302823e543014132a05a809a5", null ],
-      [ "B", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461ad5973950800fed374e0f4f44020d2ed8", null ],
-      [ "C", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461ab18874f28e5fa36ce27e1cc93066418f", null ],
-      [ "D", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a2658e1863931df0d817d8124db4a31f8", null ],
-      [ "E1", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461ac6913b776d2e014b67baff5368c325a3", null ],
-      [ "E2", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a44bcadecad7930d677f1db58b8b295a1", null ],
-      [ "E3", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a811c2665dae9d1cf0d1cee8351afe77a", null ],
-      [ "E4", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461ab824e19024a6251df1d7aa23b2b835b0", null ],
-      [ "E5", "classogdf_1_1_kuratowski_wrapper.html#a0a72cd5215e0f1771887ff99d9a04461a6f3f7d8b717f2d63f2951fcfbb885694", null ]
+    [ "SubdivisionType", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2", [
+      [ "A", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a7fc56270e7a70fa81a5935b72eacbe29", null ],
+      [ "AB", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2ab86fc6b051f63d73de262d4c34e3a0a9", null ],
+      [ "AC", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a4144e097d2fa7a491cec2a7a4322f2bc", null ],
+      [ "AD", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2ae182ebbc166d73366e7986813a7fc5f1", null ],
+      [ "AE1", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2af251382dfc90355e4ffcf57fc6c02956", null ],
+      [ "AE2", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a4d1072e7e0baf7e9382ec5727608fa81", null ],
+      [ "AE3", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2ad8acf4a42e8cbbf7d9e64b5d4f9ba73e", null ],
+      [ "AE4", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2abdef7114621602772b13f984690c5950", null ],
+      [ "B", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a9d5ed678fe57bcca610140957afab571", null ],
+      [ "C", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a0d61f8370cad1d412f80b84d143e1257", null ],
+      [ "D", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2af623e75af30e62bbd73d6df5b50bb7b5", null ],
+      [ "E1", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a48ed5d2db39237d7ae5e829b17581629", null ],
+      [ "E2", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a560fce20abef5cd3f8e4d13c94669a46", null ],
+      [ "E3", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2ab29bcbb0f188e0093434a5f213285f46", null ],
+      [ "E4", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2a2157d56d6aff208ae90c869526290656", null ],
+      [ "E5", "classogdf_1_1_kuratowski_wrapper.html#a45b587c141e4ccb8b8b7aecbd47833d2af9f2d672039ed5d04839b769ad71e1b0", null ]
     ] ],
     [ "KuratowskiWrapper", "classogdf_1_1_kuratowski_wrapper.html#aae79edbb9c036ffd9a007e1740465d86", null ],
     [ "isK33", "classogdf_1_1_kuratowski_wrapper.html#a5ff572ec56953fbf6482f4ffcaa5912f", null ],
     [ "isK5", "classogdf_1_1_kuratowski_wrapper.html#a881cfb47c0d4de8361c33a72189955a3", null ],
     [ "edgeList", "classogdf_1_1_kuratowski_wrapper.html#ae5a2f1af798a64c6367cf3230634d95e", null ],
-    [ "subdivisionType", "classogdf_1_1_kuratowski_wrapper.html#a375d3ffcb806182a8a61ef777a700654", null ],
+    [ "subdivisionType", "classogdf_1_1_kuratowski_wrapper.html#a59a77d4a1bc87ffb8f845cf0ac3192d2", null ],
     [ "V", "classogdf_1_1_kuratowski_wrapper.html#a42843fb342023ccdfdb9d87e413ad09c", null ]
 ];

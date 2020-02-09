@@ -1,0 +1,4 @@
+<map id="ogdf::MinCostFlowModule&lt; TCost &gt;" name="ogdf::MinCostFlowModule&lt; TCost &gt;">
+<area shape="rect" id="node1" title="Interface for min&#45;cost flow algorithms." alt="" coords="5,5,180,47"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_min_cost_flow_reinelt.html" title="Computes a min&#45;cost flow using a network simplex method." alt="" coords="6,95,179,136"/>
+</map>

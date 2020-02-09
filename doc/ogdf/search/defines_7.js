@@ -1,5 +1,12 @@
 var searchData=
 [
-  ['win32_5fextra_5flean',['WIN32_EXTRA_LEAN',['../basic_8h.html#a089c5c163cb665d4765f6e8cd20a34a2',1,'basic.h']]],
-  ['win32_5flean_5fand_5fmean',['WIN32_LEAN_AND_MEAN',['../basic_8h.html#ac7bef5d85e3dcd73eef56ad39ffc84a9',1,'basic.h']]]
+  ['pugixml_5fapi_23589',['PUGIXML_API',['../pugiconfig_8h.html#a770abeed4977e50a439e91cf5fcd2cbf',1,'pugiconfig.h']]],
+  ['pugixml_5fchar_23590',['PUGIXML_CHAR',['../pugixml_8h.html#af467437c41f223eaed56106370aa82ff',1,'pugixml.h']]],
+  ['pugixml_5fclass_23591',['PUGIXML_CLASS',['../pugixml_8h.html#ad47efa7f45dfd6d1fe9da1d5cf9c5301',1,'pugixml.h']]],
+  ['pugixml_5fdeprecated_23592',['PUGIXML_DEPRECATED',['../pugixml_8h.html#a2bf4c1773811a4e7fd7a7ec3c989b588',1,'pugixml.h']]],
+  ['pugixml_5ffunction_23593',['PUGIXML_FUNCTION',['../pugixml_8h.html#a3d91f8ab11645e6dac8783d86d152b31',1,'pugixml.h']]],
+  ['pugixml_5fhas_5flong_5flong_23594',['PUGIXML_HAS_LONG_LONG',['../pugiconfig_8h.html#af75cdbe0aca3d24656d815e9c0217faa',1,'pugiconfig.h']]],
+  ['pugixml_5fno_5fexceptions_23595',['PUGIXML_NO_EXCEPTIONS',['../pugiconfig_8h.html#a9db7b89cd1473cc7b429c45eddb1d9e4',1,'pugiconfig.h']]],
+  ['pugixml_5ftext_23596',['PUGIXML_TEXT',['../pugixml_8h.html#ad5475bca2e336810ae5906349e644d0b',1,'pugixml.h']]],
+  ['pugixml_5fversion_23597',['PUGIXML_VERSION',['../pugixml_8h.html#a8780f48a99ee220810217d06d2148363',1,'pugixml.h']]]
 ];

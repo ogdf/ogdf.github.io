@@ -1,5 +1,6 @@
 var classogdf_1_1_davidson_harel =
 [
+    [ "EnergyFunction", "classogdf_1_1_davidson_harel.html#a6bb8fe0bcfc06d5f34473bea09fbb9d7", null ],
     [ "DavidsonHarel", "classogdf_1_1_davidson_harel.html#a8e0e2012bf8fcd2911a320fb072e40a0", null ],
     [ "~DavidsonHarel", "classogdf_1_1_davidson_harel.html#a81b38052fbba265ef827d76e59877d9f", null ],
     [ "DavidsonHarel", "classogdf_1_1_davidson_harel.html#ac7fc2847039d590c2f661b890d317325", null ],
@@ -17,16 +18,16 @@ var classogdf_1_1_davidson_harel =
     [ "setNumberOfIterations", "classogdf_1_1_davidson_harel.html#a23782c7a1d83332dfb79e22f08c6bc95", null ],
     [ "setStartTemperature", "classogdf_1_1_davidson_harel.html#a9d69743042a5edb918a8d1d487271d89", null ],
     [ "testEnergyValue", "classogdf_1_1_davidson_harel.html#aeee9f3a68d87063340b37cd49ad7f26f", null ],
-    [ "m_coolingFactor", "classogdf_1_1_davidson_harel.html#a24497f4b6d28ec6ca3f5aebeb3257e29", null ],
-    [ "m_defaultRadius", "classogdf_1_1_davidson_harel.html#af9a857c3fa4f3e31330ca7633177dea4", null ],
-    [ "m_defaultTemp", "classogdf_1_1_davidson_harel.html#a82bba71daaf900f3d05b4d0c267cca2c", null ],
+    [ "m_coolingFactor", "classogdf_1_1_davidson_harel.html#a5dc7834a10518b96f533d50da9728079", null ],
+    [ "m_defaultRadius", "classogdf_1_1_davidson_harel.html#ac09135ccbda3421aee8d507f5d80f5aa", null ],
+    [ "m_defaultTemp", "classogdf_1_1_davidson_harel.html#a12e11134bf2cbf9a0d1939c861c6ac23", null ],
     [ "m_diskRadius", "classogdf_1_1_davidson_harel.html#a4fb59f911dc8240dbc2c29354bc4f041", null ],
     [ "m_energy", "classogdf_1_1_davidson_harel.html#a1588f86357519580f303312a944b0926", null ],
     [ "m_energyFunctions", "classogdf_1_1_davidson_harel.html#a92cf3f60a254d07bb2ce4c70ccc6e702", null ],
-    [ "m_iterationMultiplier", "classogdf_1_1_davidson_harel.html#aab24025b1fb76b26267e8af6afa74474", null ],
+    [ "m_iterationMultiplier", "classogdf_1_1_davidson_harel.html#ae8d3b2c923f4c1017ecf71cd589e63f2", null ],
     [ "m_nonIsolatedNodes", "classogdf_1_1_davidson_harel.html#a506f32bd91bd1c0dda044863c7128ba7", null ],
     [ "m_numberOfIterations", "classogdf_1_1_davidson_harel.html#a5ed6d2e3601fe3a36ea07f570472bed5", null ],
-    [ "m_shrinkFactor", "classogdf_1_1_davidson_harel.html#a0d655afb265fd0d32d7ce9ad8af11d88", null ],
+    [ "m_shrinkFactor", "classogdf_1_1_davidson_harel.html#a5ce22cf2656d88338bc3735fa733cc89", null ],
     [ "m_shrinkingFactor", "classogdf_1_1_davidson_harel.html#a89412fadf2383d19f59c7ef09c6ffe7b", null ],
     [ "m_temperature", "classogdf_1_1_davidson_harel.html#a39b14aec519a06c865c63c3a0c044922", null ],
     [ "m_weightsOfEnergyFunctions", "classogdf_1_1_davidson_harel.html#ae2f898e9be20476de8e3be34001ccd08", null ]

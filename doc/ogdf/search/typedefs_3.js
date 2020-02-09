@@ -1,7 +1,12 @@
 var searchData=
 [
-  ['cluster',['cluster',['../namespaceogdf.html#a4cc62da82e411458d24d4dc76c9261c1',1,'ogdf']]],
-  ['const_5fiterator',['const_iterator',['../classogdf_1_1_hash_array.html#aeb0d06563b445e6011c12edebd2c2430',1,'ogdf::HashArray::const_iterator()'],['../classogdf_1_1_hash_array2_d.html#a3d8485bd755b1d66cd57ea5ebf08a8e6',1,'ogdf::HashArray2D::const_iterator()'],['../classogdf_1_1_hashing.html#ac5f0d55cbfdf35ab224f352873759915',1,'ogdf::Hashing::const_iterator()'],['../classogdf_1_1_list_pure.html#a0e39860023fc62feb09a7e6f6a0dd331',1,'ogdf::ListPure::const_iterator()'],['../classogdf_1_1_list.html#ab33d25793e30fe563a1fab41e303b27c',1,'ogdf::List::const_iterator()'],['../classogdf_1_1_s_list_pure.html#a419a236bdb1d9209ace32509db87a8b3',1,'ogdf::SListPure::const_iterator()'],['../classogdf_1_1_s_list.html#a0658486089d68097153ca7fb336787ce',1,'ogdf::SList::const_iterator()']]],
-  ['contentpointer',['CONTENTPOINTER',['../classogdf_1_1_target_comparer.html#a797c8ed1514216dcb9392c866629ddac',1,'ogdf::TargetComparer']]],
-  ['crossing',['Crossing',['../classogdf_1_1_m_m_variable_embedding_inserter.html#ae050e0b751c9c14d4f12cc80f0bdbd4e',1,'ogdf::MMVariableEmbeddingInserter']]]
+  ['deallocation_5ffunction_22266',['deallocation_function',['../namespacepugi.html#a02de39b6bfc25a6f4830c7efd5d9ac91',1,'pugi']]],
+  ['difference_5ftype_22267',['difference_type',['../classpugi_1_1xml__node__iterator.html#a7eb312773c43003b157d22ac27498726',1,'pugi::xml_node_iterator::difference_type()'],['../classpugi_1_1xml__attribute__iterator.html#a4213782a8f57214e1819e1398cbc62dc',1,'pugi::xml_attribute_iterator::difference_type()'],['../classpugi_1_1xml__named__node__iterator.html#ad382930d81d3ec8f1b41287fe8f31065',1,'pugi::xml_named_node_iterator::difference_type()']]],
+  ['dline_22268',['DLine',['../namespaceogdf.html#add7a5276e16a90e94cc7b126f1bb0d6e',1,'ogdf']]],
+  ['dpair_22269',['dpair',['../classogdf_1_1_spring_embedder_k_k.html#a0993b3f11b2a96da6c5e83c14bc85dd3',1,'ogdf::SpringEmbedderKK']]],
+  ['dpoint_22270',['DPoint',['../namespaceogdf.html#a192ee29fe44e90270e7515b07763779e',1,'ogdf']]],
+  ['dpolyline_22271',['DPolyline',['../namespaceogdf.html#a22ebb9a5786478b4e58d76ce175a91df',1,'ogdf']]],
+  ['dsegment_22272',['DSegment',['../namespaceogdf.html#af1a7f80eca439078917e0ea15b7ad1a1',1,'ogdf']]],
+  ['dtreeembedder2d_22273',['DTreeEmbedder2D',['../namespaceogdf_1_1energybased_1_1dtree.html#ae4b231e6909af834e8fd3cdfe7731601',1,'ogdf::energybased::dtree']]],
+  ['dtreeembedder3d_22274',['DTreeEmbedder3D',['../namespaceogdf_1_1energybased_1_1dtree.html#adb768bb42c88016aed5c33b8aa4a0878',1,'ogdf::energybased::dtree']]]
 ];

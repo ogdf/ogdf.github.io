@@ -1,0 +1,6 @@
+<map id="ogdf::SimpleEmbedder" name="ogdf::SimpleEmbedder">
+<area shape="rect" id="node1" title="Embedder that chooses a largest face as the external one." alt="" coords="41,155,195,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="40,80,196,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+</map>

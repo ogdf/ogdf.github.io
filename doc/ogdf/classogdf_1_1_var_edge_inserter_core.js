@@ -1,6 +1,6 @@
 var classogdf_1_1_var_edge_inserter_core =
 [
-    [ "VarEdgeInserterCore", "classogdf_1_1_var_edge_inserter_core.html#a3f7fc99382383be0448511b2750f7ec3", null ],
+    [ "VarEdgeInserterCore", "classogdf_1_1_var_edge_inserter_core.html#aa4950f437af2e9085dea4e7520318040", null ],
     [ "~VarEdgeInserterCore", "classogdf_1_1_var_edge_inserter_core.html#a3efba706b1fef4bfa9587c16933a45fc", null ],
     [ "blockInsert", "classogdf_1_1_var_edge_inserter_core.html#a63c51d77f578af7f16af2359a54eb6d4", null ],
     [ "buildSubpath", "classogdf_1_1_var_edge_inserter_core.html#aec0381b2bfe78de8dd1bd5bd6796f69a", null ],
@@ -9,7 +9,7 @@ var classogdf_1_1_var_edge_inserter_core =
     [ "costCrossed", "classogdf_1_1_var_edge_inserter_core.html#a857471401f4d892e02b35b8eaf90da01", null ],
     [ "createBlock", "classogdf_1_1_var_edge_inserter_core.html#ad0c4aca84ddd81b9d3c33093eb5f3554", null ],
     [ "createExpandedGraph", "classogdf_1_1_var_edge_inserter_core.html#adf087ea36ac8ab7f62b477169932bc68", null ],
-    [ "dfsComp", "classogdf_1_1_var_edge_inserter_core.html#a38717c0a5906d15c8b59d8cfa7c5d138", null ],
+    [ "dfsComp", "classogdf_1_1_var_edge_inserter_core.html#a94be6cbd3968cda374f877519d9497ca", null ],
     [ "dfsVertex", "classogdf_1_1_var_edge_inserter_core.html#a2afe1c1b2cec94d546ef8bfd7928935f", null ],
     [ "insert", "classogdf_1_1_var_edge_inserter_core.html#ad4546b9d40ede7128ddaf2ae72d588cb", null ],
     [ "pathSearch", "classogdf_1_1_var_edge_inserter_core.html#a61a476d743ca7f71a5249ff881039373", null ],
@@ -24,7 +24,7 @@ var classogdf_1_1_var_edge_inserter_core =
     [ "m_pEip", "classogdf_1_1_var_edge_inserter_core.html#a614a78c8a134034cf48917a695d5e7b7", null ],
     [ "m_pForbidden", "classogdf_1_1_var_edge_inserter_core.html#a16d6ed1d4c30843dd0722d411e3c4cc7", null ],
     [ "m_pr", "classogdf_1_1_var_edge_inserter_core.html#a4290ee22bd4a8d315ff5912aee39b797", null ],
-    [ "m_pSubgraph", "classogdf_1_1_var_edge_inserter_core.html#a4ac9dcfa8dddd205b3c033a28ca9731a", null ],
+    [ "m_pSubgraph", "classogdf_1_1_var_edge_inserter_core.html#ad4ed203b54f258c475146e080fecc03e", null ],
     [ "m_runsPostprocessing", "classogdf_1_1_var_edge_inserter_core.html#aa1b0d0fc1d93113ec1106ecf08e1b8ba", null ],
     [ "m_s", "classogdf_1_1_var_edge_inserter_core.html#ad161554aa1b5b68fe9314422db3b2ad4", null ],
     [ "m_st", "classogdf_1_1_var_edge_inserter_core.html#a3650c26b0e20f929a8c0b8bf2bbcb8a8", null ],

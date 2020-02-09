@@ -1,0 +1,9 @@
+<map id="ogdf::EmbedderMaxFaceLayers" name="ogdf::EmbedderMaxFaceLayers">
+<area shape="rect" id="node1" title="Embedder that maximizes the external face and optimizes the position of blocks afterwards." alt="" coords="22,408,229,435"/>
+<area shape="rect" id="node2" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="5,319,245,360"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_embedder_max_face.html" title="Embedder that maximizes the external face." alt="" coords="41,244,209,271"/>
+<area shape="rect" id="node4" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="36,155,215,196"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="47,80,203,107"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="13,5,110,32"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="134,5,247,32"/>
+</map>

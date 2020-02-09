@@ -1,8 +1,8 @@
 var classogdf_1_1_procrustes_sub_layout =
 [
     [ "ProcrustesSubLayout", "classogdf_1_1_procrustes_sub_layout.html#a9a323c8664ca475d58a8f0d5e7a6fbfb", null ],
-    [ "~ProcrustesSubLayout", "classogdf_1_1_procrustes_sub_layout.html#aa1318015e6beba65ca08bcee617d543e", null ],
-    [ "call", "classogdf_1_1_procrustes_sub_layout.html#abf599e03d1d53cc01c5f95ef854f19bf", null ],
+    [ "~ProcrustesSubLayout", "classogdf_1_1_procrustes_sub_layout.html#a39becb3f2ef08dead220409f83dc6e20", null ],
+    [ "call", "classogdf_1_1_procrustes_sub_layout.html#a9651b7441aec61863526d980b3fc7786", null ],
     [ "copyFromGraphAttributes", "classogdf_1_1_procrustes_sub_layout.html#a35e50e9135e26f4c721b5be9860c40df", null ],
     [ "flipY", "classogdf_1_1_procrustes_sub_layout.html#a2e4256ce6f72fa27f30646a7ccd2e8ca", null ],
     [ "reverseTransform", "classogdf_1_1_procrustes_sub_layout.html#a40dc4b284f839c5a7451eab72a7e8328", null ],

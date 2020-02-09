@@ -3,7 +3,7 @@ var classabacus_1_1_cut_buffer =
     [ "CutBuffer", "classabacus_1_1_cut_buffer.html#a3b41ec109c0c1f796e2430528221548b", null ],
     [ "~CutBuffer", "classabacus_1_1_cut_buffer.html#a372a21943515a8ae16ee2af55fa0e48d", null ],
     [ "CutBuffer", "classabacus_1_1_cut_buffer.html#a5f161aa4a3d1d911954e4741c7e0d823", null ],
-    [ "extract", "classabacus_1_1_cut_buffer.html#aeb0b20fe82ff54d55953b27cc7dce19d", null ],
+    [ "extract", "classabacus_1_1_cut_buffer.html#aff64e4ae22f65e1afc23449ced54bee0", null ],
     [ "insert", "classabacus_1_1_cut_buffer.html#a8a91f16c216db4fd1241a6755886a744", null ],
     [ "insert", "classabacus_1_1_cut_buffer.html#a13ad65f04c142f36eaa8951edb36ddd4", null ],
     [ "number", "classabacus_1_1_cut_buffer.html#a4e0907233e11052da7f3b157982e09a0", null ],

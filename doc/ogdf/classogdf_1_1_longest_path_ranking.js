@@ -5,9 +5,9 @@ var classogdf_1_1_longest_path_ranking =
     [ "alignBaseClasses", "classogdf_1_1_longest_path_ranking.html#a1f07c296ded44fb6eaf5555b835da089", null ],
     [ "alignSiblings", "classogdf_1_1_longest_path_ranking.html#a16da63421ffe5f558ca92ec87c869332", null ],
     [ "alignSiblings", "classogdf_1_1_longest_path_ranking.html#a4dfb3acadc7043cfef126d54da29d135", null ],
-    [ "call", "classogdf_1_1_longest_path_ranking.html#a97154a033e4b0787076a7c8e45dd1124", null ],
+    [ "call", "classogdf_1_1_longest_path_ranking.html#a05f60d3bea1e4dad2849f80be0755a2a", null ],
     [ "call", "classogdf_1_1_longest_path_ranking.html#a10501392e85e851be8574260b02074fa", null ],
-    [ "call", "classogdf_1_1_longest_path_ranking.html#ad89b90d7890255d00bb51889aab126c2", null ],
+    [ "call", "classogdf_1_1_longest_path_ranking.html#a94e0f227064611a831f014c7a60678ce", null ],
     [ "callUML", "classogdf_1_1_longest_path_ranking.html#af624c7966d48060f4f0e73d4fb6e6bf2", null ],
     [ "dfs", "classogdf_1_1_longest_path_ranking.html#ac86f5df036913133f397240d41e3330e", null ],
     [ "dfsAdd", "classogdf_1_1_longest_path_ranking.html#a51638ef0fb63b231175be11da2adc73e", null ],
@@ -32,5 +32,5 @@ var classogdf_1_1_longest_path_ranking =
     [ "m_optimizeEdgeLength", "classogdf_1_1_longest_path_ranking.html#aee3d8116f59340cc98bab823bc0d8280", null ],
     [ "m_separateMultiEdges", "classogdf_1_1_longest_path_ranking.html#a8ebdddc2260b06d27f27d346c0f72a14", null ],
     [ "m_sepDeg0", "classogdf_1_1_longest_path_ranking.html#affc733febd9e455a08e0c78791e87275", null ],
-    [ "m_subgraph", "classogdf_1_1_longest_path_ranking.html#a58c6082b6a922db90b5111b7b799dcd9", null ]
+    [ "m_subgraph", "classogdf_1_1_longest_path_ranking.html#ac54b177f3f84504cd61808f9eef48b26", null ]
 ];

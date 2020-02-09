@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['node',['node',['../classogdf_1_1_hyper_graph.html#a006f9c937606bd85eafa3d8b932aadd3',1,'ogdf::HyperGraph::node()'],['../namespaceogdf.html#aab7fa381c31d9d41aaeec9046392b323',1,'ogdf::node()']]],
-  ['nodeadjlist',['NodeAdjList',['../classogdf_1_1_hyper_graph_types.html#aa77721288aa5c5e59f21a79f93119c5c',1,'ogdf::HyperGraphTypes']]],
-  ['nodelist',['NodeList',['../classogdf_1_1_hyper_graph_types.html#afa0c7c6f99093c525a15f2bfcded9f2b',1,'ogdf::HyperGraphTypes']]],
-  ['nodesplit',['nodeSplit',['../classogdf_1_1_plan_rep_expansion.html#aad3dadb4aaf119ba1a25a25a7dfa9a54',1,'ogdf::PlanRepExpansion']]],
-  ['nodetype',['nodeType',['../namespaceogdf.html#ac235dd0ef8c44b38d2acf5e381dd52f5',1,'ogdf']]],
-  ['numbertype',['numberType',['../classogdf_1_1_generic_point.html#a60b97771cf4b02c64bc3be1274fe4958',1,'ogdf::GenericPoint']]]
+  ['maxcplanarmaster_22316',['MaxCPlanarMaster',['../classogdf_1_1_maximum_c_planar_subgraph.html#a7bda08c2b8e4e9e046efd9ed306c41fd',1,'ogdf::MaximumCPlanarSubgraph']]],
+  ['mdmflengthattribute_22317',['MDMFLengthAttribute',['../classogdf_1_1_embedder_min_depth_max_face.html#a36ad9fed2997b36b8d8d5b8fd8f82c91',1,'ogdf::EmbedderMinDepthMaxFace']]],
+  ['memelemptr_22318',['MemElemPtr',['../classogdf_1_1_malloc_memory_allocator.html#a2feb12f2f0706ce5ffeb1a52a12e3d9f',1,'ogdf::MallocMemoryAllocator::MemElemPtr()'],['../classogdf_1_1_pool_memory_allocator.html#ad9b5548b144b6e8e7943e1cdcdbaf0e6',1,'ogdf::PoolMemoryAllocator::MemElemPtr()']]],
+  ['mortonnr_22319',['MortonNR',['../namespaceogdf_1_1fast__multipole__embedder.html#a5b14ce49b838f8078d2d399797db300d',1,'ogdf::fast_multipole_embedder']]]
 ];

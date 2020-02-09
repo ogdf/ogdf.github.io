@@ -1,13 +1,13 @@
 var classogdf_1_1_l_c_a =
 [
-    [ "LCA", "classogdf_1_1_l_c_a.html#a39efc4fe5421abc26ea8117977719817", null ],
+    [ "LCA", "classogdf_1_1_l_c_a.html#a159759766a999077aab54ffe69a48758", null ],
     [ "buildTable", "classogdf_1_1_l_c_a.html#afe4069bac4ffa3e05bae01e184ab7c6e", null ],
     [ "call", "classogdf_1_1_l_c_a.html#a58145dff6fb5699a37c056375acd5a2d", null ],
     [ "dfs", "classogdf_1_1_l_c_a.html#a23017d9962c63a0209bee1962efda50b", null ],
     [ "level", "classogdf_1_1_l_c_a.html#a07cadc8a539d3a1a57c1e11f7437c78f", null ],
     [ "rmq", "classogdf_1_1_l_c_a.html#a424b238eb18e5ca6a9495bd3ea02a2db", null ],
-    [ "sparseTable", "classogdf_1_1_l_c_a.html#a40261b6d086c5d146106dd142440f22e", null ],
     [ "sparseTable", "classogdf_1_1_l_c_a.html#ab40bede80400daaebe699af18eab9443", null ],
+    [ "sparseTable", "classogdf_1_1_l_c_a.html#a40261b6d086c5d146106dd142440f22e", null ],
     [ "m_euler", "classogdf_1_1_l_c_a.html#a59eb242e7006538630effdd68b8371d6", null ],
     [ "m_len", "classogdf_1_1_l_c_a.html#ac2ebc4995485e1da27824f8c9a7fb1b6", null ],
     [ "m_level", "classogdf_1_1_l_c_a.html#a16b40ed0091d9a640b331399d756a28e", null ],

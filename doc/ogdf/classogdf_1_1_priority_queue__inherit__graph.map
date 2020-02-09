@@ -1,0 +1,16 @@
+<map id="ogdf::PriorityQueue&lt; T, C, Impl &gt;" name="ogdf::PriorityQueue&lt; T, C, Impl &gt;">
+<area shape="rect" id="node1" title="Priority queue interface wrapper for heaps." alt="" coords="5,261,140,302"/>
+<area shape="rect" id="node2" href="$classogdf_1_1pq__internal_1_1_prioritized_queue.html" title="Defines a queue for handling prioritized elements." alt="" coords="217,100,360,156"/>
+<area shape="rect" id="node6" href="$classogdf_1_1pq__internal_1_1_prioritized_queue.html" title=" " alt="" coords="207,238,370,279"/>
+<area shape="rect" id="node9" href="$classogdf_1_1pq__internal_1_1_prioritized_queue.html" title=" " alt="" coords="207,315,370,357"/>
+<area shape="rect" id="node12" href="$classogdf_1_1pq__internal_1_1_prioritized_queue.html" title=" " alt="" coords="188,411,389,467"/>
+<area shape="rect" id="node3" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="513,5,692,61"/>
+<area shape="rect" id="node4" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="495,85,710,171"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_prioritized_map_queue.html" title="Prioritized queue interface wrapper for heaps." alt="" coords="826,107,1017,149"/>
+<area shape="rect" id="node7" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="503,195,702,280"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_prioritized_map_queue_3_01edge_00_01_p_00_01_c_00_01_impl_00_01_hash_func_01_4.html" title="Specialization for edge elements." alt="" coords="816,217,1027,258"/>
+<area shape="rect" id="node10" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="503,304,703,389"/>
+<area shape="rect" id="node11" href="$classogdf_1_1_prioritized_map_queue_3_01node_00_01_p_00_01_c_00_01_impl_00_01_hash_func_01_4.html" title="Specialization for node elements." alt="" coords="816,326,1027,367"/>
+<area shape="rect" id="node13" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="437,414,768,543"/>
+<area shape="rect" id="node14" href="$classogdf_1_1_prioritized_map_queue.html" title=" " alt="" coords="823,458,1020,499"/>
+</map>

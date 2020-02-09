@@ -1,0 +1,4 @@
+<map id="ogdf::BinaryHeapSimple&lt; X, INDEX &gt;" name="ogdf::BinaryHeapSimple&lt; X, INDEX &gt;">
+<area shape="rect" id="node1" title="Dynamically growing binary heap tuned for efficiency on a small interface (compared to BinaryHeap)." alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_top10_heap.html" title="A variant of BinaryHeapSimple which always holds only the X (e.g. X=10) elements with the highest key..." alt="" coords="13,95,160,136"/>
+</map>

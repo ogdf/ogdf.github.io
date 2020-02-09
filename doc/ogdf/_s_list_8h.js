@@ -1,18 +1,13 @@
 var _s_list_8h =
 [
-    [ "SList", "classogdf_1_1_s_list.html", "classogdf_1_1_s_list" ],
-    [ "SListConstIterator", "classogdf_1_1_s_list_const_iterator.html", "classogdf_1_1_s_list_const_iterator" ],
-    [ "SListConstIterator", "classogdf_1_1_s_list_const_iterator.html", "classogdf_1_1_s_list_const_iterator" ],
     [ "SListElement", "classogdf_1_1_s_list_element.html", "classogdf_1_1_s_list_element" ],
-    [ "SListIterator", "classogdf_1_1_s_list_iterator.html", "classogdf_1_1_s_list_iterator" ],
-    [ "SListIterator", "classogdf_1_1_s_list_iterator.html", "classogdf_1_1_s_list_iterator" ],
-    [ "SListPure", "classogdf_1_1_s_list_pure.html", "classogdf_1_1_s_list_pure" ],
-    [ "SListPure", "classogdf_1_1_s_list_pure.html", "classogdf_1_1_s_list_pure" ],
-    [ "StackPure", "classogdf_1_1_stack_pure.html", "classogdf_1_1_stack_pure" ],
-    [ "OGDF_SLIST_H", "_s_list_8h.html#ab96c424ced4fcf548a38713408a0f07d", null ],
+    [ "SListIteratorBase", "classogdf_1_1_s_list_iterator_base.html", "classogdf_1_1_s_list_iterator_base" ],
+    [ "SListIteratorBase", "classogdf_1_1_s_list_iterator_base.html", "classogdf_1_1_s_list_iterator_base" ],
+    [ "SListConstIterator", "_s_list_8h.html#a50f5c47e415fc2d9164fdc88252a1c76", null ],
+    [ "SListIterator", "_s_list_8h.html#a5172cb366642272fcbe6859705641409", null ],
     [ "bucketSort", "_s_list_8h.html#aa6b9e138e2892652414a8217b176dc66", null ],
-    [ "operator<<", "_s_list_8h.html#a875f9b2959497c5c3eb2e94c5985cdde", null ],
-    [ "operator<<", "_s_list_8h.html#a801d87176e3aea78812de14a6ae240e0", null ],
-    [ "print", "_s_list_8h.html#a6016015a488882259b1fe8adde5e35fd", null ],
-    [ "print", "_s_list_8h.html#a427da55c6c24eec010c7e1693da8e2a3", null ]
+    [ "operator<<", "_s_list_8h.html#a959d6db29445d6f070b438c7f5c564c8", null ],
+    [ "operator<<", "_s_list_8h.html#a71634902d1291b1c4b1115d699626fb2", null ],
+    [ "print", "_s_list_8h.html#a9e0133c9dfd76feaafb89ce3f5bf9bbe", null ],
+    [ "print", "_s_list_8h.html#a0beb0af89b2047138bfabb3091f8ead0", null ]
 ];

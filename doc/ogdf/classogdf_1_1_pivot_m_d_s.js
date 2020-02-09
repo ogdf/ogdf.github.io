@@ -2,7 +2,7 @@ var classogdf_1_1_pivot_m_d_s =
 [
     [ "PivotMDS", "classogdf_1_1_pivot_m_d_s.html#a50656f59ec8273375f96a1ecda124db6", null ],
     [ "~PivotMDS", "classogdf_1_1_pivot_m_d_s.html#a1d8c71c57b52ce49ad5cdd5c3a884461", null ],
-    [ "call", "classogdf_1_1_pivot_m_d_s.html#aa5a19a89a3297e94b465a444a3f9c7b1", null ],
+    [ "call", "classogdf_1_1_pivot_m_d_s.html#a34b72c2b9c79ed5e8672435d2631bf63", null ],
     [ "centerPivotmatrix", "classogdf_1_1_pivot_m_d_s.html#ad3b00273949dd0f7fee063c7bcc89b6c", null ],
     [ "copySPSS", "classogdf_1_1_pivot_m_d_s.html#a02523158796731200274909ec8ac1e1a", null ],
     [ "doPathLayout", "classogdf_1_1_pivot_m_d_s.html#a1ded242743ea628a8c131221796f0c12", null ],
@@ -17,12 +17,13 @@ var classogdf_1_1_pivot_m_d_s =
     [ "setEdgeCosts", "classogdf_1_1_pivot_m_d_s.html#a6c1cb9c334982df9171b64308ce3840d", null ],
     [ "setNumberOfPivots", "classogdf_1_1_pivot_m_d_s.html#a64b3a08b04d47ed86537933db8e66f2d", null ],
     [ "singularValueDecomposition", "classogdf_1_1_pivot_m_d_s.html#abd271e303f566942927214715beba4b0", null ],
+    [ "useEdgeCostsAttribute", "classogdf_1_1_pivot_m_d_s.html#af7dfd7b017779d8a7fe59dec59d08f50", null ],
     [ "useEdgeCostsAttribute", "classogdf_1_1_pivot_m_d_s.html#a8a1fff959af14f4f3e15923bc36d5d73", null ],
-    [ "DIMENSION_COUNT", "classogdf_1_1_pivot_m_d_s.html#a8d0f477aa7ec897ae2aa605167999c56", null ],
-    [ "EPSILON", "classogdf_1_1_pivot_m_d_s.html#af1390491179fadc63684e805e323b9f9", null ],
-    [ "FACTOR", "classogdf_1_1_pivot_m_d_s.html#a717fcf9f28b37d9bcf40d66008ad2beb", null ],
+    [ "DIMENSION_COUNT", "classogdf_1_1_pivot_m_d_s.html#a3e85f4f1f6f80e2facf877d8dea1d5fd", null ],
+    [ "EPSILON", "classogdf_1_1_pivot_m_d_s.html#a0e3f140ba54b1d2186c26f11cc597ad0", null ],
+    [ "FACTOR", "classogdf_1_1_pivot_m_d_s.html#af6cc8d470d04aee086d67c01c53bb7e1", null ],
     [ "m_edgeCosts", "classogdf_1_1_pivot_m_d_s.html#a9a57da70867193d06e7a7823a2a31653", null ],
     [ "m_hasEdgeCostsAttribute", "classogdf_1_1_pivot_m_d_s.html#a869fb12c7d5db02a118801695f5fffa4", null ],
     [ "m_numberOfPivots", "classogdf_1_1_pivot_m_d_s.html#a6689c6b650b8338376d195a2cda0e9aa", null ],
-    [ "SEED", "classogdf_1_1_pivot_m_d_s.html#a63f0436f374072fcf9a684b281c0ecc8", null ]
+    [ "SEED", "classogdf_1_1_pivot_m_d_s.html#a631d3cb955a4b2514610aabfec16ea36", null ]
 ];

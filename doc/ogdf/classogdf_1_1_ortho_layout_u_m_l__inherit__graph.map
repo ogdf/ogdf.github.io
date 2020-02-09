@@ -1,0 +1,4 @@
+<map id="ogdf::OrthoLayoutUML" name="ogdf::OrthoLayoutUML">
+<area shape="rect" id="node1" title="Represents planar orthogonal drawing algorithm for mixed&#45;upward planar embedded graphs (UML&#45;diagrams)" alt="" coords="35,80,190,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layout_plan_rep_u_m_l_module.html" title="Interface for planar UML layout algorithms." alt="" coords="5,5,220,32"/>
+</map>

@@ -1,11 +1,11 @@
 var classogdf_1_1_topology_module =
 [
     [ "Options", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64", [
-      [ "opDegOneCrossings", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64acd432e2f2ebdf4737118b39220b22c1a", null ],
-      [ "opGenToAss", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64a6948311271f6c0ef4d2c2e8db438e6a5", null ],
-      [ "opCrossFlip", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64ab868730e7726a89aa51ac397402793ab", null ],
-      [ "opFlipUML", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64a37fc5135aa37de25bc9b2b70f748a3eb", null ],
-      [ "opLoop", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64a03b56fe2a453c68d2c9eb63841b28678", null ]
+      [ "DegOneCrossings", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64a8529999822f79e3a4e9a716a8a81a173", null ],
+      [ "GenToAss", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64abf68ca69321ef0ae006c33d302a1f653", null ],
+      [ "CrossFlip", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64afca986b752ea0eb7e4af8b6f3c92c593", null ],
+      [ "FlipUML", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64ab4c04b365058f7ff39807571cd27fe18", null ],
+      [ "Loop", "classogdf_1_1_topology_module.html#a0bf09211b11c288a64345c31b5c5cd64a89d7b10cb4238977d2b523dfd9ea7745", null ]
     ] ],
     [ "TopologyModule", "classogdf_1_1_topology_module.html#a2cd4a6d3b8f4384f1aa1c58d6d430564", null ],
     [ "~TopologyModule", "classogdf_1_1_topology_module.html#ade16c35fa9c72b70ac691b9a8dd06c87", null ],
@@ -16,14 +16,16 @@ var classogdf_1_1_topology_module =
     [ "faceSum", "classogdf_1_1_topology_module.html#a3f841b56543dbca1fca19c875524e59b", null ],
     [ "getExternalFace", "classogdf_1_1_topology_module.html#a5fd2808e2a2be508274290df80cda338", null ],
     [ "handleImprecision", "classogdf_1_1_topology_module.html#aae6fe8b3f09ce9af04f84583f3011bb6", null ],
-    [ "hasCrossing", "classogdf_1_1_topology_module.html#ab187349fa38788f7b2ab22318bcdfa12", null ],
+    [ "hasCrossing", "classogdf_1_1_topology_module.html#aea2663a453eccf6d37beddea4c68d3ff", null ],
     [ "planarizeFromLayout", "classogdf_1_1_topology_module.html#aa91adf3150c397a894fa9603553e12a5", null ],
     [ "postProcess", "classogdf_1_1_topology_module.html#a9c1f3fc1f7fae4d8f0892f6a3023f074", null ],
     [ "setEmbeddingFromGraph", "classogdf_1_1_topology_module.html#a91d05fb97e19a9a76e39c45c8206d52c", null ],
     [ "setOptions", "classogdf_1_1_topology_module.html#a5b18824ecdc2428965713a730f031a5d", null ],
-    [ "skipable", "classogdf_1_1_topology_module.html#ad8b0dc92a8b8f03d2674e0425a01abc5", null ],
+    [ "skipable", "classogdf_1_1_topology_module.html#a0a4f0e9ead2946de0330a46dd035ea49", null ],
     [ "sortEdgesFromLayout", "classogdf_1_1_topology_module.html#a92b41a8ebadebfe17e83a812b4c6d978", null ],
+    [ "operator|", "classogdf_1_1_topology_module.html#a9c306ea08266b80e86325ec43b64ac9d", null ],
+    [ "operator|", "classogdf_1_1_topology_module.html#a49acf6ff09ab1b4a98c95c822239ce8b", null ],
     [ "m_crossPosition", "classogdf_1_1_topology_module.html#ae672d95e4f306f558f23a5627cffd0aa", null ],
-    [ "m_eLegs", "classogdf_1_1_topology_module.html#a5deaa199c98cc6574035dbacae978621", null ],
+    [ "m_eLegs", "classogdf_1_1_topology_module.html#a6bd3725ecf358ed757a49a9d11593437", null ],
     [ "m_options", "classogdf_1_1_topology_module.html#a0a0488d8f72c9204137d6f3c9485d771", null ]
 ];

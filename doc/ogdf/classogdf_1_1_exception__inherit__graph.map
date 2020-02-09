@@ -1,0 +1,9 @@
+<map id="ogdf::Exception" name="ogdf::Exception">
+<area shape="rect" id="node1" title="Base class of all ogdf exceptions." alt="" coords="5,148,119,175"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_algorithm_failure_exception.html" title="Exception thrown when an algorithm realizes an internal bug that prevents it from continuing." alt="" coords="177,5,384,32"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_dynamic_cast_failed_exception.html" title="Exception thrown when result of cast is 0." alt="" coords="167,56,395,83"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_insufficient_memory_exception.html" title="Exception thrown when not enough memory is available to execute an algorithm." alt="" coords="197,107,364,149"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_library_not_supported_exception.html" title="Exception thrown when an external library shall be used which is not supported." alt="" coords="193,173,368,214"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_no_std_comparer_exception.html" title="Exception thrown when a required standard comparer has not been specialized." alt="" coords="177,239,384,265"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_type_not_supported_exception.html" title="Exception thrown when a data type is not supported by a generic function." alt="" coords="169,289,392,316"/>
+</map>

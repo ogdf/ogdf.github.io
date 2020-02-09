@@ -1,6 +1,5 @@
 var _node_info_8h =
 [
-    [ "NodeInfo", "classogdf_1_1_node_info.html", "classogdf_1_1_node_info" ],
-    [ "OGDF_NODEINFO_H", "_node_info_8h.html#a6688eb4aece51a78d0475fa0d78e9a3f", null ],
-    [ "operator<<", "_node_info_8h.html#a6940e7da87d1e85aea44889f78a0a41e", null ]
+    [ "NodeInfo", "classogdf_1_1edge__router_1_1_node_info.html", "classogdf_1_1edge__router_1_1_node_info" ],
+    [ "operator<<", "_node_info_8h.html#a881c56306c6899b12857d6a2123a0096", null ]
 ];

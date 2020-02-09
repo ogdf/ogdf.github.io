@@ -1,0 +1,4 @@
+<map id="ogdf::MinSteinerTreeZelikovsky&lt; T &gt;" name="ogdf::MinSteinerTreeZelikovsky&lt; T &gt;">
+<area shape="rect" id="node1" title="This class implements the 11/6&#45;approximation algorithm by Zelikovsky for the minimum Steiner tree pro..." alt="" coords="5,80,244,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_min_steiner_tree_module.html" title="Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirec..." alt="" coords="16,5,233,32"/>
+</map>

@@ -1,7 +1,7 @@
 var classogdf_1_1_local_biconnected_merger =
 [
     [ "LocalBiconnectedMerger", "classogdf_1_1_local_biconnected_merger.html#a483666ca69d950aca27777be46b14e94", null ],
-    [ "buildOneLevel", "classogdf_1_1_local_biconnected_merger.html#a68c92d85bfc40b89aa52a8e16b92bbc2", null ],
+    [ "buildOneLevel", "classogdf_1_1_local_biconnected_merger.html#a55e8b1008ef808105f5beeb3d42c9e3f", null ],
     [ "canMerge", "classogdf_1_1_local_biconnected_merger.html#aed8ac972f9a61d1e85ab2a030563dd32", null ],
     [ "canMerge", "classogdf_1_1_local_biconnected_merger.html#af0561598212fffc3c57097ab60ffcd34", null ],
     [ "doMerge", "classogdf_1_1_local_biconnected_merger.html#ae8c28fbbd0ef764097219f70ab103277", null ],

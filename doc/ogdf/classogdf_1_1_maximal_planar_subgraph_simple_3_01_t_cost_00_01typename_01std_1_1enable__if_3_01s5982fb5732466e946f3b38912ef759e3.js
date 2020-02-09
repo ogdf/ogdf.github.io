@@ -1,0 +1,15 @@
+var classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3 =
+[
+    [ "MaximalPlanarSubgraphSimple", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#af6cc46f1bba7f3ce1cad7d9b7886d7db", null ],
+    [ "MaximalPlanarSubgraphSimple", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a3a0d8ef4b2e82588d08fcbd618ffd2b7", null ],
+    [ "~MaximalPlanarSubgraphSimple", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a791821ee19373f78c6c680fe8cdfae19", null ],
+    [ "clone", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#af32affeb8ce1eca019f8f4bf012b5603", null ],
+    [ "doCall", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a6fc71f7a82d6f7cb6f72b62dca3bbd82", null ],
+    [ "setSeed", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a4d9bc88d92ec7361d8e10c621478d18f", null ],
+    [ "weightOfList", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a3f30cad2b66437f1193b65daa533411e", null ],
+    [ "m_deleteHeuristic", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a554d742f3b4d9b77a3084571acc9ef56", null ],
+    [ "m_heuristic", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a79affa3f4f6976bb9498cf3ada887b24", null ],
+    [ "m_randomGenerator", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a5f4ba12496638016d99fdc105b6fc240", null ],
+    [ "m_randomness", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a9b6cd5bf8e7987d22fe0b6889f7f1254", null ],
+    [ "m_runs", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a66f04788bc48cd334c47878e7ebca9de", null ]
+];

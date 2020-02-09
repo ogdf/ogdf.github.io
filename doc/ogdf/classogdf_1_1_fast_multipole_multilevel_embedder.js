@@ -1,8 +1,10 @@
 var classogdf_1_1_fast_multipole_multilevel_embedder =
 [
+    [ "GalaxyMultilevel", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a494c93820bbc422dbd54233af25457cb", null ],
+    [ "GalaxyMultilevelBuilder", "classogdf_1_1_fast_multipole_multilevel_embedder.html#acc58372ca4ec80e0f1eb188e7f8b8c0c", null ],
     [ "FastMultipoleMultilevelEmbedder", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a2767b422492e3e154520b114e8c98ee6", null ],
     [ "assignPositionsFromPrevLevel", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a1a76a83c569bc073b7faab85a710bf1d", null ],
-    [ "call", "classogdf_1_1_fast_multipole_multilevel_embedder.html#af957d0d5a673c2fcf9a78539fe4bf565", null ],
+    [ "call", "classogdf_1_1_fast_multipole_multilevel_embedder.html#afffca85e9929ae427a6f97268b7df549", null ],
     [ "computeAutoEdgeLength", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a9b24d5ea5042d0d6b3eca2cdd85f4f5a", null ],
     [ "createMultiLevelGraphs", "classogdf_1_1_fast_multipole_multilevel_embedder.html#afabef2d3b25ce9155d5de87976c37f40", null ],
     [ "deleteMultiLevelGraphs", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a06f0924cb958bec5366377a71cd010d3", null ],
@@ -13,7 +15,7 @@ var classogdf_1_1_fast_multipole_multilevel_embedder =
     [ "maxNumThreads", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a66f5ff7fe5c0cfd61f224107e71b194a", null ],
     [ "multilevelUntilNumNodesAreLess", "classogdf_1_1_fast_multipole_multilevel_embedder.html#abbc11e5b2b3addc03a74a006f966d065", null ],
     [ "nextLevel", "classogdf_1_1_fast_multipole_multilevel_embedder.html#af2fa7a73953a457c4e0bbecf7251a73f", null ],
-    [ "numberOfIterationsByLevelNr", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a2eedf07a7d0551b5d07e60955da3da61", null ],
+    [ "numberOfIterationsByLevelNr", "classogdf_1_1_fast_multipole_multilevel_embedder.html#adf69838b03456eccd9db9528a9514066", null ],
     [ "run", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a84ee87164f610c93ea1a0c06405eaf6e", null ],
     [ "writeCurrentToGraphAttributes", "classogdf_1_1_fast_multipole_multilevel_embedder.html#af222261e1b5795e23044ddb4a63e920c", null ],
     [ "m_adjustedNodeSize", "classogdf_1_1_fast_multipole_multilevel_embedder.html#a96462cc3f489059d99283384d2402ae7", null ],

@@ -1,9 +1,13 @@
 var classogdf_1_1_heap_base =
 [
-    [ "HeapBase", "classogdf_1_1_heap_base.html#a5d3cb44abb573c7332ed985374cfc025", null ],
-    [ "~HeapBase", "classogdf_1_1_heap_base.html#a5ea5a099ec2ca26e35fa1af150b07969", null ],
-    [ "empty", "classogdf_1_1_heap_base.html#ac225829d7039b1a7e2fdeb2e12670572", null ],
-    [ "makeHeap", "classogdf_1_1_heap_base.html#ae0b07d93292366ee84530e52a7cd11f1", null ],
-    [ "size", "classogdf_1_1_heap_base.html#a81f6a9a54232872f3508fb782b9d270f", null ],
-    [ "m_size", "classogdf_1_1_heap_base.html#a3ac0740138e9ad3b3fce4c22649c3ede", null ]
+    [ "Handle", "classogdf_1_1_heap_base.html#acb10bf33176b0ed4b7f0982a77ba2261", null ],
+    [ "HeapBase", "classogdf_1_1_heap_base.html#ac3c2311c40c90ad551a33f27b61f9972", null ],
+    [ "comparator", "classogdf_1_1_heap_base.html#ac8828d36d63298face54a08516331b18", null ],
+    [ "decrease", "classogdf_1_1_heap_base.html#ae935362e9a47cdd40f3664ad72994131", null ],
+    [ "merge", "classogdf_1_1_heap_base.html#a2f129e1aab23ac0d21561a22ce27ba91", null ],
+    [ "pop", "classogdf_1_1_heap_base.html#a915c15775b67692c26ed53fc9bd6313a", null ],
+    [ "push", "classogdf_1_1_heap_base.html#aa09756ef6cf3ab84390dc5641e924cba", null ],
+    [ "top", "classogdf_1_1_heap_base.html#a85eece8bd8292298f2a105bf8cdb2ab5", null ],
+    [ "value", "classogdf_1_1_heap_base.html#ae15cbb91d5df266fee2c58c278b45117", null ],
+    [ "m_comp", "classogdf_1_1_heap_base.html#a9d5da41a3c3da2439e891a812e05b786", null ]
 ];

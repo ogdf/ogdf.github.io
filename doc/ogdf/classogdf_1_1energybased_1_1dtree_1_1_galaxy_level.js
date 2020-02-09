@@ -1,0 +1,25 @@
+var classogdf_1_1energybased_1_1dtree_1_1_galaxy_level =
+[
+    [ "GalaxyLevel", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#afbb20055b33c077dca5ae5665f91131f", null ],
+    [ "~GalaxyLevel", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a6a8b30d85621f0f2f6aee4d3ae4d624e", null ],
+    [ "GalaxyLevel", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a9f1847de0778f35e245b1f2b38e962e4", null ],
+    [ "buildLevelsUntil", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a66d21cc0c2edda7f30ed244e0155f28c", null ],
+    [ "buildNextCoarserLevel", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#ab16319adde80b5aa59e7b030e7bda33f", null ],
+    [ "edgeWeight", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#ad135c07327948cd50933221d3ca48de3", null ],
+    [ "graph", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a6d91d6d63764a4392d76e4561b471ef9", null ],
+    [ "isCoarsestLevel", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#acdb3722236d27ab1a678798884d28eae", null ],
+    [ "isFinestLevel", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a1d1c0ffe670a7911e33698166a24fddf", null ],
+    [ "nextCoarser", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a64e20aa5864298151631102a71c4db18", null ],
+    [ "nextFiner", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a7574654439cf525ef4cb1e95bac5f003", null ],
+    [ "parent", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#af330a176f819dadf81a5869ac336e3a9", null ],
+    [ "removeParEdgesWithWeight", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a08c5f04151610e3dd16924830b238d8e", null ],
+    [ "setEdgeWeight", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#acafb6792835ccbb731e1ab6a4dd26603", null ],
+    [ "setWeight", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a2580ee25e71790d20b568cf104b06374", null ],
+    [ "weight", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a631fe21d3af8d1ef87852e33c032423a", null ],
+    [ "m_edgeWeight", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a0d0566ffe43da865f7b0b8b62505e170", null ],
+    [ "m_nodeWeight", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#aa033ed337fb47d88c316d72fc0394c2f", null ],
+    [ "m_parent", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#aedf286435743c47cfee6ff222a5f193a", null ],
+    [ "m_pGraph", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#adf9dd801ac17ef8e091b1868cd23c8c2", null ],
+    [ "m_pNextCoarser", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a99fcefc2e8b4d4a99b311cd9c187c948", null ],
+    [ "m_pNextFiner", "classogdf_1_1energybased_1_1dtree_1_1_galaxy_level.html#a47743117de21ea04f6bf64f0aeeaa3f2", null ]
+];

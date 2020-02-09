@@ -1,8 +1,8 @@
 var classogdf_1_1_sim_draw =
 [
     [ "CompareBy", "classogdf_1_1_sim_draw.html#a1d84262f951cddce0880cb7223c89b21", [
-      [ "index", "classogdf_1_1_sim_draw.html#a1d84262f951cddce0880cb7223c89b21ac58a9215fac298d84f1b1db287ced672", null ],
-      [ "label", "classogdf_1_1_sim_draw.html#a1d84262f951cddce0880cb7223c89b21abc5bdce1b95d66ebaf5f99be5d1172be", null ]
+      [ "index", "classogdf_1_1_sim_draw.html#a1d84262f951cddce0880cb7223c89b21a6a992d5529f459a44fee58c733255e86", null ],
+      [ "label", "classogdf_1_1_sim_draw.html#a1d84262f951cddce0880cb7223c89b21ad304ba20e96d87411588eeabac850e34", null ]
     ] ],
     [ "SimDraw", "classogdf_1_1_sim_draw.html#acad0a8ff875c8d5756573d766a2af83b", null ],
     [ "addAttribute", "classogdf_1_1_sim_draw.html#a288a855bb431363a1082e378b55ef436", null ],
@@ -10,19 +10,18 @@ var classogdf_1_1_sim_draw =
     [ "addGraphAttributes", "classogdf_1_1_sim_draw.html#ab79a6eb08376e75a2da7be1aec11f26f", null ],
     [ "clear", "classogdf_1_1_sim_draw.html#aeca977392f4b96d97d6ecbf16e4454cf", null ],
     [ "compare", "classogdf_1_1_sim_draw.html#ab9d6fb79a942e0f6d8cb636dd91e6d03", null ],
-    [ "compareBy", "classogdf_1_1_sim_draw.html#a491ab4054b91c1e6c5e257ddd96a99d2", null ],
     [ "compareBy", "classogdf_1_1_sim_draw.html#a6616638ee40c5224b1cf66927f4c6372", null ],
+    [ "compareBy", "classogdf_1_1_sim_draw.html#a491ab4054b91c1e6c5e257ddd96a99d2", null ],
     [ "compareById", "classogdf_1_1_sim_draw.html#a3db4b3971ba2a16280dc877b7636b338", null ],
     [ "compareByLabel", "classogdf_1_1_sim_draw.html#a356a2ffd679d4fadea98ca8c525944af", null ],
-    [ "consistencyCheck", "classogdf_1_1_sim_draw.html#a7091f6e4d5a915b83fc59b85a9b823e8", null ],
-    [ "constGraph", "classogdf_1_1_sim_draw.html#a4aefc5ccbabd186bcd7a26fd12b39026", null ],
     [ "constGraph", "classogdf_1_1_sim_draw.html#a788c18abadf42899bffa6788cfc2b372", null ],
-    [ "constGraphAttributes", "classogdf_1_1_sim_draw.html#a424d82da361943312f36babe9cc649bd", null ],
+    [ "constGraph", "classogdf_1_1_sim_draw.html#a4aefc5ccbabd186bcd7a26fd12b39026", null ],
     [ "constGraphAttributes", "classogdf_1_1_sim_draw.html#a6e2f11c4979ff27f7bec45bb8e001c46", null ],
+    [ "constGraphAttributes", "classogdf_1_1_sim_draw.html#a424d82da361943312f36babe9cc649bd", null ],
     [ "getBasicGraph", "classogdf_1_1_sim_draw.html#a6d3259a9c3c2cd083b3ce3bd352f3b0f", null ],
     [ "getBasicGraphAttributes", "classogdf_1_1_sim_draw.html#a9eda5487fbbbcf6dd9c83e0215762823", null ],
-    [ "isDummy", "classogdf_1_1_sim_draw.html#a245ec146e7f012e28fd1a62f2c84bb9e", null ],
     [ "isDummy", "classogdf_1_1_sim_draw.html#a05edb059e8cf22bc6896fe972581b1d1", null ],
+    [ "isDummy", "classogdf_1_1_sim_draw.html#a245ec146e7f012e28fd1a62f2c84bb9e", null ],
     [ "isPhantomDummy", "classogdf_1_1_sim_draw.html#a62ef8308c2d623d893d7c584590ca7f2", null ],
     [ "isProperDummy", "classogdf_1_1_sim_draw.html#a35b2b2eef94f2580d332b450db666dfb", null ],
     [ "maxSubGraph", "classogdf_1_1_sim_draw.html#a1496f7f554268fa71f131a4e7041127f", null ],

@@ -10,8 +10,8 @@ var classabacus_1_1_c_sense =
     [ "CSense", "classabacus_1_1_c_sense.html#ab34fd9948929027a2c2911a42f449561", null ],
     [ "operator=", "classabacus_1_1_c_sense.html#a6473fd8209bb520b664eaa7c1eb5e4d8", null ],
     [ "sense", "classabacus_1_1_c_sense.html#a2d8aee41fe507fd67cf693d5dac0550d", null ],
-    [ "sense", "classabacus_1_1_c_sense.html#aacc0a000ec5e740a273cc5578a1d062a", null ],
     [ "sense", "classabacus_1_1_c_sense.html#afcdab271d7c55b0978cfae72eb028508", null ],
-    [ "operator<<", "classabacus_1_1_c_sense.html#a30be5fcd2d60843f11968670c11cc6b6", null ],
+    [ "sense", "classabacus_1_1_c_sense.html#aacc0a000ec5e740a273cc5578a1d062a", null ],
+    [ "operator<<", "classabacus_1_1_c_sense.html#af9415b9df889e9b60f4a1d3024e66b8f", null ],
     [ "sense_", "classabacus_1_1_c_sense.html#a19d52f33b4dfa41716efb919b1a54987", null ]
 ];

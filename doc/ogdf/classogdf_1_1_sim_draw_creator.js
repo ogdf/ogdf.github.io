@@ -7,6 +7,6 @@ var classogdf_1_1_sim_draw_creator =
     [ "randomESG2", "classogdf_1_1_sim_draw_creator.html#aafbb36182983961d2b4737d18ce2eee4", null ],
     [ "randomESG3", "classogdf_1_1_sim_draw_creator.html#a6f033d75173878002a0cd4e012ec7a4b", null ],
     [ "readGraph", "classogdf_1_1_sim_draw_creator.html#a387b0516b778a55f0c043d183e22f0f7", null ],
-    [ "SubGraphBits", "classogdf_1_1_sim_draw_creator.html#a95e6bcb2c7c59e8b63f20066f7f40fd6", null ],
-    [ "SubGraphBits", "classogdf_1_1_sim_draw_creator.html#a6512358518fa95be4030e376d1e6952f", null ]
+    [ "SubGraphBits", "classogdf_1_1_sim_draw_creator.html#abc1db66667119d97cb7ca0010387e7a3", null ],
+    [ "SubGraphBits", "classogdf_1_1_sim_draw_creator.html#a7e43c09f04258221ff898bc951edfdcf", null ]
 ];

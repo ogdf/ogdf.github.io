@@ -1,10 +1,10 @@
 var structogdf_1_1tlp_1_1_token =
 [
     [ "Type", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4", [
-      [ "tok_leftParen", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4a6f046a9f05b10cfc4e3d8bfa5c50ed5c", null ],
-      [ "tok_rightParen", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4af86d77727dd8af179dbf44695ae6ef87", null ],
-      [ "tok_identifier", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4a770571e22dec0c3a80db4eb4cdc347bf", null ],
-      [ "tok_string", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4a867b32c79060d07c3357239f20da4c10", null ]
+      [ "leftParen", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4a8afe6e6e95a91a8b14d4864f288e2c28", null ],
+      [ "rightParen", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4a0f22e37d094117e19df187d33df937e3", null ],
+      [ "identifier", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4af393f3f5e496869a15bc72cbfd56f541", null ],
+      [ "string", "structogdf_1_1tlp_1_1_token.html#a1e4e49df52e88fc80c7ab7c04099add4ab45cffe084dd3d20d928bee85e7b0f21", null ]
     ] ],
     [ "Token", "structogdf_1_1tlp_1_1_token.html#a0c9464dcd4e044695bbc82e8d504dbf7", null ],
     [ "identifier", "structogdf_1_1tlp_1_1_token.html#a67a1241da52cbd1db4ed59d949f21f48", null ],

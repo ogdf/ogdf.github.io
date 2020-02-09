@@ -4,5 +4,6 @@ var _find_kuratowskis_8h =
     [ "FindKuratowskis", "classogdf_1_1_find_kuratowskis.html", "classogdf_1_1_find_kuratowskis" ],
     [ "KuratowskiStructure", "classogdf_1_1_kuratowski_structure.html", "classogdf_1_1_kuratowski_structure" ],
     [ "WInfo", "structogdf_1_1_w_info.html", "structogdf_1_1_w_info" ],
-    [ "OGDF_FIND_KURATOWSKIS_H", "_find_kuratowskis_8h.html#a3d4a1b9782e95e49fb7003fd6c184dd5", null ]
+    [ "operator&", "_find_kuratowskis_8h.html#a83beda3e6803302047318227e706f85b", null ],
+    [ "operator|=", "_find_kuratowskis_8h.html#a06cd137fdf334a10808b3c2826f40e89", null ]
 ];

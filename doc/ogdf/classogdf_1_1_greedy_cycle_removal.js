@@ -1,6 +1,7 @@
 var classogdf_1_1_greedy_cycle_removal =
 [
-    [ "call", "classogdf_1_1_greedy_cycle_removal.html#a504dfa407b4e2e69c4c42fdd864a7335", null ],
+    [ "GreedyCycleRemoval", "classogdf_1_1_greedy_cycle_removal.html#aaf5b32e8acc31e8e165dd6200e1280d9", null ],
+    [ "call", "classogdf_1_1_greedy_cycle_removal.html#a4d5680ba206b616d19711ccabae5e34d", null ],
     [ "dfs", "classogdf_1_1_greedy_cycle_removal.html#a920d738cb0d465eace9ba33eed837d1a", null ],
     [ "m_B", "classogdf_1_1_greedy_cycle_removal.html#ae001c747cd88b780c2e336b840208cf7", null ],
     [ "m_counter", "classogdf_1_1_greedy_cycle_removal.html#a24de20bef65ac0d3a7249c43e7de8c90", null ],

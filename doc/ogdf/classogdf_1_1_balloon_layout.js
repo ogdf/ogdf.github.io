@@ -1,21 +1,20 @@
 var classogdf_1_1_balloon_layout =
 [
     [ "ChildOrder", "classogdf_1_1_balloon_layout.html#a85cf52451323be1389d705781ee9c7d9", [
-      [ "orderFixed", "classogdf_1_1_balloon_layout.html#a85cf52451323be1389d705781ee9c7d9ae5c458533eb5e802405217317d2d0084", null ],
-      [ "orderOptimized", "classogdf_1_1_balloon_layout.html#a85cf52451323be1389d705781ee9c7d9a13135473b907efcea92b1abe8456b23f", null ]
+      [ "Fixed", "classogdf_1_1_balloon_layout.html#a85cf52451323be1389d705781ee9c7d9a4457d440870ad6d42bab9082d9bf9b61", null ],
+      [ "Optimized", "classogdf_1_1_balloon_layout.html#a85cf52451323be1389d705781ee9c7d9a6e539d2ea7d82ed0e31c450e64ff8c04", null ]
     ] ],
     [ "RootSelection", "classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100", [
-      [ "rootCenter", "classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100ac9206357de22e02b49f6f3ff76c736c9", null ],
-      [ "rootHighestDegree", "classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100a83ad569955065374c672e3f6688149e6", null ]
+      [ "Center", "classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100a4f1f6016fc9f3f2353c0cc7c67b292bd", null ],
+      [ "HighestDegree", "classogdf_1_1_balloon_layout.html#acf67976d3ba2c9111c9bf5c67fd14100afd3bd7bf41aae01d294e242518109b19", null ]
     ] ],
     [ "TreeComputation", "classogdf_1_1_balloon_layout.html#a4c0907ad5aa63967eb0dae310208d53d", [
-      [ "treeBfs", "classogdf_1_1_balloon_layout.html#a4c0907ad5aa63967eb0dae310208d53da69b97c690bc500433d9431c422bca2d4", null ],
-      [ "treeDfs", "classogdf_1_1_balloon_layout.html#a4c0907ad5aa63967eb0dae310208d53dab8f58a525a639c6c0b876fe177bf93be", null ],
-      [ "treeBfsRandom", "classogdf_1_1_balloon_layout.html#a4c0907ad5aa63967eb0dae310208d53dad72face1c3f5605e5a6348800e95905d", null ]
+      [ "Bfs", "classogdf_1_1_balloon_layout.html#a4c0907ad5aa63967eb0dae310208d53daa869584a06e3efb1c723f07b6edc4cea", null ],
+      [ "Dfs", "classogdf_1_1_balloon_layout.html#a4c0907ad5aa63967eb0dae310208d53da0578b3a1f4450ddcd5f2d323355a4126", null ],
+      [ "BfsRandom", "classogdf_1_1_balloon_layout.html#a4c0907ad5aa63967eb0dae310208d53daf65ef662c2336614e79090d07dca593e", null ]
     ] ],
     [ "BalloonLayout", "classogdf_1_1_balloon_layout.html#a865ab25ddf238f9dffe08875ba34fec2", null ],
-    [ "~BalloonLayout", "classogdf_1_1_balloon_layout.html#a3bc957b58f5764065f15bdba0214ef2a", null ],
-    [ "call", "classogdf_1_1_balloon_layout.html#a4beadceaaf36833a78d268cef6c41a15", null ],
+    [ "call", "classogdf_1_1_balloon_layout.html#a92fc233167402e5872dd0cc8fe45d316", null ],
     [ "callFractal", "classogdf_1_1_balloon_layout.html#a9452bc3e83c3baba2d3212f533f48922", null ],
     [ "check", "classogdf_1_1_balloon_layout.html#a5a4a8d2cc2703df4451303cc3dbb63f8", null ],
     [ "computeAngles", "classogdf_1_1_balloon_layout.html#a002990d04f60ba833365cf3ded1084ce", null ],

@@ -1,8 +1,8 @@
 var dir_946faf0608b096809b336c78e83b057e =
 [
-    [ "abacus", "dir_b8dc9778f663f5d44fb6b7320b6749a1.html", "dir_b8dc9778f663f5d44fb6b7320b6749a1" ],
     [ "augmentation", "dir_4134bbfd235eadd5392d66b7f52a4d3c.html", "dir_4134bbfd235eadd5392d66b7f52a4d3c" ],
     [ "basic", "dir_684b7d4e849ff34fbd763f78d7ebd2fd.html", "dir_684b7d4e849ff34fbd763f78d7ebd2fd" ],
+    [ "clique", "dir_64d80de6f325d7a1566250c378a2326c.html", "dir_64d80de6f325d7a1566250c378a2326c" ],
     [ "cluster", "dir_0a2c6f2996c961fbde59f83470e2936d.html", "dir_0a2c6f2996c961fbde59f83470e2936d" ],
     [ "decomposition", "dir_276b97f0f3381e132cc907959177c1af.html", "dir_276b97f0f3381e132cc907959177c1af" ],
     [ "energybased", "dir_e890ab89b1bb9f272688088bbad528e1.html", "dir_e890ab89b1bb9f272688088bbad528e1" ],
@@ -10,12 +10,11 @@ var dir_946faf0608b096809b336c78e83b057e =
     [ "fileformats", "dir_ee4a50abf63abab6075a801ceaeb8a64.html", "dir_ee4a50abf63abab6075a801ceaeb8a64" ],
     [ "graphalg", "dir_5c3e22e53863203aa715a39f0bcb456b.html", "dir_5c3e22e53863203aa715a39f0bcb456b" ],
     [ "hypergraph", "dir_0d5519c64fc959960fc51282b53b9b55.html", "dir_0d5519c64fc959960fc51282b53b9b55" ],
-    [ "internal", "dir_c45e5be061fe902a23dc886ea87fe229.html", "dir_c45e5be061fe902a23dc886ea87fe229" ],
     [ "labeling", "dir_392b0ed4197477394ec7de9e36ec1b59.html", "dir_392b0ed4197477394ec7de9e36ec1b59" ],
     [ "layered", "dir_61c8c5a4c1ba88ac4cf77fc0a2ab64da.html", "dir_61c8c5a4c1ba88ac4cf77fc0a2ab64da" ],
+    [ "lib", "dir_cb2b16483ab3a94fc30acbfc3fb1ea4a.html", "dir_cb2b16483ab3a94fc30acbfc3fb1ea4a" ],
     [ "lpsolver", "dir_0ed09c5f354e980d9662b7930d4de972.html", "dir_0ed09c5f354e980d9662b7930d4de972" ],
     [ "misclayout", "dir_27cd2d186ce7d9a0d6e3df96b99e4371.html", "dir_27cd2d186ce7d9a0d6e3df96b99e4371" ],
-    [ "module", "dir_0b5a397c5d19902cecf56c1b5c7da8ec.html", "dir_0b5a397c5d19902cecf56c1b5c7da8ec" ],
     [ "orthogonal", "dir_35a6c9586c88aac46d0b85a566d23878.html", "dir_35a6c9586c88aac46d0b85a566d23878" ],
     [ "packing", "dir_36b7d39b74edf19e9d17b6aa3207800d.html", "dir_36b7d39b74edf19e9d17b6aa3207800d" ],
     [ "planarity", "dir_d50a3e54837dae900eaf432bdb34b2c1.html", "dir_d50a3e54837dae900eaf432bdb34b2c1" ],

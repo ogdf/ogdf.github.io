@@ -1,31 +1,4 @@
 var searchData=
 [
-  ['forall_5fadj',['forall_adj',['../_graph__d_8h.html#a54cc929b5c1b25b94a9ff9417f2a6195',1,'Graph_d.h']]],
-  ['forall_5fadj_5fedges',['forall_adj_edges',['../_graph__d_8h.html#ae53910b86f6343c6d82c56aad0107e0b',1,'Graph_d.h']]],
-  ['forall_5fadj_5felements',['forall_adj_elements',['../hypergraph_2_hyper_graph_8h.html#af523c23d6744e8812e6730ee660322c0',1,'Hypergraph.h']]],
-  ['forall_5farrayindices',['forall_arrayindices',['../_array_8h.html#ab46fbf479fe3525e79d00d74ff5e6bc3',1,'Array.h']]],
-  ['forall_5fcluster_5fadj',['forall_cluster_adj',['../_cluster_graph_8h.html#a271001265c1d1427ca1a9ae202c1677d',1,'ClusterGraph.h']]],
-  ['forall_5fcluster_5fadj_5fedges',['forall_cluster_adj_edges',['../_cluster_graph_8h.html#a9d12289293121a5c8c55b392f1ce3335',1,'ClusterGraph.h']]],
-  ['forall_5fcluster_5frev_5fadj',['forall_cluster_rev_adj',['../_cluster_graph_8h.html#a412f16659dbb255c5e63d4c52e38f90b',1,'ClusterGraph.h']]],
-  ['forall_5fclusters',['forall_clusters',['../_cluster_graph_8h.html#abcd4c74f454d781828ce6322b4e86e96',1,'ClusterGraph.h']]],
-  ['forall_5fedges',['forall_edges',['../_graph__d_8h.html#afc9702d5b7ae5aadc9fc846ae9297719',1,'Graph_d.h']]],
-  ['forall_5fface_5fadj',['forall_face_adj',['../_combinatorial_embedding_8h.html#a6fe737de75afd0c3c4c6c19bcf0d7433',1,'CombinatorialEmbedding.h']]],
-  ['forall_5ffaces',['forall_faces',['../_combinatorial_embedding_8h.html#a39e211a208a96b003303a0fc51973be0',1,'CombinatorialEmbedding.h']]],
-  ['forall_5fhyperedges',['forall_hyperedges',['../hypergraph_2_hyper_graph_8h.html#a3a9bbbf3b7003593e725f00de697af6c',1,'Hypergraph.h']]],
-  ['forall_5fhypernodes',['forall_hypernodes',['../hypergraph_2_hyper_graph_8h.html#ae0bcb312806c3c201e916fe8a80a9809',1,'Hypergraph.h']]],
-  ['forall_5flistiterators',['forall_listiterators',['../_list_8h.html#a6db96c2637572916f61ecbdbdc4e4dad',1,'List.h']]],
-  ['forall_5fnodes',['forall_nodes',['../_graph__d_8h.html#acf173c50cb212d30f1f4ee984c4a272f',1,'Graph_d.h']]],
-  ['forall_5fnonconst_5flistiterators',['forall_nonconst_listiterators',['../_list_8h.html#a9b0a1079b1aae05337315bd032d671f3',1,'List.h']]],
-  ['forall_5fnonconst_5fslistiterators',['forall_nonconst_slistiterators',['../_list_8h.html#a953317a2aa4e662ba1c32bf330b394ff',1,'List.h']]],
-  ['forall_5fpostorderclusters',['forall_postOrderClusters',['../_cluster_graph_8h.html#a49ae24c8fab3140a84c359291c84b09c',1,'ClusterGraph.h']]],
-  ['forall_5frev_5fadj',['forall_rev_adj',['../_graph__d_8h.html#ac4db610114bc26d5a803c74c64c8680e',1,'Graph_d.h']]],
-  ['forall_5frev_5farrayindices',['forall_rev_arrayindices',['../_array_8h.html#aad77bc70cfb296c688f59d0734b1fcdf',1,'Array.h']]],
-  ['forall_5frev_5fedges',['forall_rev_edges',['../_graph__d_8h.html#a6bac53a8c9167e61d06e2b073eabcbc6',1,'Graph_d.h']]],
-  ['forall_5frev_5ffaces',['forall_rev_faces',['../_combinatorial_embedding_8h.html#a5ab2232c877edd3fb518dd702885df90',1,'CombinatorialEmbedding.h']]],
-  ['forall_5frev_5fhyperedges',['forall_rev_hyperedges',['../hypergraph_2_hyper_graph_8h.html#acfe8755b61420db906c5d696053e746f',1,'Hypergraph.h']]],
-  ['forall_5frev_5fhypernodes',['forall_rev_hypernodes',['../hypergraph_2_hyper_graph_8h.html#afdc66c84a8512fd674391a18287b5353',1,'Hypergraph.h']]],
-  ['forall_5frev_5flistiterators',['forall_rev_listiterators',['../_list_8h.html#ae3a0f61bcb8625d351e9929522179b57',1,'List.h']]],
-  ['forall_5frev_5fnodes',['forall_rev_nodes',['../_graph__d_8h.html#a363d9001eb038b2c23955fcb6218d84f',1,'Graph_d.h']]],
-  ['forall_5frev_5fnonconst_5flistiterators',['forall_rev_nonconst_listiterators',['../_list_8h.html#acbf5892eda77727eb58af2710a58fd40',1,'List.h']]],
-  ['forall_5fslistiterators',['forall_slistiterators',['../_list_8h.html#a55080dcbde82da718e17bdf94951d20a',1,'List.h']]]
+  ['coin_5fosi_5fclp_23549',['COIN_OSI_CLP',['../config__autogen_8h.html#a05e20f5f377151537588c4c749f9248f',1,'config_autogen.h']]]
 ];

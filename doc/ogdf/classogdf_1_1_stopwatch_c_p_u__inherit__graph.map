@@ -1,0 +1,4 @@
+<map id="ogdf::StopwatchCPU" name="ogdf::StopwatchCPU">
+<area shape="rect" id="node1" title="Implements a stopwatch measuring CPU time." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_stopwatch.html" title="Realizes a stopwatch for measuring elapsed time." alt="" coords="20,5,137,32"/>
+</map>

@@ -1,35 +1,35 @@
 var _node_type_patterns_8h =
 [
-    [ "OGDF_NODE_TYPE_PATTERNS_H", "_node_type_patterns_8h.html#a91f7e6a0265787fb9440b101fa157843", null ],
-    [ "nodeType", "_node_type_patterns_8h.html#ac235dd0ef8c44b38d2acf5e381dd52f5", null ],
+    [ "nodeType", "_node_type_patterns_8h.html#a0e31a7c54df5e062a592cdeeac674907", null ],
     [ "UMLNodeTypeConstants", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7de", [
-      [ "ntPrimOriginal", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deac7b9e76c9ca1b559d978e30d4dc7c39b", null ],
-      [ "ntPrimCopy", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea3372cbe70a5491a032a719c935e36c19", null ],
-      [ "ntSecStructural", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deacec4e062566711dc9fb524571aab2251", null ],
-      [ "ntSecNonStructural", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea71c20fa30be41fc73bc461ffcd26efc0", null ],
-      [ "ntTerCrossing", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deacb91e092047c44718c4d97c382fdc779", null ],
-      [ "ntTerExpander", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea8ee80fd42e522d02329665576c0a798e", null ],
-      [ "ntTerHDExpander", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea4d1b21c1710ead329af140ea03592f46", null ],
-      [ "ntTerLDExpander", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea294eb20e34c8546dce4ec3d97bcce580", null ],
-      [ "ntFourFlow", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea3372b409139e9044e52674f434bbedcd", null ],
-      [ "ntFourLabel", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea019a87c02e227cfb7e729b948d5d2cf7", null ],
-      [ "ntFourType", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea5e28e562dae49d4e3e37d899795d6793", null ],
-      [ "ntFourCorner", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deaef6cbe2832e71df75ef8dc6afa17703b", null ]
+      [ "PrimOriginal", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea886435948d7500c001b0bac12a078ae7", null ],
+      [ "PrimCopy", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deae8165899387a7c2c97890edcc3af14f1", null ],
+      [ "SecStructural", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea51f8fa28b285fec962173fc4491c4199", null ],
+      [ "SecNonStructural", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deae32cf06fb5f9867b5288e96ca467a073", null ],
+      [ "TerCrossing", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deadbf2a660fc2e5fb4f0b0f265a472e265", null ],
+      [ "TerExpander", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deae97576cbf849d32a7614766fbfc2911d", null ],
+      [ "TerHDExpander", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea886cedbefc9688a3d797dc452b0433fa", null ],
+      [ "TerLDExpander", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea6c29de5d99578bdf15bf2c8a45bdba4d", null ],
+      [ "FourFlow", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea088e4e89ddaa4ed5ac20195e8798f4ce", null ],
+      [ "FourLabel", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deaeaa817753ac591719d8661795594ec9c", null ],
+      [ "FourType", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7dea2cce84a44a3490bd7bec927797806692", null ],
+      [ "FourCorner", "_node_type_patterns_8h.html#a5c561541b333bf175cd8c0998309f7deae06999c6530938b2ee1d9079736f71ee", null ]
     ] ],
     [ "UMLNodeTypeOffsets", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bd", [
-      [ "ntoPrimary", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda2310f974fa228d1aa3cb48f8e173768b", null ],
-      [ "ntoSecondary", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bdaf7f16c183019105d51528a34be731c8c", null ],
-      [ "ntoTertiary", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bdabe4b7ccf8aafc7cabe4f4c3af2dafe5f", null ],
-      [ "ntoFourth", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda47e89a178c81e5e0b3738bca7c570e7b", null ],
-      [ "ntoFifth", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda83e4d213697c4f7d8b6eacaf80fffdaf", null ],
-      [ "ntoUser", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda78b8e3e3f23e53d942016ec0703af62a", null ]
+      [ "Primary", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda074de7e7c226d5c60f8af14c20725352", null ],
+      [ "Secondary", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda0c7d6cf19426e01dcfa32434828ed266", null ],
+      [ "Tertiary", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda0521727bc2cea17905e963461d5a0f19", null ],
+      [ "Fourth", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda6e599f7a2a9186d391be4537f105be98", null ],
+      [ "Fifth", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda0abdfd715970bd0ef7d5574daa0e6d0b", null ],
+      [ "User", "_node_type_patterns_8h.html#aae56edd638f64b744c9397ede622e0bda8f9bfe9d1345237cb3b2b205864da075", null ]
     ] ],
-    [ "UMLNodeTypePatterns", "_node_type_patterns_8h.html#ac843979b90fd708780ef3dd319af1f12", [
-      [ "ntpPrimary", "_node_type_patterns_8h.html#ac843979b90fd708780ef3dd319af1f12acbab499f93229f95481f5a66a64b4013", null ],
-      [ "ntpSecondary", "_node_type_patterns_8h.html#ac843979b90fd708780ef3dd319af1f12afee4d518103a4864c12381cd9bd4f992", null ],
-      [ "ntpTertiary", "_node_type_patterns_8h.html#ac843979b90fd708780ef3dd319af1f12a390c44f9d85ccf5e5ecb7aad79897d12", null ],
-      [ "ntpFourth", "_node_type_patterns_8h.html#ac843979b90fd708780ef3dd319af1f12ac6603644ae4002cd2f1e9ca72ce62b9d", null ],
-      [ "ntpUser", "_node_type_patterns_8h.html#ac843979b90fd708780ef3dd319af1f12a4c11d4058c11ed77ac280ba2c95af674", null ],
-      [ "ntpAll", "_node_type_patterns_8h.html#ac843979b90fd708780ef3dd319af1f12aaeb9db6922cecdcb97fb3ebdebe05495", null ]
-    ] ]
+    [ "UMLNodeTypePatterns", "_node_type_patterns_8h.html#ad3ccdebe91764bd4612db5ce85d5d013", [
+      [ "Primary", "_node_type_patterns_8h.html#ad3ccdebe91764bd4612db5ce85d5d013a074de7e7c226d5c60f8af14c20725352", null ],
+      [ "Secondary", "_node_type_patterns_8h.html#ad3ccdebe91764bd4612db5ce85d5d013a0c7d6cf19426e01dcfa32434828ed266", null ],
+      [ "Tertiary", "_node_type_patterns_8h.html#ad3ccdebe91764bd4612db5ce85d5d013a0521727bc2cea17905e963461d5a0f19", null ],
+      [ "Fourth", "_node_type_patterns_8h.html#ad3ccdebe91764bd4612db5ce85d5d013a6e599f7a2a9186d391be4537f105be98", null ],
+      [ "User", "_node_type_patterns_8h.html#ad3ccdebe91764bd4612db5ce85d5d013a8f9bfe9d1345237cb3b2b205864da075", null ],
+      [ "All", "_node_type_patterns_8h.html#ad3ccdebe91764bd4612db5ce85d5d013ab1c94ca2fbc3e78fc30069c8d0f01680", null ]
+    ] ],
+    [ "operator<<", "_node_type_patterns_8h.html#aa1029f1429534859c604c56ef050b129", null ]
 ];

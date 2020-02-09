@@ -1,0 +1,4 @@
+<map id="ogdf::ShortestPathModule" name="ogdf::ShortestPathModule">
+<area shape="rect" id="node1" title=" " alt="" coords="12,5,185,32"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_shortest_path_with_b_f_m.html" title="Computes single&#45;source shortest&#45;paths with Bellman&#45;Ford&#45;Moore&#39;s algorithm." alt="" coords="5,80,192,107"/>
+</map>

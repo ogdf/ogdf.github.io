@@ -1,0 +1,4 @@
+<map id="ogdf::steiner_tree::goemans::CoreEdgeRandomSpanningTree&lt; T &gt;" name="ogdf::steiner_tree::goemans::CoreEdgeRandomSpanningTree&lt; T &gt;">
+<area shape="rect" id="node1" title="Computes a random set of core edges." alt="" coords="5,95,257,151"/>
+<area shape="rect" id="node2" href="$classogdf_1_1steiner__tree_1_1goemans_1_1_core_edge_module.html" title="Interface for core edge finder algorithms." alt="" coords="20,5,243,47"/>
+</map>

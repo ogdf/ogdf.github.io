@@ -1,7 +1,7 @@
 var classogdf_1_1_dominance_layout =
 [
     [ "DominanceLayout", "classogdf_1_1_dominance_layout.html#a6626e5ad8aebf90e7325c1d9acfa15e1", null ],
-    [ "call", "classogdf_1_1_dominance_layout.html#a95610f755f5a990a0cf96cfdbc1046fe", null ],
+    [ "call", "classogdf_1_1_dominance_layout.html#a85e3c641c849704f07f810e8ca59b531", null ],
     [ "compact", "classogdf_1_1_dominance_layout.html#a8cb0c548d4821c6eecd21e4b383da8e5", null ],
     [ "findTransitiveEdges", "classogdf_1_1_dominance_layout.html#afc6cfcaa5f054e82e98098da2f1202e9", null ],
     [ "labelX", "classogdf_1_1_dominance_layout.html#a76104746b256384a84df81de0c7fcef4", null ],
@@ -17,7 +17,7 @@ var classogdf_1_1_dominance_layout =
     [ "m_grid_dist", "classogdf_1_1_dominance_layout.html#ae6b9d43203beaf87d51a16291da9915c", null ],
     [ "m_L", "classogdf_1_1_dominance_layout.html#aae90d6f17813f38bc49cb14ce8174784", null ],
     [ "m_R", "classogdf_1_1_dominance_layout.html#a6ce0c6458a21035f363f5cc058134c3e", null ],
-    [ "m_upPlanarizer", "classogdf_1_1_dominance_layout.html#ade1532cb67e9ba080cfe147101bad444", null ],
+    [ "m_upPlanarizer", "classogdf_1_1_dominance_layout.html#a6651e7e62664b23e169f8663221b5ea9", null ],
     [ "xCoord", "classogdf_1_1_dominance_layout.html#af3297642a4f5ca3d748211ee7a80a379", null ],
     [ "xNodes", "classogdf_1_1_dominance_layout.html#a9d8548044209b4aada5cfe79ecbd0ca4", null ],
     [ "xPreCoord", "classogdf_1_1_dominance_layout.html#aa2eaeabe3331b062aaa313da66a602b6", null ],

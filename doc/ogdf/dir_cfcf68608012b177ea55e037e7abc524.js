@@ -19,5 +19,7 @@ var dir_cfcf68608012b177ea55e037e7abc524 =
     [ "SimDrawManipulatorModule.h", "_sim_draw_manipulator_module_8h.html", [
       [ "SimDrawManipulatorModule", "classogdf_1_1_sim_draw_manipulator_module.html", "classogdf_1_1_sim_draw_manipulator_module" ]
     ] ],
-    [ "TwoLayerCrossMinSimDraw.h", "_two_layer_cross_min_sim_draw_8h.html", "_two_layer_cross_min_sim_draw_8h" ]
+    [ "TwoLayerCrossMinSimDraw.h", "_two_layer_cross_min_sim_draw_8h.html", [
+      [ "TwoLayerCrossMinSimDraw", "classogdf_1_1_two_layer_cross_min_sim_draw.html", "classogdf_1_1_two_layer_cross_min_sim_draw" ]
+    ] ]
 ];

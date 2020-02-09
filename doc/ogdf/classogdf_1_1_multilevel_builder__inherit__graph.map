@@ -1,0 +1,9 @@
+<map id="ogdf::MultilevelBuilder" name="ogdf::MultilevelBuilder">
+<area shape="rect" id="node1" title="Base class for merger modules." alt="" coords="5,132,156,159"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_edge_cover_merger.html" title="The edge cover merger for multilevel layout." alt="" coords="223,5,383,32"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_independent_set_merger.html" title="The independent set merger for multilevel layout." alt="" coords="210,56,397,83"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_local_biconnected_merger.html" title="The local biconnected merger for multilevel layout." alt="" coords="204,107,403,133"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_matching_merger.html" title="The matching merger for multilevel layout." alt="" coords="229,157,377,184"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_random_merger.html" title="The random merger for multilevel layout." alt="" coords="231,208,375,235"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_solar_merger.html" title="The solar merger for multilevel layout." alt="" coords="241,259,366,285"/>
+</map>

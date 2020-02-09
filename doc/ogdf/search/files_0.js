@@ -1,15 +1,20 @@
 var searchData=
 [
-  ['abacus_2eh',['abacus.h',['../abacus_8h.html',1,'']]],
-  ['abacusroot_2eh',['abacusroot.h',['../abacusroot_8h.html',1,'']]],
-  ['active_2eh',['active.h',['../active_8h.html',1,'']]],
-  ['active_2einc',['active.inc',['../active_8inc.html',1,'']]],
-  ['acyclicsubgraphmodule_2eh',['AcyclicSubgraphModule.h',['../_acyclic_subgraph_module_8h.html',1,'']]],
-  ['adjacencyoracle_2eh',['AdjacencyOracle.h',['../_adjacency_oracle_8h.html',1,'']]],
-  ['adjentryarray_2eh',['AdjEntryArray.h',['../_adj_entry_array_8h.html',1,'']]],
-  ['array_2eh',['Array.h',['../_array_8h.html',1,'']]],
-  ['array2d_2eh',['Array2D.h',['../_array2_d_8h.html',1,'']]],
-  ['arraybuffer_2eh',['ArrayBuffer.h',['../_array_buffer_8h.html',1,'']]],
-  ['attraction_2eh',['Attraction.h',['../_attraction_8h.html',1,'']]],
-  ['augmentationmodule_2eh',['AugmentationModule.h',['../_augmentation_module_8h.html',1,'']]]
+  ['abacus_2eh_12904',['abacus.h',['../abacus_8h.html',1,'']]],
+  ['abacusroot_2eh_12905',['abacusroot.h',['../abacusroot_8h.html',1,'']]],
+  ['active_2eh_12906',['active.h',['../active_8h.html',1,'']]],
+  ['active_2einc_12907',['active.inc',['../active_8inc.html',1,'']]],
+  ['acyclicsubgraphmodule_2eh_12908',['AcyclicSubgraphModule.h',['../_acyclic_subgraph_module_8h.html',1,'']]],
+  ['adjacencyoracle_2eh_12909',['AdjacencyOracle.h',['../_adjacency_oracle_8h.html',1,'']]],
+  ['adjentryarray_2eh_12910',['AdjEntryArray.h',['../_adj_entry_array_8h.html',1,'']]],
+  ['alg_2eh_12911',['Alg.h',['../_alg_8h.html',1,'']]],
+  ['alloc_2eh_12912',['Alloc.h',['../_alloc_8h.html',1,'']]],
+  ['approximation_2eh_12913',['Approximation.h',['../_approximation_8h.html',1,'']]],
+  ['array_2eh_12914',['Array.h',['../_array_8h.html',1,'']]],
+  ['array2d_2eh_12915',['Array2D.h',['../_array2_d_8h.html',1,'']]],
+  ['arraybuffer_2eh_12916',['ArrayBuffer.h',['../_array_buffer_8h.html',1,'']]],
+  ['arraygraph_2eh_12917',['ArrayGraph.h',['../_array_graph_8h.html',1,'']]],
+  ['astarsearch_2eh_12918',['AStarSearch.h',['../_a_star_search_8h.html',1,'']]],
+  ['attraction_2eh_12919',['Attraction.h',['../_attraction_8h.html',1,'']]],
+  ['augmentationmodule_2eh_12920',['AugmentationModule.h',['../_augmentation_module_8h.html',1,'']]]
 ];

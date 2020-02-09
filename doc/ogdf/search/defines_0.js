@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['_5f_5fsizeof_5fpointer_5f_5f',['__SIZEOF_POINTER__',['../basic_8h.html#a8bd657ce95940b7c6087cf5aa54d5280',1,'basic.h']]]
+  ['abacus_5fversion_23544',['ABACUS_VERSION',['../abacusroot_8h.html#afd5ac9051c12e6f1487ca31335cc8886',1,'abacusroot.h']]],
+  ['abacus_5fversion_5fstring_23545',['ABACUS_VERSION_STRING',['../abacusroot_8h.html#aeb3452255bf995e1dc50cde54d9cccae',1,'abacusroot.h']]]
 ];

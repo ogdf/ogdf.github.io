@@ -1,0 +1,4 @@
+<map id="ogdf::PlanarAugmentation" name="ogdf::PlanarAugmentation">
+<area shape="rect" id="node1" title="The algorithm for planar biconnectivity augmentation (Mutzel, Fialko)." alt="" coords="8,80,180,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_augmentation_module.html" title="The base class for graph augmentation algorithms." alt="" coords="5,5,183,32"/>
+</map>

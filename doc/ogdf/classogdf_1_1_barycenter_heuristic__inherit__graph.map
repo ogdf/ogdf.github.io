@@ -1,0 +1,5 @@
+<map id="ogdf::BarycenterHeuristic" name="ogdf::BarycenterHeuristic">
+<area shape="rect" id="node1" title="The barycenter heuristic for 2&#45;layer crossing minimization." alt="" coords="19,155,190,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layer_by_layer_sweep.html" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="17,80,192,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="5,5,204,32"/>
+</map>

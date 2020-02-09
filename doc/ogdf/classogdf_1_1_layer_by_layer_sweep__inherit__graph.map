@@ -1,0 +1,11 @@
+<map id="ogdf::LayerByLayerSweep" name="ogdf::LayerByLayerSweep">
+<area shape="rect" id="node1" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="252,132,427,159"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_barycenter_heuristic.html" title="The barycenter heuristic for 2&#45;layer crossing minimization." alt="" coords="501,5,671,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_greedy_insert_heuristic.html" title="The greedy&#45;insert heuristic for 2&#45;layer crossing minimization." alt="" coords="495,56,677,83"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_greedy_switch_heuristic.html" title="The greedy&#45;switch heuristic for 2&#45;layer crossing minimization." alt="" coords="491,107,681,133"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_median_heuristic.html" title="The median heuristic for 2&#45;layer crossing minimization." alt="" coords="511,157,661,184"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_sifting_heuristic.html" title="The sifting heuristic for 2&#45;layer crossing minimization." alt="" coords="514,208,658,235"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_two_layer_cross_min_sim_draw.html" title=" " alt="" coords="475,259,697,285"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="5,132,204,159"/>
+<area shape="rect" id="node9" href="$classogdf_1_1_split_heuristic.html" title="The split heuristic for 2&#45;layer crossing minimization." alt="" coords="745,259,879,285"/>
+</map>

@@ -1,5 +1,7 @@
 var classogdf_1_1_upward_planarity =
 [
+    [ "embedUpwardPlanar", "classogdf_1_1_upward_planarity.html#a0a4381e3be66a41c15e2bb1a2a7db9df", null ],
+    [ "isUpwardPlanar", "classogdf_1_1_upward_planarity.html#a2a395f060276858d22ac0f2b3e5b0e2c", null ],
     [ "isUpwardPlanar_embedded", "classogdf_1_1_upward_planarity.html#a58ad2139f9be9f66e9f4068c52438ae0", null ],
     [ "isUpwardPlanar_embedded", "classogdf_1_1_upward_planarity.html#a56d52150f4b8af94443c7fc86e1a2480", null ],
     [ "isUpwardPlanar_singleSource", "classogdf_1_1_upward_planarity.html#a7fb6b9e87a0756fa4351ec6870ab037e", null ],

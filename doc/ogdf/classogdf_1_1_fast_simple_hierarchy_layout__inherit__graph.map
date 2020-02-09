@@ -1,0 +1,4 @@
+<map id="ogdf::FastSimpleHierarchyLayout" name="ogdf::FastSimpleHierarchyLayout">
+<area shape="rect" id="node1" title="Coordinate assignment phase for the Sugiyama algorithm by Ulrik Brandes and Boris Köpf." alt="" coords="13,80,190,121"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_hierarchy_layout_module.html" title="Interface of hierarchy layout algorithms." alt="" coords="5,5,197,32"/>
+</map>

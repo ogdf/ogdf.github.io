@@ -11,7 +11,7 @@ var classogdf_1_1_cluster_planarization_layout =
     [ "setPacker", "classogdf_1_1_cluster_planarization_layout.html#a8c845c3b61341bf6cafe13c52e3165ac", null ],
     [ "setPlanarLayouter", "classogdf_1_1_cluster_planarization_layout.html#ab05cce406376589586478a066d1a1660", null ],
     [ "m_nCrossings", "classogdf_1_1_cluster_planarization_layout.html#aa41bce7365d64be6200755eb270320e2", null ],
-    [ "m_packer", "classogdf_1_1_cluster_planarization_layout.html#a907178b4c7649440fb76b1e620f2676e", null ],
+    [ "m_packer", "classogdf_1_1_cluster_planarization_layout.html#a6664788add5a9bda71de372af5b5051d", null ],
     [ "m_pageRatio", "classogdf_1_1_cluster_planarization_layout.html#a3d24cb791db7438d3b40908f5faddbe0", null ],
-    [ "m_planarLayouter", "classogdf_1_1_cluster_planarization_layout.html#a32ae0b9dfa49a57beb07a3ca40c8aa31", null ]
+    [ "m_planarLayouter", "classogdf_1_1_cluster_planarization_layout.html#ae8875d3845dad48dc0dee58759f0e491", null ]
 ];

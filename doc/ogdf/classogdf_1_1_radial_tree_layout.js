@@ -3,14 +3,14 @@ var classogdf_1_1_radial_tree_layout =
     [ "Group", "structogdf_1_1_radial_tree_layout_1_1_group.html", "structogdf_1_1_radial_tree_layout_1_1_group" ],
     [ "Grouping", "classogdf_1_1_radial_tree_layout_1_1_grouping.html", "classogdf_1_1_radial_tree_layout_1_1_grouping" ],
     [ "RootSelectionType", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0d", [
-      [ "rootIsSource", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0daf4cb08a5c09b9245cbc4de499d3b387b", null ],
-      [ "rootIsSink", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0daebda7d3c1eb0c4566596243fd929a6fa", null ],
-      [ "rootIsCenter", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0da399325a0c902be39152f89c1c67adf9d", null ]
+      [ "Source", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0daf31bbdd1b3e85bccd652680e16935819", null ],
+      [ "Sink", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0da1eb558b5d865ebabb06575f5f0042599", null ],
+      [ "Center", "classogdf_1_1_radial_tree_layout.html#af6a923bca433c50f04456badf68eef0da4f1f6016fc9f3f2353c0cc7c67b292bd", null ]
     ] ],
     [ "RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#abc2864529af6f294a27de65ecdf5628c", null ],
     [ "RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#a7afa51525b4e4fea3c691184971c829b", null ],
-    [ "~RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#a6fdc57e1acea6a83879b295123b03ad6", null ],
-    [ "call", "classogdf_1_1_radial_tree_layout.html#aaba450a8b2e07f7ffadc3939bca18c2b", null ],
+    [ "~RadialTreeLayout", "classogdf_1_1_radial_tree_layout.html#abccae6baabb295ef53c5be69ca1e1d19", null ],
+    [ "call", "classogdf_1_1_radial_tree_layout.html#a275c5955849dbbe95b346f81b2ef11ce", null ],
     [ "ComputeAngles", "classogdf_1_1_radial_tree_layout.html#a11c9bb2a669a2b044d6f0b13c9b8aeb3", null ],
     [ "ComputeCoordinates", "classogdf_1_1_radial_tree_layout.html#a1b622535f08b6d97057b61b3a528e5dc", null ],
     [ "ComputeDiameters", "classogdf_1_1_radial_tree_layout.html#a2f1611444ac960de851fe78cc6a28185", null ],

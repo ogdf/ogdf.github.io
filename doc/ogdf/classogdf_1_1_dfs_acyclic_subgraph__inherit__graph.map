@@ -1,0 +1,4 @@
+<map id="ogdf::DfsAcyclicSubgraph" name="ogdf::DfsAcyclicSubgraph">
+<area shape="rect" id="node1" title="DFS&#45;based algorithm for computing a maximal acyclic subgraph." alt="" coords="15,80,190,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_acyclic_subgraph_module.html" title="Base class of algorithms for computing a maximal acyclic subgraph." alt="" coords="5,5,200,32"/>
+</map>

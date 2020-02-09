@@ -2,8 +2,8 @@ var classogdf_1_1_skeleton =
 [
     [ "Skeleton", "classogdf_1_1_skeleton.html#a4b484e03fdcb7aeed5fff8db6bd2ae6a", null ],
     [ "~Skeleton", "classogdf_1_1_skeleton.html#aa9b2a44c229c5461e74c2ea732bc70d7", null ],
-    [ "getGraph", "classogdf_1_1_skeleton.html#aaa8ab8c3eb46c5914dc3c61a793806ee", null ],
     [ "getGraph", "classogdf_1_1_skeleton.html#af61b335d79ede91f1eac4928494cadff", null ],
+    [ "getGraph", "classogdf_1_1_skeleton.html#aaa8ab8c3eb46c5914dc3c61a793806ee", null ],
     [ "isVirtual", "classogdf_1_1_skeleton.html#ae8aedbff91a18bc6148d0f409e770822", null ],
     [ "original", "classogdf_1_1_skeleton.html#a0b9ed0b8ab73a8ba4d7da460866b2d4f", null ],
     [ "owner", "classogdf_1_1_skeleton.html#a840222ab35e03e188e3bd9e447bd9621", null ],

@@ -1,0 +1,5 @@
+<map id="ogdf::spring_embedder::SpringEmbedderBase" name="ogdf::spring_embedder::SpringEmbedderBase">
+<area shape="rect" id="node1" title="Common base class for ogdf::SpringEmbedderBase and ogdf::SpringEmbedderGridVariant." alt="" coords="15,80,171,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_spring_embedder_grid_variant.html" title="The spring&#45;embedder layout algorithm with force approximation using hte grid variant approach." alt="" coords="5,169,180,211"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="25,5,161,32"/>
+</map>

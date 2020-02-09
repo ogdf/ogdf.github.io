@@ -1,17 +1,17 @@
 var classogdf_1_1_ortho_shaper =
 [
-    [ "n_type", "classogdf_1_1_ortho_shaper.html#ad1dbc86ffa2b5a015b8d6e8caad0de4b", [
-      [ "low", "classogdf_1_1_ortho_shaper.html#ad1dbc86ffa2b5a015b8d6e8caad0de4bac5bf5f9db206c1b9b34dd6f77eb1f548", null ],
-      [ "high", "classogdf_1_1_ortho_shaper.html#ad1dbc86ffa2b5a015b8d6e8caad0de4baf9b1653ecc7ab1744b6811d919c24840", null ],
-      [ "inner", "classogdf_1_1_ortho_shaper.html#ad1dbc86ffa2b5a015b8d6e8caad0de4baebda5d33a7002316f74b82bd54d43afe", null ],
-      [ "outer", "classogdf_1_1_ortho_shaper.html#ad1dbc86ffa2b5a015b8d6e8caad0de4ba91a3a7b9a208a4873ca4bd40c06a1e68", null ]
+    [ "NetworkNodeType", "classogdf_1_1_ortho_shaper.html#a64b212b64b81010f965907dc9a2134e6", [
+      [ "low", "classogdf_1_1_ortho_shaper.html#a64b212b64b81010f965907dc9a2134e6a53cced8d281a1a0ace3cb6594daaa4f7", null ],
+      [ "high", "classogdf_1_1_ortho_shaper.html#a64b212b64b81010f965907dc9a2134e6a8d966b2253a917086c8604959e152243", null ],
+      [ "inner", "classogdf_1_1_ortho_shaper.html#a64b212b64b81010f965907dc9a2134e6aea97586b4aa0c141e4456912f3325f7f", null ],
+      [ "outer", "classogdf_1_1_ortho_shaper.html#a64b212b64b81010f965907dc9a2134e6a7cfcbd1c1575dd7eae454f18b9267188", null ]
     ] ],
     [ "OrthoShaper", "classogdf_1_1_ortho_shaper.html#a909955aafd79f7f7d6abc093c9b1df79", null ],
     [ "~OrthoShaper", "classogdf_1_1_ortho_shaper.html#ae694f9226148ad69157f5da54bec5cb0", null ],
-    [ "align", "classogdf_1_1_ortho_shaper.html#a78fd0d0c80c4e21691fb6c26c5fdc3b2", null ],
     [ "align", "classogdf_1_1_ortho_shaper.html#a9c589bfbebfc3ad1eb62096312cbe1f7", null ],
-    [ "call", "classogdf_1_1_ortho_shaper.html#a2ae88770d77c4f2c74b34a417d689d06", null ],
+    [ "align", "classogdf_1_1_ortho_shaper.html#a78fd0d0c80c4e21691fb6c26c5fdc3b2", null ],
     [ "call", "classogdf_1_1_ortho_shaper.html#a1f563225941d3cdd9a1ed19cc59e3a26", null ],
+    [ "call", "classogdf_1_1_ortho_shaper.html#a2ae88770d77c4f2c74b34a417d689d06", null ],
     [ "distributeEdges", "classogdf_1_1_ortho_shaper.html#abb37e6ebab63899f1ee3c2f7d98470f9", null ],
     [ "distributeEdges", "classogdf_1_1_ortho_shaper.html#ab593a829b086a3721b4351bf5479f3ed", null ],
     [ "fixDegreeFourAngles", "classogdf_1_1_ortho_shaper.html#a28a8af22e862d862d313485b968e62f5", null ],
