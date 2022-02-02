@@ -16,6 +16,6 @@ var structogdf_1_1tlp_1_1_token =
     [ "operator<<", "structogdf_1_1tlp_1_1_token.html#a2f872262d765a0adb4f709de308f33e3", null ],
     [ "column", "structogdf_1_1tlp_1_1_token.html#a6fc85720b6b294f89c63bc1646fdb6b3", null ],
     [ "line", "structogdf_1_1tlp_1_1_token.html#ae0a9026f03cf1a72b9e118f6eeb87f37", null ],
-    [ "type", "structogdf_1_1tlp_1_1_token.html#a916422bb7930078381a45f39a5d5e89a", null ],
+    [ "type", "structogdf_1_1tlp_1_1_token.html#ac6275287a0412cbe97fe57b2cf338448", null ],
     [ "value", "structogdf_1_1tlp_1_1_token.html#a0c82a390fc233472ed2fdb674096bf2e", null ]
 ];

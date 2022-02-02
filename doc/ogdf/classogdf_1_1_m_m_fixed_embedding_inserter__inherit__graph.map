@@ -1,5 +1,5 @@
 <map id="ogdf::MMFixedEmbeddingInserter" name="ogdf::MMFixedEmbeddingInserter">
-<area shape="rect" id="node1" title="Minor&#45;monotone edge insertion with fixed embedding." alt="" coords="5,155,224,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_m_m_edge_insertion_module.html" title="Interface for minor&#45;monotone edge insertion algorithms." alt="" coords="15,80,214,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="66,5,163,32"/>
+<area shape="rect" id="node1" title="Minor&#45;monotone edge insertion with fixed embedding." alt="" coords="5,155,244,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_m_m_edge_insertion_module.html" title="Interface for minor&#45;monotone edge insertion algorithms." alt="" coords="15,80,234,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="71,5,178,32"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="ogdf::fast_multipole_embedder::FMEFuncInvokerTask&lt; FuncInvokerType &gt;" name="ogdf::fast_multipole_embedder::FMEFuncInvokerTask&lt; FuncInvokerType &gt;">
-<area shape="rect" id="node1" title="Class used to invoke a functor or function inside a thread." alt="" coords="5,95,228,151"/>
-<area shape="rect" id="node2" href="$classogdf_1_1fast__multipole__embedder_1_1_f_m_e_task.html" title="The thread task class used only as an interface." alt="" coords="41,5,192,47"/>
+<area shape="rect" id="node1" title="Class used to invoke a functor or function inside a thread." alt="" coords="5,95,244,151"/>
+<area shape="rect" id="node2" href="$classogdf_1_1fast__multipole__embedder_1_1_f_m_e_task.html" title="The thread task class used only as an interface." alt="" coords="45,5,205,47"/>
 </map>

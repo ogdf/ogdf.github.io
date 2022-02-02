@@ -42,6 +42,7 @@ var dir_ee4a50abf63abab6075a801ceaeb8a64 =
       [ "Parser", "classogdf_1_1gml_1_1_parser.html", "classogdf_1_1gml_1_1_parser" ]
     ] ],
     [ "GraphIO.h", "_graph_i_o_8h.html", [
+      [ "FileType", "structogdf_1_1_graph_i_o_1_1_file_type.html", "structogdf_1_1_graph_i_o_1_1_file_type" ],
       [ "SVGSettings", "classogdf_1_1_graph_i_o_1_1_s_v_g_settings.html", "classogdf_1_1_graph_i_o_1_1_s_v_g_settings" ]
     ] ],
     [ "GraphML.h", "_graph_m_l_8h.html", "_graph_m_l_8h" ],
@@ -55,6 +56,9 @@ var dir_ee4a50abf63abab6075a801ceaeb8a64 =
     [ "TlpLexer.h", "_tlp_lexer_8h.html", "_tlp_lexer_8h" ],
     [ "TlpParser.h", "_tlp_parser_8h.html", [
       [ "Parser", "classogdf_1_1tlp_1_1_parser.html", "classogdf_1_1tlp_1_1_parser" ]
+    ] ],
+    [ "TsplibXmlParser.h", "_tsplib_xml_parser_8h.html", [
+      [ "TsplibXmlParser", "classogdf_1_1_tsplib_xml_parser.html", "classogdf_1_1_tsplib_xml_parser" ]
     ] ],
     [ "Utils.h", "fileformats_2utils_8h.html", "fileformats_2utils_8h" ]
 ];

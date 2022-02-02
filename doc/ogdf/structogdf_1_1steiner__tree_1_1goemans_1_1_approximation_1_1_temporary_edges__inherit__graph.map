@@ -1,5 +1,4 @@
 <map id="ogdf::steiner_tree::goemans::Approximation&lt; T &gt;::TemporaryEdges" name="ogdf::steiner_tree::goemans::Approximation&lt; T &gt;::TemporaryEdges">
-<area shape="rect" id="node1" title="Add edges into a blowup graph and delete them on destruction." alt="" coords="5,184,180,240"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_array_buffer.html" title=" " alt="" coords="28,95,157,136"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_array.html" title=" " alt="" coords="27,5,158,47"/>
+<area shape="rect" id="node1" title="Add edges into a blowup graph and delete them on destruction." alt="" coords="5,95,200,151"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_array_buffer.html" title=" " alt="" coords="31,5,175,47"/>
 </map>

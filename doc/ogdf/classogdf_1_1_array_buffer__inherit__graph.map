@@ -1,4 +1,0 @@
-<map id="ogdf::ArrayBuffer&lt; E, INDEX &gt;" name="ogdf::ArrayBuffer&lt; E, INDEX &gt;">
-<area shape="rect" id="node1" title="An array that keeps track of the number of inserted elements; also usable as an efficient stack." alt="" coords="25,80,155,121"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_array.html" title="The parameterized class Array implements dynamic arrays of type E." alt="" coords="5,5,175,32"/>
-</map>

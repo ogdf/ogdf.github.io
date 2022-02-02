@@ -1,4 +1,4 @@
 <map id="ogdf::ClusterOrthoLayout" name="ogdf::ClusterOrthoLayout">
-<area shape="rect" id="node1" title="Represents a planar orthogonal drawing algorithm for c&#45;planar, c&#45;connected clustered graphs." alt="" coords="15,95,183,121"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_cluster_plan_rep_module.html" title="Interface for planar cluster layout algorithms." alt="" coords="5,5,192,47"/>
+<area shape="rect" id="node1" title="Represents a planar orthogonal drawing algorithm for c&#45;planar, c&#45;connected clustered graphs." alt="" coords="14,95,198,121"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layout_cluster_plan_rep_module.html" title="Interface for planar cluster layout algorithms." alt="" coords="5,5,207,47"/>
 </map>

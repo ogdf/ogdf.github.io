@@ -1,5 +1,5 @@
 <map id="ogdf::HierarchyLevelsBase" name="ogdf::HierarchyLevelsBase">
-<area shape="rect" id="node1" title=" " alt="" coords="55,5,233,32"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_block_order.html" title="Hierarchical graph representation used by GlobalSifting and GridSifting algorithms." alt="" coords="5,80,125,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_hierarchy_levels.html" title="Representation of proper hierarchies used by Sugiyama&#45;layout." alt="" coords="149,80,299,107"/>
+<area shape="rect" id="node1" title=" " alt="" coords="59,5,253,32"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_block_order.html" title="Hierarchical graph representation used by GlobalSifting and GridSifting algorithms." alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_hierarchy_levels.html" title="Representation of proper hierarchies used by Sugiyama&#45;layout." alt="" coords="160,80,323,107"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="ogdf::MaximumPlanarSubgraph&lt; TCost &gt;" name="ogdf::MaximumPlanarSubgraph&lt; TCost &gt;">
-<area shape="rect" id="node1" title="Exact computation of a maximum planar subgraph." alt="" coords="16,169,220,211"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms." alt="" coords="23,80,213,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Exact computation of a maximum planar subgraph." alt="" coords="15,169,241,211"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms." alt="" coords="24,80,232,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
 </map>

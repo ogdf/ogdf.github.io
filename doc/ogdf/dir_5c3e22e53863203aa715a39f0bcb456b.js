@@ -1,27 +1,19 @@
 var dir_5c3e22e53863203aa715a39f0bcb456b =
 [
     [ "steiner_tree", "dir_d10ff3901ec852ad3af536b1fa78df89.html", "dir_d10ff3901ec852ad3af536b1fa78df89" ],
-    [ "AStarSearch.h", "_a_star_search_8h.html", [
-      [ "AStarSearch", "classogdf_1_1_a_star_search.html", "classogdf_1_1_a_star_search" ]
-    ] ],
+    [ "AStarSearch.h", "_a_star_search_8h.html", null ],
     [ "Clusterer.h", "_clusterer_8h.html", null ],
     [ "ClustererModule.h", "_clusterer_module_8h.html", [
       [ "ClustererModule", "classogdf_1_1_clusterer_module.html", "classogdf_1_1_clusterer_module" ],
       [ "SimpleCluster", "classogdf_1_1_simple_cluster.html", "classogdf_1_1_simple_cluster" ]
     ] ],
-    [ "ConnectivityTester.h", "_connectivity_tester_8h.html", [
-      [ "ConnectivityTester", "classogdf_1_1_connectivity_tester.html", "classogdf_1_1_connectivity_tester" ]
-    ] ],
+    [ "ConnectivityTester.h", "_connectivity_tester_8h.html", null ],
     [ "ConvexHull.h", "_convex_hull_8h.html", null ],
     [ "Dijkstra.h", "_dijkstra_8h.html", null ],
-    [ "EdgeIndependentSpanningTrees.h", "_edge_independent_spanning_trees_8h.html", [
-      [ "EdgeIndependentSpanningTrees", "classogdf_1_1_edge_independent_spanning_trees.html", "classogdf_1_1_edge_independent_spanning_trees" ]
-    ] ],
+    [ "EdgeIndependentSpanningTrees.h", "_edge_independent_spanning_trees_8h.html", null ],
     [ "GraphReduction.h", "_graph_reduction_8h.html", null ],
     [ "Matching.h", "_matching_8h.html", "_matching_8h" ],
-    [ "MaxAdjOrdering.h", "_max_adj_ordering_8h.html", [
-      [ "MaxAdjOrdering", "classogdf_1_1_max_adj_ordering.html", "classogdf_1_1_max_adj_ordering" ]
-    ] ],
+    [ "MaxAdjOrdering.h", "_max_adj_ordering_8h.html", null ],
     [ "MaxFlowEdmondsKarp.h", "_max_flow_edmonds_karp_8h.html", null ],
     [ "MaxFlowGoldbergTarjan.h", "_max_flow_goldberg_tarjan_8h.html", "_max_flow_goldberg_tarjan_8h" ],
     [ "MaxFlowModule.h", "_max_flow_module_8h.html", [
@@ -36,18 +28,10 @@ var dir_5c3e22e53863203aa715a39f0bcb456b =
       [ "arctype", "structogdf_1_1_min_cost_flow_reinelt_1_1arctype.html", "structogdf_1_1_min_cost_flow_reinelt_1_1arctype" ],
       [ "nodetype", "structogdf_1_1_min_cost_flow_reinelt_1_1nodetype.html", "structogdf_1_1_min_cost_flow_reinelt_1_1nodetype" ]
     ] ],
-    [ "MinimumCut.h", "_minimum_cut_8h.html", [
-      [ "MinCut", "classogdf_1_1_min_cut.html", "classogdf_1_1_min_cut" ]
-    ] ],
-    [ "MinSTCutBFS.h", "_min_s_t_cut_b_f_s_8h.html", [
-      [ "MinSTCutBFS", "classogdf_1_1_min_s_t_cut_b_f_s.html", "classogdf_1_1_min_s_t_cut_b_f_s" ]
-    ] ],
-    [ "MinSTCutDijkstra.h", "_min_s_t_cut_dijkstra_8h.html", [
-      [ "MinSTCutDijkstra", "classogdf_1_1_min_s_t_cut_dijkstra.html", "classogdf_1_1_min_s_t_cut_dijkstra" ]
-    ] ],
-    [ "MinSTCutMaxFlow.h", "_min_s_t_cut_max_flow_8h.html", [
-      [ "MinSTCutMaxFlow", "classogdf_1_1_min_s_t_cut_max_flow.html", "classogdf_1_1_min_s_t_cut_max_flow" ]
-    ] ],
+    [ "MinimumCut.h", "_minimum_cut_8h.html", null ],
+    [ "MinSTCutBFS.h", "_min_s_t_cut_b_f_s_8h.html", null ],
+    [ "MinSTCutDijkstra.h", "_min_s_t_cut_dijkstra_8h.html", null ],
+    [ "MinSTCutMaxFlow.h", "_min_s_t_cut_max_flow_8h.html", null ],
     [ "MinSTCutModule.h", "_min_s_t_cut_module_8h.html", [
       [ "MinSTCutModule", "classogdf_1_1_min_s_t_cut_module.html", "classogdf_1_1_min_s_t_cut_module" ]
     ] ],
@@ -82,15 +66,13 @@ var dir_5c3e22e53863203aa715a39f0bcb456b =
     [ "SteinerTreeLowerBoundDualAscent.h", "_steiner_tree_lower_bound_dual_ascent_8h.html", [
       [ "LowerBoundDualAscent", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent" ],
       [ "TerminalData", "structogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent_1_1_terminal_data.html", "structogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent_1_1_terminal_data" ],
-      [ "TerminalDataReference", "structogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent_1_1_terminal_data_reference.html", "structogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent_1_1_terminal_data_reference" ],
-      [ "SteinerTreeLowerBoundDualAscent", "classogdf_1_1_steiner_tree_lower_bound_dual_ascent.html", "classogdf_1_1_steiner_tree_lower_bound_dual_ascent" ]
+      [ "TerminalDataReference", "structogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent_1_1_terminal_data_reference.html", "structogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent_1_1_terminal_data_reference" ]
     ] ],
     [ "SteinerTreePreprocessing.h", "_steiner_tree_preprocessing_8h.html", [
       [ "UnorderedNodePairEquality", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_equality.html", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_equality" ],
       [ "UnorderedNodePairHasher", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher.html", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher" ]
     ] ],
     [ "Triconnectivity.h", "_triconnectivity_8h.html", [
-      [ "Triconnectivity", "classogdf_1_1_triconnectivity.html", "classogdf_1_1_triconnectivity" ],
       [ "CompStruct", "structogdf_1_1_triconnectivity_1_1_comp_struct.html", "structogdf_1_1_triconnectivity_1_1_comp_struct" ]
     ] ],
     [ "Voronoi.h", "_voronoi_8h.html", null ]

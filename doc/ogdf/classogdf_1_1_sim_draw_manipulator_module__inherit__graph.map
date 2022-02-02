@@ -1,7 +1,7 @@
 <map id="ogdf::SimDrawManipulatorModule" name="ogdf::SimDrawManipulatorModule">
-<area shape="rect" id="node1" title="Interface for simdraw manipulators." alt="" coords="165,5,341,47"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_sim_draw_caller.html" title="Calls modified algorithms for simdraw instances." alt="" coords="5,95,148,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_sim_draw_colorizer.html" title="Adds color to a graph." alt="" coords="172,95,333,121"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_sim_draw_creator.html" title="Creates variety of possible SimDraw creations." alt="" coords="358,95,510,121"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_sim_draw_creator_simple.html" title="Offers predefined SimDraw creations." alt="" coords="338,169,530,196"/>
+<area shape="rect" id="node1" title="Interface for simdraw manipulators." alt="" coords="175,5,369,47"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_sim_draw_caller.html" title="Calls modified algorithms for simdraw instances." alt="" coords="5,95,160,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_sim_draw_colorizer.html" title="Adds color to a graph." alt="" coords="185,95,359,121"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_sim_draw_creator.html" title="Creates variety of possible SimDraw creations." alt="" coords="384,95,549,121"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_sim_draw_creator_simple.html" title="Offers predefined SimDraw creations." alt="" coords="361,169,572,196"/>
 </map>

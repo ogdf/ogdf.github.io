@@ -1,6 +1,5 @@
 <map id="ogdf::GenericPolyline&lt; PointType &gt;" name="ogdf::GenericPolyline&lt; PointType &gt;">
-<area shape="rect" id="node1" title="Polylines with PointType points." alt="" coords="25,155,172,196"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_d_polygon.html" title="Polygons with real coordinates." alt="" coords="11,244,187,271"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_list.html" title=" " alt="" coords="19,80,178,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_list_pure.html" title=" " alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node1" title="Polylines with PointType points." alt="" coords="22,80,182,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_d_polygon.html" title="Polygons with real coordinates." alt="" coords="5,169,199,196"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_list.html" title=" " alt="" coords="15,5,189,32"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="ogdf::EmbedderMinDepth" name="ogdf::EmbedderMinDepth">
-<area shape="rect" id="node1" title="Embedder that minimizes block&#45;nesting depth." alt="" coords="33,244,203,271"/>
-<area shape="rect" id="node2" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="29,155,207,196"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="40,80,196,107"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Embedder that minimizes block&#45;nesting depth." alt="" coords="35,244,221,271"/>
+<area shape="rect" id="node2" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="29,155,227,196"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="42,80,214,107"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
 </map>

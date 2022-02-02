@@ -1,4 +1,4 @@
 <map id="ogdf::InsufficientMemoryException" name="ogdf::InsufficientMemoryException">
-<area shape="rect" id="node1" title="Exception thrown when not enough memory is available to execute an algorithm." alt="" coords="5,80,172,121"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_exception.html" title="Base class of all ogdf exceptions." alt="" coords="32,5,145,32"/>
+<area shape="rect" id="node1" title="Exception thrown when not enough memory is available to execute an algorithm." alt="" coords="5,80,191,121"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_exception.html" title="Base class of all ogdf exceptions." alt="" coords="37,5,159,32"/>
 </map>

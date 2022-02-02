@@ -44,5 +44,6 @@ var group__ga_induced =
     [ "inducedSubGraph", "group__ga-induced.html#gae6fe7eea35ddb29d301b86945a980934", null ],
     [ "inducedSubGraph", "group__ga-induced.html#ga4cec43d4f2149606c2c7f0b8970fee49", null ],
     [ "inducedSubGraph", "group__ga-induced.html#ga9f0d83ac246c8ab5e3733d589799a87e", null ],
+    [ "inducedSubGraph", "group__ga-induced.html#ga0320ecb821ec5e5b946c8807a82178d5", null ],
     [ "inducedSubgraph", "group__ga-induced.html#ga3013bb48b07fecd3dc6592f8fd6e9d01", null ]
 ];

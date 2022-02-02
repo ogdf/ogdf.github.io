@@ -1,6 +1,6 @@
 <map id="ogdf::PlanarStraightLayout" name="ogdf::PlanarStraightLayout">
-<area shape="rect" id="node1" title="Implementation of the Planar&#45;Straight layout algorithm." alt="" coords="16,229,192,256"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_planar_grid_layout_module.html" title="Base class for planar grid layout algorithms." alt="" coords="5,155,203,181"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_grid_layout_module.html" title="Base class for grid layout algorithms." alt="" coords="24,80,184,107"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="36,5,172,32"/>
+<area shape="rect" id="node1" title="Implementation of the Planar&#45;Straight layout algorithm." alt="" coords="17,229,212,256"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_planar_grid_layout_module.html" title="Base class for planar grid layout algorithms." alt="" coords="5,155,224,181"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_grid_layout_module.html" title="Base class for grid layout algorithms." alt="" coords="26,80,203,107"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="39,5,190,32"/>
 </map>

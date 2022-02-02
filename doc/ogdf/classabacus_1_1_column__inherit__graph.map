@@ -1,5 +1,5 @@
 <map id="abacus::Column" name="abacus::Column">
-<area shape="rect" id="node1" title="Representation of variables in column format." alt="" coords="19,155,136,181"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_spar_vec.html" title="Sparse vectors." alt="" coords="16,80,139,107"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,149,32"/>
+<area shape="rect" id="node1" title="Representation of variables in column format." alt="" coords="19,155,145,181"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_spar_vec.html" title="Sparse vectors." alt="" coords="17,80,147,107"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,159,32"/>
 </map>

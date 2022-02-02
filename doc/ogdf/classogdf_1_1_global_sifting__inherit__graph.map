@@ -1,4 +1,4 @@
 <map id="ogdf::GlobalSifting" name="ogdf::GlobalSifting">
-<area shape="rect" id="node1" title="The global sifting heuristic for crossing minimization." alt="" coords="40,80,169,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node1" title="The global sifting heuristic for crossing minimization." alt="" coords="43,80,186,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="5,5,224,32"/>
 </map>

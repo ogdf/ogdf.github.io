@@ -1,5 +1,5 @@
 <map id="ogdf::UpwardPlanarizerModule" name="ogdf::UpwardPlanarizerModule">
-<area shape="rect" id="node1" title="Interface for upward planarization algorithms." alt="" coords="12,80,212,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_subgraph_upward_planarizer.html" title="Takes an acyclic connected non&#45;upward&#45;planar graph and planarizes it, i.e., we obtain an upward&#45;plana..." alt="" coords="5,155,219,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="63,5,161,32"/>
+<area shape="rect" id="node1" title="Interface for upward planarization algorithms." alt="" coords="12,80,233,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_subgraph_upward_planarizer.html" title="Takes an acyclic connected non&#45;upward&#45;planar graph and planarizes it, i.e., we obtain an upward&#45;plana..." alt="" coords="5,155,240,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="69,5,176,32"/>
 </map>

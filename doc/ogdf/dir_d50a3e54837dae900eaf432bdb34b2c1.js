@@ -63,6 +63,9 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
     ] ],
     [ "PlanarizationGridLayout.h", "_planarization_grid_layout_8h.html", null ],
     [ "PlanarizationLayout.h", "_planarization_layout_8h.html", null ],
+    [ "PlanarizerChordlessCycle.h", "_planarizer_chordless_cycle_8h.html", null ],
+    [ "PlanarizerMixedInsertion.h", "_planarizer_mixed_insertion_8h.html", null ],
+    [ "PlanarizerStarReinsertion.h", "_planarizer_star_reinsertion_8h.html", null ],
     [ "PlanarSubgraphBoyerMyrvold.h", "_planar_subgraph_boyer_myrvold_8h.html", null ],
     [ "PlanarSubgraphCactus.h", "_planar_subgraph_cactus_8h.html", null ],
     [ "PlanarSubgraphEmpty.h", "_planar_subgraph_empty_8h.html", null ],
@@ -93,6 +96,7 @@ var dir_d50a3e54837dae900eaf432bdb34b2c1 =
     [ "SimpleIncNodeInserter.h", "_simple_inc_node_inserter_8h.html", [
       [ "SimpleIncNodeInserter", "classogdf_1_1_simple_inc_node_inserter.html", "classogdf_1_1_simple_inc_node_inserter" ]
     ] ],
+    [ "StarInserter.h", "_star_inserter_8h.html", "_star_inserter_8h" ],
     [ "SubgraphPlanarizer.h", "_subgraph_planarizer_8h.html", null ],
     [ "TopologyModule.h", "_topology_module_8h.html", "_topology_module_8h" ],
     [ "VariableEmbeddingInserter.h", "_variable_embedding_inserter_8h.html", null ],

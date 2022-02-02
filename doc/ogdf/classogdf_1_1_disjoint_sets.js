@@ -13,6 +13,8 @@ var classogdf_1_1_disjoint_sets =
     [ "getNumberOfElements", "classogdf_1_1_disjoint_sets.html#a9ded23f34447e3db591d8b8b2a50af4b", null ],
     [ "getNumberOfSets", "classogdf_1_1_disjoint_sets.html#a3cac585cccd1d82c6aa2215fb6b0dc44", null ],
     [ "getRepresentative", "classogdf_1_1_disjoint_sets.html#a10a8a8c3ca6c887dab64ba577530742e", null ],
+    [ "init", "classogdf_1_1_disjoint_sets.html#a237808018b5ea41125c2e87f20886566", null ],
+    [ "init", "classogdf_1_1_disjoint_sets.html#a8bc697086b8f9e905255cee31a10f5d5", null ],
     [ "link", "classogdf_1_1_disjoint_sets.html#aeb6593a57898de2bdf37d77c645bc495", null ],
     [ "link", "classogdf_1_1_disjoint_sets.html#a7ab80e584caf41fe66b5c0d0037bc97d", null ],
     [ "link", "classogdf_1_1_disjoint_sets.html#a8b141ffc5d68cc0723716d6244d28a00", null ],

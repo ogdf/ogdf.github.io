@@ -13,6 +13,8 @@ var classogdf_1_1internal_1_1_graph_list =
     [ "move", "classogdf_1_1internal_1_1_graph_list.html#a080016d033d4c6b239a2c4cf533d6316", null ],
     [ "moveAfter", "classogdf_1_1internal_1_1_graph_list.html#abfc69296b3f80dc9c53d039d758c99f5", null ],
     [ "moveBefore", "classogdf_1_1internal_1_1_graph_list.html#a8c93e9b4d6c72053b971c1a22b93812a", null ],
+    [ "permute", "classogdf_1_1internal_1_1_graph_list.html#ac47986313c2a94f4d687276bdd2780e2", null ],
+    [ "permute", "classogdf_1_1internal_1_1_graph_list.html#ae1e05d74d0524da154548d7da4c7d53d", null ],
     [ "pushBack", "classogdf_1_1internal_1_1_graph_list.html#a802e17698d4cae5c734cbee71720e93f", null ],
     [ "reverse", "classogdf_1_1internal_1_1_graph_list.html#aeb85b230878bb7c981a4b04520a2e054", null ],
     [ "size", "classogdf_1_1internal_1_1_graph_list.html#a80baf663a993bf6a7db544c087475ea9", null ],

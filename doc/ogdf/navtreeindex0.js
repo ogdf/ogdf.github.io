@@ -167,6 +167,7 @@ var NAVTREEINDEX0 =
 "_coffman_graham_ranking_8h_source.html":[4,0,1,0,11,3],
 "_combinatorial_embedding_8h.html":[4,0,1,0,1,13],
 "_combinatorial_embedding_8h.html#a6cc109d2799c8e6c0a4443766b0d87b3":[4,0,1,0,1,13,3],
+"_combinatorial_embedding_8h.html#a9d126cb73c4da702dc789dc0068411a6":[4,0,1,0,1,13,4],
 "_combinatorial_embedding_8h_source.html":[4,0,1,0,1,13],
 "_common_compaction_constraint_graph_base_8h.html":[4,0,1,0,15,1,0],
 "_common_compaction_constraint_graph_base_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7c":[4,0,1,0,15,1,0,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX0 =
 "_d_tree_force_8h.html":[4,0,1,0,5,1,2],
 "_d_tree_force_8h_source.html":[4,0,1,0,5,1,2],
 "_d_tree_force_types_8h.html":[4,0,1,0,5,1,3],
-"_d_tree_force_types_8h.html#a02984be52e1fbcb0ded18b4980222837":[4,0,1,0,5,1,3,2],
-"_d_tree_force_types_8h.html#a2c97cf93ffa00fbb56ce2129bc268321":[4,0,1,0,5,1,3,7]
+"_d_tree_force_types_8h.html#a02984be52e1fbcb0ded18b4980222837":[4,0,1,0,5,1,3,2]
 };

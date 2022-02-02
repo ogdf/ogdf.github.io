@@ -1,8 +1,8 @@
 <map id="ogdf::dot::Ast::Stmt" name="ogdf::dot::Ast::Stmt">
-<area shape="rect" id="node1" title=" " alt="" coords="5,107,143,133"/>
-<area shape="rect" id="node2" href="$structogdf_1_1dot_1_1_ast_1_1_asgn_stmt.html" title=" " alt="" coords="191,5,358,32"/>
-<area shape="rect" id="node3" href="$structogdf_1_1dot_1_1_ast_1_1_attr_stmt.html" title=" " alt="" coords="195,56,354,83"/>
-<area shape="rect" id="node4" href="$structogdf_1_1dot_1_1_ast_1_1_edge_stmt.html" title=" " alt="" coords="191,107,358,133"/>
-<area shape="rect" id="node5" href="$structogdf_1_1dot_1_1_ast_1_1_node_stmt.html" title=" " alt="" coords="191,157,359,184"/>
-<area shape="rect" id="node6" href="$structogdf_1_1dot_1_1_ast_1_1_subgraph.html" title=" " alt="" coords="193,208,357,235"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,152,133"/>
+<area shape="rect" id="node2" href="$structogdf_1_1dot_1_1_ast_1_1_asgn_stmt.html" title=" " alt="" coords="201,5,380,32"/>
+<area shape="rect" id="node3" href="$structogdf_1_1dot_1_1_ast_1_1_attr_stmt.html" title=" " alt="" coords="205,56,376,83"/>
+<area shape="rect" id="node4" href="$structogdf_1_1dot_1_1_ast_1_1_edge_stmt.html" title=" " alt="" coords="201,107,380,133"/>
+<area shape="rect" id="node5" href="$structogdf_1_1dot_1_1_ast_1_1_node_stmt.html" title=" " alt="" coords="200,157,381,184"/>
+<area shape="rect" id="node6" href="$structogdf_1_1dot_1_1_ast_1_1_subgraph.html" title=" " alt="" coords="202,208,379,235"/>
 </map>

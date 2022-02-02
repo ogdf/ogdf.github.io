@@ -1,10 +1,10 @@
 <map id="ogdf::EmbedderMinDepthMaxFace" name="ogdf::EmbedderMinDepthMaxFace">
-<area shape="rect" id="node1" title="Embedding that minimizes block&#45;nesting depth and maximizes the external face." alt="" coords="813,31,1037,57"/>
-<area shape="rect" id="node7" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="1085,16,1352,72"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_embedder_max_face.html" title="Embedder that maximizes the external face." alt="" coords="597,31,765,57"/>
-<area shape="rect" id="node3" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="371,23,549,65"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="167,31,323,57"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="13,5,111,32"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="5,56,119,83"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding that minimizes block&#45;nesting depth and maximizes the external face and optimiz..." alt="" coords="1400,23,1595,65"/>
+<area shape="rect" id="node1" title="Embedding that minimizes block&#45;nesting depth and maximizes the external face." alt="" coords="875,31,1120,57"/>
+<area shape="rect" id="node7" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="1168,16,1463,72"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_embedder_max_face.html" title="Embedder that maximizes the external face." alt="" coords="644,31,827,57"/>
+<area shape="rect" id="node3" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="397,23,596,65"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="177,31,349,57"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="14,5,121,32"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="5,56,129,83"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding that minimizes block&#45;nesting depth and maximizes the external face and optimiz..." alt="" coords="1511,23,1725,65"/>
 </map>

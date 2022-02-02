@@ -1,6 +1,6 @@
 <map id="ogdf::PrioritizedMapQueue&lt; edge, P, C, Impl, HashFunc &gt;" name="ogdf::PrioritizedMapQueue&lt; edge, P, C, Impl, HashFunc &gt;">
-<area shape="rect" id="node1" title="Specialization for edge elements." alt="" coords="659,27,869,69"/>
-<area shape="rect" id="node2" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="412,5,611,91"/>
-<area shape="rect" id="node3" href="$classogdf_1_1pq__internal_1_1_prioritized_queue.html" title=" " alt="" coords="201,20,364,76"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_priority_queue.html" title="Priority queue interface wrapper for heaps." alt="" coords="5,27,153,69"/>
+<area shape="rect" id="node1" title="Specialization for edge elements." alt="" coords="707,27,932,69"/>
+<area shape="rect" id="node2" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="444,5,659,91"/>
+<area shape="rect" id="node3" href="$classogdf_1_1pq__internal_1_1_prioritized_queue.html" title=" " alt="" coords="215,20,396,76"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_priority_queue.html" title="Priority queue interface wrapper for heaps." alt="" coords="5,27,167,69"/>
 </map>

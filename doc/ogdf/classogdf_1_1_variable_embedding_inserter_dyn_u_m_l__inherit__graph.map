@@ -1,6 +1,6 @@
 <map id="ogdf::VariableEmbeddingInserterDynUML" name="ogdf::VariableEmbeddingInserterDynUML">
-<area shape="rect" id="node1" title="Optimal edge insertion module." alt="" coords="13,155,223,196"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_u_m_l_edge_insertion_module.html" title="Interface for UML edge insertion algorithms." alt="" coords="15,80,221,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Optimal edge insertion module." alt="" coords="11,155,245,196"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_u_m_l_edge_insertion_module.html" title="Interface for UML edge insertion algorithms." alt="" coords="16,80,240,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
 </map>

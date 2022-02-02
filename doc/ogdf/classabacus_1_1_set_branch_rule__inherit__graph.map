@@ -1,5 +1,5 @@
 <map id="abacus::SetBranchRule" name="abacus::SetBranchRule">
-<area shape="rect" id="node1" title="Implements a branching rule for setting a binary variable to its lower or upper bound." alt="" coords="5,155,165,181"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_branch_rule.html" title="Abstract base class for all branching rules." alt="" coords="15,80,155,107"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="13,5,157,32"/>
+<area shape="rect" id="node1" title="Implements a branching rule for setting a binary variable to its lower or upper bound." alt="" coords="5,155,176,181"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_branch_rule.html" title="Abstract base class for all branching rules." alt="" coords="15,80,166,107"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="14,5,167,32"/>
 </map>

@@ -1,5 +1,4 @@
 <map id="ogdf::List&lt; E &gt;" name="ogdf::List&lt; E &gt;">
-<area shape="rect" id="node1" title="Doubly linked lists (maintaining the length of the list)." alt="" coords="33,80,143,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_list_container.html" title=" " alt="" coords="5,155,171,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_list_pure.html" title="Doubly linked lists." alt="" coords="20,5,156,32"/>
+<area shape="rect" id="node1" title="Doubly linked lists (maintaining the length of the list)." alt="" coords="37,5,156,32"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_list_container.html" title=" " alt="" coords="5,80,188,107"/>
 </map>

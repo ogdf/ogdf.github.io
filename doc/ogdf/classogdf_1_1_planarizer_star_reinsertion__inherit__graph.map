@@ -1,0 +1,6 @@
+<map id="ogdf::PlanarizerStarReinsertion" name="ogdf::PlanarizerStarReinsertion">
+<area shape="rect" id="node1" title="The star (re&#45;)insertion approach for crossing minimization." alt="" coords="17,169,239,196"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_crossing_minimization_module.html" title="Base class for crossing minimization algorithms." alt="" coords="29,80,227,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
+</map>

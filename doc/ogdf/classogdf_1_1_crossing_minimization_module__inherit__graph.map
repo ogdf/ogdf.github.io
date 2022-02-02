@@ -1,6 +1,9 @@
 <map id="ogdf::CrossingMinimizationModule" name="ogdf::CrossingMinimizationModule">
-<area shape="rect" id="node1" title="Base class for crossing minimization algorithms." alt="" coords="28,80,208,121"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_subgraph_planarizer.html" title="The planarization approach for crossing minimization." alt="" coords="34,169,202,196"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Base class for crossing minimization algorithms." alt="" coords="177,89,376,131"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_planarizer_chordless_cycle.html" title=" " alt="" coords="442,5,629,47"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_planarizer_mixed_insertion.html" title=" " alt="" coords="425,71,645,98"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_planarizer_star_reinsertion.html" title="The star (re&#45;)insertion approach for crossing minimization." alt="" coords="424,122,647,149"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_subgraph_planarizer.html" title="The planarization approach for crossing minimization." alt="" coords="443,173,627,199"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="14,71,121,98"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="5,122,129,149"/>
 </map>

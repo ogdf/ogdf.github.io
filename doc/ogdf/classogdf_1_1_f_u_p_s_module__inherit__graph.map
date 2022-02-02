@@ -1,6 +1,6 @@
 <map id="ogdf::FUPSModule" name="ogdf::FUPSModule">
-<area shape="rect" id="node1" title="Interface for feasible upward planar subgraph algorithms." alt="" coords="84,80,217,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_f_u_p_s_simple.html" title=" " alt="" coords="5,155,136,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_maximal_f_u_p_s.html" title=" " alt="" coords="161,155,301,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="102,5,199,32"/>
+<area shape="rect" id="node1" title="Interface for feasible upward planar subgraph algorithms." alt="" coords="88,80,228,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_f_u_p_s_simple.html" title=" " alt="" coords="5,155,143,181"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_maximal_f_u_p_s.html" title=" " alt="" coords="167,155,317,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="105,5,211,32"/>
 </map>

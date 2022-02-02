@@ -1,27 +1,27 @@
 <map id="ogdf::ClusterArrayBase" name="ogdf::ClusterArrayBase">
-<area shape="rect" id="node1" title="Abstract base class for cluster arrays." alt="" coords="5,854,164,881"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,5,385,47"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,71,385,112"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,136,385,177"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="251,202,392,258"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="251,282,392,338"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="240,362,403,418"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="226,442,417,498"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="237,523,406,564"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="239,588,404,629"/>
-<area shape="rect" id="node11" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="212,653,431,724"/>
-<area shape="rect" id="node12" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,748,385,789"/>
-<area shape="rect" id="node13" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,813,385,855"/>
-<area shape="rect" id="node14" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="240,879,403,920"/>
-<area shape="rect" id="node15" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="255,945,388,1001"/>
-<area shape="rect" id="node16" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="255,1025,388,1081"/>
-<area shape="rect" id="node17" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="231,1105,412,1161"/>
-<area shape="rect" id="node18" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="222,1185,421,1227"/>
-<area shape="rect" id="node19" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="238,1251,405,1307"/>
-<area shape="rect" id="node20" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="238,1331,405,1387"/>
-<area shape="rect" id="node21" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="222,1412,421,1483"/>
-<area shape="rect" id="node22" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="242,1507,401,1548"/>
-<area shape="rect" id="node23" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,1572,385,1613"/>
-<area shape="rect" id="node24" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,1637,385,1679"/>
-<area shape="rect" id="node25" href="$classogdf_1_1_cluster_array.html" title="Dynamic arrays indexed with clusters." alt="" coords="241,1703,401,1730"/>
+<area shape="rect" id="node1" title="Abstract base class for cluster arrays." alt="" coords="5,854,176,881"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="276,5,415,47"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="276,71,415,112"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="276,136,415,177"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="267,202,424,258"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="267,282,424,338"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="254,362,437,418"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="238,442,453,498"/>
+<area shape="rect" id="node9" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="251,523,439,564"/>
+<area shape="rect" id="node10" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="253,588,437,629"/>
+<area shape="rect" id="node11" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="224,653,467,724"/>
+<area shape="rect" id="node12" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="276,748,415,789"/>
+<area shape="rect" id="node13" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="276,813,415,855"/>
+<area shape="rect" id="node14" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,879,434,920"/>
+<area shape="rect" id="node15" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="272,945,419,1001"/>
+<area shape="rect" id="node16" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="272,1025,419,1081"/>
+<area shape="rect" id="node17" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="244,1105,447,1161"/>
+<area shape="rect" id="node18" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="232,1185,459,1227"/>
+<area shape="rect" id="node19" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="252,1251,439,1307"/>
+<area shape="rect" id="node20" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="252,1331,439,1387"/>
+<area shape="rect" id="node21" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="237,1412,453,1483"/>
+<area shape="rect" id="node22" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="257,1507,433,1548"/>
+<area shape="rect" id="node23" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="276,1572,415,1613"/>
+<area shape="rect" id="node24" href="$classogdf_1_1_cluster_array.html" title=" " alt="" coords="276,1637,415,1679"/>
+<area shape="rect" id="node25" href="$classogdf_1_1_cluster_array.html" title="Dynamic arrays indexed with clusters." alt="" coords="257,1703,434,1730"/>
 </map>

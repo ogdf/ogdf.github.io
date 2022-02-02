@@ -1,6 +1,6 @@
 <map id="ogdf::UMLCrossingMinimizationModule" name="ogdf::UMLCrossingMinimizationModule">
-<area shape="rect" id="node1" title="Base class for UML crossing minimization algorithms." alt="" coords="14,80,222,121"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_subgraph_planarizer_u_m_l.html" title="The planarization approach for UML crossing minimization." alt="" coords="20,169,216,196"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Base class for UML crossing minimization algorithms." alt="" coords="14,80,242,121"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_subgraph_planarizer_u_m_l.html" title="The planarization approach for UML crossing minimization." alt="" coords="21,169,235,196"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
 </map>

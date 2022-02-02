@@ -1,6 +1,6 @@
 <map id="ogdf::PlanarSubgraphTree&lt; TCost &gt;" name="ogdf::PlanarSubgraphTree&lt; TCost &gt;">
-<area shape="rect" id="node1" title="Maximum planar subgraph heuristic that yields a spanning tree." alt="" coords="31,169,205,211"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms." alt="" coords="23,80,213,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Maximum planar subgraph heuristic that yields a spanning tree." alt="" coords="35,169,221,211"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms." alt="" coords="24,80,232,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
 </map>

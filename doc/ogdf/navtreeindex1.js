@@ -1,5 +1,6 @@
 var NAVTREEINDEX1 =
 {
+"_d_tree_force_types_8h.html#a2c97cf93ffa00fbb56ce2129bc268321":[4,0,1,0,5,1,3,7],
 "_d_tree_force_types_8h.html#a5c31de0ba4da6cb82442632441f3ae88":[4,0,1,0,5,1,3,0],
 "_d_tree_force_types_8h.html#a7c4276a7a67411336e568073870ed40e":[4,0,1,0,5,1,3,4],
 "_d_tree_force_types_8h.html#a7eb76d4c31d846f3e48df4c054723d36":[4,0,1,0,5,1,3,5],
@@ -50,6 +51,8 @@ var NAVTREEINDEX1 =
 "_dot_parser_8h.html":[4,0,1,0,7,3],
 "_dot_parser_8h_source.html":[4,0,1,0,7,3],
 "_dual_graph_8h.html":[4,0,1,0,1,16],
+"_dual_graph_8h.html#aaa82aaf91ece221571ca180ad7921ac3":[4,0,1,0,1,16,0],
+"_dual_graph_8h.html#af8b67c742a95ea6f7f9533c9c343091a":[4,0,1,0,1,16,1],
 "_dual_graph_8h_source.html":[4,0,1,0,1,16],
 "_dynamic_b_c_tree_8h.html":[4,0,1,0,4,1],
 "_dynamic_b_c_tree_8h_source.html":[4,0,1,0,4,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX1 =
 "_f_m_e_kernel_8h.html#ab2ad7d86d5b5f5acd4c4e31d3d2f6bbc":[4,0,1,0,5,2,6,7],
 "_f_m_e_kernel_8h.html#ad6a2cbc4b833302d72be82835acbee43":[4,0,1,0,5,2,6,5],
 "_f_m_e_kernel_8h.html#adb95ccfd897c393e74833b599091a1c7":[4,0,1,0,5,2,6,11],
-"_f_m_e_kernel_8h.html#adef62551a03da1d80361e703db41495d":[4,0,1,0,5,2,6,3],
-"_f_m_e_kernel_8h.html#ae5176af2fb64289faad21412e0b5c48d":[4,0,1,0,5,2,6,6],
-"_f_m_e_kernel_8h_source.html":[4,0,1,0,5,2,6],
-"_f_m_e_multipole_kernel_8h.html":[4,0,1,0,5,2,7]
+"_f_m_e_kernel_8h.html#adef62551a03da1d80361e703db41495d":[4,0,1,0,5,2,6,3]
 };

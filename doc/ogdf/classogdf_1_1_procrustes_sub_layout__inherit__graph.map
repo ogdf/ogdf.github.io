@@ -1,4 +1,4 @@
 <map id="ogdf::ProcrustesSubLayout" name="ogdf::ProcrustesSubLayout">
-<area shape="rect" id="node1" title="Simple procrustes analysis." alt="" coords="5,80,185,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="27,5,163,32"/>
+<area shape="rect" id="node1" title="Simple procrustes analysis." alt="" coords="5,80,200,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="27,5,178,32"/>
 </map>

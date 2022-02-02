@@ -3,7 +3,7 @@ var group__ga_planarity =
     [ "Planarity Testing and Embedding", "group__ga-planembed.html", "group__ga-planembed" ],
     [ "Planar Subgraphs", "group__ga-plansub.html", "group__ga-plansub" ],
     [ "Crossing Minimization", "group__ga-crossmin.html", "group__ga-crossmin" ],
-    [ "Edge Insertion", "group__ga-insert.html", "group__ga-insert" ],
+    [ "Edge and Star Insertion", "group__ga-insert.html", "group__ga-insert" ],
     [ "ExtractKuratowskis", "classogdf_1_1_extract_kuratowskis.html", [
       [ "KuratowskiType", "classogdf_1_1_extract_kuratowskis.html#a49941b74a28c91c3ed3b8857b90dcb9e", [
         [ "none", "classogdf_1_1_extract_kuratowskis.html#a49941b74a28c91c3ed3b8857b90dcb9ea334c4a4c42fdb79d7ebc3e73b517e6f8", null ],
@@ -59,8 +59,8 @@ var group__ga_planarity =
         [ "e", "structogdf_1_1_non_planar_core_1_1_cut_edge.html#a8ef9f46ccff71355bf14ce0440f8d970", null ]
       ] ],
       [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#a06a37eb89e976092121c8afb2951e80f", null ],
-      [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#afbab51732a8d6e63e71388ff7d20254a", null ],
-      [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#a5a24f5db832e33df044c367eb4308db2", null ],
+      [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#acadcf256acabd8b31caa8e87e80492ea", null ],
+      [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#a612b0a7dc5e7db811b5697d913940027", null ],
       [ "~NonPlanarCore", "classogdf_1_1_non_planar_core.html#a92475ce1c143431a5edc93086eae8fcb", null ],
       [ "call", "classogdf_1_1_non_planar_core.html#a221cfa085b6666928b3df3ebcb5786d9", null ],
       [ "core", "classogdf_1_1_non_planar_core.html#a5f7215657627d9cc821e7c420cd2a5bd", null ],

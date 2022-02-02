@@ -1,9 +1,9 @@
 <map id="ogdf::InitialPlacer" name="ogdf::InitialPlacer">
-<area shape="rect" id="node1" title="Base class for placer modules." alt="" coords="5,132,128,159"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_barycenter_placer.html" title="The barycenter placer for multilevel layout." alt="" coords="176,5,331,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_circle_placer.html" title="The circle placer for multilevel layout." alt="" coords="190,56,317,83"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_median_placer.html" title="The median placer for multilevel layout." alt="" coords="186,107,321,133"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_random_placer.html" title="The random placer for multilevel layout." alt="" coords="183,157,324,184"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_solar_placer.html" title="The solar placer for multilevel layout." alt="" coords="192,208,315,235"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_zero_placer.html" title="The zero placer for multilevel layout." alt="" coords="194,259,313,285"/>
+<area shape="rect" id="node1" title="Base class for placer modules." alt="" coords="5,132,140,159"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_barycenter_placer.html" title="The barycenter placer for multilevel layout." alt="" coords="188,5,357,32"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_circle_placer.html" title="The circle placer for multilevel layout." alt="" coords="205,56,340,83"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_median_placer.html" title="The median placer for multilevel layout." alt="" coords="199,107,346,133"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_random_placer.html" title="The random placer for multilevel layout." alt="" coords="197,157,349,184"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_solar_placer.html" title="The solar placer for multilevel layout." alt="" coords="207,208,338,235"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_zero_placer.html" title="The zero placer for multilevel layout." alt="" coords="209,259,337,285"/>
 </map>

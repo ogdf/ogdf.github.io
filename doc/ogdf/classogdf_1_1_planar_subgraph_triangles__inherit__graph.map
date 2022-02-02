@@ -1,7 +1,7 @@
 <map id="ogdf::PlanarSubgraphTriangles&lt; TCost &gt;" name="ogdf::PlanarSubgraphTriangles&lt; TCost &gt;">
-<area shape="rect" id="node1" title="Maximum planar subgraph approximation algorithms by Chalermsook/Schmid and Calinescu et al." alt="" coords="18,169,218,211"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_planar_subgraph_cactus.html" title="Maximum planar subgraph approximation algorithm by Calinescu et al." alt="" coords="23,259,213,300"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms." alt="" coords="23,80,213,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Maximum planar subgraph approximation algorithms by Chalermsook/Schmid and Calinescu et al." alt="" coords="19,169,237,211"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_planar_subgraph_cactus.html" title="Maximum planar subgraph approximation algorithm by Calinescu et al." alt="" coords="26,259,230,300"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms." alt="" coords="24,80,232,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
 </map>

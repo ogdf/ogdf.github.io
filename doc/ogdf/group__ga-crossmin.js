@@ -11,6 +11,56 @@ var group__ga_crossmin =
       [ "m_permutations", "classogdf_1_1_m_m_subgraph_planarizer.html#a63ae30a4c2c958f98457d1fe1acf8fa8", null ],
       [ "m_subgraph", "classogdf_1_1_m_m_subgraph_planarizer.html#acc9b9b4e4923bd420fea08d2c61d69c3", null ]
     ] ],
+    [ "PlanarizerChordlessCycle", "classogdf_1_1_planarizer_chordless_cycle.html", [
+      [ "PlanarizerChordlessCycle", "classogdf_1_1_planarizer_chordless_cycle.html#ac632b87300656d933e4500cc3aa8f70c", null ],
+      [ "PlanarizerChordlessCycle", "classogdf_1_1_planarizer_chordless_cycle.html#a16686aa2a40d9844d96b12b302eed88a", null ],
+      [ "addToGraphCopy", "classogdf_1_1_planarizer_chordless_cycle.html#acebe673b181f5aae3a9aeb85c0610758", null ],
+      [ "clone", "classogdf_1_1_planarizer_chordless_cycle.html#a45531c037334d83b894b79bdd176136e", null ],
+      [ "doCall", "classogdf_1_1_planarizer_chordless_cycle.html#a1a9eb97cb5a3afdd07c6222596f174ce", null ],
+      [ "findChordlessCycle", "classogdf_1_1_planarizer_chordless_cycle.html#ada892a188d98a9c262c39674b2220463", null ],
+      [ "operator=", "classogdf_1_1_planarizer_chordless_cycle.html#a45f0c2ae28e5077bd2e9158a9be87efb", null ],
+      [ "transferToPlanRep", "classogdf_1_1_planarizer_chordless_cycle.html#ac92d97ba0127df23620603f4b421d981", null ],
+      [ "m_inserter", "classogdf_1_1_planarizer_chordless_cycle.html#ae7c9a2688d3629ba1edafbe29548f43f", null ]
+    ] ],
+    [ "PlanarizerMixedInsertion", "classogdf_1_1_planarizer_mixed_insertion.html", [
+      [ "NodeSelectionMethod", "classogdf_1_1_planarizer_mixed_insertion.html#aac358390627af9be3ed00e99780430f3", [
+        [ "Random", "classogdf_1_1_planarizer_mixed_insertion.html#aac358390627af9be3ed00e99780430f3a64663f4646781c9c0110838b905daa23", null ],
+        [ "HigherDegree", "classogdf_1_1_planarizer_mixed_insertion.html#aac358390627af9be3ed00e99780430f3ae1b9585ec0c1b67da7c1877dc7d4ca6f", null ],
+        [ "LowerDegree", "classogdf_1_1_planarizer_mixed_insertion.html#aac358390627af9be3ed00e99780430f3a3969ae2acbec107e2c8898cb59dacd36", null ],
+        [ "HigherNonPlanarDegree", "classogdf_1_1_planarizer_mixed_insertion.html#aac358390627af9be3ed00e99780430f3ac93f5a4ec8a02d6ba6d57635c7a9f118", null ],
+        [ "LowerNonPlanarDegree", "classogdf_1_1_planarizer_mixed_insertion.html#aac358390627af9be3ed00e99780430f3a793f9fc8a998f867bb6f3c03a37c3b5c", null ],
+        [ "BothEndpoints", "classogdf_1_1_planarizer_mixed_insertion.html#aac358390627af9be3ed00e99780430f3aa2a873848dac7cd9753adf932215797c", null ]
+      ] ],
+      [ "PlanarizerMixedInsertion", "classogdf_1_1_planarizer_mixed_insertion.html#a9b9b88b4ffb7a9be6a009ad5b50b3b0d", null ],
+      [ "PlanarizerMixedInsertion", "classogdf_1_1_planarizer_mixed_insertion.html#a52987d2eda96d8ee9c16e3f422d3a867", null ],
+      [ "clone", "classogdf_1_1_planarizer_mixed_insertion.html#af0deb743a2964aa5526a284f895fb28f", null ],
+      [ "doCall", "classogdf_1_1_planarizer_mixed_insertion.html#aed2540e2815206bce1325656646df58c", null ],
+      [ "nodeSelectionMethod", "classogdf_1_1_planarizer_mixed_insertion.html#a0f454df391e3319be726e46323f74e54", null ],
+      [ "nodeSelectionMethod", "classogdf_1_1_planarizer_mixed_insertion.html#a3f495bd5b4541f6ce2500ecea1d3628b", null ],
+      [ "operator=", "classogdf_1_1_planarizer_mixed_insertion.html#a4c89cadfab9ffa4aa34e7aa14ee087fb", null ],
+      [ "setSubgraph", "classogdf_1_1_planarizer_mixed_insertion.html#a4181ac6b6dcf579c5ce62b80299d09dc", null ],
+      [ "m_nodeSelectionMethod", "classogdf_1_1_planarizer_mixed_insertion.html#af7a773f288617267a2d7905b0a874347", null ],
+      [ "m_subgraph", "classogdf_1_1_planarizer_mixed_insertion.html#a9e755aebac6557dcefd37203a7a9cd75", null ]
+    ] ],
+    [ "PlanarizerStarReinsertion", "classogdf_1_1_planarizer_star_reinsertion.html", [
+      [ "PlanarizerStarReinsertion", "classogdf_1_1_planarizer_star_reinsertion.html#acd3f51d11d1a2bbcc51701d005a2faa9", null ],
+      [ "PlanarizerStarReinsertion", "classogdf_1_1_planarizer_star_reinsertion.html#ab56530ce52b3faddeda4e76eb88a9c4b", null ],
+      [ "clone", "classogdf_1_1_planarizer_star_reinsertion.html#a1618ab062d2d708c20047ed420f3a94f", null ],
+      [ "doCall", "classogdf_1_1_planarizer_star_reinsertion.html#a84c2c37090e33b7e74bbca71f7ba8f23", null ],
+      [ "mainLoop", "classogdf_1_1_planarizer_star_reinsertion.html#a3e222ffdeec9ee07ce66787bd2954050", null ],
+      [ "maxIterations", "classogdf_1_1_planarizer_star_reinsertion.html#a368ddd7e4ad491e4a33bb49275f26ff0", null ],
+      [ "maxIterations", "classogdf_1_1_planarizer_star_reinsertion.html#a41aa44d004f1c0d200ab4e5686ec6a56", null ],
+      [ "operator=", "classogdf_1_1_planarizer_star_reinsertion.html#a750a5b5487d474b02b5adab7bc37a10d", null ],
+      [ "reinsertStar", "classogdf_1_1_planarizer_star_reinsertion.html#a2abd7a662fdc010e75f3fb8ef3dc783d", null ],
+      [ "setPlanarization", "classogdf_1_1_planarizer_star_reinsertion.html#aca043634c2fc529e5693c90e3a8cf17b", null ],
+      [ "setTimeout", "classogdf_1_1_planarizer_star_reinsertion.html#ae701c791a4615700253f18834ca6eb33", null ],
+      [ "setTimeout", "classogdf_1_1_planarizer_star_reinsertion.html#a89a74c057160b144d2eeafec915b93e4", null ],
+      [ "m_inserter", "classogdf_1_1_planarizer_star_reinsertion.html#a39b291237fba0ad3054c35c1e516fe3e", null ],
+      [ "m_maxIterations", "classogdf_1_1_planarizer_star_reinsertion.html#a1a431f16e8dad23a50e6a33bcc1851ee", null ],
+      [ "m_planarization", "classogdf_1_1_planarizer_star_reinsertion.html#a099f8ee3ff7553cacbf0de426e7edcff", null ],
+      [ "m_setTimeout", "classogdf_1_1_planarizer_star_reinsertion.html#ad1d1f8c5c056d37ae6cae87c1e07eb23", null ],
+      [ "m_stopTime", "classogdf_1_1_planarizer_star_reinsertion.html#a9add89f5c7d185bd9e3c36ff89a10492", null ]
+    ] ],
     [ "SubgraphPlanarizer", "classogdf_1_1_subgraph_planarizer.html", [
       [ "SubgraphPlanarizer", "classogdf_1_1_subgraph_planarizer.html#a9c7ebf4857e61e807cc35e5bd26668ff", null ],
       [ "SubgraphPlanarizer", "classogdf_1_1_subgraph_planarizer.html#ab73391948d30ae5ae3abc2865f5e340f", null ],

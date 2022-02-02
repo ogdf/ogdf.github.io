@@ -178,6 +178,8 @@ var group__ga_planembed =
       [ "m_minCostFlowComputer", "classogdf_1_1_embedder_optimal_flex_draw.html#a69122d38e1d0b6b8e1c3c6d4600cb463", null ]
     ] ],
     [ "isPlanar", "group__ga-planembed.html#gaed961d1a9b7810143059cb36adc32849", null ],
+    [ "isSTPlanar", "group__ga-planembed.html#gaa491077a31d4029e70b5777bfe0d2d85", null ],
     [ "planarEmbed", "group__ga-planembed.html#ga31d5b4e2a827042674fc667e8858b69e", null ],
-    [ "planarEmbedPlanarGraph", "group__ga-planembed.html#ga0032c4984cd4ac14d375f6eded30a0d1", null ]
+    [ "planarEmbedPlanarGraph", "group__ga-planembed.html#ga0032c4984cd4ac14d375f6eded30a0d1", null ],
+    [ "planarSTEmbed", "group__ga-planembed.html#ga50e14b3e87f4e70ffb85a5dd4c1bbd9f", null ]
 ];

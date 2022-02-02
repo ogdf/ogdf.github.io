@@ -2,8 +2,8 @@ var classogdf_1_1_non_planar_core =
 [
     [ "CutEdge", "structogdf_1_1_non_planar_core_1_1_cut_edge.html", "structogdf_1_1_non_planar_core_1_1_cut_edge" ],
     [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#a06a37eb89e976092121c8afb2951e80f", null ],
-    [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#afbab51732a8d6e63e71388ff7d20254a", null ],
-    [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#a5a24f5db832e33df044c367eb4308db2", null ],
+    [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#acadcf256acabd8b31caa8e87e80492ea", null ],
+    [ "NonPlanarCore", "classogdf_1_1_non_planar_core.html#a612b0a7dc5e7db811b5697d913940027", null ],
     [ "~NonPlanarCore", "classogdf_1_1_non_planar_core.html#a92475ce1c143431a5edc93086eae8fcb", null ],
     [ "call", "classogdf_1_1_non_planar_core.html#a221cfa085b6666928b3df3ebcb5786d9", null ],
     [ "core", "classogdf_1_1_non_planar_core.html#a5f7215657627d9cc821e7c420cd2a5bd", null ],

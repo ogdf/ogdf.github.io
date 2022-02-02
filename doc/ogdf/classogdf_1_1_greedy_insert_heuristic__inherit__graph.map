@@ -1,5 +1,5 @@
 <map id="ogdf::GreedyInsertHeuristic" name="ogdf::GreedyInsertHeuristic">
-<area shape="rect" id="node1" title="The greedy&#45;insert heuristic for 2&#45;layer crossing minimization." alt="" coords="13,155,196,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layer_by_layer_sweep.html" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="17,80,192,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="5,5,204,32"/>
+<area shape="rect" id="node1" title="The greedy&#45;insert heuristic for 2&#45;layer crossing minimization." alt="" coords="15,155,215,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layer_by_layer_sweep.html" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="19,80,210,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="5,5,224,32"/>
 </map>

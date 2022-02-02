@@ -1,4 +1,4 @@
 <map id="ogdf::EdgeComparerSimple" name="ogdf::EdgeComparerSimple">
-<area shape="rect" id="node1" title="Compares incident edges of a node based on the position of the last bend point or the position of the..." alt="" coords="11,80,193,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_v_comparer.html" title=" " alt="" coords="5,5,199,32"/>
+<area shape="rect" id="node1" title="Compares incident edges of a node based on the position of the last bend point or the position of the..." alt="" coords="13,80,212,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_v_comparer.html" title=" " alt="" coords="5,5,220,32"/>
 </map>

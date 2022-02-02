@@ -1,6 +1,6 @@
 <map id="ogdf::MaximalPlanarSubgraphSimple&lt; TCost, typename std::enable_if&lt; std::is_integral&lt; TCost &gt;::value &gt;::type &gt;" name="ogdf::MaximalPlanarSubgraphSimple&lt; TCost, typename std::enable_if&lt; std::is_integral&lt; TCost &gt;::value &gt;::type &gt;">
-<area shape="rect" id="node1" title="Naive maximal planar subgraph approach that extends a configurable non&#45;maximal subgraph heuristic." alt="" coords="20,169,216,255"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms." alt="" coords="23,80,213,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Naive maximal planar subgraph approach that extends a configurable non&#45;maximal subgraph heuristic." alt="" coords="19,169,237,255"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_planar_subgraph_module.html" title="Interface for planar subgraph algorithms." alt="" coords="24,80,232,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
 </map>

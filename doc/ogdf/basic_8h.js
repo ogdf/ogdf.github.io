@@ -4,6 +4,7 @@ var basic_8h =
     [ "Initialization", "classogdf_1_1_initialization.html", "classogdf_1_1_initialization" ],
     [ "OGDF_ASSERT", "group__macros.html#gaba9188896165f0dc2e3ad0ab69fab97c", null ],
     [ "OGDF_HEAVY_ASSERT", "group__macros.html#ga640a6d01cb763c1c6d8fba6314ecb1e6", null ],
+    [ "OGDF_TRIVIALLY_COPYABLE", "basic_8h.html#a04faa135f8c489c4473a44c5c032cba6", null ],
     [ "Direction", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2b", [
       [ "before", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba2f44417567bc123bd7c60de8c2a2b444", null ],
       [ "after", "basic_8h.html#ac7625914963ce9d09a3e208f02d12f2ba632a2406bbcbcd553eec45ac14b40a0a", null ]
@@ -11,6 +12,7 @@ var basic_8h =
     [ "equalIgnoreCase", "basic_8h.html#a19acb1713a6450ce26c0cf1280f3e9ba", null ],
     [ "prefixIgnoreCase", "basic_8h.html#a8c0a6fa283c35776abe73b1cec7f9004", null ],
     [ "randomDouble", "basic_8h.html#ga45ca26f42fd159f5a7f91e6756197777", null ],
+    [ "randomDoubleExponential", "basic_8h.html#ga340e8c42f466d4eb4be16449a9d98593", null ],
     [ "randomDoubleNormal", "basic_8h.html#ga76d8242ef6a080e0c4cb742456a72f09", null ],
     [ "randomNumber", "basic_8h.html#ga102a5bb3ad5265abf5fe9c7168490ffc", null ],
     [ "randomSeed", "basic_8h.html#gaf3f034665d8513b9be4fe3912fe8afa0", null ],

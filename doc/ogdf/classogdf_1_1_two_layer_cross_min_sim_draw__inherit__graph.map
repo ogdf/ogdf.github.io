@@ -1,6 +1,6 @@
 <map id="ogdf::TwoLayerCrossMinSimDraw" name="ogdf::TwoLayerCrossMinSimDraw">
-<area shape="rect" id="node1" title=" " alt="" coords="5,155,228,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_split_heuristic.html" title="The split heuristic for 2&#45;layer crossing minimization." alt="" coords="50,229,183,256"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layer_by_layer_sweep.html" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="29,80,204,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="17,5,216,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,244,181"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_split_heuristic.html" title="The split heuristic for 2&#45;layer crossing minimization." alt="" coords="52,229,197,256"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_layer_by_layer_sweep.html" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="29,80,220,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="15,5,234,32"/>
 </map>

@@ -18,7 +18,7 @@ var dir_684b7d4e849ff34fbd763f78d7ebd2fd =
     [ "CombinatorialEmbedding.h", "_combinatorial_embedding_8h.html", "_combinatorial_embedding_8h" ],
     [ "comparer.h", "comparer_8h.html", "comparer_8h" ],
     [ "DisjointSets.h", "_disjoint_sets_8h.html", "_disjoint_sets_8h" ],
-    [ "DualGraph.h", "_dual_graph_8h.html", null ],
+    [ "DualGraph.h", "_dual_graph_8h.html", "_dual_graph_8h" ],
     [ "EdgeArray.h", "_edge_array_8h.html", [
       [ "BucketEdgeArray", "classogdf_1_1_bucket_edge_array.html", "classogdf_1_1_bucket_edge_array" ],
       [ "EdgeArrayBase", "classogdf_1_1_edge_array_base.html", "classogdf_1_1_edge_array_base" ]

@@ -1,6 +1,6 @@
 <map id="ogdf::MultiEdgeApproxInserter" name="ogdf::MultiEdgeApproxInserter">
-<area shape="rect" id="node1" title="Multi edge inserter with approximation guarantee." alt="" coords="19,155,217,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms." alt="" coords="29,80,207,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,103,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="127,5,240,32"/>
+<area shape="rect" id="node1" title="Multi edge inserter with approximation guarantee." alt="" coords="19,155,237,181"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms." alt="" coords="31,80,225,107"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="ogdf::UMLGraph" name="ogdf::UMLGraph">
-<area shape="rect" id="node1" title=" " alt="" coords="19,80,138,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_graph_attributes.html" title="Stores additional attributes of a graph (like layout information)." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="23,80,149,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_graph_attributes.html" title="Stores additional attributes of a graph (like layout information)." alt="" coords="5,5,167,32"/>
 </map>

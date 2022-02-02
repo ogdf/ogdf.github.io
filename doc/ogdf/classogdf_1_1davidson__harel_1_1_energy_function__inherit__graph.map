@@ -1,9 +1,9 @@
 <map id="ogdf::davidson_harel::EnergyFunction" name="ogdf::davidson_harel::EnergyFunction">
-<area shape="rect" id="node1" title="The interface for energy functions for the Davidson Harel graph drawing method." alt="" coords="5,136,148,177"/>
-<area shape="rect" id="node2" href="$classogdf_1_1davidson__harel_1_1_node_pair_energy.html" title=" " alt="" coords="196,71,339,112"/>
-<area shape="rect" id="node6" href="$classogdf_1_1davidson__harel_1_1_planarity.html" title=" " alt="" coords="196,136,339,177"/>
-<area shape="rect" id="node7" href="$classogdf_1_1davidson__harel_1_1_planarity_grid.html" title=" " alt="" coords="196,201,339,243"/>
-<area shape="rect" id="node3" href="$classogdf_1_1davidson__harel_1_1_attraction.html" title="Energy function for attraction between two adjacent vertices." alt="" coords="387,5,529,47"/>
-<area shape="rect" id="node4" href="$classogdf_1_1davidson__harel_1_1_overlap.html" title=" " alt="" coords="387,71,529,112"/>
-<area shape="rect" id="node5" href="$classogdf_1_1davidson__harel_1_1_repulsion.html" title=" " alt="" coords="387,136,529,177"/>
+<area shape="rect" id="node1" title="The interface for energy functions for the Davidson Harel graph drawing method." alt="" coords="5,136,163,177"/>
+<area shape="rect" id="node2" href="$classogdf_1_1davidson__harel_1_1_node_pair_energy.html" title=" " alt="" coords="211,71,368,112"/>
+<area shape="rect" id="node6" href="$classogdf_1_1davidson__harel_1_1_planarity.html" title=" " alt="" coords="211,136,368,177"/>
+<area shape="rect" id="node7" href="$classogdf_1_1davidson__harel_1_1_planarity_grid.html" title=" " alt="" coords="211,201,368,243"/>
+<area shape="rect" id="node3" href="$classogdf_1_1davidson__harel_1_1_attraction.html" title="Energy function for attraction between two adjacent vertices." alt="" coords="416,5,573,47"/>
+<area shape="rect" id="node4" href="$classogdf_1_1davidson__harel_1_1_overlap.html" title=" " alt="" coords="416,71,573,112"/>
+<area shape="rect" id="node5" href="$classogdf_1_1davidson__harel_1_1_repulsion.html" title=" " alt="" coords="416,136,573,177"/>
 </map>

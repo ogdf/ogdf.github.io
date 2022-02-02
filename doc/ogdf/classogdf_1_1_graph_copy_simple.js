@@ -1,11 +1,13 @@
 var classogdf_1_1_graph_copy_simple =
 [
+    [ "GraphCopySimple", "classogdf_1_1_graph_copy_simple.html#a39028a3b52ad08213c66c52166a14e10", null ],
     [ "GraphCopySimple", "classogdf_1_1_graph_copy_simple.html#a4e16c98d7b27d9e38ec0cf808e765c85", null ],
     [ "GraphCopySimple", "classogdf_1_1_graph_copy_simple.html#a43804c093a1572c93e1f8300b0f771e9", null ],
     [ "~GraphCopySimple", "classogdf_1_1_graph_copy_simple.html#a8eeb0f625864b7f7f5ac4b7658018c6d", null ],
     [ "copy", "classogdf_1_1_graph_copy_simple.html#a2e35f0c542cf38196312cd78a63c4dda", null ],
     [ "copy", "classogdf_1_1_graph_copy_simple.html#ace3be5e4a2a1e4314ea0e738e48da07e", null ],
     [ "copy", "classogdf_1_1_graph_copy_simple.html#a4957bda07af69fded83a435f32d1c330", null ],
+    [ "createEmpty", "classogdf_1_1_graph_copy_simple.html#ad8d588abe712b0a7b69e48b2c927eb87", null ],
     [ "delEdge", "classogdf_1_1_graph_copy_simple.html#a2dd30158f8830b86f8c0a43b931e5513", null ],
     [ "delNode", "classogdf_1_1_graph_copy_simple.html#abfcb6657249cd22570ca68b128b53140", null ],
     [ "init", "classogdf_1_1_graph_copy_simple.html#a64c410cc5e37935ed507b084361ac1bb", null ],

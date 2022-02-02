@@ -6,9 +6,10 @@ var structogdf_1_1_hot_queue_handle =
     ] ],
     [ "HotQueueHandle", "structogdf_1_1_hot_queue_handle.html#a8fa0ddb4674a8382c50c1c84c750bcd7", null ],
     [ "HotQueueHandle", "structogdf_1_1_hot_queue_handle.html#a9fc726bcb6510466163317ceda4c3ab8", null ],
+    [ "HotQueueHandle", "structogdf_1_1_hot_queue_handle.html#a59635ea2b763168dd397bb9b01d3a4e1", null ],
     [ "operator=", "structogdf_1_1_hot_queue_handle.html#aa63a365872339499e26b1c32fa0e1d1b", null ],
     [ "HotQueue", "structogdf_1_1_hot_queue_handle.html#a9c8d2354fb90ce81a4c4cc646c83d59f", null ],
     [ "bucketHandle", "structogdf_1_1_hot_queue_handle.html#a3aee5a33890bc3fc809bf15460364240", null ],
     [ "heapHandle", "structogdf_1_1_hot_queue_handle.html#a45f52248601a5afa5f54127523f46ac5", null ],
-    [ "type", "structogdf_1_1_hot_queue_handle.html#a32e701f72676a13f3d57c9be95e84586", null ]
+    [ "type", "structogdf_1_1_hot_queue_handle.html#ae58735344b3ed38a1efbfa939f82a86b", null ]
 ];

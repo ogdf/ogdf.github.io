@@ -1,5 +1,5 @@
 <map id="ogdf::DeletingTop10Heap&lt; X, Priority, STATICCOMPARER, INDEX &gt;" name="ogdf::DeletingTop10Heap&lt; X, Priority, STATICCOMPARER, INDEX &gt;">
-<area shape="rect" id="node1" title="A variant of Top10Heap which deletes the elements that get rejected from the heap." alt="" coords="5,199,236,255"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_top10_heap.html" title=" " alt="" coords="25,109,217,151"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_binary_heap_simple.html" title=" " alt="" coords="35,5,206,61"/>
+<area shape="rect" id="node1" title="A variant of Top10Heap which deletes the elements that get rejected from the heap." alt="" coords="5,199,237,255"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_top10_heap.html" title=" " alt="" coords="16,109,227,151"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_binary_heap_simple.html" title=" " alt="" coords="26,5,217,61"/>
 </map>

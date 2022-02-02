@@ -1,25 +1,26 @@
 <map id="ogdf::HashingBase" name="ogdf::HashingBase">
-<area shape="rect" id="node1" title="Base class for hashing with chaining and table doubling." alt="" coords="5,553,139,579"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="249,19,464,75"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="273,107,440,134"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="267,159,446,200"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="278,225,435,281"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="257,305,456,361"/>
-<area shape="rect" id="node12" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="233,384,480,484"/>
-<area shape="rect" id="node14" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="227,509,486,623"/>
-<area shape="rect" id="node15" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="187,647,527,762"/>
-<area shape="rect" id="node16" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="256,786,457,842"/>
-<area shape="rect" id="node18" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="260,866,453,922"/>
-<area shape="rect" id="node20" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="249,946,464,1002"/>
-<area shape="rect" id="node21" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="244,1026,469,1111"/>
-<area shape="rect" id="node23" href="$classogdf_1_1_hashing.html" title="Hashing with chaining and table doubling." alt="" coords="273,1135,440,1162"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="608,5,759,76"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_hash_array.html" title="Indexed arrays using hashing for element access." alt="" coords="615,100,752,141"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="610,165,757,207"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="603,232,764,273"/>
-<area shape="rect" id="node11" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="608,305,759,361"/>
-<area shape="rect" id="node13" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="575,384,792,484"/>
-<area shape="rect" id="node17" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="586,793,781,835"/>
-<area shape="rect" id="node19" href="$classogdf_1_1_hash_array2_d.html" title="Indexed 2&#45;dimensional arrays using hashing for element access." alt="" coords="612,873,755,915"/>
-<area shape="rect" id="node22" href="$classogdf_1_1_hash_array2_d.html" title=" " alt="" coords="599,1041,768,1097"/>
+<area shape="rect" id="node1" title="Base class for hashing with chaining and table doubling." alt="" coords="5,561,148,587"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="281,5,489,76"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="305,100,466,141"/>
+<area shape="rect" id="node6" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="286,165,485,207"/>
+<area shape="rect" id="node8" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="298,231,473,287"/>
+<area shape="rect" id="node10" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="273,311,498,367"/>
+<area shape="rect" id="node12" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="302,392,469,433"/>
+<area shape="rect" id="node13" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="251,457,519,557"/>
+<area shape="rect" id="node15" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="242,582,529,697"/>
+<area shape="rect" id="node16" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="196,721,575,835"/>
+<area shape="rect" id="node17" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="274,859,497,915"/>
+<area shape="rect" id="node19" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="283,940,488,1011"/>
+<area shape="rect" id="node21" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="272,1035,499,1105"/>
+<area shape="rect" id="node22" href="$classogdf_1_1_hashing.html" title=" " alt="" coords="263,1130,508,1215"/>
+<area shape="rect" id="node24" href="$classogdf_1_1_hashing.html" title="Hashing with chaining and table doubling." alt="" coords="295,1239,475,1266"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="623,5,895,76"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_hash_array.html" title="Indexed arrays using hashing for element access." alt="" coords="684,100,833,141"/>
+<area shape="rect" id="node7" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="677,165,840,207"/>
+<area shape="rect" id="node9" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="670,239,847,280"/>
+<area shape="rect" id="node11" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="676,311,841,367"/>
+<area shape="rect" id="node14" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="641,457,877,557"/>
+<area shape="rect" id="node18" href="$classogdf_1_1_hash_array.html" title=" " alt="" coords="651,867,866,908"/>
+<area shape="rect" id="node20" href="$classogdf_1_1_hash_array2_d.html" title="Indexed 2&#45;dimensional arrays using hashing for element access." alt="" coords="681,955,836,996"/>
+<area shape="rect" id="node23" href="$classogdf_1_1_hash_array2_d.html" title=" " alt="" coords="664,1145,853,1201"/>
 </map>

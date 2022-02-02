@@ -34,7 +34,7 @@ var classogdf_1_1_graph =
     [ "constructInitByActiveNodes", "classogdf_1_1_graph.html#a926c785fd457883449c5830ca29bc6ca", null ],
     [ "constructInitByCC", "classogdf_1_1_graph.html#a2ac56964e61f20a1b37232b61a1dbec7", null ],
     [ "constructInitByNodes", "classogdf_1_1_graph.html#a7e69e9ea72e09f44a2fdaced01c2ebde", null ],
-    [ "contract", "classogdf_1_1_graph.html#af398784f4a501bf8bb0c552c9a8ac7ac", null ],
+    [ "contract", "classogdf_1_1_graph.html#a0c1a6aa773ed771cee33a1bc3eb0d77d", null ],
     [ "copy", "classogdf_1_1_graph.html#ac8c70fa975b75874be7699f15627703c", null ],
     [ "copy", "classogdf_1_1_graph.html#a8ea705e5f84bf19373b0fbcac19144ad", null ],
     [ "createEdgeElement", "classogdf_1_1_graph.html#a43b6d6661a3942bb3ace80a6a385b91d", null ],

@@ -1,5 +1,5 @@
 <map id="ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Sub" name="ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::Sub">
-<area shape="rect" id="node1" title="Subproblem of Steiner tree algorithm." alt="" coords="5,155,197,196"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_sub.html" title="The subproblem." alt="" coords="54,80,149,107"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="29,5,173,32"/>
+<area shape="rect" id="node1" title="Subproblem of Steiner tree algorithm." alt="" coords="5,155,216,196"/>
+<area shape="rect" id="node2" href="$classabacus_1_1_sub.html" title="The subproblem." alt="" coords="61,80,161,107"/>
+<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="34,5,187,32"/>
 </map>

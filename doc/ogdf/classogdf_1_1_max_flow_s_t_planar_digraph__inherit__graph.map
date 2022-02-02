@@ -1,4 +1,4 @@
 <map id="ogdf::MaxFlowSTPlanarDigraph&lt; TCap &gt;" name="ogdf::MaxFlowSTPlanarDigraph&lt; TCap &gt;">
-<area shape="rect" id="node1" title="Computes a max flow in s&#45;t&#45;planar network via dual shortest paths." alt="" coords="5,95,212,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_max_flow_module.html" title=" " alt="" coords="33,5,184,47"/>
+<area shape="rect" id="node1" title="Computes a max flow in s&#45;t&#45;planar network via dual shortest paths." alt="" coords="5,95,231,136"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_max_flow_module.html" title=" " alt="" coords="35,5,201,47"/>
 </map>

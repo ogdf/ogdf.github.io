@@ -1,4 +1,4 @@
 <map id="ogdf::StopwatchWallClock" name="ogdf::StopwatchWallClock">
-<area shape="rect" id="node1" title="Implements a stopwatch measuring wall&#45;clock time." alt="" coords="5,80,183,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_stopwatch.html" title="Realizes a stopwatch for measuring elapsed time." alt="" coords="35,5,153,32"/>
+<area shape="rect" id="node1" title="Implements a stopwatch measuring wall&#45;clock time." alt="" coords="5,80,196,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_stopwatch.html" title="Realizes a stopwatch for measuring elapsed time." alt="" coords="37,5,164,32"/>
 </map>

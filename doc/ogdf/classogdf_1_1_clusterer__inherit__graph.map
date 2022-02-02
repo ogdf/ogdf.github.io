@@ -1,4 +1,4 @@
 <map id="ogdf::Clusterer" name="ogdf::Clusterer">
-<area shape="rect" id="node1" title=" " alt="" coords="27,80,135,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_clusterer_module.html" title="Interface for algorithms that compute a clustering for a given graph." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="29,80,147,107"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_clusterer_module.html" title="Interface for algorithms that compute a clustering for a given graph." alt="" coords="5,5,171,32"/>
 </map>

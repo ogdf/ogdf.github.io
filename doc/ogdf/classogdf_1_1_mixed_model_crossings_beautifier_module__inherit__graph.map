@@ -1,7 +1,7 @@
 <map id="ogdf::MixedModelCrossingsBeautifierModule" name="ogdf::MixedModelCrossingsBeautifierModule">
-<area shape="rect" id="node1" title="The base class for Mixed&#45;Model crossings beautifier algorithms." alt="" coords="191,5,375,47"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_m_m_c_b_base.html" title="common base class for MMCBDoubleGrid and MMCBLocalStretch." alt="" coords="117,95,244,121"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_m_m_dummy_crossings_beautifier.html" title="Dummy implementation of Mixed&#45;Model crossings beautifier." alt="" coords="269,95,506,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_m_m_c_b_double_grid.html" title="Crossings beautifier using grid doubling." alt="" coords="5,169,167,196"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_m_m_c_b_local_stretch.html" title="Crossings beautifier using a local stretch strategy." alt="" coords="191,169,360,196"/>
+<area shape="rect" id="node1" title="The base class for Mixed&#45;Model crossings beautifier algorithms." alt="" coords="202,5,403,47"/>
+<area shape="rect" id="node2" href="$classogdf_1_1_m_m_c_b_base.html" title="common base class for MMCBDoubleGrid and MMCBLocalStretch." alt="" coords="126,95,258,121"/>
+<area shape="rect" id="node5" href="$classogdf_1_1_m_m_dummy_crossings_beautifier.html" title="Dummy implementation of Mixed&#45;Model crossings beautifier." alt="" coords="283,95,544,121"/>
+<area shape="rect" id="node3" href="$classogdf_1_1_m_m_c_b_double_grid.html" title="Crossings beautifier using grid doubling." alt="" coords="5,169,179,196"/>
+<area shape="rect" id="node4" href="$classogdf_1_1_m_m_c_b_local_stretch.html" title="Crossings beautifier using a local stretch strategy." alt="" coords="203,169,383,196"/>
 </map>

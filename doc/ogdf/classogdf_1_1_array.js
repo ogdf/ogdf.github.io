@@ -33,6 +33,8 @@ var classogdf_1_1_array =
     [ "end", "classogdf_1_1_array.html#a49db722737e14a76089c5bf15ee05824", null ],
     [ "end", "classogdf_1_1_array.html#aa9e328f3d235e8d98f3010b288d170f0", null ],
     [ "expandArray", "classogdf_1_1_array.html#a5c40eb311f1b9cffb0c64521a900937d", null ],
+    [ "expandArrayHelper", "classogdf_1_1_array.html#a675d1016ddb7f582e846e8a6324d8e70", null ],
+    [ "expandArrayHelper", "classogdf_1_1_array.html#a675d1016ddb7f582e846e8a6324d8e70", null ],
     [ "fill", "classogdf_1_1_array.html#a553a279c09a12aab01e6ec90d5ac17fc", null ],
     [ "fill", "classogdf_1_1_array.html#aac8cf2a37e39b3dcb4ee9109a825da3a", null ],
     [ "grow", "classogdf_1_1_array.html#a38a0cd6f1a3f36a64272ae957c07d463", null ],

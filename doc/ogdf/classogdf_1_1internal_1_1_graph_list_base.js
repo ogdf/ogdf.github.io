@@ -5,6 +5,8 @@ var classogdf_1_1internal_1_1_graph_list_base =
     [ "del", "classogdf_1_1internal_1_1_graph_list_base.html#ac2f5a123776ef622d11064e73517505e", null ],
     [ "insertAfter", "classogdf_1_1internal_1_1_graph_list_base.html#a4919e33142257e24b8f4b5c89d91c234", null ],
     [ "insertBefore", "classogdf_1_1internal_1_1_graph_list_base.html#a6ce2f9d8b9806b11078969a7e4f8b0aa", null ],
+    [ "permute", "classogdf_1_1internal_1_1_graph_list_base.html#ac47986313c2a94f4d687276bdd2780e2", null ],
+    [ "permute", "classogdf_1_1internal_1_1_graph_list_base.html#ae1e05d74d0524da154548d7da4c7d53d", null ],
     [ "pushBack", "classogdf_1_1internal_1_1_graph_list_base.html#a11f3f51222be56bb45e5ba5d0f9f849f", null ],
     [ "reverse", "classogdf_1_1internal_1_1_graph_list_base.html#abf73a287eba4555112fe50b2d2dcf2c9", null ],
     [ "size", "classogdf_1_1internal_1_1_graph_list_base.html#ab4fba30c5fa46a41d27ca853f878348e", null ],

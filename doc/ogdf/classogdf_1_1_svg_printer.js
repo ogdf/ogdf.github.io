@@ -24,6 +24,7 @@ var classogdf_1_1_svg_printer =
     [ "writeDashArray", "classogdf_1_1_svg_printer.html#a52c118801eca3253d6fca6d5aa898ead", null ],
     [ "writeHeader", "classogdf_1_1_svg_printer.html#a1cdf43a38792bd7b06d754627e427fc9", null ],
     [ "m_attr", "classogdf_1_1_svg_printer.html#ac169916b26cca0d3d0893e5b5b02eaaa", null ],
+    [ "m_bbox", "classogdf_1_1_svg_printer.html#a583abb044a0bed42de04af8a2fcaa6de", null ],
     [ "m_clsAttr", "classogdf_1_1_svg_printer.html#a4f1b7f5c84de0e7ea965b9749e020c34", null ],
     [ "m_settings", "classogdf_1_1_svg_printer.html#a5dbbe33046042b9ab7e1170e32575f6a", null ]
 ];
