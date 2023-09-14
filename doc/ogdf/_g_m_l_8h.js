@@ -1,6 +1,6 @@
 var _g_m_l_8h =
 [
-    [ "hash< ogdf::gml::Key >", "structstd_1_1hash_3_01ogdf_1_1gml_1_1_key_01_4.html", "structstd_1_1hash_3_01ogdf_1_1gml_1_1_key_01_4" ],
+    [ "std::hash< ogdf::gml::Key >", "structstd_1_1hash_3_01ogdf_1_1gml_1_1_key_01_4.html", "structstd_1_1hash_3_01ogdf_1_1gml_1_1_key_01_4" ],
     [ "Key", "_g_m_l_8h.html#ac19f981046587e812178ac71ac5ba6fc", [
       [ "Id", "_g_m_l_8h.html#ac19f981046587e812178ac71ac5ba6fca490aa6e856ccf208a054389e47ce0d06", null ],
       [ "Label", "_g_m_l_8h.html#ac19f981046587e812178ac71ac5ba6fcab021df6aac4654c454f46c77646e745f", null ],

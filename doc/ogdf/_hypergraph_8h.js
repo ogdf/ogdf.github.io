@@ -1,11 +1,9 @@
 var _hypergraph_8h =
 [
-    [ "AdjHypergraphElement", "classogdf_1_1_adj_hypergraph_element.html", "classogdf_1_1_adj_hypergraph_element" ],
-    [ "HyperedgeArray", "classogdf_1_1_hyperedge_array.html", "classogdf_1_1_hyperedge_array" ],
-    [ "HyperedgeElement", "classogdf_1_1_hyperedge_element.html", "classogdf_1_1_hyperedge_element" ],
-    [ "Hypergraph", "classogdf_1_1_hypergraph.html", "classogdf_1_1_hypergraph" ],
-    [ "HypernodeArray", "classogdf_1_1_hypernode_array.html", "classogdf_1_1_hypernode_array" ],
-    [ "HypernodeElement", "classogdf_1_1_hypernode_element.html", "classogdf_1_1_hypernode_element" ],
+    [ "ogdf::AdjHypergraphElement", "classogdf_1_1_adj_hypergraph_element.html", "classogdf_1_1_adj_hypergraph_element" ],
+    [ "ogdf::HyperedgeElement", "classogdf_1_1_hyperedge_element.html", "classogdf_1_1_hyperedge_element" ],
+    [ "ogdf::Hypergraph", "classogdf_1_1_hypergraph.html", "classogdf_1_1_hypergraph" ],
+    [ "ogdf::HypernodeElement", "classogdf_1_1_hypernode_element.html", "classogdf_1_1_hypernode_element" ],
     [ "forall_adj_elements", "_hypergraph_8h.html#af523c23d6744e8812e6730ee660322c0", null ],
     [ "forall_hyperedges", "_hypergraph_8h.html#a3a9bbbf3b7003593e725f00de697af6c", null ],
     [ "forall_hypernodes", "_hypergraph_8h.html#ae0bcb312806c3c201e916fe8a80a9809", null ],

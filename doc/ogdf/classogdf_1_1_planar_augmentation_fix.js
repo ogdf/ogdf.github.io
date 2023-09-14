@@ -13,7 +13,7 @@ var classogdf_1_1_planar_augmentation_fix =
     [ "findMatching", "classogdf_1_1_planar_augmentation_fix.html#a9e111e7673fb7225efbb8e6cd803f2dc", null ],
     [ "findMatchingRev", "classogdf_1_1_planar_augmentation_fix.html#a6e96172bc8c4902966af6e4ae7db1e98", null ],
     [ "followPath", "classogdf_1_1_planar_augmentation_fix.html#a80da6b95a59e12549ac4a6e9c1429622", null ],
-    [ "insertLabel", "classogdf_1_1_planar_augmentation_fix.html#aff71dbe9108c4fd02849d8d9bde967b2", null ],
+    [ "insertLabel", "classogdf_1_1_planar_augmentation_fix.html#ac6084a301f3898208b7ca6dbe76e294c", null ],
     [ "modifyBCRoot", "classogdf_1_1_planar_augmentation_fix.html#a914d7244f82567ac6fda3f29e5be0bc4", null ],
     [ "newLabel", "classogdf_1_1_planar_augmentation_fix.html#a741b221599bc022667e9336f5ab9c384", null ],
     [ "reduceChain", "classogdf_1_1_planar_augmentation_fix.html#a42bc1b725839cb3c95591ffa3b0c688a", null ],

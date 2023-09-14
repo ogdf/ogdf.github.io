@@ -1,4 +1,5 @@
 <map id="ogdf::BucketTargetIndex" name="ogdf::BucketTargetIndex">
-<area shape="rect" id="node1" title="Bucket function using the index of an edge&#39;s target node as bucket." alt="" coords="13,80,192,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_bucket_func.html" title=" " alt="" coords="5,5,200,32"/>
+<area shape="rect" id="Node000001" title="Bucket function using the index of an edge&#39;s target node as bucket." alt="" coords="13,81,191,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_bucket_func.html" title=" " alt="" coords="5,5,199,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,48,105,81,99,81,99,48"/>
 </map>

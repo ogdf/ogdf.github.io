@@ -1,0 +1,7 @@
+<map id="ogdf::MinimumCutNagamochiIbaraki" name="ogdf::MinimumCutNagamochiIbaraki">
+<area shape="rect" id="Node000001" title="Calculate minimum cut value for a given Graph." alt="" coords="32,98,248,143"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_logger.html" title="Centralized global and local logging facility working on streams like std::cout." alt="" coords="5,14,107,42"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,51,122,96,118,99,76,54"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_minimum_cut_module.html" title=" " alt="" coords="131,5,320,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="197,63,162,100,158,96,193,59"/>
+</map>

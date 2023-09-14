@@ -1,4 +1,5 @@
 <map id="ogdf::CirclePlacer" name="ogdf::CirclePlacer">
-<area shape="rect" id="node1" title="The circle placer for multilevel layout." alt="" coords="5,80,140,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_initial_placer.html" title="Base class for placer modules." alt="" coords="5,5,140,32"/>
+<area shape="rect" id="Node000001" title="The circle placer for multilevel layout." alt="" coords="5,81,140,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_initial_placer.html" title="Base class for placer modules." alt="" coords="5,5,140,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="75,48,75,81,70,81,70,48"/>
 </map>

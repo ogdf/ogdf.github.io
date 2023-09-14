@@ -7,8 +7,8 @@ var classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info =
     [ "set_max_height", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#aa2127fb62d9fd22cd9f7652857c54b94", null ],
     [ "set_row_index", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#aaf903c4cbbaf7a3e01abf976cf3e56ac", null ],
     [ "set_total_width", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#a36f1b18e9515bf1ec8f564d4017bdff8", null ],
-    [ "operator<<", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#a4837403cd6b4f92e6c13976da9d2a047", null ],
-    [ "operator>>", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#a275daaa53eb0761a46761b4ffc66e615", null ],
+    [ "operator<<", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#aa4328c7287ae3b212d2114dfd7777fe9", null ],
+    [ "operator>>", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#a0808cccde969cee1c081e3d2feb3deec", null ],
     [ "max_height", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#ab8432fbc681e93517b873ff4936435d6", null ],
     [ "row_index", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#a9ca4041951b87d40a56e88b4b18fa544", null ],
     [ "total_width", "classogdf_1_1energybased_1_1fmmm_1_1_packing_row_info.html#aa6f3177bcc721bb5d6b91428360191bf", null ]

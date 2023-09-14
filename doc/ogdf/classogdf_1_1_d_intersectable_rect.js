@@ -12,8 +12,8 @@ var classogdf_1_1_d_intersectable_rect =
     [ "intersection", "classogdf_1_1_d_intersectable_rect.html#aca4a9f6590cdcf928b677aa83d2077d8", null ],
     [ "intersects", "classogdf_1_1_d_intersectable_rect.html#ab15503da58daa6c17c2b2bc92ac8c9cf", null ],
     [ "move", "classogdf_1_1_d_intersectable_rect.html#a732a036425e8fe4d08c41771a098e656", null ],
-    [ "operator=", "classogdf_1_1_d_intersectable_rect.html#ace0d85a06ea3af6b992ac475463fe407", null ],
-    [ "operator<<", "classogdf_1_1_d_intersectable_rect.html#ad38b58108396d30d100942c10a33aa4b", null ],
+    [ "operator=", "classogdf_1_1_d_intersectable_rect.html#ab4c9b2e6b5ebcf2480a961e7e10d0d8c", null ],
+    [ "operator<<", "classogdf_1_1_d_intersectable_rect.html#a7e42ef0b9a8dd36a5ff3bad1dde318f8", null ],
     [ "m_area", "classogdf_1_1_d_intersectable_rect.html#adbc484084adf8d9e24b7f14025787f85", null ],
     [ "m_center", "classogdf_1_1_d_intersectable_rect.html#a02d2bbfda01b1f3e9cfcf857be3e89bb", null ]
 ];

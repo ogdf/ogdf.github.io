@@ -1,8 +1,13 @@
 <map id="ogdf::PlanRepInc" name="ogdf::PlanRepInc">
-<area shape="rect" id="node1" title="This class is only an adaption of PlanRep for the special incremental drawing case." alt="" coords="95,304,226,331"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="5,229,145,256"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_plan_rep.html" title="Planarized representations (of a connected component) of a graph." alt="" coords="20,155,131,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting." alt="" coords="10,80,141,107"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="27,5,124,32"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_graph_observer.html" title="Abstract Base class for graph observers." alt="" coords="169,229,325,256"/>
+<area shape="rect" id="Node000001" title="This class is only an adaption of PlanRep for the special incremental drawing case." alt="" coords="96,308,225,336"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="5,232,145,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,268,147,306,143,310,99,272"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_plan_rep.html" title="Planarized representations (of a connected component) of a graph." alt="" coords="20,157,130,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="78,199,78,232,72,232,72,199"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting." alt="" coords="10,81,140,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="78,124,78,156,72,156,72,124"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="27,5,123,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="78,48,78,81,72,81,72,48"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_graph_observer.html" title="Abstract Base class for graph observers." alt="" coords="169,232,325,260"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="222,272,177,310,174,306,219,268"/>
 </map>

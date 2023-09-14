@@ -15,7 +15,7 @@ var classpugi_1_1xml__document =
     [ "load_file", "classpugi_1_1xml__document.html#a340e0688c19ba9195537bc9af6d72cd2", null ],
     [ "load_file", "classpugi_1_1xml__document.html#a6103fc3af07c93f67bfacb5b85cf9a3a", null ],
     [ "load_string", "classpugi_1_1xml__document.html#a558900d79e74717e1697586623740a33", null ],
-    [ "operator=", "classpugi_1_1xml__document.html#af8e921993cb396b96e1e3c025d21b469", null ],
+    [ "operator=", "classpugi_1_1xml__document.html#ab5da9502a8ac495839ee9fe58f82070d", null ],
     [ "reset", "classpugi_1_1xml__document.html#a7d325c6309910157080fe69f73922186", null ],
     [ "reset", "classpugi_1_1xml__document.html#ac35e9409706a0cd8caa7cbf5b80abcca", null ],
     [ "save", "classpugi_1_1xml__document.html#ae0a794935e41e513f003327a84c29794", null ],

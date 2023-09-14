@@ -1,4 +1,5 @@
 <map id="ogdf::OptimalHierarchyClusterLayout" name="ogdf::OptimalHierarchyClusterLayout">
-<area shape="rect" id="node1" title="The LP&#45;based hierarchy cluster layout algorithm." alt="" coords="5,95,224,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_hierarchy_cluster_layout_module.html" title="Interface of hierarchy layout algorithms for cluster graphs." alt="" coords="9,5,220,47"/>
+<area shape="rect" id="Node000001" title="The LP&#45;based hierarchy cluster layout algorithm." alt="" coords="5,98,224,143"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_hierarchy_cluster_layout_module.html" title="Interface of hierarchy layout algorithms for cluster graphs." alt="" coords="9,5,220,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,65,117,98,112,98,112,65"/>
 </map>

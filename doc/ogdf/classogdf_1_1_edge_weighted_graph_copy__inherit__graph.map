@@ -1,5 +1,7 @@
 <map id="ogdf::EdgeWeightedGraphCopy&lt; T &gt;" name="ogdf::EdgeWeightedGraphCopy&lt; T &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="5,155,268,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting." alt="" coords="71,80,202,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="88,5,185,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,157,266,184"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting." alt="" coords="71,81,200,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,124,138,156,133,156,133,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="87,5,184,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="138,48,138,81,133,81,133,48"/>
 </map>

@@ -1,6 +1,9 @@
 <map id="ogdf::MMCBBase" name="ogdf::MMCBBase">
-<area shape="rect" id="node1" title="common base class for MMCBDoubleGrid and MMCBLocalStretch." alt="" coords="126,95,258,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_m_m_c_b_double_grid.html" title="Crossings beautifier using grid doubling." alt="" coords="5,169,179,196"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_m_m_c_b_local_stretch.html" title="Crossings beautifier using a local stretch strategy." alt="" coords="203,169,383,196"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_mixed_model_crossings_beautifier_module.html" title="The base class for Mixed&#45;Model crossings beautifier algorithms." alt="" coords="91,5,293,47"/>
+<area shape="rect" id="Node000001" title="common base class for MMCBDoubleGrid and MMCBLocalStretch." alt="" coords="126,98,257,126"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_m_m_c_b_double_grid.html" title="Crossings beautifier using grid doubling." alt="" coords="5,174,178,201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,137,111,175,108,171,160,133"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_m_m_c_b_local_stretch.html" title="Crossings beautifier using a local stretch strategy." alt="" coords="202,174,381,201"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,133,275,171,272,175,219,137"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_mixed_model_crossings_beautifier_module.html" title="The base class for Mixed&#45;Model crossings beautifier algorithms." alt="" coords="92,5,291,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,65,194,97,189,97,189,65"/>
 </map>

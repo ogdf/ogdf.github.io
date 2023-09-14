@@ -11,7 +11,7 @@ var classogdf_1_1_r_m_heap =
     [ "release", "classogdf_1_1_r_m_heap.html#a1d53e3aa0e435d679bceaf2ab95717b0", null ],
     [ "remove", "classogdf_1_1_r_m_heap.html#ab227296e02df4b2002c9b57240e6f494", null ],
     [ "top", "classogdf_1_1_r_m_heap.html#a87c6a1f33c772bf2ea7bc3eecbeb0523", null ],
-    [ "value", "classogdf_1_1_r_m_heap.html#a8270f65af8ac06f91e129a85f8707475", null ],
+    [ "value", "classogdf_1_1_r_m_heap.html#ab016b09fc78a951708c51db918098697", null ],
     [ "m_rand", "classogdf_1_1_r_m_heap.html#ab14a3d0b626f3718633975c63ff633a0", null ],
     [ "m_root", "classogdf_1_1_r_m_heap.html#a873f96e459bc7c63c0a1ff24b25a676e", null ]
 ];

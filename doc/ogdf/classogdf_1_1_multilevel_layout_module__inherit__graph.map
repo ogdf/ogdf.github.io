@@ -1,6 +1,9 @@
 <map id="ogdf::MultilevelLayoutModule" name="ogdf::MultilevelLayoutModule">
-<area shape="rect" id="node1" title="Interface of general layout algorithms that also allow a MultilevelGraph as call parameter,..." alt="" coords="87,80,302,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_preprocessor_layout.html" title="The PreprocessorLayout removes multi&#45;edges and self&#45;loops." alt="" coords="5,155,192,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_scaling_layout.html" title="Scales a graph layout and calls a secondary layout algorithm." alt="" coords="216,155,365,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="119,5,270,32"/>
+<area shape="rect" id="Node000001" title="Interface of general layout algorithms that also allow a MultilevelGraph as call parameter,..." alt="" coords="86,81,300,109"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_preprocessor_layout.html" title="The PreprocessorLayout removes multi&#45;edges and self&#45;loops." alt="" coords="5,157,191,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="166,120,116,158,113,154,163,116"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_scaling_layout.html" title="Scales a graph layout and calls a secondary layout algorithm." alt="" coords="215,157,363,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="223,116,273,154,270,158,220,120"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="118,5,267,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="195,48,195,81,190,81,190,48"/>
 </map>

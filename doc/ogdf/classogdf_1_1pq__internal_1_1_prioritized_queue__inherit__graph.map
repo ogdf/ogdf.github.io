@@ -1,5 +1,23 @@
 <map id="ogdf::pq_internal::PrioritizedQueue&lt; E, P, C, Impl &gt;" name="ogdf::pq_internal::PrioritizedQueue&lt; E, P, C, Impl &gt;">
-<area shape="rect" id="node1" title="Defines a queue for handling prioritized elements." alt="" coords="25,95,183,151"/>
-<area shape="rect" id="node3" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="5,199,203,255"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_priority_queue.html" title="Priority queue interface wrapper for heaps." alt="" coords="23,5,185,47"/>
+<area shape="rect" id="Node000001" title="Defines a queue for handling prioritized elements." alt="" coords="214,297,370,358"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="475,5,727,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="312,282,355,213,384,177,416,145,444,126,473,110,476,115,447,131,420,150,387,181,359,216,317,285"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="495,160,708,255"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="366,288,417,265,493,237,495,242,419,270,368,292"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="494,280,709,375"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="385,325,493,325,493,330,385,330"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="418,400,784,546"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="372,363,419,385,443,397,441,401,417,390,370,367"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1pq__internal_1_1_prioritized_array_queue_base.html" title=" " alt="" coords="503,570,699,632"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="308,372,324,416,347,466,379,515,420,556,459,578,503,591,502,596,457,583,416,560,375,518,343,469,319,418,303,373"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_priority_queue.html" title="Priority queue interface wrapper for heaps." alt="" coords="5,305,166,350"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,325,213,325,213,330,181,330"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_prioritized_map_queue_3_01edge_00_01_p_00_01_c_00_01_impl_00_01_hash_func_01_4.html" title="Specialization for edge elements." alt="" coords="832,185,1057,230"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="723,205,832,205,832,210,723,210"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_prioritized_map_queue_3_01node_00_01_p_00_01_c_00_01_impl_00_01_hash_func_01_4.html" title="Specialization for node elements." alt="" coords="832,305,1057,350"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="724,325,832,325,832,330,724,330"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_prioritized_map_queue.html" title=" " alt="" coords="838,544,1051,589"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="714,587,837,574,838,580,714,592"/>
+<area shape="rect" id="Node000011" href="$classogdf_1_1_prioritized_map_queue.html" title="Prioritized queue interface wrapper for heaps." alt="" coords="844,613,1045,658"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="715,610,844,623,844,628,714,615"/>
 </map>

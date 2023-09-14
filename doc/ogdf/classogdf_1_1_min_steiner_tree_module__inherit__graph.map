@@ -1,13 +1,23 @@
 <map id="ogdf::MinSteinerTreeModule&lt; T &gt;" name="ogdf::MinSteinerTreeModule&lt; T &gt;">
-<area shape="rect" id="node1" title="Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirec..." alt="" coords="5,267,247,294"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_min_steiner_tree_directed_cut.html" title="This class implements the Directed Cut Integer Linear Program for the Steiner tree problem." alt="" coords="329,5,539,47"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_min_steiner_tree_dual_ascent.html" title="Dual ascent heuristic for the minimum Steiner tree problem." alt="" coords="341,71,527,112"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_min_steiner_tree_goemans139.html" title="This class implements the (1.39+epsilon)&#45;approximation algorithm for the Steiner tree problem by Goem..." alt="" coords="295,137,573,163"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_min_steiner_tree_kou.html" title="This class implements the Minimum Steiner Tree 2&#45;approximation algorithm by Kou et al." alt="" coords="325,187,543,214"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_min_steiner_tree_mehlhorn.html" title="This class implements the Minimum Steiner Tree 2&#45;approximation algorithm by Mehlhorn." alt="" coords="307,238,561,265"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_min_steiner_tree_primal_dual.html" title="Primal&#45;Dual approximation algorithm for Steiner tree problems." alt="" coords="335,289,533,331"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_min_steiner_tree_r_z_loss.html" title="This class implements the loss&#45;contracting (1.55+epsilon)&#45;approximation algorithm for the Steiner tre..." alt="" coords="314,355,554,382"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_min_steiner_tree_shore.html" title="Implementation of Shore, Foulds and Gibbons exact branch and bound algorithm for solving Steiner tree..." alt="" coords="319,406,549,433"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_min_steiner_tree_takahashi.html" title="This class implements the minimum Steiner tree 2&#45;approximation algorithm by Takahashi and Matsuyama w..." alt="" coords="305,457,563,483"/>
-<area shape="rect" id="node11" href="$classogdf_1_1_min_steiner_tree_zelikovsky.html" title="This class implements the 11/6&#45;approximation algorithm by Zelikovsky for the minimum Steiner tree pro..." alt="" coords="303,507,565,534"/>
+<area shape="rect" id="Node000001" title="Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirec..." alt="" coords="5,278,246,306"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_min_steiner_tree_directed_cut.html" title="This class implements the Directed Cut Integer Linear Program for the Steiner tree problem." alt="" coords="328,5,538,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,263,159,219,193,163,238,107,264,82,292,60,326,43,329,48,295,65,267,86,242,111,198,166,164,221,141,266"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_min_steiner_tree_dual_ascent.html" title="Dual ascent heuristic for the minimum Steiner tree problem." alt="" coords="341,75,525,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,265,205,197,246,160,292,129,339,110,341,115,295,134,250,164,209,201,148,268"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_min_steiner_tree_goemans139.html" title="This class implements the (1.39+epsilon)&#45;approximation algorithm for the Steiner tree problem by Goem..." alt="" coords="294,143,572,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,266,215,222,253,200,293,181,331,169,333,174,295,186,256,205,218,227,157,270"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_min_steiner_tree_kou.html" title="This class implements the Minimum Steiner Tree 2&#45;approximation algorithm by Kou et al." alt="" coords="325,195,541,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="178,270,293,233,347,221,348,226,294,238,180,275"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_min_steiner_tree_mehlhorn.html" title="This class implements the Minimum Steiner Tree 2&#45;approximation algorithm by Mehlhorn." alt="" coords="306,247,560,275"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="260,276,306,271,306,276,261,281"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_min_steiner_tree_primal_dual.html" title="Primal&#45;Dual approximation algorithm for Steiner tree problems." alt="" coords="335,299,531,343"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="261,302,334,309,334,314,260,307"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_min_steiner_tree_r_z_loss.html" title="This class implements the loss&#45;contracting (1.55+epsilon)&#45;approximation algorithm for the Steiner tre..." alt="" coords="313,367,553,395"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="173,309,230,332,294,353,340,364,339,369,293,358,229,337,171,314"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_min_steiner_tree_shore.html" title="Implementation of Shore, Foulds and Gibbons exact branch and bound algorithm for solving Steiner tree..." alt="" coords="318,419,548,447"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="155,313,216,360,255,384,295,404,332,416,330,421,293,409,252,389,213,364,152,317"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_min_steiner_tree_takahashi.html" title="This class implements the minimum Steiner tree 2&#45;approximation algorithm by Takahashi and Matsuyama w..." alt="" coords="305,471,561,499"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="147,316,173,349,207,387,249,425,295,456,324,468,322,473,292,461,245,429,203,391,169,353,143,320"/>
+<area shape="rect" id="Node000011" href="$classogdf_1_1_min_steiner_tree_zelikovsky.html" title="This class implements the 11/6&#45;approximation algorithm by Zelikovsky for the minimum Steiner tree pro..." alt="" coords="302,523,564,551"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="142,317,165,360,198,413,242,465,268,488,295,508,320,520,318,525,292,513,264,492,238,469,194,416,160,363,137,320"/>
 </map>

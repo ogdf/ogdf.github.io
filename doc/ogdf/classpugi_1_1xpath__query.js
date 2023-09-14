@@ -13,8 +13,8 @@ var classpugi_1_1xpath__query =
     [ "evaluate_string", "classpugi_1_1xpath__query.html#a248d52ed6d9b98b27855aeb24f17a72d", null ],
     [ "operator unspecified_bool_type", "classpugi_1_1xpath__query.html#a4581d6dfa149e4b2864b3ba84b604609", null ],
     [ "operator!", "classpugi_1_1xpath__query.html#ae901fdf1256b475bdbf279165f9f39a3", null ],
-    [ "operator=", "classpugi_1_1xpath__query.html#abc67091b5d96ed2107dc3ba4f5735a60", null ],
-    [ "result", "classpugi_1_1xpath__query.html#a65b1649e77f75bcc0ed96f0e6a8a04cc", null ],
+    [ "operator=", "classpugi_1_1xpath__query.html#aa784b675e7171c0202ee1330f04d0399", null ],
+    [ "result", "classpugi_1_1xpath__query.html#aaf2f69bff7cccfbc73520dab5505458a", null ],
     [ "return_type", "classpugi_1_1xpath__query.html#acf2b188f7a4b4c5105cc52238f490c2a", null ],
     [ "_impl", "classpugi_1_1xpath__query.html#af757e052550be2214d52aab24f395123", null ],
     [ "_result", "classpugi_1_1xpath__query.html#a7024aa589e9f068dd68b4fdfef0a5043", null ]

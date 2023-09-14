@@ -15,7 +15,7 @@ var classogdf_1_1_planar_augmentation =
     [ "findLastBefore", "classogdf_1_1_planar_augmentation.html#aa0020180b2d9bc54a65b47ff3fbaf0bb", null ],
     [ "findMatching", "classogdf_1_1_planar_augmentation.html#ac1c6ab66de9867678292d354f03206ff", null ],
     [ "followPath", "classogdf_1_1_planar_augmentation.html#a030f5da43852c72c933a8bf1817ec5ed", null ],
-    [ "insertLabel", "classogdf_1_1_planar_augmentation.html#ad38290695c491afa0a81dfb5d93ef741", null ],
+    [ "insertLabel", "classogdf_1_1_planar_augmentation.html#ac61e789b398697d4d74a94849c1c65e9", null ],
     [ "joinPendants", "classogdf_1_1_planar_augmentation.html#aade7f3ac98a68fd055c708b6d6115cf4", null ],
     [ "makeConnectedByPendants", "classogdf_1_1_planar_augmentation.html#a91f7ed90a74feda1c65d6f777de9d666", null ],
     [ "modifyBCRoot", "classogdf_1_1_planar_augmentation.html#ae54c7e424805d9cc717178d3c1d3e880", null ],

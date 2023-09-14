@@ -1,4 +1,5 @@
 <map id="ogdf::GridLayout" name="ogdf::GridLayout">
-<area shape="rect" id="node1" title="Representation of a graph&#39;s grid layout." alt="" coords="31,5,161,32"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_grid_layout_mapped.html" title="Extends GridLayout by a grid mapping mechanism." alt="" coords="5,80,187,107"/>
+<area shape="rect" id="Node000001" title="Representation of a graph&#39;s grid layout." alt="" coords="31,5,160,33"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_grid_layout_mapped.html" title="Extends GridLayout by a grid mapping mechanism." alt="" coords="5,81,186,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,48,98,81,93,81,93,48"/>
 </map>

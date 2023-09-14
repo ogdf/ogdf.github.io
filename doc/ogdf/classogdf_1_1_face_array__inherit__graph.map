@@ -1,0 +1,7 @@
+<map id="ogdf::FaceArray&lt; T &gt;" name="ogdf::FaceArray&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Dynamic arrays indexed with faces of a combinatorial embedding." alt="" coords="74,81,233,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_array.html" title=" " alt="" coords="5,5,136,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,41,140,79,137,83,94,45"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_face_array_base.html" title="Abstract base class for face arrays." alt="" coords="159,5,313,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="212,45,170,83,166,79,208,41"/>
+</map>

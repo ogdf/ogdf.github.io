@@ -1,4 +1,5 @@
 <map id="ogdf::KuratowskiSubdivision" name="ogdf::KuratowskiSubdivision">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,211,121"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_array.html" title=" " alt="" coords="37,5,179,47"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,210,126"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_array.html" title=" " alt="" coords="37,5,178,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,65,110,97,105,97,105,65"/>
 </map>

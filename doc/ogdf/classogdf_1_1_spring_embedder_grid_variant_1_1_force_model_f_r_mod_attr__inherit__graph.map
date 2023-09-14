@@ -1,5 +1,7 @@
 <map id="ogdf::SpringEmbedderGridVariant::ForceModelFRModAttr" name="ogdf::SpringEmbedderGridVariant::ForceModelFRModAttr">
-<area shape="rect" id="node1" title=" " alt="" coords="5,199,227,240"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_base.html" title=" " alt="" coords="20,109,212,151"/>
-<area shape="rect" id="node3" href="$classogdf_1_1spring__embedder_1_1_common_force_model_base.html" title=" " alt="" coords="18,5,214,61"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,208,225,252"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_base.html" title=" " alt="" coords="19,115,211,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="118,174,118,207,112,207,112,174"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1spring__embedder_1_1_common_force_model_base.html" title=" " alt="" coords="17,5,213,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="118,82,118,115,112,115,112,82"/>
 </map>

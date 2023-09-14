@@ -12,6 +12,6 @@ var classabacus_1_1_var_type =
     [ "integer", "classabacus_1_1_var_type.html#a8727b025b1b4bff52298c3c1430c0a7c", null ],
     [ "type", "classabacus_1_1_var_type.html#ae1a70febf7227309fef9d4d71243a271", null ],
     [ "type", "classabacus_1_1_var_type.html#a0b876c28eda3b8c32dfbff8677bffbf8", null ],
-    [ "operator<<", "classabacus_1_1_var_type.html#a0d00d5b9ef0a8c874d3940be020eccdb", null ],
+    [ "operator<<", "classabacus_1_1_var_type.html#a725c3c1349df9cee8d5b631bde2bf9d4", null ],
     [ "type_", "classabacus_1_1_var_type.html#ac103259b4a3fd42624d7047875ef4a8d", null ]
 ];

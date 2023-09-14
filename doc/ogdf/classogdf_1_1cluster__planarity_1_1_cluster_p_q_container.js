@@ -1,6 +1,6 @@
 var classogdf_1_1cluster__planarity_1_1_cluster_p_q_container =
 [
-    [ "InfoLeafPtr", "classogdf_1_1cluster__planarity_1_1_cluster_p_q_container.html#a64b6ad9f804b7caf1c3975bd53935038", null ],
+    [ "InfoLeafPtr", "classogdf_1_1cluster__planarity_1_1_cluster_p_q_container.html#a91c209ea000587dc2536e3a8ec4e8589", null ],
     [ "ClusterPQContainer", "classogdf_1_1cluster__planarity_1_1_cluster_p_q_container.html#aec96c5f72a49364a28780b828dcd04be", null ],
     [ "~ClusterPQContainer", "classogdf_1_1cluster__planarity_1_1_cluster_p_q_container.html#af5cc02aeefb1db1cc8b9d69d7b24b909", null ],
     [ "Cleanup", "classogdf_1_1cluster__planarity_1_1_cluster_p_q_container.html#a0a32de193257372f8e7236b60c79c2fa", null ],

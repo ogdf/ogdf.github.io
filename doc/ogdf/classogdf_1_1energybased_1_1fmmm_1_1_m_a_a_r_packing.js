@@ -10,7 +10,7 @@ var classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing =
     [ "calculate_aspect_ratio_area", "classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#a5d56f28ff33268abc45a25a65398f444", null ],
     [ "calculate_bounding_rectangles_area", "classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#a43a028ace081c30b5be9571dcae0071f", null ],
     [ "export_new_rectangle_positions", "classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#ac808038e52578ed51f349ad0cc4a3451", null ],
-    [ "find_Best_Fit_insert_position", "classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#adf34725bb7f74fef867b826ecbabe0a1", null ],
+    [ "find_Best_Fit_insert_position", "classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#a5a88e34ba236904fe1d00ba264f46865", null ],
     [ "pack_rectangles_using_Best_Fit_strategy", "classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#ae0cc425bd889381c897a3ffa700d117b", null ],
     [ "presort_rectangles_by_height", "classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#a0bc68210eee981914c0c247c4f7bbf7a", null ],
     [ "presort_rectangles_by_width", "classogdf_1_1energybased_1_1fmmm_1_1_m_a_a_r_packing.html#a41ba8cdacf06f33144c41de83e48f311", null ],

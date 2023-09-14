@@ -1,4 +1,5 @@
 <map id="ogdf::PlanarizationLayoutUML" name="ogdf::PlanarizationLayoutUML">
-<area shape="rect" id="node1" title="The planarization layout algorithm." alt="" coords="5,80,221,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_u_m_l_layout_module.html" title="Interface of UML layout algorithms." alt="" coords="24,5,203,32"/>
+<area shape="rect" id="Node000001" title="The planarization layout algorithm." alt="" coords="5,81,221,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_u_m_l_layout_module.html" title="Interface of UML layout algorithms." alt="" coords="24,5,202,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,48,116,81,110,81,110,48"/>
 </map>

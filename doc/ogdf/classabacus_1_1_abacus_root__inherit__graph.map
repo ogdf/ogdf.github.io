@@ -1,51 +1,200 @@
 <map id="abacus::AbacusRoot" name="abacus::AbacusRoot">
-<area shape="rect" id="node1" title="Base class of all other classes of ABACUS." alt="" coords="5,711,159,738"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_abacus_global.html" title="Global data and functions." alt="" coords="238,95,403,122"/>
-<area shape="rect" id="node7" href="$classabacus_1_1_aba_prio_queue.html" title="Bounded priority queues." alt="" coords="237,164,405,205"/>
-<area shape="rect" id="node8" href="$classabacus_1_1_branch_rule.html" title="Abstract base class for all branching rules." alt="" coords="245,230,396,257"/>
-<area shape="rect" id="node13" href="$classabacus_1_1_con_class.html" title="Constraint classification." alt="" coords="253,281,389,307"/>
-<area shape="rect" id="node14" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="259,331,382,358"/>
-<area shape="rect" id="node23" href="$classabacus_1_1_c_sense.html" title="Sense of constraints." alt="" coords="259,382,383,409"/>
-<area shape="rect" id="node24" href="$classabacus_1_1_fix_cand.html" title="Candidates for fixing." alt="" coords="257,433,384,459"/>
-<area shape="rect" id="node25" href="$classabacus_1_1_f_s_var_stat.html" title="Status of fixed and set variables." alt="" coords="251,483,391,510"/>
-<area shape="rect" id="node26" href="$classabacus_1_1_history.html" title="Solution histories." alt="" coords="259,534,382,561"/>
-<area shape="rect" id="node27" href="$classabacus_1_1_infeas_con.html" title="Infeasible constraints." alt="" coords="250,585,391,611"/>
-<area shape="rect" id="node28" href="$classabacus_1_1_l_p.html" title="Linear programs." alt="" coords="275,635,366,662"/>
-<area shape="rect" id="node31" href="$classabacus_1_1_lp_master.html" title="The LP master." alt="" coords="253,686,389,713"/>
-<area shape="rect" id="node33" href="$classabacus_1_1_l_p_v_a_r_s_t_a_t.html" title="status of variables." alt="" coords="245,737,396,763"/>
-<area shape="rect" id="node34" href="$classabacus_1_1_open_sub.html" title="Maintains open subproblems." alt="" coords="253,787,388,814"/>
-<area shape="rect" id="node35" href="$classabacus_1_1_opt_sense.html" title="Sense of optimization." alt="" coords="251,838,390,865"/>
-<area shape="rect" id="node36" href="$classabacus_1_1_pool.html" title="Base class for constraint/variabe pools." alt="" coords="228,889,413,931"/>
-<area shape="rect" id="node37" href="$classabacus_1_1_slack_stat.html" title="Status of slack variables." alt="" coords="252,955,389,982"/>
-<area shape="rect" id="node38" href="$classabacus_1_1_spar_vec.html" title="Sparse vectors." alt="" coords="256,1006,385,1033"/>
-<area shape="rect" id="node41" href="$classabacus_1_1_sub.html" title="The subproblem." alt="" coords="271,1057,371,1083"/>
-<area shape="rect" id="node45" href="$classabacus_1_1_tail_off.html" title="Tailing off manager." alt="" coords="261,1107,380,1134"/>
-<area shape="rect" id="node46" href="$classabacus_1_1_var_type.html" title="Variable types." alt="" coords="257,1158,385,1185"/>
-<area shape="rect" id="node47" href="$classabacus_1_1_pool.html" title=" " alt="" coords="238,1209,403,1265"/>
-<area shape="rect" id="node48" href="$classabacus_1_1_pool.html" title=" " alt="" coords="207,1289,435,1331"/>
-<area shape="rect" id="node49" href="$classabacus_1_1_pool.html" title=" " alt="" coords="235,1355,406,1396"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_master.html" title="The master of the optimization." alt="" coords="527,78,649,105"/>
-<area shape="rect" id="node4" href="$classogdf_1_1cluster__planarity_1_1_c_p___master_base.html" title=" " alt="" coords="765,5,932,47"/>
-<area shape="rect" id="node5" href="$classogdf_1_1cluster__planarity_1_1_max_c_planar_master.html" title=" " alt="" coords="765,71,932,112"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html" title="Master problem of Steiner tree branch&amp;cut algorithm" alt="" coords="743,136,954,177"/>
-<area shape="rect" id="node9" href="$classabacus_1_1_bound_branch_rule.html" title="Implements a branching rule for modifying the lower and the upper bound of a variable." alt="" coords="493,129,683,155"/>
-<area shape="rect" id="node10" href="$classabacus_1_1_con_branch_rule.html" title="Implements the branching by adding a constraint to the set of active constraints." alt="" coords="501,179,675,206"/>
-<area shape="rect" id="node11" href="$classabacus_1_1_set_branch_rule.html" title="Implements a branching rule for setting a binary variable to its lower or upper bound." alt="" coords="503,230,673,257"/>
-<area shape="rect" id="node12" href="$classabacus_1_1_val_branch_rule.html" title="Implements a branching rule for setting a variable to a certain value." alt="" coords="503,281,673,307"/>
-<area shape="rect" id="node15" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format." alt="" coords="517,331,659,358"/>
-<area shape="rect" id="node22" href="$classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format." alt="" coords="523,382,653,409"/>
-<area shape="rect" id="node16" href="$classabacus_1_1_num_con.html" title="Constraints defined by a number." alt="" coords="783,213,915,239"/>
-<area shape="rect" id="node17" href="$classabacus_1_1_row_con.html" title="Implements constraints stored in the class Row." alt="" coords="784,263,913,290"/>
-<area shape="rect" id="node18" href="$classogdf_1_1cluster__planarity_1_1_base_constraint.html" title="Basic constraint type." alt="" coords="765,315,932,356"/>
-<area shape="rect" id="node19" href="$classogdf_1_1cluster__planarity_1_1_cluster_kuratowski_constraint.html" title=" " alt="" coords="741,380,956,421"/>
-<area shape="rect" id="node20" href="$classogdf_1_1cluster__planarity_1_1_max_planar_edges_constraint.html" title=" " alt="" coords="746,445,951,487"/>
-<area shape="rect" id="node21" href="$classogdf_1_1cluster__planarity_1_1_minimal_cluster_connection.html" title=" " alt="" coords="747,511,950,552"/>
-<area shape="rect" id="node29" href="$classabacus_1_1_lp_sub.html" title="The linear program of a subproblem." alt="" coords="531,585,645,611"/>
-<area shape="rect" id="node30" href="$classabacus_1_1_osi_i_f.html" title=" " alt="" coords="533,635,643,662"/>
-<area shape="rect" id="node32" href="$classabacus_1_1_lp_master_osi.html" title="The OSI LP master." alt="" coords="509,686,667,713"/>
-<area shape="rect" id="node39" href="$classabacus_1_1_column.html" title="Representation of variables in column format." alt="" coords="525,947,651,974"/>
-<area shape="rect" id="node40" href="$classabacus_1_1_row.html" title="Representation of constraints in the row format." alt="" coords="536,998,640,1025"/>
-<area shape="rect" id="node42" href="$classogdf_1_1cluster__planarity_1_1_c_planarity_sub.html" title=" " alt="" coords="505,1049,671,1091"/>
-<area shape="rect" id="node43" href="$classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html" title=" " alt="" coords="505,1115,671,1156"/>
-<area shape="rect" id="node44" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html" title="Subproblem of Steiner tree algorithm." alt="" coords="483,1180,693,1221"/>
+<area shape="rect" id="Node000001" title="Base class of all other classes of ABACUS." alt="" coords="5,2045,158,2072"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_aba_hash.html" title=" " alt="" coords="237,5,427,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="80,2030,80,1647,84,1347,92,1019,107,694,129,404,143,283,161,183,180,107,192,80,204,61,218,47,235,37,238,42,221,51,208,64,196,83,185,109,166,184,149,284,134,405,112,694,98,1019,89,1347,86,1647,85,2030"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_aba_hash.html" title=" " alt="" coords="225,74,439,136"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="80,2030,82,1662,87,1376,97,1062,112,752,133,475,147,360,163,264,182,191,204,146,223,128,226,132,208,149,187,193,169,265,153,360,139,476,117,752,102,1062,93,1376,88,1662,85,2030"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_aba_hash.html" title=" " alt="" coords="226,160,438,205"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="80,2030,82,1673,87,1397,97,1095,112,796,133,531,147,419,163,327,182,258,204,215,224,198,228,202,208,219,187,260,169,328,153,420,139,531,117,797,102,1095,93,1397,88,1673,85,2030"/>
+<area shape="rect" id="Node000005" href="$classabacus_1_1_aba_hash.html" title=" " alt="" coords="206,229,458,291"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="80,2029,85,1688,101,1138,116,854,138,602,151,496,166,408,184,342,203,301,215,289,218,293,208,304,189,344,172,409,156,497,143,602,122,854,106,1138,90,1688,86,2029"/>
+<area shape="rect" id="Node000006" href="$classabacus_1_1_aba_hash_item.html" title=" " alt="" coords="250,315,414,359"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="80,2030,85,1701,101,1172,116,899,138,657,151,556,166,472,184,409,204,370,224,352,249,342,251,347,227,357,208,373,189,411,172,473,156,557,143,658,122,900,106,1172,90,1701,86,2030"/>
+<area shape="rect" id="Node000007" href="$classabacus_1_1_aba_hash_item.html" title=" " alt="" coords="208,384,456,445"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="80,2029,87,1715,105,1215,121,957,142,728,155,632,169,553,185,493,203,455,215,444,218,448,208,459,190,495,174,554,160,633,147,729,126,957,110,1215,92,1715,86,2030"/>
+<area shape="rect" id="Node000008" href="$classabacus_1_1_aba_hash_item.html" title=" " alt="" coords="236,469,428,514"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="81,2029,87,1726,105,1247,121,1001,142,782,155,691,169,615,185,558,204,523,218,510,234,501,237,506,221,515,208,527,190,560,174,616,160,692,147,783,126,1001,111,1247,92,1727,86,2029"/>
+<area shape="rect" id="Node000009" href="$classabacus_1_1_aba_hash_item.html" title=" " alt="" coords="225,538,439,616"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="81,2030,90,1746,112,1301,128,1073,148,870,173,714,188,661,203,627,223,608,226,612,208,631,193,663,179,716,154,871,133,1074,117,1302,95,1747,86,2030"/>
+<area shape="rect" id="Node000010" href="$classabacus_1_1_aba_ring.html" title=" " alt="" coords="230,641,434,668"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="81,2030,88,1754,108,1323,124,1103,145,908,157,827,171,759,186,709,204,678,228,660,232,664,208,681,191,711,176,761,163,827,150,909,130,1104,114,1324,94,1755,86,2030"/>
+<area shape="rect" id="Node000011" href="$classabacus_1_1_active.html" title=" " alt="" coords="241,692,423,737"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="81,2030,90,1767,112,1359,128,1151,149,966,174,825,188,777,204,747,220,733,239,723,241,728,223,737,208,751,193,779,179,826,154,967,134,1151,117,1359,96,1767,86,2030"/>
+<area shape="rect" id="Node000012" href="$classabacus_1_1_active.html" title=" " alt="" coords="243,761,421,823"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="81,2029,92,1782,116,1402,132,1209,153,1037,176,906,189,861,204,833,221,816,242,805,244,809,224,821,208,836,194,863,181,907,158,1038,138,1209,121,1403,98,1783,87,2030"/>
+<area shape="rect" id="Node000013" href="$classabacus_1_1_active.html" title=" " alt="" coords="219,847,445,891"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="81,2029,93,1794,117,1436,133,1254,153,1093,177,970,190,928,204,902,217,890,220,894,208,905,194,930,182,971,159,1094,139,1254,122,1436,98,1795,87,2030"/>
+<area shape="rect" id="Node000014" href="$classabacus_1_1_cut_buffer.html" title=" " alt="" coords="239,916,425,977"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="82,2030,95,1811,120,1480,137,1312,157,1164,179,1050,191,1012,204,987,219,973,237,962,240,967,222,977,208,991,196,1014,184,1052,162,1165,143,1313,126,1480,100,1811,87,2030"/>
+<area shape="rect" id="Node000015" href="$classabacus_1_1_cut_buffer.html" title=" " alt="" coords="257,1001,407,1063"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="80,2030,81,1840,86,1703,95,1554,109,1404,132,1267,146,1206,162,1152,182,1107,204,1073,227,1053,255,1040,257,1045,230,1057,208,1076,186,1110,167,1154,151,1207,137,1268,115,1405,100,1554,91,1703,86,1840,85,2030"/>
+<area shape="rect" id="Node000016" href="$classabacus_1_1_lp_solution.html" title=" " alt="" coords="248,1087,416,1131"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="80,2030,82,1852,87,1724,97,1585,112,1447,134,1320,147,1263,164,1214,182,1173,204,1142,223,1126,246,1115,249,1120,226,1130,208,1145,187,1176,169,1216,153,1265,139,1321,117,1448,102,1586,93,1724,88,1852,85,2030"/>
+<area shape="rect" id="Node000017" href="$classabacus_1_1_pool.html" title=" " alt="" coords="250,1156,414,1217"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="81,2029,86,1866,103,1626,119,1502,140,1388,168,1293,185,1256,204,1227,224,1210,248,1197,250,1202,227,1214,208,1231,189,1259,173,1295,145,1389,124,1503,109,1627,91,1866,86,2029"/>
+<area shape="rect" id="Node000018" href="$classabacus_1_1_pool.html" title=" " alt="" coords="219,1241,445,1286"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="81,2029,87,1877,106,1658,122,1545,143,1441,170,1355,186,1322,204,1297,218,1284,221,1288,208,1300,190,1325,174,1357,148,1442,127,1546,111,1659,93,1878,86,2029"/>
+<area shape="rect" id="Node000019" href="$classabacus_1_1_pool.html" title=" " alt="" coords="247,1311,417,1355"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="81,2029,90,1890,110,1692,126,1589,147,1496,172,1419,187,1389,204,1366,223,1350,246,1340,248,1345,226,1355,208,1370,192,1392,177,1421,152,1497,131,1590,115,1692,95,1891,87,2030"/>
+<area shape="rect" id="Node000020" href="$classabacus_1_1_pool_slot.html" title=" " alt="" coords="219,1380,445,1425"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="82,2030,92,1903,114,1725,131,1634,151,1551,175,1482,189,1456,204,1435,218,1423,221,1427,208,1439,193,1458,180,1484,156,1552,136,1635,120,1726,98,1903,87,2030"/>
+<area shape="rect" id="Node000021" href="$classabacus_1_1_pool_slot.html" title=" " alt="" coords="219,1449,445,1494"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="83,2029,95,1915,119,1758,135,1678,155,1606,177,1546,204,1505,218,1492,222,1496,208,1508,182,1548,160,1607,140,1680,124,1759,101,1916,88,2030"/>
+<area shape="rect" id="Node000022" href="$classabacus_1_1_pool_slot.html" title=" " alt="" coords="235,1519,429,1563"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="84,2029,98,1928,124,1792,140,1723,159,1661,180,1609,204,1574,233,1554,236,1558,208,1578,185,1612,164,1662,145,1725,129,1793,104,1929,89,2030"/>
+<area shape="rect" id="Node000023" href="$classabacus_1_1_pool_slot_ref.html" title=" " alt="" coords="251,1588,413,1649"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="81,2029,86,1956,104,1857,120,1804,141,1752,169,1703,204,1659,225,1642,250,1631,252,1636,228,1647,208,1663,173,1706,146,1754,125,1806,109,1859,92,1957,86,2030"/>
+<area shape="rect" id="Node000024" href="$classabacus_1_1_pool_slot_ref.html" title=" " alt="" coords="251,1673,413,1735"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="83,2029,94,1970,115,1894,131,1854,151,1814,175,1777,204,1744,225,1728,250,1717,252,1722,228,1733,207,1748,179,1780,155,1817,136,1856,120,1896,99,1971,89,2030"/>
+<area shape="rect" id="Node000025" href="$classabacus_1_1_pool_slot_ref.html" title=" " alt="" coords="248,1759,416,1803"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="86,2030,100,1983,124,1924,158,1865,179,1837,204,1814,224,1801,246,1791,248,1796,227,1805,207,1818,183,1841,162,1868,128,1927,105,1985,92,2031"/>
+<area shape="rect" id="Node000026" href="$classabacus_1_1_aba_b_heap.html" title="Binary heaps." alt="" coords="236,1828,428,1873"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="92,2030,110,1996,135,1956,166,1917,204,1883,234,1867,237,1872,207,1887,170,1920,139,1959,115,1999,97,2032"/>
+<area shape="rect" id="Node000027" href="$classabacus_1_1_aba_hash.html" title="Hash tables." alt="" coords="229,1897,435,1942"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="104,2031,148,1991,204,1952,231,1940,233,1945,207,1957,151,1995,108,2035"/>
+<area shape="rect" id="Node000028" href="$classabacus_1_1_aba_hash_item.html" title="Items in hash tables." alt="" coords="245,1967,419,2011"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="147,2037,205,2021,247,2009,248,2015,206,2026,148,2043"/>
+<area shape="rect" id="Node000029" href="$classabacus_1_1_aba_prio_queue.html" title="Bounded priority queues." alt="" coords="248,2036,416,2081"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="173,2056,248,2056,248,2061,173,2061"/>
+<area shape="rect" id="Node000030" href="$classabacus_1_1_aba_ring.html" title="Bounded circular lists." alt="" coords="237,2105,427,2132"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="145,2074,206,2090,256,2101,254,2107,205,2096,144,2079"/>
+<area shape="rect" id="Node000031" href="$classabacus_1_1_abacus_global.html" title="Global data and functions." alt="" coords="250,2157,414,2184"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="112,2080,155,2112,207,2141,250,2155,248,2160,205,2146,152,2117,109,2084"/>
+<area shape="rect" id="Node000037" href="$classabacus_1_1_active.html" title="Implements the sets of active constraints and variables which are associated with each subproblem." alt="" coords="233,2208,431,2253"/>
+<area shape="poly" id="edge36_Node000001_Node000037" title=" " alt="" coords="101,2083,145,2139,174,2168,207,2193,234,2207,232,2212,204,2198,171,2173,141,2143,97,2086"/>
+<area shape="rect" id="Node000038" href="$classabacus_1_1_branch_rule.html" title="Abstract base class for all branching rules." alt="" coords="257,2277,407,2304"/>
+<area shape="poly" id="edge37_Node000001_Node000038" title=" " alt="" coords="94,2085,109,2126,133,2174,165,2223,185,2244,207,2263,231,2276,258,2283,256,2288,229,2280,204,2267,181,2248,161,2226,128,2177,104,2128,89,2087"/>
+<area shape="rect" id="Node000043" href="$classabacus_1_1_c_sense.html" title="Sense of constraints." alt="" coords="270,2329,394,2356"/>
+<area shape="poly" id="edge42_Node000001_Node000043" title=" " alt="" coords="91,2086,103,2136,125,2198,159,2261,182,2289,207,2314,237,2330,271,2338,269,2343,235,2335,204,2318,178,2293,155,2264,120,2200,98,2138,85,2088"/>
+<area shape="rect" id="Node000044" href="$classabacus_1_1_con_class.html" title="Constraint classification." alt="" coords="264,2381,400,2408"/>
+<area shape="poly" id="edge43_Node000001_Node000044" title=" " alt="" coords="88,2087,97,2146,118,2222,133,2262,153,2300,178,2335,207,2366,234,2381,264,2390,263,2395,232,2386,204,2370,174,2339,149,2303,129,2264,113,2224,92,2147,83,2088"/>
+<area shape="rect" id="Node000045" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="271,2433,393,2460"/>
+<area shape="poly" id="edge44_Node000001_Node000045" title=" " alt="" coords="86,2087,93,2155,111,2245,126,2292,147,2338,174,2381,207,2418,237,2435,271,2443,270,2448,235,2440,204,2422,170,2384,142,2341,121,2294,106,2246,87,2156,81,2087"/>
+<area shape="rect" id="Node000066" href="$classabacus_1_1_cut_buffer.html" title="Cut buffers." alt="" coords="253,2484,411,2529"/>
+<area shape="poly" id="edge65_Node000001_Node000066" title=" " alt="" coords="85,2087,89,2163,106,2266,121,2321,142,2375,171,2426,207,2470,229,2485,254,2495,252,2500,226,2490,204,2474,167,2429,138,2377,116,2323,100,2267,84,2163,80,2087"/>
+<area shape="rect" id="Node000067" href="$classabacus_1_1_f_s_var_stat.html" title="Status of fixed and set variables." alt="" coords="263,2553,401,2580"/>
+<area shape="poly" id="edge66_Node000001_Node000067" title=" " alt="" coords="89,2086,103,2187,127,2324,144,2393,163,2455,184,2506,208,2539,233,2555,263,2563,262,2569,231,2560,204,2543,179,2508,158,2457,139,2394,122,2325,97,2188,83,2087"/>
+<area shape="rect" id="Node000068" href="$classabacus_1_1_fix_cand.html" title="Candidates for fixing." alt="" coords="268,2605,396,2632"/>
+<area shape="poly" id="edge67_Node000001_Node000068" title=" " alt="" coords="88,2086,101,2197,124,2349,140,2426,160,2495,182,2552,208,2590,236,2607,269,2616,267,2621,234,2612,204,2594,177,2555,155,2497,135,2427,119,2350,95,2198,83,2087"/>
+<area shape="rect" id="Node000069" href="$classabacus_1_1_history.html" title="Solution histories." alt="" coords="271,2657,393,2684"/>
+<area shape="poly" id="edge68_Node000001_Node000069" title=" " alt="" coords="87,2087,98,2207,121,2374,137,2459,157,2537,180,2600,193,2624,208,2642,221,2652,237,2660,271,2668,270,2673,235,2665,218,2657,204,2646,189,2627,175,2602,152,2538,132,2461,115,2375,93,2207,82,2087"/>
+<area shape="rect" id="Node000070" href="$classabacus_1_1_infeas_con.html" title="Infeasible constraints." alt="" coords="262,2709,402,2736"/>
+<area shape="poly" id="edge69_Node000001_Node000070" title=" " alt="" coords="87,2087,96,2217,117,2400,133,2493,154,2578,178,2648,192,2674,207,2694,232,2710,262,2719,261,2724,230,2715,204,2698,188,2677,173,2650,148,2580,128,2494,112,2401,91,2217,82,2087"/>
+<area shape="rect" id="Node000071" href="$classabacus_1_1_l_p.html" title="Linear programs." alt="" coords="287,2761,377,2788"/>
+<area shape="poly" id="edge70_Node000001_Node000071" title=" " alt="" coords="86,2087,94,2226,114,2425,130,2527,150,2619,176,2695,191,2724,208,2746,225,2759,244,2767,287,2774,286,2779,243,2772,222,2763,204,2750,187,2727,171,2697,145,2621,125,2528,109,2426,89,2227,81,2087"/>
+<area shape="rect" id="Node000075" href="$classabacus_1_1_l_p_v_a_r_s_t_a_t.html" title="status of variables." alt="" coords="258,2813,406,2840"/>
+<area shape="poly" id="edge75_Node000001_Node000075" title=" " alt="" coords="86,2087,92,2235,111,2450,126,2560,147,2661,174,2743,190,2774,208,2798,231,2814,259,2823,257,2828,228,2819,204,2802,186,2777,169,2745,142,2662,121,2561,105,2450,87,2236,81,2087"/>
+<area shape="rect" id="Node000076" href="$classabacus_1_1_lp_master.html" title="The LP master." alt="" coords="264,2865,400,2892"/>
+<area shape="poly" id="edge76_Node000001_Node000076" title=" " alt="" coords="86,2087,91,2244,107,2474,123,2593,144,2702,172,2790,189,2824,208,2850,233,2867,264,2876,263,2881,231,2872,204,2854,184,2827,167,2792,139,2703,118,2594,102,2475,85,2245,80,2087"/>
+<area shape="rect" id="Node000078" href="$classabacus_1_1_lp_solution.html" title="LP solutions." alt="" coords="248,2916,416,2961"/>
+<area shape="poly" id="edge78_Node000001_Node000078" title=" " alt="" coords="86,2087,90,2253,106,2498,121,2625,143,2741,171,2837,188,2874,208,2902,226,2917,249,2927,247,2932,223,2922,204,2905,184,2877,166,2839,138,2743,116,2626,101,2498,84,2253,80,2087"/>
+<area shape="rect" id="Node000079" href="$classabacus_1_1_open_sub.html" title="Maintains open subproblems." alt="" coords="265,2985,399,3012"/>
+<area shape="poly" id="edge79_Node000001_Node000079" title=" " alt="" coords="85,2087,86,2266,91,2394,100,2533,115,2671,137,2798,151,2853,167,2902,186,2941,208,2971,234,2989,265,2997,264,3002,232,2994,204,2975,182,2944,162,2904,146,2855,131,2799,109,2672,94,2533,85,2394,81,2266,80,2087"/>
+<area shape="rect" id="Node000080" href="$classabacus_1_1_opt_sense.html" title="Sense of optimization." alt="" coords="263,3037,401,3064"/>
+<area shape="poly" id="edge80_Node000001_Node000080" title=" " alt="" coords="87,2087,101,2288,127,2586,144,2736,163,2868,185,2969,196,3002,208,3022,233,3039,263,3048,262,3053,231,3044,204,3025,191,3004,180,2970,158,2869,138,2737,121,2586,96,2288,82,2087"/>
+<area shape="rect" id="Node000081" href="$classabacus_1_1_pool.html" title="Base class for constraint/variabe pools." alt="" coords="240,3088,424,3133"/>
+<area shape="poly" id="edge81_Node000001_Node000081" title=" " alt="" coords="87,2087,100,2297,126,2611,143,2770,163,2910,184,3017,196,3052,208,3074,222,3087,240,3096,238,3101,219,3091,204,3077,191,3055,179,3018,157,2911,138,2771,121,2612,95,2297,82,2087"/>
+<area shape="rect" id="Node000087" href="$classabacus_1_1_pool_slot.html" title="Stores constraints and variables." alt="" coords="227,3157,437,3202"/>
+<area shape="poly" id="edge87_Node000001_Node000087" title=" " alt="" coords="87,2087,99,2310,124,2647,141,2817,161,2967,183,3082,195,3120,208,3143,229,3160,225,3164,204,3147,190,3122,178,3083,155,2968,136,2818,119,2647,94,2311,82,2088"/>
+<area shape="rect" id="Node000088" href="$classabacus_1_1_pool_slot_ref.html" title="Stores a pointer to a pool slot with version number." alt="" coords="248,3227,416,3271"/>
+<area shape="poly" id="edge88_Node000001_Node000088" title=" " alt="" coords="87,2087,98,2322,122,2681,139,2863,159,3024,182,3147,194,3188,208,3213,226,3228,248,3238,246,3243,223,3232,204,3216,190,3190,177,3148,153,3025,133,2864,117,2681,93,2323,81,2087"/>
+<area shape="rect" id="Node000089" href="$classabacus_1_1_separator.html" title="Separators." alt="" coords="253,3296,411,3341"/>
+<area shape="poly" id="edge89_Node000001_Node000089" title=" " alt="" coords="86,2087,97,2335,120,2716,136,2910,156,3081,180,3212,194,3256,208,3282,228,3299,254,3309,252,3314,226,3303,204,3285,189,3258,175,3213,151,3082,131,2910,114,2716,92,2335,81,2087"/>
+<area shape="rect" id="Node000090" href="$classabacus_1_1_slack_stat.html" title="Status of slack variables." alt="" coords="264,3365,400,3392"/>
+<area shape="poly" id="edge90_Node000001_Node000090" title=" " alt="" coords="86,2087,95,2348,116,2752,132,2957,153,3139,178,3277,192,3324,208,3351,233,3369,264,3377,262,3382,231,3374,204,3355,187,3326,173,3279,148,3140,127,2958,111,2752,90,2348,81,2087"/>
+<area shape="rect" id="Node000091" href="$classabacus_1_1_spar_vec.html" title="Sparse vectors." alt="" coords="268,3417,396,3444"/>
+<area shape="poly" id="edge91_Node000001_Node000091" title=" " alt="" coords="86,2087,94,2357,115,2777,131,2991,152,3181,177,3325,192,3373,208,3402,220,3413,235,3421,268,3429,267,3434,233,3426,217,3417,204,3405,187,3375,172,3326,146,3181,126,2992,110,2777,89,2357,81,2087"/>
+<area shape="rect" id="Node000094" href="$classabacus_1_1_sub.html" title="The subproblem." alt="" coords="282,3469,382,3496"/>
+<area shape="poly" id="edge94_Node000001_Node000094" title=" " alt="" coords="86,2087,93,2366,113,2803,129,3026,150,3223,162,3306,176,3373,191,3424,208,3454,223,3467,242,3475,282,3482,281,3488,240,3480,220,3471,204,3457,186,3426,171,3375,157,3307,145,3224,124,3026,108,2803,88,2366,81,2087"/>
+<area shape="rect" id="Node000098" href="$classabacus_1_1_tail_off.html" title="Tailing off manager." alt="" coords="274,3521,390,3548"/>
+<area shape="poly" id="edge98_Node000001_Node000098" title=" " alt="" coords="86,2087,93,2375,112,2828,128,3060,148,3266,161,3352,175,3422,191,3475,208,3506,221,3518,238,3526,274,3534,273,3539,236,3531,218,3522,204,3509,186,3477,170,3423,156,3353,143,3267,122,3061,106,2829,87,2375,81,2087"/>
+<area shape="rect" id="Node000099" href="$classabacus_1_1_var_type.html" title="Variable types." alt="" coords="269,3573,395,3600"/>
+<area shape="poly" id="edge99_Node000001_Node000099" title=" " alt="" coords="86,2087,92,2384,110,2854,126,3095,147,3308,160,3397,174,3471,190,3525,208,3558,220,3569,235,3577,269,3585,267,3590,233,3582,217,3573,204,3561,185,3527,169,3472,154,3398,142,3309,120,3095,105,2854,86,2384,80,2087"/>
+<area shape="rect" id="Node000032" href="$classabacus_1_1_master.html" title="The master of the optimization." alt="" coords="551,1901,671,1928"/>
+<area shape="poly" id="edge31_Node000031_Node000032" title=" " alt="" coords="427,2156,457,2141,486,2118,512,2090,554,2029,584,1970,602,1927,607,1929,589,1972,559,2031,516,2094,489,2122,459,2146,429,2161"/>
+<area shape="rect" id="Node000033" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html" title="Master problem of Steiner tree branch&amp;cut algorithm" alt="" coords="776,1788,986,1833"/>
+<area shape="poly" id="edge32_Node000032_Node000033" title=" " alt="" coords="652,1891,762,1843,797,1831,799,1836,764,1847,654,1896"/>
+<area shape="rect" id="Node000034" href="$classogdf_1_1cluster__planarity_1_1_c_p___master_base.html" title=" " alt="" coords="798,1857,964,1902"/>
+<area shape="poly" id="edge33_Node000032_Node000034" title=" " alt="" coords="685,1902,797,1888,798,1893,686,1907"/>
+<area shape="rect" id="Node000036" href="$classogdf_1_1cluster__planarity_1_1_max_c_planar_master.html" title=" " alt="" coords="798,1927,964,1971"/>
+<area shape="poly" id="edge35_Node000032_Node000036" title=" " alt="" coords="686,1921,798,1936,797,1941,685,1927"/>
+<area shape="rect" id="Node000035" href="$classogdf_1_1cluster__planarity_1_1_c_planarity_master.html" title=" " alt="" coords="1047,1857,1213,1902"/>
+<area shape="poly" id="edge34_Node000034_Node000035" title=" " alt="" coords="979,1877,1046,1877,1046,1882,979,1882"/>
+<area shape="rect" id="Node000039" href="$classabacus_1_1_bound_branch_rule.html" title="Implements a branching rule for modifying the lower and the upper bound of a variable." alt="" coords="516,2173,706,2200"/>
+<area shape="poly" id="edge38_Node000038_Node000039" title=" " alt="" coords="420,2277,457,2263,471,2251,480,2238,489,2224,505,2211,532,2198,534,2203,507,2215,493,2228,484,2241,475,2254,459,2267,422,2282"/>
+<area shape="rect" id="Node000040" href="$classabacus_1_1_con_branch_rule.html" title="Implements the branching by adding a constraint to the set of active constraints." alt="" coords="524,2225,698,2252"/>
+<area shape="poly" id="edge39_Node000038_Node000040" title=" " alt="" coords="420,2271,532,2250,533,2255,421,2276"/>
+<area shape="rect" id="Node000041" href="$classabacus_1_1_set_branch_rule.html" title="Implements a branching rule for setting a binary variable to its lower or upper bound." alt="" coords="526,2277,696,2304"/>
+<area shape="poly" id="edge40_Node000038_Node000041" title=" " alt="" coords="421,2288,525,2288,525,2293,421,2293"/>
+<area shape="rect" id="Node000042" href="$classabacus_1_1_val_branch_rule.html" title="Implements a branching rule for setting a variable to a certain value." alt="" coords="526,2329,695,2356"/>
+<area shape="poly" id="edge41_Node000038_Node000042" title=" " alt="" coords="421,2304,533,2325,532,2330,420,2309"/>
+<area shape="rect" id="Node000046" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format." alt="" coords="540,2381,682,2408"/>
+<area shape="poly" id="edge45_Node000045_Node000046" title=" " alt="" coords="407,2430,539,2405,540,2410,408,2435"/>
+<area shape="rect" id="Node000060" href="$classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format." alt="" coords="547,2705,675,2732"/>
+<area shape="poly" id="edge59_Node000045_Node000060" title=" " alt="" coords="408,2449,435,2456,459,2469,491,2496,518,2526,562,2594,591,2658,608,2703,603,2705,586,2660,557,2596,514,2529,487,2499,457,2474,433,2461,406,2454"/>
+<area shape="rect" id="Node000047" href="$classabacus_1_1_num_con.html" title="Constraints defined by a number." alt="" coords="815,1995,947,2023"/>
+<area shape="poly" id="edge46_Node000046_Node000047" title=" " alt="" coords="694,2380,713,2366,729,2345,739,2325,748,2284,745,2243,736,2202,727,2160,725,2118,734,2076,745,2055,761,2034,786,2017,814,2008,816,2013,788,2021,765,2038,749,2058,739,2078,730,2118,733,2159,741,2201,750,2242,753,2285,744,2327,733,2348,717,2370,697,2385"/>
+<area shape="rect" id="Node000048" href="$classabacus_1_1_row_con.html" title="Implements constraints stored in the class Row." alt="" coords="817,2047,945,2075"/>
+<area shape="poly" id="edge47_Node000046_Node000048" title=" " alt="" coords="694,2380,713,2366,736,2331,744,2297,742,2262,736,2227,730,2191,728,2156,737,2120,761,2084,787,2067,815,2059,817,2064,789,2072,765,2088,742,2122,734,2156,735,2191,741,2226,748,2262,749,2297,741,2334,717,2369,698,2384"/>
+<area shape="rect" id="Node000050" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_constraint.html" title="Constraint for nodes, e.g., in/outdegree stuff." alt="" coords="776,2099,986,2143"/>
+<area shape="poly" id="edge49_Node000046_Node000050" title=" " alt="" coords="694,2380,713,2366,732,2340,739,2315,740,2289,737,2262,734,2236,735,2208,743,2181,761,2154,776,2142,779,2146,765,2157,747,2183,740,2209,740,2235,742,2262,745,2289,745,2316,736,2343,717,2370,697,2384"/>
+<area shape="rect" id="Node000051" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_degree_edge_constraint.html" title="Constraint for relating the indegree and one outgoing edge of a node." alt="" coords="763,2168,999,2213"/>
+<area shape="poly" id="edge50_Node000046_Node000051" title=" " alt="" coords="694,2379,714,2366,727,2349,734,2332,737,2296,740,2260,747,2241,761,2223,777,2211,781,2215,765,2227,752,2244,745,2261,742,2297,739,2333,732,2352,717,2370,697,2383"/>
+<area shape="rect" id="Node000052" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_directed_cut_constraint.html" title="Class for directed cuts (i.e., separated Steiner cuts)" alt="" coords="764,2237,998,2282"/>
+<area shape="poly" id="edge51_Node000046_Node000052" title=" " alt="" coords="695,2376,714,2366,730,2348,737,2330,745,2311,762,2292,782,2280,784,2285,765,2296,749,2314,742,2332,734,2351,717,2370,697,2381"/>
+<area shape="rect" id="Node000053" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_constraint.html" title="Constraint for edges, e.g., subtour elimination constraints of size 2 ((G)SEC2)" alt="" coords="776,2307,986,2351"/>
+<area shape="poly" id="edge52_Node000046_Node000053" title=" " alt="" coords="685,2374,785,2349,786,2355,686,2379"/>
+<area shape="rect" id="Node000054" href="$classogdf_1_1cluster__planarity_1_1_base_constraint.html" title="Basic constraint type." alt="" coords="798,2376,964,2421"/>
+<area shape="poly" id="edge53_Node000046_Node000054" title=" " alt="" coords="697,2393,798,2394,797,2400,697,2398"/>
+<area shape="rect" id="Node000057" href="$classogdf_1_1cluster__planarity_1_1_cluster_kuratowski_constraint.html" title=" " alt="" coords="774,2445,988,2490"/>
+<area shape="poly" id="edge56_Node000046_Node000057" title=" " alt="" coords="680,2410,797,2442,795,2447,678,2415"/>
+<area shape="rect" id="Node000058" href="$classogdf_1_1cluster__planarity_1_1_max_planar_edges_constraint.html" title=" " alt="" coords="779,2515,983,2559"/>
+<area shape="poly" id="edge57_Node000046_Node000058" title=" " alt="" coords="641,2416,696,2458,765,2500,792,2512,790,2517,762,2505,693,2463,637,2420"/>
+<area shape="rect" id="Node000059" href="$classogdf_1_1cluster__planarity_1_1_minimal_cluster_connection.html" title=" " alt="" coords="780,2584,982,2629"/>
+<area shape="poly" id="edge58_Node000046_Node000059" title=" " alt="" coords="630,2419,684,2494,721,2535,765,2569,787,2581,784,2586,762,2574,718,2539,680,2498,626,2423"/>
+<area shape="rect" id="Node000049" href="$classabacus_1_1_s_row_con.html" title="Constraints using row with static variable set." alt="" coords="1062,2047,1198,2075"/>
+<area shape="poly" id="edge48_Node000048_Node000049" title=" " alt="" coords="960,2058,1061,2058,1061,2064,960,2064"/>
+<area shape="rect" id="Node000055" href="$classogdf_1_1cluster__planarity_1_1_chunk_connection.html" title=" " alt="" coords="1047,2341,1213,2386"/>
+<area shape="poly" id="edge54_Node000054_Node000055" title=" " alt="" coords="979,2382,1046,2373,1047,2378,979,2387"/>
+<area shape="rect" id="Node000056" href="$classogdf_1_1cluster__planarity_1_1_cut_constraint.html" title=" " alt="" coords="1047,2411,1213,2455"/>
+<area shape="poly" id="edge55_Node000054_Node000056" title=" " alt="" coords="979,2409,1047,2419,1046,2424,979,2415"/>
+<area shape="rect" id="Node000061" href="$classabacus_1_1_col_var.html" title="Some optimization problems, in particular column generation problems, are better described from a var..." alt="" coords="822,2653,940,2680"/>
+<area shape="poly" id="edge60_Node000060_Node000061" title=" " alt="" coords="689,2701,821,2675,822,2680,690,2706"/>
+<area shape="rect" id="Node000062" href="$classabacus_1_1_num_var.html" title="Variables identified by a number." alt="" coords="817,2705,945,2732"/>
+<area shape="poly" id="edge61_Node000060_Node000062" title=" " alt="" coords="690,2716,817,2716,817,2721,690,2721"/>
+<area shape="rect" id="Node000063" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_edge_variable.html" title="Variable for directed edges." alt="" coords="776,2756,986,2801"/>
+<area shape="poly" id="edge62_Node000060_Node000063" title=" " alt="" coords="690,2733,778,2753,777,2758,689,2738"/>
+<area shape="rect" id="Node000064" href="$classogdf_1_1cluster__planarity_1_1_edge_var.html" title=" " alt="" coords="798,2825,964,2870"/>
+<area shape="poly" id="edge63_Node000060_Node000064" title=" " alt="" coords="689,2732,717,2747,733,2763,742,2780,750,2796,765,2811,799,2828,797,2833,762,2815,745,2799,737,2782,729,2766,714,2751,687,2737"/>
+<area shape="rect" id="Node000065" href="$classogdf_1_1cluster__planarity_1_1_c_planar_edge_var.html" title=" " alt="" coords="1047,2825,1213,2870"/>
+<area shape="poly" id="edge64_Node000064_Node000065" title=" " alt="" coords="979,2845,1046,2845,1046,2850,979,2850"/>
+<area shape="rect" id="Node000072" href="$classabacus_1_1_lp_sub.html" title="The linear program of a subproblem." alt="" coords="554,2761,668,2788"/>
+<area shape="poly" id="edge71_Node000071_Node000072" title=" " alt="" coords="392,2772,553,2772,553,2777,392,2777"/>
+<area shape="rect" id="Node000074" href="$classabacus_1_1_osi_i_f.html" title=" " alt="" coords="557,2813,665,2840"/>
+<area shape="poly" id="edge73_Node000071_Node000074" title=" " alt="" coords="392,2783,557,2814,556,2819,391,2788"/>
+<area shape="rect" id="Node000073" href="$classabacus_1_1_lp_sub_osi.html" title=" " alt="" coords="813,2894,949,2922"/>
+<area shape="poly" id="edge72_Node000072_Node000073" title=" " alt="" coords="683,2782,717,2799,735,2820,742,2841,749,2861,765,2880,788,2893,814,2900,812,2905,786,2898,762,2884,744,2864,737,2843,730,2822,714,2803,681,2787"/>
+<area shape="poly" id="edge74_Node000074_Node000073" title=" " alt="" coords="680,2838,716,2851,741,2866,764,2880,813,2895,812,2900,762,2885,738,2870,714,2855,678,2843"/>
+<area shape="rect" id="Node000077" href="$classabacus_1_1_lp_master_osi.html" title="The OSI LP master." alt="" coords="533,2865,689,2892"/>
+<area shape="poly" id="edge77_Node000076_Node000077" title=" " alt="" coords="414,2876,532,2876,532,2881,414,2881"/>
+<area shape="rect" id="Node000082" href="$classabacus_1_1_standard_pool.html" title=" " alt="" coords="530,2994,691,3056"/>
+<area shape="poly" id="edge82_Node000081_Node000082" title=" " alt="" coords="431,3081,457,3073,529,3050,530,3055,459,3078,433,3086"/>
+<area shape="rect" id="Node000083" href="$classabacus_1_1_standard_pool.html" title=" " alt="" coords="512,3080,709,3141"/>
+<area shape="poly" id="edge83_Node000081_Node000083" title=" " alt="" coords="439,3108,512,3108,512,3113,439,3113"/>
+<area shape="rect" id="Node000084" href="$classabacus_1_1_standard_pool.html" title="Standard pools." alt="" coords="527,3165,695,3210"/>
+<area shape="poly" id="edge84_Node000081_Node000084" title=" " alt="" coords="431,3135,459,3142,529,3162,527,3167,457,3148,429,3140"/>
+<area shape="rect" id="Node000085" href="$classabacus_1_1_non_dupl_pool.html" title=" " alt="" coords="800,3118,962,3180"/>
+<area shape="poly" id="edge85_Node000084_Node000085" title=" " alt="" coords="709,3171,799,3158,800,3163,710,3176"/>
+<area shape="rect" id="Node000086" href="$classabacus_1_1_non_dupl_pool.html" title="Standard pools without constraint duplication." alt="" coords="797,3204,965,3249"/>
+<area shape="poly" id="edge86_Node000084_Node000086" title=" " alt="" coords="710,3199,797,3212,796,3217,709,3204"/>
+<area shape="rect" id="Node000092" href="$classabacus_1_1_column.html" title="Representation of variables in column format." alt="" coords="548,3357,673,3384"/>
+<area shape="poly" id="edge92_Node000091_Node000092" title=" " alt="" coords="410,3411,457,3401,547,3381,548,3387,459,3406,411,3417"/>
+<area shape="rect" id="Node000093" href="$classabacus_1_1_row.html" title="Representation of constraints in the row format." alt="" coords="559,3409,662,3436"/>
+<area shape="poly" id="edge93_Node000091_Node000093" title=" " alt="" coords="410,3425,558,3421,559,3426,410,3431"/>
+<area shape="rect" id="Node000095" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_sub.html" title="Subproblem of Steiner tree algorithm." alt="" coords="506,3460,715,3505"/>
+<area shape="poly" id="edge95_Node000094_Node000095" title=" " alt="" coords="396,3480,506,3480,506,3485,396,3485"/>
+<area shape="rect" id="Node000096" href="$classogdf_1_1cluster__planarity_1_1_c_planarity_sub.html" title=" " alt="" coords="528,3529,694,3574"/>
+<area shape="poly" id="edge96_Node000094_Node000096" title=" " alt="" coords="397,3492,459,3506,532,3526,531,3531,457,3512,395,3498"/>
+<area shape="rect" id="Node000097" href="$classogdf_1_1cluster__planarity_1_1_max_c_planar_sub.html" title=" " alt="" coords="528,3599,694,3643"/>
+<area shape="poly" id="edge97_Node000094_Node000097" title=" " alt="" coords="397,3483,429,3492,460,3507,477,3526,485,3546,492,3566,508,3584,528,3597,526,3602,504,3588,487,3568,480,3548,473,3529,456,3511,427,3497,395,3488"/>
 </map>

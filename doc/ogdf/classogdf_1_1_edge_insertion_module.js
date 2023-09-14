@@ -10,6 +10,6 @@ var classogdf_1_1_edge_insertion_module =
     [ "call", "classogdf_1_1_edge_insertion_module.html#a91582e2043b1752605ea2b50241d110c", null ],
     [ "call", "classogdf_1_1_edge_insertion_module.html#a1c7c200e92950917343e0c4e960c338c", null ],
     [ "callEx", "classogdf_1_1_edge_insertion_module.html#a30afe612d2de07725ce1fd10bdc1ae8b", null ],
-    [ "clone", "classogdf_1_1_edge_insertion_module.html#a0b4fcd6393a477cac8c869228fcf03ca", null ],
+    [ "clone", "classogdf_1_1_edge_insertion_module.html#a87351aa7518a4f529d6fa12afec82f4e", null ],
     [ "doCall", "classogdf_1_1_edge_insertion_module.html#a7fc95a4ed83ea020904515c9fc6ced7f", null ]
 ];

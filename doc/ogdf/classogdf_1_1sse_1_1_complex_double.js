@@ -22,8 +22,8 @@ var classogdf_1_1sse_1_1_complex_double =
     [ "operator/", "classogdf_1_1sse_1_1_complex_double.html#a113aec076f3e017827aa36a140329f41", null ],
     [ "operator/", "classogdf_1_1sse_1_1_complex_double.html#adceea736aa70518937890ac7e93bc6bc", null ],
     [ "operator/=", "classogdf_1_1sse_1_1_complex_double.html#a56ea7a7c301bd7603381a144fc44da48", null ],
-    [ "operator=", "classogdf_1_1sse_1_1_complex_double.html#a74e2a700e83ed7dee547240fa03e7999", null ],
-    [ "operator=", "classogdf_1_1sse_1_1_complex_double.html#a3511f12d48cec54ed874f2efbb36a8ee", null ],
+    [ "operator=", "classogdf_1_1sse_1_1_complex_double.html#a89f84d787663eaec37a70ae451061ca9", null ],
+    [ "operator=", "classogdf_1_1sse_1_1_complex_double.html#a8621f594c490066ccaf2d86f606fda82", null ],
     [ "store", "classogdf_1_1sse_1_1_complex_double.html#ae4581c07f942350a38914931891ee401", null ],
     [ "store_unaligned", "classogdf_1_1sse_1_1_complex_double.html#a01a0971f47723f0d419f982ae68e0e6c", null ],
     [ "reg", "classogdf_1_1sse_1_1_complex_double.html#aac729006d9e55958bc4d84577e1b6965", null ]

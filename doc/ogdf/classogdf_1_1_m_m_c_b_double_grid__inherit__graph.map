@@ -1,5 +1,7 @@
 <map id="ogdf::MMCBDoubleGrid" name="ogdf::MMCBDoubleGrid">
-<area shape="rect" id="node1" title="Crossings beautifier using grid doubling." alt="" coords="19,169,193,196"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_m_m_c_b_base.html" title="common base class for MMCBDoubleGrid and MMCBLocalStretch." alt="" coords="40,95,172,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_mixed_model_crossings_beautifier_module.html" title="The base class for Mixed&#45;Model crossings beautifier algorithms." alt="" coords="5,5,207,47"/>
+<area shape="rect" id="Node000001" title="Crossings beautifier using grid doubling." alt="" coords="19,174,191,201"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_m_m_c_b_base.html" title="common base class for MMCBDoubleGrid and MMCBLocalStretch." alt="" coords="39,98,171,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,141,108,173,102,173,102,141"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_mixed_model_crossings_beautifier_module.html" title="The base class for Mixed&#45;Model crossings beautifier algorithms." alt="" coords="5,5,205,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="108,65,108,97,102,97,102,65"/>
 </map>

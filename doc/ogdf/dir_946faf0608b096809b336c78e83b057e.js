@@ -8,6 +8,7 @@ var dir_946faf0608b096809b336c78e83b057e =
     [ "energybased", "dir_e890ab89b1bb9f272688088bbad528e1.html", "dir_e890ab89b1bb9f272688088bbad528e1" ],
     [ "external", "dir_5ef8eeb034ccc3235208fcb45ab841d8.html", "dir_5ef8eeb034ccc3235208fcb45ab841d8" ],
     [ "fileformats", "dir_ee4a50abf63abab6075a801ceaeb8a64.html", "dir_ee4a50abf63abab6075a801ceaeb8a64" ],
+    [ "geometric", "dir_60de377cf63d405dd93d1f0e977d2112.html", "dir_60de377cf63d405dd93d1f0e977d2112" ],
     [ "graphalg", "dir_5c3e22e53863203aa715a39f0bcb456b.html", "dir_5c3e22e53863203aa715a39f0bcb456b" ],
     [ "hypergraph", "dir_0d5519c64fc959960fc51282b53b9b55.html", "dir_0d5519c64fc959960fc51282b53b9b55" ],
     [ "labeling", "dir_392b0ed4197477394ec7de9e36ec1b59.html", "dir_392b0ed4197477394ec7de9e36ec1b59" ],

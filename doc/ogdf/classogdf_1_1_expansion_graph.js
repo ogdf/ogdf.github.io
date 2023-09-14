@@ -1,8 +1,8 @@
 var classogdf_1_1_expansion_graph =
 [
     [ "ExpansionGraph", "classogdf_1_1_expansion_graph.html#a3b166cdb64359830b85b0710165259b2", null ],
-    [ "adjacentComponents", "classogdf_1_1_expansion_graph.html#ad559ff09f4bbdc9f9f8ad63ef30c18d5", null ],
-    [ "component", "classogdf_1_1_expansion_graph.html#aef994290f1c701bba803f8c77419bf4f", null ],
+    [ "adjacentComponents", "classogdf_1_1_expansion_graph.html#a455a3c5c5f10fb6035644b01c707adc7", null ],
+    [ "component", "classogdf_1_1_expansion_graph.html#ab01fe22aa0e7ed27e35c5ab044d82fdc", null ],
     [ "componentNumber", "classogdf_1_1_expansion_graph.html#ac4bc9eda72a0bbfb0e8ba62cc5488899", null ],
     [ "copy", "classogdf_1_1_expansion_graph.html#a95098e31b07bfc928ee63837f5574cdf", null ],
     [ "getCopy", "classogdf_1_1_expansion_graph.html#a8119afc08998d6abb758a22dce0e2033", null ],

@@ -1,7 +1,11 @@
 <map id="ogdf::VariableEmbeddingInserterDyn" name="ogdf::VariableEmbeddingInserterDyn">
-<area shape="rect" id="node1" title="Optimal edge insertion module." alt="" coords="8,229,269,256"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_variable_embedding_inserter_base.html" title="Common parameter functionality for ogdf::VariableEmbeddingInserter and ogdf::VariableEmbeddingInserte..." alt="" coords="5,155,272,181"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms." alt="" coords="41,80,236,107"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="16,5,123,32"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="147,5,271,32"/>
+<area shape="rect" id="Node000001" title="Optimal edge insertion module." alt="" coords="8,232,268,260"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_variable_embedding_inserter_base.html" title="Common parameter functionality for ogdf::VariableEmbeddingInserter and ogdf::VariableEmbeddingInserte..." alt="" coords="5,157,271,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,199,141,232,135,232,135,199"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms." alt="" coords="41,81,235,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,124,141,156,135,156,135,124"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="16,5,121,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="93,42,128,79,124,82,89,46"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="145,5,270,33"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="187,46,152,82,148,79,183,42"/>
 </map>

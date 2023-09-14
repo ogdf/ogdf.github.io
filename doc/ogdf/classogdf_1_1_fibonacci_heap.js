@@ -16,8 +16,8 @@ var classogdf_1_1_fibonacci_heap =
     [ "restore", "classogdf_1_1_fibonacci_heap.html#a8c78b75c78dc08ad2ed43e505af4f1de", null ],
     [ "splice", "classogdf_1_1_fibonacci_heap.html#a478e5aee9ca3250e715c2a80d3e522e9", null ],
     [ "top", "classogdf_1_1_fibonacci_heap.html#aced6110858622ed435a4763b03a4f49d", null ],
-    [ "value", "classogdf_1_1_fibonacci_heap.html#a8a1ee3ab45d2d027ad8ddb2ade537fc1", null ],
+    [ "value", "classogdf_1_1_fibonacci_heap.html#aa30daf0dac38d820a22b2d05073c944d", null ],
     [ "m_knot", "classogdf_1_1_fibonacci_heap.html#a79135d4de1ace121628a55e2387f48c6", null ],
     [ "m_minimal", "classogdf_1_1_fibonacci_heap.html#a7a97d66b2e7605071923fa41c250eb7f", null ],
-    [ "m_ranked", "classogdf_1_1_fibonacci_heap.html#af919189c2605322e1032eb2465db6501", null ]
+    [ "m_ranked", "classogdf_1_1_fibonacci_heap.html#a2d8c59eeb6dd7486250987e8e8734d5a", null ]
 ];

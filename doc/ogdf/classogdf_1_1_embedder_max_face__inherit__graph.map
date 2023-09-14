@@ -1,12 +1,21 @@
 <map id="ogdf::EmbedderMaxFace" name="ogdf::EmbedderMaxFace">
-<area shape="rect" id="node1" title="Embedder that maximizes the external face." alt="" coords="644,43,827,70"/>
-<area shape="rect" id="node6" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="875,5,1141,47"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_embedder_min_depth_max_face.html" title="Embedding that minimizes block&#45;nesting depth and maximizes the external face." alt="" coords="885,73,1131,99"/>
-<area shape="rect" id="node2" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="397,36,596,77"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="177,43,349,70"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="14,18,121,45"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="5,69,129,95"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_embedder_max_face_layers.html" title="Embedder that maximizes the external face and optimizes the position of blocks afterwards." alt="" coords="1224,10,1449,37"/>
-<area shape="rect" id="node9" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="1189,61,1484,117"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding that minimizes block&#45;nesting depth and maximizes the external face and optimiz..." alt="" coords="1532,68,1747,109"/>
+<area shape="rect" id="Node000001" title="Embedder that maximizes the external face." alt="" coords="642,47,823,75"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="871,5,1136,50"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="837,45,870,41,870,47,838,51"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_embedder_min_depth_max_face.html" title="Embedding that minimizes block&#45;nesting depth and maximizes the external face." alt="" coords="882,77,1125,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="838,70,881,74,881,80,837,75"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="397,39,594,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="609,58,642,58,642,64,609,64"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="178,47,349,75"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="364,58,397,58,397,64,364,64"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="15,21,120,48"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="135,41,178,47,177,52,135,46"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="5,73,130,100"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="144,74,177,69,178,75,145,79"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_embedder_max_face_layers.html" title="Embedder that maximizes the external face and optimizes the position of blocks afterwards." alt="" coords="1219,11,1442,39"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="1151,24,1218,23,1218,29,1151,29"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="1184,64,1476,125"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="1140,89,1183,90,1183,95,1140,95"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_embedder_min_depth_max_face_layers.html" title="Planar graph embedding that minimizes block&#45;nesting depth and maximizes the external face and optimiz..." alt="" coords="1524,72,1739,117"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1491,92,1524,92,1524,97,1491,97"/>
 </map>

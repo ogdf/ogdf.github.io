@@ -1,4 +1,5 @@
 <map id="ogdf::TriconnectedShellingOrder" name="ogdf::TriconnectedShellingOrder">
-<area shape="rect" id="node1" title="Computation of a shelling order for a triconnected and simple (no multi&#45;edges, no self&#45;loops) planar ..." alt="" coords="6,80,199,121"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_shelling_order_module.html" title="Base class for modules that compute a shelling order of a graph." alt="" coords="5,5,200,32"/>
+<area shape="rect" id="Node000001" title="Computation of a shelling order for a triconnected and simple (no multi&#45;edges, no self&#45;loops) planar ..." alt="" coords="6,81,198,126"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_shelling_order_module.html" title="Base class for modules that compute a shelling order of a graph." alt="" coords="5,5,199,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,48,105,80,99,80,99,48"/>
 </map>

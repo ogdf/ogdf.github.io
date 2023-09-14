@@ -1,9 +1,10 @@
 <map id="include/ogdf/energybased/spring_embedder" name="include/ogdf/energybased/spring_embedder">
-<area shape="rect" id="node1" href="dir_b57dc7a1e9eced3191b6ab3c98d5e3d1.html" title="spring_embedder" alt="" coords="27,52,162,100"/>
-<area shape="rect" id="node2" href="dir_36b7d39b74edf19e9d17b6aa3207800d.html" title="packing" alt="" coords="21,148,94,196"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000030_000053.html" title="1" alt="" coords="76,127,86,142"/>
-<area shape="rect" id="node3" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html" title="basic" alt="" coords="59,244,131,292"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000030_000011.html" title="12" alt="" coords="102,220,120,235"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000053_000011.html" title="5" alt="" coords="82,217,91,231"/>
-<area shape="rect" id="clust1" href="dir_e890ab89b1bb9f272688088bbad528e1.html" title="energybased" alt="" coords="16,16,173,111"/>
+<area shape="rect" id="node1" href="dir_b57dc7a1e9eced3191b6ab3c98d5e3d1.html" title="spring_embedder" alt="" coords="26,54,161,82"/>
+<area shape="rect" id="node2" href="dir_36b7d39b74edf19e9d17b6aa3207800d.html" title="packing" alt="" coords="13,130,86,158"/>
+<area shape="poly" id="edge1" href="dir_000074_000060.html" alt="" coords="88,84,67,119,62,116,83,81"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000074_000060.html" title="1" alt="" coords="70,110,78,127"/>
+<area shape="rect" id="node3" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html" title="basic" alt="" coords="110,130,165,158"/>
+<area shape="poly" id="edge2" href="dir_000074_000006.html" alt="" coords="103,81,124,116,120,119,99,84"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000074_000006.html" title="12" alt="" coords="119,101,135,118"/>
+<area shape="rect" id="clust1" href="dir_e890ab89b1bb9f272688088bbad528e1.html" title="energybased" alt="" coords="16,16,171,93"/>
 </map>

@@ -2,7 +2,7 @@ var classogdf_1_1_svg_printer =
 [
     [ "SvgPrinter", "classogdf_1_1_svg_printer.html#a01ab46f8e0851f1eec1b5b3c33b22ef6", null ],
     [ "SvgPrinter", "classogdf_1_1_svg_printer.html#acda4a7e966de651bc90476e64f519eee", null ],
-    [ "appendLineStyle", "classogdf_1_1_svg_printer.html#a510a9554da2c34f027941f3cd598d523", null ],
+    [ "appendLineStyle", "classogdf_1_1_svg_printer.html#a1d208d1b31b57c0197c6037e2a8f3e7d", null ],
     [ "draw", "classogdf_1_1_svg_printer.html#a6b42cb0de33e87b69522c60c6adbab9b", null ],
     [ "drawArrowHead", "classogdf_1_1_svg_printer.html#a97895f15fdb061ede33891ddeb56b7e7", null ],
     [ "drawBezier", "classogdf_1_1_svg_printer.html#a3aaa12652bbc1cb8465e42a2394eb9aa", null ],

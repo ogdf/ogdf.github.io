@@ -1,6 +1,23 @@
 <map id="ogdf::SListPure&lt; E &gt;" name="ogdf::SListPure&lt; E &gt;">
-<area shape="rect" id="node1" title="Singly linked lists." alt="" coords="96,5,252,32"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_queue_pure.html" title="Implementation of list&#45;based queues." alt="" coords="5,80,172,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_s_list.html" title="Singly linked lists (maintaining the length of the list)." alt="" coords="196,80,323,107"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_queue.html" title="The parameterized class Queue&lt;E&gt; implements list&#45;based queues." alt="" coords="190,155,329,181"/>
+<area shape="rect" id="Node000001" title="Singly linked lists." alt="" coords="5,281,161,308"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_s_list.html" title=" " alt="" coords="230,5,370,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,266,105,221,129,166,163,110,184,84,207,60,228,46,231,50,210,64,188,87,168,113,134,169,110,223,95,267"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_s_list.html" title=" " alt="" coords="230,75,370,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,266,140,199,171,162,207,130,228,117,231,121,210,134,175,166,145,202,101,269"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_s_list.html" title=" " alt="" coords="232,143,368,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="104,267,149,223,177,200,207,180,233,169,235,174,210,185,180,204,152,227,108,271"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_s_list.html" title=" " alt="" coords="230,195,370,239"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="137,273,234,237,236,242,138,278"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_s_list.html" title=" " alt="" coords="209,264,391,325"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="176,292,208,292,208,297,176,297"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_s_list.html" title=" " alt="" coords="230,349,370,394"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="138,311,236,346,234,351,137,316"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_s_list.html" title=" " alt="" coords="219,418,381,446"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="108,318,152,362,180,385,210,404,235,415,233,420,207,409,177,389,149,366,104,322"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_queue_pure.html" title="Implementation of list&#45;based queues." alt="" coords="217,470,383,498"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="100,320,143,388,174,424,210,455,233,467,231,472,207,459,170,428,139,391,96,323"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_s_list.html" title="Singly linked lists (maintaining the length of the list)." alt="" coords="237,522,363,550"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="95,321,111,362,135,413,168,464,210,507,237,522,235,526,207,511,164,467,131,415,106,365,90,323"/>
+<area shape="rect" id="Node000011" href="$classogdf_1_1_queue.html" title="The parameterized class Queue&lt;E&gt; implements list&#45;based queues." alt="" coords="439,522,576,550"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="378,533,438,533,438,538,378,538"/>
 </map>

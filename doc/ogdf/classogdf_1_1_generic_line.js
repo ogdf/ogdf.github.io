@@ -14,7 +14,7 @@ var classogdf_1_1_generic_line =
     [ "isHorizontal", "classogdf_1_1_generic_line.html#acc6b3db0380ae571acb977f2db035b91", null ],
     [ "isVertical", "classogdf_1_1_generic_line.html#abcc59f6f184127741822c03dc5a38d52", null ],
     [ "operator!=", "classogdf_1_1_generic_line.html#a078cfc9719aadf11e9f72e4301f4dd85", null ],
-    [ "operator=", "classogdf_1_1_generic_line.html#a24b068a91cad0e295830ec506cae2fe0", null ],
+    [ "operator=", "classogdf_1_1_generic_line.html#a0d4a9b803af2cd971073b96121721309", null ],
     [ "operator==", "classogdf_1_1_generic_line.html#ad6a3bf1509ceef9694fc7e60a6d82d62", null ],
     [ "slope", "classogdf_1_1_generic_line.html#a861ebc2dfbbd0804d2d08abaaa44f181", null ],
     [ "verIntersection", "classogdf_1_1_generic_line.html#a6deae3479d6f2c7c157327dcecaba2a1", null ],

@@ -1,5 +1,7 @@
 <map id="ogdf::HashElementBase" name="ogdf::HashElementBase">
-<area shape="rect" id="node1" title="Base class for elements within a hash table." alt="" coords="104,5,281,32"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_hash_element.html" title=" " alt="" coords="5,80,188,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_hash_element.html" title="Representation of elements in a hash table." alt="" coords="212,80,368,121"/>
+<area shape="rect" id="Node000001" title="Base class for elements within a hash table." alt="" coords="104,5,280,33"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_hash_element.html" title=" " alt="" coords="5,81,187,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,45,123,82,120,78,164,41"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_hash_element.html" title="Representation of elements in a hash table." alt="" coords="210,81,366,126"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="220,41,264,78,261,82,217,45"/>
 </map>

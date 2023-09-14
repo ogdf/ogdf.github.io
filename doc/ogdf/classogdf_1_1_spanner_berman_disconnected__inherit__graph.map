@@ -1,0 +1,7 @@
+<map id="ogdf::SpannerBermanDisconnected&lt; TWeight &gt;" name="ogdf::SpannerBermanDisconnected&lt; TWeight &gt;">
+<area shape="rect" id="Node000001" title="Wrapper around SpannerBerman: For each component of the graph, the algorithm will be called." alt="" coords="5,174,255,218"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_spanner_module.html" title="Interface for spanner algorithms." alt="" coords="51,81,209,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="133,140,133,173,127,173,127,140"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="77,5,183,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="133,48,133,80,127,80,127,48"/>
+</map>

@@ -1,4 +1,5 @@
 <map id="ogdf::TutteLayout" name="ogdf::TutteLayout">
-<area shape="rect" id="node1" title="Tutte&#39;s layout algorithm." alt="" coords="13,80,148,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="Node000001" title="Tutte&#39;s layout algorithm." alt="" coords="13,81,147,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="5,5,155,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,48,83,81,77,81,77,48"/>
 </map>

@@ -14,7 +14,7 @@ var classogdf_1_1_edge_element =
     [ "isParallelDirected", "classogdf_1_1_edge_element.html#a0a1048032221c760c2c0d393b9583307", null ],
     [ "isParallelUndirected", "classogdf_1_1_edge_element.html#ae1fcd1abcbd9f792f63441cc3331f6ec", null ],
     [ "isSelfLoop", "classogdf_1_1_edge_element.html#aed168195e08ad53e1af848a9169f4f62", null ],
-    [ "nodes", "classogdf_1_1_edge_element.html#ac2d72bd6d583f9c54f8eefdd853011e6", null ],
+    [ "nodes", "classogdf_1_1_edge_element.html#a8dcdde9385c8467e3eb1c72812e0ee34", null ],
     [ "opposite", "classogdf_1_1_edge_element.html#a432989b20dd25b12e9f6f98fc0e879e8", null ],
     [ "pred", "classogdf_1_1_edge_element.html#abe220a0457375cad74da03d7eee0d8be", null ],
     [ "source", "classogdf_1_1_edge_element.html#afc86cfd2e76a9f8f8b03cac813d229ef", null ],

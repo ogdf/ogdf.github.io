@@ -10,11 +10,11 @@ var classogdf_1_1_planarizer_mixed_insertion =
     ] ],
     [ "PlanarizerMixedInsertion", "classogdf_1_1_planarizer_mixed_insertion.html#a9b9b88b4ffb7a9be6a009ad5b50b3b0d", null ],
     [ "PlanarizerMixedInsertion", "classogdf_1_1_planarizer_mixed_insertion.html#a52987d2eda96d8ee9c16e3f422d3a867", null ],
-    [ "clone", "classogdf_1_1_planarizer_mixed_insertion.html#af0deb743a2964aa5526a284f895fb28f", null ],
+    [ "clone", "classogdf_1_1_planarizer_mixed_insertion.html#a6572132ec980dd17b68019d7185eb1a4", null ],
     [ "doCall", "classogdf_1_1_planarizer_mixed_insertion.html#aed2540e2815206bce1325656646df58c", null ],
     [ "nodeSelectionMethod", "classogdf_1_1_planarizer_mixed_insertion.html#a0f454df391e3319be726e46323f74e54", null ],
     [ "nodeSelectionMethod", "classogdf_1_1_planarizer_mixed_insertion.html#a3f495bd5b4541f6ce2500ecea1d3628b", null ],
-    [ "operator=", "classogdf_1_1_planarizer_mixed_insertion.html#a4c89cadfab9ffa4aa34e7aa14ee087fb", null ],
+    [ "operator=", "classogdf_1_1_planarizer_mixed_insertion.html#a520e0460e597f075ccb4781fd0f2c6c8", null ],
     [ "setSubgraph", "classogdf_1_1_planarizer_mixed_insertion.html#a4181ac6b6dcf579c5ce62b80299d09dc", null ],
     [ "m_nodeSelectionMethod", "classogdf_1_1_planarizer_mixed_insertion.html#af7a773f288617267a2d7905b0a874347", null ],
     [ "m_subgraph", "classogdf_1_1_planarizer_mixed_insertion.html#a9e755aebac6557dcefd37203a7a9cd75", null ]

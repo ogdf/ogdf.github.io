@@ -24,9 +24,9 @@ var classogdf_1_1_configuration =
     [ "haveAbacus", "classogdf_1_1_configuration.html#aa1464fe50694e23470dbe20ed7f1d387", null ],
     [ "haveCoin", "classogdf_1_1_configuration.html#a106c4a60c676615a1c9ce566acd2a167", null ],
     [ "haveLPSolver", "classogdf_1_1_configuration.html#abb6b13d055d5dccdc2976cb2eedb2e5a", null ],
-    [ "toString", "classogdf_1_1_configuration.html#a527d0d4948147526c5d55f87749d38c3", null ],
-    [ "toString", "classogdf_1_1_configuration.html#a1fc0a984676c712853234c7288f06469", null ],
-    [ "toString", "classogdf_1_1_configuration.html#a00ddd7e235de880bd5e975f46da4969d", null ],
+    [ "toString", "classogdf_1_1_configuration.html#a7201af5c2469f8a74e0d5dcf8c4f662b", null ],
+    [ "toString", "classogdf_1_1_configuration.html#ac766c06a3ee5eafc3f9b25a7b3511ab1", null ],
+    [ "toString", "classogdf_1_1_configuration.html#a2b3c6a64da462a94dba0e4cf59b48e76", null ],
     [ "whichLPSolver", "classogdf_1_1_configuration.html#a40e372040952133c6d510b91ba2b0cbe", null ],
     [ "whichMemoryManager", "classogdf_1_1_configuration.html#adf5d2aa496813344191e1f39adec7018", null ],
     [ "whichSystem", "classogdf_1_1_configuration.html#a170f10fcbff220dd83abb6cb400c2573", null ]

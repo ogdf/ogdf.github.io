@@ -1,5 +1,7 @@
 <map id="ogdf::dot::Ast::Subgraph" name="ogdf::dot::Ast::Subgraph">
-<area shape="rect" id="node1" title=" " alt="" coords="81,80,258,107"/>
-<area shape="rect" id="node2" href="$structogdf_1_1dot_1_1_ast_1_1_stmt.html" title=" " alt="" coords="5,5,152,32"/>
-<area shape="rect" id="node3" href="$structogdf_1_1dot_1_1_ast_1_1_edge_lhs.html" title=" " alt="" coords="176,5,347,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="81,81,257,109"/>
+<area shape="rect" id="Node000002" href="$structogdf_1_1dot_1_1_ast_1_1_stmt.html" title=" " alt="" coords="5,5,152,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="107,40,155,78,151,83,104,44"/>
+<area shape="rect" id="Node000003" href="$structogdf_1_1dot_1_1_ast_1_1_edge_lhs.html" title=" " alt="" coords="175,5,345,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,44,187,83,184,78,231,40"/>
 </map>

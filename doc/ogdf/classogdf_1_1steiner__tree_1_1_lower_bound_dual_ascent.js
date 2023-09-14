@@ -6,7 +6,7 @@ var classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent =
     [ "LowerBoundDualAscent", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html#aa800734e23aa7dfe475666d96ec3d696", null ],
     [ "addNode", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html#a4810e4ccd2421ccd05e76cc966a48e5c", null ],
     [ "addNodeChecked", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html#a6eadc26417cc725f103ef1c9c6c5543d", null ],
-    [ "chooseTerminal", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html#a62058add91dbceca780c48b9feeb0860", null ],
+    [ "chooseTerminal", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html#a93e1d7fdefe0d816374fedbebc7502d8", null ],
     [ "compute", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html#a2d25a7cda3f400be25c164705c07a951", null ],
     [ "extendCut", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html#ace08bbbafb25ab9432dfb018f578c5d9", null ],
     [ "findCheapestCutArcCost", "classogdf_1_1steiner__tree_1_1_lower_bound_dual_ascent.html#a503bafe4069d469d30ab8946bdead49c", null ],

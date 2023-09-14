@@ -1,19 +1,35 @@
 <map id="ogdf::internal::GraphListBase" name="ogdf::internal::GraphListBase">
-<area shape="rect" id="node1" title="Base class for GraphElement lists." alt="" coords="5,307,216,334"/>
-<area shape="rect" id="node2" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="294,5,473,47"/>
-<area shape="rect" id="node4" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="294,71,473,112"/>
-<area shape="rect" id="node6" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="264,136,503,177"/>
-<area shape="rect" id="node7" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="289,201,477,243"/>
-<area shape="rect" id="node9" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="294,267,473,308"/>
-<area shape="rect" id="node11" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="294,332,473,373"/>
-<area shape="rect" id="node13" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="277,397,490,439"/>
-<area shape="rect" id="node14" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="277,463,490,504"/>
-<area shape="rect" id="node15" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="294,528,473,569"/>
-<area shape="rect" id="node17" href="$classogdf_1_1internal_1_1_graph_list.html" title="Lists of graph objects (like nodes, edges, etc.)." alt="" coords="275,594,491,621"/>
-<area shape="rect" id="node3" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="577,5,775,47"/>
-<area shape="rect" id="node5" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="563,71,789,112"/>
-<area shape="rect" id="node8" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="551,201,801,243"/>
-<area shape="rect" id="node10" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="557,267,795,308"/>
-<area shape="rect" id="node12" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="559,332,793,373"/>
-<area shape="rect" id="node16" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="557,528,795,569"/>
+<area shape="rect" id="Node000001" title="Base class for GraphElement lists." alt="" coords="5,326,215,354"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="293,5,471,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,311,134,258,163,190,205,120,231,88,261,60,292,43,294,47,264,64,235,92,209,123,168,193,139,260,121,313"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="288,75,476,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="121,312,143,271,174,222,213,172,261,129,286,115,289,120,264,134,217,176,178,225,147,274,126,314"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="293,144,471,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="130,313,186,255,222,225,261,199,292,185,294,190,264,203,225,229,189,259,134,316"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="293,213,471,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="151,317,262,268,296,256,298,261,264,273,153,321"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="293,283,471,327"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="229,322,292,314,293,319,229,327"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="263,352,501,397"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="230,352,262,356,262,362,229,357"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="276,421,488,466"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="153,358,264,407,298,418,296,423,262,411,151,363"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="276,491,488,535"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="134,363,189,420,225,450,264,476,289,488,286,492,261,481,222,454,186,424,130,367"/>
+<area shape="rect" id="Node000011" href="$classogdf_1_1internal_1_1_graph_list.html" title=" " alt="" coords="293,560,471,605"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="126,365,147,405,178,454,217,504,264,545,294,561,291,566,261,550,213,507,174,457,143,408,121,368"/>
+<area shape="rect" id="Node000012" href="$classogdf_1_1internal_1_1_graph_list.html" title="Lists of graph objects (like nodes, edges, etc.)." alt="" coords="274,629,490,656"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="121,367,138,421,166,488,208,557,234,588,264,615,283,626,280,630,261,619,231,592,204,561,162,491,133,423,116,369"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="576,5,772,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="486,25,576,25,576,30,486,30"/>
+<area shape="rect" id="Node000013" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="549,481,799,526"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="492,619,499,615,516,597,523,577,530,556,547,536,567,524,569,529,551,540,535,559,528,579,520,600,503,619,495,624"/>
+<area shape="rect" id="Node000014" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="558,551,791,595"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="466,622,500,614,585,593,587,599,502,620,467,627"/>
+<area shape="rect" id="Node000015" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="555,620,793,665"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="504,640,555,640,555,645,504,645"/>
+<area shape="rect" id="Node000016" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="556,689,792,734"/>
+<area shape="poly" id="edge15_Node000012_Node000016" title=" " alt="" coords="458,658,578,686,577,691,457,663"/>
+<area shape="rect" id="Node000017" href="$classogdf_1_1internal_1_1_graph_object_container.html" title=" " alt="" coords="562,759,787,803"/>
+<area shape="poly" id="edge16_Node000012_Node000017" title=" " alt="" coords="415,663,476,704,550,744,581,756,579,761,548,749,473,708,412,667"/>
 </map>

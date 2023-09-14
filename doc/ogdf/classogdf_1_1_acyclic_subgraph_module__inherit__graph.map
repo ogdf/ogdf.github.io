@@ -1,5 +1,7 @@
 <map id="ogdf::AcyclicSubgraphModule" name="ogdf::AcyclicSubgraphModule">
-<area shape="rect" id="node1" title="Base class of algorithms for computing a maximal acyclic subgraph." alt="" coords="100,5,313,32"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_dfs_acyclic_subgraph.html" title="DFS&#45;based algorithm for computing a maximal acyclic subgraph." alt="" coords="5,80,192,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_greedy_cycle_removal.html" title="Greedy algorithm for computing a maximal acyclic subgraph." alt="" coords="217,80,415,107"/>
+<area shape="rect" id="Node000001" title="Base class of algorithms for computing a maximal acyclic subgraph." alt="" coords="100,5,313,33"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_dfs_acyclic_subgraph.html" title="DFS&#45;based algorithm for computing a maximal acyclic subgraph." alt="" coords="5,81,192,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,44,119,83,116,78,174,39"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_greedy_cycle_removal.html" title="Greedy algorithm for computing a maximal acyclic subgraph." alt="" coords="215,81,414,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="239,39,297,78,294,83,236,44"/>
 </map>

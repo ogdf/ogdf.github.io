@@ -5,7 +5,7 @@ var classabacus_1_1_history =
     [ "realloc", "classabacus_1_1_history.html#a76dce9453cc8b6060550c69543a9a691", null ],
     [ "size", "classabacus_1_1_history.html#abf6cc78324c2b5d2544679f523974e66", null ],
     [ "update", "classabacus_1_1_history.html#a60181005e5db66c3fac887d4272df39c", null ],
-    [ "operator<<", "classabacus_1_1_history.html#adf9b35b11db7cb1a3d38c0f1926c9339", null ],
+    [ "operator<<", "classabacus_1_1_history.html#abcb2d0d6c08a5cab01e5d2c5db4d8002", null ],
     [ "dualBound_", "classabacus_1_1_history.html#a1d975e2165ab963b1366cf8b47b054bf", null ],
     [ "master_", "classabacus_1_1_history.html#a6003be9ed362ee40f86513e17c16cc84", null ],
     [ "n_", "classabacus_1_1_history.html#ab6673b1899e7922bf68029609c433abc", null ],

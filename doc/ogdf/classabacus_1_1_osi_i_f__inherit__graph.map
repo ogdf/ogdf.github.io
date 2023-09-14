@@ -1,6 +1,9 @@
 <map id="abacus::OsiIF" name="abacus::OsiIF">
-<area shape="rect" id="node1" title=" " alt="" coords="27,155,137,181"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_lp_sub_osi.html" title=" " alt="" coords="14,229,150,256"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_l_p.html" title="Linear programs." alt="" coords="37,80,127,107"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,159,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="27,157,136,184"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_lp_sub_osi.html" title=" " alt="" coords="14,232,149,260"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="84,199,84,232,79,232,79,199"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_l_p.html" title="Linear programs." alt="" coords="36,81,127,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,124,84,156,79,156,79,124"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,158,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,48,84,81,79,81,79,48"/>
 </map>

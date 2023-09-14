@@ -11,7 +11,7 @@ var classogdf_1_1davidson__harel_1_1_energy_function =
     [ "energy", "classogdf_1_1davidson__harel_1_1_energy_function.html#a9ae997967d0e6cf690b10e812e8c195e", null ],
     [ "getName", "classogdf_1_1davidson__harel_1_1_energy_function.html#a709d297953c79b4529e8d4e73cd23152", null ],
     [ "internalCandidateTaken", "classogdf_1_1davidson__harel_1_1_energy_function.html#a4da6c9c16651dc02ba904b5138354da3", null ],
-    [ "operator=", "classogdf_1_1davidson__harel_1_1_energy_function.html#a411e62e24a0c271a61d47acaac8c8900", null ],
+    [ "operator=", "classogdf_1_1davidson__harel_1_1_energy_function.html#a234a53f3d638d2e428ff56aced0f95e3", null ],
     [ "testNode", "classogdf_1_1davidson__harel_1_1_energy_function.html#a746ec94236c6cb0ae0255fae710ae21e", null ],
     [ "testPos", "classogdf_1_1davidson__harel_1_1_energy_function.html#a8efc6584b1a15a869746f8319aaebc29", null ],
     [ "m_AG", "classogdf_1_1davidson__harel_1_1_energy_function.html#a76f76f1d40ad20f9678959b590fe9c09", null ],

@@ -1,9 +1,15 @@
 <map id="ogdf::EmbedderMaxFaceLayers" name="ogdf::EmbedderMaxFaceLayers">
-<area shape="rect" id="node1" title="Embedder that maximizes the external face and optimizes the position of blocks afterwards." alt="" coords="26,408,251,435"/>
-<area shape="rect" id="node2" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="5,319,272,360"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_embedder_max_face.html" title="Embedder that maximizes the external face." alt="" coords="47,244,230,271"/>
-<area shape="rect" id="node4" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="39,155,238,196"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="53,80,225,107"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="16,5,123,32"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="147,5,271,32"/>
+<area shape="rect" id="Node000001" title="Embedder that maximizes the external face and optimizes the position of blocks afterwards." alt="" coords="26,418,250,445"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1embedder_1_1_layers_block_embedder.html" title=" " alt="" coords="5,325,271,370"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,385,141,417,135,417,135,385"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_embedder_max_face.html" title="Embedder that maximizes the external face." alt="" coords="48,249,228,277"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="141,292,141,324,135,324,135,292"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1embedder_1_1_embedder_b_c_tree_base.html" title=" " alt="" coords="39,157,237,201"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="141,216,141,249,135,249,135,216"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_embedder_module.html" title="Base class for embedder algorithms." alt="" coords="52,81,224,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="141,124,141,156,135,156,135,124"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="16,5,121,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="93,42,128,79,124,82,89,46"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="145,5,270,33"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="187,46,152,82,148,79,183,42"/>
 </map>

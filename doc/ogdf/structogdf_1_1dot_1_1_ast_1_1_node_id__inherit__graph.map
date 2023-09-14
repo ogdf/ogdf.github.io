@@ -1,4 +1,5 @@
 <map id="ogdf::dot::Ast::NodeId" name="ogdf::dot::Ast::NodeId">
-<area shape="rect" id="node1" title=" " alt="" coords="9,80,172,107"/>
-<area shape="rect" id="node2" href="$structogdf_1_1dot_1_1_ast_1_1_edge_lhs.html" title=" " alt="" coords="5,5,176,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="9,81,171,109"/>
+<area shape="rect" id="Node000002" href="$structogdf_1_1dot_1_1_ast_1_1_edge_lhs.html" title=" " alt="" coords="5,5,175,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,48,93,81,87,81,87,48"/>
 </map>

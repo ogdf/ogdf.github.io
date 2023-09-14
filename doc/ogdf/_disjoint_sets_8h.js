@@ -1,10 +1,10 @@
 var _disjoint_sets_8h =
 [
-    [ "AnyOption", "structogdf_1_1disjoint__sets_1_1_any_option.html", null ],
-    [ "CompressionOption", "structogdf_1_1disjoint__sets_1_1_compression_option.html", null ],
-    [ "InterleavingOption", "structogdf_1_1disjoint__sets_1_1_interleaving_option.html", null ],
-    [ "LinkOption", "structogdf_1_1disjoint__sets_1_1_link_option.html", null ],
-    [ "DisjointSets", "classogdf_1_1_disjoint_sets.html", "classogdf_1_1_disjoint_sets" ],
+    [ "ogdf::disjoint_sets::AnyOption", "structogdf_1_1disjoint__sets_1_1_any_option.html", null ],
+    [ "ogdf::disjoint_sets::CompressionOption< compressionOption >", "structogdf_1_1disjoint__sets_1_1_compression_option.html", null ],
+    [ "ogdf::disjoint_sets::InterleavingOption< interleavingOption >", "structogdf_1_1disjoint__sets_1_1_interleaving_option.html", null ],
+    [ "ogdf::disjoint_sets::LinkOption< linkOption >", "structogdf_1_1disjoint__sets_1_1_link_option.html", null ],
+    [ "ogdf::DisjointSets< linkOption, compressionOption, interleavingOption >", "classogdf_1_1_disjoint_sets.html", "classogdf_1_1_disjoint_sets" ],
     [ "OGDF_DISJOINT_SETS_INTERMEDIATE_PARENT_CHECK", "_disjoint_sets_8h.html#ac866eb51fd3f9b58529b4be8b10b5b51", null ],
     [ "CompressionOptions", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2b", [
       [ "PathCompression", "_disjoint_sets_8h.html#af2b1574f967cc28f16e6d7cce2e71b2bafc36982d04b1522cd09fc53d88fd9c9e", null ],

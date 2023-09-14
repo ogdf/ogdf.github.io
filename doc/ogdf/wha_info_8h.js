@@ -1,6 +1,6 @@
 var wha_info_8h =
 [
-    [ "whaInfo", "classogdf_1_1wha_info.html", "classogdf_1_1wha_info" ],
+    [ "ogdf::whaInfo", "classogdf_1_1wha_info.html", "classogdf_1_1wha_info" ],
     [ "whaType", "wha_info_8h.html#ac143ef80abc00ee193e7b5780fe1e152", [
       [ "W", "wha_info_8h.html#ac143ef80abc00ee193e7b5780fe1e152a61e9c06ea9a85a5088a499df6458d276", null ],
       [ "B", "wha_info_8h.html#ac143ef80abc00ee193e7b5780fe1e152a9d5ed678fe57bcca610140957afab571", null ],

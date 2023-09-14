@@ -1,5 +1,7 @@
 <map id="abacus::Row" name="abacus::Row">
-<area shape="rect" id="node1" title="Representation of constraints in the row format." alt="" coords="30,155,134,181"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_spar_vec.html" title="Sparse vectors." alt="" coords="17,80,147,107"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,159,32"/>
+<area shape="rect" id="Node000001" title="Representation of constraints in the row format." alt="" coords="30,157,133,184"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_spar_vec.html" title="Sparse vectors." alt="" coords="18,81,145,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,124,84,156,79,156,79,124"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,158,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,48,84,81,79,81,79,48"/>
 </map>

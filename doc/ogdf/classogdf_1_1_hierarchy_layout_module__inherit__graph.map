@@ -1,6 +1,9 @@
 <map id="ogdf::HierarchyLayoutModule" name="ogdf::HierarchyLayoutModule">
-<area shape="rect" id="node1" title="Interface of hierarchy layout algorithms." alt="" coords="5,64,219,91"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_fast_hierarchy_layout.html" title="Coordinate assignment phase for the Sugiyama algorithm by Buchheim et al." alt="" coords="279,5,471,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_fast_simple_hierarchy_layout.html" title="Coordinate assignment phase for the Sugiyama algorithm by Ulrik Brandes and Boris Köpf." alt="" coords="279,57,472,98"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_optimal_hierarchy_layout.html" title="The LP&#45;based hierarchy layout algorithm." alt="" coords="267,123,484,149"/>
+<area shape="rect" id="Node000001" title="Interface of hierarchy layout algorithms." alt="" coords="5,65,218,93"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_fast_hierarchy_layout.html" title="Coordinate assignment phase for the Sugiyama algorithm by Buchheim et al." alt="" coords="279,5,469,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="188,59,309,31,311,36,189,64"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_fast_simple_hierarchy_layout.html" title="Coordinate assignment phase for the Sugiyama algorithm by Ulrik Brandes and Boris Köpf." alt="" coords="278,57,470,102"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,77,278,77,278,82,232,82"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_optimal_hierarchy_layout.html" title="The LP&#45;based hierarchy layout algorithm." alt="" coords="266,125,482,153"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="189,94,311,122,309,127,188,99"/>
 </map>

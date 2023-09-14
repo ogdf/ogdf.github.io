@@ -1,11 +1,11 @@
 var _map_8h =
 [
-    [ "DeepEqual", "struct_minisat_1_1_internal_1_1_deep_equal.html", "struct_minisat_1_1_internal_1_1_deep_equal" ],
-    [ "DeepHash", "struct_minisat_1_1_internal_1_1_deep_hash.html", "struct_minisat_1_1_internal_1_1_deep_hash" ],
-    [ "Equal", "struct_minisat_1_1_internal_1_1_equal.html", "struct_minisat_1_1_internal_1_1_equal" ],
-    [ "Hash", "struct_minisat_1_1_internal_1_1_hash.html", "struct_minisat_1_1_internal_1_1_hash" ],
-    [ "Map", "class_minisat_1_1_internal_1_1_map.html", "class_minisat_1_1_internal_1_1_map" ],
-    [ "Pair", "struct_minisat_1_1_internal_1_1_map_1_1_pair.html", "struct_minisat_1_1_internal_1_1_map_1_1_pair" ],
+    [ "Minisat::Internal::DeepEqual< K >", "struct_minisat_1_1_internal_1_1_deep_equal.html", "struct_minisat_1_1_internal_1_1_deep_equal" ],
+    [ "Minisat::Internal::DeepHash< K >", "struct_minisat_1_1_internal_1_1_deep_hash.html", "struct_minisat_1_1_internal_1_1_deep_hash" ],
+    [ "Minisat::Internal::Equal< K >", "struct_minisat_1_1_internal_1_1_equal.html", "struct_minisat_1_1_internal_1_1_equal" ],
+    [ "Minisat::Internal::Hash< K >", "struct_minisat_1_1_internal_1_1_hash.html", "struct_minisat_1_1_internal_1_1_hash" ],
+    [ "Minisat::Internal::Map< K, D, H, E >", "class_minisat_1_1_internal_1_1_map.html", "class_minisat_1_1_internal_1_1_map" ],
+    [ "Minisat::Internal::Map< K, D, H, E >::Pair", "struct_minisat_1_1_internal_1_1_map_1_1_pair.html", "struct_minisat_1_1_internal_1_1_map_1_1_pair" ],
     [ "hash", "_map_8h.html#a9b319ddeaf344855bff8656c4f042b0c", null ],
     [ "hash", "_map_8h.html#a11dc4b4d4f7576e203e07a40103a9002", null ],
     [ "hash", "_map_8h.html#a95959b22194a0f82f344879bf1fd69ed", null ],

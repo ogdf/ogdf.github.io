@@ -1,10 +1,7 @@
 var hash_8h =
 [
-    [ "AbaHash", "classabacus_1_1_aba_hash.html", "classabacus_1_1_aba_hash" ],
-    [ "AbaHash", "classabacus_1_1_aba_hash.html", "classabacus_1_1_aba_hash" ],
-    [ "AbaHash", "classabacus_1_1_aba_hash.html", "classabacus_1_1_aba_hash" ],
-    [ "AbaHashItem", "classabacus_1_1_aba_hash_item.html", "classabacus_1_1_aba_hash_item" ],
-    [ "AbaHashItem", "classabacus_1_1_aba_hash_item.html", "classabacus_1_1_aba_hash_item" ],
-    [ "operator<<", "hash_8h.html#ab1e050d1f44b5d0784ab84b139729c9f", null ],
-    [ "operator<<", "hash_8h.html#a069f38ce5c4f7f1df73aed1d95dc5de4", null ]
+    [ "abacus::AbaHash< KeyType, ItemType >", "classabacus_1_1_aba_hash.html", "classabacus_1_1_aba_hash" ],
+    [ "abacus::AbaHashItem< KeyType, ItemType >", "classabacus_1_1_aba_hash_item.html", "classabacus_1_1_aba_hash_item" ],
+    [ "operator<<", "hash_8h.html#ae20ec62e32b652bd952b2192924bdcd6", null ],
+    [ "operator<<", "hash_8h.html#ac72b420a51b33e34f2ffb8cdec74a201", null ]
 ];

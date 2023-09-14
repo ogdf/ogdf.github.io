@@ -1,0 +1,5 @@
+<map id="ogdf::planar_separators::DMDecomposer" name="ogdf::planar_separators::DMDecomposer">
+<area shape="rect" id="Node000001" title="Dulmage&#45;Mendelsohn&#45;Decomposition." alt="" coords="5,98,180,143"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1planar__separators_1_1_postprocessor.html" title="Abstract description of postprocessors." alt="" coords="5,5,180,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,65,95,98,90,98,90,65"/>
+</map>

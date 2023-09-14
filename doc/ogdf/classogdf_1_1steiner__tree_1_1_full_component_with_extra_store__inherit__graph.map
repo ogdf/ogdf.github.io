@@ -1,4 +1,5 @@
 <map id="ogdf::steiner_tree::FullComponentWithExtraStore&lt; T, ExtraDataType &gt;" name="ogdf::steiner_tree::FullComponentWithExtraStore&lt; T, ExtraDataType &gt;">
-<area shape="rect" id="node1" title="A data structure to store full components with extra data for each component." alt="" coords="5,109,232,165"/>
-<area shape="rect" id="node2" href="$classogdf_1_1steiner__tree_1_1_full_component_store.html" title="A data structure to store full components." alt="" coords="37,5,200,61"/>
+<area shape="rect" id="Node000001" title="A data structure to store full components with extra data for each component." alt="" coords="5,115,231,177"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1steiner__tree_1_1_full_component_store.html" title=" " alt="" coords="37,5,199,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,82,121,114,115,114,115,82"/>
 </map>

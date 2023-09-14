@@ -1,4 +1,5 @@
 <map id="ogdf::disjoint_sets::InterleavingOption&lt; interleavingOption &gt;" name="ogdf::disjoint_sets::InterleavingOption&lt; interleavingOption &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="5,95,179,151"/>
-<area shape="rect" id="node2" href="$structogdf_1_1disjoint__sets_1_1_any_option.html" title=" " alt="" coords="22,5,162,47"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,98,178,160"/>
+<area shape="rect" id="Node000002" href="$structogdf_1_1disjoint__sets_1_1_any_option.html" title=" " alt="" coords="22,5,161,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,65,94,98,89,98,89,65"/>
 </map>

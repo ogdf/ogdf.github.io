@@ -1,6 +1,7 @@
 var _matching_8h =
 [
     [ "findMaximalMatching", "_matching_8h.html#ga90a341a4caffa61e673f52cff3361760", null ],
+    [ "findMaximumCardinalityMatching", "_matching_8h.html#ga87d36fa9a68ec35da287c4a80353d2cc", null ],
     [ "isMatching", "_matching_8h.html#ga9ae44a96499bce232fe941204e589212", null ],
     [ "isMaximal", "_matching_8h.html#ga9e0a584855d62ebc12f38775bfbaa311", null ],
     [ "isMaximal", "_matching_8h.html#ab66db7ab3df77c29d3b27e9e9b3a577b", null ],

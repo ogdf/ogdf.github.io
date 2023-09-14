@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['y_23437',['Y',['../namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a57cec4137b614c87cb4e24a3d003a3e0',1,'ogdf::gdf::Y()'],['../namespaceogdf_1_1gml.html#ac19f981046587e812178ac71ac5ba6fca57cec4137b614c87cb4e24a3d003a3e0',1,'ogdf::gml::Y()'],['../namespaceogdf_1_1graphml.html#a8ec1f3d5a98f27193764249aa99275aba57cec4137b614c87cb4e24a3d003a3e0',1,'ogdf::graphml::Y()']]],
-  ['yellow_23438',['Yellow',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a51e6cd92b6c45f9affdc158ecca2b8b8',1,'ogdf::Color::Yellow()'],['../namespacebackward_1_1_color.html#a6292269f4da43517b3fe825563efee5ca8f7946cb6e3cd72b9624130f4d6b3053',1,'backward::Color::yellow()']]],
-  ['yellowgreen_23439',['Yellowgreen',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a35f693dc6a5bbd4ba7a55ee26c591b3c',1,'ogdf::Color']]]
+  ['y_0',['y',['../namespaceogdf_1_1gdf.html#ae146089d38e718726a82db1bf6b06392a57cec4137b614c87cb4e24a3d003a3e0',1,'ogdf::gdf::Y'],['../namespaceogdf_1_1gml.html#ac19f981046587e812178ac71ac5ba6fca57cec4137b614c87cb4e24a3d003a3e0',1,'ogdf::gml::Y'],['../namespaceogdf_1_1graphml.html#a8ec1f3d5a98f27193764249aa99275aba57cec4137b614c87cb4e24a3d003a3e0',1,'ogdf::graphml::Y']]],
+  ['yellow_1',['yellow',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a51e6cd92b6c45f9affdc158ecca2b8b8',1,'ogdf::Color::Yellow'],['../namespacebackward_1_1_color.html#a6292269f4da43517b3fe825563efee5ca8f7946cb6e3cd72b9624130f4d6b3053',1,'backward::Color::yellow']]],
+  ['yellowgreen_2',['Yellowgreen',['../classogdf_1_1_color.html#a6992b9d189549ebd9f8de99292d67125a35f693dc6a5bbd4ba7a55ee26c591b3c',1,'ogdf::Color']]]
 ];

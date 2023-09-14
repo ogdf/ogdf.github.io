@@ -1,6 +1,33 @@
 <map id="ogdf::PQBasicKey&lt; T, X, Y &gt;" name="ogdf::PQBasicKey&lt; T, X, Y &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="87,80,250,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_p_q_internal_key.html" title="The class template PQInternalKey is a derived class of class template PQBasicKey." alt="" coords="5,169,156,211"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey." alt="" coords="181,169,335,211"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_p_q_basic_key_root.html" title="The class PQBasicKeyRoot is used as a base class of the class template basicKey." alt="" coords="86,5,251,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="218,403,379,447"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_p_q_leaf_key.html" title=" " alt="" coords="430,5,608,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="300,387,310,319,331,232,348,186,368,141,394,98,425,60,440,48,443,53,429,64,398,101,373,143,352,188,336,233,315,320,305,388"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_p_q_leaf_key.html" title=" " alt="" coords="430,74,608,136"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="305,387,321,335,345,271,379,205,401,174,425,146,439,134,442,138,429,150,405,177,384,208,350,273,326,337,310,389"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_p_q_node_key.html" title=" " alt="" coords="439,160,599,205"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="311,388,328,348,354,302,386,256,425,215,443,203,446,207,429,219,390,259,358,305,333,351,315,390"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_p_q_node_key.html" title=" " alt="" coords="427,229,611,274"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="322,389,366,336,395,308,426,284,446,272,449,277,428,289,398,312,370,339,326,393"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_p_q_node_key.html" title=" " alt="" coords="427,299,611,343"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="350,393,426,353,453,342,455,346,428,358,352,398"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_p_q_node_key.html" title=" " alt="" coords="427,368,611,413"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="394,407,426,402,427,407,395,413"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_p_q_node_key.html" title=" " alt="" coords="427,437,611,482"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="395,437,427,443,426,448,394,443"/>
+<area shape="rect" id="Node000011" href="$classogdf_1_1_p_q_node_key.html" title=" " alt="" coords="439,507,599,551"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="352,452,428,492,455,504,453,508,426,497,350,457"/>
+<area shape="rect" id="Node000012" href="$classogdf_1_1_p_q_node_key.html" title=" " alt="" coords="427,576,611,637"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="327,457,371,510,429,562,446,573,443,577,425,566,368,513,323,461"/>
+<area shape="rect" id="Node000013" href="$classogdf_1_1_p_q_internal_key.html" title="The class template PQInternalKey is a derived class of class template PQBasicKey." alt="" coords="445,661,594,706"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="314,460,331,503,356,553,388,603,429,647,446,659,443,663,425,651,384,606,351,555,326,505,309,462"/>
+<area shape="rect" id="Node000014" href="$classogdf_1_1_p_q_leaf_key.html" title="The class template PQLeafKey is a derived class of class template PQBasicKey." alt="" coords="442,731,596,775"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="309,461,322,517,346,585,381,655,403,688,429,716,444,728,441,732,425,720,399,691,376,658,341,587,317,519,304,463"/>
+<area shape="rect" id="Node000016" href="$classogdf_1_1_p_q_node_key.html" title="The class template PQNodeKey is a derived class of class template PQBasicKey." alt="" coords="439,800,599,845"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="305,462,315,530,336,617,352,662,373,707,398,749,429,786,443,797,440,802,425,790,394,752,368,709,348,664,331,618,310,531,300,463"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_p_q_basic_key_root.html" title="The class PQBasicKeyRoot is used as a base class of the class template basicKey." alt="" coords="5,411,170,439"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,422,217,422,217,428,184,428"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1booth__lueker_1_1_planar_leaf_key.html" title=" " alt="" coords="666,5,827,50"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="623,25,665,25,665,30,623,30"/>
+<area shape="rect" id="Node000015" href="$classogdf_1_1booth__lueker_1_1_planar_leaf_key.html" title=" " alt="" coords="659,722,834,784"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="611,750,659,750,659,756,611,756"/>
 </map>

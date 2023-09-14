@@ -1,7 +1,7 @@
 var classogdf_1_1embedder_1_1_crossing_structure =
 [
     [ "CrossingStructure", "classogdf_1_1embedder_1_1_crossing_structure.html#a214e81cc89a18e7e8931cc9a51caa52c", null ],
-    [ "crossings", "classogdf_1_1embedder_1_1_crossing_structure.html#a4e52d2ebf123711ad37c8503daae9110", null ],
+    [ "crossings", "classogdf_1_1embedder_1_1_crossing_structure.html#ac80ef00c85b5d84141aa2a645e572194", null ],
     [ "init", "classogdf_1_1embedder_1_1_crossing_structure.html#aeffe1a7782af43f0a67c00a2be2d318c", null ],
     [ "numberOfCrossings", "classogdf_1_1embedder_1_1_crossing_structure.html#a570c222fecf80b8d24b395671e3668e5", null ],
     [ "restore", "classogdf_1_1embedder_1_1_crossing_structure.html#ae8a0218e4c98a8868b8426ad806b8101", null ],

@@ -1,6 +1,9 @@
 <map id="ogdf::FPPLayout" name="ogdf::FPPLayout">
-<area shape="rect" id="node1" title="The class FPPLayout represents the layout algorithm by de Fraysseix, Pach, Pollack [DPP90]." alt="" coords="51,229,178,256"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_planar_grid_layout_module.html" title="Base class for planar grid layout algorithms." alt="" coords="5,155,224,181"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_grid_layout_module.html" title="Base class for grid layout algorithms." alt="" coords="26,80,203,107"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="39,5,190,32"/>
+<area shape="rect" id="Node000001" title="The class FPPLayout represents the layout algorithm by de Fraysseix, Pach, Pollack [DPP90]." alt="" coords="51,232,177,260"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_planar_grid_layout_module.html" title="Base class for planar grid layout algorithms." alt="" coords="5,157,223,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,199,117,232,111,232,111,199"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_grid_layout_module.html" title="Base class for grid layout algorithms." alt="" coords="26,81,202,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,124,117,156,111,156,111,124"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="39,5,189,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="117,48,117,81,111,81,111,48"/>
 </map>

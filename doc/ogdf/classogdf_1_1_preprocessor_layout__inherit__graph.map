@@ -1,5 +1,7 @@
 <map id="ogdf::PreprocessorLayout" name="ogdf::PreprocessorLayout">
-<area shape="rect" id="node1" title="The PreprocessorLayout removes multi&#45;edges and self&#45;loops." alt="" coords="19,155,206,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_multilevel_layout_module.html" title="Interface of general layout algorithms that also allow a MultilevelGraph as call parameter,..." alt="" coords="5,80,220,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="37,5,188,32"/>
+<area shape="rect" id="Node000001" title="The PreprocessorLayout removes multi&#45;edges and self&#45;loops." alt="" coords="20,157,205,184"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_multilevel_layout_module.html" title="Interface of general layout algorithms that also allow a MultilevelGraph as call parameter,..." alt="" coords="5,81,220,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,124,115,156,110,156,110,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="38,5,187,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="115,48,115,81,110,81,110,48"/>
 </map>

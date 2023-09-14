@@ -1,6 +1,11 @@
 <map id="ogdf::Logger" name="ogdf::Logger">
-<area shape="rect" id="node1" title="Centralized global and local logging facility working on streams like std::cout." alt="" coords="5,71,108,98"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html" title="Master problem of Steiner tree branch&amp;cut algorithm" alt="" coords="157,5,368,47"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_subgraph_planarizer.html" title="The planarization approach for crossing minimization." alt="" coords="171,71,355,98"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_subgraph_planarizer_u_m_l.html" title="The planarization approach for UML crossing minimization." alt="" coords="156,122,369,149"/>
+<area shape="rect" id="Node000001" title="Centralized global and local logging facility working on streams like std::cout." alt="" coords="5,114,107,142"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_min_steiner_tree_directed_cut_1_1_master.html" title="Master problem of Steiner tree branch&amp;cut algorithm" alt="" coords="158,5,367,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,103,117,81,153,60,181,48,183,53,156,65,120,85,88,107"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_minimum_cut_nagamochi_ibaraki.html" title="Calculate minimum cut value for a given Graph." alt="" coords="155,75,370,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,115,154,110,155,116,122,121"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_subgraph_planarizer.html" title="The planarization approach for crossing minimization." alt="" coords="171,143,354,171"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="122,134,171,141,170,147,121,140"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_subgraph_planarizer_u_m_l.html" title="The planarization approach for UML crossing minimization." alt="" coords="156,195,369,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="92,147,156,180,193,192,191,197,154,185,90,152"/>
 </map>

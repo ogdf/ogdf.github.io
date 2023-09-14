@@ -1,4 +1,5 @@
 <map id="ogdf::MMDummyCrossingsBeautifier" name="ogdf::MMDummyCrossingsBeautifier">
-<area shape="rect" id="node1" title="Dummy implementation of Mixed&#45;Model crossings beautifier." alt="" coords="5,95,267,121"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_mixed_model_crossings_beautifier_module.html" title="The base class for Mixed&#45;Model crossings beautifier algorithms." alt="" coords="35,5,237,47"/>
+<area shape="rect" id="Node000001" title="Dummy implementation of Mixed&#45;Model crossings beautifier." alt="" coords="5,98,265,126"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_mixed_model_crossings_beautifier_module.html" title="The base class for Mixed&#45;Model crossings beautifier algorithms." alt="" coords="35,5,235,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,65,138,97,132,97,132,65"/>
 </map>

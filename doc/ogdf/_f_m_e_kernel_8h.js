@@ -1,8 +1,8 @@
 var _f_m_e_kernel_8h =
 [
-    [ "FMEBasicKernel", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_basic_kernel.html", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_basic_kernel" ],
-    [ "FMEKernel", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_kernel.html", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_kernel" ],
-    [ "FMESingleKernel", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_single_kernel.html", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_single_kernel" ],
+    [ "ogdf::fast_multipole_embedder::FMEBasicKernel", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_basic_kernel.html", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_basic_kernel" ],
+    [ "ogdf::fast_multipole_embedder::FMEKernel", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_kernel.html", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_kernel" ],
+    [ "ogdf::fast_multipole_embedder::FMESingleKernel", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_single_kernel.html", "classogdf_1_1fast__multipole__embedder_1_1_f_m_e_single_kernel" ],
     [ "OGDF_FME_KERNEL_COMPUTE_FORCE", "_f_m_e_kernel_8h.html#adef62551a03da1d80361e703db41495d", null ],
     [ "OGDF_FME_KERNEL_COMPUTE_FORCE_PROTECTION_FACTOR", "_f_m_e_kernel_8h.html#a475f2b3a9a4188ba9a7d0744156f90b2", null ],
     [ "OGDF_FME_KERNEL_MM_COMPUTE_FORCE", "_f_m_e_kernel_8h.html#ad6a2cbc4b833302d72be82835acbee43", null ],

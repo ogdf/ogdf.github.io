@@ -9,7 +9,7 @@ var classogdf_1_1davidson__harel_1_1_node_pair_energy =
     [ "computePairEnergy", "classogdf_1_1davidson__harel_1_1_node_pair_energy.html#acc190680a55ba3fdb73de13fe3a1963c", null ],
     [ "internalCandidateTaken", "classogdf_1_1davidson__harel_1_1_node_pair_energy.html#a9eb5d5ef04167c74db0974a919396674", null ],
     [ "nodeNum", "classogdf_1_1davidson__harel_1_1_node_pair_energy.html#a01ae9e7a6ecd68b668a654fcb9dc1da1", null ],
-    [ "shape", "classogdf_1_1davidson__harel_1_1_node_pair_energy.html#aabb9f8c4eafe160c51e9e65c774da6d3", null ],
+    [ "shape", "classogdf_1_1davidson__harel_1_1_node_pair_energy.html#a9d29b252942b13ce843934f126ccb532", null ],
     [ "m_adjacentOracle", "classogdf_1_1davidson__harel_1_1_node_pair_energy.html#ab0f27b07d419a4bc534e9812da5f897b", null ],
     [ "m_candPairEnergy", "classogdf_1_1davidson__harel_1_1_node_pair_energy.html#a2a0e37644cdd74681f7cbefba08308e2", null ],
     [ "m_nodeNums", "classogdf_1_1davidson__harel_1_1_node_pair_energy.html#a78f54fe0af47cd7b10f3f077017b122d", null ],

@@ -1,4 +1,5 @@
 <map id="ogdf::MinSteinerTreeMehlhorn&lt; T &gt;::MehlhornTripleBucketMaxFunc" name="ogdf::MinSteinerTreeMehlhorn&lt; T &gt;::MehlhornTripleBucketMaxFunc">
-<area shape="rect" id="node1" title="Helper class to sort MehlhornTriples lexicographically." alt="" coords="5,95,272,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_bucket_func.html" title=" " alt="" coords="35,5,243,47"/>
+<area shape="rect" id="Node000001" title="Helper class to sort MehlhornTriples lexicographically." alt="" coords="5,98,271,143"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_bucket_func.html" title=" " alt="" coords="34,5,242,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="141,65,141,98,135,98,135,65"/>
 </map>

@@ -1,6 +1,9 @@
 <map id="ogdf::MinSTCutModule&lt; TCost &gt;" name="ogdf::MinSTCutModule&lt; TCost &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="5,71,173,112"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_min_s_t_cut_b_f_s.html" title="Min&#45;st&#45;cut algorithm, that calculates the cut by doing a depth first search over the dual graph of of..." alt="" coords="233,5,389,47"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_min_s_t_cut_dijkstra.html" title="Min&#45;st&#45;cut algorithm, that calculates the cut by calculating the shortest path between the faces adja..." alt="" coords="225,71,396,112"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_min_s_t_cut_max_flow.html" title="Min&#45;st&#45;cut algorithm, that calculates the cut via maxflow." alt="" coords="221,136,400,177"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,75,172,119"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_min_s_t_cut_b_f_s.html" title="Min&#45;st&#45;cut algorithm, that calculates the cut by doing a depth first search over the dual graph of of..." alt="" coords="232,5,385,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,67,234,48,236,53,176,72"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_min_s_t_cut_dijkstra.html" title="Min&#45;st&#45;cut algorithm, that calculates the cut by calculating the shortest path between the faces adja..." alt="" coords="224,75,393,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,94,223,94,223,100,186,100"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_min_s_t_cut_max_flow.html" title="Min&#45;st&#45;cut algorithm, that calculates the cut via maxflow." alt="" coords="220,144,397,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="176,122,236,141,234,146,174,127"/>
 </map>

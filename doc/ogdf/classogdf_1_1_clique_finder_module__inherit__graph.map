@@ -1,5 +1,7 @@
 <map id="ogdf::CliqueFinderModule" name="ogdf::CliqueFinderModule">
-<area shape="rect" id="node1" title="Finds cliques." alt="" coords="114,5,301,32"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_clique_finder_heuristic.html" title="Finds cliques and dense subgraphs using a heuristic." alt="" coords="5,80,201,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_clique_finder_s_p_q_r.html" title="Finds cliques using SPQR trees." alt="" coords="226,80,399,107"/>
+<area shape="rect" id="Node000001" title="Finds cliques." alt="" coords="114,5,301,33"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_clique_finder_heuristic.html" title="Finds cliques and dense subgraphs using a heuristic." alt="" coords="5,81,202,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="179,44,123,83,120,78,176,40"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_clique_finder_s_p_q_r.html" title="Finds cliques using SPQR trees." alt="" coords="226,81,400,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="240,39,296,78,293,83,237,44"/>
 </map>

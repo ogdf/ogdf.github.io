@@ -23,15 +23,15 @@ var classogdf_1_1_up_s_a_t =
     [ "sortBySigma", "classogdf_1_1_up_s_a_t.html#a28b048164e488c40b313c6b19100c0bf", null ],
     [ "testUpwardPlanarity", "classogdf_1_1_up_s_a_t.html#a9ed97b1745a0e14cf02ad6ca71e168e9", null ],
     [ "writeNodeOrder", "classogdf_1_1_up_s_a_t.html#a7745dad46a1789075c57f551f92af7a1", null ],
-    [ "D", "classogdf_1_1_up_s_a_t.html#a22f2da2002e63c7f19ee2c2a3b3836e6", null ],
+    [ "D", "classogdf_1_1_up_s_a_t.html#a6a84fe2381123cd5a353cadaf499333e", null ],
     [ "feasibleOriginalEdges", "classogdf_1_1_up_s_a_t.html#afc644ea121eeb6ae7df7981334cfa272", null ],
     [ "M", "classogdf_1_1_up_s_a_t.html#af71f47df276ea824a572de0bca28295f", null ],
     [ "m_F", "classogdf_1_1_up_s_a_t.html#ae6b1e7fe5b388e9b6ef1ea436a2b15eb", null ],
     [ "m_G", "classogdf_1_1_up_s_a_t.html#a389e7461b636ae249075d5a63101025d", null ],
-    [ "mu", "classogdf_1_1_up_s_a_t.html#ae85efaa0f3239c4750fd1b8f91e2b3bf", null ],
+    [ "mu", "classogdf_1_1_up_s_a_t.html#a490c697e8c795ffb6c17ab441b6e23f9", null ],
     [ "N", "classogdf_1_1_up_s_a_t.html#a3200cbfdbfb3905e78a75a8c1e2c4e27", null ],
     [ "numberOfClauses", "classogdf_1_1_up_s_a_t.html#a450c1f4fc2b27acb5d69179b4585a0b2", null ],
     [ "numberOfVariables", "classogdf_1_1_up_s_a_t.html#a1e2ac7d170a6e8e717f12ac17eb744fd", null ],
-    [ "sigma", "classogdf_1_1_up_s_a_t.html#ac62e74d7c757e1a693e5c01e19580742", null ],
-    [ "tau", "classogdf_1_1_up_s_a_t.html#a972c0e0c416be2be3c2c52a64058d4c6", null ]
+    [ "sigma", "classogdf_1_1_up_s_a_t.html#ad146e8e5ca766dce2737d6f18ac8dbc0", null ],
+    [ "tau", "classogdf_1_1_up_s_a_t.html#adb6df257fd456c0cec18c5990e262773", null ]
 ];

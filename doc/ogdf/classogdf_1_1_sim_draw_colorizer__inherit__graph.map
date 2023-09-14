@@ -1,4 +1,5 @@
 <map id="ogdf::SimDrawColorizer" name="ogdf::SimDrawColorizer">
-<area shape="rect" id="node1" title="Adds color to a graph." alt="" coords="15,95,190,121"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_sim_draw_manipulator_module.html" title="Interface for simdraw manipulators." alt="" coords="5,5,200,47"/>
+<area shape="rect" id="Node000001" title="Adds color to a graph." alt="" coords="15,98,190,126"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_sim_draw_manipulator_module.html" title="Interface for simdraw manipulators." alt="" coords="5,5,200,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,65,105,97,100,97,100,65"/>
 </map>

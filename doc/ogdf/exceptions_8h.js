@@ -64,6 +64,7 @@ var exceptions_8h =
       [ "Unknown", "exceptions_8h.html#gga6af9bffecf5e8eb78fb1288985f6bc44a88183b946cc5f0e8c96b2e66e1c74a7e", null ],
       [ "Coin", "exceptions_8h.html#gga6af9bffecf5e8eb78fb1288985f6bc44aff45bd9a024c61169a542316bd7b3b1a", null ],
       [ "Abacus", "exceptions_8h.html#gga6af9bffecf5e8eb78fb1288985f6bc44ad8a2927c3ec2601aa797bd7f1636595b", null ],
+      [ "Cgal", "exceptions_8h.html#gga6af9bffecf5e8eb78fb1288985f6bc44ae0a7f62bec41effce0053b888f64debe", null ],
       [ "FunctionNotImplemented", "exceptions_8h.html#gga6af9bffecf5e8eb78fb1288985f6bc44abaf7f94d161b30d115ef5742a0913379", null ],
       [ "MissingCallbackImplementation", "exceptions_8h.html#gga6af9bffecf5e8eb78fb1288985f6bc44a93a8162dea1f27bae9d4aad5ea9588a6", null ],
       [ "STOP", "exceptions_8h.html#gga6af9bffecf5e8eb78fb1288985f6bc44a615a46af313786fc4e349f34118be111", null ]

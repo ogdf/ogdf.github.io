@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['jacaranda_23706',['jacaranda',['../md_doc_relnotes_jacaranda.html',1,'']]]
+  ['framework_0',['The Open Graph Drawing Framework',['../index.html',1,'']]],
+  ['functionality_1',['functionality',['../ex-basic.html',1,'Basic Functionality'],['../ex-special.html',1,'Special Functionality']]]
 ];

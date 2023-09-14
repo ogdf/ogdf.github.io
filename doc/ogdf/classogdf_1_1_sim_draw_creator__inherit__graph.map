@@ -1,5 +1,7 @@
 <map id="ogdf::SimDrawCreator" name="ogdf::SimDrawCreator">
-<area shape="rect" id="node1" title="Creates variety of possible SimDraw creations." alt="" coords="28,95,193,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_sim_draw_creator_simple.html" title="Offers predefined SimDraw creations." alt="" coords="5,169,216,196"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_sim_draw_manipulator_module.html" title="Interface for simdraw manipulators." alt="" coords="13,5,208,47"/>
+<area shape="rect" id="Node000001" title="Creates variety of possible SimDraw creations." alt="" coords="28,98,192,126"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_sim_draw_creator_simple.html" title="Offers predefined SimDraw creations." alt="" coords="5,174,215,201"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="113,141,113,173,107,173,107,141"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_sim_draw_manipulator_module.html" title="Interface for simdraw manipulators." alt="" coords="13,5,207,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,65,113,97,107,97,107,65"/>
 </map>

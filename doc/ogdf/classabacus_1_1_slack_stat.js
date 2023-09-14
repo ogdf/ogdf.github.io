@@ -11,6 +11,6 @@ var classabacus_1_1_slack_stat =
     [ "status", "classabacus_1_1_slack_stat.html#a91be3e53252b581205b8f3911e123758", null ],
     [ "status", "classabacus_1_1_slack_stat.html#a86e0776f9b6df66239024e619aba5a84", null ],
     [ "status", "classabacus_1_1_slack_stat.html#a7e801ccdf68273f6da71a78a3c76421f", null ],
-    [ "operator<<", "classabacus_1_1_slack_stat.html#ad8e062b366441cdcba19cc503ce1bb3c", null ],
+    [ "operator<<", "classabacus_1_1_slack_stat.html#a04cf883165c6ce595732496488e46c9f", null ],
     [ "status_", "classabacus_1_1_slack_stat.html#a6629106b002838be34586813bffad3c4", null ]
 ];

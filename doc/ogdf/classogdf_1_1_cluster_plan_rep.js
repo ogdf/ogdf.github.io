@@ -12,7 +12,7 @@ var classogdf_1_1_cluster_plan_rep =
     [ "expand", "classogdf_1_1_cluster_plan_rep.html#a5a08020b856d118fad9a661348fc7037", null ],
     [ "expandLowDegreeVertices", "classogdf_1_1_cluster_plan_rep.html#a954661e978791b54dcc9bcc8a748097d", null ],
     [ "externalAdj", "classogdf_1_1_cluster_plan_rep.html#a6f364bee9eadc749b3fc61b4608c5750", null ],
-    [ "getClusterGraph", "classogdf_1_1_cluster_plan_rep.html#aa4c7c06b03ad35266ee9efb9c801a4c0", null ],
+    [ "getClusterGraph", "classogdf_1_1_cluster_plan_rep.html#ac81e08e5884b12faa80c36a1a9cbed28", null ],
     [ "initCC", "classogdf_1_1_cluster_plan_rep.html#a70a47e4b4b1a42d8a0dea3be5fb180dc", null ],
     [ "insertBoundary", "classogdf_1_1_cluster_plan_rep.html#af523ff15cbae80cb317a56c1d3898025", null ],
     [ "insertEdgePathEmbedded", "classogdf_1_1_cluster_plan_rep.html#a555d0a5ac97814be75bfa3537c258b73", null ],

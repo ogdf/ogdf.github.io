@@ -1,7 +1,7 @@
 var classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner =
 [
     [ "LQPartitioner", "classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner.html#a34d4258645ee34e21d014cc942ccd33d", null ],
-    [ "currPartition", "classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner.html#a356a7a96023760887cfde57ebdd725c4", null ],
+    [ "currPartition", "classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner.html#a92f89d36f1a642d0593124f37b761d8b", null ],
     [ "newPartition", "classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner.html#a91b2abc246f706f16c9455428ba73dc9", null ],
     [ "newPartition", "classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner.html#a3f09c9c165c3bdf11ecef4fb0d5386ad", null ],
     [ "partition", "classogdf_1_1fast__multipole__embedder_1_1_l_q_partitioner.html#ac7b48e6805fe5cfd5b8a8a5fdbf2cbe2", null ],

@@ -1,7 +1,7 @@
 var _e_label_interface_8h =
 [
-    [ "EdgeLabel", "classogdf_1_1_edge_label.html", "classogdf_1_1_edge_label" ],
-    [ "ELabelInterface", "classogdf_1_1_e_label_interface.html", "classogdf_1_1_e_label_interface" ],
+    [ "ogdf::EdgeLabel< coordType >", "classogdf_1_1_edge_label.html", "classogdf_1_1_edge_label" ],
+    [ "ogdf::ELabelInterface< coordType >", "classogdf_1_1_e_label_interface.html", "classogdf_1_1_e_label_interface" ],
     [ "LabelType", "_e_label_interface_8h.html#a988d6b5d357551eca11cc845c15afb91", [
       [ "End1", "_e_label_interface_8h.html#a988d6b5d357551eca11cc845c15afb91a53051fb455b51fd0636f38ac88ee9a2c", null ],
       [ "Mult1", "_e_label_interface_8h.html#a988d6b5d357551eca11cc845c15afb91aa5b3f705bbf13ce8847f63db49c77f11", null ],

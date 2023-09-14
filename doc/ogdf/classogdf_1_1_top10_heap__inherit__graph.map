@@ -1,4 +1,7 @@
 <map id="ogdf::Top10Heap&lt; X, INDEX &gt;" name="ogdf::Top10Heap&lt; X, INDEX &gt;">
-<area shape="rect" id="node1" title="A variant of BinaryHeapSimple which always holds only the 10 elements with the highest keys." alt="" coords="15,95,174,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_binary_heap_simple.html" title=" " alt="" coords="5,5,184,47"/>
+<area shape="rect" id="Node000001" title="A variant of BinaryHeapSimple which always holds only the 10 elements with the highest keys." alt="" coords="41,98,199,143"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_deleting_top10_heap.html" title="A variant of Top10Heap which deletes the elements that get rejected from the heap." alt="" coords="5,191,235,252"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="123,157,123,190,117,190,117,157"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_binary_heap_simple.html" title="Dynamically growing binary heap tuned for efficiency on a small interface (compared to BinaryHeap)." alt="" coords="31,5,209,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,65,123,98,117,98,117,65"/>
 </map>

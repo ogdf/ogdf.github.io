@@ -1,5 +1,7 @@
 <map id="ogdf::SList&lt; E &gt;" name="ogdf::SList&lt; E &gt;">
-<area shape="rect" id="node1" title="Singly linked lists (maintaining the length of the list)." alt="" coords="20,80,147,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_queue.html" title="The parameterized class Queue&lt;E&gt; implements list&#45;based queues." alt="" coords="14,155,153,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_s_list_pure.html" title="Singly linked lists." alt="" coords="5,5,161,32"/>
+<area shape="rect" id="Node000001" title="Singly linked lists (maintaining the length of the list)." alt="" coords="20,81,146,109"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_queue.html" title="The parameterized class Queue&lt;E&gt; implements list&#45;based queues." alt="" coords="14,157,152,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="86,124,86,156,80,156,80,124"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_s_list_pure.html" title="Singly linked lists." alt="" coords="5,5,161,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,48,86,81,80,81,80,48"/>
 </map>

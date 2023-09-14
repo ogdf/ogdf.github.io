@@ -3,7 +3,7 @@ var classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std
     [ "MaximalPlanarSubgraphSimple", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#af6cc46f1bba7f3ce1cad7d9b7886d7db", null ],
     [ "MaximalPlanarSubgraphSimple", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a3a0d8ef4b2e82588d08fcbd618ffd2b7", null ],
     [ "~MaximalPlanarSubgraphSimple", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a791821ee19373f78c6c680fe8cdfae19", null ],
-    [ "clone", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#af32affeb8ce1eca019f8f4bf012b5603", null ],
+    [ "clone", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a9199030f98423705bf299cd11fa6067c", null ],
     [ "doCall", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a6fc71f7a82d6f7cb6f72b62dca3bbd82", null ],
     [ "setSeed", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a4d9bc88d92ec7361d8e10c621478d18f", null ],
     [ "weightOfList", "classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html#a3f30cad2b66437f1193b65daa533411e", null ],

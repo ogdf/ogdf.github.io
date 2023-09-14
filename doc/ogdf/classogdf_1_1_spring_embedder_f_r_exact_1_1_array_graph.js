@@ -3,7 +3,7 @@ var classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph =
     [ "ArrayGraph", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#a373b5f8fed94219349fdb8ced6437d25", null ],
     [ "~ArrayGraph", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#a7a7817e7db8dcf8eb075a1369af3902f", null ],
     [ "initCC", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#ac313f6f52f6c020ae88453b80800a5be", null ],
-    [ "nodesInCC", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#a40da0ed39d492a371562169f049877a9", null ],
+    [ "nodesInCC", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#a7ecb806ee938fa2acce5ffc36a0b5fd4", null ],
     [ "numberOfCCs", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#a3e20351b50361df21649aa5982d0e6cc", null ],
     [ "numberOfEdges", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#a3f99d120e5b56a10900cc6a18b46d3f2", null ],
     [ "numberOfNodes", "classogdf_1_1_spring_embedder_f_r_exact_1_1_array_graph.html#a6abaf1e2f1ce50f1bbc7f472951f83a7", null ],

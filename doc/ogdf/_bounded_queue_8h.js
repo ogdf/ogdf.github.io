@@ -1,4 +1,4 @@
 var _bounded_queue_8h =
 [
-    [ "operator<<", "_bounded_queue_8h.html#a6b848c0e24d34bd770b7777c66ce8c34", null ]
+    [ "operator<<", "_bounded_queue_8h.html#ad8501c8cf459c2ca6305b9d5b3a4111c", null ]
 ];

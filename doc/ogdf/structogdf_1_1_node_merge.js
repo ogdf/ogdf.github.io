@@ -8,7 +8,7 @@ var structogdf_1_1_node_merge =
     [ "m_doubleWeight", "structogdf_1_1_node_merge.html#ac8bdbb4ae276312e47c14896a140270e", null ],
     [ "m_level", "structogdf_1_1_node_merge.html#ab998cadab61269f4bd6a8cc47a2b61f5", null ],
     [ "m_mergedNode", "structogdf_1_1_node_merge.html#aac1d8da5a5893340726a7568d0de3dd6", null ],
-    [ "m_position", "structogdf_1_1_node_merge.html#a52985cacecce9bf17efd0b415dddc420", null ],
+    [ "m_position", "structogdf_1_1_node_merge.html#ac7f8f27aa11cd30dd01a44c6203aab16", null ],
     [ "m_radius", "structogdf_1_1_node_merge.html#a0ae014861dede37567258f2f477aa7eb", null ],
     [ "m_source", "structogdf_1_1_node_merge.html#ace7320bd952037d62c56e23a3423c79f", null ],
     [ "m_target", "structogdf_1_1_node_merge.html#a165bf8018da689c410750cf6283ac0b9", null ]

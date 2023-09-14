@@ -1,7 +1,7 @@
 var basic_8h =
 [
-    [ "BucketFunc", "classogdf_1_1_bucket_func.html", "classogdf_1_1_bucket_func" ],
-    [ "Initialization", "classogdf_1_1_initialization.html", "classogdf_1_1_initialization" ],
+    [ "ogdf::BucketFunc< E >", "classogdf_1_1_bucket_func.html", "classogdf_1_1_bucket_func" ],
+    [ "ogdf::Initialization", "classogdf_1_1_initialization.html", "classogdf_1_1_initialization" ],
     [ "OGDF_ASSERT", "group__macros.html#gaba9188896165f0dc2e3ad0ab69fab97c", null ],
     [ "OGDF_HEAVY_ASSERT", "group__macros.html#ga640a6d01cb763c1c6d8fba6314ecb1e6", null ],
     [ "OGDF_TRIVIALLY_COPYABLE", "basic_8h.html#a04faa135f8c489c4473a44c5c032cba6", null ],

@@ -5,7 +5,7 @@ var classogdf_1_1_cluster_graph_observer =
     [ "~ClusterGraphObserver", "classogdf_1_1_cluster_graph_observer.html#a2ef79ae777eb40b4103603ee56fe77ab", null ],
     [ "clusterAdded", "classogdf_1_1_cluster_graph_observer.html#a02601c18fbe17b3b298fb18e2dcb34b7", null ],
     [ "clusterDeleted", "classogdf_1_1_cluster_graph_observer.html#aa0dc4a2d5becc825ff470bef81ab982d", null ],
-    [ "getGraph", "classogdf_1_1_cluster_graph_observer.html#a92fcc0d4022e9338122c375f5ab61347", null ],
+    [ "getGraph", "classogdf_1_1_cluster_graph_observer.html#a7bad067aa674f10c01f213ac030d5a64", null ],
     [ "reregister", "classogdf_1_1_cluster_graph_observer.html#ad72f3753d1f065f8d414d355c79de39a", null ],
     [ "ClusterGraph", "classogdf_1_1_cluster_graph_observer.html#a2fc1b467e32d321f4f4cc2644bd228fb", null ],
     [ "m_itCGList", "classogdf_1_1_cluster_graph_observer.html#aebf7e0c008242ee1668a782b74f7c0a8", null ],

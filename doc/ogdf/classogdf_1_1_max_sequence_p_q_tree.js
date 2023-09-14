@@ -18,6 +18,6 @@ var classogdf_1_1_max_sequence_p_q_tree =
     [ "setAchildren", "classogdf_1_1_max_sequence_p_q_tree.html#aa7f1444ccb2d20d73ce65aa59f34ef42", null ],
     [ "setHchild", "classogdf_1_1_max_sequence_p_q_tree.html#aaed78df989b228e328ec29672ff8f9d7", null ],
     [ "sumPertChild", "classogdf_1_1_max_sequence_p_q_tree.html#a8db71efae9ad634d46bd54de3dde5b26", null ],
-    [ "cleanUp", "classogdf_1_1_max_sequence_p_q_tree.html#a7b703f2d5f773f3a066bfff9b3d0658d", null ],
-    [ "eliminatedNodes", "classogdf_1_1_max_sequence_p_q_tree.html#a72199a5f949db1e24e3d3bc8a3b04ab4", null ]
+    [ "cleanUp", "classogdf_1_1_max_sequence_p_q_tree.html#a97aa32d0121fa18e941689c9403edc61", null ],
+    [ "eliminatedNodes", "classogdf_1_1_max_sequence_p_q_tree.html#a706aadd372c771817f50645d1601fc14", null ]
 ];

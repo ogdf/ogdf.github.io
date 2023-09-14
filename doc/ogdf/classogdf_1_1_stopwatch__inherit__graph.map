@@ -1,5 +1,7 @@
 <map id="ogdf::Stopwatch" name="ogdf::Stopwatch">
-<area shape="rect" id="node1" title="Realizes a stopwatch for measuring elapsed time." alt="" coords="116,5,243,32"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_stopwatch_c_p_u.html" title="Implements a stopwatch measuring CPU time." alt="" coords="5,80,159,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_stopwatch_wall_clock.html" title="Implements a stopwatch measuring wall&#45;clock time." alt="" coords="183,80,373,107"/>
+<area shape="rect" id="Node000001" title="Realizes a stopwatch for measuring elapsed time." alt="" coords="116,5,242,33"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_stopwatch_c_p_u.html" title="Implements a stopwatch measuring CPU time." alt="" coords="5,81,158,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="152,44,100,83,97,78,148,40"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_stopwatch_wall_clock.html" title="Implements a stopwatch measuring wall&#45;clock time." alt="" coords="182,81,371,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,40,261,78,257,83,206,44"/>
 </map>

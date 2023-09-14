@@ -33,7 +33,7 @@ var classogdf_1_1_extract_kuratowskis =
     [ "isMinorE3", "classogdf_1_1_extract_kuratowskis.html#a18f57a7495d9b4925fc166071e1e157e", null ],
     [ "isMinorE4", "classogdf_1_1_extract_kuratowskis.html#a3a7c416dddae48c140c459e79d869f61", null ],
     [ "isMinorE5", "classogdf_1_1_extract_kuratowskis.html#a87febc68f64ab3b261a0392d709d5ad4", null ],
-    [ "operator=", "classogdf_1_1_extract_kuratowskis.html#a098348fbbc28e6ef9f6d125639ffc707", null ],
+    [ "operator=", "classogdf_1_1_extract_kuratowskis.html#a41761ab1e2a1c88ac610647dd3558cb0", null ],
     [ "truncateEdgelist", "classogdf_1_1_extract_kuratowskis.html#ace50c68bf692b11abfae0149b467e38c", null ],
     [ "whichKuratowski", "classogdf_1_1_extract_kuratowskis.html#a91560f057063e75a05f248b468044424", null ],
     [ "whichKuratowskiArray", "classogdf_1_1_extract_kuratowskis.html#aa2608ef2aa9f09ae9805451d3e8f53dc", null ],

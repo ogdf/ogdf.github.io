@@ -1,13 +1,13 @@
 <map id="include/ogdf/planarity/embedder" name="include/ogdf/planarity/embedder">
-<area shape="rect" id="node1" href="dir_09f0da65497f54ae5034f96b81596129.html" title="embedder" alt="" coords="118,52,206,100"/>
-<area shape="rect" id="node2" href="dir_276b97f0f3381e132cc907959177c1af.html" title="decomposition" alt="" coords="5,148,124,196"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000057_000023.html" title="3" alt="" coords="103,134,112,149"/>
-<area shape="rect" id="node3" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html" title="basic" alt="" coords="102,340,174,388"/>
-<area shape="rect" id="edge4-headlabel" href="dir_000057_000011.html" title="6" alt="" coords="173,324,183,338"/>
-<area shape="rect" id="node4" href="dir_5c3e22e53863203aa715a39f0bcb456b.html" title="graphalg" alt="" coords="99,244,177,292"/>
-<area shape="rect" id="edge5-headlabel" href="dir_000057_000036.html" title="1" alt="" coords="147,219,156,234"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000023_000011.html" title="7" alt="" coords="107,313,117,327"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000023_000036.html" title="1" alt="" coords="111,217,120,232"/>
-<area shape="rect" id="edge6-headlabel" href="dir_000036_000011.html" title="102" alt="" coords="134,314,159,329"/>
-<area shape="rect" id="clust1" href="dir_d50a3e54837dae900eaf432bdb34b2c1.html" title="planarity" alt="" coords="107,16,217,111"/>
+<area shape="rect" id="node1" href="dir_09f0da65497f54ae5034f96b81596129.html" title="embedder" alt="" coords="142,54,229,82"/>
+<area shape="rect" id="node2" href="dir_276b97f0f3381e132cc907959177c1af.html" title="decomposition" alt="" coords="5,130,123,158"/>
+<area shape="poly" id="edge1" href="dir_000019_000015.html" alt="" coords="165,85,99,124,96,120,162,80"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000019_000015.html" title="3" alt="" coords="101,119,109,136"/>
+<area shape="rect" id="node3" href="dir_5c3e22e53863203aa715a39f0bcb456b.html" title="graphalg" alt="" coords="146,130,225,158"/>
+<area shape="poly" id="edge2" href="dir_000019_000033.html" alt="" coords="188,83,188,115,183,115,183,83"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000019_000033.html" title="1" alt="" coords="190,103,198,120"/>
+<area shape="rect" id="node4" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html" title="basic" alt="" coords="248,130,304,158"/>
+<area shape="poly" id="edge3" href="dir_000019_000006.html" alt="" coords="203,80,251,119,247,123,200,85"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000019_000006.html" title="6" alt="" coords="247,103,255,120"/>
+<area shape="rect" id="clust1" href="dir_d50a3e54837dae900eaf432bdb34b2c1.html" title="planarity" alt="" coords="131,16,240,93"/>
 </map>

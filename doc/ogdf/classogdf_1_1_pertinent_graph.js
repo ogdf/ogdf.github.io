@@ -1,8 +1,8 @@
 var classogdf_1_1_pertinent_graph =
 [
     [ "PertinentGraph", "classogdf_1_1_pertinent_graph.html#a95935c52419724acacfb159f3ab17c66", null ],
-    [ "getGraph", "classogdf_1_1_pertinent_graph.html#a3631a09b43fdca3534e8213719679555", null ],
-    [ "getGraph", "classogdf_1_1_pertinent_graph.html#a45521533e2cdcea652164c1de555ab84", null ],
+    [ "getGraph", "classogdf_1_1_pertinent_graph.html#a9dd9b4f9c6e8901cec6ed97bdbb32ff2", null ],
+    [ "getGraph", "classogdf_1_1_pertinent_graph.html#a0178c4b9dae41390355f98784fa46d5c", null ],
     [ "init", "classogdf_1_1_pertinent_graph.html#a9d77ebdeab71a7c28a6c976e739dccd6", null ],
     [ "original", "classogdf_1_1_pertinent_graph.html#acbd6e3bf662e1a9095fdd48c2857191d", null ],
     [ "original", "classogdf_1_1_pertinent_graph.html#afcd934c779c102ff20e95c1777d4a1af", null ],

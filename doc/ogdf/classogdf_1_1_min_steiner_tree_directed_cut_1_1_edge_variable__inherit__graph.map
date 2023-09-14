@@ -1,6 +1,9 @@
 <map id="ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::EdgeVariable" name="ogdf::MinSteinerTreeDirectedCut&lt; T &gt;::EdgeVariable">
-<area shape="rect" id="node1" title="Variable for directed edges." alt="" coords="5,229,216,271"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format." alt="" coords="45,155,176,181"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="49,80,172,107"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="34,5,187,32"/>
+<area shape="rect" id="Node000001" title="Variable for directed edges." alt="" coords="5,232,215,277"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format." alt="" coords="46,157,174,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,199,113,232,107,232,107,199"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="49,81,171,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,124,113,156,107,156,107,124"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="34,5,186,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="113,48,113,81,107,81,107,48"/>
 </map>

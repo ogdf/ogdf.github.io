@@ -1,4 +1,5 @@
 <map id="ogdf::MinSteinerTreeGoemans139&lt; T &gt;" name="ogdf::MinSteinerTreeGoemans139&lt; T &gt;">
-<area shape="rect" id="node1" title="This class implements the (1.39+epsilon)&#45;approximation algorithm for the Steiner tree problem by Goem..." alt="" coords="5,80,284,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_min_steiner_tree_module.html" title="Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirec..." alt="" coords="24,5,265,32"/>
+<area shape="rect" id="Node000001" title="This class implements the (1.39+epsilon)&#45;approximation algorithm for the Steiner tree problem by Goem..." alt="" coords="5,81,284,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_min_steiner_tree_module.html" title="Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirec..." alt="" coords="24,5,265,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="147,48,147,81,142,81,142,48"/>
 </map>

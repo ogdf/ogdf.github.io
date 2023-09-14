@@ -1,4 +1,7 @@
 <map id="ogdf::ConstCombinatorialEmbedding" name="ogdf::ConstCombinatorialEmbedding">
-<area shape="rect" id="node1" title="Combinatorial embeddings of planar graphs." alt="" coords="23,5,210,47"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_combinatorial_embedding.html" title="Combinatorial embeddings of planar graphs with modification functionality." alt="" coords="5,95,228,121"/>
+<area shape="rect" id="Node000001" title="Combinatorial embeddings of planar graphs." alt="" coords="23,5,210,50"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_combinatorial_embedding.html" title="Combinatorial embeddings of planar graphs with modification functionality." alt="" coords="5,98,228,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,65,119,97,114,97,114,65"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_dual_graph_base.html" title="A dual graph including its combinatorial embedding of an embedded graph." alt="" coords="37,174,196,218"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,141,119,173,114,173,114,141"/>
 </map>

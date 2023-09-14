@@ -12,7 +12,7 @@ var classogdf_1_1_star_inserter =
     [ "initMemberData", "classogdf_1_1_star_inserter.html#ad822c69b3e16775a3235f34d6ba6085a", null ],
     [ "makePredsConsistent", "classogdf_1_1_star_inserter.html#a551c5f580e7aa90bee44294caed2427f", null ],
     [ "oldPrimalFace", "classogdf_1_1_star_inserter.html#af35c17021595ad6345b6d57de630e29c", null ],
-    [ "operator=", "classogdf_1_1_star_inserter.html#a0b02e26eca5dbebec52c56eb9211b1e1", null ],
+    [ "operator=", "classogdf_1_1_star_inserter.html#ac5a8bdd4749425d36068e0ded6f60108", null ],
     [ "transferCrossedEdges", "classogdf_1_1_star_inserter.html#a31b154667dacdf39fb6e73a678ac76e8", null ],
     [ "updateMemberData", "classogdf_1_1_star_inserter.html#a50cec53581176170d943cb1190afeefd", null ],
     [ "m_combEmbedding", "classogdf_1_1_star_inserter.html#a35e9d3f796548967d504ffda65504acd", null ],

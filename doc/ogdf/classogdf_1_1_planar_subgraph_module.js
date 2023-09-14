@@ -7,7 +7,7 @@ var classogdf_1_1_planar_subgraph_module =
     [ "call", "classogdf_1_1_planar_subgraph_module.html#af446c5c12dfaf50feebc755737a0d310", null ],
     [ "callAndDelete", "classogdf_1_1_planar_subgraph_module.html#aeac0383990e1e346f66ad7f59faa3b62", null ],
     [ "callAndDelete", "classogdf_1_1_planar_subgraph_module.html#a4391c65df9832e07d1d115eafc5dacd3", null ],
-    [ "clone", "classogdf_1_1_planar_subgraph_module.html#a1923e7d269d2cbd2eca8173faabb176c", null ],
+    [ "clone", "classogdf_1_1_planar_subgraph_module.html#ad486a1ed0a495e85e868c25fcfc1ea44", null ],
     [ "doCall", "classogdf_1_1_planar_subgraph_module.html#a3530c64e631c69c265f24da8d8bb6132", null ],
     [ "maxThreads", "classogdf_1_1_planar_subgraph_module.html#a2c5db3905839e49c32cec5b523549e3b", null ],
     [ "maxThreads", "classogdf_1_1_planar_subgraph_module.html#a3cff4a6407148686d5d8cc1b66ba7635", null ],

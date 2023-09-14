@@ -1,4 +1,5 @@
 <map id="abacus::LPVARSTAT" name="abacus::LPVARSTAT">
-<area shape="rect" id="node1" title="status of variables." alt="" coords="7,80,157,107"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,159,32"/>
+<area shape="rect" id="Node000001" title="status of variables." alt="" coords="8,81,155,109"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,158,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,48,84,81,79,81,79,48"/>
 </map>

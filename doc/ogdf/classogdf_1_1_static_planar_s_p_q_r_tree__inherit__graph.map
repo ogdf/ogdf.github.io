@@ -1,6 +1,10 @@
 <map id="ogdf::StaticPlanarSPQRTree" name="ogdf::StaticPlanarSPQRTree">
-<area shape="rect" id="node1" title="SPQR&#45;trees of planar graphs." alt="" coords="77,155,275,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_static_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees." alt="" coords="5,80,163,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees." alt="" coords="116,5,236,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs." alt="" coords="187,80,349,107"/>
+<area shape="rect" id="Node000001" title="SPQR&#45;trees of planar graphs." alt="" coords="76,157,272,184"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_static_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees." alt="" coords="5,81,161,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,116,159,154,156,158,109,120"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees." alt="" coords="115,5,233,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="148,44,101,83,97,78,145,40"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs." alt="" coords="185,81,344,109"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="203,40,250,78,247,83,199,44"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="239,120,191,158,188,154,235,116"/>
 </map>

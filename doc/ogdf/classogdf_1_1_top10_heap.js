@@ -9,7 +9,7 @@ var classogdf_1_1_top10_heap =
     [ "full", "classogdf_1_1_top10_heap.html#ad81cfbecbca09c8b176731003c5affeb", null ],
     [ "insert", "classogdf_1_1_top10_heap.html#ab756b75cbf64d1b3386738ef30c6ffe4", null ],
     [ "insertBlind", "classogdf_1_1_top10_heap.html#aa7360a45ebf9cb261f8a396994588182", null ],
-    [ "operator[]", "classogdf_1_1_top10_heap.html#a29caf18ca94dc39db9f0ea651736554b", null ],
+    [ "operator[]", "classogdf_1_1_top10_heap.html#a27763667826ab9995ff6d51876064624", null ],
     [ "push", "classogdf_1_1_top10_heap.html#a53082a02d7e3291591e7c4af07eeda1c", null ],
     [ "pushBlind", "classogdf_1_1_top10_heap.html#a72b4fa22c86a6b647b46dc065645555c", null ],
     [ "returnedSomething", "classogdf_1_1_top10_heap.html#a050f9ef340ab106e636814cf4261eb11", null ],

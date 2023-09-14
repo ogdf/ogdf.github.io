@@ -1,4 +1,5 @@
 <map id="ogdf::steiner_tree::SaveDynamic&lt; T &gt;" name="ogdf::steiner_tree::SaveDynamic&lt; T &gt;">
-<area shape="rect" id="node1" title="Dynamically updatable weighted Tree for determining save edges via LCA computation." alt="" coords="5,95,164,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1steiner__tree_1_1_save.html" title="This class serves as an interface for different approaches concerning the calculation of save edges." alt="" coords="17,5,153,47"/>
+<area shape="rect" id="Node000001" title="Dynamically updatable weighted Tree for determining save edges via LCA computation." alt="" coords="5,98,163,143"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1steiner__tree_1_1_save.html" title="This class serves as an interface for different approaches concerning the calculation of save edges." alt="" coords="16,5,152,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,65,87,98,81,98,81,65"/>
 </map>

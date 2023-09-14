@@ -1,4 +1,5 @@
 <map id="ogdf::ShellingOrderSet" name="ogdf::ShellingOrderSet">
-<area shape="rect" id="node1" title="The node set in a shelling order of a graph." alt="" coords="5,80,172,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_array.html" title=" " alt="" coords="11,5,166,32"/>
+<area shape="rect" id="Node000001" title="The node set in a shelling order of a graph." alt="" coords="5,81,172,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_array.html" title=" " alt="" coords="11,5,166,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,48,91,81,86,81,86,48"/>
 </map>

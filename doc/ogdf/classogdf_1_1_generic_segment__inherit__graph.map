@@ -1,4 +1,5 @@
 <map id="ogdf::GenericSegment&lt; PointType &gt;" name="ogdf::GenericSegment&lt; PointType &gt;">
-<area shape="rect" id="node1" title="Finite line segments." alt="" coords="5,95,172,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_generic_line.html" title="Infinite lines." alt="" coords="15,5,162,47"/>
+<area shape="rect" id="Node000001" title="Finite line segments." alt="" coords="5,98,171,143"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_generic_line.html" title="Infinite lines." alt="" coords="15,5,161,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,65,91,98,85,98,85,65"/>
 </map>

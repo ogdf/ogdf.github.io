@@ -12,5 +12,5 @@ var classogdf_1_1_leftist_ordering_1_1_partitioning =
     [ "numPartitions", "classogdf_1_1_leftist_ordering_1_1_partitioning.html#a142a5bd932193bcea9c607bc77233f10", null ],
     [ "pathLength", "classogdf_1_1_leftist_ordering_1_1_partitioning.html#a9a02b4f6a754132c451551e9d6dc48c1", null ],
     [ "right", "classogdf_1_1_leftist_ordering_1_1_partitioning.html#a81fb1694aaf9f9a0db4fcccb2183c5ef", null ],
-    [ "m_ears", "classogdf_1_1_leftist_ordering_1_1_partitioning.html#a83e92ebabad21ad13a5b54507b07ee45", null ]
+    [ "m_ears", "classogdf_1_1_leftist_ordering_1_1_partitioning.html#ad7923eb75c7e9ab3187c21c9a83ae0a4", null ]
 ];

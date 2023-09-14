@@ -1,6 +1,9 @@
 <map id="ogdf::booth_lueker::PlanarLeafKey&lt; X &gt;" name="ogdf::booth_lueker::PlanarLeafKey&lt; X &gt;">
-<area shape="rect" id="node1" title=" " alt="" coords="17,259,180,300"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_p_q_leaf_key.html" title=" " alt="" coords="9,169,188,211"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_p_q_basic_key.html" title=" " alt="" coords="5,80,192,121"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_p_q_basic_key_root.html" title="The class PQBasicKeyRoot is used as a base class of the class template basicKey." alt="" coords="16,5,181,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="14,266,175,311"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_p_q_leaf_key.html" title=" " alt="" coords="5,174,184,218"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,233,97,266,92,266,92,233"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_p_q_basic_key.html" title=" " alt="" coords="14,81,175,126"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,140,97,173,92,173,92,140"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_p_q_basic_key_root.html" title="The class PQBasicKeyRoot is used as a base class of the class template basicKey." alt="" coords="12,5,177,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,48,97,80,92,80,92,48"/>
 </map>

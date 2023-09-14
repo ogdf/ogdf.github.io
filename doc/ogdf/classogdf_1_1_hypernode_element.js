@@ -20,7 +20,7 @@ var classogdf_1_1_hypernode_element =
     [ "allHyperedges", "classogdf_1_1_hypernode_element.html#a9e5b2ff4547376245ee0167498461065", null ],
     [ "degree", "classogdf_1_1_hypernode_element.html#ac8e104abb62eccd3772e5bc18b43427c", null ],
     [ "firstAdj", "classogdf_1_1_hypernode_element.html#a8cdd7ef43c326ecb15c15bf64e83758c", null ],
-    [ "hypergraph", "classogdf_1_1_hypernode_element.html#a7f75c029e35b06005f7c5c284d83d8c6", null ],
+    [ "hypergraph", "classogdf_1_1_hypernode_element.html#a9281d9e81ce1ada634f3e3bfdbc3dacf", null ],
     [ "index", "classogdf_1_1_hypernode_element.html#a17fd600c2998efb4b8186e07380b3702", null ],
     [ "lastAdj", "classogdf_1_1_hypernode_element.html#a86ecd8d7bb6d6e8eb7e0a20e1a07d8f2", null ],
     [ "operator==", "classogdf_1_1_hypernode_element.html#afcf481021b5f028cd5b1f96440803388", null ],

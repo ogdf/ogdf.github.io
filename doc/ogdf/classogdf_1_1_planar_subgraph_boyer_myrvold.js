@@ -2,7 +2,7 @@ var classogdf_1_1_planar_subgraph_boyer_myrvold =
 [
     [ "PlanarSubgraphBoyerMyrvold", "classogdf_1_1_planar_subgraph_boyer_myrvold.html#acd4f07108d14afdace5701d29ae81090", null ],
     [ "~PlanarSubgraphBoyerMyrvold", "classogdf_1_1_planar_subgraph_boyer_myrvold.html#a08e7b22d553b6a65840fc3bcbb3a8a02", null ],
-    [ "clone", "classogdf_1_1_planar_subgraph_boyer_myrvold.html#af9e4a282cc9180a9144a9fc871ca117d", null ],
+    [ "clone", "classogdf_1_1_planar_subgraph_boyer_myrvold.html#a7df9f802326b761e0232a857ba89d06d", null ],
     [ "doCall", "classogdf_1_1_planar_subgraph_boyer_myrvold.html#a0c0680cb5544a158436069230b62c56c", null ],
     [ "isRemoved", "classogdf_1_1_planar_subgraph_boyer_myrvold.html#a633a118cb238e0960a1495fe249768b6", null ],
     [ "seed", "classogdf_1_1_planar_subgraph_boyer_myrvold.html#a6795952d5bb2f377cfac54a1ba053594", null ],

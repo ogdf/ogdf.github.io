@@ -1,7 +1,7 @@
 var structogdf_1_1_graph_i_o_1_1_file_type =
 [
     [ "FileType", "structogdf_1_1_graph_i_o_1_1_file_type.html#a3885aa1be4961989ce882156a60db700", null ],
-    [ "replaceAutoReaders", "structogdf_1_1_graph_i_o_1_1_file_type.html#a62a7cc1b70661e6a86e5ea4c609f3dfa", null ],
+    [ "replaceAutoReaders", "structogdf_1_1_graph_i_o_1_1_file_type.html#a72846b4608e54eccd0302125a9794c0d", null ],
     [ "attr_reader_func", "structogdf_1_1_graph_i_o_1_1_file_type.html#af1949c56e6b47be0503503f17c21bce2", null ],
     [ "attr_writer_func", "structogdf_1_1_graph_i_o_1_1_file_type.html#ad32e2a0465d952af3cbedfac43d1fafa", null ],
     [ "auto_attr_reader_func", "structogdf_1_1_graph_i_o_1_1_file_type.html#af37ef60867cd5e16efa759ff3422e4af", null ],

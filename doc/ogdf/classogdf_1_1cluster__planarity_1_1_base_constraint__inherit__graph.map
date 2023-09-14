@@ -1,8 +1,13 @@
 <map id="ogdf::cluster_planarity::BaseConstraint" name="ogdf::cluster_planarity::BaseConstraint">
-<area shape="rect" id="node1" title="Basic constraint type." alt="" coords="100,229,267,271"/>
-<area shape="rect" id="node5" href="$classogdf_1_1cluster__planarity_1_1_chunk_connection.html" title=" " alt="" coords="5,319,172,360"/>
-<area shape="rect" id="node6" href="$classogdf_1_1cluster__planarity_1_1_cut_constraint.html" title=" " alt="" coords="196,319,363,360"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format." alt="" coords="112,155,255,181"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="122,80,245,107"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="107,5,260,32"/>
+<area shape="rect" id="Node000001" title="Basic constraint type." alt="" coords="100,232,266,277"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1cluster__planarity_1_1_chunk_connection.html" title=" " alt="" coords="5,325,172,370"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="152,289,113,327,109,323,148,285"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1cluster__planarity_1_1_cut_constraint.html" title=" " alt="" coords="196,325,362,370"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="218,285,258,323,255,327,215,289"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format." alt="" coords="112,157,254,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,199,186,232,181,232,181,199"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="123,81,244,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="186,124,186,156,181,156,181,124"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="107,5,259,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="186,48,186,81,181,81,181,48"/>
 </map>

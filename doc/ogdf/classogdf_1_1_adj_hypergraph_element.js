@@ -4,7 +4,7 @@ var classogdf_1_1_adj_hypergraph_element =
     [ "AdjHypergraphElement", "classogdf_1_1_adj_hypergraph_element.html#ad381ab69bb88f86d3d8075803c875eed", null ],
     [ "cyclicPred", "classogdf_1_1_adj_hypergraph_element.html#ad1821727773c926acf9de67013516fb2", null ],
     [ "cyclicSucc", "classogdf_1_1_adj_hypergraph_element.html#a193a5a942d86fab5ef328d6525759833", null ],
-    [ "element", "classogdf_1_1_adj_hypergraph_element.html#a06d6886a9f37149eb7fb4ab658a6add6", null ],
+    [ "element", "classogdf_1_1_adj_hypergraph_element.html#ae37017d5bbc225fd35a86845a3412e4b", null ],
     [ "index", "classogdf_1_1_adj_hypergraph_element.html#a40e0b2e26b8d0a72eb3f9a7b2460d196", null ],
     [ "pred", "classogdf_1_1_adj_hypergraph_element.html#aab7c1b4ff213b3d0de8448f6092f50f0", null ],
     [ "succ", "classogdf_1_1_adj_hypergraph_element.html#a2c9671851d03158f53ec4fa370c1e96d", null ],

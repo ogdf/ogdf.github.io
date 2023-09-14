@@ -13,14 +13,14 @@ var classogdf_1_1davidson__harel_1_1_uniform_grid =
     [ "ModifiedBresenham", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ae3a0b5bf4e206565b8e768549a64a16f", null ],
     [ "newGridNecessary", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a41e63cd7099caf47d2c4be2de5022f1b", null ],
     [ "numberOfCrossings", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a7b94b0c50d7a399f855a1c262a47c633", null ],
-    [ "operator=", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a3600388be73645234a600608666ba27a", null ],
+    [ "operator=", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a0dca4ac8a798cf1674f4db4c3af7440f", null ],
     [ "m_cells", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a560e754c07a4296badbbe771cda575cc", null ],
     [ "m_CellSize", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a842c04a3b446090d99b2b889565a8dac", null ],
     [ "m_crossings", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a9973d3f80da16a70eb3659de3f4fe04c", null ],
     [ "m_crossNum", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ac1a1ddcd887876188bd75a1241b408fa", null ],
-    [ "m_edgeMultiplier", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a3a5ad5c87bee40d4b594f33e97720fb1", null ],
-    [ "m_epsilon", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ae720b88097c6fcd106e4b34df97fc2dc", null ],
+    [ "m_edgeMultiplier", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a19d570799a018bc99e1b4f164710885d", null ],
+    [ "m_epsilon", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#af0fbd50874cc20b2f02188bd4593d7bb", null ],
     [ "m_graph", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#ae4a153afcb25ede85b2d563f3de19095", null ],
-    [ "m_grid", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a8f20e407003680154ef969314515a861", null ],
+    [ "m_grid", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a5d77634da1b93e10ba4681b58ecb414b", null ],
     [ "m_layout", "classogdf_1_1davidson__harel_1_1_uniform_grid.html#a76b454ac45addffc0a8902783bf441b5", null ]
 ];

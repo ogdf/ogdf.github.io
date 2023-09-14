@@ -8,7 +8,7 @@ var classabacus_1_1_set_branch_rule =
     [ "setToUpperBound", "classabacus_1_1_set_branch_rule.html#af1a4028d01b1b1d514746ac606100b22", null ],
     [ "unExtract", "classabacus_1_1_set_branch_rule.html#a429c1d6b2a0debe3c2667277ceaebb81", null ],
     [ "variable", "classabacus_1_1_set_branch_rule.html#a46480b556e3ba4289a980d693b0f07b7", null ],
-    [ "operator<<", "classabacus_1_1_set_branch_rule.html#ac5c88dd0b2783401189b5258313f9940", null ],
+    [ "operator<<", "classabacus_1_1_set_branch_rule.html#a74f4a8006cca38945d100083c1574891", null ],
     [ "oldLpBound_", "classabacus_1_1_set_branch_rule.html#a0d5525dfa5fd860ef99a61cbd0d34ec6", null ],
     [ "status_", "classabacus_1_1_set_branch_rule.html#a7a36672fdafc3932ce99d9710160387e", null ],
     [ "variable_", "classabacus_1_1_set_branch_rule.html#a6827b0ecb9ac283518332f4cb534cd50", null ]

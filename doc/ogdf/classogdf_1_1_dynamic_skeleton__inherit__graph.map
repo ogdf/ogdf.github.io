@@ -1,4 +1,5 @@
 <map id="ogdf::DynamicSkeleton" name="ogdf::DynamicSkeleton">
-<area shape="rect" id="node1" title="Skeleton graphs of nodes in a dynamic SPQR&#45;tree." alt="" coords="5,80,177,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_skeleton.html" title="Skeleton graphs of nodes in an SPQR&#45;tree." alt="" coords="34,5,149,32"/>
+<area shape="rect" id="Node000001" title="Skeleton graphs of nodes in a dynamic SPQR&#45;tree." alt="" coords="5,81,177,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_skeleton.html" title="Skeleton graphs of nodes in an SPQR&#45;tree." alt="" coords="34,5,148,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="94,48,94,81,88,81,88,48"/>
 </map>

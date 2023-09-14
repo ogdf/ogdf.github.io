@@ -1,6 +1,9 @@
 <map id="abacus::SparVec" name="abacus::SparVec">
-<area shape="rect" id="node1" title="Sparse vectors." alt="" coords="73,80,203,107"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_column.html" title="Representation of variables in column format." alt="" coords="5,155,132,181"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_row.html" title="Representation of constraints in the row format." alt="" coords="157,155,261,181"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="61,5,215,32"/>
+<area shape="rect" id="Node000001" title="Sparse vectors." alt="" coords="74,81,201,109"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_column.html" title="Representation of variables in column format." alt="" coords="5,157,131,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="117,121,82,158,78,154,113,118"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_row.html" title="Representation of constraints in the row format." alt="" coords="155,157,258,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="161,118,196,154,192,158,158,121"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="61,5,214,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,48,140,81,135,81,135,48"/>
 </map>

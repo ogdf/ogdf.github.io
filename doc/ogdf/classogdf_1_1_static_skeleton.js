@@ -4,7 +4,7 @@ var classogdf_1_1_static_skeleton =
     [ "~StaticSkeleton", "classogdf_1_1_static_skeleton.html#a00a9dc4183db779d289d6f1ce86c0337", null ],
     [ "isVirtual", "classogdf_1_1_static_skeleton.html#ae02a99962558c3f66599b1b895ef6c0b", null ],
     [ "original", "classogdf_1_1_static_skeleton.html#ab25aad60c3e3e5e1adfa3724d55bcc11", null ],
-    [ "owner", "classogdf_1_1_static_skeleton.html#a50fefdbabbcbc79a760eab31a16b4efd", null ],
+    [ "owner", "classogdf_1_1_static_skeleton.html#ad347ab5ebc9f8775bbd92722493444a7", null ],
     [ "realEdge", "classogdf_1_1_static_skeleton.html#a9685bb20bfc4ace20fe17bfac405b1b9", null ],
     [ "treeEdge", "classogdf_1_1_static_skeleton.html#afd514f7efeb5eb68fcfc2c2978a8c0d9", null ],
     [ "twinEdge", "classogdf_1_1_static_skeleton.html#aecc324ba20eafedd0e4eed3ed2e29aae", null ],

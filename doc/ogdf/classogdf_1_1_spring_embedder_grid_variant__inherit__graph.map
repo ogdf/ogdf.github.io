@@ -1,5 +1,7 @@
 <map id="ogdf::SpringEmbedderGridVariant" name="ogdf::SpringEmbedderGridVariant">
-<area shape="rect" id="node1" title="The spring&#45;embedder layout algorithm with force approximation using hte grid variant approach." alt="" coords="5,169,197,211"/>
-<area shape="rect" id="node2" href="$classogdf_1_1spring__embedder_1_1_spring_embedder_base.html" title="Common base class for ogdf::SpringEmbedderBase and ogdf::SpringEmbedderGridVariant." alt="" coords="16,80,187,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="26,5,177,32"/>
+<area shape="rect" id="Node000001" title="The spring&#45;embedder layout algorithm with force approximation using hte grid variant approach." alt="" coords="5,174,197,218"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1spring__embedder_1_1_spring_embedder_base.html" title="Common base class for ogdf::SpringEmbedderBase and ogdf::SpringEmbedderGridVariant." alt="" coords="16,81,186,126"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,140,104,173,98,173,98,140"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="26,5,176,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,48,104,80,98,80,98,48"/>
 </map>

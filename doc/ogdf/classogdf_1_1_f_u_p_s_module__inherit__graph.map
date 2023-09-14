@@ -1,6 +1,9 @@
 <map id="ogdf::FUPSModule" name="ogdf::FUPSModule">
-<area shape="rect" id="node1" title="Interface for feasible upward planar subgraph algorithms." alt="" coords="88,80,228,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_f_u_p_s_simple.html" title=" " alt="" coords="5,155,143,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_maximal_f_u_p_s.html" title=" " alt="" coords="167,155,317,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="105,5,211,32"/>
+<area shape="rect" id="Node000001" title="Interface for feasible upward planar subgraph algorithms." alt="" coords="87,81,226,109"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_f_u_p_s_simple.html" title=" " alt="" coords="5,157,142,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="132,121,90,158,86,154,129,117"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_maximal_f_u_p_s.html" title=" " alt="" coords="166,157,314,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="184,117,227,154,224,158,180,121"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="104,5,209,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,48,159,81,154,81,154,48"/>
 </map>

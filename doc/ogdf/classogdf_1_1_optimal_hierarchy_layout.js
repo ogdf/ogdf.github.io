@@ -12,7 +12,7 @@ var classogdf_1_1_optimal_hierarchy_layout =
     [ "layerDistance", "classogdf_1_1_optimal_hierarchy_layout.html#a4aef6bda85aa865b91a5d08a757794e9", null ],
     [ "nodeDistance", "classogdf_1_1_optimal_hierarchy_layout.html#ad152725800d43477d14d3b766ed5682c", null ],
     [ "nodeDistance", "classogdf_1_1_optimal_hierarchy_layout.html#ae018ed941fce5f191a93b2566cfe2ed4", null ],
-    [ "operator=", "classogdf_1_1_optimal_hierarchy_layout.html#ac9fb640b7b86126550906b5fd5a06731", null ],
+    [ "operator=", "classogdf_1_1_optimal_hierarchy_layout.html#a0b859e0f294afb2913d9d46e7ed0fdeb", null ],
     [ "weightBalancing", "classogdf_1_1_optimal_hierarchy_layout.html#a959331dfc45f353489cae39d936fb7c1", null ],
     [ "weightBalancing", "classogdf_1_1_optimal_hierarchy_layout.html#a092729372d0a9c66627e3b695d17af4c", null ],
     [ "weightSegments", "classogdf_1_1_optimal_hierarchy_layout.html#a2a900065aa7f0016978557aecffb958b", null ],

@@ -1,5 +1,7 @@
 <map id="pugi::xml_writer" name="pugi::xml_writer">
-<area shape="rect" id="node1" title=" " alt="" coords="115,5,243,32"/>
-<area shape="rect" id="node2" href="$classpugi_1_1xml__writer__file.html" title=" " alt="" coords="5,80,161,107"/>
-<area shape="rect" id="node3" href="$classpugi_1_1xml__writer__stream.html" title=" " alt="" coords="186,80,367,107"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,5,242,33"/>
+<area shape="rect" id="Node000002" href="$classpugi_1_1xml__writer__file.html" title=" " alt="" coords="5,81,160,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,45,101,83,98,78,148,40"/>
+<area shape="rect" id="Node000003" href="$classpugi_1_1xml__writer__stream.html" title=" " alt="" coords="184,81,365,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="209,40,259,78,256,83,206,45"/>
 </map>

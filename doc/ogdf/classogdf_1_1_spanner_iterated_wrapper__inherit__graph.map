@@ -1,0 +1,11 @@
+<map id="ogdf::SpannerIteratedWrapper&lt; TWeight &gt;" name="ogdf::SpannerIteratedWrapper&lt; TWeight &gt;">
+<area shape="rect" id="Node000001" title="A implementation&#45;independed wrapper class to execute a spanner algorithm multiple times." alt="" coords="365,40,581,85"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_spanner_baswana_sen_iterated.html" title="Use the ogdf::SpannerIteratedWrapper to execute the ogdf::SpannerBaswanaSen algorithm up to 1000 time..." alt="" coords="629,5,874,50"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="596,44,629,40,629,46,596,50"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_spanner_elkin_neiman_iterated.html" title="Use the ogdf::SpannerIteratedWrapper to execute the ogdf::SpannerElkinNeiman algorithm up to 200 time..." alt="" coords="655,75,848,119"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="596,75,655,82,654,88,596,80"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_spanner_module.html" title="Interface for spanner algorithms." alt="" coords="159,40,317,85"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,60,365,60,365,65,332,65"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,49,111,76"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="126,60,158,60,158,65,126,65"/>
+</map>

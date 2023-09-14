@@ -16,5 +16,7 @@ var namespaceogdf_1_1energybased_1_1fmmm =
     [ "QuadTreeNM", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m.html", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_n_m" ],
     [ "QuadTreeNodeNM", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m.html", "classogdf_1_1energybased_1_1fmmm_1_1_quad_tree_node_n_m" ],
     [ "Rectangle", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle.html", "classogdf_1_1energybased_1_1fmmm_1_1_rectangle" ],
-    [ "Set", "classogdf_1_1energybased_1_1fmmm_1_1_set.html", "classogdf_1_1energybased_1_1fmmm_1_1_set" ]
+    [ "Set", "classogdf_1_1energybased_1_1fmmm_1_1_set.html", "classogdf_1_1energybased_1_1fmmm_1_1_set" ],
+    [ "calculate_forces_inside_contained_nodes", "namespaceogdf_1_1energybased_1_1fmmm.html#a745b3b323d108383d12abf2e163ef643", null ],
+    [ "OGDF_DECLARE_COMPARER", "namespaceogdf_1_1energybased_1_1fmmm.html#a4c0cad36099eb54675059159b88c8216", null ]
 ];

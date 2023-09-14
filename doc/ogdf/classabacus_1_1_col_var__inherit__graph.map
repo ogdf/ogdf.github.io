@@ -1,6 +1,9 @@
 <map id="abacus::ColVar" name="abacus::ColVar">
-<area shape="rect" id="node1" title="Some optimization problems, in particular column generation problems, are better described from a var..." alt="" coords="23,229,141,256"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format." alt="" coords="17,155,147,181"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="21,80,143,107"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,159,32"/>
+<area shape="rect" id="Node000001" title="Some optimization problems, in particular column generation problems, are better described from a var..." alt="" coords="23,232,140,260"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_variable.html" title="Forms the virtual base class for all possible variables given in pool format." alt="" coords="17,157,146,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,199,84,232,79,232,79,199"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="21,81,142,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="84,124,84,156,79,156,79,124"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,5,158,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="84,48,84,81,79,81,79,48"/>
 </map>

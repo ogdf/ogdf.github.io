@@ -1,8 +1,13 @@
 <map id="abacus::BranchRule" name="abacus::BranchRule">
-<area shape="rect" id="node1" title="Abstract base class for all branching rules." alt="" coords="207,81,357,108"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_bound_branch_rule.html" title="Implements a branching rule for modifying the lower and the upper bound of a variable." alt="" coords="405,5,596,32"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_con_branch_rule.html" title="Implements the branching by adding a constraint to the set of active constraints." alt="" coords="413,56,588,83"/>
-<area shape="rect" id="node5" href="$classabacus_1_1_set_branch_rule.html" title="Implements a branching rule for setting a binary variable to its lower or upper bound." alt="" coords="415,107,586,133"/>
-<area shape="rect" id="node6" href="$classabacus_1_1_val_branch_rule.html" title="Implements a branching rule for setting a variable to a certain value." alt="" coords="415,157,586,184"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,81,159,108"/>
+<area shape="rect" id="Node000001" title="Abstract base class for all branching rules." alt="" coords="206,84,355,112"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_bound_branch_rule.html" title="Implements a branching rule for modifying the lower and the upper bound of a variable." alt="" coords="403,5,593,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="324,75,402,43,441,31,442,36,404,48,326,80"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_con_branch_rule.html" title="Implements the branching by adding a constraint to the set of active constraints." alt="" coords="411,57,585,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="369,84,410,79,411,85,370,90"/>
+<area shape="rect" id="Node000005" href="$classabacus_1_1_set_branch_rule.html" title="Implements a branching rule for setting a binary variable to its lower or upper bound." alt="" coords="413,109,583,137"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="370,105,413,111,412,116,369,111"/>
+<area shape="rect" id="Node000006" href="$classabacus_1_1_val_branch_rule.html" title="Implements a branching rule for setting a variable to a certain value." alt="" coords="414,161,583,189"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="328,116,404,146,443,158,441,163,402,151,326,121"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="5,84,158,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,95,206,95,206,101,173,101"/>
 </map>

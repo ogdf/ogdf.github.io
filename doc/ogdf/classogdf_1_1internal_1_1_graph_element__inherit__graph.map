@@ -1,11 +1,19 @@
 <map id="ogdf::internal::GraphElement" name="ogdf::internal::GraphElement">
-<area shape="rect" id="node1" title="The base class for objects used by (hyper)graphs." alt="" coords="5,183,215,209"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_adj_element.html" title="Class for adjacency list elements." alt="" coords="301,5,434,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_adj_hypergraph_element.html" title="Class for adjacency list elements." alt="" coords="263,56,472,83"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_cluster_element.html" title="Representation of clusters in a clustered graph." alt="" coords="288,107,447,133"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_edge_element.html" title="Class for the representation of edges." alt="" coords="295,157,439,184"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_face_element.html" title="Faces in a combinatorial embedding." alt="" coords="296,208,439,235"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_hyperedge_element.html" title="Class for the representation of hyperedges." alt="" coords="276,259,459,285"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_hypernode_element.html" title="Class for the representation of hypernodes." alt="" coords="276,309,459,336"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_node_element.html" title="Class for the representation of nodes." alt="" coords="294,360,441,387"/>
+<area shape="rect" id="Node000001" title="The base class for objects used by (hyper)graphs." alt="" coords="5,188,214,216"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_adj_element.html" title="Class for adjacency list elements." alt="" coords="300,5,432,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,174,181,109,218,73,260,44,298,28,300,33,263,48,222,78,185,112,131,178"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_adj_hypergraph_element.html" title="Class for adjacency list elements." alt="" coords="262,57,470,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="137,176,192,135,261,95,294,83,296,88,263,100,195,139,140,180"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_cluster_element.html" title="Representation of clusters in a clustered graph." alt="" coords="287,109,445,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="162,180,261,147,305,135,306,140,262,152,164,185"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_edge_element.html" title="Class for the representation of edges." alt="" coords="294,161,438,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="228,187,293,180,294,185,229,192"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_face_element.html" title="Faces in a combinatorial embedding." alt="" coords="296,213,436,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="228,211,295,218,295,223,228,216"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_hyperedge_element.html" title="Class for the representation of hyperedges." alt="" coords="275,265,457,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="166,218,262,250,307,262,305,267,261,255,164,224"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_hypernode_element.html" title="Class for the representation of hypernodes." alt="" coords="275,317,457,345"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="141,223,195,264,263,302,296,314,294,319,261,307,192,268,137,228"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_node_element.html" title="Class for the representation of nodes." alt="" coords="293,369,439,397"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="131,226,185,291,222,325,263,354,294,368,292,372,260,359,219,329,181,295,127,230"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="ogdf::FaceSinkGraph" name="ogdf::FaceSinkGraph">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,160,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="34,5,131,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,159,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="34,5,130,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,48,85,81,79,81,79,48"/>
 </map>

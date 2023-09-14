@@ -1,6 +1,9 @@
 <map id="ogdf::cluster_planarity::MaxCPlanarMaster" name="ogdf::cluster_planarity::MaxCPlanarMaster">
-<area shape="rect" id="node1" title=" " alt="" coords="5,229,172,271"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_master.html" title="The master of the optimization." alt="" coords="28,155,149,181"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_abacus_global.html" title="Global data and functions." alt="" coords="6,80,171,107"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="12,5,165,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,232,172,277"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_master.html" title="The master of the optimization." alt="" coords="28,157,149,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,199,91,232,86,232,86,199"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_abacus_global.html" title="Global data and functions." alt="" coords="6,81,171,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,124,91,156,86,156,86,124"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="12,5,165,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="91,48,91,81,86,81,86,48"/>
 </map>

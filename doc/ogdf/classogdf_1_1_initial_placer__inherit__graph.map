@@ -1,9 +1,15 @@
 <map id="ogdf::InitialPlacer" name="ogdf::InitialPlacer">
-<area shape="rect" id="node1" title="Base class for placer modules." alt="" coords="5,132,140,159"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_barycenter_placer.html" title="The barycenter placer for multilevel layout." alt="" coords="188,5,357,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_circle_placer.html" title="The circle placer for multilevel layout." alt="" coords="205,56,340,83"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_median_placer.html" title="The median placer for multilevel layout." alt="" coords="199,107,346,133"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_random_placer.html" title="The random placer for multilevel layout." alt="" coords="197,157,349,184"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_solar_placer.html" title="The solar placer for multilevel layout." alt="" coords="207,208,338,235"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_zero_placer.html" title="The zero placer for multilevel layout." alt="" coords="209,259,337,285"/>
+<area shape="rect" id="Node000001" title="Base class for placer modules." alt="" coords="5,136,140,164"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_barycenter_placer.html" title="The barycenter placer for multilevel layout." alt="" coords="188,5,356,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,123,134,83,186,44,213,31,215,36,189,48,137,87,97,127"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_circle_placer.html" title="The circle placer for multilevel layout." alt="" coords="205,57,339,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,127,187,95,222,83,223,88,189,100,117,132"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_median_placer.html" title="The median placer for multilevel layout." alt="" coords="199,109,345,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="154,136,198,130,199,136,155,142"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_random_placer.html" title="The random placer for multilevel layout." alt="" coords="196,161,348,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="154,158,196,163,195,168,154,163"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_solar_placer.html" title="The solar placer for multilevel layout." alt="" coords="207,213,337,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="118,168,189,198,224,210,222,215,187,203,116,173"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_zero_placer.html" title="The zero placer for multilevel layout." alt="" coords="208,265,336,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="97,173,138,212,189,250,216,262,214,267,186,255,134,216,94,176"/>
 </map>

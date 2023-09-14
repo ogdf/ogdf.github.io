@@ -1,6 +1,9 @@
 <map id="ogdf::CPlanarSubgraphModule" name="ogdf::CPlanarSubgraphModule">
-<area shape="rect" id="node1" title="Interface of algorithms for the computation of c&#45;planar subgraphs." alt="" coords="19,80,237,107"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_maximum_c_planar_subgraph.html" title="Exact computation of a maximum c&#45;planar subgraph." alt="" coords="11,155,245,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,112,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="137,5,261,32"/>
+<area shape="rect" id="Node000001" title="Interface of algorithms for the computation of c&#45;planar subgraphs." alt="" coords="19,81,236,109"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_maximum_c_planar_subgraph.html" title="Exact computation of a maximum c&#45;planar subgraph." alt="" coords="10,157,245,184"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="130,124,130,156,125,156,125,124"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,5,111,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,42,117,79,113,82,78,46"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="135,5,259,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="176,46,142,82,138,79,173,42"/>
 </map>

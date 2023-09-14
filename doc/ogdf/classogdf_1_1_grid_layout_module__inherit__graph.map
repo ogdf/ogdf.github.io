@@ -1,12 +1,21 @@
 <map id="ogdf::GridLayoutModule" name="ogdf::GridLayoutModule">
-<area shape="rect" id="node1" title="Base class for grid layout algorithms." alt="" coords="204,132,381,159"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_planar_grid_layout_module.html" title="Base class for planar grid layout algorithms." alt="" coords="429,107,648,133"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_planarization_grid_layout.html" title="The planarization grid layout algorithm." alt="" coords="431,157,646,184"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="5,132,156,159"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_f_p_p_layout.html" title="The class FPPLayout represents the layout algorithm by de Fraysseix, Pach, Pollack [DPP90]." alt="" coords="748,5,875,32"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_grid_layout_plan_rep_module.html" title="Base class for grid layout algorithms operating on a PlanRep." alt="" coords="696,56,927,83"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_planar_draw_layout.html" title="Implementation of the Planar&#45;Draw layout algorithm." alt="" coords="723,107,900,133"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_planar_straight_layout.html" title="Implementation of the Planar&#45;Straight layout algorithm." alt="" coords="714,157,909,184"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_schnyder_layout.html" title="The class SchnyderLayout represents the layout algorithm by Schnyder [Sch90]." alt="" coords="730,208,893,235"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_mixed_model_layout.html" title="Implementation of the Mixed&#45;Model layout algorithm." alt="" coords="975,56,1157,83"/>
+<area shape="rect" id="Node000001" title="Base class for grid layout algorithms." alt="" coords="203,136,379,164"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_planar_grid_layout_module.html" title="Base class for planar grid layout algorithms." alt="" coords="427,109,644,137"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="394,136,426,132,427,138,394,141"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_planarization_grid_layout.html" title="The planarization grid layout algorithm." alt="" coords="429,161,642,189"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="394,158,429,161,428,167,394,163"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="5,136,155,164"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,147,202,147,202,153,170,153"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_f_p_p_layout.html" title="The class FPPLayout represents the layout algorithm by de Fraysseix, Pach, Pollack [DPP90]." alt="" coords="744,5,870,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="573,99,628,71,691,43,743,28,744,34,693,48,630,75,575,104"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_grid_layout_plan_rep_module.html" title="Base class for grid layout algorithms operating on a PlanRep." alt="" coords="692,57,922,85"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="626,103,730,83,731,88,627,109"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_planar_draw_layout.html" title="Implementation of the Planar&#45;Draw layout algorithm." alt="" coords="719,109,895,137"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="659,121,719,121,719,126,659,126"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_planar_straight_layout.html" title="Implementation of the Planar&#45;Straight layout algorithm." alt="" coords="710,161,904,189"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="627,138,731,158,730,163,626,143"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_schnyder_layout.html" title="The class SchnyderLayout represents the layout algorithm by Schnyder [Sch90]." alt="" coords="726,213,888,241"/>
+<area shape="poly" id="edge8_Node000003_Node000009" title=" " alt="" coords="632,141,646,148,661,160,670,174,679,186,694,198,727,212,725,217,691,203,675,190,666,177,657,164,643,152,629,145"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_mixed_model_layout.html" title="Implementation of the Mixed&#45;Model layout algorithm." alt="" coords="970,57,1150,85"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="937,69,969,69,969,74,937,74"/>
 </map>

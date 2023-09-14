@@ -1,6 +1,6 @@
 var classogdf_1_1_radix_heap =
 [
-    [ "Bucket", "classogdf_1_1_radix_heap.html#a3f4f6db3143ef3178f76714eb3a86892", null ],
+    [ "Bucket", "classogdf_1_1_radix_heap.html#acf8676660e5249a00bf987dd395711fe", null ],
     [ "RadixHeap", "classogdf_1_1_radix_heap.html#abf22439c2d90d52d470d42aa3426bbfb", null ],
     [ "~RadixHeap", "classogdf_1_1_radix_heap.html#a4f974341a2f490ee63e43ce0be01b93a", null ],
     [ "empty", "classogdf_1_1_radix_heap.html#ac149a45b94d7d816eb7a4d0ae1137b27", null ],

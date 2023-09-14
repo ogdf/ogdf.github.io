@@ -1,0 +1,7 @@
+<map id="ogdf::SeparatorDualFC" name="ogdf::SeparatorDualFC">
+<area shape="rect" id="Node000001" title="Computes planar separators by applying the Fundamental Cycle Lemma directly, without trying tree leve..." alt="" coords="30,157,197,184"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_separator_lipton_tarjan_f_c.html" title="Computes planar separators using Fundamental Cycles." alt="" coords="5,81,222,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="116,124,116,156,111,156,111,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_planar_separator_module.html" title="Abstract description of all planar separator algorithms." alt="" coords="9,5,218,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="116,48,116,81,111,81,111,48"/>
+</map>

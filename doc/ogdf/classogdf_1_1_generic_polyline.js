@@ -7,7 +7,7 @@ var classogdf_1_1_generic_polyline =
     [ "normalize", "classogdf_1_1_generic_polyline.html#af1d1ce927d09a7fd1de5e4694a5799c2", null ],
     [ "normalize", "classogdf_1_1_generic_polyline.html#a7d0df7812a5d4c627513f7912400fbd6", null ],
     [ "normalizeUnified", "classogdf_1_1_generic_polyline.html#ab26e77071ad4ea4400633bd2760d954d", null ],
-    [ "operator=", "classogdf_1_1_generic_polyline.html#a6d55077891c9f4e6fd0184b89658bdda", null ],
+    [ "operator=", "classogdf_1_1_generic_polyline.html#a1a5696fa4f4570a034974ead109a2e84", null ],
     [ "position", "classogdf_1_1_generic_polyline.html#a066aead4dbcd23af1550b02a786af2ca", null ],
     [ "unify", "classogdf_1_1_generic_polyline.html#a9f1cf1e7e34d45f637e13257ccede6ce", null ]
 ];

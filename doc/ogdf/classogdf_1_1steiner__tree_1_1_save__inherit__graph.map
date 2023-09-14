@@ -1,6 +1,9 @@
 <map id="ogdf::steiner_tree::Save&lt; T &gt;" name="ogdf::steiner_tree::Save&lt; T &gt;">
-<area shape="rect" id="node1" title="This class serves as an interface for different approaches concerning the calculation of save edges." alt="" coords="5,71,141,112"/>
-<area shape="rect" id="node2" href="$classogdf_1_1steiner__tree_1_1_save_dynamic.html" title="Dynamically updatable weighted Tree for determining save edges via LCA computation." alt="" coords="189,5,348,47"/>
-<area shape="rect" id="node3" href="$classogdf_1_1steiner__tree_1_1_save_enum.html" title="This class computes save edges recursively and stores for every node pair their save edge in a HashAr..." alt="" coords="200,71,337,112"/>
-<area shape="rect" id="node4" href="$classogdf_1_1steiner__tree_1_1_save_static.html" title="This class behaves basically the same as SaveDynamic except that the update of the weighted graph is ..." alt="" coords="200,136,337,177"/>
+<area shape="rect" id="Node000001" title="This class serves as an interface for different approaches concerning the calculation of save edges." alt="" coords="5,75,141,119"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1steiner__tree_1_1_save_dynamic.html" title="Dynamically updatable weighted Tree for determining save edges via LCA computation." alt="" coords="189,5,346,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,67,202,48,204,53,152,72"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1steiner__tree_1_1_save_enum.html" title="This class computes save edges recursively and stores for every node pair their save edge in a HashAr..." alt="" coords="199,75,336,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="155,94,199,94,199,100,155,100"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1steiner__tree_1_1_save_static.html" title="This class behaves basically the same as SaveDynamic except that the update of the weighted graph is ..." alt="" coords="199,144,336,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="152,122,204,141,202,146,150,127"/>
 </map>

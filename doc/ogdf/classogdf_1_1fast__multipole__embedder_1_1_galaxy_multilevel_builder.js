@@ -2,7 +2,7 @@ var classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder =
 [
     [ "LevelNodeState", "structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder_1_1_level_node_state.html", "structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder_1_1_level_node_state" ],
     [ "NodeOrderInfo", "structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder_1_1_node_order_info.html", "structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder_1_1_node_order_info" ],
-    [ "build", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder.html#a377b979c7abcb945f21cf62fda3d6f5d", null ],
+    [ "build", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder.html#a26b043fc631cef9d1fbe93613101eabe", null ],
     [ "computeSystemMass", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder.html#a89cff9d410a88f84c55f038c24ac1d44", null ],
     [ "createResult", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder.html#a50dfad720d2ae280d4922fcc04d5a602", null ],
     [ "labelSystem", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_builder.html#aa8a4a9a9041f1d532eb611aca4e37540", null ],

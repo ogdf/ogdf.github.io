@@ -1,9 +1,9 @@
 var _ortho_rep_8h =
 [
-    [ "BendString", "classogdf_1_1_bend_string.html", "classogdf_1_1_bend_string" ],
-    [ "OrthoRep", "classogdf_1_1_ortho_rep.html", "classogdf_1_1_ortho_rep" ],
-    [ "SideInfoUML", "structogdf_1_1_ortho_rep_1_1_side_info_u_m_l.html", "structogdf_1_1_ortho_rep_1_1_side_info_u_m_l" ],
-    [ "VertexInfoUML", "structogdf_1_1_ortho_rep_1_1_vertex_info_u_m_l.html", "structogdf_1_1_ortho_rep_1_1_vertex_info_u_m_l" ],
+    [ "ogdf::BendString", "classogdf_1_1_bend_string.html", "classogdf_1_1_bend_string" ],
+    [ "ogdf::OrthoRep", "classogdf_1_1_ortho_rep.html", "classogdf_1_1_ortho_rep" ],
+    [ "ogdf::OrthoRep::SideInfoUML", "structogdf_1_1_ortho_rep_1_1_side_info_u_m_l.html", "structogdf_1_1_ortho_rep_1_1_side_info_u_m_l" ],
+    [ "ogdf::OrthoRep::VertexInfoUML", "structogdf_1_1_ortho_rep_1_1_vertex_info_u_m_l.html", "structogdf_1_1_ortho_rep_1_1_vertex_info_u_m_l" ],
     [ "OrthoBendType", "_ortho_rep_8h.html#ad107a6e5a6c9c18a8a8f9218c27909c2", [
       [ "convexBend", "_ortho_rep_8h.html#ad107a6e5a6c9c18a8a8f9218c27909c2ab1f3def4a061f3cc82ed8f18bebee473", null ],
       [ "reflexBend", "_ortho_rep_8h.html#ad107a6e5a6c9c18a8a8f9218c27909c2a5a9777fde2b9ba472ba606c8b2548fd5", null ]

@@ -1,4 +1,5 @@
 <map id="ogdf::BoyerMyrvold" name="ogdf::BoyerMyrvold">
-<area shape="rect" id="node1" title="Wrapper class used for preprocessing and valid invocation of the planarity test." alt="" coords="13,80,162,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_planarity_module.html" title="Module for planarity testing and planar embeddings." alt="" coords="5,5,169,32"/>
+<area shape="rect" id="Node000001" title="Wrapper class used for preprocessing and valid invocation of the planarity test." alt="" coords="13,81,161,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_planarity_module.html" title="Module for planarity testing and planar embeddings." alt="" coords="5,5,169,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,48,90,81,84,81,84,48"/>
 </map>

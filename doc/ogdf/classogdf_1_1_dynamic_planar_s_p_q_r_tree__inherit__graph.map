@@ -1,9 +1,16 @@
 <map id="ogdf::DynamicPlanarSPQRTree" name="ogdf::DynamicPlanarSPQRTree">
-<area shape="rect" id="node1" title="SPQR&#45;trees of planar graphs." alt="" coords="89,304,307,331"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_dynamic_s_p_q_r_tree.html" title="Linear&#45;time implementation of dynamic SPQR&#45;trees." alt="" coords="11,229,190,256"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees." alt="" coords="227,155,347,181"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs." alt="" coords="215,229,376,256"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_dynamic_s_p_q_r_forest.html" title="Dynamic SPQR&#45;forest." alt="" coords="5,155,196,181"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_dynamic_b_c_tree.html" title="Dynamic BC&#45;trees." alt="" coords="20,80,181,107"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_b_c_tree.html" title="Static BC&#45;trees." alt="" coords="49,5,152,32"/>
+<area shape="rect" id="Node000001" title="SPQR&#45;trees of planar graphs." alt="" coords="88,308,305,336"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_dynamic_s_p_q_r_tree.html" title="Linear&#45;time implementation of dynamic SPQR&#45;trees." alt="" coords="12,232,189,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,267,181,305,178,310,128,272"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_s_p_q_r_tree.html" title="Linear&#45;time implementation of static SPQR&#45;trees." alt="" coords="227,157,345,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="240,193,134,234,132,229,238,188"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_planar_s_p_q_r_tree.html" title="SPQR&#45;trees of planar graphs." alt="" coords="213,232,372,260"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="291,199,294,232,289,232,286,200"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_dynamic_s_p_q_r_forest.html" title="Dynamic SPQR&#45;forest." alt="" coords="5,157,196,184"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="103,199,103,232,98,232,98,199"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_dynamic_b_c_tree.html" title="Dynamic BC&#45;trees." alt="" coords="20,81,181,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="103,124,103,156,98,156,98,124"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_b_c_tree.html" title="Static BC&#45;trees." alt="" coords="49,5,152,33"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="103,48,103,81,98,81,98,48"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="265,272,215,310,212,305,262,267"/>
 </map>

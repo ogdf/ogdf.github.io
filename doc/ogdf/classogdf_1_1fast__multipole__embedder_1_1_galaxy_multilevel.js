@@ -2,7 +2,7 @@ var classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel =
 [
     [ "LevelEdgeInfo", "structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_1_1_level_edge_info.html", "structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_1_1_level_edge_info" ],
     [ "LevelNodeInfo", "structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_1_1_level_node_info.html", "structogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel_1_1_level_node_info" ],
-    [ "NearSunList", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel.html#a58b9f93007a909849585dae87f4ad9c0", null ],
+    [ "NearSunList", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel.html#a6f10a033d4ed531671d915ba4f7dc087", null ],
     [ "GalaxyMultilevel", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel.html#a2d5e388e10682e6ba0d027fabb754c88", null ],
     [ "GalaxyMultilevel", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel.html#a1b0683e851bec98c615363c1289569a2", null ],
     [ "~GalaxyMultilevel", "classogdf_1_1fast__multipole__embedder_1_1_galaxy_multilevel.html#ad0b8834e1ab2f712245becd039a9cfa4", null ],

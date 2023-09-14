@@ -1,0 +1,7 @@
+<map id="ogdf::SeparatorDual" name="ogdf::SeparatorDual">
+<area shape="rect" id="Node000001" title="Computes planar separators using the Dual of the graph." alt="" coords="35,157,185,184"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_separator_lipton_tarjan.html" title="Computes planar separators according to Lipton and Tarjan 1979." alt="" coords="10,81,210,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,124,113,156,107,156,107,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_planar_separator_module.html" title="Abstract description of all planar separator algorithms." alt="" coords="5,5,215,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="113,48,113,81,107,81,107,48"/>
+</map>

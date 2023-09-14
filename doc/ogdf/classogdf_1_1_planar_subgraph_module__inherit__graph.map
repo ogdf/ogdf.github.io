@@ -1,13 +1,23 @@
 <map id="ogdf::PlanarSubgraphModule&lt; TCost &gt;" name="ogdf::PlanarSubgraphModule&lt; TCost &gt;">
-<area shape="rect" id="node1" title="Interface for planar subgraph algorithms." alt="" coords="177,290,385,331"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html" title=" " alt="" coords="438,5,655,91"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html" title="Naive maximal planar subgraph approach that extends a configurable non&#45;maximal subgraph heuristic." alt="" coords="438,115,655,200"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_maximum_planar_subgraph.html" title="Exact computation of a maximum planar subgraph." alt="" coords="433,225,660,266"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_planar_subgraph_empty.html" title="Dummy implementation for maximum planar subgraph that returns an empty graph." alt="" coords="445,290,648,331"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_planar_subgraph_fast.html" title="Computation of a planar subgraph using PQ&#45;trees." alt="" coords="453,355,640,397"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_planar_subgraph_tree.html" title="Maximum planar subgraph heuristic that yields a spanning tree." alt="" coords="453,421,640,462"/>
-<area shape="rect" id="node10" href="$classogdf_1_1_planar_subgraph_triangles.html" title="Maximum planar subgraph approximation algorithms by Chalermsook/Schmid and Calinescu et al." alt="" coords="437,486,656,527"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="14,272,121,299"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="5,323,129,349"/>
-<area shape="rect" id="node11" href="$classogdf_1_1_planar_subgraph_cactus.html" title="Maximum planar subgraph approximation algorithm by Calinescu et al." alt="" coords="708,486,912,527"/>
+<area shape="rect" id="Node000001" title="Interface for planar subgraph algorithms." alt="" coords="178,315,385,360"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s5982fb5732466e946f3b38912ef759e3.html" title=" " alt="" coords="438,5,654,101"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="297,300,350,209,388,157,431,111,446,99,449,103,435,115,392,161,355,211,302,303"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_maximal_planar_subgraph_simple_3_01_t_cost_00_01typename_01std_1_1enable__if_3_01s0944a3a980736a4089122538592aac1c.html" title="Naive maximal planar subgraph approach that extends a configurable non&#45;maximal subgraph heuristic." alt="" coords="438,125,654,221"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="324,304,432,231,451,219,454,224,434,235,327,308"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_maximum_planar_subgraph.html" title="Exact computation of a maximum planar subgraph." alt="" coords="433,246,658,290"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="383,308,457,288,458,293,384,313"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_planar_subgraph_empty.html" title="Dummy implementation for maximum planar subgraph that returns an empty graph." alt="" coords="445,315,646,360"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="400,335,445,335,445,340,400,340"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_planar_subgraph_fast.html" title="Computation of a planar subgraph using PQ&#45;trees." alt="" coords="453,384,638,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="384,361,458,381,457,386,383,366"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_planar_subgraph_tree.html" title="Maximum planar subgraph heuristic that yields a spanning tree." alt="" coords="453,454,639,498"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="323,367,374,404,434,439,462,451,460,455,432,444,371,408,320,371"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_planar_subgraph_triangles.html" title="Maximum planar subgraph approximation algorithms by Chalermsook/Schmid and Calinescu et al." alt="" coords="437,523,654,568"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="306,371,360,441,395,477,434,508,456,520,454,525,432,513,391,481,355,444,302,374"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="15,297,120,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,316,178,322,177,327,134,321"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="5,349,130,376"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="144,351,177,347,178,352,145,356"/>
+<area shape="rect" id="Node000011" href="$classogdf_1_1_planar_subgraph_cactus.html" title="Maximum planar subgraph approximation algorithm by Calinescu et al." alt="" coords="706,523,910,568"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="669,543,706,543,706,548,669,548"/>
 </map>

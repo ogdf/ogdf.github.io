@@ -1,4 +1,5 @@
 <map id="Minisat::Formula" name="Minisat::Formula">
-<area shape="rect" id="node1" title="The Formula class." alt="" coords="8,95,139,121"/>
-<area shape="rect" id="node2" href="$class_minisat_1_1_internal_1_1_solver.html" title=" " alt="" coords="5,5,141,47"/>
+<area shape="rect" id="Node000001" title="The Formula class." alt="" coords="8,98,138,126"/>
+<area shape="rect" id="Node000002" href="$class_minisat_1_1_internal_1_1_solver.html" title=" " alt="" coords="5,5,141,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,65,76,97,70,97,70,65"/>
 </map>

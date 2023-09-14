@@ -1,5 +1,7 @@
 <map id="ogdf::davidson_harel::Attraction" name="ogdf::davidson_harel::Attraction">
-<area shape="rect" id="node1" title="Energy function for attraction between two adjacent vertices." alt="" coords="5,184,163,225"/>
-<area shape="rect" id="node2" href="$classogdf_1_1davidson__harel_1_1_node_pair_energy.html" title=" " alt="" coords="5,95,163,136"/>
-<area shape="rect" id="node3" href="$classogdf_1_1davidson__harel_1_1_energy_function.html" title="The interface for energy functions for the Davidson Harel graph drawing method." alt="" coords="5,5,163,47"/>
+<area shape="rect" id="Node000001" title="Energy function for attraction between two adjacent vertices." alt="" coords="5,191,162,235"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1davidson__harel_1_1_node_pair_energy.html" title=" " alt="" coords="5,98,162,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="86,157,86,190,81,190,81,157"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1davidson__harel_1_1_energy_function.html" title="The interface for energy functions for the Davidson Harel graph drawing method." alt="" coords="5,5,162,50"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="86,65,86,98,81,98,81,65"/>
 </map>

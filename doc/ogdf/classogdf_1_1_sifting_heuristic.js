@@ -10,7 +10,7 @@ var classogdf_1_1_sifting_heuristic =
     [ "~SiftingHeuristic", "classogdf_1_1_sifting_heuristic.html#a6dc44e7115b782946902e0009e026816", null ],
     [ "call", "classogdf_1_1_sifting_heuristic.html#a6d5c4cc708d97f87352f7d1f5d2fe43d", null ],
     [ "cleanup", "classogdf_1_1_sifting_heuristic.html#acfe0127afbfcb51d96231383fa9fdbb4", null ],
-    [ "clone", "classogdf_1_1_sifting_heuristic.html#a38f16d843ee3aa3c3430c490635787a0", null ],
+    [ "clone", "classogdf_1_1_sifting_heuristic.html#ac0beb5e1fdec8d76085e2e60c7f3a5a6", null ],
     [ "init", "classogdf_1_1_sifting_heuristic.html#a580a453e483f06d9edeb0d3a3eb12ecd", null ],
     [ "strategy", "classogdf_1_1_sifting_heuristic.html#adb580b33078922caa1a8d3dbb0fbc0f4", null ],
     [ "strategy", "classogdf_1_1_sifting_heuristic.html#a8a0d1179f1f7f02b655201bddd33ba71", null ],

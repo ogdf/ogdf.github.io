@@ -12,6 +12,6 @@ var classogdf_1_1_binomial_heap =
     [ "push", "classogdf_1_1_binomial_heap.html#a510031c0f72bd094468a5874f8e39421", null ],
     [ "release", "classogdf_1_1_binomial_heap.html#a343ed6c1043d935543987bedb689f320", null ],
     [ "top", "classogdf_1_1_binomial_heap.html#a772356525f363a428f274683e3166654", null ],
-    [ "value", "classogdf_1_1_binomial_heap.html#aae9cdf6e2c8c02297f8c2e3f87121bd8", null ],
+    [ "value", "classogdf_1_1_binomial_heap.html#ae88927d374de7371da4dc1a0d5c16e4b", null ],
     [ "m_root", "classogdf_1_1_binomial_heap.html#a0b6924b55d762d4196c8e22039eab9b3", null ]
 ];

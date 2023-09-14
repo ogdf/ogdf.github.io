@@ -9,7 +9,7 @@ var classogdf_1_1_node_respecter_layout =
     [ "~NodeRespecterLayout", "classogdf_1_1_node_respecter_layout.html#a4c8612d7497aa692f37f178fb3c4c71f", null ],
     [ "addDummies", "classogdf_1_1_node_respecter_layout.html#a6022562396393368a5db435a097de178", null ],
     [ "call", "classogdf_1_1_node_respecter_layout.html#a4ef98030126c6766eb3372c8562481a3", null ],
-    [ "computeImpulse", "classogdf_1_1_node_respecter_layout.html#afb632cbbb5ecd3fd7e5779e98e67a533", null ],
+    [ "computeImpulse", "classogdf_1_1_node_respecter_layout.html#af4a1e1c3dba89bcbb006817c2b238437", null ],
     [ "createBends", "classogdf_1_1_node_respecter_layout.html#a88d58c855a11a3a1832b54d08b2f5d3c", null ],
     [ "freeData", "classogdf_1_1_node_respecter_layout.html#a27b644b0f938a468555199988c165b47", null ],
     [ "getBendNormalizationAngle", "classogdf_1_1_node_respecter_layout.html#aa408a2bebb8bc1d3b0347e0b3a7d38e8", null ],

@@ -1,6 +1,9 @@
 <map id="ogdf::MMEdgeInsertionModule" name="ogdf::MMEdgeInsertionModule">
-<area shape="rect" id="node1" title="Interface for minor&#45;monotone edge insertion algorithms." alt="" coords="139,80,358,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_m_m_fixed_embedding_inserter.html" title="Minor&#45;monotone edge insertion with fixed embedding." alt="" coords="5,162,244,189"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_m_m_variable_embedding_inserter.html" title="Minor&#45;monotone edge insertion with variable embedding." alt="" coords="268,155,477,196"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="195,5,302,32"/>
+<area shape="rect" id="Node000001" title="Interface for minor&#45;monotone edge insertion algorithms." alt="" coords="138,81,356,109"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_m_m_fixed_embedding_inserter.html" title="Minor&#45;monotone edge insertion with fixed embedding." alt="" coords="5,165,244,193"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,119,146,167,143,162,214,115"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_m_m_variable_embedding_inserter.html" title="Minor&#45;monotone edge insertion with variable embedding." alt="" coords="268,157,475,201"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="280,115,340,154,337,158,277,119"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="195,5,300,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="250,48,250,81,245,81,245,48"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="ogdf::LinearLayout" name="ogdf::LinearLayout">
-<area shape="rect" id="node1" title="Layout the graph with nodes next to each other with natural or custom order and draw the edges as sem..." alt="" coords="9,80,152,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="5,5,156,32"/>
+<area shape="rect" id="Node000001" title="Layout the graph with nodes next to each other with natural or custom order and draw the edges as sem..." alt="" coords="9,81,151,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="5,5,155,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,48,83,81,77,81,77,48"/>
 </map>

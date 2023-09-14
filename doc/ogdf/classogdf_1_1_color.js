@@ -167,7 +167,7 @@ var classogdf_1_1_color =
     [ "red", "classogdf_1_1_color.html#a70af50436e23be10a6417df66415e7be", null ],
     [ "red", "classogdf_1_1_color.html#a9e6e298637f148bed6c4c3169a9d2fed", null ],
     [ "toString", "classogdf_1_1_color.html#af4405cc9a709def667993718b20acb36", null ],
-    [ "operator<<", "classogdf_1_1_color.html#afdfe1a75bd9930a51707d642a7a4afcd", null ],
+    [ "operator<<", "classogdf_1_1_color.html#add2a771f580584d747d34dd98ec58ee2", null ],
     [ "m_alpha", "classogdf_1_1_color.html#a3763c955137f8fbbb30f92e9585a5c26", null ],
     [ "m_blue", "classogdf_1_1_color.html#a8f8f59a2eda8f26f0662237b339d3043", null ],
     [ "m_green", "classogdf_1_1_color.html#add4ee22353da12c2e4d196bb783c0a6b", null ],

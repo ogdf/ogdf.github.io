@@ -1,0 +1,7 @@
+<map id="ogdf::CrossingMinimalPositionApxWeighted" name="ogdf::CrossingMinimalPositionApxWeighted">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,157,224,201"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_crossing_minimal_position.html" title="Compute a crossing minimal position for a vertex." alt="" coords="10,81,219,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,124,117,156,112,156,112,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_vertex_position_module.html" title="Interface for computing a good / optimal vertex position." alt="" coords="15,5,214,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,48,117,81,112,81,112,48"/>
+</map>

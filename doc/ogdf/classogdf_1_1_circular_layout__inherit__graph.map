@@ -1,4 +1,5 @@
 <map id="ogdf::CircularLayout" name="ogdf::CircularLayout">
-<area shape="rect" id="node1" title="The circular layout algorithm." alt="" coords="5,80,157,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="6,5,157,32"/>
+<area shape="rect" id="Node000001" title="The circular layout algorithm." alt="" coords="5,81,157,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="6,5,156,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="84,48,84,81,78,81,78,48"/>
 </map>

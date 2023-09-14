@@ -1,4 +1,5 @@
 <map id="ogdf::FastMultipoleMultilevelEmbedder" name="ogdf::FastMultipoleMultilevelEmbedder">
-<area shape="rect" id="node1" title="The fast multipole multilevel embedder approach for force&#45;directed multilevel layout." alt="" coords="5,80,216,121"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="35,5,186,32"/>
+<area shape="rect" id="Node000001" title="The fast multipole multilevel embedder approach for force&#45;directed multilevel layout." alt="" coords="5,81,215,126"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="35,5,185,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,48,113,80,107,80,107,48"/>
 </map>

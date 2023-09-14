@@ -51,5 +51,20 @@ var namespaceabacus =
     [ "TailOff", "classabacus_1_1_tail_off.html", "classabacus_1_1_tail_off" ],
     [ "ValBranchRule", "classabacus_1_1_val_branch_rule.html", "classabacus_1_1_val_branch_rule" ],
     [ "Variable", "classabacus_1_1_variable.html", "classabacus_1_1_variable" ],
-    [ "VarType", "classabacus_1_1_var_type.html", "classabacus_1_1_var_type" ]
+    [ "VarType", "classabacus_1_1_var_type.html", "classabacus_1_1_var_type" ],
+    [ "Separator_CUTFOUND", "namespaceabacus.html#ae8090cdeea2e9ef8c1c35624ee5e5b12", [
+      [ "Added", "namespaceabacus.html#ae8090cdeea2e9ef8c1c35624ee5e5b12af5f504ade0181baed66978172f5c30a4", null ],
+      [ "Duplication", "namespaceabacus.html#ae8090cdeea2e9ef8c1c35624ee5e5b12a9f8bb7ba1dada887a878775cb992c015", null ],
+      [ "Full", "namespaceabacus.html#ae8090cdeea2e9ef8c1c35624ee5e5b12a7ca42d1b45c29aec932c3eb22896ebda", null ]
+    ] ],
+    [ "operator<<", "namespaceabacus.html#a5ceb6032129f94a16e06330c17dc02e1", null ],
+    [ "operator<<", "namespaceabacus.html#ae20ec62e32b652bd952b2192924bdcd6", null ],
+    [ "operator<<", "namespaceabacus.html#ac72b420a51b33e34f2ffb8cdec74a201", null ],
+    [ "operator<<", "namespaceabacus.html#ad9435abfefb112c69e0f47ce8bcd3698", null ],
+    [ "operator<<", "namespaceabacus.html#af87945fe7cccdcc1082aa7399997d3b5", null ],
+    [ "operator<<", "namespaceabacus.html#a996913317341bc684107a94b3168b747", null ],
+    [ "operator<<", "namespaceabacus.html#abb3cc900fd4c48d371aa49dfad689b72", null ],
+    [ "operator<<", "namespaceabacus.html#abcf88b9296bbd869157cd1bfac3c7d12", null ],
+    [ "operator<<", "namespaceabacus.html#abbec04de393f27dae9b2fe3b60e4506e", null ],
+    [ "operator<<", "namespaceabacus.html#a84b8320dffa1de63f3a5925290bdfc6f", null ]
 ];

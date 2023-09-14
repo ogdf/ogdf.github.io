@@ -1,6 +1,6 @@
 var _common_compaction_constraint_graph_base_8h =
 [
-    [ "CommonCompactionConstraintGraphBase", "classogdf_1_1_common_compaction_constraint_graph_base.html", "classogdf_1_1_common_compaction_constraint_graph_base" ],
+    [ "ogdf::CommonCompactionConstraintGraphBase", "classogdf_1_1_common_compaction_constraint_graph_base.html", "classogdf_1_1_common_compaction_constraint_graph_base" ],
     [ "ConstraintEdgeType", "_common_compaction_constraint_graph_base_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7c", [
       [ "BasicArc", "_common_compaction_constraint_graph_base_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca4c85a9d83728ab15dbd8349b361d5a35", null ],
       [ "VertexSizeArc", "_common_compaction_constraint_graph_base_8h.html#a2cb1e53dd146b58e9665ba9e70fa1d7ca35f4723fdad5af7666f3bf648e6b7d06", null ],

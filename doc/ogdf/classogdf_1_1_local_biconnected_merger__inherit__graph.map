@@ -1,4 +1,5 @@
 <map id="ogdf::LocalBiconnectedMerger" name="ogdf::LocalBiconnectedMerger">
-<area shape="rect" id="node1" title="The local biconnected merger for multilevel layout." alt="" coords="5,80,224,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_multilevel_builder.html" title="Base class for merger modules." alt="" coords="30,5,199,32"/>
+<area shape="rect" id="Node000001" title="The local biconnected merger for multilevel layout." alt="" coords="5,81,223,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_multilevel_builder.html" title="Base class for merger modules." alt="" coords="30,5,198,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,48,117,81,111,81,111,48"/>
 </map>

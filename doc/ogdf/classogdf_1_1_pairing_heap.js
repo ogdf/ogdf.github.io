@@ -13,6 +13,6 @@ var classogdf_1_1_pairing_heap =
     [ "release", "classogdf_1_1_pairing_heap.html#a2ba244b7fda98ca45c61bcdc3cbd854e", null ],
     [ "top", "classogdf_1_1_pairing_heap.html#a699be768fc2742d73967832e1cc67ae4", null ],
     [ "unlink", "classogdf_1_1_pairing_heap.html#ae59d6da302488d8f5adeb28196cd3dd1", null ],
-    [ "value", "classogdf_1_1_pairing_heap.html#a89a345ce31eeced34be17ed88c208cdc", null ],
+    [ "value", "classogdf_1_1_pairing_heap.html#af8e5a66b1e25feb32af05199cbb5a0a7", null ],
     [ "m_root", "classogdf_1_1_pairing_heap.html#a4989cc39d536b171516549084437c79e", null ]
 ];

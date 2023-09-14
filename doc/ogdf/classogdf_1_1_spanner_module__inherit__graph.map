@@ -1,0 +1,23 @@
+<map id="ogdf::SpannerModule&lt; TWeight &gt;" name="ogdf::SpannerModule&lt; TWeight &gt;">
+<area shape="rect" id="Node000001" title="Interface for spanner algorithms." alt="" coords="159,213,317,258"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_spanner_basic_greedy.html" title="Multiplicative spanner by greedily adding edges." alt="" coords="394,5,586,50"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,198,297,128,328,91,363,60,392,45,394,50,367,65,331,95,301,131,258,201"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_spanner_baswana_sen.html" title="Randomized multiplicative spanner calculation by forming clusters." alt="" coords="393,75,586,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="269,201,312,164,364,129,391,117,394,122,366,134,315,168,273,205"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_spanner_berman.html" title="Approximation algorithm for calculating spanners." alt="" coords="409,144,570,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="331,207,408,186,409,191,332,213"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_spanner_berman_disconnected.html" title="Wrapper around SpannerBerman: For each component of the graph, the algorithm will be called." alt="" coords="365,213,614,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="332,233,365,233,365,238,332,238"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_spanner_elkin_neiman.html" title="Randomized multiplicative spanner calculation by propagating random messages through the graph." alt="" coords="393,283,586,327"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="332,259,407,280,405,285,331,264"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_spanner_iterated_wrapper.html" title="A implementation&#45;independed wrapper class to execute a spanner algorithm multiple times." alt="" coords="382,352,598,397"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="273,266,315,304,366,337,393,349,391,354,364,342,312,308,269,270"/>
+<area shape="rect" id="Node000011" href="$classogdf_1_1_spanner_kortsarz_peleg.html" title="Approximation multiplicative 2&#45;spanner calculation." alt="" coords="390,421,589,466"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="258,270,301,340,331,376,367,407,391,420,389,425,363,411,328,380,297,343,254,273"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="5,222,111,250"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="126,233,158,233,158,238,126,238"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_spanner_baswana_sen_iterated.html" title="Use the ogdf::SpannerIteratedWrapper to execute the ogdf::SpannerBaswanaSen algorithm up to 1000 time..." alt="" coords="662,317,907,362"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="612,357,661,351,662,357,613,363"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_spanner_elkin_neiman_iterated.html" title="Use the ogdf::SpannerIteratedWrapper to execute the ogdf::SpannerElkinNeiman algorithm up to 200 time..." alt="" coords="688,387,881,431"/>
+<area shape="poly" id="edge9_Node000008_Node000010" title=" " alt="" coords="613,386,688,395,687,400,612,391"/>
+</map>

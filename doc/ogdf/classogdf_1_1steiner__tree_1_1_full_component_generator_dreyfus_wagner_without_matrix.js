@@ -10,7 +10,7 @@ var classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_witho
     [ "computePartialSolutions", "classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_without_matrix.html#a67a5227b3c757cc86b93dfdc86b31c38", null ],
     [ "computeSplit", "classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_without_matrix.html#ae44893d53929d50f6769c53cefddbe31", null ],
     [ "costOf", "classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_without_matrix.html#a6de9a90f7bac8ddbc1018f646dfe5e7b", null ],
-    [ "dataOf", "classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_without_matrix.html#a48f35a568f97bea54b878b0ed0f5b725", null ],
+    [ "dataOf", "classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_without_matrix.html#a5abff88bf8ad3e36957f498abe66bf81", null ],
     [ "getSteinerTreeFor", "classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_without_matrix.html#aa8ad9ef55450359fb14424b8a5873c54", null ],
     [ "getSteinerTreeFor", "classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_without_matrix.html#a374c797134705bb107abcb4529561ba7", null ],
     [ "initializeMap", "classogdf_1_1steiner__tree_1_1_full_component_generator_dreyfus_wagner_without_matrix.html#a7be012fa2b2f9da97e81be40eaa20240", null ],

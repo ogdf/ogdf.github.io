@@ -11,7 +11,7 @@ var classogdf_1_1_hypergraph_layout_e_s =
     [ "crossings", "classogdf_1_1_hypergraph_layout_e_s.html#a1ec305ad1971719dc19e51594cd8fd61", null ],
     [ "insertShell", "classogdf_1_1_hypergraph_layout_e_s.html#a4aa5daf2ff377134e82c74fb16772daf", null ],
     [ "layout", "classogdf_1_1_hypergraph_layout_e_s.html#a671849ed80ba1260f27154c20f52b972", null ],
-    [ "operator=", "classogdf_1_1_hypergraph_layout_e_s.html#a9cc9179ca7c7a97b2978547f748f307c", null ],
+    [ "operator=", "classogdf_1_1_hypergraph_layout_e_s.html#ade396c1b392c35c79ae967ac9ca6a132", null ],
     [ "packAllCC", "classogdf_1_1_hypergraph_layout_e_s.html#a654521032f67f8fce85b7c0c44754668", null ],
     [ "ratio", "classogdf_1_1_hypergraph_layout_e_s.html#a0ba7f52c1696977c2928d2ab0e4a07c2", null ],
     [ "removeShell", "classogdf_1_1_hypergraph_layout_e_s.html#a0037793628f4944016d73b3d786bdba3", null ],

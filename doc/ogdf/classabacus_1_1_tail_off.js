@@ -7,7 +7,7 @@ var classabacus_1_1_tail_off =
     [ "reset", "classabacus_1_1_tail_off.html#aed163b450861f684637123db6bb68b87", null ],
     [ "tailOff", "classabacus_1_1_tail_off.html#a0036aabf13ff2882cdb3ef957e0473c0", null ],
     [ "update", "classabacus_1_1_tail_off.html#afea0f0f2aef06c99a6175e0d5314482f", null ],
-    [ "operator<<", "classabacus_1_1_tail_off.html#a9a7e1987ddf64d0ff1100c4ca4d24567", null ],
+    [ "operator<<", "classabacus_1_1_tail_off.html#aa9c0dc87d7630cc87708f74b4064b69e", null ],
     [ "Sub", "classabacus_1_1_tail_off.html#a62c1ddf6b016f1afb481e0f7dfb8c7c7", null ],
     [ "lpHistory_", "classabacus_1_1_tail_off.html#af03a9391add79eb468b4f7a5c1d9d2e3", null ],
     [ "master_", "classabacus_1_1_tail_off.html#ac3fb1f1cc012d0691ca036ac39812211", null ]

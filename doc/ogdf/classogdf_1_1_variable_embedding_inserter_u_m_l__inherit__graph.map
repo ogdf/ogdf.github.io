@@ -1,6 +1,9 @@
 <map id="ogdf::VariableEmbeddingInserterUML" name="ogdf::VariableEmbeddingInserterUML">
-<area shape="rect" id="node1" title="Optimal edge insertion module." alt="" coords="5,155,269,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_u_m_l_edge_insertion_module.html" title="Interface for UML edge insertion algorithms." alt="" coords="25,80,249,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="15,5,121,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="146,5,270,32"/>
+<area shape="rect" id="Node000001" title="Optimal edge insertion module." alt="" coords="5,157,268,184"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_u_m_l_edge_insertion_module.html" title="Interface for UML edge insertion algorithms." alt="" coords="25,81,248,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,124,139,156,134,156,134,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="15,5,120,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="91,42,126,79,122,82,87,46"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="144,5,268,33"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="186,46,151,82,147,79,182,42"/>
 </map>

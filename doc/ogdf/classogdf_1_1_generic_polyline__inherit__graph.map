@@ -1,5 +1,9 @@
 <map id="ogdf::GenericPolyline&lt; PointType &gt;" name="ogdf::GenericPolyline&lt; PointType &gt;">
-<area shape="rect" id="node1" title="Polylines with PointType points." alt="" coords="22,80,182,121"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_d_polygon.html" title="Polygons with real coordinates." alt="" coords="5,169,199,196"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_list.html" title=" " alt="" coords="15,5,189,32"/>
+<area shape="rect" id="Node000001" title="Polylines with PointType points." alt="" coords="22,157,181,201"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_d_polygon.html" title="Polygons with real coordinates." alt="" coords="5,249,198,277"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="104,216,104,249,99,249,99,216"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_list.html" title=" " alt="" coords="15,81,188,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,124,104,156,99,156,99,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_list_pure.html" title="Doubly linked lists." alt="" coords="28,5,175,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="104,48,104,81,99,81,99,48"/>
 </map>

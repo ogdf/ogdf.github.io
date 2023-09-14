@@ -1,4 +1,5 @@
 <map id="ogdf::HashConstIterator2D&lt; I1_, I2_, E_, Hash1_, Hash2_ &gt;" name="ogdf::HashConstIterator2D&lt; I1_, I2_, E_, Hash1_, Hash2_ &gt;">
-<area shape="rect" id="node1" title="Const&#45;iterator for 2D&#45;hash arrays." alt="" coords="271,20,455,76"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_hash_const_iterator.html" title=" " alt="" coords="5,5,223,91"/>
+<area shape="rect" id="Node000001" title="Const&#45;iterator for 2D&#45;hash arrays." alt="" coords="5,98,189,160"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_hash_const_iterator.html" title="Iterators for hash tables." alt="" coords="9,5,185,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,65,100,98,94,98,94,65"/>
 </map>

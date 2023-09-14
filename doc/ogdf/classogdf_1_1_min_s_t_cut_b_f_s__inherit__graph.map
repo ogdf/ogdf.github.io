@@ -1,4 +1,5 @@
 <map id="ogdf::MinSTCutBFS&lt; TCost &gt;" name="ogdf::MinSTCutBFS&lt; TCost &gt;">
-<area shape="rect" id="node1" title="Min&#45;st&#45;cut algorithm, that calculates the cut by doing a depth first search over the dual graph of of..." alt="" coords="11,95,167,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_min_s_t_cut_module.html" title=" " alt="" coords="5,5,173,47"/>
+<area shape="rect" id="Node000001" title="Min&#45;st&#45;cut algorithm, that calculates the cut by doing a depth first search over the dual graph of of..." alt="" coords="12,98,165,143"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_min_s_t_cut_module.html" title=" " alt="" coords="5,5,172,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,65,91,98,86,98,86,65"/>
 </map>

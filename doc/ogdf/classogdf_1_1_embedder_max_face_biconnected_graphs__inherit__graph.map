@@ -1,4 +1,5 @@
 <map id="ogdf::EmbedderMaxFaceBiconnectedGraphs&lt; T &gt;" name="ogdf::EmbedderMaxFaceBiconnectedGraphs&lt; T &gt;">
-<area shape="rect" id="node1" title="Embedder that maximizing the external face." alt="" coords="5,5,268,47"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_embedder_max_face_biconnected_graphs_layers.html" title="Embedder that maximizes the external face (plus layers approach)." alt="" coords="5,95,268,136"/>
+<area shape="rect" id="Node000001" title="Embedder that maximizing the external face." alt="" coords="5,5,266,50"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_embedder_max_face_biconnected_graphs_layers.html" title="Embedder that maximizes the external face (plus layers approach)." alt="" coords="5,98,266,143"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="138,65,138,98,133,98,133,65"/>
 </map>

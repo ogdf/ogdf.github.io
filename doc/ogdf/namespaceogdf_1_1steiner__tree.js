@@ -22,5 +22,10 @@ var namespaceogdf_1_1steiner__tree =
     [ "SaveStatic", "classogdf_1_1steiner__tree_1_1_save_static.html", "classogdf_1_1steiner__tree_1_1_save_static" ],
     [ "Triple", "classogdf_1_1steiner__tree_1_1_triple.html", "classogdf_1_1steiner__tree_1_1_triple" ],
     [ "UnorderedNodePairEquality", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_equality.html", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_equality" ],
-    [ "UnorderedNodePairHasher", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher.html", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher" ]
+    [ "UnorderedNodePairHasher", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher.html", "classogdf_1_1steiner__tree_1_1_unordered_node_pair_hasher" ],
+    [ "buildHeaviestEdgeInComponentTree", "namespaceogdf_1_1steiner__tree.html#a9e87fee867d1eda5dfab5035b1e70206", null ],
+    [ "constructTerminalSpanningTreeUsingVoronoiRegions", "namespaceogdf_1_1steiner__tree.html#ad64ed2b420395e2edc6c51505510d1af", null ],
+    [ "contractTripleInSteinerTree", "namespaceogdf_1_1steiner__tree.html#afb6b18ae126c781a57558d20da6b754f", null ],
+    [ "contractTripleInSteinerTree", "namespaceogdf_1_1steiner__tree.html#aa78fceaf5d58657fb6dbc14dd8e39d44", null ],
+    [ "obtainFinalSteinerTree", "namespaceogdf_1_1steiner__tree.html#ac32e526730c651dee404e424bb655c52", null ]
 ];

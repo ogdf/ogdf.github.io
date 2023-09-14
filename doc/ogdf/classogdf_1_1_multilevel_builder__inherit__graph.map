@@ -1,9 +1,15 @@
 <map id="ogdf::MultilevelBuilder" name="ogdf::MultilevelBuilder">
-<area shape="rect" id="node1" title="Base class for merger modules." alt="" coords="5,132,175,159"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_edge_cover_merger.html" title="The edge cover merger for multilevel layout." alt="" coords="245,5,419,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_independent_set_merger.html" title="The independent set merger for multilevel layout." alt="" coords="229,56,435,83"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_local_biconnected_merger.html" title="The local biconnected merger for multilevel layout." alt="" coords="223,107,441,133"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_matching_merger.html" title="The matching merger for multilevel layout." alt="" coords="250,157,414,184"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_random_merger.html" title="The random merger for multilevel layout." alt="" coords="253,208,411,235"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_solar_merger.html" title="The solar merger for multilevel layout." alt="" coords="263,259,401,285"/>
+<area shape="rect" id="Node000001" title="Base class for merger modules." alt="" coords="5,136,174,164"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_edge_cover_merger.html" title="The edge cover merger for multilevel layout." alt="" coords="244,5,417,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,123,160,82,189,61,221,43,253,31,255,36,223,48,192,66,164,86,117,127"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_independent_set_merger.html" title="The independent set merger for multilevel layout." alt="" coords="228,57,433,85"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,127,221,95,264,83,266,88,223,100,138,132"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_local_biconnected_merger.html" title="The local biconnected merger for multilevel layout." alt="" coords="222,109,439,137"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="188,136,221,133,221,138,189,142"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_matching_merger.html" title="The matching merger for multilevel layout." alt="" coords="249,161,412,189"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="189,158,248,164,248,169,188,163"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_random_merger.html" title="The random merger for multilevel layout." alt="" coords="252,213,409,241"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="139,167,222,198,266,210,264,215,221,203,137,172"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_solar_merger.html" title="The solar merger for multilevel layout." alt="" coords="262,265,399,293"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="117,172,164,212,223,250,263,265,261,270,220,255,161,217,114,176"/>
 </map>

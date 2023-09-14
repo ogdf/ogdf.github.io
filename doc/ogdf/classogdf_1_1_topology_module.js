@@ -26,6 +26,6 @@ var classogdf_1_1_topology_module =
     [ "operator|", "classogdf_1_1_topology_module.html#a9c306ea08266b80e86325ec43b64ac9d", null ],
     [ "operator|", "classogdf_1_1_topology_module.html#a49acf6ff09ab1b4a98c95c822239ce8b", null ],
     [ "m_crossPosition", "classogdf_1_1_topology_module.html#ae672d95e4f306f558f23a5627cffd0aa", null ],
-    [ "m_eLegs", "classogdf_1_1_topology_module.html#a6bd3725ecf358ed757a49a9d11593437", null ],
+    [ "m_eLegs", "classogdf_1_1_topology_module.html#acb32fcb38e0634b07a7e94610c95ec00", null ],
     [ "m_options", "classogdf_1_1_topology_module.html#a0a0488d8f72c9204137d6f3c9485d771", null ]
 ];

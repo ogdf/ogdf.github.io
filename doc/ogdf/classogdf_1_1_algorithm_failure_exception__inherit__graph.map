@@ -1,4 +1,5 @@
 <map id="ogdf::AlgorithmFailureException" name="ogdf::AlgorithmFailureException">
-<area shape="rect" id="node1" title="Exception thrown when an algorithm realizes an internal bug that prevents it from continuing." alt="" coords="5,80,236,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_exception.html" title="Base class of all ogdf exceptions." alt="" coords="59,5,182,32"/>
+<area shape="rect" id="Node000001" title="Exception thrown when an algorithm realizes an internal bug that prevents it from continuing." alt="" coords="5,81,234,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_exception.html" title="Base class of all ogdf exceptions." alt="" coords="59,5,180,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="122,48,122,81,117,81,117,48"/>
 </map>

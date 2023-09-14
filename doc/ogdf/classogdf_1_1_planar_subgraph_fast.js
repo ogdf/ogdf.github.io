@@ -2,9 +2,9 @@ var classogdf_1_1_planar_subgraph_fast =
 [
     [ "ThreadMaster", "classogdf_1_1_planar_subgraph_fast_1_1_thread_master.html", "classogdf_1_1_planar_subgraph_fast_1_1_thread_master" ],
     [ "Worker", "classogdf_1_1_planar_subgraph_fast_1_1_worker.html", "classogdf_1_1_planar_subgraph_fast_1_1_worker" ],
-    [ "BlockType", "classogdf_1_1_planar_subgraph_fast.html#a40b9498cafcdea87be50e7f5ac184385", null ],
+    [ "BlockType", "classogdf_1_1_planar_subgraph_fast.html#acb007d1259e12cf9e63f5a3315dd062d", null ],
     [ "PlanarSubgraphFast", "classogdf_1_1_planar_subgraph_fast.html#a6d15167cccbed510a070291335234d5c", null ],
-    [ "clone", "classogdf_1_1_planar_subgraph_fast.html#a163fcbb462544510221d26bc4cfbf4fc", null ],
+    [ "clone", "classogdf_1_1_planar_subgraph_fast.html#a071924abe3ca0e690a989fe55b31e589", null ],
     [ "doCall", "classogdf_1_1_planar_subgraph_fast.html#a2fb3fd1c508b539288c5d4de8f9f017a", null ],
     [ "doWorkHelper", "classogdf_1_1_planar_subgraph_fast.html#a09b83b3e2a2cf1b31d6aa292b058ed81", null ],
     [ "parCall", "classogdf_1_1_planar_subgraph_fast.html#a993b02641812c7bfc0a61e210ee907c5", null ],

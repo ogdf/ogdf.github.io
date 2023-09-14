@@ -8,7 +8,7 @@ var classogdf_1_1_clusterer_module =
     [ "computeCIndex", "classogdf_1_1_clusterer_module.html#a910dada66a0762b275dca431fe4194c8", null ],
     [ "computeClustering", "classogdf_1_1_clusterer_module.html#a92c8297a91200512ac425cf485a2c041", null ],
     [ "createClusterGraph", "classogdf_1_1_clusterer_module.html#af95a46ec89d052d09803233ca99bcd77", null ],
-    [ "getGraph", "classogdf_1_1_clusterer_module.html#ae2480c4bc3d977eaf9c731626bb50ee6", null ],
+    [ "getGraph", "classogdf_1_1_clusterer_module.html#a55231286812e6339eaebd87a444e912f", null ],
     [ "setGraph", "classogdf_1_1_clusterer_module.html#a49d1265e8d41d838d56c382a82259a61", null ],
     [ "m_pGraph", "classogdf_1_1_clusterer_module.html#a8ac28a42d094f37c8d473964461c2758", null ]
 ];

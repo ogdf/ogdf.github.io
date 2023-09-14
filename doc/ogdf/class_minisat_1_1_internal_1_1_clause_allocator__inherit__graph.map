@@ -1,4 +1,5 @@
 <map id="Minisat::Internal::ClauseAllocator" name="Minisat::Internal::ClauseAllocator">
-<area shape="rect" id="node1" title=" " alt="" coords="41,95,177,136"/>
-<area shape="rect" id="node2" href="$class_minisat_1_1_internal_1_1_region_allocator.html" title=" " alt="" coords="5,5,213,47"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="41,98,177,143"/>
+<area shape="rect" id="Node000002" href="$class_minisat_1_1_internal_1_1_region_allocator.html" title=" " alt="" coords="5,5,213,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,65,112,98,106,98,106,65"/>
 </map>

@@ -1,6 +1,6 @@
 var _boyer_myrvold_planar_8h =
 [
-    [ "BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html", "classogdf_1_1_boyer_myrvold_planar" ],
+    [ "ogdf::BoyerMyrvoldPlanar", "classogdf_1_1_boyer_myrvold_planar.html", "classogdf_1_1_boyer_myrvold_planar" ],
     [ "BoyerMyrvoldEdgeType", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111", [
       [ "Undefined", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111aec0fc0100c4fc1ce4eea230c3dc10360", null ],
       [ "Selfloop", "_boyer_myrvold_planar_8h.html#a16cbf72c038a853a4ed658df22659111a9f0f96a75579b65f26062a6f180dfc60", null ],

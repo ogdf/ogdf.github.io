@@ -1,5 +1,7 @@
 <map id="ogdf::SiftingHeuristic" name="ogdf::SiftingHeuristic">
-<area shape="rect" id="node1" title="The sifting heuristic for 2&#45;layer crossing minimization." alt="" coords="35,155,194,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_layer_by_layer_sweep.html" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="19,80,210,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="5,5,224,32"/>
+<area shape="rect" id="Node000001" title="The sifting heuristic for 2&#45;layer crossing minimization." alt="" coords="36,157,192,184"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_layer_by_layer_sweep.html" title="Interface of two&#45;layer crossing minimization algorithms." alt="" coords="19,81,209,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,124,117,156,111,156,111,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_layered_cross_min_module.html" title="Interface of crossing minimization algorithms for layered graphs." alt="" coords="5,5,223,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="117,48,117,81,111,81,111,48"/>
 </map>

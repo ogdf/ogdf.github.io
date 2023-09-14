@@ -6,7 +6,7 @@ var simple__graph__alg_8h =
     [ "connectedComponents", "simple__graph__alg_8h.html#gaab12b5e959d3e624ea032c5d80b2055a", null ],
     [ "connectedIsolatedComponents", "simple__graph__alg_8h.html#gac63c344ed6d409cea63bdf7e1043bc1e", null ],
     [ "degreeDistribution", "simple__graph__alg_8h.html#gac0ef8a16959d7f2b8356cc5c0316d140", null ],
-    [ "findCutVertices", "simple__graph__alg_8h.html#ga4183af4c51872b0ced4671f7ad8881f8", null ],
+    [ "findCutVertices", "simple__graph__alg_8h.html#gaa2919da4128afd6bf8a7f6217e4e94f2", null ],
     [ "findCutVertices", "simple__graph__alg_8h.html#ga8fb6effe6cd52edb7836388e4fcc0f78", null ],
     [ "getParallelFreeUndirected", "simple__graph__alg_8h.html#ga96e783ece038f9498bc2d1f2bb809363", null ],
     [ "hasNonSelfLoopEdges", "simple__graph__alg_8h.html#gab8b09792c8c9d158392eaab9d4f47913", null ],

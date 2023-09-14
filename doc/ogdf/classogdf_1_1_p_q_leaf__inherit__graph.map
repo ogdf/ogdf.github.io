@@ -1,4 +1,7 @@
 <map id="ogdf::PQLeaf&lt; T, X, Y &gt;" name="ogdf::PQLeaf&lt; T, X, Y &gt;">
-<area shape="rect" id="node1" title="The datastructure PQ&#45;tree was designed to present a set of permutations on an arbitrary set of elemen..." alt="" coords="9,80,183,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class." alt="" coords="5,5,187,32"/>
+<area shape="rect" id="Node000001" title="The datastructure PQ&#45;tree was designed to present a set of permutations on an arbitrary set of elemen..." alt="" coords="8,157,183,184"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class." alt="" coords="5,81,186,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="98,124,98,156,93,156,93,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_p_q_node_root.html" title="The class PQNodeRoot is used as a base class of the class PQNode." alt="" coords="26,5,165,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="98,48,98,81,93,81,93,48"/>
 </map>

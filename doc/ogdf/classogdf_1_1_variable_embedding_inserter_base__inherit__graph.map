@@ -1,8 +1,13 @@
 <map id="ogdf::VariableEmbeddingInserterBase" name="ogdf::VariableEmbeddingInserterBase">
-<area shape="rect" id="node1" title="Common parameter functionality for ogdf::VariableEmbeddingInserter and ogdf::VariableEmbeddingInserte..." alt="" coords="125,155,392,181"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_variable_embedding_inserter.html" title="Optimal edge insertion module." alt="" coords="5,229,240,256"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_variable_embedding_inserter_dyn.html" title="Optimal edge insertion module." alt="" coords="264,229,525,256"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms." alt="" coords="161,80,356,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="136,5,243,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="267,5,391,32"/>
+<area shape="rect" id="Node000001" title="Common parameter functionality for ogdf::VariableEmbeddingInserter and ogdf::VariableEmbeddingInserte..." alt="" coords="124,157,389,184"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_variable_embedding_inserter.html" title="Optimal edge insertion module." alt="" coords="5,232,239,260"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="222,194,147,234,145,230,219,189"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_variable_embedding_inserter_dyn.html" title="Optimal edge insertion module." alt="" coords="263,232,522,260"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="295,189,370,230,367,234,293,194"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_edge_insertion_module.html" title="Interface for edge insertion algorithms." alt="" coords="160,81,354,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="259,124,259,156,254,156,254,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_module.html" title="Base class for modules." alt="" coords="135,5,240,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="211,42,246,79,242,82,208,46"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_timeouter.html" title="class for timeout funtionality." alt="" coords="264,5,388,33"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="306,46,271,82,267,79,302,42"/>
 </map>

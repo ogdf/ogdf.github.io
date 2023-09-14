@@ -1,0 +1,25 @@
+<map id="ogdf::PQNodeRoot" name="ogdf::PQNodeRoot">
+<area shape="rect" id="Node000001" title="The class PQNodeRoot is used as a base class of the class PQNode." alt="" coords="5,257,145,284"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_p_q_node.html" title=" " alt="" coords="193,5,385,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,241,97,201,120,153,151,103,191,60,208,48,211,53,194,64,156,107,125,155,102,203,87,243"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_p_q_node.html" title=" " alt="" coords="209,75,369,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="90,242,132,186,160,156,191,129,212,118,214,122,194,134,163,160,136,189,95,245"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_p_q_node.html" title=" " alt="" coords="201,144,377,189"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="108,246,191,199,219,187,221,192,194,203,111,251"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_p_q_node.html" title=" " alt="" coords="209,213,369,258"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="158,254,208,246,209,251,159,259"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_p_q_node.html" title=" " alt="" coords="209,283,369,327"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="159,281,209,289,208,295,158,287"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_p_q_node.html" title=" " alt="" coords="204,352,374,397"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="111,290,194,337,221,349,219,354,191,342,108,295"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_p_q_node.html" title=" " alt="" coords="208,421,370,483"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="95,295,137,351,164,380,194,407,211,418,208,422,191,411,160,384,133,354,91,298"/>
+<area shape="rect" id="Node000010" href="$classogdf_1_1_p_q_node.html" title="The class template PQBasicKey is an abstract base class." alt="" coords="199,507,379,535"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="86,298,99,341,121,394,153,447,172,471,194,492,214,504,212,509,191,496,168,475,148,450,116,396,94,343,81,299"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1booth__lueker_1_1_embed_indicator.html" title=" " alt="" coords="450,213,591,258"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="384,233,449,233,449,238,384,238"/>
+<area shape="rect" id="Node000011" href="$classogdf_1_1_p_q_internal_node.html" title="The class template PQInternalNode is used to present P&#45;nodes and Q&#45;nodes in the PQ&#45;Tree." alt="" coords="441,468,600,513"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="393,505,440,498,440,504,394,510"/>
+<area shape="rect" id="Node000012" href="$classogdf_1_1_p_q_leaf.html" title="The datastructure PQ&#45;tree was designed to present a set of permutations on an arbitrary set of elemen..." alt="" coords="433,537,607,564"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="394,532,433,537,432,542,393,537"/>
+</map>

@@ -1,7 +1,7 @@
 var classogdf_1_1_queue =
 [
     [ "const_iterator", "classogdf_1_1_queue.html#a60f6d42d2b54179f0a0b50785264aaf2", null ],
-    [ "const_reference", "classogdf_1_1_queue.html#a0766ad940d50ca31e8b9194a0e7c6be2", null ],
+    [ "const_reference", "classogdf_1_1_queue.html#a6e16218704e086ed7d954aee6a192ef8", null ],
     [ "iterator", "classogdf_1_1_queue.html#a8afb2a6013e441ab1d444749d66755ab", null ],
     [ "reference", "classogdf_1_1_queue.html#a6dc1e36584fe9099f21d8496c532e0da", null ],
     [ "value_type", "classogdf_1_1_queue.html#afe95aad1aabf3353fcefe633d06122a2", null ],
@@ -24,9 +24,9 @@ var classogdf_1_1_queue =
     [ "empty", "classogdf_1_1_queue.html#ac978acbf8b65d99d117d44ecf965a62e", null ],
     [ "end", "classogdf_1_1_queue.html#a5b64b043ba200f62f9bced2942c064b0", null ],
     [ "end", "classogdf_1_1_queue.html#aa439bdb5858fbfa1e384aaa828f8070f", null ],
-    [ "getList", "classogdf_1_1_queue.html#aad0cf14becf6a19f31197ea972df5a4c", null ],
-    [ "operator=", "classogdf_1_1_queue.html#a6f6f88b7e8ca9cd4f54fab381aea8408", null ],
-    [ "operator=", "classogdf_1_1_queue.html#aa9c66153abba4154fed69a3c3516f11e", null ],
+    [ "getList", "classogdf_1_1_queue.html#af8cc9132c53720ef287bed8a7a3e995f", null ],
+    [ "operator=", "classogdf_1_1_queue.html#acf1f86631f9e55c8241335c75a527ccf", null ],
+    [ "operator=", "classogdf_1_1_queue.html#aebd4696a6b1b47cc26d2991958b02310", null ],
     [ "pop", "classogdf_1_1_queue.html#a889e833a15c9689906011fa109b4ec01", null ],
     [ "size", "classogdf_1_1_queue.html#a619f8708192f72953d1003741eea4bf3", null ],
     [ "top", "classogdf_1_1_queue.html#a9020e28bfed1697e61d8d1c684f5f0e3", null ],

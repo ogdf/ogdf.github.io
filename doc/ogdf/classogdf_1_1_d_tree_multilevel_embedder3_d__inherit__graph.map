@@ -1,5 +1,7 @@
 <map id="ogdf::DTreeMultilevelEmbedder3D" name="ogdf::DTreeMultilevelEmbedder3D">
-<area shape="rect" id="node1" title=" " alt="" coords="131,80,375,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_d_tree_multilevel_embedder.html" title=" " alt="" coords="5,5,269,32"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="294,5,445,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="130,81,373,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_d_tree_multilevel_embedder.html" title=" " alt="" coords="5,5,269,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,39,233,78,230,83,168,44"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="293,5,442,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="336,44,274,83,271,78,333,39"/>
 </map>

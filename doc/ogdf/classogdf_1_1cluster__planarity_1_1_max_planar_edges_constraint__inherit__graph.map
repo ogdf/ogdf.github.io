@@ -1,6 +1,9 @@
 <map id="ogdf::cluster_planarity::MaxPlanarEdgesConstraint" name="ogdf::cluster_planarity::MaxPlanarEdgesConstraint">
-<area shape="rect" id="node1" title=" " alt="" coords="5,229,211,271"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format." alt="" coords="37,155,179,181"/>
-<area shape="rect" id="node3" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="47,80,169,107"/>
-<area shape="rect" id="node4" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="31,5,185,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,232,210,277"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_constraint.html" title="Forms the virtual base class for all possible constraints given in pool format." alt="" coords="36,157,179,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,199,110,232,105,232,105,199"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_con_var.html" title="Common base class for constraints (Constraint) and variables (Variable)." alt="" coords="47,81,168,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,124,110,156,105,156,105,124"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="31,5,184,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="110,48,110,81,105,81,105,48"/>
 </map>

@@ -5,7 +5,7 @@ var classogdf_1_1_grid_layout_module =
     [ "call", "classogdf_1_1_grid_layout_module.html#a1fe60dfdd6546e28ef875c394621bc0a", null ],
     [ "callGrid", "classogdf_1_1_grid_layout_module.html#a2f7bca68e174719314f50f732d7c8ad4", null ],
     [ "doCall", "classogdf_1_1_grid_layout_module.html#a02398be4b95b3ef75074349e228153ba", null ],
-    [ "gridBoundingBox", "classogdf_1_1_grid_layout_module.html#a91d2cfacb9371190df6b4df21caa50dc", null ],
+    [ "gridBoundingBox", "classogdf_1_1_grid_layout_module.html#ad4f7c6ca0d1241224708567734a6e17f", null ],
     [ "mapGridLayout", "classogdf_1_1_grid_layout_module.html#a8a5b322a16577a04627b014268210453", null ],
     [ "separation", "classogdf_1_1_grid_layout_module.html#a9f9925befdb7a5fe292e56de32aeffde", null ],
     [ "separation", "classogdf_1_1_grid_layout_module.html#ab08600983075637a217f7b0daaf72496", null ],

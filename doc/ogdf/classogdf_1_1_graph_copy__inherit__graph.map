@@ -1,11 +1,19 @@
 <map id="ogdf::GraphCopy" name="ogdf::GraphCopy">
-<area shape="rect" id="node1" title="Copies of graphs supporting edge splitting." alt="" coords="151,81,281,108"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_edge_weighted_graph_copy.html" title=" " alt="" coords="329,5,592,32"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_plan_rep.html" title="Planarized representations (of a connected component) of a graph." alt="" coords="405,56,516,83"/>
-<area shape="rect" id="node8" href="$classogdf_1_1_plan_rep_light.html" title="Light&#45;weight version of a planarized representation, associated with a PlanRep." alt="" coords="389,107,532,133"/>
-<area shape="rect" id="node9" href="$classogdf_1_1_upward_plan_rep.html" title="Upward planarized representations (of a connected component) of a graph." alt="" coords="380,157,541,184"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="5,81,103,108"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_cluster_plan_rep.html" title="Planarized representations for clustered graphs." alt="" coords="640,31,797,57"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="649,81,789,108"/>
-<area shape="rect" id="node7" href="$classogdf_1_1_plan_rep_inc.html" title="This class is only an adaption of PlanRep for the special incremental drawing case." alt="" coords="845,81,976,108"/>
+<area shape="rect" id="Node000001" title="Copies of graphs supporting edge splitting." alt="" coords="150,84,279,112"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_edge_weighted_graph_copy.html" title=" " alt="" coords="327,5,587,33"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="254,74,326,43,371,31,372,36,328,48,256,79"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_plan_rep.html" title="Planarized representations (of a connected component) of a graph." alt="" coords="402,57,512,85"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="293,87,401,75,402,80,294,92"/>
+<area shape="rect" id="Node000008" href="$classogdf_1_1_plan_rep_light.html" title="Light&#45;weight version of a planarized representation, associated with a PlanRep." alt="" coords="386,109,528,137"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="294,103,386,113,385,118,294,109"/>
+<area shape="rect" id="Node000009" href="$classogdf_1_1_upward_plan_rep.html" title="Upward planarized representations (of a connected component) of a graph." alt="" coords="377,161,537,189"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="257,116,328,146,377,159,376,164,326,151,255,121"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="5,84,102,112"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="117,95,149,95,149,101,117,101"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_cluster_plan_rep.html" title="Planarized representations for clustered graphs." alt="" coords="635,32,792,60"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="527,62,634,51,635,56,527,67"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="644,84,783,112"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="528,76,644,88,643,93,527,81"/>
+<area shape="rect" id="Node000007" href="$classogdf_1_1_plan_rep_inc.html" title="This class is only an adaption of PlanRep for the special incremental drawing case." alt="" coords="840,84,969,112"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="798,95,839,95,839,101,798,101"/>
 </map>

@@ -11,6 +11,6 @@ var classabacus_1_1_opt_sense =
     [ "sense", "classabacus_1_1_opt_sense.html#a740b730d4eeef81f563fc47bb79a1a9e", null ],
     [ "sense", "classabacus_1_1_opt_sense.html#ad2592e82820427c2217649eedca100df", null ],
     [ "unknown", "classabacus_1_1_opt_sense.html#a31f49f1e7ef1bffea09035201bfc2365", null ],
-    [ "operator<<", "classabacus_1_1_opt_sense.html#af592727007101107c62174a006df29df", null ],
+    [ "operator<<", "classabacus_1_1_opt_sense.html#a967d1ecf51b4eb04bf53def43392c77c", null ],
     [ "sense_", "classabacus_1_1_opt_sense.html#adc29cf696e1403cd18bc8c54bc2975d8", null ]
 ];

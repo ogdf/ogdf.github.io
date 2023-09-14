@@ -13,7 +13,7 @@ var classogdf_1_1_simple_inc_node_inserter =
     [ "updateComponentNumber", "classogdf_1_1_simple_inc_node_inserter.html#ae294500b5097b65adec5afdfe778460a", null ],
     [ "m_dual", "classogdf_1_1_simple_inc_node_inserter.html#a1f42a289ecbe5c602ef078d71d5d2862", null ],
     [ "m_forbidCrossings", "classogdf_1_1_simple_inc_node_inserter.html#a862b8e56ae9b8cd6fa3a958b0d477de0", null ],
-    [ "m_incidentEdges", "classogdf_1_1_simple_inc_node_inserter.html#a1564284a2bb024729a8a04ed8d04ec90", null ],
+    [ "m_incidentEdges", "classogdf_1_1_simple_inc_node_inserter.html#aedc7ee15674921ebc8ecbc4ac144d759", null ],
     [ "m_insertFaceNode", "classogdf_1_1_simple_inc_node_inserter.html#aa326ca7dae541fcef7912a76ec1e9b43", null ],
     [ "m_nodeOf", "classogdf_1_1_simple_inc_node_inserter.html#a39541c4b994016dc0b511423aefc1a00", null ],
     [ "m_primalAdj", "classogdf_1_1_simple_inc_node_inserter.html#a9ca42dc8bf7630093a90f81f17082013", null ],

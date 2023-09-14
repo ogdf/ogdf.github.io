@@ -1,4 +1,9 @@
 <map id="abacus::NonDuplPool&lt; BaseType, CoType &gt;" name="abacus::NonDuplPool&lt; BaseType, CoType &gt;">
-<area shape="rect" id="node1" title="Standard pools without constraint duplication." alt="" coords="5,95,175,136"/>
-<area shape="rect" id="node2" href="$classabacus_1_1_standard_pool.html" title="Standard pools." alt="" coords="5,5,175,47"/>
+<area shape="rect" id="Node000001" title="Standard pools without constraint duplication." alt="" coords="13,266,182,311"/>
+<area shape="rect" id="Node000002" href="$classabacus_1_1_standard_pool.html" title="Standard pools." alt="" coords="13,174,182,218"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,233,100,266,95,266,95,233"/>
+<area shape="rect" id="Node000003" href="$classabacus_1_1_pool.html" title="Base class for constraint/variabe pools." alt="" coords="5,81,190,126"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="100,140,100,173,95,173,95,140"/>
+<area shape="rect" id="Node000004" href="$classabacus_1_1_abacus_root.html" title="Base class of all other classes of ABACUS." alt="" coords="21,5,174,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="100,48,100,80,95,80,95,48"/>
 </map>

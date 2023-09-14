@@ -1,4 +1,5 @@
 <map id="ogdf::MinSteinerTreeTakahashi&lt; T &gt;" name="ogdf::MinSteinerTreeTakahashi&lt; T &gt;">
-<area shape="rect" id="node1" title="This class implements the minimum Steiner tree 2&#45;approximation algorithm by Takahashi and Matsuyama w..." alt="" coords="5,80,264,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_min_steiner_tree_module.html" title="Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirec..." alt="" coords="14,5,255,32"/>
+<area shape="rect" id="Node000001" title="This class implements the minimum Steiner tree 2&#45;approximation algorithm by Takahashi and Matsuyama w..." alt="" coords="5,81,262,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_min_steiner_tree_module.html" title="Serves as an interface for various methods to compute or approximate minimum Steiner trees on undirec..." alt="" coords="13,5,254,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="136,48,136,81,131,81,131,48"/>
 </map>

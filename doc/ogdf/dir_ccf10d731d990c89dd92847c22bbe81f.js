@@ -6,164 +6,62 @@ var dir_ccf10d731d990c89dd92847c22bbe81f =
     [ "bheap.h", "bheap_8h.html", "bheap_8h" ],
     [ "bheap.inc", "bheap_8inc.html", null ],
     [ "boundbranchrule.h", "boundbranchrule_8h.html", "boundbranchrule_8h" ],
-    [ "bprioqueue.h", "bprioqueue_8h.html", [
-      [ "AbaPrioQueue", "classabacus_1_1_aba_prio_queue.html", "classabacus_1_1_aba_prio_queue" ]
-    ] ],
+    [ "bprioqueue.h", "bprioqueue_8h.html", "bprioqueue_8h" ],
     [ "bprioqueue.inc", "bprioqueue_8inc.html", null ],
-    [ "branchrule.h", "branchrule_8h.html", [
-      [ "BranchRule", "classabacus_1_1_branch_rule.html", "classabacus_1_1_branch_rule" ]
-    ] ],
-    [ "column.h", "column_8h.html", [
-      [ "Column", "classabacus_1_1_column.html", "classabacus_1_1_column" ]
-    ] ],
+    [ "branchrule.h", "branchrule_8h.html", "branchrule_8h" ],
+    [ "column.h", "column_8h.html", "column_8h" ],
     [ "colvar.h", "colvar_8h.html", "colvar_8h" ],
-    [ "conbranchrule.h", "conbranchrule_8h.html", [
-      [ "ConBranchRule", "classabacus_1_1_con_branch_rule.html", "classabacus_1_1_con_branch_rule" ]
-    ] ],
-    [ "conclass.h", "conclass_8h.html", [
-      [ "ConClass", "classabacus_1_1_con_class.html", "classabacus_1_1_con_class" ]
-    ] ],
-    [ "constraint.h", "constraint_8h.html", [
-      [ "Active", "classabacus_1_1_active.html", "classabacus_1_1_active" ],
-      [ "Constraint", "classabacus_1_1_constraint.html", "classabacus_1_1_constraint" ]
-    ] ],
-    [ "convar.h", "convar_8h.html", [
-      [ "ConVar", "classabacus_1_1_con_var.html", "classabacus_1_1_con_var" ],
-      [ "CutBuffer", "classabacus_1_1_cut_buffer.html", "classabacus_1_1_cut_buffer" ],
-      [ "PoolSlot", "classabacus_1_1_pool_slot.html", "classabacus_1_1_pool_slot" ],
-      [ "PoolSlotRef", "classabacus_1_1_pool_slot_ref.html", "classabacus_1_1_pool_slot_ref" ],
-      [ "StandardPool", "classabacus_1_1_standard_pool.html", "classabacus_1_1_standard_pool" ]
-    ] ],
-    [ "csense.h", "csense_8h.html", [
-      [ "CSense", "classabacus_1_1_c_sense.html", "classabacus_1_1_c_sense" ]
-    ] ],
-    [ "cutbuffer.h", "cutbuffer_8h.html", [
-      [ "CutBuffer", "classabacus_1_1_cut_buffer.html", "classabacus_1_1_cut_buffer" ],
-      [ "PoolSlot", "classabacus_1_1_pool_slot.html", "classabacus_1_1_pool_slot" ],
-      [ "PoolSlotRef", "classabacus_1_1_pool_slot_ref.html", "classabacus_1_1_pool_slot_ref" ]
-    ] ],
+    [ "conbranchrule.h", "conbranchrule_8h.html", "conbranchrule_8h" ],
+    [ "conclass.h", "conclass_8h.html", "conclass_8h" ],
+    [ "constraint.h", "constraint_8h.html", "constraint_8h" ],
+    [ "convar.h", "convar_8h.html", "convar_8h" ],
+    [ "csense.h", "csense_8h.html", "csense_8h" ],
+    [ "cutbuffer.h", "cutbuffer_8h.html", "cutbuffer_8h" ],
     [ "cutbuffer.inc", "cutbuffer_8inc.html", null ],
-    [ "fixcand.h", "fixcand_8h.html", [
-      [ "CutBuffer", "classabacus_1_1_cut_buffer.html", "classabacus_1_1_cut_buffer" ],
-      [ "FixCand", "classabacus_1_1_fix_cand.html", "classabacus_1_1_fix_cand" ],
-      [ "PoolSlotRef", "classabacus_1_1_pool_slot_ref.html", "classabacus_1_1_pool_slot_ref" ]
-    ] ],
-    [ "fsvarstat.h", "fsvarstat_8h.html", [
-      [ "FSVarStat", "classabacus_1_1_f_s_var_stat.html", "classabacus_1_1_f_s_var_stat" ]
-    ] ],
-    [ "global.h", "global_8h.html", [
-      [ "AbacusGlobal", "classabacus_1_1_abacus_global.html", "classabacus_1_1_abacus_global" ]
-    ] ],
+    [ "fixcand.h", "fixcand_8h.html", "fixcand_8h" ],
+    [ "fsvarstat.h", "fsvarstat_8h.html", "fsvarstat_8h" ],
+    [ "global.h", "global_8h.html", "global_8h" ],
     [ "hash.h", "hash_8h.html", "hash_8h" ],
     [ "hash.inc", "hash_8inc.html", null ],
-    [ "history.h", "history_8h.html", [
-      [ "History", "classabacus_1_1_history.html", "classabacus_1_1_history" ]
-    ] ],
-    [ "infeascon.h", "infeascon_8h.html", [
-      [ "InfeasCon", "classabacus_1_1_infeas_con.html", "classabacus_1_1_infeas_con" ]
-    ] ],
-    [ "lp.h", "lp_8h.html", [
-      [ "LP", "classabacus_1_1_l_p.html", "classabacus_1_1_l_p" ]
-    ] ],
-    [ "lpmaster.h", "lpmaster_8h.html", [
-      [ "LpMaster", "classabacus_1_1_lp_master.html", "classabacus_1_1_lp_master" ]
-    ] ],
-    [ "lpmasterosi.h", "lpmasterosi_8h.html", [
-      [ "LpMasterOsi", "classabacus_1_1_lp_master_osi.html", "classabacus_1_1_lp_master_osi" ]
-    ] ],
+    [ "history.h", "history_8h.html", "history_8h" ],
+    [ "infeascon.h", "infeascon_8h.html", "infeascon_8h" ],
+    [ "lp.h", "lp_8h.html", "lp_8h" ],
+    [ "lpmaster.h", "lpmaster_8h.html", "lpmaster_8h" ],
+    [ "lpmasterosi.h", "lpmasterosi_8h.html", "lpmasterosi_8h" ],
     [ "lpsolution.h", "lpsolution_8h.html", "lpsolution_8h" ],
     [ "lpsolution.inc", "lpsolution_8inc.html", null ],
-    [ "lpsub.h", "lpsub_8h.html", [
-      [ "LpSub", "classabacus_1_1_lp_sub.html", "classabacus_1_1_lp_sub" ]
-    ] ],
-    [ "lpsubosi.h", "lpsubosi_8h.html", [
-      [ "LpSubOsi", "classabacus_1_1_lp_sub_osi.html", "classabacus_1_1_lp_sub_osi" ]
-    ] ],
-    [ "lpvarstat.h", "lpvarstat_8h.html", [
-      [ "LPVARSTAT", "classabacus_1_1_l_p_v_a_r_s_t_a_t.html", "classabacus_1_1_l_p_v_a_r_s_t_a_t" ]
-    ] ],
-    [ "master.h", "master_8h.html", [
-      [ "Master", "classabacus_1_1_master.html", "classabacus_1_1_master" ],
-      [ "StandardPool", "classabacus_1_1_standard_pool.html", "classabacus_1_1_standard_pool" ]
-    ] ],
-    [ "nonduplpool.h", "nonduplpool_8h.html", [
-      [ "NonDuplPool", "classabacus_1_1_non_dupl_pool.html", "classabacus_1_1_non_dupl_pool" ]
-    ] ],
+    [ "lpsub.h", "lpsub_8h.html", "lpsub_8h" ],
+    [ "lpsubosi.h", "lpsubosi_8h.html", "lpsubosi_8h" ],
+    [ "lpvarstat.h", "lpvarstat_8h.html", "lpvarstat_8h" ],
+    [ "master.h", "master_8h.html", "master_8h" ],
+    [ "nonduplpool.h", "nonduplpool_8h.html", "nonduplpool_8h" ],
     [ "nonduplpool.inc", "nonduplpool_8inc.html", null ],
-    [ "numcon.h", "numcon_8h.html", [
-      [ "NumCon", "classabacus_1_1_num_con.html", "classabacus_1_1_num_con" ]
-    ] ],
-    [ "numvar.h", "numvar_8h.html", [
-      [ "NumVar", "classabacus_1_1_num_var.html", "classabacus_1_1_num_var" ]
-    ] ],
-    [ "opensub.h", "opensub_8h.html", [
-      [ "OpenSub", "classabacus_1_1_open_sub.html", "classabacus_1_1_open_sub" ]
-    ] ],
-    [ "optsense.h", "optsense_8h.html", [
-      [ "OptSense", "classabacus_1_1_opt_sense.html", "classabacus_1_1_opt_sense" ]
-    ] ],
-    [ "osiif.h", "osiif_8h.html", [
-      [ "OsiIF", "classabacus_1_1_osi_i_f.html", "classabacus_1_1_osi_i_f" ]
-    ] ],
+    [ "numcon.h", "numcon_8h.html", "numcon_8h" ],
+    [ "numvar.h", "numvar_8h.html", "numvar_8h" ],
+    [ "opensub.h", "opensub_8h.html", "opensub_8h" ],
+    [ "optsense.h", "optsense_8h.html", "optsense_8h" ],
+    [ "osiif.h", "osiif_8h.html", "osiif_8h" ],
     [ "osiinclude.h", "osiinclude_8h.html", null ],
-    [ "pool.h", "pool_8h.html", [
-      [ "Active", "classabacus_1_1_active.html", "classabacus_1_1_active" ],
-      [ "Pool", "classabacus_1_1_pool.html", "classabacus_1_1_pool" ]
-    ] ],
-    [ "poolslot.h", "poolslot_8h.html", [
-      [ "CutBuffer", "classabacus_1_1_cut_buffer.html", "classabacus_1_1_cut_buffer" ],
-      [ "NonDuplPool", "classabacus_1_1_non_dupl_pool.html", "classabacus_1_1_non_dupl_pool" ],
-      [ "Pool", "classabacus_1_1_pool.html", "classabacus_1_1_pool" ],
-      [ "PoolSlot", "classabacus_1_1_pool_slot.html", "classabacus_1_1_pool_slot" ],
-      [ "PoolSlotRef", "classabacus_1_1_pool_slot_ref.html", "classabacus_1_1_pool_slot_ref" ],
-      [ "StandardPool", "classabacus_1_1_standard_pool.html", "classabacus_1_1_standard_pool" ]
-    ] ],
+    [ "pool.h", "pool_8h.html", "pool_8h" ],
+    [ "poolslot.h", "poolslot_8h.html", "poolslot_8h" ],
     [ "poolslot.inc", "poolslot_8inc.html", null ],
     [ "poolslotref.h", "poolslotref_8h.html", "poolslotref_8h" ],
     [ "poolslotref.inc", "poolslotref_8inc.html", null ],
     [ "ring.h", "ring_8h.html", "ring_8h" ],
     [ "ring.inc", "ring_8inc.html", null ],
-    [ "row.h", "row_8h.html", [
-      [ "Row", "classabacus_1_1_row.html", "classabacus_1_1_row" ]
-    ] ],
-    [ "rowcon.h", "rowcon_8h.html", [
-      [ "RowCon", "classabacus_1_1_row_con.html", "classabacus_1_1_row_con" ]
-    ] ],
+    [ "row.h", "row_8h.html", "row_8h" ],
+    [ "rowcon.h", "rowcon_8h.html", "rowcon_8h" ],
     [ "separator.h", "separator_8h.html", "separator_8h" ],
     [ "separator.inc", "separator_8inc.html", null ],
-    [ "setbranchrule.h", "setbranchrule_8h.html", [
-      [ "SetBranchRule", "classabacus_1_1_set_branch_rule.html", "classabacus_1_1_set_branch_rule" ]
-    ] ],
-    [ "slackstat.h", "slackstat_8h.html", [
-      [ "SlackStat", "classabacus_1_1_slack_stat.html", "classabacus_1_1_slack_stat" ]
-    ] ],
-    [ "sparvec.h", "sparvec_8h.html", [
-      [ "SparVec", "classabacus_1_1_spar_vec.html", "classabacus_1_1_spar_vec" ]
-    ] ],
-    [ "srowcon.h", "srowcon_8h.html", [
-      [ "SRowCon", "classabacus_1_1_s_row_con.html", "classabacus_1_1_s_row_con" ]
-    ] ],
+    [ "setbranchrule.h", "setbranchrule_8h.html", "setbranchrule_8h" ],
+    [ "slackstat.h", "slackstat_8h.html", "slackstat_8h" ],
+    [ "sparvec.h", "sparvec_8h.html", "sparvec_8h" ],
+    [ "srowcon.h", "srowcon_8h.html", "srowcon_8h" ],
     [ "standardpool.h", "standardpool_8h.html", "standardpool_8h" ],
     [ "standardpool.inc", "standardpool_8inc.html", null ],
-    [ "sub.h", "sub_8h.html", [
-      [ "Active", "classabacus_1_1_active.html", "classabacus_1_1_active" ],
-      [ "CutBuffer", "classabacus_1_1_cut_buffer.html", "classabacus_1_1_cut_buffer" ],
-      [ "LpSolution", "classabacus_1_1_lp_solution.html", "classabacus_1_1_lp_solution" ],
-      [ "Pool", "classabacus_1_1_pool.html", "classabacus_1_1_pool" ],
-      [ "PoolSlot", "classabacus_1_1_pool_slot.html", "classabacus_1_1_pool_slot" ],
-      [ "Sub", "classabacus_1_1_sub.html", "classabacus_1_1_sub" ]
-    ] ],
-    [ "tailoff.h", "tailoff_8h.html", [
-      [ "TailOff", "classabacus_1_1_tail_off.html", "classabacus_1_1_tail_off" ]
-    ] ],
-    [ "valbranchrule.h", "valbranchrule_8h.html", [
-      [ "ValBranchRule", "classabacus_1_1_val_branch_rule.html", "classabacus_1_1_val_branch_rule" ]
-    ] ],
-    [ "variable.h", "variable_8h.html", [
-      [ "Active", "classabacus_1_1_active.html", "classabacus_1_1_active" ],
-      [ "Variable", "classabacus_1_1_variable.html", "classabacus_1_1_variable" ]
-    ] ],
-    [ "vartype.h", "vartype_8h.html", [
-      [ "VarType", "classabacus_1_1_var_type.html", "classabacus_1_1_var_type" ]
-    ] ]
+    [ "sub.h", "sub_8h.html", "sub_8h" ],
+    [ "tailoff.h", "tailoff_8h.html", "tailoff_8h" ],
+    [ "valbranchrule.h", "valbranchrule_8h.html", "valbranchrule_8h" ],
+    [ "variable.h", "variable_8h.html", "variable_8h" ],
+    [ "vartype.h", "vartype_8h.html", "vartype_8h" ]
 ];

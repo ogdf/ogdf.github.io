@@ -74,7 +74,7 @@ var classogdf_1_1_f_m_m_m_layout =
     [ "initialPlacementMult", "classogdf_1_1_f_m_m_m_layout.html#a7a5556a5b93d837b975277d8073341b2", null ],
     [ "initialPlacementMult", "classogdf_1_1_f_m_m_m_layout.html#a31c6fa4a0344e7de3a64ebc7b9980b9f", null ],
     [ "make_initialisations_for_rep_calc_classes", "classogdf_1_1_f_m_m_m_layout.html#a4ae611fe6a9e8858161d243f80cad97f", null ],
-    [ "make_simple_loopfree", "classogdf_1_1_f_m_m_m_layout.html#ac031424b1df299eb103fdadcbe0ef93b", null ],
+    [ "make_simple_loopfree", "classogdf_1_1_f_m_m_m_layout.html#a8bff0172a456a03436fd7a2be786bfc1", null ],
     [ "max_radius", "classogdf_1_1_f_m_m_m_layout.html#a780f6efb9e476db027888e1c53bb03e1", null ],
     [ "maxIntPosExponent", "classogdf_1_1_f_m_m_m_layout.html#a5dbe80785b25d7eb268570281051a0b6", null ],
     [ "maxIntPosExponent", "classogdf_1_1_f_m_m_m_layout.html#a9efa8edc29a2b2c32f0cbdca88e64f92", null ],

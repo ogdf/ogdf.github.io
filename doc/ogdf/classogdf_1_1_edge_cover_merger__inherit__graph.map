@@ -1,4 +1,5 @@
 <map id="ogdf::EdgeCoverMerger" name="ogdf::EdgeCoverMerger">
-<area shape="rect" id="node1" title="The edge cover merger for multilevel layout." alt="" coords="5,80,180,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_multilevel_builder.html" title="Base class for merger modules." alt="" coords="8,5,177,32"/>
+<area shape="rect" id="Node000001" title="The edge cover merger for multilevel layout." alt="" coords="5,81,179,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_multilevel_builder.html" title="Base class for merger modules." alt="" coords="8,5,176,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,48,95,81,89,81,89,48"/>
 </map>

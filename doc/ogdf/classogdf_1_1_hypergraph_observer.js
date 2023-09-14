@@ -6,11 +6,11 @@ var classogdf_1_1_hypergraph_observer =
     [ "cleared", "classogdf_1_1_hypergraph_observer.html#aad11a04850dbc4378f70a8cbaddb53ee", null ],
     [ "hyperedgeAdded", "classogdf_1_1_hypergraph_observer.html#a7c4815abf485b1c3fc20ac430d6d0149", null ],
     [ "hyperedgeDeleted", "classogdf_1_1_hypergraph_observer.html#a27f2006c6fbc0f9d92d361b10fc84b8c", null ],
-    [ "hypergraph", "classogdf_1_1_hypergraph_observer.html#a26b044c90c735cac3bbcebf0330b6152", null ],
+    [ "hypergraph", "classogdf_1_1_hypergraph_observer.html#aaf6a215330ad242584afef08e9384ff9", null ],
     [ "hypernodeAdded", "classogdf_1_1_hypergraph_observer.html#abe67a53c1fac54bc3baae531e9347d31", null ],
     [ "hypernodeDeleted", "classogdf_1_1_hypergraph_observer.html#a75004deedc4c656fe797b7d4b6c4a34d", null ],
     [ "init", "classogdf_1_1_hypergraph_observer.html#a115057d4a6a5ffb186a757f38a71d76f", null ],
     [ "Hypergraph", "classogdf_1_1_hypergraph_observer.html#a447609da470cfcf34741663740900df7", null ],
     [ "m_hypergraph", "classogdf_1_1_hypergraph_observer.html#a88ad8ffe47b33de0b5247a741905b2ec", null ],
-    [ "m_itObserver", "classogdf_1_1_hypergraph_observer.html#a4757e9acc4984b5323dbf0c023724c04", null ]
+    [ "m_itObserver", "classogdf_1_1_hypergraph_observer.html#af4f370c8f0f1bada58b3407161fce557", null ]
 ];

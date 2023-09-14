@@ -1,5 +1,7 @@
 <map id="ogdf::steiner_tree::Full3ComponentGeneratorModule&lt; T &gt;" name="ogdf::steiner_tree::Full3ComponentGeneratorModule&lt; T &gt;">
-<area shape="rect" id="node1" title="Interface for full 3&#45;component generation including auxiliary functions." alt="" coords="5,39,292,80"/>
-<area shape="rect" id="node2" href="$classogdf_1_1steiner__tree_1_1_full3_component_generator_enumeration.html" title="Full 3&#45;component generation using enumeration." alt="" coords="340,5,663,47"/>
-<area shape="rect" id="node3" href="$classogdf_1_1steiner__tree_1_1_full3_component_generator_voronoi.html" title="Full 3&#45;component generation using Voronoi regions." alt="" coords="357,71,646,112"/>
+<area shape="rect" id="Node000001" title="Interface for full 3&#45;component generation including auxiliary functions." alt="" coords="5,40,292,85"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1steiner__tree_1_1_full3_component_generator_enumeration.html" title="Full 3&#45;component generation using enumeration." alt="" coords="340,5,661,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="306,44,339,41,340,46,307,49"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1steiner__tree_1_1_full3_component_generator_voronoi.html" title="Full 3&#45;component generation using Voronoi regions." alt="" coords="357,75,644,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="307,75,357,80,356,86,306,81"/>
 </map>

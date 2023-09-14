@@ -1,4 +1,5 @@
 <map id="ogdf::BinaryHeap&lt; T, C &gt;" name="ogdf::BinaryHeap&lt; T, C &gt;">
-<area shape="rect" id="node1" title="Heap realized by a data array." alt="" coords="18,109,207,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_heap_base.html" title=" " alt="" coords="5,5,220,61"/>
+<area shape="rect" id="Node000001" title="Heap realized by a data array." alt="" coords="5,98,194,126"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_heap_base.html" title="Common interface for all heap classes." alt="" coords="13,5,186,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="102,65,102,97,97,97,97,65"/>
 </map>

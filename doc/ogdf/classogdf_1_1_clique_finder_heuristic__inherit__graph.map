@@ -1,4 +1,5 @@
 <map id="ogdf::CliqueFinderHeuristic" name="ogdf::CliqueFinderHeuristic">
-<area shape="rect" id="node1" title="Finds cliques and dense subgraphs using a heuristic." alt="" coords="5,80,201,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_clique_finder_module.html" title="Finds cliques." alt="" coords="10,5,197,32"/>
+<area shape="rect" id="Node000001" title="Finds cliques and dense subgraphs using a heuristic." alt="" coords="5,81,202,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_clique_finder_module.html" title="Finds cliques." alt="" coords="10,5,197,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,48,106,81,101,81,101,48"/>
 </map>

@@ -1,12 +1,16 @@
 <map id="include/ogdf/lib" name="include/ogdf/lib">
-<area shape="rect" id="node2" href="dir_ccf10d731d990c89dd92847c22bbe81f.html" title="abacus" alt="" coords="341,63,413,111"/>
-<area shape="rect" id="node6" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html" title="basic" alt="" coords="136,159,208,207"/>
-<area shape="rect" id="edge3-headlabel" href="dir_000042_000011.html" title="9" alt="" coords="223,172,232,186"/>
-<area shape="rect" id="node3" href="dir_2fd04714356afa7f54b93b13d453306a.html" title="backward" alt="" coords="232,63,317,111"/>
-<area shape="rect" id="node4" href="dir_d2b6aa602fed8670372d13739f11e74b.html" title="minisat" alt="" coords="136,63,208,111"/>
-<area shape="rect" id="edge1-headlabel" href="dir_000018_000011.html" title="2" alt="" coords="176,133,185,148"/>
-<area shape="rect" id="node5" href="dir_2cde5e6c7ebd67424fbd5ef71de598b8.html" title="pugixml" alt="" coords="37,63,112,111"/>
-<area shape="rect" id="edge2-headlabel" href="dir_000047_000011.html" title="1" alt="" coords="136,133,146,147"/>
-<area shape="rect" id="clust2" href="dir_cb2b16483ab3a94fc30acbfc3fb1ea4a.html" alt="" coords="27,52,520,121"/>
-<area shape="rect" id="clust1" href="dir_946faf0608b096809b336c78e83b057e.html" title="ogdf" alt="" coords="16,16,531,132"/>
+<area shape="rect" id="node1" href="dir_684b7d4e849ff34fbd763f78d7ebd2fd.html" title="basic" alt="" coords="143,141,198,168"/>
+<area shape="rect" id="node3" href="dir_ccf10d731d990c89dd92847c22bbe81f.html" title="abacus" alt="" coords="437,65,504,93"/>
+<area shape="poly" id="edge1" href="dir_000000_000006.html" alt="" coords="449,96,426,106,369,123,312,136,213,151,212,146,311,130,368,117,424,101,447,91"/>
+<area shape="rect" id="edge1-headlabel" href="dir_000000_000006.html" title="9" alt="" coords="214,148,222,165"/>
+<area shape="rect" id="node4" href="dir_2fd04714356afa7f54b93b13d453306a.html" title="backward" alt="" coords="329,65,413,93"/>
+<area shape="rect" id="node5" href="dir_1b619b14f409f20ed04cbf125dc5e241.html" title="mapbox" alt="" coords="230,65,304,93"/>
+<area shape="rect" id="node6" href="dir_d2b6aa602fed8670372d13739f11e74b.html" title="minisat" alt="" coords="136,65,206,93"/>
+<area shape="poly" id="edge2" href="dir_000049_000006.html" alt="" coords="173,93,173,126,168,126,168,93"/>
+<area shape="rect" id="edge2-headlabel" href="dir_000049_000006.html" title="1" alt="" coords="175,114,183,131"/>
+<area shape="rect" id="node7" href="dir_2cde5e6c7ebd67424fbd5ef71de598b8.html" title="pugixml" alt="" coords="38,65,112,93"/>
+<area shape="poly" id="edge3" href="dir_000069_000006.html" alt="" coords="93,91,144,129,140,134,90,95"/>
+<area shape="rect" id="edge3-headlabel" href="dir_000069_000006.html" title="1" alt="" coords="140,114,148,131"/>
+<area shape="rect" id="clust2" href="dir_cb2b16483ab3a94fc30acbfc3fb1ea4a.html" alt="" coords="27,54,577,103"/>
+<area shape="rect" id="clust1" href="dir_946faf0608b096809b336c78e83b057e.html" title="ogdf" alt="" coords="16,16,588,179"/>
 </map>

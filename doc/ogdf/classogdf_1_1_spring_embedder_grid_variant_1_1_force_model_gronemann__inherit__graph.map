@@ -1,5 +1,7 @@
 <map id="ogdf::SpringEmbedderGridVariant::ForceModelGronemann" name="ogdf::SpringEmbedderGridVariant::ForceModelGronemann">
-<area shape="rect" id="node1" title=" " alt="" coords="5,199,233,240"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_base.html" title=" " alt="" coords="23,109,215,151"/>
-<area shape="rect" id="node3" href="$classogdf_1_1spring__embedder_1_1_common_force_model_base.html" title=" " alt="" coords="21,5,217,61"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,208,232,252"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_spring_embedder_grid_variant_1_1_force_model_base.html" title=" " alt="" coords="23,115,214,160"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,174,121,207,116,207,116,174"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1spring__embedder_1_1_common_force_model_base.html" title=" " alt="" coords="21,5,216,67"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="121,82,121,115,116,115,116,82"/>
 </map>

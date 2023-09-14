@@ -1,4 +1,9 @@
 <map id="ogdf::steiner_tree::FullComponentStore&lt; T, ExtraDataType &gt;" name="ogdf::steiner_tree::FullComponentStore&lt; T, ExtraDataType &gt;">
-<area shape="rect" id="node1" title="A data structure to store full components." alt="" coords="37,5,200,61"/>
-<area shape="rect" id="node2" href="$classogdf_1_1steiner__tree_1_1_full_component_with_extra_store.html" title="A data structure to store full components with extra data for each component." alt="" coords="5,109,232,165"/>
+<area shape="rect" id="Node000001" title="A data structure to store full components." alt="" coords="5,48,168,110"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1steiner__tree_1_1_full_component_with_extra_store.html" title=" " alt="" coords="216,5,441,67"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,59,215,54,215,59,183,65"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1steiner__tree_1_1_full_component_with_extra_store.html" title=" " alt="" coords="216,91,441,152"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="183,93,215,99,215,104,182,98"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1steiner__tree_1_1_full_component_with_loss_store.html" title="A data structure to store full components with additional &quot;loss&quot; functionality." alt="" coords="489,14,747,59"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="456,34,489,34,489,39,456,39"/>
 </map>

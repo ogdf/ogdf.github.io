@@ -1,8 +1,13 @@
 <map id="ogdf::PlanRep" name="ogdf::PlanRep">
-<area shape="rect" id="node1" title="Planarized representations (of a connected component) of a graph." alt="" coords="115,155,226,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_cluster_plan_rep.html" title="Planarized representations for clustered graphs." alt="" coords="5,229,163,256"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="187,229,327,256"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting." alt="" coords="105,80,236,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="122,5,219,32"/>
-<area shape="rect" id="node6" href="$classogdf_1_1_plan_rep_inc.html" title="This class is only an adaption of PlanRep for the special incremental drawing case." alt="" coords="192,304,323,331"/>
+<area shape="rect" id="Node000001" title="Planarized representations (of a connected component) of a graph." alt="" coords="114,157,224,184"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_cluster_plan_rep.html" title="Planarized representations for clustered graphs." alt="" coords="5,232,162,260"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="145,196,100,234,97,230,141,192"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_plan_rep_u_m_l.html" title="Planarized representation (of a connected component) of a UMLGraph; allows special handling of hierar..." alt="" coords="186,232,325,260"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,192,242,230,238,234,194,196"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_graph_copy.html" title="Copies of graphs supporting edge splitting." alt="" coords="104,81,234,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,124,172,156,166,156,166,124"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_graph.html" title="Data type for general directed graphs (adjacency list representation)." alt="" coords="121,5,217,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="172,48,172,81,166,81,166,48"/>
+<area shape="rect" id="Node000006" href="$classogdf_1_1_plan_rep_inc.html" title="This class is only an adaption of PlanRep for the special incremental drawing case." alt="" coords="191,308,320,336"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="258,275,258,308,253,308,253,275"/>
 </map>

@@ -7,7 +7,7 @@ var classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init =
     [ "computeLowPoints", "classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init.html#a8faa03ac0d4d8d62992babc290098609", null ],
     [ "createVirtualVertex", "classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init.html#ab7e2bb115cbca322e1646e4ae33f296c", null ],
     [ "NodeArray", "classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init.html#ac4746cce96548f6d34cb0b851ac32127", null ],
-    [ "operator=", "classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init.html#afbac487af4c182ece3b8de5948db5d9f", null ],
+    [ "operator=", "classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init.html#a0494d58961f96e7c6124ab6af5e8777a", null ],
     [ "m_adjParent", "classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init.html#a410fa3744b0ffc965d03ca168d7e191a", null ],
     [ "m_dfi", "classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init.html#af07b0575d640c7f22c9d67ab461647bd", null ],
     [ "m_edgeCosts", "classogdf_1_1boyer__myrvold_1_1_boyer_myrvold_init.html#aeb5aa2013c5b342204909e192dd507b2", null ],

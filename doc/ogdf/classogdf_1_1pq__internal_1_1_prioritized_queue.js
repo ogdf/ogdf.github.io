@@ -6,7 +6,7 @@ var classogdf_1_1pq__internal_1_1_prioritized_queue =
     [ "PrioritizedQueue", "classogdf_1_1pq__internal_1_1_prioritized_queue.html#aa68180181fd584eee1b4905ffe707c8a", null ],
     [ "decrease", "classogdf_1_1pq__internal_1_1_prioritized_queue.html#abeb5d75feeb3881539c211dd75778c10", null ],
     [ "push", "classogdf_1_1pq__internal_1_1_prioritized_queue.html#a3b3017793719cee791b9d525ecd8c920", null ],
-    [ "topElement", "classogdf_1_1pq__internal_1_1_prioritized_queue.html#a7c99a7abd2ba03dd70a275ef0d1a084e", null ],
-    [ "topPriority", "classogdf_1_1pq__internal_1_1_prioritized_queue.html#a5cfa8a0999c29d943b8251381218cb31", null ],
+    [ "topElement", "classogdf_1_1pq__internal_1_1_prioritized_queue.html#a030121747ef90549c79b3fa6edd0bff6", null ],
+    [ "topPriority", "classogdf_1_1pq__internal_1_1_prioritized_queue.html#a09810e936cad4d021829d441b0408d8e", null ],
     [ "m_comp", "classogdf_1_1pq__internal_1_1_prioritized_queue.html#ac12e72024a7e48bba66fdd6b867a6883", null ]
 ];

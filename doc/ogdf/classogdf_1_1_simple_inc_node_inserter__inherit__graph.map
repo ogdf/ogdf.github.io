@@ -1,4 +1,5 @@
 <map id="ogdf::SimpleIncNodeInserter" name="ogdf::SimpleIncNodeInserter">
-<area shape="rect" id="node1" title=" " alt="" coords="5,80,212,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_inc_node_inserter.html" title=" " alt="" coords="28,5,189,32"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,81,211,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_inc_node_inserter.html" title=" " alt="" coords="28,5,188,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="111,48,111,81,105,81,105,48"/>
 </map>

@@ -6,7 +6,7 @@ var classogdf_1_1_kuratowski_structure =
     [ "clear", "classogdf_1_1_kuratowski_structure.html#a0ad596b3b430b4fd0cb465886cb5943a", null ],
     [ "copy", "classogdf_1_1_kuratowski_structure.html#add06c680de9220e2603e182a3e33e7bb", null ],
     [ "copyPointer", "classogdf_1_1_kuratowski_structure.html#a03e7b375a4f1f81a0b7af5b0e4d16b75", null ],
-    [ "operator=", "classogdf_1_1_kuratowski_structure.html#abd169b32830eb78d85248f90821fb039", null ],
+    [ "operator=", "classogdf_1_1_kuratowski_structure.html#aec92814b4fa94e0cab832b501fc2ac83", null ],
     [ "ExtractKuratowskis", "classogdf_1_1_kuratowski_structure.html#a506d25cc83c8165b24b70b529e886e23", null ],
     [ "FindKuratowskis", "classogdf_1_1_kuratowski_structure.html#ab8d1009fb5b5852e38fd05047bcc2342", null ],
     [ "externalFacePath", "classogdf_1_1_kuratowski_structure.html#a55b89473ac6a20e8792dfee9c7b04901", null ],

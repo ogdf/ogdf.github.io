@@ -1,5 +1,7 @@
 <map id="ogdf::ClusterGraph" name="ogdf::ClusterGraph">
-<area shape="rect" id="node1" title="Representation of clustered graphs." alt="" coords="22,80,165,107"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_cluster_graph_copy.html" title=" " alt="" coords="5,155,181,181"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_graph_observer.html" title="Abstract Base class for graph observers." alt="" coords="15,5,171,32"/>
+<area shape="rect" id="Node000001" title="Representation of clustered graphs." alt="" coords="22,81,164,109"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_cluster_graph_copy.html" title=" " alt="" coords="5,157,181,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="96,124,96,156,90,156,90,124"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_graph_observer.html" title="Abstract Base class for graph observers." alt="" coords="15,5,171,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="96,48,96,81,90,81,90,48"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="ogdf::NoStdComparerException" name="ogdf::NoStdComparerException">
-<area shape="rect" id="node1" title="Exception thrown when a required standard comparer has not been specialized." alt="" coords="5,80,231,107"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_exception.html" title="Base class of all ogdf exceptions." alt="" coords="57,5,179,32"/>
+<area shape="rect" id="Node000001" title="Exception thrown when a required standard comparer has not been specialized." alt="" coords="5,81,230,109"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_exception.html" title="Base class of all ogdf exceptions." alt="" coords="57,5,178,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,48,120,81,115,81,115,48"/>
 </map>

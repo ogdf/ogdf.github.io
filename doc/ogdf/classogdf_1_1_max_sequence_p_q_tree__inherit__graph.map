@@ -1,4 +1,5 @@
 <map id="ogdf::MaxSequencePQTree&lt; T, Y &gt;" name="ogdf::MaxSequencePQTree&lt; T, Y &gt;">
-<area shape="rect" id="node1" title="The class template MaxSequencePQTree is designed to compute a maximal consecutive sequence of pertine..." alt="" coords="5,95,200,136"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_p_q_tree.html" title=" " alt="" coords="9,5,196,47"/>
+<area shape="rect" id="Node000001" title="The class template MaxSequencePQTree is designed to compute a maximal consecutive sequence of pertine..." alt="" coords="5,98,199,143"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_p_q_tree.html" title=" " alt="" coords="9,5,195,50"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,65,105,98,99,98,99,65"/>
 </map>

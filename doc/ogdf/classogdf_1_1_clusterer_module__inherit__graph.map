@@ -1,4 +1,5 @@
 <map id="ogdf::ClustererModule" name="ogdf::ClustererModule">
-<area shape="rect" id="node1" title="Interface for algorithms that compute a clustering for a given graph." alt="" coords="5,5,171,32"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_clusterer.html" title=" " alt="" coords="29,80,147,107"/>
+<area shape="rect" id="Node000001" title="Interface for algorithms that compute a clustering for a given graph." alt="" coords="5,5,170,33"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_clusterer.html" title="Clustering is determined based on the threshold values (connectivity thresholds determine edges to be..." alt="" coords="29,81,146,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="90,48,90,81,85,81,85,48"/>
 </map>

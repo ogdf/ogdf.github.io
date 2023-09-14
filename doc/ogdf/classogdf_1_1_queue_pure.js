@@ -24,9 +24,9 @@ var classogdf_1_1_queue_pure =
     [ "empty", "classogdf_1_1_queue_pure.html#a4fced29198632daab2380113253f9484", null ],
     [ "end", "classogdf_1_1_queue_pure.html#a2c03b28953a60901d662c71d0606eeeb", null ],
     [ "end", "classogdf_1_1_queue_pure.html#ab26840f92059d1f35f402de56b9f90af", null ],
-    [ "getListPure", "classogdf_1_1_queue_pure.html#a3c1658482a6926dda3ad25250cc4396e", null ],
-    [ "operator=", "classogdf_1_1_queue_pure.html#a327dee3e951002b20cc0fdf1c123ad13", null ],
-    [ "operator=", "classogdf_1_1_queue_pure.html#aa85be0ad665c08437f2e6ff5ea4f17f2", null ],
+    [ "getListPure", "classogdf_1_1_queue_pure.html#ae5745e4560a81ed1f75321ad4b324505", null ],
+    [ "operator=", "classogdf_1_1_queue_pure.html#ac2f92072b171817ba531794e2b14986c", null ],
+    [ "operator=", "classogdf_1_1_queue_pure.html#a9e8a2c8f51cae6bd4f74ecd8d738c214", null ],
     [ "pop", "classogdf_1_1_queue_pure.html#a653632976a90382eda246b46f247929f", null ],
     [ "top", "classogdf_1_1_queue_pure.html#a13ca23882f3c7af4d1c2c28f4e1260d7", null ],
     [ "top", "classogdf_1_1_queue_pure.html#af284f6bf439528706e9a5c68d1fd8ba7", null ]

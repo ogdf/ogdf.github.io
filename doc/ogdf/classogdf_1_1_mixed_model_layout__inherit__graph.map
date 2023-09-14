@@ -1,7 +1,11 @@
 <map id="ogdf::MixedModelLayout" name="ogdf::MixedModelLayout">
-<area shape="rect" id="node1" title="Implementation of the Mixed&#45;Model layout algorithm." alt="" coords="29,304,212,331"/>
-<area shape="rect" id="node2" href="$classogdf_1_1_grid_layout_plan_rep_module.html" title="Base class for grid layout algorithms operating on a PlanRep." alt="" coords="5,229,236,256"/>
-<area shape="rect" id="node3" href="$classogdf_1_1_planar_grid_layout_module.html" title="Base class for planar grid layout algorithms." alt="" coords="11,155,230,181"/>
-<area shape="rect" id="node4" href="$classogdf_1_1_grid_layout_module.html" title="Base class for grid layout algorithms." alt="" coords="32,80,209,107"/>
-<area shape="rect" id="node5" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="45,5,196,32"/>
+<area shape="rect" id="Node000001" title="Implementation of the Mixed&#45;Model layout algorithm." alt="" coords="30,308,210,336"/>
+<area shape="rect" id="Node000002" href="$classogdf_1_1_grid_layout_plan_rep_module.html" title="Base class for grid layout algorithms operating on a PlanRep." alt="" coords="5,232,235,260"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="123,275,123,308,117,308,117,275"/>
+<area shape="rect" id="Node000003" href="$classogdf_1_1_planar_grid_layout_module.html" title="Base class for planar grid layout algorithms." alt="" coords="11,157,229,184"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="123,199,123,232,117,232,117,199"/>
+<area shape="rect" id="Node000004" href="$classogdf_1_1_grid_layout_module.html" title="Base class for grid layout algorithms." alt="" coords="32,81,208,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,124,123,156,117,156,117,124"/>
+<area shape="rect" id="Node000005" href="$classogdf_1_1_layout_module.html" title="Interface of general layout algorithms." alt="" coords="45,5,195,33"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="123,48,123,81,117,81,117,48"/>
 </map>

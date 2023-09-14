@@ -13,7 +13,7 @@ var classogdf_1_1_sim_draw_colorizer =
     [ "SimDrawColorizer", "classogdf_1_1_sim_draw_colorizer.html#ad8cb077049bb1ec5d9e3a5ec21182a85", null ],
     [ "addColor", "classogdf_1_1_sim_draw_colorizer.html#af3b174488dc0ca025869d92778b07854", null ],
     [ "addColorNodeVersion", "classogdf_1_1_sim_draw_colorizer.html#a5b5045b5ff465378a72f99668b9c30d1", null ],
-    [ "ColorScheme", "classogdf_1_1_sim_draw_colorizer.html#a611a99c2e754cf09d4ba3c50fc76b0be", null ],
-    [ "ColorScheme", "classogdf_1_1_sim_draw_colorizer.html#a4ca018db5ce712cca87f0d460f982328", null ],
+    [ "ColorScheme", "classogdf_1_1_sim_draw_colorizer.html#ad03227b95e988d9b244ef961f4e1c8f0", null ],
+    [ "ColorScheme", "classogdf_1_1_sim_draw_colorizer.html#a97a79b2124f2a13a7872eb20fc48bd69", null ],
     [ "m_colorScheme", "classogdf_1_1_sim_draw_colorizer.html#afb573e46f0fe52701fd072d3bdb478d6", null ]
 ];
